@@ -1,0 +1,1018 @@
+Theoretical land Applied Genetics
+htpsl/doi.org/10.1007500122-019-034997
+ORIGINAL ARTICLE
+Chec for
+updates
+Genome-wide association analyses reveal the genetic basis of biomass
+accumulation under symbiotic nitrogen fixation in African soybean
+Davoud Torkamaneh 1,2,3 . François-P. Chalifour'.Chantal J. Beauchamp' . Hesham Agrama4S.Steve Boahen4.
+Halim Maarouf?-Istvan Rajcan3. François Belzile120
+Received: 29 January 2019/Accepted: 30 November 2019
+OSpringer-Verlag GmbH Germany, part of fSpringer Nature 2019
+Abstract
+Key message We explored the genetic basis of SNF-related traits through GWAS and identified 40 candidate genes.
+This study provides fundamental insights into SNF-related traits and will accelerate efforts for SNF breeding.
+Abstract Symbiotic nitrogen fixation (SNF) increases sustainability by supplying biological nitrogen for crops to enhance
+yields without damaging the ecosystem. A better understanding ofthis complex biological process is critical for addressing
+the triple challenges of food security, environmental degradation, and climate change. Soybean plants, the most important
+legume worldwide, can form amutualistic interaction with specialized soil bacteria, bradyrhizobia, to fix atmospheric nitro-
+gen. Here we report a comprehensive genome-wide association study of 11 SNF-related traits using 79K GBS-derived SNPS
+in 297 African soybeans. We identified 25 QTL regions encompassing 40 putative candidate genes for SNF-related traits
+including 20 genes with no prior known role in SNF. A line with a large deletion (164 kb), encompassing a QTL region con-
+taining a strong candidate gene (CASTOR), exhibited a marked decrease in SNF. This study performed on African soybean
+lines provides fundamental insights into SNF-related traits and yielded a rich catalog of candidate genes for SNF-related
+traits that might accelerate future efforts aimed at sustainable agriculture.
+Communicated by Albrecht E. Melchinger.
+Electronic supplementary material The online version of this
+article (humpel/dbi.ongyla.1007600122-019-4349-7) contains
+supplementary material, which is available to authorized users.
+X François Belzile
+fmoiselicefsaulnala
+Département de Phytologie, Université Laval, Quebec City,
+QC, Canada
+Davoud Torkamaneh
+2
+dtorkama@uoguelph.ca
+Institut de Biologie Intégrative et des Systèmes (IBIS),
+Université Laval, Quebec City, QC, Canada
+François-P. Chalifour
+Francois-P.Chalifour@fsaa.ulaval.ca
+Department of Plant Agriculture, University of Guelph,
+Guelph, ON, Canada
+Chantal J. Beauchamp
+Chamlbadampehasthala
+International Institute for Tropical Agriculture (IITA),
+Ibadan, Nigeria
+Hesham Agrama
+5
+Hohamagrama@squ.edu.om
+Sultan Qaboos University, Muscat, Oman
+Steve Boahen
+S.Boahen@cgiar.org
+Halim Maaroufi
+HalimbMaourierbiaulnalea
+Istvan Rajcan
+irajcan@uoguelph.ca
+Published online: 10 December 2019
+Springer
+
+
+
+Theoretical and Applied Genetics
+Introduction
+Lotus japonicus, and Glycine max. The molecular com-
+ponents of the pathways and genes involved in SNF were
+Nitrogen is an essential element for growth and reproduc- first identified via the study of symbiosis-defective mutants
+tion in both plants and animals (Burns et al. 1997). It is a (Penmetsa and Cook 1997). Recent advances in sequencing
+fundamental component of amino acids, nucleic acids, and technologies led to define SNF-related genes and pathways
+many other organic and inorganic compounds (Nelson and through transcriptomic analysis (Karmakar et al. 2019),
+Cox 2008). Despite the fact that nitrogen comprises about host-microbe interaction (Steidinger and Bever 2016), pro-
+80% of the earth's atmosphere (Weeks 1932), this atmos- teomics (Larrainzar and Wienkoop 2017), and methylomics
+pheric nitrogen is not the form needed by plants and ani- (Andrews and Andrews 2017). Even though many molecu-
+mals. Thus, in crop production, synthetic N-fertilizers are lar components controlling SNF have now been discovered,
+provided as nitrogen sources (Sutton and Bleeker 2013). It very little information is available regarding the genetic and
+is estimated that more than 50% of the world's food supply is allelic diversity within the cultivated germplasm for a spe-
+directly dependent on the application of nitrogen fertilizer in cies such as soybean, the most widely grown oil crop in
+agriculture (van Hameren et al. 2013). As nitrogen fertiliz- the world. Because of their large-scale cultivation, soybeans
+ers are often expensive and are not accessible everywhere can biologically fix more than 17 Mt/Yr[15% of worldwide
+(e.g., Africa), this contributes to food insecurity by severely nitrogen demand (FAOSTAT)] and makes a net positive con-
+impeding crop productivity (Masson-Boivin et al. 2009). On tribution to soil nitrogen content.
+the other hand, excess chemical nitrogen fertilization or run-
+In this study, we used 297 African cultivated soybean
+off can lead to highly undesirable consequences. Agriculture lines to perform a genome-wide association study. This
+is the main source (-65%) of nitrous oxide (N,O), produced research material is important for two reasons: (1) this pop-
+by the breakdown of nitrogen fertilizers and a potent contrib- ulation consists of cultivars and advanced breeding lines
+utor to global warming and climate change (Crutzen et al. developed for African growing conditions, and (2) African
+2007). Itis 292 times more potent as a greenhouse gas than farmers cultivate soybean without coating the seed with
+CO2 and contributes to the formation of ground-level ozone rhizobial inoculum nor nitrogen fertilization; thus, yields
+and acid rain (Jensen et al. 2012). The excess of N-fertilizers will depend on efficient uptake of nitrogen via symbiosis.
+applied in agriculture is one of the main sources of harmful We performed a comprehensive GWAS analysis to identify
+algal blooms (Moore et al. 2011). Finally, drinking water the genomic regions controlling SNF-related traits in soy-
+contaminated with nitrogen can cause methemoglobinemia, bean. This study provides key insights into existing genetic
+or "blue-baby syndrome," which is potentially fatal to infants variation that underlies SNF-related traits in cultivated
+(Knobeloch et al. 2000).
+soybeans.
+To overcome this problem, legumes offer an attractive
+alternative: biological nitrogen fixation.Legumes are ableto
+form a symbiotic relationship with specialized nitrogen-fix- Materials and methods
+ing soil bacteria (rhizobia) to convert atmospheric nitrogen
+(N,) into forms usable by plants (Burns et al. 1997; Masson- Plant materials and phenotyping
+Boivin et al. 2009; van Hameren et al. 2013). Symbiotic
+nitrogen fixation (SNF) is a complex biological system as it A set of 297 soybean genotypes representative of the soy-
+includes several different genes and pathways. This system bean-breeding program at the International Institute of Trop-
+starts with cross talk between bacteria and their host. The ical Agriculture (IITA, Ibadan, Nigeria) were obtained. The
+roots of legumes release flavonoids into the soil, and these soybean lines were grown under the following conditions:
+attract rhizobia that will in turn produce signaling molecules 26 C/24 C (day/night) and a relative humidity of-60% in
+(Nod factors) that alter root hair growth in such a way to a greenhouse at Université Laval in atwo-factor experiment
+wrap itself around the bacteria, eventually leading to bacte- (2x2). Five seeds of each line were planted in 3.7-L pots
+rial colonization and formation of nodules. Itis in these nod- (Classic 400 from Nursery Supplies Inc., Los Angeles, Cali-
+ules that these bacteria will transform atmospheric nitrogen fornia, USA) with substrate that was composed of medium-
+into ammonia, a form that can be assimilated by the legume sized vermiculite (Perlite Canada Inc., Montreal, QC, Can-
+host (Oldroyd 2013; Zipfel and Oldroyd 2017).
+ada) and Turface MVP grade (Profile Products LLC, Buffalo
+The precise phenotyping of SNF is extremely demanding Grove, IL, USA). Pots were arranged according to a split-
+in terms oflabor, cost, and time. This, in turn, has limited plot design where soybean lines were randomized within
+the number and scope of SNF studies. Most of the advances two blocks. The main factor was the N treatments [N-free
+in the area of genetic and molecular mechanisms underly- nutrient solution for inoculated seeds with Bradyrhizo-
+ing SNF have come from the study of Medicago truncatula, bium japonicum (strain 532C) (Hume and Shelp 1990;
+Springer
+
+
+
+Theoretical and Applied Genetics
+Soulemanov et al. 2002) and N-inclusive nutrient solution (Williams 82 (Gmax_ 275_ Wm82.a2.v1)) (Schmutz et al.
+for non-inoculated seeds (Supplementary Table S1)], and 2010). About 92.1% of the reads were successfully mapped
+the sub-factor was the soybean lines. This design was used to the soybean reference genome. Then nucleotide vari-
+to prevent cross-contamination between inoculated and fer- ants were identified from mapped reads. Variants were
+tilized treatments. Two plants were kept for each sample removed if (1) they were multi-allele, (2) the overall read
+per pot. Forty-five days after sowing, roots were cleaned quality (QUAL) score was < 32, (3) the mapping quality
+and separated from the aerial. Nodules were collected and (MQ) score was < 30, (4) read depth of was <2, (5) miss-
+counted. Roots, aerial parts, and the nodules were all dried ing data > 80%, and (6) heterozygosity > 50%. Missing data
+at 65 °C for 72 h before measuring their dry weight. Intotal, imputation was performed with BEAGLE v4.1 (Browning
+11 traits were measured: shoot dry weight in inoculated and and Browning 2007) as described by Torkamaneh and Bel-
+fertilized samples (SDW; and SDW), root dry weight in zile (2015). Functional annotation of SNPs was performed
+inoculated and fertilized samples (RDW; and RDW,), num- with the help of SnpEff (Cingolani et al. 2012) (version 5)
+ber of nodules (NN), nodule dry weight (NDW), NDW/SDW using the soybean reference genome (Williams82) (Schmutz
+ratio, normalized NDW (nNDW) (obtained by dividing the et al. 2010) annotation (Gmax_ 275.Wms2.2vigene.gtB)
+NDW (gr per plant) by the SDW (gr per plant) X 100 (value downloaded from Phytozome (V12) (Goodstein et al. 2012).
+expressed as a percentage), NDW/RDW ratio, SDW,/SDW,
+(SDW ratio), and RDW,/RDW, (RDW ratio) (Ryle et al. Population genetic analysis
+1981; Sheng and Hunt 1991; Gan et al. 2004; Olivera et al.
+2004; Vasileva and Ilieva 2007). The statistical analysis of Population structure was estimated using a variational
+traits data was conducted in SAS (SAS Institute 2013) using Bayesian inference implemented in fastStructure (Raj et al.
+PROC GLM model as follows:
+2014). Five runs were performed for each number of popu-
+lations (K) set from 1 to 12. The most likely K value was
+Yijk H + + ai + baj + Bk + apik + eijks
+determined by the log probability of the data (LnP(D)) and
+where u is the overall mean, br baj and ejks are random delta K (Evanno et al. 2005), based on the rate of change in
+effects for blocks (replications), replicationxcultivar inter- LnP(D) between successive K values. Principal component
+actions and errors with variances op, ofat and 02, respec- analysis was performed using the P3D R package (Zhang
+tively, and ap Bk and abik are fixed effects for cultivars, et al. 2010). Linkage disequilibrium (LD) between SNPS on
+N-treatment, and cultivarxN-treatment interactions, respec- each chromosome was estimated with the r2 option using
+tively (Supplementary Table S2).
+PLINK (Purcell et al. 2007).
+Genome-wide association analysis
+Genotyping
+GWAS analyses were performed using the rMVP package
+DNA extraction was performed using the Qiagen DNeasy in R (htpslgithub.com/XiaoleilLiuBio/MVP) using mixed
+96 Plant kit according to the manufacturer's protocol. SNP linear models (MLMS) (Yu et al. 2006) and fixed and ran-
+genotyping was performed using a GBS approach (with dom model circulating probability unification (FarmCPU)
+ApeK1 digestion) and libraries prepared following Elshire's (Liu et al. 2016). Two different approaches for population
+protocol (Elshire et al. 2011; Sonah et al. 2013) at the Plate- structure were used: PCA (covariate P) and fastStructure
+forme d'analyses génomiques [Institut de Biologie Intégra- (covariate Q) to capture population structure. Two kinship
+tive et des Systèmes (IBIS), Université Laval (Quebec, QC, matrices provided estimates of the relatedness among indi-
+Canada)]. Single-end, 100-bp sequencing of multiplex GBS viduals (covariates K and K*) (Kang et al. 2008; Li et al.
+libraries (one 96-plex GBS library per sequencing lane) was 2012). A total of seven different models, from a naïve model
+performed on an Illumina HiSeq 2000 at the Genome Que- devoid of any correction for confounding to models incorpo-
+bec Innovation Center, McGill University (Montreal, QC, rating a correction for both population structure (covariates
+Canada).
+P or Q) and/or kinship (covariates K or K*), were tested.
+Models that took into account kinship and PCA (P+K*)
+GBS data analysis
+were found to provide the best fit based on the cumulative
+distribution ofp values for SDW; SDW, NDW/RDW ratio,
+Illumina sequence reads (581 million 100-bp reads) were SDW ratio, and RDW ratio. The FDR-adjusted p value
+processed using the Fast-GBS pipeline (Torkamaneh et al. (q value) below 0.05 was used to establish a significance
+2017). In brief, FASTQ files were demultiplexed based on threshold (Wang et al. 2012a, b). Finally, the SNP-herita-
+barcodes sequences. Demultiplexed reads were trimmed bility estimated by GCTA-GREML method using all SNPS
+and then mapped against the soybean reference genome (Yang et al. 2010). The percentage of variation explained
+Springer
+
+
+
+Theoretical and Applied Genetics
+(PVE) by the marker-trait association (R?) was calculated as Results
+the difference between the R2 ofthe model with and without
+the strongest associated SNP.
+Characterization of GWAS population
+Synteny and candidate gene identification
+To comprehensively assess SNF, we selected a collection of
+297 African soybean lines derived from an ongoing breeding
+First, we determined if QTLs identified in this work were program at the IITA. These lines are important because they
+located in macrosyntenic regions detected between the Gly- were developed to efficiently uptake the nitrogen via symbio-
+cine max and Medicago truncatula genomes as reported sis. The plants were grown in highly controlled greenhouse
+in Lee et al. (2017) and Young et al. (2011). For syntenic conditions under two treatments (inoculation with rhizobia
+regions containing a soybean QTL, we determined whether and fertilization with nitrogen) (Supplementary Table S1)
+symbiosis-related QTLs had been reported in these same and 11 SNF-related traits were measured (see details in
+regions in M. truncatula based on the GWAS analysis "Materials and methods" section). These traits showed a
+reportedby Stanton-Geddes et al. (2013). We then designed normal distribution without any significant skewness or
+a systematic analytical process to identify candidate genes kurtosis (Shapiro-Wilk test, p value == 0.32) (Fig. la, Sup-
+for SNF-related traits. (1) We identified the genes residing plementary Figure 1, and Supplementary Table S2). Gener-
+within QTL regions, the extent of which was defined by ally, we observed very low coefficients of variation (CV),
+markers in high LD (r2>0.7) with the peak SNP. (2) Then ranging from 1.2 to 2.3%, between different replications for
+we searched different plant databases (SoyBase, SoyKB, all traits studied with the exception of NN (CV =4 40.1%).
+LIS, PlantDB, SoyGD, and agriGO) (Shultz et al. 2006; Furthermore, significant correlations were observed between
+Exner et al. 2008; Du et al. 2010; Grant et al. 2010; Joshi shoot dry weight (SDW) and INN (0.53*), SDW and nodule
+et al. 2014) to keep genes labeled as being involved in SNF. dry weight (NDW) (0.69*), root dry weight (RDW) and NN
+(3) We kept the genes that were expressed in at least one (0.53*), RDW and NDW (0.69*), NDW and NN (0.77**),
+tissue or organ related to SNF (e.g., root, root hairs, nodule, and NDW/SDW ratio and NDW/RDW ratio (0.59*) (Sup-
+etc.), using the soybean transcriptome atlas dataset (Severin plementary Table S3). We observed a high variability among
+et al. 2010). (4) We identified genes that were differentially lines in biomass production under inoculation with rhizobia,
+expressed in response to inoculation with Bradyrhizobium but not under N fertilization, thus indicating variability in
+japonicum using the RNA-seq data from Libault et al. SNF efficiency among the collection. To best describe the
+(2010). (5) Finally, we explored the resulting catalog of SNF capacity, we measured the ratio between inoculated and
+genes for known orthologues.
+fertilized samples for shoot dry weight and root dry weight
+(SDW and RDW ratio) for each accession.
+Fast-neutron mutant assay
+To obtain genome-wide nucleotide variants, we per-
+formed genotypingbysequencing (GBS) of the 297 lines,
+We searched a FN-mutant database (Bolon et al. 2011; Grant and obtained 581 million 100-bp reads (meanof-2M reads/
+et al. 2010) to identify lines carrying a deletion spanning sample). Sequencing reads were processed using the Fast-
+QTL regions detected in this study. In this fashion, we iden- GBS analytical pipeline for variant calling. We obtained an
+tified five FN-mutant lines, of which, two had large deletions initial catalog of 78,961 nucleotide variants (Supplemen-
+(-4 Mb) and two other lines were not fixed for the deletions tary Figure S2). After missing data imputation and remov-
+spanning QTLS of interest. One mutant line (FN0186954) ing nucleotide polymorphisms with a minor allele frequency
+carried a small homozygous deletion (164 kb). This line and (MAF)<0.05, we generated a final dataset of 54,225 vari-
+its wild-type counterpart (M92-220) were obtained from Dr. ants including 3792 indels for GWAS analysis. Of these vari-
+R. Stupar (University of Minnesota, USA). To characterize ants, 12.5% were located in exons (Supplementary Figure
+the resulting phenotype, mutant and wild-type lines were S3); 46.4% were classified as silent, 52.3% as missense, and
+grown in the same greenhouse under the same conditions 1.3% as nonsense mutations. Principal component analysis
+and treatments as described above for the GWAS analysis. (PCA), phylogenetic tree clustering and population struc-
+ture analysis suggested that this population was composed of
+Data availability
+five subpopulations (K=5), with most lines showing some
+admixture, but these did not form very tight and distinct
+The genotypic, phenotypic and GWAS data are publicly subsets (Fig. 1b, C and Supplementary Figure S4). Genome-
+available at Figshare (htps./figshare.com/projects/Genom wide linkage disequilibrium (LD) analysis showed LD decay
+e-Wide_Association_Analyes_Reveal.ihe_Genetic_Basis varied across different chromosomes from 260 kb to 1.6 Mb
+of_Symbiotic_Nitrogen_Fixation. in_African_Soybe at 2<0.2 and 189 kb to 743 kb at 22<0.3. The mean LD
+an/65885).
+Springer
+
+
+
+Theoretical and Applied Genetics
+a 19
+RDWratio
+SDW ratio b
+-100
+1
+100
+EET
+E
+9
+so
+de
+82 8
+PCAL3
+i
+o Pe of
+I
+& o e
+2
+2
+- FCALT -so
+s0
+e
+e
+50 PCARZI
+0.2 0.4 0.6 0.8 1.0 1.2 1.4
+0.5
+1.0
+1.5
+Ratio
+Ratio
+a
+SDW,
+o3
+NDWIRDW ratio C
+Mean:9.13
+o Mean:2.59
+EEtmn 0.9428
+S403-a 20061
+os
+e
+:
+I
+I
+3
+8
+a
+a
+8
+e
+10
+15
+1.5 2.0 2.5 3.0 3.5 4.0
+SDW.(gr)
+Ratio
+Fig. .1 Phenotypic diversity and genetic structure among this panel ponents. c Phylogenetic tree constructed using the neighbor-joining
+of 297 African soybean lines. a Histograms of phenotypic values for method. Colors represent different clusters based on fastSTRUCTU
+traits which were used for GWAS (SDW; NDW/RDW ratio, SDW RE analysis (Supplementary Figure S4) (color figure online)
+ratio, and RDW ratio). b 3D PCA plot of the first three principal com-
+decay for the entire genome was estimated as 550 kb at relatedness (K*) were incorporated as covariates to reduce
+7<0.3, which is comparable to previous studies (Supple- false-positive signals. Using this approach, 25 QTL
+mentary Figure S5).
+regions (- log10 P25.2 and q value < 0.05) (Fig. 2,
+Table 1 and Supplementary Figure S6) were detected for
+GWAS on SNF-related traits in African soybean
+four traits: RDW ratio, SDW ratio, NDW/RDW ratio, and
+SDW, No significant association was observed for NN
+GWAS analysis was performed using MLM and Farm- (the most commonly measured phenotype in previous
+CPU methods, and population structure (P) and cryptic studies), presumably due to the high level of intra-line
+N RDWratio
+RHLI
+e SDWratio
+SDWi
+16 *NDW/SDWratio
+RAM2
+a #
+EPSP
+GmNARK
+a
+SYMRK
+ENOD11
+SINI
+NFRSa
+6
+WRKY
+CASTOR
+-
+Chr 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig.2 GWAS for four SNF-related traits; RDW ratio, SDW ratio, SDW and NDW/RDW ratio, respectively, in the African soybean lines. The
+genome-wide significance threshold drawn at a FDR-adjustedp value (or q value) below 0.05
+Springer
+
+
+
+Theoretical and Applied Genetics
+Table 1 Characteristics of QTLS showing as significant association with selected phenotypic traits related to SNF among a collection of African
+soybean accessions
+Trait
+QTL ID Chr MSSA position Syntenyb Allele frequency
+MSS p value MSS q value R24 SNP-
+heritability
+Efficient Inefficient
+(%)
+RDW ratio
+qtl_01 Chr01 22 027 329 Yes
+0.94 0.06
+3.1E-07
+2E-03
+0.09 61.3
+qtl_02 Chr03 3012 188
+Yesc
+0.11
+0.89
+1.3E-10 7E-04
+0.05
+qtl_03 Chr04 37 677 065 No
+0.92 0.08
+7.3E-07 3E-03
+0.04
+qtl_04 Chr06 41 634 280 No
+0.09 0.91
+1.3E-11
+2E-05
+0.06
+qtl_05 Chr07 32 115 284 Yes
+0.08 0.92
+9.1E-07
+3E-03
+0.06
+qtl_06 Chr07 37 270 973 Yes
+0.12 0.88
+1.3E-05
+2E-02
+0.08
+qtl_07 Chrll 4 577 083
+Yesc
+0.61
+0.39
+6.1E-08
+9E-04
+0.09
+qil_08 Chr12 18 290 967 Yes
+0.94 0.06
+1.1E-15
+1E-05
+0.06
+qil_09 Chr13 11 049 293 No
+0.91
+0.09
+7.2E-08
+2E-03
+0.04
+qtl_10 Chr15 22 932 181 Yesc
+0.07 0.93
+8.6E-09
+9E-04
+0.08
+qtl_11 Chr15 42 576 692 Yes
+0.09 0.91
+2.3E-20
+1E-06
+0.07
+qtl_12 Chr17 499 223
+Yes
+0.08 0.92
+8.2E-06 2E-02
+0.05
+qtl_13 Chr18 8 821 143
+No
+0.93 0.07
+3.5E-07
+1E-03
+0.04
+qil_14 Chr18 58 648 473 Yesc
+0.89 0.11
+1.7E-09
+1E-04
+0.04
+qtl_15 Chr19 50 562 657 Yes
+0.92 0.08
+4.8E-06
+1E-02
+0.08
+SDW ratio
+qil_16 Chr04 13 209 559 No
+0.93 0.07
+3.8E-06
+1E-03
+0.10 45.6
+qil_17 Chr07 12271 656 No
+0.07 0.93
+9.3E-06
+1E-02
+0.12
+qtl_18 Chr07 32 115 284 Yes
+0.08 0.92
+1.9E-05
+1E-02
+0.09
+qtl_19 Chr10 24 366 467 No
+0.09
+0.91
+3.4E-13
+2E-06
+0.11
+qil_20 Chr13 39 223 028 No
+0.94 0.06
+3.6E-11
+2E-05
+0.16
+qtl_21 Chr15 12 431 650 Yesc
+0.68 0.32
+2.3E-06
+1E-03
+0.07
+qtl_22 Chr16 24 157 230 Yesc
+0.93 0.07
+1.8E-05
+1E-02
+0.05
+qtl_23 Chr18 4 999 836
+Yes
+0.89 0.11
+8.0E-07 3E-03
+0.06
+SDW; & SDW; qtl_24 Chr19 39 939 106 Yesc
+0.63 0.37
+6.5E-06
+3E-02
+11.1 26.6
+NDW/RDW ratio qil_25 Chr07 2419 122
+No
+0.88 0.12
+2.6E-06
+5E-02
+14.6 29.9
+"MSS, most significant SNP
+bLocated lin macrosyntenic regions with M. truncatula
+COverlapped with symbiosis-related QTLS identified lin M. truncatula
+dR2 was calculated by R? of model with SNP minus R2 of model without SNP
+variation for this trait (Supplementary Figure S7). Further- for the two traits showing the highest degree of heritabil-
+more, GWAS analysis for SDW; showed a strong associa- ity (SDW and RDW ratios; 45.6 and 61.39,respectively).
+tion peak (-log10P26.2 and q value < 0.03) at the end of making these traits highly informative for the study of
+chromosome 19, while the same association was observed SNF. The other traits were eliminated due to their low
+for SDW,(Supplementary Figure S8). This suggests that heritability (< 10%). The GWAS analysis was performed
+this genomic region is important for plant biomass produc- using common genetic variants underlying SNF-related
+tion in the presence of nitrogen, regardless of its sources traits, but these variants explain only a portion of the
+(inoculation or fertilization). Of 25 QTLs detected in this heritability.
+study, 16 were located in macrosyntenic genomic regions
+identified between G. max and M. truncatula. Interest- Identification of candidate genes for SNF-related
+ingly, in half ofthese cases (8 QTLS), potentially ortholo- traits
+gous QTLS have been reported in M. truncatula (Table 1).
+We found that ratios (RDW and SDW ratio), comparing One of the aims of GWAS studies is to identify the causal
+the phenotype of a single line under contrasting conditions genes or alleles that explain the portion of phenotypic
+(inoculation VS. fertilization treatment), provided powerful variability that is genetically determined. To identify
+tools to describe SNF capacity. As shown in Table 1, the candidate genes, we followed a systematic approach. We
+vast majority of marker-trait associations were detected identified 207 genes residing within the 25 QTL regions
+Springer
+
+
+
+Theoretical and Applied Genetics
+Table 2 List of candidate genes for SNF-related traits identified in this study
+Cat
+Gene IDA
+QTL ID Gene name Gene product
+Function
+Known legume
+orthologst
+Reported in soybean Glyma.13g292300 qil_09 GmNARK LRR receptor kinase AON
+LjHAR1, MtSUNN,
+PSSYM29
+Glyma.16g111200 qtl_22 CCaMK Ca2+/CaM-dependent CSPd
+LjCCaMK, MtDMI3,
+kinase
+PSSYM9
+Glyma.11g063100 qtl_07 NFR5
+LysM receptor kinase NF receptor
+LjNFR5, MtNFP,
+PSSYM10
+Glyma.07g204600 ql_06 GmCLE CLAVATA3/ESR AON
+LjCLE-RS1
+related
+Reported in other Glyma.07g030100 qtl_25 CRE
+Cytokinin receptor Nodule organogenesis MICREI,LJLHKI
+legumes
+Glyma.07g203100 qtl_06 ND
+RHO GTPASE
+Infection
+LjROP
+Glyma.07g203300 qtl_07 SIN 1
+GRAS transcription Infection, CCDF
+LjSIN1, PsSIN1
+regulator
+Glyma.15g203900 qtl_10 ND
+Putative transcription Infection, CCD
+LjRHLI
+factor
+Glyma.15g197300 qtl_10 SYMRK LRR receptor kinase CSP
+PSSYM19.LJSYMRK,
+MtDMI2
+Glyma.01g091600 qil_01 Nodulin Glutamate-ammonia Infection
+ENOD11
+ligases
+Glyma.07g175400 qtl_05&18 Annexin Calcium-activated ITS growth
+MtAnnl
+GTPase
+Glyma.07g201700 qtl_06 ND
+EIN
+Regulation ofIT
+MtSICKLE
+growth
+Glyma.07g202900 qil_06 ND
+GTPase Rabl1
+Infection
+MtRABIF
+Glyma.17g005100 qtl_12 Sshlp
+Polyphosphoinositide Nodule organogenesis LjPLPS
+protein
+Glyma.17g005300 qtl_12 ND
+Acetyl-CoA acetyl- Infection
+LjLbAAT
+transferase
+Glyma.04g115500 qtl_16 WRKY Transcription regulator Infection
+MtWRAKY,
+LjWRAKY
+Glyma.10g107100 qtl_19 RAM2 Glycerol-3-phosphate IT growth
+MtRAM2, LjRAM2
+shuttle
+Glyma.15g150300 qil_21 MatE
+Transmembrane
+Nodule organogenesis MtMatE
+transport
+Glyma.18g089600 qtl_14 Syntaxin Intracellular trans- IT growth
+MtSYP132
+porter
+Glyma.19g263500 qtl_15 CASTOR Ca?+-gated ion chan- CSP
+LJCASTOR
+nel
+Novel SNF-related Glyma.07g031100 qtl_25 ND
+Phospholipase D
+Infection
+candidates
+Glyma.07g030400 qtl_25 ND
+Glycosyl hydrolases CSP
+Glyma.19g140800 qtl_24 ND
+Ca"CaM-dependent CSP
+kinase
+Glyma.13g308000 qtl_20 ND
+Unknown protein
+Nitrate transport
+Glyma.07g117000 qtl_17 ND
+ATP synthase
+CSP
+Glyma.07g202300 qtl_05&18 IFS
+Isoflavone synthase Infection
+Glyma.07g202100 qtl_05&18 ND
+Transcription factor Nodule organogenesis
+Glyma.15g231000 qil_11 ND
+Callose synthase
+CCD
+Glyma.15g230900 qil_11 ND
+LRR receptor kinase AON
+Glyma.15g231100 qtl_11 ND
+LRR receptor kinase AON
+Glyma.15g231300 qil_11 ND
+LRR receptor kinase AON
+Springer
+
+
+
+Theoretical and Applied Genetics
+Table 2 (continued)
+Cat
+Gene IDA
+QTL ID Gene name Gene product
+Function
+Known legume
+orthologst
+Glyma.15g197600 qtl_10 ND
+LEM3/ CDC50
+CCD
+Glyma.15g194600 qtl_10 ND
+Sugar transporter
+IT growth
+Glyma.15g210200 qtl_10 ND
+LRR-RLK
+Infection, NRh
+Glyma.03g027400 qtl_02 EPSP
+Catalytic activity
+Infection
+Glyma.04g157500 qtl_03 ND
+Polygalacturonase IT growth
+Glyma.06g246600 qil_04 ND
+CTL transporter
+Infection
+Glyma.12g142400 qtl_08 ND
+LLR
+AON
+Glyma.18g056800 qtl_23 ND
+Cation transport
+Infection
+Glyma.07g202300 qtl_06 IFS
+Isoflavone synthase Infection
+"Putative and Candidate genes identified in QTL regions
+bLj Lotus japonicus; Mt, Medicago truncatula; Ps, Pisum sativum
+CAutoregulation of nodulation
+Common symbiosis pathway
+Nod factor
+fCortical cell division
+SInfection thread
+"Negative resistance
+identified above. We then identified those that were anno- of fast-neutron lines and found five mutant lines with a dele-
+tated as being involved in nitrogen pathways and that were tion overlapping with our QTL regions. Of these five lines,
+expressed in at least one tissue or organ related to SNF two lines carried very large deletions (> 2 Mb) and two
+(e.g., root, root hair, nodule). We finally identified genes lines were not fixed for these deletions. The last mutant line,
+that were differentially expressed in response to inocu- FN0186954, carried a relatively small (164 kb) homozy-
+lation with Bradyrhizobium japonicum. Using this com- gous deletion (50.42-50.59 Mb) that spanned the RDW ratio
+prehensive approach, we identified 40 candidate genes QTL on the end of chromosome 19. This region contains the
+for SNF-related traits (Table 2). This approach allowed Glyma.19g263500 gene, an ortholog of the Lotus japonicus
+us to capture four well-characterized SNF genes in soy- CASTOR gene which codes for an ion channel identified as
+bean [GmNARK (Kinkema and Gresshoff 2008), CCaMK essential for symbiosis in L. japonicus (Chen et al. 2009).
+(Harper and Harmon 2005), NFR5a (Indrasumunar et al. Line FN0186954 and its wild-type counterpart (M92-220)
+2010) and GmCLE (Lim et al. 2011)] out of a total of were phenotyped in the same fashion as the lines of the asso-
+seven described SO far (Indrasumunar et al. 2010; Okaza- ciation panel. When inoculated, FN0186954 exhibited a sig-
+kia et al. 2013). For the three remaining known SNF genes, nificantly lower SDW (6.3 VS. 9.6 grams; p=0.01), RDW
+we observed no nucleotide variation (genetic variation) (1.8 VS. 3.6 g; p=0.02), and NN (72 VS. 211;p=0.001)
+in the vicinity of these genes in this population. Further- compared to the wild-type control. When grown with chemi-
+more, among our set of 40 candidate genes, we identified cal N fertilizer, FN0186954 showed a phenotype that did not
+16 homologs of well-studied SNF genes that have been differ from the wild type (Fig. 3), indicating that the mutant
+characterized in other legumes. Finally, 20 other genes for line was not lacking some major genes for growth, but rather
+which we found no prior link with SNF can be viewed as had suffered the loss of a gene needed specifically for the
+novel candidate genes.
+plant to obtain nitrogen through SNF. This thus provides the
+first evidence suggesting that the soybean CASTOR gene is
+Validation ofa candidate SNF-related gene
+involved in SNF, as is the case in L. japonicus.
+To functionally assess whether these candidate regions do
+indeed partially govern SNF in soybean, we looked for dele-
+tions overlapping these QTLs. We investigated a collection
+Springer
+
+
+
+Theoretical and Applied Genetics
+Discussion
+ENOD40 (Okazakia et al. 2013)], there may be absence of
+allelic variation within this set of elite lines, the frequency
+We report here that, using a systematic approach, we uncov- of alternate alleles may have been too low, or these may have
+ered 25 QTLS contributing to SNF-related traits within a escaped detection due to incomplete coverage of the genome
+collection of African soybean cultivars and breeding lines with SNP markers. Further 16 candidate genes can also be
+via a GWAS approach. This represents a great stride forward thought of as excellent candidates based on the fact that
+in at least two respects: (1) the large number and strong can- their orthologues in other legumes have been demonstrated
+didates for the involvement of many of these in SNF-related to play important roles in SNF. In the case of the ortholog
+traits and (2) the loci and alleles uncovered in this work are of the L. japonicus CASTOR gene, a line homozygous for a
+relevant to varietal development as they were discovered in 164-kb deletion spanning the soybean CASTOR gene exhib-
+elite material. In prior work, very few QTL mapping analy- ited highly significant reductions in both SDW and RDW
+ses, mostly using the progeny of biparental crosses, have under inoculation but not N fertilization, suggesting strongly
+been performed in soybean for SNF or related traits (San- that this gene also contributes to SNF in soybean. Taken
+tos et al. 2013; Dhanapal et al. 2016). These analyses not together, this represents the first experimental evidence for
+only were generally conducted on only inoculated samples, the contribution of these 16 soybean orthologues in SNF and
+but were also phenotyped for a limited number of traits: constitutes a major contribution to our knowledge of genes
+typically, nodule number (NN), nodule dry weight (NDW), underlying this key trait in this crop. In summary, there is
+NDW/NN ratio and shoot dry weight (SDW) (Ramaekers good evidence for the involvement in SNF of half of our
+et al. 2013; Santos et al. 2013; Dhanapal et al. 2016). Here, catalog of candidate genes (20/40). The remaining 20 candi-
+not only were QTLS defined for SNF-related traits, but we date genes, for which no prior evidence of their involvement
+also carried out a systematic analysis to define candidate in SNF has been reported, nonetheless, represent a novel set
+genes within each QTL region based lon their annotation and of genes of finterest for which further study would be highly
+expression, resulting in a set of 40 candidate genes.
+warranted.
+One measure of the quality of such a catalog of candi-
+In our view, a key to the success of this approach was
+date genes is certainly its ability to capture genes already the choice of phenotypes. Although nodule number, nod-
+known to contribute to SNF. In this work, of the seven genes ule weight, and plant dry weight have been used in the past
+previously shown through functional analysis to contribute (Ramaekers et al. 2013; Santos et al. 2013; Dhanapal et al.
+to SNF in soybean, four were found among our catalog of 2016), we found that these did not generate strong asso-
+candidate genes [GmNARK (Kinkema et al. 2008); CCaMK ciation signals. In the case of nodule number and weight,
+(Harper and Harmon 2005); NFR5a (Indrasumunar et al. these traits were highly variable and did not prove very use-
+2010); and GmCLE (Lim et al. 2011)]. For the three other ful, similar to what has been reported by other researchers
+known genes [NFRI (Indrasumunar et al. 2010), NIN and (Wang et al. 2012a, b; Lira et al. 2015). Itis likely that nod-
+ule number or weight alone, without assessing the size and
+Fig. 3 Left, phenotypic
+Inoculation
+Fertilization
+Inoculation
+diversity observed between
+OMutant
+FN0186954 (mutant line) and
+80
+its wild-type counterpart for
+OWild-type
+the GmCASTOR gene under
+two conditions (inoculated and
+fertilized). Right, histograms
+:
+e
+showing the phenotypic dif-
+ferences between the mutant
+s
+and wild-type lines for SDW
+(gr) and RDW (gr) in response
+to inoculation and fertiliza-
+Fertilization
+tion. Asterisks above a column
+indicate a significant difference
+ai
+a
+(p value <0.01) between the
+mutant line and its wild-type
+counterpart
+a
+e
+a
+Wild-type Mutant
+Wild-type Mutant
+SDW
+RDW
+Springer
+
+
+
+Theoretical and Applied Genetics
+nitrogen-fixing activity ofthese nodules, is a poor descriptor Acknowledgements We thank the Global Affairs Canada, Canadian
+of SNF activity. Similarly, plant dry weight did not yield Field Crop Research Alliance, and International Institute of Tropical
+strong association signals. Alone, it may not directly relate Agriculture (IITA). We thank Fausta Karaboneye for herhelp on green-
+house phenotyping. We also thank sequencing platform of Institut de
+to SNF as other traits such as plant architecture could con- Biologie Intégrative et des Systèmes (IBIS), Université Laval, QC,
+found the results. When the accumulation of dry weight Canada.
+(roots or shoots) of a line was measured under both N ferti-
+lization and rhizobial inoculation, the ratio between the two Author contribution statement DT and FB conceptualized the pro-
+for
+ject. FC, CB, HA, and SB prepared the plant materials and performed
+truly provided a very powerful phenotype assessing SNF. sample selection. DT, FC, and CB conducted greenhouse phenotyp-
+Indeed, 24 of 25 QTL regions identified in our GWAS were ing. HA and SB conducted field phenotyping. DT, IR, and HM formal
+identified based on such ratios. These likely better describe analysis. DT and FB wrote the original draft. DT andFB wrote review
+how well a particular line achieves its full growth potential and editing.
+(presumably that obtained under N fertilization) under con-
+ditions of rhizobial inoculation and therefore better describe Compliance with ethical standards
+the plant's ability to fix atmospheric nitrogen.
+Conflict of finterest The authors declare that they have no conflict of
+In the final case, a QTL on chromosome 19 was detected interest.
+using both SDW data (under fertilized and inoculated con-
+ditions). The fact that phenotypic variation for SDW under
+N fertilization was observed suggests that the lines differed
+in their ability to convert the available N into biomass. The References
+observed variation for SDW under inoculation likely cap-
+tures both the ability of the plant to capture atmospheric Andrews M, Andrews ME (2017) Specificity in legume-rhizobia sym-
+N and to convert it to biomass. One can think of the SDW
+bioses. Int J Mol Sci 18(4):705. htpsldoiorglio3s0iml
+ratio as providing a measure ofhow well a line can capture
+8040705
+Bolon Y-T et al (2011) Phenotypic and genomic analyses of a fast
+atmospheric N, relative to the fertilizer check. Thus, because
+neutron mutant population resource in soybean. Plant Physiol
+we detected no association signal for the SDW ratio on chro-
+156(1):240-253
+mosome 19, we propose that the observed signal most likely Browning S, Browning B (2007) Rapid and laccurate haplotype phasing
+reflects how efficiently a line was able to convert available
+and missing-data inference for whole genome association stud-
+N (whether obtained through fertilization or symbiosis) into
+ies by use of localized haplotype clustering. Am J Hum Genet
+81:1084-1097
+biomass. Although it is of agronomic interest, this trait is not BurghardtLT.Epstein B, Guhlin J, Nelson MS, Taylor MR, Young ND
+directly related to SNF.
+et al (2018) Select and resequence reveals relative fitness of bac-
+We recognize at least two limitations to our study. In this
+teria in symbiotic and free-living environments. Proc Natl Acad
+study, only a single rhizobial strain was used for phenotyp- Burns Sci IG USA et al 115(10):2425-2430 (1997) How do nutrients drive growth? Plant Soil
+ing of SNF-related traits. Although this strain [Bradyrhizo-
+196:321-325
+bium japonicum (strain 532C) (Hume and Shelp 1990; Chen C et al (2009) Antiquity and function of CASTOR and POL-
+Soulemanov et al. 2002)] is known to be a predominant
+LUX, the twin ion channel-encoding genes key to the evolution
+and commercially available strain, this single strain cannot
+of root symbioses in plants. Plant Physiol 149(1):306-317
+Cingolani P, Platts A, le Wang L, Coon M, Nguyen T, Wang L, Land
+cover all possible types of host-genotype by strain-genotype
+SJ, Lu X, Ruden DM (2012) A program for annotating and pre-
+interaction. Recent studies reported that different strains
+dicting the effects of single nucleotide polymorphisms, SnpEff:
+and mixed inoculants can show different interaction with a
+SNPS in the genome of Drosophila melanogaster strain w1118;
+host (Burghardt et al. 2018). Such complex interactions will
+iso-2; iso-3. Fly (Austin) 6(2):80-92
+Crutzen PJ et al (2007) NO release from agro-biofuel production
+be missed from this study. Secondly, the sum of estimated
+negates global warming reduction by replacing fossil fuels.
+PVES for identified QTLS exceeds the estimated heritability.
+Atmos Chem Phys Discuss 7:11191-11205
+We assume that one possible cause of such differences is an Dhanapal A et al (2016) Genome-wide association analysis of
+overestimation of individual PVES.
+diverse soybean genotypes reveals novel markers for nitrogen
+traits. Plant Genome 8(3):1-15
+We conclude that the knowledge that comes out from this Du Z, Zhou X, Ling Y, Zhang Z, Su Z (2010) agriGO: a GO analy-
+study will promote the addressing of the triple challenges
+sis toolkit for the agricultural community. Nucleic Acids Res
+of food security, environmental degradation, and climate
+38(Web Server issue):W64-W70
+under sustainable
+Olivera M, Tejera RA, Iribarne C, Ocana A, Lluch C (2004) Growth,
+change,
+agricultural practices. We expect
+nitrogen fixation and ammonium assimilation in common bean
+that genetic regions identified in this study will become a
+(Phaseolus vulgaris): effect of phosphorus. Physiol Plant
+key tool in SNF breeding programs and also enable geneti-
+121:498-505
+cists and molecular biologists to rapidly deploy this knowl- Elshire RJ, GlaubitzJC, Sun Q, Poland JA, Kawamoto K et al (2011)
+A robust, simple genotyping-byseqguencing (GBS) approach for
+edge to dissect the genetic architecture of SNF-related traits.
+high diversity species. PLOS ONE 6:e19379
+Springer
+
+
+
+Theoretical and Applied Genetics
+Evanno G, Regnaut S, Goudet J (2005) Detecting the number of clus- Liu X et al (2016) Iterative usage of fixed and random effect models
+ters of individuals using the software STRUCTURE: a simula-
+for powerful and efficient genome-wide association studies. PLOS
+tion study. Mol Ecol 14:2611-2620
+Genet 12(2):e1005957
+Exner V, Hirsch-Hoffmann M, Gruissem W, Hennig L (2008) Masson-Boivin C, Giraud E, Perret X, Batut J (2009) Establishing
+PlantDB-a versatile database for managing plant research.
+nitrogen-fixing symbiosis with legumes: how many rhizobium
+Plant Methods 4:1
+recipes? Trends Microbiol 17:458-466
+Gan Y, Stulen IV, Keulen H, Kuiper PJC (2004) Low concentrations of Moore S et al (2011) Impacts of climate variability and future cli-
+nitrate and ammonium stimulate nodulation and N2 fixation while
+mate change on harmful algal blooms and human health. Proc
+inhibiting specific nodulation (nodule DW g - root dry weight)
+Centers Oceans Hum Health Investig Meet 7:S4. https://doi.
+and specific N2 fixation (N2 fixed g-1 root dry weight) in soybean.
+0210189147609X75294
+Plant Soil 258:281-292
+Nelson DL, Cox MM(2008) Principles ofbiochemistry, 5th edn. W.H.
+Goodstein DM, Shu S, Howson R et al (2012) Phytozome: a com-
+Freeman and Company, New York, p 272
+parative platform for green plant genomics. Nucleic Acids Res Okazakia S, Kanekob T, Satoc S, Saeki K (2013) Hijacking of legu-
+40(Database issue)-D1178-D1186
+minous nodulation signaling by the rhizobial type III secre-
+Grant D, Nelson RT, Cannon SB, Shoemaker RC (2010) SoyBase, the
+tion system. Proc Natl Acad Sci 110:17131-17136. https://doi.
+USDA-ARS soybean genetics and genomics database. Nucl Acids
+opliai073pa.is02360t10
+Res 38(suppl 1):D843-D846
+Oldroyd EDG (2013) Speak, friend, and enter: signaling systems that
+Harper JF, Harmon A (2005) Plants, symbiosis and parasites: acalcium
+promote beneficial symbiotic associations in plants. Nat Rev
+signalling connection. Nat Rev Mol Cell Biol 6:555-566
+Microbiol 11(4):252-263
+Hume DJ, Shelp BJ (1990) Superior performances on the Penmetsa RV, Cook DR (1997) A legume ethylene-insensitive mutant
+Hup Bradyrhizobium, japonicum strain 532C in Ontario soybean
+hyperinfected by its rhizobial symbiont. Science 275:527-530.
+field trials. Can J Plant Sci 70:661-666
+htpsldoiong/101126ciemce.2755299527
+Indrasumunar A et al (2010) Inactivation of duplicated nod factor Purcell S, Neale B, Todd-Brown K, Thomas L, Ferreira MA, Bender
+receptor 5 (NFR5) genes in recessive loss-of-function non-nodu-
+D et al (2007) PLINK: a tool set for whole genome associa-
+lation mutants of allotetraploid soybean (Glycine max L. Merr.).
+tion and population-based linkage analyses. Am J Hum Genet
+Plant Cell Physiol 51(2):201-214
+81(3):559-575
+Jensen E et al (2012) Legumes for mitigation of climate change and Raj A, Stephens M, Pritchard IJK (2014) fastSTRUCTURE: variational
+the provision of feedstock for biofuels and biorefineries. Agron
+inference of population structure in large SNP data sets. Genetics
+Sustain Dev 32:329-364
+197(2):573-589
+Joshi T, Fitzpatrick MR, Chen S, Liu Y,Zhang H, Endacott RZ, Gaud- Ramaekers L et al (2013) Identifying quantitative trait loci for symbi-
+iello EC, Stacey G, Nguyen HT, Xu D (2014) Soybean knowl-
+otic nitrogen fixation capacity and related traits in common bean.
+edge base (SoyKB): a web resource for integration of soybean
+MolBreed 31:163-180
+translational genomics and molecular breeding. Nucl Acids Res Ryle GJA, Arnott RA, Powell CE (1981) Distribution of dry weight
+42(DD)D1245-D1252
+between root and shoot in white clover dependent on N2 fixation
+Kang HM, Zaitlen NA, Wade CM, Kirby A, Heckerman D, Daly MJ,
+or utilizing abundant nitrate nitrogen. Plant Soil 60:29-39
+Eskin E (2008) Efficient control of population structure in model SAS Institute (2013) The SAS system for Windows Release 9.4. SAS
+organism association mapping. Genetics 178:1709-1723
+Institute, Cary
+Karmakar K, Kundu A, Rizvi AZ, Dubois E, Severac D, Czernic P, Santos MA et al (2013) Mapping of QTLS associated with biological
+Cartieaux F, DasGupta M (2019) Transcriptomic analysis with the
+nitrogen fixation traits in soybean. Hereditas. https./doi.org/10.1
+progress of symbiosis in 'crack-entry' legume arachis hypogaea
+131601522320130275
+highlights its contrast with 'infection thread' adapted legumes. Schmutz J, Cannon SB, Schlueter J, Ma J, Mitros T, Nelson W et al
+Mol Plant Microbe Interact 32(3):271-285
+(2010) Genome sequence ofthe palaeopolyploid soybean. Nature
+Kinkema M, Gresshoff PM (2008) Investigation of downstream sig-
+463(7278):178-183
+nals of the soybean autoregulation of nodulation receptor kinase SeverinJA et al (2010) RNA-Seq Atlas of Glycine max: a guide to the
+GmNARK. Mol Plant Microbe Interact 10:1337-1348
+soybean transcriptome. BMC Plant Biol 10:160
+Knobeloch L et al (2000) Blue babies and nitrate-contaminated well Sheng Q, Hunt LA (1991) Poids sec des pousses et des racines du blé,
+water. Environ Health Perspect 108:675-678
+de la triticale et du seigle et teneur en eau du sol. Can J Plant Sci
+Larrainzar E, Wienkoop S (2017) A proteomic view on the role of
+71:41-49
+legume symbiotic interactions. Frontiers Plant Sci 8:1267. https ShultzJL, Kurunam D, Shopinski K etal (2006) The Soybean Genome
+900.9g103h1pA30170137
+Database (SoyGD): abrowser for display ofduplicated, polyploid,
+Lee C, Yu D, Choi HK, Kim RW (2017) Reconstruction ofa compos-
+regions and sequence tagged sites on the integrated physical and
+ite comparative map composed of ten legume genomes. Genes
+genetic maps of Glycine max. Nucleic Acids Res 34(Database
+Genom 39(1):111-119
+issue).D758-D765
+Li H, Peng Z, Yang X, Wang W, FuJ, Wang J, Han Y, Chai Y, Guo Sonah H, Bastien M, Iquira E, Tardivel A, Legare G et al (2013) An
+T, Yang N (2012) Genome-wide association study dissects the
+improved genotyping by sequencing (GBS) approach offering
+genetic architecture of oil biosynthesis in maize kernels. Nat
+increased versatility and efficiency of SNP discovery and geno-
+Genet 45:43-50
+typing. PLOS ONE 8(1):e54603
+Libault M et al (2010) Complete transcriptome of the soybean root Soulemanov A, Prithiviraj B, Carlson RW, Jeyaretnam B, Smith DL
+hair cell, a single-cell model, and its alteration in response to
+(2002) Isolation and characterization of the major nod factor of
+Bradyrhizobium) japonicum infection. Plant Physiol 152:541-552
+Bradyrhizobium, japonicum strain 532C. Microbiol Res 157:25-28
+Lim CW, Lee YW, Hwang CH (2011) Soybean nodule-enhanced ICLE Stanton-Geddes J, Paape T, Epstein B, Briskine R, Yoder J, Mudge J
+peptides in roots act as signals in GmNARK-mediated nodulation
+et al (2013) Candidate genes and genetic architecture of symbi-
+suppression. Plant Cell Physiol 52(9):1613-1627
+otic and agronomic traits revealed by whole-genome, sequence-
+Lira MAJ, Nascimento LRS, Fracetto GGM (2015) Legume-rhizobia
+based association genetics in Medicago truncatula. PLOS ONE
+signal exchange: promiscuity and environmental effects. Front
+8(5):e65688
+Microbiol 6:945
+Springer
+
+
+
+Theoretical and Applied Genetics
+Steidinger BS, Bever JD (2016) Host discrimination in modular mutu- Wang M, Yan J, Zhao J, Song W, Zhang X, Xiao Y, Zheng Y (2012)
+alisms: a theoretical framework for meta- -populations of mutu-
+Genome-wide association study (GWAS) of resistance to head
+alists and exploiters. Proc R Soc B 283:20152428. https://doi.
+smut in maize. Plant Sci 196:125-131
+0ng10.1099hrph20152428
+Weeks ME(1932) The discovery ofthe elements. IV. Three important
+Sutton MA, Bleeker A (2013) Environmental science: the shape of
+gases. J Chem Educ 9(2):215
+nitrogen to come. Nature 494:435-437
+Yang J, Benyamin B, McEvoy BP, Gordon S, Henders AK, Nyholt
+Torkamaneh D, Belzile F (2015) Scanning and filling: ultra-dense SNP
+DR et al (2010) Common SNPS explain a large proportion of the
+genotyping combining genotypingbysequencing SNP Parray and
+heritability for human height. Nat Genet 42(7):565-569. https:l1
+whole-genome resequencing data. PLOS ONE 10(7):e0131533
+doi.ong/10.103/ng.60s
+Torkamaneh D et al (2017) Fast-GBS: a new pipeline for the efficient Young ND, Debellé F, Oldroyd GE, Geurts R, Cannon SB, Udvardi
+and highly accurate calling of SNPS from genotyping-by-seqguenc-
+MK et al (2011) The Medicago genome provides insight into the
+ing data. BMC Bioinform 18:5
+evolution of rhizobial symbioses. Nature 480(7378):520-524
+van Hameren B, Hayashi S, Gresshoff PM, Ferguson BJ (2013) YuJM let al(2006) A unified mixed-model method for association map-
+Advances in the identification of fnovelfactors requiredin soybean
+ping that accounts for multiple levels of relatedness. Nat Genet
+nodulation, a process critical to sustainable agriculture and food
+38:203-208
+security. J Plant Biol Soil Health 1(1):6
+Zhang Zetal (2010) Mixed linear rmodel approach adapted for genome-
+Vasileva V, Ilieva A (2007) Effect of pre-sowing treatment of seeds
+wide association studies. Nat Genet 42:355-360
+with insecticides on nodulating ability, nitrate reductase activity
+and plastid pigments content of Lucerne (Medicago sativa L.). Publisher's Note Springer Nature remains neutral with regard to
+Agron Res 5:87-92
+jurisdictional claims in published maps and institutional affiliations.
+Wang D et al (2012) Symbiosis specificity in the legume-rhizobial
+mutualism. Cell Microbiol 14(3):334-342
+Springer

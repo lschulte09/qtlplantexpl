@@ -1,0 +1,1225 @@
+MPMI Vol. 29, No. 2, 2016, pp. 96-108. htipldh-cdo.orgy10.1094MPM1092150219-R
+e-Xtra*
+Identification of Multiple Phytotoxins Produced
+by Fusarium virguliforme Including
+a Phytotoxic Effector (FvNIS1) Associated
+With Sudden Death Syndrome Foliar Symptoms
+Hao-Xun Chang,' Leslie L. Domier,12 Osman Radwan,' Craig R. Yendrek,1,3 Matthew E. Hudson,' and
+Glen L. Hartman12
+'University of Illinois; PUSDA-Agricultural Research Service; and 3Institute for Genomic Biology, Urbana, IL, U.S.A.
+Submitted 27 September 2015. Accepted 27 November 2015.
+Sudden death syndrome (SDS) of soybean is caused by a soil- pathogens that damage only certain genotypes of plants having
+borne pathogen, Fusarium virguliforme. Phytotoxins produced
+corresponding susceptibility alleles (Stergiopoulos et al. 2013).
+by F virguliforme are translocated from infected roots to The interaction of pathogens carrying a susceptibility allele re-
+leaves, in which they cause SDS foliar symptoms. In this study, sults in susceptibility that is also known as the inverse gene-for-
+additional putative phytotoxins of E virguliforme were identi- gene model (Vleeshouwers and Oliver 2014). The pathosystem of
+fied, including three secondary metabolites and 11 effectors. Parastagonospora nodorum and wheat is a well-studied example
+While citrinin, fusaric acid, and radicicol induced foliar chlo- ofhow pathogens utilize phytotoxic (or necrotrophic) effectors to
+rosis and wilting, Soybean mosaic virus (SMV)-mediated achieve host susceptibility (Oliver et al. 2012; Vleeshouwers and
+overexpression of F. virguliforme necrosis-inducing secreted
+Oliver 2014).The arsenal of Parastagonospora nodorum includes
+protein 1 (FVNIS1) induced SDS foliar symptoms that eight effectors (SnToxl - to SnTox7 as well as SnToxA) that
+mimicked the development of foliar symptoms in the field. generally induce chlorosis or necrosis symptoms in wheat culti-
+The expression level of fvnisl remained steady over time, vars that have corresponding susceptible quantitative trait loci
+although foliar symptoms were delayed compared with the (QTL), including Snnl to Snn7 and Tsnl (Abeysekara et al. 2012;
+expression levels. SMV::FVNIS1 also displayed genotype-
+Friesen and Faris 2010; Friesen et al. 2007;Liu et al. 2009; Oliver
+specific toxicity to which 75 of 80 soybean cultivars were et al. 2012; Shi et al. 2015). For SnTox1-Snnl and SnToxA-Tsnl,
+susceptible. Genome-wide association mapping further the candidate target genes in wheat encode leucine-rich repeat
+identified three single nucleotide polymorphisms at two loci, (LRR) domain proteins, it was suggested that SnTox1 and
+where three leucine-rich repeat receptor-like protein kinase SnToxA induce the accumulation of reactive oxygen species
+(LRR-RLK) genes were found. Culture filtrates of fvnisl
+and programmed cell death through LRR-dependent signaling
+knockout mutants displayed la mild reduction in phytotoxicity,
+pathways to achieve effector-triggered susceptibility (Faris
+indicating that FVNIS1 is one of the phytotoxins responsible for et al. 2010; Liu et al. 2012).
+SDS foliar symptoms and may contribute to the quantitative
+Sudden death sydrome (SDS) of soybean [Glycine max (L.)
+susceptibility of soybean by interacting with the LRR-RLK Merr.] is one of the most important fungal diseases of soybean
+genes.
+in the United States (Hartman et al. 2015) and is caused by the
+root-infecting pathogen Fusarium virguliforme (Aoki et al.
+2003; Hartman et al. 2015). In the field, the pathogen infects
+Plant-pathogenic fungi produce a variety of phytotoxins that roots but is not known to invade above-ground parts of soybean
+could be classified into host-selective toxins (HST) and non- plants. In addition to root rot, F virguliforme can elicit distinct
+HST. While non-HST indiscriminately attack a broad range of foliar symptoms that "suddenly" appear after the onset of
+hosts, HST are small molecules produced by necrotrophic
+flowering. These foliar symptoms include interveinal chlorosis
+and necrosis, marginal curling of leaflets, and premature de-
+Mention ofatrademark, proprietary product, or vendor does not constitute a foliation (Supplementary Fig. S1), and are attributed to fungal
+guarantee or warranty of the product by the United States Department of phytotoxins that are translocated to leaves from colonized roots
+Agriculture or the University of Illinois and does not imply its approval to (Hartman et al. 2015). Three phytotoxins have been reportedto
+the exclusion of other products or vendors that may also be suitable.
+be associated with SDS foliar symptoms, but none of the three
+induce foliar symptoms that represent the foliar
+Nucleotide sequence data is available in the DDBJEMBL/GenBank data- observed in field. Radicicol
+symptoms
+baseunder accession number GBJV01000000.
+the
+(also known as monorden) was
+the first F virguliforme phytotoxin identified and was proposed
+Corresponding author: G. L. Hartman; Telephone: +1.217.244.3258; to cause interveinal necrosis and marginal curling on soybean
+E-mail: ghartman@illinois.edu
+(Baker and Nemec 1994). The second phytotoxin identified
+from F virguliforme was a 17-kDa effector that induced chlo-
+*The e-Xtra logo stands for "electronic extra" and indicates that six sup- rosis and necrosis on soybean cotyledons and detached leaves
+plementary figures and seven supplementary tables are published online.
+(Jin et al. 1996). FvTox1, the third F virguliforme phytotoxin
+identified, was also an effector that induced chlorosis and re-
+This article is in the public domain and not copyrightable. It may be freely duced
+reprinted with customary crediting of the source. The American Phytopatho-
+the chlorophyllcontent ofleaf disks treated with purified
+logical Society, 2016.
+FvTox1 (Brar et al. 2011). Knockout mutants of FvTox1 were
+96 / Molecular Plant-Microbe Interactions
+
+
+
+substantially reduced in phytotoxicity but Afvtoxl mutants commercially available citrinin, fumonisin, fusaric acid, and
+were still able to induce SDS foliar symptoms (Pudake et al.
+radicicol as standards, liquid chromatography-tandem mass
+2013), suggesting that additional phytotoxins may be causing spectrometry (LC/MS/MS) confirmed the presence of citri-
+SDS foliar symptoms.
+nin, fusaric acid, and radicicol but not fumonisin in the cul-
+Chromatography coupled with bioassay systems have been ture filtrates of F. virguliforme. The concentration of citrinin,
+traditionally used to discover phytotoxins produced in vitro fusaric acid, and radiciol was 0.07 + 0.01, 2.03 + 0.34, and
+(Berestetskiy 2008; Strange 2007), and all three known phy-
+1,740.00 + 603.57 ng per ml in 5-day-old culture filtrates and
+totoxins of F virguliforme were identified using chromatogra- 0.25 + 0.05, 2.51 + 1.10, and 1,596.67 + 507.73 ng per ml in
+phy. Another approach to discovering secondary metabolites 2-day-old culture filtrates, respectively. Gene expression of
+and secretory effectors is through bioinformatics. This strategy these PKS was detected by quantitative reverse-transcription
+enables the discovery of phytotoxins that have low or trace
+polymerase chain reaction (qRT-PCR) from 0 to 120 h after
+quantities in the sample and avoids potential loss during inoculation (hai) on soybean roots inoculated with F virguliforme
+chemical extraction or chromatographic steps. Many studies
+(Supplementary Fig. S2). Soybean leaves treated with a serial
+have demonstrated the potential of predicting secondary me- concentration ofeach polyketide revealed a minimum dosage
+tabolites and secretory effectors (Chooi and Tang 2012; of 60, 20, and 250 ug per plant for citrinin, fusaric acid, and
+Collemare et al. 2014; Gallo et al. 2013; Kimura et al. 2007; radicicol, respectively, to induce symptoms such as interveinal
+Knief 2014; Kroken et al. 2003; Sperschneider et al. 2015; chlorosis and wilting 3 days postinoculation (dpi) (Fig. 2).
+Yadav et al. 2009). In this study, we identified additional
+There were seven putative nonribosomal peptide synthetases
+phytotoxins of F virguliforme by searching for genes poten- (NRPS) identified in the transcriptome (Table 1), but the result
+tially involved in synthesizing secondary metabolites or indicated most NRPS of F virguliforme were dissimilar to most
+encoding phytotoxic effectors. The goal was to identify and fungal NRPS that we included in the phylogenetic analysis
+characterize additional phytotoxins produced by F virguliforme (Supplementary Fig. S3) and putative products of FVNRPS were
+that were associated with SDS foliar symptoms.
+less predictable. In addition, we did not detect the expression of
+trichodiene synthase, akey enzyme in trichothecene biosynthesis
+RESULTS
+(Kimura et al. 2007). Although trichothecene is a distinct group
+found in several Fusarium species (Yekkour et al. 2015), our
+Transcriptome analysis.
+preliminary screen for trichothecenes was negative in culture
+Cell-free culture filtrates of F. virguliforme have been shown filtrates of F virguliforme, infested sorghum, and in infected
+to induce typical SDS foliar symptoms and studies have shown
+soybean (Supplementary Table S2).
+that phytotoxicity of the culture filtrates increased with the in
+vitro growth time of F virguliforme (Hartman et al. 2004; Identification and characterization of phytotoxic effectors.
+Xiang et al. 2015). Since RNA-Seq reflects gene expression at
+Eleven putative phytotoxic effectors were identified by
+one sampling time, identification of phytotoxin-related genes searching small secretory proteins in the transcriptome
+was conducted based on a transcriptome derived from two in
+(Table 2). In addition tofvtoxl, another gene that encodes the
+vitro incubation periods in order to maximize detection of second phytotoxin of F virguliforme (Jin et al. 1996) was
+phytotoxin-related gene expression. Six sequence libraries
+identified, based on a high degree of similarity to the N ter-
+(Supplementary Table S1) with a call accuracy of 99.9% were minal peptide sequence ATQFSYTGSCTGTDQ with a mis-
+assembled into a transcriptome with 12,858 putative coding match (E to C) at the tenth amino acid. We named this effector
+sequences. The transcriptome shotgun assembly was deposited FvTox2. Three candidate effectors, FvCP1 to FvCP3, be-
+at DDBJEMBL/GenBank databaseunder accession number longing to the cerato-platanin protein family were identified
+GBJV01000000.
+(Frias et al. 2014). Another potential effector, FvCDIP1, was
+orthologous to the Magnaporthe oryzae cell death-inducing
+Identification and characterization
+protein MOCDIP1 (Chen et al. 2013). Moreover, we identified
+of phytotoxic secondary metabolites.
+The transcriptome contained 12 putative polyketide syn-
+thases (PKS). Based on the phylogenetic analysis, fvpksl and
+Table 1. Identification of polyketide synthases (PKS) and nonribosomal
+fvpks2 were grouped in the same clade containing PKS of peptide synthetases (NRPS) of Fusarium virguliforme
+Chaetomium chiversii (rads2 and rads1, respectively) and PKS Name Gene ID Putative metabolites Bootstrap value
+of F graminearum (pksl and pks4, respectively); these PKS PKS
+synthesize structurally similar resorcylic acidlactones, radiciol,
+fypksl g9470 Radicicol
+76
+and zearalenone (Table 1; Fig. 1). The PKS fvpks3 was grouped
+fvpks2 g9476 Radicicol
+92
+with pksCTof Monascus purpureus (synthesizes citrinin), with
+fvpks3 g15275 Citrinin
+99
+a bootstrap value of 99. The PKS fvpks4 was similar tofubl of
+fvpks4 g3064 Fusaric acid
+96
+F verticillioides (synthesizes fusaric acid), with a bootstrap
+fvpks5 g7866 AF-toxin-close product
+61
+value of 96. The fvpks5 was grouped with Alternaria alternata
+fvpks6 g11035 T-toxin-close product
+66
+aft9-1 (synthesizes AF-toxin), with a bootstrap value of 61. The
+fvpks7 fvpks8 g15010 g13193 Fusarubin-close Perithecial pigment pigment
+99 99
+fvpks6 was grouped with pks2 of Cochliobolus heterostrophus
+fypks9 g11834 Unknown
+(synthesizes T-toxin), with a bootstrap value of 66. Although
+fvpks10 g1692 Fumonisin-close product
+99
+both fvpks7 and fvpks8 received a high bootstrap value of 99,
+fypksll g15266 Fumonisin-close product
+99
+they were close to PKS genes that produce pigments such as
+fvpks12 g12965 Fatty acid-close product
+99
+fusarubin. Whilefvpks9 formed a singleton.fypks10 andfvpks11 NRPS
+funrpsl g9648 Siderophore-close product 99-100
+were similar to fuml of F oxysporum and F verticillioides
+funrps2 g5038 Unknown
+(synthesizes fumonisin), with a bootstrap value of 99. In addi-
+funrps3 g4177 Unknown
+tion, fvpks12 was highly similar to the fatty acid synthase
+funrps4 g2980 Unknown
+outgroup. In summary, six F. virguliforme PKS were highly
+fvnrps5 g2743 Unknown
+similar to other fungal PKS that synthesize citrinin, fumo-
+fvnrps6 g2085 Unknown
+nisin, fusaric acid, and radicicol (Table 1; Fig. 1). Using
+funrps7 g64 Unknown
+Vol. 29, No. 2, 2016/97
+
+
+
+four effectors (FvNLP1 to FvNLP4) that contained NPP1
+However, plants inoculated with SMV:FVNISI induced typical
+domains that belong to necrosis and ethylene-inducing like- SDS foliar symptoms (Fig. 3). Severely affected plants also
+proteins (NLP) (Oome and Van den Ackerveken 2014) and exhibited upward curling ofleaf margins and defoliation. In brief,
+one effector, F. virguliforme necrosis-inducing secreted pro- overexpression of SMV:FVNISI in soybean produced SDS foliar
+tein 1 (FvNIS1), that was orthologous to Colletotrichum symptoms indistinguishable to foliar symptoms observed in the
+orbiculare NIS1, which induces necrosis on tobacco (Yoshino field.
+et al. 2012). The expression of these candidate effectors were
+detected by qRT-PCR from 0 to 120 hai on soybean roots Phytotoxicity of SMV::FVNIS1 at different time points
+inoculated with F virguliforme. To characterize their phyto- and on different soybean genotypes.
+toxicity on soybean leaves, putative phytotoxic effectors were
+Symptom development on leaves of cultivar Essex started as
+expressed ectopically in susceptible soybean cultivar Essex, mild chlorotic and necrotic spots at 20 dpi. Foliar symptoms
+using an overexpression system mediated by Soybean mosaic became more pronounced and developed into interveinal
+virus (SMV). FvTox1, FvTox2, FvCP1-2, FvCDIP1, and chlorosis and necrosis after 30 to 40 dpi (Fig. 4). The healthy
+FvNLP1 to FvNLP4 did not induce SDS-like foliar symptoms.
+soybean control, soybean inoculated with empty SMV vector,
+Lovastatin Aspergillus terreus lovB
+0.5
+99 Compactin Penicillium citrinum mlcB
+Fusarin C Fusarium fujikuroi ifusa
+Fusarin Fusarium verticillioides fusl
+Cytochalasin E Aspergillus clavatus CCSA
+ACT-toxin Alternaria alternata actts3
+Radicicol
+Zearalenone
+Chetoglobosin. A Penicillium
+chea
+99r Cyclipiazonic acid Aspergillus Ceypouasene cpaA
+L
+Cyclipiazonic acid Aspergillus oryzae cpaa
+99
+Pseurotin A Aspergillus fumigatus psod
+Botcinic acid Botryotinia) fuckeliana bcboa6
+Equisetin Fusarium
+eqis
+a
+heterosporum
+Ochratoxin A Aspergillus westerdijkiae aoksl
+Radicicol Chaetomium chiversii iradsl
+AF-toxin
+99 Unknown Fusarium virguliformefypks2
+Zearalenone Fusarium graminearum pks4
+Alternapyrone Alternariasolani ipksN
+Unknown Fusarium virguliforme
+66
+at
+T-toxin Eudemchpes heterostrophus pks2
+61
+Unknown Fusarium virguliforme fypkso
+r
+HR-PKS
+AF-toxin Alternaria alternata 1af9-1
+99 Unknown Fusarium virguliforme.fipkss
+T-toxin
+T-toxin Cochliobolus heterostrophus pksl
+PM-toxin Peyronellaea: zeae-maydis pksl
+Alternariol Alternaria alternata pksj
+Alternariol Alternaria alternata pksH
+98 Lovastatin Aspergillus terreus lovF
+Compactin Penicillium citrinum mlca
+Fusaric acid
+Fusaric acid Fusarium verticillioidesfubl
+Unknown Fusarium virguliforme fupks4
+Depudecin Alternaria brassicicola. Abpks9
+Botcinic acid Botryotinia) fuckeliana bcboa9
+Solanapyrone Alternaria solani soll
+Fumonisin Fusarium verticillioides) fuml
+99
+99 Fumonisin Fusarium oxysporum fuml
+Unknown Fusarium virgulijormefipks10
+Fumonisin
+Unknown Fusarium virguliforme.fipksll
+Citrinin Monascus purpureus pksCT
+99
+Unknown Fusarium virguliformefipls3
+Radicicol Chaetomium chiversii irads2
+99 Unknown Fusarium virguliformefipks!
+95
+Zearalenone Fusarium graminearum) pks!
+Perithecial pigment Nectria haematococca apksN
+Citrinin
+99L Unknown Fusarium virguliforme fypks8
+95
+DHN-melanin Colletotrichum lagenarium pksl
+99 DHN-melanin Magnaporthe oryzae albl
+Bikaverin Fisariam-fijikuroipisd
+99
+Cercosporin Cercospera nicotianae ctbl
+99 Cercosporin Cercospora coffeicola ctbl
+NR-PKS
+Naphthopyrone Aspergillus fumigatus albl
+Cercosporin Fusarubin
+99
+Aspergillus nidulans WA
+99 AMPAHIRES Fusarium fujikuroifsrl
+Perithecial pigment Fusarium verticillioides pgll
+Unknown Fusarium virguliforme fypks7
+Alfatoxin Aspergillus sflavus pksA
+'Alfatoxin Aspergillus parasiticus pksLl
+99 L Sterigmatocystin Aspergillus nidulanspksST
+93L Dothistromin Mycosphaerella pini pks4
+Alfatoxin Sterigmatocystin
+84 6MSAS Penicillium griseofulvum 6msas
+99
+6MSAS Aspergillus clavatus msas
+6MSAS Aspergillus terreus atX
+Ochartoxin A Penicillium nordicum otapksPN
+ACR-toxin Alternaria alternata acrts2
+PR-PKS
+Phomenoic acid Leptosphaeria maculans pks2
+Fatty acid Aspergillus fumigatus fas
+921 991 Fatty acid Penicillium griseofulvum fas2
+99 'Fatty acid Fusarium oxysporum fas
+Unknown Fusarium virguliforme fipks12
+Outgroup
+Fig. 1. Phylogenetic analysis for polyketide synthases (PKS) of Fusarium virguliforme. The background database contains the KS domain protein sequence of
+fungal PKS, which was classified based on reduction potential: highly-reducing (HR), partially-reducing (PR), and nonreducing (NR). Six PKS of
+F virguliforme had high similarity to PKS that synthesize citinin, fumonisin, fusaric acid, and radicicol. Bayesian information criterion: 64837.161; Akaike
+information criterion corrected: 63743.102; and maximum likelihood value: -31735.804. Bootstrap support values below 50 were not shown at nodes.
+98 / Molecular Plant-Microbe Interactions
+
+
+
+and soybean inoculated with SMV::FvToxl did not develop the susceptible, displaying the classic symptoms of chlorosis and
+extensive interveinal necrosis observed in soybean inoculated necrosis. Five PI (PI 548301, PI 567742B, PI 594399C, PI
+with SMV:FVNIS1 (Fig. 4A to D). The expression of SMV:: 603524, and PI 603581) did not display distinct necrosis, even
+FvNIS1 did not fluctuate significantly from 20 to 40 dpi,
+though SMV mosaic symptoms were evident (Fig. 5A). While
+which was similar to the empty SMV vector and the SMV:: some PI, such as PI 408335A, PI 092713, and PI 634903, dis-
+FvTox1, based on qRT-PCR. This suggested that the accel- played less sensitivity to SMV:FVNISI compared with "Essex'
+eration in foliar severity was independent of SMV:FVNISI by showing necrotic spots that did not coalesce to interveinal
+expression over time (Fig. 4E). To determine if the phyto- necrosis within 40 dpi. Others, such as PI 567648C and PI
+toxicity induced by SMV::FVNISI was universal in different 548459, displayed extreme sensitivity to SMV:FVNISI compared
+soybean genotypes, we inoculated 80 soybean plant intro- with "Essex' by showing faster development oftypical SDS foliar
+ductions (PI) with SMV:FVNIS1. All PI except five were
+symptoms that could be observed around 20 to 25 dpi (Fig. 5A).
+A
+
+50 ug
+60 ug
+70 ug
+B
+A
+
+10 ug
+20 ug
+30 ug
+C
+o o
+-
+200 ug
+250 ug
+300 ug
+Fig. 2. Foliar symptoms induced by A, citrinin, B, fusaric acid, and C, radicicol at 3 days postinoculation.
+Table 2. Identification of putative phytotoxic effectors
+Name
+Gene ID
+Gene size (bp)
+Annotation
+E value
+fvtoxl
+g14460
+519
+Fusarium virguliforme Toxl
+4e-124
+fvtox2
+g14684
+369
+fvcpl
+g1821
+666
+Nectria hematococca mpV177-13-4 Cerato-platanin
+le-152
+fvcp2
+g9439
+423
+Fusarium noxysporumf sp. cubense race4 SnodProtl
+5e-66
+fvcp3
+g8440
+855
+Nectria hematococca mpVI 177-13-4 Cerato-platanin
+4e-148
+fvcdipl
+g4207
+1065
+Magnaporthe oryzae 70-15 cell death-inducing
+5e-180
+protein
+fvnlpl
+g5890
+711
+Nectria hematococca mpVI 77-13-4 NPP1 domain
+3e-144
+protein
+funlp2
+g8126
+390
+Nectria hematococca mpVI 77-13-4 NPP1 domain
+6e-82
+protein
+funlp3
+g2173
+852
+Colletotrichum higginsianum NPP1 domain protein
+6e-45
+finlp4
+g3087
+1203
+Trichoderma virens Gv29-8 NPP1 domain protein
+0.0
+fvnisl
+g13723
+426
+Colletotrichum orbiculare NIS1
+2e-66
+Vol. 29, No. 2, 2016/99
+
+
+
+Genome-wide association study (GWAS) to identify loci
+were constructed using a split-marker approach. Because the
+for sensitivity to SMV::FVNIS1.
+three knockout mutants that we created displayed no pheno-
+The 80 soybean PI inoculated with SMV::FVNISI (Supple-
+typic differences to each other, we subsequently generated
+mentary Table S3) were used to identify potential single nu- two complementation strains by inserting thefvnisl gene back
+cleotide polymorphisms (SNPS) associated with the sensitivity into fvnisl-1 knockout mutant (Supplementary Fig. S4). In
+to FVNIS1. All PI displayed some virus symptoms of mosaic, brief, mutants and complementation strains displayed no
+mild leaf chlorosis, or stunting but not systemic necrosis. The differences compared with the wild type in colony morphol-
+phenotype data collected was based on whether or not necrosis ogy, growth rate, or sporulation. In addition, there was no
+was induced after inoculating with SMV:FVNISI. In accor-
+appreciable difference in the expression of other candidate
+dance with the inverse gene-for-gene model, we hypothesized phytotoxin-related genes during infection, except for un-
+that a corresponding receptor might exist in susceptible soy- detectablefunisl expression in the Afmisl-/knockout mutant
+bean PI that recognize FvNIS1 and produce necrosis. Bayesian
+(Fig. 6A). These results indicated thatfvnisl was not essential
+information criterion (BIC)-based model selection, principal for survival or vegetative growth. Based on the stem-cutting
+component analysis (PCA), and a quantile-quantile (Q-Q) plot assay, the culture filtrate produced by the 4fvnisl-1 knockout
+indicated negligible population structure and the appropriate- mutant had reduced phytotoxicity causing milder symptoms
+ness of the GWAS model (Fig. 5B and C; Supplementary Table with a lower (P < 0.05) area under disease progress curve
+S4). GWAS identified one and two significant SNPS located on
+(AUDPC) (Fig. 6B and C).
+chromosomes 6 and 20, respectively (Table 3). While locusl-
+FvNIS1 (chromosome 20) passed the Bonferroni threshold with
+DISCUSSION
+one LRR receptor-like protein kinase (RLK) gene near the
+SNPS, locus2-FVNISI (chromosome 6) had two candidate
+Phytotoxins of F. virguliforme translocated from soybean
+LRR-RLK genes nearby and the SNP located within QTL13-11
+roots to leaves cause SDS foliar symptoms, as the fungus
+for SDS resistance (Abdelmajid et al. 2012; SoyBase and the resides in the roots but not the stems or leaves of infected
+Soybean Breeder's Toolbox website). The identification of plants (Hartman et al. 2015). We hypothesized that multiple
+these LRR-RLK genes raises the possibility that FvNIS1 might
+phytotoxins cause SDS foliar symptoms. We applied bio-
+be recognized by one or more plant receptors in the apoplastic informatics to identify additional phytotoxins produced by
+space, perhaps similar to the orthologous NIS1 of Colleto- F. virguliforme and identified transcripts for the synthesis of
+trichum orbiculare, which was shown to be an apoplastic ef- citrinin, fusaric acid, radiciol, and 11 additional phytotoxic
+fector (Irieda et al. 2014).
+effectors.
+Citrinin was first identified in Penicilliun citrinum and, later,
+Gene knockout analysis of FvNIS1.
+was found in severalAspergillus and Monascus species (Abou-
+Since FvNIS1 produced symptoms that most closely resem- Zeid 2012). Our study is the first to show that a Fusarium
+bled typical SDS foliar symptoms, Afvnisl knockout mutants species can synthesize citrinin. Citrinin interferes with several
+Ds
+Healthy
+SMV
+SMV:FvToxl
+SMV:FvTox2
+dJde
+SMV:FvCP1
+SMV:FVCP2
+SMV:FVNISI
+SMV:FVCDIPI
+à
+:
+SMV:FVNLP1
+SMV:FVNLP2
+SMV:FVNLP3 SMV:FVNLP4
+Fig. 3. Characterization of phytotoxic effectors using a Soybean mosaic virus (SMV) expression system. SMV expressing FvTox1, FvTox2, FvCP1-2,
+FVCDIP1, and FVNLP1 to FVNLP4 did not induce sudden death syndrome (SDS)-like foliar symptoms. Instead, SMV expressing FVNIS1 displayed typical
+SDS foliar symptoms, including interveinal chlorosis and necrosis and marginal upward curling of fleaflets. Leaves with severe symptoms tended to defoliate
+easily as well.
+100 / Molecular Plant-Microbe Interactions
+
+
+
+physiological processes, including the promotion of superoxide
+induced by effectors in plants, but because of the difficulty of
+production (Ribeiro et al. 1997), interruption ofion redox cycle
+performing leafinfiltration in soybean (Vleeshouwers and Oliver
+(Da Lozzo et tal. 2002), and induction of cell cycle progression
+2014), we visualized phytotoxicity symptoms induced by
+without DNA damage (Kuroda et al. 2013). A recent study F virguliforme effectors by transiently expressing them in-
+reportedthat citrinin was not required for Penicillium expansum dividually via SMV. Overexpression FvTox1 via SMV-
+to infect apples (Ballester et al. 2015). Fusaric acid has been induced mild chlorosis on leaves, which is consistent with
+shown to induce wilting and necrosis ofbanana (Li et al. 2013).
+previous reports that leaves treated with purified FvTox1
+Radicicol inhibits heat shock protein 90, and its inactivation showed mild chlorosis and a reduction of chlorophyll content
+may allow parasitic fungi to establish infections (Piper and on susceptible leaf disks (Brar et al. 2011). FvTox1 has been
+Millson 2012). It has also been hypothesized that radicicol regarded as an important phytotoxin associated with SDS
+releasedby C. graminicola may inhibit plant defense responses foliar symptoms because Afvtoxl knockout mutants had
+as well as suppress competing microbial communities in a reduced phytotoxicity to soybean (Pudake et al. 2013).
+symptomless mechanism (Wicklow et al. 2009). Citrinin, However, it was not reported whether the Afvtoxl mutants
+fusaric acid, and radicicol induced foliar chlorosis and wilting
+displayed equivalent phenotypic traits, such as sporulation,
+in our study, which differed from the typical interveinal compared with the wild type isolate. In addition to FvTox1,
+chlorosis and necrosis commonly observed with SDS foliar the expression of the 17-kDa effector FvTox2 was detected in
+symptoms.
+our transcriptome based on the identity of the N-terminal
+In addition to polyketide phytotoxins, we identified 11 effectors partial peptide sequence (Jin et al. 1996). However, over-
+that may be phytotoxic to soybean. Agrobacterium infiltration has expression of FvTox2 exhibited mild chlorosis with few ne-
+been used in Arabidopsis and tobacco to test foliar symptoms crotic spots.
+20 dpi
+30 dpi
+40 dpi
+E
+ESMVEFNISI ESMV vector
+-SMV:FYToxt "SMVvector (SMV)
+ISMV:FTNI(SMY)
+-SNVNTmI(ATan)
+A
+-SMV:FNISI (SMV)
+-SMV:FYNISI (FVNISI)
+121
+10
+B
+20
+25
+30
+35
+40
+a
+Day post inoculation (dpi)
+C
+Fig. 4. Sudden appearance of sudden death syndrome (SDS)-like foliar symptoms induced by FVNIS1 over time. A, Healthy soybean cultivar Essex. B,
+Soybean inoculated with empty Soybean mosaic virus (SMV) vector, showing typical mosaic symptoms at 20 through 40 days postinoculation (dpi). C,
+Soybeans inoculated with SMV:FvTox1, visually indistinguishable to SMV vector. D, Soybeans inoculated with SMV.FNISI.displaying chlorotic spots that
+later turned into necrotic spots around 20 dpi, interveinal chlorosis around 30 dpi, and severe interveinal necrosis by 40 dpi. E, Quantification of viral
+expression and foliar severity in SMV-, SMV:FVTox1-, and SMV.FNISI-inoculated soybeans. The expression of SMV and fvtoxl in SMV:FVTox1-
+inoculated plants and the expression of SMV andfinisl in SMV:FVNIS1 inoculated plants were not significantly different from the expression of SMV in
+SMV-inoculated plants over time. However, the foliar severity of SMV.FYNISI-inoculated plants increased significantly between 30 to 40 dpi. The results
+indicated the severity caused by SMV:FVNIS1 was not related to finisl expression in plants. Bar chart and Ilefty axis indicates the severity of fSDS-like foliar
+symptoms. Line chart and righty axis indicates the expression fold (logio) normalized to 20dpi for reach group. Parentheses in the line legend lindicate the target
+gene for quantitative reverse transcription.polymerase chain reaction detection. Significance was determined at P < 0.01.
+Vol. 29, No. 2, 2016/101
+
+
+
+A
+PI548301
+P1567742B P1594399C
+PI603524
+PI603581
+PI408355A
+PI092713
+PI634903
+PI567648C PI548459
+B
+C
+10 -
+Necrosis
+Yes
+8
+No
+8
+a PI603581
+co o
+9 6
+00
+a UPissiagc
+o
+p 2B0 COP1548301
+e
+8
+150 0e
+$
+100 a
+4
+2
+8
+50
+0
+-100
+L -50
+0 50 100
+0
+2
+3
+5
+PC1
+Expected -logrolp)
+8
+6
+1 4
+I
+2
+0
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 5. Genome-wide association study (GWAS) to identify soybean loci associated with sensitivity to SMV:FVNIS1. A, SMV:FVNIS1 induced different
+intensities of leaf chlorosis and necrosis on 75 soybean genotypes but not PI 1548301, PI 567742B, PI 594399C, PI 603524, and PI 603581. Resistant soybean
+genotypes that displayed mosaic or chlorotic spots were classified as 0, while susceptible varieties that displayed necrotic spots to interveinal necrosis were
+classified as1. B, A principal component analysis plot indicated negligible population structure in the 80 soybean varieties. C, A quantile-quantile plot
+indicated the appropriateness of the GWAS model. D, GWAS identified three single nucleotide polymorphisms (SNPS) witha false discovery rate <0.05 (shown
+in green). Two SNPS on chromosome 20overlapped because of their close distance. The most significant locus, FvNIS1,exceeded the Bonferroni threshold land
+had not been reported to associate with sudden death syndrome. The second, locus2-FVNIS1, has significance just below the Bonferroni threshold and was
+located within the region of a reported quantitative trait locus, SDS13-11.
+102/ Molecular Plant-Microbe Interactions
+
+
+
+The FvCP1-3belongs to the cerato-platanin family, which has of F virguliforme, we did not observe SDS-like foliar symp-
+been found in several plant-pathogenic fungi as an important toms by overexpressing FvNLP1 to FvNLP4 via SMV. We
+virulence factor (Frias et al. 2014) involved in triggering plant noticed that FvNLP1-3 all had a substitution within the hep-
+defense responses and inducing accumulation of reactive OX-
+tapeptide region while FvNLP4 contained two substitutions in
+ygen species (Baccelli et al. 2014; Frias et al. 2013). However, other conserved residues (Supplementary Fig. S5). It is not
+the roles of cerato-platanin proteins vary. For example, the known if these substitutions affected the necrosis-inducing
+cerato-platanin Spl of Leptoshaeria maculans was not able capability of FvNLP1 to FvNLP4.
+to induce necrosis and the deletion mutant did not reduce
+We discovered FvNIS1 independently induced SDS foliar
+virulence (Wilson et al. 2002), whereas the cerato-platanin
+symptoms similar to field-observed SDS foliar symptoms
+MgSM1 of M. grisea induced necrosis and triggered defense when overexpressing FvNIS1 through a SMV-mediated tran-
+responses in Arabidopsis (Yang et al. 2009) and the targeted sient system. FvNIS1 is an orthologous protein to the C.
+gene-deletion mutant compromised pathogenicity (Jeong obiculare secretory protein NIS1 (Yoshino et al. 2012). NIS1
+et al. 2007). Cerato-platanin BcSpl1 of Botrytis cinerea was was isolated from culture filtrate of C. obiculare, and it
+regarded as a phytotoxic effector that caused electrolyte
+induced necrosis in tobacco leaves by Agrobacterium
+leakage and cytoplasmic shrinkage (Frias et al. 2011). In our imd/pciem-modasadiramkent expression. Furthermore, nisl
+phytotoxicity tests, SMV::FvCP1 and SMV:FvCP2 did not was not required for the pathogenicity of C. obiculare and it
+display SDS-like foliar symptoms, although FvCP2 has been
+was suggested that NIS1 may induce cell death via a corre-
+isolated from the xylem sap of F virgulijorme-infected sponding receptor in plants or act as a phytotoxin (Yoshino
+seedlings (Abeysekara and Bhattacharyya 2014). In addition et al. 2012). Our study showed the development of SDS foliar
+to cerato-platanin, we identified a putative secretory protein,
+symptoms was not dependent on the expression level of fvnisl
+FvCDIP1, that is orthologous to MOCDIP1. MOCDIP1 is one and the phytotoxicity mimicked the development of SDS fo-
+of the cell death-inducing proteins of M. oryzae. MOCDIP1 liar symptoms in the field. Although transient overexpression
+was expressed at the - late infection stage and caused necro- of most effectors identified in this study failed to induce foliar
+sis in both dicots and monocots (Chen et al. 2013). In our
+symptoms, qRT-PCR revealed their activities during in-
+study, FvCDIP1 did not induce obvious SDS-like foliar fection; and because phylogenetic analyses did not provide
+symptoms.
+insightful information for several PKS and most NRPS of
+The first NLP was identified from the culture filtrate of F. virguliforme, it is still possible that other secondary me-
+plant-pathogenic F oxysporum, and orthologous NLP have tabolites and effectors may be involved in producing SDS
+been found in prokaryotes, oomycetes, and many other fungi foliar symptoms.
+(Oome and Van den Ackerveken 2014),Plant-associated fungi
+In this study, we successfully applied bioinformatics to
+or oomycetes generally harbor multiple NLP and these ho- identify phytotoxins produced by F virguliforme. All pre-
+mologs could be functionally redundant (Santhanam et al.
+viously reported phytotoxins were again found using this
+2013; Zhou et al. 2012). It has been suggested that NLP cause methodology, including radicicol, FvTox1, and FvTox2,
+the release of damage-associated molecular patterns that which demonstrated the inclusiveness of this approach. Be-
+trigger plant defense responses through different signaling
+cause FvNIS1 displayed selective phytotoxicity on soybean
+cascades, rather than acting themselves as elicitors for plant genotypes, we applied GWAS and identified two loci in soy-
+defense responses (Kanneganti et al. 2006; Kleemann et al. bean that corresponded to the symptoms induced by over-
+2012). Studies have shown that hemibiotrophic pathogens expressing FvNIS1. Although Afvnisl knockout mutants only
+secrete NLP-suppressing effectors at the early biotrophic slightly reduced phytotoxicity to soybean leaves, the identi-
+stage of infection, to avoid NLP phytotoxicity (Kelley et al. fication of FVNIS1 and its corresponding loci in soybean in-
+2010; Kleemann et al. 2012). Moreover, NLP were regarded creases our understanding of how the effector might interact
+as phytotoxins because of their necrosis-inducing activity with soybean. Indeed, the contributions of phytotoxic effec-
+(Schouten et al. 2008) and because NLP genes were generally
+tors have been shown to vary in pathosystems. For example,
+up-regulated when hemibiotrophic pathogens switch from
+while Ptr ToxA of Pyrenophora tritici-repentis plays a dom-
+biotrophic to necrotrophic stages (Qutob et al. 2002). While inant role in virulence (Moffat et al. 2014), SnToxA, SnTox1,
+transient expression of many NLP induce necrosis, some NLP and SnTox3 individually have a lesser effect while even triple
+were nonphytotoxic (Cabral et al. 2012; Dong et al. 2012; knockout mutants of these three effectors still induced foliar
+Feng et al. 2014; Santhanam et al. 2013). Eleven conserved symptoms (Tan et al. 2015). Nevertheless, studies on phytotoxic
+amino acids were shown to induce necrosis with disulfide effectors of Parastagonospora nodorum to their corresponding
+bond-forming cysteine residues being essential (Oome and QTL in wheat have been used in wheat breeding even though
+Van den Ackerveken 2014). Substitutions in these conserved studies on the individual effector may not appear to be
+amino acids may eliminate phytotoxicity. A nonphytotoxic impactful (Tan et al. 2015; Vleeshouwers and Oliver 2014).
+NLP of Colletotrichum spp. with substitutions in the con- Future studies focusing on understanding the phytotoxicity
+served heptapeptide GHRHDWE was reported to be the rea- mechanism of FVNIS1 may elucidate why FVNIS1 required 130
+son for the loss of the necrosis-inducing function (Kleemann to 40 days to display typical SDS foliar symptoms even though
+et al. 2012; Oome and Van den Ackerveken 2014). In the case the gene expression was detected as early as 20 dpi. Cloning of
+Table 3. Significant single nucleotide polymorphisms, loci, and candidate leucine-rich repeat-receptor-like protein kinase genes in the genome-wide
+association study model
+Loci
+ss_id
+Chrm Position
+MAFA P value FDR Overlapped QTL" Candidate genes
+locus1-FVNIS1 ss715638194
+20
+40,656,371
+0.05
+1.58E-07 0.003
+Glyma.20g181100
+ss715638215
+20
+40,809,306 0.05
+1.58E-07 0.003
+locus2-FVNIS1 ss715592683
+6
+10,231,292 0.10
+1.77E-06 0.021
+SDS13-11
+Glyma.06g124200
+Glyma.06g124700
+a MAF= minor allele frequency; FDR = false discovery rate; and QTL = quantitative trait locus.
+Vol. 29, No. 2, 2016/ 103
+
+
+
+putative FwNISI-interacting LRR-RLK genes may provide in- growth chamber at 30°C, and at the V1 growth stage, a stem-cutting
+sights about how FvNIS1 induces necrosis and foliar symptoms assay was used for testing the phytotoxicity of the culture filtrate.
+in susceptible soybean PI.
+Stems of cut soybean plants were immersed in 50-ml poly-
+propylene tubes (2ml of culture filtrate per 50 ml). After observing
+MATERIALS AND METHODS
+foliar SDS symptoms (Supplementary Fig. S6), total RNA was
+extracted from the lyophilized mycelia using a homogenizer (MP
+Preparation ofin vitro transcriptome from mycelia
+Biomedicals FastPrep-24, Santa Ana, CA, U.S.A.) and TRIzol
+and the stem-cutting assay.
+reagent (Life Technologies, Carlsbad, CA, U.S.A.). RNA was
+Fusarium virguliforme Mont-1 was maintained on potato treated with DNase (New England BioLabs, Ipswich, MA, U.S.A.)
+dextrose agar (PDA) (Difco, Sparks, MD, U.S.A.) at 25°C. and the quality was determined by a Bioanalyzer (Agilent
+Five PDA blocks (6 mm in diameter) from the distal part of Technologies, Santa Clara, CA, U.S.A.). Six RNA-Seq librar-
+the colony were transferred into 50 ml of soybean dextrose ies (three biological replications of two time points) were
+broth (SDB) in 250-ml flasks and were incubated at 25°C in
+individually barcoded and prepared by TruSeq Stranded
+the dark on an orbital shakerat 100 rpm. Mycelialblocks were
+RNAseq Sample Prep kit (Illumina, San Diego, CA, U.S.A.).
+homogenized after 2 days and were reincubated for 1 day in The pooled libraries were sequenced on one lane for 100 cycles
+the original SDB. Five milliliters of mycelial suspension
+(single read) on a HiSeq2000 at the Roy J. Carver Bio-
+(mycelia dry weight averaged 14.6 + 1.0 mg per ml) was technology Center, University of Illinois (Urbana, IL, U.S.A.),
+transferred into 50 ml ofnew SDB and was cultured at 25°C in
+using TruSeq SBS sequencing kit version 3 according to the
+the dark without shaking. Mycelia and culture filtrates were manufacturers' protocols.
+harvested after 5 and 20 days of incubation. Mycelia were
+separated using Whatman #1 filter paper (Fisher Scientific,
+Transcriptome analysis.
+Pittsburgh, PA, U.S.A.), were immediately frozen in liquid
+Raw Illumina sequence reads of the six samples were fil-
+nitrogen in 15-ml polypropylene tubes (Corning, Corning, tered using the FASTX toolkit (version 0.0.13) to remove
+NY, U.S.A.), and were lyophilized and stored at -80°C. reads that failed to meet a minimum quality score of 28 and
+Culture filtrates were filtered through a 0.22-um filter (EMD minimum length of 90 nucleotides. Tophat2 (version 2.0.10)
+Millipore, Billerica, MA, U.S.A.) and were stored at 4°C. (Kim et al. 2013) was applied in default mode with the
+SDS-susceptible soybean cultivar Essex plants were grown in a F. virguliforme Mont-1 genome and annotation as reference
+A
+10.0
+In planta 5dpi
+WT
+Afvnis1-1
+7.5
+Afvnis1-1:fvnis1-1
+5.0
+2.5
+0.0
+fvtox1 fvtox2 fvnis1 fvcp1 fvcp2 fvcp3 fvcdip1 fvnlp1 fvnlp2 fvnlp3 fvnip4 fvpks1 fvpks2 fvpks3 fvpks4
+B
+C 40 1
+35
+be
+be b
+30
+d bed cd
+25
+20
+€
+15
+-
+WT
+-
+4fvnis1-1
+I
+4fvnis1-2
+10 -
+I I
+5 a
+0
+A W y y X
+4finis1-3
+4fmisl-1-fumisl-1
+Afmisl-1-fumis)-2
+1 //
+Fig. 6. Afvnisl mutants maintained phytotoxicity on soybean leaves. A,Fusarium virguliforme wild type (WT),Afvnisl mutants, andfvnisl complementation
+strains exhibited similar expression levels on genes that encode polyketide synthases and other phytotoxic effectors other than FVNIS1. The results indicated
+target gene replacement of funisl did not affect other phenotypes. B, Culture filtrates of Afvnisl mutants displayed reduced phytotoxicity but still caused
+interveinal chlorosis and some necrosis. C, Quantification ofthe culture filtrate phytotoxicity througha stem-cutting assay over 7 days. The area under disease
+progress curve was used to represent phytotoxicity of WT, Afvnisl mutants, and finisl complementation strains.
+104/ Molecular Plant-Microbe Interactions
+
+
+
+(Srivastava et al. 2014). The transcripts of the six samples Effector cloning and transit expression in soybean
+were assembled by Cufflinks (version 2.2.1) and tran- through particle bombardment.
+scriptomes merged by Cuffmerge (Kim et al. 2013; Trapnell
+Mycelia 1 cDNAwas synthesized from total RNA by ProtoScript
+et al. 2012). HTSeq (version 0.6.1) (Anders et al. 2014) was First Strand cDNA synthesis kit (New England BioLabs). The
+used to count the mapped reads for each transcript. Those coding sequence of each putative phytotoxic effector-encoding
+transcripts with less than 60 reads across six libraries were gene was amplified from mycelial cDNA pools with primers
+filtered out. Augustus was used to predict putative proteins in
+(Supplementary Table S5). Each gene was cleaved with Clal
+the genome and transcriptome with F. graminearum as a (or BstBI) and Nhel and was ligated into PBR-SMV413 cut
+model organism. Default parameters were used except for the with the same restriction enzymes to produce SMV::Fv
+minexonintronprob (=0.1) and the minmeanexonintronprob plasmids. Ligated plasmids were transformed into Turbo
+(=0.4) (Keller et al. 2011). HMMER version 3.0 (Finn et al.
+Competent Escherichia coli (New England BioLabs) and
+2011) was applied to search KS (pfam ID: PF00109 and were selected by kanamycin (Fisher Scientific). Plasmid
+PF02801) and AT domains (PF00698) for PKS, A (PF00501) DNA was extracted by Qiagen spin miniprep kit (Qiagen,
+and C domains (PF00668) for NRPS, and TRI5 (PF06330) for
+Valencia, CA, U.S.A.) and inserted sequences of plasmids
+trichodiene synthase. Genes that contained at least one KS were confirmed through BigDye Terminator Sequencing
+domain and one AT domain were regarded as PKS genes. (Life Technologies) at the Roy J. Carver Biotechnology
+Genes that contained at least one A domain and one C domain Center. SMV::Fv plasmid DNA for each putative phytotoxin
+were regarded as NRPS genes. SignalP (version 4.1) was used gene (50 ug) was precipitated onto 1.6-um gold micro-
+to predict proteins with secretory peptides but not the trans- carriers. Gold microcarriers were delivered into unifoliolate
+membrane region (Petersen et al. 2011). Annotation and leaves of 10-day-old soybeans by the Helios gene gun system
+protein domain prediction was further analyzed by BLASTP (Bio-Rad, Hercules, CA, U.S.A.). Inoculated soybeans were
+and hmmsearch.
+covered with plastic bags in the dark overnight before
+moving into growth chambers. Total RNA of inoculated
+Identification and characterization
+soybeans was extracted at the second trifoliate. RT-PCR and
+of phytotoxic secondary metabolites.
+Sanger sequencing were performed to check the stability of
+The N terminal and C terminal of PKS amino acid sequences inserted genes. Leaf sap from gene gun-inoculated soybean
+were concatenated to represent one PKS. For NRPS, the protein plants was used to mechanically inoculate the unifoliolate
+sequences of A domains were identified as separate inputs leaves of 10-day-old soybeans using Carborundum as an
+(Gallo et al. 2013). Protein sequence alignments were con- abrasive, and the symptoms and stability of inserted sequences
+ductedby MUSCLE and maximum-likelihood trees with 1,000 were confirmed again.
+bootstrap replicates were constructed by MEGA6 (version
+6.0.6) (Tamura et al. 2013), using the LG+G+Iand rtREV+G+F Quantification of SMV expression qRT-PCR
+models for PKS and NRPS, respectively.
+and foliar symptom severity evaluation. by
+Five-milliliter cell-free culture filtrates were serially treated
+Total RNA was extracted lby TRIzol at 20, 25, 30, 35, and 140
+with 5 ml each of acetonitrile (Fisher Scientific), chloroform dpi from leaves of soybeans that were inoculated with SMV,
+(MP Biomedicals), and ethyl acetate (Fisher Scientific) for 5 min SMV:FvTox1, or SMV:FVNISI. Random primers were used
+each, while shaking. Solvents were separatedby centrifugation at to synthesize total cDNA. Amplification efficiency of each
+4,000 rpm for 5 min. The organic layers were transferred into pair of primers for qRT-PCR was determined based on four
+2-ml tubes and were air-dried at room temperature overnight.
+replicates and each replicate contained three concentration
+Dried samples were kept at -20°C and were dissolved into 85% gradients (Supplementary Table S6). Platinum SYBR
+methanol before analyses. Samples were analyzed with the 5500 qPCR SuperMix-UDG kit (Life Technologies) and Agilent green
+QTRAPLCMS/MS system (AB Sciex, Framingham, MA, U.S.A.)
+Mx3005P qPCR System (Agilent
+were used
+with a 1200 series HPLC system (Agilent Technologies) at the
+Technologies)
+Roy J. Carver Biotechnology Center. The LC separation was for qRT-PCR experiments. A cutoff threshold lof0.1 was used
+for cycle threshold (Ct) determination. The -AACt method
+performed on an Agilent SB-Aq column (4.6 X 50 mm, 5 um)
+Livak
+(Agilent Technologies) with mobile phase A (10 mM ammonia (Schmittgen and
+2008) was used to compare the ex-
+formate in water) and mobile phase B (methanol). The flow rate
+pression of each gene to a reference gene, the soybean
+was 0.35 ml/min. The linear gradient was: Otol min, 98% A; 8to translation elongation factor 1B (Ma et al. 2013; Zhou et al.
+13min, 0% A; and 13.5to 19 min, 98% A. The autosampler was 2014). Relative expression analysis was normalizedto 20 dpi.
+Evaluation of SMV and phytotoxin
+that inserted in
+set at 5°C. The injection volume was 5 ul. Mass spectra were SMV
+times genes
+acquired with negative electrospray ionization at an ion spray
+vector was repeated three
+with two replicates per
+voltage of -4,500 V. The source temperature was 450°C. The repeat. Total measurements were pooled (n == 150) and were
+curtain gas, ion source gas 1, and ion source gas 2 were 248,
+analyzed by SAS in the proc mixed model by using three
+345, and 448 kPa, respectively. Multiple reaction moni-
+factors: gene, dpi, and gene:dpi combination. Repeats and
+toring was used to quantify target compounds: citrinin
+replicates within each repeat were assigned as random fac-
+(AdipoGen, San Diego, CA, U.S.A.) m/z 249.0 to m/z tors. The slopes of each treatment were compared with the
+177.1; fumonisin B1 (Cayman Chemical, Ann Arbor, MI, slope of SMV empty vector. Severity of foliar symptoms was
+U.S.A.) m/z 720.4 to m/z 157.0; fusaric acid (ACROS Or- graded. Total measurements (n == 90) were pooled for GLM
+ganics, Geel, Belgium) m/z 178.0 to m/z 134.0; and radi- analysis in R.
+cicol (AdipoGen) m/z 363.1 to m/z 275.0. For the phytotoxicity
+assay, each compound was adjusted to the desired concentration GWAS identification of soybean loci
+and was dissolved in 1 ml of water. Stem cuttings of soybean for SMV::FVNIS1 sensitivity.
+cultivar Essex at growth stage V1 were immersed in 1 ml of
+A total of 80 soybean PI requested from the United Stated
+solution in 50-ml polypropylene tubes for 3 h. After 3h, 50 ml of Department of Agriculture soybean germplasm collection
+water was added. The stem cuttings were incubatedas previously were evaluated for sensitivity to SMV:FVNIS1. Phenotypes
+described. After 3 days, foliar symptoms were observed and were assigned into binary outcomes such that 0 represents
+photographed.
+mosaic symptoms without necrosis and 1 represents mosaic
+Vol. 29, No. 2, 2016/ 105
+
+
+
+symptoms with necrosis. Genotypes of these soybean PI were LITERATURE CITED
+extracted from SoySNP50K (Song et al. 2013). Missing SNPS
+were imputed by BEAGLE version 3.3.2 (Browning and Abdelmajid, K. M., Ramos, L., Leandro, L., Mbofung, G., Hyten, D. L.,
+Kantartzi, S. K., Grier, R. L., IV, Njiti, V. N., Cianzio, S., and
+Browning 2009). BIC-based model selection and PCA were
+Meksem, K. 2012. The 'PI 438489B' by 'Hamilton' SNP-based
+used to evaluate population structure. Zero principal compo-
+genetic linkage map of soybean [Glycine max (L.) Merr.] identified
+nents were assigned in the GWAS model. SNPs with minor
+quantitative trait loci that underlie seedling SDS resistance. J. Plant
+allele frequency below 0.05 were excluded, leaving 35,503
+Genomic Sci. 1:18-30.
+SNPS for GWAS. Significant SNPs were identifiedby GAPIT, Abeysekara, N. S., and Bhattacharyya, M. K. 2014. Analyses of the xylem
+using the MLM model (Lipka et al. 2012), and PLINK, using
+sap proteomes identified candidate Fusarium virguliforme proteinacious
+toxins. PLOS One 9:e93667. aetiolsT/,emadpm.onel.
+the Cochran-Armitage trend test model (Purcell et al. 2007). Abeysekara, N. S., Faris, J. D., Chao, S., McClean, P. E., and Friesen, T. L.
+A 200-Mb region that harbors the significant SNPS in the
+2012. Whole-genome QTL analysis of Stagonospora nodorum blotch
+center was further extracted for Fisher's exact test to confirm
+resistance and validation of the SnTox4-Snn4 interaction in hexaploid
+the associations. A cutoff false discovery rate of 0.05 and
+wheat. Phytopathology 102:94-104.
+Bonferroni-corrected threshold of 1.41-06 (P value of 0.05 Abou-Zeid, A. M. 2012. Review on citrinin: Synthetic methods, molecular
+biosynthesis and effect of plant extracts. Br. Microbiol. Res. J. 2:108-122.
+over 35,503 independent tests) were used for determining
+Anders, S., Theodor, P., and Huber, W. 2014. HTSeq-A Python framework
+significant SNPS.
+to work with high-throughput sequencing data. Published online: //biorxiv.
+org. BioRxiv, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY,
+Construction of Afvnisl deletion mutants
+U.S.A.
+and complementation strains.
+Aoki, T., O'Donnell, K., Homma, Y., and Lattanzi, A. R. 2003. Sudden-
+A split-marker approach was used to generate fvnisl mu-
+death syndrome of soybean is caused by two morphologically and
+tants (Suppplementary Table S7). The TrpC promoter-driven
+phylogenetically distinct species within the Fusarium solani species
+complex-F virguliforme in North America and E tucumaniae in South
+hygromycin gene was cloned in between fvnisl upstream
+America. Mycologia 95:660-684.
+and downstream sequence. Upstream and downstream split Baccelli, I., Lombardi, L., Luti, S., Bernardi, R., Picciarelli, P., Scala, A.,
+markers were amplified by PCR and were delivered into
+and Pazzagli, L. 2014. Cerato-platanin induces resistance inArabidopsis
+protoplasts of F. virguliforme, following previous reported
+leaves through stomatal perception, overexpression of salicylic acid- and
+protocols (Ge et al. 2013; Mansouri et al. 2009; Szewczyk
+ethylene-signalling genes and camalexin biosynthesis. PLOS One 9:
+et al. 2006). Transformants were selected on PDA containing
+Baker, e100959. R. A., dRti037lU,emalpme.liosg and Nemec, S. 1994. Soybean sudden death syndrome:
+30 ug ofhygromycin per milliliter. Single-spore isolation was
+Isolation and identification of a new phytotoxin from cultures of the
+conducted to acquire purified mutants that were grown on
+causal agent, Fusarium solani. Phytopathology 84:1144.
+PDA containing 30 ug of hygromycin per milliliter. To con- Ballester, A.-R., Marcet-Houben, M., Levin, E., Sela, N., Selma-Lazaro, C.,
+struct complementation strains, cDNA of FvNIS1 was cloned
+Carmona, L., Wisniewski, M., Droby, S., Gonzalez-Candelas, L., and
+under TrpC promoter, and concatenated after a TrpC promoter-
+Gabaldon, T. 2015. Genome, transcriptome, and functional analyses of
+driven G418 resistant cassette. The complementation DNA
+Penicillium expansum provide new insights into secondary metabolism
+and pathogenicity. Mol. Plant-Microbe Interact. 28:232-248.
+sequence was delivered into protoplasts of Afvnisl-1, using the Berestetskiy, A. 2008. A review of fungal phytotoxins: From basic studies
+same approach described above, and was then purified on PDA
+to practical use. Appl. Biochem. Microbiol. 44:453-465.
+containing 50 ug of G418 per milliliter. Mycelia 1 morphology, Brar, H. K., Swaminathan, S., and Bhattacharyya, M. K. 2011. The
+growth rate, sporulation, and in planta expression of other
+Fusarium virguliforme toxin FvTox1 causes foliar sudden death
+phytotoxin-related genes were evaluated to examine any physi-
+syndrome-like symptoms in soybean. Mol. Plant-Microbe Interact.
+24:1179-1188.
+ological malfunction. Roots of soybean seedlings were germi- Browning, B. L., and Browning, S. R. 2009. A unified approach to genotype
+nated for 5 days at 25°C. Each radicle was inoculated with 50ul
+imputation and haplotype-phase inference for large data sets of trios and
+of 1 x 106 macroconidia per milliliter of F virguliforme. The
+unrelated individuals. Am. J. Hum. Genet. 84:210-223.
+conidia were collected from a 5-day-old culture grown on PDA. Cabral, A., Oome, S., Sander, N., Kufner, I., Nurnberger, T., and Van den
+Inoculatedradicles were incubated without light at 25°C, and
+Ackerveken, G. 2012. Nontoxic Nepl-like proteins of the downy mildew
+total RNA was extractedby TRIzol at 5 dpi. cDNA synthesis
+pathogen Hyaloperonospora arabidopsidis: Repression of necrosis-
+inducing activity by a surface-exposed region. Mol. Plant-Microbe
+and qRT-PCR were conducted as described previously. Gene
+Interact. 25:697-708.
+expression was normalized to the translation elongation Chen, S., Songkumarn,P, Venu, R. C., Gowda, M., Bellizzi, M.,Hu,J.,Liu,
+factor 1A of F virguliforme (FvEF1A) (Kim and Yun 2011).
+W., Ebbole, D., Meyers, B., Mitchell, T., and Wang, G.-L. 2013.
+In planta gene expression analysis was repeated three times
+Identification and characterization of in planta-expressed secreted
+with three replicates for each. To understand whether fvnisl
+effector proteins from Magnaporthe oryzae that induce cell death in
+rice. Mol. Plant-Microbe Interact. 26:191-202.
+mutants had reduced phytotoxicity to soybean leaves, 20- Chooi, Y.-H., and Tang, Y.2012.Navigating the fungal polyketide chemical
+day-old SDB culture filtrates of wild-type Montl, three
+space: From genes to molecules. J. Org. Chem. 77:9933-9953.
+Afvnisl mutants, and two Afvnisl-1:funis/ complementation
+Collemare, J., Griffiths, S., Iida, Y., Karimi Jashni, M., Battaglia, E., Cox,
+strains were tested through a stem-cutting assay. Foliar severity
+R.J., and de Wit, P.J. G. M. 2014. Secondary metabolism and biotrophic
+was graded daily until 7 dpi, and AUDPC was calculated to
+lifestyle in the tomato pathogen Cladosporium fulvum. PLOS One 9:
+represent the phytotoxicity ofculture filtrates. The experiment
+e85877.
+Da Lozzo, E. J., Mangrich, A. S., Rocha, M. E., de Oliveira, M. B., and
+was repeated four rtimes with three replicates in each repeat for
+Carnieri, E. G. 2002. Effects of citrinin on iron-redox cycle. Cell
+each strain. Total measurements (n == 84) were pooled for
+Biochem. Funct. 20:19-29.
+GLM analysis in R.
+Dong, S., Kong, G., Qutob, D., Yu, X., Tang, J., Kang,J., Dai, T., Wang, H.,
+Gijzen, M., and Wang, Y. 2012. The NLP toxin family in Phytophthora
+ACKNOWLEDGMENTS
+sojae includes rapidly evolving groups that lack necrosis-inducing
+activity. Mol. Plant-Microbe Interact. 25:896-909.
+We thank N. E. McCoppin for development of the SMV expression Faris, J. D., Zhang, Z., Lu, H., Lu, S., Reddy, L., Cloutier, S., Fellers, J. P.,
+vector. We would also like to thank C. R. Bowen, J. S. Haudenshield,
+Meinhardt, S. W., Rasmussen, J. B., Xu, S. S., Oliver, R. P., Simons,
+J.-H. Lee, S.-Y. L. Marzano, and Y. F. Zhao for their feedback on this
+K. J., and Friesen, T. L. 2010. A unique wheat disease resistance-like
+study and A. E. Lipka for his assistance with the GWAS analysis. The
+gene governs efectetrigeredsusepuibiy to necrotrophic pathogens.
+North Central Soybean Research Program and the United States De-
+Proc. Natl. Acad. Sci. U.S.A. 107:13544-13549.
+partment of Agriculure-Agricutural Research Service partially funded Feng, B.-Z., Zhu, X.-P., Fu, L., Lv, R.-F., Storey, D., Tooley, P.,
+this project.
+and Zhang, X.-G. 2014. Characterization of necrosis-inducing
+106 / Molecular Plant-Microbe Interactions
+
+
+
+NLP proteins in Phytophthora capsici. BMC Plant Biol. 14:126. doi:
+pathogenic and saprobic ascomycetes. Proc. Natl. Acad. Sci. U.S.A. 100:
+10.11861471-29-14-126. Published online.
+15670-15675.
+Finn, R. D., Clements, J., and Eddy, S. R. 2011. HMMER web server: Kuroda, K., Ishii, Y., Takasu, S., Kijima, A., Matsushita, K., Watanabe, M.,
+Interactive sequence similarity searching. Nucleic Acids Res. 39:
+Takahashi, H., Sugita-Konishi, Y., Sakai, H., Yanai, T., Nohmi, T.,
+W29-W37.
+Ogawa, K., and Umemura, T. 2013. Cell cycle progression, but not
+Frias, M., Brito, N., and Gonzâlez, C. 2013. The Botrytis cinerea cerato-
+genotoxic activity, mainly contributes to citrinin-induced renal carcino-
+platanin BcSpl1 is a potent inducer of systemic acquired resistance
+genesis. Toxicology 311:216-224.
+(SAR) in tobacco and generates a wave of salicylic acid expanding from Li,C., Zuo, C.,Deng, G., Kuang, R., Yang, Q.,Hu, C., Sheng, 0.,Zhang, S.,
+the site of application. Mol. Plant Pathol. 14:191-196.
+Ma, L., Wei, Y., Yang, J., Liu, S., Biswas, M. K., Viljoen, A., and Yi, G.
+Frias, M., Brito, N., Gonzâlez, M., and Gonzâlez, C. 2014. The phytotoxic
+2013. Contamination of bananas with beauvericin and fusaric acid
+activity of the cerato-platanin BcSpl1 resides in a two-peptide motif on
+produced by Fusarium oxysporum f. sp. cubense. PLOS One 8:e70226.
+the protein surface. Mol. Plant Pathol. 15:342-351.
+amtiol3Tlipeumlpm.amnwzk
+Frias, M., Gonzâlez, C., and Brito, N. 2011. BcSpl1, a cerato-platanin Lipka, A. E., Tian, F., Wang, Q., Peiffer, J., Li, M., Bradbury, P. J., Gore,
+family protein, contributes to Botrytis cinerea virulence and elicits the
+M. A., Buckler, E. S., and Zhang, Z. 2012. GAPIT: Genome association
+hypersensitive response in the host. New Phytol. 192:483-495.
+and prediction integrated tool. Bioinformatics 28:2397-2399.
+Friesen, T., and Faris, J.D. 2010.Characterization ofthe wheat-Stagonospora Liu, Z., Faris, J. D., Oliver, R. P., Tan, K.-C., Solomon, P. S., McDonald,
+nodorum disease system: What is the molecular basis of this quantitative
+M. C., McDonald, B., Nunez, A., S., L., Rasmussen, J. B., and Friesen,
+necrotrophic disease interaction? Can. J. Plant Pathol. 32:20-28.
+T. L. 2009. SnTox3 acts in effector triggered susceptibility to induce
+Friesen, T. L., Meinhardt, S. W., and Faris, J. D. 2007. The Stagonospora
+disease on wheat carrying the Snn3 gene. PLOS Pathog 5:e1000581. doi:
+nodorum-wheat pathosystem involves multiple proteinaceous host-
+10.371jgumlppa.icossl.
+selective toxins and corresponding host sensitivity genes that interact Liu, Z., Zhang, Z., Faris, J. D., Oliver, R. P., Syme, R., McDonald, M. C.,
+in an inverse gene-for-gene manner. Plant J. 51:681-692.
+McDonald, B. A., Solomon, P.S.,Lu, S., Shelver, W. L., Xu, S.,andFriesen,
+Gallo, A., Ferrara, M., and Perrone, G. 2013. Phylogenetic study of
+T. L. 2012. The cysteine rich necrotrophic effector SnTox1 produced by
+polyketide synthases and nonribosomal peptide synthetases involved in
+Stagonospora nodorum triggers susceptibility of wheat lines harboring
+the biosynthesis of mycotoxins. Toxins (Basel) 5:717-742.
+Snnl. PLOS Pathog. 8:e1002467. detlisTlpeumalputozks.
+Ge, C.-Y., Duan, Y.-B., Zhou, M.-G., and Chen, C.-J. 2013. A protoplast Ma, S., Niu, H., Liu, C., Zhang,J., Hou, C.,and Wang, D. 2013. Expression
+transformation system for gene deletion and complementation in
+stabilities of candidate reference genes for RT-qPCR under different
+Sclerotinia sclerotiorum. J. Phytopathol. 161:800-806.
+stress conditions in soybean. PLOS One 8:e75271. doi:10.1371/joumal.
+Hartman, G. L., Chang, H.-X., and Leandro, L. F. 2015. Research advances
+pone.0075271.
+and management of soybean sudden death syndrome. Crop Prot. 73:60- Mansouri, S., Wuk, R., Rep, M., and Fakhoury, A. M. 2009. Transformation
+66.
+of Fusarium virguliforme, the causal agent of sudden death syndrome of
+Hartman, G. L., Huang, Y. H., and Li, S. 2004. Phytotoxicity of Fusarium
+soybean. J. Phytopathol. 157:319-321.
+solani culture filtrates from soybean and other hosts assayed by stem Moffat, C. S., See, P. T., and Oliver, R. P. 2014. Generation of a ToxA
+cuttings. Australas. Plant Pathol. 33:9-15.
+knockout strain of the wheat tan spot pathogen Pyrenophora tritici-
+Irieda, H., Maeda, H., Akiyama, K., Hagiwara, A., Saitoh, H., Uemura, A.,
+repentis. Mol. Plant Pathol. 15:918-926.
+Terauchi, R., and Takano, Y. 2014. Colletotrichum orbiculare secretes Oliver, R. P., Friesen, T. L., Faris, J. D., and Solomon, P. S. 2012.
+virulence effectors to a biotrophic interface at the primary hyphal neck
+Stagonospora nodorum: From pathology to genomics and host re-
+via exocytosis coupled with SEC22-mediated traffic. Plant Cell 26:
+sistance. Annu. Rev. Phytopathol. 50:23-43.
+2265-2281.
+Oome, S., and Van den Ackerveken, G. 2014. Comparative and functional
+Jeong, J. S., Mitchell,T. K., and Dean, R. A. 2007. The Magnaporthe grisea
+analysis of the widely occurring family of Nep1-like proteins. Mol.
+snodprotl homolog, MSP1, is required for virulence. FEMS (Fed. Eur.
+Plant-Microbe Interact. 27:1081-1094.
+Microbiol. Soc.) Microbiol. Lett. 273:157-165.
+Petersen, T. N., Brunak, S., von Heijne, G., and Nielsen, H. 2011. SignalP
+Jin, H., Hartman, G. L., Nickell, C. D., and Widholm, J. M. 1996.
+4.0: Discriminating signal peptides from transmembrane regions. Nat.
+Characterization and purification ofa phytotoxin produced by Fusarium
+Methods 8:785-786.
+solani, the causal agent of soybean sudden death syndrome. Phytopath- Piper, P. W., andMillson, S. H. 2012. Spotlight ton the microbes that produce
+ology 86:277-282.
+heat shock protein 90-targeting antibiotics. Open Biol. 2:120138.
+Kanneganti, T.-D., Huitema, E., Cakir, C., and Kamoun, S. 2006.
+doi10.1098/rsob.120138.
+Synergistic interactions of the plant cell death pathways induced by
+Pudake, R. N., Swaminathan, S., Sahu, B. B., Leandro, L. F., and
+Phytophthora infestans Nepl-like protein PINPP1.1 and INF1 elicitin.
+Bhattacharyya, M. K. 2013. Investigation of the Fusarium virguliforme
+Mol. Plant-Microbe Interact. 19:854-863.
+fvtoxl mutants revealed that the FvTox1 toxin is involved in foliar
+Keller, O., Kollmar, M., Stanke, M., and Waack, S. 2011. A novel hybrid
+sudden death syndrome development in soybean. Curr. Genet. 59:107-
+gene prediction method employing protein multiple sequence align-
+117.
+ments. Bioinformatics 27:757-763.
+Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. A. R.,
+Kelley, B. S., Lee, S.-J., Damasceno, C. M. B., Chakravarthy, S., Kim,
+Bender, D., Maller, J., Sklar, P., de Bakker, P. I. W., Daly, M. J., and
+B.-D., Martin, G. B., and Rose, J. K. C. 2010. A secreted effector protein
+Sham, P. C. 2007. PLINK: A tool set for whole-genome association and
+(SNE1) from Phytophthora infestans is a broadly acting suppressor of
+population-based linkage analyses. Am. J. Hum. Genet. 81:559-575.
+programmed cell death. Plant J. 62:357-366.
+Qutob, D., Kamoun, S., and Gijzen, M. 2002. Expression of faPhytophthora
+Kim, D., Pertea, G., Trapnell, C., Pimentel, H., Kelley, R., and Salzberg,
+sojae necrosis-inducing protein occurs during transition from biotrophy
+S. L. 2013. TopHat2: Accurate alignment of transcriptomes in the pres-
+to necrotrophy. Plant J. 32:361-373.
+ence of insertions, deletions and gene fusions. Genome Biol. 14:R36- Ribeiro, S. M., Chagas, G. M., Campello, A. P., and Kluppel, M. L. 1997.
+R48.
+Mechanism of citrinin-induced dysfunction of mitochondria. V. Effect
+Kim, H.-K., and Yun, S.-H. 2011. Evaluation of potential reference genes
+on the homeostasis of the reactive oxygen species. Cell Biochem. Funct.
+for quantitative RT-PCR analysis in Fusarium graminearum under
+15:203-209.
+different culture conditions. J. Plant Pathol. 27:301-309.
+Santhanam, P., van Esse, H. P., Albert, I., Faino, L., Nurnberger, T., and
+Kimura, M., Tokai, T., Takahashi-Ando, N., Ohsato, S., and Fujimura, M.
+Thomma, B. P. H. J. 2013. Evidence for functional diversification
+2007. Molecular and genetic studies of Fusarium trichothecene
+withinafungall INEP1-like protein family. Mol. Plant-Microbe Interact. 26:
+biosynthesis: Pathways, genes, and evolution. Biosci. Biotechnol.
+278-286.
+Biochem. 71:2105-2123.
+Schmittgen, T. D., and Livak, K.J. 2008. Analyzing real-time PCR data by
+Kleemann, J., Rincon-Rivera, L. J., Takahara, H., Neumann, U., Ver Loren
+the comparative C(T) method. Nat. Protoc. 3:1101-1108.
+van Themaat, E., van der Does, H. C., Hacquard, S., Stuber, K., Will, I., Schouten, A., van Baarlen, P., and van Kan, J. A. 2008. Phytotoxic Nepl-like
+Schmalenbach, W., Schmelzer, E., and O'Connell, R.J. 2012. Sequential
+proteins from the necrotrophic fungus Botrytis cinerea associate with
+delivery of host-induced virulence effectors by appressoria and
+membranes and the nucleus of plant cells. New Phytol. 177:493-505.
+intracellularhyphae of the phytopathogen Colletotrichum higginsianum. Shi, G., Friesen, T. L., Saini, J., Xu, S. S., Rasmussen, J.B., and Faris, J. D.
+PLOS Pathog. 8:e1002643. dwti03TUpumalyutiosas
+2015. The wheat Snn7 gene confers susceptibilityon recognition of the
+Knief, C. 2014. Analysis of plant microbe interactions in the era of next
+Parastagonospora nodorum necrotrophic effector SnTox. Plant Genome
+generation sequencing technologies. Front. Plant Sci. 5:216.
+8. doi10.3835/plantgenome2015.38020007
+Kroken, S., Glass, N. L., Taylor, J. W., Yoder, O. C., and Turgeon, B. G. Song, Q., Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W.,Nelson, R. L.,
+2003. Phylogenomic analysis of type I polyketide synthase genes in
+and Cregan, P. B. 2013. Development and evaluation of SoySNP50K, a
+Vol. 29, No. 2, 2016/107
+
+
+
+high-density genotyping array for soybean. PLOS One 8:e54985. doi:
+graminicola, a systemic vascular pathogen of maize. Mycol. Res. 113:
+101371/guamal,pom-.0s.95
+1433-1442.
+Sperschneider, J., Dodds, P. N., Gardiner, D. M., Manners, J. M., Singh,
+Wilson, L. M., Idnurm, A., and Howlett, B. J. 2002. Characterization of a
+K. B., and Taylor, J. M. 2015. Advances and challenges in computational
+gene (spl) encoding a secreted protein from Leptosphaeria maculans,
+prediction of effectors from plant pathogenic fungi. PLOS Pathog 11:
+the blackleg pathogen of Brassica napus. Mol. Plant Pathol. 3:487-493.
+e1004806. atndimuTUpemaiypaioes
+Xiang, Y., Scandiani, M. M., Herman, T. K., and Hartman, G. L. 2015.
+Srivastava, S. K., Huang, X., Brar, H. K., Fakhoury, A. M., Bluhm, B. H.,
+Optimizing production and evaluation conditions for Fusarium virguli-
+and Bhattacharyya, M. K. 2014. The genome sequence of the fungal
+forme cell-free toxic filtrates to evaluate soybean genotype responses to
+pathogen Fusarium virguliforme that causes sudden death syndrome in
+isolates causing sudden death syndrome. Plant Dis. 99:502-507.
+soybean. PLOS One 9:e81832.
+Yadav, G., Gokhale, R. S., and Mohanty, D. 2009. Towards prediction of
+Stergiopoulos, I., Collemare, J., Mehrabi, R., and De Wit, P.J. G. M. 2013.
+metabolic products of polyketide synthases: An in silico analysis. PLOS
+Phytotoxic secondary metabolites and peptides produced by plant
+Comput. Biol. 5:e1000351.
+pathogenic Dothideomycete fungi. FEMS (Fed. Eur. Microbiol. Soc.) Yang, Y., Zhang, H., Li, G., Li, W., Wang, X., and Song, F. 2009. Ectopic
+Microbiol. Rev. 37:67-93.
+expression of MgSM1, a Cerato-platanin family protein from Magna-
+Strange, R. N. 2007. Phytotoxins produced by microbial plant pathogens.
+porthe grisea, confers broad-spectrum disease resistance in Arabidopsis.
+Nat. Prod. Rep. 24:127-144.
+Plant Biotechnol. J. 7:763-777.
+Szewczyk, E., Nayak, T., Oakley, C. E., Edgerton, H., Xiong, Y., Taheri- Yekkour, A., Tran, D., Arbelet-Bonnin, D., Briand, J., Mathieu, F., Lebrihi,
+Talesh, N., Osmani, S. A., and Oakley, B. R. 2006. Fusion PCR and gene
+A., Errakhi, R., Sabaou, N., and Bouteau, F. 2015. Early events induced
+targeting in Aspergillus nidulans. Nat. Protoc. 1:3111-3120.
+by the toxin deoxynivalenol lead to programmed cell death in Nicotiana
+Tamura, K., Stecher, G., Peterson, D., Filipski, A., and Kumar, S. 2013.
+tabacum cells. Plant Sci. 238:148-157.
+MEGA6: Molecular evolutionary genetics analysis version 6.0. Mol. Yoshino, K., Irieda, H., Sugimoto,F., Yoshioka, H., Okuno, T., and Takano,
+Biol. Evol. 30:2725-2729.
+Y. 2012. Cell death of Nicotiana benthamiana is induced by secreted
+Tan, K.-C., Phan, H.T T., Rybak, K., John, E., Chooi, Y. H., Solomon, P. S.,
+protein NIS1 of Colletotrichum orbiculare and is suppressed by a
+and Oliver, R. P. 2015. Functional redundancy of necrotrophic
+homologue of CgDN3. Mol. Plant-Microbe Interact. 25:625-636.
+efctors-Consequences for expoitation for breeding. Front. Plant Sci. Zhou, B.-J., Jia, P-S., Gao, F., and Guo, H.-S. 2012. Molecular
+do61033891ph.20150501
+characterization and functional analysis of a necrosis- and ethylene-
+Trapnell, C., Roberts, A., Goff, L., Pertea, G., Kim, D., Kelley, D. R.,
+inducing, protein-encoding gene family from Verticillium dahliae. Mol.
+Pimentel, H., Salzberg, S. L., Rinn, J. L., and Pachter, L. 2012.
+Plant-Microbe Interact. 25:964-975.
+Differential gene and transcript expression analysis of RNA-seq Zhou, L., He, H., Liu, R., Han, Q., Shou, H., and Liu, B. 2014. Over-
+experiments with TopHat and Cufflinks. Nat. Protoc. 7:562-578.
+expression of GmAKT2 potassium channel enhances resistance to
+Vleeshouwers, V. G. A. A., and Oliver, R. P. 2014. Effectors as tools
+soybean mosaic virus. BMC Plant Biol. 14:154.
+in disease resistance breeding against biotrophic, hemibiotrophic,
+and necrotrophic plant pathogens. Mol. Plant-Microbe Interact.
+27:196-206.
+AUTHOR-RECOMMENDED INTERNET RESOURCE
+Wicklow, D. T., Jordan, A. M., and Gloer, J. B. 2009. Antifungal
+metabolites (monorden, monocillins I, II, III) from Colletotrichum SoyBase and the Soybean Breeder's Toolbox website: www.soybase.org
+108 3/ Molecular Plant-Microbe Interactions

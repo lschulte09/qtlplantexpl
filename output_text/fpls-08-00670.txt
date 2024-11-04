@@ -1,0 +1,982 @@
+frontiers
+ORIGINAL RESEARCH
+in Plant Science
+doi: 10389/05201700670 published: 15 May 2017
+Coektor
+Characterization of Insect
+Resistance Loci in the USDA
+Soybean Germplasm Collection
+Using Genome-Wide Association
+Studies
+Hao-Xun Chang' and Glen L. Hartman 2*
+1 Department of Plant, Soil, and Microbial Sciences, Michigan State University, East Lansing, MI, USA, 2United States
+Department of Agriculture Agricultural Research Service, University of Illinois, Urbana, IL, USA
+Management of insects that cause economic damage to yields of soybean mainly rely
+OPEN ACCESS on insecticide applications. Sources of resistance in soybean plant introductions (Pls)
+to different insect pests have been reported, and some of these sources, like for the
+Edited by:
+Tiegang Lu, soybean aphid (SBA), have been used to develop resistant soybean cultivars. With
+Chinese Academy of Agricultural the availability of SoySNP50K and the statistical power of genome-wide association
+Sciences, China studies, we integrated phenotypic data for beet armyworm, Mexican bean beetle (MBB),
+Reviewedby: potato leafhopper (PLH), SBA, soybean looper (SBL), velvetbean caterpillar (VBC), and
+Gunvant Baliram Patil,
+University of Minnesota, USA chewing damage caused by unspecified insects for a comprehensive understanding of
+Steven B. Cannon, insect resistance in the United States Department of Agriculture Soybean Germplasm
+United States Department of Collection. We identified significant single nucleotide (SNP) polymorphic markers for
+Agriculure-Agricutural Research
+Service, USA MBB, PLH, SBL, and VBC, and we highlighted several leucine-rich repeat-containing
+"Correspondence: genes and myeloblastosis transcription factors within the high linkage disequilibrium
+Glen L. Hartman region surrounding significant SNP markers. Specifically for soybean resistance to PLH,
+ghartman@allinois.edu;
+glen.hatnan@asusdagor we found the PLH locus is close but distinct to a locus for soybean pubescence density
+on chromosome 12. The results provide genetic support that pubescence density may
+Specialty section: not directly link to PLHresistance. This study offers a novel insight of soybean resistance
+This article was submitted to
+Plant Genetics and Genomics, to four insect pests and reviews resistance mapping studies for major soybean insects.
+a section ofthe journal
+Frontiers in Plant Science Keywords: genome-wide association study, soybean insect resistance
+Received: 13January 2017
+Accepted: 12 April 2017 INTRODUCTION
+Published: 15 May 2017
+Citation: Insect damage is one ofthe major limiting factors for soybean (Glycine max (L.) Merr.) production
+Chang H-X. and Hartman GL (2017) as insects vector viruses and cause damage by feeding on foliage, vascular sap, stems, roots, pods,
+Characterization oflnsect Resistance and seeds (Steffey, 2015). In order to manage yield losses, application ofinsecticides has often been
+Loci in the USDA Soybean the first tool in management. For example, insecticide usage increased in response to soybean
+Germplasm Collection Using
+aphid
+Genome-Wide Association Studies. (SBA,Aphis glycines Matsumura) dissemination in the north central region of the USA (Coupe and
+Front. Plant Sci. 8:670. Capel, 2015), where 80% of soybean production occurs. Insect damage also devastated production
+doi: 103389/p5.201700670 in the southern parts of the USA where 234 million dollars of soybean losses were reported
+Frontiers in Plant Science lwww.frontiersin.org
+1
+May 2017 Volume 81 Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+despite investing 279 million dollars on insect management The antibiotic QTL in "Dowling" and "Jackson" were mapped
+(Musser et al., 2016; Ortega et al., 2016). Soybean is one of approximately to QTL-M, and were assigned as Ragl (Resistance
+the most important field crops for providing dietary protein to Aphis glycines 1) and Rag, respectively (Li et al., 2007). Other
+and oil worldwide, and it is estimated that a 50% increase in SBA resistance QTL include antibiotic Rag2 on chr 13 (Mian
+soybean production is needed to meet the population expansion et al., 2008; Hill et al., 2009), antixenotic Rag3 and Rag3b on chr
+by 2030 (Hartman et al., 2011; Ainsworth et al., 2012). In 16 (Zhang et al., 2010, 2013), and two antibiotic recessive QTL
+addition to insecticidal use, an alternative way to control insect (raglc and rag4) on chr7 and 13, respectively (Zhang et al., 2009).
+damage is through genetic resistance. Insect resistance has been Fine mapping efforts on Ragl discovered two nucleotide binding
+widely studied and applied in breeding program for several leucine-rich repeat (NBS-LRR) genes among 13 candidate genes
+crops (Edwards and Singh, 2006; de Morals and Pinheiro, 2012). in a 115 Kb interval on chr 7, and fine mapping on Rag2
+Characterization of novel resistance to different insects may be identified one NBS-LRR gene along with seven candidate genes
+essential to sustain soybean productivity.
+in a 54 Kb region on chr 13 (Kim et al., 2010a,b). However,
+Plants defend themselves against insects in a number of ways instead ofthe NBS-LRR gene (Glymal3g26000) within the Rag2
+and mechanisms ofresistance have been described as antibiosis, region, another NBS-LRR (Glymal3g25970) that locates on the
+non-preference, and tolerance or the interaction of these three border of Rag2 was proposed to be the candidate resistance gene
+factors (Painter, 1941). While antibiosis describes the ability of based on differential expression analyses (Brechenmacher et al.,
+resistant plants to restrict insect growth or propagation, non- 2015).
+preference or later referred to as antixenosis, deters insects from
+The resolution of linkage mapping has been limited by
+feeding and propagating on resistant plants (Parrott et al., 2008). the density of traditional DNA markers, such as simple
+Both antibiosis and antixenosis resistance could be genetically sequence repeat (SSR), and by the limited recombination
+governed by the same locus in a resistant genotype. For example, that occurs during bi-parental crossing. In addition, another
+one of the major insect resistance quantitative trait loci (QTL) disadvantage of linkage mapping is the monotonous resistance
+in soybean is the QTL-E (SoyBase QTL name: corn earworm source from one of the parents. The majority of resistance to
+8-1) on chromosome (chr) 15, on linkage group E (LG-E) defoliator insects (CEW, MBB, SBL, and VBC) was derived
+(Terry et al., 2000; Hulburt et al., 2004). QTL-E contributes from three Japanese accessions (PI 171451, PI 227687, and
+26% of the antibiotic effect and 20% of the antixenotic effect PI 229358) (Parrott et al., 2008) and resistances to SBA
+of resistance to corn earworm (CEW, Helicoverpa zea Boddie) were reported in a few accessions (Dowling, PI 200538, PI
+(Boerma and Walker, 2005). QTL-E has been mapped to the 567324, PI 567537, PI 567541B, PI 567543C, PI 567597C,
+same location to the Pb locus that determines the tip phenotype and PI 587732) (Hill et al., 2004; Bales et al., 2013; Jun
+of pubescence, sharp (Pb) or blunt (pb) (Palmer and Xu, 2008; et al., 2013; Kim et al., 2014). However, SBA biotypes that
+Parrott et al., 2008; Ortega et al., 2016). Ithas been shown that the overcome different Rag resistance were reported in the field
+Pb locus provides antixenotic resistance by discouraging insect (Hill et al., 2010), and thus identification of additional resistance
+feeding on soybeans with sharp-tipped pubescence (Hulburt sources is important. With the advance in biotechnology,
+et al., 2004), a trait which is rare in domesticated soybean but methods such as Affymetrix GeneChip and genotyping-by-
+common in wild soybean (G. soja) (Broich and Palmer, 1981). sequencing enabled single nucleotide polymorphisms (SNPS)
+Another insect resistance QTL is QTL-M (SoyBase QTL name: have become useful as novel genetic markers (Barabaschia
+corn earworm 1-1) on chr 7 (LG-M) which accounts for 22% et al., 2016). High-density and high-quality SNPS across the
+of the antibiotic effect and 37% of the antixenotic effect of entire genome empowers the genome-wide association study
+resistance to CEW (Rector et al., 1998, 1999, 2000), as well (GWAS), which relies on linkage disequilibrium (LD) that
+as resistance to other insects including several lepidopteran has remained through historical recombination in a diverse
+insects such as soybean looper (SBL, Pseudoplusia includens population. Accordingly, GWAS provides better mapping
+Walker), velvetbean caterpillar (VBC, Anticarsia gemmatalis resolution and also detects multiple genetic sources in a
+Hubner) and a coleopteran insect, Mexican bean beetle (MBB, germplasm collection. The power of GWAS has been well
+Epilachna varivestis Mulsant). QTL-M also exhibits synergistic recognized in numerous studies, including those on soybean
+epistasis to QTL-G on chr 18 (LG-G, SoyBase QTL name: agronomic traits (Zhou et al., 2015) and on soybean disease
+corn earworm 6-1) that conditions antibiosis and to QTL-H resistance (Chang et al., 2016a,b,c). There are fewer GWAS
+on chr 12 (LG-H, SoyBase QTL name: corn earworm 1-2) that focusing on insect resistance in soybean (Wang et al., 2015; Liu
+conditions antixenosis (Rector et al., 1998, 2000; Zhu et al., et al., 2016).
+2008). Accordingly, QTL-M has become a major breeding target
+The goal of this study was to integrate the insect resistance
+for soybean, and a follow up study that fine-mapped QTL-M phenotypes in the Germplasm Resources Information Network
+between Sat_258 and Satt702 in a 0.25 cM interval (Parrott et al., (GRIN) (www.ars-grin.gov) and the SNPs in the Soybean
+2008).
+Germplasm Collection maintained by the United States
+Along with resistance to defoliator insects, resistance Department of Agriculture Agricultural Research Service
+to piercing-sucking insects in soybean has also been well (USDA-ARS). A comprehensive GWAS for six soybean insects,
+documented. Aphid resistance in soybean was found to be including beet armyworm (BAW, Spodoptera exigua Hubner),
+antibiotic and antixenotic in varieties "Dowling" and "Jackson," MBB, potato leafhopper (PLH, Empoasca fabae Harris), SBA,
+but only antixenotic in the variety "PI 71506" (Hill et al., 2004). SBL, and VBC, was performed to discover novel insect resistance
+Frontiers in Plant Sciencel lwww.frontiersin.org
+2
+May 20171 Volume 81Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+sources. Candidate resistance genes were highlighted for each 2006). Principal component analysis and Bayesian information
+significant result.
+criterion (BIC)-based model selection were appliedto determine
+how many principal components (PCs) should be included for
+additional population structure correction. A false-discoveryrate
+MATERIALS AND METHODS
+(FDR) using the Benjamini-Hochberg procedure at 0.05 and a
+Phenotypic and Genotypic Data
+Bonferroni-corrected p-value at 0.05 were used to determine
+significance in the multiple association tests. If the first step
+Preparation
+GWAS identified a significant SNP, the SNP was assigned as
+There were eight cases of insect-related phenotypic data in a fixed covariate in the MLM for the second of GWAS.
+the GRIN database. Data were categorical records and were
+step
+transferred
+The stepping procedure was stopped when no more significant
+to ordinal scales. Phenotypic data of BAW (data SNPS
+were indentified, and SNPS used as fixed covariates
+contributed by R. L. Nelson), SBL (data contributed by D. Gary,
+were considered as true associated signals. Pairwise LD in the
+L. Lambert, and R. L. Nelson), and VBC (data contributed by flanking region of the true associated signals were calculated
+R. L. Nelson) were recorded in five percentage ranges: (i) 0- using TASSEL5 with a slide window of 500
+20% defoliation, (ii) 21-40% defoliation, (iii) 41-60% defoliation,
+bp (Bradbury
+(iv) 61-80% defoliation, and (v) 81-100% defoliation. These et al., 2007). Candidate resistance genes were examined within
+the high LD region centering the significant SNP based on
+five ranges were converted to numbers using 1-5, respectively. the soybean genome assembly version Glyma.Wm82.al.vl.1 in
+Phenotypic data of SBA (Hill et al., 2004; Mensah et al., 2005;
+Mian et al., 2008; Bhusal et al., 2013; and data contributed by SoyBase (http-l/soybase.org).
+K. Dashiell and L. Hesler) and the defoliation damage caused
+by unspecified chewing insects (data contributed by L. Hesler) RESULTS
+were: (i) resistant, (ii) mostly resistant, and (iii) susceptible.
+These three categories were converted to 1 to 3, respectively. After extracting consensus phenotypic and genotypic data from
+An original code ranging from 1 to 5, representing little feeding the GRIN database and the SoySNP50K, there were seven cases
+to severe feeding for PLH was used (data contributed by R. for association analyses (BAW, MBB, SBA, SBL, PLH, VBC, and
+L. Nelson). Original values ranging from 1 to 5 (representing the defoliation damage caused by unspecified chewing insects).
+damage scales from 1.0 to 1.4, 1.8 to 2.2, 2.6 to 3.4, 3.8 to 4.2, For all the cases, a kinship matrix was included in the MLM.
+and 4.6 to 5.0, respectively) for MBB were used (Nelson et al., Based on the BIC-based model selection, no PC was included
+1987, 1988; Juvik et al., 1989b; Bernard et al., 1998; and data in the MLM for any case except for BAW that used three PCs.
+contributed by T. Elden). The record for CEW contained only Among these seven cases, we identified significant signals for
+27 resistant soybean accessions (Joshi, 1977), and thus the data five cases, but not for BAW or the defoliation damage caused by
+of CEW was excluded from our study. One agronomic trait, unspecified chewing insects (Table 1).
+pubescence density, in the GRIN database was also included in Mexican Bean Beetle
+our
+study. The record for pubescence density has six categories
+(MBB)
+from
+There were four SNPS on chr 11 that had a FDR below
+no pubescence to dense pubescence (glabrous, sparse, semi-
+sparse, normal, semi-dense, and dense), and these categories 0.05 and passed the Bonferonni threshold in the first step
+GWAS (Figures 1A,B). After including the
+were converted to 1-6, respectively (Nelson et al., 1987, 1988;
+most significant
+Juvik et al., 1989a,b; Coble et al., 1991; Bernard et al., 1998; Hill SNP (ss715609849) as a fixed covariate, the second step GWAS
+identified no more significant SNPS for MBB (Table 1). LD
+et al., 2005, 2008; Peregrine et al., 2008; and data contributed
+by R. L. Nelson). Because the categorical entity challenged the analysis revealed a relatively high LG condition throughout a 14
+ordinal scale for normality transformation, the raw ordinal MB region centering around $s715609849. Pairwise LD values
+data
+for most SNPS in this region were between R2 values of 0.2
+phenotypic
+were used in this study. Genotypic data were
+the SNPS derived from SoySNP50K project (Song et al., 2013). to 0.4, although a region from 27,000,000 to 30,000,000 bp on
+Preprocessing of the raw SoySNP50K data was identical to our chr 11 had higher R2 values (Figure 1C). There were two genes
+(Glymallg29010 and Glymallg29287) that contained aleucine-
+previous pipeline (Chang et al., 2016a,b,c). Soybean accessions
+with both phenotypic and genotypic data were included in the rich repeat (LRR) domain within this 3 Mb genomic region.
+association analysis. The number of SNPS with minor allele Potato Leafhopper (PLH)
+frequency (MAF) above 0.01 and the sample size (the total GWAS for PLH identified a locus on chr 12, where nine
+number ofsoybean entries) for each ofthe seven insects are listed significant SNPS passed FDR and the Bonferroni threshold
+in Table 1.
+(Figures 2A,B). After fixing the most significant SNP
+(ss715612746) as a covariate, there was no more significant
+Genome-Wide Association Study (GWAS)
+SNPs. This result indicated that the other eight SNPS might be
+and Linkage Disequilibrium (LD) Analyses
+in LD to ss715612746, and indeed the LD analysis found a very
+The R package "GAPIT2" version 2016.03.01 was applied for narrow interval (around 37,036,017-37,356,120 bp) flanked by
+the association analyses (Lipka et al., 2012; Tang et al., 2016). these SNPS on chr 12 (Figure 2C), and within this region, there
+Kinship was estimated using the VanRaden method (VanRaden, were two LRR domian-containing genes (Glymal2g33930 and
+2008) in a regular mixed linear model (MLM) (Yu et al., Glymal2g34020) and one myeloblastosis (MYB) transcription
+Frontiers in Plant Sciencel lwww.frontiersin.org
+3
+May 20171 Volume 81Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+TABLE 11 Significant single nucleotide polymorphisms (SNPS) used as fixed covariates in the regular mixed linear model (MLM) for soybean insect
+resistance and pubescence density based on a genome wide association study.
+Insect/trait* Sample Total Significant Chr. Position Position P-value
+MAF# R2 of model R2 of model FDR-adjusted
+size* SNPS SNP*
+(Wm82.a1) (Wm82.a2)
+without SNP with SNP
+P-value
+BAW
+343 37760
+Chewing insects 215 38004
+MBB
+3968 38076 Ss715609849 11 27944976 17871050 3.11 x 10-09 0.118 0.373
+0.379
+1.18 x 10-04
+PLH
+771 38200 Ss715612746 12 37356120 37312140 6.38 x 10-21 0.353 0.308
+0.394
+1.63 x 10-16
+Pubescence 13338 39891 SS715593807 6 18766611 18969749 4.53 x 10-09 0.364 0.506
+0.507
+1.30 x 10-04
+density
+Ss715604988 9 46139114 49338058 6.62 x 10-09 0.433 0.507
+0.508
+2.64 x 10-04
+SS715604998 9 46243163 49446103 1.59 X 10-08 0.444 0.508
+0.509
+6.32 x 10-04
+SS715612479 12 34799435 34760529 3.39 x 10-09 0.036 0.504
+0.506
+6.85 x 10-05
+ss715612489 12 34877806 34851942 1.81 x 10-107 0.423 0.479
+0.498 7.20 x 10-103
+Ss715612493 12 34892779 34866916 9.64 x 10-24 0.454 0.501
+0.504
+3.85 x 10-19
+Ss715612495 12 34908863 34882999 2.80 x 10-08 0.474 0.509
+0.511
+1.12 x 10-03
+Ss715612552 12 35246877 35221802 8.93 x 10-08 0.089 0.511
+0.512
+3.41 x 10-03
+Ss715612488 12 34861072 34835208 5.71 x 10-10 0.457 0.512
+0.513
+2.28 x 10-05
+Ss715612471 12 34757155 34718187 2.60 x 10-08 0.449 0.513
+0.514
+1.04 x 10-03
+Ss715612427 12 34477297 34438799 1.08 x 10-07 0.200 0.515
+0.516
+4.31 x 10-03
+SS715593807 6 18766611 18969749 4.53 x 10-09 0.364 0.506
+0.507
+1.30 x 10-04
+Ss715604988 9 46139114 49338058 6.62 x 10-09 0.433
+0.507
+0.508
+2.64 x 10-04
+SS715604998 9 46243163 49446103 1.59 x 10-08 0.444 0.508
+0.509
+6.32 x 10-04
+Ss715604810 9 44348623 47548351 8.42 x 10-08 0.103 0.514
+0.515
+2.12 x 10-03
+Ss715607455 10 44532915 45110885 1.50 x 10-06 0.204 0.516
+0.517
+2.75 x 10-02
+ss715634929 19 39828253 40043201 2.13 x 10-06 0.397 0.517
+0.518
+4.62 x 10-02
+SBA
+2075 37952 Ss715596142 7 14028462 11259155 2.73 x 10-76 0.382 0.455
+0.553
+1.04 x 10-71
+SBL
+2395 39814 Ss715592245 5 4176470 5891372 2.26 x 10-07 0.116 0.244
+0.253
+9.01 x 10-03
+VBC
+445 40000 Ss715629577 18 1935991 1936520 1.60 x 10-06 0.020 0.165
+0.210
+4.20 x 10-02
+"BAW, beet armyworm, MBB, Mexican bean beetle, PLH, potato leafhopper, SBA, soybean aphid, SBL, soybean looper; andVBC, velvetbean caterpillar
+*All from Glycine max except for one G. soja entry for BAW, 718 G. soja entries for pubescence, 313 G. soja entries for SBL, and 326 entries for VBC.
+*Signifcant SNP is defined as the fixed covariate included in the MLM that leads tonor more SNPS below FDR 0.05.
+"Minor allele frequency
+factor gene (Glymal2g33911). In addition, the location of MYB transcription factors (Glyma05g04900, Glyma05g06410)
+$s715612746 was within a pubescence density-related QTL 2-7 located in this high LD region from 4,180,000 to 7,180,000 bp.
+(qtuH-1) based on the SNP location and QTL 2-7 location
+from the genome assembly version Glyma.Wm82.a2 (Du and Velvet Bean Caterpillar (VBC)
+Fu, 2009). In order to understand the genetic architecture Two SNPs on chr 18 with a FDR below 0.05 and the significance
+of pubescence density in soybean, the phenotype record in was close but below the Bonferroni threshold (Figures 4A,B).
+the GRIN database was used to run GWAS. We discovered a After fixing the most significant SNP (ss715629577) as a
+significant locus on chr 12 (Figures S1A,B); however, the locus covariate, there were no more significant signals in the second
+for pubescence density ranged from 33 to 36 Mb whereas the step ofGWAS. LD analysis identified a region around 1,740,000-
+locus for PLH was from 37.04 to 37.36 Mb (Figures 2C,D). This 2,126,000 bp that may harbor resistance genes (Figure 4C).
+indicates that the locus for PLH resistance and the locus for There were fourLRR domain-containinggenes (Glymal8g02850,
+soybean pubescence density do not overlap (Table 1).
+Glymal8g03040, Glymal8g03053, and Glymal8g03066) located
+within this 4 Mb LD region.
+Soybean Looper (SBL)
+Only one SNP (ss715592245) was significant on chr 5 DISCUSSION
+for SBL, and there were no more signals after including
+$s715592245 as a fixed covariate in the second step of GWAS Soybean resistance mapping using GWAS has been
+(Figures 3A,B). LD analysis for ss715592245 identified a high demonstrated on a variety of diseases (Wen et al., 2014;
+LD region starting around the SNP marker toward about Vuong et al., 2015; Chang et al., 2016c) and the resistance
+a 3 Mb downstream genomic region (Figure 3C). There mechanisms have been detailed for many important soybean
+were four LRR domain-containing genes (Glyma05g05730, diseases (Whitham et al., 2016). However, there are just a
+Glyma05g06140, Glyma05g06231,and Glyma05g07050) and two few GWAS focusing on soybean insect resistance like that of
+Frontiers in Plant Sciencel lwww.frontiersin.org
+4
+May 20171 Volume 81Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+A e
+B 10 7
+c
+8
+I s
+1
+I
+: :'
+a
+2
+2
+3
+5
+2 3
+10 11 12 13 14 16 17 18 19 20
+Expected -logio(p)
+Chromosome
+C
+P
+-
+9
+co
+8
+:
+c
+8
+AL
+a
+4
+1
+3
+ a
+a
+a
+o
+a
+fI:
+tal:
+8
+21.02
+23.02
+25.02
+27.02
+29.02
+31.02
+33.02
+Position (Glyma.a1) x 106
+FIGURE 11 GWAS for Mexican bean beetle (MBB). (A) Quantile-quantile plot indicates the fitness of the regular MLM1 for MBB association analysis. (B) Manhattan
+plot identifies a significant locus on chr 11. Green dots represent the four SNPS with FDR below 0.05. Red horizontal line indicates the Bonferroni threshold. (C)
+Regional LD analysis that surrounds the most significant SNP (ss715609849), whichi is below the red triangle. The pairwise LD between SNPS (gray dots) to
+Ss715609849 follows the rightyaxis. The orange and gray color for lines indicates SNPS with FDR below or above 0.05, respectively, following the lefty axis. The red
+horizontal dash line represents the minimal significant level at the cutoff of FDR 0.05. The pink background highlights the high LD region where candidate genes were
+examined.
+the common cutworm (CCW, Spodoptera litura Fabricius) Baldwin, 2016). Advanced analyses in terms of allelic variation,
+(Wang et al., 2015; Liu et al., 2016). With the availability haplotype diversity, and genomic selection using current SNPS,
+of GRIN phenotypic data and SoySNP50K genotypic data, re-genotyped SNPS with higher marker density, or whole genome
+the aim of our study was to integrate the information for re-sequencing data may also provide better understanding of
+discovering novel insect resistance sources in the USDA Soybean insect resistance in soybean populations (Zhou et al., 2015;
+Germplasm Collection and highlight candidate resistance genes Patil et al., 2016). Essentially, molecular cloning and functional
+for each insect. In the cases of MBB, PLH, SBL, and VBC, we analysis for candidate genes are required to confirm their roles
+successfully identified significant SNPS and high LD regions. in insect resistance.
+Because mechanical studies for insect resistance discovered
+MBB is a chewing and defoliating insect that damages many
+the importance of LRR domain-containing genes (Rossi et al., legume crops including soybean. MBB is widely distributed in
+1998; Du et al., 2009) and MYB transcription factors (Misra the USA and the southern part of Canada with damage estimates
+et al., 2010), we reported these two groups of candidate genes of up to 80% defoliation during the vegetative growth stages of
+within the high LD region. Nonetheless, the possibility that soybean (Nottingham et al., 2016). The soybean cultivar "Davis"
+other candidate genes (such as metabolic enzymes or kinases) was reported to show antixenotic resistance to MBB through
+are involved in insect resistance should not be excluded coumestrol, an isoflavonoid compound (Burden and Norris,
+because insect resistance is complicated and often controlled 1992). In addition, two soybean accessions (PI 171451 and PI
+by multiple mechanisms (Mitchell et al., 2016; Schuman and 229358) were reported to display antibiotic resistance dependent
+Frontiers in Plant Sciencel lwww.frontiersin.org
+5
+May 20171 Volume 81Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+A 8 1
+B 25
+&
+20
+I 4
+15
+:
+1
+:
+I e
+10
+8
+10 11 12 13 14 15
+18 20
+Expected -logio(p)
+Chromosome
+C
+1
+9
+&
+8
+1
+:
+8
+1
+AL
+9
+a
+i
+a
+:
+ N
+o
+8
+32.36 33.36 34.36 35.36 36.36 37.36 38.36 39.36
+Position (Glyma.a1)x 106
+D
+8
+A
+9
+8
+8
+8
+8
+1 8
+AL
+I
+a
+9
+1 le
+e
+&
+a
+o
+8
+32.36 33.36 34.36 35.36 36.36 37.36 38.36 39.36
+Position (Glyma.a1)x105
+FIGURE 21 GWAS for potato leafhopper (PLH) and pubescence density. (A) Quantile-quantile ploti tindicates the fitness of the regular MLM for PLH association
+analysis. (B) Manhattan plot identifies a significant locus for PLH resistance on chr 12. Green dots represent the nine SNPS with FDR below 0.05. Red horizontal line
+indicates the Bonferroni threshold. (C) Regional LD analysis for PLH locus that surrounds the most significant SNP (ss715612746), which is below the red triangle.
+The pairwise LD between SNPS (gray dots) to ss715612746 follows the righty axis. The orange and gray color for lines indicate SNPS with FDR below or above 0.05,
+respectively, following the lefty axis. The red horizontal dash line represents the minimal significant level at the cutoff of FDR 0.05. The pink background highlights the
+high LD region where candidate genes were examined. (D) Regional LD analysis for pubescence density that surrounds the most significant SNP (ss715612489),
+shown in red triangle. The pairwise LD between SNPS (gray dots) to SS715612489 follows the right y axis. The orange and gray color for lines indicate SNPS with FDR
+below or above 0.05, respectively, following the lefty axis. The red horizontal dashed line represents the minimal significant level at the cutoff of FDRO.05. The pink
+background highlights the high LD region where candidate genes were examined. The genomic region for PLHresistance (C) and pubescence density (D) is exactly
+the same, but these two loci are not overlapping.
+Frontiers in Plant Sciencel Iwww.frontiersin.org
+6
+May 20171 Volume 81 Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+A a
+B
+6
+6
+1
+:
+1
+I
+a
+2
+3
+14 15 16 17 18 19 20
+Expected logio(p)
+Chromosome
+C
+1
+A
+9
+&
+e
+0
+o
+1
+8
+AL
+of -
+1
+S
+Ln
+a
+
+a
+*8
+-
+o
+-
+8
+1.18
+2.18
+3.18
+4.18
+5.18
+6.18
+7.18
+Position (Glyma.a1)x 106
+FIGURE 31 GWAS for soybean looper (SBL). (A) Quantile-quantile plot indicates the fitness of the regular MLMfor SBL association analysis. (B) Manhattan plot
+identifies a significant locus on chr 5. Green dots represent the one SNP with FDR below 0.05. Red horizontal line indicates the Bonferroni threshold. (C) Regional LD
+analysis that surrounds the most significant SNP (ss715592245), which is below the red triangle. The pairwise LD between SNPS (gray dots) to SS715592245 follows
+the righty axis. The orange and gray color for lines indicate SNPS with FDR below or above 0.05, respectively, following the leftya axis. The red horizontal dashed line
+represents the minimal significant level at the cutoff of FDR 0.05. The pink background highlights the high LD region where candidate genes were examined.
+on jasmonic acid regulation (Rufener et al., 1989; Iverson et al., density (Johnson and Hollowell, 1935; Elden and Lambert, 1992),
+2001). To the best ofourl knowledge, there is no genetic mapping but others suggested additional pubescence characteristics such
+study for MBB resistance in soybean or in other host plants. as orientation (Boerma et al., 1972) or chemicals in the glandular
+Our study discovered a significant SNP within a 3 Mb high LD trichomes might be more important than density (Elden and
+genomic region on the chr 11.
+Lambert, 1992; Ranger and Hower, 2001; Peiffer et al., 2009). In
+The PLH is a major pest in the USA due to its broad host the GWAS for PLH, we identified a SNP within the pubescence
+range including alfalfa, common bean, and soybean. Yield losses density QTL 2-7 (qtuH-1), which is close to pubescence density
+caused by the PLH were estimated around $66 per hectare for QTL 2-8 (qtuH-2) (Du and Fu, 2009). In addition to this
+alfalfa (Lamp et al., 1991; Baker et al., 2015) and $2 million SNP, two genetic markers for soybean CCW resistance were
+for common bean (Gonzales et al., 2002; Brisco et al., 2015). also located within qtuH-1 included Sat_218 found by linkage
+PLH prefers warmer and drier conditions, and a recent study mapping (Oki et al., 2012) and a SNP (BARC-043061-08513)
+suggested that PLHinfestation wouldbe enhancedwith increased foundby GWAS (Liu et al., 2016). These results indicatedqtuH-1
+temperatures due to climate change (Baker et al., 2015). While on chr 12 might contribute to CCW and PLH resistance through
+insecticide application is one way to control PLH, both antibiotic an antixenotic mechanism that depends on pubescence density.
+and antixenotic resistance to PLH were found in common bean On the other hand, genetic mapping for soybean pubescence
+(Brisco et al., 2015). Some studies on soybean resistance to PLH density using GWAS in our study provided a better resolution
+proposed that antixenotic resistance is governed by pubescence than previous studies using linkage mapping. We showed that
+Frontiers in Plant Sciencel www.frontiersin.org
+7
+May 20171 Volume 81 Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+A N
+B
+a
+un
+5
+1
+:
+e
+1
+I
+a
+2 3
+10 11 12 13 14 15 16 17 18 19 20
+Expected -logrolp)
+Chromosome
+C
+N
+29
+c
+8
+LO
+e
+4
+8
+AL
+€
+1
+-
+S
+a
+a
+1
+o
+8
+1.34
+2.34
+Position (Glyma.a1) x 106
+FIGURE 41 GWAS for velvetbean caterpillar (VBC). (A) Quantile-quantile plot indicates the fitness of the regular MLM for VBC association analysis. (B) Manhattan
+plot identifies a significant locus on chr 18. Green dots represent the two SNPS with FDR below 0.05. Red horizontal line indicates the Bonferroni threshold. (C)
+Regional LD analysis that surrounds the most significant SNP (ss715629577), whichi is below the red triangle. The pairwise LD between SNPS (gray dots) to
+Ss715629577 follows the rightyaxis. The orange and gray color for lines indicate SNPS with FDR below or above 0.05, respectively, following the left ty axis. The red
+horizontal dashed line represents the minimal significant level at the cutoff of FDR 0.05. The pink background highlights the high LD region where candidate genes
+were examined.
+the pubescence density locus is distant, about 3 Mb from the PLH and Smith, 1986), growth inhibitors (Smith, 1985; Beach
+locus, and the distance is larger than the average LD size of 0.25 and Todd, 1988), and phytoalexins such as coumestrol and
+Mb on chr 12 (Vuong etal., 2015). Our results supported the idea glyceollin were also reported (Liu et al., 1992). Our results
+that pubescence density may not be the major effect for PLH and discovered a new SNP on chr 5 that may harbor resistance
+another leafhopper (Empoasca terminalis Distant) resistance in to SBL, and pointed out candidate LRR domain-containing
+soybean (Boerma et al., 1972; Nasruddin and Melina, 2014).
+genes.
+SBL has become one of the most problematic pests for
+VBC is another pest that acquired insecticide-resistance
+soybean production as the insect developed resistance to (Boethel et al., 1992) and it has been regarded as the most
+carbamates, cyclodienes, DDT, organophosphates, permethrin, damaging insect for soybean in the southeastern USA (Barbara,
+and pyrethroids (Boethel et al., 1992). While soybean resistance 2014). To the best of our knowledge, there is no resistance
+to SBL has been shown to be antixenotic, the resistance mapping study for VBC in any crop. Our study identified a 4 Mb
+depends on the sharp pubescent tip and the Pb locus on chr LD region on chr 18 with four LRR domain-containing genes. It
+15 (Hulburt et al., 2004). Another study mapped antixenotic has been shown that resistance of some soybean cultivars is likely
+resistance to SBL approximately to QTL-M on chr 7 (Zhu antibiotic and two flavonoids (genistin and rutin) were reported
+et al., 2008). In addition, antibiotic resistance that relies to reduce VBC weights (Piubelli et al., 2005), but other types of
+on chemicals such as afrormosin and phaseol (Caballero candidate genes in the LD region should be considered.
+Frontiers in Plant Sciencel www.frontiersin.org
+8
+May 20171 Volume 81 Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+Studies on soybean resistance to the SBA are more abundant of SBA resistance (Brechenmacher et al., 2015). Our study
+than those on all the other insects, and the phenotypic data in provided integrated phenotypic and genotypic data and provided
+the GRIN database contains thousands of accession responses a novel insight into soybean insect resistance that might prove
+to SBA. Unfortunately, the phenotypic data is unbalanced useful for insect resistance breeding and reducing insecticide
+and only 11 soybean accessions in the GRIN database were usage.
+classified resistant or mostly resistant. Under the circumstances,
+GWAS for SBA is problematic because any SNP that is AUTHOR CONTRIBUTIONS
+completely shared by these 11 soybean accessions would be
+considered as a significant signal, and each of these SNPS HC, Completed data analyses and wrote draft ofmanuscript. GH,
+will co-occur with another SNP. The GWAS result supported Contributed to writing of manuscript.
+this and hundreds of SNPS (Figures S2A,B). When the most
+significant SNP (ss715596142) was fixed in the second step of FUNDING
+GWAS, there were no more significant signals. This observation
+indicated these SNPS might be confounded with ss715596142 Research reportedin this publication was supportedbythe USDA
+since they were highly correlated to ss715596142 or in LD Agricultural Research Service.
+with $s715596142. We found three LRR domain-containing
+genes (Glyma07g13440, Glyma07g14810, and Glyma07g14791) ACKNOWLEDGMENTS
+and one MYB transcription factor (Glyma07g14480) under a
+LD region of ss715596142 (from 12,000,000 to 14,800,000 bp) We thank the contributors that supplied data to the Germplasm
+(Figure S2C). However, the location of ss715596142 on chr Resources Information Network (GRIN) (www.ars-grin.gov) and
+7 differs from Ragl and the two proposed candidate LRR- the SNPs of Soybean Germplasm Collection that maintained
+containing genes (Glyma07g06890 and Glyma07 g06920) in the by the United States Department of Agriculture Agricultural
+Ragl locus (Kim et al., 2010a). Instead, ss715596142 is close Research Service (USDA-ARS). We thank T. Herman for her
+to Rag3-1, which is one of the resistance QTL reported in editorial assistance.
+soybean variety PI 567541B (Zhang et al., 2009). Additional
+evidence will be needed to support our preliminary analysis SUPPLEMENTARY MATERIAL
+for SBA.
+The Supplementary Material for this article can be found
+CONCLUSION
+online at: httpJljournal.frontiersin.orglartide/10.3389/fpls2017.
+00670/fullisupplementary-material
+In this study, we report mapping results for the first time Figure S1 I GWAS for pubescence density. (A) Quantile-quantile plot indicates
+for soybean resistance to MBB and VBC located on chr 11 the fitness of the regular MLMfor pubescence density association analysis. (B)
+and 18, respectively. While we discovered a novel region for Manhattan plot identifies a significant pubescence density locus on chr 12. Red
+SBL, a locus for PLH that is close to but distinct from the horizontal line indicates the Bonferroni threshold.
+pubescence density locus which also was found. Unfortunately, Figure S21 GWAS for soybean aphid (SBA). (A) Quantile-quantile plot
+because of the complexity of insect resistance mechanism and indicates the unfitness of the regular MLM. There are too many SNPS displaying
+the LD region for the four pests were still to broad, as dozens to significant signals due to the small pool of resistant soybean varieties. (B)
+Manhattan plot identifies a significant locus on chr 7. Green dots represent the
+hundreds of genes were found that have potential as candidate 276 SNPS with FDR below 0.05. Red horizontal line indicates the Bonferroni
+resistance genes within the LD region. We highlighted two threshold. (C) Regional LD analysis that surrounds the most significant SNP
+groups ofcandidate resistance genes that were previously proved (ss715596142), shown in red triangle. The pairwise LD between SNPS (gray dots)
+for theirfunctionsin insect resistance, but advanced studies using to Ss715596142 follows the right ty axis. The orange and gray color for lines
+additional approaches such as molecular cloning or differential indicate SNPS with FDR below or above 0.05, respectively, following the left ya axis.
+The red horizontal dashed line represents the minimal significant level at the cutoff
+expression analysis may be needed to reduce the candidate of FDRO.05. The pink background highlights the high LD region where candidate
+resistance gene pool, as was demonstrated for the Rag2 locus genes were examined.
+REFERENCES
+Barabaschia, D., Tondellia, A., Desiderioa, F., Volanteb, A.,
+Vaccinoc, P., Vale'b, G., et al. (2016). Next generation
+Ainsworth, E. A., Yendrek, C. R., Skoneczka, J. A., and Long, S. P. (2012).
+breeding. Plant Sci. 242, 3-13. doi: 10.1016/,plantsci2015.
+Accelerating yield potential in soybean: potential targets for biotechnological
+07.010
+improvement. Plant Cell Environ. 35, 38-52. doi: 10.11/,1365-30402011. Barbara, K. (2014). Velvetbean caterpillar. University of Florida Institute of
+02378.x
+Food and Agricultural Sciences (UF/IFAS). EENY-151. Available online at:
+Baker, M. B., Venugopal, P. D., and Lamp, W. O. (2015). Climate change and
+Implenemdgtudatalcetuwrialdhehetboanhem
+phenology: Empoasca fabae (Hemiptera: Cicadellidae) migration and severity Beach, R., and Todd, J. (1988). Foliage compostition and development
+ofimpact. PLOS ONE 10:e0124915. doi: 10.371jourmalpune.012915
+parameters of the soybean looper and the velvetbean caterpillar
+Bales, C., Zhang, G., Liu, M., Mensah, C., Gu, C., Song, Q, et al. (2013).
+(Lepidoptera: Noctuidae) reared on susceptible and resistant soybean
+Mapping soybean aphid resistance genes in PI 567598B. Theor. Appl. Genet.
+genotypes. J. Econ. Entomol. 81, 310-316. doi: 10.1093/jee/81.
+126, 2081-2091. doi: 10100760012-013-21209
+1.310
+Frontiers in Plant Science  www.frontiersin.org
+9
+May 2017 IVolume 81Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+Bernard, R. L., Cremeens, C. R., Cooper, R. L., Collins, F. I, Krober, O. A., Edwards, O., and Singh, K. (2006). Resistance to insect pests: what do
+Athow, K. L., et al. (1998). Evaluation of the USDA Soybean Germplasm
+legumes have to offer? Euphytica 147, 273-285. doi: 10.1007/510681-006-
+Collection: Maturity Groups 000-IV (FC 01.547-PI 266.807). Technical Bulletin 3608-1
+U.S.D.A.
+Elden, T., and Lambert, L. (1992). Mechanisms of potato leafhopper resistance
+Bhusal, S., Jiang, G.-L., Tilmon, K., and Hesler, L. (2013). Identification of soybean
+in soybean lines isogenic for pubescence type. Crop Sci. 32, 1187-1191.
+aphid resistance in early maturing genotypes of fsoybean. Crop Sci. 53, 491-499.
+doi: 102135(cropicd1992.00113X003200050026X
+doi: 1021351-ropsc2012060597
+Gonzales, J. W., Coyne, D. P., and Lindgren, D. T. (2002). Inheritance and
+Boerma, H. R., Bernard, R., and Luckmann, W. (1972). Some effects of soybean
+heritability ofleafhopper resistance in common beans (Phaseolus vulgaris L.).
+pubescence on populations of the potato leafhopper. J. Econ. Entomol. 65,
+Annu. Rep. Bean. Improv. Coop. 45, 80-81.
+78-82. doi: 10.1093/jee/65.1.78
+Hartman, G. L., West, E., and Herman, T. (2011). Crops that feed the world 2.
+Boerma, H.R., and Walker, D. (2005). Discovery and utilization ofQTLs for insect
+Soybean-worldwide production, use, and constraints causedby pathogens and
+resistance in soybean. Genetics 123, 181-189. doi: 10.10071-4020.3836-4.16
+pests.. Food: Secur. 3, 5-17. doi: 10/00781257-010-0108-1
+Boethel, D.J., Mink, J.S., Wier, A. T., Thomas, J.D., Leonard, B. R., and Gallardo, Hill, C. B., Crull, L., Herman, T. K., Voegtlin, D. J., and Hartman, G. L. (2010).
+F. (1992). "Management of insecticide resistant soybean loopers (Pseudoplusia
+A new soybean aphid (Hemiptera: Aphididae) biotype identified. J. Econ.
+includens) in the Southern United States," in Pest Management in Soybean, eds Entomol. 103, 509-515. doi: 10.1603/EC09179
+L. G. Copping, M. B. Green, and R. T. Rees (Dordrecht: Springer), 66-97.
+Hill, C. B., Kim, K. S., Crull, L., Diers, B. W., and Hartman, G. L. (2009).
+Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y.,
+Inheritance of resistance to the soybean aphid in soybean PI200538. Crop Sci.
+and Buckler, E. S. (2007). TASSEL: software for association mapping
+49, 1193-1200. doi: 1021350cropec.20090561
+of complex traits in diverse samples. Bioinformatics 23, 2633-2635. Hill, C. B., Li, Y., and Hartman, G. L. (2004). Resistance to the soybean
+doi: 10.bicinformatia@bimsos
+aphid in soybean germplasm. Crop Sci. 44, 98-106. doi: 10.2135/cropsci200
+Brechenmacher, L., Nguyen, T., Znang, N.,Jun, T.-H., Xu, D.,Mian, M. A. R.,etal.
+4.9800
+(2015). Identification ofsoybean proteins and genes differentially regulated in Hill, J. J, Peregrine, E. K., Sprau, G. L., Cremeens, C. R., Nelson, R. L.,
+near isogenic lines differing in resistance to aphid infestation. J. Proteome Res.
+Orf, J. H., et al. (2005). Evaluation of the USDA Soybean Germplasm
+14, 4137-4146. doi: 1o.02Acsjpekeme-s60146
+Collection: Maturity Groups 000-IV (PI 507670-PI 574486). Technical Bulletin
+Brisco, E., Porch, T., Cregan, P. B., and Kelly, J. (2015). Quantitative trait
+U.S.D.A.
+loci associated with resistance to Empoasca in common bean. Crop Sci. 54, Hill, J. J, Peregrine, E. K., Sprau, G. L., Cremeens, C. R., Nelson, R. L.,
+2509-2519. doi: 1021351cropx2014020159
+Orf, J. H., et al. (2008). Evaluation of the USDA Soybean Germplasm
+Broich, S., and Palmer, R. (1981). Evolutionary studies of the soybean: the
+Collection: Maturity Groups 000-IV (PI 578371 PI 612761). Technical Bulletin
+frequency and distribution of alleles among collections of Glycine max and G. U.S.D.A.
+soja of various origins. Euphytica 30, 55-64. doi: 10.1007/BF00033659
+Hulburt, D., Boerma, H. R., and All, J. (2004). Effect of pubescence tip on
+Burden, B. J, and Norris, D. B. (1992). Role of the isolflavonoid coumestrol
+soybean resistance to Lepidopteran insects. J. Econ. Entomol. 97, 621-627.
+in the constitutive antixenoxic properties of "Davis" soybeans against an
+doi: 10.1093/jee/97.2.621
+oligophagous insect, the mexican bean beetle. J. Chem. Ecol. 18, 1069-1081. Iverson, A. L., Hammond, R. B., and Iverson, L. R. (2001). Induction of soybean
+doi: 10.1007/BF00980063
+resistance tot the Mexican bean beetle (Coleoptera: Coccinellidae). J. Kans.
+Caballero, P., and Smith, C. M. (1986). Isolfalvones from an insect-resistant Enotmol. Soc. 74, 185-191.
+variety of soybean and the molecular structure of afrormosin. J. Nat. Prod. 49, Johnson, H., and Hollowell, E. (1935). Pubescent and glabrous characters of
+1126-1129. doi: 10.1021/np50048a030
+soybean as realated to resistance to injury by the potato leaf hopper. J. Agric.
+Chang, H.-X., Brown, P., Lipka, A., Domier, L. L., and Hartman, G.
+Res. 51,371-381.
+L. (2016a). Genome-wide association and genomic prediction identifies Joshi,J.(1977). Field screening of soybean germplasm (Maturity Group 00 to IV)
+associated loci and predicts the sensitivity of Tobacco ringspot virus in against H. zea damage. Soybean Gen. Newsl. 4,46.
+soybean plant introductions. BMC Genomics 17:153. doi: 10.1186/s12864-016- Jun, T.-H., Mian, M. A., and Michel, A. (2013). Genetic mapping of three
+2487-7
+quantitative trait loci for soybean aphid resistance in PI 567324. Heredity 111,
+Chang, H.-X., Domier, L. L., Radwan, O., Yendrek, C. R., Hudson, M. E., and
+16-22. doi: 10.1038/hdy.2013.10
+Hartman, G. (2016b). Identification of multiple phytotoxins produced by Juvik, G. A., Bernard, R. L., Orf, J. H., Cavins, J. F., and Thomas, D. I. (1989a).
+Fusarium virguliforme includinga phytotoxic effector (FVNIS1) associated with
+Evaluation ofthe USDA Soybean Germplasm Collection: Maturity Groups 000 to
+soybean sudden death syndrome foliar symptoms. Mol. Plant-Microbel Interact.
+IV (PI 65.549to PI 483.464). Technical Bulletin U.S.D.A.
+96, 96-108. doi: 10.1094MPM1L9-150219-R
+Juvik, G. A., Bernard, R. L., Orf, J. H., Cavins, J. F., and Thomas, D. I. (1989b).
+Chang, H.-X., Lipka, A., Domier, L. L., and Hartman, G. L. (2016c). Evaluation ofthe USDA Soybean Germplasm Collection: Maturity Groups 000 to
+Characterization of disease resistance loci in the USDA Soybean Germplasm
+IV(PI446.893 to PI 486.355). Technical Bulletin U.S.D.A.
+collection using genome-wide associations. Phytopathology 106, 1139-1151. Kim, K. S., Bellendir, S., Hudson, K. A., Hill, C. B., Hartman, G. L., Hyten,
+doi: 10L09UPHYTO0H16002H1
+D. L., et al. (2010a). Fine mapping the soybean aphid resistance gene Ragl
+Coble, C. J., Sprau, G. L., Nelson, R. L., Orf, J. H., Thomas, D. I, and Cavins,
+in soybean. Theor. Appl. Genet. 120, 1063-1071. doi: 10.10071500122-009-
+JF. (1991). Evaluation of the USDA Soybean Germplasm Collection: Maturity
+1234-8
+Groups 000 to IV (PI 490.765 to PI507.573). Technical Bulletin U.S.D.A.
+Kim, K. S., Chirumamilla, A., Hill, C. B., Hartman, G. L., and Diers, B.
+Coupe, R. H.,and Capel,P.D.( (2015). Trends in pesticide useon soybean, corn and
+W. (2014). Identification and molecular mapping of two soybean aphid
+cotton since the introduction of fmajor genetically modified crops in the United resistance genes in soybean PI 587732. Theor. Appl. Genet. 127, 1251-1259.
+States. Pest Manag. Sci. 72, 1013-1022. doi: 10.1002/ps.4082
+doi: 10.100700122-014-2969
+de Morals, A., and Pinheiro, J.B. (2012). "Breeding for resistance to insect pests," Kim, K. S., Hill, C. B., Hartman, G. L., Hyten, D. L., Hudson, M. E., and Diers,
+in Plant Breedingfor Biotic Stress Resistance, eds R. Fritsche-Netoand. A. Borém
+B. W. (2010b). Fine mapping the soybean aphid resistance gene Rag2 in
+(Berlin; Heidelberg: Springer-Verlag), 103-125.
+soybean PI 200538. Theor. Appl Genet. 121, 599-610. doi: 10.1007500122-009-
+Du, B., Zhang, W., Liu, B., Hu, J., Wei, Z., Shi, Z., et al. (2009). Identification
+1234-8
+and characterization of Bph14, a gene conferring resistance to brown Lamp, W.,Nielsen, G., and Dively, G. (1991).Insect pest-induced! losses in. Alfalfa:
+planthopper in rice. Proc. Natl. Acad. Sci. U.S.A. 106, 22163-22168.
+pattern in Maryland and implications for management. J. Econ. Entomol. 84,
+doi: 10.1073/pnas0912139106
+610-618. doi: 10.1093/je/84.2.610
+Du, W.-j., and Fu, S.-x. (2009). Analysis of QTLS for the trichome density Li, Y., Hill, C. B., Carlson, S., Diers, B. W., and Hartman, G. L. (2007).
+on the upper and downer surface of leaf blade in soybean [Glycine max
+Soybean aphid resistance genes in the soybean cultivars Dowling and) Jackson
+(L.) Merr.). Agric. Sci. China 8, 529-537. doi: 10.1016/51671-29270816
+map to linkage group M. Mol. Breed. 19, 25-34. doi: 10.1007/811032-006-
+0243-6
+9039-9
+Frontiers in Plant Sciencel lwww.frontiersin.org
+10
+May 20171 Volume 81 Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+Lipka, A., Tian, F., Wang, Q, Peiffer, J., Li, M., Bradbury, P., et al. (2012).
+Group V(FC 30265 PI 612614) and Maturity Groups VI VIII (PI 416758- PI
+GAPIT: genome association and prediction integrated tool. Bioinformatics 28,
+606432B). Technical Bulletin U.S.D.A.
+2397-2399. doi: 10.930iinformstia.but4
+Piubelli, G. C., Hoffmann-Campo, C. B., Moscardi, F., Miyakubo, S. H.,
+Liu, H., Che, Z., Zeng, X., Zhang, G., Wang, H., and Yu, D. (2016). Identification
+and de Oliveira, M. (2005). Are chemical compounds important for
+of single nucleotide polymorphisms in soybean associated with resistance
+soybean resistance to Anticarsia gemmatalis? J. Chem. Ecol. 31, 1509-1525.
+to common cutworm (Spodoptera litura Fabricius). Euphytica 209, 49-62.
+doi: 10.1007810886-05-57942
+doi: 101007810651-016-16314
+Ranger, C. M., and Hower, A. A. (2001). Role of the glandular trichomes
+Liu, S., Norris, D., Hartwig, E., and Xu, M. (1992). Inducible phytoalexins
+in resistance of perennial Alfalfa to the potato leafhopper (Homoptera:
+in juvenile soybean genotypes predict soybean looper resistance in the
+Cicadellidae).].1 Econ. Entomol. 94, 950-957. doi: 10.1603/002.0493944950
+fully developed plants. Plant Physiol. 100, 1497-1485. doi: 10.1104/pp.100. Rector, B., All,J., Parrott, W., and Boerma, H.R.(1998). Identification of molecular
+3.1479
+markersl linkedto quantitativet traitloci forsoybeanresistance to corn earworm.
+Mensah, C., DiFonzo, C., Nelson, R. L., and Wang, D. (2005). Resistance to
+Theor. Appl. Genet. 96, 786-790. doi: 1010075300120050803
+soybean aphid in early maturing soybean germplasm. Crop Sci. 45, 2228-2233. Rector, B., All, J, Parrott, W., and Boerma, H. R. (1999). Quantitative trait Loci
+doi: 102135/cropsc2004.0680
+for antixenosis resistance to corn earworm in soybean. Crop Sci. 39, 531-538.
+Mian, R. M., Kang, S.-T., Beil, S., and Hammond, R. (2008). Genetic linkage
+doi: 102135(cropuci99.0113X003902038
+mapping ofthe soybean aphid resistance gene in PI 243540. Theor. Appl. Genet. Rector, B., All, J, Parrott, W., and Boerma, H. R. (2000). Quantitative trait Loci
+117, 955-962. doi: 10/00760012-005.0835
+for antibiosis resistance to corn earworm in soybean. Crop Sci. 40, 233-238.
+Misra, P., Pandey, A., Tiwari, M., Chandrashekar, K., Sidhu, O. P., Asif, M. H.,
+doi: 1021356cropxd200.40123X
+et al. (2010). Modulation of transcriptome and metabolome of tobacco by Rossi, M., Goggin, F. L., Milligan, S. B., Kaloshian, I, Ullman, D. E., and
+Arabidopsis transcription factor, AtMYB12, leads to insect resistance. Plant
+Williamson, V.M. (1998). The nematode resistance gene Mi of tomato confers
+Physiol. 152, 2258-2268. doi: 10.104/pp.109.150979
+resistance against the potato aphid. Proc. Natl. Acad. Sci. U.S.A. 95, 9750-9754.
+Mitchell, C., Brennan, R., Graham, J, and Karley, A. J. (2016). Plant defense
+doi: 101073/pnas95.179750
+against herbivorous pests: exploiting resistance and tolerance traits for Rufener, G. II, Martin, S. S., Copper, R., and Hammond, R. (1989). Genetics
+sustainable crop protection. Front. Plant Sci. 7:1132. doi: 10.3389/fpls.2016.
+of antibiosis resistance in Mexican bean leaf beetle in soybean. Crop Sci. 29,
+01132
+618-622. doi: 102135(cropuc198.01183X002900030013x
+Musser, F. R., Catchot, A. L, Davis, J. A., Herbert, D.A., Lorenz, G. M., Reed, T., Schuman, M. C., and Baldwin, I. T. (2016). The layers of plant
+etal. (2016).2015 Soybean insect losses in the southern US. Midsouth Entomol.
+responses to insect herbivores. Annu. Rev. Entomol. 61, 373-394.
+9,5-17.
+doi: IMIWAETP-EMANTISEUS
+Nasruddin, A., and Melina, A. G. (2014). Filed evaluation of several cultivated Smith, C. M. (1985). Expression, mechanisms and chemistry of resistance in
+soybean varieties against Empoasca terminalis (Hemiptera: Cicadellidae).
+soybean, Glycine max L. (Merr.)to the soybean looper, Pseudoplusia includens
+Florida Entomol. 97, 995-1001. doi: 10.165/024.097,0357
+(Walker). Insect Sci. Appl. 6, 243-248.
+Nelson, R. L., Amdor, P. J, Orf, J. H., and Cavins, J. F. (1988). Song, Q., Hyten, D. L, Jia, G., Quigley, C., Fichus, E., Nelson, R. L., et al. (2013).
+Evaluation of the USDA Soybean Germplasm Collection: Maturity
+Development and evaluation of SoySNP50K, a high-density genotyping array
+Groups 000 to IV (PI 427.136 to PI 445.845). Technical Bulletin
+for Soybean. PLOS ONE 8:e54985. doi: 10.37Ljourmalpune.0s95
+U.S.D.A.
+Steffey, K. L. (2015). "Insects and their management," in Compendium ofSoybean
+Nelson, R. L., Amdor, P. J., Orf, J. H., Lambert, J. W., Cavins, J. F., Kleiman, R.,
+Diseases and Pests, eds G. L. Hartman, J. C. Rupe, E. F. Sikora, L. L. Domier,].
+etal. (1987). Evaluation ofthe USDA Soybean Germplasm Collection: Maturity
+A. Davis, and K. L. Steffey (St. Paul, MN: American Phytopathological Society),
+Groups 000 to IV (PI273.483 to. PI427.107). Technical Bulletin U.S.D.A.
+136-147.
+Nottingham, L., Dively, G., Schultz, P., Herbert, D., and Kuhar, T. (2016). Tang, Y., Liu, X., Wang, J,Li, M., Wang, Q, Tian, F., et al. (2016). GAPIT version
+Natural history, ecology, and management of the Mexican bean beetle 2: an enhanced integrated tool for genomic association and prediction. Plant
+(Coleoptera: Coccinellidae) in the United States. J. Integr. Pest Manag. 7, 1-12.
+Genome 9. doi: 10385p.mNgmm2RISH101
+doi: 10.109/jipm/pmv023
+Terry, L. I, Chase, K., Jarvik, T., Orf, J., Mansur, L., and Lark, K. G. (2000).
+Oki, N., Komatsu, K., Sayama, T., Ishimoto, M., Takahashi, M., and Takahashi,
+Soybean quantitative trait loci for resistance to insects. Crop Sci. 40, 375-382.
+M. (2012). Genetic analysis of antixenosis resistance to the common doi: 1021356cropxd200.4023754
+cutworm (Spodoptera litura Fabricius) and its relationship with pubescence VanRaden, P. M. (2008). Efficient methods to compute genomic predictions. J.
+characteristics in soybean (Glycine max (L.) Merr.). Breed. Sci. 61, 608-617.
+Dairy Sci. 91, 4414-4423. doi: 10.3168/ds2007-0980
+doi: 10.1270/jsbbs.61.608
+Vuong, T. D., Sonah, H., Meinhardt, C. G., Deshmukh, R., Kadam, S., Nelson,
+Ortega, M. A., All, J. N., Boerma, H. R., and Parrott, W. (2016). Pyramids
+R. L., et al. (2015). Genetic architecture of cyst nematode resistance revealed
+of QTLS enhance host-plant resistance and Bt-mediated resistance
+by genome-wide association study in soybean. BMC Genomics 16:593.
+to leaf-chewing insects in soybean. Theor. Appl. Genet. 129, 703-715.
+doi: 10.186512864-015-1811y
+doi: 1010076002.015-26587
+Wang, H., Yan, H., Du, H., Chao, M., Gao, Z., and Yu, D. (2015).
+Painter, R. H. (1941). The economic value and biologic significance of insect
+Mapping quantitative trait loci associated with soybean resistance to
+resistance in plants. J. Econ. Entomol. 34, 358-367. doi: 10.1093/jeel
+common cutworm and soybean compensatory growth after defoliation using
+34.3.358
+SNP marker-based genome- wide association analysis. Mol. Breed. 35:168.
+Palmer, R., and Xu, M. (2008). Positioning 3 qualitative trait loci on soybean
+doi: 10.1007/s11032-11015-10360-2
+molecular linkage group E.J. Hered. 99, 674-678. doi: 10.1093/jhered/esn070 Wen, Z. X., Tan, R. J., Yuan, J. Z., Bales, C., Du, W. Y., Zhang, S. C., et al.
+Parrott, W., Walker, D., Zhu, S., Boerma, H. R, and All, J. (2008). "Genomics of
+(2014). Genome-wide association mapping of quantitative resistance to sudden
+insect-soybean interactions," in Genetics and Genomics ofSoybean, edG. Stacey
+death syndrome in soybean. BMC Genomics 15:809. doi: 10.1186/1471-2164-
+(New York, NY: Springer), 269-291.
+15-809
+Patil, G., Do, T., Vuong, T. D., Valliyodan, B., Lee, J.-D., Chaudhary, J., et al. Whitham, S., Qi, M., Innes, R., Ma, W., Lopes-Caitar, V., and Hewezi, T.
+(2016). Genomic-assisted haplotype analysis and the development of high-
+(2016). Molecular soybean-pathogen intereactions. Annu. Rev. Phytopathol. 54,
+throughput SNP markers for salinity tolerance in soybean. Sci. Rep. 6:19199. 443-468. doi: 10.146/annurev-phyto-080615-100156
+doi: 10.1038/srep19199
+Yu, J, Pressoir, G., Briggs, W. H., Vroh Bi, I., Yamasaki, M., Doebley, J. F., et al.
+Peiffer, M., Tooker, J., Luthe, D., and Felton, G. (2009). Plants on early alert:
+(2006). A unified mixed-model method for association mapping that accounts
+glandular trichomes as sensors for insect therbivores. New Phytol. 184, 644-656.
+for multiple levels ofrelatedness. Nat. Genet. 38, 203-208. doi: 10.1038/ng1702
+doi: 10191498137299002:
+Zhang, G., Gu, C., and Wang, D. (2009). Molecular mapping of soybean aphid
+Peregrine, E. K., Sprau, G.L, Cremeens, C. R., Handly, P., Kilen, T. C., Smith,J.R., resistance in PI 567541B. Theor. Appl. Genet. 118, 473-482. doi: 10.10071
+et al. (2008). Evaluation ofthe USDA Soybean Germplasm Collection: Maturity
+s00122-008-0914-0
+Frontiers in Plant Sciencel lwww.frontiersin.org
+11
+May 20171 Volume 81 Article 670
+
+
+
+Chang and Hartman
+GWAS Identifies Soybean Insect Resistance
+Zhang, G., Gu, C., and Wang, D. (2010). A novel locus for soybean Disclosure: Trade and manufacturers' names are necessary to report factually on
+aphid resistance. Theor. Appl. Genet. 120, 1183-1191. doi: 10.10071 available data; however, the USDA neither guarantees nor warrants the standard of
+s00122-009-1245-5
+the product, and the use ofthe name by USDA implies no approval ofthe product
+Zhang, G., Gu, C., and Wang, D. (2013). Mapping and to the exclusion of others that may also be suitable.
+validation of a gene for soybean aphid resistance in PI
+567537. Mol. Breed. 32, 131-138. doi: 10.1007/811032-013- Conflict of Interest Statement: The authors declare that the research was
+9857-5
+conducted in the absence of any commercial or financial relationships that could
+Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., et al. (2015). Resequencing be construed as aj potential conflict ofi interest.
+302 wild and cultivated accessions identifies genes related to domestication
+and improvement in soybean. Nat. Biotechnol. 33, 408-414. doi: 10.1038/ Copyright o 2017 Chang and Hartman. This is an open-access article distributed
+nbt.3096
+under the terms of the Creative Commons Attribution License (CC BY). The use,
+Zhu, S., Walker, D., Boerma, H. R., All, J., and Parrott, W. (2008). Fine distribution or reproduction in other forums is permitted, provided the original
+mapping ofa major insect resistance QTL in soybean and its interaction with author(s) or licensor are credited and that the original publication in this journal
+minor resistance QTLs. Crop Sci. 46, 1094-1099. doi: 10.2135/cropsci2005. is cited, in accordance with accepted academic practice. No use, distribution or
+06-0109
+reproduction is permitted which does not comply with these terms.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+12
+May 20171 Volume 81 Article 670

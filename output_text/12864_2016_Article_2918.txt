@@ -1,0 +1,1228 @@
+Schneider et al. BMC Genomics (2016) 17:607
+DOI 10118651286401629185
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+CrossMark
+Genome-wide association mapping of
+partial resistance to Phytophthora sojae in
+soybean plant introductions from the
+Republic of Korea
+Rhiannon Schneider12 William Rolling?,Qijian Song', Perry Cregan*, Anne E. Dorrance35 and Leah K McHale 1,3*
+Abstract
+Background: Phytophthora root and stem rot is one of the most yield-limiting diseases of soybean [Glycine max
+(L) Merr], caused by the oomycete Phytophthora sojae. Partial resistance is controlled by several genes and,
+compared to single gene (Rps gene) resistance to P. sojae, places less selection pressure on P. sojae populations.
+Thus, partial resistance provides a more durable resistance against the pathogen. In previous work, plant
+introductions (Pls) originating from the Republic of Korea (S. Korea) have shown to be excellent sources for high
+levels of partial resistance against P. sojae.
+Results: Resistance to two highly virulent P. sojae isolates was assessed in 1395 Pls from S. Korea via a greenhouse
+layer test. Lines exhibiting possible Rps gene immunity or rot due to other pathogens were removed and the
+remaining 800 lines were used to identify regions of quantitative resistance using genome-wide association
+mapping. Sixteen SNP markers on chromosomes 3, 13 and 19 were significantly associated with partial resistance to
+P. sojae and were grouped into seven quantitative trait loci (QTL) by linkage disequilibrium blocks. Two QTL on
+chromosome 3 and three QTL on chromosome 19 represent possible novel loci for partial resistance to P. sojae.
+While candidate genes at QTL varied in their predicted functions, the coincidence of QTLS 3-2 and 13-1 on
+chromosomes 3 and 13, respectively, with Rps genes and resistance gene analogs provided support for the
+hypothesized mechanism of partial resistance involving weak R-genes.
+Conclusions: QTL contributing to partial resistance towards P. sojae in soybean germplasm originating from S.
+Korea were identified. The QTL identified in this study coincide with previously reported QTL, Rps genes, as well as
+novel loci for partial resistance. Molecular markers associated with these QTL can be used in the marker-assisted
+introgression of these alleles into elite cultivars. Annotations of genes within QTL allow hypotheses on the possible
+mechanisms of partial resistance to P. sojae.
+Keywords: Glycine max, GWAS, Haplotype, Linkage disequilibrium, Partial resistance, Phytophthora sojae, Single
+nucleotide polymorphism
+Correspondence: mchale21@osuedu
+'Department of Horticulture and Crop Science, The Ohio State University,
+Columbus, OH 43210, USA
+3Center for Applied Plant Sciences, The Ohio State University, Columbus, OH
+43210, USA
+Full list of author information is available at the end of the article
+02016 The Author(s). Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BioMed Central International License fhtp/ceatvecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+Omp/cesbecommonsoyp/pubicdomanveonlon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 2 of 14
+Background
+Improved levels of partial resistance against P. sojae in
+Phytophthora root and stem rot was the second most US soybean cultivars can be achieved through the intro-
+yield-limiting disease of soybean [Glycine max (L.) Merr] gression of novel alleles. Over 1000 soybean plant intro-
+between 1996 and 2009 [1, 2]. This disease, caused by ductions (PIs) were previously evaluated as potential
+the soil-borne oomycete pathogen Phytophthora sojae novel sources of resistance to P. sojae and those originat-
+[3], is prevalent when soil conditions become saturated ing from The Republic of Korea (S. Korea) were associ-
+[4], allowing the asexual, motile zoospores to chemotacti- ated with high levels of partial resistance [38]. Therefore,
+cally travel to soybean roots [5, 6]. Upon infection, P. sojae it was proposed that high genetic diversity for P. sojae
+will produce haustoria and acquire nutrients in a hemi- resistance may exist in PIs from S. Korea as a result of
+biotrophic manner [7]. Susceptible plants will develop the potential co-evolution between soybean and P. sojae
+lesions, experience wilting and chlorosis, and, in severe that may have occurred in this region [38].
+cases, plant death [4].
+Identification of QTL for partial resistance against P.
+Genetic resistance is an effective strategy to manage P. sojae in soybean has been limited to the cultivar Conrad
+sojae in regions with high levels of inoculum and favorable [39-44], southern germplasm V71-370 [45], and eight
+environments [8]. Soybean breeding programs have pri- accessions originating from Asia [46-50]; including four
+marily utilized single, dominant Rps-mediated resistance PIs originating from S. Korea [47-50]. Among the PIs
+in which recognition of P. sojae effector proteins initiate from S. Korea, QTL for partial resistance to P. sojae
+effector-triggered immunity, resulting in complete resist- were identified on all chromosomes (Chrs), except 5, 6,
+ance. To date, 21 Rps genes or alleles have been identified 11, 17 and 19, with between two and eight QTL identi-
+and mapped to five chromosomes [9-18]. Though poten- fied in each population and most QTL contributing less
+tially highly effective, Rps-mediated resistance is race- than 10 % of the phenotypic variation (PVE) [47-50].
+specific and effectiveness of a given Rps gene is dependent Interestingly, in a recombinant inbred line (RIL) po-
+on the population ofP. sojae present. Additionally, deploy- pulation derived from a cross between PI 427105B and
+ment of Rps genes places high selection pressures on the the susceptible breeding line OX20-8, a QTL with the
+P. sojae populations causing the population to adapt and largest PVE (up to 45 %) was identified on Chr 18 [47].
+potentially gain virulence such that the Rps gene is no lon- Given the success in identifying and diversity of QTL
+ger effective. Widespread deployment of Rps genes in soy- contributing to partial resistance from PIs, it is pertinent
+bean cultivars has resulted in the evolution of highly to further evaluate a broader array of PIs for partial re-
+diverse P. sojae populations [19] with more than 200 sistance and to identify the common alleles that may be
+physiological races (55 described) identified in the US contributing to resistance within this germplasm source.
+[20-24]. Pathogen diversity and adaptation limits the In this study 1395 PIs originating from S. Korea were
+efficacy of an Rps gene to eight to twenty years [8, 25] evaluated for partial resistance to P. sojae. A genome-
+thus, breeders cannot rely solely on Rps genes.
+wide association (GWA) analysis was performed using
+In contrast to Rps-mediated resistance, partial resistance high-density genetic markers from the Soy50KSNPChip
+is a quantitative trait, controlled by multiple genes at [51]. In this study, the extent of root rot, root weight,
+numerous loci, each contributing a small effect or a few shoot weight and plant height from inoculated plants
+loci contributing a moderate effect [26-28]. Partial resist- were combined with genotypic data to identify 16 markers
+ance to P. sojae has been shown to be effective against significantly associated with these traits across three chro-
+numerous pathotypes of P. sojae [29, 30]. Unlike Rps-me- mosomes. Associated markers were grouped into seven
+diated resistance, partial resistance to P. sojae is incom- QTL according to linkage disequilibrium and candidate
+plete, and allows some pathogen growth and reproduction genes were identified within these regions.
+[30]. This is believed to place minimal selection pressure
+on the P. sojae populations exposed to cultivars possessing Results and discussion
+partial resistance. For this reason partial resistance is Phenotypic data
+predicted to be more durable with examples such as pow- Over 1300 PIs originating from S. Korea were evaluated
+dery mildew management in winter wheat indicating ef- for their response to two virulent isolates of P. sojae,
+fectiveness on the scale of decades [31, 32]. Multiple C2S1 (vir la, 1b, 1c, 1d, 1k, 2, 3a, 3b, 3c, 4, 5, 6, 7 and
+mechanisms for partial resistance have been broadly hy- 8) and OH12108_6.3 (OH121; vir la, 1b, 1c, 1d, 1k, 2,
+pothesized [26-28]. Mechanistic studies specific to this 3a, 3c, 4, 5, 6, 7 and 8), using the greenhouse-based layer
+pathosystem have provided evidence for the involvement test assay. Phenotypic data were collected for inoculated
+of R-genes [33], components of defense signal transduction root rot score (IRRS; 1, no rot, to 9, completely rotted)
+pathways [33-35] and genes regulating plant physiology or as well as for root weight (RW), shoot weight (SW) and
+morphology [33, 35], including suberin deposition in the plant height (PH) from inoculated (I) and non-inoculated
+root [36, 37] in partial resistance to P. sojae.
+(N) assays. A total of 266 PIs were excluded from the final
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 3 of 14
+data set due to poor germination or missing data. There had IRRS BLUP values that exceeded the mean BLUE
+was no observable root rot in 306 PIs (IRRS S 1.5) following values for either the moderately susceptible check (Sloan)
+inoculation with one or both isolates of P. sojae and these or the highly susceptible check (OX20-8). IRW, ISW, IPH
+were excluded from analysis in order to eliminate any pos- showed normal distributions and IRRS had a slightly
+sible Rps-mediated resistance response. In addition, 23 PIs positive skew (Fig. 1).
+possessed a mean non-inoculated root rot score > to 1.5 All four inoculated traits were significantly correlated
+and were removed from the analysis to exclude any effects with each other, where IRW, ISW and IPH were posi-
+from potential seed-borne pathogens. The remaining 800 tively correlated, and IRRS, in which a lower value indi-
+PIs had a mean IRRS of 3.5 which ranged from 1.6 to 8.0. cates greater resistance, was negatively correlated to
+Best linear unbiased predictor (BLUP) values were calcu- IRW, ISW and IPH (Table 1). There was significant
+lated for each PI, representing the PI's genotypic value for genetic variance for the four traits in both inoculated
+each trait. Similarly, best linear unbiased estimator (BLUE) and non-inoculated treatments (Table 2). The non-
+values were calculated for each check class, which was inoculated traits, NRW, NSW and NPH were all highly
+treated as a fixed effect. In comparison to check cultivars, heritable, greater than 0.720. The heritability for the
+the PIs generally exhibited high levels of partial resistance. four inoculated traits ranged from moderately low at
+Twenty-seven PIs had lower IRRS BLUP values than 0.334 for IRW to moderately high at 0.605 for ISW
+the mean IRRS BLUE values for highly resistant checks (Table 2). In an analysis of assays with each isolate of
+(Conrad, PI407861A and PI398841); whereas no PIs P. sojae separately, resistance towards C2S1 had lower
+a Distribution of finoculated Plant Height b Distribution oflnoculated Root Rot Score
+9
+e
+&
+8
+8
+8
+6 00
+a
+8
+n 8
+9
+f
+00 -
+&
+0
+-1.5 -1.0 -0.5 00 0.5 10 1.5
+-1.0 -0.5 0.0 0.5 1.0 1.5
+BLUP Value
+BLUPValue
+C Distribution of Inoculated Root Weight
+d Distribution of finoculated Shoot Weight
+8
+8
+8
+S
+8
+5
+0
+80
+I 8
+8
+L
+9
+9
+0&
+&
+
+-02 -0.1 0.0 0.1 02 0.3
+-0.6 -0.4 -02 00 02 04 06
+BLUPValue
+BLUPValue
+Fig. 1 Distribution of BLUP values for inoculated traits. Histograms are depicted for inoculated plant height (a), inoculated root rot score
+(b), inoculated root weight (c) and inoculated shoot weight (D). Numbered arrows in histograms indicate BLUE values of checks (1 = Conrad,
+2=L L83-570, 3: == OX-20, 4 = PI398841, 5 = PI407861A, 6 = Resnik, 7= Sloan, and 8 = Williams 79)
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 4 of 14
+Table 1 Pearson's correlation coefficients (top right) and
+Population structure and linkage disequilibrium
+p-values (bottom left) for inoculated root rot score (IRRS),
+Analysis of population structure among the 800 PIs that
+inoculated root weight (IRW), inoculated shoot weigh (ISW)
+were included in the GWA analysis using ADMIXTURE
+and inoculated plant height (IPH)
+[53] indicated a continued decline in cross-validation
+IRRS
+IRW
+ISW
+IPH (CV) error as values of K were tested from 1 to 22
+IRRS
+-0.67
+-0.62
+-0.5 (Additional file 1: Figure S1A). However, subpopula-
+IRW
+<0.0001
+0.78
+0.51 tions defined at a local minimum of K=3 (Additional
+ISW
+<0.0001
+<0.0001
+0.58 file 1: Figure S1B) corresponded to differentiation of
+IPH
+<0.0001
+<0.0001
+<0.0001
+PIs by principle component analysis and was deter-
+mined to be the most likely number of subpopulations
+(Additional file 1: Figure S1C). A total of 19,303 poly-
+morphic markers were used to carry out GWA mapping
+heritability and lower disease incidence compared to in this population. Markers were at an average genome-
+OH121, where the mean of the raw IRRS for C2S1 wide density of one marker every 50.5 kb or, more specif-
+and OH121 was 2.85 and 4.13, respectively. While the ically, at a density of one marker every 29.9 and 124.4 kb
+disparity in heritability between isolates are similar to in euchromatic and heterochromatic regions, respectively.
+observations in previous reports [48, 52] and can LD decayed to half of its initial value at approximately
+likely be attributed to the reduced disease develop- 7.32 and 17.7 kb in the euchromatin and heterochromatic
+ment from the C2S1 isolate, it emphasizes the need regions, respectively. Due to LD among markers, the
+to carry out assays for partial resistance with multiple 19,303 markers could be condensed into 12,313 effective
+isolates. Although the C2S1 isolate was virulent in the markers, or an average of one effective marker approxi-
+hypocotyl test and moderately aggressive in a tray test mately every 80 kb. Linkage disequilibrium (LD) decayed
+(Additional file 1: Table S1), the aggressiveness of P. to an 2 of 0.2 at approximately 172.3 and 556.6 kb in
+sojae isolates can vary depending upon which compo- euchromatin and heterochromatic regions, respectively
+nent of partial resistance is measured in the pheno- (Fig. 2), indicating that, on average, marker density is suffi-
+typic disease assay [30, 52].
+cient to capture the majority of the genome. This effective
+number of markers (Meff) was considered the number of
+Table 2 Genetic variance (03), variance of isolate (07), genotype
+by isolate variance (Og), variance of error (02) and heritability
+(H) of each trait
+LD Decay
+Isolate
+Traite og
+o7 Ogi
+oE
+H
+a
+C251 and OH121 b IRRS 0.29*** 0.83 0.22*** 1.52*** 0.23
+IRW 0.01*** 0.00 0.01** 0.08** 0.20
+ISW 0.05*** 0.00 0.01** 0.10*** 0.78
+IPH 0.65*** 0.00 0.82*** 2.75*** 0.71
+Euchromatin
+OH121
+IRRS 0.75*** NAC NA
+1.51*** 0.50
+Heterochromatin
+IRW 0.03*** NA NA 0.06*** 0.44
+ISW 0.07*** NA NA 0.07*** 0.67
+IPH 1.43*** NA NA 3.75*** 0.43
+C251
+IRRS 0.24** NA NA
+1.55*** 0.24
+IRW 0.01** NA NA 0.09*** 0.23
+ISW 0.05*** NA NA
+0.12*** 0.43
+IPH 1.45*** NA NA
+1.88*** 0.61
+NA
+NRW 0.04*** NA NA 0.06*** 0.72
+NSW 0.09*** NA NA 0.10*** 0.78
+00
+NPH 1.15*** NA NA 1.90*** 0.71
+Asterisks indicate the level of statistical significance: * P< 0.05; ** P<0.01;
+0 100 200 300 400
+***
+500
+P< 0.001
+BIRRS inoculated root rot score, IRW inoculated root weight, ISWinoculated
+Distance
+shoot
+IPH inoculated
+non-inoculated
+(kb)
+weight,
+plant height, NRW
+root weight,
+NSW non-inoculated shoot tweight, NPH non-inoculated plant height
+Fig. 2 Linkage disequilibrium (7) as a function of physical
+DOH121: OH121086.3
+distance (kb)
+Not applicable
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 5 of 14
+independent tests and employed in a correction for 1.6 Mb region (49.4-50.7 Mb) (Fig. 4), with all ten SNPS
+multiple testing in which marker trait associations were possessing a P-value of 1.82 x 10-6 (Table 3).
+considered significant when the P-value was less than A single SNP (ss715615031) at 30.7 Mb on Chr 13 was
+a/Meff 4.06 X 10-6 [54].
+significantly associated with IRW (P-value = 1.44 x 10-6)
+(Table 3; Fig. 3b). While no significant marker-trait asso-
+GWA analysis
+ciations were identified for ISW or IPH, for IPH several
+GWA analysis of partial resistance to P. sojae has been near significant markers at r3.9 Mb on Chr 3 and
+limited to two studies, one which used 174 soybean ac- r30 Mb on Chr 13 were noted (Additional file 1: Figure
+cessions from the mini core collection of cultivated soy- S2). Near significance of Ss715615031, the significant
+bean from China with 495 SSR loci [55] and recently a marker for IRW, on Chr 13 (P-value == 4.83 x 10 and
+second study used 472 accessions from a Chinese breed- near significance of ss715585728, one of the significant
+ing program with nearly 60,000 SNPs [56]. As a result, markers for IRRS, on Chr 3 (P-value = 1.11 x 10 were
+little information is available regarding the genetic distri- observed for IPH.
+bution of alleles for partial resistance in a breadth of No significant marker-trait associations were found in
+germplasm. The present study utilized nearly 800 PIs the NRW or NPH (Additional file 1: Figure S3). Five
+and employed the largest population of any previously genomic regions were identified with significant marker
+GWA analyses performed for disease resistance in associations for NSW on Chr 2 (3.4-4.6 Mb), 3 (5.2-
+soybean [55-60]. A total of 16 significant marker-trait 5.6 Mb), 4 (6.1-6.6 Mb), 17 (8.5 Mb), and 18 (51.7-
+associations were identified for IRRS and IRW (Table 2). 53.0 Mb). However, none of the significant markers for
+These mapped to genomic regions on Chrs 3, 13 and 19 NSW were coincident with the markers identified for
+(Figs. 3 and 4). While the large number of accessions the inoculated traits, IRRS and IRW.
+assayed and limited availability of seed prohibited an
+evaluation of a potential Rps gene mediated response for Grouping of significantly associated SNPS into QTL
+each isolate and accession combination, the methods A QTL was defined as a haplotype block possessing
+used in this study applied several approaches to avoid marker(s) identified as significantly associated with a
+Rps-mediated responses. These approaches included the trait. Based on this criterion, the 16 markers significantly
+selection of complex isolates, the removal of accessions associated with IRRS or IRW were grouped into seven
+exhibiting limited root rot in inoculations with either QTL ranging in size from 176 to 48 kb. The extensive
+C2S1 or OH121, as well as the inclusion of a genotype- historical recombination present in a population of PIs
+by-isolate interaction term in the model applied. In can lead to the identification of relatively narrow QTL in
+addition, hypocotyl assays carried out on 94 randomly GWA analysis in comparison to mapping conducted in
+selected accessions included in the GWA analysis bi-parental populations. In previous mapping studies
+showed a virulent reaction of C2S1, indicating a lack of conducted with RIL and NAM populations, identified
+Rps-mediated resistance within these accessions (Additional QTL spanned an average of 6132.6 kb, with the largest
+file 1: Table S2). Within this group of accessions there is QTL encompassing 940 genes [39-50, 52]. In contrast,
+one or more individuals possessing the resistance allele for the largest QTL in this study is 304 kb in length and
+11 out of the 16 significant markers. Due to these ap- contains 13 genes.
+proaches implemented in this study, it is expected that the
+significant marker-trait associations represent partial re- Candidate genes and coincident traits for QTL 3-1, 3-2
+sistance loci. However, it cannot be ruled out that Rps-me- and 3-3
+diated resistance has been observed in a quantitaive The five significant marker-trait associations on Chr 3
+manner due to incomplete resistance as observed in the were grouped into two haplotype blocks, each possessing
+root gene Rps2 [30] or errors associated with scoring of two significant marker-IRRS associations. A fifth marker
+root rot.
+which was significantly associated with IRRS, was not in
+Genomic regions on Chrs 3 and 19 were identified significant LD with neighboring markers. These regions
+with significant marker-trait associations for IRRS. Five are referred to as QTL 3-1, 3-2 and 3-3, respectively
+SNPS on Chr 3 (ss715585728, ss715585712, Ss715586321, (Fig. 3a). QTL 3-1 is coincident with a previously ide-
+Ss715586320, Ss715586376) were located within a 0.4 Mb ntified QTL (Phytoph 14-5; www.soybase.org [61]) for
+region (3.9-4.3 Mb) (Fig. 3a). Ss715586376 was the most lesion length in a tray test of partial resistance to P. sojae
+significantly associated SNP with a P-value of 3.27 x 10-9 where the resistance allele was from a PI originating
+(Table 3). Ten SNPS on Chr 19 (ss715635897, ss715635934, from S. Korea [52]. A QTL associated with resistance to
+Ss715636056, Ss715636059, Ss715636064, ss715636073, ss7 the necrotrophic pathogen, Sclerotinia sclerotiorum, was
+15636076, ss715636077, ss715636083, ss715636084) were also in close proximity to QTL 3-1 [59, 62]. Additionally,
+significantly associated with IRRS and were located within a QTL 3-1 partially overlaps with Rpsla, b, C, d and k;
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 6 of 14
+a
+NB-LRR
+RLK-LRR
+3691222 bp
+General IDefense
+55715585498
+Non-resistance related gene
+Cell Wall Reorganization
+o 5s7155855927
+-Logzolp)
+$s7155856537 - <Glyma.03G032800
+$57155857117 -
+* L
+9eaXonO
+$s715585712-
+-
+<Glyma.036033400 <Glyma.036033500
+R
+55715585723- :axm3030308 <Giyma.03G033800
+I E
+.
+5715585728 <Gilyma.036033900
+1y
+-
+i
+<Giyma.03G034000
+5
+5s715585729- <Gly - Glyma.03G034200
+5s715585733- <Glyma.03G034500
+3
+$s715585782- <Glyma.036034600
+DE
+<
+i
+B
+5s715585823- <8kma93934298
+1
+55715586065-
+: Glyma.03G034900
+ly
+E $5715586320 <Glyma.03G035000
+ co
+<Glyma.036035100
+69715586321 < Glyma.03G035200
+:.
+55715586376 LE Glyma.03G03
+o
+Gl
+amaaNE
+$s715586406- <Glyma.036036100 yma.
+4338892bp
+b
+NB-LRR
+30683322.0
+Nonresistance related gene
+-
+-Logiolp)
+N
+55715615019 J
+y
+*
+- 2
+5s715615024
+<Glyma.136194100
+9
+E :
+-
+Ro
+5s715615031 7 <Glyma.136194200
+E 2
+<Glyma.136194300
+: >
+$s715615033 7 <Gilyma.136194400
+1
+m
+$s715615038  <Gilyma.13G194500
+N
+a
+e
+*
+30787428.0
+Fig. 3 QTLS identified for root rot score on chromosome 3 (a) and for inoculated root weight on chromosome 13 (b). The far left image isa
+Manhattan plot indicating the level of marker association with either root rot score or inoculated root weight The central image contains a
+visualization of linkage disequilibrium (white is an 72 value of zero, black is an r2 value of 1). Significant haplotype blocks are outlined in black The
+far right image is a physical map of markers (stars indicate markers significantly associated with inoculated root rot score) and candidate genes
+with text color indicate the general annotation categories related to resistance
+RpsYu25; and RpsUnl and is also nearby the putative conferred by non-canonical R-genes or, more likely, is lo-
+position of Rps7 [9, 10, 12, 15, 63] (Fig. 3a). QTL 3-1 cated upstream of the Rps genes and associated with a
+contains eight predicted genes in a 105.5 kb region novel mechanism for partial resistance.
+(Glyma.Wm82.2.vl, accessed Phytozome v10; Additional The second QTL (3-2) is 238.1 kb downstream of
+file 2: Table S3). Interestingly, while QTL 3-1 partially QTL 3-1 and is coincident with the mapped positions of
+overlaps with a number of Rps genes, none of the eight Rpsld and RpslInl [10, 15]. This region does not coin-
+predicted genes from the Williams 82 reference sequence cide with any QTL for partial resistance to P. sojae
+within this QTL were conventionally considered to be re- (Fig. 3a). Thus, QTL 3-2 may represent a novel QTL for
+lated to defense or resistance. Therefore, QTL 3-1 may be partial resistance to P. sojae. QTL 3-2 encompasses 304 kb
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 7 of 14
+49121256 Sbp
+NB-LRR
+$s715635897
+<Glyma. .19G24380 C Gilyma.19G243900
+RLK-LRR
+<avma13624 < <Glyma.196244100
+General Defense
+5s715635904
+Gilyma.19G244400
+Non-resistance related dgenes
+$s715635908
+<Glyma.196244600
+19024300 <9X30
+5s715635911
+<Glyma.196245400 <Gvma1962
+-
+SSRS
+$s715635912
+<8m:190213200
+$s715635915 /
+-Logaolp)
+5s715635917
+co 6 4 2 o $
+5s715635919 -
+3
+a 4
+55715635929
+*
+: 46
+$s715635934
+00
+1
+55715635935
+1962 4850
+-
+<Giyma.19G248800
+RE
+55715635938
+<Glyma.19G248900
+49509624bp
+-
+e
+9
+50413752bp
+T
+5
+$s715636032
+$s715636033 $s715636034 <Glyma.19G261000 <Glyma.19G261100
+<Giyma.19G261200
+ss715636036
+$s715636038 <Gilyma.19G261300
+$s715636039
+5s715636041 - 8Xm-190281589
+$s715636048 $s715636042
+196261900 <Glyma.19G261800
+$s715636052 = a E388 <Glyma.196262100
+$s715636055 6* <G Svma
+0O Sxma13023400 <Glyma.19G262700
+5s715636056
+5715636053*
+55715636060
+a.196263200
+L
+5s715636064 * <Gilyma.19G263300
+$s715636065 <Glyma.19G263400
+$s715636067 <Glyma.19G263500
+57156360735 <Glyma.19G263600
+5715636076 H <Giyma.19G263700 <Giyma.196263800
+55715636077
+55715636083 *
+5715636084 *
+50681264 bp
+Fig. 4 QTLS identified on chromosome 19 for root rot score. The far left image is a Manhattan plot indicating the level of marker association with
+either root rot score or inoculated root weight The central image contains a visualization of linkage disequilibrium (white is an 7 value of zero,
+black is an r2 value of 1). Significant haplotype blocks are outlined in black The far right image is a physical map of markers (stars indicate
+markers significantly associated with inoculated root rot score) and candidate genes with text color indicate the general annotation categories
+related to resistance
+and 13 predicted genes (Additional file 2: Table S3), seven Marker ss715586376 is located 238.1 kb downstream
+of which have putative functions relating to disease resist- of QTL 3-2 and was significantly associated with IRRS.
+ance or defense. Four of these genes (Glyma.03G034400, Marker ss715586376 was not in LD with nearby
+Glyma.03G034500, Glyma.03G034800 and Gly- markers, thus, the QTL 3-3 region was defined by the
+ma.03G034900) putatively encode a nucleotide binding two flanking markers, ss715586321 and ss715586406
+(NB) domain characteristic of R-genes [64]. In addition, (Fig. 3a). There are a total of seven genes between these
+there are two leucine-rich repeat receptor-like kinase (LRR- markers (Additional file 2: Table S3), of which three have
+RLKencoding genes in this region (Glyma.03G034200 possible roles in defense. Glyma.03G035700 putatively
+and Glyma.03G035300), a class of genes involved in encodes an abscisic acid responsive stress related protein
+basal defense and plant developmental responses [65- [70]. Glyma.03G035800 encodes a putative Alpha-expansin
+68]. Finally, Glyma.03G034100 is homologous to a Sec61 involved in cell wall extension and growth [71, 72]. Gly-
+protein transporter-encoding gene, which is involved in ma.03G035900 is a CAD1 encoding gene with Mac/per-
+activation of systemic-acquired resistance in Arabidopsis forin domains. The CAD1 encoding genes have been
+[69].
+shown to be involved in plant defense in Arabidopsis by
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 8 of 14
+Table 3 Significant marker-trait associations with identified genomic regions and chromosome location for each inoculated
+trait and model
+Trait
+Marker
+Chr.a Chr. position (bp5) QTL Minor allele frequency Additive effect PVEC p-value
+Inoculated Root Rot Score SS715585712 3
+3852888
+3-1
+0.18
+0.096
+3.162 9.14E-08
+SS715585728 3
+3865730
+3-1
+0.18
+0.0967 3.212 7.26E-08
+SS715586320 3
+4276534
+3-2
+0.21
+0.0922
+3.018 1.77E-07
+Ss715586321 3
+4277380
+3-2
+0.21
+0.0936 3.133 1.04E-07
+SS715586376 3
+4315512
+3-3
+0.2
+0.1039 3.895 3.27E-09
+Inoculated Root weight SS715615031 13 30766058
+13-1
+0.42
+-0.0695
+2.468 1.44E-06
+Inoculated Root Rot Score Ss715635897 19 49121258
+19-1
+0.01
+-0.4622
+2.513 1.82E-06
+SS715635934 19 49461582
+19-2
+0.01
+-0.4622
+2.513 1.82E-06
+SS715636056 19 50544363
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+SS715636059 19 50555433
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+Ss715636064 19 50604933
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+SS715636073 19 50663466
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+Ss715636076 19 50666563
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+SS715636077 19 50668662
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+SS715636083 19 50679714
+19-3
+0.01
+-0.4622
+2.513 1.82E-06
+SS715636084 19 50681263
+19-3
+0.01
+-0.4622 2.513 1.82E-06
+aChr chromosome
+bbp basepair position in the Glyma.Wm82.a2 assembly
+CPVE percent variance explained
+activating the salicylic acid pathway causing a hypersensi- previously identified QTL (Phytoph13-2 [61]) for partial
+tive response [73].
+resistance to P. sojae through a tray test disease assay
+[52].
+Candidate genes and coincident traits for QTL 13-1
+QTL 19-1 spans 149 kb and contains a total of 21
+Located on Chr 13, ss71565031 was significantly associ- predicted genes (Fig. 4; Additional file 2: Table S3), of
+ated with IRW (Fig. 3b). Similar to QTL 3-3, ss71565031 which seven are putative defense related genes. The
+was not located in a haplotype block. Therefore, QTL defense genes in the region include Glyma.19G245400,
+13-1 region was defined by the two flanking markers, Glyma.19G245500 and Glyma.19G245600, which encode
+ss715615924 and ss715615033 and spans 49.2 kb. QTL putative PR4-related chitin-binding proteins [74]. Gly-
+13-1 is coincident with Rps8 and Rps3 [9, 17], three ma.19G243800 encodes a putative ribose 5-phosphate
+previously identified QTL for partial resistance against isomerase. Homologs in Arabidopsis have been shown to
+P. sojae (Phytoph 11-21, 9-3, 12-1 [61]) [43, 48, 52], a function in cellulose synthase [75], which has been
+QTL for flood tolerance [48], and QTL for resistance shown to be involved in the regulation of jasmonic acid
+against S. sclerotiorum [62]. The region contains a total and ethylene [76] with mutants displaying enhanced
+of five predicted genes (Additional file 2: Table S3), of resistance to bacterial and fungal pathogens [77]. Other
+which two (Glyma.13G194100 and Glyma.13G194500) genes in the region include Glyma.19G244000 that
+are NB-LRR encoding genes.
+encodes a putative MATE efflux protein potentially
+involved in defense signaling pathways or in transporting
+Candidate genes and coincident traits for QTL 19-1, 19-2 toxic compounds from infected cells [78, 79] as well as
+and 19-3
+Glyma.19G245200 that encodes a putative auxin respon-
+A total of ten significant markers for the IRRS were lo- sive gene [70]. Finally, Glyma.19G244400 encodes a pu-
+cated on Chr 19. The significant markers were grouped tative ammonium transporter, homologs of which have
+into three QTL based on haplotype blocks, QTL 19-1, been implicated in interactions with root endophytes
+QTL 19-2 (Fig. 4) and QTL 19-3 (Fig. 4). No previously [80-82] and can act as a negative regulator of basal
+identified QTL associated with resistance to P. sojae or defense responses in Arabidopsis [83].
+other pests or pathogens were coincident with the three QTL 19-2 is 48 kb in length and located 218 kb down-
+QTL on Chr 19. However, marker ss715635897 from stream of QTL 19-1 (Fig. 4). This QTL encompassed five
+QTL 19-1 is located approximately 1.1 Mb from a predicted genes (Additional file 2: Table S3) including
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 9 of 14
+Glyma.19G248900 that encodes a putative ethylene/JA weak R-gene hypothesis, QTLs 3-2 and 13-1 are coinci-
+responsive transcription factor [70].
+dent with six NB-LRR-encoding genes and overlap with
+The third QTL identified on Chr 19 (QTL 19-3) is estimated positions of Rps genes [9, 10, 12, 15, 63].
+267 kb in length and is located 904 kb downstream of Finally, QTL 3-1 does not contain any genes normally
+QTL 19-2 (Fig. 4). It encompasses a total of 29 predicted associated with defense or development pertinent to P.
+genes (Additional file 2: Table S3), six of which have an- sojae resistance and therefore supports the idea that
+notations representative of possible defense function. quantitative defense can be conferred by a yet unknown
+These genes include Glyma.19G261000 and class of genes [27].
+Glyma.19G261700 that putatively encode LRR-RLKS, Consistent with previous studies [33], the QTL encom-
+Glyma.19G261200 that is a dicer family protein puta- pass genes functioning in a wide range of processes, poten-
+tively involved in the control of gene silencing [84], tially indicating that a number of different mechanisms
+Glyma.19G262800 and Glyma.19G262900 that puta- contribute to quantitative defense, making this germplasm
+tively encode GDSL esterase/lipases which can be associ- a welcome resource to diversify resistance genes. The
+ated with the ethylene/JA responsive defense pathways current study along with previous QTL mapping studies
+[85-87], and Glyma.19G263300 that encodes a putative have identified 33 genetic regions on 18 chromosomes with
+ethylene/JA responsive lipoxygenase [88].
+QTL for partial resistance to P. sojae [33, 39-50, 52,
+56, 61). Of the 33 regions, four are coincident with Rps-
+Inferences about mechanisms of partial resistance
+genes [9, 10, 12, 15, 63] five are coincident with QTL for
+It has been hypothesized that partial disease resistance resistance to Sudden Death Syndrome [89-93], root disease
+can be controlled through developmental or morpho- caused by members of the fungus Fusarium viguliforme, 11
+logical mechanisms, basal defense genes, production of are coincident with QTL/genes for resistance to Soybean
+antimicrobials or detoxification of phytotoxins (chemical Cyst Nematode [94-103], and 11 are coincident with QTL
+warfare), components of defense signal transduction for resistance to the necrotrophic fungal pathogen S. sclero-
+pathways, weak R-gene responses or other unknown tiorum causing Sclerotinia stem rot [59, 62, 104, 105]. The
+mechanisms [27]. While functional gene analysis is coincidence of QTL for partial resistance to P. sojae with
+required to identify mechanisms, the co-localization of QTL and R-genes for resistance to pathogens with varied
+annotated genes and QTLs can theoretically provide lifestyles provides evidence that partial resistance is likely
+evidence in support of particular mechanisms. In this conferred through a variety of different mechanisms.
+study, co-localization of annotated genes and QTLs
+provides varying levels of support for each of the afore- Conclusions
+mentioned hypotheses.
+In the present study, a GWA analysis was performed to
+Mechanisms of partial resistance associated with de- detect genomic regions contributing to quantitative resist-
+velopmental or morphological mechanisms are difficult ance to P. sojae using PIs from the Republic of Korea. In
+to assess through annotations of co-localized genes be- addition to identifying five novel QTL, QTLS that coincide
+cause there are a limited number of clearly defined path- with previously reported QTLs for resistance to P. sojae
+ways for these complex traits. However, QTLs 3-3 and were identified. Candidate genes and coincident QTL were
+19-1 contain candidate genes putatively involved in identified to explore mechanistic hypotheses of partial
+morphology and development, including cell growth and resistance, providing evidence towards a number of dif-
+cellulose production. Evidence for basal defense was ferent hypotheses including a weakened R-gene response
+found through co-localization of QTLs 3-2 and 19-3 and genes involved in morphology and development, basal
+with LRR-RLK-encoding genes. However, while LRR- defense and signal transduction. To fully characterize the
+RLKs are known to be involved in recognition of genes conferring resistance in these regions, functional
+microbe associated molecular patterns leading to basal analyses of candidate genes is necessary or in process.
+defense responses [65-67], LRR-RLK-encoding genes
+have also been implicated in a range of functions, Methods
+including plant development [68]. Transport of toxic Seed material
+compounds is a potential function of a MATE efflux- A collection of 1345 PIs from S. Korea were obtained
+encoding gene within QTL 19-1, providing a candidate from the National Plant Germplasm System, consisting
+for the chemical warfare hypothesis. QTLs 3-2, 3-3, 19-1 of 50 seeds per inbred line ranging from maturity groups
+and 19-3 encompass genes involved in defense signal I to IV. In addition to these lines, checks ("Conrad;
+transduction, with putative functions ranging from nega- 'Sloan, 'OX20-8, 'Williams 79; 'Resnik, 'L83-570, PI
+tive regulators of basal defense to the control of gene 398841 and PI 407861A) with known and varied levels
+silencing. Among the largest class of genes within these of resistance to P. sojae were included in the experimental
+QTL are NB-LRR-encoding genes [64]. In support of the design. All seeds were vapor phase sterilized following a
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 10 of 14
+chlorine gas protocol adapted from Olhoft et al. [106] root rot (mean IRRS S 1.5) with OH121 were also removed
+prior to disease assays.
+from the dataset. In addition, PIs with NRRS 2 1.5 were
+removed from the dataset, eliminating possible disease
+Disease assays
+due to contamination or seed-borne pathogens. A total of
+Pathogenicity tests were conducted prior to the pheno- 800 PIs with a mean IRRS > 1.5 for both isolates and a
+typic disease assay for selection of two P. sojae isolates mean NRRS < 1.5 were further analyzed for heritability
+based on virulence and aggressiveness. Twenty-seven iso- and GWA analysis.
+lates were tested on 15 soybean differentials in a hypocotyl
+assay for Rps-mediated resistance [38] (Additional file 1: Phenotypic data analysis
+Table S1). Virulence was measured by the percentage of BLUP values were generated for each PI for IRRS, IRW,
+susceptible (>90 % compatible reaction), and resistant ISW, IPH, NRW, NSW and NPH using PROC MIXED
+(<10 % incompatible reaction) responses in 10 soybean procedure in the software SAS (SAS 9.3, SAS Institute 163
+seedlings of each differential. Using a growth chamber Inc., Cary, NC, USA). Data were analyzed with two models.
+based tray test [39], the aggressiveness of each isolate was Using observations from both isolates, the model included
+measured according to the mean lesion length of soybean interactions with isolate: Yhjklm == R + Ih + R(I)hj + K(IR)hjk
+taproots in ten inoculated seedlings from each cultivar, + Cl + G(C)lm + IG(C)hlm + IChl + ehjklm, where H is the
+'Sloan' and 'Conrad, possessing moderate susceptibility overall mean, Ih is effect of the hth isolate, R(I)hj is the
+and a high level of partial resistance, respectively [33]. effect of the jth experimental replicate for the hth isolate,
+Isolates OH121 (vir la, 1b, 1c, 1d, 1k, 2, 3a, 3c, 4, 5, 6, 7 K(IR)hjk is the effect of the kth bench in the jth experi-
+and 8) and C2S1 (vir la, 1b, 1c, 1d, 1k, 2, 3a, 3b, 3c, 4, 5, mental replicate for the hth isolate, Cl is the effect of
+6, 7 and 8) were both recovered from soybean in Ohio the Ith class of entry [1-9 for Conrad (rps, high levels
+and were identified as moderately aggressive such that of partial resistance), L83-570 (Rps3a, moderate levels
+adequate separation of accession with low and high levels of partial resistance), OX20-8 (Rpsla, highly suscep-
+of resistance would be expected. OH121 and C2S1 also tible), PI 398841 (high levels of partial resistance), PI
+possesses complex pathotypes (Additional file 1: Table S1) 407861A (high levels of partial resistance), Resnik
+for eliminating Rps-mediated responses enabling partial (Rpslk, moderate levels of partial resistance), Sloan
+resistance in the greenhouse based layer test [107] (rps, moderately susceptible), Williams 79 (Rpslc, mo-
+could be observed. In order to further assess the poten- derate levels of partial resistance), and experimental
+tial of Rps-mediated response, hypocotyl assays were lines, respectively], G(C)lm is the effect of the mth
+conducted. Due to the limited seed quantities available genotype within class for experimental lines (genotypic
+for each accession, hypocotyl assays were conducted for variance, og), IG(C)hlm is the effect of the hth isolate
+only a single isolate (C2S1) and for 94 randomly se- with the mth genotype within the Ith class for the
+lected lines which were included in the GWA analysis experimental lines (genotypic x isolate variance, agi2),
+(Additional file 1: Table S2).
+IChl is the effect of the hth isolate with the Ith class
+Phenotypic disease assays were conducted on 1398 PIs entry, ehjklm is the experimental error (o82). Broad-
+originating from S. Korea following a layer test protocol sense heritability (H) was calculated for each trait as
+adapted from Dorrance et al. [108] to evaluate partial re- follows: H =l O
+Ogili + oelir), where og represents
+sistance to P. sojae. IPH and NPH were averaged from the genetic variance, Ogi represents the genotype x iso-
+three seedlings per cup. IRW, NRW, ISW, NSW, IRRS late variance, 02 represents the error variance, r is the
+and NRRS were measured two weeks after planting. number of experimental replicates, and i is the number
+IRRS and NRRS were rated on the 1-9 scale according of isolates.
+to Dorrance et al. [107]. Fresh weights of the roots or
+shoots were adjusted by dividing by the total number of Genotypic data analysis
+plants per cup to calculate IRW, NRW, ISW and NSW. Genotypic data [109] collected using the Illumina Infi-
+The full experiment was repeated twice for each isolate. nium SoySNP50K iSelect BeadChip developed by the
+The 1395 PIs were first evaluated with C2S1. Lack of root Beltsville, MD, USDA Soybean Genomics and Impro-
+rot is a characteristic of immunity imparted by Rps-me- vement Lab were downloaded from Soybase [61]. The
+diated resistance. Isolates OH121 possesses a pathotype genotypic data consisted of 42,509 SNPs [51]. Mono-
+capable of detecting (incompatible, avirulent reaction) morphic markers and markers with > 5 % missing data
+Rps3b and both isolates may detect novel Rps genes. or >10 % missing plus heterozygous allele calls were
+Therefore, in order to limit genetic associations to those removed. A total of 19,303 polymorphic markers, includ-
+involved in partial resistance, PIs that exhibited little to no ing 11,126 with minor allele frequencies (MAF) 25 %,
+root rot (mean IRRS S 1.5) were removed from the subse- were included in the association analyses. Missing
+quent disease assays with OH121. PIs exhibiting limited genotypes were imputed with fastPHASE [108]. A genome-
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 11 of 14
+wide estimation of LD decay in euchromatic and hetero- quantitative trait loci; RILS, recombinant inbred line; SNPS, single
+chromatic regions was plotted as physical distance (kbp) VS nucleotide polymorphisms
+2. Population structure was examined using the software
+ADMIXTURE with five-fold cross-validation [53].
+Acknowledgements The authors are grateful to Tom Fitz Gibbon, Andika Gunadi, Allen Honerlaw,
+Anna Stasko, Christine Balk, Dr. Sungwoo Lee, Sarah Lewis, Scott Mcintyre,
+GWA
+Jaqueline Huzar Novakowiski, Charlotte Smith, Lisa Sutton and Deloris Veney
+analyses
+for assistance with phenotyping and to G. John Lazur for provision of
+GWA analyses of the phenotypic and genotypic data sets custom scripts for data handling.
+for the 797 non-immune cultivars were conducted using
+the GAPIT (Genome Association Prediction Tool) pack- Funding
+age [110] in R software [111] with a compressed mixed Salaries and research support for this project were provided by the United
+Soybean Board, the Ohio Soybean Council, The Ohio State University Center
+linear model and population parameters previously de- for Applied Plant Sciences, and the USDA National Institute of Food and
+termined [112]. The optimal number of principle com- Agriculture, Hatch projects OHO01279 and OH001303.
+ponents for inclusion in the model was determined with
+GAPIT by Bayesian Information Criterion. The signifi- Availability of data and materials
+The data sets supporting the results of this article are available with the
+cance threshold for marker-trait associations was deter- article and additional files or on request from the corresponding author.
+mined by a modified Bonferroni adjustment in which
+Meff was calculated using simpleM [113] Genome-wide Authors' contributions
+threshold levels for each of the two datasets were deter- LKM, AED and RS conceived and designed experiments. RS executed
+experiments. RS, WR and LKM analyzed data. QS and PC designed SNP
+mined by a/Meff where a == 0.05.
+markers and performed genotyping. RS, WR, AED and LKM wrote the
+Haplotype blocks were constructed based on the follow- manuscript. All authors read and approved the manuscript.
+ing criteria: 1) markers in significant LD (four-gamete
+Competing interests
+method) [114]; were grouped into haplotype blocks, 2) The authors declare that they have no competing interests.
+adjacent blocks separated by < 10 kb were combined.
+However, no haplotype blocks met criteria 2, thus, no Consent for publication
+haplotype blocks were combined. For this study, a signifi- Not applicable.
+cant QTL was defined as a haplotype block possessing
+marker(s) identified through GWA analysis to be sig- Ethics approval and consent to participate
+Not applicable.
+nificantly associated with a trait. The haplotype block
+determination and visualization were carried out with Author details
+Haploview Version 4.2 [115].
+'Department of Horticulture and Crop Science, The Ohio State University,
+Columbus, OH 43210, USA 2Present Address: Pioneer Hi-Bred International
+Inc, Napoleon, OH 43545, USA. 3Center for Applied Plant Sciences, The Ohio
+Additional files
+State University, Columbus, OH 43210, USA. 4US Department of Agriculture,
+Soybean Genomics and Improvement Laboratory, Agricultural Research
+Service, Beltsville, MD 20705, USA. SDepartment of Plant Pathology, The Ohio
+Additional file 1: Table S1. Summary of mean lesion lengths from tray State University, Wooster, OH 44691, USA
+tests and virulence profiles from hypocotyl inoculations utilizing 22
+different isolates of P. sojae. Table S2a Hypocotyl assay with isolate C2S1 Received: 9 January 2016 Accepted: 7 July 2016
+and genotypic data of markers within QTL for 94 randomly selected
+Published online: 11 August 2016
+accessions included in the GWA analysis Table S2b Hypocotyl assay of
+differentials for isolate C2S1. Figure S1 Examination of population
+References
+structure of 800 Plant Introductions. Figure S2 Manhattan plot of the
+1. Koenning SR, Wrather JA. Suppression of soybean yield potential in the
+soybean genome depicting the extent of associations of 19,138 SNPS
+continental United States by plant diseases from 2006 to 2009. Plant Health
+with inoculated root rot score, inoculated root weight, inoculated shoot
+Prog. 2010. dOR10O0PAP20101205
+weight and inoculated plant height Figure S3 Manhattan plot of the
+2. Wrather JA, Koenning SR. Effects of diseases on soybean yields in the
+soybean genome depicting the extent of associations of 19,138 SNPS
+United States 1996 to 2007. Plant Health Prog. 2009. dok10.1094/PHP-
+with non-inoculated root weight, non-inoculated shoot weight and
+2009-0401-01-RS.
+non-inoculated plant height (PDF 962 kb)
+3. Kaufmann MJ, Gerdemann J. Root and stem rot of soybean caused by
+Additional file 2: Table S3. Annotations for candidate genes within
+Phytophthora sojae n. sp. Phytopathology. 1958:48:201-8.
+QTLS. (XLSX 44 kb)
+4. Dorrance A, Mills D, Robertson A, Draper M, Giesler L, Tenuta A
+Phytophthora root and stem rot of soybean. Plant Health Instr. 2007.
+d0101094PHH-200708002
+Abbreviations
+5. Morris PF, Ward E Chemoattraction of zoospores of the soybean pathogen,
+BLUP, best-linear unbiased predictor; CMLM, compressed mixed linear model;
+Phytophthora sojae, by isoflavones. Physiol Mol Plant Pathol. 1992;40:17-22.
+GAPIT, Genome Association Prediction Tool; GWAS, genome-wide association 6. Morris PF, Bone E, Tyler BM. Chemotropic and contact responses of
+study; IPH, inoculated plant height; IRRS, inoculated root rot score; IRW, inoc-
+Phytophthora sojae hyphae to soybean isoflavonoids and artificial
+ulated root weight: ISW, inoculated shoot weight; JA, Jasmonic acid; kb, kilo-
+substrates. Plant Physiol 1998:117:1171-8.
+base; LD, linkage disequilibrium; LRR-RLK, leucine rich repeat-receptor like
+7. Moy P, Qutob D, Chapman BP, Atkinson 1,Gijzen M. Patterns of gene
+kinase; MAPK mitogen activated protein kinase; Meffi effective number of
+expression upon infection of soybean plants by Phytophthora sojae. Mol
+markers; NB-LRR, nucleotide binding-leucine rich repeat; NPH, non-inoculated
+Plant-Microbe Interact 2004:17:1051-62
+plant height; NRW, non-inoculated root weight; NSW, non-inoculated shoot 8. Schmitthenner A Problems and progress in control of Phytophthora root
+weight; PCA, principle component analysis; PI, plant introduction; QTL,
+rot of soybean. Plant Dis. 1985,69:362-8.
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 12 of 14
+9. Demirbas A, Rector B, Lohnes D, Fioritto R, Graef G, Cregan P, Shoemaker R,
+with different levels of partial resistance to Phytophthora sojae. Plant Pathol.
+Specht J. Simple sequence repeat markers linked to the soybean genes for
+2005,66:175-82.
+Phytophthora resistance. Crop Sci. 2001;41:1220-7.
+35. Zhou L, Mideros SX, Bao L, Hanlon R, Arredondo FD, Tripathy S, Krampis K
+10. Weng C Yu K Anderson TR, Poysa V. Mapping genes conferring resistance to
+Jerauld A, Evans CSt Martin SK, Maroof SMA, Hoeschele I, Dorrance AE,
+Phytophthora root trot of soybean, Rpsla and Rps7.JHered. 2001:92442-6.
+Tyler BM. Infection and genotype remodel the entire soybean
+11. Wu X, Zhang B, Shi S, Zhao J, Feng Y, Na G, Gai iJ, Han X Identification,
+transcriptome. BMC Genomics. 2009;10:49.
+genetic analysis and mapping of resistance to Phytophthora sojae of Pm28 36. Thomas R, Fang X, Ranathunge K Anderson TR, Peterson CA
+in soybean. Agric Sci China. 201110:1506-11.
+Bernards MA. Soybean root suberin: Anatomical distribution, chemical
+12. Sun S, Wu X, Zhao J, Wang Y, Tang Q, Yu D, Gai J, Xing H. Characterization
+composition, and relationship to partial resistance to Phytophthora
+and mapping of RpsYu25, a novel resistance gene to Phytophthora sojae.
+sojae. Plant Physiol. 2007;144.299-311.
+Plant Breed. 2011;130:139-43.
+37. Ranathunge K Thomas R, Fang X, Peterson CA, Gijzen M, Bernards MA.
+13. Zhang J, Xia C Wang X, Duan C Sun S, Wu X, Zhu Z. Genetic
+Soybean root suberin and partial resistance to root rot caused by
+characterization and fine mapping of the novel Phytophthora resistance
+Phytophthora sojae. Phytopathology. 2008:98:1179-89.
+gene in a Chinese soybean cultivar. Theor Appl Genet 2013;126:1555-61. 38. Dorrance A, Schmitthenner A New sources of resistance to Phytophthora
+14. Zhang J,Xia C Duan C Sun S, Wang X, Wu X, Zhu Z. Identification and
+sojae in the soybean plant introductions. Plant Dis. 2000,84:1303-8.
+candidate gene analysis ofa novel Phytophthora resistance gene Rps10 in a 39. Burnham K, Dorrance A, VanToai T, St Martin S. Quantitative trait loci
+Chinese soybean cultivar. PLOS One. 2013;8:e69799.
+for partial resistance to Phytophthora sojae in Soybean. Crop Sci. 2003;
+15. Lin F, Zhao M, Ping J,Johnson A, Zhang B, Abney TS, Hughes TJ, MaJ
+43:1610-7.
+Molecular mapping of two genes conferring resistance to Phytophthora sojae 40. Weng C Yu K Anderson TR, Poysa V. A quantitative trait locus influencing
+inas soybean landrace PI 567139B. Theor Appl Genet 2013;1262177-85
+tolerance to Phytophthora root rot in the soybean cultivar 'Conrad'.
+16. Sugimoto T, Yoshida S, Kaga A, Hajika M, Watanabe K Aino M, Tatsuda K
+Euphytica. 2007;158:81-6.
+Yamamoto R Matoh T, Walker DR, Biggs AR, Ishimoto M. Genetic analysis 41. Han Y, Teng W, Yu K Poysa V, Anderson T, Qiu L, Lightfoot DA, Li W.
+and identification of DNA markers linked to a novel Phytophthora sojae
+Mapping QTL tolerance to Phytophthora root rot in soybean using
+resistance gene in the Japanese soybean cultivar Waseshiroge. Euphytica.
+microsatellite and RAPD/SCAR derived markers. Euphytica. 2008:162:231-9.
+2011;182:133-45.
+42. Lix, Han Y,Teng W, Zhang S, Yu K Poysa V, Anderson T, Ding J,Liw.
+17. Gordon SG, St Martin SK, Dorrance AE. 8 Maps to a Resistance Gene
+Pyramided QTL underlying tolerance to Phytophthora root rot in
+Rich Region on Soybean Molecular Linkage Group F. Crop Sci. 2006;
+mega-environments from soybean cultivars "Conrad' and 'Hefeng 25'.
+46:168-73.
+Theor Appl Genet 2010;121:651-8.
+18. Sandhu D, Gao H, Cianzio S, Bhattacharyya MK Deletion ofa disease
+43. Wang H, Waller L, Tripathy S, St Martin SK, Zhou L, Krampis K Tucker DM,
+resistance nudleotide-binding-site leucine-rich- repeat-like sequence is
+Mao Y, Hoeschele 1, Maroof S, Tyler BM, Dorrance AE Analysis of genes
+associated with the loss of the Phytophthora resistance gene Rps4 in
+underlying soybean quantitative trait loci conferring partial resistance to
+soybean. Genetics. 2004:1682157-67.
+Phytophthora sojae. Plant Genome. 2010;3:23-40.
+19. Dorrance A, McClure S, DeSilva A Pathogenic diversity of Phytophthora
+44. Stasko A, Wickramasinghe D, Nauth B, Acharya B, Ellis M, Taylor C McHale L,
+sojae in Ohio soybean fields Plant Dis. 2003;87:139-46.
+Dorrance A. High density mapping of resistance QTL towards Phytophthora
+20. Schmitthenner A Hobe M, Bhat R. Phytophthora sojae races in Ohio over a
+sojae, Pythium irregulare, and Fusarium graminearum in the same soybean
+10-year interval. Plant Dis. 1994:78:269-76.
+population. Crop Sci 2016. dot1021X0pc2015120142
+21. Yang X Ruff FR, Meng X Workneh F. Races of Phytophthora sojae in lowa
+45. Tucker D, Maroof S, Mideros S, Skoneczka J,Nabati D, Buss G, Hoeschele I,
+soybean fields. Plant Dis. 1996,80:1418-20.
+Tyler B, St. Martin S, Dorrance A. Mapping quantitative trait loci for partial
+22. Abney T, Melgar J, Richards T, Scott D, Grogan J, Young J New races of
+resistance to Phytophthora sojae in a soybean Interspecific Cross. Crop Sci.
+Phytophthora sojae with Rps 1-d virulence. Plant Dis. 1997;81:653-5.
+2010,50:628-35.
+23. Leitz R, Hartman G, Pedersen W, Nickell C Races of Phytophthora sojae on 46. Wu X, Zhou B, Zhao J, Guo N, Zhang B, Yang F, Chen S, Gai J, Xing H
+soybean in Illinois. Plant Dis. 2000,84:487.
+Identification of quantitative trait loci for partial resistance to Phytophthora
+24. Kaitany R, Hart L, Safir G. Virulence composition of Phytophthora sojae in
+sojae in soybean. Plant Breed. 2011;130:144-9.
+Michigan. Plant Dis. 2001,85:1103-6.
+47. Lee S, Mian MR, Sneller CH, Wang H, Dorrance AE, McHale LK Joint linkage
+25. Grau CR, Dorrance AE, BondJ, Russin J Fungal Diseases. In: Boerma R, Specht
+QTL analyses for partial resistance to Phytophthora sojae in soybean using
+JE, editors. Soybeans: Improvement, Production and Uses. Madison: Agronomy
+six nested inbred populations with heterogeneous conditions. Theor Appl
+Monograph No. 16, American Society of Agronomy, Crop Science Society of
+Genet 2014:127429-44.
+America, Soil Science Society of America; 2004. p. 679-763.
+48. Nguyen V, Vuong T, VanToai T, Lee J, Wu X, Mian M, Dorrance A,
+26. Kou Y, Wang S. Broad-spectrum and durability: understanding of
+Shannon J, Nguyen H. Mapping of quantitative trait loci associated
+quantitative disease resistance. Curr Opin Plant Biol. 2010;13:181-5.
+with resistance to Phytophthora sojae and flooding tolerance in
+27. Poland JA, Balint-Kurti PJ, Wisser RJ, Pratt RC, Nelson RJ. Shades of gray: the
+soybean. Crop Sci. 2012:522481-93.
+world of quantitative disease resistance. Trends Plant Sci. 2009;14:21-9.
+49. Lee S, Mian MR, McHale LK Wang H, Wijeratne AJ, Sneller CH, Dorrance AE.
+28. St Clair DA. Quantitative disease resistance and quantitative resistance loci
+Novel quantitative trait loci for partial resistance to Phytophthora sojae in
+in breeding. Annu Rev Phytopathol. 201048247-68.
+soybean PI 398841. Theor Appl Genet. 2013;126:1121-32.
+29. Tooley P,Grau CField characterization of rate-reducing resistance to Phytophthora 50. Lee S, Mian R, McHale LK, Sneller CH, Dorrance AE. Identification of
+megasperma f.sp. glycinea in soybean. Phytopathology. 198474:1201-8
+quantitative trait loci conditioning partial resistance to Phytophthora sojae
+30. Mideros S,Nita M, Dorrance AE. Characterization of components of partial
+in soybean PI 407861A Crop Sci 2013;53:1022-31.
+resistance, Rps2, and root resistance to Phytophthora sojae in soybean.
+51. Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, Cregan PB.
+Phytopathology. 2007:97:655-62.
+Development and evaluation of SoySNP50K a high-density genotyping
+31. Shaner G. Evaluation of slow-mildewing resistance of Knox wheat in the
+array for soybean. PLOS One. 201 13;8:e54985.
+field. Phytopathology. 1973;63:1307-11.
+52. Wang H, St Martin SK, Dorrance AE Comparison of phenotypic methods
+32. Tucker DM, Griffey CA, Liu S, Brown-Guedira G, Marshall DS, Saghai
+and dyield contributions of quantitative trait loci for partial resistance to in
+Maroof MA Confirmation of three quantitative trait loci conferring adult
+soybean. Crop Sci 201252609-22
+plant resistance to powdery mildew in two winter wheat populations. 53. Alexander DH, Novembre J, Lange K Fast model-based estimation of
+Euphytica. 2007;155:1-13.
+ancestry in unrelated individuals. Genome Res. 2009:19:1655-64.
+33. Wang H, Wijeratne A, Wijeratne S, Lee S, Taylor CG, St Martin SK McHale L, 54. Gao X, Starmer J, Martin ER. A multiple testing correction method for
+Dorrance AE Dissection of two soybean QTL conferring partial resistance to
+genetic association studies using correlated single nucleotide
+Phytophthora sojae through sequence and gene expression analysis BMC
+polymorphisms. Genet Epidemiol. 200832:361-9.
+Genomics. 2012;13:428.
+55. Sun J, Guo N, Lei J,Li iL,Hu G, Xing H. Association mapping for partial
+34. Vega-Sanchez ME, Redinbaugh MG, Costanzo S, Dorrance AE. Spatial and
+resistance to Phytophthora sojae in soybean (Glycine max (L) Merr,).
+temporal expression analysis of defense-related genes in soybean cultivars
+JGenet 2014,93:355-63.
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 13 of 14
+56. LiL Gua N, Niu J, Wang Z, Cui iX, Sun J, Zhao T, Xing H. Loci and candidate 79. Nawrath C Heck S,Parinthawong N, Metraux JP. EDS5, an essential component
+gene identification for resistance to Phytophthora sojae via association
+ofsalicylic acid-dependent signaling for disease resistance in Arabidopsis, isa
+analysis in soybean [Glycine max (L.) Merr). Mol Genet Genomics. 2016. doi:
+member of the MATE transporter family. Plant Cell 2002;14275-86.
+10100760038015-1644
+80. Helber N, Wippel K Sauer N, Schaarschmidt S, Hause B, Requena N. A
+57. Bastien M, Sonah H, Belzile F. Genome wide association mapping ofSderotinia
+versatile monosaccharide transporter that operates in the arbuscular
+sclerotiorum resistance in soybean with a genotypingbysequending
+mycorrhizal fungus Glomus sp is crucial for the symbiotic relationship with
+approach. Plant Genome. 20147:1-13.
+plants. Plant Cell 2011,233812-23.
+58. Wen Z, Tan R, Yuan J, Bales C, Du W, Zhang S, Chilvers MI, Schmidt C, 81. Lahrmann U, Ding Y, Banhara A, Rath M, Hajirezaei MR, Dohlemann S,
+Song Q, Cregan PB. Genome-wide association mapping of quantitative
+von Wiren N, Parniske M, Zuccaro A. Host-related metabolic cues affect
+resistance to sudden death syndrome in soybean. BMC Genomics.
+colonization strategies of a root endophyte. Proc Natl Acad Sci U S A
+2014;15:809.
+2013,110:13965-70.
+59. Iquira E, Humira S, Francois B. Association mapping of QTLS for sclerotinia 82. Favre P, Bapaume L, Bossolini E, Delorenzi M, Falquet L, Reinhardt D.A
+stem rot resistance in a collection of soybean plant introductions using a
+novel bioinformatics pipeline to discover genes related to arbuscular
+genotyping by sequencing (GBS) approach. BMC Plant Biol. 2015;155.
+mycorrhizal symbiosis based on their evolutionary conservation pattern
+60. Han Y, Zhao X, Cao G, Wang Y, Li Y, Liu D, Teng W, Zhang Z, Li D, Qiu IL
+among higher plants BMC Plant Biol. 2014;14:333.
+Genetic characteristics of soybean resistance to HG type 0 and HG type 1.2. 83. Pastor V, Gamir J, Camanes G, Cerezo M, Sanchez-Bel P,Flors V. Disruption
+3.5. .7 of the cyst nematode analyzed by genome-wide association
+of the ammonium transporter AMT1.1 alters basal defenses generating
+mapping. BMC Genomics. 2015;16(16):1.
+resistance against Pseudomonas syringae and Plectosphaerella cucumerina.
+61. Grant D, Nelson RT, Cannon SB, Shoemaker RC SoyBase, the USDA-ARS
+Front Plant Sci. 2014;5:231.
+soybean genetics and genomics database. Nucleic Acids Res. 2010,38:D843-6. 84. Waterhouse PM, Wang M, Lough T.Gene silencing as an adaptive defence
+62. Arahana VS, Graef GL Specht JE, Steadman. JR Eskridge KM. Identification of QTLS
+against viruses. Nature. 2001;411:834-42
+for Resistance to Sclerotinia sclerotiorum in Soybean. Crop Sci 2001;41:180-8.
+85. Hong JK, Choi HW, Hwang IS, Kim DS, Kim NH, Choi DS, Kim YJ, Hwang BK
+63. Sugimoto T, Yoshida S, Watanabe K Aino M, Kanto T, Maekawa K Irie K
+Function of a novel GDSL-type pepper lipase gene, CaGLIP1, in disease
+Identification of SSR markers linked to the Phytophthora resistance gene
+susceptibility and abiotic stress tolerance. Planta. 2008227:539-58.
+Rps1-d in soybean. Plant Breed. 2008;127:154-9.
+86. Oh IS, Park AR, Bae MS, Kwon SJ, Kim YS, Lee JE, Kang NY, Lee S, Cheong H,
+64. McHale L, Tan X, Koehl P, Michelmore RW. Plant NBS-LRR proteins:
+Park OK Secretome analysis reveals an Arabidopsis lipase involved in
+adaptable guards. Genome Biol. 2006;7:212.
+defense against Alternaria brassicicola. Plant Cell 2005;17:2832-47.
+65. Gomez-Gomez L, Boller T. FLS2 an LRR receptor-like kinase involved in 87. Lee DS, Kim BK Kwon SJ, Jin HC, Park OK Arabidopsis GDSL lipase 2 plays a
+the perception of the bacterial elicitor flagellin in Arabidopsis. Mol Cell.
+role in pathogen defense via negative regulation of auxin signaling.
+2000,5:1003-11.
+Biochem Biophys Res Commun. 2009379:1038-42
+66. Zipfel C Kunze G, Chinchilla D, Caniard A, Jones JD, Boller T, Felix G.
+88. Blée E. Impact of phyto-oxylipins in plant defense. Trends Plant Sci.
+Perception of the bacterial PAMP EF-Tu by the receptor EFR restricts
+2002;7:315-22.
+Agrobacterium-mediated transformation. Cell. 2006;125:749-60.
+89. Njiti iv, Lightfoot D. Genetic analysis infers Dt loci underlie resistance to
+67. Kemmerling B, Halter T, Mazzotta S, Mosher S, Numnberger T. A genome-
+Fusarium solani if sp. glycines in indeterminate soybeans. Can JPlant Sci.
+wide survey for Arabidopsis leucine-rich repeat receptor kinases implicated
+2006,86:83-90.
+in plant immunity. Front Plant Sci. 201 11;2:88.
+90. Iqbal M, Meksem K Njiti V, Kassem MA, Lightfoot D. Microsatellite markers
+68. Becraft PW. Receptor kinase signaling in plant development. Annu Rev Cell
+identify three additional quantitative trait loci for resistance to soybean
+Dev Biol. 2002;18:163-92.
+sudden-death syndrome (SDS) in Essex xForrest RILS. Theor Appl Genet
+69. Wang D, Weaver ND, Kesarwani M, Dong X. Induction of protein
+2001;102:187-92.
+secretory pathway is required for systemic acquired resistance. Science. 91. Njiti V, Meksem K Iqbal M, Johnson J, Kassem MA, Zobrist K Kilo V,Lightfoot D.
+2005;308:1036-40.
+Common loci underlie field resistance to soybean sudden death syndrome in
+70. Bari R, Jones JD. Role of plant hormones in plant defence responses. Plant
+Forrest, Pyramid, Essex, and Douglas. Theor Appl IGenet 2002;104294-300.
+Mol Biol. 200969473-88.
+92. Kazi S, Shultz J, Afzal J, Johnson J, Njiti V, Lightfoot DA. Separate loci
+71. Matern U, Grimmig B, Kneusel RE. Plant cell wall reinforcement in the
+underlie resistance to root infection and leaf scorch during soybean sudden
+disease-resistance response: molecular composition and regulation. Can
+death syndrome. Theor Appl Genet. 2008;116967-77.
+J Bot. 1995;73:511-7.
+93. Abdelmajid KM, Ramos L, Leandro L, Mbofung G, Hyten DL, Kantartzi SK
+72. Cosgrove DJ. Plant expansins: diversity and interactions with plant cell walls.
+Njiti VN, Cianzio S, Meksem K The 'PI 438489B' by Hamilton' SNP-based
+Curr Opin Plant Biol 2015,25:162-72.
+genetic linkage map of soybean [Glycine max (L) Merr] identified
+73. Morita-Yamamuro C Tsutsui iT, Sato M, Yoshioka H, Tamaoki M, Ogawa D,
+quantitative trait loci that underlie seedling SDS resistance. J Plant Genome
+Matsuura H, Yoshihara T, Ikeda A Uyeda al, Yamaguchi J. The Arabidopsis
+Sci. 2012;1:18-30.
+gene CAD1 controls programmed cell death in the plant immune system 94. Wu X, Blake S, Sleper DA, Shannon JG, Cregan P, Nguyen HT. QTL, additive
+and dencodes a protein containing a MACPF domain. Plant Cell Physiol.
+and epistatic effects for SCN resistance in PI 437654. Theor Appl Genet.
+2005:46:902-12.
+20091181093-105.
+74. Ferreira RB, Monteiro S, Freitas R, Santos CN, Chen Z, Batista LM, Duate J,
+95. Concibido VC, Lange DA, Denny RL, Orf JH, Young ND. Genome mapping
+Borges A, Teixeira AR The role of plant defence proteins in fungal
+of soybean cyst nematode resistance genes in "Peking, PI 90763, and PI
+pathogenesis. Mol Plant Pathol. 2007;8:677-700.
+88788 using DNA markers. Crop Sci. 1997:37:258-64.
+75. Howles PA, Birch RJ, Collings DA, Gebbie LK, Hurley UA, Hocart CH, Arioli T, 96. Vuong T, Sleper D, Shannon J, Wu X Nguyen H. Confirmation of
+Williamson RE. A mutation in an Arabidopsis ribose 5-phosphate isomerase
+quantitative trait loci for resistance to multiple-HG types of soybean cyst
+reduces cellulose synthesis and is rescued by exogenous uridine. Plant
+nematode (Heterodera glycines Ichinohe). Euphytica. 2011;181:101-13.
+J. 2006;48:606-18.
+97. Yue P, Arelli P,Sleper D.Molecular characterization of fresistance to Heterodera
+76. Ellis C Karafyllidis 1, Wasternack C Turner JG. The Arabidopsis mutant cev1
+glycines in soybean PI438489B. Theor Appl Genet. 2001;102:921-8.
+links cell wall signaling to jasmonate and ethylene responses. Plant Cell.
+98. Ferreira MFDS, Cervigni GDL, Ferreira A, Schuster 1, Santana FA,
+2002;14:1557-66.
+Pereira WD, Barros EG, Moreira MA QTLS for resistance to soybean cyst
+77. Hernandez-Blanco C Feng DX, Hu J, Sanchez-Vallet A, Deslandes L, Llorente
+nematode, races 3, 9, and 14 in cultivar Hartwig. Pesq Agrop Brasileira.
+F, Berrocal-Lobo M, Keller H, Barlet X Sanchez-Rodriguez C Anderson LK,
+2011:46:420-8.
+Somerville S, Marco Y, Molina A Impairment of cellulose synthases required 99. Winter SM, Shelp BJ, Anderson TR, Welacky TW, Rajcan L. QTL associated
+for Arabidopsis secondary cell wall Iformation enhances disease resistance.
+with horizontal resistance to soybean cyst nematode in Glycine soja
+Plant Cell 2007;19:890-903.
+P1464925B. Theor Appl Genet 2007;114461-72
+78. Omote H, Hiasa M, Matsumoto T, Otsuka M, Moriyama Y. The MATE proteins 100. Chang W, Dong L, Wang Z, Hu H, Han Y, Teng W, Zhang H, Guo M, Liw.
+as fundamental transporters of metabolic and xenobiotic organic cations.
+QTL underlying resistance to two HG types of Heterodera glycines found din
+Trends Pharmacol Sci. 2006;27:587-93.
+soybean cultivar L-10. BMC Genomics. 2011;12:233.
+
+
+
+Schneider et al. BMC Genomics (2016) 17:607
+Page 14 of 14
+101. Wang D, Diers B, Arelli P, Shoemaker R Loci underlying resistance to race 3
+of soybean cyst tnematode in Glycine soja plant introduction 468916. Theor
+Appl Genet 2001;103:561-6.
+102. Qiu B, Arelli P, Sleper D. RFLP markers associated with soybean cyst
+nematode resistance and seed composition in a "Peking' x 'Essex'
+population. Theor Appl Genet 1999,98356-64.
+103. Schuster 1 Abdelnoor R, Marin S, Carvalho V, Kiihl R, Silva J, Sediyama C
+Barros E, Moreira M. Identification ofa new major QTL associated with
+resistance to soybean cyst nematode (Heterodera glycines). Theor Appl
+Genet 2001;102:91-6.
+104. Guo X Wang D, Gordon SG, Helliwell E, Smith T, Berry SA, St Martin SK
+Dorrance AE. Genetic mapping of QTLS underlying partial resistance to
+Sclerotinia sclerotiorum in soybean PI 391589A and PI 391589B. Crop Sci.
+2008:48:1129-39.
+105. Huynh T, Bastien M, Iquira E, Turcotte P, Belzile F. Identification of QTLS
+associated with partial resistance to white mold in soybean using
+field-based inoculation. Crop Sci. 2010,50:969-79.
+106. Olhoft PM, Donovan CM,Somers DASoybean (Giycine max) transformation
+using mature cotyledonary node explants Agrobacter Protoc 2006343385-96
+107. Dorrance AE, Berry SA, Anderson TR, Meharg C Isolation, storage, pathotype
+characterization, and evaluation of Fresistance for Phytophthora sojae in
+soybean. Plant Health Prog. 2008. dRTONX4PAP-2080180H0G
+108. Scheet P, Stephens M. A fast and flexible statistical model for large-scale
+population genotype data: applications to inferring missing genotypes and
+haplotypic phase. Am J Hum Genet. 2006;78:629-44.
+109. Song QJ, Hyten DL, Jia GF, Quigley CV, Fickus EW, Nelson RL, Cregan PB.
+Fingerprinting soybean germplasm and its utility in genomic research. G3-
+Genes Genom Genet 20155:1999-2006
+110. Lipka AE, Tian F, Wang Q, Peiffer J, LIM, Bradbury PJ, Gore MA, Buckler ES,
+Zhang Z. GAPIT: genome association and prediction integrated tool
+Bioinformatics. 2012;28:2397-9.
+111. RCore Team. R A language and environment for statistical computing.
+Vienna: R Foundation for Statistical Computing; 2012.
+112. Zhang Z, Ersoz E, Lai iC, Todhunter RJ, Tiwari HK Gore MA, Bradbury PJ, YuJ,
+Arnett DK, Ordovas JM. Mixed linear model approach adapted for genome-
+wide association studies. Nat Genet 2010;42:355-60.
+113. Guo X Starmer J, Martin ER A multiple testing correction method for
+genetic association studies using correlated single nucleotide
+polymorphisms. Genet Epidemiol. 2008;32:362.
+114. Wang N, Akey JM, Zhang K Chakraborty RJin L Distribution of
+recombination crossovers and the origin of haplotype blocks: the
+interplay of population history, recombination, and mutation.
+Am J Hum Genet. 2002:71:1227-34.
+115. Barrett JC, Fry B, Maller J,Daly MJ. Haploview: analysis and visualization of
+LD and haplotype maps. Bioinformatics. 2005;21:263-5.
+Submit your next manuscript to BioMed Central
+and we will help you at every step:
+We accept pre-submission inquiries
+Our selector tool helps you to find the most relevant journal
+We provide round the clock customer support
+Convenient online submission
+Thorough peer review
+Inclusion in PubMed and all major indexing services
+Maximum visibility for your research
+Submit your manuscript at
+ww.bomedertalcomsubont
+BioMed Central

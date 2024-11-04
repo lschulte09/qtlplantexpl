@@ -1,0 +1,927 @@
+Genomics 111 (2019) 90-95
+Contents lists available at ScienceDirect
+iE
+GENOMICS
+Genomics
+ELSEVIER
+journal homepage: www.elsevier.com/locate/ygeno
+Genome-wide association mapping for seed protein and oil contents using a
+large panel of soybean accessions
+Chestor
+Dongmei Lin, Xue Zhaob, Yingpeng Han', Wenbin Lib, Futi Xiea,*
+"Shenyang Agricultural University, Soybean Research Institute, Shenyang 110866, Liaoning, China
+b Northeast Agricultural University, Northeastern Key Lab Soybean Biol 1& Genet & Breed, Chinese Ministry ofAgriculture, Key Lab Soybean Biology, Chinese Ministry of
+Education, Harbin 150030, Heilongjiang China
+A RTICLE IN F O
+A BSTRACT
+Keywords:
+Soybean is globally cultivated primarily for its protein and oil. The protein and oil contents of the seeds are
+Seed protein content
+quantitatively inherited traits determined by the interaction of numerous genes. In order to gain a better un-
+Seed oil content
+derstanding of the molecular foundation of soybean protein and oil content for the marker-assisted selection
+Soybean
+(MAS) ofhigh quality traits, ap population of 185 soybean germplasms was evaluated to identify the quantitative
+Genome-wide association
+trait loci (QTLS) associated with the seed protein and oil contents. Using specific length amplified fragment
+sequencing (SLAF-seq) technology, atotal of12,072 single nucleotide polymorphisms (SNPS) witha minor allele
+frequency (MAF) y 0.05 were detected across the 20 chromosomes (Chr), with a marker density of 78.7 kbp. A
+total of31 SNPS located on 12of the 20soybean chromosomes were correlated with seed protein and oil content.
+Of the 31 SNPS that were associated with the two target traits, 31 beneficial alleles were identified. Two SNP
+markers, namely rs15774585 and rs15783346 on Chr 07, were determined to be related to seed oil content both
+in 2015 and 2016. Three SNP markers, rs53140888 on Chr 01, rs19485676 on Chr 13, and rs24787338 on Chr
+20 were correlated with seed protein content both in 2015 and 2016. These beneficial alleles may potentially
+contribute towards the MAS of favorable soybean protein and oil characteristics.
+1. Introduction
+and oil contents in seeds Ctp/www.soybuscorg). These QTLs were
+detected via linkage analysis of populations derived from the crosses of
+Soybean (Glycine max) is an economically important crop that is two parents exhibiting contrasting seed protein and oil concentrations,
+valued for its vegetable oil and protein. The oil and protein present in and have been discovered in various genomic regions across all 20
+the seed constitute essential quality traits in breeding programs. A di- chromosomes [4-8]. However, this method is hampered by its com-
+versity of soybean cultivars from across the world have previously been paratively low genomic resolution when assessing the recombination
+used for evaluating and improving seed oil and protein content. events within the mapping populations, and is only able to narrowly
+Comparisons between landraces and modern cultivars has revealed that capture the allelic diversity present in the two parental lines. Con-
+in the past, breeders focused on improving oil content [1]. Although versely, genome-wide association studies (GWAS) can utilize historic
+these two traits can be improved via traditional breeding methods, the recombination events within natural populations, thereby overcoming
+development of soybean lines with high contents ofboth is challenging, the limitations of QTL mapping [9]. GWAS provides comparatively
+as oil and protein are negatively correlated [2]. Marker-assisted selec- higher resolution with respect to determining the genomic position ofa
+tion (MAS) is a far more efficient means of achieving this [3].
+gene or QTL, as the collections of unrelated genotypes exhibit far more
+QTLS mapping is a useful approach for dissecting complex traits at limited linkage disequilibrium between pairs of neighboring markers in
+the molecular genetic level in plants. Several QTLs/genes that are in- the GWAS approach [10].
+fluenced by the environment control protein and oil contents in seeds.
+Sequencing costs have been radically reduced due to the develop-
+Numerous studies have reported on the QTLs associated with protein ment of high-throughput sequencing technology. This is particularly
+Abbreviations: MAS, marker-assisted selection; QTLS, quantitative trait loci; MAF, minor allele frequency; SLAF-seq, specific length amplified fragment sequencing; SNPS, single
+nucleotide polymorphisms; Chr, chromosomes; PCA, principal component analysis; GWAS, genome-wide association studies; LD, linkage disequilibrium; NGS, next-generation sequencing
+technology; RAD-seq, restriction site-associated DNA sequencing; 2b-RAD, 2b-restriction site-associated DNA; GBS, genotypingby-seqguencing MLM, mixed linear model; SSRs, simple
+sequences repeats; RAPD, random amplified polymorphic DNA; RFLPS, restriction fragment length polymorphisms
+* Corresponding authors.
+E-mail addresses: wenbinli@neau.educn (W. Li), snsoybean@sohu.com (F. Xie).
+htpr/doiorg1010163310163yge10.201801.004
+Received 15
+2017; Received in revised form 41 December 2017; Accepted 7 January 2018
+Available 1554cObI 08 January 2018
+0888-7543/ O 2018 Published by Elsevier Inc.
+
+
+
+D. Lietal
+Genomics 111 (2019) 90-95
+Table 1
+Analysis of variance of seed protein and oil content.
+Traits
+Environments
+Mean + SE (%)
+Range (%)
+CV (%)
+Skewness
+Kurtosis
+Genotype
+Environment
+Oil
+2015
+20.43 + 0.08
+16.75-23.11
+1.03
+-0.79
+1.00
+21.45**
+301.23**
+2016
+21.88 + 0.10
+16.8-24.8
+1.36
+-0.92
+1.30
+Protein
+2015
+41.64 + 0.14
+29.87-46.40
+1.85
+-1.29
+8.40
+2.27**
+46.33**
+2016
+42.39 + 0.14
+36.6-48.7
+1.91
+0.27
+0.31
+A
+B
+Fig. 1. Distribution of seed protein (A) and oil content (B)
+50
+Protein content in 2015 50  Oil content in 2015
+among 185 soybean accessions.
+a 40
+DF Protein contenti in 2016 8 40 "Ooil content in 2016
+30
+30
+of
+of
+20
+20
+10
+10
+38.20 40.08 41.95 43.83 45.71 47.58 49.46
+15.90 17.01 18.12 19.22 20.33 21.44 22.55
+Seed protein content
+Seed oil content
+true for sequences of reduced representation libraries, where sequen- 2. Materials and methods
+cing costs can be reduced by only sequencing representative parts ofa
+complex genome. Several genotyping-based methods based on next- 2.1. Genotyping of soybean germplasms
+generation sequencing technology (NGS) exist, for instance restriction
+site-associated DNA sequencing (RAD-seq) [11], 2b-restriction site-as-
+A natural population consisting of 185 diverse soybean accessions
+sociated DNA (2b-RAD) [12], genotypingbysequencing (GBS) [13], was collected from 43N to 50°N which encompassed most of the
+and specific length amplified fragment sequencing (SLAF-seq). SLAF- northern regions of China and other countries including America,
+seq constitutes an intermediate between higher genotyping accuracy Canada, Japan and some European countries.
+and relatively lower sequencing costs [14], and is therefore highly
+These accessions were used for the phenotypic assessment of seed
+suitable for genetic association studies.
+protein and oil content, as well as the GWAS. The genomic DNA was
+The application of GWAS has benefitted from the advance of next- extracted from the leaves of each accession based on the method of Wu
+generation genome sequencing technologies, and numerous GWAS et al. [31] and sequenced using the SLAF-seq methodology [32, 33]. In
+have been successfully conducted in several plant species, such as order to obtain > 50,000 reads (SLAF-tags) per genome, different re-
+Arabidopsis [15], rice [16], maize [17], barley [18], tomato [19], oat striction enzyme combinations were tested. Enzymes were selected
+[20], and sorghum [21]. The loci associated with important agronomic based on SLAF alignments to the reference genome sequence of Wil-
+traits, abiotic stress [22], and disease resistance have been identified by liams 82 (NSRL, Champaign, IL, USA) [34], and two restriction enzymes
+GWAS in soybean, including Phytophthora root rot [23], Sclerotinia stem (Msel and Haelll) were selected. Different length fragments of genomic
+rot [24, 25], soybean cyst nematode [26-28], and sudden death syn- DNA after digestion were simulated in silico. The 45-bp read at both
+drome [29].
+ends of each simulated 500-550bp fragment was sequenced on an
+To investigate the genetic basis of variation in oil and protein Ilumina Genome Analyzer. The minor allele frequency (MAF) threshold
+content in soybean seeds, a diverse collection of 421 predominantly was set to 0.1 in the SNP calling, and a depth of minor allele/the total
+Chinese soybean cultivars was genotyped using 1536 SNPS, mostly from
+candidate genes related to acyl-lipid metabolism and from regions
+SNP Distribution on Chromosome
+harboring known QTLS [1]. Hwang et al. [30] assessed seed protein and
+oil composition in soybean using a GWAS of over 55,000 SNPS across a Gm01
+
+III ITTIII
+50
+diverse set of 298 accessions. The list of previously reported QTLS for Gm02 III
+HL
+protein and oil content was significantly reduced by their study. Sonah Gm03 II
+- II
+et al. [10] performed a GWAS for oil and protein content in a subset of Gm04 Gm05 TI
+139 short-season soybean lines and included six simple morphological Gm06
+traits, using over 17,000 SNPS generated using GBS approaches. The Gm07
+authors were able to successfully identify highly significant associations Gm08
+for the SNPS in the candidate genes as a result of their high-resolution Gm09 III
+marker coverage.
+Gm10 Gm11 TIHII
+= I
+In order to identify the QTLS related to soybean protein and oil Gm12 I TIN
+HI
+0
+content, we used a SLAF-seq approach for the whole-genome geno- Gm13
+INIII
+typing of a population of 185 soybean germplasms. Additionally, the Gm14
+genetic basis of the traits associated with high-quality protein and oil Gm15 IILIIII
+IIT
+content for MAS was elucidated.
+Gm16 I
+IIIT
+Gm17 -
+- IIEII
+Gm18 I IITIIII
+IIIEE
+Gm19 H IE
+Gm20
+OM 10M 20M 30M 40M SOM 6OM
+Fig. 2. SNP distribution on 20 soybean chromosomes.
+91
+
+
+
+D.Lietal.
+Genomics 111 (2019) 90-95
+A 60
+B 900
+Fig. 3. PCA of population structure. (A) Distribution of the ac-
+800
+cessions in the association panel under PC1 and PC2. (B) The
+40
+700
+genetic variation explained by the first ten 10PCs.
+20
+600
+8
+: :
+500
+0
+1.
+400
+-20
+300
+-40
+200
+100
+-60
+-150 -100 -50
+0
+50
+1 2 3 4 5 6 7 8 9 10
+PC1
+Principle Components
+depth of the sample Ny 1/3 signified a heterozygous genotype.
+determination. An Infratec 1241 NIR Grain Analyzer (FOSS, Sweden)
+was used to analyze three seed samples from each plot (approximately
+20-25 g of seeds).
+2.2. Field trials and assessment of soybean protein and oil content
+All the soybean accessions were planted in the Experimental Station 2.3. Population structure evaluation
+of the Northeast Agricultural University in Harbin City (11717'E,
+3318N) with two replications in 2015 and 2016. A completely ran-
+Principal component analysis (PCA) was used to assess the popu-
+domized block design was used for the field experiments. Each line was lation structure using the GAPIT software package [35].
+3m in length and 0.65 m apart, with 6-cm spacing between two plants.
+Seeds were harvested from exactly 10 plants from each plot of a single 2.4. Association mapping
+genotype, and were subsequently used in the protein and oil content
+A compressed mixed linear model (MLM) in GAPIT [35] was used
+a
+Oil content in 2015
+for the GWAS based on the SNPs from the 185 soybean accessions. A P-
+
+value of 0.001 constituted the Type I error significance threshold [30].
+2
+The seed protein and oil genomic QTL locations from previous studies
+were compared with the physical positions of the markers exhibiting
+significant associations in this study as a means of verifying the iden-
+tified genomic regions.
+2 3 4 5 6 8 9 11 13 15 17 19 20
+3. Results
+Chromosome
+co
+Oil content in 2016
+3.1. Seed protein and oil phenotyping
+6
+Protein and oil contents for the 185 soybean accessions were de-
+I 4
+termined based on the dry seed weight in the 2015 and 2016 field trials.
+Substantial variation was observed in both traits (Table 1). The oil
+content ranged from 15.9-23.1% and the protein content ranged from
+38.2-50.4%. A significant negative correlation was observed between
+1 234 5 6 8 9 11 13 15 17 19
+seed oil and protein content, with a correlation coefficient of -0.53
+(P < .01). The kurtosis was 0.58 and 0.92 and the skewness was 0.73
+Chromosome
+co
+and 0.85 for protein content in 2015 and 2016, respectively. For oil
+Protein content in 2015
+content, the kurtosis was 0.99 and  0.80 and the skewness was -0.77
+
+and 0.98 in 2015 and 2016, respectively. Following normalization, the
+3
+4
+phenotypic data of the two target traits were nearly normally dis-
+tributed (Fig. 1).
+SNP genotyping and population structure of the association
+o
+1 234 5 6 8 9 11 13 15 17 19
+Chromosome
+co
+Protein content in 2016
+6
+PS
+L. major CHO metabolism . cell wall
+ lipid metabolism
+- N-metabolism
+- amino acid metabolism
+1 2 3 4 5 6 8 9 11 13 15 17 19
+. metal handling
+L. secondary metabolism . hormone metabolism
+. tetrapyrrole synthesis . stress
+. redox
+Chromosome
+ misc
+L RNA
+I DNA
+Fig. 4. Genome-wide Manhattan plots of associations for seed protein and oil content - L protein development
+- . signalling transport
+. . cell not
+based on the compressed MLM. The x-axis indicates the SNPS along with each chromo-
+assigned
+some; the y-axis is the - -log 10 (P-value) for the association.
+Fig. 5. Functional classification for genes in the 50 Kbp flanking region of peak SNPS.
+92
+
+
+
+D. Lietal
+Genomics 111 (2019) 90-95
+Table 2
+SNPS associated with seed protein content.
+SNP
+Chromosome Year Physical
+-log1o(P) Minor Allele R2 of Allele 1 Allele 2 Average seed
+Average seed
+Average seed
+position
+Frequency Model with
+protein content of protein content of protein content of
+SNP (%)
+accessions with accessions with population
+allele 1
+allele 2
+rs53140888 1
+2015 53,140,888 3.68 0.26
+16.03 T C
+42.80
+41.54
+42.00
+rs53141323 1
+2015 53,141,323 3.62 0.27
+15.88 G A
+42.80
+41.54
+42.00
+rs53141571 1
+2015 53,141,571 3.29 0.26
+15.12 T C
+42.71
+41.54
+42.00
+rs41860441 2
+2015 41,860,441 3.01 0.22
+14.46 T G
+42.70
+41.66
+42.00
+rs4187467 4
+2015 4,187,467 3.15 0.17
+14.79 T A
+43.04
+41.64
+42.00
+rs4553067 4
+2015 4,553,067 3.40 0.19
+15.38 C T
+42.96
+41.59
+42.00
+rs18150116 13
+2015 18,150,116 3.56 0.11
+15.75 T C
+43.44
+41.69
+42.00
+rs19485676 13
+2015 19,485,676 3.45 0.12
+15.49 C A
+43.38
+41.68
+42.00
+rs24787338 20
+2015 24,787,338 3.74 0.13
+16.17 G T
+43.54
+41.64
+42.00
+rs29457452 20
+2015 29,457,452 3.18 0.10
+14.85 A T
+43.77
+41.69
+42.00
+rs29979450 20
+2015 29,979,450 3.27 0.07
+15.07 T C
+43.95
+41.73
+42.00
+rs53140888 1
+2016 53,140,888 3.01 0.26
+13.58 T
+C
+42.92
+41.70
+42.05
+rs39587099 2
+2016 39,587,099 3.55 0.20
+14.85 T A
+43.23
+41.73
+42.05
+rs41989469 2
+2016 41,989,469 3.57 0.09
+14.90 A T
+44.14
+41.83
+42.05
+rs6121092 12
+2016 6,121,092 3.19 0.15
+14.01 A T
+42.74
+41.91
+42.05
+rs19485676 13
+2016 19,485,676 3.41 0.12
+14.53 C A
+43.57
+41.82
+42.05
+rs24787338 20
+2016 24,787,338 3.50 0.13
+14.72 G T
+43.80
+41.77
+42.05
+Table 3
+SNPS associated with seed oil content.
+SNP
+Chromosome Year Physical -log1o(P) Minor Allele R? of
+Allele 1 Allele 2 Average seed oil Average seed oil Average seed oil
+position
+Frequency Model with
+content of
+content of
+content of
+SNP (%)
+accessions with accessions with population
+allele 1
+allele 2
+rs204699 4
+2015 204,699 3.12 0.47
+29.28 C T
+20.90
+20.51
+20.61
+rs32697665 4
+2015 32,697,665 3.21 0.16
+29.45 A T
+20.83
+19.95
+20.61
+rs35315668 5
+2015 35,315,668 3.11 0.18
+29.25
+G A
+21.26
+20.56
+20.61
+rs15774585 7
+2015 15,774,585 4.48 0.06
+31.96 G T
+20.76
+19.62
+20.61
+rs15783346 7
+2015 15,783,346 4.27 0.10
+31.54 T
+C
+20.76
+20.03
+20.61
+rs14297133 4
+2016 14,297,133 3.14 0.20
+33.03 G A
+20.99
+20.49
+20.89
+rs12023370 5
+2016 12,023,370 3.10 0.11
+32.95 C T
+20.98
+20.23
+20.89
+rs15774585 7
+2016 15,774,585 4.26 0.06
+35.11
+G T
+20.97
+19.78
+20.89
+rs15783346 7
+2016 15,783,346 3.44 0.10
+33.58 T
+C
+20.97
+20.24
+20.89
+rs40944487 8
+2016 40,944,487 3.15 0.49
+33.04 G A
+21.13
+20.67
+20.89
+rs35333667 12
+2016 35,333,667 3.27 0.43
+33.26
+C T
+20.95
+20.81
+20.89
+rs1452418 18
+2016 1,452,418 3.04 0.31
+32.85
+C A
+21.19
+20.77
+20.89
+rs55473106 18
+2016 55,473,106 3.12 0.15
+32.99 T
+C
+21.02
+20.87
+20.89
+rs49097495 19
+2016 49,097,495 3.21 0.13
+33.15 G T
+20.96
+20.35
+20.89
+mapping panel.
+2015 and 2016, representing 12 genomic regions covering eight soy-
+The genotyped samples included 185 soybean germplasms from a bean chromosomes. Two SNP markers, rs15774585 and rs15783346 on
+Chinese core collection, including elite varieties and landraces. The Chr 07, were identified as associated with seed oil content in both 2015
+genomic DNA of these 185 accessions was partially sequenced using and 2016. With respect to seed protein content, 14 and seven SNPS were
+SLAF-seq and the Illumina Genome Analyzer II [32].A total of 12,072 respectively detectedin 2015 and 2016, which represented 13 genomic
+SNPS with an MAF y 0.05 were detected across the 20 chromosomes regions covering six chromosomes. Three SNP markers, rs53140888 on
+with a marker density of 78.71 kb (Fig. 2).
+Chr 01, rs19485676 on Chr 13, and rs24787338 on Chr 20 were asso-
+Principal Component 1 (PC1) explained 7.96% of the variation in ciated with seed protein content in both 2015 and 2016. The above five
+the genotypic data, while PC2 and PC3 explained 3.59% and 3.29% of SNPs were stable across the different years (Fig. 4).
+the variation, respectively. The tested accessions could not be obviously
+In order to verify the beneficial allele (the allele that has the effect
+grouped based on the first two axes ofthe PCA (Fig. 3A). However, an of improving the phenotype value of the target trait) of each SNP as-
+assessment of the variation of the first 10 axes of the PCA revealed an sociated with seed oil and protein contents, the average seed protein
+inflection point at PC3 (Fig. 3B). This suggested that the first three PCs and oil contents were calculated from the soybean accessions that
+dictated the impact of population structure on the association mapping, possessed each SNP allele (Tables 2 and 3). The average seed protein
+and were thus included in the compressed MLM for the association content of the accessions possessing the beneficial allele (allele 1) was
+analyses.
+higher than that of the accessions with allele 2 and the entire associa-
+tion panel (Table 2). The difference of seed protein content between
+accessions with allele 1 and accessions with allele 2 reached 0.83-2.30
+3.2. GWAS on the loci underlying seed protein and oil content
+percentage points. The difference of seed protein content were
+0.69-2.09 percentage points between accessions with allele 1 and the
+The GWAS revealed a total of 31 SNPS associated with the two entire association panel. The mean seed oil content of the accessions
+target traits, located on 12 of the 20 chromosomes (Chr.) under with the beneficial allele (allele 1) was 0.14-1.20 percentage points
+Compressed Mixed Linear Model (CMLM) (Figs. 2 and 3). Six and nine higher than the accessions with allele 2, and was 0.06-0.65 percentage
+SNPS associated with seed oil content were respectively identified in
+93
+
+
+
+D. Li et al.
+Genomics 111 (2019) 90-95
+points higher than the entire association panel (Table 3). Based on these
+E I
+€ I I I
+results, it was concluded that these beneficial alleles could be utilized in
+@ @
+a
+. . I :
+MAS for seed protein and oil traits in soybean. Moreover, the Enhanced
+a
+a a a : I I I I
+et a : a t et E 8 a
+a a
+Compressed Mixed Linear Model (ECMLM) in GAPIT was also used for
+e : a et
+a a a  : : t et
+GWAS on seed protein and oil content.. All the associated SNPS detected
+a
+E E a a a t E
+ECMLM
+I et
+et t
+by
+overlapped with that from CMLM indicating that the result
+3
+I I I I
+I
+6
+I
+I I
+I
+I 3 os I I I
+of
+I
+I
+E
+the association mapping in the present study was reliable (Table S1).
+A total of 199 soybean genes were found in the 50 kbp flanking
+region of each peak SNP (Table S2). Of these genes, 38 genes had no
+I
+functional annotation. The other 161 genes were classified into 21
+-
+groups and might participate in 21 kinds of biological processes
+E
+(Fig. 5). Genes involved in major CHO metabolism, lipid metabolism, N-
+metabolism, and amino acid metabolism might affect soybean oil and/
+I
+or protein content (Table 4).
+I
+I
+I
+I
+I I I I I I I I I I I I I
+4. Discussion
+I
+Soybean seed oil and protein constitute complex quantitative traits
+3
+that exhibit significant environmental influence and are governed by
+: :
+-
+multiple genetic loci, each mostly displaying minor effects [36]. Loci
+I I
+I I
+I
+I
+I
+: I
+I :
+I
+i
+I
+I
+exhibiting a minor effect and poor repeatability are often difficult to
+locate. To date, numerous soybean seed protein and oil QTLS have been
+effectively tagged using a variety of molecular marker systems, in-
+I
+cluding simple sequences repeats (SSRS), random amplified poly-
+morphic DNA (RAPD), restriction fragment length polymorphisms
+i
+e 
+(RFLPS), and SNPS Cntp/www.soybaseorg) based on linkage analysis,
+5 : I
+I I I
+De
+mainly using cross populations. Using a diverse collection of soybean
+I
+:
+I
+I
+3 : : :
+I : I I
+germplasm samples, the QTLs associated with seed protein and oil
+content in this study were identified using a GWAS mapping approach
+I I I I I I I I I I I I
+and sequence-based SNP maps. Thirty-one QTLS were identified in
+i I
+E
+E E 8
+total. Of these, SNP markers rs53140888 on Chr 02, rs19485676 on Chr
+8
+I I I
+E 8
+13, and rs24787338 on Chr 20, which were discovered as essential to
+E
+I I I
+oE
+I
+I I
+E
+I
+I
+is
+I
+E
+I
+eE
+I
+I
+eE
+I
+I
+protein content, were detected in both 2015 and 2016, indicating that
+E I I I I I I I I I I I I I I I I I I I I
+the above three SNPS exhibited genetic stability. The SNP markers
+rs15774585 on Chr 07, identified as fundamental to oil content, were
+I
+also stable in 2015 and 2016. Of these four stable SNP markers,
+7 3 2 a a 8 9 5 2 a 3 E I : N 2 3 - 5
+rs19485676 overlapped with the reported QTL 'Prot26-13' associated
+E E 5 E 2 2 2 2 3 E E 2 3 E E 3 3 2 : E a E
+with soybean seed protein content [37], and rs24787338 overlapped
+E
+with six previously reported QTLS, including three seed protein content-
+1 E
+related QTLS ("Protl-1', 'Protl-2', and "Prot34-11) [38, 39] and three
+seed oil content-related QTLS ("Oil2-1', "Oil2-2', and 'Oil24-30') [34,
+I
+40]. The other two stable SNP markers, rs53140888 and rs15774585,
+3
+I I I I I I I
+I
+constituted
+I I
+I
+novel loci underlying soybean seed protein content and
+:
+were identified for the first time in the present study.
+We discovered a total of 23 SNPS that were correlated with either
+I
+soybean seed protein or oil content in only 2015 or 2016. Of them, nine
+were found to overlap with reported QTLS underlying soybean seed
+LD  9 4 4 A
+I
+E
+19 19 8
+8 &
+protein or oil content, suggesting that these SNPS showed reproduci-
+bility in different independent experiments. For seed oil content, the
+I
+I
+SNP marker rs35315668 overlapped with the oil content-related QTL
+E
+I
+'Oil4-1' [41], and the SNP markers rs12328685 and rs49097495 over-
+2 E
+2
+with
+content-related
+I
+I
+the
+I I I I
+lapped
+'Prot34-2'
+I
+and
+I
+protein
+I
+QTLS
+'Prot16-2',
+2
+respectively [1, 42]. For seed protein content, three SNP markers
+i
+: :
+(rs4187467, rs6121092, and rs18150116) overlapped with protein
+S
+content-related QTLS (Prot12-2' and "Prot26-13), respectively [14,
+E
+43]. Another two SNP markers, rs29457452 and rs29979450, over-
+: : : a : : : R I :
+: :
+lapped with both protein and oil content-related QTLs. Oil and protein
+content were found to be negatively correlated [2, 44]. Previous studies
+I
+documented a series of pleiotropic QTLS underlying soybean seed and
+I
+I I I I I I
+I I
+oil compositions [42]. In the present study, rs12328685, rs49097495,
+s
+I I I
+rs29457452, and rs29979450 were pleiotropic for soybean seed protein
+and oil content. It is therefore essential to clarify the effects of the loci
+E
+I
+5 E
+1 I 1
+1 1
+I 1
++ I
+for the two target traits before initiating MAS programs.
+i I I I I I I I I I
+I I
+Supplementary data to this article can be found online at https://
+i E
+doi.org/10.1016jiygeno.2018.01.004.
+94
+
+
+
+D. Lietal.
+Genomics 111 (2019) 90-95
+Acknowledgements
+[21] G.P. Morris, P. Ramu, S.P. Deshpande, C.T. Hash, T. Shah, H.D. Upadhyaya,
+O. Rieralizarazu, P.J. Brown, C.B. Acharya, S.E. Mitchell, Population genomic and
+This study was conducted in the Key Laboratory of Soybean Biology
+genome-wide association studies ofagroclimatic traitsins sorghum, Proc. Natl. Acad.
+Sci. U. S. A. 110 (2) (2013) 453.
+of the Chinese Education Ministry, Agriculture Research System of [22] S. Mamidi, R.K. Lee, J.R. Goos, P.E. Mcclean, Genome-wide association studies
+China, and the key Laboratory of Northeastern Soybean Biology and
+identifies seven major regions responsible for iron deficiency chlorosis in soybean
+Breeding/Genetics of Chinese Agriculture Ministry, and was financially
+(glycine max), PLOS One 9 (9) (2014) e107469.
+[23] J. Sun, N. Guo, J. Lei, L Li, G. Hu, H. Xing, Association mapping for partial re-
+supported by the National Key R&D Project for Crop Breeding
+sistance to Phytophthora sojae in soybean (Glycine max (L.) Merr.), J. Genet. 93 (2)
+(2017YFD0101302, 2016YFD0100304), Chinese National Natural
+(2014) 355.
+Science Foundation (31571693), Chinese National Natural Science [24] L Elmer, S. Humira, B. François, Association mapping of QTLS for sclerotinia stem
+rot resistance in a collection of soybean plant introductions using a genotyping by
+Foundation (31501251) and the Postdoctoral Fund in Heilongjiang
+sequencing (GBS) approach, BMC Plant Biol. 15 (1) (2015) 5.
+Province (LBH-Z15017).
+[25] X. Zhao, Y. Han, Y. Li, D. Liu, M. Sun, Y. Zhao, C. Lv, D. Li, Z. Yang, L. Huang, Loci
+and candidate gene identification for resistance to Sclerotinia sclerotiorum in soy-
+References
+bean (Glycine maxL. Merr.) via association and linkage maps, PlantJ. 82 (2) (2015)
+245-255.
+[26] Y. Bao, T. Vuong, C. Meinhardt, P. Tiffin, R. Denny, S. Chen, H.T. Nguyen, J.H. Orf,
+[1] Li Y-h, J.C. Reif, Hong H-1,Li H-h, Liu Z-x, Y.-s. Ma, J. Li, Y. Tian, Y.-f. Li, W.-b. Li,
+N.D. Young, Potential of association mapping and genomic selection to explore PI
+et al., Genome-wide association mapping of QTL underlying seed oil and protein
+88788 derived soybean cyst nematode resistance, Plant Genome 7 (3) (2014)
+contents of a diverse panel of soybean accessions, Plant Sci. 266 (Supplement C)
+2840-2854.
+(2018) 95-101.
+[27] Y. Han, X. Zhao, G. Cao, Y. Wang, Y. Li, D. Liu, W. Teng, Z. Zhang, D. Li, L Qiu,
+[2] D.L. Hyten, V.R. Pantalone, C.E. Sams, A.M. Saxton, D. Landau-Ellis, T.R. Stefaniak,
+Genetic characteristics of soybean resistance tol HG type Oand HG type 1.2.3.5.7 of
+M.E. Schmidt, Seed quality QTL ina prominent soybean population, Theor. Appl.
+the cyst nematode analyzed by genome-wide association mapping, BMC Genomics
+Genet. 109 (3) (2004) 552-561.
+16 (1) (2015) 1-11.
+[3] J.W. Burton, C.A. Brim, Recurrent selection in soybeans. III. Selection for increased [28] T.D. Vuong, H. Sonah, C.G. Meinhardt, R. Deshmukh, S. Kadam, R.L. Nelson,
+percent oil in seeds, Crop Sci. 21 (1) (1981).
+J.G. Shannon, H.T. Nguyen, Genetic architecture of cyst nematode resistance re-
+[4] V. Channamallikarjuna, H. Sonah, M. Prasad, G.J.N. Rao, S. Chand, H.C. Upreti,
+vealed by genome-wide association study in soybean, BMC Genomics 16 (1) (2015)
+N.K. Singh, T.R. Sharma, Identification ofmajor quantitative trait loci qSBR11-1 for
+1-13.
+sheath blight resistance in rice, Mol. Breed. 25 (1) (2010) 155-166.
+[29] Z. Wen, R. Tan, J. Yuan, C. Bales, W. Du, S. Zhang, M.I. Chilvers, C. Schmidt,
+[5] R. Deshmukh, H. Sonah, G. Patil, W. Chen, S. Prince, R. Mutava, T. Vuong,
+Q. Song, P.B. Cregan, Genome-wide association mapping of quantitative resistance
+B.Valliyodan, H.T. Nguyen, Integrating omic approaches for abiotic stress tolerance
+to sudden death syndrome in soybean, BMC Genomics 15 (1) (2014) 809.
+in soybean, Front. Plant Sci. 5 (2014) 244.
+[30] E.Y. Hwang, Q. Song, G. Jia, J.E. Specht, D.L. Hyten, J. Costa, P.B. Cregan, A
+[6] L.P. Manavalan, S.J. Prince, T.A. Musket, J. Chaky, R. Deshmukh, T.D. Vuong,
+genome-wide association study of seed protein and oil content in soybean, BMC
+L. Song, P.B. Cregan, J.C. Nelson, J.G. Shannon, Identification of novel QTL gov-
+Genomics 15 (1) (2014) 1.
+erning root architectural traits in an interspecific soybean population, PLOS One 10 [31] X. Wu, C. Ren, T. Joshi, T. Vuong, D. Xu, H. Nguyen, SNP discovery by high-
+(3) (2015) e0120490.
+throughput sequencing in soybean, BMC Genomics 11 (1) (2010) 469.
+[7] S. Salvi, R. Tuberosa, To clone or not to clone plant QTLS: present and future
+[32] X. Sun, D. Liu, X. Zhang, W. Li, H. Liu, W. Hong, C.Jiang, N. Guan, C. Ma, H. Zheng,
+challenges, Trends Plant Sci. 10 (6) (2005) 297.
+SLAF-seq: an efficient method of large-scale de novo SNP discovery and genotyping
+[8] Y. Cao, S. Li, Z. Wang, F. Chang, J. Kong, J. Gai, T. Zhao, Identification of major
+using high-throughput sequencing, PLOS One 8 (3) (2013) e58700.
+quantitative trait loci for seed oil content in soybeans by combining linkage and [33] Y. Han, X. Zhao, D. Liu, Y. Li, D.A. Lightfoot, Z. Yang, L. Zhao, G. Zhou, Z. Wang,
+genome-wide association mapping, Front. Plant Sci. 8 (2017).
+L Huang, Domestication footprints anchor genomic regions of agronomic im-
+[9] C. Zhu, M. Gore, E.S. Buckler, J. Yu, Status and prospects of association mapping in
+portance in soybeans, The New Phytol. 209 (2) (2016) 871-884.
+plants, Plant Genome J. 1 (1) (2008) 5.
+[34] J. Schmutz, S.B. Cannon, J. Schlueter, J. Ma, T. Mitros, W. Nelson, D.L. Hyten,
+[10] H. Sonah, L O'Donoughue, E. Cober, I. Rajcan, F. Belzile, Identification of loci
+Q. Song, J.J. Thelen, J. Cheng, et al., Genome sequence of the palaeopolyploid
+governing eight agronomic traits using a GBS-GWAS approach and validation by
+soybean, Nature 463 (7278) (2010) 178-183.
+QTL mapping in soya bean, Plant Biotechnol. J. 13 (2) (2015) 211.
+[35] A.E. Lipka, F. Tian, Q. Wang, J. Peiffer, M. Li, P.J. Bradbury, M.A. Gore,
+[11] N.A. Baird, P.D. Etter, T.S. Atwood, M.C. Currey, A.L. Shiver, Z.A. Lewis,
+E.S. Buckler, Z. Zhang, GAPIT: genome association and prediction integrated tool,
+E.U. Selker, W.A. Cresko, E.A. Johnson, S.N.P. Rapid, Discovery and genetic map-
+Bioinformatics 28 (18) (2012) 2397-2399.
+ping using sequenced RAD markers, PLOS One 3(10) (2008) e3376.
+[36] M. Akond, S. Liu, M. Boney, S.K. Kantartzi, K. Meksem, N. Bellaloui, D.A. Lightfoot,
+[12] S. Wang, E. Meyer, J.K. Mckay, M.V. Matz, 2b-RAD: a simple and flexible method
+M.A. Kassem, Identification of quantitative trait loci (QTL) underlying protein, oil,
+for genome-wide genotyping, Nat. Methods 9 (8) (2012) 808.
+and five major fatty acids contents in soybean, Am. J. Plant Sci. 5 (1) (2014)
+[13] R.J. Elshire, J.C. Glaubitz, Q. Sun, J.A. Poland, K. Kawamoto, E.S. Buckler,
+158-167.
+S.E. Mitchell, A. Robust, Simple genotypingbysequencing (GBS) approach for high [37] Y. Reinprecht, V.W. Poysa, K. Yu, I Rajcan, G.R. Ablett, K.P. Pauls, Seed and
+diversity species, PLOS One 6 (5) (2011) e19379.
+agronomic QTL in low linolenic acid, lipoxygenase-free soybean (Glycine max (L.)
+[14] X. Sun, D. Liu, X. Zhang, W. Li, H. Liu, W. Hong, C.Jiang, N. Guan, C. Ma, H. Zeng,
+Merrill) germplasm, Genome 49 (12) (2006) 1510-1527.
+et al., SLAF-seq: an efficient method of large-scale de novo SNP discovery and
+[38] B.W. Diers, P. Keim, W.R. Fehr, R.C. Shoemaker, RFLP analysis of soybean seed
+genotyping using high-throughput sequencing, PLOS One 8 (3) (2013) e58700.
+and oil content, Theor. Appl. Genet. 83 (5) (1992) 608-612.
+[15] S. Atwell, Y.S. Huang, B.J. Vilhjalmsson, G. Willems, M. Horton, Y. Li, D. Meng, [39] protcin Lu, Z. Wen, H. Li, D. Yuan, J. Li, H. Zhang, Z. Huang, S. Cui, W. Du,
+A. Platt, A.M. Tarone, Hu TT, et al., Genome-wide association study of 107 phe-
+Identification of the quantitative trait loci (QTL) underlying water soluble protein
+notypes in Arabidopsis Thaliana inbred lines, Nature 465 (7298) (2010) 627-631.
+content in soybean, Theor. Appl. Genet. 126 (2) (2013) 425.
+[16] X. Huang, X. Wei, T. Sang, Q. Zhao, Q.Feng, Y. Zhao, C.Li, C. Zhu, T. Lu, Z. Zhang, [40] Z. Qi, Q. Wu, X. Han, Y. Sun, X. Du, C. Liu, H. Jiang, G. Hu, Q. Chen, Soybean oil
+Genome-wide association studies of 14 agronomic traits in rice landraces, Nat.
+content QTL mapping and integrating with meta-analysis method for mining genes,
+Genet. 42 (11) (2010) 961.
+Euphytica 179 (3) (2011) 499-514.
+[17] H. Li, Z. Peng, X. Yang, W. Wang, J. Fu, J. Wang, Y. Han, Y. Chai, T. Guo, N. Yang, [41] E.C. Brummer, G.L. Graef, J. Orf, J.R. Wilcox, R.C. Shoemaker, Q.T.L. Mapping, For
+Genome-wide association study dissects the genetic architecture of oil biosynthesis
+seed protein and oil content in eight soybean populations, Crop Sci. 37 (2) (1997)
+in maize kernels, Nat. Genet. 45 (1) (2013) 43-50.
+370-378.
+[18] S. Stracke, G. Haseneyer, J.B. Veyrieras, H.H. Geiger, S. Sauer, A. Graner,
+[42] A. Chapman, V.R. Pantalone, A. Ustun, F.L. Allen, D. Landauellis, R.N. Trigiano,
+H.P. Piepho, Association Mapping Reveals Gene Action and Interactions in the
+P.M. Gresshoff, Quantitative trait loci for agronomic and seed quality traits in an F2
+Determination of Xowering Time in Barley, (2009).
+and F4:6 soybean population, Euphytica 129 (3) (2003) 387-393.
+[19] C. Sauvage, V. Segura, G. Bauchet, R. Stevens, P.T. Do, Z. Nikoloski, A.R. Fernie, [43] J.E. Specht, K. Chase, M. Macrander, G.L. Graef, J. Chung, J.P. Markwell,
+M. Causse, Genome-wide association in tomato reveals 44 candidate loci for fruit
+M. Germann, J.H. Orf, K.G. Lark, Soybean response to water: a QTL analysis of
+metabolic traits, Plant Physiol. 165 (3) (2014) 1120.
+drought tolerance, Crop Sci. 41 (2) (2001) 493-509.
+[20] M.A. Newell, D. Cook, N.A. Tinker, J.L. Jannink, Population structure and linkage [44] J. Wilcox, Interrelationships among seed quality attributes in soybean, Crop Sci. 41
+disequilibrium in oat (Avena sativa L.): implications for genome-wide association
+(1) (2001) 11-14.
+studies, Theor. Appl. Genet. 122 (3) (2011) 623.
+95

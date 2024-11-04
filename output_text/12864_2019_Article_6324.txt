@@ -1,0 +1,1201 @@
+Li et al. BMC Genomics (2019) 20:987
+htps/doiorg/10.118612864-019-63247
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+Identification of genetic loci and candidate
+Check for
+updates
+genes related to soybean flowering
+through genome wide association study
+Minmin Li, Ying Liut, Yahan Tao',Chongjing Xu, Xin Li, Xiaoming Zhang, Yingpeng Han, Xue Yang, Jingzhe Sun,
+Wenbin Li, Dongmei Li,Xue Zhao and Lin Zhao
+Abstract
+Background: As a photoperiod-sensitive and self-pollinated species, the growth periods traits play important roles
+in the adaptability and yield of soybean. To examine the genetic architecture of soybean growth periods, we
+performed a genome-wide association study (GWAS) using a panel of 278 soybean accessions and 34,710 single
+nucleotide polymorphisms (SNPS) with minor allele frequencies (MAF) higher than 0.04 detected by the specific-
+locus amplified fragment sequencing (SLAF-seq) with a 6.14-fold average sequencing depth. GWAS was conducted
+by a compressed mixed linear model (CMLM) involving in both relative kinship and population structure.
+Results: GWAS revealed that 37 significant SNP peaks associated with soybean flowering time or other growth periods
+related traits including full bloom, beginning pod, full pod, beginning seed, and full seed in two or more environments at
+-logio(P) > 3.75 or -logio(P) > 4.44 were distributed on 14 chromosomes, including chromosome 1, 2, 3,5,6,9, 11, 12, 13,
+14, 15, 17, 18, 19. Fourteen SNPS were novel loci and 23 SNPS were located within known QTLS or 75 kb near the known
+SNPS. Five candidate genes (Glyma.05G101800, Glyma.11G140100, Glyma.11G142900, Gyma.19G099700, Gyma.19G100900)
+in a 90 kb genomic region of each side of four significant SNPS (Gm5_27111367, Gm11_10629613, Gm11_10950924,
+Gm19_34768458) based on the average LD decay were homologs of Arabidopsis flowering time genes of AT5G48385.1,
+AB3G465101,A15G597803 AT1G28050.1, and AT3G26790.1. These genes encoding FRI (FRIGIDA), PUB13 (plant U-box 13),
+MYB59, CONSTANS, and FUS3 proteins respectively might play important roles in controlling soybean growth periods.
+Conclusions: This study identified putative SNP markers associated with soybean growth period traits, which could be
+used for the marker-assisted selection of soybean growth period traits. Furthermore, the possible candidate genes
+involved in the control of soybean flowering time were predicted.
+Keywords: Genome wide association study, Candidate genes, Soybean growth periods, Genetic improvement
+Background
+typical photoperiod-sensitive short-day plant, soybean
+Soybean (Glycine max) is a major crop of agronomic im- photoperiod is the main climatic factor that determines its
+portance grown across a wide range of latitudes from growth periods and adaptability to different ecological
+50°N to 35°S [1). However, soybean varieties are limited to zones. The genetic mechanisms of soybean flowering time
+narrow latitudes due to the photoperiod sensitivity. The and maturity were complex [3]. Previous studies identified
+complex growth period traits are controlled by both in- at least 11 major-effect loci affecting flowering and matur-
+ternal and external factors, which make great effects on ity of soybean, which were designated as E1 to E10 [4-14],
+crop adaptability, biomass and economic yield [2]. As a and the J locus for "long juvenile period" [15], which was
+important for soybean to adapt to high latitude environ-
+Correspondence: yy841026@163.com; xuezhao@neaueducn;
+ments. E1, E2, E3, E4, E9 and Jhad been cloned or identi-
+zhaolineau@126.com
+fied. Of these, E1 encoding a nuclear-localized B3
+*Minmin Li, Ying Liu and Yahan Tao contributed equally to this work
+domain-containing protein was induced
+E2
+Key Laboratory of Soybean Biology of Ministry of Education, China (Key
+by long days.
+Laboratory of Biology and Genetics & Breeding for Soybean in Northeast
+China), Northeast Agricultural University, Harbin, China
+OThe Author(s). 2019 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BMC International License fhtp/ceativecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made The Creative Commons Public Domain Dedication waiver
+Omploeswecommonsoy/pulbicdonainv.eonon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 2 of 13
+encoded a homolog of GIGANTEA and controlled soy- with different resistance to SCN HG Type 2.5.7 were ge-
+bean flowering time by regulating GmFT2a [1]. E3 and E4 notyped by SLAF-seq for GWAS, and the results re-
+encoded phytochrome PHYA3 and PHYA2 proteins [7, vealed 13 SNPs associated with resistance to SCN HG
+16].J was the dominant functional allele of GmELF3 [17]. Type 2.5.7, and 30 candidate genes underlying SCN re-
+In addition to these major loci, many minor-effect quanti- sistance were identified [30]. In the present study, we
+tative traits loci (QTLs) related to soybean flowering time performed GWAS for soybean growth period traits in
+and maturity had also been identified. To date, at least the total of 278 soybean accessions genotyped by SLAF-
+104, 6, 5, and 5 QTLs associated with first flower, pod be- seq and identified 37 significantly associated SNPS in
+ginning, seed beginning, and seed fill had been reported in two or more environments and five potential candidate
+soybean (SoyBase, www.soobbase.org), respectively. Many genes regulating growth periods. Our studies provided
+other orthologs of Arabidopsis flowering genes such as an insight into the genetic architecture of soybean
+GmCOLs [18], GmSOC1 [19], and GmCRY [20] had also growth periods and the identified candidate markers and
+been identified. Taken together, these results showed a genes would be valuable for the marker-assisted selec-
+complex genetic basis of flowering and maturity in tion of soybean.
+soybean.
+Genome-wide association study (GWAS), based on Results
+linkage disequilibrium (LD), had emerged as a powerful Phenotype statistics of 278 soybean germplasms
+tool for gene mapping in plants to take advantage of Field experiments were conducted in three different lo-
+phenotypic variation and historical recombination in cations (Harbin, Changchun, Shenyang) in China for
+natural populations and overcome the limitations of bi- 2 years (2015 and 2016). The statistical analysis on the
+parental populations, resulting in higher QTL mapping results of phenotype indicated that six growth period
+resolution [21-23]. So far, the next-generation sequen- characteristics including flowering time, full bloom, be-
+cing technologies such as genotyping by sequencing ginning pod, full pod, beginning seed, and full seed of
+(GBS), restriction site-associated DNA sequencing 278 soybean germplasms (Fig. 1, Additional file 1)
+(RAD-seq) and specific-locus amplified fragment se- showed abundant phenotypic variation (14.9-43.6%)
+quencing (SLAF-seq) had been used to detect high- (Additional file 2), and reflected their great potential of
+quality single nucleotide polymorphisms (SNPS) for genetic improvement. After normalizing, the six growth
+GWAS in soybean [24-26]. The Illumina Infinium period characters of 278 soybean germplasms above
+SoySNP50K BeadChip was used to genotype the popula- showed normal distributions without any significant
+tion consisting of 309 early-maturing soybean germ- skewness, which could be used for the subsequent statis-
+plasm resources, and ten candidate genes homologous tical analysis (Additional file 10: Figure S1). Correlation
+to Arabidopsis flowering genes were identified near the analysis showed that there were high correlations be-
+peak SNPs associated with flowering time detected via tween flowering time and full bloom (0.90-0.98), begin-
+GWAS [3]. Ninety-one soybean cultivars of maturity ning pod (0.96-0.88), full pod (0.87-0.94), beginning
+groups (MGs) 000-VIII were subjected to GWAS using seed (0.84-0.93), and full seed (0.83-0.90) (Add-
+Illumina SoySNP6K iSelectBeadChip, and 87 SNP loci itional file 11: Figure S2), implying that the flowering
+associated with soybean flowering were identified [27]. time and the other five growth periods in soybean might
+Eight hundred and nine soybean cultivars were se- be controlled by the same genetic factors.
+quenced on Illumina HiSeq 2000 and 2500 sequencer, The results of ANOVA showed that the heritability of
+GWAS identified 245 significant genetic loci associated flowering time, full bloom, beginning pod, full pod, be-
+with 84 agronomic traits by single and multiple marker ginning seed, and full seed in soybean were quite high
+frequentist test (EMMAX), 95 of which interacted with (94.7-96.2%) (Additional file 3), indicating that the
+other loci [28]. The recombinant inbred line (RIL) popu- growth periods traits were mainly significantly affected
+lation were genotyped by RAD-seq in 2 year studies, the by genetic variability. Therefore, the probability of
+high-density soybean genetic map was constructed and obtaining the off springs with excellent target traits was
+60 QTLs that influenced six yield-related and two qual- large by selecting them in the early generation of breed-
+ity traits were identified [29]. SLAF-seq technology had ing using a strict criteria [32]. However, the flowering
+several obvious advantages, such as high throughput, time, full bloom, beginning pod, full pod, beginning
+high accuracy, low cost and short cycle, and this tech- seed, and full seed in soybean were also affected by en-
+nology had been reported in haplotype mapping, genetic vironmental factors such as geographical location and
+mapping, linkage mapping and polymorphism mapping. year, as well as environment-genotype interactions (P<
+It could also provide important bases for molecular 0.01) (Additional file 3), which made the majority of soy-
+breeding, system evolution and germplasm resource bean bloom the earliest in Shenyang (lower latitude),
+identification. A total of 200 diverse soybean accessions whereas bloom the latest in Harbin (higher latitude) in
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 3 of 13
+o
+50
+8
+-
+0 -
+::
+-50
+-100
+0
+100
+200
+Fig. 1 Geographical distribution of 278 soybean germplasm resources. The map was made by the completely free software R 31] version
+3.6.1 (hntps/mirorstunatinghuazeduCIVCRAN)
+the same year (Additional file 1, Additional file 2). Forty- on chromosomes 11 (961 SNPs) and chromosomes 12
+one soybean germplasms flowering earlier (27.5-38.5 d) (1079 SNPs) (Additional file 6, Fig. 2). The highest
+and 53 flowering later (58-113 d) with stable perform- marker density was detected on chromosome 15 (one
+ance (Additional file 4) were screened by GGE biplot in SNP per 20.58 kb), and the smallest one was identified
+six environments to avoid the impact of the environ- on chromosome 12 (one SNP per 37.15 kb), while the
+ment, which could be considered for broadening the average marker density was approximately one SNP
+genetic basis for the improvement of soybean germ- per 28.36 kb (Additional file 6). It was found that the
+plasms to produce greater super-parent effects.
+average LD decay distance of the population was about
+300 kb (r2 == 0.5) by 34,710 SNP markers for LD ana-
+Linkage disequilibrium (LD), population structure and
+lysis (Fig. 3a). Previous studies had shown that the LD
+kinship analyses
+decay distance of soybean natural population was
+The DNA sequencing data had been uploaded [33]. 250-375 kb [34], which was similar to the results of
+The dataset of 34,710 SNPS with MAF higher than this study, indicating that the marker coverage ob-
+0.04 covering all 20 chromosomes was used to con- tained in this study was high enough for GWAS. The
+duct GWAS (Additional file 5, Additional file 12: Fig- population structure of 278 soybean accessions ob-
+ure S3). The largest number of SNPS was identified on tained by principal component analysis of 34,710 SNPS
+chromosome 18 (2708 SNPs) followed by chromosome reflected the subgroup structure (Fig. 3b and c), sug-
+15 (2515 SNPs), and the smallest of SNPs was found gesting that geographic isolation was important for
+a 3000
+b 1200
+1000
+a
+2000
+800
+E
+S
+8 600
+% 1000
+400
+200
+0
+0
+1 5 10 15 20
+Chromosomes
+8 e a 1
+N
+Minor allele frequency
+Fig. 2 Single-nucleotide polymorphism for 278 soybean accessions. a Distribution of the SNP markers across 20 soybean chromosomes. b Minor
+allele frequency distribution of SNP alleles
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 4 of 13
+a
+b
+Latitude
+40 -
+50°N
+1.01 :
+20 
+45°N
+0.81 e
+3 0
+40°N
+-20 -
+I 0.6
+-40
+-
+35°N
+0.4
+30°N
+a
+25°N
+0.2-
+-50
+20°N
+0.0-
+-40
+0.0 0.5 1.0 1.5 2.0
+D
+-20
+0
+LD decay distance (Mbp)
+- 20 PC1
+40
+C
+d
+.
+3 o
+0 1 2
+8
+c &
+8
+s
+I
+4
+8
+I
+€
+8 -
+a
+8
+2 4 6 8 10
+Principal components
+Fig. .3 The linkage disequilibrium (LD), principal component and kinship analyses of soybean genetic data. a The estimated average linkage
+disequilibrium (LD) decay of soybean genome. The dashed line in blue indicated the position where 7 was 0.5. b The first three principal
+components of 34,710 SNPS used in the GWAS indicated little population structure among 278 tested accessions. C The population structure of
+the soybean germplasm collection reflected by principal components. d The heat map of the kinship matrix of the 278 soybean accessions
+calculated from the same 34,710 SNPS used in the GWAS, suggesting low levels of relatedness among 278 individuals
+shaping genetic differentiation of soybean. The kinship the correlation analysis above demonstrated that these six
+matrix among 278 soybean accessions calculated based growth period traits may be controlled by the same genetic
+on 34,710 SNPs indicated a lower level of genetic re- factors (Fig. 4, Additional file 7, Additional file 8). Among
+latedness among soybean individuals (Fig. 3d).
+them, 186 SNPS detected in one environment may be sus-
+ceptible to environmental influences, 37 SNPS that could
+Identification of genetic loci and candidate genes
+explain 17.41-21.95% phenotypic variation in two or more
+through GWAS
+environments could be stably inherited in different environ-
+The CMLM-PCA + K statistical model considering the CO- ments, and it was considered that there would be key genes
+variates composed of population structure and kinship controlling flowering time nearby.
+matrix was used for GWAS to prevent false positivity [35]. Twenty-three of 37 SNPS were located within the known
+The total of 223 SNP loci associated with flowering time, QTLs or located 75 kb near the known SNPS controlling
+full bloom, beginning pod, full pod, beginning seed, and full soybean growth periods, indicating the feasibility ofthe nat-
+seed in one or more environments were all considered to ural population for GWAS (Additional file 8). In addition,
+be candidate sites for flowering time in soybean, because 14 unreported SNPS (Gml 1929268, Gm1_55250122,
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 5 of 13
+Chr1
+Chr2
+Chr3
+Chr4
+Chr5
+Chr6
+Chr7
+09f1 L sa_wgoas
+0.0-1 -start
+00- -start
+00-f-start
+L
+29.2- HGm2_2915598 204 comitigense
+-Gm6_4547078 00- fstart
+548- -Gm3_5483528 83y
+H Gm3 8709366 97.7
+257
+010
+Gm6
+s3t komrisues
+Gm3_10175529 112.2 4_97
+Gm6
+M
+Liomimgose 014#
+E
+1346308
+E
+Gm 219396 25
+18
+966--Gm/.0160
+169.3-
+151.0- Gm3_15104432
+Gm6
+206.3 Gm 4_20630687 2580
+ Va2g
+2993
+-
+Sms mass
+Gomsamas
+Gm6 05516
+D
+26041
+547
+267. 5- Gm6_26747417
+M Homoses
+296.0- Gm4_29802651
+296.1- -Gm6_29605279
+286. -Gm3_28660414
+Gms 52132
+322.6- -Gm2_32264941
+Juen 345612
+s9X K komsems 304.5 Gm7_30447362
+iGm mS_26698221 0m5200983
+-
+Gm5_26706755
+334 CSPaUISE
+456.2 -Gm4_45622145
+445.1
+396.7 7 Gm7_30667718
+H
+-
+HOMEASCRES
+446.3- end
+485
+s C0mn0R1T
+Gm4_51640278
+570
+sst end
+276.7 Gmt 087
+5142
+422 en
+EN EE
+Chr8
+Chr9
+Chr10
+Chr11
+Chr12
+Chr13
+00-f start
+0.0- star
+#* L Gm9
+00-f start
+00-f start
+91.6- Gm10_9157759 491 Gm1
+00-
+55.1- Gm13_5613523
+43 V
+- M154s
+l
+59.0 m 12 8108377
+122.8 H
+Gm12 9059553 1029- Gm13_10294687
+190.6-
+19058516
+10
+E
+Gm9
+160.3-
+077213 Gm11_10774489 a Gm12_0635478
+170.5-
+EE
+Gm8_17047280
+I
+Temmases
+102531 24
+2124-
+# k
+2527 Gmg_25274591
+8m03123 -
+2332--0m.23795
+IGm10_21235652
+3
+03235 Gm11_10978285
+267.6- -Gm8_26755961
+280.3 - Gm10_28028909
+5- Gmi
+295.7- HGm8_29568908
+E omtt
+mot kommsg
+39901793
+L
+324.1 HGmB_32414214 01
+4.0
+2634- -Gm12_26335533 3016- Gm13_30163665
+NE
+Gm11_24347550 298.2-- Gm12_29818635
++ Gme
+301.4
+3415-
+EN
+3X5--0ms.35108 18
+Gm10_39142749 273.4
+Gm11_27336731 344.9- Gm12_34488631 366.3--
+NE
+371 Gm12_37109252
+L
+33:
+462.6 Gm10 46256418 347.7 end
+400.9- end
+E
+434.0- Gm13_43398547
+478.4 4 end
+m9-49333182 515.7- -end
+458.7 end
+501.94 Gm9_49471647 end
+Chr14
+Chr15
+Chr16
+Chr17
+Chr18
+Chr19
+Chr20
+0.0
+Asart
+00- start
+0.0
+# 1 ESMgm
+7.2- Gm19_715198 ao
+0.0 start
+0.0-f start
+4757
+Gm19_8732830
+K
+123 kanteee
+873-
+Gm16_5409355
+167.8- -Gm18_16778089
+114.0- Gm20_11403061
+98.0 HGm16_9802836
+mat commemsne
+18397 TE
+2706-  -Gm18_27063761 219.2-
+A
+L
+Gm14_25056492
+HengmTae
+BT
+239.1 Gm20_23914299
+3680-H Gm18_36798700
+276.4 +Gm16_27843122
+Jémts
+3284- -Gm17_32842602 433.71
+Gm20
+333.1
+436
+s3#
+#E
+23228
+403.2-
+_40320280
+Gm16_33309904
+tsm
+Gm14
+seETe
+MEE
+EN
+370.4- -Gm17_37037733 s
+449.1 Lemkees :870 * sems GTOANR 4838 378.9- end
+416.4-U -end
+43087
+4605-He Gm 48847898
+03
+479 end
+490.4
+-
+507.5 end
+A
+AEE
+LE
+S0
+L
+Fig. 4 The positions of flowering time-related SNP loci on the chromosomes. The SNP loci associated with soybean flowering time and other
+growth periods in one or more environments were labeled black or blue, respectively. The soybean flowering candidate genes were then found
+in the linkage disequilibrium block of four SNP sites associated with soybean flowering found in multiple environments, which were marked red.
+The left number of each chromosome showed the relative in the genome, 1= 100kb
+Gm2_12136054, Gm2_12243533, Gm3_15104432, Gm3_ five homologs (Glyma.05G101800, Glyma.11G140100, Gly-
+45621167, Gm5_27111367, Gm9_49099305, Gm12_61063 ma.11G142900, Glyma.19G099700, Glyma.19G100900)
+77, Gm14_3236959, Gm15_46580578, Gm17_32842602, (Table 1) of flowering time genes of AT5G48385.1, AT
+Gm19_715196, Gm19_34768458) that may control soybean 3G46510.1, AT5G59780.3, ATIG28050.1, and AT3G26
+flowering were found on ten chromosomes 1, 2, 3, 5, 9, 12, 790.1 in Arabidopsis that played important roles in flower-
+14, 15, 17 and 19. A total of 291 genes (Additional file 9) ing pathway as candidate genes related to soybean flower-
+within the linkage disequilibrium (LD) block (2>0.5) of 37 ing time within the 90 kb genomic region of four significant
+significant SNPS were screened, and we further predicted SNPS (Gm5_27111367, Gm11_10629613, Gm11_10950924,
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 6 of 13
+Table 1 Five candidate genes related to soybean flowering time
+Candidate Genes Locus
+Annotation Distance from a gene to SNP Functional description
+(kb)
+Glyma.05G101800 Gm5_27111367 AT5G48385.1 -47.91
+FRIGIDA-like protein
+Glyma.11G140100 Gm11_
+AT3G46510.1 +47.56
+plant U-box 13
+10629613
+Gilyma.11G142900 Gm11_
+AT5G59780.3 -35.11
+Transcription factor MYB59-related
+10950924
+Glyma.19G099700 Gm19_
+AT1G28050.1 -85.90
+Zinc finger protein CONSTANS-LIKE 14-related transcription
+34768458
+factor
+Glyma.19G100900 Gm19_
+AT3G26790.1 + 37.60
+B3 domain-containing transcription factor FUS3
+34768458
+Ifthe candidate gene is located upstream of the SNP, the distance from the gene to the SNP is indicated by a negative sign. Instead, itis represented by a
+positive sign
+Gm19_34768458) (Fig. 5). Glyma.05G101800 encoding and other growth periods were quantitative traits con-
+FRIGIDA-like protein was located at 47.91 kb upstream of trolled by multiple genes. The six growth periods (flow-
+Gm5_27111367, and 251 soybeans with major allele G at ering time, full bloom, beginning pod, full pod,
+this locus flowered 23.82, 19.33, 34.94, 19.03, and 32.07 days beginning seed, and full seed) of 278 soybean germplasm
+earlier than the 27 soybeans with minor allele T in five en- resources in this study were highly variable (14.9-43.6%)
+vironments of 2015 Harbin, 2015 Changchun, 2016 Chang- in different environments, indicating that the natural
+chun, 2015 Shenyang, 2016 Shenyang, respectively (Fig. 6). population could be used for the genetic improvement
+Glyma.11G140100 encoding PUB13 (plant U-box 13) pro- of growth periods. The high heritability (94.7-96.2%) of
+tein was located at 47.56 kb downstream of Gm11_ six growth periods indicated that they were mainly af-
+10629613, and 253 soybeans carrying major allele G at this fected by genetic factors. In addition, soybean growth
+locus flowered 28.23, 22.01, 37.48, 22.72, and 33.90 days periods were significantly or extremely significantly af-
+earlier than the 25 soybeans with minor allele A in 2015 fected by environmental and genotype-environment
+Harbin, 2015 Changchun, 2016 Changchun, 2015 Shen- interaction, indicating that in addition to genetic effects,
+yang, 2016 Shenyang, respectively (Fig. 6). Gly- photoperiod and temperature conditions in different
+ma.11G142900 encoding MYB59 protein was located at planting environments played crucial roles in determin-
+35.11 kb upstream of Gm11 10950924, and 251 soybeans ing the growth periods, which directly determined
+with major allele G at this locus flowered 33.51, 29.13, whether soybeans grown in different ecological environ-
+44.52, 26.27, and 39.73 days earlier than the 27 soybeans ments could flower and mature normally. The growth
+with minor allele A in 2015 Harbin, 2015 Changchun, 2016 periods of soybean determined the latitude range suit-
+Changchun, 2015 Shenyang, 2016 Shenyang, respectively able for planting, SO it was of great significance to study
+(Fig. 6). Glyma.19G099700 and Glyma.19G100900 encod- the characteristics of soybean growth periods. In this
+ing CONSTANS and FUS3 proteins were located at 85.90 study, the genetic relationship among 94 stable soybean
+and 37.60 kb downstream of Gm19_34768458, respectively, germplasms, including 41 earlier and 53 later flowering
+and 238 soybeans with the major frequency allele T at this soybean varieties screened by GGE was far from each
+locus flowered 7.68, 9.21, 5.72, 6.10, and 7.56 days earlier other, which could be qualified as hybrid breeding par-
+than the 40 soybeans with the alternative allele A in 2015 ent [36].
+Harbin, 2015 Changchun, 2016 Changchun, 2015 Shen-
+yang, 2016 Shenyang, respectively (Fig. 6). The other The LD decay rate of soybean was higher than cross-
+growth periods also showed the similar tendency with the pollinated species due to genetic bottleneck
+first flowering time between two alleles of each associated Increased LD was a hallmark of genetic bottlenecks, the
+SNP marker (Fig. 6). These four markers Gm5_27111367, greater LD decay rate for self-pollination was expected to
+Gmll 10629613, Gml1 10950924, and Gm19 34768458 be higher than that of cross-pollinated species [37]. As the
+could be targets for breeders for marker assisted selection physical distance increases, the LD decay of the entire
+of soybean growth periods traits.
+genome was estimated to be decayed to r? = 0.5 within ap-
+proximately 300kb, consistent with previous studies in
+Discussion
+soybean (250-375 kb) [34], similar to the other self-
+Six soybean growth periods were significantly affected by pollinated species such as rice (123-167kb) and sorghum
+genetic-environment interaction
+(150kb) [38, 39], but much larger than the cross-
+Soybean is a short-day plant with induced cumulative ef pollinated species such as maize (1-10kb) [40]. The lower
+fects by short days, and the flowering time of soybeans density of SNPs was suitable for GWAS in soybean as
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 7 of 13
+Gm5_27111367
+Gm11_10629613
+Gm11_10950924
+Gm19_34768458
+4,
+6
+61
+51
+*
+3
+4
+4
+4
+2
+3
+2-
+2
+2
+0
+0
+4
+31
+4
+4
+I 3
+2
+3
+: : 3
+2
+2
+2
+1
+a I
+0
+4
+51
+*
+o 3
+4
+2
+3
+2
+2
+1
+:
+-
+0
+I
+4
+10
+41
+o 3
+8
+3
+2
+0
+2
+1
+:
+0
+I
+4
+4
+s 3
+6
+3
+2 d € .
+4
+4
+2
+: 1
+:
+2
+2
+I
+0
+61
+10
+101
+5
+Y
+s
+8
+4
+3
+6
+3
+: 2
+4
+2
+1
+21
+2
+0+
+I
+0+
+0.
+MABLIREAN
+MULANILRLAAN ARA
+46
+R6
+R5
+R4
+R3
+R7
+Physical Distance: 2049.7 kb Physical Distance: 1899.2 kb Physical Distance: 2194.7 kb Physical Distance: 2105.2 kb
+LD Map Type: r-square
+LD Map Type: r-square LD Map Type: r-square
+LD Map Type: r-square
+0 0.2 0.4 0.6 0.8 1
+0 0.2 0.4 0.6 0.8 1
+0 0.2 0.4 0.6 0.8 1
+0 0.2 0.4 0.6 0.8 1
+Fig. 5 Manhattan plot and LD block of Gm5_27111367 Gm5.26143758-2819474, Gm11_10629613 GmiL9712686-11611890)
+Gm11_10950924 (GmIL.9745828-11940527 and Gm19_34768458 Gmi9.36089-35785309, Black arrow indicated target SNPS. The up
+panel was the Manhattan plots of negative logioctransformed P-values VS. SNPS, the significant (-logioP> 3.75) or extremely significant (-logioP>
+4.44) threshold was denoted by the green or red line. The down panel was haplotype block based on pairwise linkage disequilibrium r2 values.
+R1: Flowering time; R2: Full bloom; R3: Beginning pod; R4: Full pod; R5: Beginning seed; R6: Full seed. 2015 H: 2015 Harbin; 2016 H: 2016 Harbin;
+2015 C 2015 Changchun; 2016 C: 2016 Changchun; 20155: 2015 Shenyang; 20165: 2016 Shenyang
+compared with other crops like rice, sorghum and maize, (chromosomes 1, 2, 3, 5, 9, 12, 14, 15, 17 and 19) were as-
+therefore, LD decay rate was the primary factor limiting sociated with soybean flowering time or the other growth
+the mapping resolution in GWAS for soybean.
+periods in two or more environments. Among the 37 en-
+vironmental stable association signals, 23 SNPS were over-
+Determination of 23 known and 14 new soybean
+lapped with known QTL or located 75 kb near the known
+flowering time loci
+SNPs controlling soybean growth periods. For instance,
+To date, a number of QTLs associated with soybean two SNPS, Gm2_12243099 and Gm3_5483526, were iden-
+growth periods had been reported. In the present study, a tified at 73.01 and 18.97 kb near Gm2_12316110 [28] and
+total of 37 SNPs distributed on ten chromosomes Gm03_5502496 [27], respectively. All the four SNPS,
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 8 of 13
+Gm5 27111367
+Gm11_10629613
+Gm11_ 10950924
+Gm19_34768458
+150 1
+** *
+I 100
+5
+: 50
+0
+150 1
+1 T
+TI
+I 100
+Trlililin
+:
+50
+0
+150 1
+O 100
+LO
+2 50
+0
+150 1 *
+O 100
+:
+50
+0
+150 1
+*
+3 100
+T
+L
+E 50
+0
+150 1 *
+** *
+*
+* ** *
+-
+3 100
+:
+50
+0
+GT GT GT GT GT GT GA GA GA GA GA GA GA GA GA GA GA GA TA TA TA TA TA TA
+R1 R2 R3 R4 R5 R6 R1 R2 R3 R4 R5 R6 R1 R2 R3 R4 R5 R6 R1 R2 R3 R4 R5 R6
+Fig. 6 Phenotypic statistics for soybeans carrying two alleles of four SNPS in six environments. The box plot showed the differences in flowering
+time of the varieties carrying two alleles of different SNPS, the major and minor alleles of significant loci was marked by green and blue,
+respectively. R1: Flowering time; R2: Full bloom; R3: Beginning pod; R4: Full pod; R5: Beginning seed; R6: Full seed. 2015 H: 2015 Harbin; 2016 H:
+2016 Harbin; 2015 C 2015 Changchun; 2016 C 2016 Changchun; 20155: 2015 Shenyang; 2016 S: 2016 Shenyang. and indicated that the
+threshold value -logioP were greater than 3.75 and 4.44, respectively
+Gm11_10774464, Gm11_10774489, Gm11_10793174, and Five candidate genes were identified in different
+Gml1 10851924 were identified near Gml1 10847172 flowering pathways
+[28]. In addition, 14 new SNPs were identified to be sig- The regulation of flowering time is a very complicated
+nificantly different from the major QTLs or reported SNPS process that is influenced by both genetic factors and
+and the molecular mechanisms of these new loci needed external environmental factors. The precise control of
+to be further studied.
+flowering time is achieved by the combination of
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 9 of 13
+various signals generated by these two aspects [41]. To (CCA1) which was expressed in the morning [49]. CCA1
+date, approximately six genetic pathways for the pro- acted as a transcriptional repressor by associating to the
+motion or repression of flowering time have been ELF4 promoter [50] and the ELF3 promoter [51] of the
+identified in Arabidopsis, including photoperiod, photoperiodic flowering pathway. Therefore, the tran-
+temperature, vernalization, gibberellin (GA) biosyn- scription factor MYB59-related Glyma.11G142900 located
+thesis, autonomous and aging pathways [42]. In photo- at 35.11 kb upstream of Gm11_10950924 might be consid-
+period pathway, Arabidopsis thaliana is a genetic ered to be associated with soybean flowering. Gly-
+model system for photoperiodic responses in plants, ma.19G100900 located at 37.60 kb downstream ofGm19_
+and flowers earlier in long days than in short days. In 34768458 was a B3 domain-containing transcription fac-
+the present study, five homologous genes (Gly- tor FUS3, which was also identified as a candidate gene of
+ma.05G101800, Glyma.1IG140100, Glyma.11G142900, soybean flowering time. Arabidopsis plants overexpressing
+Glyma.19G099700, Glyma. .19G100900) of Arabidopsis FUS3 post-embryonically in the L1 layer (ML1p:FUS3)
+flowering genes of AT5G48385.1, AT3G46510.1, ATSG showed late flowering and other developmental pheno-
+59780.3, ATIG28050.1, and AT3G26790.1 that played types [52].
+important roles in Arabidopsis flowering pathway were
+identified to probably participate in the regulation of Conclusions
+soybean growth periods based on strong correlation GWAS was powerful in dissecting complex traits and
+peak SNP and LD block of four significant SNPS (Gm5_
+identifying candidate genes. Fourteen novel SNPs and 23
+27111367, Gmll_ 10629613, Gm11_10950924, Gm19_ SNPs that located within known QTLs or 75 kb near the
+34768458). The Arabidopsis transcription factor CON-
+STANS (CO) played a central role in promoting flower- known SNPS associated with soybean flowering time or
+other related growth period traits in this study
+have
+ing in LDs. CO protein directly binded to the motifs in
+may
+the proximal promoter of its major target gene FLOW- great potential for soybean yield improvement. Five can-
+didate genes related to soybean flowering time might
+ERING LOCUS T (FT) to promote flowering [43, 44].
+After
+activation
+serve as promising targets for studies of molecular
+transcriptional
+by CO, FT protein mechanisms underlying growth period traits in soybean.
+moved to the shoot apex, where it induced transcrip-
+tional reprogramming of the meristem to form an in-
+florescence meristem and subsequently flowered [45]. Methods
+Thus, Glyma.19G099700, located at 85.90 kb downstream Plant materials and phenotypic evaluation
+of Gm19_34768458, and encoding a ZINC FINGER PRO- The soybean growth period traits including flowering
+TEIN CONSTANS-LIKE 14-RELATED transcription factor time, full bloom, beginning pod, full pod, beginning
+might be involved in soybean photoperiod control of flow- seed, and full seed of the natural population consisting
+ering pathway. In vernalization pathway, FRI (FRIGIDA) of 278 diverse soybean accessions with varied maturity
+was located upstream of FLC (FLOWERING LOCUS C) and growth habit characteristics were recorded and used
+and regulated vernalization by regulating FLC [42]. The for GWAS. Two hundred sixty-four and fourteen soy-
+two helix-helical domains of FRI protein interacted with bean germplasms [53] were from China and other coun-
+the nucleus cap-binding complex (CBC) to increase tran- tries (20°13'N 61.5°N) (Fig. 1, Additional file 1). The
+scription and efficient splicing of the flowering inhibitor map was completed by 'ggplots', 'colorspace', 'ggmap',
+FLC and delayed flowering [46]. Then, a FRIGIDA-like 'sp', 'maptools', 'maps', and 'labeling' packages in R soft-
+protein encoded by Glyma.05G101800 was located at ware [54, 55]. All the soybean germplasms were sowed
+47.91 kb upstream of Gm5_27111367, but there was no in experimental farms in three different latitudes of Har-
+vernalization in soybean, and the function of soybean FRI bin (4575'N, 126°63'E), Changchun (43°88'N, 125°35'E)
+needed to be validated whether it was related to flowering and Shenyang (41°44'N, 123°30'E) in China using ran-
+time. PUB13 was a negative regulator of flowering time domized complete block designs with three replicates in
+under middle- and long-day conditions in which the 2015 and 2016. Each experimental block consisted of 2
+expression of SOC1 (SUPPRESSOR OF OVEREXPRES- m long rows with 0.6 m row spacing and 0.05 m plant
+SION OF CONSTANS1) and FT was induced while FLC spacing. The soybean emergence stages and the repro-
+expression was suppressed in Arabidopsis [47]. Gly- ductive periods such as flowering time, full bloom, be-
+ma.11G140100 located at 47.56kb upstream of Gml1_ ginning pod, full pod, beginning seed, and full seed were
+10629613 might be considered to be associated with soy- recorded as described by Fehr and Caviness [56], and
+bean flowering. MYB59 was induced during the light-to- the days from emergence to reproductive periods were
+dark transition [48] and was regulated by the circadian calculated. Each stage was defined to have occurred if at
+cycle with peak expression in the evening, probably due to least 50% of the individual plants of a given soybean var-
+its regulation by CIRCADIAN CLOCK ASSOCIATED 1 iety had reached that stage.
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 10 of 13
+Statistical analysis
+environment; H was the grand mean; B; was the main ef-
+The descriptively statistical analyses were carried out by fect of fh environment; H +Bi was the average trait over all
+SPSS19.0 [57]. The phenotypic data of flowering time, genotypes in fh environment; M1 and 12 were the singular
+full bloom, beginning pod, full pod, beginning seed, and values for the first and second principal component (PC1
+full seed for 278 soybean germplasms were ranked by in- and PC2); Sa and S2 were eigenvectors of th genotype for
+dividual cases and transformed into variables obeying PC1 and PC2; Mjl and Mjz were eigenvectors of jth environ-
+standard normal distribution using SPSS19.0 [57] for ment for PC1 and PC2; Eij was the residual of the model
+correlation analysis, variance analysis (ANOVA) and associated with fth genotype in/th environment.
+GGE biplot. Correlation analysis of flowering time and
+full bloom, beginning pod, full pod, beginning seed, full Genotyping and quality control
+seed in six environments were identified using Pearson's The double enzyme group comprising Msel and Haelll
+correlation coefficients of "Performance Analytics" pack- (Thermo Fisher Scientific Inc., Waltham, MA, USA.)
+age in R software [31]. ANOVA was performed follow- was used to digest the soybean genomic DNA that iso-
+ing the standard procedure of a mixed effect model by lated from the fresh leaves of a single plant [62] into
+DPS v14.1.0 to determine the level of the significance of more than 50,000 sequencing tags, based on which, the
+genotype differences, locations, cultivation years and sequencing libraries of each accession were constructed
+their interactions [58]. Genotype and location were con- [33, 63]. The Short Oligonucleotide Alignment Program
+sidered as fixed effects, while year was considered as a 2 was used to map raw paired-end reads of the 45 bp se-
+random effect. The phenotypic observation Zijkr was quence read at both ends of the sequencing tags for each
+modeled as:
+library, which was obtained using the barcode approach
+combined with the Illumina Genome Analyzer II (Illu-
+Zijkr == u+ Gi+ L; + Yk + B,(L;Yk) + GLij + GYik mina Inc., San Diego, CA, USA) onto the reference gen-
++ LYjk + GLYijk + eijkr
+ome [64]. Approximately 58,000 high-quality SLAF tags
+where Zijkr was the response variable; H was the grand were obtained after sequencing reads with the same gen-
+mean; Gi was the genotype effect; Li was the location omic position of each accession. A total of 34,710 SNP
+effect; Yx was the year effect; B,(L,Y) was the block loci with missing rate less than 10% and minor allele fre-
+effect; GLij was the genotype-by-location interaction; quency (MAF) greater than 0.04 was used for GWAS.
+GYk was the genotype-by-year interaction; LYjk was
+the location-by-year interaction; GLYjk was the Linkage disequilibrium (LD), population structure and
+genotype-by-location-by year interaction and eijkr was kinship analyses
+the residual error. These components were used to Pairwise LD between 34,710 SNP loci with missing rate
+calculate broad-sense heritability (h?) for soybean less than 10% and MAF greater than 0.04 was estimated
+flowering time, full bloom, beginning pod, full pod, using squared allele frequency correlations (r?) in TAS-
+beginning seed, and full seed, the calculation is based SEL 5.0, the LD decay rate of the population was mea-
+on the following formula [59]:
+sured as the chromosomal distance when r? dropped to
+half its maximum value [38, 65, 66]. The 34,710 SNP loci
+h?
+a 2
+were also used to perform principal component analysis
+Og + Og2/y+ Ogt? + Ogly2/ly + 022/rly
+and calculate kinship matrixes by identity-by-state (IBS)
+2
+method implemented in TASSEL 5.0 to infer population
+where Og was genotype, Og was genotype-by-location, stratification and relatedness
+individuals
+2
+2
+among
+[65, 67]).
+Ogy was genotype-by-crop year, Ogly was genotype-by-
+location-by-crop year, Oe 2 was error, r was number of GWAS and candidate genes prediction
+replications, L was number of locations and y was crop The statistical mixed linear model (CMLM-PCA + K)
+years respectively.
+was used to perform GWAS using TASSEL 5.0 [65]. The
+GGE biplot completed by "GGEBiplotGUI" package in equation for the CMLM-PCA + K analysis was expressed
+R software [60] was used to screen the stable soybean as:
+varieties with early flowering and late flowering in multi-
+environment. The general model of GGE biplot based
+y == Xa + PB + Zu + e
+on singular value decomposition (SVD) of environment-
+centered or environment-standardized [61] could be where y was phenotype value; a was the vector of SNP
+written as:
+effects; B was vector of population structure effects
+Y-H-B,=Atann +A2521, + Eij
+based on PCA; u was vector of kinship background ef-
+fects; e was vector of residual effects; X, P, Z were inci-
+where Yij was the measured mean of th genotype in jh dence matrix relating the individuals to fixed marker
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 11 of 13
+effects a, fixed principal component (PC) effects B, ran- for Soybean in Northeast China, Ministry of Agriculture, Soybean Research &
+dom group effects u, respectively.
+Development Center, CARS, and financially supported by Key Special Project
+Bonferroni
+National Key Research & Development Program 'seven crop breeding'
+test P<0.05/n or P<0.01/n (n =l 278), that (2016YFD0101005), National Natural Science Foundation of China (31771820),
+was -log1oP> 3.75 or -logioP> 4.44, was used to deter- Chinese Key Projects of Soybean Transformation (2016ZX08004-005), The
+mine the significant or extremely significant SNP-trait national project (CARS-04-PS04). None of the funding bodies participated in
+associations. The R-based package snp.plotter was used the design of the study, collection, analysis, and interpretation of data, or
+writing the manuscript.
+to comb the LD block of the significant SNPS, the candi-
+date genes associated with soybean flowering time within Availability of data and materials
+which were predicted using the SoyBase (https://www. All data generated or analyzed during this study are included in this
+soybase.org) and TAIR (ntpglhwwwanbidopsisorp published article and its supplementary information files.
+databases.
+Ethics approval and consent to participate
+The plant materials were collected from germplasms bank of the Key
+Supplementary information
+Laboratory of Soybean Biology of the Chinese Education Ministry. The
+Supplementary information accompanies this paper at https//doiorg/10. collection and usage of samples followed the ethics of the People's Republic
+1186512864-01963247.
+of China.
+Additional file 1. General information and phenotypic data of 278
+Consent for publication
+accessions used in this study.
+Not applicable.
+Additional file 2. Statistical analysis of growth periods traits for 278
+soybean varieties in six environments.
+Competing interests
+Additional file 3. Variance analysis (ANOVA) of 278 soybean varieties in The authors declare that they have no competing interests.
+six environments.
+Additional file 4. The soybeans with stable below- or above-average
+Received: 20 July 2019 Accepted: 22 November 2019
+Published online: 16 December 2019
+flowering time.
+Additional file5. The raw data and the corresponding accession
+numbers by SLAF-seq.
+References
+1. Watanabe S, Harada K Abe J. Genetic and molecular bases of photoperiod
+Additional file 6. SNPS distribution on each chromosome.
+responses offlowering in soybean. Breed Sci. 2011,61(5).531-43.
+Additional file 7. Peak SNP associated with soybean growth periods in 2. Cober ER, Morrison MJ. Regulation of seed yield and agronomic characters
+one environment by CMLM-PCA +K model.
+by photoperiod sensitivity and growth habit genes in soybean. Theor Appl
+Additional file 8. Peak SNPS associated with soybean growth periods in
+Genet 2010,120(5X1005-12
+at least two environments by CMLM-PCA+K model.
+3. Zhang JP, Song QJ, Cregan PB, Nelson RL, Wang XZ, Wu JX, Jiang GL
+Genome-wide association study for flowering time,
+dates and
+Additional file 9. The 291 genes within the LD block (7>05) of 37
+plant height in early maturing soybean (Glycine max) maturity germplasm. BMC
+significant SNPS.
+Genomics. 2015.160)217.fhtps/likspingercomaride/101186s12864-
+Additional file 10: Figure S1. The normal score of standard normal
+015-1441-4).
+random variable transformed from growth periods for 278 soybeans.
+4. Bernard RL Two major genes for time of flowering and maturity in
+Additional file 11: Figure S2. Phenotypic correlation analysis of 278
+soybeans. Crop Sci. 1971112)242-4.
+soybean varieties in six environments.
+5. Bonato ER, Vello NA E6, a dominant gene conditioning early flowering and
+maturity in soybeans. Genet Mol Biol. 199922(2,229-32.
+Additional file 12: Figure S3. Manhattan and QQ plots of GWAS for
+6. Valéria CP, De ALA, RAdS K Inheritance of fa long juvenile period under
+soybean growth periods.
+short-day conditions in soybean. Genet Mol Biol 200225(4)463-9
+7. Watanabe S, Hideshima R, Xia ZJ, Tsubokura Y, Sato S, Nakamoto Y,
+Abbreviations
+Yamanaka N, Takahashi R, Ishimoto M, Anai T, et al Map-based cloning of
+CMLM: Compressed mixed linear model; GWAS: Genome-wide association
+the gene associated with the soybean maturity locus E3. Genetics. 2009;
+study; LD: Linkage disequilibrium; MAF: Minor allele frequencies;
+8. 182(4:1251-62. Buzzell RI Inheritance of soybean
+PCA: Principal component analysis; R: Phenotypic variance; SLAF-seq: Specific-
+a
+flowering response to fluorescent-
+locus amplified fragment sequencing; SNP: Single nucleotide polymorphisms
+daylength conditions. Can JGenet Cytol. 1971;13(4)703-7.
+9. Samanfar B, Molnar SJ, Charette M, Schoenrock A, Dehne F, Golshani A
+Belzile F, Cober ER. Mapping and identification ofa potential candidate
+Acknowledgements
+gene for a novel maturity locus, E10, in soybean. Theor Genet.
+This study was conducted in the Key Laboratory of Soybean Biology of the
+130(2)377-90.
+Appl 2017;
+Chinese Education Ministry, the Soybean Research & Development Center
+10. Mcblain BA, Bernard RL A new gene affecting the time of flowering and
+(CARS) and the Key Laboratory of Northeastern Soybean Biology and
+maturity in soybeans. JI Hered. 1987:78(3):160-2
+Breeding/Genetics of the Chinese Agriculture Ministry.
+11. Kong F, Nan H, Dong C Ying L, Wu F, Wang J,Lu S, Yuan X Abe J, Cober
+ER. A new dominant gene E9 conditions early flowering and maturity in
+Authors' contributions
+soybean. Crop Sci 20145446)2529-35
+LZ, XZ, DML and WBL designed and supervised the research; MML and YL
+12. Cober ER, Voldeng HD. A new soybean maturity and photoperiod-senstivity
+participated in the phenotypic data collection; XL, YHT and CJX performed
+locus linked to and. Crop Sci. 2001/413)698-701.
+phenotyping; LZ, XZ, MML, YPH, XY, JZS, XMZ conducted the molecular
+13. Cober ER, Molnar SJ, Charette M, Voldeng HD.A new locus for early
+experiments and the association analysis; and LZ, WBL and MML wrote the
+maturity in soybean. Crop Sci 201050(2)524-7.
+manuscript All authors read and approved the final manuscript
+14. Watanabe S, Harada K Abe J. Genetic and molecular bases of photoperiod
+responses offlowering in soybean. Breed Sci. 2012,61(5).531-43.
+Funding
+15. Lu SJ, Zhao XH, Hu YL, Liu SL, Nan HY, LiXM, Fang C, Cao D, Shi XY, Kong
+This study was conducted in the Key Laboratory of Soybean Biology of
+LP, et al. Natural variation at the soybean J locus improves adaptation to
+Chinese Education Ministry, Key Laboratory of Biology, Genetics & Breeding
+the tropics and enhances yield. Nat Genet 2017;49(5):773-9.
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 12 of 13
+16. Liu B, Kanazawa A, Matsumura H, Takahashi R, Harada K Abe JGenetic
+37. Flint-Garcia SA, Thornsberry JM, Buckler ES. Structure of linkage
+redundancy in soybean Photoresponses associated with duplication of the
+disequilibrium in plants. Annu Rev Plant Biol. 2003:54357-74.
+Phytochrome a gene. Genetics. 2008;1 180(2):995-1007.
+38. Huang XH, Wei XH, Sang T, Zhao QA, Feng Q, Zhao Y,Li CY,Zhu CR, Lu TT,
+17. Yue YL, Liu NX, Jiang BJ, Li M, Wang HJ, Jiang Z, Pan HT, Xia QJ, Ma QB, Han
+Zhang ZW, et al Genome-wide association studies of 14 agronomic traits in
+TF, et al A single nucleotide deletion in J encoding GmELF3 confers long
+rice landraces. Nat Genet. 201042(011961-967. fntps/www.nature.com
+juvenility and lis associated with adaption of tropic soybean. Mol Plant.
+articles/ng.695).
+2017;10(4),656-8
+39. Morris GP, Ramu P, Deshpande SP, Hash CT, Shah T, Upadhyaya HD, Riera-
+18. Wu F, Price BW, Haider W, Seufferheld G, Nelson R Hanzawa Y. Functional
+Lizarazu O, Brown PJ, Acharya CB, Mitchell SE, et al. Population genomic
+and evolutionary characterization of the CONSTANS gene family in short-
+and genome-wide association studies of agroclimatic traits in sorghum.
+day photoperiodic flowering in soybean. PLOS One. 20149(1):e85754.
+Proc Natl Acad Sci USA 2013;110(2)453-8
+19. Na X, Jian B, Yao W, Wu C Hou W, Jiang B, BiY, Han T. Cloning and
+40. Yan JB, Shah T, Warburton ML, Buckler ES, Mcmullen MD, Jonathan C
+functional analysis of the flowering gene GmSOC1-like, a putative
+Genetic characterization and linkage disequilibrium estimation ofa global
+SUPPRESSOR OF OVEREXPRESSION CO1/AGAMOUS-LIKE 20 (SOC1/AGL20)
+maize collection using SNP markers. PLOS One. 20094(12,e8451.
+ortholog in soybean. Plant Cell Rep. 201332(8:1219-29
+41. Yong W, Kang C Xu Z, Tan K Zhu Z Gene control of flowering time in
+20. Zhang Q, Li H, Li R, Hu R, Fan C, Chen F, Wang Z, Liux, Fu Y, Lin C
+higher plants. Chin Sci Bull 200045018)1633-42
+Association of the circadian rhythmic expression of GmCRY1a with a
+42. Srikanth A, Schmid M. Regulation of flowering time: all roads lead to Rome.
+latitudinal cline in photoperiodic flowering of soybean. Proc Natl Acad Sci U
+Cell Mol Life Sci. 2011,68(12)2013-37.
+SA 2008105152/21028-33
+43. Tiwari SB, Shen Y, Chang HC, Hou Y, Harris A, Ma SF, McPartland M, Hymus
+21. Zhao K Tung CW, Eizenga GC, Wright MH, Ali ML, Price AH, Norton GJ,
+GJ, Adam L, Marion C The flowering time regulator CONSTANS is recruited
+Islam MR, Reynolds A, Mezey J, et al. Genome-wide association mapping
+to the FLOWERING LOCUS T promoter via a unique cis-element New
+reveals sarich genetic architecture of complex traits in Oryza sativa. Nat
+Phytol. 2010,187(1)57-66.
+Commun. 2011;2:467. fntps/wwwunaturecom/artcdesyncomms146
+44. Song YH, Smith RW, To BJ, Millar AJ, Imaizumi T. FKF1 conveys timing
+7mesageglobal-removel
+information for CONSTANS stabilization in photoperiodic flowering. Science.
+22. Nordborg M, Weigel D. Next-generation genetics in plants. Nature. 2008;
+20123366084-1045-9
+456(7223):720-3.
+45. Torti S, Fornara F, Vincent C Andrés F, Nordstrôm K Gobel U, Knoll D,
+23. Weng J, Xie CHao Z, Wang J, Liu CLi M, Zhang D, Bai L, Zhang SLix
+Schoof H, Coupland G. Analysis of the Arabidopsis shoot meristem
+Genome-wide association study identifies candidate genes that affect plant
+transcriptome during floral transition identifies distinct regulatory patterns
+height in Chinese elite maize (Zea mays L) inbred lines. Plos One. 2011;
+and a leucine-rich repeat protein that promotes flowering. Plant Cell. 2012;
+6(12):e29229.
+24(2):444-62.
+24. Su J, Fan S,LiL, Wei H, Wang C Wang H, Song M, Zhang C Gu L, Zhao S, 46. Geraldo N, Baurle el,Kidou S, Hu X Dean C FRIGIDA delays flowering in
+et al Detection of favorable QTL alleles and candidate genes for lint
+Arabidopsis via a cotranscriptional mechanism involving direct interaction
+percentage by GWAS in Chinese upland cotton. Front Plant Sci. 2016;7:1576.
+with the nuclear cap-binding complex Plant Physiol. 2009:15003)1611-8.
+25. Zhao X Han YP, Li YH, Liu DY, Sun MM, Zhao Y, Lv CM, Li DM, Yang ZJ,
+47. Wei L, Il-Pyung A, Yuese N, Chan-Ho P, Lirong Z, Whitehill JGA, Haibin L,
+Huang L, et al Loci and candidate gene identification for resistance to
+Qingzhen Z, Bo D, Qi X. The U-box/ARM E3 ligase PUB13 regulates cell
+Sclerotinia sclerotiorum in soybean (Glycine max L Merr.) via association
+death, defense, and flowering time in Arabidopsis. Plant Physiol 2012;159(1):
+and linkage maps. Plant J. 2015;82(2)245-55.
+239-50.
+26. Chen W, Yao J, Chu L, Yuan Z, Liy, Zhang Y. Genetic mapping of the
+48. LiJ, Yang X Wang Y,Lix, Gao Z, Pei M, Chen Z, Qu L-J,Gu H. Two groups
+nulliplex-branch gene (gb_nb1) in cotton using next-generation
+ofMYB transcription factors share a motif which enhances trans-activation
+sequencing. Theor Appl Genet 2015:1283)539-47.
+activity. Biochem Biophys Res Commun. 20063414:1155-63.
+27. MaoT,LiJ, Wen Z, Wu T, Wu C, Shi S, Jiang B, Hou W, LiW, Song Q
+49. Lai AG, Doherty CJ, Mueller-Roeber B, Kay SA, Schippers JH, Dijkwel PP.
+Association mapping of floci controlling genetic and environmental
+CIRCADIAN CLOCKASSOCIATED 1 regulates ROS homeostasis and oxidative
+interaction of soybean flowering time under various photo-thermal
+stress responses. Proc Natl Acad Sci 201210942M17129-34
+conditions. BMC Genomics. 2017;18(1):415.
+50. LiG, Siddiqui H, Teng Y, Lin R, Wan X-Y,LiJ, Lau O-S, Ouyang X, Dai M,
+28. Fang C Ma Y, Wu S, Liu Z, Wang Z, Yang R, Hu G, Zhou Z, Yu H, Zhang M.
+Wan J. Coordinated transcriptional regulation underlying the circadian clock
+Genome-wide association studies dissect the genetic networks underlying
+in Arabidopsis. Nat Cell Biol 2011;13(5):616.
+agronomical traits in soybean. Genome Biol. 2017;18(1):161.
+51. Lu SX, Webb C, Knowles SM, Kim SH, Wang Z, Tobin EM. CCA1 and ELF3
+29. Zhou L, Wang SB, Jian J, Geng QC, Wen J, Song Q, Wu Z,LiGJ, Liu YQ,
+interact in the control of hypocotyl length and flowering time in
+Dunwell JM. Identification of domestication-related loci associated with
+Arabidopsis. Plant Physiol. 20121582:1079-88
+flowering time and seed size in soybean with the RAD-seq genotyping
+52. Duong S, Vonapartis E, LiC-Y,Patel IS, Gazzarrini iS.The E3 ligase ABI3-
+method. Sci Rep. 2015;5.9350.
+INTERACTING PROTEIN2 negatively regulates FUSCA3 and plays a role in
+30. Zhao X, Teng W, Liy, Liu D, Cao G, Li D, Qiu L, Zheng H, Han Y,Li W. Loci
+cotyledon development tin Arabidopsis thaliana.JExp Bot 2017687:1555-67.
+and candidate genes conferring resistance to soybean cyst nematode HG 53. Han Y,Zhao X, Cao G, Wang Y, LiY, Liu D, Teng W, Zhang Z, LiD, Qiu L,
+type 25.7. Bmc Genomics. 2017;18(1):462.
+et al. Genetic characteristics of soybean resistance to HG type 0 and HG
+31. Micheaux PLD, Drouilhet RM, Liquet BT. The R software fundamentals of
+type 1.23.5.7 of the cyst nematode analyzed by genome-wide association
+programming and statistical analysis. New York: Springer Publishing
+mapping. BMC Genomics. 2015;16:598.
+Company; 2013.
+54. Maag JLV. gganatogram: An R package for modular visualisation of
+32. Song DWG. The study on the heritability and coefficient of hereditary
+anatograms and tissues based on ggplot2. F1000Res. 2018;7:1576.
+variation of maize variety resources. JI Hubei Agric Coll 1999;19(3)212-4.
+55. Kahle D, Wickham H. ggmap: spatial visualization with ggplot2. RJ 2013;
+33. Han YP, Zhao X Liu DY, Li YH, Lightfoot DA, Yang ZJ, Zhao L, Zhou G,
+5(1):144-61.
+Wang ZK, Huang L, et al. Domestication footprints anchor genomic regions 56. Fehr WR, Caviness CE. Stages of soybean development In: Special
+of agronomic importance in soybeans New Phytol 2016209(2)871-84
+Report 80. vol 80. Ames: lowa State University of Science and
+34. Wen Z, Tan R, Yuan J, Bales C, Du W, Zhang S, Chilvers MI, Schmidt C Song
+Technology; 1977. p. 11.
+Q, Cregan PB. Genome-wide association mapping of quantitative resistance 57. Field A Discovering statistics using IBM SPSS statistics. 5th ed. Thousand
+to sudden death syndrome in soybean. BMC Genomics. 2014;15(1):809.
+Oaks: University of Sussex SAGE Publications Ltd; 2013.
+35. Yu J, Gael P, Briggs WH, Irie VB, Masanori Y, Doebley JF, Mcmullen MD, Gaut 58. Tang QY, Zhang CX. Data processing system (DPS) software with
+BS, Nielsen DM, Holland JB. A unified mixed-model method for association
+experimental design, statistical analysis and data mining developed for use
+mapping that accounts for multiple levels of Frelatedness. Nat Genet 2006;
+in entomological research. Insect Sci. 201320(2)254-60.
+38(2):203-8.
+59. Jamoza JE, Owuoche J, Kiplagat O, Opile W. Broad-sense heritability
+36. Qu MN, Jiang BJ, Liu W, Mao TT, Ma LM, Lin KX, Han TF, University NA New
+estimation and correlation among sugarcane (Saccharum spp. hybrids) yield
+approaches to molecular breeding of soybean. J Agric Sci Technol. 2014;
+and some agronomic traits in western Kenya. IntJ Agric Policy Res. 2014;
+16(3):8-13.
+2(1):16-25.
+
+
+
+Li et al. BMC Genomics (2019) 20:987
+Page 13 of 13
+60. Frutos E, Galindo MP, Leiva V. An interactive biplot implementation in Rfor
+modeling genotype-byenvionment interaction. Stoch Env Res Risk A 2014;
+28(7):1629-41.
+61. Yan WK Optimal use of biplots in analysis of multi-location variety test data.
+Acta Agron Sin. 201036011:1805-19
+62. Wu XL, Ren CW, Joshi T, Vuong T, Xu D, Nguyen HT SNP discovery by high-
+throughput sequencing in soybean. BMC Genomics. 2010,11(1)469-0.
+Oepulhnisgpinguomenderdntaw1gh2164141
+63. Sun XW, Liu DY, Zhang XF, LiWB, Liu H, Hong WG, Jiang CB, Guan N, Ma
+CX, Zeng HP, et al SLAF-seq: An Efficient Method of Large-Scale De Novo
+SNP Discovery and Genotyping Using High-Throughput Sequencing. PLOS
+One. 2013;8(3)e58700. Omplipumakplosoypoosgneonceld-1ai3/
+journalpone.0058700),
+64. LIR, Yu C Liy, Lam TW, Yiu SM, Kristiansen K Wang J. SOAP2: an improved
+ultrafast tool for short read alignment Bioinformatics. 200925(15:1966-7.
+65. Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES.
+TASSEL: software for association mapping of complex traits in diverse
+samples. Bioinformatics. 200723(19)2633-5.
+66. Remington DL, Thornsberry JM, Matsuoka Y, Wilson LM, Whitt SR, Doebley J,
+Kresovich S, Goodman MM, Buckler ES. Structure of linkage disequilibrium
+and phenotypic associations in the maize genome. Proc Natl Acad Sci US
+A 2001,9820:11479-84
+67. Endelman JB, Jannink JL. Shrinkage estimation of the realized relationship
+matrix G3 (Bethesda). 20122(11):1405-13.
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Ready to submit your research? Choose BMC and benefit from:
+. fast, convenient online submission
+: thorough peer review by experienced researchers sinyour field
+rapid publication on acceptance
+support for research data, including large and complex data types
+gold Open Access which fosters wider collaboration and dincreased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions

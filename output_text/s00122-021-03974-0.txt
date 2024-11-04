@@ -1,0 +1,821 @@
+Theoretical land Applied Genetics (2022) 135:439-447
+htps/dol.org/10.1007500122-021-039740
+ORIGINAL ARTICLE
+Check for
+updates
+GmAOC4 modulates seed germination by regulating JA biosynthesis
+in soybean
+Wei Zhang' . Wenjing Xu? Songsong Li12. Hongmei Zhang'  Xiaoqing Liu' Xiaoyan Cui' .Li Song13.
+Yuelin Zhu12.Xin Chen' . Huatao Chen'o
+Received: 21 June 2021 / Accepted:80ctober 2021 /Published online: 21 October 2021
+OThe Author(s), under exclusive licence to Springer-Verlag GmbHGermany, part of fSpringerNature 2021
+Abstract
+Key message An allene oxide cyclase 4, GmAOC4, was determined by GWAS and RT-PCR to be significantly associ-
+ated with seed germination in soybean, and regulates seed germination by promoting more JA accumulation.
+Abstract The seed germination phase is a critical component of the plant lifecycle, and a better understanding of the
+mechanism behind seed germination in soybeans is needed. We used a genome-wide association study (GWAS) to detect a
+GWAS signal on chromosome 18. In this GWAS signal, SNP S18_56189166 was located within the 3'untranslated region of
+Glyma. 18G280900, which encodes allene oxide cyclase 4 (named GmAOC4). Analysis of real-time PCR demonstrated that
+expression levels of GmAOC41 in the low-germination variety (KF, carrying SNP S18_56189166-T) were higher than in the
+high-germination variety (NN, carrying SNP S18_56189166-C). In these two varieties, KF showed a higher JA concentra-
+tion than NN at 0 and 24h after imbibition. Moreover, the overexpression of GmAOC4 led to an increase in the concentra-
+tion of jasmonic acid (JA) in soybean hairy roots and Arabidopsis thaliana. Furthermore, it was found that GmAOC4-OE
+lines showed less seed germination than the wild type (WT) under normal conditions in Arabidopsis. After 7 days of ABA
+treatment, transgenic lines exhibited lower seed germination and higher expression levels of AtABI5 compared with WT,
+indicating that the overexpression of GmAOC4 resulted in hypersensitivity to ABA. Our findings demonstrate that GmAOC4,
+which promotes more JA accumulation, helps to regulate seed germination in soybeans.
+Introduction
+vigor affects field emergence, seedling growth, and yield (R
+and Nikam 2008; Borner et al. 2018; Caverzan et al. 2018).
+Seed vigor is measured by assessing seed traits that regu- Germination is a major component of seed vigor, and high
+late the activity levels and performance of seed types with germination rates can reduce the risk of lower crop yields.
+high germination rates under various environmental con- The propagation of crops is heavily influenced by whether
+ditions (Perry 1978). Studies have demonstrated that seed or not seeds are successfully germinated and established,
+making seed germination important both economically and
+Communicated by Istvan Rajcan.
+ecologically. Germination has been used as a major index
+indicating the seed vigor of different crops (Han et al. 2014;
+Xin Chen
+Hang et al. 2015; Hatzig et al. 2015; Zhang et al. 2019a),
+cx@jaas.ac.cn
+while genetic dormancy traits also influence seed germina-
+Huatao Chen
+tion (Rajjou et al. 2012; Jin et al. 2018; Song et al. 2020;
+cht@jaas.ac.cn
+Wang et al. 2020). A better understanding of how the genetic
+Institute of Industrial Crops, Jiangsu Academy
+components contribute to successful germination is needed
+of Agricultural Sciences, Nanjing 210014, China
+to breed vigorous crop varieties with uniform rapid growth
+2 College of Horticulture, Nanjing Agricultural University,
+characteristics.
+Nanjing 210095, China
+Seed germination is a complicated process. As such, the
+3 Joint International Research Laboratory of Agriculture
+genetic factors responsible for seed germination are hard
+and Agri-Product Safety, Jiangsu Key Laboratory of Crop
+to identify using typical physiological or genetic analytical
+Genomics and Molecular Breeding, Co-Innovation Center
+methods. A genome-wide association study (GWAS) is the
+for Modern Production Technology of Grain Crops,
+optimal method for identifying genomic locations associated
+Yangzhou University, Yangzhou 225009, China
+Springer
+
+
+
+440
+Theoretical and Applied Genetics (2022) 135:439-447
+with the complicated quantitative traits over a wide germ- City, Jiangsu Province. Field planting was performed
+plasm range to identify chromosomal locations that could according to a randomized complete block design, which
+hold candidate genes. GWAS can also significantly increase used a plot with a single row and three replicates.
+the accuracy of mapping QTLS by assessing different germ-
+Before germination, chlorine gas was used to sterilize
+plasm with common crossovers since their most recent evo- the seeds and reduce the risk of microbial contamination.
+lutionary divergence. GWAS is an effective method of con- Forty seeds were then placed on two pieces of filter paper,
+necting complicated phenotypic characteristics with their which were in sterilized Petri dishes. Fifteen mL of water
+related genetic factors in many crops, including soybean was then added. These seeds were incubated at 25+ 1 °C
+(Hatzig et al. 2015; Lekklar et al. 2019; Zhang et al. 2019a, for 5 days in a dark growth chamber, after which the num-
+b; Liu et al. 2020; Pang et al. 2020).
+ber of seeds that germinated was counted to obtain the
+Due to its abundance of both protein and oil, it is easier germination rate (GR). The soybean seeds were considered
+for soybean [Glycine max (L.) Merr.] seeds to deteriorate germinated once the length of the radicle and plumule of
+and lose seed vigor than it is for other crops such as rice, the seeds exceeded the overall length of the seed. Three
+wheat, and maize. This affects field emergence, seedling replicates were performed in this study; the average values
+growth, and furtherreduces the yield (Caverzan et al. 2018). of the data obtained from E1 and E2 were used for the
+Therefore, it is necessary to explore the molecular mecha- GWAS.
+nism behind the vigor and germination of soybean seeds.
+Significant progress has been achieved in identifying the
+seed germination and seed vigor of Arabidopsis thaliana Phenotypic data analysis
+(Jin et al. 2018; Pan et al. 2020), rice (He et al. 2020; Wang
+et al. 2020), Brassica napus (Hatzig et al. 2015), and maize An analysis of variance (ANOVA) was performed for the
+(Li et al. 2016); however, there is limited research on the phenotypic data using the PROC GLM in the software
+mechanism behind seed germination in soybeans. Therefore, SAS version 9.0 (SAS Institute, Inc., Cary, NC, USA). The
+a better understanding of the mechanism behind seed germi- descriptive statistics and broad-sense heritability (h2) were
+nation and breeding resistant soybean varieties can mitigate performed using the R software package (http://www.R
+the loss of seed vigor and vitality.
+project.org/). Broad-sense heritability (h2) was computed
+In this study, a GWAS signal on chromosome 18 related using the formula: R=0/6 +0 /n+o /nr) where
+to germination rate, an index of seed vigor, was identified d's is the genotypic variance, 6 ge is the genotype by envi-
+by GWAS during the seed germination stage in soybean. ronment interaction variance, 02 is the error variance, n is
+GmAOC4 is the main candidate gene for this QTL and its the number of environments, and ris the number ofreplica-
+regulatory functions on seed vigor were primarily inves- tions. The bar graphs and line graphs were generated with
+tigated. Results demonstrated that the relative expression Origin 8.0 software.
+of GmAOC4 in high-germination varieties was signifi-
+cantly lower than in low-germination varieties. GmAOC4
+is involved in JA biosynthesis in soybean and the overex- GWAS for seed germination
+pression of GmAOC4 repressed seed vigor in Arabidopsis.
+Additionally, the hypersensitivity to ABA was observed with To dissect the genetic mechanism of soybean seed germina-
+a high expression level of AtABI5 in GmAOC4-OE Arabi- tion, a genome-wide association study (GWAS) was con-
+dopsis. The possible mechanisms of GmAOC4 involving the ducted using the germination phenotype and a marker set of
+regulation of seed vigor could relate to modulating GmABIS 2,597,425 SNPS as described in our previous study (Zhang
+expression during JA and ABA interactions in soybean ger- et al. 2021). The association between the phenotypes and
+minating seeds. This study provides important insights into markers was evaluated using a mixedlinear model that was
+the role of GmAOC4 in soybean seed vigor.
+implemented with an R package called Genome Associa-
+tion and Prediction Integrated Tool (GAPIT). GAPIT is a
+powerful tool and a series of methods for genome-wide
+Materials and methods
+association (GWAS), including the mixed linear model
+(MLM), compressed MLM (CMLM), and multiple locus
+Plant materials and phenotyping
+mixed linear model (MLMM) (Lipka et al. 2012), while the
+population structure (Q) and kinship matrix (K) were calcu-
+A natural population of 264 Chinese soybean acces- lated using the GAPIT program for GWAS with MLM. The
+sions (with 212 improved varieties and 52 landraces) was threshold for significant association was p < 3.85 X 10-7 or
+selected to produce an association mapping panel. All of - logio(p)> 6.4 as described in our previous study (Zhang
+the soybeans were planted in 2018 and 2019 in Nanjing et al. 2021).
+Springer
+
+
+
+Theoretical and Applied Genetics (2022) 135:439-447
+441
+Real-time PCR
+Agrobacterium tumefaciens (EHA105 strain) and then trans-
+formedArabidopsis via the floral dip method (Clough and
+Total RNA was isolated using an RNAsimple Total RNA Bent 1998). The transformants of the primary plants were
+Kit (TIANGEN Beijing, China), and the first-strand cDNA placed on an MS medium using kanamycin (0.05 mg/ml)
+was reverse-transcribed with a TaKaRa Primer Script RT resistance, and after 10 days the resistant seedlings were
+reagent kit and gDNA Eraser according to the manufac- transplanted into the soil. We collected the resulting seeds
+turer's instructions. Real-time PCR (RT-PCR) assessing and tested them for resistance to kanamycin, selecting from
+gene expression was conducted with an ABI 7500 system three different generations to produce transformed homozy-
+(Applied Biosystems, Foster City, CA, USA) and an SYBR gous plants. Levels of GmAOC4 overexpression were
+Green Real-time Master Mix (Toyobo). Tubulin transcrip- assessed via RT-PCR. TUBULIN (TUB) gene was used as
+tion levels (GenBank accession number: AY907703) were an internal RT-PCR control, while Supplemental Table S1
+used for quantitative controls. Table S1 lists the primers used displays the TUB primers.
+in this study.
+Hormone quantification
+Agrobacterium rhizogenes-mediated transformation
+of soybean hairy roots
+For JA quantification, 1 g soybean hairy root, soybean seed,
+and Arabidopsis seed were prepared, respectively. Endog-
+The GmAOC4 coding sequence was cloned from KF and enous JA was extracted according to the manufacturer' 's
+was subsequently subcloned to the vector pMDC83, which instructions of the plant JA enzyme-linked immunosorbent
+contained only the double CaMV 35S promoter. This gener- assay (ELISA) kit (Dogesce Beijing, China). The procedure
+ated the pMDC83-GmA0C4overexpression vector. Table S1 was performed according to the following: (1) Prepare all
+lists the primers used to construct these vectors.
+reagents before starting the assay procedure. All standards
+The pMDC83-GmA0C4 and its empty vector were trans- and samples be added in duplication on the microtiter plate.
+formed into the Agrobacterium rhizogenes strain K599 inde- (2) Add 50 pl of standard or sample to the appropriate
+pendently to generate soybean hairy roots, per the methods wells. The blank well doesn't add anything. (3) Add 100 ul
+used in a previous study (Kereszt et al. 2007). One-week-old of enzyme conjugate to standard wells and sample wells
+seedlings were injected with the resulting K599 and trans- except for the black well, cover with an adhesive strip, and
+ferred to a germination chamber with a 12-h light/dark cycle, incubate for minutes at 37 °C. (4) Wash the microtiter plate
+day/night temperatures of 28°C/25°C, and high humidity four times. (5) Add substrate A 50 pl and substrate B 50 pl
+rates. After 2 or 3 weeks, the hairy roots were approximately to each well. Gently mix and incubate for 15 min at 37 °C.
+2-10 cm closer to the infection site than where they formed, (6) Add 50 ul Stop Solution to each well. (7) Read the opti-
+at which point the primary root was removed. The seedling cal density (OD) at 450 nm using a microtiter plate reader
+hairy roots were then placed in Y2 Hoagland nutrient solu- within 15 min.
+tion for 2 weeks.
+Plasmid construction and overexpression
+Results
+of GmAOC4in Arabidopsis
+Phenotypic variation
+The coding sequence of GmAOC4 was cloned from KF using
+primers harboring Xbal and BamHI sites (Supplemental The descriptive statistics and broad-sense heritability (h?)
+Table S1) and was then subcloned into the vector pMDC83 of the germination rate (GR) were analyzed for 264 soybean
+with the CaMV 35S promoter as pMDC83-GmAOC4- varieties (Table 1). The average GR values in 2018 and 2019
+35S::GFP. To obtain the stable expression of GmAOC4 in were 94.2% and 94.8%, respectively, and the minimum GR
+Arabidopsis, we transformed the recombinant vector into values were 40% and 45%, respectively. The coefficients
+Table 1 Descriptive statistics,
+Trait En
+Mean+SD Min Max CV Geno Env GenoxEnv h2
+ANOVA and h of germination
+rate of the soybean diversity
+GR 2018 94.2+8.6 40 100 9.20 *** *** ***
+70.13%
+panel in 2 years
+2019 94.8+7.0 45
+100 7.40
+GR, Germination rate; En., environment; Min, minimum; Max, maximum; SD, standard deviation; CV,
+coefficient variations; h:heritability; Geno, genotype; Env, environment
+***Significant at P<0.001
+Springer
+
+
+
+442
+Theoretical and Applied Genetics (2022) 135:439-447
+of variation of GR were 9.2% and 7.4% in 2018 and 2019, phenotypic variation (Table 2), forming a cluster flankedby
+respectively, and the heritability (h?) was 70.13%. In addi- the SNP S18_56189166 and S18_56196037 with a physi-
+tion, the population showed significant GR variation among cal position of 56.189.166-56.196,037 bp (Fig. 1b). These
+genotypes well as among genotypexe environment interac- results indicated that this GWAS signal is a major QTL for
+tions estimated by ANOVA(p<0.001) (Table 1), indicating soybean seed germination and suggests that it can identify a
+that seed germination in soybeans is influenced by genetic candidate gene for soybean seed germination.
+factors and environmental factors (Table 1).
+Identification of candidate gene for soybean seed
+A GWAS signal associated with the germination rate germination
+To analyze the genetic mechanism of seed germination in According to gene annotation on Phytozome 13 (https:/1
+soybeans, a GWAS with high-density SNPS was performed phytozome.jgi.doc.gov/pz/portal.html), only one gene,
+to identify significant SNPs associated with germination Glyma.18G280900, was located within the above-described
+rate (GR). A total of 28 SNPS (-logio(p) > 6.4) were sig- cluster. Moreover, SNP S18_56189166 was localized
+nificantly related to GR across two environments and were within the 3'-UTR of Glyma.18G280900 and other SNPS
+located on chromosomes 3, 4, and 18 (Fig. la and Table 2). were located downstream of Glyma.18G280900 (Table 3)
+Individual SNPs explained between 10.92 and 22.12% of (Fig. 1b). Previous studies have demonstrated that 3'untrans-
+phenotypic variation (Table 2). Among these SNPS, one lated regions (3'UTRs) of messenger RNAS (mRNAs) are
+SNP located on chromosome 3 was detected in 2018 and two involved in regulating gene expression at post-transcript
+SNPs located on chromosome 4 were detected in 2019, while levels (Mayr 2017), and a real-time quantitative PCR
+25 other SNPS were located on chromosome 18 (Fig. la; (qRT-PCR) demonstrated that the expression levels of
+Table 2). In addition, 18 of these 25 SNPs were detected Glyma.18G280900in NN (carrying S18_56189166-C) were
+in both years of the experiments performed in the present significantly lowerthose in KF (carrying the S18_56189166
+study (2018 and 2019), explaining over 10% of the total T) after imbibition for 0 and 24h. The germination rate and
+Fig.1 Identification of
+A
+E1
+Glyma.18G280900 for
+regulating seed germination in
+6
+soybean. a GWAS Manhattan
+and quantile-quantile plots for
+seed germination in E1 and E2.
+Red lines denote significance
+threshold (-logio(p)-6.4).
+b Significant GWAS signal
+II l L I L L Ti T I L L L L L E
+Lm
+indicating seed weight on
+2 4 5 6 8 9 10 12 13 14 is 16 17 18,19 20
+chromosome 18. Blue points
+12J E2
+Expected-log,p)
+represent SNP S18_56189166
+10.
+(located within the 3'UTR of
+8.
+Glyma.18G280900)
+2.
+III IiI I I - HE II T L LE
+2 3 5 6 7 8 9 10 12 13 14 15 16 17 19
+B
+Expected -logiop)
+14
+00
+Chr.18
+56.18
++
+56.20
+56.22 (Mb)
+C
+ATG S18_56189166-CIT
+1
+(Glyma.18G280900)
+1
+t
+5'UTR
+3'UTR
+Springer
+
+
+
+Theoretical and Applied Genetics (2022) 135:439-447
+443
+Table 2 Significant SNPS
+Environment SNP
+Chromosome Position
+P-value
+R2
+associated with seed
+germination rate
+2018
+S03_582611
+3
+582,611
+0.000000132 0.11061
+S18_7603191
+18
+7,603,191
+8.49E-09
+0.133157
+S18_7605964
+18
+7,605,964
+9.79E-08
+0.113038
+S18_56189166 18
+56,189,166 2.77E-12
+0.202385
+S18_56189491 18
+56,189,491 9.07E-11
+0.171709
+S18_56190145 18
+56,190,145 7.72E-12
+0.193275
+S18_56190226 18
+56,190,226 1.36E-12
+0.20874
+S18_56190286 18
+56,190,286 6.25E-08
+0.116699
+S18_56191267 18
+56,191,267 8.03E-11
+0.172764
+S18_56191630 18
+56,191,630 1.83E-12
+0.206084
+S18_56191838 18
+56,191,838 1.36E-12
+0.20874
+S18_56192503 18
+56,192,503 3.42E-13
+0.221214
+S18_56192545 18
+56,192,545 3.78E-08
+0.12082
+S18_56195399 18
+56,195,399 6.82E-11
+0.174175
+S18_56195996 18
+56,195,996 3.07E-11
+0.18114
+S18_56196037 18
+56,196,037 3.07E-11
+0.18114
+S18_56230848 18
+56,230,848 8.22E-09
+0.133428
+2019
+S04_27789819 4
+27,789,819 1.23E-07
+0.110329
+S04_27789800 4
+27,789,800 1.23E-07
+0.110329
+S18_56192503 18
+56,192,503 6.14E-09
+0.134829
+S18_56189166 18
+56,189,166 1.09E-08
+0.13008
+S18_56190226 18
+56,190,226 6.55E-08
+0.115431
+S18_56191838 18
+56,191,838 6.55E-08
+0.115431
+S18_56195399 18
+56,195,399 7.13E-08
+0.114745
+S18_56195996 18
+56,195,996 1.02E-07
+0.111846
+S18_56196037 18
+56,196,037 1.02E-07
+0.111846
+S18_56190145 18
+56,190,145 1.36E-07
+0.109539
+S18_56191630 18
+56,191,630 1.43E-07
+0.109154
+Table 3 Candidate genes
+SNP ID
+Chr Position
+Location site Gene ID
+Functional annotation
+identified based lon the position
+between significant SNPS and
+S18_56189166 18 56,189,166 3'UTR
+Glyma.18G280900 Allene oxide cyclase 4
+genomic region
+S18_56189491 18 56,189,491 Intrergenic I
+/
+S18_56190145 18 56,190,145 Intrergenic /
+I
+S18_56190226 18 56,190,226 Intrergenic /
+/
+S18_56190286 18 56,190,286 Intrergenic /
+/
+S18_56191267 18 56,191,267 Intrergenic /
+/
+S18_56191630 18 56,191,630 Intrergenic /
+/
+S18_56191838 18 56,191,838 Intrergenic /
+/
+S18_56192503 18 56,192,503 Intrergenic /
+/
+S18_56192545 18 56,192,545 Intrergenic /
+/
+S18_56195399 18 56,195,399 Intrergenic /
+/
+S18_56195996 18 56,195,996 Intrergenic /
+/
+S18_56196037 18 56,196,037 Intrergenic /
+/
+S18_56230848 18 56,230,848 Intrergenic /
+/
+germination speed of NN exceeded those of KF (Fig. 2a). and 2.2 times greater than those of NN at 0 and 24 h after
+qRT-PCR analysis demonstrated that Glyma.18G280900 in imbibition, respectively (Fig. 2b). According to the gene
+KF showed mRNA levels that were approximately 3.9 times annotation of "Williams 82' (Bernard and Cremeens 1998)
+Springer
+
+
+
+444
+Theoretical and Applied Genetics (2022) 135:439-447
+Fig. 2 a Seed germination
+A
+B
+C
+of KF and NN under nor-
+100. KF
+0.20 7 Glyma.18G280900 2000 KF NN
+mal conditions for 5 days.
+NN
+b Relative expression of
+90.
+NN
+1800
+Glyma.18G280900 in KF and
+80.
+KF
+NN seed after imbibition for 0
+70-
+E 0.15
+1600
+and 124h. CJA content in KF
+60-
+1400
+and NN seeds after imbibition
+for0 and 24h. Three biological
+50-
+0.10
+1200-
+replicates were used to produce
+40.
+average SD and significance.
+30
+1000-
+Student's ttest was performed.
+0.05
+4
+Asterisks indicate significant
+20.
+800
+differences from the empty
+10-
+200.
+vector control. *,P<0.05; **
+P<0.01; ***,P<0.001
+2
+3
+4
+0.00 Oh
+24h
+Oh 24h
+Time (day)
+reference genome on Phytozome 13 (htpsl/phytozome-next. that in the WT (P<0.05) (Fig. S1B). This suggests that JA
+jgi.doe.gov/), Glyma. 18G280900 encodes an allene oxide is regulated by GmAOC4 in soybeans.
+cyclase 4 (named GmAOC4), of which the homologous gene
+To further explore how GmAOC4 regulates seed germina-
+was reported to regulate the biosynthesis ofthe JA precursor tion, GmAOC4 was overexpressed in Arabidopsis and three
+12-oxo-phytodienoic acid (12-OPDA) in Arabidopsis (Dave highly expressed T3 (OE-3, OE-4, and OE-7) lines were
+et al. 2011). This indicates that GmAOC4 controls the bio- chosen by quantitative real-time PCR analyses for subse-
+synthesis ofJA in soybean, leading us to speculate that high quent experiments. These experiments were named OE-3,
+transcriptional levels of GmAOC4 in KF could induce more OE-4, and OE-7, and detected additional JA concentrations
+JA accumulation than NN. To assess this hypothesis, we when compared with the wild-type Col-0 (WT) (Fig. 3a).
+analyzed the levels of endogenous JA in both the mature and The seeds of WT, OE-3, OE-4, and OE-7 were grown in
+germinating seeds of NN and KF with a plant JA ELISA kit. culture dishes with filter paper for 7 days, after which the
+The results demonstrated that KF accumulated more JA in phenotypes of germination were observed. The overexpres-
+germinating seeds when compared with NN at 24h after ger- sion of GmAOC4 inhibited the seed germination speed of
+mination (p> 0.05), but not in mature seeds (Oh) (Fig. 2c). OE-3, OE-4, and OE-7 and slightly repressed the seed ger-
+Additionally, the contents of JA in KF and NN significantly mination rate compared with WT in Arabidopsis (Fig. 3b).
+increased after imbibition for 24 h (p<0.01) (Fig. 2c). It To confirm these observations, several germination-related
+has been reported that Jasmonate (JA) negatively regulates genes were analyzed in WT and GmAOC4-OE germinating
+seed germination in plants by enhancing abscisic acid (ABA) seeds, including EM1, EM6, and LEA. Transcription lev-
+functioning, which decreases the rates of seed germination els ofEM1, EM6, and LEA improved in seeds germinating
+and subsequent growth (Wang et al. 2020). These results GmAOC4-OE compared with the WT, which was consistent
+indicate that GmAOC4 is likely the candidate gene that plays with the phenotype (Fig. 3c-e). These results indicate that
+a role in regulating seed germination in soybeans.
+GmAOC4 is involved in the synthesis of JA and the repres-
+sion of seed germination.
+Overexpression of GmAOC4 exhibited
+GmAOC4 is involved in the synthesis of JA
+hypersensitivity to ABA during the seed
+and repressing seed germination
+germination stage
+To assess whether GmAOC4 is involved in the synthesis of It was reported that JA acts with ABA to regulate the ger-
+JA in soybean, we generated GmA0CHoverexpression soy- mination of seeds in Arabidopsis (Dave et al. 2011; Wang
+bean hairy roots, following the Agrobacterium rhizogenes- et al. 2020). We then examined the germination pheno-
+mediated hairy root transformation system (Kereszt et al. types of WT seeds and GmAOC4-OE that were treated
+2007). The average levels of GmAOC4 expression in the with and without ABA. The rates of seed germination of
+hairy roots of GmAOC4-OE were 5.3 times higher than in GmAOC4-OE plants were slightly lower than WT without
+the wild-type strain K599-generated (WT) control hairy ABA treatment (Fig. 4), while the germination and establish-
+roots (Fig. S1A), and the concentration of endogenous JA ment of both WT and GmAOC4-OE seeds were repressed
+in GmAOC4-OE soybean hairy roots significantly exceeded following 7 days of ABA treatment (Fig. 4a, b). However,
+Springer
+
+
+
+Theoretical and Applied Genetics (2022) 135:439-447
+445
+A
+B 1001 WT
+GmAOC4-OE seeds exhibited much lower rates of
+31
+germina-
+e 801 - -OE-3
+tion when treated with ABA compared to WT. Additionally,
+I
+-OE-4
+€ 21
+**
+60 -OE-7
+the levels of AtABI5 expression in GmAOC4-overespressed
+oD
+40
+Arabidopsis were significantly upregulated compared with
+E
+I 20
+WT under normal conditions, and the transcript levels of
+AtABI5 were enhanced when treated with ABA in trans-
+< 0
+WT 3 4 7
+0 1 2 3 4
+genic lines (Fig. 4c). It was also found that the mRNA
+OE
+Time (d)
+abundance of two ABI5-like genes (Glyma. 10G071700 and
+C 81AIEMI
+D 81 AIEM6
+E 101 AILEA
+Glyma.19G194500) was much higher in the hairy roots of
+GmAOC4-OE soybeans compared to the hairy roots of WT
+**
+a 6
+6 *t
+soybeans (Fig. S1C). This indicates that GmAOC4 overex-
+pression could improve ABI5 transcript levels and exhibit
+E
+41 **
+4
+I
+1
+hypersensitivity to ABA during seed germination.
+2
+2
+I
+I
+1
+Discussion
+0 WT 3 4 -/ 0 WT 3 4 7
+WT 3 4 7
+OE
+OE
+OE
+To improve crop production, seedlings should must ger-
+minate quickly and uniformly after sown. It is difficult to
+Fig. 3 Effect of overexpression of GmAOC4 on seed germination. a
+differences at this
+which can
+JA content of GmAOC4-OE lines (OE-3, OE-4, and OE-7) in Arabi- rectify
+stage,
+significantly
+dopsis dry seed. b Germination rates of WT and transgenic-line affect crop yield. Recent studies have indicated there is
+(OE-3, OE-4, and OE-7) seeds on culture dish with filter paper for significant potential for improving the germination of
+5 days under normal conditions. c-e Relative expression of several seeds through genetic methods (Ju et al. 2019; He et al.
+germination-related genes (AtEM1, AtEM6, and AILEA) in WT and 2020; Wang et al. 2020). While
+trait loci
+transgenic-line (OE-3, OE-4, and OE-7) seeds. Three biological rep-
+many quantitative
+licates were used for germination assays with 120 seeds. Three bio- (QTLS) have been found in different plants that are related
+logical replicates were used to produce average SD and significance. to the germination rate (Al-Chaarani et al. 2005; Xie
+Student's t test was performed. Asterisks indicate significant differ- et al. 2014; Hatzig et al. 2015), there is limited research
+ences from the empty vector control. *, P<0.05; **, P<0.01; ***,
+P<0.001
+on the mechanism of soybean seed germination (Zhang
+et al. 2019a). Recently, Zhang et al. (2019a) have mapped
+Fig. 4 Overexpression of
+A
+H,0
+1 umol/L ABA
+B
+GmAOC4 and ABA synergisti-
+100
+cally inhibits seed germina-
+Mock
+tion. a Seedlings of WT and
+80
+ABA
+GmAOC4-OE lines treated
+WT
+with 1 UM ABA for 7 days. b
+Germination rates of WT and
+4
+transgenic-line (OE-3, OE-4,
+and OE-7) seeds treated with
+1 UM ABA for 7 days on culture
+20
+I **
+dish with filter paper. - C Relative
+OE-3
+0.
+expression of AIABIS in WT
+WT 3 4 7
+and GmAOC4-OE line seeds in
+OE
+Arabidopsis treated with 1 UM
+ABA for 24h. Three biological
+C
+replicates were used for germi-
+16 ALABIS
+Mock
+nation assays with 120 seeds.
+OE-4 9
+ABA
+Three biological replicates
+d
+12
+were used to produce average
+SD and significance. Student's
+ttest was performed. Asterisks
+8
+I
+indicate significant differences
+I
+from the empty vector control.
+OE-7
+i 41 **
+*P<0.05; **,P<0.01; ***
+&
+P<0.001
+WT 3 4 7
+OE
+Springer
+
+
+
+446
+Theoretical and Applied Genetics (2022) 135:439-447
+Cluster-18, containing three QTLS, for seed germination Supplementary Information The online version contains supplemen-
+on chromosome 18. Cluster-18 explained 7.30-16.03% tary material available at htpsz/Adoiop10.1007A00122-021-039740.
+of the phenotypic variation for seed germination in two
+recombinant inbred lines (RIL) populations with a physi- Acknowledgements This work was supported by the Key R&D pro-
+ject of Jiangsu Province (BE2019376), the Natural Science Founda-
+cal range of approximately 5.4-7.4 Mb (Zhang et al. tion of Jiangsu Province (BK20210154), the National Key Research
+2019a). In this study, we used GWAS to dissect the genetic and Development Program of China (2018YFE0112200), andJiangsu
+architecture of seed germination using a high-resolution Agriculture Science and Technology Innovation Fund/CX(20)2007).
+genetic map and detected a GWAS signal on chromosomes
+Author Contribution statement ZW, WX, HZ, and SL were all
+18, which was significantly associated with seed germina- involved in the experimental design and the collection of phenotypic
+tion in soybean. This GWAS signal was approximately data; ZW and XC conducted the phenotypic analysis; WX, LS, XL, YZ,
+50 Mb far from the Cluster-18 identified by Zhang et al. and ICX helped revise the manuscript; ZW assessed the experimental
+(2019a). It is believed that this is the first study assessing results; ZW and HT wrote the paper. The manuscript was reviewed by
+the significant association between this major GWAS sig- all authors, who each contributed suggestions.
+nal on chromosome 18 and seed germination in soybean.
+Declarations
+Jasmonic acid, a plant hormone, is involved in important
+processes related to the growth and development of plants, Conflict of interest The authors declare that they have no conflict of
+as well as stress response (Qi et al. 2015; Du et al. 2017). interest.
+Previous studies have demonstrated that JA is related to seed
+germination in many plants, including rice, bread wheat,
+and Arabidopsis (Ju et al. 2019; Pan et al. 2020; Wang et al.
+2020). Allene oxide cyclase (AOC) is a rate-limiting gene References
+in JA biosynthesis (Wasternack and Hause 2013; Claus and
+Susheng 2017), and the mutation of AOC was unable to pro- Al-Chaarani GR, Gentzbittel L, Wedzony M, Sarrafi A (2005) Iden-
+duce the JA precursor 12-oxo-phytodienoic acid 1(12-OPDA),
+tification of QTLs for germination and seedling development in
+decreasing levels of FJA (Hazman et al. 2015). However, the
+sunflower (Helianthus annuus L.). Plant Sci 169:221-227
+Bernard RL, Cremeens CR (1988) Registration of Williams 82 soy-
+particular function and the underlying molecular mecha-
+bean. Crop Sci 28:1027-1028
+nism behind how JA regulates the germination of soybean Borner A, Nagel M, Agacka-Moldoch M, Gierke PU, Oberforster M,
+seeds are not well understood. In the present study, SNP
+Albrecht T, Mohler V (2018) QTL analysis of falling number
+S18_56189166 is located within the 3'-UTR of GmAOC4
+and seedlongevity in wheat t(Triticum aestivum L.). JAppl Genet
+59:35-42
+and was significantly associated with soybean seed germina- Caverzan A, Giacomin R, Miller M, Biazus C, Lângaro NC, Chavarria
+tion. Overexpression of GmAOC4 resulted in a higher con-
+G (2018) How does seed vigor affect soybean yield components?
+centration of JA accumulation in Arabidopsis and soybean
+Agron J110:1318-1327
+Claus W, Susheng S (2017) Jasmonates: biosynthesis, metabolism, and
+hairy root (Fig. 3a and Fig. S1B). Our results also demon-
+signaling by proteins activating and repressing transcription. JExp
+strated that GmAOC4-OE lines showed repressed seed ger-
+Bot 68:1303-1321
+mination and were more sensitive to ABA compared to WT Clough SJ, Bent AF (1998) Floral dip: a simplified method for Agro-
+in Arabidopsis (Fig. 3b and Fig. 4a, b). The improved ABA
+bacterium -mediated transformation of Arabidopsis thaliana.
+PlantJ16:735-743
+sensitivity indicates that AOC could serve an important role Dave A, Hernândez ML, He Z, Andriotis VME, Vaistij FE, Larson TR,
+in ABA-JA interaction and ABA signaling when regulating
+Graham IA (2011) 12-Oxo-phytodienoic acid accumulation dur-
+soybean seed germination. ABA helps regulate the biosyn-
+ing seed development represses seed germination in Arabidopsis.
+thesis ofJA, which inhibits the germination of rice seeds via
+Plant Cell 23:583-599
+the "SAPK10-bZIP72-A0C pathway in rice (Wang et al. Du M, Zhao J, Tzeng DTW, Liu Y, Deng L, Yang T, Zhai Q, Wu F,
+Huang Z, Zhou M, Wang Q, Chen Q, Zhong S,LiC, Li C (2017)
+2020). Additionally, we determined that the levels ofAtABI5
+MYC2 orchestrates a hierarchical transcriptional cascade that
+expression in GmAOC-OE lines were upregulated compared
+regulates jasmonate-mediated plant immunity in tomato. Plant
+to WT, regardless of whether or not they were treated with
+Cell 29:1883-1906
+ABA. Additionally, the mRNA abundance of two ABI5- Han Z, Ku L, Zhang Z, Zhang J, Guo S,Liu H, Zhao R, Ren Z, Zhang
+L, Su H, Dong L, Chen Y (2014) QTLS for seed vigor-related
+like genes was significantly enhanced in the hairy roots of
+traits identified in maize seeds germinated under artificial aging
+GmAOC4-OE soybean compared with the hairy roots of WT
+conditions. PLOS One 9:e92535
+soybeans (Fig. S2), which suggested that JA could inhibit Hang NT, Lin Q, Liu L, Liu X, Liu S, Wang W,Li L, He N, Liu Z,
+Jiang L, WanJ(2015) Mapping QTLs relatedtorice seed storabil-
+seed germination growth by stimulating ABA responses dur-
+ity under natural and artificial aging storage conditions. Euphytica
+ing seed germination, which requires functional ABI5 (Pan
+203:673-681
+et al. 2020). Altogether, these effects can be explained by Hatzig SV, Frisch M, Breuer F,Nesi N,Ducournau S, Wagner M, Leck-
+the fact that GmAOC4 modulates JA biosynthesis and thus
+band G, Abbadi A, Snowdon RJ(2015) Genome-wide association
+negatively regulates seed germination in soybean.
+Springer
+
+
+
+Theoretical and Applied Genetics (2022) 135:439-447
+447
+mapping unravels the genetic control of seed germination and
+G, and Liu S (2020) High-resolution genome-wide association
+vigor in Brassica napus. Front Plant Sci 6:221
+study identifies genomic regions and candidate genes for impor-
+Hazman M, Hause B, Eiche E, Nick P, Riemann M (2015) Increased
+tant agronomic traits in wheat. Mol Plant 13, 1311-1327.
+tolerance to salt stress in OPDA-deficient rice ALLENE OXIDE Perry DA (1978) Problems of the development andapplication of vig-
+CYCLASE mutants is linked to an increased ROS-scavenging
+our tests to vegetable seeds. Acta Hort 83:141-146
+activity. J Exp Bot 66:3339-3352
+Qi T, Huang H, Song S, Xie D (2015) Regulation of jasmonate-medi-
+He Y, ZhaoJ, Yang B, Sun S, Peng L, Wang Z (2020) Indole-3-acetate
+ated stamen development and seed production by a bHLH-MYB
+beta-glucosyltransferase OSIAGLU regulates seed vigor through
+complex in Arabidopsis. Plant Cell 27:1620
+mediating crosstalk between auxin and abscisic acid lin rice. Plant Rajjou LC, Duval M, Gallardo K, Catusse J, Bally J, Job C, Job D
+Biotechnol. IJ 18:1933-1945
+(2012) Seed germination and vigor. Annu Rev Plant Biol
+Jin D, Wu M, Li B, Biicker B, Keil P, Zhang S, LiJ, Kang D, Liu J,
+63:507-533
+Dong J, Deng XW,Irish V, Wei N (2018) The COP9 Signalosome Shelar VR, Shaikh RS, Nikam AS(2008) Soybean seed quality during
+regulates seed germination by facilitating protein degradation of
+storage: a review. Agric Rev 29(2):125-131
+RGL2 and ABI5. PLOS Genet 14:e1007237
+Song J, Shang L, Wang X, Xing Y, Xu W, Zhang Y, Wang T, Li H,
+Ju L, Jing Y, ShiP, LiuJ, ChenJ, YanJ, ChuJ, Chen KM, SunJ (2019)
+Zhang J, Ye Z (2020) MAPK11 regulates seed germination and
+JAZ proteins modulate seed germination through interaction with
+ABA signaling in tomato by phosphorylating SnRKs. J Exp Bot
+ABI 5 in bread wheat and Arabidopsis. New Phytol 223:246-260
+27:1677-1690
+Kereszt A, Li D, Indrasumunar A, Nguyen CD, Nontachaiyapoom S, Wang Y, Hou Y, Qiu J, Wang H, Wang S, Tang L, Tong X, Zhang J
+Kinkema M, Gresshoff PM (2007) Agrobacterium rhizogenes-
+(2020) Abscisic acid promotes jasmonic acid biosynthesis via a
+mediated transformation of soybean to study root biology. Nat
+"SAPK10-BZIP72-AOC pathway to synergistically inhibit seed
+Protoc 2:948-952
+germination in rice (Oryza sativa). New Phytol 228:1336-1353
+Lekklar C, Pongpanich M, Suriya-arunroj D, Chinpongpanich A, Tsai Wasternack C, Hause B (2013) jasmonates: biosynthesis, perception,
+H, Comai L, Chadchawan S, Buaboocha T (2019) Genome-wide
+signal transduction and laction in plant stress response, growth and
+association study for salinity tolerance at the flowering stage in
+development. An update to the 2007 review in annals of botany.
+apanel of rice accessions from Thailand. BMC Genom 20:76
+Ann Bot 111:1021-1058
+Li Y, Wang C, Liu X, Song J, Li H, Sui Z, Zhang M, Fang S, Chu J, Xie L, Tan Z, Zhou Y, Xu R, Feng L, Xing Y, Qi X (2014) Identifica-
+Xin M, Xie C, Zhang Y, Sun Q, Ni Z (2016) Up-regulating the
+tion and fine mapping of quantitative trait loci for seed vigor in
+abscisic acid inactivation gene ZmABA8oxlb contributes to seed
+germination and seedling establishment in rice.J Integr Plant Biol
+germination heterosis by promoting cell expansion. J Exp Bot
+56:749-759
+67:2889-2900
+Zhang X, Hina A, Song S, Kong J, Bhat JA, Zhao T (2019a) Whole-
+Lipka AE, Tian F, Wang Q, PeifferJ, Li M, Bradbury PJ, Gore MA,
+genome mapping identified novel "QTL hotspots regions" for seed
+Buckler ES, Zhang Z (2012) GAPIT: genome association and
+storability in soybean (Glycine max L.). BMC Genom 20:499
+prediction integrated tool. Bioinformatics 28:2397-2399
+Zhang W, Liao X, Cui Y, Ma W, Zhang X, Du H, Ma Y, Ning L, Wang
+Liu F, Jiang Y, Zhao Y, Schulthess AW, ReifJC (2020) Haplotype-
+H, Huang F, Yang H, Kan G, Yu D (2019b) A cation diffusion
+based genome-wide association increases the predictability of
+facilitator, GmCDF1, negatively regulates salt tolerance in soy-
+leaf rust (Puccinia triticina) resistance in wheat. J EXP BOT
+bean. PLOS Genet 15:e1007798
+71:6958-6968
+Zhang W, Xu W, Zhang H, Liu X, Cui X, Li S, Song L, Zhu Y, Chen
+MayrC (2017) Regulation by 3'-untranslated regions. Annu Rev Genet
+X, Chen H (2021) Comparative selective signature analysis and
+51:171-194
+high-resolution GWAS reveal a new candidate gene controlling
+Pan J, Hu Y, Wang H,Guo Q, Chen Y, Howe GA, YuD (2020) Molec-
+seed weight in soybean. Theor Appl Genet 134:1329-1341
+ular Mechanism underlying the synergetic effect of jasmonate on
+abscisic acid signaling during seed germination in Arabidopsis. Publisher's Note Springer Nature remains neutral with regard to
+Plant Cell 32:3846-3865
+jurisdictional claims in published maps and institutional affiliations.
+Pang Y, Liu C, Wang D, St. AmandP, Bernardo A, Li W, He F, LiL,
+Wang L, Yuan X, Dong L, Su Y, Zhang H, Zhao M, Liang Y,Jia
+H, Shen X, Lu Y, Jiang H, Wu Y,Li A, Wang H, Kong L, Bai
+Springer

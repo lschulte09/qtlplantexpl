@@ -1,0 +1,704 @@
+Theoretical land Applied Genetics
+htpsl/doi.org/10.1007500122-019-034715
+ORIGINAL ARTICLE
+Checkfor
+updates
+Whole-genome resequencing identifies quantitative trait loci
+associated with mycorrhizal colonization of soybean
+Michelle L. Pawlowski' -Tri D. Vung'-Babuvalyeda'-HemyLNguye-Gen L. Hartman130
+Received: 25 June 2019/Accepted: 1 November 2019
+OThis is a U.S. government work and its text is notsubjecttocopyright protection in the United States; however, itstextmay be subjecttoforeign
+copyright protection 2019
+Abstract
+Key message A whole-genome resequencing-derived SNP dataset identified six quantitative trait loci (QTL) sig-
+nificantly associated with colonization of soybean by an arbuscular mycorrhizal fungus (Rhizophagus intraradices).
+Candidate genes identified in these QTL regions include homologs to known nodulin protein families and other
+symbiosis-specific genes.
+Abstract Arbuscular mycorrhizal fungi (AMF) form associations with over 80% of all terrestrial plant species and assist
+their host plants by increasing their nutrient uptake, drought tolerance, and resilience against pathogens and pests. Genotypic
+variation ofcrop plants to AMF colonization has been identified in crops, including soybean; however, the genetics control-
+ling levels of AMF colonization in soybean are unknown. The overall goal of our study was to identify genomic regions
+associated with mycorrhizal colonization in soybean using genome-wide association analysis. A diverse panel of 350 exotic
+soybean genotypes inoculated with Rhizophagus intraradices were microscopically evaluated for root colonization using a
+modified gridline intersect method. Root colonization differed significantly (P<0.001) among genotypes and ranged from 11
+to 70%. A whole-genome resequencing-derived SNP dataset identified six quantitative trait loci (QTL) significantly associ-
+ated with R. intraradices colonization that explained 24% of the phenotypic variance. Candidate genes identified in these
+QTL regions include homologs to known nodulin protein families and other symbiosis-specific genes. The results showed
+there was a significant genetic component to the level of colonization by R. intraradices in soybean. This information may
+be useful in the development of AMF-sensitive soybean cultivars to enhance nutrient uptake, drought tolerance, and disease
+resistance in the crop.
+Abbreviations
+PC
+Principal component
+AMF Arbuscular mycorrhizal fungi
+PCA Principal component analysis
+CHR Chromosome
+QTL Quantititatve trait loci
+GWAS Genome-wide association study
+SNP Single nucleotide polymorphisms
+LD
+Linkage disequilibrium
+WGRS Whole-genome resequencing
+Communicated by Istvan Rajcan.
+Introduction
+Electronic supplementary material The online version ofthis
+article (humpel/dbi.ony10.1007A0012-019034715) contains
+With an ever-growing human population and increasing
+supplementary material, which is available to authorized users.
+impacts of climate change, abiotic and biotic limitations are
+putting a major stress on food security (Lobell et al. 2008).
+X Glen L. Hartman
+Gien.Hantman@ar.undagong ghartman@illinois.edu
+Proactive measures are necessary to introduce more ecologi-
+cally friendly production practices and to develop breeding
+Department ofCrop Science, University oflllinois, 1101 W.
+stock that are more robust to challenging growth conditions.
+Peabody Drive, Urbana, IL 61801, USA
+Microbial communities including arbuscular mycorrhizal
+2 Department of Plant Sciences, University ofMissouri,
+fungi (AMF) are known to provide a plethora of benefits to
+Columbia, MO, USA
+plants (Berendsen et al. 2012). AMF form associations with
+3 USDA, Agricultural Research Services, University ofIllinois,
+over 80% of all terrestrial plant species and assist them by
+1101 W. Peabody Dr., Urbana, IL, USA
+Published online: 09 November 2019
+Springer
+
+
+
+Theoretical and Applied Genetics
+increasing their nutrient uptake, drought tolerance, and resil- be associated with susceptibility to colonization by both
+ience against pathogens and pests (Richardson et al. 2011). R. intraradices and Funneliformis mosseae in a diversity
+These benefits have sparked interest in the private sector panel of 108 durum varieties (De Vita et al. 2018). How-
+to produce AMF inoculants for commercial application ever, in Medicago truncatula, transcript levels of RiTubulin
+(Berruti et al. 2016). Commercial inoculants are frequently (R. irregularis B-tubulin), and MtPT4 (arbuscule specific
+composed lofmultiple AMF species, including Rhizophagus phosphate transporter in M. truncatula), did not differ in 32
+intraradices (N.C. Schenck & G.S. Sm.) C. Walker & A. lines (Dreher et al. 2017).
+SchuBler 2010 and other species in the Glomeraceae family.
+Although these studies identified genomic regions associ-
+Rhizophagus intraradices (syn. Glomus intraradices) is a ated with mycorrhizal colonization, very few were able to
+fast-growing fungus that produces abundant spores, which is describe candidate genes in these regions that may play a
+ideal for large scale production. This species is found world- role in the level of colonization. In both durum and winter
+wide and in AMF inoculants because it provides benefits to a wheat, the majority of genes identified were defense related
+wide range of plant species (Berruti et al. 2016). In a recent (Lehnert et al. 2017; De Vita et al. 2018). There are many
+report, R. intraradices was used in 61% of AMF inoculant transcriptomic studies on mycorrhizal colonization showing
+studies either alone or as part of a mixture of AMF species a broader picture of host genes necessary for mycorrhizal
+(Berruti et al. 2016).
+colonization. It is known that hundreds of genes are differen-
+Numerous studies have reported the benefits of AMF to tially expressed during mycorrhizal symbiosis, and multiple
+soybean [Glycine max (L.) Merr.]. Soybean plants colonized 'core sets' of genes important for mycorrhizal symbiosis
+by AMF had increased uptake of all macronutrients (Khalil have been compiled using phylogenetic and transcriptomic
+et al. 1994) and several micronutrients, including Mn, Zn, studies. Through a phylogenetic study, a core set of 88 genes
+Cu, and Cd (Pacovsky 1986; Heggo et al. 1990). Transfer of in M. truncatula was identified to be conserved in plant spe-
+nutrients has been observed to occur by AMF from soybean cies able to form mycorrhizal symbiosis (Bravo et al. 2016).
+to maize (Hamel et al. 1991; Meng et al. 2015). Inoculation A comparative transcriptomic study found a conserved set
+with AMF has shown promise as a method for phytoreme- of 156 genes in Poncirus trifoliata that were also differen-
+diation and to protect soybean against heavy metal contami- tially expressed in other hosts, including Clonorchis sinen-
+nated soils (Heggo et al. 1990) and to increase tolerance sis, Lotusjaponicus, M. truncatula, Solanum lycopersicum,
+to drought (Porcel and Ruiz-Lozano 2004). Soybean plants and Oryza sativa (An et al. 2018). Another comparative tran-
+inoculated with AMF had reduced disease severity to soil- scriptomic study compared differential expression in Casu-
+borne pathogens, including Fusarium spp., Macrophomina arina glauca, M. truncatula, and O. sativa and revealed a
+phaseolina, and Rhizoctonia solani (Zambolim and Schenck set tof 84 genes that were differentially expressed in all three
+1983), and root-knot nematode (Kellam and Schenck 1980). species (Tromas et al. 2012).
+The extent of mycorrhizal colonization and potential
+The USDA Soybean Germplasm Collection consists of
+benefits to crop plants is likely dependent on the host geno- 18,480 cultivated soybean (Glycine max) and 1168 acces-
+types. Plant genotypic variation to AMF colonization and/ sions of a wild relative (Glycine soja) (https_/www.ars-grin.
+or their benefits was identified in maize (An et al. 2010), gov/). The entire collection has been genotyped using the
+onion (Taylor et al. 2015), and wheat (Hetrick et al. 1996). SoySNP50K iSelect BeadChip, which contains over 50,000
+Quantitative trait loci (QTL) have been found associated single nucleotide polymorphisms (SNPS) (Song et al. 2015).
+with mycorrhizal colonization or mycorrhizal responsive- Recent advances in next generation sequencing and new
+ness in multiple crop species. A study using several Allium comprehensive statistical models and multiple tests have
+species, that included offspring of 96 trihybrid genotypes of made genome-wide analysis more effective and efficient in
+A. cepax(A. fistulosumxA. roylei), found three significant evaluating genomic diversity and trait discovery (Zhou et al.
+QTL associated with mycorrhizal responsiveness in the tri- 2015; Valliyodan et al. 2016), in identifying significant QTL
+hybrid population (Galvân et al. 2011). In maize, one QTL associated with the traits of interest (Patil et al. 2016) and
+associated with mycorrhizal responsiveness was found in a in predicting candidate genes (Cao et al. 2016; Yano et al.
+population of 197 recombinant inbred lines (Kaeppler et al. 2016).
+2000). In addition, 12 maize genotypes, measured for both
+A more extensive 3.7 M SNP dataset was created at the
+mycorrhizal responsiveness and mycorrhizal colonization, Soybean Genetics and Genomics Laboratory at the Uni-
+showed la positive correlation between colonization and root versity of Missouri from a whole-genome resequencing
+response but no significant correlation between colonization (WGRS) project using a subset of 350 soybean lines, repre-
+and shoot response (Kaeppler et al. 2000). In winter wheat, senting a broad range of soybean genotypes, including wild,
+six significant QTL were found associated with mycorrhizal landraces, and elite populations (intp/hwww.soybusc.org),
+colonization in a diversity panel of 94 winter wheat geno- This extensive 3.7 M SNP dataset and the diverse set of 350
+types (Lehnert et al. 2017). Seven QTL were identified to soybean lines were first used in a genome-wide association
+Springer
+
+
+
+Theoretical and Applied Genetics
+study (GWAS) of soybean salt tolerance (Do et al. 2019) torpedo sand. A 2.5 cm (30 ml) layer of inoculum, origi-
+which confirmed a known salt tolerance locus on chromo- nal stock from INVAM, was spread evenly over the top and
+some (Chr) 3 and also successfully detected new QTL on covered with another 2.5 cm of sand. Surface-disinfected
+Chrs 1, 8, and 18 with several candidate genes harbored in soybean seeds of soybean cultivar Williams 82 were sown
+these genomic regions. Along with the 3.7 M SNP dataset, 2 cm deep into the sand. Plants were grown in a greenhouse
+there is extensive genomic annotation and expression data held at 25 oC with a 16-h photoperiod and watered regu-
+accumulated which gives us better insight when conduct- larly. Watering was discontinued after 6 weeks plants were
+ing GWAS and identifying potential candidate genes (Grant allowed to dry completely, and the dried above ground mate-
+et al. 2010).
+rial was discarded. Roots, infested with AMF, and sand were
+The economic importance of soybean and wealth of removed from cone-tainers and collected in 1-gallon plastic
+available genomic information make it an ideal organism bags. Roots were cut into 1 cm fragments with a scissors
+in which to study the genetic components involved in AMF and mixed back into sand. Inoculum was stored at 4 oC for
+symbiosis. Thus, the objectives ofthe present study were to 1 week prior to planting.
+determine if (1) soybean genotypes differ in levels of colo-
+nization by R. intraradices and (2) genomic regions involved
+and
+Experimental design procedures
+in mycorrhizal colonization can be identified in soybean. A
+genetically diverse panel of 350 soybean accessions were
+inoculated with R. intraradices, and root colonization was The experiment was arranged as a randomized block with
+two replicated blocks completed over time using different
+used in a GWAS to identify potential QTL associated with
+genotype randomizations for each block. Two soybean seeds
+mycorrhizal colonization.
+of each soybean genotype were sown in sand 2.5 cm above
+a 30 ml layer of inoculum, consisting of approximately 60
+Materials and methods
+spores, in cone-tainers as previously described. The spore
+rate was determined by removing five samples from the
+Plant materials and genotypic datasets
+stock and counting the spores. Once this was determined, the
+stock was diluted by volume and mixed well before remov-
+ing inoculum for cone-tainers.
+All plant materials were provided by the USDA ARS Soy-
+Plants were thinned to one
+cone-tainer after
+bean Germplasm Collection (Urbana, IL) (Table S1). A
+plant per
+panel of 350 soybean plant introductions (PIs) served as a emergence. Six weeks after planting, above ground plant
+material was removed and roots were excised from the sand
+core set selected to represent a broad genetic diversity per
+and washed several times in water to remove all sand parti-
+the SoySNP50K iSelect BeadChip analysis (Drs. Cregan
+cles. Roots were then placed in 50-ml centrifuge tubes filled
+and Song, pers. comm.). The set included a wide range of
+with 70% ethanol and stored at 4 °C prior to evaluation. This
+maturity groups (MG), from 000 to X, and originated from
+28 different countries (Table S1) (htpe/hwwwanx-gringov experiment was conductedin a greenhouse at the University
+of Illinois held at 25 °C with a 16-h photoperiod. The plants
+npgs). The sequenced reference genome, soybean cultivar
+were watered regularly and fertilized twice a week
+a
+Williams 82 (Schmutz et al. 2010), was also included.
+using
+low-P formulation (150 ppm Peters Excel 15-5-15 Cal-Mag,
+A marker dataset, generated from the WGRS project
+ICL-SF, Dublin, OH).
+at the University of Missouri, contained over 4.7 M SNPS
+was accessed from the soybean database (http:/www.soyba
+se.org). For association analysis, the SNP dataset was further Root colonization measurements
+filtered based on the exclusion of the missing data (> 5%)
+and minor allele frequency (< 5%) to obtain approximate Excised roots were cleared with 20% bleach solution at room
+3.7 M qualified SNPS, which were hereafter referred to the temperature for 16 h, rinsed three times with water, soaked
+WGRS-derived 3.7 M SNP dataset.
+in a 2% HCI solution for 30 min, and rinsed three times
+with water prior to being soaked in 0.05% chlorazol black E
+Mycorrhizal inoculum preparation
+(Sigma Aldrich, St. Louis, MO) in 1:1:1 lactic acid, glycerol,
+and water solution for 48 h (Vierheilig et al. 2005). Roots
+Isolate R. intraradices AU212B Chtps/AINVAM.wvu.cdu were then destained by soaking in water for 2-3 days. To
+was used to assess soybean genotype variability to AMF quantify root colonization, roughly one hundred 1 cm root
+fungal colonization. To increase R. intraradices, amodified segments were selected land placed in water in a 10 cm diam-
+sheared root inoculum method was used (Sylvia and Jarst- eter Petri dish that was marked with gridlines to create 1 cm?
+fer 1992). Cone-tainers (SC10-158 ml, Stuewe and Sons, boxes. Roots were observed using a stereoscope at x20 mag-
+Inc., Tangent, OR) were filled with 100 ml of sterilized nification. A modified gridline intersect method was used to
+Springer
+
+
+
+Theoretical and Applied Genetics
+quantify root colonization by dividing the number of root Manhattan plots for associated SNPs were visualized in
+segments colonization by the total number of roots multi- GenomeBrowse v1.0 (Golden Helix, Inc, Bozeman, MT
+plied by 100 (Fig. 1) (Giovannetti and Mosse 1980). This 59718,USA).
+was repeated twice for each sample.
+Linkage disequilibrium (LD) and candidate gene
+Phenotypic data analysis
+identification
+Statistical analysis of root colonization percentages was Flanking SNPS located within + 3 Mbp were used to assess
+completed using JMP version 12 (SAS institute, Cary, NC, LD decay in TASSEL5 (Bradbury et al. 2007). A sliding
+USA). A standard analysis of variance was performed, and window size of 500 bp was used, and heterozygous alleles
+means were separated using the JMP LSmeans Student'st were treated as missing data. LD region cutoff was deter-
+procedure at a=0.05. To determine if there were any asso- mined using a squared allele frequency correlation (72)
+ciations with other traits, mycorrhizal colonization means of 0.2. Genes within the LD region were noted using the
+were compared to observations, including physiological G. max genome assembly version Gmax2.0 (http://www.
+and disease and pest resistance records that were obtained soybase.org). Several genes within each LD region were
+from the National Plant Germplasm System (http://www. selected as candidate genes involved in AMF colonization.
+npgswebars-grin.gov, using either Pearson's correlation for These putative AMF symbiosis-related genes were selected
+numerical values or ay by x fit for categorical values.
+because they were (1) annotated in the most updated assem-
+bly version, (2) expressed in roots and/or nodules (Severin
+Genome-wide association study
+et al. 2010), and (3) identified in previous studies as being
+involved in or expressed during AMF colonization.
+The WGRS-derived 3.7 M SNP dataset was employed to
+perform GWAS using the SNP Variation & Suites program
+(Golden Helix Inc., Bozeman, MT 59718, USA). Briefly, Results
+principal component analysis (PCA) was done for all fil-
+tered SNPS using a minor allele frequency > 0.05 and a call Evaluation of350 diverse soybean accessions
+rate > 0.95 to select the correct number of principal compo-
+nents (PCs). BLUP genomic kinship matrix was calculated Six weeks after sowing seeds, the plants were uprooted
+for population structure and relatedness in mixed linear and at that time there were no genotypes that were in the
+models. Genome-wide associations between SNPS and root pod stage and growth stage differences among the maturity
+colonization percentage were identified using the efficient groups were not noted. There were significant (P <0.0001)
+mixed-model association expedited and multi-locus mixed differences among soybean genotypes for root colonization
+model (MLMM). False positives were controlled by multi- by R. intraradices (Table S1). Colonization percentages
+ple test correction with false discovery rate <0.05 and the ranged from 12 to 69% with an average of 37% (Fig. 2).
+threshold of -log10 (p value) was used to identify signifi- The top ten percent of genotypes had average colonization
+cant associations calculated at a false discovery rate =0.05. percentages X 48.5%, while the bottom ten percent of geno-
+types had an average colonization of<23.5%. Colonization
+on cultivar Williams 82 averaged 33%. Even with limited
+replications, that are not uncommon in these large genotype
+experiments, the replicates were significantly (P<0.001)
+correlated at r=0.53. There were no correlations found for
+these genotypes between root colonization by R. intraradi-
+ces and other physiological traits including maturity group
+or disease resistance. Although environmental conditions,
+like ideal photoperiod for each genotype, may have influ-
+enced the growth ofthe plants, the brevity ofthe experiment
+(6 weeks) did not allow plants to set seeds and no trend was
+observed between colonization by R. intraradices and plant
+growth stage.
+Fig.1 Arbuscules of Rhizophagus intraradices in soybean roots
+stained with chlorazol black E at x50 magnification
+Springer
+
+
+
+Theoretical and Applied Genetics
+Fig.2 Distribution of genotype
+70
+means for root colonization by
+the mycorrhizal fungus, Rhizo-
+60
+phagus intraradices, for 350
+50
+soybean genotypes. Means were
+averaged between two replicates
+40
+and colonization percentages for
+each were based on arbuscule
+30
+counts on 100 root segments
+using the grid line intersect
+20
+method (Giovannetti and Mosse
+E 10
+1980)
+Lallll.
+ne
+s
+6
+Meo 1 se s *o s see sre sre 6
+Mycorrhizal root colonization (%)
+Phylogeny, population stratification, and kinship
+The cryptic relatedness among 350 soybean accessions in
+this study was evaluated by genomic kinship analysis, from
+Phylogenetic relationships showed soybean accessions with which a kinship matrix was calculated using the WGRS-
+close relationship were clearly clustered in several diver- derived 3.7 M SNP dataset. The relatedness among soybean
+gent subgroups (Fig. S1). The PCA showed dispersed geno- accessions was visualized in a heat map (Fig. S3), showing a
+types among different components (Fig. S2). The PCA also similar clustering pattern of the accessions studied.
+showed that variation explained by eigenvalues of each PC
+rapidly reduced after the first four PCs (data not shown). The
+accumulative eigenvalues ofthe first four PCs accounted for
+39.4% of the variance.
+Table 1 Candidate genes associated with root colonization. Significant peak markers and corresponding candidate genes in soybean associated
+with root colonization by an arbuscular mycorrhizal fungus, Rhizophagus intraradices
+Marker
+Chr Position LOD 22 LD interval (Mbp) Candidate genes
+Gene description
+S16_2603450 16
+2603450 5.77 7.09 2.47-2.66
+Glyma.16g026400
+WRKY60 Transcription factor
+Glyma.16g026900
+GH3 family protein
+Glyma.16g027200
+Nodulin 25 family protein
+Glyma.16g027300
+Serine-threonine protein kinase
+Glyma.06g272500, 274200 60S ribosomal protein L11
+S6_46533686 6 46533686 5.29 4.47 46.14-46.76
+Giym.06g272600-274100 Cysteine proteinase
+275100-275300
+Glyma.06g275400
+Chaperone protein dnaJ
+Glyma.06g276400
+NBS-LRR
+S9_49539462 9 49539462 4.67 5.11 49.22-49.56
+Glyma.09g279100
+Cytochrome P450
+Giym.09280400280500 UDP-glucosyltansferase
+S10_37487605 10 37487605 4.53 5.92 37.12-37.87
+Glyma.10g139700
+Germin-like protein 16
+Glyma.10g139800
+Germin-like protein 17
+Glyma.10g141700
+Germin-like protein 1
+S14_43114203 14 43114203 4.44 4.54 42.66-43.18
+Glyma.14g172200
+VQ motif-containing protein
+Glyma.14g174300
+Aquaporin NIP1-1
+S8_17743016 8 17743016 4.36 5.98 17.24-18.06
+Glyma.08g214100
+VQ motif-containing protein
+Glyma.08g215700
+Ethylene responsive factor
+Glyma.08g216600
+Ethylene response factor
+Glyma.08g217400
+Aquaporin NIP3
+Glyma.08g220800
+AP2 transcription factor
+Glyma.08g221200
+Kelch repeat-containing protein
+Springer
+
+
+
+Theoretical and Applied Genetics
+Genome-wide association study
+In our study, the 190 kb region located on Chr 16
+explained 7.1% of the phenotypic variance. Within this
+There were six significant peaks identified on Chrs 6, 8,9, region, a gene encoding for a GH3 (Gretchen Hagen) protein
+10, 14, and 16 (Table 1 and Table S2). These markers indi- was found and is part of the GH3 protein family, a group of
+vidually explained between 4.54 and 7.09% of the pheno- auxin responsive proteins first identified in soybean (Hagen
+typic variation, and all six makers together explained 24% of et al. 1991). GH3 proteins conjugate free auxins and influ-
+the phenotypic variation. Using BLUPS as phenotypic data ence plant hormone signaling in Arabidopsis (Westfall et al.
+for association analysis, the WGRS-derived SNP dataset 2012). Recently, three GH3 genes were identified to be acti-
+detected significant peaks at the same regions as the arith- vated during mycorrhizal symbiosis in tomato (Liao et al.
+metic mean phenotypic data, along with one more significant 2014). The expression GH3.25, one of the genes located
+peak on Chr 7 (Table S3).
+on soybean Chr 16, was found highly upregulated in nod-
+ules, indicating it has a function in symbiosis (Severin et al.
+Identification of candidate genes
+2010; Singh et al. 2015). Other genes on Chr 16 within this
+LD region, included a gene encoding for a serine/threonine
+For all significant markers, 21 genes known to have impor- protein kinase (Ser/Thr), which activate during pre-infection
+tant roles in mycorrhizal symbiosis were identified within signaling and, when phosphorylated, become fully activated
+the LD regions (Table 1 and Table S4). LD regions for the as the symbiosis receptor kinase (Yoshida and Parniske
+markers identified with the WGRS-derived dataset spanned 2005). A gene found in the casein family, a subgroup of Ser/
+620 kb on Chr 6, 820 kb on Chr 8, 340 kb on Chr 9, 750 kb Thr, was also identified through GWAS to be significantly
+on Chr 10, 520 kb on Chr 14, and 190 kb on Chr 16. The LD associated with mycorrhizal colonization in winter wheat
+region on Chr 16 included genes encoding for a GH3 auxin (Lehnert et al. 2017).
+responsive promoter, a nodulin protein, and a serine-threo-
+Several candidate genes were identified within the 620kb
+nine protein kinase (Table 1). Candidate genes found on Chr region on Chr 6 including a large group ofcysteine proteases
+6 include genes encoding for a cysteine protease, a chaper- which upregulate mycorrhizal symbiosis in many species
+one dnaj, and a nucleotide-binding site-leucine-rich repeat such as M. truncatula, Lotus japonicus, and Solanum lyco-
+(NBS-LRR) protein. Candidate genes on Chr. 9 include persicum (Liu et al. 2003; Nair and Bhargava 2012; Handa
+genes encoding for a cytochrome P450, a WRKY DNA bind- et al. 2015). Cysteine proteases are specifically expressed in
+ing domain, and a UDP-glucosyltransferase The LD region cells containing arbuscules and may be involvedin degrada-
+on Chr 10 includes three germin-like proteins. Candidate tion of arbuscules or in remodeling intracellular structures
+genes identified on Chr 14include a valine-glutamine (VQ) (Deguchi et al. 2007). Other candidate genes include those
+motif-containing protein and an aquaporin transporter. The encoding for two 60S ribosomal proteins and a NBS-LRR
+Chr 8 LD region includes a VQ motif-containing protein, resistance-like protein; both were highly expressed in nod-
+two ethylene response factors, an aquaporin, and a kelch ules and may have a role in overall symbiosis (Severin et al.
+repeat-containing family protein (Table 1).
+2010). Ribosomal 60S proteins were found to be upregulated
+in mycorrhizal L. japonicus and M. truncatula (Gaude et al.
+2012; Handa et al. 2015), indicating their potential role in
+Discussion
+overall symbiosis.
+Many genes involved in symbiosis are also involved in
+We identified six significant GWAS loci within the soybean defense against pathogens. It is not surprising that our study
+genome that are associated with the level of colonization identified an overlapping region between the 340 kb LD
+by R. intraradices. These six regions explained 24% of the region on Chr 9 and a QTL associated with SCN resistance
+phenotypic variance with each peak SNP explaining from (Zhang et al. 2017). Within this overlap is a gene encod-
+4.5 to 7.1% of this variation. Similar studies have shown ing for cytochrome P450, which is known to be involved in
+mycorrhizal associations in other crops. In durum wheat, both plant disease pathways and strigolactones biosynthe-
+individual QTL explained 7-16% of the phenotypic vari- sis, making it a potential candidate for both SCN resistance
+ance (De Vita et al. 2018), while in winter wheat, individual and mycorrhizal colonization (Nakamura and Asami 2014).
+markers only explained 0.82-1.14% (Lehnert et al. 2017) Strigolactones are found in root-exudates and are associ-
+of the phenotypic variance. Our study identified candidate ated with pre-infection signaling between AMF spores and
+genes involved in all aspects of fmycorrhizal symbiosis rang- plant roots (Lanfranco et al. 2017). A gene encoding for a
+ing from pre-infection signaling to arbuscule senescence, but UDP-glycosyltransferase (UGT) was also found within this
+most candidate genes were related to host-microbe recogni- LD region on Chr 9. UGTs are known to interact with phy-
+tion and signaling pathways.
+tohormones and metabolites during biotic and abiotic stress
+responses (Rehman et al. 2018). UGTs are overexpressed in
+Springer
+
+
+
+Theoretical and Applied Genetics
+mycorrhizal rice, sunflower, and L. japonicus (Gutjahr et al. that influence the level of colonization are involved in
+2008; Handa et al. 2015; Vangelisti et al. 2018). The UGTs other microbial signaling, including defense related genes
+may play a role in the early stages of mycorrhizal infection and genes involved in nodulation. A better understand-
+(Vangelisti et al. 2018).
+ing of the function of these genes could provide the basis
+Two genes encoding for germin-like proteins (GLP) were for developing enhanced AMF-sensitive soybean culti-
+found within the 750 kb region on Chr. 10. These genes vars. Increasing AMF sensitivity in soybean may result in
+are not expressed during abiotic stress and highly expressed increases in nutrient uptake, drought tolerance, and dis-
+in nodules, meaning they could be involved in symbiosis- ease resistance. This environmentally friendly approach to
+specific processes (Severin et al. 2010; Li et al. 2016). Ger- improving soybean production may help reduce the over-
+mins are well known in biotic stress responses by their oxa- use of fertilizers and pesticides and promote more holistic
+late activity (Yamahara et al. 1999). Therefore, GLPS are crop production systems.
+assumed to have some form of oxidative activity as well
+(Carter and Thornburg 2000). Mycorrhizal-specific GLPS Acknowledgements We thank Amanda Bardeau and Theresa Herman
+may play a role in cell wall reorganization, but their func- for their help with the greenhouse experiments, T. Herman for assisting
+with revising the manuscript, and Hao-Xun Chang forhis advice on LD
+tion in mycorrhizal symbiosis remains unknown (Doll et al. analysis and candidate gene selection. We thank Dr. Joseph Morton at
+2003).
+the International Culture Collection of Vesicular Mycorrhizal Fungi
+We found one gene encoding for an aquaporin nodulin26 for his advice on AMF species selection and for providing the isolate
+intrinsic protein (NIP) within the 520 kb LD region on Chr used lin this study. We thank the United Soybean Board and the USDA-
+ARS for funding, as well as the University of Illinois Department of
+14. Genes that encode nodulin proteins were identified as Crop Sciences for support via the James B. Sinclair and Fraley-Borlaug
+nodule-specific, but studies have shown some nodulins pro- Fellowships.
+teins are also expressed during mycorrhizal symbiosis (Wyss
+et al. 1990). In L. japonicus, an aquaporin gene, JtNIP1, Author Contribution statement MPL, TDV, and GLH planned, and
+was found to be expressed in cells containing arbuscules designed experiments. MPL completed root colonization analysis, LD
+analysis, and identified candidate genes. TDV performed genome-wide
+(Giovannetti et al. 2012). Along with a gene encoding for association study, phylogenetic and kinship analyses. BV and HTN
+a NIP, a gene encoding for a valine-glutamine (VQ) motif- selected and sequenced the 350 soybean accessions, MPL, TDV, and
+containing protein was identified as a possible candidate. GLH wrote the manuscript.
+VQ motif-containing proteins are a class of plant-specific
+proteins that regulate several plant development processes, Compliance with ethical standards
+including responses to abiotic and biotic stresses (Jing and
+Lin 2015). This gene was also considered the candidate gene Conflict of finterest The authors declare that they have no conflict of
+interest.
+within a locus identified to be associated with resistance to
+Sclerotinia sclerotiorum (Moellers et al. 2017). There are Ethic standards The author state that the experiments comply with
+no previous studies on the function of VQ motif-containing the current laws ofthe country in which they were performed (USA).
+proteins in mycorrhizal symbiosis, but their role in defense
+signaling makes them a viable candidate for involvement
+mycorrhizal symbiosis.
+Another gene encoding for a NIP (explained above) References
+occurred within the 820 kb LD region on Chr 8 along with
+several genes encoding for ethylene response factors (ERF) An G-H, Kobayashi S, Enoki H, Sonobe K, Muraki M, Karasawa T,
+and another locus associated with resistance to S. sclerotio-
+Ezawa T (2010) How does arbuscular mycorrhizal colonization
+rum (Moellers et al. 2017). ERFs are a part of the ethylene
+vary with host plant genotype? An example based on maize (Zea
+mays) germplasms. Plant Soil 327:441-453
+response pathway and are known for their role in disease An J, Sun M, van Velzen R, Ji C, Zheng Z, Limpens E, Bisseling T,
+resistance to necrotrophic pathogens (Muller and Munné-
+Deng X, Xiao S, Pan Z (2018) Comparative transcriptome anal-
+Bosch 2015). Mycorrhizal symbiosis is known to manipulate
+ysis of Poncirus trifoliata identifies a core set of genes involved
+host defense pathways and upregulate the ethylene pathway
+in arbuscular mycorrhizal symbiosis. J Exp Bot 69:5255-5264
+Berendsen RL, Pieterse CMJ, Bakker PAHM (2012) The rhizosphere
+(Pozo et al. 2010). ERFs are highly expressed lin mycorrhizal
+microbiome and plant health. Trends Plant Sci 17:478-486
+plants compared to control plants (Pozo et al. 2015). One Berruti A, Lumini E, Balestrini R, Bianciotto V (2016) Arbuscular
+gene, Glyma.08g216600, is shown to be highly expressedin
+mycorrhizal fungi as natural biofertilizers: let's benefit from past
+nodules and may function in other symbiotic processes such
+successes. Front Microbiol 6:1559
+Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y,
+as AMF symbiosis (Severin et al. 2010).
+Buckler ES (2007) TASSEL: software for association map-
+The results of our study showed there was a significant
+ping of complex traits in diverse samples. Bioinformatics
+genetic component in soybean that dictates the level of
+23:2633-2635
+colonization by R. intraradices. Potential candidate genes
+Springer
+
+
+
+Theoretical and Applied Genetics
+Bravo A, York T, Pumplin N, Mueller LA, Harrison MJ (2016) Hetrick B, Wilson G, Todd IT (1996) Mycorrhizal response in wheat
+Genes conserved for arbuscular mycorrhizal symbiosis identi-
+cultivars: relationship to phosphorus. Can J Bot 74:19-25
+fied through phylogenomics. Nat Plants 2:15208
+Jing Y, Lin R (2015) The VQ motif-containing protein family
+Cao K, Zhou Z, Wang Q, Guo J, Zhao P, Zhu G, Fang W, Chen C,
+of plant-specific transcriptional regulators. Plant Physiol
+Wang X, Wang X (2016) Genome-wide association study of 12
+169:371-378
+agronomic traits in peach. Nat Commun 7:13246
+Kaeppler SM, Parke JL, Mueller SM, Senior L, Stuber C, Tracy WF
+Carter C, Thornburg RW (2000) Tobacconectarin I purification and
+(2000) Variation among maize inbred lines and detection of quan-
+characterization as a germin-like, manganese superoxide dis-
+titative trait loci for growth at low phosphorus and responsiveness
+mutase implicated in the defense of floral reproductive tissues.
+to arbuscular mycorrhizal fungi. Crop Sci 40:358-364
+J Biol Chem 275:36726-36733
+Kellam M, Schenck N (1980) Interactions between a vesicular-arbus-
+De Vita P, Avio L, Sbrana C, Laidô G, Marone D, Mastrangelo AM,
+cular mycorrhizal fungus and root-knot nematode on soybean.
+Cattivelli L, Giovannetti M (2018) Genetic markers associated
+Phytopathology 70:293-296
+to arbuscular mycorrhizal colonization in durum wheat. Sci Rep Khalil S, Loynachan TE, Tabatabai MA (1994) Mycorrhizal depend-
+8:10612
+ency and nutrient uptake by improved and unimproved corn and
+Deguchi Y, Banba M, Shimoda Y, Chechetka SA, Suzuri R, Okusako
+soybean cultivars. Agron J 86:949-958
+Y, Ooki Y, Toyokura K, Suzuki A, Uchiumi T (2007) Tran- Lanfranco L, Fiorilli V, Venice F, Bonfante P (2017) Strigolactones
+scriptome profiling of Lotus japonicus roots during arbuscular
+cross the kingdoms: plants, fungi, and bacteria in the arbuscular
+mycorrhiza development and comparison with that of nodula-
+mycorrhizal symbiosis. J Exp Bot 69:2175-2188
+tion. DNA Res 14:117-133
+Lehnert H, Serfling A, Enders M, Friedt W, Ordon F (2017) Genetics
+Do TD, Vuong TD, Dunn D, Clubb M, Valliyodan B, Patil G, Chen
+of mycorrhizal symbiosis in winter wheat (Triticum aestivum).
+P, Xu D, Nguyen HT, Shannon JG (2019) Identification of new
+New Phytol 215:779-791
+loci for salt tolerance in soybean by high-resolution genome- LiY, Zhang D, Li W, Mallano AI, Zhang Y, Wang T, Lu M, Qin Z, Li
+wide association mapping. BMC Genom 20:318
+W (2016) Expression study of soybean germin-like gene family
+Doll J, Hause B, Demchenko K, Pawlowski K, Krajinski F (2003)
+reveals a role of GLP7 gene in various abiotic stress tolerances.
+A member of the germin-like protein family is a highly con-
+CanJ Plant Sci 96:296-304
+served mycorrhiza-specific induced gene. Plant Cell Physiol Liao D, Chen X, Chen A, Wang H, Liu J, Liu J, Gu M, Sun S, Xu G
+44:1208-1214
+(2014) The characterization of six auxin-induced tomato GH3
+Dreher D, Yadav H, Zander S, Hause B (2017) Is there genetic vari-
+genes uncovers a member, SIGH3.4, strongly responsive to arbus-
+ation in mycorrhization of Medicago truncatula? PeerJ 5:e3713
+cular mycorrhizal symbiosis. Plant Cell Physiol 56:674-687
+Galvan GA, Kuyper TW, Burger K, Keizer LP, Hoekstra RF, Kik C, Liu J, Blaylock LA, Endre G, Cho J, Town CD, VandenBosch KA,
+Scholten OE (2011) Genetic analysis of the interaction between
+Harrison MJ (2003) Transcript profiling coupled with spatial
+Allium species and arbuscular mycorrhizal fungi. Theor Appl
+expression analyses reveals genes involved in distinct develop-
+Genet 122:947-960
+mental stages of an arbuscular mycorrhizal symbiosis. Plant Cell
+Gaude N, Bortfeld S, Duensing N, Lohse M, KrajinskiF(2012) Arbus-
+15:2106-2123
+cule-containing and non-colonized cortical cells of mycorrhizal Lobell DB, Burke MB, Tebaldi C, Mastrandrea MD, Falcon WP, Nay-
+roots undergo extensive and specific reprogramming during arbus-
+lor RL (2008) Prioritizing climate change adaptation needs for
+cular mycorrhizal development. PlantJ 69:510-528
+food security in 2030. Science 319:607-610
+Giovannetti M, Mosse B (1980) An evaluation of techniques for Meng LB, Zhang AY, Wang F, Han XG, Wang DJ, Li SM (2015)
+measuring vesicular arbuscular mycorrhizal infection in roots.
+Arbuscular mycorrhizal fungi and rhizobium facilitate nitrogen
+New Phytol 84:489-500
+uptake and transferin soybean/maize intercropping system. Front
+Giovannetti M, Balestrini R, Volpe V, Guether M, Straub D, Costa
+Plant Sci 6:339
+A, Ludewig U, Bonfante P(2012) Two putative-aquaporin genes Moellers TC, Singh A, Zhang J, Brungardt J, Kabbage M,Mueller DS,
+are differentially expressed during arbuscular mycorrhizal sym-
+Grau CR, Ranjan A, Smith DL, Chowda-Reddy R (2017) Main
+biosis in Lotus japonicus. BMC Plant Biol 12:186
+and epistatic loci studies in soybean for Sclerotinia sclerotiorum
+Grant D, Nelson RT, Cannon SB, Shoemaker RC (2010) SoyBase,
+resistance reveal multiple modes of resistance in multi-environ-
+the USDA-ARS soybean genetics and genomics database.
+ments. Sci Rep 7:3554
+Nucleic Acids Res 38:D843-D846
+Miller M, Munné-Bosch S (2015) Ethylene response factors: a key
+Gutjahr C, Banba M, Croset V, An K, Miyao A, An G, Hirochika H,
+regulatory hub in hormone and stress signaling. Plant Physiol
+Imaizumi-Anraku H, Paszkowski U (2008) Arbuscular mycor-
+169:32-41
+rhiza-specific signaling in rice transcends the common symbio- Nair A, Bhargava S (2012) Reduced mycorrhizal colonization (rmc)
+sis signaling pathway. Plant Cell 20:2989-3005
+tomato mutant lacks expression of SymRK signaling pathway
+Hagen G, Martin G, Li Y, Guilfoyle TJ (1991) Auxin-induced lexpres-
+genes. Plant Signal Behav 7:1578-1583
+sion of the soybean GH3 promoter in transgenic tobacco plants. Nakamura H, Asami T (2014) Target sites for chemical regulation of
+Plant Mol Biol 17:567-579
+strigolactone signaling. Front Plant Sci 5:623
+Hamel C, Barrantes-Cartin U, Furlan V, Smith D (1991) Endomycor- Pacovsky R (1986) Micronutrient uptake and distribution in mycor-
+rhizal fungi in nitrogen transfer from soybean to maize. Plant
+rhizal or phosphorus-fertilized soybeans. Plant Soil 95:379-388
+Soil 138:33-40
+Patil G, Do T, Vuong TD, Valliyodan B, Lee J-D, Chaudhary J, Shan-
+Handa Y, Nishide H, Takeda N, Suzuki Y, Kawaguchi M, Saito K
+non JG, Nguyen HT (2016) Genomic-assisted haplotype analysis
+(2015) RNA-seq transcriptional profiling of an arbuscular myc-
+and the development tofhigh-throughput SNP markers for salinity
+orrhiza provides insights into regulated and coordinated gene
+tolerance in soybean. Sci Rep 6:19199
+expression in Lotus japonicus and Rhizophagus irregularis. Porcel R, Ruiz-Lozano JM (2004) Arbuscular mycorrhizal influ-
+Plant Cell Physiol 56:1490-1511
+ence on leaf water potential, solute accumulation, and oxidative
+Heggo A, Angle J, Chaney R (1990) Effects of vesicular-arbuscular
+stress in soybean plants subjected to drought stress. J Exp Bot
+mycorrhizal fungi on heavy metal uptake by soybeans. Soil Biol
+55:1743-1750
+Biochem 22:865-869
+Pozo MJ, Jung SC, Lopez-Raez JA, Azcon-Aguilar C (2010) Impact
+of arbuscular mycorrhizal symbiosis on plant response to biotic
+Springer
+
+
+
+Theoretical and Applied Genetics
+stress: the role of plant defence mechanisms. Arbuscular Mycor- Vangelisti A, Natali L, Bernardi R, Sbrana C, Turrini A, Hassani-Pak
+rhizas: Physiology and Function. Springer, Berlin, pp 193-207
+K, Hughes D, Cavallini A, Giovannetti M, Giordani T (2018)
+Pozo MJ, Lopez-Raez JA, Azcôn-Aguilar C, Garcia-GarridoJM 1(2015)
+Transcriptome changes induced by arbuscular mycorrhizal fungi
+Phytohormones as integrators of environmental signals in the
+in sunflower (Helianthus annuus L) roots. Sci Rep 8:4
+regulation of mycorrhizal lsymbioses. New Phytol 205:1431-1436 Vierheilig H, Schweiger P, Brundrett M (2005) An overview of meth-
+Rehman HM, Nawaz MA, Shah ZH, Ludwig-Miller J, Chung G,
+ods for the detection and observation of arbuscular mycorrhizal
+Ahmad MQ, Yang SH, Lee SI (2018) Comparative genomic and
+fungi in roots. Physiol Plant 125:393-404
+transcriptomic analyses of Family-1 UDP glycosyltransferase in Westfall CS, Zubieta C, Herrmann J, Kapp U, Nanao MH, Jez JM
+three Brassica species andArabidopsis indicates stress-responsive
+(2012) Structural basis for prereceptor modulation of plant hor-
+regulation. Sci Rep 8:1875
+mones by GH3 proteins. Science 336:1708-1711
+Richardson AE, LynchJP, Ryan PR, Delhaize E, Smith FA, Smith SE, Wyss P, Mellor RB, Wiemken A (1990) Vesicular-arbuscular myc-
+Harvey PR, Ryan MH, Veneklaas EJ, Lambers H (2011) Plant
+orrhizas of wild-type soybean and non-nodulating mutants with
+and microbial strategies to improve the phosphorus efficiency of
+Glomus mosseae contain symbiosis-specific polypeptides (myc-
+agriculture. Plant Soil 349:121-156
+orrhizins), immunologically cross-reactive with nodulins. Planta
+SchmutzJ, Cannon SB, Schlueter. J, MaJ, Mitros T, Nelson W,Hyten
+182:22-26
+DL, Song Q, Thelen JJ, Cheng J (2010) Genome sequence of the Yamahara T, Shiono T, Suzuki T, Tanaka K, Takio S, Sato K, Yamazaki
+palaeopolyploid soybean. Nature 463:178
+S, Satoh T (1999) Isolation ofa germin-like protein with manga-
+Severin AJ, Woody JL, Bolon Y-T, Joseph B, Diers BW, Farmer AD,
+nese superoxide dismutase activity from cells ofa moss, Barbula
+Muehlbauer GJ, Nelson RT, Grant D, Specht JE (2010) RNA-Seq
+unguiculata. .J Biol Chem 274:33274-33278
+Atlas of Glycine max: a guide to the soybean transcriptome. BMC Yano K, Yamamoto E, Aya K, Takeuchi H, Lo P-c, Hu L, Yamasaki
+Plant Biol 10:160
+M, Yoshida S, Kitano H, Hirano K (2016) Genome-wide asso-
+Singh VK, Jain M, Garg R (2015) Genome-wide analysis and expres-
+ciation study using whole-genome sequencing rapidly identifies
+sion profiling suggest diverse roles of GH3 genes during devel-
+new genes influencing agronomic traits sin rice. Nat Genet 48:927
+opment and abiotic stress responses in legumes. Front Plant Sci Yoshida S, Parniske M (2005) Regulation of plant symbiosis receptor
+5:789
+kinase through serine and threonine phosphorylation. JBiol Chem
+Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, Cregan
+280:9203-9209
+PB (2015) Fingerprinting soybean germplasm and its utility in Zambolim L, Schenck NC(1983) Reduction ofthe effect of pathogenic,
+genomic research. G3: Genes Genom Genet 5:1999-2006
+root-infecting fungi on soybean by the mycorrhizal fungus, Glo-
+Sylvia DM, Jarstfer AG (1992) Shearedrootinocula of vesicular arbus-
+mus mosseae. Phytopathology 73:1402-1405
+cular mycorrhizal fungi. Appl Environ Microbiol 58:229-232
+Zhang H, Kjemtrup-Lovelace S, Li C, Luo Y, Chen LP, Song B-H
+Taylor A, Pereira N, Thomas B, Pink DA, Jones JE, Bending GD
+(2017) Comparative RNA-seq analysis uncovers a complex regu-
+(2015) Growth and nutritional responses to arbuscular mycor-
+latory network for soybean cyst nematode resistance in wild soy-
+rhizal fungi are dependent ton onion genotype and fungal species.
+bean (Glycine soja). Sci Rep 7:9699
+Biol Fertil Soils 51:801-813
+Zhou Z, Jiang Y, Wang Z, Gou Z, LyuJ,Liw, Yu Y, Shu L, Zhao Y,
+Tromas A, Parizot B, Diagne N, Champion A, Hocher V, Cissoko M,
+Ma Y (2015) Resequencing 302 wild and cultivated accessions
+Crabos A, Prodjinoto H, Lahouze B, Bogusz D (2012) Heart of
+identifies genes related to domestication and limprovement tin soy-
+endosymbioses: transcriptomics reveals a conserved genetic pro-
+bean. Nat Biotechnol 33:408
+gram among arbuscular mycorrhizal, actinorhizal and legume-
+rhizobial symbioses. PLOS ONE 7:e44742
+Publisher's Note Springer Nature remains neutral with regard to
+Valliyodan B, Qiu D, Patil G, Zeng P, Huang J, Dai L, Chen C, Li Y, jurisdictional claims in published maps and institutional affiliations.
+Joshi T, Song L (2016) Landscape of genomic diversity and trait
+discovery in soybean. Sci Rep 6:23598. htpsz/doi.org/10.1038/
+srep23598
+Springer

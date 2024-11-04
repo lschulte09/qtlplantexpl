@@ -1,0 +1,1068 @@
+Zhao et al. BMC Genomics (2019) 20:648
+htps/doiorg/10.118612864-019-600902
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+Genome wide association mapping and
+Check for
+updates
+candidate gene analysis for hundred seed
+weight in soybean [Glycine max (L.) Merrill]
+Xue Zhao't I Hairan Dong' ', Hong Chang 1t - Jingyun Zhao?, Weili Teng',Lijuan Qiu?, Wenbin Li" and
+Yingpeng Han"o
+Abstract
+Background: The hundred seed weight (HSW) is one of the yield components of soybean [Glycine max (L.) Merrill]
+and is especially critical for various soybean food types. In this study, a representative sample consisting of 185
+accessions was selected from Northeast China and analysed in three tested environments to determine the
+quantitative trait nucleotide (QTN) of HSW through a genome-wide association study (GWAS).
+Result: A total of 24,180 single nucleotide polymorphisms (SNPS) with minor allele frequencies greater than 0.2 and
+missing data less than 3% were utilized to estimate linkage disequilibrium (LD) levels in the tested association
+panel Thirty-four association signals were identified as associated with HSW via GWAS. Among them, nineteen
+QTNS were novel, and another fifteen QTNS were overlapped or located near the genomic regions of known HSW
+QTL. A total of 237 genes, derived from 31 QTNS and located near peak SNPS from the three tested environments
+in 2015 and 2016, were considered candidate genes, were related to plant growth regulation, hormone
+metabolism, cell, RNA, protein metabolism, development, starch accumulation, secondary metabolism, signalling,
+and the TCA cycle, some of which have been found to participate in the regulation of HSW. A total of 106 SNPS
+from 16 candidate genes were significantly associated with HSW in soybean.
+Conclusions: The identified loci with beneficial alleles and candidate genes might be valuable for the molecular
+network and MAS of HSW.
+Keywords: Genome-wide association analysis, Hundred seed weight, Single nucleotide polymorphism, Candidate
+genes
+Background
+quality soybean sprouts and natto production, whereas
+The seed weight (SW) of soybean (often denoted by higher HSW cultivars perform well in tofu, edamame
+hundred seed weight (HSW)) is an important yield com- and miso production [5]. HSW also affects soybean seed
+ponent and positively correlates with seed yield [1, 2]. germination viability and seed vigor [6]. As a typical
+HSW exhibits wider variation ranges [3], and the HSW quantitative trait, HSW is controlled by multiple genes
+of the modern elite cultivar (18-20g) is approximately with small or large genetic effects, especially additive ef-
+6-7-fold greater than that of the wild soybean (3-4g) fects [7, 8] and the heritability range is relatively high
+[4]. HSW often determines the final utilization of soy- (44-94%). HSW is significantly affected by environmen-
+bean seed. Lower HSW cultivars are desirable for high tal conditions including light, temperature, soil moisture
+and nutrient status [9-11] and geographical conditions
+such as altitude, latitude, longitude and associated cli-
+Correspondence: wenbinli@neaueducny hyp234286@alyun.com
+*Xue Zhao, Hairan Dong and Hong Chang contributed equally to this work mate [9, 12, 13]. Although HSW has been improved
+'Key Laboratory of Soybean Biology in Chinese Ministry of Education
+from 3.5 g of wild soybean to 18-20 g of cultivated soy-
+(Northeastern Key Laboratory of Soybean Biology and Genetics & Breeding in bean through traditional methods
+long-term
+Chinese Ministry of Agriculture), Northeast Agricultural University, Harbin
+during
+150030, China
+breeding [14], breeding soybean cultivars with
+Full list of author information is available at the end of the article
+OThe Author(s). 2019 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BMC International License fhtp/ceativecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made The Creative Commons Public Domain Dedication waiver
+Omploeswecommonsoy/pulbicdomanv.eonon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 2 of 11
+reasonable and stable HSW through traditional selection Result
+methods remains difficult. The traditional selection Distribution of hundred seed weight in the association
+method requires evaluation in multiple environments panel
+over several years and is expensive, time-consuming and The phenotypic value was evaluated in three locations
+labour-intensive.
+for two years to analyse the variation distribution
+Marker assisted selection (MAS) can increase the effi- (Additional file 1). The association panel consisted of
+ciency of the traditional selection method for HSW by im- 185 accessions with HSW varying from 5.64g to 34.8
+proving the allele frequencies of desirable HSW g, and an average HSW of 19.60g was calculated
+quantitative trait loci (QTL) [15]. Presently, linkage analysis, based on the mean observed across the three tested
+based on special bi-parental mapping populations, is still environments in 2015 and 2016 (Additional file 1).
+extensively applied to dissect the genetic base (or QTL) of Coefficients of variation ranged from 18 to 21% for
+HSW. More than 200 QTL have been reported in the Soy- the different environments, and significant differences
+Base databank (www.soybase.org), which are distributed on among the tested environments were not found for
+20 chromosomes (Chr, or linkage group (LG)) from more the association panel (Additional file 1). Normal dis-
+than 40 different genetic populations and 50 parental mate- tributions without any significant skewness and kur-
+rials. Most of these identified QTL were found in F2 or re- tosis were observed for the association panel in all
+combinant inbred line (RIL) populations [7, 16-26]. Except tested environments (Fig. 1 and Additional file 1).
+for these identified QTL in mature seeds, some studies ana-
+lysed the dynamic QTL of HSW during the different devel- Distribution of SNPS and genetic characteristics of the
+opmental stages, which have increased the understanding mapping population
+of HSW QTL [19, 27]. Only a few genes controlling HSW A total of 24,180 SNPs distributed across all 20 chromo-
+of soybean, have been cloned till date. A phosphatase 2C-1 somes of the soybean genome with minor allele frequen-
+(PP2C-1) gene was found to contribute to the increase of cies > 0.05 and missing data less than 3% were utilized
+HSW in transgenic plants through a combination ofwhole- to estimate LD levels in the 185 tested samples. These
+genome sequencing and an RIL population derived from a SNP markers spanned 947.89 Mbp, which accounted for
+cross between a wild soybean ZYD7 and a cultivated soy- approximately 86.17% of the entire soybean genome.
+bean HN44 [28]. Among these identified QTL, most The number of SNPS among the 20 chromosomes was
+spanned fairly large genomic regions due to the relatively not even, and large variations in the number of SNPs
+low density of molecular markers (itp/www.soybaseorg, (from 676 in Chr.11 to 1774 in Chr.15) were observed
+which have a relatively low accuracy, limiting their applica- among different chromosomes. The average marker
+tion in MAS efforts.
+density was approximately 1 SNP per 40.29 kb (Table 1).
+Genome-wide association studies (GWAS) have more The decay distance of the LD between markers was
+extensive recombination events and shorter linkage dis- 215.74kb (Fig. 2a).
+equilibrium (LD) blocks due to high density of SNP
+markers used for mapping and wider phenotypic vari- Quantitative trait nucleotide (QTN) associated with
+ation available in germplasm. Therefore, GWAS could hundred seed weight by GWAS
+significantly improve the resolution and accuracy of A compressed mixed linear model (CMLM) was used to
+marker-phenotype associations compared with linkage identify association signals using the R package GAPIT.
+analysis, based on bi-parental mapping populations. Principal component and kinship analyses of the associ-
+Presently, GWAS have begun to effectively analyze the ation panel were evaluated using the whole set of SNPS,
+genetic basis of HSW in soybean. Yan et al. identified 17 which were also considered in the CMLM model. The
+HSW QTL on six chromosomes through 166 samples first three principle components (PCs) accounted for
+with SoySNP50K BeadChip based on two tested environ- 12.48% of the total genetic variation (Fig. 2b-c). The
+ments. Zhang et al. found a total of 22 HSW QTL with evaluation of the variation of the first 20 PCs analysis re-
+minor effects based on 309 germplasm accessions and vealed an inflection point at PC3 (Fig. 2b), suggesting
+31,045 polymorphic SNPS [29, 30]. However, as of late that the first three PCs dominated the population struc-
+2018, no studies have identified QTL underlying HSW ture on the association mapping. A lower genetic re-
+of soybean in Northeast China based on sequencing latedness within the population was exhibited from the
+technology.
+distribution of the pairwise relative kinship coefficients
+In the present study, we performed a GWAS of soy- of the association panel among the 185 tested accessions
+bean HSW in Northeast China based on 185 tested ac- (Fig. 2d). In the present study, thirty-four association sig-
+cessions and 24,180 SNPs. The aim of the present study nals were associated with HSW, which were distributed
+is to identify QTLs associated with HSW and to screen on fifteen chromosomes, including Chr.3, Chr.4, Chr.5,
+candidate genes located in peak SNP regions.
+Chr.6, Chr.8, Chr.9, Chr.10, Chr.12, Chr.13, Chr.14,
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 3 of 11
+40 
+35 -
+I 30
+-
+25
+8
+20
+-
+I 15
+10
+++ttt
+5
+Harbin 2015 Harbin 2016 Gongzhuling 2015 Gongzhuling 2016 Shengyang2015 Shengyang 2016
+Fig. 1 Variation of hundred seed weight of soybean in the association panel
+Chr.16, Chr.17, Chr.18, Chr.19, and Chr.20 (Fig. 3 and environments. Among all 34 QTNS, fifteen signals over-
+Table 2). Among them, five SNP loci (HSW-8-1 on lapped or located near the genomic region of the known
+Chr.8, HSW-9-1 on Chr.9, HSW-12-1 on Chr.12, HSW- QTL underlying HSW or soybean yield, and the other
+12-4 on Chr.12, and HSW-16-3 on Chr.16) were identi- seventeen were novel for HSW (Table 2). The HSW of
+fied in more than three environments in this study. An- the tested accessions with different alleles were evalu-
+other thirty QTNS were found in less than three ated, and the results indicated that the HSW of these
+Table 1 Number and density of single nucleotide polymorphisms (SNPS) on each chromosome for the genome-wide association
+study (GWAS)
+Chromosome number
+Number of SNPS"
+Sequence length (Mb)
+SNP density (Kb/SNP)
+1
+1278
+56.82
+44.46
+2
+1128
+48.47
+42.97
+3
+1146
+45.73
+39.9
+4
+1431
+52.32
+36.56
+5
+862
+42.17
+48.92
+6
+1336
+51.3
+38.4
+7
+1082
+44.6
+41.22
+8
+1092
+47.8
+43.77
+9
+1312
+50.18
+38.25
+10
+1241
+51.55
+41.54
+11
+676
+34.7
+51.33
+12
+808
+40.07
+49.59
+13
+1261
+45.6
+36.16
+14
+1078
+48.99
+45.45
+15
+1774
+51.67
+29.13
+16
+1168
+37.8
+32.36
+17
+1185
+41.61
+35.11
+18
+1739
+58.01
+33.36
+19
+1463
+50.6
+3459
+20
+1120
+47.9
+42.77
+a single nucleotide polymorphism
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 4 of 11
+A
+B 800
+1
+0.8
+600
+0.6
+a
+400
+d 0.4
+0
+200
+0.2
+0
+0
+T
+0 1000000 2000000 3000000 4000000 5000000
+1 3 5 7 9 11 13 15 17 19
+Distance (bp)
+PCs
+C
+-
+0.5 1.5225
+8
+Value
+9
+E
+4
+&
+8 o
+60
+8
+40
+20
+0
+9
+-20 C
+-40 Q
+-60
+8 -60 -40 -20 0 20 40 60
+L
+PC1
+Fig. 2 Linkage disequilibrium (LD) evaluation and genetic features of the mapping population. a LD decay of the genome-wide association study
+(GWAS) population. b The first three principal components reflected by SNPS used in the GWAS. C Population structure of soybean germplasm. d
+A heatmap of the kinship matrix of the 185 soybean accessions
+accessions with different alleles in these identified QTNS development, starch accumulation, secondary metabol-
+were significantly different (Table 2). Thus, utilization of ism, signalling, and the TCA cycle (Additional file 2).
+these appropriate alleles for HSW would be interesting Among these identified candidate genes, Gly-
+for MAS of soybean cultivars with higher HSW.
+ma.03G192300, a starch branching enzyme located near
+HSW-3-1 of Chr.3, could promote seed weight in crops
+Prediction of candidate genes controlling hundred seed
+[31]. Glyma.05G005400 (located near HSW5-1 of
+weight
+Chr.5) and Glyma.08G317300 (located near HSW8-2
+Genes located in the 200-kbp flanking regions of each of Chr.5), a MYB-domain protein, play key roles in
+peak SNP were considered candidate genes. A total of regulating seed development and determining seed
+237 genes, derived from 31 QTNS, were located near weight in plants [32]. Glyma.05G196400 (located near
+peak the SNPs from the three tested environments in HSW5-2 of Chr.5), one Leucine-rich repeat protein
+2015 and 2016 (Additional file 2). For further clearing kinase family protein, has been proven a regulator of
+the potential functions of these genes, various functional seed weight in plants [33]. Masatake et al. (2013) re-
+groups were classified based on the Gene Ontology data- ported that HS3, which has the same domain as Gly-
+base (htpl/gencontology.org) Of these inferred genes, ma.06G201700 (located near HSW6-1 of Chr.6),
+fifty-four had no functional annotations and were de- regulates seed development in plants [34]. Bhatnagar et
+rived from protein families with unknown function. An- al. (2017) reported that OsPP2C51 positively regulates
+other 183 genes were related to plant growth regulation, rice seed germination and affects seed yield [35]. Both
+hormone metabolism, cell, RNA, protein metabolism, OsPP2C51 and Glyma.12G109500 (located near HSW-
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 5 of 11
+A
+a
+&
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+B s
+4
+N
+f
+o
+1 2 3
+5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+C s
+4
+N
+9
+o
+T
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+D o
+4
+N
+9
+6
+o
+2 3
+5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+E 8
+4
+N
+5
+o
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+F 6
+a
+T
+5 6
+8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 3 Manhattan plot tof association mapping of hundred seed weight in soybean. a-b: Harbin in 2015 and 2016; c-d: Gongzhuling in 2015 and
+2016; e-f Shenyang in 2015 and 2016. The dashed line on each subgraph indicated the log10 (p Value) significance threshold
+12-2 of Chr.12) are members of protein phosphatase twenty lines (ten higher/lower HSW lines) through gen-
+2C.
+ome re-sequencing. A total of 106 SNPs from 16 genes
+To identify the possible roles of candidate genes in the (Glyma.05G196200, 4 SNP; Glyma.12G083500, 4 SNP;
+HSW of soybean, gene-based associations were con- Glyma.13G182400, 4 SNP; Glyma.17G178400, 4 SNP;
+ducted using the GLM method. A total of 3057 SNPS in Glyma.20G140200, 4 SNP; Glyma.20G140400, 4 SNP;
+237 candidate genes (MAF > 0.10) were obtained among Glyma.03G192300, 6 SNP; Glyma.05G005200, 6 SNP;
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 6 of 11
+Table 2 Single nucleotide polymorphisms (SNPS) associated with hundred seed weight of soybean and known QTL overlapped
+with peak SNP
+Locus Environmente Chrb Position Alleles Allelic effect -Logio(P)
+MAF R2(96)
+Known QTLS
+name
+HSW-3-1 E3
+3 40,302, GT 2.25
+4.2
+0.07 31.96
+Seed weight per plant
+935
+53-4016835-42675829
+(Kuroda et al. 2013);
+Seed yield 27-4_40375902-41,
+065,116 (Kim et al 2012);
+Seed yield 30-4_40375902-41,
+065,116 (Kim et al 2012);
+HSW-4-1 E2
+4 33,447, AG 2.3
+3.7
+0.14 31.85
+Seed width 1-10_32617784-45,
+909
+860,827 (Salas et al. 2006)
+HSW-4-2 E2
+4 33,617, A:G 2.3
+3.7
+0.14 31.93
+Seed width 1-10_32617784-45,
+714
+860,827(Salas et al 2006)
+HSW-5-1 E2, E3
+5 431,686 A:G -1.68/- 1.61 4.15/3.97
+0.14 32.33/32.11
+HSW-5-2 E5
+5 38,064, GT 1.01
+3.58
+0.28 32.49
+280
+HSW-6-1 E6
+6 18,590, GT 1.59
+3.77
+0.09 34.19
+024
+HSW-6-2 E6
+6 34,877, A:G 1.99
+3.68
+0.07 33.33
+639
+HSW-6-3 E5
+6 41,987, GT 1.77
+3.79
+0.08 32.85
+021
+HSW-8-1 E1,E2, E3 8 20,122, GT 1.84/1.7/1.64 4.28/3.69/3.67 0.10 33.22/3246/32.64
+716
+HSW-8-2 E2
+8 43,658, A:G -2.36
+4.53
+0.07 32.45
+396
+HSW-9-1 E2, E4, E5 9 19,237, GT 1.8/2.05/1.98 4.73/4.14/4.84 0.09 30.85/31.95/31.18
+332
+HSW-10-1 E1
+10 48,019, AG -1.64
+4.12
+0.13 33.4
+Seed weight per plant 3-2_
+613
+47716772-48485990
+(Liu et al. 2011)
+HSW-12-1 E1, E2, E3, E4 12 6,618, CT 2.32/1.93/2.17/ 4.64/4.07/3.76/ 0.07 33.5/3243/31.92/ Seed weight 23-2_6653096-7,
+366
+2.29
+4.71
+31.07
+980,959 (Li et al 2008)
+HSW-12-2 E6
+12 10,343, GT 1.56
+3.71
+0.12 32.28
+129
+HSW-12-3 E1, E2
+12 19,897, AG -1.92/-1.93 3.67/3.88
+0.10 32.66/31.39
+222
+HSW-12-4 E1, E2, E4 12 32,409, AC -1.94/-2.15/ 3.77/3.54/4.85 0.06 31.91/3268/34.9
+801
+-2.43
+HSW-12-5 E5
+12 33,768, A:T 1.31
+3.85
+0.20 33.03
+654
+HSW-13- E4
+13 10,148, CT 2.4
+3.64
+0.07 31.05
+1
+283
+HSW-13 E3
+13 29,533, AC 1.31
+3.64
+0.22 30.71
+Seed yield 28-11_29609521-32,
+-2
+558
+196,800 (Rossi et al 2013);
+Seed weight 40-1_29609521-32,
+196,800 (Rossi et al. 2013);
+Seed weight 49-13_29609521-31,
+661,129 (Teng et al 2009)
+HSW-13-3 E5
+13 37,094, GT 1.81
+3.59
+0.07 30.71
+Seed weight 45-6_32,196800-39,
+696
+208,429 (Yan et al. 2014)
+HSW-14- E3, E4
+14 981,334 AG -2/-1.81
+3.81/3.54
+0.07 34.09
+Seed weight 29-1_439027-971,
+1
+657 (Liu et al. 2011)
+HSW-16- E5
+16 20,127, AG -2.11
+4.34
+0.07 34.6
+Seed weight 30-6_16724085-27,
+1
+714
+167,274 (Kim et al. 2010)
+HSW-16- E3, E4, E5, E6 16 30,250, GT 1.94/1.66/1.6/ 4.96/3.84/4.18/ 0.10 3554/3539/34.04/
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 7 of 11
+Table 2 Single nucleotide polymorphisms (SNPS) associated with hundred seed weight of soybean and known QTL overlapped
+with peak SNP (Continued)
+Locus Environmente Chrb Position Alleles Allelic effect -Logio(P)
+MAF R2(96)
+Known QTLS
+name
+3
+524
+1.76
+4.68
+33.33
+HSW-17-1 E5
+17 1,004, AG 3
+3.57
+0.10 32.55
+Seed weight 3-1_961346-2,
+800
+201,427 (Mian et al. 1996)
+HSW-17-2 E3
+17 19,283, CT 1.66
+3.75
+0.10 36.28
+709
+HSW-17-3 E1
+17 29,346, A:G -2.15
+3.58
+0.06 31.8
+Seed weight 34-17_24110077-37,
+634
+831,244(Han et al. 2012)
+HSW-18- E5
+18 27,066, GT -2.11
+3.96
+0.07 36.03
+Seed weight per plant
+1
+313
+67_22375695-48.185,
+138 (Yao et al 2015)
+HSW-18- E3
+18 56,307, CG 1.65
+3.92
+0.12 35.43
+2
+027
+HSW-18-3 E3,E5
+18 56,316, GT -1.65
+4.18/3.97
+0.14 34.42/31.38
+047
+HSW-19- E1
+19 36,849, AC -2.27
+4.91
+0.07 36.31
+1
+383
+HSW-20-1 E1
+20 19,267, CT 2.24
+3.97
+0.07 31.57
+Seed yield 9-1_3903416-27,
+460
+664,504 (Yao et al. 2015)
+HSW-20-2 E3
+20 26,794, CT -1.38
+3.74
+0.31 31.37
+Seed yield 10-1_2716974-25,
+777
+498,552 (Yao et al. 2015)
+HSW-20-3 E3,E4
+20 35,358, A:G -1.11/- 1.07 3.57/3.67
+0.46 32.63/37.25
+Seed weight 36-5_34302228-46,
+859
+787,225(Han et al 2012)
+HSW-20-4 E3
+20 37,897, G:T -1.95
+3.57
+0.07 31.62
+358
+2E1: at Harbin in 2015, E2:at Harbin in 2016, E3: at Gongzhuling in 2015, E4: at Gongzhuling in 2016, E5: at Shenyang in 2015, E6 at Shenyang in 2016;
+b Chromosome
+Glyma.18G282100, 6 SNP; Glyma.05G196300, 8 SNP; beneficial alleles obtained by genome-wide association
+Glyma.05G196100, 8 SNP; Glyma.17G178300, 8 SNP; analysis as molecular markers for molecular assisted selec-
+Glyma. 18G282200, 8 SNP; Glyma.20G139600, 8 SNP; tion breeding. Soybean was difficult to adapt and fully ma-
+Glyma.13G182600, 12 SNP; Glyma.20G111100, 12 SNP) ture in the unadoptable environments because it has a
+were significantly associated with HSW in soybean significant photoperiod response [30]. In this study, a total
+(Fig. 4, Additional file 3). Among these 16 identified of 185 landraces or elite cultivars that were derived from
+genes, one gene (Glyma.03G192300) has been reported six maturity groups (maturity groups 000, 00, 0, I, II and
+to be associated with HSW in crops [31]. The other 15 III) [14] were used to evaluate phenotypic variation (Add-
+genes were found to be novel for controlling SW in soy- itional file 4). The samples from these six maturity groups
+bean. The two alleles of the peak SNP from each of the were selected since the accessions from different maturity
+16 genes were analyzed for allelic effects. The SW of groups have special adaptability to the three tested sites of
+soybean accessions with one allele was significantly dif- Northeast China (Harbin', 'Gongzhuling and 'Shenyang)
+ferent from the other for all the 16 SNP peaks (Fig. 4). with two degrees difference in latitude between each two
+These beneficial alleles from candidate genes would be sites, which could fully reflect the formation of HSW and
+helpful for MAS in soybean with high and stable HSW. accurately evaluate the effects of environment on HSW to
+effectively increase the accuracy of the phenotypic data
+Discussion
+and QTNS. A previous study showed that environmental
+As the important source for vegetable oil and plant pro- factors significantly affected the stability of HSW, espe-
+tein, soybean yield is lower in comparison with other cially in different maturity group conditions [9, 12, 13]. In
+major crops. MAS usefulness and effectiveness of a crop the preset study, the HSW of most tested samples behaved
+depends on two key factors: the accuracy of QTNS and stable among the three tested environments, which indi-
+the genetic variation in the selected association panel. The cated that the variation of HSW was relatively smaller in
+more diverse of the selected association panel in genotype the appropriate environment (Additional file 1). Zhang et
+and phenotype, the better universal of QTNS and al. (2015) proposed a new way to incorporate a superior
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 8 of 11
+Glyma.05G196200
+Glyma.12G083500
+Glyma.13G182400
+Glyma.17G178400
+26-
+25.0-
+25.0-
+24-
+T
+24-
+L T 22.5-
+I 22.5-
+4 E 22-
+T
+F
+20- L
+#
+20.0-
+20.0-
+20-
+18-
+6
+18-
+17.5-
+17.5- de
+16-
+8
+8
+15.0
+de
+15.0-
+14-
+16
+o
+m m 'm
+m
+E
+m
+m m D T
+Glyma.20G140200
+Glyma.20G140400
+Glyma.03G192300
+Glyma.05G005200
+25.0-
+25.0-
+24-
+25.0-
+06
+I 22.5-
+a 22.5-
+A 22-
+22.5-
+à
+20-
+6
+4
+A
+20.0-
+20.0-
+18-
+20.0-
+17.5-
+de
+17.5-
+e
+16-
+17.5- e 6
+a
+14-
+15.0-
+15.0- '
+15.0- 7
+I
+12.5
+d d
+a
+'m m d 'n
+m
+TT m 'm m m
+Glyma.18G282100
+Glyma.05G196300
+Glyma.05G196100
+Glyma.17G178300
+25.0-
+I
+n 25.0- *'
+22.5-
+22.5-
+22-
+22-
+o
+I
+0
+20-
+20-
+20.0-
+20.0-
+18-
+P
+18-
+17.5- @ #
+o 17.5- ?
+16-
+15.0- A
+15.0-
+o' o'
+o
+I
+m a
+4A 5
+U
+Glyma.18G282200
+Glyma.20G139600
+Glyma.13G182600
+Glyma.20G111100
+25.0-
+d 25.0-
+25.0-
+L
+22.5-
+T
+22.5-
+22-
+22.5-
+8
+20.0-
+20.0-
+20-
+20.0- -
+18-
+17.5- 8
+17.5- A A # #
+17.5- # A F
+16-
+15.0-
+15.0- o'
+15.0- .
+12.5
+)  
+I,
+m m m m m m
+U
+D a
+LE EE à
+TII
+'m n' m n m m mmm n m'm
+Fig. 4 Haplotypes analysis of genes with variations related to HSW. E1 and E2: Harbin in 2015 and 2016; E3 and E4: Gongzhuling in 2015 and
+2016; E5 and E6: Shenyang in 2015 and 2016. In each subgraph, the symbols 1 and : next to gene IDs represent the suggested significance of
+the t-test tatp <0.05 and p <0.01, respectively, wOw represents mild outliers, wym represents extreme outliers and error bars represent Std. Deviation
+allele of each QTN to improve the efficiency and accuracy HSW had been repeatedly verified by many previous link-
+of traditional HSW breeding, which was valuable for MAS age analysis studies [8, 27, 37, 38]. Similarly, twelve QTNS
+of HSW in Northeast China [36].
+(HSW-4-1 and HSW-4-2 of Chr.04, HSW-10-1 of Chr.10,
+To date, more than 200 HSW QTL have been identified HSW-13-3 of Chr.13, HSW-14-1 of Chr.14, HSW-16-1
+based on different mapping populations through bi-paren- of Chr.16, HSW-17-1 and HSW-17-3 of Chr.17, HSW-
+tal hybrid population, and most of these identified QTL 18-1 of Chr.18, HSW-20-1, HSW-20-2 and HSW-20-3 of
+were specific to the genetic background. Therefore, the Chr.20) have also been reported [4, 16, 20, 39-41]. Li et
+novel QTL/genes still need to be identified for HSW MAS. al. (2008) identified one major QTL (Seed weight 23-2 lo-
+In this study, 34 QTNS located on 15 chromosomes were cated in Chr.12) that affects HSW using a wild soybean-
+found that are associated with HSW in three environments derived mapping population, which has a similar genomic
+in 2015 and 2016. Among these 34 association signals, fif- region to HSW-12-1 in this study [42]. Another 18 QTL
+teen QTNS overlapped with or near the known HSW QTL that are novel for HSW were identified.
+(Table 2). Two QTNS (HSW-3-1 of Chr.03 and HSW-13- Presently, only a few genes that control HSW were iden-
+2 of Chr.13) were significantly associated with HSW, and tified. Lu et al. (2017) discovered that a phosphatase 2C-1
+the association between these two genomic regions and (PP2C-1) allele from wild soybean ZYD7 contributes to
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 9 of 11
+the increase in HSW [28]. GWAS could offer some valu- and 2016. For the tested environments, field trials were
+able clues to identify and validate the candidate genes of performed with a single row plot (3 m long and 0.65 m
+HSW, especially in the relatively smaller LD block (aver- between rows) based on randomized complete block de-
+age length 150-200 kbp) of soybean. Among these identi- sign and three replicates. After reaching full maturity of
+fied candidate genes, Glyma.03G192300 (located near all plant materials, a total of 10 randomly selected plants
+HSW-3-1 of Chr.3), Glyma.05G005400 (located near from each row in each plot were randomly picked and
+HSW5-1 of Chr.5), Glyma.08G317300 (located near weighed and the HSW was evaluated.
+HSW8-2 of Chr.5), Glyma.05G196400 (located near
+HSW5-2 of Chr.5), Glyma.06G201700 (located near DNA isolation and SNP genotyping data collection
+HSW6-1 of Chr.6), and Glyma.12G109500 (located near Genomic DNA of tested samples was isolated via the
+HSW-12-2 of Chr.12) have been reported to play key roles hexadecyl trimethyl ammonium bromide (CTAB)
+in regulating seed development and determining seed method and genotyped through a reduced-sequencing
+weight in crops, specific mechanisms of which still need method (the specific locus amplified fragment sequen-
+to be analysed.
+cing (SLAF-seq) methodology) [43]. Two restriction di-
+gestion enzymes, Msel (EC 3.1.21.4) and Haelll (EC:
+Conclusions
+3.1.21.4) (Thermo Fisher Scientific Inc., Waltham, MA,
+By performing a GWAS of soybean HSW in Northeast USA), were selected to produce more than 50,000 se-
+China based on 185 tested accessions and 24,180 SNPS, quencing tags (approximately 300bp to 500 bp in length)
+the results showed that 34 QTNS located on 15 chromo- in each tested sample. In each accession, the sequencing
+somes are associated with HSW in three environments for libraries were defined based on the obtained sequencing
+two years. Among these 34 association signals, fifteen tags, which spanned unique genomic regions in soybean.
+QTNS overlapped with or near the known HSW QTL. The barcode method and Illumina Genome Analyzer II
+Gene based association showed 106 SNPs from sixteen System (Illumina Inc., San Diego, CA, USA) were uti-
+candidate genes were significantly associated with HSW in lized to obtain the 45-bp sequence reads at both ends of
+soybean. Of them, Glyma.03G192300 was previously re- the sequencing tags from each accession library. The
+ported to be important in seed development and the other alignment between the obtained raw paired-end reads
+15 gene were novel genes for HSW in soybean. The and the reference genome was conducted with BWA
+present study provides an invaluable resource and new software (Version: 0.6.1-r104) [44]. The raw reads in the
+QTL/genes for further study on the HSW of soybean in same genomic position were used to define the SLAF
+the molecular network and molecular assistant selection. groups using more than 58,000 high-quality SLAF tags
+from each tested sample. The SNPs were defined based
+Methods
+on an MAF y 0.05. The genotype was regarded as het-
+Soybean germplasms and field trials
+erozygous when the depth of minor allele/the total depth
+One hundred and eighty-five samples were selected and of the sample X 1/3 (Additional file 5).
+collected from the Chinese National Soybean GeneBank For twenty lines with extreme phenotypic values of SW,
+to analyse the HSW variation and for subsequent re- a genome resequencing with 10-fold in depth was con-
+duced-sequencing. Among these accessions, there were ducted on an Illumina HiSeq 2500 sequencer. Paired-end
+97 elite varieties, 38 elite lines and 28 landraces from the resequencing reads were mapped to the reference genome
+soybean production areas between 36.23° N and 61.50° (Version: Glyma.Wm82.a2) with BWA (Version: 0.6.1-
+N of China belonged to six maturity groups (maturity r104) using the default parameters. SAMtools48 (Version:
+groups 000, 00, 0, I, II and III) [14], representing the 0.1.18) software was used to convert the mapping results
+geographical and ecological diversity of soybean in into the BAM format and to filter the unmapped and
+northern China (Additional file 4). The other 22 acces- non-unique reads. Duplicated reads were filtered with the
+sions were collected from non-Chinese regions. All plant Picard package (picard.sourceforgenes Version: 1.87).
+materials tested were planted at three locations includ- The BEDtools (Version: 2.17.0) coverage Bed program
+ing Harbin (45.80° N, 126.53° E, chernozem, active accu- was applied to compute the coverage of sequence align-
+mulated temperature 2700 C, frost-free period is 135 d, ments. A sequence was defined as absent when coverage
+annual precipitation is 500-600 mm), Gongzhuling was lower than 90% and present when coverage was
+(43.50° N, 124.82° E, chernozem, active accumulated higher than 90%. SNP detection was performed by the
+temperature is around 3010°C, frost-free period is 144 Genome Analysis Toolkit (GATK, version 2.4-7-
+d, annual average precipitation is 500-700 mm), and g5e89f01) and SAMtools. Only the SNPs detected by both
+Shenyang (41.80° N, 123.38° E, chernozem, active accu- methods could be analyzed further. SNPs with allele fre-
+mulated temperature is around 4010 "C, frost-free period quencies lower than 1% in the population were discarded
+is 155 d, annual precipitation is 500-800 mm) in 2015 (Additional file 6). SNP annotation was performed based
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 10 of 11
+on the reference genome (Version:Glyma. Wm82.a2) Additional file 6: SNP data of 20 soybean accessions generated from
+using the package ANNOVAR (Version: 2013-08-23).
+genome resequencing. (XLSX 299 kb)
+Population structure evaluation and linkage
+Abbreviations
+disequilibrium (LD) analysis
+CATK: The Genome Analysis Toolkit; CMLM: Compressed Mixed Linear Model;
+CTAB: Hexadecyl trimethyl Ammonium Bromide; GWAS: Genome-wide
+The principal component analysis (PCA) programs association studies; HSW: Hundred seed weight; LD: Linkage disequilibrium;
+were used to analyze the population structure of the LG: Linkage group; MAS: Molecular assistant selection; PCA: The principle
+association panel through GAPIT software [45]. The component analysis; QTL: Quantitative trait loci; QTN: Quantitative trait
+nucleotide; RIL: Recombinant inbred line; SLAF-seq: the specific locus
+squared allele frequency correlations (r?) in TASSEL amplified fragment sequencing; SW: Seed weight
+version 3.0 [46] were used to calculate the LD block
+across the soybean genome based on SNPS with Acknowledgments
+Not Applicable.
+MAF X 0.05 and missing data <10%. In contrast to the
+GWAS, missing SNP genotypes were not imputed Authors' contributions
+with the major allele before LD analysis. The parame- XZ and HRD conceived the study and contributed to population
+ters in the software programs were set with MAF (2 development HC and JYZ contributed to phenotypic evaluation. WLT and
+LJQ contributed to genotyping. YPH and WBL contributed to experimental
+0.05) and the integrity of each SNP (2 80%).
+design and writing paper. All authors contributed to and approved the final
+manuscript.
+Genome-wide association analysis
+Funding
+Association signals of HSW were identified based on This study was financially supported by National Key R & D Project
+24,180 SNPS from 185 tested samples with the com- (2017YFD0101302, 2017YFD0101306-05, 2016YFD0100304), the Chinese
+pressed mixed linear model (CMLM) with default pa- National Natural Science Foundation G1671717,31471517, the National
+Project (2014BAD22B01, 2016ZX08004001-007), the Youth Leading Talent
+rameters in GAPIT [45]. The P value was calculated Project of the Ministry of Science and Technology in China (2015RA228), The
+with the Bonferroni method with a < 0.05 (<2.70 x 10 National Ten-thousand Talents Program, Heilongjiang Provincial Project
+(GX17B002, JC2018007, C2018016, GJ2018G/0098), Postdoctoral Fund in Hei-
+4) and was used as the threshold to declare whether a longjiang Province (LBH-Z15017, LBH-Q17015), The national project (CARS-
+significant association signal existed [47].
+04-PS04), The Youth Innovation Talent' Project of the general undergraduate
+universities in Heilongjiang province (UNPYSCT-2016145), the 'Academic
+Backbone' Project of Northeast Agricultural University (17XG22). The funding
+Prediction of candidate genes controlling hundred seed
+bodies had no role in study design, data collection and analysis, decision to
+weight
+publish, or preparation of the manuscript.
+Candidate genes, located in the 200-kb flanking gen-
+Availability of data and materials
+omic region of each peak SNP, were classified and All supporting data can be found within the manuscript and its additional
+annotated underlying the reference genome. The vari- files.
+ation present in exonic regions, splicing sites, 5'UTRs
+and 3'UTRs, intronic regions, upstream and down- Ethics approval and consent to participate
+Not applicable.
+stream regions of candidate genes in ten higher HSW
+lines and ten lower HSW lines was identified from Consent for publication
+genome re-sequencing data. A gene-based association Not applicable.
+analysis was conducted using the General Linear Competing interests
+Model (GLM) method in TASSEL version 3.0 [46] to The authors declare that they have no competing interests.
+identify HSW-related SNPS or haplotypes. Significant Author details
+SNPs affecting the investigated traits were claimed 'Key Laboratory of Soybean Biology in Chinese Ministry of Education
+when the test statistics reached P<0.01.
+(Northeastern Key Laboratory of Soybean Biology and Genetics & Breeding in
+Chinese Ministry of Agriculture), Northeast Agricultural University, Harbin
+150030, China. 2Zhumadian Academy of Agricultural Sciences, Zhumadian
+Additional files
+463000, China. Pinstitute of Crop Science, National Key Facility for Crop Gene
+Resources and Genetic Improvement (NFCRI), Chinese Academy of
+Agricultural Sciences, Beijing, China.
+Additional file 1: Basic genetic parameter statistics for 100-seed weight
+in the tested soybean population (n = 185). (XLS 16 kb)
+Received: 6 April 2019 Accepted: 30 July 2019
+Additional file 2: Genes in 100 kbp flanking regions of peak SNP
+Published online: 14 August 2019
+associated with 100-seed weight of soybean. (XLS 51 kb)
+References
+Additional file 3: Gene-based association study on 100-seed weight of 1. Smith TJ, Camper HM. Effect of seed size on soybean performance. Agron J
+soybean with 281 candidate genes. (XLS 35 kb)
+1970,67(5).681-4.
+Additional file 4: The information of soybean association panel. (XLSX
+2. Burris JS, Edje OT, Wahab AH. Effects of seed size on seedling performance
+16 kb)
+in soybeans: IIL seedling growth and photosynthesis and field performance1.
+Additional file 5: SNP data of 185 soybean accessions for GWAS. (XLSX
+Crop Sci. 1973;13(02)207-10.
+1490 kb)
+3. Xin D, Qi Z, Jiang H, Hu Z, Zhu R, Hu J, Han H, Hu G, Liu C Chen Q QTL
+location and epistatic effect analysis of 100-seed weight using wild soybean
+
+
+
+Zhao et al. BMC Genomics (2019) 20:648
+Page 11 of 11
+(Glycine soja Sieb. & Zucc) chromosome segment substitution lines. PLOS
+28. Lu X, Xiong Q, Cheng T,LIQT, Liu XL, Bi YD, Li W, Zhang WK, Ma B, Lai YC.
+One. 2016113)e0149380
+A PP2C-1 allele underlying a quantitative trait locus enhances soybean 100-
+4. Yan W, Yingpeng H, Xue Z, Yongguang L, Weili T, Dongmei L, Yong Z,
+seed weight Mol Plant 2017;10(5)670-84.
+Wenbin L Mapping isoflavone QTL with main, epistatic and QTL x
+29. Yan L, Hofmann N, Li SX, Ferreira ME, Song BH, Jiang GL, Ren SX, Quigley C
+environment effects in recombinant inbred lines of soybean. PLOS One.
+Fickus E, Cregan P,et al Identification of QTL with large effect on seed
+2015;103)e0118447.
+weight in a selective population of soybean with genome-wide association
+5. Wilson D. Storage of orthodox seeds. In: Basra AS, editor. Seed quality: basic
+and fixation index analyses. BMC Genomics. 2017;18:529.
+mechanisms, agricultural implications. New York: Food Products Press; 1995. 30. Zhang J, Song Q, Cregan PB, Jiang GL Genome-wide association study,
+6. Hopper NW, Overholt JR, Martin JR Effect of cultivar, temperature and seed
+genomic prediction and marker-assisted selection for seed weight in
+size on the germination and emergence of soya beans (Glycine max (L)
+soybean ( Glycine max). Theor Appl Genet. 201612901117-30
+Merr). Ann Bot 1979:44(3)301-8.
+31. Sun Y, Jiao G, Liu Z, Zhang X, Li. J,Guo X, Du W, Du J,Francis F, Zhao Y.
+7. Hyten DL Seed quality QTL in a prominent soybean population. TAG Theor
+Generation of high-amylose rice through CRSPR/Cas9-mediated targeted
+Appl Genet 2004,109(3)552-61.
+mutagenesis of starch branching enzymes. Front Plant Sci. 2017;8(223):298.
+8. Kuroda Y, Kaga A Tomooka N, Yano H, Takada Y, Kato S, Vaughan D. QTL
+32. Zhu X Liang W, Cui X Chen M, Yin C Luo Z, Zhu J, Lucas WJ, Wang Z,
+affecting fitness of hybrids between wild and cultivated soybeans in
+Zhang D. Brassinosteroids promote development of rice pollen grains and
+experimental fields. Ecol Evol. 201337)2150-68
+seeds by triggering expression of carbon starved anther,a MYB domain
+9. Baker H. Seed weight in relation to environmental conditions in California.
+protein. Plant J. 2015,8214)570-81.
+Ecology. 197253997-1010
+33. Luo M, Dennis E, Berger F, Peacock W, Chaudhury A MINISEED3 (MINI3), a
+10. Leishman MRWI, Moles AT, Westoby M. The evolutionary ecology of seed
+WRKY family gene, and HAIKU2 (IKU2), a leucine-rich repeat (LRR) KINASE
+size. In: Fenner M, editor. Seeds: the ecology of regeneration in plant
+gene, are regulators of seed size in Arabidopsis. Proc Natl Acad Sci USA
+communities. 2nd ed. Wallingford: CAB International; 2000.
+2005102748:17531-6.
+11. Schimpf DJ. Seed weight of amaranthus retroflexus in relation to moisture 34. Masatake K Makoto H, Maki K Mikio N. The plastidic DEAD-box RNA
+and length of growing season. Ecology. 1977:58(2)450-3.
+helicase 22, HS3, is essential for plastid functions both in seed development
+12. Boulli A, Baaziz M, M'Hirit O. Polymorphism of natural populations of Pinus
+and in seedling growth. Plant Cell Physiol. 2013,5419:1431-40.
+halepensis mill. In Morocco as revealed by morphological characters.
+35. Bhatnagar N, Min MK Choi EH, Kim N, Moon SI, Yoonl,Kwon TJung KH, Kim BG
+Euphytica. 2001,1198)309-16.
+The protein phosphatase 2C clade a protein OsPP2C51 positively regulates seed
+13. Murray BR, Brown AHD, Grace JP. Geographic gradients in seed size among
+germination by directly inactivating OsbZIP10. PlantMol Biol 201793(4-5)1-13.
+and within perennial Australian Glycine species. Aust J Bot. 2003:51(1):47-56. 36. Zhang Y,He J, Wang Y, Xing G, Zhao J, LiY, Yang S, Palmer RG, Zhao T, Gai
+14. Hartwig EE. Varietal development. In: Caldwell BE, editor. Soybeans:
+J. Establishment ofa 100-seed weight quantitative trait locus-allele matrix
+improvement, production, and uses. Madison: American Society of
+of the germplasm population for optimal recombination design in soybean
+Agronomy; 1973.
+breeding programmes. JExp Bot 2015,66(20),6311.
+15. Hoeck J, Fehr W, Shoemaker R, Welke S, Johnson S, Cianzio S. Molecular
+37. Kim K Diers B, Hyten D, Rouf M, Shannon J, Nelson R. Identification of
+marker analysis of seed size in soybean. Crop Sci 2003:43:68-74.
+positive yield QTL alleles from exotic soybean germplasm in two backcross
+16. Mian M, Bailey M, Tamulonis J, Shipe E, Carter T, Parrott W, Ashley D,Hussey
+populations. Theor Appl Genet 2012,125(6:1353-69
+R, Boerma H. Molecular markers associated with seed weight in two
+38. Rossi M, Orf fJ, LiuL, Dong Z,Rajcan L Genetic basis of soybean adaptation to
+soybean populations Theor Appl Genet. 19969307):1011-6.
+north American VS. Asian mega-environments in two independent populations
+17. Maughan PJ, Maroof FMAS, Buss GR. Molecular-marker analysis of fseed-
+from Canadian X Chinese crosses. Theor Appl Genet 20131267:1809-23.
+weight: genomic locations, gene action, and evidence for orthologous
+39. Kim H, Kim Y, Kim S, Son B, Choi Y, Kang J, Park Y, Cho Y, Cho L. Analysis of
+evolution among three legume species. Theor Appl Genet 1996,93(4)574-9.
+quantitiative trait loci (QTLS) for seed size and fatty acid composition using
+18. Panthee DR, Pantalone VR, West DR, Saxton AM, Sams CE Quantitative trait
+recombinant inbred lines in soybean.. J Life Sci. 2010;20:1 1186-92.
+loci for seed protein and oil concentration, and seed size in soybean. Crop 40. Liu W, Kim MY, Van K Lee YH, Li H, Liu X Lee SH. QTL identification of
+Sci. 20054515)2015-22
+yield-related traits and their association with flowering and maturity in
+19. Han YP, Xie DW, Teng WL, Sun J, Li WB. QTL underlying developmental
+soybean. J Crop Sci Biotechnol. 2011;14(1),65-70.
+behaviour of 100-seed weight of soybean. Plant Breed. 2012;131(5)600-6. 41. Yao D,, Liu ZZ, Zhang J,, Liu SY, Qu J,. Guan SY, Pan LD, Wang D,. Liu
+20. Han Y,Li D, Zhu D, LiH, Xiuping LX, Teng W, Liw. QTL analysis of soybean
+JW, Wang PW: Analysis of quantitative trait loci for main plant traits in
+seed weight across multi-genetic backgrounds and environments. Theor
+soybean. Genet Mol Res 2015, 14(2):6101.
+Appl Genet 2012125(4,671-83.
+42. LiD, Pfeiffer T, Cornelius P. Soybean QTL for yield and yield components
+21. Hu Z, Zhang H, Kan G, Ma D, Dan Z. Determination of the genetic
+associated with alleles Crop Sci. 200848(2)571-81.
+architecture of seed size and shape viajlinkage and association analysis in 43. Sun X LiuD, Zhang XLiW,Liu H, Hong W, Jiang C Guan N, Ma C Zeng H, et
+soybean (Glycine max L Merr). Genetica. 201314104-6,247-54
+al. SLAF-seq: an efficient method doflarge-scale de novo SNP discovery and
+22. Kato S, Sayama T, Fuji K Yumoto S, Kono Y, Hwang TY, Kikuchi A, Takada Y,
+genotyping using high-throughput sequencing. PLOS One. 20138(3,e58700.
+Yu T, Shiraiwa TA major and stable QTL associated with seed weight in
+44. Zhou Z, Jiang Y,Wang Z, Gou Z, Lyu J,Li W, Yu Y,Shu L, Zhao Y,Ma Y, etal
+soybean across multiple environments and genetic backgrounds. Theor
+Resequencing 302 wild and cultivated accessions identifies genes related to
+Appl Genet 2014,1276:1365-74.
+domestication and limprovement in soybean. Nat Biotechnol 20153314)408-14.
+23. Wu D, Zhan Y, Sun Q, Xu L, Lian M, Zhao X, Han Y,Liw. Identification of
+45. Lipka AE, Tian F, Wang QS, Peiffer J,Li M, Bradbury PJ, Gore MA, Buckler ES,
+Zhang ZW. GAPIT: genome association and prediction integrated tool.
+quantitative trait loci underlying soybean (Glycine max [LJ Merr.) seed
+Bioinformatics. 201228(18)2397-9.
+weight including main, epistatic and QTL X environment effects in different 46. Bradbury P, Zhang Z, Kroon D, Casstevens T, Ramdoss Y, Buckler E. TASSEL:
+regions of FNortheast China. Plant Breed. 2018/4):194-202
+software for association mapping of complex traits in diverse samples.
+24. Yan L, Li YH, Yang CY, Ren SX, Chang RZ, Zhang MC, Qiu L. Identification
+Bioinformatics. 2007,23(19)2633-5.
+and validation of an over-dominant QTL controlling soybean seed weight 47. Holm SA simple sequentially rejective multiple test procedure. Scand IJ
+using populations derived from Glycine max x Glycine soja Plant Breed.
+Stat. 19796(2).65-70.
+2015,133(5).632-7.
+25. Fasoula VA, Harris DK, Boerma HR Validation and designation of
+quantitative trait loci for seed protein, seed oil, and seed weight from two Publisher's Note
+soybean populations. Crop Sci. 2004444)1218-25
+Springer Nature remains neutral with regard to jurisdictional claims in
+26. Hirata K, Masuda R, Tsubokura Y,YasuiT, Yamada T, Takahashi K Nagaya T,
+published maps and institutional affiliations.
+Sayama T, Ishimoto M, Hajika M.Identification of quantitative trait loci
+associated with boiled seed hardness in soybean. Breed Sci. 20146447362-70.
+27. Teng W, Han Y,Du Y, Sun D, Zhang Z, Qiu L, Sun G, Li W. QTL analyses of
+seed weight during the development of soybean (Glycine max L Merr.).
+Heredity 2009, 102(4):372.

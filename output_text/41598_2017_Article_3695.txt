@@ -1,0 +1,888 @@
+www.nature.com/scientificreports
+SCIENTIFIC
+REPORTS
+OPEN : Main and epistatic loci studies in
+soybean for Sclerotinia sclerotiorum
+resistance reveal multiple modes of
+Received: 9 January 2017
+resistance
+10
+in mult-environments
+Accepted: May 2017
+Published online: 15 June 2017
+Tara C. Moellers', Arti Singh', Jiaoping Zhang', Jae Brungardt', Mehdi Kabbage?, Daren S.
+Mueller',Craig R. Grau?, Ashish Ranjan?, Damon L. Smth,RV.Chowda-Reddy & Asheesh
+K. Singho1
+Genome-wide association (GWAS) and epistatic (GWES) studies along with expressionstudiesin
+soybean [Glycine max (L.) Merr.]were leveragedto dissectthe genetics ofSclerotinia stem rot(SSR)
+[caused by Sclerotinia sclerotiorum(Lib.) de Bary], a significantfungal disease causing yieldand quality
+losses.Alarge associationpanel of 466 diverse plant introduction accessions were phenotypedin
+multiple field and controlled environments to: (1) discover rsources ofresistance, (2) identify SNPS
+associated with resistance, and (3) determine putative candidate genesto elucidate the mode of
+resistance. We report 58 significant main effectloci and 24 significant epistaticinteractions associated
+with SSR resistance, with candidate genesinvolvedin a wide range of processes including cell wall
+structure, hormone signaling, and sugar allocation relatedto plantimmunity, revealing the complex
+nature ofSSR resistance. Putative candidate genes [for example, PHYTOALEXIN DEFFICIENT4(PAD4),
+ETHYLENE-INSENSITIVE 3-LIKE 1(EIL3), and ETHYLENE RESPONSE FACTOR 1 (ERF1)] clustered linto
+salicylic acid(SA),jasmonic acid (JA), and ethylene (ET) pathways suggestthe involvement ofa complex
+hormonalnetworktypially activated by both necrotrophic (ET/JA) and biotrophic(SA)pathogens
+supporting thats. sclerotiorum is ahemibiotrophicphicplantpathogen.
+Sclerotinia stem rot (SSR) [caused by Sclerotinia sclerotiorum (Lib.) de Bary] is a significant disease affecting
+soybean [Glycine max (L.) Merr.). In addition to soybean, Sclerotinia sclerotiorum is reportedto infect up to 408
+different species',2. The majority ofthese species are dicotyledons, although infection on monocotyledon species
+has been reported.S.sdemotiorum is predominately a necrotrophic fungus that spreads throughout the main stem
+causing bleaching and shredding goftissue and severe wilting'.SSR is particularly prevalent in cool(<25°C) moist
+environments. Since its first report in the United States in 1924, SSR has since spread across the soybean growing
+regions of Northern United States and Canada.In 2009, SSR was ranked the second most damaging soybean
+disease in the United States". After high temperatures and drought conditions in the Northern United States in
+2012, estimatedsoybean yield suppression by SSR has gradually increased from 99.1 million kg to 947.4 million
+kg in 2014 when it was ranked the fourth most damaging diseases. In addition to yield losses, SSR may impact
+seed quality through oil content and reduced germination
+Severity andincidence ofSSR is highly variable from year to year due to its sensitivity to weather conditions
+and the aggregated nature ofS. sclerotiorum in soybean fields, making it difficult to effectively use in-season con-
+trol measures such as fungicide applications". This makes the development of genetic controls desirable, and great
+efforts have been made to identify sources of resistance. Since sources of complete resistancehave not been iden-
+tified, sources with partial resistance are used for cultivar development in soybean breeding programs. Identified
+sources include advanced cultivars, such as NK S19-90, and plant introductions' 10,11.
+Bi- parentallinkage mapping has led to the discovery of many quantitative trait loci (QTL) for partial resist-
+ance. A total of103 QTL on 18 ofthe 20 soybean chromosomes have been recorded on SoyBase!2 with minimal
+'Department of Agronomy, lowa State University, Ames, lowa, 50011, United States of America. 2Department
+of Plant Pathology, University ofWisconsin-Madison, Madison, Wisconsin, 53706, United States of America.
+3Department of Plant Pathology, lowa State University, Ames, lowa, 50011, United States of America.
+Correspondence andrequestsformaterials should be addressedto A.K.S. (email: singhak@iastate.edu)
+SCIENTIFICREPORTSIZ 3554 100810108X459801/0859
+1
+
+
+
+www.nature.com/scientificreports)
+overlap between QTL reported by different studies. Therefore, they are difficult to utilize in marker assisted
+breeding.
+Genome-wide association (GWAS) approaches overcome the limitations associated with linkage mapping,
+such as limited allelic segregations between parents and llack ofrecombination due to population creation, while
+exploiting historical recombination through high-resolution mapping. GWAS is broadly utilized in soybean in
+order to dissect the genetic architecture of complex traits13-16. GWAS studies have been performed for several
+biotic stresses including S. sclerotiorum'-t9. However, these studies were donein contrlledenvironments which
+has been shown to result in poor or inconsistent correlations with field evaluations"1, 20,21. Therefore, there is a
+need for GWAS developed in field and greenhouse environments that complement each other by considering
+naturalhostresponses: and disease conditions. This will lenhance the understanding ofresistance mechanisms and
+advancebreeding efforts tobetter accommodate farmer needs.
+GWAS has been used to identify many genetic variants associated with diseases; however, these only explain a
+portion ofthe heritability of complex traits A recent study in soybean explored both the additive and epistatic
+effects associated with sudden death syndrome (SDS) resistance?3. This was done through both GWAS and
+genome-wide epistasis studies (GWES), and interactions identified were able to explain additional phenotypic
+variation. Although GWES has been usedin human disease research, it has not been widely usedin plants. Since
+previous studies focused on the additive effects that result from GWAS, information on epistatic interactions
+could lincrease the understanding behind the complex genetic architecture of quantitative traits, including the
+mode ofresistance, and better assist breeders in identifying favorable allelic combinations.
+The main objectives of this study were to discover new sources ofSSR resistance in soybean, identify markers
+associated with SSR resistance for both additive and epistatic effects, and determine putative candidate genes
+that control SSR resistance to elucidate the main mode of resistance. In order to achieve this, soybean acces-
+sions were evaluated for SSR resistance in various environments. Four hundred sixty-six accessions with available
+high-density SNP information were used Ito perform both GWAS and GWES. Disease severity (DS),lesionlength
+(LL), and wilt score (WS) were observed depending on the environment. Putative candidate genes underlying
+associated loci were used to understand the different mechanisms that underpin SSR resistance in soybean. For
+further validation, transcript levels ofseveral putative candidate genes were compared in resistant and suscep-
+tible breeding lines using RNAseq, and approximately half of the putative candidate genes were differentially
+expressed.
+Results and Discussion
+Phenotypic variation. Previous efforts to dissect the genetic architecture of SSR resistance in soybean
+included three GWAS17-19 These studies were done in controlled environments for phenotypic expression, but
+differed lin the genetic background (101-330 lines ranging from elite cultivars to landraces) and number of mark-
+ers (7,864-25,179) used. The present study is the firstto phenotype severalhundred soybean accessions' reactions
+toSSRinmultiple greenhouse and fieldexperiments. Experiments were analyzed separately to capture expression
+ofresistant loci in different environments and to develop a more comprehensive understanding ofthis complex
+trait.
+Under 2014 field conditions (14FLD), the maximum emergence rate was 88.9%, and SSR symptoms were
+not observed in 61 accessions of the association panel evaluated. Within these 61 accessions, plant emergence
+numbers varied from 1 to 24 plants (3.7-66.7% emergence). In subsequent experiments, SSR symptoms were
+observedin all accessions. Disease developed rapidly in young plants inoculated in 2014 greenhouse environ-
+ments (14GHSE) compared to older plants inoculated in 2015 greenhouse environments (15GHSE). In 2015
+field lenvironments (15FLD), methods used to maintain disease promoting conditonsindudedincresed canopy
+density andlengthened irrigation schedule to confer an elongated period of cool, damp conditions. Natural wet
+weather (Supplementary Fig. S1) favored development ofSSR, which increased the frequency ofhigher severity
+ratings (Supplementary Fig. S2). These methods included an increase in seeding rate and decreasing thelength
+alleysbetween plots to develop a denser canopy andinoculating plots in the evening in order to capture an elon-
+gated period of cool land damp conditions, aiding in the initial infection ofSSR in soybean.
+Spearman's rank correlation coefficients between accessions' disease responses varied between and among
+experiments (Supplementary Table S1).Plant DS was evaluated in all experiments at R5, beginning seed growth
+stage, in field environments, and at three and 14 days after inoculation (DAI) in greenhouse environments.
+Within an individual greenhouse experiment, correlation coefficients between traits varied from 0.46 to 0.90. In
+general, field experiments hadlow correlation coefficients when compared to greenhouse experiments, ranging
+from 0.12-0.17, except for 14GHSE-DAI14, which were below0.05.
+The low correlations observedin this study suggest that greenhouse experiments, although informative, do not
+necessarily (or always) correlate with field responses. This observation is supported lby previous reports1.,20.21,4-26
+Poor correlations to 14GHSE-DAI14 are most likely due to the early growth stage (V3, thirdtrifoliate), at which
+inoculation was performed. The rapid spread of disease in this experiment left the bulk of accessions severely
+wilted or dead by the time of rating. When plants were inoculated at the V5 growth stage (fifth trifoliate) in
+15GHSE, the DAI14 values were more informative with higher correlation coefficients between both years of
+field experiments. Therefore, when using greenhouse screenings, the growth stage at inoculation and response
+variables measured are vital. With a correlation coefficient of0.32 (Supplementary Table S1), 14FLD and 15FLD
+had the highest correlation coefficient between experiments.
+Several approaches were used to determine the most resistant accessions for application in genetic enhance-
+ment programs: (1) accessions performing equally or better than the resistant check cultivar 93M11 in all envi-
+ronments, (2) performance of the most resistant 10% in field environments, and (3) performance ofthe most
+resistant 10% in all environments for all traits. Eleven and 14 soybean accessions were identified from the first
+two methods, respectively, and PI567264A and PI507491 met the criteria for both (1) and (2) (Supplementary
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+2
+
+
+
+www.nature.com/scientificreports)
+0.5 -
+29
+0.4 7
+11
+9
+0.3
+8
+/
+0.2
+12
+0.1
+liiilii
+0.0
+80 E = 14 -
+A
+2
+5
+D
+-
+Figure 1. Contributions to the phenotypic variance ofidentified Sclerotinia stem rot loci via genome-wide
+association and epistatic analyses for each environment and trait. The number ofloci and/or pair ofloci used
+to estimate contributions are indicated above each bar. Blue bars represent contributions due tolociidentified
+using GWAS and orange bars represent tcontributions ofboth loci identified using GWASandloci interactions
+identified using GWES.
+Table S2). Accession PI567264A was the only genotype that met (3). For field resistance, PI227212 is a key acces-
+sion for field resistance as it ranked in the lowest 1% ofboth field trials.
+SNP genotyping and genome analysis. A total of35,683 SNPS distributed lover the entire genome were
+usedfor association mapping. SNP information was previously prepared using the Illumina Infinium SoySNP50K
+BeadChip?7 available through SoyBase!?. The genome-wide inter-marker distance was 26.6kb. Chromosome-wide
+densities varied from 39.2kb on Chromosome 1 (Gm01) to only 19.9kb on Gm13. SNPS were also unevenly dis-
+tributed within chromosomes. The number ofSNPs within the euchromatic region (80.2%) is much higher than
+that found in the heterochromatic region. Since only around 22% of genes are found in the heterochromatic
+region28, the percentage ofSNPs within this region is acceptable.
+The resolution of association mapping depends on the amount of recombination available, which is meas-
+uredby linkage disequilibrium (LD) decay rates29,30. LD decay rates were measured: separately for euchromatic
+andheterochromatic regions since about 93% of recombination occurs in euchromatic region in soybean, even
+though it only accounts for 43% ofthe genome28. When r2 reached 0.23, halfits maximum value, LD decay rate
+was estimated at 241kb and 5061 kb in euchromatic andheterochromatic regions, respectively. This LD decay rate
+in euchromatic regions was slightlyless than previous reports of around 1350kb using similar panels'3, 16. The aver-
+age inter-marker distance (26.6kb) ofthe SNPS was sufficient to capture the variation within the diverse soybean
+association panel used in this experiment.
+The PI accessions in the association panel had lalow heterozygosity rate of0.6% when 35,683 SNPS with minor
+allele frequency (MAF) 20.05 and missing rate <10% were used and reflects the inbreeding nature of soybean.
+These SNPS had an average nucleotide diversity (polymorphism information content, PIC) of0.30. This value is
+between previously reported nucleotide diversity of0.28 in elite cultivars31 and 10.35 in a broad panel of cultivated
+soybean.
+GWAS analyses. A total of 15, 10, 15, 11, 9, 19, 4, and 15 significant SNPs were associated with 14FLD,
+14GHSE-DAI03, 14GHSE-DAI14, 15GHSE-DAI03, 15GHSE-WS, 15GHSE-LL, 15GHSE-DAI14, and 15FLD,
+respectively. Manhattan plots and QQ plots are presented in Supplementary Figs S3-S6. Significant SNPS found
+within 50kb of each side ofthe strongest trait-associated ISNP (peak SNP) were clumped together to form a QTL
+ifcontained in an LD block with r 2>0.7 with respect to the peak SNP. The peak SNP was kept to represent the
+QTL. This condition left a total of7, 3, 12, 8, 7, 10, 4, and 19 significant loci associated with SSR resistance for
+14FLD, 14GHSE-DAI03, 14GHSE-DAI14, 15GHSE-DAI03, 15GHSE-WS, 15GHSE-LL, 15GHSE-DAI14, and
+15FLD, respectively (Supplementary Table S3). Dueto overlap between traits, 58 significant SNPS were associated
+with SSR resistance in all experiments. For individual traits, these loci explained 12-37% of the phenotypic vari-
+ation (Fig. 1). The strongest associated SNP, ss715607699 was reportedfor 15GHSE-LL (p-value == 1.69E-06) and
+15GHSE-WS (p-value = 8.73E-05). This locus is located within a previously reported QTL33
+Overlap between resistantloci were found in 15GHSE. Specifically, two loci were detected for multiple traits
+whereas both involved WS. Notably, there was no overlap in loci detected between field environments. The lack
+of overlapping SNPS have been previously reported and discussed'S. Since our study used the same genotype
+panel and markers for each experiment, the lack of overlapping SNPs was likely due to a QTL X environment
+interaction. The lack of correlation between environments can also arise from different underlying mechanisms
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+3
+
+
+
+www.nature.com/scientificreports)
+controlling resistance in different environments. This agrees with quantitatively inherited traits previously
+reported to display significant environmental interactions-36
+Comparisons for previously reported QTL were doneby projecting genetic map locations onto the Glyma.
+Wm. 82. a2 reference genome physical map' 12. The significant main effect loci from GWAS are presented in
+Supplementary Table S3. Significant SNPs for SSR resistance were identified on Gm04 and Gm12, where no
+SSR resistance loci have been reported. The genetic background used in previous studies could have inhibited
+the detection ofloci on these chromosomes in several ways: lack of segregation in bi-parental populations, low
+allele frequency in the panels chosen for GWAS, or marker density resulting in lack ofLD with the causal loci.
+This study used 466 diverse accessions to increase historic recombination and decrease LD, with over 35K mark-
+ers used to capture the genetic variation and increase the genetic resolution. Twenty-one of the 58 identified
+main effect loci co-localized with previously reported QTL for SSR resistance. Ofthese, three loci (ss715599948,
+ss715603406, andss715603408) located on Gm08 and Gm09 overlapped with multiple QTL previously reported
+for SSR resistance.
+Candidate genes were identified for future functional validation and application. These genes serve as a start-
+ing point to better understand the underlying mechanisms of SSR resistance in soybean, but should not be misi-
+dentified las causal genes until propervalidation. Genes annotated lin SoyBase!2 surrounding the peak SNP served
+as the source of potential candidate genes. A 50 kB region on either side ofthe peak SNPS were investigated unless
+the significant SNPS were involved in a linkage block (r> 0.7 in respect to peak SNP) that resulted lin a smaller
+region to investigate. A total of57 candidate genes were predicted for main effectloci (Supplementary Table S3).
+Each candidate gene was assigned a functional categorybased on its annotations. These functional categories give
+an idea of the different modes ofresistance in response to SSR infection. Approximately, one quarter of fthe genes
+were involvedin signaling, one quarter in defense, and less than 10% in broader categories such as DNA/RNA
+(processing, regulation, or organization), protein (synthesis, degradation, modification, or localization), cell wall
+(synthesis or degradation of cell wall structural proteins), and membrane (structure, transport, or vesicle medi-
+ated transport). Some ofthese functional categories were associated with all experiments, whereas others were
+limitedtoa certain experiment. For example, protein candidate genes were only associated with traits measured
+in 15GHSE, while membrane candidate genes were only specific to 14GHSE-DAI14.
+Signaling. Putative candidate genes with a signaling functional category included those involved with calcium
+signaling, G proteins, hormone, and inositol signaling pathway, and general kinases and phosphatases. Signaling
+genes such as these were differentially expressed between resistant and susceptible soybean genotypes infected
+with S.sclerotiorumin arecent expression analysis". The majority ofthe putative candidate genes identifiedin the
+present study were annotatedfor leucine-rich repeat receptor-like protein kinases (LRR-RLK), one ofthe major
+families ofplant transmembrane, receptor-like kinases that regulate a wide range ofprocesses, including defense
+responses".
+Putative candidate gene Glyma.06g314000, associated with 15GHSE-WS, is homologous to Arabidopsis
+ETHYLENE-INSENSITIVE 3-LIKE 1 (EILI). EILI is a transcription factor that has been shown to play a key
+role in the integration of jasmonic acid (JA) and ethylene (ET) signaling, as well as a role in necrotrophic patho-
+gen defense39. Glyma.19g248900, associated with 14FLD, is homologous to Arabidopsis ETHYLENE RESPONSE
+FACTOR1 (ERF1). ERF1 isatranscription factor found downstream OfEILI thatisi induced by ET and/orJA and
+has an important role in the regulation ofdefense response genes"0.41. These, along with other candidate genes,
+suggest the importance ofET and IJA signaling pathways in the defense against S. sclerotiorum.
+Defense. Putative candidate genes with a defense functional category were involved in programmed plant cell
+death (PCD), both apoptosis and autophagy, or encoded genes related to pathogenesis-related (PR) genes and
+their products. Many genes in this category could lalso be dual-classified under signaling. Putative candidate gene
+Glyma.12g169300, associated with 14FLD, and Glyma.12g171300, associated with 15GHSE-DAI03, are homolo-
+gous to barley (Hordeum vulgare) MILDEW RESISTNACE LOCUSO (MLO). A loss-of-function mutation in mlo
+genes confer resistance to powdery mildew fungus (Erysiphe graminis) in barley in a non-race-specific manner
+through the prevention offungus penetration*. Additional mutations to the barley MLOlocus show function in
+PCD and pathogen defense43.
+Glyma.13g328100, associated with 15FLD, encodes a plant, small ubiquitin-like modifier (SUMO) E3 ligase
+homologous to Arabidopsis SIZ1, which has been shown to regulate innate immunity*. Mutant plants demon-
+strated elevated salicylic acid(SA) accumulation, expression ofPR-genes, and increased resistance to P.syringae.
+Double mutants with genes such as pad4 suggest the control of SIZI on SA signaling. Mutations in Arabidopsis
+pad4 gene reduce the expression of PR-1 and levels of SA when infected with P. syringae45. Together, PAD4
+and SIZI work epistatically to regulate PR expression*. Finally, Glyma.14g042400, also associate with 15FLD,
+encodes a putative LRR-RLK transmembrane receptor inducedby chitin oligomers homologous to Arabidopsis
+RECETPOR LIKE PROTEIN 52 (RLP52). Chitin is a major component offungal cell walls, and chitin oligomers
+are known to induce plant defense cascades.
+Transcript level of putative candidate genes. An RNAseq dataset was mined for all available puta-
+tive candidate genes detected through GWAS. This was done successfully for 38 putative candidate genes. Of
+these, 50% were differentially expressed between susceptible and resistant soybean lines. Out ofthe eight genes
+associated with DAI03, five were differentially regulated. Glyma.04g209700, a putative candidate gene (PAD4)
+associated with 14GHSE-DAI03, was consistently expressed lat higher levels in the resistant line compared to the
+susceptible line throughout the time course of fthe experiment, and at significant levels at 24, 48, and 96hours
+post-inoculation (Fig. 2). Glyma.04g209700 encodes a lipase (class 3) protein and lis homologous to Arabidopsis
+PAD4. PAD4 is thought to be involved in the regulation of SA and has been shown to affect the activation of
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+4
+
+
+
+www.nature.com/scientificreports)
+a
+5-
+2
+4 00 0.4 0:8
+a 3-
+o
+bo 0
+8 2
+o o 00
+1 -
+o
+o
+o
+o
+o &
+o 39 
+0
+o
+0T po
+a
+OT
+47.7
+47.9
+48.1
+48.3
+48.5
+48.7
+I
+Chromosome 4 (Mb)
+48159k 48179k 48199k 48219k 48239k 48259k
+Glyma.04g209700
+b
+Glyma.04g209700
+a 120
+of
+L Resistance L. Susceptible
+100
+80
+I
+&
+60
+40
+-
+- -
+I
+20
+I
+- 
+a
+0
+I
+0
+24
+48
+96
+Time (hours)
+Figure 2. Regional association plot ofss715588567 associated with 14GHSE-DAI03 and expression ofthe
+putative candidate gene Glyma.04g209700. (a) The top panel shows the negativel log10-transformedP* values
+from a genome-wide scan by using amixed linear model (MLM) for plant severity taken 3 DAI within the
+adjacent region ofpeak SNP ss715588567 plotted against base pair positions (Mb) on soybean chromosome 4.
+The significance threshold line is distinguished (gray dottedline), and each SNP depicts the extent oflinkage
+disequilibrium in the region based on pairwise values with respect to the peak SNP. The values are indicated
+using the color intensity index shown. The bottom panel shows all putative genes in the region. The putative
+candidate gene indicatedin green. (b) The expression of Glyma.04g209700, the putative candidate gene for
+$s715588567, in a modern resistant (blue) and susceptible (orange) cultivar. Error bars shown to indicate
+significance (p <0.05).
+subsequent defense responses such as camalexin synthesis and PR-1 gene expression*5, 46. Glyma.18g039900 was
+the putative candidate gene associated with 15GHSE-DAI03. Although the function ofthis gene is currently
+unknown, it was highly expressedin the susceptibleline, and transcriptlevels were significantly higher compared
+to the resistant line (Fig. 3). Its association with SSR resistance in soybean makes this a gene ofinterest, andfur-
+ther studies addressing on its function are needed.
+GWES interaction analyses. Genome-wide epistatic interaction analysis had not yet been used in dis-
+secting the genetic architecture ofSSR resistance. Two lociSNP-SNP interactions were evaluated using a linear
+regression executed with PLINK47, 48. The number of significant interactions in field environments were much
+greater than those found significant in the greenhouse. This couldbe due to the additional environmental linterac-
+tions present within these trials that are otherwise controlledby design within greenhousetrials. After clustering
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+5
+
+
+
+www.nature.com/scientificreports)
+a
+67
+2
+5- 00 0.4 0.8
+e 4 
+3-
+8
+o
+o
+- 2- 800
+o
+14
+&o 8 o
+o
+I o 00 %o
+o of
+8 8 e o
+0
+-
+2.8 2.9 3.0 3.1 3.2 : 3.3 3,4 3.5 3.6 3.7 3.8
+Chromosome 18 (Mb)
+TTT
+3204k 3224k 3244k 3264k 3284k 3304k
+Glyma.189039900
+b
+Glyma.18g039900
+a 20
+L. Resistance Susceptible
+of
+- 15
+& 10
+T
+I 5
+T
+T
+-
+a 0
+0
+24
+48
+96
+I
+Time (hours)
+Figure 3. Regional association plot ofss715630264 associated with 15GHSE-DAI03 and expression ofthe
+candidate gene Glyma.18g039900. (a) The top panel shows the negative log10-transformed Pvalues from a
+genome-wide scan by using a mixed! linear model (MLM) for plant severity taken 31 DAI within the adjacent
+region ofpeak SNP ss715630264 plotted against base pair positions (Mb) on soybean chromosome 18. The
+significance thresholdline is distinguished (gray dottedline), and leach SNP depicts the extent oflinkage
+disequilibrium in the region based on pairwise values with respect to the peak SNP. The values are indicated
+using the color intensity index shown. The bottom panel shows all putative genes in the region. The putative
+candidate gene indicated lin green. (b) The expression of Glyma.18g039900, the putative candidate gene for
+ss715630264, in a modern resistant (blue) and susceptible (orange) cultivar. Error bars shown to indicate
+significance (p <0.05).
+significant SNPS, a total of 22 and two significant SNP-SNP interactions were identified to be associated with
+14FLD and 15FLD,respectively (Supplementary Table S4).The 37 unique lociinvolved within these interactions
+were reported on 13 different soybean chromosomes. Nine individualloci were involved in multiple interactions.
+No main effect SNPS had an additional significant epistatic interaction. Six ofthe 37 loci involved in signifi-
+cant SNP-SNP interactions co-localized with previously reported QTL for SSR resistance. When including all
+SNP-SNP interactions and additive effect SNPS, the explained phenotypic variation increased from 30-37% to
+33-42% in field environments (Fig. 1).
+Putative candidate genes were predicted for loci involved in SNP-SNP interactions. Genes annotated in
+SoyBase!2 surrounding the peak SNP served as the source of potential candidate genes. A total of 26 candidate
+genes were predictedforloci involved in highly significant SNP-SNP interactions (Supplementary Table S4). One
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+6
+
+
+
+www.nature.com/scientificreports)
+fifth ofcandidate genes were assigned to a membhanereatedfuncional category, followed by signaling and cell
+wall functions. One category present that was not found among main effectloci was senescence.
+Membrane. Genes involvedin transport or gene products that are integral to the membrane were categorizedas
+membrane-related. Candidate genes reported for highly significant epistatic loci contained transporters for both
+proteins and sugars. Sugars, including sucrose and its products, serve as important signaling molecules for mul-
+tiple processes in a plant, including responses to biotic stresses19.50. Pathogens may exploit plant sugar supplies
+which may subsequently trigger plant defense responses". The expression of genes that may modify or reallocate
+sugar supply have been shown to be altered during these interactions"1.52 Glyma. 16g138800 encodes a vacuolar
+glucose exporter homologous to Arabidopsis EARLY RESPONSIVE TODEHDRATION-LIKE6(AERDL6. This
+exporter responds to different stimuli; itis activated during darkness, heat, and wounding and repressed during
+cold stress53, Since vacuoles are the major site for sugar storage, the activities ofits sugar transporters can deter-
+mine plant stress tolerancess. Interestingly, Glyma.16g138800 is in an epistatic interaction with Glyma.06g166800,
+which encodes a sucrose efflux transporter homologous to Arabidopsis SWEET12 (AISWEET12) and Medicago
+truncatula MTN3. Glyma.06g166800 is involved in several epistatic interactions with multiple other genes on
+Gm16 whose functions include sugar transporters, protein transporters, secondary metabolites, and transcrip-
+tion factors. SWEET12is localizedin the plasma membrane of the phloem and mutants are hypothesizedto limit
+sucrose availability in the apoplasm in order to prevent pathogen infections6.
+Cell wall. Putative candidate genes with a cell wall functional category were involvedin the synthesis or degra-
+dation ofstructural components such as cellulose and pectin. During infection, S. sclerotiorum facilitates
+tration and degrades cell wall components by secreting a range of cell wall degrading enzymes eclibespene
+Therefore, cell wall composition is an important line of defense in host plants andhas been shown to be differ-
+entially expressed between susceptible and resistant soybean genotypes infected with S. sclerotiorum". Putative
+candidate gene Glyma.14g026200 encodes an acyl-esterase found in powdery mildew resistant 5 (pmr5) andis
+homologousto/Anabidopsis TRICHOME BIREFRINGENCE-LIKE 27 (TBL27)5. 60. Arabidopsis plants containing
+a mutant pmr5 gene were resistant to powdery mildew and contained cell walls that were pectin enriched with
+additional pectin modifications".
+Senescence. Two candidate genes specifically related to senescence were identified. These candidate genes had
+epistatic interactions with loci associated with signaling candidate genes that also play a role in flowering and
+senescence. Although senescence itself plays a minor role next to S. sclerotiorum oxalic acid-induced PCD61,
+these senescence genes may also function in the regulation ofhost PCD, thus directly affecting the establishment
+of S. sclerotiorum and disease outcome62. Glyma.12g059200 encodes an alcohol dehydrogenase homologous to
+Arabidopsis SENESCENCE-ASSOCIATED GENE 13 (SAG13). SAG13 is an established marker gene for senes-
+cence. It lacks basal mRNA expression in young leaves and is detected in high amounts prior to the onset of
+senescemer.Gym.l9sso encodes a glycerophosphoryl diester phosphodiesterase (GDPD)homologous to
+Arabidopsis SENESCENCERELATEDGENE 3 (SRG3) and Arabidopsis GDPD164
+Using a high mapping resolution, 58 main effect and 24 epistatic interactions were associated with SSR resist-
+ance in soybean when tested for various traits in multiple environments. Putative candidate genes identified
+multiple modes of resistance, including signaling pathways, defense-related, and cell wall functions establishing
+the complexity ofresistance mechanisms. The lack of foverlap in experiments is driven by differing mechanisms
+andloci, and point that plants have alternate systems to cope with SSR infection depending on the environmental
+conditions. Since S. sclerotiorum infects multiple different species, the results and discussion presented in this
+paper may be applicable to its many other hosts.
+Gene Networks. GWASand GWES results were combinedto propose a putative disease resistance model
+based on the S. sclerotiorum - soybean interaction, and the newly presumed hemibiotrophic nature ofthe fun-
+gus6s. The putative candidate genes clustered into SA,JA, and ET pathways, indicating the possible involvement
+ofa complex hormonalnetwork typically activatedby both necrotrophic (ET/JA) andbiotrophic (SA) pathogens.
+This approach allowed the annotation of candidate genes with particular interest (PAD4, EIL1, and ERF1) identi-
+fied in this study to the proposed model, giving support to the pathways of defense against biotrophs and necro-
+trophs for S. sclerotiorum (Fig. 4). The putative candidate genes, PAD4, EIL1, and ERF1, formed la gene network
+andincluded severalother candidate genes identified in this study (Supplementary Fig. S7). Twenty-one putative
+candidate genes interacted at first level when PAD4, ERF1, and LEILI were considered (8 in SA, 9in JA, and 5in
+ET). The PAD4 gene, as previously indicated, was significantly upregulatedat 24, 48, and96hours in the RNAseq
+experiment, and seems to be crucial for the S. sclerotiorum - soybean disease interaction.
+Conclusions
+Multiple resistant accessions identified in this study will be useful sources for the development of soybean culti-
+vars with improved SSR resistance. Although greenhouse environments provide a less labor-intensive option for
+resistance screening, low correlations establish the importance ofutilizing specialized SSR nurseries represent-
+ative of field production systems. The complex genetic control of fSSR resistance in soybean is evident with the
+identification of 58 main effectloci and 24 epistatic interactions. The reportedcandidate genes are involvedin cell
+wall structure, hormone signaling and sugar allocation related to plant immunity, further revealing the complex
+nature ofSSR resistance mechanisms. The results presented indicate that SA, JA, and ET pathways are impor-
+tant for resistance to SSR in soybean, and suggests that this pathogen-host response includes defenses against
+biotrophs and necrotrophs indicating a hemibiotrophic nature but requires functional validation to develop a
+more comprehensive model for S. sclerotiorum-soybean disease recognition andresponse pathway.
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+7
+
+
+
+www.nature.com/scientificreports)
+Pathogen
+CYTOSOL
+NX LRR-RLKS
+Glyma.01g028000
+Glyma.07g135400
+Glyma.14g042400 JA
+Glyma.16g/88700
+PAD4
+:
+(Glyma.04g209700)
+EIL1
+(Glyma.069314000)
+SA
++ /
+ERF1
+V
+(Glyma 199248900)
+PRs
+(Glyma. 149188400)
+JA-responsive genes
+ET-responsive genes
+Defense
+Defense
+against
+against
+biotrophs
+necrotrophs
+Figure 4. Proposed phytohormons-dependemt disease defense model against Sclerotinia sclerotiorum in
+soybean. SA, salicylic acid; JA, jasmonic acid; ET, ethylene; LRR-RLKS, Leucine-rich repeat receptor-like protein
+kinases; PAD4, Phytoalesin-dependents SIZ1, small ubiquitin-related modifier E3 ligase; PRs, Pathogenesis-
+related proteins; EIL1, Ethylene-insensitive 3-like 1; ERF1, Ethylene response factor 1.
+Methods and Materials
+Plant material. Phenotypic evaluation consisted of 474 diverse soybean accessions from groups I,II, and
+III maturity as described by Hill et al.66. For genome-wide studies, genotypic information was available for 466
+accessions. Accessions were obtained from the United States Department of Agriculture (USDA) Soybean Core
+Germplasm Collection curatedby Dr. Randy Nelsonin Urbana, IL67. DuPont Pioneer cultivars 92Y83 and 193M11
+were grown as susceptible and resistant SSR performance checks, respectively. In 2015 field (15FLD)experiments,
+AxN-1-55 and PI567157A were grown as additional ISSR resistant checks68.
+Phenotypic evaluation. Fieldenvironments. Soybean accessions were planted on May 23, 2014 and June
+01, 2015in a disease nursery fieldlocated at the Horticultural Research Station near Ames, IA with two replica-
+tions in a randomized complete block (RCB) design. In both years, entries were planted lin one-row, 1.5 m long
+plots, spaced 175cm between adjacent plots. In 2014, plots were spaced with 1.5m alleys and the seeding rate was
+five to six seeds per 30cm. In 2015, alleys werereducedto 90 cm and the seeding rate was eight seeds per 30cm to
+create a denser canopy and promote disease development and spread.
+Sclerotinia sclerotiorum culture used in 14FLD was started from surface-disinfested sclerotia collectedin 2013
+from a field in Northeast Iowa. After the 2014 growing season, sclerotia were collected from the SSR disease
+nursery field located near Ames, IA for use in the subsequent year. Cultures were maintained on potato dextrose
+agar (PDA) at room temperature. Soybean accessions were inoculated using the cotton pad method described by
+Bastien et al.69. The first set ofinoculum was grown when maturity group I plots reached V5 growth stage70 on
+June 27,2014 and July 08, 2015.
+Inoculations took place at 7 am starting on July 03, 2014 and at 5 pm starting on July 15, 2015. Inoculations
+times were planned to avoid the hottest parts of the day to facilitate pathogen survival and infection. Plots that
+had reached crop growth stage R170 (50% flowering) were inoculated by placing an infested cotton ball on the
+lowest flowering node on the main stem. Each plant in a plot was inoculated. There was a total of five inoculation
+days, spread six to seven days apart to ensure that each row was inoculated at the R1 growth stage. Fields were
+irrigated using overhead sprinklers until rating was completedto create an epiphytotic disease nursery.
+Ratings were completed on Aug 26, 2014 and Sept 09, 2015 when plants reached the growth stage R5, about
+30 days after inoculation (DAI). SSR disease ratings (per plant) were taken according to the system developed
+by Grau et al.10. The DS scale was based on a 0-3 scale: 0= no symptoms, 1= lateral branches showing lesions,
+2= lesions on main stem, and 13 = lesions on main stem resulting poor pod-fill or plant death.
+Greenhouse environments. In 14GHSE, soybean accessions were evaluated using a RCB design with two replica-
+tions. Entries were pre-germinated for 4-7 days at room temperature, and one healthy seedling was transplanted
+into a Ray Leach cone-tainer (Stuewe and Sons, Inc.) on Dec 15, 2014. Cones were placed on a rack with blank
+rows spaced between plantedrows. Accessions were placed lin a greenhouse set at 20-25°C2 71 Natural light was
+usedin combination with high pressure sodium lights to provide a 16-hour photoperiod.
+Soybean accessions were inoculated when the third trifoliate was fully expanded, approximately four weeks
+after transplanting. The inoculation procedure was adapted from Guo et al.72 and herein referred to as the
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+8
+
+
+
+www.nature.com/scientificreports)
+cut-petiole method. Sclerotinia sclerotiorum cultures were started from surface-disinfested sclerotia collectedin
+2014 from SSR field lexperimentlocated near Ames, IA.
+After inoculation, plants were placed inside a moisture chamber for a 48-hour incubation period. The cham-
+ber was constructed using PVC pipe and clear plastic. An Idylis Evaporative Humidifier was run at full capacity
+inside the moisture chamber to increase relative humidity during incubation. After the incubation period, the
+moisture chamber was removed land previous conditions were resumed.
+In 15GHSE, phenotypic data was collected from a randomized layout with a single replication. Three seeds
+were directly planted into 8oz. styrofoam cups for each soybean accession on Mar 31, 2015. At VC (unifoliate
+growth stage), cups werethinned down to two plants. Cups were spread out on April 23 andfertilizedon April 29
+with 200ppm of Peters@ Excel(15-5-15) to facilitate plant growth. Accessions were inoculated when the fifth tri-
+foliate was fully expanded (Vs).approximately six weeks after planting. Conditions and linoculation procedure
+were as described previously, cutting the third youngest fully expandedtrifoliate.
+Plants with SSR were rated for DS in both years. Disease severity was based on the scale previously described
+and taken on two separate dates: three and 14 DAI designated as DAI03 and DAI14, respectively. In 15GHSE
+experiments, WS and LL were measured. Wilt score was recorded as the number ofdays after inoculation that
+wilting or plant death was first observed. Scores were taken every other day from three to nine DAI, with a final
+rating at 14 DAI. Plants that did not observe wilting by the final rating were given a fixed score of 20 to represent
+resistance. Lesion length was recordedin mm as the length ofvisible lesion or discoloring on the main stem at
+seven DAI This includedlesions above and below the infection court.
+Statistical analysis of phenotypic data. All experiments and years were analyzed separately. When an
+experiment was replicated and the disease response was ordinal, an ordinallogistic regression with proportional
+odds assumption was used to obtain BLUPS for each accession (14FLD, 14GHSE-DAI03, 14GHSE-DAI14, and
+15FLD). A mixed model approach was chosen to accommodate the unbalanced sample size among cultivars due
+to emergence rates. The analysis was performed using the clmmfunction (part tofthe ordinal package") executed
+intheRstatisialanalyis software version 3.2.174. The model for both field experiments (14FLD and 15FLD) was
+Ymim 2 Multinomial(1, Tijkim)
+logit(Tijkim) =1 0, + R; + Ak + RAjK + Di + Sm + DSim
+where 0, is the intercept for the ith response category (i=0, 1, 2), R is the effect ofthe jth replication, Ak is the
+effect ofthe kth accession, RAK is replication X accession interaction, D,is the effect ofthe Ith inoculation date, Sm
+is the effect ofthe mth range, and DSm is inoculation date X range interaction. The term Ykim represents a vector
+of Fratings and Tikim is the probability that willbe rated at or below the ith response category. Replication
+was assumed to be a fixed effect, and all terms were assumed to be random effects.
+model for
+tatveter
+Similarly, the
+14GHSE-DAI03 and 14GHSE-DAl14was
+Yx 2 Multinomial(1, Tijk)
+logit(Tijk) = 0, + R; + Ax.
+Duetolack ofreplication in 15GHSE experiments, phenotypic data for each accession consisted ofthe average
+response ofthe two plants.
+Genotyping and quality control. The SNP data was prepared by Song et tal.27 using the Illumina Infinium
+SoySNP50K BeadChip. For the soybean accessions involved lin this study, data was downloaded from SoyBase'2.
+Genotype data was accessible for 466 accessions and these accessions comprised the association mapping panel.
+Of the 42,180 SNPS availablefrom these accessions, 284 SNPS that were presented in unanchored sequence scaf
+folds were excluded from further analyses. The dataset had la missing rate of0.5%. Individual markers with miss-
+ing rate larger than 10% were omitted landthe remaining missing data were imputed using BEAGLE version 3.3.1
+with default parameter settings75,76. SNPS with a minor allele frequency (MAF) < 5% after imputation were also
+omitted for further analyses. A total 35,683 SNPS were used for GWAS and GWES.
+Glyma.Wm.82.a2 reference genome was usedto obtain chromosome physical lengths (bp) through SoyBase12
+which were used to calculate genome-wide inter-marker distance and chromosome-wide densities. Pairwise LD
+between markers was measured lusing the squared correlation coefficient (r) between alleles using the Rpackage
+synbreed". Due to the variability ofrecombination between euchromatic and heterochromatic regions, r2 was
+calculated separately for these two regions. SoyBase!2 was used to outline the boundaries ofthe euchromatin and
+heterochromatin regions. The average LD decay presented used only the r for SNPS with pairwise distance less
+than 10Mb in either region of each chromosome by R script implementing the equation described in a previous
+study 78. The LD decay rate ofthe population used was measured as the chromosomal distance where the average
+rdroppedtol half fofits maximum value79.
+Nucleotide diversity was measuredby polymorphism information content (PIC). The equation used was
+PIC, == 1  (MAF? + (1 - MAF)) - 2*MAF,*(1 - MAF),
+where MAF,is the minor allele frequencyofthe ith SNP80 The average PIC was calculated at 100kb intervals.
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+9
+
+
+
+www.nature.com/scientificreports)
+Genome-wide association (GWAS) and epistatic (GWES) analyses. Phenotypic data of each rat-
+ing for individual accessions were used to fit the one-way ANOVA model for naive test (without correction for
+familial relatedness or population structure) implementedin R74 and three types of models, general linear model
+(GLM), mixed linear model (MLM), and compressed MLM (CMLM), implemented in the GAPIT software for
+marker-trait association analysess1,82 The threshold for significant associations was determined by the empirical
+significance levelofP<0.001. This was evaluated by performing 1,000 permutations ofthe GWAS as previously
+described16. Ina genotypic file wherea row representedan individual accession and la column represented la single
+SNP, rows were randomly shuffled without changing the row names. This was repeated for each iteration. The
+threshold was set as the lowest Pvalue ofthe SNP-trait association that did not meet the empirical lsignificance
+level.
+Genome-wide epistatic interactions test were carriedoutin PLINK47, 48. The equation implemented was
+y = bo + bA + b,B + bzAB + e,
+where bo is the overall mean, bi is the additive effects of marker A, ba is the additive effects ofmarker B, ba is the
+interaction effect between markers A and B, and leis the random error following N(O, 02). Due to the high num-
+ber ofsignificant interaction, a more stringent Bonferroni threshold(a=1 X 10 10) was used to eliminate small
+effect interactions that would give a minimal impact on trait expression and genetic cemhancementaplicationsifor
+field resistance to SSR.
+The proportion of phenotypic variance (R?) explained by significant peak main effectSNPs or the significant
+peak main effect SNPS plus significant epistatic effectSNP-SNP interactions were calculated for each trait usinga
+fixed linear regression model.
+Prediction of candidate genes. Genes annotated in Glymal.1, Glmyl.0, and NCBI RefSeq gene models
+available through SoyBase aligning to the Glyma.Wm.82.a2 reference genome!? were used as the source of can-
+didate genes. A 50kB region on either side of peak SNPS were investigated unless significant SNPS were involved
+in alinkage block with r> 0.7 in respect to the peak SNP. At this point, the more stringent method was used,
+resulting in a smaller region to investigate. The peak SNP is defined as the SNP with the lowest Pvalue. The pre-
+diction ofcandidate genes resulted from the following priorities: (i) genes ofknown function in soybean related
+to disease resistance, (ii) genes offunction-known orthologs in Arabidopsis related to disease resistance, and (ii)
+genes pinpointedby the peak SNPS. Functional categories were assignedto each putative candidate gene using
+the criteria outlinedby Calla etal.37 based on information given by annotations available in SoyBase' 12 and ITAIR83.
+Next generation RNA sequencing. Two isogenic breeding lines of soybean (Glycine max); suscepti-
+ble (91-44) and partially resistant (91-145) were used for the experiment. Four week old soybean plants were
+infected with S. sclerotiorum by petiole inoculation method" and stem tissue was collected at 0(control), 24, 48,
+and 96hours post inoculation. The experimental design consisted ofthree biological replicates for each of fthe
+treatments. Total RNA was extractedfrom the plant tissues (stem segment) following the standard Trizol protocol
+(Invitrogen Corp., Carlsbad, CA, USA), further cleaned lup using RNeasy plant mini kit protocol (RNeasy Plant
+Mini Kit, Qiagen, cat. no. 74904, Hilden, Germany). RNA from each sample was randomly fragmented, and
+individually indexedlibraries were prepared using the TruSeq RNA Sample Preparation v2 kit according to the
+manufacturer's instructions (Illumina, San Diego CA, USA). After additional processing, cDNA was sequenced
+using Illumina HiSeq2000 (Illumina, San Diego CA, USA). Low-quality bases (Q < 20) were trimmed out from
+both the 5' and 3' ends ofthe reads. The quality of feach library was controlled with FastQC. Resulting reads were
+aligned to the reference soybean genome Wm82.a2.v1'2 using R Limma package, bioconductor release version
+(3.3)84. Data was normalized land differential gene expression was calculated for each gene in reads per kilobase
+per million (RPKM).
+Identification of Arabidopsis genes corresponding to soybean (Glyma) genes and Gene net-
+work analyses. Arabidopsis (TAIR) genes and the corresponding Glyma (soybean) genes were identified
+using Tools option with gene annotation lookup at www.soybase.org. These TAIR genes were used in Cytoscape
+3.4.0 version with option ofGenemania (load data) network of315considering 27,416 TAIR genes of142,800,814
+interactionsss. The interactome was obtained with default settings for all putative candidate genes found in this
+study.
+References
+1. Boland,G.J&Hall, R. Index ofplant hosts ofSclerotinia sclerotiorum. Can. J. Plant Pathol. 16,93-108 (1994).
+2. Purdy, L. H. Sclerotinia sclerotiorum: History, Diseases and Symptomatology, Host Range, Geographic Distribution, and Impact.
+Phytopathology 69,875-880 (1979).
+3. Bolton, M. D., Thomma, B. P. H. J. & Nelson, B. D. Sclerotinia sclerotiorum (Lib.) de Bary: biology and molecular traits ofa
+cosmopolitan pathogen. Mol. Plant Pathol. 7, 1-16 (2006).
+4. Grau, C. R. & Hartman, G. L. Sclerotinia stem rot. Compend. Soybean Dis. 4th EdAPS Press St PaulMN Sclerotinia Stem Rot 46-48
+(1999).
+5. Koenning, S. R. & Wrather, J. A. Suppression ofSoybean Yield Potential in the Continental United States by Plant Diseases from
+2006 to 2009. Plant Health Prog. Online, (2010).
+6. Bradley, C.,Allen, T, Esker, P, Wrather, J.A. & Koenning, S. Estimates ofsoybean yield reductions causedby diseases in the United
+States.
+7. Hoffman, D. D. et al. Yield and Seed Quality ofSoybean Cultivars Infected with Sclerotinia sclerotiorum. Plant Dis. 82, 826-829
+(1998).
+8. Mueller, D. S. et al. Efficacy of Fungicides on Sclerotinia sclerotiorum and Their Potential for Control lofSclerotinia Stem Rot ton
+Soybean. Plant Dis. 86, 26-31 (2002).
+9. Peltier, A.J. et al. Biology, Yield loss and Control ofSclerotinia Stem Rot ofSoybean.J. Integr. Pest Manag. 3, 1-7 (2012).
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+10
+
+
+
+www.nature.com/scientificreports)
+10. Grau, C.R, Radke, V.L.& Gillespie, EL.Resistance ofSoybean Cultivars to Sclerotiniasclerotiorum. Plant Dis. 66, 506-508 (1982).
+11. Hoffman, D. D. et al. Selected Soybean Plant Introductions with Partial Resistance to Sclerotinia sclerotiorum. Plant Dis. 86,
+971-980 (2002).
+12. Grant, D., Nelson, R. T., Cannon, S. B. & Shoemaker, R. C. SoyBase, the USDA-ARS soybean genetics and genomics database.
+Nucleic Acids Res. 38, D843-D846 (2010).
+13. Hwang, E.-Y.et al. .A genome-wide association study rofseed protein and oil content in soybean. BMC Genomics 15, 1 (2014).
+14. Mamidi, S., Lee, R. K, Goos, J.R. &McClean, P.E. Genome-Wide Association Studies Identifies Seven Major Regions Responsible
+forIron Deficiency Chlorosisin Soybean (Glycine max). PLOSONE9, ,e107469 (2014).
+15. Sonah, H., O'Donoughue, L., Cober, E., Rajcan, I. &l Belzile, F Identification ofloci governing eight agronomic traits using a GBS-
+GWASapproach andvalidation by QTLmapping in soyal bean. Plant Biotechnol. J. 13, 211-221 (2015).
+16. Zhang, J. et al. Genome- -wide association study for flowering time, maturity dates and plant height in early maturing soybean
+(Glycine max) germplasm. BMC Genomics 16, 217 (2015).
+17. Bastien, M., Sonah, H. & Belzile, E Genome Wide Association Mapping of fSclerotinia sclerotiorum Resistance in Soybean with a
+GenotypingbySeqguencing Approach. Plant Genome 7, 1-13(2014).
+18. Iquira, E., Humira,S. &François, B. Association mappingofQTLs for sclerotinia stem rot resistance ina collection ofsoybean plant
+introductions using a genotyping by sequencing (GBS) approach. BMC Plant Biol. 15, 5(2015).
+19. Zhao, X. etal. Loci and candidate gene identification for resistance to Sclerotinia asclerotiorum in soybean (Glycine max L. Merr.) via
+association and linkage maps. Plant]. 82, 245-256 (2015).
+20. Wegulo, S. N., Yang, X. B. & Martinson, C. A. Soybean Cultivar Responses to Sclerotinia sclerotiorum in Field and Controlled
+Environment Studies. Plant Dis. 82, 1264-1270 (1998).
+21. Kim, H. S.et al. Reaction ofSoybean Cultivars to Sclerotinia Stem Rot tin Field, Greenhouse, andLaboratory Evaluations. CropSci.
+40, ,665-669 (2000).
+22. Manolio, T A. etal. Finding the missing heritability ofcomplex diseases. Nature 461, 747-753 (2009).
+23. Zhang, J, Singh, A., Mueller,D.S. & Singh, A. K. Genome-wide association andepistasis studiesunravel the genetic carchitectureof
+sudden death syndrome resistance in soybean. Plant]. 84, 1124-1136 (2015).
+24. Boland, G.J. & Hall, R. Evaluating Soybean Cultivars for Resistance to Sclerotinia sclerotiorum Under Field Conditions. Plant Dis.
+71,934-936 (1987).
+25. Chun, D., Kao, L. B., Lockwood, JL. &l Isleib, T G. Laboratory and Field Assessment tofResistance in Soybean to Stem Rot Caused
+by Sclerotinia sclerotiorum. Plant Dis. 71,811-815 (1987).
+26. Nelson, B. D., Helms, T C. & Olson, M. A. Comparison ofLaboratory and Field Evaluations ofResistance in Soybean to Sclerotinia
+sclerotiorum. Plant Dis. 75, 662-665 (1991).
+27. Song, Q. et al. Development and Evaluation ofSoySNP50K, a High-Density Genotyping Array for Soybean. PLOS ONE8, e54985
+(2013).
+28. Schmutz, Jet tal. Genome sequence ofthe palaeopolyploid soybean. Nature 463, 178-183 (2010).
+29. Rafalski,J.A. Association genetics sin crop improvement. Curr Opin. Plant Biol. 13, 174-180 (2010).
+30. Lam, H.-M. .etal. Resequencing of31 wild landcultivated soybean genomesidentifies patterns of fgenetic diversity and selection. Nat
+Genet. 42, 1053-1059 (2010).
+31. Wen,Z. et al. Genome-wide association mapping of fquantitativer resistance to sudden death syndrome in soybean. BMC Genomics
+15,809 (2014).
+32. Li, Y.-H. etal. Genetic diversity in domesticatedsoybean (Glycine max) andits wild progenitor (Glycine soja) for simple sequence
+repeat tand Isingle-nucleotide polymorphism loci. New Phytol. 188, 242-253 (2010).
+33. Arahana, V. S., Graef, G. L., Specht, jE., Steadman, J. R. & Eskridge, K. M. Identification ofQTLs for Sclerotinia sclerotiorum
+Resistance to in Soybean. Crop Sci. 41, 180-188 (2001).
+34. Malmberg, R. L., Held,S., Waits, A. & Mauricio, R. Epistasis for Fitness-Related QuantitativeTraits in Arabidopsis thaliana Grown
+in the Field and lin the Greenhouse. Genetics 171, 2013-2027 (2005).
+35. Messmer, R. et al. Drought stress and tropical maize: QTL-by-environment tinteractions and stability ofQTLs across environments
+for yieldcomponents and secondary traits. Theor. Appl. Genet. 119,913-930 (2009).
+36. Li, Petal. Use of fgenotype-environment interactions to elucidate the pattern of maize root plasticity to nitrogen deficiency: Root
+plasticity to nitrogen in maize.J.Integr. Plant Biol. 1-12, dok10.111/jipb.12384 (2015).
+37. Calla, B., Vuong, T., Radwan, O., Hartman, G. L. & Clough, S.J.Gene Expression Profiling Soybean Stem Tissue Early Response to
+Sclerotinia sclerotiorum andIn Silico Mapping in Relation to Resistance Markers. Plant Genome). 2, 149 (2009).
+38. Gururani, M. A. et al. Plant disease resistance genes: Current status and future directions. Physiol. Mol. Plant Pathol. 78, 51-65
+(2012).
+39. Zhu, Z. et al. Derepression of ethylene-stabilized transcription factors (EIN3/EILI) mediates jasmonate and ethylene signaling
+synergy in Arabidopsis. Proc. Natl. Acad. Sci. 108, 12539-12544 (2011).
+40. Lorenzo, O., Piqueras, R., Sanchez-Serrano, J.J.& Solano, R. ETHYLENE RESPONSEFACTORI Integrates Signals from Ethylene
+and] Jasmonate Pathways in Plant Defense. Plant Cell 15, 165-178 (2003).
+41. Berrocal-Lobo, M.,Molina, A. &Solano, R. Constitutive expression METIMIENERSMONSEHACTON in Arabidopsis confers
+resistance to several necrotrophic fungi. Plant J. 29, 23-32 (2002).
+42. Jorgensen, I. H. Discovery, characterization and exploitation ofMlo powdery mildew resistance in barley. Euphytica 63, 141-152
+(1992).
+43. Devoto, A. et al. Topology, subcellular localization, and sequence diversity of the Mlo family in plants. J. Biol. Chem. 274,
+34993-35004 (1999).
+44. Lee,J.et al. Salicylic acid-mediated linnate immunity in Anbidopsisisregultedby SIZ1 SUMO E3 ligase. Plant]. 49, 79-90 (2007).
+45. Zhou, N., Tootle, T L., Tsui, F, Klessig, D. F & Glazebrook, J. PAD4 Functions Upstream from Salicylic Acid to Control Defense
+Responses in. Arabidopsis. Plant Cell10, 1021-1030 (1998).
+46. Jirage, D. etal. Arabidopsis thaliana PAD4 encodes a lipase-like gene that is important for salicylic acid signaling. Proc. Natl. Acad.
+Sci. USA. 96, 13583-13588 (1999).
+47. Purcell,S. et al. PLINK: A Tool ISetfor Whole-Genome. Association andPopulation-BawedLinbuge Analyses. Am. J.Hum. Genet. 81,
+559-575 (2007).
+48. Purcell, S. PLINK v1.07.
+49. Rolland, E,Moore, B.. & Sheen,J.Sugar Sensing andSignaling in Plants. Plant Cell14, S185-S205 (2002).
+50. Tauzin, A.S. &Giardina, T Sucrose and invertases, apart tof fthe plant defense response to the biotic stresses. Front. Plant Sci. 5,64
+(2014).
+51. Sutton, P.N., Gilbert, M.J., Williams, L. E. & Hall, JL. Powdery mildew vinfection ofwheatl tleaveschanges host solute transport and
+invertase activity. Physiol. Plant. 129, 787-795 (2007).
+52. Hyun, T K, Eom, S. H., Rim, Y. &Kim,J.-S. Alteration ofthe expression and lactivation oftomatoinvertases during Botrytis cinerea
+infection. Plant Omics s4,413-417 (2011).
+53. Poschet, G. et tal.Ar novelArabidopsis vacuolar glucose exporter risinvolvedin cellular sugarhomeostasis and affects the composition
+ofseed storage compounds. Plant Physiol. 157, 1664-1676 (2011).
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+11
+
+
+
+www.nature.com/scientificreports)
+54. Klemens, P. A. W. et al. Overexpression ofa proton-coupled vacuolar glucose exporter impairs freezing tolerance and seed
+germination. New Phytol. 202, 188-197 (2014).
+55. Hedrich, R., Sauer, N. & Neuhaus, H. E. Sugar transport across the plant vacuolar membrane: nature and regulation of carrier
+proteins. Curr Opin. Plant Biol. 25, 63-70 (2015).
+56. Chen, L.-Q. et al. Sucrose Efflux Mediated by SWEET Proteins sasaKey Step for Phloem. Transport. Science 335, 207-211 (2012).
+57. Riou, C., Freyssinet, G. & Fevre, M. Production ofCell Wall-Degrading Enzymes by the Phytopathogenic Fungus Sclerotinia
+sclerotiorum. Appl. Environ. Microbiol. 57, 1478-1484 (1991).
+58. Lumsden, R. D. Historyand physiology ofpathogenesis in plant diseasescausedby: ySclerotinia aspecies. Phytopathology 69, 890-896
+(1979).
+59. Vogel,J.P, Raab, TK,Somerville, C. R. &Somerville,S. C. Mutations in PMR5result tin powdery mildewresistanceand laltered cell
+wall composition. Plant]. 40, 968-978 (2004).
+60. XiaoFang, Z. et al. TBL27 Affects Aluminium Sensitivity by Modulating the O-acetylation ofXyloglucan and Aluminium Binding
+Capacity yin Arabidopsis. Plant Physiol. pp.114.243808, dot101104/pp14246505 (2014).
+61. Kim, K. S., Min,J.-Y.&1 Dickman, M. B. Oxalic. Acid Is an Elicitor rofPlant Programmed Cell Death during Sclerotinia sclerotiorum
+Disease Development. Mol. Plant. Microbe Interact. 21, 605-612 (2008).
+62. Kabbage, M., Williams, B. & Dickman, M. B. CellDeath Control: The Interplay of Apoptosis and Autophagy in the Pathogenicity of
+Sclerotinia sclerotiorum. PLOS Pathog. 9, ,e1003287 (2013).
+63. Weaver, L. M., Gan, S., Quirino, B. & Amasino, R. M. A comparison of fthe expression patterns of several Isenescence-associated
+genes in response to stress and hormone treatment. PlantMol. Biol. 37,455-469 (1998).
+64. Cheng, Y. et al. Characterization of the Arabidopsis glycerophosphodiester phosphodiesterase (GDPD) family reveals a role of the
+plastid-localized AtGDPD1 in maintaining cellular phosphate homeostasis under phosphate starvation. Plant). 66, 781-795 (2011).
+65. Kabbage, M., Yarden, O. & Dickman, M. B. Pathogenic attributes of Sclerotinia sclerotiorum: Switching from a biotrophic to
+necrotrophic lifestyle. Plant Sci. 233,53-60 (2015).
+66. Hill,J.H. et tal. Evaluation ofthe USDA Soybean Germplasm Collection: Maturity Groups 000 tolv (PI 507670 to PI 574486). US
+Dep. Agric. Tech. Bull.. No 1914(2005).
+67. Oliveira, M. E,Nelson, R. L., Geraldi, I. O., Cruz, C.D. & de Toledo, JEEEstablishing a soybean germplasm core collection. Field
+Crops Res. 119, 277-289 (2010).
+68. Diers, B. W. et al. Registration of AxN-1-55 soybean germplasm with partial resistance to Sclerotinia stem rot. Crop Sci. 46, 1403
+(2006).
+69. Bastien, M. et al. A reproducible assay for measuring partial resistance to Sclerotinia sclerotiorum in soybean. Can.]. Plant Sci. 92,
+279-288 (2012).
+70. Fehr, W.R, Caviness, C. E., Burmood, D. T & Pennington,J.S. StageofDevelopment Descriptions for Soybeans, Glycine Max(L.)
+Merrilli. Crop Sci. 11, ,929-931 (1971).
+71. Abawi, G. S. & Grogan, R. G. Source ofl Primary Inoculum and Effects of Temperature and Moisture on Infection of Beans by
+Whetzelinia sclerotiorum. Phytopathology 65, 300 (1975).
+72. Guo, X. et al. Genetic Mapping of QTLS Underlying Partial Resistance toin Soybean PI 391589A and PI 391589B. Crop Sci 48,
+1129-1139 (2008).
+73. Christensen, R. H.B. ordinal: Regression Models for Ordinal Data (2015).
+74. RCore Team. R: A Language and Environmentfor Statistical Computing. (R Foundation for Statistical Computing, 2015).
+75. Browning, B. L. & Browning, S. R. Efficientmultilocus association testing for whole genome association studies using localized
+haplotype clustering. Genet. Epidemiol. 31, 365-375 (2007).
+76. Browning, B. L& Browning, S. R. A UnifiedApproach to Genotype Imputation andHaplotype-Phase Inference for LargeData Sets
+ofTrios and Unrelated Individuals.. Am. J. Hum. Genet. 84, 210-223 (2009).
+77. Wimmer, V., Albrecht, T, Auinger, H. & Schoen, C. synbreed: a framework for the analysis of geomic prediction data using R.
+Bioinformatics 28, 2086-2087 (2012).
+78. Remington, D. L. .et al. Structure oflinkage disequilibrium and phenotypic cassociations in the maize genome. Proc. Natl. Acad. Sci.
+98, 11479-11484 (2001).
+79. Huang, X. etal. Genome-wide association studies of14 agronomic traits in rice landraces. Nat. Genet. 42, 961-967 (2010).
+80. Nagy, ,S.et al. PICcalc: An Online Program to Calculate Polymorphic Information Content for Molecular Genetic Studies. Biochem.
+Genet. 50, 670-672 (2012).
+81. Zhang, Z. etal. Mixed llinear model lapproach adaptedfor genome-wide association studies. Nat. Genet. 42, 355-360 (2010).
+82. Lipka, A. E. .etal. GAPIT: genome association and prediction integrated tool. Bioinformatics 28, 2397-2399 (2012).
+83. Lamesch, Pet al. The Arabidopsis Information Resource (TAIR): improved gene annotation and new tools. Nucleic Acids Res. 40,
+D1202-D1210 (2012).
+84. Ritchie, M. E. et al. limma powers differential lexpression analyses for RNA-sequencing and microarray studies. Nucleic Acids Res.
+43, ,e47-e47 (2015).
+85. Shannon, P. etal. Cytoscape: a software environment for integrated models ofbiomolecular interaction networks. Genome Res. 13,
+2498-2504 (2003).
+Acknowledgements
+A special thanks to the members of Singh Lab, particularly Sara Coser and Brain Scott for assistance with
+phenotyping; Adam Martin-Schwarze for assistance with statistical analysis; Nick Howell, Brandon Carpenter,
+and Aaron Brand for help throughout the growing season and greenhouse operations; and Stith Wiggs for help
+with inoculation protocols and supplies. This research work was submitted as a part tofthe Mater ofScience degree
+requirement at Iowa State University by Tara Moellers (httpy/lib.driastate.eduletd/15039). Tara was supported
+by the R. F. Baker Center for Plant Breeding through a graduate assistantship. Financial research support was
+provided by Iowa State University, Iowa Soybean Association, and Monsanto Chair in Soybean Breeding at Iowa
+State University to AK Singh.
+AuthorContributions
+T.C.M. - first author, experimentation (phenotyping), statistical analysis, interpretation, manuscript writing.
+A.S. - conceptualization, experimentation (phenotyping), manuscript writing. J.Z. contribution to association
+analysis, interpretation, manuscript writing. J.B. - experimentation (phenotyping). M.K. - experimentation
+(expression studies), interpretation, manuscript writing. D.S.M. - experimentation (phenotyping), manuscript
+writing. C.R.G. - establishment of protocols, manuscript writing. A.R. experimentation (expression studies),
+manuscript writing. D.L.S. - experimentation (expression studies), manuscript writing. R.V.C.R. - gene network
+analysis, manuscript writing. A.K.S. - conceptualization, experimentation (phenotyping), interpretation,
+manuscript writing.
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+12
+
+
+
+www.nature.com/scientificreports)
+Additional Information
+Sapplementaryinformation accompanies this paper at doi:10.1038/s41598-017-03695-9
+Competing Interests: The authors declare that they have no competing interests.
+Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+0 Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this
+article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the
+material. Ifmaterial is notincludedin the article's Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you willneed Ito obtain permission directly from the
+copyrightholder. To view a copy ofthis license, visit thtrplcreativecommonsorglicensesby/402
+OThe Author(s) 2017
+SCIENTIFICREPORTSIZ 3554 1D010108459801/0859
+13

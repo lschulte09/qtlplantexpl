@@ -1,0 +1,1368 @@
+Sharmin et tal. BMC Plant Biol (2021)21:497
+BMC Plant
+htps/doiorg/10.1186s12870-021-032682
+Biology
+RESEARCH
+Open Access
+Genome-wide association study uncovers
+Check updates for
+major genetic loci associated with seed flooding
+tolerance in soybean
+Ripa Akter Sharmin 12, Benjamin Karikari0, Fangguo Chang',G.M. Al Amin',Mashiur Rahman Bhuiyan',
+Aiman Hina', Wenhuan Lv', Zhang Chunting', Naheeda Begum and Tuanjie Zhao"
+Abstract
+Background: Seed flooding stress is one ofthe threatening environmental stressors that adversely limits soybean at
+the germination stage across the globe. The knowledge on the genetic basis underlying seed-flooding tolerance is
+limited. Therefore, we performed a genome-wide association study (GWAS) using 34,718 single nucleotide polymor-
+phism (SNPS) in a panel of 243 worldwide soybean collections to identify genetic loci linked to soybean seed flooding
+tolerance atthe germination stage.
+Results: In the present study, GWAS was performed with two contrasting models, Mixed Linear Model (MLM) and
+Multi-Locus Random-SNP-Effect Mixed Linear Model (mrMLM) to identify significant SNPS associated with electri-
+cal conductivity (EC), germination rate (GR), shoot length (ShL), and root length (RL) traits at germination stage in
+soybean. With MLM, a total of 20, 40, 4, and 9 SNPS associated with EC, GR, ShL and RL, respectively, whereas in the
+same order mrMLM detected 27, 17, 13, and 18 SNPS. Among these SNPS, two major SNPS, Gm_08_11971416, and
+Gm_08_46239716 were found to be consistently connected with seed-flooding tolerance related traits, namely EC
+and GR across two environments. We also detected two SNPS, Gm_05_1000479 and Gm_01_53535790 linked to ShL
+and RL, respectively. Based on Gene Ontology enrichment analysis, gene functional annotations, and protein-protein
+interaction network analysis, we predicted eight candidate genes and three hub genes within the regions ofthe four
+SNPS with Cis-elements in promoter regions which may be involved in seed-flooding tolerance in soybeans and these
+warrant further screening and functional validation.
+Conclusions: Our findings demonstrate that GWAS based on high-density SNP markers is an efficient approach to
+dissect the genetic basis of complex traits and lidentify candidate genes in soybean. The trait associated SNPS could
+be used for genetic improvement in soybean breeding programs. The candidate genes couldhelp researchers better
+understand the molecular mechanisms underlying seed-flooding stress tolerance in soybean.
+Keywords: Soybean, Tolerance to submergence stress, QTL mapping, Candidate genes
+Background
+Soybean [Glycine max (L.) Merr.] is one of the most eco-
+nomically important legume crops, providing protein, oil,
+"Correspondence: tjzhao@njaueducn
+carbohydrates, minerals, vitamins, folic acid, fibre, isofla-
+'National ICenter for Soybean Improvement, Key Laboratory ofBiology
+vones and other nutrients for humans and animals
+and Genetics
+[1,
+and
+2].
+Breeding for Soybean, Ministry of Agriculture, State
+The increased
+of
+KeyLaboratory of Crop Genetics and Germplasm Enhancement, Nanjing
+importance soybeans has resulted in a
+Agricultural University, Nanjing 210095, China
+massive expansion of soybean production in the world.
+Full list tofauthor rinformation is available at the end ofthe article
+In recent decades, soybean production in the world has
+OTheAuthor(s) 2021. Open Access Thisarticle eslicensedunderaGeatier Commons Attribution 140 OInternationall ILicense, which
+BMC permits suse, sharing, adaptation, distribution and impoductoninarymedum: orformat, asl long asyou giveappropriate credittothe
+originalauthorigandthe: source, provide alinkto theCreative Commons slicence, andindicate ifchanges were made The images or
+other third partymaterial linthisarticleare included dinthearticle's Creative Commons licence, unless sindicated dotherwise ina credit tline
+tothemuzealfmusetalsnot tincudedinthe article's CreativeCommons licence andyouri rintended duseisnotp permitted by statutory
+regulation or rexceeds sthe permitted duse, you will Ineedto obtain permission directly from the copyright tholder To oviewa acopyofthis
+licence, weatxepicenscommonorrcerestyto.TReceer CommonsPublic Domain Dedication waiver (httpl/creativeco
+mowgpasenetenskes the data made availablein this article, unless otherwise stated din a credit line to the data.
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 20f17
+increased dramatically from 268.58 million metric tons in an amino acid alternation in the protein. Wu et al.
+in 2012/2013 to 360.07 million metric tons in 2018/2019 (2020) examined flooding tolerance when more than 50%
+(Statista 2020; htps/www.statista.com, However, sus- of plants were in the reproductive growth stage with a
+tainable soybean production is threatened by various blooming flower. Fourteen SNPS distributed on 4 chro-
+abiotic stresses, including flooding. The soybean yield is mosomes viz., Chr03 (8), Chr04 (1), Chr07 (2), Chr13 (1)
+reduced by flooding in the various stages of growth [3- and Chr19 (2) were detected simultaneously by 4 single-
+6]. Effect of flooding on soybean includes foliar chlorosis, locus models.
+necrosis, stunted growth, defoliation, reduction in nitro- From the above, it is clear that less progress has been
+gen fixation and plant death [7-9]. Plants undergo differ- made in identifying genomic regions associated with soy-
+ent mechanisms, including morphological, physiological, bean flooding tolerance, which is the first step toward
+and biochemical adaptations under flooding stress at identifying candidate genes. In order to speed up the
+germination and seedling stages [10, 11]. Therefore, com- genetic improvement of flooding tolerance in soybean,
+prehending the variation in flood tolerance among the it is necessary to uncover the molecular mechanisms
+genotypes and their underlying genetic architecture is and develop gene-based functional markers suitable for
+important to develop an effective breeding strategy.
+marker-assisted selection (MAS). The present study used
+Over the past decades, extensive progress has been 243 diverse soybean plant introductions (PIs) obtained
+made in identifying essential parameters for assessing from the SoySNP50K BeadChip project available on Soy-
+soybean flooding tolerance/susceptibility at germination Base (htpswww.soybase.org [28] and utilized two dis-
+or seedling stages [12-14]. Flooding is a complex quan- tinct models ofGWAS to identify SNPS linked to soybean
+titative trait influenced by multiple quantitative trait loci seed flooding tolerance indices at the germination stage.
+(QTLs)/genes with both major and minor effects and are In addition, putative candidate genes within the stable
+largely influenced by the environment. Several QTLs for regions were predicted. The findings may be helpful for
+soybean flooding tolerance have been reported using bi- MAS to develop high-yielding and seed flood-tolerant
+parental mapping populations [14-18]. So far, 27 QTLs soybean cultivars.
+have been detected and reported on SoyBase, which are
+scattered across the 20 chromosomes in the soybean Results
+genome, while several are recently detected [19, 20]. For Phenotypic variation and correlation among seed flooding
+instance, Dhungana et al. (2020) recently identified 20 tolerance parameters
+QTLs with phenotypic variation explained (R?) and log of To evaluate the phenotypic variation under seed flooding
+odd (LOD) in the range of 5.8-33.3% and 3.59-19.73%, stress in the 243 soybean PIs accessions, the seeds were
+respectively. Out of these, chromosomes 10, 12, and 13 treated for 72h under flooding stress and well-watered
+harbored relatively more stable QTLs. However, most control. Four traits viz., electrical conductivity (EC), ger-
+of the earlier reported QTLs were detected by linkage mination rate (GR), shoot length (ShL), and root length
+mapping strategy with several limitations, making them (RL) linked to seed flooding tolerance were measured at
+challenging to use for breeding program. Genome-wide the germination stag. The descriptive statistics, h2 and
+association study (GWAS) provides more extensive ANOVA of each trait for the 243 soybean accessions in
+ancestral recombination events due to high density of 2018 and 2019 are presented in Table 1. The h2 for the
+SNP markers. Therefore, to overcome the limitations four traits ranged from 0.78-0.99 (Table 1). EC was sig-
+associated with bi-parental mapping, GWAS has proven nificantly affected by genotype (G), environment (E),
+to be more effective and efficient in unraveling the and their interaction (GE) in the joint analysis. GR was
+genetic architecture ofcomplex traits in soybean [21-25]. influenced considerably by only G, whereas ShL and RL
+In soybean, there are only two independent studies on were affected by both G and GE (Table 1). There was a
+flooding tolerance with GWAS [26, 27]. In the study of significant negative correlation coefficient (7) with EC
+Yu et al. (2019), 25 and 21 quantitative trait nucleotides and the other three traits. On the other hand, significant
+(QTNS) were detected by the mixed linear model (MLM) positive r2 existed among the GR, ShL and RL (Table 1).
+and multi-locus random-SNP-effect mixed linear model The results revealed that these four traits are more under
+(mrMLM) of GWAS, respectively. Out of these, QTN13 genetic control and can be used to screen and select for
+on chromosome Chr13 detected by the two distinct seed flooding tolerance.
+models for germination rate (GR), electrical conductivity
+(EC), and normal seedling rate (NSR). From QTN13, one Distribution ofSNPs, population structure and linkage
+candidate gene, Glyma.13g248000 (GmSFT) was pre- disequilibrium decay
+dicted, which was found to have a nonsynonymous muta- A total of 243 soybean PIs accessions were genotyped
+tion in the seed flooding tolerant genotypes, resulting with 42,449 SNP markers; however, 34,718 SNPS with
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 30f17
+Table 1 Statistics for seed flooding tolerance traits of 243 PI soybean accessions
+Traita Env.b Mean + SDC Min
+Max h2d Fvalues from ANOVAS
+Pearson correlation
+G
+E
+GXE GR
+ShL
+RL
+EC
+2018 492.45 + 294 120.00 1858.5 0.79 667.51*** 21.67*** 1.97*** -0.40* -0.50* -0.50*
+2019 485.69 + 295 106.05 1867.5
+GR
+2018 0.76 + 0.15
+0.19
+0.95
+0.98 21.48*** 0.24ns
+3.2405
+0.36* 0.38*
+2019 0.76 + 0.14
+0.23
+0.97
+ShL
+2018 0.78 + 0.15
+0.27
+0.99
+0.98 30.94*** 0.88n5
+2.17***
+0.73*
+2019 0.79 + 0.14
+0.26
+0.99
+RL
+2018 0.72 + 0.20
+0.2
+0.98
+0.99 35.26*** 0.78ns
+5.05***
+2019 0.72 + 0.19
+0.24
+0.98
+ECElectrical conductivity (us. -cm -lig -), GR Germination rate, ShL Shootlength (cm), RL Root tlength(cm)
+bEnvironment
+CAverage of2biological repeats + standard deviation
+*Broad-sense heritability
+"GGmope.ténvionment GE-Genotype by Environment tinteraction
+sR indicates significancelevel latp<0.001; ns sindicates non-significant
+correlationis significant tat the 0.05 level (2-tailed)
+MAF N 0.05 were used for further analyses. These SNPS Out of these, Gm_08_11971416 which associated with
+were found on 20 chromosomes with an average of 1736 EC (logio(P)=5.16) and GR (logio/P)=5.06) met the
+SNPs on each chromosome (Chr) with a maximum Bonferroni correction criteria (R 4.54). SNPs related
+(2912) on the Chr18 and a minimum (1192) on Chr12 with GR Gm_08_46236506, Gm_08.46239716, and
+(Fig. la). Chr13 had the highest SNP marker density Gm_08.46242569 met the Bonferroni correction criteria
+(50.49 SNPs/Mb), and Chr01 had the least marker den- as well (Additional File 1: Table S1). A total of 27, 17, 13,
+sity (11.84SNPs/Mb) (Fig. 1b). In the present study, the and 18 SNPS were detected by mrMLM for EC, GR, ShL,
+population structure obtained by phylogenetic analysis and RL traits, respectively, in the individual and joint
+of 34,718 SNPS divided 243 accessions into 2 clusters environments (Additional File 2: Table S2). These SNPS
+(Fig. 2a). The first three principal components (PCs) were detected on all chromosomes with the exception of
+accounted for 25.84% of the total genetic variation Chr06 and Chr17 with R2 (2.27-12.13%) and LOD (3.01-
+(Fig. 2b). Based on the distribution of the pairwise rela- 9.24, thus, -log/0P)-371-1017) (Additional File 2:
+tive kinship coefficients, the 243 tested PI accessions had Table S2).
+a lower level of genetic relatedness, which aligned with In the comparison of results from MLM and
+the phylogenetic tree (Fig. 2c). Furthermore, r2 declined mrMLM, two major SNPs (Gm_08_11971416 and
+with increasing distance, and the average LD decay dis- Gm_08_46239716) on Chr08 were detected concur-
+tance by 34,718 SNPS for LD analysis was about 400kb, rently for EC and GR (Table 2). In the same direction,
+with 72 dropping to half ofits highest value (Fig. 2d).
+Gm_08_11971416 was found to be associated with
+ShL and RL. The alleles at Gm_08_11971416 (C/T) and
+GWAS analysis with two distinct models
+Gm_08.46239716 (A/G) caused significant variation in
+Two models comprising one single-locus model (MLM) EC and GR (Fig. 4a-d). Moreover, Gm_ 05_1000479 and
+and one multi-locus model (mrMLM) were used to per- Gm_01_53535790 SNPs were identified for ShL and RL,
+form SNP-trait association to identify significant SNP respectively, in both models (Table 2). These four major
+associated with EC, GR, ShL and RL. In MLM with a SNPs on Chr01, Chr05, and Chr08 were considered as
+threshold of -logiolp) X 3.5, a total of 20 SNPs were sig- major and stable loci and used for mining potential can-
+nificantly associated with EC in 2018, 2019, plus the didate genes underlying seed-flooding tolerance related
+average across two environments on 4 chromosomes traits in this study.
+viz. Chr04, Chr08, Chr14, and Chr17 (Additional File 1:
+Table S1; Fig. 3a-d). We also identified 40, 4, and 9 SNPS Allele effect of SNPS associated with seedflooding
+associated with GR, ShL, and RL, respectively, via MLM tolerance
+in all environments (2018, 2019 and with the average Haplotype block analyses were performed for
+of the 2 years) (Additional File 1: Table S1; Fig. 3a-d). Gm_08_11971416 and Gm_08_46239716 SNPS
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page4of17
+a
+3500 7
+3000
+2500 1
+2000 -
+1500
+-
+0 1000
+lil
+500
+0
+1 2345678 9 10 11 12 13 14 15 16 17 18 19 20
+Chomosomes
+b
+The number of SNPS within 1Mb window size
+OMb 6.9Mb 13.8Mb 20.7Mb 27.6Mb 34.5Mb 41.4Mb 48.3Mb 55.2Mb 62.1Mb
+Chrt
+IIT HIELIII TLLILIII I II -I III L
+Chr2
+ITTIL HII
+Chr3
+HII
+TIII IIITI - I I II HII
+Chrd - -
+III E - HL I =
+Chrs -I HL II IT IL TTTN IEII
+Chre - -
+III EI IIEH
+Chr7 II H
+  HII
+Chre
+- E
+- E
+HI -
+Chre
+TTI
+Chrio - - I H HI TII II - -
+Chr11 III - LIHI HIII I I
+0
+Chri2  - IITI ITI TLII
+20
+Chr13 I - II IIE L
+L 
+39
+Chr14
+IIII III TIIII TTH
+I
+58
+Chr1s
+
+77
+Chrie
+HILLTI II E II
+96
+Chr17 HE  -I
+-
+115
+Chr18
+- ILII EI H II - = HIIL 
+134
+Chr19 II  IIIII IIIII  E H
+ETI
+153
+Chr20
+III IIII
+>153
+Fig. .1 Distribution analysis of 34,718SNPs across 243 soybean Pls. aDistribution of fSNPS on 20 chromosomes b The density of fSNPS on each
+chromosome. The horizontal axis shows chromosome length (Mb); the vertical axis gives the chromosome number and the different colors depict
+SNP density (the number of SNPS per window)
+associated with EC and GR using Haploview 4.2 soft- 365.4+ 28.26 uS-cm 1 g , respectively (Fig. 5b). Simi-
+ware. The distance within each block ranged 97-100kb larly, groupings of the accessions on the basis of GR dif-
+with range of 8-14 SNPs. The 243 soybean PIs acces- fered significantly (0.77 + 0.01, 0.72+0.02 and 10.81 +0.01
+sions were grouped into three haplotypes (H1-H3) for H1, H2 and H3, respectively) (Fig. 5c). On the
+around Gm_08_ 11971416 (Fig. 5a). The mean + stand- other hand, haplotype block around Gm_08_46239716
+ard error values of EC for H1, H2 and H3 varied signifi- divided the 243 accessions into five groups (H1-H5)
+cantly (P<0.05), thus, 476.60: + 25.46, 594.1+ 39.25, and (Fig. 6a-b). The EC and GR of these groups differed
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 5of17
+a
+b
+8
+- a
+ de
+80
+ %
+
+àà
+e
+o
+: e
+d
+6
+N
+lo
+100 2
+50
+8
+0
+-50
+-100
+8100 -50 0 50 100 150
+PC1=17.03%
+C
+d
+0.57
+0.4-
+0.3-
+AL
+0.2-
+0.1-
+0.0-
+T
+T
+0
+1
+2
+3
+4
+5
+Distance (Mb)
+Fig.2 Genetic features of the mapping population. aA maximum likelihood neighbor-joining tree ofthe tested 243 lines. b Population structure
+ofsoybean germplasm. CAI heatmap of fthe kinship matrix of the 243 soybean Pls accessions. d LD decay of the genome-wide association study
+(GWAS) population
+significantly (P<0.05). The highest EC was observed in analysis with the SNP position +500kb. A total of
+H1 (873.7+35.11 US-cm-'g 1), while H3 had the least 483 model genes were found within the regions of the
+EC (226.3+7.25 uS-cm-lg 1) (Fig. 6b). In terms of GR, four SNPs using Glyma2.0 models in SoyBase (Addi-
+the highest and least were observed in H5 (0.83 +0.01) tional File 3: Table S3-S6). To further clarify the potential
+and H2 (0.68 + 0.04), respectively (Fig. 6c).
+functions of these genes, various functional groups were
+categorized based on GO enrichment analysis (http:/1
+Candidate and hub genes prediction underlying seed
+bicinfocauedu.cnlagriGo) Of these genes, 61 had no
+flooding tolerance
+functional annotations (representing NA) (Additional
+Based on the physical position of four SNPS viz., File 3: Table S3-S6). A total of 422 genes were assigned
+Gm_08_11971416, Gm_08_ 46239716, Gm 05_1000479, to one of the three GO categories: biological processes
+and Gm_01_53535790 linked with seed flooding tol- (BP), molecular function (MF) and cellular components
+erance, we performed the candidate gene prediction (CC). The highest percentage of genes were connected
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page6of17
+a
+I
+II
+I
+I
+D
+I
+2
+C
+5
+4
+5
+I
+Chr 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Fig.3 Manhattan plotsfor GWAS ofthe 243 soybean accessions for Electrical conductivity (EC) (a); Germination rate (GR) (b); Shoot length (ShL)
+(c); Root length (RL) (d) using MLM (PCA+K).The threshold of 3.5 was adopted with a red line in the Manhattan plots. The X-axis represents
+chromosome number and IY-axis represents -log10(P)
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 70f17
+Table 2 Four SNPS associated with electrical conductivity (EC), germination rate (GR), shoot length (ShL), and root length (RL) on MLM
+and mrMLM models
+Traitsa SNP IDb
+Chre Position (bp) Allele MLMd
+mrMLM
+-logio(p) R2 (%)e
+LOD9
+R2 (%)e
+EC
+Gm_08_11971416
+8
+11,971,416
+CT
+5.16-5.25
+8.80-8.99
+7.99-9.25 7.78-9.20
+Gm_08_46239716
+8
+46,239,716
+A/G
+3.98-4.08
+6.48-6.66
+3.78-5.53 4.88-7.26
+GR
+Gm_08_11971416
+8
+11,971,416
+CT
+4.82-5.08
+8.29-8.84
+4.93-5.84 5.19-6.89
+Gm_08.46239716
+8
+46,239,716
+A/G
+4.88-5.79
+8.26-10.12 7.14-7.24 9.54-12.13
+ShL
+Gm_05_1000479
+5
+1,000,479
+AC
+3.73-4.31
+6.08-6.87
+7.38
+9.92
+RL
+Gm_01_53535790
+1
+53,535,790
+A/G
+3.78-3.88
+6.09-6.28
+3.69
+6.07
+EC Electrical Iconductivity (uS-cm lg -),GR Germination rate, ShL Shootlength (cm), RL Root tlength (cm)
+bSingle nucleotide polymorphism
+Chromosome
+dMixed Linear Model
+ePhenotypic variation explained (%)
+'nuticsendomswefictmhnd Ilinear model(mrMLM)
+9logarithm of odds
+a
+n=71
+b
+2000
+a
+1.5
+n=172
+1500
+b
+n=71
+n=172
+1.0-
+a 1000
+&
+0.5-
+LL
+500
+0.0
+T
+C
+T
+C
+C
+d
+n=33
+1.5-
+2000
+n=210
+b
+n=210
+n=33
+1500-
+1.0-
+C w 1000-
+&
+0.5-
+-
+500-
+LE
+0
+0.0
+A
+G
+A
+G
+Fig. .4 Effect of alleles of Gm.08.11971416.CT) and Gm.08.46239716_NG) on electrical conductivity (EC) expressed las uS-cm-1 g-1 and
+Germination rate (GR). a CT on EC. bCT on GRCAG on EC. dAG on GR.The linein the middle of feach boxrepresents mean. The boxes in
+each plot with different alphabets on top indicate significant difference with Post-hoc means separation by Duncan Multiple Range Test at 5%
+probability. The n represents the number of faccessions with the allele in focus
+with the GO terms cellular process (GO:0009987), meta- The annotated 422 genes were related to plant
+bolic process (GO:0008152), cell part (GO:0044464), cell growth regulation, flavonoids biosynthesis, phyto-
+(GO:0005623), binding (GO:0005488) and catalytic activ- hormone signaling pathways, stress signal percep-
+ity (GO:0003824) (Fig. 7a). Hence, these GO terms may tion and transduction, seed germination, flowering
+play roles in regulating mechanisms in soybean seed- and senescence, embryo development, secondary wall
+flooding stress.
+synthesis, and plant hormonal responses, such as
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page8of17
+a
+b
+2000
+n-77
+n=110
+1500- b
+n=56
+8
+a 1000
+I
+I I I I
+500-
+I
+0
+: : : :
+! I I
+:
+H1
+H2
+H3
+Block1 (97 kb)
+520 521 522 523 524 525 526 527
+C
+93
+1.51
+93 94
+94
+n=110 n-77 n=56
+93 93
+88
+1.0-
+93 97 94
+&
+97
+0.5-
+0.0-
+H1
+H2
+H3
+Fig.5 Haplotype block around Gm_08_11971416: and phenotypic variation analysis. .a Haplotype block. b Haplotype groupings and their variation
+in electrical conductivity (EC, expressed las uS-cm-1 g-).cHaplotype groupings and their variation in germination rate (GR). GroupingsH1,H2
+andH3 haveTCTCATCC, TCCTGTCC and CTTCACTA, respectively. The line in the middle ofeach box represents mean. .The boxes in each plot with
+different alphabets on top indicate significant difference with Post-hoc means separation by Duncan Multiple Range Test at 5% probability. The n
+represents the number of faccessions with the alleles combined
+a
+b
+n=23
+2000 7
+b
+n=53
+.
+N a 16 S 80 E o
+1500
+6
+4
+4
+8
+8
+8
+8
+W 1000-
+n=11
+: E 8 E 8 E : E : 3 3 E E :
+n=100
+500 -
+- b n=56
+Block (100 kb)
+2080 2081 2082 2083 2084 2085 2086 2087 2088 2089 2090 2091 2092 2093
+95
+0-
+95
+H1 H2 H3 H4 H5
+95
+95
+C 1.57
+69
+91
+n=53 n=23 n=11 n=100 n=56
+68
+91
+1.0- D
+68
+91
+%
+91
+-
+-
+91
+0.5- TE - I -
+0.0-
+H1 H2 H3 H4 H5
+Fig.6 Haplotype block around Gm_08.46239716 and phenotypic variation analysis. a Haplotype block. b Haplotype groupings and theirvariation
+in electrical conductivity (EC, expressed as uS-cm g ). cHaplotype groupings and their variation in germination rate (GR). GroupingsH1,H2,
+H3, H4 and H5 have AGGTAAATCTATT CAAGCCGCTCCCC, CAAGCAATCTATT, CAAGCCGCCTATT, and AGGTCAATCTATT, respectively. The line in the
+middle of each box represents mean. The boxes in each plot with different talphabets on top indicate significant difference with Post-hoc means
+separation byDuncan Multiple RangeTest at 5% probability. The n represents the number of faccessions with the alleles combined
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 9of17
+Input list -maponaneeee
+56
+a
+42
+28
+I
+of 14
+I
+/
+A a $
+/ / / / / / /
+/ / / a
+/ / / / / /
+X
+/ 1
+le
+1
+/
+I
+/
+f
+/ /
+/ / /
+&
+/ //
+1
+le
+/
+&
+7
+7
+/ / f
+7
+/
+BP
+CC
+MF
+GO annotation
+GLYMA05G07590.1
+b
+GLYMA08G17000.1
+GLYMA01G41620.1
+Fig.7 Candidate gene analysis. a Diagram showing Gene Ontology (GO) enrichment analysis for Biological processes (BP), Cellular components
+(CC), and Molecular function (MF) using agriGO toolkit (b) Graphical depiction ofthe selective hub module ofsub-network-1. Hub genes are
+highlighted lin red land pink Edges of the hub are shown in gray
+gibberellin responses, and ethylene biosynthesis S-Receptor-Like Serine/Threonine-Protein Kinase),
+(Additional File 3: Table S3-S6). By considering the Glyma.05G006700 (Protein kinase superfamily protein)
+results of GO enrichment analysis as well as gene Glyma.05G008000 (CCCH-type zinc finger family pro-
+functional annotations from the SoyBase, and Phy- tein), Glyma.08G152800 (Leucine-rich repeat family
+tozome databases, we predicted eight stress respon- protein), Glyma.08G152900 (Tetratricopeptide repeat
+sive genes, Glyma.01G198000 (Transcription like superfamily protein), Glyma.08G344500 (GATA
+factor bHLH18), Glyma.01G206300 (G-Type Lectin Transcription factor 26), and Glyma.08G348500
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 10of17
+Table 3 Asubset of candidate and hub genes adjacent four SNPS associated with soybean seed flooding tolerance at the germination
+stage
+Candidate Gene IDa
+Position (bp)b
+Homolog in
+Functional annotation
+Arabidopsis
+Glyma.01G198000
+53200980-53202,684
+AT4G37850
+Transcription factor bHLH18
+Glyma.01G206300
+53862540-53862540
+AT5G60900
+G-TypeLectin S-Receptor-Like Serine/Threonine-Protein Kinase
+Glyma.05G006700
+608,574-621,690
+AT5G14720
+Protein kinase superfamily protein
+Glyma.05G008000
+749,837-753,271
+AT2G02160
+CCCH-type zinc fingerfamily protein
+Glyma.08G152800
+11760404-11762319
+AT3G12610
+Leucine-rich repeat (LRR)family protein
+Glyma.08G152900
+11780677-11,784610
+AT5G40410
+Tetratricopeptide repeat (TPR)-like superfamily protein
+Glyma.08G344500
+45957501-45962417
+AT4G17570
+GATATranscription factor 26
+Glyma.08G348500
+46292645-46301,440
+AT2G15490
+UDP-glycosytransferase
+Hub genes
+Glyma.01G207700
+53959688-53961,931
+AT4G16720
+Ribosomal protein L23/L15e family protein
+Glyma.05G016800
+1,491,261-1,493,536
+AT5G08180
+Ribosomal protein L23/L15e family protein
+Glyma.08G159800
+12386775-12390398
+AT3G04770
+40s ribosomal protein SA B
+Genes position in Glyma2.0 version obtained from SoyBase while those with boldedfont are hub genes (highly connected genes in the network)
+bGenes start and end positions in Glyma2.Oversion
+C Possible functional annotation obtainedfrom SoyBase (https/soybase.org) and Phytozome fntpsgiphytozomejgidbegowipz/poralhemp
+(UDP-gycosyltransferase) from the 422 genes (Table 3). Discussion
+The results suggest that flood-response mechanisms in Genetic variation and correlation oftraits evaluated
+soybean are complex and may be governed by several for seed flooding tolerance in soybean
+signal pathways.
+Seed flooding stress is a severe abiotic stress that reduces
+To construct possible protein-protein interaction soybean seed yields by affecting seed germination, seed-
+(PPI) networks associated with seed flooding toler- ling growth, and development [27, 29]. Since seed-
+ance, we used STRING online software. The possible flooding tolerance is a complex quantitative trait, it is
+network obtained from STRING was subsequently imperative to understand the genetic basis and genes
+visualized in the Network Analyst platform. From PPI involved in seed-flooding tolerance and this has been
+network analysis, we identified three hub genes viz., a major focus in soybean for a breeding program tar-
+Glyma.01G207700 (Ribosomal protein L23/L15e family geted at developing flood-tolerant cultivars. To date, the
+protein), Glyma.05G016800 (Ribosomal protein L23/ genetic mechanisms controlling seed flooding tolerance
+L15e family protein) and Glyma.08G159800 (40s ribo- in soybean are not well understood at the germination
+somal protein SA B) that may be associated with soy- stage. Seed germination is governed by different phyto-
+bean seed-flooding tolerance (Fig. 7b).
+hormones and environmental conditions [30]. The strong
+We retrieved RNA-Seq data of these candidate genes correlation between seed-flooding tolerance and its
+from SoyBase (www.soybase.org), Based on RNA-seq related traits, viz., EC, GR, NSR, ShL, and RL in soybean
+analysis, all the predicted candidate genes showed sig- has been previously reported [12-14, 26, 31]. Therefore,
+nificantly higher gene expression in the root tissues, we examined EC, GR, ShL, and RL as the most important
+root nodule, young leaf, flower, and pod shell as well as determinants to better estimate soybean seed-flooding
+seed developmental stages except Glyma.08G344500 tolerance. These traits are primarily regulated by genetic
+(Additional File 4: Figure S1). In addition, the predicted factors, as shown in ANOVA (Table 1) which are in con-
+candidate and hub genes were found to possess phyto- sonance with earlier reports [27, 31]. According to a pre-
+hormone Cis-elements such as auxin-responsive ele- vious study, seed flooding stress caused seed material
+ment (TGA-element and AuxRR-core), jasmonic acid leakage and subsequent seed damage due to rapid water
+(CGTCA-motif), abscisic acid (ABRE), salicylic acid imbibition, which was confirmed by EC measurements
+(TCA-element) and others (Additional File 5: Table S7). [14]. As a result, we examined the EC of 243 soybean
+Hence, these candidate and hub genes might be asso- PIs accessions to better assess soybean seed-flooding
+ciated with soybean seed-flooding tolerance. However, tolerance. Furthermore, significant positive correlations
+they need further functional validation to check their among GR, ShL, and RL were observed in the soybean
+actual roles in seed flooding tolerance.
+PIs accessions, and EC had a negative correlation with
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 11 of17
+GR, ShL, and RL (Table 1). Overall, the comprehensive are numerous single-locus models, however MLM is
+analysis of EC, GR, ShL, and RL is an important consid- more popular possibly because of its accounts of popula-
+eration in determining seed-flooding tolerance during tion structure and familial relatedness among the study
+germination in soybean.
+population to avoid possible spurious marker-trait asso-
+ciations [38, 39]. However, the single-locus models are
+Population structure andlinkage disequilibrium
+limited in detecting marginal effects QTNS influenced
+inthe panel
+by the polygenic background and stringent Bonfer-
+As evident from the phylogenetic tree and kinship plot, roni correction [40]. For example, out of the numerous
+the population structure divided the 243 lines into 2 sub- SNPs studied, only Gm_08_11,971,416 connected to
+groups (Fig. 2a, c). The sub-group 1 (blue) comprised EC and GR, Gm_ 08_46236506, Gm_08 46239716,
+mainly accessions from United States, Brazil, and Zimba- and Gm_08.46242569 linked to GR met the Bonfer-
+bwe etc. whereas sub-group 2 (red) consisted accessions roni correction criteria (R 4.54). Therefore, we adjusted
+from mainly from Asia (China, Nepal, Bhutan, India, and the threshold in MLM to > 3.5 [41, 42]. Briefly, it has
+Vietnam etc.). This is not surprising as soybean is noted been established that a Bonferroni threshold (example
+to have originated and domesticated in East Asia [32]; P= 2.88E-05 or -logio(/34718)-454, in the current
+thus, possibly the accessions used may have their line- study) is overly strict when the linkage disequilibrium
+age from Asia, specifically China. These findings pinpoint among genetic markers is large, which is generally the
+the grouping of accessions using molecular markers that case with soybean [43, 44]. Therefore, we adjusted to
+showed a sub-structure based on the geographical origin P K 0.0003 or -logio(P) )>3.5 in the current study was
+ofaccessions. The extent ofLD is a crucial determinant of used, which is less stringent than the Bonferroni-cor-
+association analysis efficiency [33]. In this study, the LD rected threshold, but more stringent than the threshold
+decay of the soybean genome was estimated to be about used in the study by Wu et al. [27] (-logio(P)>2.5) and
+400kb which was considerably higher than that of other Song et al. [45] (-log1o(P)>3.0) with accessions and SNPS
+plants like rice (75kb in indica rice) [34] and Arabidopsis from SoySNP50K BeadChip. The adopted threshold in
+thaliana (10kb) [35]. This is related to the cleistogamous study was similar to Kaler et al. (2017) who utilized 373
+features of soybeans, which might have a significant accessions and 31,260 SNPs and Chamarthi et al. (2021)
+impact on genomic homogeneity and lower genomic var- with 200 accessions and 34,680 SNPS from SoySNP50K
+iation, and this character may become more sensitive to BeadChip to map genomic regions associated with soy-
+domestication practices due to low genetic diversity and bean canopy wilting.
+high LD [36, 37].
+To overcome the limitation in MLM, we implemented
+According to previous studies, there are 27 QTLs asso- mrMLM (Multi-locus model) with the LOD=3 which
+ciated with flooding tolerance in the soybean genome, has been recommended in multi-locus GWAS to bal-
+distributed across 15 chromosomes, suggesting that ance high power and low false positive rate [46]. Multi-
+flooding tolerance is a complex quantitative trait regu- locus GWAS has been developed as a multidimensional
+lated by several genes with both substantial and modest genome scan method in which the effects of all markers
+impacts in soybean.
+are estimated at the same time [47]. mrMLM is emerged
+as a powerful tool for genetic dissection of complex traits
+Significant SNPS and previously reported regions
+[40].
+Limited QTL mapping studies have been undertaken to Previous studies reported that GWAS is an effective
+detect the genomic regions linked with flooding tolerance and efficient strategy for detecting the genetic loci and
+using different bi-parental mapping populations. Accord- candidate genes associated with complex quantitative
+ing to previous studies, there are 27 QTLs associated traits [23, 48, 49]. MLM effectively controls genomic
+with flooding tolerance in the soybean genome, distrib- inflation and is widely used in genome-wide associa-
+uted across 15 chromosomes, suggesting that flooding tion analysis to identify QTL associated with soybean
+tolerance is a complex quantitative trait and regulated traits [50-52]. In the present study, a total of 73 and 75
+by multiple genes with both major and minor effects significantly-associated SNPS of EC, GR, ShL, and RL
+in soybean [14-18]. However, most of these QTL map- traits were detected lby MLM(Additional File 1: Table S1)
+ping studies were conducted using low-density genetic and mrMLM, respectively (Additional File 2: Table S2).
+maps based on linkage mapping. GWAS leverages on Among these SNPS, two major and stable SNPS,
+LD in the natural population and helps to overcome the Gm_08_11971416 and Gm_08_46239716, were detected
+limitations in linkage mapping. Hence, the present study across the environments for EC and GR traits at the sig-
+used diverse soybean germplasm from 22 different coun- nificance threshold -logio (P)X 3.5 (Table 2). In addition,
+tries to perform two distinct models of GWAS. There
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 120f17
+Gm_05_1000479 and Gm_01_53535790 SNPs were iden- abiotic stresses, including drought, salinity, heavy metal
+tified for ShL and RL, respectively, in both models.
+stress, oxidative stress, iron deficiency, low temperature
+The stability ofQTL is a requisite for their use in a prac- stresses, and osmotic stress [57-59]. On Chr01, there is
+ticalbreeding program such asMAS. Therefore, the major also a gene (Glyma.01G206300) that codes for G-Type
+and stable SNPs (Gm_01_53,535,790, Gm_05_1,000,479, Lectin S-Receptor-Like Serine/Threonine-Protein Kinase
+Gm 08 11,971,416, and Gm_08.46,239,716) (Table 2) and plays a crucial role in plant response to salt stress
+could further be validated and exploited further for [60]. Gene (Glyma.05G006700) encodes a protein kinase
+their use in the breeding program. Also, some associ- that is involved in plant responses to drought, salt, and
+ated SNPS in this study overlapped with a number of cold stress [61]. Gene (Glyma.05G008000) located on
+earlier reported regions; Gm_01 3260769 linked to Chr05, encodes a CCCH-type zinc finger protein. CCCH
+ShL detected by mrMLM co-located with the physical genes contribute to seed germination by regulating
+region of Flood tolerance 6-1 (1031087-7,729,201bp abscisic acid (ABA), light and gibberellic acid in Arabi-
+[53]. Similarly, SNP at 10789902bp overlapped with dopsis [62]. The previous study in rice reported that
+Flood tolerance 7-2 [14] on Chr08. Also, two SNPS; OsCCCH-Zn-1 is induced under hypoxia, submergence,
+Gm_13_20995641 and Gm_14_4550573 co-located and drought stresses [63]. On Chr08, Glyma.08G152800
+within the genomic regions of Flood tolerance 6-3 [53] encodes a leucine-rich repeat protein. Overexpres-
+and Flood tolerance 4-5 [16]. All the SNPs detected on sion of the leucine-rich repeat receptor-like kinase gene
+Chr17 except for Gm_17_8735403 co-located within a (LRK2) increased drought tolerance in rice [64]. Gene
+recent QTL (qSFT_17-52) reported by Dhungana et al. (Glyma.08G152900) is also located on Chr08 which
+[19]. Last but not the least, Flood tolerance 6-2 [53] har- encodes for a tetratricopeptide repeat like protein (TPR)
+bored 2 SNPS on Chr19 in this study (Gm_19.40771881 involved in the plant hormonal regulation, such as ethyl-
+& Gm_19_40783256). These results give credence to ene biosynthesis, gibberellic acid and cytokinin responses
+the findings of this study; however, the new SNPs/loci [65, 66]. TPR proteins have also been found to be
+detected need further verification for their use in the involved in the regulation of ABA signaling and abiotic
+breeding program. Also, the haplotype alleles detected on stress responses [67]. The recent study demonstrated that
+the major loci on Chr08 (Figs. 5 and 6) could be exploited AtTPR10 functions as a molecular chaperone to protect
+for haplotype-based breeding [54, 55].
+plants from diverse abiotic stresses, such as low tempera-
+ture, drought, and salinity [68].
+Candidate genes analysis
+Gene (Glyma.08G344500) encodes a GATA Transcrip-
+It is of great interest to identify the candidate genes tion factor 26 that is involved in the regulation of growth
+underlying the genomic region for practical plant processes and various environmental stresses, includ-
+breeding. To date, the SoyBase has reported on 27 ing salinity and drought [69]. A recent study by Zhao
+QTLs related to soybean flooding tolerance. How- et al. (2021) revealed that overexpression of SIGATA17
+ever, none was used to mine putative candidate genes (Solyc05g056120.21) enhances drought tolerance with
+with the exception of recent studies [26, 27]. For exam- increased activation of the phenylpropanoid biosynthetic
+ple, GmSFT (Glyma.13g248000) showed significantly pathway in transgenic tomato compared to the wild type
+higher expression levels in tolerant genotypes than sen- [70]. In addition, Glyma.08G348500 encodes a UDP-
+sitive genotype under seed flooding stress [27]. In this glycosyltransferase that is involved in the regulation of
+study, candidate genes were predicted in the genomic grain size and multiple abiotic stress tolerance (salinity,
+region surrounding four major and stable SNPS, viz., drought and heat stress) in rice [71]. Furthermore, our
+Gm_08_11971416, Gm_08_46239716, Gm_05_1000479, study identified three hub genes (Glyma.01G207700,
+and Gm_01_53535790 (Table 2). Most of the genes are Glyma.05G016800, and Glyma.08G159800) as ribosomal
+related with the terms cellular process, metabolic pro- protein genes in the functional co-expression network
+cess, cell part, cell, binding, and catalytic activity as generated by network analyst that might regulate abiotic
+per GO enrichment analysis, and these GO terms are stress tolerance (Table 3). Previous studies reported that
+reported to be essential in seed flooding tolerance mech- ribosomal protein genes enhance tolerance to drought,
+anisms [56].
+and heavy metal stress [72-74]. From the available
+Based on the GO enrichment analysis, and gene RNA-seq data, the predicted candidate and hub genes
+functional annotations we predicted eight genes expressed significantly higher gene expression in the
+as the possible candidate genes (Table 3). The gene various tissues and developmental stages, giving indica-
+(Glyma.01G198000), located on Chr01, encodes a tion of their possibility of regulating soybean response
+basic helix-loop-helix (bHLH) transcription factor to seed-flooding tolernace [75]. Hub genes (highly con-
+that is involved in plant adaptive responses to various nected genes) are reported to modulate expression of
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 13of17
+large number of genes in a functional network of genes seeds ofthe selected PIs were obtained from the National
+[23, 76]. In addition, with exception ofGlyma.08g152900, Center for Soybean Improvement, Nanjing Agricul-
+all the predicted candidate and hub genes contain tural University, Nanjing, China. These accessions were
+Cis-elements which are essential in regulating plant planted in 2018 and 2019 at Jiangpu Experimental Station
+response under flooding/waterloggsing conditions (Addi- (latitude 32.12°N; longitude 118.37E) ofNanjing Agricul-
+tional File 5: Table S7). For example, Glyma.01g198000, tural University in Nanjing, Jiangsu Province of China.
+Glyma.01g206300 and Glyma.05g006700 contain auxin All the accessions were grown in a randomized complete
+responsive element. It has been demonstrated that block design with three replications every year. Addi-
+auxin accumulation in the stem triggers additional eth- tional File 6: Table S8 gives details information about the
+ylene synthesis which stimulates a flux of auxin towards 243 soybean PIs accessions used in this study.
+flooded parts of the plants [77, 78]. In addition, auxin
+accumulation in the base of the plant induces growth of
+pre-formed root initials thereby responding by new root Phenotypic evaluation for seed-floodingtolerance
+system capable of replacing the original one when it has Soybean PIs accessions were phenotypically evaluated
+been damaged by submergence [77]. Moreover, Salicylic for seed flooding stress following a previously described
+acid (SA) participates in the waterlogsing-tolerance of method [12]. Briefly, good quality and healthy seeds were
+plants [79]. SA content in waterlogging-tolerant soy- surface sterilized by soaking in 70% ethanol for 10s to
+bean lines increased significantly after waterlogging remove the contaminants. These seeds were then rinsed
+for 5 or 10days compared to non-waterlogging condi- in distilled water three times. Twenty seeds of each
+tions while SA content in sensitive lines exhibited no accession were dipped into 350 ml plastic cups contain-
+significant change, implying that SA mediates waterlog- ing 50ml distilled water covered with sterilized petri
+ging-tolerance of soybean through regulating the for- dishes for 72h of seed flooding stress and incubated in
+mation of aerenchyma or adventitious roots. One gene, a germination cabinet at 25°C. The experiment was con-
+Glyma.08g348500 possesses SA responsive element ducted with two replications arranged in a completely
+(TCA-element). These warrant functional validation of randomized design. All accessions were phenotypically
+the eight candidate and three hub genes to unravel their evaluated for four traits viz., EC, GR, ShL, and RL at the
+actual regulatory mechanism in seed flooding tolerance. germination stage (Additional File 7: Table S9). Immedi-
+ately after the treatment, a conductivity meter (model:
+DDS-307A) was utilized to record the EC of steep-water.
+Conclusions
+In this study, two distinct models of GWAS were used Germination experiment was carried out using a paper
+roll method in which seeds were grown for 5 under
+to
+decipher the genetic architecture underlying seed
+days
+normal conditions. The germination of seeds with a radi-
+flooding stress tolerance in soybean. The major SNPS,
+of
+cle length more than 1cm was considered. For the con-
+Gm_08_11971416, Gm_08_46239716, Gm_05_1000479,
+and Gm_01_53535790
+trol, seeds without seed flooding treatment were grown
+were identified to be associated
+under the same conditions. Relative values of each trait
+with seed flooding tolerance related traits, viz., EC, GR,
+ShL
+were obtained by dividing the treatment of each acces-
+and RL. Based on GO enrichment analysis, gene
+control.
+functional annotations, and PPI network analysis, we sion by its
+predicted eight candidate genes and three hub genes
+with functions directly or indirectly connected to stress Phenotypic data analysis
+defense mechanisms. However, further genetic and Analysis of variance (ANOVA) of the phenotypic
+molecular analyses are required to validate the functional data was performed using the PROC GLM pro-
+importance of the putative candidate genes in adaptation cedure in SAS 9.4 (SAS Institute, Inc., Cary, NC,
+to seed flooding stress in soybean. Taken together, these United States). Broad-sense heritability (42) of each
+findings provide valuable insight on the genetic basis of trait was estimated for the combined environments
+soybean seed flooding tolerance, and they could assist as h2
+eln+o2/nr) for combined environ-
+MAS in determining the molecular mechanism of seed ments, where og represents the genotypic variance, oge is
+flooding tolerance in soybean.
+the variance of the genotypeby-environment interaction,
+a2 is the error variance, n is the number of environments,
+Materials and methods
+and r represents the number of replications within each
+Plant materials
+environment [80]. Pearson correlations were also calcu-
+A panel of 243 PIs originated from 22 different countries lated to measure the degree ofrelationship between each
+globally was selected from the United States Department pair of traits, and the individual hypothesis tests of the
+of Agriculture, Soybean Germplasm Collection. The correlations were performed at a= 0.01 using OriginPro
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 14of17
+9.0 software (Origin Lab, Corporation, Northampton, (pairwise comparison) was used to evaluate variation in
+USA).
+seed flooding tolerance among accession groupings in
+each haplotype block at the significant level ofP K 0.05.
+SNP genotyping and quality control
+SNP data of the selected PIs is available at Illumina
+Infinium SoySNP50K BeadChip database on SoyBase Candidate andhub genes identification
+details
+The stable SNPs (detected for at least 2 traits by either
+Oeplsegtuegwpiadsgel The
+on of the models or both) were used to mine putative can-
+genotyping and SNP calling procedures for the 42,449
+SNPs
+didate genes at 500kb up- and down-stream of the
+as described by Song et al. (2013). After removing
+SNPs with minor allele frequency (MAF) <0.05, a total of SNP position by using Glyma2.0 models on SoyBase
+(htpswww.soybase.org). The model
+were retrieved
+34,718 SNPs were used for further analysis in this study.
+genes
+from each of the regions for candidate gene analysis.
+Gene ontology (GO) enrichment analysis was conducted
+Population structure andlinkage disequilibrium analyses for all the model genes within the four SNPs (+500kb)
+A neighbor-joining tree was constructed together with using agriGO Omp/lhasnfocmaducligicon [85],
+Principalcomponent analysis (PCA) was calculated using in which the parameters of singular enrichment analysis
+TASSEL 5.0 software [38]. The 34,718 SNPS were also (SEA) tool following the default settings and G. max gene
+used to calculate kinship matrixes by the identity-by- model as a reference background. Candidate genes asso-
+state (IBS) method implemented in TASSEL 5.0 to infer ciated with seed flooding tolerance were predicted based
+population stratification and relatedness among individ-
+on GO enrichment analysis and gene functional annota-
+uals. A heatmap of the kinship matrix of the 243 acces- tions from the Phytozome (htrpsl/phytozomeigidoc
+sions was constructed with the kinship 2 package in R (R gov) and SoyBase (htp/www.soybase.org databases.
+Core Team, 2019).
+These model genes were also used to construct probable
+Pairwise linkage disequilibrium (LD) between 34,718 protein-protein interaction (PPI) network with a pub-
+SNPs with a missing rate < 10% and MAF X 0.05 was esti- licly available online database Search Tool for Retrieval
+mated using squared allele frequency correlations (r2) of Interacting Genes/Proteins (STRING) [86]. Credible
+using the RTM-GWAS V1.1 software [81]. The panel's PPI interactions were further visualized with the network
+LD decay rate was calculated as the chromosomal dis- analyst 3.0 to identify hub genes [87]. The expression
+tance when r2 fell to halfits highest value. The average LD data of predicted candidate genes were obtained from
+decay figure was drawn by GraphPad Prism version 5.01 transcriptome profile data publicly available on SoyBase
+(GraphPad Software, San Diego California USA, WWW. Ohntpel/sopbuseorgisope) developed by Severin et al.
+graphpad.com) using r2 for SNPs with pairwise distances [75] and heatmapped by TBTool [88]. In addition, the
+less than 5Mb in each chromosome.
+promoter regions of predicted genes that may be involved
+in seed-flooding tolerance were further analyzed follow-
+Genome-wide association study and haplotype block
+ing the procedure outlined by with Karikari et al. [23]
+analysis
+An association analysis was performed for four traits
+viz., EC, GR, ShL, and RL through two distinct models, Abbreviations
+Mixed Linear Model (MLM) and Multi-Locus Random- GWAS: Genome-wide association study; MLM: Mixed Linear Model; mrMLM:
+Multi-Locus Random-SNP-ffect MLM; EC: Electrical conductivity; GR: Ger-
+SNP-Effect Mixed Linear Model (mrMLM) for each mination rate; ShL:Shoot tlength; RL:Root length; GO: Gene ontology; PPI:
+year plus average of phenotypic data across the 2 years. Protein-protein interaction; QTL: Quantitative trait tlocus; QTNS: Quantitative
+The MLM was run with the TASSEL 5.0 software, and trait tnucleotides.
+the K matrix serves as a random effect in this model.
+Supplementary Information
+However, mrMLM was carried out using the R package
+mrMLM.GUI version 2.1 [82]. The significance threshold The online version contains supplementary material lavailable at https//doi.
+09/018841370010382
+used in the present study was set at -logio (1/m) where
+m= the number of markers, thus -logio(1/34718)-454 Additional file 1:Table S1.SNPS markers associated with electrical
+as the Bonferroni correction line, however this thresh- conductivity (EC), germination rate (GR), ShootLength (ShL), and Root
+old was adjusted to -logio (P) X 3.5 and logarithm of odd Length (RL) via MLM.
+(LOD)=3 were used to declare SNP-trait association in Additional file 2:Table S2. SNPS markers associated with electrical con-
+MLM [41, 42] and mrMLM [46] respectively.
+ductivity (EC), germination rate (GR), Shoot Length (ShL), and Root Length
+(RL) via mrMLM.
+Haplotype block analysis ofthe stable SNPS was investi-
+gated with Haploview software version 4.2 with the four- Additional file 3:Table S3. One hundred fifteen (115) model genes
+were found within the region hofGm.0_11971A16SNP using Glyma2.0
+gamete rule method [83, 84]. Duncan Range Multiple test
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 15of17
+Received:15July 2021 Accepted: 29 September 2021
+models in SoyBase. Table S4.One hundred thirty (130) model Igenes were Published online: 29 October 2021
+found within the region of Gm_08_46,239716 SNP using Glyma2.0 mod-
+elsin SoyBase. Table S5. One hundred thirteen (113) model genes were
+found within the region of Gm_05_1,000,479 SNP using Glyma2.0 models
+in SoyBase Table S6. One hundred twenty-five (125) model genes were
+References
+found within the region of Gm_01_53,535.790 SNP using Glyma2.0
+1. Hou A, Chen P,Alloatti J,LID, Mozzoni iL, Zhang B, et al Genetic variability
+models in SoyBase.
+ofseed sugar content in worldwide soybean germplasm collections.
+Additional file 4:Figure S1. Heat map exhibiting the expression profiles
+Crop Sci 2009:49(3)903-12
+of fcandidate genes among the different soybean tissues and develop-
+2. Wilson RF. Seed composition. In: Boermal HR, Specht JE, editors. Soybeans:
+ment stages.
+improvement, production, and uses. Madison: ASA-CSSA-SSSA; 2004.p.
+Additional file 5:Table S7. Cis-acting regulating elements relatedto
+621-77.
+seed flooding tolerance obtained from PlantCare database.
+3. Oosterhuis D,Scott H, Hampton R, Wullschleger SD. Physiological
+responses of two soybean [Glyciner max (L.) Merr] cultivars to short-term
+Additional file 6:Table S8. A core set of 243 soybean plant introductions
+flooding. Environ Exp Bot. 1990;30(1):85-92
+(Pls) selected from the USDA Soybean Germplasm Collection.
+4. Rhine MD, Stevens G, Shannon G, Wrather A, Sleper D.Yield and
+Additionalfile 7:Table S9. Phenotypic data (average) of 243Placces-
+nutritional responses to waterlogging ofsoybean cultivars. Irrig Sci.
+sions used din this study.
+201028(2)135-42
+5. Wu C, Chen PHummer W, Zeng A, Klepadlo M. Effect of fflood stress on
+soybean seed germination in the field. Am J Plant Sci. 2017:8(01):53.
+Acknowledgements
+6. ZhaoT,Aleem M, Sharmin RA. Adaptation to Water stress in soybean:
+The authors are thankful Ito all the team- and lab mates and friends who sup-
+morphology to genetics. In: Andjelkovic V, editor. Plant, Abiotic Stressand
+ported us during the research project and writing of the manuscript
+Responses to Climate Change. Croatia: IntechOpen; 2018. p. 33-68.
+7. BacanamwoM, Purcell LC Soybean dry matter andN accumula-
+Authors'contributions
+tion responses to flooding stress, N sources and hypoxia.JExp Bot.
+TJ.Z. and RAS. .conceived land designed the experiments. RAS, M.R.B. and
+1999,50334)689-96
+ZC.performed the experiments. RAS, BK,FC, GMA, AH, W. .L. andN.B.
+8. Kimy,Seo CW, Khan AL, Mun BG, Shahzad R, Ko JW,et al Exo-ethylene
+analyzed the data. RAS drafted the manuscript. TJ.Z. & B.K. revised the paper.
+application mitigates waterlogging stress in soybean (Glycine max L.).
+The authors read and approved the final manuscript.
+BMC Plant Biol 2018;18(1):254.
+9. VanToai ITT, Hoa TTC, Hue NTN, Nguyen HT, Shannon JG, Rahman MA.
+Funding
+Flooding tolerance of soybean [Glycine max (L.) Merr.] germplasm from
+This workwas supported by grants from the National Key Research and
+Southeast Asia under field and screen-house environments. Open Agric J.
+Development Program, National Natural Science Foundation of China
+2010:4:38-46.
+(Grant Nos. 31871646, 31571691), the Science andTechnology Innovation
+10. Bacanamwo M, Purcell LC Soybean root morphological land anatomical
+Project for Hebei iProvince Modern Seed Industry (21326313D-1), theMOE
+traits associated with acclimation to flooding. Crop Sci. 1999,39(1):143-9.
+Program for Changjiang Scholars andinnovative Research Team in University 11. Hasanuzzaman M,AI IMahmud J, Nahar K, Anee TI, Inafuku M, OkuH,
+(PCSIRT_17R55), the Jiangsu Collaborative Innovation Center for Modern Crop
+etal Responses, adaptation, and ROS metabolism in plants exposed dto
+Production (JCIC-MCP) Program. The funders had Ino role in experimental
+waterlogging stress. In: Reactive oxygen species and antioxidant systems
+design, data collection and analysis as well laswriting of the manuscript.
+in plants: role and regulation under abiotic stress. Singapore: Springer;
+2017.p. 257-81.
+Availability of fdata and materials
+12. Ali MJ,Yu Z, Xing G, Zhao T,Gai iJ. Establishment tof fevaluation procedure
+With the exception of SNP datasets, all data generated or analyzed during
+for soybean seed-flooding tolerance andits application to screeningfor
+this study are included lin this article and lits supplementary information files.
+tolerant germplasm sources. Legum Res 201841(1)34-40.
+The SNP dataset usedin the current study were selected from United States
+13. Hou FF, Thseng FS. Studies on the screening technique for pre-germina-
+Department of Agriculture, Soybean Germplasm Collection sequenced by Illu-
+tion flooding tolerance in soybean. JpnJ Crop Sci. 1992,61(3)447-53.
+mina Infinium SoySNP50K BeadChip Technology available on SoyBase (https:/1 14. SayamaT, NakazakiT,lshikawa G, Yagasaki iK, Yamada N, Hirota N, et al
+soybaseorg/snpy/ndesghol Phenotypic data generated for the 2years (2018
+QTL analysis of seed-flooding tolerance in soybean (Glycine max [LJ
+and 2019) and combined years (CE) have been includedin the supplementary
+Merr). Plant Sci. 2009,176(4)514-21.
+Tables (Additional File 5: Supplementary Table 8).
+15. Cornelious B, Chen P, ChenY,De Leon N, Shannon J,Wang D. Identifica-
+tion ofQTLS underlying water-logging tolerance in soybean. Mol IBreed.
+2005;16(2)103-12
+Declarations
+16. Githiri iS,Watanabe S, Harada K, Takahashi IRQTL analysis offlooding
+tolerance in soybean at an early vegetative growth stage. Plant Breed.
+Ethics approval and consent to participate
+2006;125(6)613-8
+Not applicable.
+17. Nguyen nVVuongTVanToait, Lee J,Wu X, Mian M, et al Mapping of
+quantitative trait loci iassociated with resistance to Phytophthora sojae
+Consent for publication
+and flooding tolerance in soybean. Crop Sci. 2012,52(6)2481-93.
+Not applicable.
+18. VanToai ITT, StMartin SK, Chase K, Boru G, Schnipke V, Schmitthenner AF,
+et al. Identification of aQTL associated with tolerance of soybean to soil
+Competing interests
+waterlogging. Crop Sc1.2001414:1247-52
+The authors declare no conflict of finterest.
+19. Dhungana SK, Kim HS, Kang BK, Seo JH, Kim HT, Shin SO, et al Quan-
+titative trait loci mapping for flooding tolerance at an early growth
+Author details
+stageofsoybean recombinant inbred line population. Plant Breed.
+'National Centerfor Soybean Improvement, Key Laboratory ofBiology
+20201398)626-38.
+and Genetics and Breeding for Soybean, Ministry of Agriculture, State Key
+20. YeH,Song gL, Chen H, Valliyodan B, Cheng PAliL, et al LAmajor natural
+Laboratory ofCrop Genetics and Germplasm Enhancement, Nanjing Agricul-
+genetic variation associated with root system architecture and plasticity
+tural University, Nanjing 210095, China. ?Jagannath University, Dhaka 1100,
+improves waterlogging tolerance and yieldin soybean. Plant Cell Environ.
+Bangladesh. Department of Crop Science, Faculty of Agriculture, Food
+201841(9)2169-82
+and Consumer Sciences, University for Development Studies, Tamale, Ghana. 21. DoTD, Vuong TD, Dunn D, Clubb M, Valliyodan B,Patil G,et tal.ldentifica-
+tion of new loci for salt tolerance ins soybean by high-resolution genome-
+wide association mapping BMC Genomics. 201920(1):318.
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 160f17
+22. Ersoz ES,YuJ, Buckler ES. Applications oflinkage disequilibrium and
+46. Zhang YM, Jia Z, Dunwell JM. The applications of new multi-locus GWAS
+association mapping in crop plants. In: Genomics-assisted crop improve-
+methodologies in the genetic dissection ofcomplex traits. Front Plant Sci.
+ment. Dordrecht: Springer; 2007.p. 97-119.
+2019;10:100.
+23. Karikari iB,Wang Z, Zhouy,Yan W, FengJ, ZhaoT.ldentification of fquan- 47. Cuiy,Zhang F,Zhouy.The application of fmulti-locus GWASfor the detec-
+titative trait nucleotides and candidate genes for soybean seed weight
+tion of fsalt-tolerance loci iin rice. Front Plant Sci 2018;9:1464.
+by multiple models of fgenome-wide association study. BMC Plant Biol
+48. Riedelsheimer C, Lisec J, Czedik-Eysenberg A, Sulpice R, Flis A, Grieder
+2020;20(1):404.
+Cet al Genome-wide association mapping of leaf metabolic pro-
+24. Liu Z,LiH,Gou Z, Zhangy,Wang X, Ren H,et tal.Genome-wide associa-
+filesfor dissecting complex traits in maize. Proc Natl Acad ScIUSA
+tion study of fsoybean seed germination under drought stress. Mol Gen
+2012:10923)8872-7.
+Genomics. 20202958)661-73.
+49. Zhao K,Tung C-W, Eizenga GC, Wright MH, Ali ML, Price AH, et al.
+25. Steketee CJ, Schapaugh WT, CarterTEJr,Liz Genome-wide association
+Genome-wide association mapping reveals sa rich genetic architecture of
+analyses reveal genomic regionscontroling canopy wilting in soybean.
+complex traits in Oryza sativa. Nat Commun. 2011;2(1):1-10.
+G3- genes Genom. Genet 2020,10(4)1413-25.
+50. Wen Z, Boyse JF, Song Q,Cregan PB, Wang D. Genomic consequences
+26. Yu Z, Chang FLvw, Sharmin RA, Wang Z, KongJ, et al. Identification
+ofselection and genome-wide association mapping in soybean. BMC
+OfQTN land Candidate Gene for Seed-flooding Tolerance in Soybean
+Genomics. 2015;16(1).671.
+[Glycinemax (L.) Merr.] using Genome-Wide Association Study (GWAS).
+51. Wen Z,Tan R, Yuan J, Bales CDuw, Zhang S, et al. Genome-wide associa-
+Genes. 201910(12)957.
+tion mapping of quantitative resistance to sudden death syndrome in
+27. Wu C, Mozzoni LA, Moseley D, Hummer W,Ye H, Chen Pet al Genome-
+soybean. BMC Genomics. 2014;15(1):809.
+wide association mapping of fflooding tolerance in soybean. Mol Breed. 52. Zhang J, Song Q Cregan PB, Jiang GL Genome-wide association study,
+2020;40(1):4.
+genomic prediction and marker-assisted selection for seed weight tin
+28. Song Q Hyten DL,Jia G, Quigley CV,Fickus EW, Nelson RL, et al Develop-
+soybean (Glycinemax). Theor Appl Genet 20161290):117-30.
+ment and levaluation of SoySNP50K,al high-density genotyping arrayfor 53. Rizal IG, Karki is. Research article alcohol dehydrogenase (ADH) activity
+soybean. PLOS One. 2013;8(1):e54985.
+insoybean (Glycinemax [L.J Merr.) under flooding stress. Electron J Plant
+29. Wuebker EF, Mullen RE, Koehler K Flooding and temperature effects on
+Breed. 2011:2(1):50-7.
+soybean germination. Crop Sc.200141(6-1857-61.
+54. Brinton J, Ramirez-Gonzalez RH, Simmonds J, Wingen L, Orford IS, Griffiths
+30. Miransari iM, Smith DL Plant hormones and seed germination. Environ
+S,etal A haplotype-ledapproach to increase the precision of wheat
+Exp Bot. 2014,99:110-21.
+breeding. Commun Biol.20203(1)712
+31. Ali MJ, Xing G, He J,ZhaoT, Gai iJ.Detecting the QTL-allele system control- 55. Sinha P,Singh VK, Saxena RK, Khan AW, Abbai R, Chitikineni A, et tal
+ling seed-flooding tolerance in a nested association mapping population
+Superior haplotypes for haplotype-based breeding for drought tolerance
+of fsoybean. Crop J. 2020,8(5):781-92.
+in pigeonpea (Cajanus cajan L). Plant Biotechnol 1202018012/2482-90
+32. Lee GA, Crawford GW, Liu L, Sasaki iy,Chen X. Archaeological soybean
+56. Sharmin RA, Bhuiyan MR, LvW, Yu Z, Chang F, Kong J,et al RNA-Seq
+(Glycinemax) in East Asia: does size matter? PLOS One. 201 11,6(11):e26720.
+based transcriptomic analysis revealed genes associated with seed-flood-
+33. Priolli IR, Carvalho C, Bajay M, Pinheiro J,Vello NA. Genome analysis to
+ing tolerance in wild soybean (Glycine soja Sieb. & Zucc).Environ Exp Bot.
+identify SNPS associated with oil content and fattyacid components in
+2020;171:103906.
+soybean. Euphytica. 2019:215(3):1-14.
+57. Babitha K, Vemanna RS, Nataraja KN, Udayakumar MJ. Overexpression
+34. Mather KA, Caicedo AL, Polato NR, Olsen KM, McCouch S, Purugganan
+ofECbHLH57 transcription factor from Eleusine coracana Lin tobacco
+MD.The extent toflinkage disequilibrium in rice (Oryza sativa L). Genetics.
+confers tolerance to salt, oxidative and drought stress. PLOS One.
+20071774)2223-32
+2015;109,e0137098
+35. Kim S, Plagnolv.HuTt,Toomajan C, Clark RM, Ossowski iS, et al Recom- 58. GuntAwgtwr.GuL.wglwie tal.Regulatory mechanisms of
+bination and linkage disequilibrium in Arabidopsis thaliana. Nat Genet.
+bHLHt transcription factorsin plant adaptive responses to various abiotic
+2007;39(9)1151-5.
+stresses. Front Plant Sci 2021;12:1143.
+36. Lam HM,Xu X, Liu X,Chenw, Yang G, Wong FL, et al Resequencing of
+59. Zhao Q, Ren YR, Wang QJ, Yao YX, You CX, Hao YJ. Overexpression of Mdb
+31 wild and cultivated soybean genomes identifies patterns of genetic
+HLH 104 gene enhances the tolerance to iron deficiencyin apple. Plant
+diversity and iselection. Nat Genet 201042(12)1053-9
+Biotechnol 1.2016140)1633-45
+37. Valliyodan B,YeH,Song L, Murphy M, Shannon JG, Nguyen HT Genetic 60. Sun XL,Yu QY, Tang LL, Jiw, Bai iX, Cai H, etal GSSRK, a G-type lectin
+diversity and genomic strategies for improving drought and waterlog-
+S-receptor-like serine/threonine protein kinase, isa positive regulator of
+ging tolerance in soybeans. J Exp Bot 2016,68(8)1835-49
+planttolerance to salt tstress.J JPlant Physiol. 20133170(5)505-15.
+38. Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, RamdossY, Buckler ES.
+61. Chen X, Ding Y, Yang Y, Song C Wang B, Yang S, et al. Protein kinases
+TASSEL: software for association mapping of fcomplex traitsin diverse
+in plant tresponses to drought, salt, and cold stress.JIntegr Plant Biol.
+samples. Bioinformatics. 200723(19)2633-5
+2021,63(1).53-78.
+39. Zhang Z, Ersoz E,Lai CQ,Todhunter RJ,Tiwari HK, Gore MA, et al Mixed
+62. Bogamuwa S,JANG JC.The ea rabidopsis tandem CCCH zinc finger
+linear model approach adapted for genome wide association studies. Nat
+proteins AtTZF4, 5 and 6 are involved lin light-, abscisic acid-and gib-
+Genet 201042:355-60.
+berellic acid-mediated regulation of seed germination. Plant Cell Environ.
+40. Wang SB, Feng JY, RenWL, Huang B, Zhou L,Wen YJ, et al Improving
+20133618):1507-19.
+power and accuracy of genome-wide association studies via aa multi-
+63. Pandey DM, Kim SR Identification and expression analysis ofhypoxia
+locus mixed linear model methodology. Sci Rep. 2016,6(1):1-10.
+stressinducible CCCH-type zinc finger protein genes in rice.JPlant Biol.
+41. Kaler AS, Ray JD,Schapaugh WT, King CA, Purcell LC. Genome-wide asso-
+2012:55(6)489-97.
+ciation mapping ofcanopy wilting in diverse soybean genotypes. Theor 64. Kang J,LiJ, Gao S,Tian C, Zha X Overexpression of the leucine-rich
+Appl Genet 2017130010)2203-17.
+receptor-like kinase geneLRK2increases drought tolerance and tiller
+42. Chamarthi SK, Kaler AS, Abdel-Haleem H, Fritschi FB, Gillman JD, Ray JD,
+number rin rice. Plant Botechndl120174501175-45
+etal. Identification and confirmation ofloci iassociated with canopy wilt- 65. Greenboim-Wainberg Y,Maymon nl, Borochov R, Alvarez),Oszewskil iN,
+ingin soybean using genome-wide association mapping. Front Plant Sci.
+Ori IN, et tal.Cross talkbetween gibberellin and cytokinin: the Arabidopsis
+2021;12:698116.
+GA response inhibitor SPINDLY plays ap positive role in cytokinin signaling.
+43. Hyten DL, Choi IY, Song Q Shoemaker RC, Nelson RL, Costa JM, et al
+Plant Cell. 2005:17(1).92-102
+Highly variable patterns of linkage disequilibrium in multiple soybean
+66. Yoshida H, Nagata M, Saito K Wang KL, Ecker JR. Arabidopsis ETO1 specifi-
+populations. Genetics. 2007175(431937-44.
+cally interacts with and negatively regulates type 21 1-aminocyclopro-
+44. Kaler AS, Purcell LC. Estimation ofa significance thresholdfor genome-
+pane-1-carboxylate synthases. BMC Plant Biol. 2005,5(1):1-13.
+wide association studies. BMC Genomics. 2019,20(1):1-8.
+67. Rosado A, Schapire AL, Bressan RA, Harfouche AL, Hasegawa PM,
+45. Song Q, Hyten DL, Jia G, Quigley CV,Fickus EW, Nelson RL, et al.Finger-
+Valpuesta V,etal. The Arabidopsis tetratricopeptide repeat-containing
+printing soybean germplasm and dits utility in genomic research. G3
+proteinTTL1 is required ifor rosmotic stress responses and abscisic acid
+(Bethesda). 20155010x199-2006
+sensitivity. Plant Physiol. 2006,14203)1113-26.
+
+
+
+Sharmin et tal BMC Plant Biol (2021)21:497
+Page 17 of17
+68. Paeng SK, Kang CH, ChiYH, ChaeHB, Lee ES, Park JH, et al.AtTPR10 con- 79. Jiaw, Ma M, ChenJ,Wu S. Plant morphological, physiological and
+taining multiple ANK and ITPR Rdomains exhibits chaperone activity and
+anatomical adaption to flooding stress and the underlying molecular
+heat-shock dependent structural switching. Appl Sci. 2020;10(4)1265.
+mechanisms. IntJ Mol Sci. 2021:22(3):1088.
+69. Gupta P, Nutan KK, Singla-PareekSL, Pareek A. Abiotic stresses cause dif- 80. NyquistWE, Baker RJ. Estimation of heritability and prediction of fselection
+ferential regulation of alternative splice forms of fGATA transcription factor
+response in plant populations. Crit Rev Plant Sci. 1991;1003)235-322
+in rice. Front Plant Sci 2017;8:1944.
+81. He J,Meng S, Zhao T, Xing G,Yang S,Liy,et al An innovative procedure of
+70. Zhang H, WUT,Liz, Huang K, Kim NE, Ma Z, et al. OSGATA16, a GATA
+genome-wide association analysis fits studies on germplasm population
+transcription factor, confers cold tolerance by repressing OSWRKY45-1 at
+and plant breeding Theor Appl Genet 2017;130(1 11):2327-43.
+the seedling stage in rice. Rice. 2021;14(1):1-15.
+82. Wang J,Chu S, Zhang H, Zhuy, Cheng H, Yu D. Development and applica-
+71. Dong NQ, Suny,GuoT,Shi CL, Zhang YM, Kany, et al UDP-glucosyltrans-
+tion ofa novel genome-wide SNP array reveals domestication history in
+ferase regulates grain size and abiotic stress tolerance associated with
+soybean. Sci Rep. 2016,6(1):1-10.
+metabolic flux redirection in rice. Nat Commun. 2020,11(1):1-16.
+83. Barrett JC, Fry B,Maller J, Daly MJ. Haploview: analysis and visualization of
+72. Liu XD, XieL,Weiy,Zhou X, Jia B, LiuJ,etal. Abiotic stress resistance, a
+LD and haplotyper maps. Bioinformatics. 200521(2)263-5.
+novel moonlighting function ofribosomal protein RPL44in the halophilic 84. Wang N, Akey JM, Zhang K, Chakraborty R, Jin L Distribution of recom-
+fungus Aspergillus glaucus. Appl Eviron Microbiol. 201480014)4294-300
+bination crossovers and the origin ofhaplotype blocks: the interplay
+73. Mazahar M, Achala B, Anusree S, Kirti PB. Ribosomal proteins and their
+ofp population history, recombination, and mutation. AmJ Hum Genet
+extra ribosomal Ifunctions in abiotic stress tolerance of plants. Proteomics.
+2002715)1227-34
+2019120)1024-38.
+85. Du Z,Zhou X, Ling Y,Zhang Z, Su Z. agriGO: a GO analysis toolkitfor the
+74. XuT,Lee K, Gu L, KimJ-, Kang H. Functional Icharacterization ofap plastid-
+agricultural community. Nucleic Acids Res. 2010;38W64-70.
+specific ribosomal protein PSRP2 in Arabidopsis thaliana under abiotic
+86. Szklarczyk D, Franceschini A, Wyder S, Forslund IK, Heller D, Huerta-Cepas
+stress conditions. Plant Physiol Biochem. 201 13;73:405-11.
+Jet al.STRINGV10: protein-protein interaction networks, integrated over
+75. Severin AJ, Woody JL, Bolon YT,Joseph B, Diers BW, Farmer AD, et al RNA-
+the tree of life. Nucleic Acids Res. 201443(D1)D447-52.
+Seq atlas of Glycine max:a guide to the soybean transcriptome. BMC
+87. Zhou G,Soufan 0, Ewald IJ, Hancock RE, Basu IN, Xia J. NetworkAnalyst 3.0:
+Plant Biol. 2010;10(1):160.
+a visual analytics platform for comprehensive gene expression profiling
+76. Das S, Meher PK, Rai A, Bhar LM, Mandal BN. Statistical Approaches for
+and meta-analysis. Nucleic Acids Res. 201947W1XW234-41.
+Gene Selection, Hub Gene Identification and Module Interactionin Gene 88. Chen C, Chen H, Zhang Y,et tal.TBtools: An Integrative Toolkit Devel-
+CoExpression Network Analysis: An Application to Aluminum Stress in
+oped for Interactive Analyses of Big Biological Data. Mol Plant.
+Soybean (Glycine max L).PLOS One. 2017;12(0,e0169605
+2020,13(8)1194-202
+77. Vidoz ML, Loreti iE, Mensuali A, AlpiA, Perata P Hormonal interplay
+during adventitious root formation in flooded tomato plants. Plant J.
+Publisher's Note
+2010,6314).551-62
+78. Lin C, Sauter M.Polar auxin transport determines adventitious root emer- SpringerNature remains neutral with regard to jurisdictional claims in pub-
+gence andgrowth in rice. Front Plant Sci. 2019;10:444.
+lished maps and institutional affiliations.
+Ready to submit your research? Choose BMC and benefit from:
+fast, convenient online submission
+thorough peer review by experienced researchers inyour field
+rapid publication on acceptance
+supportfor research data, including large and complex data types
+gold Open Access which fosters wider collaboration and increased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions
+BMC

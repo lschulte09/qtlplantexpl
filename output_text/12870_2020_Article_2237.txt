@@ -1,0 +1,1161 @@
+Assefa et al. BMC Plant Biology (2020) 20:42
+htps/doiorg/10.118612870-020-237-5
+BMC Plant Biology
+RESEARCH ARTICLE
+Open Access
+Deconstructing the genetic architecture of
+Check for
+updates
+iron deficiency chlorosis in soybean using
+genome-wide approaches
+Teshale Assefa', Jiaoping Zhang',R. V. Chowda-Reddy', Adrienne N. Moran Lauter?, Arti Singh'o,
+Jamie A. O'Rourke?, Michelle A. Graham? and Asheesh K Singh""
+Abstract
+Background: Iron (Fe) is an essential micronutrient for plant growth and development. Iron deficiency chlorosis
+(IDC), caused by calcareous soils or high soil pH, can limit iron availability, negatively affecting soybean (Glycine
+max) yield. This study leverages genome-wide association study (GWAS) and a genome-wide epistatic study (GWES)
+with previous gene expression studies to identify regions of the soybean genome important in iron deficiency
+tolerance.
+Results: A GWAS and a GWES were performed using 460 diverse soybean PI lines from 27 countries, in field and
+hydroponic iron stress conditions, using more than 36,000 single nucleotide polymorphism (SNP) markers.
+Combining this approach with available RNA-sequencing data identified significant markers, genomic regions, and
+novel genes associated with or responding to iron deficiency. Sixty-nine genomic regions associated with IDC
+tolerance were identified across 19 chromosomes via the GWAS, including the major-effect quantitative trait locus
+(QTL) on chromosome Gm03. Cluster analysis of significant SNPS in this region deconstructed this historically
+prominent QTL into four distinct linkage blocks, enabling the identification of multiple candidate genes for iron
+chlorosis tolerance. The complementary GWES identified SNPS in this region interacting with nine other genomic
+regions, providing the first evidence of epistatic interactions impacting iron deficiency tolerance.
+Conclusions: This study demonstrates that integrating cutting edge genome wide association (GWA), genome
+wide epistasis (GWE), and gene expression studies is a powerful strategy to identify novel iron tolerance QTL and
+candidate loci from diverse germplasm. Crops, unlike model species, have undergone selection for thousands of
+years, constraining and/or enhancing stress responses. Leveraging genomics-enabled approaches to study these
+adaptations is essential for future crop improvement.
+Keywords: Gene expression, Germplasm, GWAS, GWES, Iron deficiency chlorosis (IDC), Quantitative trait locus (QTL),
+Soybean
+Background
+farmlands in the upper Midwestern United States where
+Iron (Fe) is an essential micronutrient required for multiple soybean is a major crop. Fe deficiency negatively affects
+metabolic processes in plants including photosynthesis, res- plant growth and yield [3]. Studies in the model organism
+piration, and electron transport [1]. While Fe is one of the Arabidopsis thaliana have demonstrated that the expression
+most abundant elements in the earth's crust, aerobic condi- of a number of underlying genes is regulated by Fe availabil-
+tions, high pH, and/or calcareous soils, make it insoluble ity [4-6]. Additional genes involved in Fe acquisition and
+and unavailable for plant use. Of the world's cultivated soils, homeostasis have been the subject of numerous studies in
+roughly 30% are classified as calcareous [2], including Arabidopsis [4-9]; however, work in model species has not
+translated to improved Fe efficiency in crop species. Unlike
+Arabidopsis, which has not been domesticated,
+was
+Correspondence: singhak@iastate.edu
+soybean
+'Department of Agronomy, lowa State University, Ames, IA, USA
+domesticated more than 5000 years ago [10]. Following
+Full list of author information is available at the end of the article
+OThe Author(s). 2020 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BMC International License fhtp/ceativecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made The Creative Commons Public Domain Dedication waiver
+Omploeswecommonsoy/pulbicdonainv.eonon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 2 of 13
+domestication, soybean and other crops have been under resistant (1.0) to highly susceptible (4.7) in the 2014 field
+continued selection for yield, biotic and abiotic stress toler- study (Additional file 1: Figure Sla) and from 1.0 to 4.6
+ance, making it likely that they have developed novel strat- in the 2015 field study, indicating significant differences
+egies for dealing with Fe deficiency stress through long-term among the PI lines for the expression of IDC symptoms
+selection and mutation strategies. Therefore, a critical need (Additional file 4). The population had an approximately
+exists to study Fe deficiency responses within a crop species normal distribution for visual score and SPAD measure-
+and across a broad range of diverse genotypes.
+ments at each time point. The correlation between the
+Genome-wide association studies (GWAS) have been IDC ratings at the different time points varied from 0.71
+used to detect quantitative trait loci (QTLS) associated to 0.86 in 2014 and from 0.95 to 0.98 in 2015 with the
+with important agronomic traits in rice, maize, wheat, and greatest correlation observed between T2 and T3 for
+soybean [11-15]. Incorporating diverse plant introduction both field and hydroponic studies (Additional file 1: Fig-
+(PI) germplasm accessions in GWAS increases the likeli- ure S1b). The estimated broad-sense heritability [23] for
+hood of identifying novel genes and rare alleles [16]. A visual scores was 82, 64, and 52% for the first, second,
+previous iron deficiency chlorosis (IDC) GWAS in soy- and third time points, respectively. Comparing any two
+bean identified QTL on seven chromosomes [13]. This samples results in a positive correlation, supporting the
+study was performed in two populations of advanced inclusion of all collected data in our analyses.
+breeding lines developed by public and private breeding
+programs for the upper Midwest. However, the narrow GWAS
+genetic base for U.S. commercial soybean cultivars [17] A total of 97 unique SNPS were identified across all exper-
+limited the likelihood of identifying novel mechanisms iments, with 43, 32 and 48 unique SNPs identified from
+and natural genetic variants for IDC tolerance that could field conditions in 2014 and 2015, and hydroponics, re-
+be used for future soybean improvement.
+spectively (Additional file 5, Additional file 2: Figure S2
+GWAS usually focus on additive genetic effects. However, and Additional file 3: Figure S3). In the 2014 and 2015
+epistatic interactions also contribute to genetic variation field data, 10 (23%) and 23 SNPS (72%) were identified in
+[18, 19]. Detection of genome-wide epistatic (GWE) inter- two or more time points or phenotyping methods, re-
+actions represents a complementary approach to traditional spectively. In the hydroponic conditions, 6 SNPS (13%)
+genetic studies and is essential to understanding the genetic were identified in two or more time points or phenotyping
+architecture of quantitative traits [20]. Studies in human methods. Twelve of the 97 total SNPs (12%) were identi-
+and animal systems have revealed that epistatic interactions fied across multiple years in the field data and of these,
+have major effects on the genetic architecture of complex four (4%) were identified across multiple years of field data
+disease traits [21, 22]. While the utility of GWE studies and in hydroponics. SNPs detected in more than one en-
+(GWES) is acknowledged in the crop research community, vironment are listed in Additional file 6.
+they have not been widely integrated.
+The 97 unique SNPS identified by GWAS were used
+The objective of this study was to use GWAS and to define 69 genomic regions of interest for IDC, each
+GWES to examine the genetic architecture of soybean re- containing at least one significant SNP for at least one
+sponses to Fe deficiency using a diverse panel of germ- experimental measurement. On average, these regions
+plasm accessions genotyped with a dense coverage of were 35 kb in length with a standard deviation of 25.5
+single-nucleotide polymorphism (SNP) markers. Unlike kb. A total of 278 genes in the Williams 82 reference
+traditional QTL or expression analyses, this combinatorial genome were identified from the 69 regions of interest
+approach allowed us to identify novel genes and mecha- [24] (Additional file 7). To identify high priority candi-
+nisms conferring tolerance to IDC within the soybean date genes, we mined available RNA-seq data from
+germplasm collection. By coupling these studies with over leaves and roots of the iron efficient line Clark at 30, 60
+30 years of IDC research, we have deconstructed the and 120 min after iron stress [25] and at 1 and 6h after
+major IDC QTL on soybean chromosome 3 (Gm03) into iron stress [26]. In addition, we mined data from leaves
+multiple discrete regions contributing to IDC tolerance. of the iron inefficient line Isoclark 21 days post gene si-
+The identification of these candidate genes from GWAS lencing of GmRPA3c, a previously identified and charac-
+and GWES will expand our understanding of IDC toler- terized iron response gene, in iron sufficient and
+ance mechanisms and identify important genetic markers deficient conditions [27]. Of the 278 candidate GWAS
+for soybean breeding and improvement.
+genes, 65 were significantly differentially expressed in at
+least one of the previous RNA-seq studies (Additional
+Results
+file 7). The majority of the differentially expressed genes
+Phenotype
+(48), were identified within 2h of iron stress application,
+The phenotypic variation in IDC score among the PI ac- in hydroponic conditions. Only 7 genes were identified
+cessions, averaged across replicates, ranged from highly across multiple studies, reflecting the dynamic nature of
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 3 of 13
+the soybean iron stress response. Of the 65 differentially response to iron stress, four in roots and one in leaves
+expressed genes, 26 were differently expressed in leaves, (Additional file 8). Three of these have also been associated
+36 were differentially expressed in roots, and 5 were dif- with abiotic stress and defense responses in other species
+ferentially expressed in leaves and roots.
+(Glyma.03g128200, Glyma.03 g128300 and Glyma.03
+Interestingly, the twelve SNPs identified across multiple g129400). Interval 2 spans SNPs ss715585456 and
+years in the field data were located within a 392kb window ss715585460 (corresponding to five genes: Glyma.03
+on Gm03 (from 34,364,354 to 35,757,151). Given that this g129600 - Glyma.03g130000. Within this interval both
+region corresponds to a historical IDC QTL [28-31], we Glyma.03g129600 and Glyma.03g130000 were significantly
+were interested in examining linkage across this region. differentially expressed in response to iron stress in roots.
+Clustering (r2 >0.5) of significant SNPS on Gm03 (34,227, Interval 3 spans SNPS ss715585463 - ss715585473 (corre-
+914-34,955,422) identified four distinct linkage blocks (gen- sponding to six genes: Glyma.03g130100 - Glyma.03
+omic intervals) within this 730 kb region (Fig. 1). Interval 1 g130600) including the final segment of the 120 kb IDC
+on Gm03 spans the SNPs ss715585424 and ss715585454 introgression reported by Peiffer et al. [31]. Of the six genes,
+(corresponding to genes Glyma.03g127900 - Glyma.03 three were differentially expressed in response to iron stress
+g129500). Of the 17 genes in this interval, ten overlapped including Glyma.03g130200, Glyma.03 g130400 and
+with the 120kb IDC introgression identified by Peiffer et al. Glyma.03g130600. Interval 4 spans SNPs ss715585477 -
+[31]. Five genes (Glyma.03 g127900, Glyma.03g128200, ss715585531 (corresponding to 30 genes: Glyma.03
+Glyma.03g128300, Glyma.03 g129300 and Glyma.03 g130700 to Glyma.03g133400, Of these, six genes were
+g129400) were significantly differentially expression in differentially expressed in iron stress RNA-seq data
+$ 1
+50 o
+a a
+5 E 5 € 5
+5
+V s
+I
+E E E 5 5 a s A
+2 L5
+I I
+E
+I I
+5
+a a 5 5 a 5 A E €
+ A
+€
+
+€
+5 5 5 5
+
+Interval 1
+Interval 2 Interval 13
+Interval 14
+(175 kb)
+(37 kb)
+(55 kb)
+(309 kb)
+4
+( a 4
+4 -
+a
+4
+4 4
+%
+4
+ €
+C -
+a
+eye
+%&
+-
+% X
+a
+X
+( -
+.
+-
+a
+%
+aege
+-e €
+% <
+A o
+-
+de a o
+- a
+-
+-
+a €
+(  -
+X
+4
+<
+C -
+de
+-
+
+*
+.
+- -
+e
+a
+€
+-
+€
+4
+C
+-
+.
+X -
+- & <
+- %
+o
+a
+-
+oe X
+de
+€
+e
+-
+-
+l
+a
+
+da
+-
+€
+-
+
+-
+of o &
+-   -e
+-
+ % 
+*
+-
+- -
+d
+e
+e
+
+-
+-
+-
+-
+de
+
+- a
+:
+- -
+-
+-
+d
+-
+A
+o
+-
+-
+o - 2 - 
+o a -
+X
+
+- -
+-
+-
+-
+-
+a
+
+o
+r2
+0
+0.2 0.4 0.6 0.8
+1
+Fig. 1 Linkage disequilibrium heat map of QTL region on chromosome 3 (Gm03). Heat map of the linkage disequilibrium (r2) of the 57 SNPS
+within the 576kb region on Gm03 associated with IDC tolerance by previous QTL analyses (Lin et al., 1997; Lin et al, 1998; Peiffer et al, 2012)
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 4 of 13
+including Glyma.03g130900-Glyma.03g131200, Glyma.03 ss715585469, and ss715585486) on Gm03 which inter-
+g132700 and Glyma.03g132900.
+acted with 12 SNPs on other chromosomes (Fig. 2, Add-
+itional file 9). The same approach used to identify
+GWES
+candidate genes in GWAS QTL was used to identify can-
+Epistatic tests identified 20 SNP: SNP interactions be- didate genes within GWES regions. We identified 50 can-
+tween five SNPs (ss715585442, ss715585444, ss715585450, didate genes (Additional file 10 and Additional file 11), of
+(a) E 91 Gmo3
+(b) de 6 Gm03
+3000
+do
+oo
+3443 34.52 34.6 4.69 34.77 .86 6(Mb)
+34.22 aseaa 34.39 34.44 34.5(Mb)
+IT7N/NINNTINS IMT
+E EE HH HE
+E I  -
+-
+ola
+E
+80
+:: EE
+22
+T
+I
+8
+l - el8
+om
+E
+(dywbq-
+1
+(dpbo-
+(c)
+(d)
+97
+ss715591282, AA
+3.5-7 ss715624343 CC
+R
+ss715591282 GG
+3.0- Ss715624343 TT
+e (n=55)
+.
+(n=32) e 2.5-
+R
+8
+8 2.0- n-209) (n=92) 0 a
+0(n=99)
+11
+1.5-
+erza)e
+e (n=71)
+9
+-
+1.0-
+GG
+AA
+AA
+CC
+ss715585486 genotypes
+ss715585444 genotypes
+(e)
+(f)
+73 Gm05
+o
+Gm16
+a
+7
+o
+L
+36150k 36180k 36210k 36240k 36270k 36300k
+30825k 30845k 30865k 30885k 30905k
+MOP MOPA AP  8 APO
+S SEA
+Ste A 6 6f se e SaOA
+a
+A 4
+ds
+&
+/
+d
+-
+eu
+6
+# 9
+02
+Fig. 2 Epistatic interactions between soybean chromosome 3 (Gm03) and chromosomes 5 (Gm05) and 16 (Gm16). a Heat map of SNP: SNP
+interactions between five SNPS on Gm03 and 5s715585486 (Gm05). b Heat map of SNP: SNP interactions between three SNPS onGm03 and
+SS715585444 (Gm16). Colors represent the -log10-transformed P value of each interaction. Statistically significant interactions are highlighted with
+arrows. C and d Impact of the AA allele of ss715585486 (Gm05) and the TT allele of SS715585444 (Gm16) on IDC score. Allelic combinations are
+provided on the X-axis with IDC visual scores on the Y-axis. These alleles confer a one-point improvement on the IDC scale. Lines that are
+heterozygous at the related loci were ruled out e and (f) Candidate gene prediction for epistatic loci. The top panels show -log10 transformed
+P-values of the SNP: SNP interactions plotted in chromosomal position. Middle panels show all putative genes within the regions of interest;
+candidate genes of interest are highlighted in red. Linkage disequilibrium (r2) of chromosomal regions of interest for epistatic interactions are
+plotted in bottom panels
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 5 of 13
+which 13 were differentially expressed in the different iron mitochondrial membrane and are thought to a play a
+stress responsive RNA-seq data sets. All five SNPS on role in mitochondrial signaling during stress [33].
+Gm03 exhibited significant interactions with ss715591282
+on Gm05 (Fig. 2a, C and e). The SNP is not located within Discussion
+any previously identified IDC QTL. The AA allele of this Historical discovery of the IDC QTL on soybean Gm03
+SNP confers a one point improvement on the IDC scale Over the last 35 years, several different approaches have
+compared to the GG allele (Fig. 2c). Three of the five been used to identify genes conferring tolerance to IDC
+SNPs from Gm03 interact with ss715624343 (Fig. 2b, d in soybean. Cianzio et al. [34] and Cianzio and Fehr [35]
+and f); this SNP lies on soybean Gm16, which has not pre- were the first to demonstrate the genetic inheritance of
+viously been reported as an IDC QTL. Analysis shows that IDC tolerance in soybean. In 1997 and 1998, Lin et al.
+a TT allele of ss715624343 accounts for a one-point in- [28, 36] used field and hydroponic studies to identify an
+crease on the five-point chlorosis rating scale compared to IDC QTL on soybean Gm03 that explained 70% of the
+the CC allele.
+phenotypic variation (Fig. 3). In 2010, Severin et al. [30]
+In order to validate GWES results, we took advantage used next-generation sequencing data to identify the
+of StringDB, which stores known interactions between introgression from Fe inefficient T203 into iron-efficient
+proteins [32]. This confirmed an interaction between Clark, used to develop inefficient Isoclark. Peiffer et al.
+candidate gene Glyma.03g129400 (AtBIGYIN), which [31] fine mapped the introgressed region, using Clark
+responds to iron stress (Additional file 7), and Glyma.16 and Isoclark sub-NILs to identify a 120 kb region confer-
+g148100 (At5g55610, Additional file 11). In Arabidopsis, ring IDC tolerance. Of the eighteen genes in this re-
+both of these proteins are located within the outer gion, two candidate genes in soybean were identified
+A
+GmCh03
+B
+à E
+AtPIPSK4
+AtBZIP45
+0 AtGLU1
+175 kb
+I1 8 00
+AtLYC
+I
+8 8 AtBIGYIN
+37kb I2 I I
+AtARR9
+55 kb 13 8 a AtbHLH38
+AtbHLH38
+AtSQD
+309 kb(
+14
+AtBPG2 AtERD5
+AtELD1
+AtRepA
+Previouskvldentifedan
+AtRecA
+Lin et al. 1997 & 2000
+a AtCKX
+Severin et tal. 2010
+Peiffer et al. 2012
+Fig. 3 Deconstructing the IDC QTL on soybean chromosome 3 (Gm03) reveals multiple genes provide IDC tolerance. a) Lin et al. (Lin et al., 1997;
+Lin et al., 2000) identified a major QTL on Gm03 responsible for > 70% phenotypic variation in IDC tolerance (shown in blue). Severin et al.
+(Severin et al, 2010); identified the introgressed region (shown yellow). Peiffer et al. (Peiffer et al, 2012) used fine mapping of sub-NILS to further
+fine map the QTL (shown in grey). b Linkage disequilibrium analysis of the 57 SNPS spanning a 730 kb within the original Lin et al (Lin et al,
+1997) QTL divided this region into four distinct genomic intervals (11, 12, 13, and 14). Each interval contains high priority candidate genes of interest
+(11 1=5 genes; 12= 1gene, 13= 2 genes, 14 == 7 genes) that may be involved in conferring Fe deficiency tolerance either through iron-stress
+responsive (pink), enhanced defense (blue), Fe uptake/transport (green), or altered DNA replication (red). Additional details on this region are
+provided in Additional file 8)
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 6 of 13
+as having the greatest homology to the AtbHLH38 29] and introgressed regions [30] on Gm03. Within this
+transcription factor in Arabidopsis that regulates Fe region, 13 of 16 significant and unique SNPS were iden-
+uptake in the root [37].
+tified across three or more experimental conditions.
+Given the physical distribution of the SNPs across this
+Expression studies of IDC tolerance in soybean
+730 kb region, the linkage disequilibrium (LD) between
+While mapping studies suggested that a single gene likely these SNPS was examined. This approach broke the pre-
+controlled IDC response in Clark, expression studies sug- viously described IDC QTL into four distinct intervals of
+gested the involvement of multiple regulatory cascades. In 175, 37, 55 and 309 kb (intervals 1-4, respectively, Figs. 1
+2009, O'Rourke et al. [38] compared gene expression be- and 3), demonstrating that multiple genes within this
+tween Clark and Isoclark leaves following Fe stress treat- window on Gm03 contribute to IDC tolerance. Intervals
+ment. This study suggested that Isoclark contained a 2 and 3 completely overlapped with the 120kb intro-
+mutation responsible for regulating the expression of gression identified in a previous study [31]. In contrast,
+downstream Fe uptake and transport genes. It also sug- interval 4 did not overlap with the Peiffer IDC introgres-
+gested that regulation of DNA replication and defense was sion at all. Within each of the intervals, high priority
+an important component of Clark's Fe stress response. At- candidate genes involved in signal transduction were
+wood et al. [27] used virus-induced gene silencing (VIGS) identified that could explain the hallmarks of soybean's
+to repress the expression of GmRPA3c (Replication Pro- Fe stress response: defense, DNA replication, and Fe up-
+tein A, subunit 3c) in Isoclark to mirror the expression take/transport.
+observed in Clark. GmRPA3c silencing improved Isoclark Interval 1 contained four high priority candidate genes
+performance during Fe stress and resulted in massive of interest: Glyma.03g128200 (AtTGA6), Glyma.03
+transcriptional reprogramming of genes involved in iron g128300 (AtGLU1), Glyma.03 g128900 (AtLYC), and
+uptake and homestasis, defense/cell death, DNA replica- Glyma.03 g19400 (AtBIGYIN). AtTGA6 regulates cross-
+tion, abiotic stress, regulation of the circadian clock, and talk between salicylic acid (SA) and jasmonic acid (JA)/
+autophagy. Differential expression of DNA replication ethylene defense responses [46]. All three hormones are
+genes has now been observed as early as one hour after Fe also involved in the regulation of Fe deficiency responses
+stress treatment in soybean [26]. The involvement of [47, 48]. AtGLU1 encodes a ferredoxin-dependent glu-
+DNA replication in abiotic and biotic stress responses has tamate synthase. AtGLU1 knock-downs are slightly cho-
+now been reported in multiple crop species including lorotic [49]. Gene expression analyses of AtGLU1 reveal
+maize, barley, and onion [39-43].
+extensive transcriptional reprogramming including re-
+The differential expression of Fe, defense, and DNA rep- pression of photosynthesis-related genes and induction
+lication cascades in soybean suggest the involvement of at of abiotic stress-associated genes. Similarly, AtLYC is in-
+least two regulatory genes in soybean's Fe stress response. volved in non-photochemical quenching under high
+Peiffer et al. [31] identified two candidate BHLH38 tran- light conditions [50]. Transformation of AtLYC in to-
+scription factors in the IDC QTL on Gm03 induced by Fe bacco resulted in increased tolerance to salt stress. AtBI-
+stress in roots. Multiple constructs have been developed GYIN regulates mitochondrial size and number [51].
+and used to silence these genes, but silenced Clark plants Mitochondria are essential for the synthesis of Fe-S clus-
+had no significant phenotypic changes when grown under ters, which are linked to intracellular Fe homeostasis
+Fe stress conditions. While negative results do not pre- [52]. All of these genes, except Glyma.03 g128900
+clude the involvement of these soybean BHLH38 genes in (AtLYC), were differentially expressed in roots 30 min
+Clark's Fe stress response, it again suggests the involve- after iron stress (Additional file 8).
+ment of additional genes. Further, there is no evidence Interval 2 contained a single high priority candidate
+that AtBHLH38 regulates the expression of DNA replica- gene. Glyma.03g130000 was differentially expressed in
+tion or defense genes, nor that regulation of these genes is response to Fe stress in the roots at 30 min (Add-
+a component of the Arabidopsis Fe stress response [6, 44, itional file 8). Glyma.03g130000 encodes a homolog
+45]. Therefore, it is likely that regulation of the DNA repli- of AtRR4 (Response Regulator 4), a component of the
+cation and defense machinery, in response to abiotic cytokinin-signaling pathway. Cytokinin signaling regu-
+stress, is a unique adaptation in crop species. Since only lates a broad range of nutrient and environmental
+one major IDC QTL has been identified in soybean, it stress responses [53] and is directly or indirectly in-
+would suggest that multiple candidate genes reside within volved in regulating Fe uptake genes [54]. AtARR4 is
+this region.
+also directly involved in the regulation of the circa-
+dian clock and the cell cycle. The circadian clock in
+Splitting the IDC QTL on soybeanGm03
+turn regulates the Fe homeostasis genes AtIRT1,
+Of the 69 genomic regions identified in this study, eight AtBHLH38, and AtFERRITIN1 [55]. Similarly, Atwood
+overlapped with the previously identified IDC QTL [28, et al. [27] and Moran Lauter et al. [26] observed
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 7 of 13
+differential expression of circadian clock genes in re- genetic basis of complex traits such as IDC tolerance.
+sponse to Fe stress in soybean.
+Previous soybean IDC studies were limited by their reli-
+Interval 3 contained the two AtBHLH38 (Glyma.03 ance on homology to IDC-associated genes in a model
+g130400 and Glyma.03g130600) transcription factors species or on differential gene expression in response to
+characterized by Peiffer et al. [31]. AtBHLH38 interacts Fe stress in a limited number of genotypes, conditions,
+with FIT and directly enhances the expression of down- or tissues. Using multiple phenotyping methods, devel-
+stream Fe genes FRO2 and IRTI [37]. Both genes are opmental stages, growth conditions, and a diverse germ-
+differentially expressed in response to Fe in the roots at plasm panel, would allow us to discover multiple
+30 min (Additional file 8). Glyma.03 g130600 was also mechanisms governing IDC tolerance in the soybean
+differentially expressed in the roots at 1h (Additional file germplasm collection.
+8). Soybean lines containing a 12bp deletion in SNPS significantly associated with Fe deficiency were
+Glyma.03g130400 were unable to induce the expression identified on every chromosome except Gm04. The gen-
+of the Fe uptake genes GmFRO2 and GmFIT1 under Fe omic regions on Gm03 and Gm19 reside within previ-
+stress conditions.
+ously identified Fe efficiency QTL [28, 60, 61]. The
+Interval 4 is likely one of the most novel regions be- remaining significant SNPs and the associated 228 genes
+cause our analyses placed it outside the 120kb introgres- identified throughout the genome were unique to this
+sion identified by Peiffer et al. [31). This region contains study. Fe specific stress response genes included genes
+four high priority candidate genes: Glyma.03g130900 involved in heavy metal sensing, uptake, and homeosta-
+(AtSDP1), Glyma.03g131100 (AtSQD1), Glyma.03 sis. AtURH2 (Glyma.20 g000200) is involved in Fe
+g132400 (At1G52950) and Glyma.03 g133000 (AtRECA). sensing in yeast and mammals [62], and expression of
+Homologs of SDP1 play an essential role in lipid metab- AtOSX3 (Glyma.06 g056600) confers tolerance to high
+olism and cell survival during stress conditions in yeasts, metal levels and oxidizing chemicals [63]. Glyma.08
+mammals and plants [56]. While AtSQD1 mutants have g347000 is homologous to AtMRP3, a multi-drug
+no obvious phenotypes, AtSQD2 mutants exhibit severe resistance-associated protein induced by multiple heavy
+chlorosis under phosphate starvation conditions [57]. metals, but not Fe [64].
+Both Glyma.03g130900 and Glyma.03g131100 were re- Disease and stress-related genes associated with sig-
+pressed by iron stress in leaves at 120 min. Glyma.03 nificant SNPs had functions conferring tolerance to vari-
+g131100 was induced by iron stress in roots at 30 min ous stresses including heat stress (Glyma.05 g001200 and
+(Additional file 8). Glyma.03g132400 is homologous to Glyma.06G056400 [48, 64, 65]), cold stress (Gly-
+RPA subunit 1 and contains the RPA1 domain ma.05G000200 and Glyma.12G235700 [48, 65, 66]), cad-
+(PTHR23273). RPA is a heterotrimeric protein made of mium tolerance (Glyma.09G110400, [641), shade
+three subunits (RPA1, RPA2 and RPA3) which bind avoidance (Glyma.146032200, [67]), salt stress (Gly-
+single-stranded DNA during DNA repair and replication ma.09G051200, [68]), and phosphate deficiency (Gly-
+[58]. Atwood et al. [27] demonstrated that the majority ma.09G110200, [69]). Genes contributing to disease and
+of RPA subunits respond to Fe stress in soybean. Fur- pathogen responses included four genes on Gm19 en-
+ther, silencing of RPA subunit 3c (GmRPA3c) restored coding canonical disease resistance genes (Gly-
+IDC tolerance in Isoclark. AtRECA regulates DNA re- ma.19G139400, Glyma.19G139500, Glyma.19G139600,
+pair through homologous recombination and is also an and Glyma.19G139700), though none have been
+essential component of DNA replication [59]. Since associated with specific diseases. Additional disease re-
+RECA is targeted to the choloroplast, loss of RECA re- sponse genes include the homologs to AtCDR1 (Gly-
+sults in leaf abnormalities associated with the lack of ma.12G235400), a constitutive disease response gene
+DNA repair. RPA and AtRECA are both important com- involved in Pseudomonas syringae responses, AtPCC1
+ponents of the DNA replication and repair machinery (Glyma.15G256200 and Glyma.15G256300) which is in-
+(KEGG: ath03030, ath03420, ath03430, athh03440). Bi- volved in RPP7-dependent resistance to downy mildew
+otic and abiotic stresses, like IDC, result in the release of [70-72], and AtLECRK (Glyma.02g043000), involved in
+reactive oxygen species that can damage DNA [43]. Rec- resistance to Phytophthora spp.
+ognition of DNA damage results in inhibition of cell DNA replication and cell growth associated genes with
+proliferation, allowing repair to occur. This also inhibits significant SNPs included Glyma.01G193400 (AtCYCD5),
+growth, reducing the need for iron.
+Glyma.02G074800 (AtGAI), and Glyma.05G168600
+(AtEBS1), all important components regulating plant
+GWAS identifies novel IDC genes throughout the soybean growth and the cell cycle [73-75]. In addition, significant
+genome
+SNPs were also identified in two sucrose transporter
+Population-based association studies involving unrelated (AtSUC2) homologs (Glyma.02g075000 and Glyma.02
+individuals are promising approaches for identifying the g075100). Increased sugar accumulation in roots induces
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 8 of 13
+reductase activity and the expression of Fe acquisition Within the GWAS candidate genes for SNP
+genes [76]. A family of SWEET sugar transporters and ss715585450, we identified Glyma.03g129400 (AtBI-
+two SUC2 genes were differentially expressed after 1h of GYIN), which responded to iron stress. Using
+Fe deficiency stress in soybean, confirming the importance StringDB [32], we were able to identify a candidate
+of sugar signaling in soybean's Fe stress response [26]. epistatic gene corresponding to SNP ss715624343,
+The identification of genes involved in Fe specific, general Glyma.16g148100. Given the complexity of the Gm03
+biotic/abiotic stress responses and DNA replication in this regions and that three distinct non-consecutive
+experiment confirms that Fe deficiency responses in soy- GWAS SNPS were able to interact with multiple
+bean occur through multiple novel mechanisms.
+genomic locations, we decided to use StringDB to test
+the interactions of all Gm03 candidate GWAS genes with
+Iron deficiency and epistasis
+all the candidate GWES genes. This identified six potential
+Epistatic interaction analyses identified five SNPs on networks, each containing at least one GWAS and GWES
+Gm03 that fell within three of the four genomic intervals candidate gene (Fig. 4). Ofthe six networks, two contained
+depicted in Fig. 3 (three SNPs in interval one, one SNP iron stress responsive genes. Of particular interest was the
+each in interval three and four). Cumulatively, these 5 network containing the GWAS iron stress responsive gene
+SNPS had epistatic interactions with 13 different gen- Glyma.03 g128300 (AtGLU1). AtGLU1 encodes a
+omic locations, representing 50 candidate interacting ferredoxin-dependent glutamate synthase. Knock-down
+genes. Each of these SNPs interacts with SNP mutants display leaf chlorosis and activation of multiple
+ss715591282, which is located on Gm05 (Fig. 2a, Add- stress responses [49]. In the network, AtGLU1 interacts
+itional file 9). This SNP is not located within any previ- with the GWES candidate genes Glyma.05 g127900
+ously identified IDC QTL (SoyBase.org). Further, it is (At1G72550), a tRNA synthase, and Glyma.06 g206600
+not associated with any QTL identified in this GWAS (A5GO8110/AtHROD, which is required for genome sta-
+study. The AA allele of this SNP confers a more than bility and repair [79]. These results provide further sup-
+one point improvement on the IDC scale compared to port for our epistatic analyses. Exploiting these novel
+the GG allele (Fig. 2c). A one-point increase on a five- findings could result in improved crop performance under
+point IDC rating scale corresponds to a 20% reduction stress conditions.
+in yield [3]. Genomic analyses of the SNP identified nine
+candidate genes, three of which were differentially Conclusions and perspectives
+expressed in response to iron stress. Glyma.05g172300 In this report, we identified a significant number of mo-
+(AtPSBY) encodes a component of photosystem II, lecular markers, genomic regions and candidate genes
+which produces reactive oxygen species in response to responding to iron deficiency. Leveraging genomics-
+stress [77]. The function of the other two iron respon- enabled approaches to study iron deficiency chlorosis is
+sive genes (Glyma.05g172400 and Glyma.05 g172800) is essential for future soybean improvement programsun-
+unknown. It is worth noting the SNP itself is located der multiple objectives [80]. Genome wide studies will
+within Glyma.05g172600 (Fig. 2e). The Arabidopsis benefit from digital and automated phenotyping [81, 82,
+homolog of this gene is Actin Regulated Protein 3 83]. Also, markers reported in this study might help in
+(AtARP3), involved in regulating Ca2+ signaling in future soybean genomic studies. Our genome-wide stud-
+response to salt stress [78]. Though calcium signaling ies leveraged thousands of SNPs, a diverse soybean
+has not yet been characterized in IDC responses, it is a germplasm panel, multiple phenotyping methods, devel-
+conserved signaling response known to be involved in opmental stages and growth conditions. This approach
+multiple nutrient deficiencies including phosphate, po- allowed us to identify novel IDC QTL that could be used
+tassium, boron, and salt. It is possible that any of these for future soybean improvement. By integrating gene ex-
+nine genes in this region are involved in the epistatic pression data from RNA-seq studies of soybean iron
+interaction associated with SNP ss715591282.
+stress responses, we were able to identify high priority
+An additional epistatic interaction involves three candidate genes. The novel GWES study allowed us to
+SNPs on interval one that interact with SNP identify novel gene networks contributing to iron stress
+ss715624343 on Gm16 (Fig. 2b). No IDC QTL have responses in soybean. In addition, we were able to dis-
+been previously discovered on Gm16 (SoyBase.org). sect the historical IDC QTL on Gm03 into four distinct
+While three candidate genes were identified in this genomic intervals. For more than 30 years, it was
+region, none were differentially expressed in response thought that a single candidate gene controlled this QTL
+to iron stress or had obvious function related to bi- accounting for as much as 70% of the observed pheno-
+otic or abiotic stress responses. Remarkably, the TT typic variation in Fe deficiency tolerance. Only through
+allele of this SNP confers a > one point improvement an interdisciplinary approach that combined 30 years of
+on the IDC scale compared to the CC allele (Fig. 2d). breeding, gene expression, and new genome-wide
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 9 of 13
+AT2G42080
+CHX15
+HSP23.6
+AT5G08110
+ARFA1B
+MYB2
+PIP5K4
+GLU1
+AT3G63400
+AT3G10190
+AT1G72550
+SQD1
+MYB78
+RPS12C
+DIS1
+NRPE5
+AT4G02800 AT5G45700
+LHY
+AT3G5780
+BIGYIN
+AT2G42110
+AT2G41250
+BIM1
+AT5G55610
+Fig. 4 Identification of potential gene interactions from GWAS and GWES. Five GWAS SNPS from Gm03 had epistatic interactions with 12 SNPS
+through the soybean genome. Given the complexity of Gm03 region, all Gm03 candidate genes were tested for potential interactions with all
+candidate GWES genes using StringDB (REF). This identified six potential GWAS-GWES interaction networks. Candidate GWAS genes are in blue
+and candidate GWES genes are in yellow. Genes that are differentially expressed in response to iron stress are in ovals. Bold lines confirm
+predicted GWAS SNP and GWES SNP interactions
+association studies could we demonstrate that this re- experiment was set up as a randomized complete block de-
+gion contains multiple candidate genes. Linkages to the sign with two replicates. Soybean IDC checks Clark (IDC
+same biochemical and molecular pathways suggest there tolerant) and Isoclark (IDC susceptible) were included.
+are multiple avenues for generating tolerance to IDC in
+soybean that can be leveraged for future crop Experimental field and soil testing
+improvement.
+An experimental plot previously used for IDC studies
+was selected for the field experiments at the Bruner
+Methods
+farm, Iowa State University. Soil sampling was con-
+Plant materials
+ducted using a soil probe (JMC Soil Samplers, Newton,
+This study included 460 soybean PI accessions from 27 IA) and each sample was analyzed at the Soil and Plant
+countries obtained from the USDA National Plant Germ- Analysis Laboratory at Iowa State University. The soil
+plasm System (www.ars-grin.gov, Additional file 4). Acces- parameters measured were pH (1:1, H20: soil) [85], cal-
+sions were classified by maturity group with 31, 36, and 33% cium carbonate content [86], and Fe content [87].
+classified as maturity groups I, II, and III, respectively. A ran-
+domized complete block design was used with two replicates Iron deficiency chlorosis evaluation
+in 2014 and four replicates in 2015. In 2014, three to four In the field, IDC symptoms were rated on a visual scale
+seeds of each genotype were hand planted in 0.3m long of 1 (no chlorosis) to 5 (severe chlorosis, stunting, and
+plots with a 0.91 m plot-to-plot distance (alleyway) and 0.76 necrosis) at T1 (representing V2 to V3), T2 (represent-
+row to row spacing. In 2015, five seeds were hand planted in ing V5 to V6), and T3 (representing R1, approximately
+0.3 m long hill plots with 0.61 m plot to plot distance (alley- 2 weeks after T2) (Additional file 1: Figure Sla) [34, 88].
+way) and 0.76m row to row spacing. Weeds that emerged Chlorophyll concentration was measured using a Soil
+after sowing were controlled by hand-weeding.
+Plant Analysis Development (SPAD) meter in the field at
+The PI accessions were also evaluated under hydroponic T1 and T2. In the hydroponic system, visual phenotypes
+conditions at the Iowa State University Agronomy Depart- were recorded at T1, T2 and T3 representing the V1, V2
+ment greenhouse in 2015 under 16-h photoperiods. Five and V3 trifoliate stages, respectively. SPAD measure-
+seeds of each PI accession were germinated on germination ments were taken at V1 and V2.
+paper for 7 days. Uniform seedlings of each accession were
+then transplanted into a hydroponic system containing 240 Genotyping and quality control
+L of an Fe deficient medium supplemented with a daily nu- All 460 PI accessions were genotyped using the Illumina
+trient solution as described by Chaney et al. [84]. The Infinium SoySNP50K BeadChip as described in previous
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 10 of 13
+studies [89], and data was obtained from SoyBase Prediction of candidate genes
+(htrps/soybascorg/snps) which contains 42,506 high To identify the GWAS and GWES genomic intervals
+confidence SNPs. BEAGLE genetic analysis software containing candidate genes, the two closest non-
+(version 3.3.1, [90]) was used with the default settings to significant SNPs on either side of a significant SNP were
+impute missing data. Markers missing at a frequency identified (Additional file 5). The non-significant SNPs
+greater than 10% were removed from further analyses. were then queried against the SoyBase genome browser
+After imputation, SNPs with a minor allele frequency (wwsoybaseorgygb2/gb2/gbrowse/gmax20) to determine
+less than 5% were removed from the data set. A total of their position in the genome and to identify all genes lo-
+36,139 SNPs was used for GWA and GWE analyses.
+cated between SNPs. Overlapping SNP intervals were
+combined into a single genomic region. The identified
+genes were then annotated using the SoyBase annotation
+Linkage disequilibrium
+tool (www.soybase.org/genomeannotation), which pro-
+The LD between markers was calculated as the squared vided the best Arabidopsis homolog (The Arabidopsis
+allelic frequency correlation coefficient (r2) using the R Information Resource version 10, WWW. arabidopsis.org).
+package synbreed [91]. The r2 value was calculated inde- Literature searches for Arabidopsis homologs were used
+pendently for euchromatic and heterochromatic regions to identify genes with functions related to Fe deficiency
+because of significant differences in the recombination and abiotic stress tolerance. The soybean genes located
+rates between the two regions [92]. The physical lengths within a SNP interval were also queried against other
+of euchromatin and heterochromatin for each chromo- soybean Fe deficiency genes reported in previous publi-
+some were determined from SoyBase (https://soybase. cations, to link candidate genes with genes differentially
+org/Sequencelntro.php. version Williams82.a2. v1, [24]). expressed in response to IDC and previously reported
+The r2 values for SNPS with a pairwise distance less than IDC QTL [15, 26-28, 30, 31, 36, 38, 61]. When neces-
+10 Mbp in either euchromatic or heterochromatic re- sary, the SoyBase Gene Model Correspondence Lookup
+gions were plotted on a LD decay graph [93] using R (tps/www.soybaseorg/correspondencel) was used to
+[94]. The rate for the LD decay was determined as the compare gene expression data from different genome as-
+chromosomal distance at the point where the average r2 semblies. To examine potential candidate gene interac-
+dropped by half [95].
+tions, the Arabidopsis homologs of candidate genes from
+all Gm03 GWAS and all GWES were examined using
+StringDB version 10.5 [28].
+GWAS and GWES
+The IDC phenotypic data for each PI accession at each
+time point were analyzed using the best linear unbiased Statistical analysis
+prediction (BLUP) and the R package Ime4 [96] to re- The model for IDC visual scores and SPAD measure-
+duce the effects of environmental variation. The mixed ment data collected at each time point was yijk = H +
+linear model accounting for familial relationship was git bj+ eijk, where H is the total mean, gi is the gen-
+fitted for each time point by using the genome associ- etic effect of the ith genotype, bj is the block effect,
+ation and prediction integrated tool (GAPIT) R package and eijk is the residual effect including random error
+[97, 98]. Using the Bayesian information criterion test of and possible interaction between genotype and block.
+model fitness, no population structure was detected Broad-sense heritability estimates for IDC were calcu-
+likely due to the use of genetically diverse core collection lated on an entry mean basis using the equation,
+genotypes in this study (Additional file 12, [99, 100]). H2=0 / [02g+(0? g'y/y) + (02p/ry)), where 02 g = geno-
+The empirical significance level P <0.001, determined by typic variance, 0 g'y = genotype by year interaction,
+1000 permutations, was used as the threshold for SNPs- y= number of years, and r= number of replicates [21].
+trait associations [92]. Considering the low decay rate of Estimation of variance components was computed
+the genome-wide LD in soybean [92], we used LD r2 > using SAS version 9.3 (SAS Institute Inc., Cary, NC).
+0.5 with the most significant SNP to cluster nearby SNPS
+to form the QTL, and the most significant SNP was
+picked to represent each locus, which resulted in mul- Supplementary information
+tiple loci at the previously reported major-effect locus Supplementary information accompanies this paper at https//doi.org/10.
+1186512870-020-237-5,
+on Gm03. The genome-wide epistatic interactions be-
+tween SNP pairs were analyzed using the software Additional file 1: Figure S1. (a and b). Field chlorosis ratings and
+PLINK version 1.07 [101, 102]. To correct the multiple correlations across treatments and time.
+comparisons of SNPS, a Bonferroni threshold of a == 0.05 Additional file 2: Figure S2. Manhattan plots of IDC GWAS for each
+time point.
+was used [103].
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 11 of 13
+Additional file 3: Figure S3. Venn diagrams illustrating the distribution Competing interests
+of significant SNPS associated with IDC detected at different time points.
+The authors declare that they have no competing interests
+Additional file 4. Soybean Plant Introduction (PI) names, maturity
+Author details
+group, and IDC scores for lines utilized in GWAS and GWES analyses.
+'Department of Agronomy, lowa State University, Ames, IA, USA ?United
+Additional file 5. Identification of genomic regions containing SNPS
+States Department of Agriculture, Agricultural Research Service, Corn Insects
+significantly associated with IDC.
+and Crop Genetics Research Unit and Department of Agronomy, lowa State
+Additional file 6. Statistics of the peak SNPS of the QTL associated with University, Ames, IA, USA
+soybean IDC tolerance across environments.
+Received: 18 August 2019 Accepted: 3 January 2020
+Additional file 7. Characterization of candidate genes in GWAS QTL
+Published online: 28 January 2020
+Additional file 8. Characterization of candidate genes in the historical
+IDC QTL on soybean Gm03.
+Additional file 9. Significantly associated epistatic (SNP-SNP)
+References
+interactions for iron deficiency chlorosis.
+1. Zheng SJ. Iron homeostasis and iron acquisition in plants: maintenance,
+Additional file 10. Identification of genomic regions containing
+functions and consequences. Ann Bot 2010105151799-800
+epistatic SNPS (GWES) associated with IDC
+2. George E, Horst W, Neumann E Adaptation of plants to adverse chemical
+soil conditions. In: Marschner H, editor. Mineral nutrition of higher plants.
+Additional file 11. Characterization of candidate genes in GWES
+San Diego: Academic Press Limited; 1995. p. 409-55.
+regions.
+3. Froechlich D, Fehr W. Agronomic performance of soybeans with differing
+Additional file 12. Bayesian Information Criterion values of mixed linear
+levels of iron deficiency chlorosis on calcareous soil. Crop Sci. 1981;21(3):
+model with principal components (PCS) applied for association analysis of
+438-41.
+iron deficiency chlorosis in soybean population.
+4. Bauer P, Ling HQ, Guerinot ML FIT, the FER-like iron deficiency induced
+transcription factor in Arabidopsis. Plant Physiol Biochem. 2007:45(5):260-1.
+5. Long TA, Tsukagoshi H, Busch W, Lahner B, Salt DE, Benfey PN. The bHLH
+Abbreviations
+transcription factor POPEYE regulates response to iron deficiency in
+BLUP: Best linear unbiased prediction; GWAS: Genome-wide association
+Arabidopsis roots. Plant Cell 2010:220)2219-36
+study; GWE: Genome wide epistasis; GWES: Genome wide epistatic study;
+6. Yan JY, Li CX, Sun L, Ren JY, Li GX, Ding ZJ, et al A WRKY transcription
+IDC: Iron deficiency chlorosis; LD: Linkage disequilibrium; QTL: Quantitative
+factor regulates Fe translocation under Fe deficiency in Arabidopsis. Plant
+trait loci; SNP: Single nucleotide polymorphism
+Physiol. 20161713)2017-20.
+7. Henriques R, JasikJ, Klein M, Martinoia E, Feller U,Schell J,et al Knock-out of
+Acknowledgements
+Arabidopsis metal transporter gene IRT1 results in iron deficiency accompanied
+We sincerely acknowledge research assistance provided by Jae Brungardt,
+by cell differentiation defects Plant Mol Biol 200250/4-5)587-97.
+Brian Scott, and members of Singh soybean group at lowa State University. 8. Rogers EE, Guerinot ML FRD3, a member of the multidrug and toxin efflux
+We thank Jennifer Hicks for reviewing the manuscript.
+family, controls iron deficiency responses in Arabidopsis. Plant Cell. 2002;
+14(8):1787-99.
+9. Vert G, Grotz N, Dédaldéchamp F,Gaymard F, Guerinot ML, Briat JF, et al.
+Authors' contributions
+IRT1, an Arabidopsis transporter essential for iron uptake from the soil and
+AS. and AKS designed research; TA, AS. and AKS performed research; T.
+for plant growth. Plant Cell 2002146)1223-33.
+A, JZ, AS, JAO, MAG and AKS. analyzed data; TA, J.Z, ANML, RVCR, 10. Hymowitz T. Speciation and cytogenetics. Soybeans: Improvement
+AS, JAO, MAG. and AKS. wrote manuscript. All authors read and
+Production and Uses. In: Boerma HR, Spech JE, editors. American Society of
+approved the final version of the manuscript.
+Agronomy, Crop Science Society of America, Soil Science Society of
+America. 3rd ed. Madison; 2004. p. 97-129.
+Funding
+11. Huang X Wei ix, Sang T, Zhao Q, Feng Q, Zhao Y, et al Genome-wide
+This research was supported in part by the lowa Soybean Association (AKS
+association studies of 14 agronomic traits in rice landraces. Nat Genet. 2010;
+and AS), Monsanto Chair in Soybean Breeding (AKS), RF Baker Center for
+42(11):961-7.
+Plant Breeding (AKS), the North Central Soybean Research Program (MAG
+12. Kump KL, Bradbury PJ, Wisser RJ, Buckler ES, Belcher AR, Oropeza-Rosas MA,
+and JAO), United States Department of Agriculture CRIS IOW04403 and grant
+et al Genome-wide association study of quantitative resistance to southern
+2017-67021-25965 (AS and AKS), and the United States Department of
+leaf blight in the maize nested association mapping population. Nat Genet.
+Agriculture, Agricultural Research Service Project 3625-21220-005-00D and
+2011;43(2)163-8.
+5030-21220-006-00D (MAG and JAO). The USDA is an equal opportunity
+13. Mamidi S, Lee RK Goos JR, McClean PE. Genome-wide association studies
+provider and employer. Mention of trade names or commercial products in
+identifies seven major regions responsible for iron deficiency chlorosis in
+this publication is solely for the purpose of providing specific information
+soybean (Glycine max). PLOS One. 2014919,e107469.
+and does not imply recommendation or endorsement by the US.
+14. Maccaferri M, Zhang J, Bulli P, Abate Z, Chao S, Cantu D, et al. A genome-
+Department of Agriculture. The funding agencies had no role in the study
+wide association study of Fresistance to stripe rust (Puccinia striformis sf.sp.
+design, data collection, analysis, interpretation of data, writing the
+tritici) in a worldwide collection of hexaploid spring wheat (Triticum
+manuscript, and the decision to publish.
+aestivum L.). G3 GenesGenomes/Genetics. 2015; 5:449-65.
+15. Zhang J, Naik HS, Assefa T, Sarkar S, Reddy RVC, Singh A, et al Computer
+Availability of data and materials
+vision and machine learning for robust phenotyping in genome-wide
+The datasets supporting the conclusions of the present study are included
+studies. Sci Rep. 2017;7:44048.
+within this article (and its additional files). Data not included in the
+16. Frankel OH Genetic perspectives of fgermplasm conservation. Genetic
+supplemental files can be obtained by request to the corresponding author.
+manipulation: impact on man and society. Edited by: Arber, W, Illmensee K
+Seed used in experiments can be obtained from the USDA National Plant
+PeacockWJ, Starlinger P. Cambridge: Cambridge University Press; 1984.161-170.
+Germplasm System.
+17. Hyten DL, Song Q, Zhu Y, Choi IY, Nelson RL, Costa JM, et al Impacts of
+genetic bottlenecks on soybean genome diversity. Proc Natl Acad Sci USA
+200610345M166-71.
+Ethics approval and consent to participate
+18. Eichler EE, Flint J, Gibson G, Kong A, Leal SM, Moore JH, et al. Missing
+Not applicable.
+heritability and strategies for finding the underlying causes of complex
+disease. Nat Rev Genet 201011(6/446-50.
+Consent for publication
+19. Ordovas JM, Robertson R, Cléirigh EN. Gene-gene and gene-environment
+Not applicable.
+interactions defining lipid-related traits. Curr Opin Lipidol 201122(2)129-36
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 12 of 13
+20. Moellers TC Singh A, Zhang J, Brungardt J, Kabbage M, Mueller DS, et al. 46. Zander M, La Camera S, Lamotte O, Métraux JP, Gatz C Arabidopsis thaliana
+Main and epistatic loci studies in soybean for Sclerotinia sclerotiorum
+class-ll TGA transcription factors are essential activators of jasmonic acid/
+resistance reveal multiple modes of resistance in multi-environments. Sci
+ethylene-induced defense responses. Plant J. 201061(2)200-10
+Rep. 2017;7(1)3554.
+47. Brumbarova T, Bauer P, Ivanov R Molecular mechanisms governing
+21. Cheverud JM, Routman EJ. Epistasis and its contribution to genetic variance
+Arabidopsis iron uptake. Trends Plant Sci 201520(2)124-33.
+components. Genetics. 19951398M1455-61.
+48. Shen C Yang Y, Liu K Zhang L, Guo H, Sun T, et al. Involvement of
+22. Hu X, Liu Q, Zhang Z, Li Z, Wang S, He L, et al. SHEsisEpi, a GPU-enhanced
+endogenous salicylic acid in iron-deficiency responses in Arabidopsis JExp
+genome-wide SNP-SNP interaction scanning algorithm, efficiently reveals
+Bot 20166704)4179-93.
+the risk genetic epistasis in bipolar disorder. Cell Res. 201020(7)854-7.
+49. Kissen R, Winge P,Tran DHT, Jorstad TS, Storseth TR, Christensen T, et al.
+23. Hallauer AR, Carena MJ, Miranda Filho JB. Quantitative Genetics in Maize
+Transcriptional profiling of an Fd-GOGATI/GLU1 mutant in Arabidopsis
+Breeding. 3rd ed. New York: Springer; 2010.
+thaliana reveals a multiple stress response and extensive reprogramming of
+24. Schmutz J, Cannon SB, Schlueter J, Ma J, Mitros T, Nelson W, et al Genome
+the transcriptome. BMC Genomics. 2010;11:190.
+sequence of the palaeopolyploid soybean. Nature. 20104630278:178-83 50. Chen X Han H, Jiang P, Nie L, Bao H, Fan P, et al. Transformation of B-
+25. Moran Lauter AN, Rutter L, Cook D, ORourke JA, Graham MA. Examining
+lycopene cyclase genes from Salicornia europaea and Arabidopsis
+short-term responses to a long-term problem: RNA-seq analyses of soybean
+conferred salt tolerance in Arabidopsis and tobacco. Plant Cell Physiol.
+responses to iron deficiency chlorosis. Front Plant Sci Submitt. 2019.
+201152(5)909-21.
+26. Moran Lauter AN, Peiffer GA, YinT, Whitham SA, Cook D,Shoemaker RC, et al
+51. Scott tI, Tobin AK, Logan DC BIGYIN, an orthologue of human and yeast
+Identification of candidate genes involved lin early iron deficiency chlorosis
+FIS1 genes functions in the control of mitochondrial size and number in
+signaling in soybean (Glycine max) roots and leaves BMC Genomics. 2014;15:702.
+Arabidopsis thaliana. J Exp Bot 2006,57(6:1275-80
+27. Atwood SE, O'Rourke JA, Peiffer GA, Yin T, Majumder M, Zhang C et al
+52. Chen OS, Hemenway S, Kaplan J. Inhibition of Fe-S dluster biosynthesis
+Replication protein A subunit 3 and the iron efficiency response in soybean.
+decreases mitochondrial iron export: evidence that Yfhlp affects Fe-S
+Plant Cell Environ. 201437(1)213-34.
+cluster synthesi. Proc Natl Acad Sci U S A 200299019:12321-6
+28. Lin S, Cianzio S, Shoemaker R Mapping genetic loci for iron deficiency
+53. Werner T, Schmilling T. Cytokinin action in plant development Curr Opin
+chlorosis in soybean. Mol Breed. 1997:3(3)219-29.
+Plant Biol 2009,12(5)527-38.
+29. Lin SF, Grant D, Cianzio S, Shoemaker R Molecular characterization of iron 54. Séguéla M, Briat JF, Vert G, Curie C Cytokinins negatively regulate the root
+deficiency chlorosis in soybean. J Plant Nutr. 20002301-12M1929-39
+iron uptake machinery in Arabidopsis through a growth-dependent
+30. Severin AJ, Peiffer GA, Xu WW, Hyten DL, Bucciarelli B, O'Rourke JA, et al. An
+pathway. Plant J 2008:55(2)289-300.
+integrative approach to genomic introgression mapping. Plant Physiol
+55. Hong S, Kim SA, Guerinot ML, McClung CR Reciprocal interaction of the
+2010;154(1)3-12.
+circadian clock with the iron homeostasis network in Arabidopsis. Plant
+31. Peiffer GA, King KE, Severin AJ, May GD, Cianzio SR, Lin SF, et al.
+Physiol. 2013;1612)893-903.
+Identification of candidate genes underlying an iron efficiency quantitative 56. Fan J,Yu L, Xu C A central role for triacylglycerol in membrane lipid
+trait locus in soybean. Plant Physiol. 2012,158/4)1745-54
+breakdown, fatty acid B-oxidation, and plant survival under extended
+32. Szklarczyk D, Franceschini A, Wyder S, Forslund K Heller D, Huerta-Cepas J,
+darkness. Plant Physiol. 2017;174:1517-30.
+et al STRING v10: protein-protein interaction networks, integrated over the 57. Okazaki Y, Otsuki H, Narisawa T, Kobayashi M, Sawai S, Kamide Y, et al.A
+tree of life. Nucleic Acids Res. 201543:D447-52
+new class of plant lipid is essential for protection against phosphorus
+33. Duncan 0, van der Merwe MJ, Daley DO, Whelan J. The outer mitochondrial
+depletion. Nat Commun. 2013;4:1510.
+membrane in higher plants Trends Plant Sci. 2013;18:207-17.
+58. Wold MS. Replication protein A: a heterotrimeric, single-stranded DNA-
+34. Cianzio SR, Fehr WR, Anderson L Genotypic evaluation for iron deficiency
+binding protein required for eukaryotic DNA metabolism. Annu Rev Plant
+chlorosis in soybeans by visual scores and chlorophyll concentration. Crop
+Biol 1997:66(1).61-92.
+Sci. 19791915).644-6.
+59. Rowan BA, Oldenburg DJ, Bendich AJ. RecA maintains the integrity of
+35. Cianzio S, Fehr W. Variation in the inheritance of resistance to iron
+chloroplast DNA molecules in Arabidopsis. JI Exp Bot. 201061010)2575-88
+deficiency chlorosis in soybeans. Crop Sci. 1982:22(2)433-4.
+60. Diers BW, Cianzio SR, Shoemaker RC Possible identification of
+36. Lin SF, Baumer JS, Ivers D, Cianzo SR, Shoemaker RC Field and nutrient
+quantitative trait loci affecting iron efficiency in soybean. J Plant Nutr.
+solution tests measure similar mechanisms controlling iron deficiency
+199215(10)2127-36
+chlorosis in soybean. Crop Sci. 199838(1):254-9.
+61. Charlson DV, Bailey TB, Cianzio SR, Shoemaker RC Molecular marker Satt481
+37. Yuan Y, Wu H, Wang N, LiJ, Zhao W, Du J, et al FIT interacts with
+is associated with iron-deficiency chlorosis resistance in a soybean breeding
+AtbHLH38 and AtbHLH39 in regulating iron uptake gene expression for iron
+population. Crop Sci. 2005;45(6)2394-9.
+homeostasis in Arabidopsis. Cell Res. 2008:18(3)385-97.
+62. Muhlenhoff FU, Molik S, Godoy JR, Uzarska MA, Richter N, Seubert A, et al
+38. O'Rourke JA, Nelson RT, Grant D, Schmutz. J, Grimwood IJ, Cannon S, et al
+Cytosolic monothiol glutaredoxins function in intracellular iron sensing and
+Integrating microarray analysis and the soybean genome to understand the
+trafficking via their bound iron-sulfur cluster. Cell Metab. 2010,12(4)373-85.
+soybeans iron deficiency response. BMC Genomics. 2009;10:376.
+63. Blanvillain R, Kim JH, Wu S, Lima A, Ow DW. OXIDATIVE STRESS 3isa
+39. Yu LX, Setter TL Comparative transcriptional profiling of placenta and
+chromatin-associated factor involved in tolerance to heavy metals and
+endosperm in developing maize kernels in response to water deficit Plant
+oxidative stress. Plant J. 20095714).654-65.
+Physiol. 2003;1312)568-82
+64. Zientara K Wawrzynska A, tukomska J,Lopez-Moya JR, Liszewska F,
+40. Oshino T, Abiko M, Saito R, Ichiishi E, Endo M, Kawagish-Kobayashi M, et al
+Assunçâo AG, et al Activity of the AtMRP3 promoter in transgenic
+Premature progression of anther early developmental programs
+Arabidopsis thaliana and Nicotiana tabacum plants is increased by cadmium,
+accompanied by comprehensive alterations in transcription during high-
+nickel, arsenic, cobalt and lead but not by zinc and iron. J Biotechnol. 2009;
+temperature injury in barley. Mol Gen Genomics. 2007:278(1)31-42
+139(3):258-63.
+41. Panda BB, Achary VMM.Mitogen-actiated protein kinase signal transduction 65. Larkindale J, Vierling E Core genome responses involved in acclimation to
+and DNA repair network are involved lin aluminum-induced DNA damage and
+high temperature. Plant Physiol. 2008:14602)748-61.
+adaptive response in root cells of FAllium cepa L Front Plant Sci 20145:256.
+66. Mastrangelo AM, Belloni S, Barilli S, Ruperti B, Di Fonzo N, Stanca AM, et al
+42. Frey FP, Urbany C Huttel B, Reinhardt R, Stich B. Genome-wide expression
+Low temperature promotes intron retention in two e-cor genes of durum
+profiling and phenotypic evaluation of European maize inbreds at seedling
+wheat Planta. 2005.221(5)705-15.
+stage in response to heat stress. BMC Genomics. 2015;16:123.
+67. Pacin M, Semmoloni M, Legris M, Finlayson SA, Casal J. Convergence of
+43. Hu Z, Cools T, De Veylder L Mechanisms used by plants to cope with DNA
+CONSTITUTIVE PHOTOMORPHOGENESS 1 and PHYTOCHROME
+damage. Annu Rev Plant Biol. 2016,67:439-62.
+INTERACTING FACTOR signalling during shade avoidance. New Phytol 2016;
+44. Stein RI, Waters BM Use ofnatural variation reveals core genes in the transcriptome
+211(3):967-79.
+ofiron-deficient Arabidopsis thaliana roots. J JExp Bot 201263:1039-55.
+68. Renault H, El Amrani A, Berger A, Mouille G, SOUBIGOU-TACONNATL
+45. Waters BM, Mcinturf SA, Stein RJ. Rosette iron deficiency transcript and
+Bouchereau A, et al. y-Aminobutyric acid transaminase deficiency impairs
+microRNA profiling reveals links between copper and iron homeostasis in
+central carbon metabolism and leads to cell wall Idefects during salt stress
+Arabidopsis thaliana. JE Exp Bot. 2012,63:5903-18.
+in Arabidopsis roots. Plant Cell Environ. 20133615X1009-18
+
+
+
+Assefa et al. BMC Plant Biology (2020) 20:42
+Page 13 of 13
+69. Hewitt MM, Carr JM, Williamson CL, Slocum RD. Effects of phosphate
+91. Wimmer V, Albrecht T, Auinger HJ, Schon CC. synbreed: a framework
+limitation on expression of genes involved in pyrimidine synthesis and
+for the analysis of genomic prediction data using R. Bioinformatics.
+salvaging in Arabidopsis. Plant Physiol Biochem 4. 2005;3(2):91-9.
+201228015)2086-7.
+70. Sauerbrunn N, Schlaich NL. PCCI: a merging point for pathogen defence
+92. Zhang J, Song Q, Cregan PB, Nelson RL, Wang X, Wu J,et al. Genome-wide
+and circadian signalling in Arabidopsis. Planta. 2004218(4).552-61.
+association study for flowering time, maturity dates and plant height in
+71. Xia Y, Suzuki H, Borevitz J, Blount J, Guo Z, Patel K et al. An extracellular
+early maturing soybean (Glycine max) germplasm. BMC Genomics. 16:217.
+aspartic protease functions in Arabidopsis disease resistance signaling.
+93. Remington DL Thornsberry JM, Matsuoka Y, Wilson LM, Whitt SR, Doebley J,
+EMBO J 2004,23(4)980-8.
+et al. Structure of linkage disequilibrium and phenotypic associations in the
+72. Eulgem T.Tsuchiya T, Wang XJ, Beasley B, Cuzick A, Tor M, et al EDM2 is
+maize genome. Proc Natl Acad Sci IUSA 200198020:11479-84.
+required for RPP7-dependent disease resistance in Arabidopsis and affects 94. R Core Team. R: a language and environment for statistical computin.
+RPP7 transcript levels. Plant J. 200749(5)829-39.
+Vienna; 2013.
+73. Boruc J, Mylle E, Duda M, De Clercq R, Rombauts S, Geelen D, et al.
+95. LiH, Peng Z, Yang X Wang W, Fu J, Wang J, et al. Genome-wide
+Systematic localization of the Arabidopsis core cell cycle proteins reveals
+association study dissects the genetic architecture of oil biosynthesis in
+novel cell division complexes Plant Physiol. 201015202,553-65
+maize kernels. Nat Genet. 2013:45(1):43-50.
+74. Sterken R, Kiekens R, Boruc J, Zhang F, Vercauteren A, Vercauteren I, et al 96. Bates D, Maechler M, Bolker B. Linear mixed-effects models using S4 classes.
+Combined linkage and association mapping reveals CYCDS; ;1as a
+R package version. 2005,0:98-1.
+quantitative trait gene for endoreduplication in Arabidopsis. Proc Natl Acad 97. Zhang Z, Ersoz E, Lai CQ, Todhunter RJ, Tiwari HK Gore MA, et al Mixed
+Sci U S A 2012109012)4678-83
+linear model approach adapted for genome-wide association studies. Nat
+75. Blanco-Herrera F, Moreno AA, Tapia R, Reyes F, Araya M, D'Alessio C et al
+Genet 2010;42(4)355-60
+The UDP-glucose: glycoprotein glucosyltransferase (UGGT), a key enzyme in 98. Lipka AE, Tian F, Wang Q, Peiffer J, Li M, Bradbury PJ, et al. GAPIT:
+ER quality control, plays a significant role in plant growth as well as biotic
+genome association and prediction integrated tool. Bioinformatics. 2012;
+and abiotic stress in Arabidopsis thaliana. BMC Plant Biol 2015;15.
+28(18):2397-9.
+76. Lin XY, Ye YQ, Fan SK, Jin CW, Zheng SJ. Increased sucrose accumulation
+99. Coser SM, Chowda Reddy RV, Zhang J,Mueller DS, Mengistu A, Wise KA,
+regulates iron-deficiency responses by promoting auxin signaling in
+et al. Genetic architecture of charcoal rot (Macrophomia phaseolina)
+Arabidopsis plants. Plant Physiol. 201617002)907-20.
+resistance in soybean revealed using a diverse panel. Front Plant Sci 2017;8:
+77. Pospisil P. Production of reactive oxygen species by photosystem llas a
+1626.
+response to light and temperature stress. Front Plant Sci. 2016;7:1950.
+100. Oliveira MF, Nelson RL, Geraldi IO, Cruz CD, de Toledo JFF. Establishing a
+78. Zhao Y, Pan Z, Zhang Y, Qu X, Zhang Y, Yang Yet al. The actin-related
+soybean germplasm core collection. Field Crop Res. 20101192-3)277-89
+protein2/3 complex regulates mitochondrial-associated calcium signaling
+101. Purcell IS, Neale B, Todd-Brown K Thomas L, Ferreira MA, Bender D, et al
+during salt stress in Arabidopsis. Plant Cell 201325(011)4544-59
+PLINK: :a tool set for whole-genome association and population-based
+79. Rohrig S, Dorn A, Enderle J, Schindele A, Herrmann NU, Knoll A, et al.
+linkage analyses. Am JI Hum Genet. 200781(3)559-75.
+The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in
+102. Zhang J, Singh A Mueller DS, Singh AK Genome-wide association and
+Arabidopsis in a common pathway with the Fanconi anemia-associated
+epistasis studies unravel the genetic architecture of sudden death
+nuclease FAN1 and the postreplicative repair ATPase RADSA. New
+syndrome resistance in soybean. Plant J 84(6):1124-36.
+Phytol. 2018218:1478-90.
+103. Bonferroni C Teoria statistica delle classi e calcolo delle probabilita. Pubbl
+80. Deniz Akdemir, William Beavis, Roberto Fritsche-Neto, Asheesh K Singh,
+del Rlst Super di Sci Econ e Commericiali di Firenze. 1936,83-62.
+Julio Isidro-Sanchez, (2019) Multi-objective optimized genomic breeding
+strategies for sustainable food improvement. Heredity 122 (5):672-683.
+Publisher's Note
+81. Sambuddha Ghosal, David Blystone, Asheesh K Singh, Baskar
+Springer Nature remains neutral with regard to jurisdictional claims in
+Ganapathysubramanian. Arti Singh, Soumik Sarkar, (2018) An explainable
+published maps and institutional affiliations.
+deep machine vision framework for plant stress phenotyping. Proceedings
+of the National Academy of Sciences 115 (18):4613-4618.
+82. Tianshuang Gao, Hamid Emadi, Homagni Saha, Jiaoping Zhang, Alec
+Lofquist, Arti Singh, Baskar Ganapathysubramanian, Soumik Sarkar, Asheesh
+Singh, Sourabh Bhattacharya, (2018) A Novel Multirobot System for Plant
+Phenotyping. Robotics 7 (4).61.
+83. Asheesh Kumar Singh, Baskar Ganapathysubramanian, Soumik Sarkar, Arti
+Singh, (2018) Deep Learning for Plant Stress Phenotyping: Trends and
+Future Perspectives. Trends in Plant Science 23 (10):883-898.
+84. Chaney RL, Coulombe BA, Bell PF, Angle JS. Detailed method to screen
+dicot cultivars for resistance to Fe-chlorosis using FeDTPA and bicarbonate
+in nutrient solutions. .J Plant Nutr. 199215(10)2063-83
+85. Watson ME, Brown JR. pH and lime requirement. In Brown JR ed.
+Recommended Chemical Soil Test Procedures for the North Central Region.
+North Central Regional Research Publication. 1998:13-6.
+86. Sherrod IL, Dunn G, Peterson G, Kolberg R Inorganic carbon analysis by
+modified pressure-calcimeter method. Soil Sci Soc Am J. 200266(1)299-305.
+87. Whitney DA Micronutrients: zinc, iron, manganese and copper. In Brown JR
+ed. Recommended Chemical Soil Test Procedures for the North Central
+Ready to submit your research? Choose BMC and benefit from:
+Region. North Central Regional Research Publication. 1998:1-4.
+88. Fehr WR, Caviness CE. Stages of soybean development. Stages of soybean
+ fast, convenient online submission
+development 1977. Ames: lowa State University of Science and Technology,
+: thorough peer review by experienced researchers sinyour field
+lowa Agriculture and Home Economics Experiment Station. Special Report
+rapid publication on acceptance
+89. Song 87. Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, et al
+support for research data, including large and complex data types
+Development and evaluation of SoySNP50K a high-density genotyping
+gold Open Access which fosters wider collaboration and dincreased citations
+array for soybean. PLOS One. 2013;8(1).
+maximum visibilityfor your research: over 100M website views per year
+90. Browning SR, Browning BL Rapid and daccurate haplotype phasing and
+missing-data inference for whole-genome association studies by use of
+At BMC, research is always in progress.
+localized haplotype clustering. Am JI Hum Genet. 2007,81(5:1084-97.
+Learn more biomedentalcon/ubmisions
+BMC

@@ -1,0 +1,1288 @@
+Li et al. BMC Genetics (2019) 20:39
+htps/doiorg/10.118612863-01907379
+BMC Genetics
+RESEARCH ARTICLE
+Open Access
+Genome-wide association study of
+Check for
+updates
+four yield-related traits at the R6 stage
+in soybean
+Xiangnan Li', Xiaoli Zhang ' Longming Zhu', Yuanpeng Bu', Xinfang Wang', Xing Zhang', Yang Zhou',
+Xiaoting Wang', Na Guo', Lijuan Qiu?, Jinming Zhao" and Han Xing"o
+Abstract
+Background: The 100-pod fresh weight (PFW), 100-seed fresh weight (SFW), 100-seed dry weight (SDW) and moisture
+content of fresh seeds (MCFS) at the R6 stage are crucial factors for vegetable soybean yield. However, the genetic
+basis of yield at the R6 stage remains largely ambiguous in soybean.
+Results: To better understand the molecular mechanism underlying yield, we investigated four yield-related traits of
+133 soybean landraces in two consecutive years and conducted a genome-wide association study (GWAS) using
+82,187 single nucleotide polymorphisms (SNPS). The GWAS results revealed a total of 14, 15, 63 and 48 SNPS for PFW,
+SFW, SDW and MCFS, respectively. Among these markers, 35 SNPS were repeatedly identified in all evaluated
+environments (2015, 2016, and the average across the two years), and most co-localized with yield-related QTLS
+identified in previous studies. AX-90496773 and AX-90460290 were large-effect markers for PFW and MCFS,
+respectively. The two markers were stably identified in all environments and tagged to linkage disequilibrium (LD)
+blocks. Six potential candidate genes were predicted in LD blocks; five of them showed significantly different
+expression levels between the extreme materials with large PFW or MCFS variation at the seed development stage.
+Therefore, the five genes Glyma.16g018200, Glyma.169018300, Glyma.059243400, Glyma.059244100 and Glyma.059245300
+were regarded as candidate genes associated with PFW and MCFS.
+Conclusion: These results provide useful information for the development of functional markers and exploration
+of candidate genes in vegetable soybean high-yield breeding programs.
+Keywords: Soybean [Glycine max (L.) Merr.], Yield-related traits, R6 stage, GWAS, Quantitative trait locus, Single
+nucleotide polymorphism (SNP)
+Background
+R6 growth stage when the pods are still green and fully
+Soybean (Glycine max (L.) Merr.) is a widely cultivated filled with seeds [2]. The characteristics of large pods
+oil crop worldwide. Soybean seeds are used to supply and large grains are important visual qualities of vege-
+edible oil and serve as a source of high-quality plant table soybeans [3, 4]. Therefore, yield has long been con-
+protein [1]. According to different harvest times and sidered one of the most important traits in vegetable
+uses, soybean crops can be divided into grain or vege- soybean breeding. The vegetable soybean yield is directly
+table crops. Vegetable soybean is harvested during the determined by yield components, including the number
+of pods per plant, seeds per pod, fresh seed weight and
+fresh pod weight. Furthermore, vegetable soybean seeds
+Correspondence: jmz3000@1 126.com; hanx@njaueducn
+'National Center for Soybean Improvement/National Key laboratory of Crop have a high moisture content of approximately 70.05%,
+Genetics and Germplasm enhancement, Key laboratory of Biology and
+which serves both as a yield component and as an influen-
+Genetics and Breeding for Soybean, Ministry of Agriculture, Nanjing
+cing factor of sensory quality [5). In maize, grain moisture
+Agricultural University, Nanjing 210095, People's Republic of China
+Full list of author information is available at the end of the article
+has a higher K than does grain yield, and several quantitative
+OThe Author(s). 2019 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BMC International License fhtp/ceativecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made The Creative Commons Public Domain Dedication waiver
+Omploeswecommonsoy/pulbicdonainv.eonon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 2 of 15
+trait loci (QTLS) are commonly associated with grain Methods
+yield and grain moisture [6]. With economic develop- Plant materials and field trials
+ment, the demand for vegetable soybeans has increased, A total of 133 soybean landraces came from the soybean
+but there are fewer available reports on the yield of mini core collection, and the soybean mini core collec-
+vegetable soybean than grain soybean at present. There- tion were selected from 23,587 soybean germplasms in
+fore, dissecting the genetic basis of soybean yield at the the Chinese National Soybean GeneBank. Thus the 133
+R6 stage is necessary and will help to improve the yield soybean landraces had abundant genetic diversity and
+potential of vegetable soybean.
+were suitable for association analysis [24]. The 133 soy-
+Yield-related traits are usually complex quantitative bean germplasms came from 24 provinces and were dis-
+traits influenced by multiple QTLs. Previous studies tributed in four ecoregions of China as follows: The
+were conducted to dissect the genetic basis of yield-re- Northeast region (NER), the North region (NR), the
+lated traits in biparental populations. Hundreds of QTLs Huanghuai region (HHR) and the South region (SR)
+were detected across the whole genome of soybean, (Additional file 1: Table S1).
+many were simultaneously detected in multiple popula- These germplasms included abundant genetic diversity
+tions [7-13]. These studies demonstrated that the gen- due to geographic, climatic and cultivation factors
+etic mapping of quantitative traits using genetic linkage present in China and could be used for GWAS analysis.
+maps is an efficient approach for identifying QTLs. They were planted at the Jiangpu Experimental Station of
+Compared with linkage mapping, a genome-wide asso- the Agricultural University of Nanjing, China (32.04N
+ciation study (GWAS) is a more powerful method for 118.63E) in late June 2015 and 2016, according to a
+dissecting the QTLs underlying agronomically import- completely randomized block design, with two years
+ant traits in natural populations with a high density of and three replications. Planting was performed with
+markers. Natural populations contain more genetic two rows per plot and 40 plants per row, with plant
+diversity than cross-derived segregating populations, spacing of 10 cm and row spacing of 50 cm.
+which can be applied directly in GWAS analysis [14]. In
+addition, GWAS can effectively identify candidate genes Phenotypic evaluation and statistical analysis
+that are closely linked to target traits, due to the low level Four yield-related traits, the 100-pod fresh weight (PFW),
+of genomic linkage disequilibrium (LD) [15-18].
+100-seed fresh weight (SFW), 100-seed dry weight (SDW)
+At present, association studies have been successfully and moisture content of fresh seeds (MCFS), were investi-
+performed in grain soybean for yield-related traits. For gated at the R6 growth stage during which the pods
+example, 19 SNPs and 5 haplotypes for yield and yield contain full-size green beans. At least fifty pods were
+components were identified in a soybean landrace popu- harvested for each replication in each year. The pods
+lation [19]. For seed size and shape, a total of 59 were then weighed on the electronic scale, and PFW
+large-effect QTLs and 31 QTL-by-environment interac- g) was calculated. Next, the pod husks were stripped,
+tions were identified in another study, which were closely and seed weight was measured to determine SFW (g).
+related to seed yield and appearance quality [20]. Further- The seeds were then killed by heating at 110°C for
+more, multiple research groups have searched for QTLs 30 min and dried at 65 °C to a constant weight to ob-
+related to flowering time and maturity dates that could in- tain the SDW (g). Finally, MCFS (%) was calculated
+fluence soybean yield [21, 22]. Many of the above QTLs using the following formula.
+are located in or near QTLs reported in the previously
+linkage analysis. Based on the QTLs reported to date, sev-
+SFW( (g)-SDW( &
+eral candidate genes have been identified. Gu et al. (2017)
+MCFS(%) = SFW(g) X 100%
+proposed SoyWRKY15a as a candidate gene locus for seed
+size, and differential expression of its orthologous genes Statistical analyses for all traits were performed using
+GmWRKY15a and GsWRKY15a in soybean pods was SAS version 9.4 [25]. Analysis of variance (ANOVA) of
+correlated with the seed weight [23]. However, the the phenotypic data across multiple environments was
+molecular mechanism underlying yield-related traits performed using PROC GLM. The statistical model was
+in vegetable soybean remains unclear.
+as follows: Yijk = U + ai +Bi + Ykj + (aB)ij + Eijks where H is
+In this study, we genotyped a panel of 133 soybean the overall mean, ai is the genetic effect of the ith geno-
+landraces using 82,187 SNPS and surveyed four type, B; is the effect of the jth environment, Ykj is the
+yield-related traits at the R6 stage in two consecutive random effect of the kth replicate in the jth environment,
+years. The objectives of this study were to (1) reveal the (aB)ij is the interaction effect between the ith genotype
+genetic basis of yield-related traits in soybean at the R6 and the jth environment, and Eijk is the residual. As
+stage and (2) provide valuable markers and candidate sources of variation, the environment, genotype, replica-
+genes for the molecular breeding of vegetable soybean. tion within environment, and genotype x environment
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 3 of 15
+were treated as random effects. The formula for calculat- of the population structure (Q), PCA, and evaluation of
+ing broad-sense heritability is:
+the relative kinship (K) of 133 soybean landraces, the
+h2 a2/(a2 + age/n + a2/rn), d is the genotypic effects of these parameters on association analyses were
+variance, 2 is the genotype by environment interaction evaluated with the following statistical models: (1) a
+variance, a is the error variance, n is the number of general linear model (GLM) with Q; (2) GLM with PCA;
+environments, and r is the number of replications. All of (3) a mixed linear model (MLM) with PCA and K; (4) and
+the above variance values can be calculated using the MLM with Q and K. Genome-wide association analyses
+REML method for the SAS VARCOMP procedure.
+were performed by TASSEL V5.2.15. The significance
+threshold for SNP-trait associations was determined
+by 1/n where n is the number of markers in the asso-
+SNP genotyping
+ciation panel, and Ps 1/82,187, or -Log1o(P) 2 4.91 [33].
+The association panel was genotyped using a 180 K
+AXIOM SoyaSNP array [26], and a total of 169,028 Prediction of candidate
+high-quality single nucleotide polymorphisms (SNPS)
+genes
+To identify candidate
+underlying the association
+were used for association mapping. In this study, SNPs
+genes
+signals, we selected significant SNPs associated with
+with minor allelic frequencies (MAFS) of less than 5%
+large-effect QTLs to search candidate genes in their can-
+and a missing rate of more than 10% were excluded from
+didate regions. The candidate regions were defined
+further analysis. As a result, 82,187 SNPs remained and
+by
+the average LD decay distance or the LD block. The
+were used in marker-trait association analysis. The density
+soy-
+bean reference genome was Wm82.a2.v1, and the func-
+of the SNPs was estimated as one SNP per 11.76kb for
+tional annotations and tissue expression of
+located
+the 20 soybean chromosomes.
+genes
+in the candidate regions were obtained from Phytozome
+Ontpl/www.phytozomened. Based on the soybean
+Population structure and linkage disequilibrium
+genomic annotations and expression data, potential
+We used PLINK V1.07 to perform SNP filtering by candidate genes were predicted.
+setting the MAF to 0.2 and the call rate to 0.1. The To determine the expression of potential candidate
+remaining data contained 8270 SNPS, which were used to genes, we used quantitative real-time PCR (qRT-PCR) to
+construct a population structure in STRUCTURE 2.3.4. analyze their expression in extreme materials with large
+The number of subgroups (K) was set from 1 to 6, with 4 phenotypic differences. Based on the phenotypic data in
+replications. The length of the burn-in period was set to 2015 and 2016, the materials (ZDD21907 (PFW 198 g),
+10,000, and the number of Monte Carlo Markov Chain ZDD20532 (PFW 39 g), ZDD01983 (MCFS 75.5%) and
+(MCMC) replications was set to 100,000. The suitable K ZDD02315 (MCFS 61.7%)) showed stable and large
+in this population was determined by the log probability phenotypic differences, therefore we chosen them as the
+of the data LnP(D) and delta K. In previous studies, the extreme materials and cultivated in the field. Three rep-
+mini core collection was divided into two or three licate biological samples were collected in liquid nitro-
+distinct subgroups depending on the markers used in gen at three stages during soybean seed development
+the tests [24, 27, 28].
+(R5(3-mm-long seeds in a pod at one of the four upper-
+A total of 82,187 SNPS (MAF > 0.05) were employed most nodes on the main stem, with a fully developed
+to conduct principal component analysis (PCA) and leaf), R6 (pods containing green seeds that fill the pod
+construct a neighbor-joining (NJ) phylogenetic tree cavity, located at one of the four uppermost nodes on
+using PLINK V1.07 and PHYLIP. The kinship matrix the main stem, with a fully developed leaf) and R7 (one
+was assessed using TASSEL V5.2.15 to determine the normal pod on the main stem that has reached the ma-
+relatedness among individuals based on the SNP dataset ture pod color)), as defined by Fehr (1977) [34]. Total
+[29]. Linkage disequilibrium parameters (12) for esti- RNA was extracted from R5, R6, and R7 seeds using a
+mating the degree of LD between pairwise SNPS (MAF> RNA Simple Total RNA kit (TIANGEN, China). CDNA
+0.2) were calculated using PLINK V1.07, and a figure was synthesized using a Prime Script" RT Reagent Kit
+showing average LD decay was drawn with R [30]. The (TaKaRa, Japan) with a standard protocol. The CDS se-
+LD decay rate of the population was measured as the quences of the potential candidate genes were obtained
+chromosomal distance when the average 2 decreased to from Phytozome Ohtp/hwwephytozomened) The
+half its maximum value [31].
+qRT-PCR primers were designed with Primer Premier
+5.0 and were listed in Additional file 2: Table S2.
+Association mapping
+GmEF1B (GenBank ID AK286947.1) was selected as the
+The population structure and relative kinship in natural control gene, and the qRT-PCR assays were conducted
+populations always result in a high level of spurious three times using a Light Cycler 480 instrument. The
+positives in association mapping [32]. After assessment relative expression level of the candidate genes was
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 4 of 15
+calculated using the comparative 2-AACT method [35]. (9.57 kb/SNP) was found on Chr.16. Thus, the markers
+Statistical analyses were performed with Dunnett's tests were unevenly distributed throughout the genome
+and Student's t-tests.
+(Additional file 3: Table S3). The MAFS of the 82,187
+SNPs are shown in Fig. 2. The average MAF was 0.24,
+Results
+and most of the SNPS (60.5%) exhibited an MAF higher
+Phenotypic analysis of four yield-related traits
+than 0.2. The mean gene diversity (GD) was 0.37, and the
+A total of 133 soybean landraces were planted in two values ranged from 0.34 to 0.40. The polymorphism infor-
+consecutive years, and four yield-related traits were mation content (PIC) of all markers ranged from 0.29 to
+investigated. The average values of these traits across the 0.33, with an average of0.31 (Additional file 3: Table S3).
+two years showed a continuous distribution in the GWAS Genome-wide LD decay in the association panel was
+panel of 133 soybean landraces, with a wide range of va- estimated. A rapid decline in LD was observed with
+riation (Table 1). PFW exhibited 9.25-fold variation, increasing physical distance between pairwise SNPS. The
+ranging from 35.9g to 332.1 g, with an average of mean length of LD decay decreased rapidly to 21 kb at a
+118.2 + 39.2g. SFW and SDW showed approximately cut-off of 7 = 0.5. The overall LD decay for all chromo-
+8-fold differences, ranging from 8.7 g to 72.4g and somes was estimated as 119.07 kb, where 7 = 0.375 (half
+2.7 g to 21.7 g, respectively. MCFS showed 1.38-fold of its maximum value) (Fig. 3).
+variation, ranging from 57.0 to 79.0%, with an average
+of 66.0 + 4.0%. The frequency distribution of the four Population structure analysis
+yield-related traits displayed an approximately normal dis- Population structure analysis showed that the mean LnP
+tribution except for a few materials that showed large de- (K) did not plateau at a single k value but instead con-
+viation (Fig. 1). According to the method described by tinued to increase with relatively constant increments.
+Wyman (1991) [36], the broad-sense heritability (h?) was Calculation of Delta K revealed a sharp peak at k = 2;
+calculated for the four traits. All traits presented an h? therefore, the 133 soybean landraces were divided into
+above 82%, suggesting that genetic effects play a pre- two subgroups, designated subgroupl and subgroup2
+dominant role in the phenotype variation of these traits (Fig. 4a and c). The geographical origins of the 133 soy-
+(Table 1). Phenotypic correlations were analyzed between bean landraces were the Northeast region (NER), the
+the four traits, and most exhibited significant positive cor- North region (NR), the Huanghuai region (HHR) and
+relations with each other (p <0.05; Table 2). Highly signifi- the South region (SR). Subgroup 1 contained 101 acces-
+cant positive correlations were observed between PFW, sions; among these, 63 accessions belonged to SR, 21
+SFW and SDW, with phenotypic correlation coefficients accessions belonged to HHR, 5 accessions belonged to
+(rp) above 0.914. MCFS showed a significant positive NR, and 12 accessions belonged to NER. Subgroup 2
+correlation with PFW and SFW (rp = 0.205, Tp =0.245) but was small and included only 32 accessions; among these,
+showed a nonsignificant negative correlation with SDW, 2 accessions belonged to SR, 10 accessions belonged to
+suggesting that MCFS is an important factor influencing HHR, 13 accessions belonged to NR, and 7 accessions
+the yield of fresh pods.
+belonged to NER (Additional file 4: Table S4). Notably,
+most accessions from SR (97%) were included in sub-
+Distribution of markers and linkage disequilibrium
+group 1, whereas most accessions from NR (72%) were
+A total of 82,187 high-quality SNPS (MAF > 0.05, missing included in subgroup 2, suggesting that the population
+rate < 10%) were used for a GWAS of the four traits, with stratification of the 133 accessions essentially corre-
+an average marker density of 11.76 kb/SNP at the genome- sponded to their geographic origins. The NJ tree and
+wide scale. The lowest marker density (16.28 kb/SNP) PCA provided further support for the population struc-
+was found on Chr.14, and the highest marker density ture results (Fig. 4b and d).
+Table 1 Statistics of 100-pod fresh weight (PFW), 100-seed fresh weight (SFW), 100-seed dry weight (SDW) and moisture content of
+fresh seeds (MCFS) for the 133 soybean landraces
+Traits
+Mean + SD
+Range
+FG
+FE
+FAGXE
+Heritability"(%6)
+PFWIg)
+118.2 + 39.2
+35.9-332.1
+84.7"
+98.6"
+29"
+96.7
+SFW(g)
+27.3 + 8.6
+8.7-72.4
+68.0"
+1121.8"
+45"
+93.5
+SDW(g)
+9.2 + 2.7
+2.7-21.7
+30.9"
+985.8"
+3.9"
+87.6
+MCFS(96)
+66.0 + 4.0
+57.0-79.0
+15.0"
+197.9"
+2.6"
+83.1
+*FG FE, and FGXE represent the F value for genotypic, environmental effects and genotype x environment interaction, respectively
+bEntry mean-based heritability: H =0 glo gto geln+0 /(rn)), where og is the genotypic variance, o'ge is the genotype by environment tinteraction variance,
+o is the error variance, ,nis the number of environments, ris the number of replications
+*** Significant at tp <0.001
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 5 of 15
+a
+b
+80 7
+80
+9
+4f
+00
+00
+&
+&  -
+I
+-
+of
+of
+0 H
+0
+r
+r
+50 100 150 200 250 300 350
+10 20 30 40 50 60 70
+C
+d
+8 7
+80 -
+00
+49 -
+I
+&
+00
+&
+f
+of
+5
+5
+10
+15
+20
+60
+65
+70
+75
+Fig. 1 Distribution of four yield-related traits, showing mean values across 2years: a 100-pod fresh weight (g), b 100-seed fresh weight, C 100-
+seed dry weight, and d moisture content of fresh seeds
+Model comparison for the control of false associations
+were much closer to the expected P values than those
+Association analyses for the four yield-related traits were from the GLM (Q) model, indicating that the GLM
+performed to evaluate the effects of different models on (PCA) model could effectively control false-positive as-
+the control of false associations. For PFW and SFW, the sociations and avoid false-negative associations. Thus,
+observed P values from the GLM(Q) model showed the for PFW and SFW, the MLM (Q + K) model was chosen
+greatest deviation from the expected P values assuming for subsequent association analyses, whereas for SDW
+that no association exists, followed by the GLM (PCA) and MCFS, the GLM (PCA) model was selected.
+model. The P values from the MLM (Q+K) and MLM
+(PCA + K) models were similar and close to the expected Genome wide association analysis of four yield-related
+P values, and the effects of the MLM (Q + K) and MLM traits
+(PCA+ K) models on the controlling false associations Using GWAS, a total of 111 and 146 associations
+were similar (Fig. 5). For SDW and MCFS, the observed (-Log1o(P) > 4.91) were evaluated for the four yield-related
+P values from the MLM (PCA + K) and MLM (Q+K) traits using the means across 2 years and within individual
+models were lower than the expected P values, suggest- years, respectively (Additional file 5: Table S5). The result-
+ing that the two models excessively corrected the ob- ant quantile-quantile plots and Manhattan plots are
+served P values; thus, no significant associations were shown in Additional file 6: Figure S1, Additional file 7:
+identified. The observed P values from the GLM (PCA) Figure S2, Additional file 8: Figure S3 and Additional file 9:
+and GLM (Q) models were higher than the expected P Figure S4. For PFW, fourteen SNPs were detected
+values, and the observed P values from GLM (PCA) (Additional file 5: Table S5). Among these SNPS, nine
+were repeatedly detected in all environments and were
+Table 2 Correlation coefficients among four yield-related traits distributed on 7 of 20 soybean chromosomes, and the
+Traits
+PFW
+SFW
+SDW
+MCFS contribution of a single marker to the observed pheno-
+PFW
+1
+typic variation was 25.12-33.61% (Table 3). AX-90496773
+presented the
+phenotypic difference of 16.33
+SFW
+0.962"
+1
+largest
+g
+between alleles, with an effect on PFW (R? = 29.99%).
+SDW
+0.914"
+0.939"
+1
+For SFW, fifteen significant SNPS were detected (Add-
+MCFS
+0.205"
+0.245"
+-0.085
+itional file 5: Table S5). Among these SNPS, only four were
+The average across two years was used to calculate the correlation
+repeatedly detected in all environments, and each SNP
+coefficients. PFW (100-pod fresh weight), SFW (100-seed fresh weight), SDW
+could
+(100-seed dry weight), MCFS (Moisture content of ffresh seeds). * Significant at
+explain a large proportion (26.54-27.8%) of the
+P< 0.05, ** Significant tat P<0.01
+phenotypic variance (Table 3). AX-90519309 had a large
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 6 of 15
+8
+8
+-
+- -
+8 -
+-
+I
+I I
+8 -
+- I I
+-
+0.1
+0.2
+0.3
+0.4
+0.5
+MAF
+Fig. 2 Minor allelic frequency distribution in 133 soybean landraces based on 82,187 SNPS
+effect (R? = 27.47%) on SFW, with variance of 1.74g be- located in a range of 164kb (41791118-41.955229 on
+tween alleles. Sixty-three SNPs were significantly associ- chromosome 5 (Table 3). AX-90435701 and AX-90460290
+ated with SDW (Additional file 5: Table S5). Among these, had the largest effect (R? = 21.56%) on MCFS, associated
+eight SNPS were repeatedly detected in all environments with a difference of 3.51% between alleles. Altogether,
+(Table 3). AX-90501040 had the largest effect (R? = 24.87%) thirty-five markers were repeatedly associated with one of
+on SDW, associated with a difference of 5.81g between the four yield-related traits in all environments. In addition,
+alleles. For MCFS, a total of forty-eight SNPS were identi- four markers (AX-90490395, AX-90481424, AX-90370125
+fied (Additional file 5: Table S5). Of these, twenty SNPs and AX-90519309) were commonly associated with both
+were repeatedly detected in all environments, and all were PFW and SFW, and two markers (AX-90328574 and
+e
+co
+8
+€
+:,
+a
+oo -
+A a
+A / 2
+a 
+?
+8
+0
+100
+200
+300
+400
+500
+Pairwise distance(kb)
+Fig. 3 Average linkage disequilibrium (LD) decay rate estimated among co-chromosome SNPS
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 7 of 15
+a -850000 1
+1600
+b 8
+1400
+-900000
+1200
+a
+E
+A -950000
+1000
+3
+4
+a
+800
+9
+:
+E-1000000
+i
+600
+8
+-
+400
+-1050000
+200
+3
+-1100000
+0
+1 2 3 4 5 6
+-0.15
+-0.10
+-0.05
+0.00
+K
+pcl
+C
+d
+subgroup lesubgroup2
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Fig. 4 Population structure analysis of 133 soybean landraces. a The mean LnP(k) and Delta k values when k ranges from 1 to 6. b Two-
+dimensional scatter plot of PCA, the green dot represents subgroup 1 and the red dot represents subgroup 2. C Population structure of 133
+soybean landraces, there are two colored segments and each segment represents the percentage of the individual in the population. d A
+neighbor-joining tree of the 133 soybean landraces that can be divided into two subgroups
+AX-90496773) were associated with both PFW and SDW genes from the Phytozome website (http-//www.phyto-
+in all environments (Table 3). However, no markers over- zome.net), we were able to initially predict potential
+lapped between MCFS and the other three traits.
+candidate genes for PFW and MCFS. A total of six
+genes were considered potential candidate genes, and
+Prediction of candidate genes
+the functional annotations of these genes are listed in
+In this study, we were particularly interested in the Table 4. To confirm the potential candidate genes
+markers with large effects, such as the PFW marker whether participated in the accumulation of PFW or
+AX-90496773 (Gm16_1,617,227, MAF = 0.07) on chro- MCFS, we tested the expression patterns of the six
+mosome 16, and the MCFS marker AX-90460290 genes via RT-qPCR in the seeds of extreme materials at
+(Gm05_41,927,984, MAF = 0.47) on chromosome 5. Com- three developmental growth stages (R5, R6 and R7).
+pared with the alternative alleles, the PFW ofthe materials The genotype of extreme materials ZDD21907 (PFW
+carrying the favorable allele (AA) at AX-90496773 was 198 g) and ZDD20532 (PFW 39 g) at the AX-90496773
+16.33g higher than the materials carrying the unfavorable locus were AA (favourable allele) and GG (unfavourable
+allele (GG), the MCFS of the materials carrying the allele), respectively. The genotype of extreme materials
+favorable allele (GG) at AX-90460290 was 3.51% higher ZDD01983 (MCFS 75.5%) and ZDD02315 (MCFS 61.7%)
+than the materials carrying the unfavorable allele (AA) at the AX-90460290 locus were GG (favourable allele) and
+(Fig. 6). LD analysis showed that AX-90496773 and AA (unfavourable allele), respectively. Among the three
+AX-90460290 can be mapped to chromosomal regions potential candidate genes associated with PFW, Gly-
+of 34.5 kb on Gm16 and 189.1 kb on Gm05, respectively ma.16g018200 and Glyma.16g018300 showed significant
+(Fig. 7). Within the regions of AX-90496773 and differences in expression between ZDD21907 (PFW 198 g)
+AX-90460290, there were five and twenty-seven puta- and ZDD20532 (PFW 39g) at the R5 and R6 stages
+tive genes, respectively. According to the functional an- (P $0.01) (Fig. 8). The potential candidate genes for
+notations and the expression patterns of these putative MCFS were Glyma.05g243400, Glyma.05g244100 and
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 8 of 15
+2015
+2016
+a 12-
+12 
+10
+10
+S 8
+:
+8
+6
+6
+4
+4
+2
+2
+I
+0
+0
+0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7
+b 12
+12
+10
+10
+8
+:
+8
+6
+6
+l
+4
+4
+2
+2
+I
+0
+0
+0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7
+C 12
+12
+10
+10
+8
+8
+6
+6
+4
+4
+2
+2
+I
+0
+0
+0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7
+d 12
+12
+10
+10
+I 8
+8
+6
+6
+4
+4
+2
+2
+0
+0
+0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7
+Expected-logilp)
+Expected-logil?)
+Fig. 5 Quantile-quantile plots of estimated -logio (P) from association analysis of four yield-related traits in two years (2015 and 2016): a 100-pod
+fresh weight, b 100-seed fresh weight, c 100-seed dry weight, and d moisture content of fresh seeds. Red line represents expected P values with
+no association. The black line represents the observed P values using the GLM (PCA) model The green line represents the observed P values
+using the GLM (Q) model. The yellow line represents the observed P values using the MLM (PCA + K) model The blue line represents the
+observed P values using the MLM (Q 2+K) model
+Glyma.05g245300. These three genes showed significant Discussion
+differences in expression between ZDD01983 (MCFS Vegetable soybean, or edamame, is a specialty soybean
+75.5%) and ZDD02315 (MCFS 61.7%) at the R5, R6 and harvested at the R6-R7 stage when pods are green and
+R7 stages (P < 0.05, P $0.01) (Fig. 8). The differential seeds are immature [37]. The seeds of vegetable soy-
+expression of these genes in extreme materials provided beans are larger, sweeter and tender than those of grain
+support for the identification of candidate genes. soybeans, and because of their rich protein (33-39%)
+Therefore, we speculate that Glyma.16g018200 and and low fat (13-16%) contents, they are increasingly
+Glyma. 16g018300 may be the candidate genes for PFW popular among young people who seek healthy diets,
+and that Glyma.05g243400, Glyma.05g244100 and Gly- especially in developed countries [38]. In addition, vege-
+ma.05g245300 may be the candidate genes for MCFS. table soybean is a good source of soluble sugar, dietary
+To analyze the genetic mechanism of yield in vegetable fiber, vitamin C, vitamin E, calcium, and phytoestrogens
+soybean, we still need to further study these five genes. [39, 40]. With the social and economic development,
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 9 of 15
+Table 3 SNPS signifcantly associated with the four yield-related traits and previously reported QTLS at similar genome regions
+Traits SNpa MAFb Physical
+Significant region Means
+Effecto Enve
+Known QTLS'
+position
+Chr. Position Start
+End
+-Logio(P) R(96)
+PFW AX-
+0.34 2 46,440,530 46,321,460 46,559,600 6.41 27.72 3.81 15,16,mean seed weight 50-12
+90490395
+AX-
+0.27 3 36,787,728 36,668,658 36,906,798 6.60 29.19 4.57 15,16,mean
+90483564
+AX-
+0.18 4 1,402,717 1,283,647 1,521,787 6.08 25.12 11.06 15,16,mean Seed weight per plant 6-2; Seed weight
+90435834
+47-3; Seed height 1-12, Seed length 1-13
+AX-
+0.11 9 39,625,218 39,506,148 39,744,288 6.52 27.10 11.46 15,16,mean Seed weight 50-5; Seed yield 31-10
+90328574
+AX-
+0.24 14 5,733,475 5,614,405 5,852,545 6.52 27.22 4.58 15,16,mean Seed weight 36-14
+90481424
+AX-
+0.14 14 45,661,649 45,542,579 45,780,719 6.49 27.16 15.43 15,16,mean Seed yield 31-1
+90512978
+AX-
+0.07 16 1,617,227 1,498,157 1,736,297 7.03 29.99 16.33 15,16,mean Seed yield 23-6; Pod maturity 19-6;
+90496773
+Pod maturity 9-1
+AX-
+0.08 16 5,791,933 5,672,863 5,911,003 754 33.61 0.53 15,16,mean Seed yield 29-2
+90370125
+AX-
+0.35 17 4,197,693 4,078,623 4,316,763 734 32.14 8.22 15,16,mean Seed weight 21-2; Seed weight 22-3;
+90519309
+Seed weight 22-4
+SFW AX-
+0.34 2 46,440,530 46,321,460 46,559,600 6.26 26.86 0.64 15,16,mean Seed weight 50-12
+90490395
+AX-
+0.24 14 5,733,475 5,614,405 5,852,545 6.45 26.54 0.75 15,16,mean Seed weight 36-14
+90481424
+AX-
+0.08 16 5,791,933 5,672,863 5,911,003 6.37 27.80 0.01 15,16,mean Seed yield 29-2
+90370125
+AX-
+0.35 17 4,197,693 4,078,623 4,316,763 6.35 27.47 1.74 15,16,mean Seed weight 21-2; Seed weight 22-3,
+90519309
+Seed weight 22-4
+SDW AX-
+0.12 1 50,248,686 50,129,616 50,367,756 7.31 17.69 3.71 15,16,mean Seed weight 15-2; Seed weight 45-2
+90505318
+AX-
+0.14 1 50,267,101 50,148,031 50,386,171 7.12 19.42 3.79 15,16,mean Seed weight 15-2; Seed weight 45-2
+90395822
+AX-
+0.11 9 39,625,218 39,506,148 39,744,288 5.84 16.24 0.48 15,16,mean Seed weight 50-5; Seed yield 31-10
+90328574
+AX-
+0.05 14 42,496,533 42,377,463 42,615,603 9.58 24.87 5.81 15,16,mean Seed yield 32-3; Pod maturity 27-3
+90501040
+AX-
+0.05 14 42,696,630 42,577,560 42,815,700 6.58 18.05 3.69 15,16,mean Seed yield 32-3; Pod maturity 27-3
+90367415
+AX-
+0.05 14 42,700,090 42,581,020 42,819,160 6.58 18.05 3.69 15,16,mean Seed yield 32-3; Pod maturity 27-3
+90480993
+AX-
+0.07 16 1,617,227 1,498,157 1,736,297 6.16 17.29 0.60 15,16,mean Seed yield 23-6; Pod maturity 19-6;
+90496773
+Pod maturity 9-1
+AX-
+0.09 16 5,520,943 5401,873 5,640,013 5.51 13.46 2.76 15,16,mean Seed yield29-2
+90421382
+MCFS AX-
+0.46 5 41,791,118 41,672,048 41,910,188 7.38 19.52 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90441957
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,797,554 41,678,484 41,916,624 736 19.32 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90371675
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.46 5 41,807,238 41,688,168 41,926,308 738 19.52 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90525251
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,807,727 41,688,657 41,926,797 736 19.32 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90320946
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.46 5 41,808,982 41,689,912 41,928,052 7.38 19.52 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90347760
+plus galactose 1-1; Seed yield 15-3
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 10 of 15
+Table 3 SNPS signifcantly associated with the four yield-related traits and previously reported QTLS at similar genome regions
+(Continued)
+Traits SNpa MAFb Physical
+Significant region Meanc
+Effecto Enve
+Known QTLS
+position
+Chr. Position Start
+End
+-Logio(P) R(96)
+AX-
+0.46 5 41,815,650 41,696,580 41,934,720 7.38 19.52 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90335134
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,818,004 41,698,934 41,937,074 7.36 19.32 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90418462
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,818,197 41,699,127 41,937,267 7.36 19.32 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90492796
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,818,450 41,699,380 41,937,520 736 19.32 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90363684
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.46 5 41,828,027 41,708,957 41,947,097 7.38 19.52 3.39 15,16,mean Seed thickness 1-3; Seed arabinose
+90392895
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.46 5 41,831,486 41,712,416 41,950,556 7.18 18.99 3.36 15,16,mean Seed thickness 1-3; Seed arabinose
+90333199
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.44 5 41,833,722 41,714,652 41,952,792 7.64 20.59 3.36 15,16,mean Seed thickness 1-3; Seed arabinose
+90344127
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.46 5 41,853,747 41,734,677 41,972,817 7.36 19.32 3.36 15,16,mean Seed thickness 1-3; Seed arabinose
+90494650
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,866,507 41,747,437 41,985,577 7.75 20.30 3.47 15,16,mean Seed thickness 1-3; Seed arabinose
+90424180
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.46 5 41,882,999 41,763,929 42,002,069 7.00 20.68 3.51 15,16,mean Seed thickness 1-3; Seed arabinose
+90335974
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,903,235 41,784,165 42,022,305 734 21.56 3.51 15,16,mean Seed thickness 1-3; Seed arabinose
+90435701
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,927,984 41,808,914 42,047,054 8.19 21.56 3.51 15,16,mean Seed thickness 1-3; Seed arabinose
+90460290
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.47 5 41,932,683 41,813,613 42,051,753 8.09 21.17 3.47 15,16,mean Seed thickness 1-3; Seed arabinose
+90337409
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.48 5 41,947,344 41,828,274 42,066,414 736 19.34 3.37 15,16,mean Seed thickness 1-3; Seed arabinose
+90391337
+plus galactose 1-1; Seed yield 15-3
+AX-
+0.48 5 41,955,229 41,836,159 42,074,299 736 19.34 3.37 15,16,mean Seed thickness 1-3; Seed arabinose
+90415951
+plus galactose 1-1; Seed yield 15-3
+The significant SNP ID, DMinor allele frequency for each associated marker, The average across two years was used to association analysis -Log1o(P) and R were
+listed, dPhenotypic differences between different genotypes classified on alleles of fassociated markers, €15 and 16 represented the environments of years 2015
+and 2016, respectively. "mean" represented associations detected with the mean values across two years, 'Comparision of trait-marker associations identified in
+this study with QTLS identified in previous studies. Based on the QTL list on SoyBase fhtp/ww.soybaseorgl, The underlined SNPS were common markers
+detected in two traits
+a 2507
+b 807
+200-
+75-
+: 150-
+70-
+a 100-
+65-
+8
+50-
+60-
+0-
+55-
+A
+G
+A
+G
+AX-90496773
+AX-90460290
+Fig. 6 Phenotypic differences between accessions carrying different alleles. a The allele effects for the PFW marker AX-90496773 in soybean
+accessions. b The allele effects for MCFS marker AX-90460290 in soybean accessions. PFW means 100- pod fresh weight, MCFS means moisture
+content of fresh seeds
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 11 of 15
+a
+b
+8
+81
+61
+6
+4
+41
+2
+*,
+0 : :.'
+1.50M
+1.55M
+1.60M
+1.65M
+1.70M 4L6M
+41.7M
+41.8M
+41.9M
+420M
+€
+R'color key
+R'color key
+0 02 04 0.6 0.8
+0 02 04 0.6 0.8 1
+Fig. 7 The candidate regions of the large-effect markers which associated with the 100-pod fresh weight (PFW) and moisture content of fresh
+seeds (MCFS) in soybean. a AX-90496773 which associated with PFW is located on Gm16. b AX-90460290 which associated with MCFS is
+located on Gm19. In the top panel, negative logio-transformed P values of SNPS from GWAS for PFW and MCFS are plotted against the physical
+positions of the given chromosomal regions. The bottom panel depicts the extent of LD in this region based on 7, and the color key displays 7
+values. The horizontal dashed line (in blue) indicates the significant threshold of the genome wide association analysis (-logio(p) >4.91). The
+candidate region for the locus is indicated by two vertical dashed blue lines
+there is a growing global demand for vegetable soybeans. materials for the molecular design and breeding of
+Since the 1990s, the demand for vegetable soybeans vegetable soybeans.
+has grown in the US, reaching 10,000 tons in 2000 The acceptable distance between the markers and the
+[41]. Japan is the largest importer of vegetable soy- candidate genes was determined based on LD, which
+bean, with a total demand of more than 176,000 tons varies with species and populations [43]. In this study,
+annually [42] However, the demand for vegetable soy- the overall LD decay distance for the 133 soybean land-
+bean cannot be met due to a lack of excellent var- races was 119.07 kb (2=0.375) across the entire gen-
+ieties. China is the country of origin for soybeans and ome, which was within the reported range (901 kb 2 574
+possesses the most soybean genetic resources world- kb), but slightly lower than the previously reported
+wide. Based on the abundance of soybean resources, distance of 130 kb in cultivated soybean [44]. Greater
+GWAS have been conducted to dissect the genetic diversity of geographic origins (NR, HR, SR, and NER) was
+architecture of vegetable soybean yield, providing included in our GWAS panel, and this difference in geo-
+functional markers, beneficial genes and specific graphic origin may be responsible for the relatively low LD
+Table 4 the function annotation and the high expression tissue of the potential candidate genes
+Traits
+Gene ID
+Position (bp)
+Annotation
+High expression tissue
+PFW
+Glyma.16g018100
+1,612,068.1614560
+Surfeit locus protein 2
+pod
+Glyma.16g018200
+1,617,162.1618781
+Unknown
+shoot apical meristem
+Glyma.16g018300
+1,619,151.1623559
+pyruvate dehydrogenase E1 component alpha subunit seed
+FGMC Glyma.05g243400 41.800695.41809429 Translation factor
+seed
+Glyma.05g244100 41.852863.41854961
+phosphundyethurdannebnding proteins
+seed
+Glyma.05g245300 41.925667.41935273 Serine-threonine protein kinase
+leave
+aThe tissue in which the gene had the highest expression level
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 12 of 15
+1.57
+Glyma. .16g018100
+ZDD 21907 2.07 Glyma.16g018200
+ZDD21907 47 Glyma.16g018300
+ZDD 21907
+ZDD 20532
+ZDD20532
+ZDD20532
+E
+8
+L
+E
+1.5-
+3-
+1.0-
+1.0-
+e
+0.5-
+: eE
+0.5-
+
+ELan
+0.0 R5
+R6
+R7
+0.0- R5
+R6
+R7
+0.0- R5
+R6
+R7
+107 Glyma.05g243400
+ZDD01983 2.5
+Glyma.05g244100
+ZDD01983 157
+Glyma.05g245300
+ZDD01983
+ZDD02315
+ZDD02315
+ZDD02315
+8-
+a 2.0-
+iE
+6-
+1.5-
+10-
+4-
+1.0-
+5-
+2-
+0.5-
+
+0.0-
+0-
+D
+R5
+R6
+R7
+R5
+R6
+R7
+R5
+R6
+R7
+Fig. 8 Expression analysis of potential candidate genes in extreme materials at three growth developmental stages (R5, R6 and R7). The extreme
+materials include ZDD21907 (PFW 198 g), ZDD20532 (PFW 39g), ZDD01983 (MCFS 75.5%) and ZDD02315 (MCFS 61.7%). The error bar indicates
+standard deviation. The results are representative of three biological replicates. * Significant at P < 0.05; ** Significant at P<0.01
+found in this study. A low LD decay rate was also identi- identified in previously studies (Table 3). Among these
+fied in another recent GWAS of soybeans, involving widely SNPS, AX-90496773 at the 1.621 Mb position on Gm16 (a
+distributed geographic origins (China, Korea, Japan) [45]. region similar to a previously reported seed yield 23-6
+Moreover, the 975 Mb soybean genome includes 54,175 and pod maturity 9-1 and 19-6 QTLs) was strongly asso-
+putative genes annotated in the cultivated soybean genome ciated with both PFW and SDW. Another SNP,
+[44]. On average, every 18.42 kb contains a gene, and the AX-90435834 at the 1.4Mb position on Gm04, has been
+average SNP spacing was approximately 11.76 kb in our reported to colocalize with QTLs related to seed weight
+study (Additional file 3: Table S3); thus, it was theoretically and seed size (e.g., seed weight per plant 6-2, seed weight
+sufficient for efficient GWAS analysis.
+47-3, seed length 1-13 and seed height 1-12). The SNP
+In previous studies, a total of 294 QTLs for seed weight AX-90519309 on Gm17, associated with PFW and SFW,
+were reported across the 20 soybean chromosomes was mapped within an overlapping region of three seed
+(htrpJ/hwwwsoybascorg) In addition, many QTLs have weight QTLs, indicating that AX-90519309 might be lo-
+been identified for several traits that are highly related to cated in the hottest region related to soybean yield.
+yield, such as seed size, flowering time, maturity and plant Twenty SNPs associated with MCFS were mapped to a
+height. These QTLs could be used to confirm the loci small region on Gm05. Three QTLs were previously re-
+identified by GWAS. In this study, the genetic bases of ported in a similar region with seed yield 15-3, seed thick-
+four yield-related traits at the R6 stage were analyzed ness 1-3 and Ara/Gal 1-1. Ara/Gal represents the ratio of
+using association mapping, and a total of 116 significant arabinose and galactose contents and is significantly and
+SNPs were identified (Additional file 5: Table S5). Ofthese negatively correlated with the average concentration of
+SNPS, 35 were repeatedly detected in all environments pectin [48]. Pectin is multifunctional, including functions
+(Table 3). The data indicated that a large majority of the in cell wall deposition and assembly, cell expansion, cell
+SNPs were environment specific, and phenotypic plasticity wall swelling and softening during fruit development [49].
+plays an important role in plant agronomic diversity [46]. Therefore, the region containing twenty significant SNPs
+Each SNP associated with the yield at the R6 stage could might have an effect on seed moisture content and seed
+explain a large proportion (> 13.46%) of the observed thickness by affecting seed pectin. The seed moisture con-
+phenotypic variance (Table 3). This finding differs from tent and seed thickness may influence soybean yield at the
+the reported low phenotypic variance (< 4%) of each locus R6 stage. Fine mapping of such co-localized chromosomal
+associated with seed weight at maturity [47]. The results regions would help to determine the candidate genes re-
+demonstrated that the soybean yield at the R6 stage is a sponsible for the natural variation of these yield-related
+typical quantitative trait that is genetically conditioned by traits.
+many large-effect loci. Thirty-four of the repeatedly identi- In this study, a total of five candidate genes associated
+fied SNPs have been shown to colocalize with QTLs with PFW and MCFS at the R6 stage were predicted
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 13 of 15
+within the LD blocks of two markers oflarge effect (Fig. 7 Conclusion
+and Table 4). Among these 5 genes, Glyma.16g018200 and In this study, we identified 14, 15, 63 and 48 markers asso-
+Glyma.16g018300 are proposed as the candidate genes ciated with PFW, SFW, SDW and MCFS, respectively, via
+for PFW. The large-effect marker AX-90496773 is GWAS. Most markers co-localized with previously
+located in the CDS region of Glyma.16g018200, reported yield-related QTLs. We were particularly in-
+whereas Glyma.16018300 is located 1.9kb down- terested in the large-effect markers AX-90496773 and
+stream of AX-90496773. Glyma.16g018200 encodes a AX-90460290, which had an impact on yield-related traits
+protein whose family membership is unknown, although at the R6 stage. According to genetic annotation and ex-
+the homologous gene of Arabidopsis thaliana is pression analyses, a total of five putative genes, including
+AT1g01080. The product encoded by this gene belongs to Glyma.16g018200, Glyma.16g018300 Glyma.05g243400,
+the RNA-binding (RRM motif) protein family, which may Glyma.05g244100 and Glyma.05g245300, are proposed as
+participate in the post-transcriptional regulation of genes, the candidate genes for PFW and MCFS, but further in-
+including pre-mRNA splicing and the cellular localization vestigation is needed for verification of this hypothesis.
+and stability maintenance of RNA [50]. Glyma.16g018300 These results provide insights into the yield improvement
+is homologous to AT1g01090, and the proteins encoded of vegetable soybean.
+by these genes share 80.3% amino acid sequence identity.
+Glyma.16g018300 encodes the pyruvate dehydrogenase E1
+component alpha subunit and may be involved in two Additional files
+pathways, PWY-5173 (acetyl-CoA biosynthesis) and
+PWY-5464 (cytosolic glycolysis, pyruvate dehydro- Additional file 1: Table S1. The ecological distribution of 133 soybean
+genase and TCA cycle). In Arabidopsis thaliana, the landraces. (XLSX 14 kb)
+WRINKLED1 (WRI1) transcription factor plays a role Additional file 2: Table S2. qRT-PCR primers. (XLSX 91 kb)
+of utmost importance during oil accumulation in ma- Additional file 3: Table S3. Summary of the polymorphic markers on
+the 20 chromosomes of Glycine max. (XLSX 10 kb)
+turing seeds, and AT1g01090 is the putative target gene Additional file 4: Table S4. The ecological distribution of 133 soybean
+of WRI1 in the fatty acid synthesis pathway [51]. In landraces from different subgroups. (XLSX 9 kb)
+addition, Glyma.05g243400, Glyma.05g244100 and Additional file 5: Table S5. SNPS significantly associated with the four
+Glyma.05g245300 are candidate genes for MCFS, and yield-related traits. (XLSX 22 kb)
+Glyma.05g243400 and Glyma.05g244100 are located Additional file 6: Figure S1. Manhattan and quantile-quantile (QQ)
+118 kb and 73kb upstream of the large-effect marker plots of the GWAS for 100-pod fresh weight (PFW) in soybean at the R6
+stage. The horizontal blue line indicates the genome-wide significance
+AX-90460290, respectively. Glyma.05g243400 is homolo- threshold (-logio(P) >4.91); a, b and C represent 2015, 2016 and the
+gous to AT1g1870, which encodes a putative EF-1-a-related means across the two years, respectively. (TIF 10418 kb)
+GTP-binding protein. The vacuole is an essential organelle Additional file 7: Figure S2. Manhattan and quantile-quantile (QQ)
+for plant life and plays important roles in storage (ions, me- plots of the GWAS for 100-seed fresh weight (SFW) in soybean at the R6
+stage. The horizontal blue line indicates the genome-wide significance
+tabolites, and proteins), digestion, pH and ion homeostasis, threshold (-logio(P) > 4.91). a, b and C represent 2015, 2016 and the
+turgor pressure maintenance, biotic and abiotic defense means across the two years, respectively. (TIF 5303 kb)
+responses, toxic compound sequestration, and pigmen- Additional file 8: Figure S3. Manhattan and quantile-quantile (QQ)
+tation [52]. Analysis of the vegetative vacuole proteome of plots of GWAS for 100-seed dry weight (SDW) in soybean at the R6 stage.
+The horizontal blue line indicates the genome-wide significance
+A. thaliana predicted that AT1g1870 may be related to threshold (-logio(P) > 4.91). a, b and C represent 2015, 2016 and the
+vacuolar membrane fusion and remodeling [53]. Gly- means across the two years, respectively. (TIF 5874 kb)
+ma.05g244100 shares 83.2% amino acid sequence iden- Additional file 9: Figure S4. Manhattan and quantile-quantile (QQ)
+tity with MOTHER OF FT AND TFL1 (MFT), which plots of GWAS for moisture content of fresh seeds (MCFS) in soybean at
+the R6 stage. The horizontal blue line indicates the genome-wide
+encodes a phosphatidylethanolamine-binding protein that significance threshold (-logio(P) > 4.91). a, b and C represent 2015, 2016
+regulates seed germination via the ABA and GA signaling and the means across the two years, respectively. (TIF 10454 kb)
+pathways in Arabidopsis thaliana [54]. Glyma.05g245300 is
+homologous to the AT1g73660 gene, encoding a Raf-like
+MAPKKK. In Arabidopsis thaliana, the AT1g73660- Abbreviations
+encoded MAPKKK is a negative regulator of salt tolerance ANOVA: Analysis of variance; GD: Gene diversity; GLM: A general linear
+model; GWAS: Genome-wide association study; h: The broad-sense heritabil-
+and may regulate targets involved in the salt stress response ity; HHR: The Huanghuai region; LD: Linkage disequilibrium; MAFS: Minor
+[55]. In the present study, the expression levels of the five allelic frequencies; MCFS: Moisture content of fresh seeds; MCMC: Monte
+abovementioned
+Carlo Markov Chain; MLM: A mixed linear model; NER: The Northeast region;
+genes were significantly different between NJ: Neighbor-joining; NR: The North region; PCA: Principal component
+extreme materials during soybean seed development Thus, analysis; PFW: 100-pod fresh weight; PIC: Polymorphism information content;
+we postulate that these five genes are candidate genes for qRT-PCR: Quantitative real-time PCR; QTLS: Quantitative trait loci;
+PFW and MCFS. However, further evidence is needed to Ip: Phenotypic correlation coefficients; SDW: 100-seed dry weight; SFW: 100-
+seed fresh weight; SNPS: Single nucleotide polymorphisms; SR: The South
+functionally validate this hypothesis.
+region
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 14 of 15
+Acknowledgments
+8. Funatsuki H, Kawaguchi K Matsuba S, Sato Y, Ishimoto M. Mapping of QTL
+We thank Dr. Jianbo He for providing technical assistance in bioinformatics
+associated with chilling tolerance during reproductive growth in soybean.
+and for his critical review of the manuscript.
+Theor Appl Genet 2005,111(5)851-61.
+9. Palomeque L, Liu L, Li W, Hedges B, Cober ER, Rajcan LQTL in mega-
+Funding
+environments: IL Agronomic trait QTL co-localized with seed yield QTL
+This work was supported by National Key R&D Program of China
+detected in a population derived from a cross of high-yielding adapted x
+(2017YFD0101500, 2017YFD0102002), National Natural Science Foundation of
+high-yielding exotic soybean lines. Theor Appl Genet 20091193)429-36
+China (31471519), Modern Agro-industry Technology Research System of
+10. Kim HK Kim YC, Kim ST, Son BG, Choi YW, Kang JS, et al. Analysis of
+China (CARS-04-PS10), Program for Changjiang Scholars and Innovative Re-
+quantitative trait loci (QTLS) for seed size and fatty acid composition using
+search Team in University (PCSIRT_17R55), National Science and Technology
+recombinant inbred lines in soybean. J Life Sci 201020:1186-92.
+Pillar Program of China (2014BAD11B01-X01) and Jiangsu Collaborative
+11. Liu W, Kim MY, Van K Lee YH, Li H, Liu X, et al QTL identification of yield-
+Innovation Center for Modern Crop Production (JCIC-MCP).
+related traits and their association with flowering and maturity in soybean J
+Crop Sci Biotechnol. 2011;14(1).65-70.
+Availability of data and materials
+12. Han Y,Li D, Zhu D, LiH,Lix, Teng W, et al. QTL analysis of soybean seed
+The data sets supporting the results of this article are included within the
+weight across multi-genetic backgrounds and environments. Theor Appl
+article and its additional files.
+Genet 201212514)671-83.
+13. Sun Y, Pan J, Shi iX Du X Wu Q QIZ, etal Multi-environment mapping and
+Authors' contributions
+meta-analysis of 100-seed weight in soybean. Mol Biol Rep 201239(10)9435-43
+HX and JMZ conceived and designed the experiments. XNL, XLZ, XTW and 14. Jannink JL, Lorenz AJ, lwata H. Genomic selection in plant breeding: from
+NG performed the experiments. XNL, XFW, XZ and YZ analyzed the data. LJQ
+theory to practice. Brief Funct Genomics. 20109(2)166-77.
+provided the genotype data. XNL wrote the paper. XLZ, LMZ, YPB, HX and
+15. Flint-Garcia SA, Thornsberry JM, Buckler ES IV. Structure of linkage
+JMZ revised the paper. All authors read and approved the final manuscript.
+disequilibrium in plants. Annu Rev Plant Biol. 2003,54(4)357-74.
+16. Gupta PK, Rustgi iS, Kulwal PL Linkage disequilibrium and association
+Ethics approval and consent to participate
+studies in higher plants: present status and future prospects. Plant Mol Biol.
+Not applicable
+20055714)461-85.
+17. Mackay I, Powell W. Methods for linkage disequilibrium mapping in crops.
+Consent for publication
+Trends Plant Sci 2007;12(2)57-63.
+Not applicable.
+18. LiH, Ren X, Zhang X, Chen Y, Jiang H. Association analysis of agronomic
+traits and resistance to Aspergillus flavus in the ICRISAT peanut mini-core
+Competing interests
+collection. Acta Agron Sin. 2012,38(6)935-46.
+The authors declare that they have no competing interests.
+19. Hao D, Chen H, Yin Z, Cui S, Zhang D, Wang H, et al. Identification of single
+nucleotide polymorphisms and haplotypes associated with yield and yield
+components in soybean (Glycine max) landraces across multiple
+Publisher's Note
+environments. Theor Appl Genet 2012,1243)447-58
+Springer Nature remains neutral with regard to jurisdictional claims in
+20. NiuY, Xu Y, Liu X Yang S, Wei S, Xie F,et al Association mapping for seed
+published maps and institutional affiliations.
+size and shape traits in soybean cultivars. Mol Breed. 201331(4).785-94.
+21. Tasma IM, Shoemaker RC. Mapping flowering time gene homologs in
+Author details
+soybean and their association with maturity loci Crop Sci. 2003:4301)319-28
+'National Center for Soybean Improvement/National Key laboratory of Crop 22. Zhang J, Song Q Cregan PB, Nelson RL, Wang X Wu J,et al Genome-wide
+Genetics and Germplasm enhancement, Key laboratory of Biology and
+association study for flowering time maturity dates and plant height in
+Genetics and Breeding for Soybean, Ministry of Agriculture, Nanjing
+early maturing soybean (Glycine max) germplasm. BMC Genomics. 2015;
+Agricultural University, Nanjing 210095, People's Republic of China. ?The
+16(1):217.
+National Key Facility for Crop Gene Resources and Genetic Improvement
+23. GuY,Liw, Jiang H, Wang Y, Gao H, Liu M, et al Differential expression ofa
+(NFCRI/Key Lab of Germplasm Utilization (MOA), Institute of Crop Science,
+WRKY gene between wild and cultivated soybeans correlates to seed size. J
+Chinese Academy of Agricultural Sciences, Beijing 100081, People's Republic
+Exp Bot. 201768112717-29
+of China.
+24. Huang J, Guo N, Li Y, Sun J, Hu G, Zhang H, et al. Phenotypic evaluation
+and genetic dissection of resistance to phytophthora sojae in the chinese
+Received: 6 June 2018 Accepted: 6 March 2019
+soybean mini core collection. BMC Genet 2016;17(1):1-14.
+Published online: 29 March 2019
+25. SAS L Base SAS 9.4 procedures guide: statistical procedures. Cary, NC, USA:
+SAS Institute Inc, 2013.
+References
+26. Lee YG, Jeong N, Kim JH, Lee K Kim KH, Pirani A, et al. Development,
+1. Graham PH, Vance CP. Legumes: importance and constraints to greater use.
+validation and genetic analysis ofa large soybean SNP genotyping array.
+Plant Physiol 2003;131(3)872-7.
+Plant J. 2015;81(4)625-36.
+2. Young G, Mebrahtu T, Johnson J. Acceptability of green soybeans as a
+27. LiY, Wei iL, Chen Z, Liang Y, Chang R, Gaut BS, et al Genetic diversity in
+vegetable entity. Plant Foods Hum Nutr. 2000,5514)323-33.
+domesticated soybean (Glycine max) and its wild progenitor (Glycine soja)
+3. Konovsky J, Lumpkin TA, Mcclary D. Edamame: the vegetable soybean.
+for simple sequence repeat and single-nucleotide polymorphism loci. New
+Understanding the Japanese food and agrimarket: a multifaceted
+Phytol. 2010188(1)242-53.
+opportunity 1994;173-181.
+28. Sun J, Guo N, Lei J, LiL,Hu G, Xing H. Association mapping for partial
+4. Delate K Burcham R, Friedrich H, Wantate N, Wilson LA. "Edamame
+resistance to Phytophthora sojae in soybean (Glycine max (L.) merr).J Genet.
+(vegetable soybeans) variety trial at the Neely-Kinyon farm, 2001". lowa
+201493(2)355-63.
+State Research Farm Progress Reports. 202351.mplbdiasumedy 29. Anderson AD, Weir BS. A maximum-likelihood method for the estimation of
+farms_reports/1571.
+pairwise relatedness in structured populations. Genetics. 2007176(1):421-40.
+5. Chen C Evaluation, relationship, inheritance and variation study of fsummer- 30. Remington DL Thornsberry JM, Matsuoka Y, Wilson LM, Whitt SR, Doebley J,
+planted vegetable soybean's quality traits in middle and lower yangtze river
+et al Structure of linkage disequilibrium and phenotypic associations in the
+valleys. MS diss, Nanjing Agricultural University. 2002.(in chinese).
+maize genome. Proc Natl Acad Sci IUSA 200198020:11479-84
+6. Austin DF, Lee M, Veldboom LR, Hallauer AR. Genetic mapping in maize
+31. Huang X, Wei X, Sang T, Zhao Q, Feng Q, Zhao Y, et al. Genome-wide
+with hybrid progeny across testers and generations: grain yield and grain
+association studies of 14 agronomic traits in rice landraces. Nat Genet.
+moisture. Crop Sci. 200040(1):30-9.
+201042(11):961-7.
+7. Orf JH, Chase K, Jarvik T, Mansur LM, Cregan PB, Adler FR, et al Genetics of 32. Yu J, Pressoir G, Briggs WH, Vroh Bl, Yamasaki M, Doebley JF, et al A unified
+soybean agronomic traits: L Comparison of three related recombinant
+mixed-model method for association mapping that accounts for multiple
+inbred populations. Crop Sci. 1999396)1642-51.
+levels of relatedness. Nat Genet 2006:38(2)203-8.
+
+
+
+Li et al. BMC Genetics (2019) 20:39
+Page 15 of 15
+33. Yang N, Lu Y, Yang X, Huang J, Zhou Y, Ali F, et al Genome wide
+association studies using a new nonparametric model reveal the genetic
+architecture of 17 agronomic traits in an enlarged maize association panel.
+PLOS Genet 2014109,e1004573.
+34. Fehr WR, Caviness CE. Stages of soybean development. Spec Rep. 1977:87.
+35. Livak KJ, Schmittgen TD. Analysis of relative expression data
+using real-time quantitative PCR and the Sye.genen method. Methods.
+2001:25(4):402-8
+36. Nyquist WE, Baker RJ. Estimation of heritability and prediction of selection
+response in plant populations. Crit Rev Plant Sci. 1991:103)235-322
+37. Zhang Q, Gao Q, Herbert SJ, LIY, Hashemi AM Influence of sowing date on
+phenological stages, seed growth and marketable yield of four vegetable
+soybean cultivars in North-Eastern USA Afr J Agric Res. 20105(18)2556-62
+38. Rao MS, Bhagsari AS, Mohamed AL Fresh green seed yield and seed
+nutritional traits of vegetable soybean genotypes Crop Sci 2002:42(6)1950-8.
+39. Liy, Ming D, Zhang Q, Wang G, Hashemi M, Liu X Greater differences exist
+in seed protein, oil, total soluble sugar and sucrose content of vegetable
+soybean genotypes [Glycine max (L) Merrill in Northeast China. Aust J Crop
+Sci 2012,6(12)1681-6.
+40. Miles CA, Lumpkin TA, Zenz L Edamame Production. 2000.
+41. Lin C Frozen edamame: global market conditions. USA: Second
+International Vegetable Soybean conference; 2001. p. 93-7.
+42. Nguyen VQ. Edamame (vegetable green soybean). Australia: Rural Industries
+Research & Development The new rural industries: a handbook for farmers
+and investors; 2001. p. 49-56.
+43. LiY, Reif JC, Hong H, Li H, Liu Z, Ma Y, et al Genome-wide association
+mapping of QTL underlying seed oil and protein contents ofa diverse
+panel of soybean accessions. Plant Sci. 201826695-101.
+44. Wang J, Chu S, Zhang H, Zhu Y, Cheng H, Yu D. Development and
+application of a novel genome-wide SNP array reveals domestication
+history in soybean. Sci Rep. 2016,6(1)20728.
+45. Hwang EY, Song Q,Jia G, Specht JE, Hyten DL, Jose C et al A genome
+wide association study of seed protein and oil content in soybean. BMC
+Genomics. 2014;15(1):1-1.
+46. Ungerer MC, Halldorsdottir SS, Purugganan MA, Mackay TFC Genotype-
+environment interactions at quantitative trait loci affecting inflorescence
+development in Arabidopsis thaliana. Genetics. 2003;165(1)353-65.
+47. Zhang J, Song Q Cregan PB, Jiang G. Genome-wide association study,
+genomic prediction and marker-assisted selection for seed weight in
+soybean (Glycine max). Theor Appl Genet 20161290117-30.
+48. Stombaugh SK Orf JH, Jung HG, Chase K Lark KG, Somers DA Quantitative
+trait loci associated with cell wall polysaccharides in soybean seed. Crop Sci.
+2004,44(6)2101-6.
+49. Willats WG, Mccartney L, Mackie W, Knox JP. Pectin: cell biology and
+prospects for functional analysis Plant Mol Biol 200147(1-2)9-27.
+50. Du G, Yan Z, Yuan J, Qiang B. RRM RNA binding protein: structure and
+function. Prog Biochem Biophys. 1999:2614)305-7.
+51. Baud S, Mendoza MS, To A Harscoêt E, Lepiniec L, Dubreucq B. WRINKLED1
+specifies the regulatory action of LEAFY COTYLEDON2 towards fatty acid
+metabolism during seed maturation in Arabidopsis. Plant tJ.2010.50151825-38
+52. De DN. Plant Cell Vacuoles. Collingwood, Australia: CSIRO Publishing;
+2000. p. 79-114.
+53. Carter C Pan S, Zouhar J, Avila EL, Girke T, Raikhel NV. The vegetative
+vacuole proteome of Arabidopsis thaliana reveals predicted and unexpected
+proteins. Plant Cell. 200416012)3285-303.
+54. Xi W, Liu C Hou X Yu H. MOTHER OF FT AND TFL1 regulates seed
+germination through a negative feedback loop modulating ABA signaling
+in Arabidopsis. Plant Cell 2010226:1733-48
+55. Lei G, Xiang C The genetic locus At1g73660 encodes a putative MAPKKK
+and negatively regulates salt tolerance in Arabidopsis. Plant Mol Biol 2008;
+Ready to submit your research? Choose BMC and benefit from:
+67(1-2):125-34.
+fast, convenient online submission
+: thorough peer review by experienced researchers sinyour field
+rapid publication on acceptance
+support for research data, including large and complex data types
+gold Open Access which fosters wider collaboration and dincreased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions

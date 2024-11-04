@@ -1,0 +1,1519 @@
+The Plant Genome I ORIGINAL RESEARCH
+Identification and Fine-Mapping of a Soybean
+Quantitative Trait Locus on Chromosome 5 Conferring
+Tolerance to Iron Deficiency Chlorosis
+Ryan Merry, Karl Butenhoff, Benjamin W. Campbell, Jean-Michel Michno,
+Dechun Wang, James H. Orf Aaron J. Lorenz, * and Robert M. Stupar*
+R. Merry, K. Butenhoff, B.W. Campbell, J-M. Michno, J.H. Orf AJ. Lorenz, R.M. Stupar Dep. of Agronomy and Plant Genetics, Univ. of
+Minnesota, Saint Paul, MN 55108; D. Wang Dep. of Plant, Soil and Microbial Sciences, Michigan State Univ., East lansing, MI 48824; K.
+Butenhoff, Bayer Crop Science, 704 12th Street Kalona, IA 52247.
+ABSTRACT Iron deficiency chlorosis (IDC) is an important
+CORE IDEAS
+nutrient stress for soybean [Glycine max (L) Merr.] grown in high-
+pH soils. Despite numerous agronomic attempts to alleviate IDC,
+'Fiskeby III harbors a combination of fabiotic stress
+genetic tolerance remains the most effective preventative measure
+traits, including iron deficiency chlorosis (IDC)
+against symptoms. In this study, two association mapping
+tolerance.
+populations and a biparental mapping population were used for
+An IDC quantitative trait locus on chromosome
+genetic mapping of IDC tolerance. Quantitative trait loci (QTLS)
+Gm05 was identified in genome-wide association
+were identified on chromosomes Gm03, Gm05, and Gm06.
+studies and biparental populations.
+Heterogenous inbred families were developed to fine-map the
+Fine-mapping resolved a 137-kb interval containing
+Gm05 QTL which was uniquely supported in all three mapping
+candidate
+populations. Fine-mapping resulted in a QTL with an interval
+strong
+genes.
+size of 137 kb on the end of the short arm of Gm05, which
+produced up to a 1.5-point reduction in IDC severity on a 1 to 9
+scale in near isogenic lines.
+RON DEFICIENCY CHLOROSIS is an abiotic stress prevalent
+Lin soybean. Soils with a pH greater than 8 cause Fe to
+Abbreviations: HIF, heterogeneous inbred families; IDC, iron deficiency
+become unavailable for plant uptake. High soil pH is often
+chlorosis; LOD, logarithm of odds; NIL, near isogenic lines; QTL, quantitative accompanied in calcareous soils by bicarbonate release,
+trait locus; RIL, recombinant inbred line; SNP, single nucleotide polymorphism; which acts as a buffer and exacerbates IDC in
+URT, Uniform Regional Trials.
+pH
+soybeans
+because ofthe inability ofthe plant to acidify the rhizo-
+sphere (Hansen et al., 2003; Inskeep and Bloom, 1987).
+This lack ofFe availability reduces chlorophyllproduc-
+tion, visually observed as interveinal chlorosis ofleaves in
+soybean, which ultimately hinders photochemical capacity
+Citation: Merry, R., K. Butenhoff, B.W. Campbell, J.-M. Michno, D.
+Wang, JH. Orf, AJ lorenz, and R.M. Stupar 2019. Identification
+and fine-mapping of a soybean quantitative trait locus on chromosome
+5 conferring tolerance to iron deficiency chlorosis. Plant Genome
+12:190007. dot10.3835/plonigenome201901.0007
+Received 23 Jan. 2019. Accepted 12July 2019.
+*Corresponding authors lore0149@umn.edu; stup0004@umn.edu)
+O 2019 The Author(s). This is an open access article distributed under
+the CC BY-NCND license Ihmp/cedtvecommonsorg/licenses/bync
+nd/4.0/).
+THE PLANT GENOME : VOL. 12, NO. 3 : NOVEMBER 2019
+1 OF 13
+
+
+
+(Spiller and' Terry, 1980). Minor symptoms can reduce
+technique to develop near isogenic lines (NILS) of dif
+grain yields by up to 20% and severe cases can result in
+ferent recombination classes within the Gm03 QTL for
+total crop failure (Froechlich and Fehr, 1981; Niebur and
+fine-mapping. As a result, two genes encoding basic helix-
+Fehr, 1981). In the North Central United States, it has been loop-helix transcription factors, which were hypoth-
+estimated that soybean is grown on 1.8 million ha ofhigh- esized to dimerize together, were identified as potential
+pH soil with an accompanying estimated annualyield loss candidates. One ofthe two genes was found to contain
+of 340,000 Mg (Hansen et al., 2003).
+a deletion in a predicted dimerization domain. Differ-
+There are several agronomic treatments for IDC
+ences in the transcript abundance of genes induced by Fe
+including foliar sprays, seed treatments, soil Fe chelate
+deficiency had previously been identified (O'Rourke et al.,
+applications, and tolerant cultivar selection. Foliar sprays 2009), making a transcription factor a likely candidate.
+are used as a restorative measure after the onset of chlo-
+This discovery led to the identification of additional tran-
+rosis. A comparison ofdifferent foliar applications indi-
+scription factors important in the Fe deficiency response
+cated that although soybean chlorosis improved, no yield (Li et al., 2018). Several minor effect QTLs for IDC toler-
+improvement was achieved (Chatterjee et al., 2017). Iron ance have also been identifiedin soybean (Charlson et
+supplementation through seed treatments has had lim-
+al., 2005; Lin et al., 1997,2000; Mamidi et al., 2011, 2014;
+ited success. Although IDC-tolerant cultivars were found Wang et al., 2008). To our knowledge, fine-mapping
+to respond positively to treating seeds with Fe, no yield
+ofthese QTL has not been conducted, most probably
+increase was observed in susceptible cultivars (Karkosh
+because oft the difficulties associated with phenotyping
+et al., 1988). In studies comparing the effects offoliar Fe IDC and the lack of power to detect small differences in
+sprays, seed treatments, and Fe chelate soil application, it tolerances associated with these individual QTLs. Fine-
+was concluded that cultivar selection was the most effec- mapping of additional IDC QTLs is an important step
+tive method for controlling IDC in soybean (Goos and
+in developing markers for selection, as well as leading to
+Johnson, 2000; Kaiser et al., 2014).
+gene discovery and furthering our understanding ofIDC
+Phenotyping offoreign soybean introductions that
+tolerance mechanisms in soybean.
+displayed some tolerance to IDC from the USDA soybean
+Although no completely tolerant cultivars are present
+collection indicated that no cultivar existed that was
+in the germplasm collection, there are a handful of culti-
+completely tolerant to IDC (Fehr, 1982). Although there
+vars with ahigh level ofIDC tolerance. One such cultivar
+is a great deal of variation for IDC tolerance in breeding is Fiskeby III (PI 438471), which was identified as a poten-
+material, no completely tolerant cultivars were found
+tial cool climate cultivar (Holmberg, 1973) with multiple
+during recent soybean variety trials in Minnesota (Min-
+abiotic stress tolerances. Fiskeby III has presented an
+nesota Agricultural Experiment Station, 2017) and North opportunity to map QTLs for tolerance to salt (Carter
+Dakota (Kandel et al., 2017) when sufficient IDC pressure et al., 2006; Do et al., 2018), aluminum toxicity, ozone
+was present. Spatial variation and year-to-year varia-
+tolerance (Burton et al., 2016), and canopy wilt tolerance
+tion in IDC severity (Inskeep and Bloom, 1987) make
+(Butenhoff, 2015). In this study, we used a previously
+IDC tolerance a difficult trait to select for in breeding
+developed biparental mapping population with Fiskeby
+programs. Furthermore, little is known about the mecha- III as a parent to fine-map an IDC tolerance QTL.
+nism ofFe deficiency tolerance in soybean, which pre-
+The objective ofthis study was to identify and fine-
+vents indirect selection for trait improvement. Therefore, map QTLs controlling IDC tolerance in soybean. We first
+nearly all selection for IDC tolerance is done through
+demonstrate that a QTL on Gm05 is an important contrib-
+visual ratings on breeding lines planted in IDC-prone
+utor to genetic variation for IDC tolerance through associa-
+nurseries (personal communication; Aaron Lorenz, Ted
+tion mapping by using plant introductions from the USDA
+Helms, and George Graef; 2018).
+Germplasm Resources Information Network soybean
+Identifying QTLS for marker-asistedbreding for
+collection and elite breeding lines from Uniform Regional
+IDC tolerance would be beneficial, considering the dif-
+Trials (URTs). We then present results from a biparental
+ficulty andinefficiency of screening breeding populations linkage mapping population of Fiskeby III (PI 438471) by
+on the basis of phenotype alone. Once QTLs have been
+Mandarin (Ottawa)' (PI 548379), which also mapped la
+identified, it would also be useful to identify the gene
+QTL to the same position on Gm05. Using this population,
+variants underlying the tolerance trait to illuminate the
+we created a series ofNILS and narrowed Ithe QTL interval
+physiological and molecular mechanisms soybean uses
+to a 137-kb region containing 17 gene models. Results from
+to combat this abiotic stress. An early study on IDC tol-
+this study form an important step towards the identifica-
+erance indicated that it was controlled by a single major
+tion of genes controlling IDC tolerance in soybean.
+gene (Weiss, 1943); however, later studies firmly con-
+cluded that IDC tolerance is a quantitative trait controlled METHODS
+by many genes (Cianzio and Fehr, 1982; Mamidi et al.,
+2014). Relatively large-effect QTLs have been identified,
+Association Mapping
+including a single major-effect QTL required for soy-
+Two independent panels of soybean genotypes were used
+bean Fe efficiency reported on Gm03 (linkage group N)
+for genome-wide association mapping: a panel of plant
+(Lin et al., 1997). Peiffer et al. (2012) used a backcrossing
+introductions (the PI Panel) and a panel ofbreeding lines
+2 OF 13
+THE PLANT GENOME : VOL. 12, NO. 3 L NOVEMBER 2019
+RIGH TS LIN Ko
+
+
+
+entered into the USDA Northern Uniform Regional Tri- respectively, were retained in the analysis after minor
+als (the URT Panel). A total of 1737 accessions comprised allele filtering. Single nucleotide polymorphism positions
+the PI Panel, 1352 of which were evaluated for IDC tol-
+and all genomic positions within this study are in refer-
+erance at two locations in 2001 and 385 ofwhich were
+ence to the Wm82.a2.vl genome assembly bp positions
+evaluated for IDC tolerance at five locations in 2004.
+(Song et al., 2016). A genome-wide association analysis
+Phenotypic data for the PI Panel was downloaded from
+was implemented via the "GWAS" function within the
+the Germplasm Resource Information Network website
+TrBLUP package (rrBLUP version 4.6; Endelman, 2011)
+Ohtpelhpgeubarsgringwgringwigingahaldeciptonde
+on the PI Panel and the URT Panel separately. In each
+tail.aspxid-51074, accessed 26 Aug. 2019). Briefly, the
+analysis, the year, location, subpopulation structure
+experimental design consisted oftwo randomized repli-
+(modeled as three principal components), and SNP effects
+cations of the PI Panel grown under field IDC conditions, were fitted as fixed effects into a mixed linearmodel. A
+with symptoms scored on a 1 to 5 chlorosis severity rat-
+principal component analysis implementedin the Fac-
+ing scale, where 1 indicated no chlorosis and 5 indicated toMineR package via the pca function (Le et al., 2008)
+severe chlorosis (Cianzio et al., 1979). Final scores for the was performed separately on the genotypic data from
+PI Panel were reported as adjusted means with the values the PI Panel and the URT Panel. The first three principal
+of neighboring plots as covariates for adjustment.
+components accounted for 20 and 11% ofthe total SNP
+A total of 854 advanced public breeding lines com-
+variation in the PI Panel and URT Panel, respectively.
+prising the URT Panel were also screened for IDC toler-
+Random polygenic effects (u) were also included, and
+ance. The IDC scores for the URT Panel were obtained
+were modeled as L MVN(O,Go), where G represents the
+from the final reports ofthe USDA Northern Region
+genomic relationship matrix calculated internally by the
+Uniform Soybean Tests between 1989 and 2017. Each
+"GWAS" function ofthe TrBLUP package. To declare sta-
+year, breeding lines in the URT maturity groups 00 to
+tistically significant associations between SNPS and IDC
+II were planted into IDC conditions at one or two loca-
+scores, a genome-wide significance threshold of 5.93 and
+tions in a randomized complete block design with two
+5.07 (-log(p)) was set for the PI Panel and URT Panel,
+replications. In most years, the plots consisted of single
+respectively, with a Bonferroni correction for the number
+rows 0.91 m in length spaced 0.76 m apart. Experimental of tests (i.e., total number of SNPS tested) in each panel.
+design parameters and the number of genotyped lines
+This is a highly conservative form of multiple testing cor-
+from each URT year are provided in Supplemental Table rection and thus any SNPs surpassing this threshold dis-
+S1. The IDC scores were taken with the same phenotypic played very strong evidence ofa true association with the
+scale described for the PI Panel and reported as the mean observed IDC score. The reduced power resulting from
+off two scoring dates averaged across replications. Means a conservative threshold was not of concern because the
+of each breeding line were obtained from https://ars.
+objective of this study was to ultimately fine-map specific
+wdhagwimwalhhpvtiesgpeniws (accessed 26 Aug.
+QTLS, not describe the full genetic architecture ofIDC
+2019) and compiled into a single dataset consisting of
+tolerance.
+breeding line, location, year, and mean IDC score.
+The "LD" function ofthe genetics package (Genetics
+Genotypic data were downloaded from SoyBase
+version 1.3.8.1.2, Warnes et al., 2019) was used to calcu-
+(www.soybase.org, accessed 26 Aug. 2019) for the PI Panel late linkage disequilibrium between significant SNPS dis-
+and accessions were genotyped with the SoySNP50K
+covered near each other on the same chromosome. Single
+iSelect SNP Beadchip (Song et al., 2013,2015). To initiate
+nucleotide polymorphisms associated with each other
+URT line genotyping, remnant seeds ofURT lines were
+were considered to be a single QTL. To detect epistatic
+requested from public soybean breeders who entered
+interactions among QTLS, a linear model was fitted with
+breeding lines in the Northern URT. Tissue was collected
+year, location, and the first three principal components as
+from 5to 10 germinated seedlings per line and DNA was
+fixed effects and all interactions modeled between peak
+extracted via the hexadecyltrimethylammonium bromide significant SNPS.
+method (Kisha et al., 1997). DNA was then genotyped
+with the SoySNP6K Infinium Beadchip (Illumina Inc. San Biparental Mapping Population Development
+Diego, CA) and the Illumina iScan platform. GenomeStu- The development of the biparental population used in
+dio Genotyping Module (Illumina Inc.) was used to call
+this study has been described previously by Burton et
+the single nucleotide polymorphism (SNP) alleles (Song
+al. (2016). Briefly, Fiskeby III (Maturity Group 000) was
+et al., 2013). SoySNP6K genotype data were obtained for
+hybridized with the IDC susceptible cultivar Mandarin
+several individuals ["Burlison' (PI 533655), 'Kenwood' (PI
+(Ottawa) (PI 548379, Maturity Group 0) in 2006 to cre-
+537094), "Sturdy' (PI 542768), 'Hoyt' (PI 540552), "Flyer' (PI ate an Fas population of 239 recombinant inbred lines
+534646), and "Resnik' (PI 534645)] by selecting the SoyS-
+(RILS). Mandarin (Ottawa), a selection from the Chinese
+NP6K SNP allele data from the SoySNP50K iSelect SNP
+landrace 'Mandarin', was a prominent parent in breed-
+Beadchip data (Song et al., 2013, 2015).
+ing crosses of early North American breeding programs.
+In both panels, SNPs with minor allele frequencies
+Through a pedigree analysis, Gizlice et al. (1994) esti-
+less than 0.025 were removed. A total of42,294 and 5972
+mated that Mandarin (Ottawa) contributed substantially
+biallelic SNP markers for the PI Panel and the URT panel, to the U.S. cultivars released between 1947 and 1988. The
+MERRY ET AL.
+3 OF 13
+RIGHTS LIN Ko
+
+
+
+F, seed was harvested and planted in a winter nursery in
+interaction effect between the jth genotype and the jth
+Chile during 2006-2007. The F, seed was harvested and
+environment, and Ejk is the residual. To calculate heri-
+single-seed descent was used to advance the population
+tability, all effects were considered to be random for the
+to the F, generation. The F, seed was planted in the green- estimation ofvariance components via restricted maxi-
+house at the USDA-ARS facility in Raleigh, NC, in the
+mum likelihood. For purposes of QTL mapping, RIL
+winter of 2010 and F,6 families were created by harvest-
+least-squares means were calculated via the same linear
+ing the seeds from individual F, plants. The Fas families
+model, with the exception ofthe RIL effect being fitted as
+were then planted in the summer of 2010 in Minnesota
+a fixed effect.
+in progeny rows. Seed was harvested and bulkedby each
+DNA from the RIL plants were extracted with the
+progeny row to create Fsz families for use in this study.
+Qiagen DNeasy Plant Mini Kits in a QiaCube workstation
+(Qiagen, Hilden, Germany). DNA was extracted from a
+Biparental Mapping, Design, and Phenotyping
+sample of 15 to 20 primary root tips for each RIL. In total,
+The 239 RILS were planted in an IDC nursery near Dan-
+1536 SNP markers were genotyped in the RIL population
+vers, MN in 2011, 2012, and 2013. The soil type consisted
+via the Illumina GoldenGate assay (Hyten et al., 2010). The
+of 50% Bearden-Quam (Bearden: fine-silty, mixed, super- analysis was completed following the protocol described
+active, frigid Aeric Calciaquolls; Quam: fine-silty, mixed,
+by Fan et al. (2006) on the Illumina BeadStation 500G
+superactive, frigid Cumulic Endoaquolls), 30% Byrne
+(Illumina Inc.). Linkage map construction for this popula-
+(fine-loamy, mixed, superactive, frigid Calcic Hapludolls), tion has been describedby Burton et al. (2016). The fol-
+and 10% each of Quam and Malachy (coarse-loamy,
+lowing criteria were used to exclude markers in Illumina's
+mixed, superactive, frigid Aquic Calciudolls). All soil
+GenomeStudio software, version 2011.1: monomorphism,
+series shared the common characteristics ofbeing poorly
+a call frequency less than 95%, a GenTrain score less than
+drained (which facilitates bicarbonate release) and prone
+0.25, cluster separation less than 0.20, and an AB_TMean
+to IDC symptoms. The RILs were planted into single-row
+less than 0.20 or between 0.80 and 1.00. The software
+plots arranged in a randomized complete block design
+package R/qtl, version 1.32-10 (Broman et al., 2003) was
+with three replications. Plots consisted of 25 seeds planted used to evaluate the quality ofthelinkage map by check-
+in rows 0.91 m in length and spaced 0.76 m apart. Only
+ing for duplicate and missing markers, marker order com-
+two replications were plantedin 2013 because ofa short-
+pared with the USDA consensus map (Hyten et al., 2010),
+age of seed. Seven check lines were includedto control for and segregation distortion. Upon completion of marker
+environmentalvariation. Check lines included Fiskeby
+allele calls and map quality evaluation, 366 SNP markers
+III (RIL parent, resistant), Mandarin (Ottawa) (RIL par-
+were retainedfor QTL analysis. The final map length was
+ent, susceptible), MN0095 (resistant check), "Sheyenne
+1811 cM, with an average marker spacing of5.2 cM.
+(resistant check), 'Dawson' (resistant check), 'Corsoy 79
+Composite intervalmapping in the R/qtl statistical
+(susceptible check), Bicentennial' (susceptible check used package (Broman et al., 2003) was used for QTL mapping.
+in 2011), "Parker' (susceptible check used in 2012), and
+Composite interval mapping was performed with five
+Lambert' (susceptible check usedin 2013).
+marker covariates, a window size of 10 cM, and a walking
+Iron deficiency chlorosis was scored for each replica- speed of2 cM. Logarithm ofodds (LOD) thresholds for
+tion at the third trifoliate (V3) stage and again at the sixth declaring QTL significance were set to ensure an experi-
+trifoliate (V6) stage (Fehr and Caviness, 1977) on a 1 to 9 ment-wise error rate of0.05. The thresholds for the 1, 5, and
+chlorosis severity rating scale on a whole-plot basis. The
+10% significance levels were 4.57,3.77,and 3.46, respectively.
+following guidelines were used: 1 == healthy, green plants
+These thresholds were determined from 1000 permutation
+within the plot, with no signs ofchlorosis; 2 = several
+tests (Doerge and Churchill, 1996). Haley-Knott regression,
+chlorotic leaves visible within the plot; 3 = 10 to 20% of
+implemented in R/qtl, was used to estimate the amount of
+leaves chlorotic; 4 == 20 to 30% ofleaves chlorotic; 5 == 30
+phenotypic variation that significant QTLs accountedfor, as
+to 50% leaves chlorotic; 6 = >50% ofleaves chlorotic; 7 ==
+well as marker effect estimates on the lto 9rating scale.
+>50% ofleaves chlorotic with <50% necrosis occurring; 8
+== >50% ofleaves chlorotic with >50% necrosis; 9 = com-
+Fine-Mapping of the Gm05 QTL
+plete necrosis and plant death. This nine-point scale was
+Twenty Fa6 families from the Fiskeby III X Mandarin
+used in this experiment for increased resolution andthus (Ottawa) population were identified as being heteroge-
+better ability to detect small differences among the NILS. neous for a significant QTL found on Gm05. Individuals
+For estimation ofbroad-sense heritability on an
+from each RIL family were genotyped with a custom panel
+entry-mean basis (Holland et al., 2010) ofIDC scores, the of 19 SNP assays (Supplemental Table S2, designed from
+following model was fitted:
+SNPS from the SoySNP50K iSelect SNP Beadchip) on a
+MassARRAY platform (Sequenom, Agena Biosciences,
+Yak =u+g
++ ge, + Ejik
+[1]
+San Diego, CA) in the winter of2014-2015 to identify
+where Yijk is the IDC score ofthe plot, u is the model
+heterozygous plants and develop heterogeneous inbred
+intercept, 8 is the effect ofthe jth RIL, e, is the effect of
+families (HIFS) (Tuinstra et al., 1997). Six families
+the jth environment, is the effect ofthe kth replicate
+were found to still have heterozygous
+Het-
+istiahan
+(block) nested within inthe jh environment, gej is the
+erozygous plants were identified and advanced for three
+4 OF 13
+THE PLANT GENOME : VOL. 12, NO. 3 L NOVEMBER 2019
+RIGHTSLIN Ko
+
+
+
+generations to the F, generation. The Faro NILS were
+chlorosis scores over the 2-yr study period in the PI
+developed for each HIF family from single F, heterozygous Panel ranged from 1 to 5, with an average score of 3.07.
+plants. The F 10:11 seed was harvested from NILS and used
+The URT Panel included 854 lines over the course ofthe
+for phenotyping (Fig. 1). To further resolve the QTLS, an
+19-yr study, with IDC scores ranging from 1 to 5 and an
+additional panel of 27 SNP assays (Supplemental Table S2, average score of 3.11.
+designed with SNPs found in whole-genome resequencing
+A total of 42,294 and 5972 biallelic SNP markers
+of Fiskeby III and Mandarin (Ottawa)) were used to find a were retained in the analysis after minor allele filtering
+critical recombination point in HIF 609.
+in the PI Panel and URT Panel, respectively, and used
+Phenotyping ofthe fine-mapping population was
+in genome-wide association studies. In the PI Panel,
+done at the Danvers, MN, site in 2016 and 2017. The F 10:11 four significant SNPS were found in association with
+NILS in 2016 and Fruz NILS in 2017 from each HIF were each other (p < 0.001) in a 369-kb region on Gm03, three
+planted in an augmented block design with five NIL
+significant SNPs were found to be in association with
+pairs in each incomplete block alongside two checks:
+each other (p < 0.001) in a 1.1-Mb region on Gm05, and
+Fiskeby III as a tolerant check and Mandarin (Ottawa)
+seven significant SNPS were found to be in association
+as a susceptible check. These were planted in the center
+with each other (p < 0.001) in a 24-kb region on Gm06
+of each incomplete block. Each pair ofNILS appeared
+(Fig. la). These findings indicated three distinct QTLs. A
+in the same incomplete block together but pairs were
+significant epistatic interaction was found between the
+randomized across the incomplete blocks. Three repli-
+Gm03 and Gm06 QTL (p < 0.001). Two significant SNPs
+cations of each NIL pair were planted and evaluated in
+were found in the URT Panel at the genome-wide signifi-
+complete blocks, SO that incomplete blocks were nested
+cance level (-log(p) > 5.07, Fig. 2b), both on Gm05 and in
+inside complete blocks. Plot dimensions were identical
+high association with each other (p < 0.001). This Gm05
+to those used for the initial QTL mapping. Ratings were
+QTL in the URT Panel colocalized within the Gm05
+conducted on the same lto 9 scale used for initial QTL
+region discovered in the PI Panel. Marker bp positions
+mapping. The statistical significance ofSNP effects was
+and -log(p) scores are summarized in Table 1. Ofthe
+determined via the following linear model:
+SNPs associated with the QTLs discovered in association
+mapping in the PI Panel on chromosomes Gm03 and
+Yijkim
+z,m + Tko) + Bx, th + Eijkim [2]
+Gm06, only one SNP from each QTL was present on the
+where y ijklm is the IDC score of the plot, u is the intercept,
+SoySNP6K Infinium Beadchip used in the URT Panel.
+2 is an indicatorvariable indicating whether line icarries The minor alleles ofthese SNPS had frequencies of0.03
+the Mandarin (Ottawa) allele or the Fiskeby III allele at
+(ss715585486) and 0.029 (ss715595697) in the URT popu-
+the SNP locus being tested, m is the SNP effect, e, is the
+lation. Though these minor allele frequencies are above
+effect ofthe jth year, is the effect ofthe kth complete
+the minimal threshold for inclusion in the analysis, their
+block nested within The jth year, Bis an incomplete block
+low frequencies greatly reduced detection power in the
+effect modeledas a quantitative covariate using the mean
+URT Panel despite these QTLs having strong effects.
+IDC score ofthe checks in each incomplete block (x); h m
+is the effect of the mth heterogeneous inbred family; and
+Recombinant Inbred Line Analyses for IDC Phenotypic
+Ejkim is the residual. The significance ofthe SNP effect was Variation and QTL Mapping
+calculated and used to fine-map the position of the QTLs. Genetic mapping of IDC symptoms was performed for
+To estimate the effects ofindividual NILS, the model
+a RIL population derived from Fiskeby III and Manda-
+described above for testing SNP effects was used, with the rin (Ottawa) via a 1 to 9 chlorosis severity rating scale.
+exception
+being replacedby 8p which represents the As expected, Fiskeby III showed greater tolerance to
+effect ofthe hofrn NIL. The NIL effects were used to calcu-
+IDC than Mandarin (Ottawa) in all 3 yr of evaluation.
+late the NIL-adjusted means. Significant differences (P <
+The average IDC scores for Fiskeby III and Mandarin
+0.05) between paired NILS were determined from the LSD (Ottawa) over the 3-yr study period were 3.25 and 5.19,
+obtained from the "LSD.test" function ofthe "agricolae"
+respectively. A high amount of phenotypic variation was
+package in R (De Mendiburu Delgado, 2009).
+observed in the RIL population, which is typical for IDC.
+The mean IDC score over the 3-yr period for the RILS
+Genomic Coordinates
+was 3.98 but ranged from 1.29 to 7.15 following a nor-
+All genomic coordinates used in this study are in refer-
+mal distribution. Ifwe compare the years, 2012, a year
+ence to the Wm82.a2.vl genome assembly bp positions
+with record heat and drought, had the lowest average
+(Song et al., 2016).
+IDC score and a maximum IDC score of 4.97 averaged
+across repetitions, whereas 2013, which had a cool and
+RESULTS
+extremely wet spring, had a much higher average and
+maximum IDC score and a minimum score nearly equal
+Genome-Wide Association Mapping of IDC Tolerance to the average score in 2012 (4.01) (Table 2). Significant
+Phenotypic variation for IDC was found in all years
+differences in IDC score were found for RIL genotypes
+and locations for the PI Panel and URT Panels. In total,
+(p < 0.001) as well as years (p < 0.001). The heritability of
+1336 lines were included in the PI Panel. Iron deficiency
+IDC tolerance on an entry-mean basis averaged over the
+MERRY ET AL.
+5 OF 13
+RIGHTS LIN Ko
+
+
+
+Fiskeby III
+Mandarin (Ottawa)
+I
+X
+I
+*
+Fi
+I
+I
+F2
+-
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+RIL
+I
+I
+I
+I
+I
+I
+I
+I
+Development
+I
+I
+I
+I
+I
+I
+I
+I
+V
+V
+V
+*
+-
+-
+4
+X
+- 
+4
+-
+X
+-
+(N = 239)
+
+A
+4
+-
+- E
++ - : : si
+
+1
+-
+-
+-o
+
+
+F5:6
+ 
+-
+-
+
+
+*
+HIF
+I
+I
+I
+Development
+I
+I
+*
+Maintaining
+V
+(N=6)
+heterozygosity
+at Chr 05 QTL Locus
+Heterozygous HIF 1 Paren
+Heterozygous SHIF 2 Parent
+Heterozygous SHIF N Parent
+Fg
+4
+/
+
+- 1y
+-
+I -
+I X
+Fg:10
+Heterozygous
+Heterozygous
+Heterozygous
+HIF1 Parent
+HIFZ 2Parent
+HIF N Parent
+for 2017Test
+for 2017Test
+1 for 2017Test
+4 I
+- 1 I
+1
+I
+2016
+4  I
+I
+I
+Fine Mapping
++ -
+F
+
+I -
+- K I
+
+I 
+Phenotyping
+* E A  *
+-
+-
+-
+4 -An 4 F10:11
+/
+4
+-
+4
+A
+4
+A
+*
+
+*
+L-
+1
+A A
+- 10:11
+-
+1
+-
+-
+4
+4
+L
+2017
+-
+*
+-
+Fine Mapping
+-
+
+Phenotyping
+*
+-
+F11:12
+Fig. 1. Population development for the biparental mapping, near isogenic line (NIL) development, and fine-mapping populations of soybean.
+Here, 239 recombinant inbred lines (RILs) were generated from the initial hybridization of Fiskeby III and Mandarin (Ottawa). After quantitative
+trait locus (QTL) mapping in the F37 generation, six RILs with residual heterozygosity in individuals were found and used to generate heteroge-
+neous inbred families (HIFs), depicted by red circles. Heterozygous plants within HIFs were advanced to the F, generation. Homozygous NIL
+pairs were identified in the Fo.10 generation, and Fion seed was harvested for planting in the 2016 iron deficiency chlorosis (IDC) nursery. Fur
+ther inbreeding was conducted from Fo10 heterozygous individuals to develop Fnaz NIL pairs for phenotyping in the 2017 IDC nursery.
+6 OF 13
+THE PLANT GENOME : VOL. 12, NO. 3 L NOVEMBER 2019
+RIGH TS LIN Ko
+
+
+
+(a)
+12 1
+I
+10
+8
+:
+9 6
+I
+i
+4
+
+:
+€ :
+:
+2
+0
+ir
+4
+I
+2 3
+5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+:
+Chromosome
+(b)
+I
+12 -
+I
+10
+:
+E
+P
+8
+E
+DE
+8
+3 6
+I
+4
+&
+:
+:
+2
+E
+8
+0
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+I
+(c)
+la
+8
+E
+6
+I
+i
+8 4
+2
+-
+ 1.
+MVh/
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 2. Single nucleotide polymorphism (SNP) significance from genome-wide association studies of the PI Panel and Uniform Regional Trials
+(URT) panels and quantitative trait locus (QTL) mapping in the biparental population of soybean. la, bl Chromosomes 1 to 20 are ordered on the
+xaxis; -loglpl is shown on the yaxis. Dots represent individual SNPs. The red line indicates the significance thresholds of -loglp) = 5.93 and
+5.07 for the PI Panel (a) and URT Panel (b), respectively. (c) Marker logarithm of odds (LOD) scores across the genome for the Fiskeby Ill X Man-
+darin (Ottawa) QTL mapping population. The green dashed line represents the 0.01 significance threshold (LOD == 4.57), the yellow dashed line
+represents the 0.05 significance threshold (LOD = 3.77), and the blue dashed line represents the 0.10 significance threshold (LOD == 3.46).
+MERRY ET AL.
+7 OF 13
+RIGHTS LIN Ko
+
+
+
+Table 1. Significant single nucleotide polymorphisms (SNPs)
+Table 2. Descriptive statistics of iron deficiency chlorosis (IDC)
+discovered in association mapping of the PI Panel and Uniform
+scores in soybean for quantitative trait locus mapping of the Fiskeby
+Regional Trials (URT) panels of soybean, showing SNP ID,
+IlI X Mandarin (Ottawa) biparental population.
+chromosomes, bp position, and -loglp) value for significant SNPS
+Mean
+Median Min. Max.
+Excess
+discovered in association mapping in the PI and URT panels.
+Year score SD scoret scoret scoret Skewness kurtosis
+-Log(plt
+2011 3.88 0.66 3.84 2.30 5.78 0.27 -0.08
+SNPIDt Chromosome Position
+PIPanel URTPanel
+2012 2.95 0.77 2.88 1.29 4.97 0.30 -0.58
+ss715585469
+3
+34,532,040 10.985
+2013 5.69 0.66 5.67 4.01 7.15 0.02 -0.72
+$s715585427
+3
+34,245,545
+7.691
+All lyears 3.98 1.28 3.84 1.29 7.15 0.35 -0.62
+$s715585486
+3
+34,612,476
+6.554
+tThis sscoreis the recombinant inbred line average ofthree repetitions.
+$s715585425
+3
+34,243,241
+6.247
+Ss715592610
+5
+201,448
+6.880
+10.306
+Fine-Mapping of the Gm05 QTL
+SS715592592
+5
+308,102
+10.000
+The QTL discovered on Gm05 in both the association map-
+ss715592489
+5
+1,323,486
+6.389
+ping and biparental mapping experiments was fine-mapped
+SS715592488
+5
+1,325,450
+6.125
+to provide higher resolution ofthe causative locus. Six
+Ss715595695
+6
+9,762,865
+6.766
+HIFS were generated from RILS in the biparental mapping
+SS715595694
+6
+9,747,938
+6.558
+population and were further inbred. In each inbreeding
+ss715595697
+6
+9,767,612
+6.268
+generation, heterozygosity was maintained within the QTL
+ss715595696
+6
+9,765,765
+6.141
+region to allow for new recombination within thel locus
+Ss715595698
+6
+9,767,799
+6.055
+while increasing the homogeneity ofthe genetic back-
+SS715595700
+6
+9,772,068
+6.024
+ground within each HIF. Near isogenic line pairs generated
+ss715595699
+6
+9,768,760
+5.960
+from HIFS were analyzed for differences in IDC tolerance in
+tThe SNPS, chromosomes, andbp positions were aligned with the Wm82.02.vl genome assembly.
+Danvers, MN in 2016 and 2017 via the 1 to9 rating scale.
+#The SNPS were considered significant when -log(p) was greater than 5.93in1 the PIPanel and 15.07
+The F 10:11 NIL pairs generated from the Faio HIFS
+inthe URTPanel.
+showed significant variation for IDC tolerance in the
+2016 field season (p < 0.001) (Fig. 3). A single NIL pair
+3-yr period was 0.61, which is similar to the heritabili-
+(722) showed la statistically significant difference in
+ties for IDC reported in previous studies (Lin et al., 1997, IDC score, which differentiated for a 450-kb region on
+2000; Charlson et al., 2005). Variation caused by year had Gm05. Other NIL pairs that differentiated at this locus
+the highest impact (54%), whereas genotypes and geno-
+showed similar results, with the Fiskeby III haplotype
+types nested within years accounted for 9.8 and 9.6%,
+exhibiting lower mean IDC scores, although these dif
+respectively. Variance caused by repetition and repeti-
+ferences were not statistically significant (Fig. 3). The
+tions nested within year was negligible and error vari-
+average IDC score reduction ofNILS contrasting in the
+ance accounted for 26.4% of the total variation.
+450-kb region in 2016 was 0.55 points on a 1 to 9 scale,
+Two QTLS for IDC tolerance were detected, one on
+similar to the homozygous effect ofthe QTL estimated
+Gm05 and another on Gm06 (Fig. 2c). The Gm05 QTL
+by biparental mapping, and ranged from reductions of
+was found to have a peak LOD score of 8.5 at 0 cM and
+0.49 to 0.82 points. Moreover, two NIL pairs (642, 693)
+spanned 0 to 2 cM on a 1.5-LOD support interval. The
+that were monomorphic for this region had very similar
+QTL on Gm05 displayed an additive effect of0.25 and
+IDC scores (Fig. 3). These results indicated that the QTL
+explained 16.2% of the phenotypic variation for IDCin
+region was narrowed to a 450-kb region on the end ofthe
+this study. The Gm06 QTL had a peak LOD at 67 cM,
+short arm of Gm05 (Fig. 4b).
+spanned 57 to 81 cM based on a 1.5-LOD support inter-
+In the 2017 field season, five F 11:12 NIL pairs were
+val, and had a peak LOD score of 5.5 (Fig. 2c). The Gm06 phenotypedin Danvers, MN, to further resolve the
+QTL had an additive effect of f0.16 and explained 7.7% of 450-kb region (Fig. 3). Significant differences were again
+the phenotypic variation for IDC in this study (Table 3).
+found between NILS (p == 0.014). Significant differences
+The Fiskeby III alleles contributed the IDC tolerance in
+within pairs were only found for HIF 609, which dif-
+both cases (Table 3).
+ferentiated a x160-kb region; the Fiskeby III haplotype
+at this region exhibited superior IDC tolerance. Near
+Table 3. Summary of results for composite interval mapping of iron deficiency chlorosis (IDC] based on least-square mean IDC scores. For
+the quantitative trait locus (QTL) on chromosomes 5 and 6, the associated peak marker, logarithm of odds (LOD) position, LOD score, 1.5-
+LOD support interval, percentage of phenotypic variation explained by the QTL, and additive effect of a single copy of the Fiskeby III allele
+for each QTL are identified.
+Chromosome
+Peak marker Marker positiont LOD peak position LOD score 1.5-LOD support interval % Variation explained Additive effect
+bp
+cM
+CM
+5
+BARC-044481-08709
+21,750
+0
+8.5
+0-2
+16.2
+-0.25
+6
+BARG-014557-01578 11,851,152
+67
+5.5
+57-81
+7.7
+-0.16
+tMarker position coordinates are based lon the Wm82.02.vl genome assembly.
+8 OF 13
+THE PLANT GENOME : VOL. 12, NO. 3 L NOVEMBER 2019
+RIGH T S LIN Ko
+
+
+
+a 
+f 8 f i f
+A A
+Avg
+i
+Avg
+I
+HIF NIL Score Score
+2016 2017
+T L TT
+T
+I
+'Mandarin' 6.62a 5.08cd
+'Fiskeby III' 5.67bcd 4.60d
+I I
+I I I I I
+I I
+I
+627 1 5.42bcd
+I
+627 2 5.57bcd
+627 3 5.67bcd 5.50bcd
+627 4 5.06cd 5.00cd
+I
+I
+I I I II
+I I
+I
+642 1 5.50bcd
+642 2 5.70b 5.64bc
+642 3
+5.50bcd
+I
+I
+LI
+I
+693 1
+5.00cd
+693 2
+4.50d
+693 3 5.00cd
+693 4 4.83cd
+I
+:
+644 1 4.67d
+644 2
+5.50cd
+P
+644 3 4.33d
+I
+644 4
+5.10cd
+
+8
+LL
+722 1 6.32a
+I
+722 2 5.50bcd
+&
+I
+I I ii
+i
+-
+I
+609 1
+6.25ab
+609 2
+4.75cd
+:
+I
+! !
+== 'Fiskeby IIl' Haplotype
+= 'Mandarin (Ottawa)' Haplotype
+= Unknown Recombination Point
+Fig. 3. Near isogenic line (NIL) pair haplotype classes generated in heterogeneous inbred families (HIFs) of soybean. The family identification
+number is indicated in the HIF column and the NIL identification number within each family is indicated in the NIL column. The iron deficiency
+chlorosis (IDC) score was averaged for each NIL in 2016 (Fion Avg Score 2016) and 2017 (Fnaz Avg Score 2017). Average IDC scores with
+different letters indicate significant differences between NIL pairs by LSD. Custom Sequenom MassARRAY single nucleotide polymorphism mark
+ers and bp positions of markers flanking crucial recombination points in the Gm05 quantitative trait locus region are indicated. Positions are in
+reference to the Wm82.a2.vl genome assembly.
+isogenic lines from HIFs 627, 644, and 693 also showed
+on a 1 to 9 scale. Heterogeneous inbredfamily 609, with
+improved IDC scores when the Fiskeby III haplotype
+the smallest introgression region, showed an IDC score
+was present within the 160-kb region, although this was
+reduction of 1.5 points with the Fiskeby III haplotype.
+not statistically significant. Heterogeneous inbred fam-
+A combined analysis was performed on the 2016
+ily 642 showed only minor differences in IDC score and
+and 2017 populations to validate significance between
+was homogeneous for the region. An additional 27 SNP
+NIL pairs. Markers from bp positions 12,018 to 308,102
+markers developed from the whole-genome resequenc-
+showed significant differences (p < 0.01) for IDC score
+ing data from Fiskeby III and Mandarin (Ottawa) in the between Fiskeby III and Mandarin (Ottawa) alleles
+160-kb region showed that HIF 609 had a recombina-
+(Table 4), indicating that the causative gene is near the
+tion point between bp positions 133,185 and 137,207 on
+end of the chromosome. In all cases, the Fiskeby III
+Gm05, roughly narrowingthe QTL to 137 kb in size (Fig. marker alleles contributed IDC tolerance, with an aver-
+4c and 4d). The average score reduction ofNILS with
+age score reduction of0.61 points on a 1 to 9 scale.
+the Fiskeby III haplotype in this region was 0.73 points
+MERRY ET AL.
+9 OF 13
+RIGHTS LIN Ko
+
+
+
+oo
+A
+6o
+0o
+d
+8
+i
+I
+md
+I
+I
+/
+LLII
+I
+A
+I
+l
+A
+e
+E
+(b)
+-
+I
+I
+I
+L
+S
+S
+(c)
+I
+:
+I
+I
+-
+I
+:
+(d)!
+L
+$
+S
+3
+y
+s
+-
+is
+I
+E
+I
+-
+-
+II
+-
+II
+ILILII Il
+E - D
+-
+1 FAA5
+Fig. 4. Fine-mapping of the Gm05 quantitative trait locus (QTL) region through heterogeneous inbred families (HIFs) of soybean. (a) Custom
+Sequenom MassARRAY single nucleotide polymorphism (SNP) markers in the Gm05 QTL region. All numbers indicate bp position in reference
+to the Wm82.a2vl assembly. (b) Region fine-mapped in 2016. (cl Region fine-mapped in 2017. (d) Region fine-mapped to HIF 609 with
+an additional 27 SNPs. A critical recombination point was discovered between SNPS at bp positions 133,185 and 137,207. The final fine-
+mapped interval resides between bp positions 0 and 137,207. Arrows indicate gene models in the fine-mapped region.
+DISCUSSION
+Because Mandarin (Ottawa), the susceptible parent in the
+biparental population, is prominent in the ancestry ofelite
+Resolving the IDC QTL Region on Gm05
+lines released from 1947 to 1988 (Gizlice et al., 1994), many
+A QTL for soybean IDC tolerance was discovered lon
+modern elite cultivars may have inherited the susceptible
+Gm05 through association mapping for both the PI Panel
+allele from Mandarin (Ottawa) at this locus.
+and URT Panel, as well as biparental mapping. In the asso-
+Fine-mapping ofthe Gm05 QTL through HIFs
+ciation mapping, significant SNPS were found between
+allowed for higher resolution ofthe QTL interval. In the
+bp positions 201,448 to 1,325,450 on Gm05, with the peak
+2016-2017 combined HIF analysis, significant markers
+marker at bp position 201448 in both populations. In the
+were found from the beginning of Gm05 to bp position
+biparental mapping, the most significant marker genome-
+308,102, again indicating that the causative gene is located
+wide was found on Gm05 at bp position 21750, which over- on the end ofthe short arm of Gm05. Direct NIL com-
+lapped with the association mapping interval. Results from parisons showed results similar to those of Tuinstra et al.
+biparental and association mapping indicate that the QTL
+(1997) in that NILS with the tolerant haplotype showed an
+is located on the end lofthe chromosome, which coincides
+improvement; however, the differences were not always
+with another association mapping study that also used
+statistically significant from their paired NIL with the
+elite breeding lines (Mamidi et al., 2014). The Gm05 QTL
+susceptible haplotype. This is not surprising, considering
+is unique in thatit is strongly supported by identification
+the difficulty of accurately scoring IDC and the strong
+in all populations in this study. Unlike the QTLs on Gm03 influence of genotype X environment effects on this trait.
+and Gm06 in the PI panel, the Gm05 QTL is an important Despite this, at least one NIL pair in each year had statisti-
+source of genetic variation among elite breeding lines, as it cally significant differences in IDC score. Because signifi-
+was the only significant QTL discovered in the URT Panel. cance was found in the combined analysis, it is possible to
+10 OF 13
+THE PLANT GENOME : VOL. 12, NO. 3 L NOVEMBER 2019
+RIGHTS LIN Ko
+
+
+
+further narrow the region by using individual HIFs that
+Table 4. Combined marker analysis of near isogenic lines (NIL) in
+showed significant differences in IDC score between NILS. 2016-2017. In each year, NILS were pooled and genotype data
+Near isogenic lines from HIF 609 showed significant dif
+from each NIL were used to calculate the iron deficiency chlorosis
+ferences in IDC score and differed between Fiskeby III
+(IDC] score average associated with the alleles., marker IDC score
+and Mandarin (Ottawa) haplotypes in a r137-kb region
+averages for 'Mandarin (Ottawa) and 'Fiskeby III' alleles, and
+significance of each marker are reported below.
+on the end of Gm05, representing the smallest resolved
+region that may contain the causative gene. The region
+'Mandarin (Ottawa)' 'Fiskeby Ill'
+fine-mapped to HIF 609 contains 17 protein coding gene
+SNP IDt Positiont
+average
+average Significance
+models in the Wm82.a2.vl soybean genome annotation
+5s715592634 12,018
+5.784
+5.182
+****
+(Fig. 4). It is not clear whether this QTL is sufficiently
+$s715592632 21,750
+5.784
+5.182
+***
+valuable to be used in marker-assisted selection programs. -
+51,898
+5.784
+5.182
+***
+However, further cloning of the IDC tolerance gene in this Ss715592615 160,904
+5.781
+5.146
+region will enhance our understanding ofthis trait.
+S715592597 292,492
+5.781
+5.146
+Understanding the causative gene will allow for
+$s715592592 308,102
+5.766
+5.181
+**
+increased knowledge ofthe physiological mechanisms
+$s715592569 450,712
+5.611
+5.494
+NS#
+oftolerance, as was proposed for previous studies ofthe
+Ss715592558 469,490
+5.579
+5.515
+NS
+IDC tolerance gene on Gm03 (Peiffer et al., 2012). Fur-
+S715592553 484,990
+5.579
+5.515
+NS
+thermore, identifying the causative gene will provide
+$s715592552 487,599
+5.611
+5.494
+NS
+a basis for the development ofnovel strategies for crop
+SS715592551 488,255
+5.611
+5.494
+NS
+$s715592539 595,812
+5.621
+5.491
+NS
+improvement, including mining for novel variation, or
+creating novel variation through gene editing technolo-
+SS715592538 615,080
+5.588
+5.512
+NS
+gies and transgenesis (Jaganathan et al., 2018). There are
+$s715592510 954,235
+5.500
+5.315
+NS
+several candidate genes within the fine-mapped Gm05
+$s715592509 954,941
+5.516
+5.548
+NS
+locus that have annotations suggesting potential functions $s715592507 984,321
+5.516
+5.548
+NS
+in IDC tolerance, such as Glyma.05g001400, which is a
+$s715592503 1,049,939
+5.500
+5.315
+NS
+FxxhVQxhTG (a VQ-containing motif) domain, known
+5s715592500 1,092,569
+5.513
+5.584
+NS
+to regulate abiotic stress responses (Jing and Lin, 2015).
+SS715592479 1,444,334
+5.368
+5.581
+NS
+The VQ motif proteins interact with WRKY transcription *** Significant at the 0.001 probability level.
+factors, which have been shown to regulate phosphate
+** Significant tat the 0.0001 probabilitylevel.
+acquisition in Arabidopsis thaliana (L.) Heynh. (Devaiah tMarker ID (SSID) and marker rbp positions are derived from the Wm82.02.vl genome assembly.
+et al., 2007), as well as Fe homeostasis in rice (Oryza sativa #NS, notsignificant
+L. ssp. indica) (Ricachenevsky et al., 2010). The region
+also contains a Multidrug and Toxin Efflux (MATE)
+was discovered in the PI Panel. This QTL overlaps with
+family protein gene (Glyma.05g001700). Multidrug and
+the known locus required for Fe efficiency in soybean
+Toxin Efflux proteins GmFRD3a (Glyma.15g274600) and
+(Peiffer et al., 2012), which can explain 70% of phenotypic
+GmFRD3b (Glyma.09g102800) have been shown to be
+variation for IDC tolerancein some populations (Lin et
+involved in Fe transport in the xylem of soybean, and
+al., 1997). The NILS Clark (PI 548533) and IsoClark (PI
+increased expression of these genes improved Fe efficiency 547430) have been used to characterize the genetic mecha-
+(Rogers et al., 2009). Although Glyma.05g001700 shares
+nism ofthe locus (O'Rourke et al., 2009). The Fe-inefficient
+only slight protein homology with GmFRD3a (E-value =
+IsoClark does not show a response to Fe deficiency stress,
+0.32, 24% identity) and GmFRD3b (E-value = 0.75, 33%
+whereas the Fe-efficient Clark activates a suite ofpathways
+identity) over the complete protein length, it is possible
+to overcome the deficiency. Because none ofthe differ-
+that it plays a role in Fe transport within the roots, where
+entially expressed genes reside within the Gm03 locus,
+it has been shown to be expressed (Severin et al., 2010).
+Peiffer et al. (2012) hypothesized the tolerance gene to be
+Lastly, it is possible that the source ofthe IDC tolerance,
+a transcription factor or regulator. The epistatic interac-
+Fiskeby III, may contain a causative gene or genes in
+tion with this QTL and the Gm06 QTL may be explained
+the mapped interval that is not present in the soybean
+by this hypothesis. Although this QTL appears important
+reference cultivar Williams 82 genome (Schmutz et al.,
+in unadapted germplasm, it should be noted that no sig-
+2010). Further fine-mapping, genome analysis, and gene
+nificance was found in this region in the URT Panel. The
+expression comparisons between NILS in the 609 family
+low minor allele frequency of fmarker Ss715585486 within
+may help elucidate the gene and molecular mechanism(s)
+the QTL in the URT Panel suggests that the Fe-inefficient
+responsible for the Fiskeby III Gm05 IDC tolerance QTL.
+allele is present in low frequency among elite breed-
+ing lines.
+Additional IDC QTLs Identified in This Study
+Another QTL was identified on Gm06 in associa-
+The QTL on Gm05 was found in all mapping popula-
+tion mapping in the PI Panel and biparental mapping;
+tions and methods in this study. However, two other
+however, it was not identified in the URT Panel. In the
+IDC QTLs were identified within different subsets ofthe
+PI Panel, the peak significant marker (ss715595695) was
+analysis. Through association mapping, a QTL on Gm03
+at bp position 9,762,865 on Gm06; the peak marker in
+MERRY ET AL.
+11 OF 13
+RIGHTS LIN Ko
+
+
+
+biparental mapping (BARC-014557-01578) was at bp
+Charlson, D.V., T.B. Bailey, S.R. Cianzio, and R.C. Shoemaker. 2005.
+position 11,851,152. Despite the peak positions being
+Molecular marker Satt481 is associated with iron-deficiency chlorosis
+roughly 2 Mb apart, this is likely to be a single QTL on
+resistancei in a soybean brecdingpopulation. CropSci.452394-2399.
+dot1021356opwd20040510
+Gm06 if we consider that the large support interval in
+Chatterjee, A.,S. Lovas, H. Rasmussena, and R.J. Goos. 2017. Foliar appli-
+the biparental mapping population was caused by low
+cation ofiron fertilizers to control iron deficiency chlorosis ofsoy-
+marker coverage in the region. Similar to the Gm03 QTL
+bean. Crop Forage Turfgrass Manag. 3:2017-05-0037. doi:10.2134/
+found in this study, the minor allele frequency of fthe
+cftm2017.05.0037
+Cianzio, S.R., and W.R. Fehr. 1982. Variation in the inheritance ofresis-
+Gm06 QTL in the URT Panel was low (0.029), which is
+tance toiron deficiency chlorosis in soybeans. Crop Sci. 22:433-434.
+most probably why it was not detected in that popula-
+doti0213Scropuci9e.oo18X00200005
+tion. Interestingly, the Fe-inefficient allele appeared to
+Cianzio, S.R., W.R. Fehr, and ILC.Anderson. 1979. Genotypic cevaluation for
+be nearly fixed in the URT Panel. This QTL shows a very
+iron deficiency chlorosis in soybeans by visual scores and chlorophyll
+small effect (-0.16 of a point per allele copy), which limits
+concentration. Crop Sci. 19:644-646. datlioz1sSompediygolis
+X001900050024x
+its value in a breeding program and potentially explains
+De Mendiburu Delgado, F. 2009. Una herramienta de analisis estadistico para
+why it has perhaps not been under heavy selection.
+la investigacion agricola. MSc. dissertation, Univ. Nacional De Ingenie-
+ria, Lima, Peru.
+CONCLUSION
+Devaiah, B.N., A.S. Karthikeyan, and K.G. Raghothama. 2007. WRKY75
+An IDC tolerance QTL on Gm05 was found to be a sig-
+transcription factor is amodulator of phosphate acquisition and root
+developmentin. Arabidopsis. Plant Physiol. 143:1789-1801. doi:10.1104/
+nificant source of variation in both the PI Panel and elite
+pp.106.093971
+breeding material. Two additional QTLs identified on
+Do, T.D., T.D. Vuong, D.Dunn,S.Smothers, G. Patil, D.C. Yungbluth, etal.
+chromosomes 3 and 6in the PI Panel were also identified
+2018.Mappingand confirmation ofloci ifor slat tolerancein a novel
+but were not found to be a significant source of varia-
+soybean germplasm, Fiskeby III. Theor. Appl. Genet. 131:513-524.
+tion in elite material. A tolerance allele from Fiskeby III
+d6010.007100201730150
+Doerge, R.W.,and IG.A. Churchill. 1996. Permutation tests for multiple loci
+was independently mapped to the same locus on Gm05
+affectinga quantitative character. Genetics 142:285-294.
+in a biparental mapping population and was then fine-
+Endelman,] J.B. 2011. Ridgeregression andother rkernels for genomic selection
+mapped to a 137-kb region containing 17 putative gene
+with R packagerrBLUP. Plant Genome 4:250-255. doi10.3835/plantge-
+models. The results from this study provide an important
+nome2011.08.0024
+starting point for identifying the causal polymorphism
+Fan, J.B., K.L. Gunderson, M. Bibikova, J.M. Yeakley,J. Chen, E. Wickham
+Garcia, etal. 2006. Illumina universalbead arrays. Methods Enzymol.
+within this QTL, which will be valuable for understand-
+410:57-73. datiaumsenseszvoslouss
+ing the molecular mechanism underlying the variation
+Fehr, W.R. 1982. Control lofiron-deficiency chlorosisin soybeans by plant
+in IDC tolerance among elite soybean varieties.
+breeding. J. Plant Nutr. 5:611-621. cdetiliowousoulsguesegseg
+Fehr, W.R., and C.E. Caviness. 1977. Stages of fsoybean development. Special
+Supplemental Information
+Report 87. Iowa StateUniv. Mepithadsusweadhpahpuhe
+(accessed 126 Aug. 2019).
+Supplemental Table 1. Uniform Regional Trial yearly test Froechlich, D.M., and W.R. Fehr. 1981. Agronomic performanceofsoybeans
+information from 1989 to 2017.
+with differinglevels of iron deficiency chlorosis on calcareoussoil. Crop
+SupplementalTable 2. Primers usedin custom MassAR-
+Sci. 21:438-441. dot10213Scropxcil9s.0018X002100001x
+RAY genotyping for fine mapping ofthe Gm05 IDC QTL
+Gizlice, Z., T.E. Carter, Jnr., andJ.W. Burton. 1994. Genetic base for
+North American public soybean cultivars released ibetween 1947
+Conflict of Interest Disclosure
+and 1988. Crop Sci. 34:1143-1151. aat021SempsdlyA.OIIB
+003400050001x
+The authors declare that there is no conflict ofinterest.
+Goos, R.J., and B.E. Johnson. 2000. A comparison ofthree methods for
+reducing iron-deficiency chlorosisin soybean. Agron.J.921135-1139.
+ACKNOWEDGMENTS
+dmtil2lHdlagongweagzsilse
+The authors are grateful to Adrian Stec for laboratory assistance. This
+Hansen, N.C.,M.A. Schmitt, J.E. Andersen, and J.S. Strock. 2003. Iron defi-
+work was supported in part by ra United Soybean Board fellowship to R.M.
+ciency ofsoybean in the Upper Midwestandassociated soil properties.
+and the United Soybean Board sponsored project #1920-172-0116-C.
+Agron.J.95:1595-1601. doet102134agongoos1595
+Holland,J.B., W.E. Nyquist, and ICT. Cervantes-Martinez 2010.Estimating
+REFERENCES
+and linterpreting heritability for plant breeding: An update. Plant Breed.
+Broman, K.W.,H. Wu, S. Sen, and G.A. Churchill. 2003. R/qtl: QTL mapping
+Rev. 22:9-112. cdastio.00.x702069202d2
+in experimental crosses. Bioinformatics 19:889-890. doi:10.1093/bioin- Holmberg, S.A. 1973. Soybeans for cool temperate climates. Agric. Hort.
+formatics/btg112
+Genet. .31:1-20.
+Burton, A.L., K.O. Burkey, T.E. Carter, J.Orf, and P.B. Cregan. .2016. Phe-
+Hyten, D.L., I-Y. Choi,Q.Song, J.E. Specht, T.E. Carter, R.C. Shoemaker,
+notypic variation and lidentification of quantitative trait loci for ozone
+etal. 2010.Ahigh density integrated geneticlinkage map of fsoybean
+tolerance in a Fiskeby III x Mandarin (Ottawa) soybean population.
+and the development ofa 1536 universal lsoy linkage panel for quan-
+Theor. Appl.Genet. 129:1113-1125. dotl0.007X002-01626621
+titative trait locusmapping. CropSci. 50:960-968. doi:10.2135/crop-
+Butenhoff, KJ.2015. QTL mapping and GWASidentify sources ofiron
+sci2009.06.0360
+deficiency chlorosis and canopy wilt tolerance in the Fiskeby III Ix
+Inskeep, W.P., and P.R. Bloom. 1987. Soil chemical factors associatedwith
+Mandarin (Ottawa) soybean population. MSc diss, Univ. ofMinnesota,
+soybean chlorosis in Calciaquolls ofWestern Minnesota. Agron.].
+Minneapolis-St. Paul.
+79:779-786. dos102134agonje202196207900500052
+Carter, T.E., H.R. Boerma, G.J. Lee, X. Zhou, M.R. Villagarcia, A. Cardinal, et Jaganathan, D., K. Ramasamy, G.Sellamuthu, S. Jayabalan, and IG. Venkata-
+al. 2006. On-farm QTLmapringofaltolrane in the geneticbaseof
+raman. 2018. CRISPR for cropimprovement: An update review.Front.
+North American soybean. 1lth Biennial 1Conference on the Molecular
+Plant Sci. 9:985. do610.3891p1a2015.00985
+and Cellular Biology rofthe Soybean, Lincoln, Nebraska. 5-8 Aug. 2006.
+12 OF 13
+THE PLANT GENOME : VOL. 12, NO. 3 L NOVEMBER 2019
+RIGHTSLIN Ko
+
+
+
+Jing, Y., and R. Lin. 2015. The VQmotif-containing protein family of
+Peiffer, G.A., K.E. King, A.J.Severin, G.D. May,S.R. Cianzio, S.F. Lin, etal.
+plant-specific transcriptional regulators. Plant Physiol. 169:371-378.
+2012. Identification ofcandidate genes underlying an iron efficiency
+dot10.1104/pp.15.00788
+quantitative trait tlocusin soybean. Plant Physiol. 158:1745-1754.
+Kaiser, D.E.,J.A. Lamb, P.R. Bloom, andJ.A. Hernandez. 2014. Comparison
+dot10.104/pp.1.189860
+offieldmanagement strategies for preventing iron deficiency chlorosis Ricachenevsky, F.K., R.A. Sperotto, P.K. Menguer, andJ.P. Fett. 2010. Identifi-
+in soybean. Agron. J. 106:1963-1974. dotl0.2134lagronij13.0296
+cation ofFe-exces-induced genes in rice shoots reveals SaWRKY tran-
+Kandel, H., T. Helms,S.Markell, M. Ostlie, B. Schatz, G. Endres, etal. 2017.
+scription factorresponsive toFe, drought and senescence. Mol. Biol.
+North Dakota Soybean Variety Trial Results for 2017 andSelection
+Rep. 37:3735-3745. d0810.007A8103:00-0220
+Guide. North Dakota State Univ. www.ag.ndsu.edu/publications/crops/ Rogers, E.E.,X. Wu, G. Stacey, andH.T. Nguyen. 2009. Two MATE proteins
+north-dakotasoybean.waidytralireutiforr2017-and-selction-
+playa role in iron efficiencyin soybean.]. Plant Physiol. 166:1453-1459.
+guide(accessed 126 Aug. 2019).
+dotla.0ibyphph209.0.0>
+Karkosh, A.E., A.K. Walker, andJ.J. Simmons. 1988. Seedtreatmentfor
+Severin, AJJL.Woody, Y.T. Bolon, B. Joseph, B.W. Diers, A.D. Farmer,etal.
+control ofiron-deficiency chlorosis ofsoybean. Crop Sci. 28:369-370.
+2010. RNA-Seq atlas ofGlycine max: A guide to the soybean transcrip-
+dotio21Scropeci98s08X023002009X
+tome. BMC Plant Biol. 10:160. d6101186147129.10.160
+Kisha, T.J,C.H. Sneller, and B.W. Diers. 1997. Relationshipbetween genetic
+Schmutz,]., S.B. Cannon,J.Schlueter.). Ma,T. Mitros, W. Nelson, et al. 2010.
+distanxcamongpurentsand genetic variance in populations ofsoybean.
+Genome sequence odfthepuliepdhpbodsepbean Nature 463:178-183.
+CropSci. 37:1317-1325. dot10213Seropucil9zo01920018X00570040086
+doi10.1058/nature08670
+Le,S.J.Josse, andF. Husson. 2008. FactoMineR: An R package for multivari- Song, Q,D.L.Hyten, G.Jia, C.V.Quigley, E.W. Fickus, R.L.Nelson, etal.
+ate analysis.J. Stat. Softw. 25:1-18. doi10.18637/ss025101
+2013.Development and evaluation ofSoySNP50K, ahigh-density
+Li,L., W.Gao, Q. Peng, B. Zhou, Q. Kong, Y. Ying, etal. 2018. Two soybean
+genotyping garray for soybean. PLOS One8:E54985. doi10.1371/journal
+bHLH factors regulateresponset toiron deficiency.J.Integr. Plant tBiol.
+pone.0054985
+60:608-622. doi10.111/ipb.12651
+Song, Q, D.L. Hyten, G. Jia, CV. Quigley, E.W. Fickus, R.L. Nelson, etal.
+Lin,S.F,D.Grant, S. Cianzio,and R. Shoemaker. 2000. Molecular character-
+2015. Fingerprinting soybean germplasm andi lits utility in genomic
+ization ofiron deficiency chlorosisin soybean. J.Plant Nutr. 23:1929-
+research. G3 (Bethesda) 5:1999-2006. doH10.15341g.115019000
+1939. 24610X0009060000154
+Song, Q,J.Jenkins, G. Jia, D.L.Hyten, V. Pantalone, S.A. Jackson,etal. 2016.
+Lin, S.,S. Cianzio, and R. Shoemaker. 1997. Mapping geneticloci for
+Construction ofhigh resolution geneticlinkage maps to improvethe
+iron deficiency chlorosis in soybean. Mol. Breed. 3:219-229.
+soybean genome sequence assembly Glymal.01. BMC Genomics 17:33.
+do610.02XA:100637320605
+d0H1018612864-0152440
+Minnesota Agricultural Experiment Station. 2017. 2017 Soybean field crop
+Spiller, S., andN. Terry. 1980. Limiting factors in photosynthesis II: Iron
+trials results. Univ. ofMinnesota. www.maes.umn.edulsites/maes.umn.
+stress diminishes photochemical lcapacity by reducing the number of
+edulfievz0/.senbean._finldf@ecesed26Aug 2019).
+photosynthetic units. Plant Physiol. 65:121-125. doi10.1104/pp.65.1121
+Mamidi, S.,S. Chikara, R.J.Goos, D.L. Hyten, D. Annam, S.M.Moghaddam, Tuinstra, M.R., G. Ejeta, and P.B. Goldsbrough. 1997. Heterogeneous inbred
+etal. 2011. Genome-wide association analysis identifies candidate genes
+family (HIF) analysis: A methodfor developing near-isogenic lines
+associated with iron deficiency chlorosis in soybean. Plant Genome
+that differ at quantitative trait loci. Theor. Appl. Genet. 95:1005-1011.
+4:154-164. doi10.3835/plantgenome201.04.0011
+do6102007A00122005064
+Mamidi, S.,R.K.Lee,J.R. Goos, and P.E. McClean. 2014. Genome-wide
+Weiss, M.G. 1943.Inheritance and physiologyofefficiency in iron utilization
+association studies identifies seven major regions responsible foriron
+in soybeans. Genetics 28:253-268.
+deficiency chlorosis in soybean (Glycine max). PLOS One 9:E107469.
+Wang,]., P.E. McClean, R. Lee, R.J.Goos, and IT. Helms. 2008. Association
+detiolyl/purnalpumedluntep
+mapping ofiron deficiency chlorosis lociin soybean (Glycine max
+Niebur, W.S., and W.R. Fehr. 1981. Agronomic cevaluation ofsoybean
+L.Merr.) advancedbreeding lines. Theor. Appl. Genet. 116:777-787.
+genotypes resistant to iron deficiency chlorosis. Crop Sci. 21:551-554.
+d0H10.007X0122006.07104
+dot10213ScropucigeL.001SX0010040019
+Warnes, G., G.Gorjanc,F.Leisch, and IM. Man. 2019. Genetics: Population
+O'Rourke,J.A., RT. Nelson, D. Gmt.Sahmtz.l.Grimwed S. Cannon,
+genetics. Rpackage version 1.3.8.1.2. R Foundation for Statistical Com-
+etal. 2009. Integrating microarray analysis and the esoybean genome
+puting. htps/CRAN.Rprojctorg/putage-genetics (accessed26
+to understand the soybeans iron deficiency response. BMC Genomics
+Aug. 2019).
+10:376. 2d61011861471216410376
+3
+2
+I
+I
+I
+a
+i
+E
+MERRY ET AL.
+13 OF 13
+à
+RIGHTS LIN Ko
+I

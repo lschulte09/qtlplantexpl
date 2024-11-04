@@ -1,0 +1,1237 @@
+Received: 12 April 2021 Revised: 24 August 2021 Accepted: 1 September 2021
+DOI: 10.1111/ppl.13549
+ECOPHYSIOLOGY, STRESS AND ADAPTATION
+Physiologia Plantarum
+Association analysis of GmMAPKS and functional
+characterization of GmMMK1 to salt stress response
+in soybean
+Xiliang Liao1o I Meiqi Shil I Wei Zhang12 I Qian Ye1 I Yali Lil I
+Xianzhong Feng3 I Javaid Akhter Bhat1o I Guizhen Kan1o I Deyue Yu14
+1National Key Laboratory of Crop Genetics
+and Germplasm Enhancement, National Center Abstract
+for Soybean Improvement, Jiangsu
+Salinity is one of the major abiotic constraints affecting the growth and yield of plants
+Collaborative Innovation Center for Modern
+Crop Production, Nanjing Agricultural
+including soybean. In this context, the previous studies have documented the role of the
+University, Nanjing, China
+mitogen-activated protein kinase (MAPK) cascade in the regulation of salt signaling in
+Institute of Industrial Crops, Jiangsu Academy model plants. However, there is not a systematic analysis of salt-related MAPKS in
+of Agricultural Sciences, Nanjing, China
+soy-
+3KeyLaboratory of Soybean Molecular Design bean. Hence, in this study, we identified a total of 32 GmMAPKS via., genome-wide
+Breeding, Northeast Institute of Geography
+reanalysis of the MAPK family using the soybean genome v4.0. Based on the trans-
+and Agroecology, Chinese Academy of
+Sciences, Changchun, China
+criptome datasets in the public database, we observed that GmMAPKS are induced by
+*School ofLife Sciences, Guangzhou
+different abiotic stresses, especially salt stress. Furthermore, based on the candidate
+University, Guangzhou, China
+gene association mapping and haplotype analysis of the GmMAPKS, we identified a salt-
+Correspondence
+related MAPK member, GmMMK1. GmMMK1 possesses significant sequence variations,
+Guizhen Kan and Deyue Yu, National Key
+which affect salt tolerance in soybean at the germination stage. Besides, the over-
+Laboratory of Crop Genetics and Germplasm
+Enhancement, National Center for Soybean
+expression of the GmMMK1 in soybean hairy roots has a significant negative effect on
+Improvement, Jiangsu Collaborative Innovation
+the root growth, leading to increased sensitivity of the GmMMK1-OE plants to salt
+Centerfor Modern Crop Production, Nanjing
+Agricultural University, Nanjing, China.
+stress. Moreover, the heterologous expression of the GmMMK1 in Arabidopsis has been
+Email: kanguizhen@nijueducn and dyyu@njau.
+also observed to have a negative effect on the germination and root growth under salt
+edu.cn
+stress. The transcriptome analysis and yeast two-hybrid screening showed that hor-
+Funding information
+mone signaling and the homeostasis of reactive oxygen species are involved in the
+EUCLEG Horizon 2020 of European Union,
+Grant/Award Number: 727312; Ministry of
+GmMMK1 regulation network. In conclusion, the results of this work demonstrated that
+Science and Technology, Grant/Award
+GmMMK1 is an important negative regulator of the salt stress response, and
+Number:
+provides
+2017YFE0111000; Natural Science
+Foundation of Jiangsu Province, Grant/Award better insights for understanding the role of the MAPKS in soybean salt signaling.
+Number: BK20191313
+Edited by R. Rivero
+1 I INTRODUCTION
+growth, and final yields (Isayenkov & Maathuis, 2019). The ability of the
+plant to germinate under salt stress conditions is an important compo-
+Plants being sessile are often subjected to environmental stresses that nent of salt tolerance (ST). Soybean [Glycine max (L.) Merr.] is a distinc-
+negatively affect their growth and development (Bhat et al., 2020). In tive food and cash crop; however, this crop is highly sensitive to salt
+this regard, soil salinity has become a severe problem of agricultural crop stress (Farooq et al., 2017). First, the germination of soybean seeds could
+productivity worldwide. Salt stress directly affects the germination, plant be delayed under low-salt conditions (below 0.1% NaCI). What's worse,
+the germination rate gradually and significantly decreases under higher
+Xiliang Liao and Meiqi Shi iarejoint first authors.
+concentrations of salt stress (Phang et al., 2008). In previous studies, we
+Physiologia Plantarum. 2021;1-15.
+wlponlintlbrany.on/pumaine
+o 2021 Scandinavian Plant Physiology Society - 1
+
+
+
+2
+Physiologia Plantarum-
+LIAO ETAL.
+demonstrated that the germination rate of the diverse soybean soybean and what we found may provide new insights into the role of
+germplasms under salt stress fits a normal continuous distribution, indi- MAPKS in early salt signaling.
+cating that ST at the germination stage is a complex quantitative trait
+controlled by multiple genes (Kan et al., 2015, 2016). Furthermore, rela-
+tive germination rate can be used as the phenotypic trait to identify new 2 I MATERIALS AND METHODS
+major ST related genes, such as GmCDF1 (Zhang et al., 2019).
+MAPK cascade is a highly conserved signaling module acting 2.1 I Identification of putative MAPKS in soybean
+downstream of the receptors that transduce extracellular stimuli into
+intracellular responses in eukaryotes (Meng & Zhang, 2013). Recently, The 38 members of the MAPKS have been characterized at the genome-
+there is a big progression of knowledge concerning the MAPK cascade wide level by using the previous soybean draft of the whole genome
+as an early key component of osmotic signaling (Fàbregas sequence as reference (Neupane et al., 2013), while an updated version
+et al., 2020). During the soybean germination stage, it has been rev- of the soybean whole sequence draft was released recently (Valliyodan
+ealed that osmotic, as well as oxidative stress, is the major adaptive et al., 2019). Thus, we reanalyzed the MAPK gene family by using the
+response to salinity (Fercha et al., 2016). However, few studies have updated version of the soybean reference genome sequence. The latest
+suggested the relationship between MAPK cascade genes and ST in released soybean genome assembly version v4.0 and annotation version
+soybean germination or seedlings stage. By using the comparative Wm82.a4.v1 were downloaded from the Phytozome database (https:/1
+proteomic analysis, a soybean MAPK member named MMK2 was phytozomejgi-doe.gov/pz/portalhtm), We retrieved the sequence align-
+identified as a significantly differentially expressed protein under salt ment of two conserved MAPK domains, namely, stkc tdy mapk and stkc
+treatment (Ji et al., 2016). Similarly, using RNA sequencing (RNA-seq) tey mapk, from the NCBI Conserved Domain Database (CDD; https://
+analysis, the members of MAPK cascade were observed to be wwwunchinimanihgowv/cdd, The two domains were searched in the
+enriched under salt stress treatment (Liu et al., 2015; Wang soybean genome using HMMER 3.3with an e-value cutoff of 1 X 10-50
+et al., 2018). It seems that no matter the protein level or transcrip- At the same time, we retrieved 20 Arabidopsis MAPKS from the TAIR
+tional level, MAPK cascade members responded quickly and critically Ohtpge/wwwarabidopsson) and 17 rice MAPKS from UniProt
+to salt stress. Furthermore, by using the GWAS analysis, Ohtips/www.uniprotorg) as guidance criteria for a BLASTP algorithm;
+Glyma.18947140 (an Arabidopsis MPK4 homolog) of soybean was and these known MAPKS of the Arabidopsis and rice were used as query.
+identified as a candidate gene regulating ST in soybean (Kan The cutoff value for this was also set as 1 X 10 -50 Finally, a keyword
+et al., 2015). However, these studies did not carry out detailed search using "MAPK" was performed in the following protein databases:
+research on the MAPK gene family or a specific salt-related member. NCBI Gene, UniProt, and Pfam to do a manual check.
+With the availability of the reference genome sequence of different
+plant species, the genome-wide characterization and identification of
+gene families have become routine work. The Arabidopsis genome 2.2 I Phylogenetic and structural analysis of
+encodes approximately 60, 10, and 20 members of MAP3KS, MAP2KS, MAPKS
+and MAPKS, respectively (MAPK Group, 2002). The Arabidopsis MAPKS
+had been divided into four groups, and leach group functions specifically The alignment of the MAPK sequences was performed through the
+in the plant growth or stress regulation; for example, the group A mem- CLUSTALW alignment function in MEGA 7.0 (Kumar et al., 2016).
+bers are more involved in development processes, while group B mem- Phylogenetic tree was constructed by using the maximum likelihood
+bers such as AtMPK4s participate in pathogen defense and abiotic method and 1000 bootstraps values. MAPKS of soybean along with
+stress (Andreasson & Ellis, 2010). After the first soybean genome was known MAPKS of Oryza sativa, and Arabidopsis were used for the con-
+released (Schmutz et al., 2010), a total of 38 MAPKS, 11 MAPKKS, and struction of the phylogenetic tree.
+150 MAPKKKS in the soybean genome were identified soon (Neupane
+MEME program was employed for the detection of conserved
+et al., 2013). However, with the promotion of the soybean genome motifs in all protein sequences (Bailey et al., 2009). Following parameters
+assembly and the improvement of gene function annotation in model were set in the MEME analysis: the maximum number of motifs was set
+plants, the classification and precise annotations of the soybean MAPKS to 15; motif width was set to 26 and $200; motif repetition was set to
+show more importance but its progress is quite slow. Moreover, it is zero or one occurrence per sequence. The identified motifs were anno-
+very meaningful to find one representative member or subfamily in tated using the InterProScan program. Conserved domains in the MAPKS
+MAPKS that is responsible for the regulation of ST. Last but not least, were identified by using the NCBI conserved domains database (CDD).
+the constant challenge in understanding MAPK signaling pathways is
+the difficulty in identifying connections between kinase activation and
+downstream effector proteins (Pitzschke, 2015).
+2.3 I Expression pattern of MAPKS under multiple
+By keeping the above into consideration, the present study using environmental stresses
+multi-omics analysis like genomic variations and transcriptomes to
+finally identify a model of salt-related MAPKS, GmMMK1. Then, we Freely available expression data of MAPKS were obtained online
+elucidated the negative role of the GmMMK1 in the salt signaling of from the SoyBase database OMmp/ww.sobhweepioeon The
+
+
+
+LIAO ET AL.
+Physiologia Plantarum.
+3
+collection of soybean transcriptomes related to environmental stress 2.6 I Marker acquisition and candidate gene-based
+was based on the plant expression database PLEXdb (https://www. association analysis
+plexdb.org/). By using the GEO2R function from NCBI (https:/1
+www.ncdbininanihgow/gol. we obtained the corresponding expres- The single-nucleotide polymorphism (SNP) markers present in all the
+sion profiles of microarray datasets. The RNA-seq data of a time- 32 MAPKS genes that were used for the candidate gene-based associ-
+course experiment under salt treatment were reanalyzed (Liu ation mapping were obtained from the whole-genome resequencing
+et al., 2019). Gene expression omnibus (GEO) accessions of all (WGRS) genotype dataset of 219 soybean accessions (Lu et al., 2020).
+expression data used are shown in Table S2.
+For this, the SNPS from the promoter region (3 kb before ATG) to the
+3'-UTR with minor allele frequency (MAF) 25% of the 32 MAPKS were
+extracted. Finally, a total of 1202 SNPS were used as genotypic data
+2.4 I Quantitative RT-PCR for determining the
+for the candidate gene-based association study.
+expression level of GmMMK1
+Phenotypic data of ST-GR from the seeds collected from two
+environments (E1 and E2) were used to perform the association study.
+To analyze the expression of GmMMK1 under salt stress, we chosen The analysis was conducted by TASSEL v5.0 (Bradbury et al., 2007)
+two distinct materials in ST viz., NJAU_CO02 and NJAU_C101. Their using a compressed mixed linear model (CMLM; Zhang et al., 2010).
+seeds were initially sterilized, then put into the sterilized water to For the identification of the signification marker-trait associations, we
+make the seeds imbibed, and treated with 0 or 150 mM NaCl. After used two thresholds viz., P< 0.01 and P<0.001.
+treatment with or without salt stress, the samples that is, soybean
+Nucleotide polymorphisms, including SNPS and insertions-
+embryos were collected at the 2, 4, 24, and 48 h time intervals. As for deletions (InDels), for the association study of GmMMK1, were also
+the seedling samples, the 2-week-old seedlings' roots were immersed identified from the WGRS dataset of 219 soybean accessions (Lu
+in the 1/2 Hoagland's solution saturated with 150 mM NaCI, and then et al., 2020). A total of 101 variants were identified in the
+sampled at the same time points. Gene expression was determined by GmMMK1 gene region, and the CMLM method was used to identify
+RT-PCR analysis using an ABI 7500 system (Applied Biosystems) with significantly marker-trait associations. The Plink 2.0 software
+the SYBR Green Real-time Master Mix (Vazyme), and the data were Ihtp/www.cog-genomicsorg/plink/201 was used to calculate
+analyzed using ABI 7500 Sequence Detection System (SDS) software the R? among the 101 polymorphic sites. Then, the matrix was
+version 1.4.0. The normalized expression was calculated for each sam- imported into the LD heatmap package in R v3.6 to draw the link-
+ple as AACT, and the fold change was calculated as 2 -AACT which age disequilibrium (LD) heatmap. Haplotype analysis of GmMMK1
+represents the relative expression level of GmMMK1 under different was performed using the function for clustering genotypes in TAS-
+salt treatment time points.
+SEL to distinguish haplotypes with polymorphic sites (Bradbury
+et al., 2007).
+2.5 I Plant materials and evaluation of salt
+tolerance (ST)
+2.7 I Agrobacterium rhizogenes-mediated
+transformation of soybean hairy roots
+In the present study, we used the natural population consisting of
+219 cultivated soybean accessions for the trait-marker association The full-length coding sequence of GmMMK1 from Williams 82 was
+analysis. Seeds used in the germination experiments were collected cloned into the vector PMDC83 with CaMV 35S promoter (35S::
+from two different environments viz., Nanjing, China, in 2013 (E1) and GmMMK1). The recombinant PMDC83-GmMMK1 plasmid vector was
+Nantong, China, in 2017 (E2).
+transformed into soybean cultivar Williams 82 using Agrobacterium
+Healthy and viable seeds of each soybean accession were rhizogenes strain K599. One-week-old seedlings were used to do
+selected for surface sterilization for 6 h using the chlorine gas, soybean cotyledon injection with PMDC83-GmMMK1 or empty vec-
+and were washed thoroughly with distilled water. The detailed tor and then transferred into a suitable light density, 12/12 h dark/
+experimental procedure was followed as described previously (Kan light cycle, day/night temperature of 28/25°C and high (>90%)
+et al., 2015). Forty uniform seeds were then placed on two humidity environment. After almost a month, two kinds of transgenic
+sheets of filter paper in sterilized Petri dishes, and treated with hairy roots of soybean were developed viz., one overexpressed the
+sterilized water or 150 mM NaCI solution. The seeds were incu- GmMMK1, and the other one possessed the empty vector control.
+bated in a growth chamber at 25 + 1°C in the dark for 7 days. The detailed procedure used to obtain the transgenic hairy roots
+The number of germinated seeds was counted to calculate the was followed as previously described (Kereszt et al., 2007). Plants
+germination rate (GR). The calculation formula for the GR was harboring positive hairy roots with excessive GmMMK1 were vali-
+(number of germinated seeds/number of seeds tested) x 100%. dated using RT-PCR (Figure S8). Moreover, every soybean plant with
+ST-GR was defined as the (GR under salt treatment/the GR positive transgenic hairy roots is used for phenotyping and was reg-
+under control) x 100%, which represents the ST of soybean arded to be an independent line, which shared different genotypes
+accessions.
+with others.
+
+
+
+4
+Physiologia Plantarum-
+LIAO ETAL.
+2.8 I Phenotype assay of soybean and Arabidopsis
+fragment size and concentration. Furthermore, libraries were diluted up
+to 10 pmol for cBot clustering, and RNA-Seq was performed using
+When the hairy roots of the transformed soybean started to stretch, we Illumina HiSeq 2500 platform by Shanghai Biotechnology Corporation.
+cut the primary roots and transplanted them to hydroponic tanks with Short-fragment reads, rRNA reads, adapter/primer, andlow-quality reads
+1/2 Hoagland's solution. Four days after growth resumed, tanks were were filtered from Fastq files of raw data by using Trimmomatic v 0.35
+divided into two groups: 1/2 Hoagland's solution with 75 mM NaCI, (Bolger et al., 2014) and FASTX-toolkit (Gordon & Hannon, 2010). High-
+defined as the treatment group (moderate salt stress), and 1/2 Hoagland's quality filtered reads were mapped to the soybean reference genome
+solution alone, defined as the control group (without stress). Ten days (G. max1.1 version; Goodstein et al., 2012; Schmutz et al., 2010) using
+later, when the salt-stressed and control plants were at the fourth-node the HISAT2 software (Kim et al., 2015). Reads with unique mapping
+(V4) stage, they were investigated for root and shoot development. The were used for further studies. Transcriptional profiles (FPKM) of all the
+top secondary fully expanded leaves were estimated using a hand-held samples and differentially expressed genes (DEGS) between the salt
+absorbance-based dual wavelength chlorophyll meter (Konica Minolta stress and control soybean plants were measured using Cufflinks soft-
+SPAD-502). The SPAD-502 chlorophyll meter readings can be used to ware (Trapnell et al., 2012). Transcripts with a log,FC (fold change) 2 +2
+evaluate the leaf chlorophyll concentration (Uddling et al., 2007). Then, and s -2, and FDR (false discovery rate) value < 0.05 were selected as
+we used the electronic balance to weigh the fresh weight of the shoots significant DEGS.
+and roots, which were separated by cotyledon nodes.
+To understand the functions of the DEGS, Gene Ontology
+At the same time, the transgenic and control soybeans cultivated (GO) functional enrichment and KEGG pathway analysis were carried
+in 1/2 Hoagland's for 2 weeks were transferred into 1/2 Hoagland's out by goatools Uhtps//gthub.com/tanghaibao/Goatoolsy and
+solution with 150 mM NaCl (severe salt stress). Two days later, trans- KOBAS (http-/kobas.cbipkueducn/home.do, respectively. DEGS
+genic or control soybeans were investigated for ST by checking their were significantly enriched in GO terms and metabolic pathways
+live conditions.
+when their Bonferroni-corrected P-value was less than 0.05.
+For the Arabidopsis salt sensitivity assay at the germination stage,
+seeds from wild-type (Col-0) transformed with empty vector (VC) and
+transgenic overexpressed GmMMK1 lines (OE-lines) were surface ster- 2.10 I Yeast two-hybrid (Y2H) library screening
+ilized, and sown onto 1/2 MS plates containing NaCI at gradient con-
+centrations. The GRs were calculated every 24h for 7 days, and A soybean root CDNA library was generated by following the manu-
+photographs were taken on the 7th day. For the Arabidopsis salt sensi- facturer's instructions (Clontech). The full-length coding sequence of
+tivity assay at the seedling stage, the wild-type and transgenic Ara- GmMMK1 gene was fused to the GAL4 DNA-binding domain of
+bidopsis lines were germinated and grown on 1/2 MS plates for PGBKT7 vector (bait vector), and the recombinant vector was trans-
+5 days. Then, the uniformly growing and healthy seedlings were formed into the yeast strain named Y2H Gold. Yeast two-hybrid
+selected and subsequently transferred to plates with 0, 50, or 75 mM (Y2H) library screening was performed by using the BD Matchmaker
+NaCl. Photographs were taken on the 5th day after transferring.
+Library Construction and Screening Kit (Clontech). Then, to confirm
+the interaction obtained by Y2H screening, the GmMMK1 interacting
+proteins were subcloned into the PGADT7 (prey vector). Subse-
+2.9 I RNA-seq analysis of transgenic soybean hairy quently, the prey vector was co-transformed with the bait vector into
+roots
+Y2H Gold. The PGBKT7-53 and PGBKT7-Lam bait plasmids were CO-
+transformed with the PGADT7-T prey plasmid as positive and nega-
+For the RNA-seq analysis, hairy roots in which the green fluorescent pro- tive controls, respectively.
+tein (GFP) was detected by fluorescence excitation using the hand-held
+lamp (Luyor Instrument), were collected from plants with transgenic hairy
+roots and plants with the empty vector control. Total RNA was extracted 3 I RESULTS
+from the tissue using TRIzol Reagent according to the manufacturer's
+instructions (Invitrogen). The detailed procedure for library construction 3.1 I Genome-wide characterization and
+and RNA sequencing was followed as previously described (Sharmin phylogenetic analysis of the MAPKS in soybean
+et al., 2020). RNA quantity and integrity were checked using Nano-Drop
+Spectrometer (Thermo Scientific) and Agilent Bioanalyzer 2100 (Agilent In total, the reanalysis of the MAPK gene family in soybean by using the
+Technologies), respectively. For library construction, an integrity value updated version of soybean reference genome sequence (soybean
+27 was set to select the best quality RNA Atotal of 2ug RNAfrom each genome v4.0) has identified the 32 GmMAPKS in the whole soybean
+sample was used for the construction of paired-end libraries using genome (Table S1). These newly confirmed 32 MAPKS were randomly
+Illumina TruSeq RNA Sample Preparation Kit (Illumina), in accordance distributed among the 15 of fthe total 20 soybean chromosomes. Protein
+with the manufacturer's instructions. Qubite 2.0 Fluorometer (Life Tech- length (i.e., number of amino acids) of the GmMAPKS predicted varied
+nologies) was used to quantify purified libraries, and are authenticated considerably from 279 (Glyma.116021800) to 615 (Glyma.18G106800)
+by Agilent 2100-bioanalyzer (Agilent Technologies) to validate the amino acids. Similar to Arabidopsis (Jonak et al., 2002), the soybean
+
+
+
+LIAO ET AL.
+Physiologia Plantarum.
+5
+MAPKS also possessed the conserved phosphorylated amino acid resi- GmMAPKS in group B compared to Arabidopsis (25.0%, 5 members) and
+dues viz., threonine (T) and tyrosine (Y) located on the activation loop of O. sativa (11.8%, 2 members). Among the 10 members of soybean group
+the kinases (Figures S1-S3).
+B MAPKS, the homolog of AtMPK4 occupies almost half of them (four
+To further elucidate the subfamily grouping and their functional clas- members). According to the results of collinearity analysis, it revealed the
+sification, the phylogenetic analysis was performed using MAPKS from collinearity relationship of these four genes (Figure S4).
+Glycine Max (G. max), Arabidopsis thaliana, and O. sativa. A neighbor-
+joining (NU) phylogenetic tree was constructed that classified the MAPKS
+into four major groups viz., A, B, C, and D (Figure 1). Each group contains 3.2 I Expression patterns of MAPKS under
+MAPKS from three different plant species viz., G. max, A thaliana, and different environmental stresses
+O. sativa. However, most of the soybean MAPKS were clustered more
+closely with the Arabidopsis MAPKS compared to the O. sativa. Interest- In the present study, our objective was to determine the role of the
+ingly, soybean had a much higher proportion (31.3%, 10 members) of GmMAPKS against various environmental stresses. In this regard, we
+Organism
+Arabidopsis thalina
+Glycine max
+Oryza sativa
+E
+€
+E
+I
+E
+I I
+Colored ranges
+1
+1 1
+-
+f €
+e
+Group A
+
+-
+-
+6
+B
+-
+Group
+Run
+6
+L
+Group C
+aune
+Lr
+COUIR
+Group D
+Leaumes
+OuITRE
+L
+Peaimets
+uaneg
+AIMPKS
+AMPK17
+AIMPKIS
+caymuticaston
+AIMPK18
+Glyma.08G052500
+Glyma.12G073000
+AtMPK7
+GmMAPK1
+AtMPK14
+AIMPK3
+OSMPKS
+Blomaosciszaon
+emuoonar
+Linane
+DINMPK3
+1
+DasunRka
+Auma
+OLtInkg
+orimel
+X
+Auipto
+-e
+A
+S
+a
+/
+-
+?
+2
+7
+I
+E
+I I I
+I
+T
+o
+I
+I I I
+FIGURE 1 Phylogenetic relationship of putative MAPKS in Arabidopsis thaliana, Oryza Sativa, and Glycine Max. The phylogenetic tree was
+created using the NJ (Neighbor-Joining) method. Bootstrap values were determined by 1000 replicates and are indicated on each branch. Four
+colors indicate four subgroups viz., A, B, C, and D groups of MAPKS, and three kinds of shapes represent two dicots viz., Arabidopsis and soybean;
+one monocot viz., O. Sativa
+
+
+
+6
+Physiologia Plantarum-
+LIAO ETAL.
+collected nine RNA-seq or microarray datasets (Table S2), which are expression of GmMAPKS. Therefore, the expression patterns of
+freely available online. They reflected soybean gene expression under GmMAPKS under salt stress were analyzed in detail (Figure 2C). The
+different environmental stresses viz., 150 mM NaCl treatment, results showed that MAPKS, acting as kinases, respond very rapidly to
+100mM NaCl treatment, 50 mM NaHCO3 treatment, dehydration the stimulus like salt stress or osmotic stress. In addition, the basic
+treatment, aluminum treatment, Spodoptera litura (Fabricius) feeding, mRNA abundance was shown in the heatmap (Figure 2D), which rev-
+soybean aphid infestation, Phytophthora sojae infection, and rust dis- ealed a huge difference in the basic expression of MAPKS. Moreover,
+ease infection (Figure 2A,B). Under abiotic stress treatments, the tissue expression analysis based on the RNA-seq dataset from the
+expressions of 21 MAPKS were observed to show the significant SoyBase database showed that the roots and nodules had the highest
+change (fold change >1.5), while only four members revealed signifi- expression tissue of MAPKS (Figure S5). Through public data analysis,
+cant fold change under biotic stress treatment. Among these stress- we constructed a basic pattern of the stress-induced expression and
+responsive genes, the GmMPK4B and GmMMK1 (Glyma18G236800) tissue expression of MAPKS.
+showed significant response to NaCl, NaCHO3, and aluminum stress
+To get a better understanding of salt-related MAPKS, we con-
+treatments (Figure 2B).
+firmed the expression pattern of a multiple responsive MAPK mem-
+Based on the expression results, the salt stress was observed to ber, GmMMK1, as mentioned and discussed above. Using a salt-
+be the most prominent stress leading to considerable change in the sensitive soybean accession NJAU_C002, and a salt-resistant
+Colored ranges
+Group A
+(A)
+(B)
+(C)
+(D)
+Group B
+Group C
+LE F # a $
+Glyma.02G138800
+-
+Group D
+Glyma.07G206200
+GmMAPK1
+Glyma.12G073000 * * *
+D
+C
+Glyma.11G148780 -
+>
+Glyma.12G073700 17 * 17
+Heatmap
+Gly 01G222000 7 17
+7
+lyma.11G021800 77 77
+E
+0
+Glyma .05G211000 * 1
+0.5
+lyma .08G017400 * -
+GmMPK4B
+* 17 *
+D 400
+1
+GmMPK4A
+* 77
+1.5
+Glyma.09G256000 77 17
+A
+GmMMK1
+* * -
+D 4D DO
+2
+Glyma.04G029700 77 17
+2.5
+Glyma .06G029700 11 L7
+Glyma 05G157200 77 17 5
+- I
+Glyma. .08G115200 L A
+8
+E
+Glyma.07G101800 * * * B A - 8
+3.5
+Glyma.09G177300 * 17
+5
+Glyma.05G244600 27 *
+4.5
+Glyma.08G052500 77 77 17
+D 400
+-
+Glyma.07G255400 * *
+Glyma.17G018800 * 77
+-
+Glyma.13G210300 77
+Glyma.15G102500 77
+:
+388
+Glyma. .13G263600 *
+Glyma.15G240700 *
+Glyma.02G286800
+I
+17
+I
+Glyma.14G028100  17 -
+Glyma.08G309500 17 * * ( B B 488
+Glyma.18G106800
+77
+D
+4
+S V L 
+150mM NaCl treatment
+s
+RO
+i 
+
+A
+M
+ e
+V
+basic
+/ 4
+Moe
+FIGURE 2 Expression patterns of MAPKS under diverse environmental stress treatments. (A) Phylogenetic relationship of putative MAPKS in
+soybean. (B) The pink star, purple star, red star, gray circle, blue square, right triangle, left triangle, green square, and brown circle represent
+150 mM NaCl stress, 100 mM NaCI stress, 50 mM NaHCO3 stress, dehydration stress, aluminum stress, Spodoptera litura biting, soybean aphid
+infestation, Phytophthora sojae infection and rust disease, respectively. The blank shapes mean genes in expression profiles were missing, whereas
+solid shapes represent a significant response to the stress, and hollow shapes represent not responding. The threshold of significant upregulation
+or downregulation was set as 1.5-fold. These public datasets can be found by the NCBI accession numbers provided lin Table S2. (C) The time-
+course expression profile of soybean root in response to salt stress. (D) Basic mRNA abundance of GmMMK1 in RNA-seq data without salt stress
+
+
+
+LIAO ET AL.
+Physiologia Plantarum.
+7
+accession, NJAU_C101 (Figure S6C), we found that NJAU_CO02, investigation of the sequence variation of these top four haplotypes
+which is sensitive to salt at the germination stage, had a higher and alleles showed that INDEL_52570745 of high ST-GR Haps (Hap1 and
+faster response to salt stress. However, the performance of the Hap3) was A, while low ST-GR Haps (Hap2 and Hap4) were missing
+NJAU_C101 after salt treatment was exactly the opposite (- (Figure 3D). Besides, it is interesting that the two accessions we chose
+Figure S6A). Additionally, the expression pattern at the seedling stage for the expression pattern of GmMMK1 shared different haplotypes,
+was consistent but more evident relative to that at the germination which NJAU_C101 was Hap1 and NJAU_CO02 was Hap2 (Figure S6).
+stage (Figure S6B). In salt-sensitive samples, there was a rapid
+increase of GmMMK1 and subsequently declined, then increased again
+in a later period of 48 h. In salt-tolerant samples, the GmMMK1 seems 3.4 I GmMMK1 as a negative regulator of ST in
+to be dull, and the expression level was relatively reduced (except soybean
+24h in the seedling stage). More interestingly, at each time point, the
+expression patterns of sensitive and tolerant materials are reversed.
+Results of the bioinformatics, transcriptomic, and association mapping
+revealed the important role of the GmMMK1 in the salt stress
+response, and this gene was a soybean MPK4 homolog. Hence, we
+3.3 I Candidate gene-based association mapping
+selected the GmMMK1 gene to validate its function in response to salt
+of MAPKS and haplotype analysis of GmMMK1
+stress by using the overexpression analysis. The GmMMK1-OE lines
+represent the transgenic plants overexpressing the GmMMK1,
+GR of the 219 soybean accessions was evaluated under salt stress whereas the control plants possess the empty vector devoid of
+for two independent years. Consistent with previous research (Kan GmMMK1. Expression analysis showed that GmMMK1-OE lines
+et al., 2015), frequency distributions were approximately consistent exhibited significantly higher mRNA levels of GmMMK1 compared to
+with a normal distribution (Figure S7). By using the public WGRS nontransgenic control plants (Figure S8A).
+project of 424 soybean accessions (Lu et al., 2020), we extracted
+After 10 days of treatment, no significant phenotypic difference
+the high-quality SNPS markers with MAF 2 5% in the MAPK gene was observed between the transgenic and control plants in the pres-
+regions (from 3 kb before ATG to the 3'UTR). We identified a total ence of 0 mM NaCl. In contrast, under salt stress conditions, clear-cut
+of 1202 high-quality polymorphic SNPS within the 31 GmMAPKS except phenotypic differences were observed between the GmMMK1-OE
+in Glyma.08G017400 in which no SNP had been detected. An average and control plants (Figure 4A). For example, the GmMMK1-OE plants
+of 38.8 SNPS was found in each GmMAPK gene, with the 97 SNPS exhibited higher chlorosis and damage to the leaves with lower aver-
+located in the GmMMK1. The candidate gene-based association study age leaf chlorophyll levels (using SPAD-502 chlorophyll meter values)
+showed that Glyma.02G138800, Glyma.02G286800, Glyma.07G101800, than the control plants under salt stress (Figure 4C). In addition, we
+Glyma.08G052500, Glyma.14G028100, Glyma.18G106800, and also investigated two morphological parameters viz., the fresh weight
+Glyma.18G236800 were significantly associated with the ST-GR. Among of the aerial part (Figure 4D) and the underground part (Figure 4E).
+these genes, the GmMMK1 (Glyma.18G236800) showed the highest The average fresh weight of the underground part of the control
+number of the significant SNPS associated with the ST-GR. Furthermore, plants was significantly higher than that of the GmMMK1-OE plants.
+the GmMMK1 was consistently detected to be associated with the These results indicated that the root development of GmMMK1-OE
+ST-GR in both environments, namely, the mean data and BLUP data plants exhibited higher sensitivity to salt stress than the control
+(P <0.05). Detailed results are presented in Table S3.
+plants. In addition to the morphological changes under moderate salt
+To further determine the relationship between genetic variations in stress, the ST of GmMMK1-OE and control plants under severe salt
+GmMMK1 and ST-GR phenotype, 93 SNPS and 8 InDels were screened stress was investigated. Our results revealed that exposure to
+from the resequencing data, and we analyzed the association of these 150 mM NaCI for 2 days led to obvious differences between
+101 polymorphisms (91 SNPS and 8 InDels) again with the BLUP data, GmMMK1-OE and control plants (Figure 4B). The GmMMK1-OE plants
+and calculated the significance that is, LD of these polymorphic markers presented surprising injury symptoms, such as serious wilting, leaf
+(Figure 3A-C). A total of eight polymorphic markers were observed to whitening, and early death. However, the control plants exhibited
+show significant trait-marker association (P <0.01), which included seven stronger vitality with fewer albino leaves. In general, plants carrying
+SNPS and one InDel. Through gene structure annotation, we found that overexpressing GmMMK1 at the seedling stage appeared to be more
+most of the significant polymorphic markers (87.5%) were present in the sensitive to salt stress, both in terms of morphological performance
+noncoding regions, especially the promoter region (Table S4). Based on and final survival ability.
+these eight polymorphic significant markers, the 219 soybean accessions
+were classified into 10 haplotypes (Hap). The top four haplotypes
+accounted for 95.4% of the total accessions. Hap1, Hap2, Hap3, and 3.5 I Overexpression of GmMMK1 decreased ST in
+Hap4 possess 163, 20, 14, and 12 individuals, respectively, and their Arabidopsis
+mean values of ST-GR were 0.735, 0.605, 0.696, and 0.622, respectively
+(Figure 3E). The ST-GR of Hap1 allele was significantly higher than those Besides the transgenic soybean hairy roots system, we have also
+of Hap2 (P = 0.0055 by t-test) and Hap4 (P = 0.033 by t-test). Further developed the transgenic lines of Arabidopsis harboring overexpressed
+
+
+
+8
+Physiologia Plantarum-
+LIAO ETAL.
+(A)
+4,
+(D)
+oS
+3
+5
+e
+dA
+a
+a 5 SR
+2
+/ / / / / /
+8
+HAPI
+HAP2
+1
+HAP3
+G
+HAP4
+G
+:
+0
+Gm18:52564000
+52566000 52568000 52570000
+(B)
+(E)
+25%-75%
+1.2-
+I Mean+SD
+(C)
+Median Line
+Data
+1.0-
+&
+0.8-
+E 0.6
+CDS
+UTR
+0.4
+Promoter
+RColorKey
+Intron
+Faaoo
+0.2.
+0.0
+HAPI HAP2 HAP3 HAP4
+FIGURE 3 Natural variations in GmMMK1 are significantly associated with salt tolerance indices in soybean. (A) Manhattan plot of the
+association analysis of GmMMK1, including full-length GmMMK1 with the promoter region. The x-axis represents the corresponding physical
+location on chromosome 18. (B) A schematic diagram of GmMMK1 gene structure. The redrectangle represents the 2-kb-long promoter region,
+the gray partis the 5'UTR or 3'UTR, the yellow partis the exon, and the black line is the intron of GmMMK1. (C) Linkage disequilibrium
+(LD) analysis of GmMMK1 gene region. Each small square represents the R2 value between two sites, red represents complete linkage, and faint
+yellow represents complete non linkage. (D) Four main haplotypes determined by eight significant SNP/InDels. Yellow represents the type of
+variation in the first allele frequency and blue represents the type of variation in the minor allele frequency. The symbol :" stands for that there
+isa deletion in this haplotype. (E) The ratio of the germination rate under salt conditions to the germination rate under no-salt conditions (ST-GR)
+of four main haplotypes. The box diagram is divided into two parts: the normal box plot on the left and the data distribution on the right. The ST-
+GR of Hap1 was tested with Hap2, Hap3, and Hap4 for significance. *P < 0.05, **P <0.01
+GmMMK1 to further validate its role in the germination under salt MS with 0, 50, and 75 mM NaCl treatment. As shown in Figure 5C,D,
+stress. Three T2 homozygous lines showed higher expression of the primary root length of transgenic plants was noticeably inhibited
+GmMMK1 than wild-type according to the expression analysis (- under moderate NaCI treatment. The 75 mM NaCI even made Ara-
+Figure S8B). Thus, they were chosen for subsequent experiments, and bidopsis seedlings albino and dead, while the control seedlings grew
+these lines were designated as OE-11, OE-22, and OE-51. In the well. These results indicated that overexpression of GmMMK1 in Ara-
+absence of salt stress, the control and transgenic lines showed no sig- bidopsis greatly enhanced the seedlings sensitivity to salt stress.
+nificant difference in the GR. However, when germinating on the 1/2
+MS plates with 50 mM NaCl,it led to a significant decline in the GR of
+transgenic lines compared to the control plants. Moreover, by increas- 3.6 I Transcriptional regulatory network of
+ing the concentration to 75 mM, the GR of the transgenic lines GmMMK1 under salt stress
+decreased more severely to 50% relative to control plants (Figure 5A).
+However, when the salt concentration rose to 150 mM, none of the In order to investigate the differences in the transcriptional response
+seeds of both transgenic and control plants germinated anymore. of the transgenic and control plants under salt stress, we performed
+Among the three transgenic lines, the OE-11 was highly sensitive to the RNA-seq analysis of GmMMK1-OE soybean hairy roots under salt
+salt stress, while the OE-22, and OE-51 were comparatively less sen- stress. The expression level of GmMMK1 in the transcriptome of the
+sitive to salt stress than OE-11, but three lines shared the same ten- transgenic lines increased by 22-fold compared to that of control
+dency to reduce germination (Figure 5B). These results suggested a plants, which in turn caused significant up- and down-regulation of
+negative role of GmMMK1 in the regulation of germination in plants.
+453 and 192 genes, respectively (P-value < 0.05, fold-change >2 or <
+For the ST assay during the seedling stage, the transgenic and 0.5, Figure 6A). These DEGS were further subjected to GO enrichment
+wild-type seeds were first germinated, and then transferred to 1/2 analysis to identify transcriptional changes in transgenic lines in
+
+
+
+LIAO ET AL.
+Physiologia Plantaru
+9
+FIGURE 4 Performance of
+transgenic soybeans with
+(A)
+GmMMK1-OE hairy roots under
+salt stress. (A) Root growth of
+soybeans with transgenic hairy
+roots and nontransgenic roots
+under relatively moderate salt
+stress (75 mM NaCI). GmMMK1-
+OE represents transgenic
+soybean chimera with hairy roots
+overexpressing GmMMK1. The
+control is soybean with hairy
+roots carrying the empty vector
+pMDC83. (B) Salt tolerance of
+Control GmMMK1-OE Control GmMMK1-OE
+soybeans with transgenic hairy
+0 mM
+75 mM
+roots and nontransgenic roots
+(B)
+under severe salt stress (150 mM
+NaCI). The pictures were taken
+from the frontal plane and the
+top. (C-E)(C) SPAD values
+Control
+(chlorophyll values) of the leaves
+Frontal plane
+GmMMK1-OE
+using SPAD-502 meter. (D) Fresh
+weight of GmMMK1-OE and
+control shoots. (E)Fresh weight
+of GmMMK1-OE and control
+roots. The data are presented as
+Top view
+Control
+the mean + SDS (n 2 3). *p< 0.05,
+**p< 0.01
+GmMMK1-OE
+0 mM
+150 mM
+(C)
+(D)
+(E)
+50
+@
+a
+40
+8 4
+8 2.4
+*
+of 3
+of 1.8
+E
+20
+1.2
+R
+10
+0.6
+0.0
+D CO
+ddP COPO
+COO DPO
+G
+/ /
+y f
+/ /
+OmM 75mM
+OmM 75mM
+OmM 75mM
+comparison to control plants. Significant genes were enriched in core signal transduction. In addition, among the 10 genes enriched in
+response to the stimulus (GO: 0050896), with a P-value of the MAPK signaling pathway, nine genes were upregulated, while a
+1.08 x 10-6 (Figure 6B). Furthermore, 10 genes related to oxygen disease resistance gene PR1a was significantly downregulated
+stress (GO: 0070482, GO: 0036293, and GO: 0001666) were (Table S6).
+enriched, which suggested that GmMMK1 may influence the active
+oxygen scavenging system (Table S5). KEGG analysis showed that in
+addition to the enrichment of secondary metabolic pathways, the 3.7 I Protein-protein interaction network of
+MAPK signaling pathway (KEGG entry: map04016) was also enriched. GmMMK1
+There were totally 10 genes enriched in the MAPK signaling pathway,
+while they were not members in the actual MAPK cascade but were A subcellular localization experiment revealed that the fluorescence
+possible downstream genes of MAPK signaling such as PYL4 and of GmMMK1 was detected in the nucleus and plasma membrane
+PP2Cs. PYL4 is the receptor of ABA, and PP2CS are members of ABA (Figure 7A), which was consistent with its homologs GmMAPK4
+
+
+
+10
+Physiologia Plantarum-
+LIAO ETAL.
+WT
+OE11
+WT
+OE11
+WT
+OE11
+(A)
+%
+OE22
+OE51
+OE22
+OE51
+OE22
+OE51
+CK
+50 mM NaCI
+75 mM NaCI
+(B)
+1.2 WT
+1.2 OE11 WT
+1.2- WT
+- OET
+OE22
+OET
+: - OE51
+OE51
+OE51
+0.8
+0.8
+0.8
+a
+I 0.4
+0.4
+0.4
+0.0
+0.0
+0.0
+2 3
+5 6 7
+2
+5 6
+Days
+Days
+Days
+CK
+50 mM NaCI
+75 mM NaCI
+(C)
+(D)
+WT
+OE22 OE51
+Tsun
+CK
+67
+WT
+OE22
+OE51
+à
+- -
+6
+E4
+50 mM NaCI
+9
+-
+8 2-
+A
+75 mM NaCl
+0
+CK 50 mM NaCl 75 mM NaCl
+FIGURE 5 Salinity tolerance of transgenic Arabidopsis overexpressing GmMMK1. (A and B) Germination rate under salt treatment of three
+NaCI concentration gradients in transgenic Arabidopsis homozygous lines and VC (empty vector control lines). The germination rate was
+calculated every day for a week. OE-21, OE-51, and OE-21 mean three T2 lines of transgenic Arabidopsis. (A) Photographs were taken at the 7th
+day. (B) Line chart of the daily germination status of each transgenic lines. Data represents the mean + SD of three independent replicates. (C and
+D) Root growth oftransgenic and control Arabidopsis seedlings. Transgenic Arabidopsis and Col-0 were germinated on 1/2 MS and then
+transferred to gradient salt plates. (C) Photographs were taken at the 5th day after transferring. (D) Histogram of the root growth of transgenic
+Arabidopsis under different salt treatments. Data represents the mean + SD of three independent replicates
+(Liu et al., 2011) and AtMPK4 (Andreasson et al., 2005). Additionally, (Glyma.19G220200) participates in the S-adenosylmethionine (SAM)
+the nucleus location of GmMMK1 was confirmed by co-location with synthesis. SAMS are involved in the process that affects the level of
+the DAPI signal (Figure S9). Hence, we used a nucleus system of yeast methylation, and they are important precursors of ethylene synthesis.
+CDNA library to screen the interacting proteins of GmMMK1. To this Besides, the GmPYL4 (Glyma11G233300) encodes an ABA receptor
+end, we identified the 23 potential interacting proteins (Table 1). Among protein that plays the core ABA signaling role, and its homologous
+these proteins, we found some proteins related to hormonal pathways. genes were found significantly regulated in the GmMMK1-OE trans-
+For example, the GmSAM1 (Glyma.17G039100) and GmSAM2 criptome (Table S6). The GmOPR (Glyma.13G109700) is annotated as
+
+
+
+LIAO ET AL.
+Physiologia Plantarum. 11
+(A)
+(B)
+9 : srmgulsndigen up-regulated aentesan
+8-
+BP
+GmMMKI
+MF
+6
+CC
+8
+I
+4 -
+8 2 -
+&
+0
+S0 - -
+f d d - d d do uea
+o
+cel
+a V L ls
+p dfs
+f
+o
+of ior
+U
+Rf ds
+6
+-Or a
+vor
+o
+:
+/  -   2 / O 1
+i
+
+a
+o
+1 7
+1
+-10
+-5
+ T
+A
+A d
+/
+log,(FC)
+3
+FIGURE 6 Transcriptomic analysis of GmMMK1-OE hairy roots under salt treatment. (A) The x-axis of the volcano map is the log2 conversion
+ofthe fold change (FC). The y-axis represents the log conversion of the false discovery rate (FDR). Orange points indicate upregulated genes, and
+blue points indicate downregulated genes. (B) Gene Ontology (GO) terms, which are divided into three parts: biological process, molecular
+function, and cellular component. The x-axis shows the descriptions of significant GO terms. The y-axis shows the log conversion of the P-value
+ee
+à
+C
+(A)
+(B) PGADT7-GmOPR
+PGBKT7-GmMMK1
+GFP
+Bright field Merged
+PGADT7-GmSAM1
+PGBKT7-GmIMMK1
+CaMv355P10) MMKI GFP
+PGADT7-GmSAM2
+PGBKT7-GmMMK1
+PGADT7-PYL4
+PGBKT7-GmMMK1
+CaMv.355Pr GFP
+PGADT7-T
+PGBKT7-53
+PGADT7-T
+PGBKT7-lam
+FIGURE 7 GmMMK1 interacting proteins screening by yeast two-hybrid. (A) Subcellular localization of the GmMMK1 protein in the leaves of
+Nicotiana benthamiana. A construct with GmMMK1 fused to a fluorescent protein (GmMMK1-GFP) was generated. The vector control Iwas also
+transformed into Agrobacterium tumefaciens EHA105 and infiltrated into 4-week-old Nicotiana benthamiana plants. Scale bars = 20 um. (B)
+Interactions of GmMMK1 with GmOPR, GmSAM1, GmSAM2, and GmPYL4 in yeast. GmMMK1 was expressed in yeast as a GAL4 binding
+domain (BD) fusion, and GmPYL4 and GmSAM1 were expressed in yeast as a GAL4 activation domain (AD) fusion. Equal amounts of yeast clones
+were plated on SD-Leu-Trp + X-a-gal and SD-Leu-Trp-His-Ade + X-a-gal selection plates. PGADT7-T and PGBKT7-lam were used as the
+negative control, while PGADT7-T and PGBKT7-53 were used as the positive control
+12-oxophytodienoate reductase, which encodes the enzyme related enrichment on DAVID, as mentioned above. We got some significant
+to the synthesis of jasmonic acid (JA). From the 23 proteins screened terms such as one-carbon metabolic process (P-value = 0.020) and
+by Y2H library, we picked four interesting hormone-related proteins SAM biosynthetic process (P-value == 0.006; Table S7). These findings
+viz., GmOPR, GmSAM1, GmSAM2, and GmPYL4 to confirm the inter- indicated that GmMMK1 may interact with not only one specific
+action with GmMMK1 (Figure 7B). In order to find the consensus of member, but also multiple similar substrates in the SAM synthesis
+proteins obtained by Y2H technique, we performed the gene pathway.
+
+
+
+12
+Physiologia Plantarum-
+LIAO ETAL.
+TABLE 1 Proteins that interact with
+No. Locus tag
+Annotation
+Hits
+GmMMK1 identified via., yeast two-
+1
+Glyma.02G091900 Actin
+1
+hybrid screening
+2
+Glyma.02G132100 Nitrate reductase
+1
+3
+Glyma.04G255800 Glucuronoxylan 4-0-methyltransferase 1
+1
+4
+Glyma.05G044000 Probable pectate lyase 22-like
+2
+5
+Glyma.05G123500 p34cdc2 protein kinase
+4
+6
+Glyma.06G231000 UBP1-associated protein 2C
+1
+7
+Glyma.07G132900 Oxysterol-binding protein-related protein 3A
+1
+8
+Glyma.07G212800 Ferredoxin-nitrite reductase
+1
+9
+Glyma.08G177900 Polyadenylate-binding protein 2-like
+1
+10
+Glyma.09G062900 Beta-galactosidase
+1
+11
+Glyma.09G195000 Nagyehosghatbyethunodamine synthase
+1
+12
+Glyma.10G179200 Protein EXORDIUM-like 5
+1
+13 Glyma.11G059200 L-ascorbate oxidase homolog
+1
+14
+Glyma.11G233300 Abscisic acid receptor PYL4
+1
+15 Glyma.13G005500 Alpha-amylase inhibitor/lipid transfer/seed storage
+2
+family protein
+16 Glyma.13G109700 putative 12-oxophytodienoate reductase
+1
+17
+Glyma.13G268000 gamma-glutamyl hydrolase 2
+1
+18
+Glyma.16G012200 40S ribosomal protein SA
+1
+19
+Glyma.16G181700 Uncharacterized LOC100809067
+1
+20 Glyma.17G039100 S-adenosylmethionine synthase-like
+1
+21
+Glyma.17G052100 WD repeat-containing protein VIP3
+1
+22
+Glyma.19G109000 Uncharacterized LOC100783843
+1
+23
+Glyma.19G220200 S-adenosylmethionine synthase 1
+1
+4 I DISCUSSION
+the 87.5% (7/8) significant variation of GmMMK1 came from the non-
+coding region, in which there were four loci in the promoter region.
+4.1 I Polymorphisms of GmMMK1 are associated
+Hap2 and Hap4 possessed a deletion at InDel_52570745, and their
+with ST in soybean
+ST-GR was significantly lower than that of Hap1 and Hap2. This may
+imply that the variation in the promoter is the main reason for the
+In this study, we performed association analysis and found a salt- functional differences in the germination rate of GmMMK1 under salt
+related candidate gene, GmMMK1. Through further association treatment in the natural population. Due to this, the sequencing and
+analysis of GmMMK1, we found that seven significant loci were con- haplotype typing of GmMMK1 may be used to identify salt-tolerant
+centrated in the noncoding regions, which may affect the transcription germplasm in further crop breeding.
+level of GmMMK1. Many genes have been mapped using candidate
+association analysis, and found to have significant polymorphic sites
+in noncoding regions such as promoters. Through association analysis 4.2 I Gene expansion of MAPKS and the
+of GmCDF1, it was found that the relative germination rate of Hap2 complicated role of MPK4 subfamily
+of GmCDF1 under salt treatment was significantly higher than that of
+Hap1, and the difference between Hap1 and Hap2 was mainly due to MAPK represents the last component of the MAP3K-MAP2K-
+the deletion of one base at S-671 in the promoter region (Zhang MAPK cascade. To date, the MAPK gene family has been character-
+et al., 2019). Similarly, a waterlogging related gene ZmEREB180 was ized in the multiple plant species at the whole-genome level, such
+found in maize (Yu et al., 2019). By association analysis of the candi- as Arabidopsis (Colcombet & Hirt, 2008), O. sativa (Liu & Xue, 2007),
+date gene, it was also found that the gene was dividedinto two haplo- and G. max (Neupane et al., 2013). Based on the genome scans
+types by the insertion and deletion of InDel59 in the promoter region, using the whole genome sequence of the Williams 82 v4.0 geno-
+and the survival rate of Hap1 under waterlogging was significantly type, we identified a total of 32 putative members of the soybean
+higher than that of Hap2 (Yu et al., 2019). So, it was interesting to do MAPK family. There are six previous MAPKS (Neupane et al., 2013)
+candidate gene association in MAPKS to find a salt-related MAPK in removed from GmMAPKS, which have been annotated as other
+soybean. Finally we found GmMMK1, similar to these genes above, kinase family members now.
+
+
+
+LIAO ET AL.
+Physiologia Plantarum. 13
+In the present study, through candidate gene association analysis, treatment transcriptome were analyzed. We found that soybean B4
+we focused on the MAPKS of groups B, which contains the TEY motif. and B3 Raf families also have a significant response to salt stress
+Group Bis closely related to various hormone signals and participates in within a very short time, which indicates that the expression of
+the response to disease resistance signals (Rodriguez et al., 2010). Our MAPKS might be regulated by their upstream members (Figure S10). In
+study reported that members of group B MAPKS were more abundant in the present study, the response to salt stress of the MAPKS at tran-
+the soybean genome (10 Group B members) relative to the monocots scription level had been well demonstrated (Figure 2). Through our
+such as maize (2 Group B members) (Sun et al., 2015) and rice (2 Group and previous evidence, we believed that the whole MAPK cascade
+B members). Among these genes, the MPK4 orthologs of Arabidopsis plays an early component in salt signaling. However, different MAPKS
+constitute an important subfamily. The collinearity analysis of the soy- have different functions, and it may be because of their specific sub-
+bean MAPKS showed that Glyma.16G032900 (GmMAPK4a) versus strate. Hence, to understand the downstream regulatory network of
+Glyma.07G066800 (GmMAPK4b) and GmMAPK4c (Glyma.09G25600) GmMMK1 related to ST at the transcriptional level, we carried out the
+versus GmMAPK4d (GmMMK1 or Glyma.18G236800) are gene pairs, RNA-seq analysis of GmMMK1-OE hairy roots. Our results reported that
+they are the product of segmental duplication (Figure S5). The replication oxidative stress-related genes (GO: 0006979) were enriched among the
+event of the soybean genome brings more evolutionary possibilities to downregulated genes (Table S5), which indicated that GmMMK1 may
+the function of MAPKS, but the redundancy also brings certain difficulties reduce the active oxygen scavenging ability of soybean. Salinity-induced
+to the research of MAPKS' function. What's more, the study of homolo- ROS accumulation also acts as a signal in the mediation of salinity toler-
+gous MAPKS has no clear answer. For example, the orthologous gene ance (Mittler, 2017), while the ROS homeostasis in transgenic hairy roots
+OSMPK6 in O. sativa acts as a downstream effector of OSSIT1, and the has been changed and this might bring negative effects on GmMMK1-
+SIT1-MPK6 cascade can mediate salt sensitivity by affecting reactive oxy- OE plants. At the same time, the ABA core signaling members namely,
+gen species (ROS) and ethylene signaling, leading to growth inhibition PYLS and PP2CS exhibited a significant increase in the transcriptional
+and plant death under salt stress (Liet al., 2014). However, in Arabidopsis, levels (Table S6). Overexpression of GhPYL10/12/26 in the Arabidopsis
+overexpression of MKK2 upregulated the MPK4 and MPK6 activity, and has led to increased sensitivity of transgenic plants for the seed germina-
+enhanced ST (Teige et al., 2004). More interestingly, it was reported that tion and early seedling growth to ABA (Chen et al., 2017). Similarly,
+GmMPK6 functioned as both a repressor and an activator in the soybean GmPYL4-1 (Glyma.02G261900) and GmPYL4-2 (Glyma.14G056300)
+defense responses (Liu et al., 2014). These multiple functions may result increase expression by twice in GmMMK1-OE hairy roots. Interestingly,
+from MPAKS being at the intersection of multiple stress-related signaling. another GmPYL4 (Glyma.11G233300) was obtained by Y2H screening
+For example, overexpression of SpMPK3 in Arabidopsis enhanced the of GmMMK1. Furthermore, the other ABA-dependent salt stress signal-
+expression of many ABA-induced genes and affected the germination (Li ing pathway negative regulator, PP2CS, also significantly affected by
+et al., 2014). Moreover, silencing of NtMPK4 strongly increased the resis- overexpression of GmMMK1. Three PP2CS (Glyma.14G162100,
+tance to two herbivores in a fashion of regulating JA signaling Glyma.01G225100, and Glyma.11G018000) increase 6.3 times in expres-
+(Hettenhausen et al., 2013). What's more, activation of the endogenous sion on average (Table S6). Among them, Glyma.11G018000 increased
+MPK3 and MPK6 kinases led to up-regulation of genes responsible for 10.3 times with a P-value of9.40E-14 which was annotated as probable
+ethylene biosynthesis and ethylene responses (Xu et al., 2008). In our protein phosphatase 2C 8. Studies showed that overexpression of PP2CS
+study, we found GmMMK1 plays a negative role in ST. Ectopic expres- in Arabidopsis led to more sensitivity than the wild-type under 100 or
+sion of GmMMK1 in Arabidopsis has led to a significant decrease in the 150 mM NaCi treatment (Chu et al., 2021). So, the out of control of
+GR of transgenic seeds under salt stress. To determine whether ABA signaling may be another key reason for the negative effect when
+GmMMK1 is involved lin multiple hormone signaling, and how it functions overexpressing GmMMK1.
+in salt stress signaling, identification of the genetic network of GmMMK1
+is crucial.
+ACKNOWLEDGMENTS
+The authors thank Dr. Dezhou Hu and Dr. Xiao Li at Nanjing Agricul-
+tural University for reviewing the language in the manuscript. The
+4.3 I Negative roles of GmMMK1 in soybean salt
+authors thank Mr. Qing Du and Mr. Rui Qin for the soybean hairy
+signaling network
+roots generation experiment. This work was supported in part by the
+Natural Science Foundation of Jiangsu Province (BK20191313), Min-
+Since our objective was to figure out the regulation network of istry of Science and Technology (2017YFE0111000, and EUCLEG
+GmMMK1, it was easy for us to speculate its upstreaming regulator Horizon 2020 of European Union (727312).
+because of its role in the MAPK cascade. In fact, upstream members
+of MAPK cascade were identified as early components of salt and AUTHOR CONTRIBUTIONS
+osmotic signaling (Fàbregas et al., 2020). Recently, the novel roles for Guizhen Kan, Xianzhong Feng, and Deyue Yu designed this research;
+Raf-like kinases (MAPKKK members) in osmotic stress pathways have Xiliang Liao, Meiqi Shi, Yali Li, and Wei Zhang performed experiments;
+been identified as regulators of ABA-dependent and ABA- Xiliang Liao and Qian Ye performed transcriptome collection and anal-
+independent signaling pathways. So, the related homologous Raf-like ysis; Xiliang Liao and Meiqi Shi wrote this manuscript. Javaid Akhter
+B3 and B4 family genes expression from the time-course salt Bhat revised the manuscript. All authors approved the manuscript.
+
+
+
+14
+LIAO ETAL.
+Physiologia Plantarum-
+DATA AVAILABILITY STATEMENT
+Hettenhausen, C., Baldwin, IT. & Wu, J. (2013) Nicotiana attenuata MPK4
+The data that support the finding of this study are openly available at
+suppresses a novel jasmonic acid (JA) signaling-independent defense
+pathway against the specialist insect Manduca sexta, but is not
+the Phytozome database Ohtps/phytozomejsidoegow/pz/portalhtm,
+required for the resistance to the generalist Spodoptera littoralis. New
+the NCBI Ohtpg/wwwxdbininnhgwl the TAIR (https://www.
+Phytologist, 199(3), 787-792.htips/doiong/10111/nph12312
+arabidopsis.org), the UniProt (ntps/www.unipotorg) the SoyBase Isayenkov, S.V. & Maathuis, F.J.M. (2019) Plant salinity stress: many unan-
+database (https.//www.soybasoybase.org/soyseq/) and the plant expression
+swered questions remain. Frontiers in Plant Science, 10, 80.
+database PLEXdb htps/www.plexdborg), The data that supports the Ji, W., Cong, R., Li, S., Li, R., Qin, Z., Li, Y. et al. (2016) Comparative proteo-
+mic analysis of soybean leaves and roots by ITRAQ provides insights
+findings of this study are available in the supplementary material of this
+into response mechanisms to short-term salt stress. Frontiers in Plant
+article. The materials that support the findings of this study are available
+Science, 7, 573.
+from the corresponding author upon reasonable request
+Jonak, C., Okrész, L., Bogre, L. & Hirt, H. (2002) Complexity, cross talk and
+integration of plant MAP kinase signalling. Current Opinion in Plant
+Biology, 5, 415-424.
+ORCID
+Kan, G., Ning, L., Li, Y., Hu, Z., Zhang, W., He, X. et al. (2016) Identification
+Xiliang Liao D htps//orcid.org/0000-0003-0726-8571
+of novel loci for salt stress at the seed germination stage in soybean.
+Javaid Akhter Bhat D htps//orcid.org/00000001-9136-6275
+Breeding Science, 66, 530-541.
+Guizhen Kan D htps/orcidorg/00000003-3252-6106
+Kan, G., Zhang, W., Yang, W., Ma, D., Zhang, D., Hao, D. et al. (2015) Asso-
+ciation mapping of soybean seed germination under salt stress. Molec-
+ular Genetics and Genomics, 290, 2147-2162.
+REFERENCES
+Kereszt, A., Li, D., Indrasumunar, A., Nguyen, C.D.T., Nontachaiyapoom, S.,
+Andreasson, E., Jenkins, T., Brodersen, P., Thorgrimsen, S., Petersen, N.H.
+Kinkema, M. et al. (2007) Agrobacterium rhizogenes-mediated transfor-
+T., Zhu, S. et al. (2005) The MAP kinase substrate MKS1 is a regulator
+mation of soybean to study root biology. Nature Protocols, 2, 948-952.
+of plant defense responses. The EMBO Journal, 24, 2579-2589.
+Kim, D., Langmead, B. & Salzberg, S.L. (2015) HISAT: a fast spliced aligner
+Andreasson, E. & Ellis, B. (2010) Convergence and specificity in the Ara-
+with low memory requirements. Nature Methods, 12, 357-360.
+bidopsis MAPK nexus. Trends in Plant Science, 15, 106-113.
+Kumar, S., Stecher, G. & Tamura, K. (2016) MEGA7: molecular evolution-
+Bailey, T.L., Boden, M., Buske, F.A., Frith, M., Grant, C.E., Clementi, Let al.
+ary genetics analysis version 7.0 for bigger datasets. Molecular Biology
+(2009) MEME SUITE: tools for motif discovery and searching. Nucleic
+and Evolution, 33, 1870-1874.
+Acids Research, 37, W202-W208.
+Li, C., Chang, P.-P., Ghebremariam, K.M., Qin, L. & Liang, Y. (2014) Over-
+Bhat, M.A., Kumar, V., Bhat, M.A, Wani, IA., Dar, F.L., Farooq, I. et al.
+expression of tomato SpMPK3 gene in Arabidopsis enhances the
+(2020) Mechanistic insights of the interaction of plant growth-
+osmotic tolerance. Biochemical and Biophysical Research Communica-
+promoting rhizobacteria (PGPR) with plant roots toward enhancing
+tions, 443, 357-362.
+plant productivity by alleviating salinity stress. Frontiers in Microbiology, Liu, A., Xiao, Z., Li, M.-W., Wong, F.-L., Yung, W.-S., Ku, Y.-S. et al. (2019)
+11, 1952.
+Transcriptomic reprogramming in soybean seedlings under salt stress.
+Bolger, AM., Lohse, M. & Usadel, B. (2014) Trimmomatic: a flexible trim-
+Plant, Cell I& Environment, 42, 98-114.
+mer for Illumina sequence data. Bioinformatics, 30, 2114-2120.
+Liu, J.-Z., Braun, E., Qiu, W.-L., Shi, Y.-F., Marcelino-Guimaraes, F.C.,
+Bradbury, P.J., Zhang, Z., Kroon, D.E., Casstevens, T.M., Ramdoss, Y. &
+Navarre, D. et al. (2014) Positive and negative roles for soybean
+Buckler, E.S. (2007) TASSEL: software for association mapping of com-
+MPK6 in regulating defense responses. Molecular Plant-Microbe Inter-
+plex traits in diverse samples. Bioinformatics, 23, 2633-2635.
+actions, 27, 824-834.
+Chen, Y., Feng, L., Wei, N., Liu, Z-H., Hu, S. & Li, X-B. (2017) Overexpression Liu, J.-Z., Horstman, H.D., Braun, E., Graham, M.A., Zhang, C., Navarre, D.
+of cotton PYL genes in Arabidopsis enhances the transgenic plant toler-
+et al. (2011) Soybean homologs of MPK4 negatively regulate defense
+ance to drought stress. Plant Physiology and Biochemistry, 115, 229-
+responses and positively regulate growth and development. Plant
+238. htps/doiong/101016jplaphy201703023
+Physiology, 157, 1363-1378.
+Chu, M., Chen, P., Meng, S., Xu, P. & Lan, W. (2021) The Arabidopsis phos- Liu, Q. & Xue, Q. (2007) Computational identification and phylogenetic
+phatase PP2C49 negatively regulates salt tolerance through inhibition
+analysis of the MAPK gene family in Oryza sativa. Plant Physiology and
+ofAtHKT1:1.Journal of Integrative Plant Biology, 63, 528-542.
+Biochemistry, 45, 6-14.
+Colcombet, J. & Hirt, H. (2008) Arabidopsis MAPKS: a complex signalling Liu, Y., Zhou, M., Gao, Z., Ren, W., Yang, F., He, H. et al. (2015) RNA-Seq
+network involved in multiple biological processes. The Biochemical
+analysis reveals MAPKKK family members related to drought toler-
+Journal, 413, 217-226.
+ance in maize. PLOS One, 10, e0143128.
+Fàbregas, N., Yoshida, T. & Fernie, A.R. (2020) Role of Raf-like kinases in Lu, S., Dong, L., Fang, C., Liu, S., Kong, L., Cheng, Q. et al. (2020) Stepwise
+SnRK2 activation and osmotic stress response in plants. Nature Com-
+selection on homeologous PRR genes controlling flowering and matu-
+munications, 11, 6184.
+rity during soybean domestication. Nature Genetics, 52, 428-436.
+Farooq, M., Gogoi, N., Hussain, M., Barthakur, S., Paul, S., Bharadwaj, N. et al. MAPK Group. (2002) Mitogen-activated protein kinase cascades in plants:
+(2017) Effects, tolerance mechanisms and management of salt stress in
+a new nomenclature. Trends in Plant Science, 7, 301-308.
+grain legumes. Plant Physiology and Biochemistry, 118, 199-217.
+Meng, X. & Zhang, S. (2013) MAPK cascades in plant disease resistance
+Fercha, A., Capriotti, A.L., Caruso, G., Cavaliere, C., Stampachiacchiere, S.,
+signaling. Annual Review of Phytopathology, 51, 245-266.
+Zenezini Chiozzi, R. et al. (2016) Shotgun proteomic analysis of soy- Mittler, R. (2017) ROS are good. Trends in Plant Science, 22, 11-19.
+bean embryonic axes during germination under salt stress. Proteomics, Neupane, A., Nepal, M.P., Piya, S., Subramanian, S., Rohila, J.S., Reese, R.N.
+16, 1537-1546.
+et al. (2013) Identification, nomenclature, and evolutionary relation-
+Goodstein, D.M., Shu, S., Howson, R., Neupane, R., Hayes, R.D., Fazo, J.
+ships of mitogen-activated protein kinase (MAPK) genes in soybean.
+et al. (2012) Phytozome: a comparative platform for green plant geno-
+Evolutionary Bioinformatics Online, 9, 363-386.
+mics. Nucleic Acids Research, 40, D1178-D1186.
+Phang, T.-H., Shao, G. & Lam, H.-M. (2008) Salt tolerance in soybean. Jour-
+Gordon A. & Hannon GJ. (2010). Fastx-toolkit. FASTQ/A short-reads
+nal of Integrative Plant Biology, 50, 1196-1212.
+preprocessing tools (unpublished). Available at http:/hannonlab.cshl. Pitzschke, A. (2015) Modes of MAPK substrate recognition and control.
+edu/fastx_toolkit, 5.
+Trends in Plant Science, 20, 49-55.
+
+
+
+LIAO ET AL.
+Physiologia Plantarum. 15
+Rodriguez, M.C.S., Petersen, M. & Mundy, J. (2010) Mitogen-activated
+gene families and their expression profile under cold stress. Scientific
+protein kinase signaling in plants. Annual Review of Plant Biology, 61,
+Reports, 8, 16163.
+621-649.
+Xu, J., Li,Y.,Wang, Y., Liu, H., Lei, L., Yang, H. et al. (2008) Activation OfMAPK
+Schmutz, J., Cannon, S.B., Schlueter, J., Ma, J., Mitros, T., Nelson, W. et al.
+Kinase 9 induces ethylene and camalexin biosynthesis and enhances sen-
+(2010) Genome sequence of the palaeopolyploid soybean. Nature,
+sitivity to salt tstress in arabidopsis.Joural of Biological Chemistry, 283(40),
+463, 178-183.
+26996-27006. htps/doiorg/101074/bcm801392200
+Sharmin, R.A., Bhuiyan, M.R., Lv, W., Yu, Z., Chang, F., Kong, J. et al. (2020) Yu, F., Liang, K., Fang, T., Zhao, H., Han, X., Cai, M. et al. (2019) A group VII
+RNA-Seq based transcriptomic analysis revealed genes associated with
+ethylene response factor gene, ZmEREB180, coordinates waterlogging
+seed-flooding tolerance in wild soybean (Glycine soja Sieb. & Zucc.).
+tolerance in maize seedlings. Plant Biotechnology Journal, 17, 2286-2298.
+Environmental and Experimental Botany, 171, 103906.
+Zhang, W., Liao,X., Cui, Y., Ma, W., Zhang, X., Du, H. et al. (2019) A cation
+Sun, W., Chen, H., Wang, J., Sun, H.W., Yang, S.K., Sang, Y.L. et al. (2015)
+diffusion facilitator, GmCDF1, negatively regulates salt tolerance in
+Expression analysis of genes encoding mitogen-activated protein
+soybean. PLOS Genetics, 15, e1007798.
+kinases in maize provides a key link between abiotic stress signaling Zhang, Z., Ersoz, E., Lai, C.-Q., Todhunter, R.J., Tiwari, H.K, Gore, M.A.
+and plant reproduction. Functional & Integrative Genomics, 15,
+et al. (2010) Mixed linear model approach adapted for genome-wide
+107-120.
+association studies. Nature Genetics, 42, 355-360.
+Teige, M., Scheikl, E., Eulgem, T., Doczi, R., Ichimura, K., Shinozaki, K. et al.
+(2004) The MKK2 pathway mediates cold and salt stress signaling in
+Arabidopsis. Molecular Cell, 15, 141-152.
+SUPPORTING INFORMATION
+Trapnell, C., Roberts, A., Goff, L., Pertea, G., Kim, D., Kelley, D.R. et al. Additional supporting information may be found in the online version
+(2012) Differential gene and transcript expression analysis of RNA-
+of the article at the publisher's website.
+seq experiments with TopHat and Cufflinks. Nature Protocols, 7,
+562-578.
+Uddling, J., Gelang-Alfredsson, J., Piikki, K. & Pleijel, H. (2007) Evaluating
+the relationship between leaf chlorophyll concentration and SPAD-
+How to cite this article: Liao, X., Shi, M., Zhang, W., Ye, Q.,Li,
+502 chlorophyll meter readings. Photosynthesis Research, 91, 37-46.
+Y., Feng, X. et al. (2021) Association analysis of GmMAPKS and
+Valliyodan, B., Cannon, S.B., Bayer, P.E., Shu, S., Brown, AV., Ren, L. et al.
+functional characterization of GmMMK1 to salt stress
+(2019) Construction and comparison of three reference-quality
+response in soybean. Physiologia Plantarum, 1-15. Available
+genome assemblies for soybean. The Plant Journal, 100, 1066-1082.
+Wang, H., Gong, M., Guo, J., Xin, H., Gao, Y., Liu, C. et al. (2018) Genome-
+from: Ntpsl@sopioilipuisss
+wide identification of Jatropha curcas MAPK, MAPKK, and MAPKKK

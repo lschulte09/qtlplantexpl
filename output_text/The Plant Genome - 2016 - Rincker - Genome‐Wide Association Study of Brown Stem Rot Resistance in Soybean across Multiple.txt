@@ -1,0 +1,1169 @@
+Published April 1, 2016
+ORIGINAL RESEARCH
+Genome-Wide Association Study of Brown Stem Rot
+Resistance in Soybean across Multiple Populations
+Keith Rincker, Alexander E. Lipka, and Brian W. Diers*
+Abstract
+Core Ideas
+Genetic resistance to brown stem rot (BSR) of soybean [Glycine
+GWAS narrowed chromosome 16 interval
+max (L) Merr.], caused by Cadophora gregata (Allington &
+containing
+DW. Chamb.) T.C. Harr. & McNew, has been identified and
+a BSR resistance QTL to 0.3 Mb
+mapped with biparental populations. Although nearly 400
+SNPS identified provide new targets for marker-
+accessions have been identified with BSR resistance, this trait
+assisted selection of BSR resistance
+has been mapped in only 12 sources, and just two, PI84946-2
+GWAS of public BSR resistance data failed to identify
+and PI88788, have been used to develop BSR resistant cultivars.
+three separate resistance genes
+Thus, there is a serious need to improve our knowledge of the
+genetic basis of BSR resistance in soybean SO that resistance
+genes in cultivars can be diversified and markers close to
+ROWN STEM ROT OF SOYBEAN, caused by the soil-
+resistance genes can be identified and used in markerassisted
+DD borne fungus C. gregata, affects soybean production
+selection (MAS). To this end, we conducted a genome-wide
+in the northern United States, Canada, Brazil, and also
+association study (GWAS) to identify novel genomic loci
+has a minor impact in China (Wrather et al., 2010). Yield
+associated with BSR resistance and to gain further insight into
+losses ofup to 38% have been reported
+1972), and
+a previously reported chromosome 16 region containing BSR
+annual damage to the US
+(Gray, was estimated
+resistance (Rbs) genes. A total of 52,041 single-nucleotide
+soybean crop
+polymorphisms (SNPs) were tested for association with BSR in
+to average 422,000 Mg (15.5 million bushels) from 2006
+a set of 4735 accessions from four diversity panels evaluated
+to 2009 (Koenning and Wrather, 2010). Management of
+for resistance from 1989 to 2003. Using a unified mixed linear
+this disease is best achieved with host genetic resistance
+model and stepwise model selection, we refined the signals
+(Bachman et al., 1997b). Multiple screens of the USDA
+within the Rbs interval on chromosome 16 by finding associations Soybean Germplasm Collection for resistance have iden-
+that explain a substantial proportion of the total variation of BSR
+tified almost 400 accessions with resistance similar to
+resistance. In combination with significant GWAS signals found
+current resistant cultivars (Bachman et al., 1997a; Bach-
+elsewhere in the genome, our study will aid efforts to improve
+man and Nickell, 2000a; Chamberlain and Bernard,
+BSR resistance by providing new targets for MAS.
+1968; Hughes et al., 2004; Nelson et al., 1989; Patzoldt et
+al., 2003). However, introgression of disease resistance
+into cultivars has only been achievedwith the accessions
+PI 84946-2 and PI 88788.
+K. Rincker, A.E. Lipka, and B.W. Diers, Dep. of Crop Sciences, Univ.
+of Illinois, Urbana, IL 61801. Received 5 Aug. 2015. Accepted 15
+Dec. 2015. *Corresponding author (bdiers@illinois.edu,
+Abbreviations: BIC, Bayesian information criterion; BSR, brown stem
+Published in Plant Genome
+rot; FDR, false discovery rate; GRIN, USDA Germplasm Resources
+Volume 9. doi: 10.3835/planigenome2015.08.0064
+Information Network; GWAS, genome-wide association study; LD,
+O Crop Science Society of America
+linkage disequilibrium; MAS, markerassisted selection; MG, maturity
+5585 Guilford Rd., Madison, WI 53711 USA
+group; MLM, mixed linear model; MLMM, multilocus mixed linear
+This is an open access article distributed under the CC BY-NC-ND
+model; NBS-LRR, nucleotide binding site-leucine rich repeat; QTL,
+license Ihtp:/creativecommonsorg/licenses/byncnd/4.0/,
+quantitative trait loci; SNP, single-nucleotide polymorphism.
+THE PLANT GENOME - JULY 2016 - VOL. 9, NO. 2
+1 OF 11
+
+
+
+Three genes conferring resistance to BSR have been
+Hwang et al. (2014) and Vaughn et al. (2014) each used
+identifiedthrough genetic studies: Rbs1, Rbs2, and Rbs3
+the SoySNP50K array to identify QTL associated with
+(Hanson et al., 1988; Willmont and Nickell, 1989). These
+soybean seed protein and oil concentration. In addition,
+original studies showed the genes were unlinked; however, Vaughn et al. (2014) relied on historical phenotypic data
+subsequent genetic mapping placed all three resistance
+available in GRIN. Both studies identified previously
+genes onto the same region on chromosome 16 (linkage
+reported QTL and refined their genomic locations. Wen
+group D near the simple-sequence repeat markers Satt215 et al. (2014) also used the SoySNP50K array to study
+and Satt431 (Bachman et al., 2001; Lewers et al., 1999;
+sudden death syndrome [Fusarium virguliforme (syn. F.
+Patzoldt et al., 2005b). Additional BSR resistance quantita- solani f. sp. glycines)] resistance, which resulted in the
+tive trait loci (QTL) in experimental crosses derived from
+identification of novel loci and further refinement of
+eight Chinese soybean accessions have been mapped to
+the genomic regions already known to contain QTL. In
+the same region on chromosome 16 near Satt431, Satt547,
+addition, associations with resistance to sclerotinia stem
+or Satt244 (Patzoldt et al., 2005a; Perez et al., 2010). The
+rot of soybean [Sclerotinia sclerotiorum (Lib.) de Bary]
+efficiency of MAS for this locus has been limited because it were identified by Bastien et al. (2014). These studies
+was mapped to a large region ofnearly 10.2 Mb ofthe Wil- demonstrate the adaptability of GWAS to soybean traits
+liams 82 genome. Thus, there has been a significant need
+including disease resistance, the use ofGRIN phenotypic
+to study this region and elucidate the key locus or loci
+data, and the use ofthe SoySNP50K array as a source of
+underlying this QTL. Rincker et al. (2016) recently fine
+genotypic data. To our knowledge, GWAS of soybean
+mapped Rbs genes from multiple sources and foundinter- BSR resistance has not been reported.
+vals containing Rbs1, Rbs2, and Rbs3 to be locatedbetween
+A more precise location of previously identified
+32.7 and 33.1 Mb on chromosome 16. All intervals iden-
+resistance genes underlying the QTL on chromosome 16
+tified in this study included the same 0.04 Mb interval,
+(Hanson et al., 1988; Willmont and Nickell, 1989) andthe
+suggesting the possibility that only one resistance locus is
+elucidation ofadditional novel loci should increase the
+present among the sources tested.
+efficiency and effectiveness of MAS and aid in the deter-
+Although additionalloci have been proposed as
+mination of whether this QTL consists of separate genes
+interacting with the Rbs locus or acting as modifiers
+or a common resistance gene. Genome-wide association
+(Bachman and Nickell, 2000b; Sebastian et al., 1985;
+studies with diverse soybean accessions and a dense set
+Waller et al., 1991), their identification using linkage
+of SNP markers should contribute to this endeavor by
+mapping approaches has been difficult. Some common
+refining QTL to a narrow genomic interval. Therefore,
+drawbacks oflinkage mapping include the time required the objectives ofthis study were to use GWAS to (i) rig-
+to develop populations, limitations in genomic resolu-
+orously study the interval containing the known BSR
+tion arising from high linkage disequilibrium (LD), and
+resistance QTL on chromosome 16 and (ii) map novel
+limitations in statistical power arising from small popu-
+resistance QTL in a diverse set ofaccessions previously
+lation sizes, all of which usually lead to low precision of
+screened for BSR resistance.
+QTL mapping (Cardon and Bell, 2001). The GWAS offers
+an alternative to linkage mapping for identifying QTL.
+Materials and Methods
+Using plant accessions that capture many generations of
+recombination, the GWAS typically has greater resolu-
+Germplasm
+tion for locating QTL relative to linkage mapping (Car-
+Phenotypic data for BSR resistance of 4744 soybean acces-
+don and Bell, 2001). Furthermore, these accessions typi-
+sions were obtained for four diversity panels designated
+cally include more segregating loci than what is found in N-1989, B-1997, B-2000, and P-2003. N-1989 included
+a biparental cross used in a linkage mapping study.
+binary data (ie., resistant VS. susceptible) based on a com-
+Recent advances in genotyping and phenotyping
+bination offoliar and stem observations for 2773 acces-
+technologies are making it possible to dissect the genetic
+sions ranging from maturity group (MG) 000 through IV
+underpinnings ofimportant soybean traits and disease
+and originating from primarily Asia (84%) and Europe
+resistance with unprecedented resolution. For example,
+(14%) (Nelson et al., 1989). The remaining accessions
+the genotyping of 19,652 accessions in the USDA Soybean are from North America, North Africa, Australia, and
+Germplasm Collection with an Illumina Infinium chip,
+unknown origins. Eighteen accessions were character-
+SoySNP50K, containing 52,041 SNPs (Song et al., 2013) is ized by the USDA GRIN database as developed cultivars,
+now complete. Phenotypic data on many of these acces-
+including eight commercial cultivars used as susceptible
+sions for BSR resistance and other traits are also available checks. Because ofa low number of resistant accessions,
+through the USDA Germplasm Resources Information
+the four resistant commercial check cultivars that derived
+Network (GRIN) and from previous accession screening
+their resistance from PI84946-2 were excluded to prevent
+studies (Nelson et al., 1989; Bachman et al., 1997a; Bach-
+any bias from introgression of genomic content from a
+man and Nickell, 2000a; Patzoldt et al., 2003).
+single source of BSR resistance. From 1981 to 1986, sus-
+Genome-wide association studies have been con-
+ceptible accessions from N-1989 were culled from nonrep-
+ducted in soybean to identify QTL controlling a wide
+licated field tests conducted in four Midwest states (Iowa,
+variety of soybean traits including disease resistance.
+Illinois, Minnesota, and Wisconsin) and putative resistant
+2 OF 11
+THE PLANT GENOME L JULY 2016 L VOL. 9, NO. 2
+RIGH TS LIN Ko
+
+
+
+Table 1. Characteristics of association panels analyzed with genome-wide association study and stepwise procedures.
+Symptoms
+Box-Cox
+BSRScoret
+Panel
+Data type
+measured
+Accessions
+SNPt markers
+lambda
+Mean
+SDS
+h21
+N-1989
+Binary
+Foliar and stem
+2773
+33,240
+na
+na
+na
+no#
+B-1997
+Proportion 0-1
+Foliar
+540
+33,486
+log
+0.09
+0.15
+0.49
+B-1997
+Proportion 0-1
+Stem
+540
+33,486
+1
+0.38
+0.20
+0.61
+B-2000
+Proportion 10-1
+Foliar
+825
+32,150
+0.25
+0.33
+0.29
+0.93
+P-2003
+Proportion 0-1
+Stem
+606
+29,815
+0.75
+0.39
+0.25
+0.68
+tSNP, single-nucleotide polymorphism.
+#BSR, brownstem rot; BSRscoreis measured bythe percentage of fplants or nodes ofa plant showingfoliar and stem symptoms.
+SSD,standard deviation.
+1h, narrow-sense heritability; h2 estimated within GAPIT Tby the use eofSNP markers and genetic crelatedness samong gindividuals
+#Calculation of h2by GAPITisnot appropriate for this binary trait
+lines were evaluated in replicated field and greenhouse
+conducted in SAS v9.3 (SAS Institute, 2011) to find the
+tests. Phenotypic data were obtained from GRIN (https:ll
+optimal transformations to correct for non-normality of
+mpgwebarsgringov/gringoballearchaspw, B-1997
+the error terms and unequal variance ofBSR resistance in
+included quantitative data of separate foliar and stem mea- the B-1997, B-2000, and P-2003 panels.
+surements from 540 accessions originating from central
+China and ranging in MG II through IV (Bachman et
+Genome-Wide Association Study
+al., 1997a). Evaluations were conducted in 1994 in a non-
+Genotypic data of soybean accessions from the SoyS-
+replicated field test at Urbana, IL. Phenotypic data were
+NP50K BeadChip (Song et al., 2013) were obtained from
+obtained from Michael Bachman (personal communica-
+Perry Cregan, USDA-ARS. Single-nucleotide polymor-
+tion, 2014). Foliar data were expressed as the percentage of phisms with more than 10% missing data were dis-
+plants exhibiting symptoms, while stem data were mea-
+carded before the GWAS and accessions were removed
+sured as the proportion of nodes exhibiting brown pith
+ifthere were more than 10% heterozygous genotypes.
+and averaged over four plants. B-2000 included quantita-
+After removal of SNPS with minor allele frequency
+tive foliar measurement data from 825 accessions originat- <5%, between 29,815 and 33,486 SNPs (depending on
+ing from central and southern China and ranging in MG
+the panel) were used in the GWAS (Table 1). Missing
+IV through VIII (Bachman and Nickell, 2000a). Green-
+SNP genotypes were imputed with the major allele. To
+house data from evaluations with the Oh2 isolate ofC.gre- conduct GWAS, a unified mixed linear model (MLM;
+gata were included lin this analysis because no selection for Yu et al., 2006) with population parameters previously
+BSR resistance was conducted before evaluating the 825
+determined (Zhang et al., 2010) was implemented in
+accessions. The phenotypic data for B-2000 were expressed the GAPIT R package (Lipka et al., 2012). To control for
+as the percentage of the nodes exhibiting foliar symptoms population structure and familial relatedness, the uni-
+and averaged over two to five plants tested within each
+fied MLM included principal components (Price et al.,
+replication. A total of281 accessions with symptoms fail-
+2006) and a kinship matrix computed by the VanRaden
+ing to progress past the first trifoliate in two plants were
+method (VanRaden, 2008). For each GWAS scan, the
+included in a second replication. For these accessions,
+Bayesian information criterion (BIC; Schwarz 1978)
+phenotypic data were averaged across the two replicates
+was used to determine the optimal number of principal
+and obtained from Bachman (1999). P-2003 included
+components to include in the GWAS model. The vari-
+quantitative stem data from 606 accessions originating
+ance component estimates from this model were used
+from south-central China and ranging in MG I through
+to estimate narrow-sense heritability; specifically the
+IX (Patzoldt et al., 2003). Evaluation of fthese accessions
+genetic variance component estimate was dividedby
+was conductedin a greenhouse with one replication using the sum ofthe genetic and residual variance component
+the Oh2 C. gregata isolate. Phenotypic data were obtained estimates. The phenotypic variation explained by the
+from GRIN and expressed as a percentage ofthe nodes
+model was assessed with a likelihood-ratio-based R2
+exhibiting brown pith and averaged over five plants. Meth- statistic, denoted RIR (Sun et al., 2010). The Benjamini
+ods to evaluate resistance in greenhouse tests among the
+and Hochberg (1995) procedure was implemented to
+N-1989, B-2000, and P-2003 panels were similar with the
+the GWAS results ofeach panel to control for the mul-
+exception that Nelson et al. (1989) inoculated with a dif-
+tiple testing problem at a false discovery rate (FDR) of
+ferent isolate. Separate analyses were conducted on each of 10%. This rate was chosen because phenotypic data of
+the four diversity panels. Moreover, two separate analyses the panels were based on limited replication and trends
+were conducted for stem and foliar BSR data in the B-1997 among panels would be identified. To further elucidate
+panel. The Box-Cox (Box and Cox, 1964) procedure was
+the genomic underpinnings ofthe peak GWAS signals,
+RINCKER ET AL.: GWAS OF BROWN STEM ROT RESISTANCE IN SOYBEAN
+3 OF 11
+RIGHTS LIN Ko
+a
+
+
+
+A
+B
+0.15
+0.6
+I
+0.1
+0.4
+I
+I
+I
+I
+0.2
+0.05
+I
+E
+0
+0
+0.0
+0.2
+0.4
+0.6
+0.8
+0.0
+0.2
+0.4
+0.6
+0.8
+Proportion of Plant with Symptoms
+Proportion ofPlant with Symptoms
+C
+D
+0.3
+0.15
+0.25
+I
+0.2
+E 0.1
+P
+€
+I
+Bais
+0.1
+0.05
+a
+0.05
+0
+0
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Proportion of Plant with Symptoms
+Proportion of Plant with Symptoms
+Fig. 1. Histograms of phenotypic data in genome-wide association studies are shown in the following panels: (A) foliar symptoms from
+the B-1997 study, (B) stem symptoms from the B-1997 study, (C) foliar symptoms from the B-2000 study, and (D) stem symptoms from the
+P-2003 study.
+a multilocus mixed linear model (MLMM) (Segura et
+Linkage Disequilibrium Analysis
+al., 2012) in R software was implemented using all SNPs
+Linkage disequilibrium was assessed by computing the
+across the genome. The final MLMM was selected using
+squared allele frequency correlations (r) between unim-
+the extended BIC (Chen and Chen, 2008). All SNPS that
+puted marker pairs using the site-by-all option in TAS-
+were identified in the final MLMM were then entered as
+SEL version 5.0 (Bradbury et al., 2007). Only SNPS with a
+covariates in a second GWAS.
+minor allele frequency >5% and <10% missing were used
+Because the unified MLM was developed to analyze
+to estimate LD.
+quantitative traits, some ofits statistical assumptions
+(e.g., normality of error terms) are violated when fit-
+Results
+ted to the binary BSR data in the N-1989 panel. Thus, it
+was imperative that the GWAS signals identified using
+Phenotypic Data
+the unified MLM were confirmed using an alternate
+The N-1989 panel contains 2738 susceptible and 35 resis-
+approach specifically designed to analyze binary data,
+tant accessions. The remaining panels measured either
+namely the logistic regression model (Agresti 2013). All
+foliar or stem symptoms, which were quantified as the
+statistically significant markers from the original GWAS proportion of the plant expressing symptoms. For these
+scan ofthe N-1989 panel were consideredfor inclusion
+remaining panels, the proportion ofindividual plants
+into a logistic regression model using SAS PROC LOGIS- exhibiting BSR symptoms averaged between 0.33 and
+TIC (SAS Institute, 2011), where the optimal model was
+0.39 (Table 1). Interestingly, the B-1997 panel had, on
+determined using the BIC (Schwarz 1978) in a stepwise
+average, threefold more plants showing no signs of foliar
+model selection procedure. Unlike the unified MLM,
+BSR development than stem BSR development in the
+these logistic regression models did not include individu- B-1997 panel and BSR development in the B-2000 and
+als as random effects. Phenotypic variation explained by P-2003 panels (Fig. 1). The narrow-sense heritabilities of
+the model was assessed with a litkelihood-atio-basedR BSR resistance in the B-1997, B-2000, and P-2003 panels
+statistic, denoted R2 McF (McFadden, 1974).
+ranged from 0.49 to 0.93 (Table 1), suggesting that genetic
+variability might play a substantial role in BSR resistance.
+4 OF 11
+THE PLANT GENOME L JULY 2016 : VOL. 9, NO. 2
+RIGHTS LIN KO
+
+
+
+Genome-Wide Association Study
+Discussion and Conclusions
+and Stepwise Procedures
+Consistent with previous studies, our GWAS detected
+Before this study, genetic mapping of BSR resistance had
+significant associations between BSR resistance and
+been conducted primarily through the use ofbiparental
+marker loci on chromosome 16. Using the unified MLM, populations. Given recent advances in genotyping and
+significant SNPs were identified on chromosomes 2,
+the diversity present in soybean accessions, GWAS is now
+16, and 17 in the N-1989 panel (Supplemental Table S1;
+a viable approach for identifying new genetic resistance
+Supplemental Fig. S1). On chromosome 16, statistically
+loci and pinpointing the location of Rbs genes on chro-
+significant GWAS signals were found in the vicinity of
+mosome 16. We conducted GWAS with a 50K SNP array
+the previously reported BSR QTL (Fig. 2). In contrast
+in four panels of diverse soybean germplasm that include
+to the N-1989 panel, no statistically significant associa-
+all publically available BSR resistance data. While the
+tions were identified in either the B-1997 foliar or stem
+scope ofthis study is limited by the pathological screen-
+panel (Supplemental Fig. S1). The GWAS ofthe B-2000
+ing and inoculation methods, this work constitutes one
+panel found significant peaks on chromosome 16, 5,
+of the most extensive analyses of naturalvariation for
+and 8 (Fig. 3; Supplemental Table S1; Supplemental Fig.
+BSR resistance to date.
+S1). The most significant SNP (P-value 4.79 X 10-35) was
+located 21 kb from the interval identified lby Rincker
+Linkage Disequilibrium and Population Structure
+et al. (2016) as potentially containing Rbs1, Rbs2, and
+The genomic region on chromosome 16 from 32 to 34
+Rbs3 and explained 17% ofthe variation for symptoms
+Mb that contains significant SNPS in two ofthe MLMM
+(Supplemental Table S1; Fig. 3). In agreement with the
+analyses is gene rich with rapid LD decay. The N-1989
+N-1989 and B-2000 panel GWAS results, the peak signals panel is composed of more accessions ranging from
+from the GWAS of the P-2003 panel were in the vicinity
+wider geographic origins, which we would expect to have
+ofthe putative BSR QTL on Chromosome 16 (Supple-
+less LD. However, the greater LD present in the N-1989
+mental Table S1; Fig. 4; Supplemental Fig. S1). Moreover,
+panel than other panels (Fig. 2, 3, 4) suggests this group
+the marker with the strongest association with BSR resis- of accessions could have been subject to greater selection
+tance (P-value 1.59 X 10-7) was the same as that identi-
+pressure, founding events, or the presence of population
+fied in the GWASofthe B-2000 panel.
+structure compared with the germplasm that comprised
+Within the N-1989 panel, the MLMM analysis identi- the other three association panels. Hwang et al. (2014)
+fied no significant associations; however, stepwise logistic also used the SoySNP50K array and reported an approxi-
+regression of significantly associated SNPs identified
+mate coverage of one SNP every 17 kb in euchromatic
+in the GWAS revealed that three SNPS on three differ-
+regions and 100 kb in heterochromatic regions. This COV-
+ent chromosomes (i.e., chromosomes 2, 16, and 17) best
+erage is sufficient for SNPs to be in LD with most QTL;
+described thebinary resistant and susceptible phenotypes however, a gap of 700 kb exists between the two signifi-
+(Table 2). When the GWAS was reconducted with these
+cant GWAS peaks on chromosome 16 (Fig. 2, 3, 4) where
+three SNPs included as covariates in the model, no statis- none ofthe SNPS tested in GWAS were called.
+tically significant signals were detected at 10% FDR (Fig.
+For each of the four panels, the BIC was used to
+2), suggesting that these three SNPS sufficiently account
+determine that none ofthe principal components needed
+for BSR resistance variability in this panel. Within the
+to be in the optimum GWAS model. Given that the
+B-1997 panel, no significant associations were found
+ancestry of Asian soybean accessions can be traced back
+using the MLMM, which is consistent with the original
+to a domestication event that reduced diversity from a
+GWAS scan. The optimum model obtained from the
+wild relative (Glycine soja Siebold & Zucc.) that already
+MLMM analysis for the B-2000 panel included two SNPs had low sequence diversity (Hyten et al., 2006), this is not
+on chromosome 16 (Table 2). When these two SNPs were particularly surprising. However, two explanations for
+included as covariates in the GWAS model, an additional this result are that the kinship matrix is explaining both
+four SNPS (three of which are proximal to the putative
+population structure and familial relatedness, or BSR
+BSR QTL on chromosome 16 and another on chromo-
+resistance is not associated with population structure.
+some 8) were significant at 10% FDR (Fig. 3). This could
+To explore this possibility further, the correlation of BSR
+indicate that more variability exists than can be explained resistance and principal components was calculated, and
+by the two MLMM-identified SNPS. Finally, the optimum no meaningful correlations were found (data not shown).
+model obtained with MLMM for the P-2003 panel identi-
+fied two SNPS on chromosome 16 (Table 2) explaining
+Genome-Wide Association Study
+10% ofthe variation. Subsequently, the GWAS rescan
+and Stepwise Procedures
+that included these two SNPS as covariates in the model
+In three ofthe four tested panels, statistically significant
+identified no statistically significant signals at 10% FDR
+GWAS signals were identified in the chromosome 16
+(Fig. 4), which suggests that these two SNPS sufficiently
+region where three Rbs genes were previously mapped.
+account for BSR resistance variability in this panel.
+Interestingly, one SNP in this region (ss715624573) had
+the strongest association with BSR resistance in two
+of the panels. Although this SNP was not identified in
+RINCKER ET AL.: GWAS OF BROWN STEM ROT RESISTANCE IN SOYBEAN
+5 OF 11
+RIGHTS LIN Ko
+a
+
+
+
+A
+9
+C
+I
+LO
+9
+4
+1 AL
+3
+:
+I
+a
+A
+9
+11
+ifa
+-
+0
+8
+29.5 30.5 31.5 32.5 33.5 34.5 35.5 36.5 37.5
+I
+Position (Chr. 16 Glyma.Wm82.a2) X 106
+:
+P
+B
+I
+N
+-
+8
+
+I
+LO
+2
+I
+4
+I
+8 AL
+
+A
+I
+I
+2
+9
+1
+11:
+0
+I
+O
+-
+8
+E
+29.5 30.5 31.5 32.5 33.5 34.5 35.5 36.5 37.5
+Position (Chr. 16 Glyma.Wm82.a2) X 106
+Fig. 2. Genome-wide association study (GWAS) results for brown stem rot (BSR) resistance of soybean in the N-1989 panel. (Panel A) Asso-
+ciation results from a unified mixed model analysis of BSR and linkage disequilibrium (LD) estimates (r2) across a chromosome 16 region.
+Negative log,o-transformed P-values (left, y-axis) from a GWAS for BSR and r2 values (right, y-axis) are plotted against physical position
+(Glyma.W82.a2) for a 8-Mb region on chromosome 16. The blue vertical lines are -logio P-values for single-nucleotide polymorphisms
+(SNPs) that are statistically significant for BSR at 10% false discovery rate (FDR), whereas the gray vertical lines are -logio P-values for SNPS
+that are nonsignificant at 10% FDR. Triangles are the r2 values of each SNP relative to the peak SNP (indicated in red) at 32,796,708 bp of
+chromosome 16. The black horizontal dashed line indicates the -logio P-value of the least statistically significant SNP at 10% FDR. The black
+vertical dashed lines indicate the positions of BARCSOYSSR_16.114 and BARCSOYSSR_I6_I1I5 identified by Rincker et al. (2016), which
+fine map an interval containing an Rbs gene. (Panel B) Association results from a conditional unified mixed model analysis of BSR and LD
+estimates (r2) across a chromosome 16 region, as in (A). The three SNPS (ss715627222, $s715624549, and $s715582351) from the step-
+wise logistic regression model were included as covariates in the unified mixed model to control for the Rbs effect.
+6 OF 11
+THE PLANT GENOME L JULY 2016 : VOL. 9, NO. 2
+RIGH TS LIN Ko
+
+
+
+A 12
+:
+9
+:
+I
+0
+I
+1
+2
+&
+I
+8 a
+1
+:
+I
+of
+9
+LO
+I
+O
+8
+32
+33
+34
+35
+36
+37
+I
+Position (Chr. 16 Glyma.Wm82.a2) X 106
+:
+P
+B
+:
+I
+1
+e
+8
+80
+I
+R
+2
+I
+N
+I
+D NL
+1
+-
+I
+P
+I
+9
+LO
+I
+0
+a
+8
+E
+32
+33
+34
+35
+36
+37
+Position (Chr. 16 Glyma.Wm82.a2) X 106
+Fig. 3. Genome-wide association study (GWAS) results for brown stem rot (BSR) resistance of soybean in the B-2000 panel. (Panel A)
+Association results from a unified mixed model analysis of BSR and linkage disequilibrium (LD) estimates (72) across a chromosome 16
+region. Negative logro-transformed P-values (left, y-axis) from a GWAS for BSR and r2 values (right y-axis) are plotted against physical
+position (Glyma.W82.a2) for a 6-Mb region on chromosome 16. The blue vertical lines are -logio P-values for single-nucleotide poly-
+morphisms (SNPS) that are statistically significant for BSR at 10% false discovery rate (FDR), whereas the gray vertical lines are -logio
+P-values for SNPS that are nonsignificant at 10% FDR. Triangles arethe r2 values of each SNP relative to the peak SNP (indicated in red)
+at 33,018,083 bp of chromosome 16. The black horizontal dashed line indicates the-logio P-value of the least statistically significant SNP
+at 10% FDR. The black vertical dashed lines indicate the positions of BARCSOYSSR_16.14 and BARCSOYSSR_16_115 identified by
+Rincker et al. (2016), which fine map an interval containing an Rbs gene. (Panel B) Association results from a conditional unified mixed
+model analysis of BSR and LD estimates (r2) across a chromosome 16 region, as in (A). The two SNPS (ss715624557 and $s715624573)
+from the optimal multilocus mixed model were included as covariates in the unified mixed model to control for the Rbs effect.
+RINCKER ET AL.: GWAS OF BROWN STEM ROT RESISTANCE IN SOYBEAN
+7 OF 11
+RIGHTS LIN Ko
+
+
+
+A N
+9
+co
+:
+I
+:
+LO
+:
+E
+4
+80 AL
+3
+-
+I
+I
+a
+E
+A
+5
+T
+1 -
+1
+4
+A
+lawe
+T
+-
+O
+8
+32
+33
+34
+35
+36
+37
+Position (Chr. 16 Glyma.Wm82.a2) X 106
+I
+:
+P
+B
+N
+o0
+I
+8
+C
+I
+LO
+9
+I
+4
+I
+8 L
+3
+-
+I
+A
+a
+A
+a
+4
+1
+A
+bin
+o
+I
+8
+32
+33
+34
+35
+36
+37
+3
+Position (Chr. 16 Glyma.Wm82.a2) X 106
+Fig. 4. Genome-wide association study (GWAS) results for brown stem rot (BSR) resistance of soybean in the P-2003 panel. (Panel A)
+Association results from a unified mixed model analysis ofBSR and linkage disequilibrium (LD) estimates (F) across a chromosome 16
+region. Negative logio-transformed P-values (left, y axis) from a GWAS for BSR and r2 values (right, y axis) are plotted against physical
+position (Glyma.W82.a2) for a 6-Mb region on chromosome 16. The blue vertical lines are-logio P-values for single-nucleotide poly-
+morphisms (SNPs) that are statistically significant for BSR at 10% false discovery rate (FDR), whereas the gray vertical lines are-logio
+P-values for SNPS that are nonsignificant at 10% FDR. Triangles are the r2 values of each SNP relative to the peak SNP (indicated in
+red) at 33,018,083 bp of chromosome 16. The black horizontal dashed line indicates the-logio P-value of the least statistically signifi-
+cant SNP at 10% FDR. The black vertical dashed lines indicate the positions of BARCSOYSSR_16.1114 and BARCSOYSSR_16.1115
+identified by Rincker et al. (2016) which fine map an interval containing an Rbs gene. (Panel B) Association results from a conditional
+unified mixed model analysis of BSR and LD estimates (r2) across a chromosome 16 region, as in Panel A. The two SNPS (ss715624583
+and ss715624558) from the optimal multilocus mixed model were included as covariates in the unified mixed model to control for the
+Rbs effect.
+8 OF 11
+THE PLANT GENOME L JULY 2016 : VOL. 9, NO. 2
+RIGHTSLIN Ko
+
+
+
+Table 2. Significant single-nucleotide polymorphism (SNPs) identified in stepwise procedures for the foliar or stem
+symptoms of brown stem rot.
+Stepwise logistic regression
+Position,
+Bayesian
+Rue with all ISNPS
+Glyma2.0
+information
+identified lin stepwise
+Panel Symptoms
+SNP added to model
+Chromosome assembly
+P-value criterion (BIC) RPMet logistic regressiont
+N-1989 Foliar rand stem Gml7_37574384_LC Ss715627222
+17
+37,284,864 5.09 x 10-11 368.181 0.07
+0.21
+N-1989 Foliar and stem Gml6_32298597L6 $s715624549
+16
+32,796,708 2.09 X 10-8 339.544 0.10
+N-1989 Foliar rand stem Gm02 4208733_C_T $s715582351
+2
+4260,493 4.09 X 10-5 330.345 0.06
+Multilocus mixed model
+Position,
+Glyma2.0
+RR with all ISNPS
+Panel Symptoms
+SNP added to model
+Chromosome assembly
+P-value
+extBICS Riat identified lin MLMM1
+B-2000
+Foliar
+Gml16_32340079_6_A Ss715624557
+16
+32,838,190 1.04 x 10-44 -767.80526 0.10
+0.22
+B-2000
+Foliar
+Gm16_32517934_CI Ss715624573
+16
+33,018,083 2.93 X 10-15 -804.055686 0.17
+P-2003
+Stem
+Gml6_32617666TC Ss715624583
+16
+33,119,116 2.09 x 10-6 -19.7654342 0.04
+0.10
+P-2003
+Stem
+Gm16 32342381 C _T Ss715624558
+16
+32,840,492 1.89 X 10-2 -17.4209656 0.03
+tDefined as the likelihood-ratio based R2 statistic that measures the increase einphenotypic variation explainedby adding the indicated SNPinto themodel.
+#Defined das the likelihood-ratio obased R2 statistic that measures the increase in phenotypic variation explainedby adding the three SNPs sidentifiedint the "SNP Paddedto model" column compared to the intercept-
+only model.
+SExtBIC, extended Bayesion information criterion (Chen and Chen, 2008).
+1Defined ast the likelihood-ratio based R2: statistic that compares the variation explained Iby the final multilocus mixedmodels (MLMMS) fittedto (the foliar symptoms sin the B-2000 panel and (ii) thestem
+symptoms sin the P-2003 panel relativeto the intercept-only model. For each of fthese panels, the respective SNPs included in the final IMLMM are indicated lin the "SNP addedtor model" column.
+the N-1989 or B-1997 panels, it is only 0.22 Mb from
+the largest class of disease resistance genes in flowering
+the chromosome 16 SNP identified in N-1989 as having
+plants (Dangl and Jones, 2001), and many NBS-LRR
+the peak signal. Based on the position of the significant
+genes have been identified in this defined region ofthe
+markers in the MLMM analysis, our results have nar-
+Williams 82 genome sequence. Furthermore, duplicate
+rowed the region containing BSR resistance QTL on
+NBS-LRR genes have been found to confer disease resis-
+chromosome 16 to between 32.8 and 33.1 Mb based on
+tance in plants (Dixon et al., 1996). In soybean, Kang et
+the Glyma2.0 assembly (Table 2), which is a substantial
+al. (2012) found that locations of disease resistance QTL
+refinement compared with the 10.2 Mb interval identi-
+were correlated with the number of NBS-LRR genes. In
+fied in Patzoldt et al. (2005b). These results also agree
+fact, resistance to multiple soybean pests such as Phy-
+with fine mapping results of Rincker et al. (2016) that
+tophthora root rot (Rps1k), soybean mosaic virus (Rsvl
+map the position of Rbsl, Rbs2, and Rbs3 to between the and Rsv3), and Asian soybean rust (Rpp4) have been
+positions of 32.7 and 33.1 Mb. We therefore expect these mapped or cloned to NBS-LRR genes (Gao et al., 2005;
+results to directly benefit MAS breeding efforts by pro-
+Hayes et al., 2004; Meyer et al., 2009; Suh et al., 2011).
+viding a focused region on chromosome 16 from which
+The identification of BSR resistance QTL other than
+to make selections for improved BSR resistance.
+atthe chromosome 16 Rbs interval has been elusive.
+Although three Rbs genes have been previously
+The variation explained in each of our panels (Table 2)
+mapped to the same region of chromosome 16 (Bach-
+remains low, which suggests environmental effects are
+man et al., 2001; Lewers et al., 1999; Patzoldt et al.,
+large, or more loci are responsible for resistance, or both.
+2005b), the results of our study failedto confirm the
+The most promising region identified lin this study is a
+presence ofthree distinct genes. It is possible that the
+location distal of the Rbs interval at the positions of 36.6
+three previously identified Rbs genes are in fact one gene to 37.4 Mb on chromosome 16. Three of the four GWAS
+and that environmental effects or errors in the original
+panels contained significant SNPs from this location.
+allelism tests could have resulted in the incorrect con-
+However, no significant associations were found in this
+clusion that different resistance genes were present in
+region when reconducting the GWAS with SNPS identi-
+resistance sources. Although our study identified mul-
+fied in MLMM as covariates. Lewers et al. (1999) identi-
+tiple significant SNPS located in a narrow interval, it is
+fied two separate QTL on chromosome 16. Based on
+possible that a single QTL is present, and the different
+previous linkage maps, the restriction fragment-length
+patterns ofLD within the four panels result in unique
+polymorphic markers used in their study are not located
+sets of SNPS with significant associations (Platt et al.,
+near the positions found in our study. It is possible that
+2010). A second possibility is that the multiple signifi-
+the markers used by Lewers et al. (1999) might have been
+cant SNPS identified in our study arise from multiple
+located near the significant GWAS signals identified in
+QTL within the region. Nucleotide binding site-leucine the N-1989 panel at 29.6 Mb. Regardless, neither ofthese
+rich repeat (NBS-LRR) genes have been found to be
+locations identified in GWAS on each side ofthe Rbs
+RINCKER ET AL.: GWAS OF BROWN STEM ROT RESISTANCE IN SOYBEAN
+9 OF 11
+RIGHTS LIN Ko
+
+
+
+interval were identified in the MLMM analysis or with
+efforts. Furthermore, the markers identified in this
+stepwise logistic regression. In addition to these locations study will improve MAS and development of resistant
+on chromosome 16, other significant SNPs identified
+cultivars. Regardless, the prominence of only one major
+within the N-1989 (chromosomes 2 and 17) and B-2000
+QTL for BSR resistance does present a challenge in
+(chromosome 8) panels could be involved in resistance.
+the event that an isolate is able to overcome resistance
+Because ofthe limited replication of phenotypic data
+from this locus. Further research is needed to validate
+obtained for GWAS and the nature ofthe binary data,
+additional QTL or distinguish the previously reported
+more evidence is needed to substantiate these QTL.
+Rbs genes. In addition, research is needed to evaluate
+Increased replication of phenotypic data within these
+resistance to additional isolates and inoculation methods
+panels may identify additional QTL, but it is possible
+that can increase our overall resistance in germplasm.
+that the frequency of BSR resistance alleles at QTL other
+than the chromosome 16 Rbs locus is too low for a tradi- Acknowledgments
+tional GWAS to detect (Cardon and Bell, 2001). In this
+This work was supported by funding from Dow AgroScience. The authors
+thank Michael Bachman for providing BSR resistance results from tests
+case a biparental or family-based association mapping
+that were not tavailable on GRIN.
+population would be needed. Presumably, the significant
+association on chromosome 5 in the B-2000 panel is a
+References
+false positive because it was not included in the optimal
+Agresti, A. 2013. Categorical data analysis. 3rd ed. John Wiley & Sons.
+MLMM and was not significant when reconducting the
+Bachman, Hoboken, M.S. 1999. NJ. Characterization ofbrown stem rot resistance in soy-
+GWAS with SNPs identified in the MLMM as covariates.
+bean. Ph.D. diss. Univ. oflllinois. Urbana-Champaign.
+The presence of another unknown QTL that interacts
+Bachman, M.S., and C.D. Nickell. 2000a. High frequency ofbrown stem rot
+with the Rbs locus has been proposed (Bachman and
+resistance in soybean germplasm from centraland southern China.
+Nickell, 2000b; Sebastian et al., 1985; Waller et al., 1991).
+Plant Dis. 84:694-699. deH10.0MUPD05200546694
+Ifloci identified in our GWAS were substantiated, fur-
+Bachman, M.S., and C.D. Nickell. 2000b. Investigating the genetic model
+forbrown stem rot resistance in soybean. J. Hered. 91:316-321.
+ther research would be needed to determine if epistatic
+doH10.093/bered9L4.316
+interactions with the Rbs locus exists.
+Bachman, M.S., C.D.Nickell, P.A. Stephens, and A.D. Nickell. 1997a.
+The lack of significance in the B-1997 panel was
+Brown stem rot tresistance in soybean germ plasm from central China.
+unexpected because Patzoldt et al. (2005a) developed
+Plant Dis. 81:953-956. d0H810Ç09UPDIS.92818953
+biparentalpopulations with resistant accessions identified Bachman, M.S., C.D. Nickell, P.A. Stephens, A.D. Nickell, andL.E. Gray.
+1997b. The effect ofRbs2 on yieldofsoybean. Crop Sci. 37:1148-1151.
+by Bachman et al. (1997a) and present in the B-1997
+dotio213Scopeci9z0018X0037000194
+panel. Patzoldt et al. (2005a) then conducted linkage
+Bachman, M.S., J.P. Tamulonis, C.D. Nickell, andA.F. Bent. 2001. Molecu-
+mapping with molecular markers on chromosome 16
+lar markers linkedtol brown stem rot tresistance genes Rbsl and Rbs2
+and in all five ofthe resistant sources studied, QTL were
+in soybean. Crop Sci. 41:527-535. dati0215Kompa201.4127A
+mapped to the same region where Rbs was previously
+Bastien, M., H.Sonah, and F. Belzile. 2014. .Genome wide association
+mapping of fSclerotinia sclerotiorum resistance in soybean witha
+mapped. This suggests that the resistance QTL in the
+emapehwependngsmed Plant Genome 7. doi:10.3835/
+Rbs interval of chromosome 16 is present in the landrace
+plantgenome2013.10.0030
+population ofthe central China region where accessions
+Benjamini, Y., and Y. Hochberg. 1995. Controlling the false discovery rate:
+included in the B-1997 GWAS were collected. It is
+A practical and powerful approach to multiple testing. J. Royal Stat.
+possible that the lack of association is the result of a low
+Soc. 57:289-300.
+Bradbury, P.J., Z. Zhang, D.E. Kroon, T.M. Casstevens, Y. Ramdoss, and
+frequency ofresistance alleles found in the accessions
+E.S. Buckler. 2007. TASSEL: Software for association mapping of
+ofthis panel, and a different design would be needed to
+complex traits in diverse samples. Bioinformatics 23:2633-2635.
+identify an association on chromosome 16 (Cardon and
+datiolwyhesntérmatafkemter
+Bell, 2001). Another explanation ofthe lack of GWAS
+Box, G.E.P., and D.R. Cox. 1964. An analysis of ftransformations. J. Royal
+signals for this panel is that many accessions did not have
+Stat. Soc. B. Met. 26:211-234.
+Cardon, L.R., and J.I. Bell. 2001. Association study designs for complex
+foliar symptoms and were possibly disease escapes. Yet
+diseases. Nat. Rev. Genet. 2:91-99. doi10.1038/35052543
+another possibility is the inoculum for the 1994 Urbana,
+Chamberlain, D.W., and R.L. Bernard. 1968. Resistance to brown stem rot
+IL, field test where these accessions were evaluated.
+in soybean. Crop Sci. 8:728-729. doi10.2135/cropscil968.001183X00
+The Rbs gene may not have been effective against the
+0800060026x
+population of C. gregata present in the field during that
+Chen, J., and Z. Chen. 2008. Extended Bayesian information criteria for
+modelselection with largemodelspaces. Biometrika 95:759-771.
+year. No interactions between C. gregata isolates and
+do610.09Mbiomelasn034
+host genotypes have been reported but do exist in other
+Dangl.J.L.and].D. Jones. 2001. Plant pathogens sandintegrated defense
+soybean pathogenic fungi (Grau et al., 2004).
+responses to infection.Nature 411:826-833. doi10.1038/35081161
+In this study, association mapping was used to refine Dixon,M.S., D.A. Jones, J.S. Keddie, C.M. Thomas, K. Harrison, andJ.D.G.
+the location ofthe known Rbs gene or genes and to
+Jones. 1996. The tomato Cf-2disease resistance locus comprises two
+functional genes encoding leucine-rich repeat proteins. Cell 84:451-
+identify new putative associations that should be tested
+459. 4ati0i916soP2.86H081294
+in future research. This study demonstrates the ability to Gao, H,N.N.Narayanan, L. Ellison, and M.K. Battacharyya. 2005. Two
+use data from the SoySNP50K array and historical BSR
+classes ofhighly similar coiled coil-nucleotide binding-leucine rich
+resistance test data to map disease resistance in soybean.
+repeat genes isolated from the Rpsl-klocus encode Phytophthora
+The genomic positions identified will aid gene cloning
+resistance in soybean. Mol. Plant Microbe Interact. 18:1035-1045.
+do610109MPM118.1035
+10 OF 11
+THE PLANT GENOME L JULY 2016 L VOL. 9, NO. 2
+a
+RI G H T S LIN KO
+I
+
+
+
+Grau, C.R., A.E. Dorrance, J. Bond, andJ.S. Russin. 2004. Fungal diseases. Platt, A., B.J. Vilhjalmsson, and M. Nordborg. 2010. Conditions under
+In: H.R. Boerma andJ.E.Specht, editors, Soybeans: Improvement,
+which genome-wide association studies will be positively misleading.
+production, and uses. 3rd ed. Agron. Monogr. 16. ASA, CSSA, and
+Genetics 186:1045-1052. detlasHpgmnctka.l0ull6s
+SSSA, Madison, WI.p. 679-763.
+Price, A.L., N.J. Patterson, R.M. Plenge, M.E. Weinblatt, N.A. Shadick, and
+Gray, L.E. 1972. Effect ofCephalosporium gregatumon soybean yield. Plant
+D. Reich. 2006. Principal.components analysis corrects for stratifica-
+Dis. Rep. 56:580-581.
+tion in genome-wide association studies. Nat. Genet. 38:904-909.
+Hanson, P.M., C.D. Nickell,L.E. Gray, andS.A. Sebastian. 1988. Identifica-
+doi:10.1038/ng1847
+tion oftwo dominant genes conditioning brown stem rotresistancein Rincker, K., G.L. Hartman, and B.W. Diers. 2016. Fine mapping ofresistance
+soybean. Crop Sci. 28:41-43. doi10.2135/cropsci1988.0011183X0028
+genes from five brown stem rot tresistance sources in soybean. Plant
+00010010x
+Genome 9. 4RmARSPAMPNNANISNON
+Hayes, A.J.,S.C. Jeong, M.A. Gore, Y.G. Yu, G.R. Buss, S.A. Tolin, and IM.A. SAS Institute. 2011.The SAS system for Microsoft Windows. Release 9.3.
+Saghai Maroof. 2004. Recombination withina nucleotide binding-
+SASInst. Inc., Cary, NC.
+siteleucine-rich-repeat gene cluster produces newvariants condi-
+Schwarz, G. 1978. Estimating the dimension ofa model. Ann. Stat. 6:461-
+tioning resistance to Soybean mosaic virus in soybeans. Genetics
+464. doH10124AX/17634136
+166:493-503. dotio.5.4dgnctkc.1661495
+Sebastian, S.A., C.D.Nickell, and L.E. Gray. 1985. Efficient selection for
+Hughes, T.J.,N.C. Kurtzweil, B.W. Diers, and C.R. Grau. 2004. Resis-
+brown stem rotresistance in soybeans under greenhouse screening
+tance to brown stem rotin soybean germ plasm with resistance
+conditions. Crop Sci. 25:753-757. dmtoz1Soxpalsgelisie
+to the soybean cyst nematode. Plant Dis. 88:761-768. doi:10.1094/
+02500050008x
+PDIS.2004.88.7.761
+Segura, V., B.J. Vilhjalmsson, A. Platt, A. Korte, U.Seren, Q. Long, and
+Hwang, E., Q. Song, G. Jia, J.E. Specht, D.L. Hyten, J. Costa, and P.B. Cre-
+M.Nordborg. 2012. An efficient multi-locus mixed-model approach
+gan. 2014. A genome-wide association study ofseed protein and oil
+for genome-wide association studies in structured populations. Nat.
+contentin soybean. BMC Genomics 15:1. d0t10.1861471-2164-151
+Genet. 44:825-830. doi:10.1038/ng.2314
+Hyten, D.L., Q. Song, Y. Zhu, IY. Choi, R.L. Nelson,J.M. Costa,J.E.
+Song, Q,D.L.Hyten, G. Jia, C.V. Quigley, E.W. Fickus, R.L. Nelson, and
+Specht, R.C. Shoemaker, and P.B. Cregan. 2006. Impacts of genetic
+P.B. Cregan. 2013. Development and evaluation ofSoySNP50K, a
+bottlenecks on soybean genome diversity. Proc. Natl. Acad. Sci. USA
+high-density genotyping array for soybean. PLoS SONE 8:E54985.
+103:16666-16671. do610.073pa:0604379105
+detiolyl/pernlpwmemsws
+Kang, Y.J., K.H. Kim,S. Shim, M.Y. Yoon,S. Sun, M.Y. Kim, K. Van,andS. Suh,S.J., B.C. Bowman, N. Jeong, K. Yang, C. Kastl, S.A. Tolin, M.A. Saghai
+Lee. 2012. Genome-wide mapping ofNBS-LRR genes and their asso-
+Maroof, and IS. Jeong. 2011. The Rsv3locus conferring resistance
+ciation with disease resistance in soybean. BMC Plant Biol. 12:139.
+to soybean mosaic virusisassociated with a clusterof coiled-coil
+d081011861471-29-12-139
+nucleotide-binding leucine-rich repeat genes. Plant Genome 4:55-64.
+Koenning, S.R., andJ.A. Wrather. 2010. Suppression ofsoybean yieldpoten-
+AHRDASSAMPRNZPNBLLOE
+tial lin the continental United Statesby plant diseases from 2006 to 2009. Sun, G., C. Zhu, M.H. Kramer, S.S. Yang, W.Song, H.P. Piepho, andJ. Yu.
+(online) PlantHealth Prog. ARHIOLNPMUPHP3RN0120185
+2010. Variation explainedin mixed-model lassociation mapping.
+Lewers, K.S., E.H. Crane, C.R. Bronson, J.M.Schupp, P. Keim,and R.C.
+Heredity 105:333-340. doi10.03/hdy201011
+Shoemaker. 1999. Detection oflinked QTL for soybean brown stem
+VanRaden, P.M. 2008. Efficientmethods to compute genomic predictions. J.
+rot resistancei in 'BSR 101' as expressed lin a growth chamber environ-
+Dairy Sci. 91:4414-4423. dot10.3168jds2007-0980
+ment. Mol. Breed. 5:33-42. do810.102XA.10963471059
+Vaughn,J.N.,R. L. Nelson, Q. Song, P.B. Cregan, and Z. Li. 2014. The
+Lipka, A.E., F. Tian, Q. Wang, J. Peiffer, M. Li, P.J. Bradbury, M.A. Gore,
+genetic architecture ofseed composition in soybean isrefined lby
+E.S. Buckler, and Z. Zhang. 2012. GAPIT:Genome association and
+genome-wide association scans across multiple populations. G3:
+prediction integrated tool. Bioinformatics 28:2397-2399. doi:10.1093/
+Genes, Genomes, Genet. 4:2283-2294. dot10.15341814013433
+bioinformatics/bts44
+Waller, R.S., C.D. Nickell, D.L. Drzycimski, and J.E. Miller. 1991. Genetic
+McFadden, D. 1974.Conditionallogit tanalysis of qualitative choice behav-
+analysis ofthe inheritance ofbrown stem rot tresistance in the soybean
+ior. In: P. Zarembka, editor, Frontiers in Econometrics. Academic
+cultivar Asgrow A3733.J. Hered. 82:412-417.
+Press, New York. p. 105-142.
+Wen, Z., R. Tan,]. Yuan, C. Bales, W. Du,S. Zhang,M.I. Chilvers, C.
+Meyer, J.D.F., D.C.G. Silva, C. Yang, K.F.Pedley, C. Zhang, M. Mortel, J.H.
+Schmidt, Q. Song, P.B. Cregan, andD. Wang. 2014. Genome-wide asso-
+Hill, R.C. Shoemaker, R.V. Abdelnoor, S.A.Whitham, and M.A. Gra-
+ciation mapping of quantitativeresistance to sudden death syndrome in
+ham. 2009. Identification andanalyses of candidate genes for Rpp4-
+soybean. BMCGenomics 15:809. d0610.1861471216415809
+mediated resistance to Asian soybean rust tin soybean. Plant Physiol.
+Willmont, D.B., and C.D. Nickell. 1989. Genetic analysis of brown stem rot
+150:295-307. doH10.104/pp.10s.134551
+resistance in soybean. Crop Sci. 29:672-674. doi10.213lcropsdi989.0
+Nelson, R.L., C.D.Nickell, J.H. Orf,H. Tachibana, E.T. Gritton, C.R. Grau,
+01183X0029000300206X
+and B.W. Kennedy. 1989. Evaluating soybean germplasm for brown
+Wrather, A.,G. Shannon, R. Balardin, L. Carregal, R. Escobar, G.K. Gupta,
+stem rot resistance. Plant Dis. 73:110-114. dok10.1094/PD-73-0110
+Z. Ma, W. Morel, D. Ploper, and A. Tenuta. 2010. Effectofdiseases on
+Patzoldt, M.E., S.R. Carlson, andB.W. Diers. 2005a. Characterization of
+soybean yield lin the top eight producing countries in 2006. (online)
+resistance tobrown stem rot of soybean in five accessions from central
+Plant Health Prog. ARHIRLNDMUPHP-RIDOISOHS
+China. Crop Sci.45:1092-1095. dot102135copuc2004.093
+Yu,J., G. Pressoir, W.H. Briggs,I. Vroh Bi, M.Yamasaki,J.F. Doebley, M.D.
+Patzoldt, M.E., W. Chen, and B.W. Diers. 2003. Evaluation ofsoybean plant
+McMullen, B.S. Gaut, D.M. Nielsen, J.B. Holland, S. Kresovich, and
+introductions from China for resistance tobrown stem rot. (online)
+E.S.Buckler. 2006. A unified mixed-model Imethod for association
+Plant Health Prog. ARtIDLDMUPHFANOSONEGHS
+mapping that accounts for multiplelevels ofrelatedness. Nat. Genet.
+Patzoldt, M.E., C.R. Grau, P.A. Stephens, N.C. Kurtzweil, S.R. Carlson, and
+38:203-208. doi:10.1038/ng1702
+B.W. Diers. 2005b. Localization ofa quantitative trait locus provid-
+Zhang, Z., E. Ersoz, C.Q. Lai, R.J. Todhunter, H.K. Tiwari, M.A. Gore, P.J.
+ing brown stem rot resistance in the soybean cultivar Bell. Crop Sci.
+Bradbury,J. Yu, D.K. Arnett, J.M. Ordovas, andE.S. Buckler. 2010.
+45:1241-1248. do8102135copwc20030615
+Adaptation of fmixedlinear modelfor genome-wide association stud-
+Perez, P.T.,B.W. Diers, P. Lundeen, G.M. Tabor, andS.R. Cianzio. 2010.
+ies. Nat. Genet. 42:355-360. doi:10.1038/ng.546
+Genetic analysis of new sources ofsoybean resistance to brown stem
+rot. Crop Sci. 50:2431-2439. dati02135.pa20030159
+RINCKER ET AL.: GWAS OF BROWN STEM ROT RESISTANCE IN SOYBEAN
+11 OF 11
+RIGHTS LIN Ko
+I

@@ -1,0 +1,1218 @@
+y. PLOSIONE
+RESEARCHARTICLE
+Genome-wide association and epistatic
+interactions of flowering time in soybean
+cultivar
+Kyoung Hyoun Kimo 1,20 Jae-Yoon Kimo120 Won-Jun Lim12, y Seongmun Jeongo',
+Ho-Yeon Lee'2, Youngbum Cho12, Jung-Kyung Moon3, Namshin Kim12*
+1 Genome Editing Research Center, Korea Research Institute of Bioscience andBiotechnology (KRIBB),
+Daejeon, Republic of Korea, 2 Department tof Bioinformatics, KRIBB School of Bioscience, University of
+Science and Technology (UST), Daejeon, Republic of Korea, 3 National Institute of Agricultural Sciences,
+RuralDevelopment Administration, Jeonju, Republic of Korea
+o These authors contributed lequallyto this work.
+deepreds@kribb.re.kr
+Check for
+updates
+Abstract
+Genome-wide association studies (GWAS) have enabled the discovery of candidate mark-
+GOPEN ACCESS
+ersthat play significant roles in various complex traits in plants. Recently, with increased
+interest in the search for candidate markers, studies on epistatic interactions between single
+Citation: Kim KH, Kim. J-Y, Lim W-J, Jeong S, Lee
+H-Yeon, Cho Y, etal (2020) Genome-wide
+nucleotide polymorphism (SNP) markers have also increased, thus enabling the identifica-
+association and epistatic interactions of flowering tion of more candidate markers along with GWAS on singlewarantadtive-efect Here,
+time in soybean cultivar. PLOS ONE 15(1):
+we focused on the identification of candidate markers associated with flowering time in soy-
+e0228114. htps/obiongrioigrl/gumal
+bean (Glycine max). A large population of 2,662 cultivated soybean accessions was geno-
+pone.0228114
+typed using the 180k Axiome SoyaSNP array, and the genomic architecture ofthese
+Editor: Istvan Rajcan, University of Guelph,
+accessions was investigated to confirm the population structure. Then, GWAS was con-
+CANADA
+ducted to evaluate the association between SNP markers and flowering time. Atotal of 93
+Received: August29, 2019
+significant SNP markers were detected within 59 significant genes, including E1 and E3,
+Accepted: January 7,2020
+which are the main determinants of flowering time. Based on the GWAS results, multilocus
+Published: January 22, 2020
+epistatic interactions were examined between the significant and non-significant SNP mark-
+Copyright: :02020 Kim etal. This is an open
+ers. Two significant and 16 non-significant SNP markers were discovered as candidate
+access article distributed lunder the terms ofthe markers affecting flowering time via interactions with each other. These 18 candidate SNP
+Creative Commons Attribution License, which
+markers mappedto 18 candidate genes including E1 and E3, andthe 18candidate genes
+permits unrestricted use, distribution, and
+were involvedin six major flowering pathways. Although furtherbiological validation is
+reproduction in any medium, provided the original
+author and source are credited.
+needed, our results provide additional information on the existing floweringtime markers
+and present another option to markerasstedbreeding programs for regulating flowering
+Data Availability Statement: SNP Genotype data
+of2,662 soybean cultivars are publicly available at time of soybean.
+htp/othub.com/kyounghyoun/Soybean
+epistasis.
+Funding: This workissupported by grants from
+the National Research Foundation of Korea (NRF-
+2014M3C9A3064552), Rural Development
+Introduction
+Administration, Republic of Korea (ProjectNo.
+PJ01313201) and the KRIBB Initiative program. A genome-wide association study (GWAS) is one ofthe promising approaches for the identifi-
+The funders had no role in study design, data
+cation ofgenomic variants responsible for specific phenotypes [1]. With the introduction of
+PLOS ONE Imtipsz/doiorg10.137tjumalpone.028114 January 22, 2020
+1/19
+
+
+
+y PLOS ONE
+GWAS and epistasis for flowering time in soybean
+collection and analysis, decision to publish, or
+high-density marker arrays, GWAS has been actively used in many crop species [2] and has
+preparation ofthe manuscript.
+enabled the discovery ofsingle nucleotide polymorphism (SNP) markers associated with
+Competing interests: The authors have declared numerous agronomic traits [3]: flowering time [4, 5], cold tolerance [6], salt tolerance [7,8],
+that tno competing interests exist.
+drought tolerance [9], disease resistance [10, 11], plant height [12, 13],leaf architecture [14,
+15], and seed weight [16, 17]. The knowledge ofthe trait-related SNP markers has served as
+the genetic basis for the improvement ofvarious traits in crop breeding programs [18].
+Days to flowering (DTF) is a crucial agronomic trait that regulates the maximum use of
+sunlight and temperature [19], and affects the growth and yield potentials [20]. Many GWAS
+on singlewariantaditivefedt thus have carried out to improve yield productivity, and have
+led to identify DTF markers in many crops. For example, three candidate genes including
+Nsnl, Fpa, and Zmm22 were identified in 942 maize samples (Zea mays) [21]; two candidate
+genes, CO1 and BFL, were identified lin using 218 barley samples (Hordeum vulgare) [22];
+eight candidate genes including Hdl were confirmed in 950 rice samples (Oryza sativa) [23];
+and ten candidate genes including SOC1,AGL6, and ELF8 were reported in 309 soybean sam-
+ples (Glycine max) [13]. These findings have presented valuable information to various breed-
+ing programs focused on DTF, but have a limitation to further improve DTF, because they are
+not sufficient for explaining all ofthe phenotypic variations in DTF such as interaction effects
+between markers [24].
+Epistasis is defined as the interaction between genes or SNP markers that influences a trait
+[25]. Each SNP marker above a significant level in GWAS has a strong effect on the determina-
+tion ofa trait, butnon-significant markers that interact with each other could also have a large
+influence on the trait [24]. Therefore, considering epistatic interactions for multi-variant non-
+additive effects, enables to discover more markers associated with traits, together with GWAS
+on singlewarintaditineficts [26]. For this reason, many GWAS studies have utilizedepi-
+static analysis as a complementary approach, and have reported significant epistasis and
+GWAS markers associated with various traits: 12 epistatic markers with 12 GWAS markers for
+sudden death syndrome resistance in soybean [27], ten epistatic markers with 33 GWAS mark-
+ers for iron deficiency-related chlorosis in soybean [28], nine epistatic markers with 14 GWAS
+markers for seed weightin soybean [29], and 38 epistatic markers with 113 GWAS markers for
+DTF in barley [30]. Significant markers controlling many traits have been investigated through
+these studies; however, soybean's DTF markers related to both epistasis and GWAS have not
+been investigated in depth as other traits.
+Twelve major genes affecting DTF have been identified in soybean, including E1-E10 [31-
+41],J[42], and Dtl [43, 44]. To better understand the DTF-related genetic factors beyond the
+twelve major genes, an epistasis study with GWAS is needed. Here, we genotyped 2,662 culti-
+vated soybean accessions using the high-density Axiom R 180k SoyaSNP array developed lby
+our team in 2016 [45]. Also, we evaluated the DTF trait of all accessions through a phenotypic
+survey. The aims ofthis study were: 1)to examine population structures ofthe 2,662 accessions
+for GWAS; 2) to identify significant markers associated with DTF through GWAS; 3) to reveal
+epistatic markers with interactions between significant and non-significant GWAS markers;
+and 4) to present final candidate markers with the relation to major DTF pathways.
+Materials and methods
+Plant materials and genotyping
+A total of2,872 soybean (Glycine max) accessions were collected from the National Agrobiodi-
+versity Center in the Rural Development Administration (RDA, Jeonju, Korea), and were gen-
+otyped using the Axiom R 180k SoyaSNP. Ofthese, 210 hybrid accessions were excludedfrom
+the analysis. The remaining 2,662 accessions originated from South Korea (2,415), North
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+2/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+Korea (96), the USA (60), China (59), and Japan (32), and comprised 335improved cultivars
+(ICs), 2,175 landraces (LRs), and 152 unknown cultivars (UCs) (S1 Dataset). These accessions
+belonged to the following seven maturity groups: I (2), II (31), III (60),IV (187), V (88), VI
+(16), and VII (3); however, the maturity group of most ofthe Korean accessions (2,275) was
+not reported. After genotyping, 180,961 SNP markers were detected, and haplotype phasing
+and imputation were conducted using BEAGLE version 3.3.1 [46]. Then, 78,427 SNP markers
+with a minor allele frequency (MAF) > 0.05 were obtained. The non-MAF filtered SNPS were
+used to examine the genomic structure and relationship, and the MAF filtered SNPS were used
+to perform the GWAS. The genotype data of all 2,662 accessions, which were generated in col-
+laboration with the RDA, is available at http://k-crop.kr and htps.lgithub.com/
+bpunp@hyounsopbeunu.gpitais [47]. Phenotypic evaluation was conducted in the experimen-
+tal field ofthe National Institute ofCrop Science (NICS, Jeonju, Korea) (35*50'26.7" N, 127°
+02'42.7" E), and the DTF trait was measured from June to October in 2014. Because ofan
+agreement on limited disclosure with our phenotypic evaluation team, the raw DTF values are
+provided in the distribution plot and categorical data (Fig 1f, S1 Dataset).
+Analysis of the genomic structure of and relationship among soybean
+accessions
+Phylogenetic analysis was conducted based on the identity-by-state coefficient matrix calcu-
+lated using Plink v1.90b [48]. The phylogenetic tree was reconstructed using the BIO-neigh-
+bor-joining algorithm [49] and FigTree v1.4.3 (htp/tre-bio.cdacukk/sofware/igtred) (Fig
+la). Structure analysis was conducted using fastSTRUCTURE v1.0 [50], based on a variational
+Bayesian framework (Fig 1b). The number ofgenetic clusters (K) was set at six, considering
+the error values of10-fold cross-validation (S1 Fig). The error value was thelowest at K == 6.
+Principal component analysis (PCA) was performed by applying singular value decomposition
+to the distant matrix calculated using the Kimura two-parameter model [51], and then dis-
+played using the PCaxes 1, 2, and 3 (Fig lcand 1d). The linkage disequilibrium (LD) pattern
+was computed using PopLDdecay v3.2 [52]. The mean value ofLD was calculated within 100
+and 500 kb regions (S1 Table), and the degree ofLD up to 500 kb is displayed in Fig le. Nucle-
+otide diversity (T) was calculated using a 10 kb slide size with a 100 kb window size using
+VCFtools v4.2 [53], and inbreeding coefficient (F) was estimated using the method of
+moments in VCFtools (S1 Table). Additionally, using the same software, fixation index value
+(Fst) was calculated using a 10 kb slide size with a 100 kb window size.
+GWAS
+An association study between genomic regions and flowering time was conducted using a
+compressed mixed linear model within Genomic Association and Prediction Integrated Tool
+[54]. The MAF-filtered 78,427 SNP markers (MAF > 0.05) was used to consider common
+markers (S2 Dataset), anda statistically significant cut-offvalue was adopted to -log
+(p-value) = 7. To minimize false-positive results, the cut-offwas set slightly higher than the
+Bonferonni-corrected -log(p-value) of6.2. The extent of model fitting was confirmed using a
+quantile-quantile (Q-Q) plot for the expected and obtained p-values. After GWAS based on
+SNP markers, gene annotations were performed using SnpEff v4.3 [55]. Allresults are summa-
+rizedin S3 Dataset, and genome-wide plots including the Q-Q plot are shown in Fig 2.
+SNP marker set for epistatic analysis
+To construct an SNP marker-setfor multilocus epistatic interaction analysis, abiological filter-
+ing approach was conducted. First, genes affecting DTF and maturity in Arabidopsis were
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+3/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+a
+b
+H IC
+LR
+(=6
+ELR
+EIC
+K=5
+K
+=3
+K=2
+KN of
+KN
+OT
+C
+d
+LR-JN LR-KN
+2- .
+LR-CN IC-KN
+à
+2-
+IC-JN
+I
+IC-USA I 1+
+de
+I
+0-
+0
+€
+8
+-1
+LR-KN
+-2-
+LR-JN
+LR-CN
+IC-KN
+IC-JN
+D
+-2-
+A IC-USA
+0
+5 10 15 20
+-2
+0
+2
+PC1 (68.13% explained var.)
+PC2 (12.72% explained var.)
+e
+f
+0.125-
+LR
+LR
+IC
+IC
+C 0.81
+0.100+
+0.6
+0.075
+y
+I
+a
+I 0.4
+0.050+
+I 0.2-
+0.025-
+0.0t
+0.000-
+0
+100 200 300 400 500
+20
+40
+60
+80
+Distance (Kb)
+Days of fflowering time
+Fig 1. Genomic structure of f2,662 cultivated soybean accessions and their relationship amongeach other. a. Phylogenetic tree
+computed using the identical-by-state coefficient. b. Population structure analysis using the number of genetic clusters(K)
+ranging from K= 2to K= 6, based lon the maximum likelihood-based clustering algorithm. C. Principalcomponent analysis
+(PCA) plotofPCI and PC2 derived using the Kimura two-parameter model. d. PCA plot tofPC2 and PC3. e. Extentoflinkage
+disequilibrium (LD) decay computed lup to 500 kb. f. Distribution ofthe flowering time ofsoybean LRs and ICs. Abbreviations,
+KN,JN, CN, andOT, indicate accessions collected from Korea, Japan, China, andthe other regions, respectively.
+htos/ooiongr1d13l/gumalponed28114001
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+4/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+a
+20
+20-
+9 15-
+18
+10-
+:
+16
+E1 1
+5
+.
+0
+2 3 4
+14
+Expected -log(p)
+12
+E3
+10
+8
+I
+6
+
+E2
+i.
+4
+2
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 1 20
+Chromosome
+I Chromosome 6
+C
+Chromosome 19
+20
+080604
+12 00806040
+E1
+10
+E3
+15
+10
+F
+5
+ehiui
+10 20 30 40 50
+10
+30
+40 50
+Base Pairs (x10*)
+foe Pairs (x10$)
+Fig 2. Manhattan plot for the DTF trait ofsoybean accessions. a. Manhattan plot tofall 20 chromosomes. b. Manhattan plot of
+chromosome 6 harboring the El gene. C. Manhattan plot of chromosome 19 harboring the E3 gene. Red horizontallines indicatethe
+statistically significant cut-off fof -log(p-value) =7.
+htpslidolongro137t/pumalpone02281140002
+Table 1. Significant genes related to DTF derivedfrom GWAS, and non-significant genes relatedtoDTF and maturity in Arabidopsis.
+DTF Number of Arabidopsis genes Corresponding soybean genes Genes on the 180k SoyaSNP array SNP markers on the 180k SoyaSNP array
+GWASA
+55
+59
+59
+93
+Related genesh
+353 (3)
+2,639 (4)
+2,184 (4)
+5,441 (6)
+Total
+408
+2,698
+2,243
+5,534
+"Significant genesrelated to DTF derived from GWAS
+"Non-significant genes related to DTF and maturity in Arabidopsis. Values in parenthesis indicate the number of genes that overlapped with significant genes in GWAS.
+htps/idoiongnioi37tioumaipone0281141001
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+5/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+examined [56-59], and a total of 356 Arabidopsis genes were identified (Table 1, S4 Dataset).
+Second, nucleotide sequences of these Arabidopsis genes were mapped onto the soybean refer-
+ence genome Wm82.a2.vl using tBLASTX [60] with matching identity >80% and alignment
+length >70 bp options, and a total of 2,643 homologous soybean genes were identified. Third,
+2,188 genes belonging to the Axiom R 180k SoyaSNP array were identified among the 2,643
+soybean genes, and 5,447 SNP markers contained in the 2,188 genes were obtained. Finally,
+the 5,447 SNP markers were combined with 93 significant genic SNP markers derived in the
+GWAS (-log(p-value) > 7), and a total of5,534 SNP markers (excluding 6 overlapping SNP
+markers) was constructed as the final SNP marker-set for the multilocus epistatic analysis. All
+results, including the number ofSNP markers per gene, are summarized in S4 Dataset, and a
+briefsummary is provided in Table 1.
+Multilocus epistatic interactions
+Multilocus interactions among the 5,534 SNP markers related to DTF were examined using
+Bayesian High-order Interaction Toolkit (BHIT) [61] with 1,000,000 iterations and 990,000
+burn-in periods. The relationship between SNPs (X) and trait (Y) in multilocus interactions
+was inferred as P(Y, HI,H) by grouping dependent genotypes (I) and phenotypes (H) [61].
+Then, the likelihood was estimated using the following equation:
+H
+M
+H
+P(Y,HJI,H) = P(YXT-1)) P(Xu-n1) == II(P(YmIXue) == m)II P(Xu-n)1))
+h=l
+m=1
+m=l
+where,X-h indicates all Xin the hth group, and Y/m) indicates Y in the mth cluster. For P
+(X1-nlD), Dirichlet prior distribution and multinomial distribution were used as the Bayesian
+partition model [62]. The threshold for the posterior probabilities on the dependency for mul-
+tilocus and phenotype was set at 0.5. A Markov Chain Monte Carlo approach was then used to
+search potential epistatic marker sets, and a Bayesian computational approach was utilized to
+detect finalhigh-order epistatic market sets. All results ofmultilocus epistatic interactions are
+summarized in Table 2, and displayed in Circular-Manhattan plots in Fig 3. To more comple-
+ment the multilocus epistasis, two-locus epistatic interactions were investigated to the BHIT
+results. The two-locus epistatic test was conducted using a fixed linear regression model ofthe
+Plink v1.90b [48], and the resultingp-values are summarized in Table 2.
+Results
+Genomic structure of cultivated soybeans
+A large data set of2,662 cultivated soybean accessions, originated from Korea (2,511), the USA
+(60), China (59), and Japan (32), were used in this study. These accessions included 335 ICs,
+2,175 LRs, and 152 UCs (S1 Dataset). Korean accessions accounted for approximately 94.33%
+ofthe entire soybean collection, and covered with most ofthe soybean accessions in Korea.
+These 2,662 accessions were genotyped using the Axiom R 180k SoyaSNP array developedby
+our team in 2016 [45], and a total of 180,961 SNP markers were identified. These SNP markers
+represented 39,674 soybean genes, with an average number of 2.80 SNP markers per gene.
+Prior to GWAS, the genomic structure of 2,510 accessions (2,175 LRs and 335 ICs, excluding
+152 UCs) was examined using the SNP markers (Fig 1). These 2,510 accessions represented a
+single large population with considerable genomic diversity. A phylogenetic tree was con-
+structed Ito radial forms rather than branched forms with distinct clades, and LRs and ICs
+exhibited a mixed aspect with each other (Fig la). Structure analysis revealed similar genomic
+composition and proportion between LRs and ICs at K= 2 (Fig 1b; green andblue). With the
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+6/19
+
+
+
+y PLOS ONE
+GWAS and epistasis for flowering time in soybean
+Table 2. Multilocus epistatic interactions among 5,534 SNP markers related to DTF.
+Group" Chr. Position Soybean gene ID Gene p-value
+Protein
+Quantitative trait loci (QTLS) Related
+(bp)
+symbolb (min, max)
+pathway"
+A. Significant interaction groups including significant DTF-related genes in GWAS
+G1 6 20,208,679 Glyma.06G207800 *El (3.69E-03, AP2/B3-like transcriptional factor First flower 4-1, 5-1, 12-2, 23-1,
+P
+3.69E-03)
+family protein
+26-9,26-12
+16 1,855,885 Glyma.16G020400 GIF3 (3.69E-03,
+GRF1-interacting factor 3
+Pod maturity 9-1
+FPI
+3.69E-03)
+G2 6 20,207,322 Glyma.06G207800 *El (5.36E-03, AP2/B3-like transcriptional factor First flower 4-1, 5-1, 12-2, 23-1,
+P
+8.21E-03)
+family protein
+26-9
+2 45,220,188 Glyma.02G267800 COPI (8.21E-03, Transducin family protein/WD-40
+P
+1.56E-02)
+repeat family protein
+13 37,658,295 Glyma.13G274900 SPL12 (5.36E-03,
+Squamosa promoter-binding
+Plant height 38-2
+FMI
+1.56E-02)
+protein-like 12
+G3 6 20,207,322 Glyma.06G207800 *El (3.97E-04, AP2/B3-like transcriptional factor First flower 4-1, 5-1, 12-2, 23-1,
+P
+7.40E-01)
+family protein
+26-9, 26-12
+4 6,893,070 Glyma.04G081800 EMF1 (1.27E-25,
+Embryonic flower 1
+V
+7.25E-02)
+6 19,585,253 Glyma.06G205800 FUL (2.61E-04,
+AGAMOUS-like 8
+First flower 4-1,5-1, 12-2, 26-9, FMI
+9.17E-02)
+26-12
+8 3,655,383 Glyma.08G046500 FKF1 (1.27E-25, Flavin-binding, kelch repeat, fbox 1
+P
+2.26E-02)
+10 42,450,765 Glyma.10G192000 NF-YB8 (3.97E-04,
+Nuclear factor Y, subunit B8
+Pod maturity 14-2, 15-2
+FPI
+9.17E-02)
+G4 19 47,638,344 Glyma.19G224200 *E3 (1.84E-03,
+Phytochrome A
+First flower 4-g80
+P
+1.84E-03)
+15 8,774,152 Glyma.15G111900 STM (1.84E-03, KNOX/ELK homeobox transcription
+First flower 12-3
+P
+1.84E-03)
+factor
+G5 19 47,638,344 Glyma.19G224200 *E3 (2.46E-06,
+Phytochrome A
+First flower 4-g80
+P
+5.94E-03)
+3 44,468,848 Glyma.03G248200 FLK (4.85E-03,
+RNA-binding KH domain-
+Plant height 26-17
+AU
+5.94E-03)
+containing protein
+10 42,457,595 Glyma.10G192000 NF-YB8 (2.46E-06,
+Nuclear factor Y, subunit B8
+Pod maturity 14-2, 15-2
+FPI
+4.85E-03)
+B. Significant tinteraction groups among non-significant DTF-related genes
+G6 4 46,807,590 Glyma.04G196200 HAP5A (3.89E-10,
+Nuclear factor Y, subunit CI
+Plant height 5-4; Podmaturity
+FPI
+1.82E-01)
+6-3, 6-6, 32-1
+6 26,630,946 Glyma.06G221000 ARP6 (1.64E-03,
+Actin-related protein 6
+First flower 3-1, 8-1, 22-2, 23-1, AU
+2.52E-01)
+26-10, 26-11, 26-13, 26-16
+6 19,586,329 Glyma.06G205800 FUL (3.89E-10,
+AGAMOUS-like 8
+First flower 4-1, 5-1, 12-2, 26-9, FMI
+2.53E-06)
+26-12
+10 49,716,656 Glyma.10G274300 BBX15 (2.53E-06, B-box type zinc finger protein with
+P
+2.52E-01)
+CCT domain
+G7 2 1,109,049 Glyma.02G012100 SWN (1.04E-03, SET domain-containingprotcin
+AU,V
+2.20E-01)
+9 6,040,554 Glyma.09G063100 FVE (2.13E-12, Transducin family protein/WD-40
+AM, AU
+1.04E-03)
+repeat family protein
+15 22,687,645 Glyma.15G196500 PHYE (1.93E-04,
+Phytochrome E
+Pod maturity 31-2, 37-2
+P
+4.36E-01)
+15 40,764,606 Glyma.15G223700 CRY2 (2.13E-12,
+Cryptochrome 2
+Plant height 26-10
+P
+4.36E-01)
+*Major DTF-related genes (El and E3) identified from GWAS.
+"Interaction group derived from multilocus epistatic analysis for DTF.
+bRepresentative gene symbol corresponding the soybean gene.
+"Range ofminimum and maximum p-values for two-locus interactions, calculated pairwisely among SNP markers in an interaction group.
+*DTF-related pathways: AM, ambient ttemperature; AU, autonomous; FPI, floralpathway integrator; P,photoperiod; FMI, floral meristem identity; V, vernalization
+htpslidoiongr10137l/joumipone028141002
+PLOS ONE Imtipsz/doiorg10.137tjumalpone.028114 January 22, 2020
+7/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+a
+b
+Chr20 Chri
+Chr20 Chrz
+Chia
+Chra
+chno
+Chre
+a
+CA
+d
+4
+e
+C
+8
+8
+8
+&
+pt
+I
+8 I
+8
+GIF3
+-CRY2
+Fy
+PHYE
+8
+STM
+8
+e
+à
+8
+e
+8
+E
+S
+ERRO
+DNO
+ERRO
+BuO
+2tINg
+6140
+EtINS IEID
+BMp
+TEND OTI4D
+OTI4D
+Fig 3. Epistatic interactions among DTF-related genes. a. Epistatic interactions sbetween non-significant genes and significant genes (El and
+E3). Inner curved lines indicate interaction groups, G1 (navy), G2(red), G3(orange),G4 (green), and G5 (purple) (Table 2). b. Epistatic
+interaction between non-significant genes. Inner curvedlines indicate interaction groups, G6 (green) and G7 (navy) (Table 2). Red dotted
+linesin the two plots indicate statistically significant cut-offthresholds sof-log(p-value) =7.
+htpslidoiorgr10137t/pumalponed281149003
+increase in the value ofK, the entire IC group showed la unique genomic composition, which
+slightly distinguished from the LR group; however, each accession in the IC group exhibited
+an aspect ofinclusion in the LR group, with varying levels ofgenomic composition. The results
+ofPCA showed that the LR and IC groups formed a single group with large diversity, and the
+IC group overlapped with the LR group, consistent with the results of structure analysis (Fig 1c
+and 1d). Average values ofLD, TI, and DTF showed differences between the IC and LR groups.
+Due to the impact ofconscious selection for improvement, the IC group showed slightly
+higher average values ofLD (0.121583) (Fig le, S1 Table), andlower T (2.22E-5) and DTF
+(42.16) (Fig 1f, S1 Dataset) than the LR group (0.112253, 2.39E-5, and 45.86, respectively). Val-
+ues ofinbreeding coefficient were all high (IC, F = 0.9710; LR, F = 0.9731) because ofthe char-
+acteristics ofinbreeding and stringent cleistogamy (S1 Table).. Also, a numeric value Fst,
+supported the results ofvarious population analyses. The Fst between the IC and LR groups
+was 0.0581 and was small enough to be regarded as a single group. Based on these results, a sin-
+gle dataset consisting ofall 2,662 accessions was constructed, and used for subsequent GWAS
+and epistatic analysis. The results ofPCA indicated that 132 UCs overlapped between the LR
+and IC groups; these accessions were included in GWAS to reflect as much genomic diversity
+ofcultivated accessions as possible.
+GWAS of DTF
+Ofthe 180,961 SNP markers identified in 2,662 accessions, 78,427 SNP markers with
+MAF > 0.05 were selected as common SNP markers for GWAS. These SNP markers were dis-
+tributed on all 20 soybean chromosomes and represented 26,162 genes, with an average num-
+ber of2.07 SNP markers per gene (S2 Dataset). Then, the association between these SNP
+markers and DTF was examined using a compressed mixedlinear model that adjusts popula-
+tion structure and kinship (Fig 2, S3 Dataset). Statistically significant cut-offwas set at -log(p-
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+8/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+value) = 7, which was higher than the Bonferroni-adjusted p-value = 6.2, to minimize false-
+positive results. A total of 132 significant SNP markers including 93 genic SNP markers were
+detected, and all mapped to chromosomes 6 and 19 (Fig 2a). Among these 93 significant genic
+SNP markers, 78 SNP markers mapped to 51 soybean genes on chromosome 6 (Fig 2b), and
+15 SNP markers mapped to eight genes on chromosome 19 (Fig 2c).
+The two major DTF-related genes, E1 and E3, were identified from the 59 significant genes.
+The E1 gene has the largest influence on the determination OfDTF [37, 63] and affects vegeta-
+tive development by regulating multiple genes related to plant growth [64]. The E1 gene was
+located at the 20,207,322bp position on chromosome 6 (Glyma.06G207800), and showed la
+considerably significant -log(p-value) of 14.23. The E3 gene regulates DTF under short-day
+and long-day conditions, and affects plant maturity [65]. This gene was positioned at
+47,638,344 bp on chromosome 19 (Glyma.19G224200) and exhibited a significant -log(p-
+value) of9.75. Two additional major genes affecting DTF, E2 and E4 [66, 67], were not
+detected as significant genes in this study. The E2 gene was located at nucleotide positions
+45,295,453, 45,295,508, 45,296,750, and 45,300,271 bp on chromosome 10 (Gly-
+ma.10G221500), but all showed non-significant p-values of2.00, 2.43, 2.31, and 2.43, respec-
+tively (Fig 2a). Also the E4 gene was positioned at 33,236,286, 33,236,286, and 33,241,589 bp
+on chromosome 20 (Glyma.20G090000), but all were excluded from the GWAS because oflow
+MAF (0.000187, 0.000909, and0.002441, respectively).
+Epistatic interaction among DTF-related genes
+Interaction effects on DTF among significant SNP and non-significant SNP markers were
+examined to complement GWAS singlevariantaditieffet. Significant SNP markers con-
+sisted of93 genic SNP markers belonging to 59 soybean genes derived from the GWAS, as
+described above. To focus on interactions among DTF-related genes, 5,441 non-significant
+SNP markers in 2,184 soybean genes (Table 1) were selected from a set of356 DTF-related
+Arabidopsis genes on the Axiom R 180k SoyaSNP array (S4 Dataset) (see Materials and meth-
+ods for details). In the 356 Arabidopsis genes, a total of2,188 homologous soybean genes were
+identified, but four genes (Glyma.06G205700, Glyma.06G207800-El, Glyma.06G221000, and
+Glyma.19G224200-E3) with six SNP markers were excluded from the non-significant SNP
+marker-set since these markers were already included in the significant marker-set in GWAS.
+Also, when detecting homologous genes, the non-MAF filtered SNPS were used in order to
+consider various DTF-related genes which were excluded from the GWAS due to
+MAF < 0.05, such as E4 gene (Glyma.20G090000). Finally, a total of5,534 SNP markers
+belonging to 2,243 soybean genes were selected and used for analyzing multilocus epistatic
+interactions. The results revealed five interaction groups(G1-G5) containing two significant
+and nine non-significant genes (Fig 3a) and two interaction groups (G6, G7) containing only
+eight non-significant genes (Fig 3b, Table 2).
+The interaction groups G1, G2, and IG3 containedtwo, three, and five genes, respectively,
+each including the significant DTF-related E1 gene (Fig 3a, Table 2). The non-significant
+genes, identified in GWAS, included GIF3 (belonging to G1 group and quantitative trait locus
+(QTL) of pod maturity 9-1), which is involved in regulating cell expansion and meristem of
+leaves [68]; SPL12 (G2, plant height QTL 38-2), which affects plant growth and development
+[69]; COP1 (G2), which regulates photomorphogenesis and skotomorphogenes, and is related
+to growth and development [70]; FUL (G3, first flower QTLs 4-1, 5-1,12-2, 26-9, and 26-
+12), which functions early in controlling flowering time [71, 72]; EMF1 (G3), which is involved
+in DTF through the regulation ofreproductive development [73, 74]; FKF1 (G3), involvedin
+DTF by regulating changes in photoperiod and temperature [75, 76]; and NF-YB8 (G3 and G5,
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+9/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+pod maturity QTLs 14-2 and 15-2), which regulates leafdevelopment and maturity [77]. The
+interaction groups G4 and G5 possessed the E3 gene in common, together with one and two
+other genes, respectively (Fig 3a, Table 2), including STM (G4, first flower QTL 12-3), which
+is related to flower meristem and DTF [78]; FLK (G5, plantheight QTL 26-17), which regu-
+lates DTF through the repression OfFLOWERING LOCUS C expression and its post-transcrip-
+tional modification [76]; and NF-YB8 (G5), also detected in G3, as described above.
+The G6 and G7 interaction groups contained only eight non-significant genes identified lin
+GWAS, but were detected as significant interaction groups on DTF in the epistatic analysis
+(Fig 3b, Table 2). These eight genes included HAP5A (G6, one plant height QTL and three pod
+maturity QTLs), related to earlier flowering [79]; ARP6 (G6, eight first flower QTLS), involved
+in plant growth and development [80, 81]; FUL (G6), also identified in G3, as described above;
+BBX15 (G6), indirectly related to light reaction [82]; SWN (G7), involved in the regulation of
+flowering and development [83, 84]; FVE (G7), associated with the regulation and control of
+DTF [85, 86]; and PHYE and CRY2 (G7, two pod maturity QTLs and one plantheight QTL),
+related to light reaction during flowering [87, 88].
+Pathways of epistatic genes related to DTF
+To identify the degree ofinvolvement in DTF, two significant and 16 non-significant genes
+in all interaction groups were examined on DTF-related pathways. These 18 candidate
+genes were involved in the following six major DTF-related pathways [56]: ambient temper-
+ature (AM), autonomous (AU), flowering pathway integrator (FPI), photoperiod (P), floral
+meristem identity (FMI), and vernalization (V) (Table 2, Fig 4). The V and P pathways con-
+trol the overall flowering process [89] and the AM pathway regulates flowering time [90,
+91], as external factors. The AU pathway promotes induction of flowering as an internal fac-
+tor [89]. The FPI pathway regulates the other pathways and triggers the induction ofFMI
+[89], and the FMI pathway induces flowering. The P pathway contained eight candidate
+genes including the E1 and E3 genes; A and AM pathways contained two candidate genes
+each; AU and FPI pathways contained four candidate genes each; and the FMI pathway con-
+tained three candidate genes. These results confirmed that all 18 candidate genes are
+involved in major DTF-related pathways, and presented that they have a wide effect on DTF
+while interacting with each other.
+Discussion
+The Axiom 180k SoyaSNP array was developedby our team mainly based on Korean soy-
+bean accessions, with the aim to perform GWAS using a large number ofhigh-density markers
+[45]. Ofthe 2,662 soybean accessions used in this study (S1 Dataset), 94% were of Korean ori-
+gin and therefore suitable for genotyping with the Axiom R 180k SoyaSNP high-density array,
+generating 180,961 SNP markers. These 2,662 soybean accessions mainly comprised two sub-
+groups, LRs and ICs, andhave a tendency to form a single large population with considerable
+genomic diversity (Fig 1). The Fst value, a numeric value indicating population structure, was
+also sufficiently small (0.0581) for the two subgroups to be considered as a single group (S1
+Table). Based on the results of population structure analyses, we conducted GWAS on all
+2,662 soybean accessions and identified 59 soybean genes, including E1 and E3, as candidates
+associated with DTF (Fig 2, S2 and S3 Datasets).
+Genes E1-E10 [31-41),J142], and Dtl [43, 44] are known as major DTF-related genes in
+soybean. Among these, genes E1-E4 act as the major determinants of DTF, as these genes
+account for approximately 62-66% of variation in DTF [40, 57]. The E1 gene has the largest
+effect on DTF and photoperiod sensitivity [37, 63] through regulations of GmFT2a, GmFT5a,
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+10/19
+
+
+
+y PLOS ONE
+GWAS and epistasis for flowering time in soybean
+Autonomous (AU)
+Photoperiod (P)
+Ambient
+1 FVE, FLK, ARP6,
+- E1, E3, PHYE, COP1, CRY2,
+temperature (AM)
+SWN, FLD, FCA, FPA,
+FKF1, STM, BBX15, E2, E4, FT,
+1 FVE, ARP6, PIF4,
+FY, LD, CCR1, FPA, FL
+LHY, AGL24, CDF, ELF5, SPA1
+PIF5, FCA, SOC2
+Vernalization (V)
+Floral pathway
+- EMF1, SWN, VRN, VIN3,
+integrators (FPI)
+FRI, FRL, FIP2, VIP2,
+- NF-YB8, HAP5A, GIF3,
+EMF2, REF6
+FPI, FT, LFY, SOC1, AP1
+Floral meristem
+identity (FMI)
+1 FUL, SPL12, EMF1,
+CAL, AP1, AP2
+Vegetative
+Flowering
+Fig4. Genes in major pathwaysregulating plant growth from thevegetative stage to the flowering stage. Representative genes are displayed lin corresponding
+pathways. Candidate genes identified from interaction groups are shown in red ("Related pathway" column in Table 2).
+htips/doiongrio137t/pumaipone.028114000
+and GmFTla genes [92, 93]. The E2 gene enhances photoperiod response and contributes to
+early flowering by regulating GmFT2a [66, 94]. Genes E3 and E4 are involved in the regulation
+ofE1 and affect DTF through the regulation ofthe far-red light ratio [65, 67]. Above all, E1
+functions as a key regulator ofDTF in soybean [95]. In our GWAS, E1 and E3 genes showed
+significant p-values, whereas E2 and E4 genes were not detected (Fig 2). The E2 gene showed a
+non-significant p-value and the E4 gene was excluded from the GWAS because ofconsiderably
+low MAF ofSNPs. According to previous studies, the E1-E4 genes in soybean are considerably
+affected by habitat ecology and latitude [57, 96-98]. The soybean population used in this study
+consists mostly of Korean accessions and therefore reflects the Korean environment. Korean
+soybeans are also reported to possess high genomic diversity, unlike soybean accessions from
+other regions [99-101]. Considering the genomic characteristic of four population, the GWAS
+result suggests that E1 and E3 genes play a significant role in the regulation ofDTF trait in
+Korean soybean population.
+In addition to GWAS results, the interaction effects between 59 significant genes and the
+remaining non-significant genes on DTF were examined (Table 1). Identification of epistatic
+interactions could help in the detection ofa greater number of candidate genes, since the
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+11/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+complex DTF trait is affected by interactions among multiple genes [29, 102]. In our epistatic
+analysis, non-significant genes were utilized as 2,188 soybean genes which are homologous
+genes to 356 DTF-related Arabidopsis genes (S4 Dataset). This approach ofmarker reduction,
+called biological filtering, has been reported as one of the effective approaches for epistatic
+analysis [103, 104], as it allows the overcoming of computational limitations caused by a con-
+siderable number of marker combinations [105]. Therefore, we selected 356 Arabidopsis genes
+based on previous reports on DTF and maturity (S4 Dataset), and used to analyze the interac-
+tion effects ofvarious DTF-related genes on DTF. The results of epistatic analysis revealed
+seven interaction groups and 18 candidate genes with significant influence on DTF (Table 2);
+E1 and E3 genes, which were detectedin GWAS, also played la major role in the interaction
+groups (Fig 3).
+DTF is regulated by complex networks ofbiological processes [106, 107], and is character-
+ized to six representative pathways from vegetative to flowering stages in Arabidopsis [108,
+109]: P (response to daylength andlight), V (cold exposure), AU (flowering promotion), FPI
+(floral transition), AM (time offloraltransition), and FMI (floral development) (Fig 4). To bet-
+ter understand the genetic effects ofcandidate genes on DTF, it tis necessary to identify the
+extent to which these candidate genes are involved in the six major pathways. Among the 18
+candidate genes identified in this study, eight genes including E1 (interaction groups G1-G3)
+are involved in P, FPI, FMI, and V pathways; four genes including E3 (G4 and G5) are associ-
+ated with P, AU, and FPI pathways; and eight genes (G6 and G7) are relatedto P, V,AU, AM,
+FMI, and FPI pathways (Table 2, Fig 4). Thus, all ofthese 18 candidate genes were evenly dis-
+tributed in the six major pathways and affected DTF while interacting with each other in the
+corresponding interaction groups. Overall, our results ofGWAS and epistatic analysis suggest
+that these 18 candidate genes play a significant role in the regulation ofDTF in soybean, at
+least in the Korean population.
+However, our findings have several limitations. First, the DTF-related candidate markers
+identified in this study do not represent the worldwide soybean population. Itis possible that
+these candidate markers are specific to Korean soybean accessions because 94% ofthe soybean
+population was of Korean origin. Second, the epistatic analysis was restricted to only 356 DTF-
+related Arabidopsis genes. The 356 genes were used to reduce computational overload; how-
+ever, markers excluded in the epistatic analysis could also have a significant effect on DTF
+while interacting with each other. Finally, our candidate markers have not been validated by
+biological experiments. To minimize this limitation, we examined the genomic characteristics
+ofthe soybean population before GWAS and used la conservative cut-offin GWAS, which was
+higher than the Bonferroni-adjusted p-value. Despite these efforts, our candidate markers
+need further experimental validation, but they are expected to present valuable information to
+soybean breeding programs aimed at improving the DTF trait.
+Conclusion
+DTF is an important agronomic trait relevant to plant growth, development, and productivity
+in soybean. This trait is regulated by complex biological processes and lis affected by endoge-
+nous genetic factors as well as environmental cues. Many researches have demonstrated the
+effect of genotype X environment interaction on DTF; however, studies on epistatic interac-
+tions amonggenetic factors have rarely been reported. Although our study is restricted lby the
+origin of soybean accessions and also requires further biological validation, candidate markers
+identified in this study provides not only additional information for understanding the DTF
+trait in soybean but also a valuable genetic basis for soybean breeding programs aimed at
+improving DTF.
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+12/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+Supporting information
+S1 Dataset. Sample information oforigin, maturity group, and flowering time.
+(XLSX)
+S2 Dataset. List of soybean genes and number of SNP markers (MAF > 0.05) per gene.
+(XLSX)
+S3 Dataset. Results ofGWAS on flowering time in 2,662 soybean accessions.
+(XLSX)
+S4 Dataset. List of DTF-related genes reportedin Arabidopsis thaliana, and their homolo-
+gous genes to soybean.
+(XLSX)
+S1 Fig. Ten-times cross-validation error values for population structure analysis from
+K= 2toK=8.
+(TIF)
+S1 Table. Average T, F, and ILD values among soybean accessions.
+(DOCX)
+Acknowledgments
+We appreciate the Rural Development Administration and the reviewers who suggested valu-
+able comments for this manuscript.
+Author Contributions
+Conceptualization: Namshin Kim.
+Data curation: Jae-Yoon Kim.
+Formal analysis: Kyoung Hyoun Kim.
+Funding acquisition: Namshin Kim.
+Methodology: Jae-Yoon Kim.
+Project administration: Namshin Kim.
+Resources: Jung-Kyung Moon.
+Supervision: Namshin Kim.
+Validation: Won-Jun Lim, Seongmun Jeong, Ho-Yeon Lee, Youngbum Cho.
+Visualization: Won-Jun Lim, Seongmun Jeong, Ho-Yeon Lee, Youngbum Cho.
+Writing - original draft: Kyoung Hyoun Kim.
+Writing - review & editing: Kyoung Hyoun Kim, Jae-Yoon Kim, Jung-Kyung Moon.
+References
+1. Contreras-Soto RI, Mora F,de Oliveira MAR, HigashiW, Scapim CA, Schusterl. A genome-wide asso-
+ciation study for ragronomictraits in soybean using SNP markers and SNP-basedhaplotype analysis.
+PLOS One. 2017; 12(2):e0171105. htips.ldoiongyf10.137t/ourmal.pone0171105 PMID: 28152092
+2. Chen H, Xie W, He H, YuH, Chen W, LiJ, et al. A high-density SNP genotyping arrayfor rice biology
+and molecularbreeding. Mol Plant. 2014;7(3);541-53. Mepelidsiogroio@mosatas PMID:
+24121292
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+13/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+3. Hu X, Ren J, Ren X, Huang S, Sabiel ISA, Luo M, et tal. Association of agronomic traits with SNP mark-
+ers in durum wheat (Triticum turgidum L. durum (Desf.)). PLOS One. 2015; 10(6):e0130854. https:/1
+doiorg/10.1371journal.pone.0130854 PMID: 26110423
+4. Navarro JAR, Willcox M, BurguenoJ, Romay C, Swarts K, TrachselS, et al. A study of allelic diversity
+underlying flowering-time adaptation in maize landraces. Nat Genet. 2017; 49(3):476. https://doi.org/
+10.1038/ng.3784 PMID: 28166212
+5. Nascimento M, Nascimento ACC, Silva FFe, Barili LD, do Vale NM, Carneiro JE, etal. Quantile
+regression for genome-wide association study of flowering time-related traits in common bean. PLOS
+One. 2018; 13(1):e0190303. htips.ldoiorgio.1azt/ournal.pone.0190903 PMID: 29300788
+6. Sales E, ViruelJ, Domingo C, Marqués L. Genome wide association analysis ofcold tolerance at ger-
+minationin temperatejaponica rice (Oryza sativa L.) varieties. PLOS One. 2017; 12(8):e0183416.
+htpszldoiong1o.1a7tjourmal.pone.0183416 PMID: 28817683
+7. Fan Y, Zhou G, Shabala S, Chen Z-H, CaiS,Lic, etal. Genome-wide association study reveals a
+new QTLfor salinity tolerance in barley (Hordeum vulgare L.). FrontPlant Sci. 2016; 7:946. https://doi.
+000103391p520160946 PMID: 27446173
+8. Patil G, DoT,Vuong TD, Valliyodan B, LeeJ-D, Chaudhary J, et al. Genomic-assisted haplotype anal-
+ysis and the development of high-throughput SNP markers for salinity tolerance in soybean. Sci Rep.
+2016; 6:19199. mpe.ldaognai@8@weptgnipe PMID: 26781337
+9. Thabet SG, Moursi YS, Karam MA, Graner A, Alqudah AM. Geneticbasis of drought tolerance during
+seed germination inbarley. PLOS One. 2018; 13(11):e0206682. htips/doi.org/10.1371joumal.pone.
+0206682 PMID: 30388157
+10. Kim S-M, Reinke RF. A novel resistance gene for bacterial blightinrice, Xa43(t) identified by GWAS,
+confirmed by QTL mapping using a bi-parental population. PLOS One. 2019; 14(2):e0211775. https:l1
+doi.org/10.1371journal.pone.0211775 PMID: 30753229
+11. Chen G, Wang X, HaoJ, YanJ, DingJ. Genome-wide association implicates candidate genes confer-
+ring resistance to maize rough dwarf disease in maize. PLOS One. 2015; 10(11):e0142001. https://doi.
+ogn@igripumaippeotgn PMID: 26529245
+12. Begum H, Spindel JE, Lalusin A, Borromeo T, Gregorio G, Hernandez J, et al. Genome-wide association
+mapping for yield land other agronomic traits in an elite breeding population oftropical rice (Oryza sativa).
+PLOS One. 2015; 10(3):e0119873. htpszldoiorg10.137t/oumal.pone0119873 PMID: 25785447
+13. Zhang J, Song Q, Cregan PB, Nelson RL, Wang X, WuJ, et al. Genome-wide association study for
+flowering time, maturity dates and plant height tin early maturing soybean (Glycine max) germplasm.
+BMC Genomics. 2015; 16(1):217. htips.idolorg/10.1188s12864-015-1441-4 PMID: 25887991
+14. Hoang GT, GantetP, NguyenKH, PhungNTP,HaLT, Nguyen TT, et al. Genome-wide association
+mapping of leaf mass traits in a Vietnamese rice landrace panel. PLOS One. 2019; 14(7). https://doi.
+COTHSnipAMgREEHRMAPNO 31283792
+15. Lus, ZhangM, Zhang Z, Wang Z, WUN, Song Y, et al. Screening and verification of genes associated
+with leaf fangle and leaf orientation value in inbredmaize lines. PLOSOne. 2018; 13(12):e0208386.
+htpszldoiorg10.137t/ourmal.pone.0208386 PMID: 30532152
+16. Zhao X, Dong H, Chang H, Zhao J, Teng W, QiuL, etal. Genome wide association mapping and can-
+didate gene analysis for hundred seed weight in soybean(Glycine max (L.) Merrill). BMC Genomics.
+2019; 20(1):648. htipscIdoiorg/10.1188s12864-019-60092 PMID: 31412769
+17. Sehgal D, Mondal S, Guzman C, Barrios GG, FrancoC, Singh RP, et al. Validation of candidate gene-
+based markers and identification of fnovel locifor thousand-grain weight in spring bread wheat. Front
+Plant Sci. 2019; 10:1189. htps_/doi.org/10.33897p1s.2019.01189 PMID: 31616457
+18. Battenfield SD, SheridanJL, SilvaLD, Miclaus KJ, Dreisigacker S, Wolfinger RD, et tal. Breeding-
+assisted genomics: Applying meta-GWASformilling and baking quality in CIMMYT wheat breeding
+program. PLOS One. 2018; 13(11):e0204757. htips.idoiongn10.137/oumal.pone.0204757 PMID:
+30496187
+19. Wang B, LiJ. Understandingthe molecular bases of agronomic traitimprovement in rice. Plant Cell.
+2019; 31(7): 1416-7. htpsz/doi.org/10.1105/pc.19.00343 PMID: 31068452
+20. Langer SM, Longin CFH, Wurschum T. Flowering time controlin European winter wheat. Front Plant
+Sci. 2014; 5537.htips.ldoiong103389195.201400597 PMID: 25346745
+21. Mazaheri iM,Heckwolf M, Vaillancourt B, Gage JL, Burdo B, Heckwolf S, et al. Genome-wide associa-
+tion analysis of stalk biomass and lanatomical traits inmaize. BMC Plant Biol. 2019; 19(1):45. https:/l
+08091010A12TD018:16S4 PMID: 30704393
+22. Alqudah AM, Sharma R, Pasam RK, Graner A, Kilian B, Schnurbusch T. Genetic dissection of photo-
+period response based lon GWAS of pre-anthesis phase duration in spring barley. PLOS One. 2014; 9
+(11):e113120. htps.ldolong10.1a7t/ournal.pone.0113120 PMID: 25420105
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+14/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+23. Huang X, Zhao Y,LiC, Wang A, Zhao Q,Liw, et al. Genome-wide association study of flowering time
+and grain yield traits ina worldwide collection of rice germplasm. Nat Genet. 2012; 44(1):32-9. https:/I
+doiorg10.1038hg.1018 PMID: 22138690
+24. Ahsan A, Monir M, Meng X, Rahaman M, Chen H, Chen M. Identification of epistasislociundervying
+rice flowering time by controlling population stratification and polygenic effect. DNA Res. 2018; 26
+(2):119-30. htps_/do.org10.1093/dnares/dsy043 PMID: 30590457
+25. Koo CL, Liew MJ, Mohamad MS, Salleh AHM, Deris S, Ibrahim Z, et tal. Software for detecting gene-
+gene interactions in genome wide association studies. Biotechnol Bioproc E. 2015; 20(4):662-76.
+htipsz/dolorg10.1007s1257-015-0064-6
+26. Moellers TC, Singh A, ZhangJ, Brungardt J, Kabbage M, Mueller DS, et al. Main andepistatic loci
+studies in soybean for Sclerotinia sclerotiorum resistance reveal multiple modes ofresistance in multi-
+environments. Sci Rep. 2017;7(1):3554. htips.idoiong10.1038s41038841598017-036959 PMID:
+28620159
+27. Zhang J, Singh A, Mueller DS, Singh AK. Genome-wide association and epistasis studies unravel the
+genetic architecture of sudden death syndrome resistance in soybean. Plant J. 2015; 84(6):1124-36.
+Mmpeldsogra3tt/e.13 PMID: 26561232
+28. Mamidi S, Lee RK, Goos JR, McClean PE. Genome-wide association studies identifies seven major
+regions responsiblefor iron deficiency chlorosis in soybean (Glycine max). PLOS One. 2014; 9(9):
+e107469. htipsldoiongn10.137t/oumal.pona0107469 PMID: 25225893
+29. Assefa T, Otyama PI, Brown AV, Kalberer SR, Kulkarni RS, Cannon SB. Genome-wide associations
+and epistatic interacionsforinternode number, plant height, seed weight and seed yieldin soybean.
+BMC Genomics. 2019; 20(1):527. htips/dolorg/10.1186s12864-019-5907-7 PMID: 31242867
+30. He T, Hill CB, Angessa TT, Zhang X-Q, Chen K, Moody D, etal Gene-set association and epistatic
+analyses reveal complex gene interaction networks affecting flowering time in a worldwide barley col-
+lection. J Exp Bot. 2019; 70(20):5603-16. Mpulidsiognaiodpberag PMID: 31504706
+31. Bernard IR. Two major genes for time offlowering and maturity in soybeans. Crop Sci. 1971;11
+(2):242-4. htpszldoi.org10.2135icp0c1971001183X0011002002X
+32. Buzzell R. Inheritance ofa soybean flowering response to fluorescent-daylength conditions. Can J
+Genet Cytol. 197:1942703-7.htpslidoliog10113971-100
+33. Buzzell R, Voldeng H. Inheritance ofinsensitivity to long daylength. Soyb Genet Newsl. 1980; 7(1):13.
+htps_/dol.org/10.1093/heredlesp113
+34. Saindon G, Voldeng H, BeversdorfW, Buzzell R. Genetic control loflong daylength response in soy-
+bean. Crop Sci. 1989; 29(6):1436-9. htps./dol.org10.21351061962018011183X002900060021X
+35. McBlain B, Bernard R. A new gene affecting the time off flowering and maturityin soybeans. JHered.
+1987; 78(3):160-2. https_/dol.org/10.1093oxtordjournals.,hered.a110349
+36. Bonato ER, Vello NA. E6, a adominantgene conditioning early flowering and maturity in soybeans.
+Genet Mol Biol. 1999; 22(2):229-32. hipgldoiog10159051415471371990000016
+37. Cober ER, Voldeng HD. Anew soybean maturity and photoperiod-sensitity locus linked to E1 andT.
+Crop Sci. 2001; 41(3):698-701. htips.idol.ong102135icropsd2001.413698X
+38. Cober ER, Molnar SJ, Charette M, Voldeng HD.A new locus for early maturity in soybean. Crop Sci.
+2010; 50(2):524-7. htps.ldoi.ong102135(cropsc02009.04,0174
+39. Kong F, Nan H, Cao D,LiY, Wu F, Wang J, et al. A new dominant gene E9 conditions early flowering
+and maturity in soybean. Crop Sci. 2014;54(6)2529-35. htps_/do.org/10.2135/cropsc2014.03,
+0228
+40. Zhao C, Takeshima R, Zhu J, Xu M, Sato M, Watanabe S, et al. A recessive allele for delayed flower-
+ing atthe soybean maturity locus E9is a leaky allele ofFT2a, a FLOWERING LOCUS T ortholog.
+BMC Plant Biol. 2016; 16(1):20. htps/doiorg10.1188s12870-016-07049 PMID: 26786479
+41. Samanfar B, Molnar SJ, Charette M, Schoenrock A, Dehne F, Golshani A, et tal. Mapping andi didentifi-
+cation of fa potential candidate gene for ra novel maturity locus, E10, in soybean. TheorAppl Genet.
+2017; 130(2):377-90. htipsz/doiorg10.1007s80012.016-28197 PMID: 27832313
+42. Ray JD, Hinson K, Mankono J, Malo MF. Genetic ccontrol of fa long-juvenile trait in soybean. Crop Sci.
+1995; 35(4):1001-6. htps.ldo.org102135ic1213500p01995001183X003500040012X
+43. Liu B, Watanabe S, Uchiyama T, Kong F, Kanazawa A, Xia Z, etal. The soybean stem growth habit
+gene Dt1 is an ortholog of Arabidopsis TERMINAL FLOWER1. Plant Physiol. 2010; 153(1):198-210.
+htips_/doi.org/10.1104/pp.109.150607 PMID: 20219831
+44. Tian Z, Wang X, Lee R, LiY, Specht JE, Nelson RL, et al. Artificial selectionfor determinate growth
+habit tin soybean. Proc Natl Acad Sci US A. 2010; 107(19):8563-8. htpsldolongioior73pnas,
+1000088107 PMID: 20421496
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+15/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+45. Lee YG, Jeong N, Kim JH, Lee K, Kim KH, Pirani A, et al. Development, validation and geneticanaly-
+sis ofa large soybean SNP genotyping array. Plant J. 2015; 81(4):625-36. htps.ldolorg/10.1110)
+12755 PMID: 25641104
+46. Browning BL, Zhou Y, Browning SR. A one-penny imputed genome from next-generation reference
+panels. AmJ Hum Genet. 2018; 103(3):338-48. htips_/doiorg/10.1016ja2hg22018.07.0151 PMID:
+30100085
+47. Jeong S-C, MoonJ-K, Park S-K, Kim M-S, Lee K, Lee SR, et al. Genetic diversity patterns and domes-
+tication origin of soybean. Theor Appl Genet. 2019: 132(4):1179-93. Np5163.0g1010010012.
+018-3271-7 PMID: 30588539
+48. Purcell S, Neale B, Todd-Brown K, Thomas L, Ferreira MAR, Bender D, et al. PLINK: atool set for
+whole-genome association and population-basedlinkage analyses. Am JHum Genet. 2007; 81
+(3):559-75. htpsldgiog10108519795 PMID: 17701901
+49. Gascuel O. BIONJ: an improved version of the NJ algorithm based on a simple model of sequence
+data. Mol Biol Evol. 1997; 14(7):685-95. hmpeldsogroi0@gosdodpumaiszmobewualases
+PMID: 9254330
+50. Raj A, Stephens M, Pritchard JK. fastSTRUCTURE: variational inference of population structure in
+large SNP data sets. Genetics. 2014; 197(2):573-89. htipsl/idol.ong10.1534/geeics.14.164350
+PMID: 24700103
+51. Kimura M. A simple methodfor estimating evolutionary rates of base substitutions through compara-
+tive studies of nucleotide sequences. JMol Evol. 1980; 16(2):111-20. htps/doi.org/10.10077
+bf01731581 PMID: 7463489
+52. Zhang C, Dong S-S, Xu J-Y, He W-M, Yang T-L. PopLDdecay: afast and leffective toolfor linkage dis-
+equilibrium decay analysis based on variant call format files. Bioinformatics. 2019; 35(10):1786-8
+htips./doi.ongn10.10g3tioinformaticsbty875 PMID: 30321304
+53. Danecek P, Auton A, Abecasis G, Albers CA, Banks E, DePristo MA, et al. The variant call format and
+VCFtools. Bioinformatics. 2011;27(15)2156-8. htips.idoilorg10.1093bioinformaticsbtr330 PMID:
+21653522
+54. Lipka AE, Tian F, Wang Q, PeifferJ, LiM, Bradbury PJ, et al. GAPIT: genome association and predic-
+tion integratedtool. Bioinformatics. 2012; 28(18):2397-9. htps_/doi.org10.1093/bioinformatics/
+bts444 PMID: 22796960
+55. Cingolani P, Platts A, Wang LL, Coon M, Nguyen T, Wang L, etal. A program for annotating and pre-
+dicting the effects of single nucleotide polymorphisms, SnpEff: SNPS in the genome of Drosophila mel-
+anogaster strain w1118; iso-2; iso-3. Fly. 2012; 6(2):80-92. hmpelosongrioaietimv.iges PMID:
+22728672
+56. Jung C-H, Wong CE, Singh MB, Bhalla PL. Comparative genomic analysis of soybean flowering
+genes. PLOS One. 2012; 7(6):e38250. htpszldoiong1o.1a7tjourmal.pone.g8250 PMID:
+22679494
+57. Tsubokura Y, Watanabe S, Xia Z, Kanamori H, Yamagata H, Kaga A, et al. Natural variation in the
+genes responsible formaturity loci E1, E2, E3 and E4 in soybean. Ann Bot. 2014; 113(3):429-41.
+hpuisaiogioiohabmeczeg PMID: 24284817
+58. Nikitin A, Egorov S, Daraselia N, Mazo I. Pathway studio-the analysis and navigation of molecular
+networks. Bioinformatics. 2003; 19(16):2155-7. htips.idol.ongn10.10g3tioinformaticsbig290 PMID:
+14594725
+59. Watanabe S, Harada K, Abe J. Genetic and molecular bases of photoperiod responses offloweringin
+soybean. Breed Sci. 2012; 61(5):531-43. htipsc_/doi.org/10.1270/sbbs.61.531 PMID: 23136492
+60. Camacho C, Coulouris G, Avagyan V, MaN, PapadopoulosJ, BealerK, et al. BLAST+: architecture
+and applications. BMC Bioinformatics. 2009; 10(1):421. htips./doi.org/10.118611861471-2105-10-421
+PMID: 20003500
+61. Wang JJ, Joshi T, Valliyodan B, ShiH, Liang Y, Nguyen HT, et al. A Bayesian modelfor detection of
+high-order interactions among genetic variants in genome-wide association studies. BMC Genomics.
+2015; 16(1):1011. htips.idolorg/10.1186s2864-015-22176 PMID: 26607428
+62. Zhang J, Hou T, WangW, LiuJS. Detecting and understanding combinatorial mutation patterns
+responsible for HIV drug resistance. Proc Natl Acad Sci U JSA. 2010; 107(4):1321-6. https://doi.org/
+101073pnas0907304107 PMID:20080674
+63. Stewart DW, Cober ER, Bernard RL. Modeling genetic effects on the photothermal response of soy-
+bean phenological development. AgronJ. 2003; 95(1):65-70.
+64. Zhang X, Zhai H, Wang Y, Tian X, Zhang Y, WuH, et tal. Functional conservation and diversification of
+the soybean maturity gene E1 and its homologs in legumes. Sci Rep. 2016; 6(1):29548. https://doi.
+org/10.103lsrep29548 PMID: 27405888
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+16/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+65. Watanabe S, Hideshima R, Xia Z, Tsubokura Y, Sato S, Nakamoto Y,etal Map-based cloning of fthe
+gene associated with the soybean maturity locus E3. Genetics. 2009; 182(4):1251-62. https://doi.org/
+101534g0efc.108.083772 PMID: 19474204
+66. Watanabe S, Xia Z, Hideshima R, Tsubokura Y, Sato S, Yamanaka N, et al. A map-based cloning
+strategy employing a residuall heterozygous line reveals that the GIGANTEA gene is involved lin soy-
+bean maturity andflowering. Genetics. 2011; 188(2):395-407. htps/doi.org/10.1534/genetics.110.
+125062 PMID: 21406680
+67. Liu B, Kanazawa. A, Matsumura H, TakahashiR, Harada K, Abe J. Genetic redundancy in soybean
+photoresponses associated with duplication of the phytochrome A gene. Genetics. 2008; 180(2):995-
+1007. htipsidolongf10153/egenetcs.108.092742 PMID: 18780733
+68. Lee S-J,Lee BH, Jung J-H, Park SK, Song JT, Kim JH. GROWTH-REGULATING FACTOR and
+GRF-INTERACTING GFACTOR specify meristematic cells of gynoecia and anthers. Plant Physiol.
+2018; 176(1):717-29. htps/doi.org/10.110.1104/pp.17.00960 PMID: 29114079
+69. Preston JC, Hileman L. Functional evolution in the plant SQUAMOSA-PROMOTER BINDING PRO-
+TEIN-LIKE (SPL) gene family. Front Plant Sci. 2013; 4:80. htpsl/doi.org/10.33897/p1s.2013.00080
+PMID: 23577017
+70. Xu D, Zhu D, Deng XW. The role ofCOP1 in repression ofphotoperiodic flowering. F1000Res. 2016;
+5. htips.ldoiongr10.126871000e5earch73461 PMID: 26949521
+71. Zeng X, LiuH, Du H, Wang S, YangW, Chiy, et al. Soybean MADS-box gene GmAGL1 promotes
+flowering via the photoperiodpathway. BMC Genomics. 2018; 19(1):51. htips/doi.org/10.11861
+s12864-017-4402-2 PMID: 29338682
+72. Jaudal M, Zhang L, Che C, PutterillJ. Three Medicago MtFUL genes have distinct and loverlapping
+expression patterns during vegetative and reproductive development tand 135S:MtFULb accelerates
+flowering and causes a terminal Iflower phenotype in Arabidopsis. Front Genet. 2015; 6:50. https://doi.
+0nf10.39891gne201500050 PMID: 25745430
+73. Ren C, Zhangz, Wang Y,Lis, Liang Z. Genome-wide identification and characterization of the NF-Y
+gene family in grape (vitis vinifera L.). BMC Genomics. 2016; 17(1):605. htps/doi.org/10.11861
+$12864-016-2989-3 PMID: 27516172
+74. Sanchez R, Kim MY, Calonje M, Moon Y-H, Sung ZR. Temporal andspatial requirement of EMF1
+activityfor Arabidopsis vegetative and reproductive development. Mol Plant. 2009; 2(4):643-53.
+https./doi.org/10.1093/mp/ssp004 PMID: 19825645
+75. Kim SY, Lee J, Eshed-Williams L, Zilberman D, Sung ZR. EMF1 andPRC2 cooperate to repress key
+regulators of Arabidopsis development. PLOS Genet. 2012; 8(3):e1002512. htps/doi.org/10.1371
+journal.pgen.1002512 PMID: 22457632
+76. Song YH, Estrada DA, Johnson RS, Kim SK, Lee SY, MacCoss MJ, et al. Distinct troles of FKF1,
+GIGANTEA, andZEITLUPE proteins in the regulation of CONSTANS stabilityin Arabidopsis photope-
+riodic flowering. Proc Natl Acad SciUS A. 2014; 111(49):17672-7. htips.ldglongrio1073pnas
+1415375111 PMID: 25422419
+77. Seaton DD, Smith RW, Song YH, MacGregor DR, Stewart K, SteelG, et al. Linkedcircadian outputs
+control elongation growth and flowering in response to photoperiod andtemperature. Mol Syst Biol.
+2015; 11(1):776. htps_/doiorg/10.15252msb.20145766 PMID: 25600997
+78. Agliassa C, Narayana R, Bertea CM, Rodgers CT, Maffei ME. Reduction of the geomagnetic field
+delays Arabidopsis thaliana flowering time through downregulation offlowering-related genes. Bioe-
+lectromagnetics. 2018; 39(5):361-74. houlidsiongrioito@bem2123 PMID: 29709075
+79. CaiX, Ballif J, Endo S, Davis E, LiangM, Chen D, et tal. Aputative CCAAT-binding transcriptionfactor
+isaregulator of flowering timingin Arabidopsis. Plant Physiol. 2007; 145(1):98-105. https://doi.org/10.
+1104/pp.107.102079 PMID: 17631525
+80. Capovilla G, Schmid M, Posé D. Control of flowering by ambienttemperature. J Exp Bot. 2015; 66
+(1):59-69. Mepulidalograio@posemusie PMID: 25326628
+81. Kang H, Zhang C, An Z, Shen W-H, Zhu Y. AtINO80 and AtARP5 physically interact and play common
+as well as distinct roles in regulating plant growth and development. New Phytol. 2019; 223(1):336-
+53. https/doi.org/10.110.1111/nph.15780 PMID: 30843208
+82. Jiao Y, Yang H, Ma L, Sun N, Yu H, LiuT,et al. A genome-wide analysis of blue-ightregulation of Ara-
+bidopsis transcription factor gene expression during seedling development. Plant Physiol. 2003; 133
+141480-92.mtpelidblongrio1104p.10302949 PMID: 14605227
+83. Helliwell CA, Robertson M, Finnegan EJ, Buzas DM, Dennis ES. Vemalization-repression of Arabi-
+dopsis FLC requires promotersequences but tnot tantisensetranscripts. PLOS One. 2011; 6(6):
+e21513. htips.ldoiong/io.1a7t/ourmal.pone.0021513 PMID:21713009
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+17/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+84. Hohenstatt ML, Mikulski P, Komarynets O, Klose C, Kycia 1, Jeltsch A, etal. PWWP-DOMAIN INTER-
+ACTOR OF POLYCOMBS1 interacts with Polycomb-group proteins andhistones andregulates Arabi-
+dopsis flowering and development. Plant Cell. 2018; 30(1):117-33. htpslidgiongf10.105fpc.172
+00117 PMID: 29330200
+85. Berardini iTZ, Reiser L, LiD, Mezheritsky Y, Muller R, Strait E, etal. The Arabidopsis information
+resource: Making and mining the "gold standard" annotated reference plant genome. Genesis. 2015;
+53(8):474-85. MPR.108.0901010209287 PMID: 26201819
+86. Cheng J-Z, Zhou Y-P,Lv T-X, Xie C-P, Tian C-E. Research progress on the autonomous flowering
+time pathway vin Arabidopsis. Physiol Mol Biol Plants. 2017; 23(3):477-85. htps/Idoi.org/10.10077
+$12298-017-0458-3 PMID: 28878488
+87. Liu Q, ,Wang Q, Deng W, Wang X, Piao M, Cai D, et al. Molecular basis for blue light-dependent phos-
+phorylation of fArabidopsis cryptochrome 2. Nat Commun. 2017; 8(1):15234. htps/doi.org/10.1038
+ncomms15234 PMID: 28492234
+88. YuX, Liul H, KlejnotJ, Lin C. The cryptochrome blue lightreceptors. Arabidopsis Book. 2010; 2010(8):
+e0135. hpeldslogrioiigtabotss PMID:21841916
+89. Kim MY, KangYJ,Lee T, Lee S-H. Divergence of flowering-related genes in three legume species.
+Plant Genome. 2013; 6(3). hmpslidbiongn1o.3835plantgerome201303008
+90. Amasino RM, Michaels SD. The timing of fflowering. Plant Physiol. 2010; 154(2):516-20. https://doi.
+0r9101104p.110161653 PMID: 20921176
+91. Boss PK, Bastow RM, Mylne JS, Dean C. Multiple pathways in the decision to flower: enabling,pro-
+moting, and resetting. Plant Cell. 2004; 16(suppl 1):S18-S31. https./doi.org/10.1105/tpc.015958
+PMID: 15037730
+92. Xia Z, Watanabe S, Yamada T, Tsubokura Y, Nakashima H, ZhaiH, et al. Positional cloning andchar-
+acterization reveal the molecularbasis for soybean maturity locus E1 that regulates photoperiodic
+flowering. Proc Natl Acad Sci U S A. 2012; 109032),E2155-E2164. htipsldolognioio73pmas
+1117982109 PMID: 22619331
+93. Liu W, Jiang B, MaL, Zhang S, ZhaiH,XuX, et al. Functional diversification of Flowering Locus T
+homologs in soybean: GmFT1a and GmFT2a/5a have opposite roles in controlling flowering andmat-
+uration. New Phytol. 2018; 217(3):1335-45. Nesiosiogroititiroh.is4 PMID: 29120038
+94. Jiang B, Nan H, Gao Y, Tang L, Yue Y,Lu S, et al. Allelic combinations ofsoybean maturity loci E1,
+E2, E3 and E4 result tin diversity of maturity and adaptation to differentlatitudes. PLOS One. 2014;9
+(8):e106042. htips.ldou.ongf10.1371/oual.pone0106042 PMID: 25162675
+95. Zhai H, LU S, Liang S, WuH, Zhang X, LiuB,etal. GmFT4, a homolog of FLOWERINGLOCUST.IS
+positively regulatedby E1 and functions as a flowering repressor in soybean. PLOS One. 2014; 9(2):
+e89030. htipsidolongr10.1371/gumal.pon.0089030 PMID:24586488
+96. Xu M, Xu Z, Liu B, Kong F, Tsubokura Y, Watanabe S, etal. Genetic variation in four maturity genes
+affects photoperiod dinsensitivity and PHYA-eguatedpostifoweing responses of soybean. BMC
+Plant Biol. 2013; 13(1):91. htps_/doiorg/10.1186/471-2229-13-91 PMID: 23799885
+97. Tsubokura Y, Matsumura H, Xu M, Liu B, Nakashima H, AnaiT, etal. Genetic variationinsoybeanat
+the maturity locus E4 is involvedin adaptation to long days at high latitudes. AgronJ. 2013; 3(1):117-
+34. htpsldoi.ong10.3390agronomya010117
+98. Zhai H, LU S, Wang Y, Chen X, RenH, YangJ, et al. Allelic variations at four major maturity E genes
+and transcriptional abundance of the E1 gene are associated with flowering time and maturity of soy-
+bean cultivars. PLOS One. 2014; 9(5):e97636. htips.lidol.org10.1371/oumalpon.0097636 PMID:
+24830458
+99. Liz, Nelson RL. Genetic diversity among soybean accessions from three countries measuredby
+RAPDS. Crop Sci. 2001; 41(4):1337-47. htips./doiong102135icropsc20014141337
+100. Lee G-A, Choi Y-M, YiJ-Y, Chung J-W, Lee M-C, Ma K-H, et al. Genetic diversity and population
+structure ofKorean soybean collection using 75 microsatellite markers. KoreanJCrop Sci. 2014; 59
+(4):492-7. htps.ldoi.org10.7740NCS.2014.594492
+101. Sedivy EJ, Wu F, Hanzawa Y. Soybean domestication: the origin, genetic architecture and molecular
+bases. New Phytol. 2017; 214(2):539-53. Npulidalogroittirohi4iB PMID: 28134435
+102. Ritchie MD, Steen KV. The searchfor gene-gene interactions in genome-wide association studies:
+challenges in abundance of methods, practical considerations, and biologicalinterpretation. Ann
+Transl Med. 2018; 6(8):157. mwusiogyoatenaen30ioNs PMID: 29862246
+103. Sun X, Lu Q, Mukherjee S, Crane PK, Elston R, Ritchie MD. Analysis pipeline forthe epistasis search
+-statistical versus biological filtering. Front Genet. 2014; 5:106. MRuidaogrosuatgwe.2014
+00106 PMID: 24817878
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+18/19
+
+
+
+y. PLOS ONE
+GWAS and epistasis for flowering time in soybean
+104. Niel C, SinoquetC, Dina C, RocheleauG. Asurvey about methods dedicated to epistasis detection.
+Front Genet. 2015; 6:285. htps.ldoi.org10.33891gene.2015.00285 PMID: 26442103
+105. YiN. Statistical analysis of genetic interactions. Genet Res. 2010; 92(5-6):443-59. https:/doi.org/10.
+10179001667231000595 PMID: 21429274
+106. Bernier G, Périlleux C. A physiological overview of the genetics of flowering time control. Plant Bio-
+technol J. 2005; 3(1):3-16. hmpeslidbiong10121467-765220040014X PMID: 17168895
+107. Rouse DT,Sheldon CC, Bagnall DJ, Peacock WJ,Dennis ES. FLC, arepressor offlowering, is regu-
+lated by genes in different inductive pathways. Plant J. 2002; 29(2):183-91. htps.ldoiorg10.1046)
+0960-74122001.01210X PMID: 11851919
+108. Henderson IR, Dean C. Control of Arabidopsis flowering: the chill before the bloom. Development.
+2004; 131(16):3829-38. hepulidsiogriora@6w.orat PMID: 15289433
+109. Corbesier L, Coupland G. The questfor florigen: a review of recent progress. J Exp Bot. 2006; 57
+(13):3395-403. PMID: 17030536
+PLOS ONE Ihmpszldoiong10137t/joalpone.028114 January 22, 2020
+19/19

@@ -1,0 +1,1325 @@
+Theoretical land Applied Genetics (2021) 134:777-792
+htps/dol.org/10.1007500122-020-037239
+ORIGINAL ARTICLE
+Check for
+updates
+Genome-wide association study for resistance to the Meloidogyne
+javanica causing root-knot nematode in soybean
+Jean Carlos Alekcevetch' : André Luiz de Lima Passianotto20 .Everton Geraldo Capote Ferreira'O.
+Adriana Brombini dos Santos3 . Danielle Cristina Gregorio da Silva3-Waldir Pereira Dias? 3.François Belzile40.
+Ricardo Vilela Abdelno'0-Frandsmar Correa Macelino-Guimardes'o
+Received: 25 July 2020 /Accepted: 3November 2020/Pubilishedonline: 19 January 2021
+OSpringer-Verlag GmbH Germany,part ofSpringer Nature 2021
+Abstract
+Keymessage A locus on chromosome 13, containing multiple TIR-NB-LRR genes and SNPS associated with M.javan-
+ica resistance, was identified using a combination of GWAS, resequencing, genetic mapping and expression profiling.
+Abstract Meloidogyne) javanica, aroot-knot nematode, is an important problem in soybean-growing areas, leading to severe
+yield losses. Some accessions have been identified carrying resistance loci to this nematode. In this study, a set of 317 soy-
+bean accessions was characterized for resistance to M. javanica. A genome-wide association study was performed using
+SNPs from genotypingeby-sequencing and a region of 29.2 kb on chromosome 13 was identified. An analysis of haplotypes
+showed that SNPs were able to discriminate between susceptible and resistant accessions, with 25 accessions sharing the
+haplotype associated with resistance. Furthermore, five accessions that exhibited resistance without carrying this haplotype
+may carry different loci conferring resistance to M. javanica. We also conducted the screening of the SNPS in the USDA
+soybean germplasm, revealing that several soybean accessions previously reported as resistant to other nematodes also shared
+the resistance haplotype on chromosome 13. Two SNP-based TaqMane assays were developed and validated in two panels
+of soybean cultivars and in biparental populations. In silico analysis of the region associated with resistance identified the
+occurrence of genes with structural similarity with classical major resistance genes (NBS-LRR genes). Specifically, several
+nonsynonymous SNPs were observed in Glyma.13g194800 and Glyma.13g/94900. The expression profile of these candidate
+genes demonstrated that the two gene models were up-regulated in the resistance source PI 505,099 after nematode infec-
+tion. Overall, the SNPS associated with resistance and the genes identified constitute an important tool for introgression of
+resistance to the root-knot nematode by marker-assisted selection in soybean breeding programs.
+Introduction
+Communicated by Henry T. Nguyen.
+Electronic supplementary material The online version of this
+Soybean [Glycine max (L.) Merrill] is one of the most
+article (htpeldbi.ony101007A0012-020037239) contains
+important oil and protein crops in the world. Currently, Bra-
+supplementary material, which is available to authorized users.
+zil is the largest producer with 127.6 million metric tons,
+followed by USA with 110.18 million tons (USDA 2019).
+X Francismar Correa Marcelino-Guimaries
+Despite the success of the soybean crop both in the USA and
+frandinmurmumclinembspuh
+Brazil, the crop is frequently challenged by biotic stresses.
+Londrina State University (UEL), Celso Garcia Cid Road,
+In soybean, among all phytosanitary problems, nematode
+km 380, Londrina, PR, Brazil
+parasitism deserves special attention. It is estimated that
+Department of Plant Agriculture, University of Guelph,
+nematodes can cause annual losses of 10% to 15%, repre-
+Guelph, ON NIG 2V7, Canada
+senting almost U$78 billion worldwide (Lima et al. 2017).
+Brazilian Agricultural Research Corporation - National
+The Meloidogyne genus is composed of more than 90 spe-
+Soybean Research Center (Embrapa Soja), Carlos Joâo Strass
+cies, but basically Meloidogyne javanica and Meloidogyne
+road, Warta County, PR, Brazil
+incognita are the members of this genus with the largest eco-
+Department of Plant Sciences and Institute of Integrative
+nomic impact on worldwide soybean production (Jones et al.
+Biology and Systems (IBIS), Université Laval, Quebec City,
+2013; Lima et al. 2017). In Brazil, losses due to these two
+Quebec GIV OA6, Canada
+Springer
+
+
+
+778
+Theoretical and Applied Genetics (2021) 134:777-792
+nematode species have been reportedin all the main regions used to obtain SNPS for Genome-Wide Association Studies
+where soybean is cultivated, including Rio Grande do Sul, (GWASS). Association mapping has been receiving unprec-
+Parana, Mato Grosso and Mato Grosso do Sul (Silva et al. edented attention because it overcomes several limitations
+2001a; Wrather et al. 2010). The use of resistant cultivars of QTL mapping and easily expands the knowledge about
+and crop rotation are the best ways to decrease and control the occurrence of new sources of resistance. It provides high
+nematode populations, thus minimizing production losses resolution, cost efficiency and does not require the produc-
+and allowing cultivation in infected areas (Ferraz 2001)
+tion of mapping populations.
+Studies have been conducted in order to identify resist-
+GWASS have been performed for the discovery of
+ance sources in soybean accessions. For example, through genomic regions underlying important diseases in soybean.
+the phenotypic screening of 2370 soybean accessions it was For example, genomic regions for Sclerotinia stem rot resist-
+possible to identify PI 230,977 as a source of resistance to ance (white mold) (Bastien et al. 2014; Iquira et al. 2015;
+M.javanica, as well as PI 200,538 as source of resistance to Boudhrioua et al. 2020), brown stem rot (BSR) (Rincker
+Meloidogyne arenaria (Luzzi et al. 1987). In another study, et al. 2016) and soybean stem canker (Maldonado dos San-
+soybean breeding lines and reported resistance sources were tos et al. 2019) were identified by GWAS. However, there
+evaluated using different nematode species. It was observed is a lack of association studies regarding resistance against
+that PI 595,099 and PI 230,977 showed resistance against Meloidogyne sp. nematodes, especially in soybean. As far
+both M. javanica and M. arenaria, and against some races we know, only a GWAS for resistance to M. incognita has
+of Heterodera glycines (Davis et al. 1998). Inheritance of been published for soybean (Passianotto et al. 2017) and
+M. javanica was identified as quantitative and showing another for Arabidopsis (Warmerdam et al. 2018). Indeed,
+high heritability in PI 595,099 and cv. CD 201 (Silva et al. almost all the previous GWASS were focused on soybean
+2001a). Currently, in the Brazilian market, more than 80 cyst nematode (SCN) causedby Heterodera glycines (Vuong
+cultivars resistant or moderately resistant to nematodes are et al. 2015; Zhang et al. 2016, 2017; Tran et al. 2019). Fur-
+available; however, there are few varieties with strong resist- ther functional characterization of candidate genes in these
+ance to M.javanica. The resistance present in Brazilian soy- regions has been conducted using different methodologies,
+bean varieties is derived from only one source, the North such as RNA-seq, RT-qPCR and transgenic approaches,
+American cultivar Bragg, in which resistance is reportedto in order to better understand the molecular mechanisms
+be quantitative (Silva et al. 2001a; Dias et al. 2010).
+involved in plant resistance. Fuganti et al. (2010), study-
+Genetic mapping studies have been performed to iden- ing the resistance to M. javanica in soybean, observed that
+tify loci conferring M. javanica resistance. Initially, an F2 a polymorphism previously associated with resistance was
+progeny derived from the cross between the CV. CNS and located inside the promoter of the Gmhsp17.6-L gene. The
+PI 230,977 identified RFLP markers linked to resistance. comparison of the nucleotide sequences showed differences
+Two QTLS contributing to resistance were identified; a QTL in the number of AT insertions between the resistant (PI
+located on chromosome 13 accounted for 46% of the vari- 595,099) and susceptible (BRS 133) progenitors, which
+ation in the number of galls and a QTL on chromosome 01 were hypothesized to be involved in the regulation of the
+accounted for 13% (Tamulonis et al. 1997a). Interestingly, expression levels of Gmhsp17.6-L. It was observed that the
+resistance to M. arenaria mapped to the same region of chro- resistant individuals showed higher expression levels of the
+mosome 13in a cross between PI 200,538 and the suscepti- Gmhsp17.6-L when compared with the susceptible indi-
+ble CV. CNS (Tamulonis et al. 1997b). In a third population viduals. Transcriptomic studies have been also conducted
+[cv. Gazelle (resistant to M.javanica) and CV. Prima (suscep- in PI 595,099 in order to identify candidate genes involved
+tible)], resistance was mapped to chromosome 13 as well. in interaction between M. javanica and soybean. All the
+Finally, populations derived from crosses between CD 201 resulting data suggested the key role of glycosyltransferases,
+and BRS 133, and between PI 595,099 and BRS 133 identi- auxins and components of gibberellin signal transduction,
+fied SSR markers associated with resistance to M. javanica biosynthesis and deactivation pathways in the resistance
+on chromosome 13 (Silva et al. 2001b; Fuganti et al. 2004). reaction (de Sa et al. 2012; Beneventi et al. 2013).
+All these previous studies were carried out using bi-
+The objective of this study was to describe the genetic
+parental populations, which access only the alleles segregat- architecture underlying M. javanica resistance in a diverse
+ing between the two parents and provide limited resolution set of 317 soybean accessions, via a GWAS approach, and
+due to the small number of recombination events captured to develop SNP markers useful in breeding for resistance. In
+in such populations (Korte and Farlow 2013). Nowadays, order to further comprehend the role ofthe genomic regions
+different high-throughput genotyping methodologies, for identified by GWAS, resistance gene candidates present in
+example genotyping-by-sequencing (GBS) (Elshire et al. the associated LD block were selected for study of their
+2011), SoySNP50K chip (Song et al. 2015) and whole- expression levels by RT-qPCR after pathogen infection,
+genome resequencing (dos Santos et al. 2016), have been using both susceptible and resistant soybean accessions.
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+779
+Materials and methods
+infected with small galls; 2= 10-25% of the root system
+galled, most being small galls; 3=26-50% of the root sys-
+Plant materials
+tem with large galls; 4=51-90% of the root system with
+large galls; 5= 91-100% of root system with large galls
+A set of 317 accessions composed of cultivars and PIs and necrotic roots. Accessions with a rating between 1
+(Supplementary Table S1) were obtained from the Soy- and 2.5 were considered resistant (R), between 2.6 and 3.5
+bean Germplasm Bank, located at Embrapa Soja in Lond- were deemed moderately resistant (MR); and those with a
+rina, PR, Brazil. Initially, one seed for each soybean acces- score above 3.6 were rated as susceptible (S).
+sion was sown and grown under green-house conditions,
+Two biparental populations were developed to evaluate
+and the leaf sample for each accession was individually the phenotypic distribution for resistance against M. javan-
+collected, frozen in liquid nitrogen and stored in a- 80 °C ica and to validate the co-segregation of SNP markers. The
+freezer. The leaf samples were ground to a fine powder and phenotypic evaluation was performed as described above for
+stored until DNA isolation. The resulting seeds for each the GWAS panel. A Chi-square test was performed to test
+plant corresponding for each accession were used for the the phenotypic distribution for goodness of fit to the Men-
+phenotypic approach.
+delian ratio of 7:9 as previously described for M. javanica
+Six seeds of each accession were pre-germinated in genetic inheritance (Silva et al. 2001a).
+plastic pots of0.25 L filled with sterilized sand. Five days
+after germination, seedlings were transferred individually DNA extraction, GBS library preparation and SNP
+to plastic tubes of 0.5 L filled with substrate (sterilized calling
+by autoclaving) composed of sand and soil (3:1), total-
+izing six biological replications (one seedling per plastic The DNA from each sample was extracted using the
+tube). The plants were kept in a greenhouse under 16 h of DNeasy@ Plant Mini Kit (Qiagen) according to the manufac-
+daylight supplemented with 600 W high-pressure sodium turer's instructions. DNA integrity was checked by electro-
+lamps (Light Systems PL). All six samples were used for phoresis on an agarose gel (1%), followed by quantification
+nematode resistance evaluation.
+on a NanoDrope ND-1000 spectrophotometer (Uniscience)
+One population was derived by crossing the resistant and diluted with water to a concentration of 10 ng/uL. GBS
+soybean cultivar CD 224 and the susceptible cultivar BRS libraries were produced using the protocol described by
+133, while the other one derived by crossing the resistance Elshire et al. (2011) and modified by Sonah et al. (2013).
+source PI 595,099 and cultivar BRS 133. F, plants from Thus, DNA was digested using ApeKI, followed by ligation
+these crosses were self-pollinated to produce the F, prog- of barcoded adapters and pooling of 96 samples per library.
+eny. A total of 135 and 122 F, seeds were sown in green- These 96-plex GBS libraries were sequenced on either
+house conditions and evaluated for M. javanica resistance Illumina HiSeq2000 (McGill University-Genome Quebec
+in the CD 224 and PI 595,099 populations, respectively. Innovation Centre, Montreal, QC, Canada) or Ion Torrent
+(Université Laval, Québec, QC, Canada) DNA sequencers.
+Using the Fast-GBS pipeline (Torkamaneh et al. 2017), vari-
+Phenotyping for RKN resistance
+ants were called using a minimal read depth of two reads
+and loci with more than 80% missing data were removed.
+Nematode inoculation was performed during the summer. Heterozygous genotypes were replaced with missing data,
+One day before transferring seedlings to plastic tubes, and any accessions with > 80% missing data were removed
+some infected soybean roots from a nematode stock were from the dataset. Finally, imputation of missing genotypic
+ground in water to obtain the suspension containing M. data was performed using fastPHASE 1.3 (Scheet and Ste-
+javanica eggs. The number of eggs was estimated in a phens 2006). For the GWAS, only loci with a minor allele
+Peters' chamber under microscopy, and the concentra- frequency (MAF) 20.05 were used.
+tion of the suspension was adjusted to 1250 eggs/ml. The
+inoculation was performed by deposition of 4 mL of the Association mapping and haplotype analysis
+nematode suspension in the same hole used to introduce
+the seedling. Thirty days after inoculation, all plants were The Genomic Association and Prediction Integrated
+individually removed from the tubes. Excess sand and Tool-GAPIT (Lipka et al. 2012)-was used to conduct
+soil around roots were carefully removed, and roots were GWAS using a compressed mixed linear model (CMLM)
+washed in running water. The severity of the infestation that takes into account both population structure and genetic
+was rated on a scale of 1-5 (adapted from Dall'Agnol and relatedness between lines. The first three principal compo-
+Antônio 1982), where 1= < 10% of the root system is nents (PC) from principal component analysis (PCA) were
+used to capture population structure and produce a P matrix.
+Springer
+
+
+
+780
+Theoretical and Applied Genetics (2021) 134:777-792
+A VanRaden kinship matrix (K) was used to capture genetic After 1, 2 and 16 DPI, roots from mock-inoculated and inocu-
+relatedness. Marker-trait associations were declared signifi- lated plants were collected, frozen in liquid nitrogen, and
+cant using FDR-adjusted p values with the threshold set at stored 80 C. Using Trizolreagent (Life Technologies), total
+0.0001.
+RNA was extracted from samples. First-strand cDNAS were
+In order to verify the alleles of the SNPS identified by generated using the SuperScript III First-Strand Synthesis
+GWAS in a wider panel, the USDA soybean germplasm col- SuperMix (Invitrogen). Primers for each of the four can-
+lection previously genotyped with the SoySNP50K array was didate gene models in the mapped interval were designed
+used. The USDA germplasm genotype dataset was imputed using Primer3Plus (htps/www.bioinformatics.nllcgi-bin
+with the soybean haplotype map (GmHapmap) constructed pimedplauprimedplsceph The cDNA samples were
+using WGS data for 1007 G. max accessions (https://www. amplified with primers specific to each gene and also for the
+soybuscory/projctu/SoyBaseC202001.php)
+endogenous control (B-actin gene), at a final concentration
+All SNPS from GBS with MAF20.05 and located on of 0.1-0.25 UM, with the 1X SYBR Green Master Mix Kit
+chromosome Chr13 were loaded into PLINK version 1.9 (Applied Biosystems) in a final volume of 12.5 UL. All PCR
+(Purcell et al. 2007), and the correlation coefficient (7) reactions were conducted in three technical replicates. The
+was calculated to determine pairwise linkage disequilib- E=(10-1/slopel-1 formula was employed to calculate the
+rium (LD). Haplotype blocks were identified and visualized reaction efficiency and to adjust the final primer concentra-
+using Haploview (Barrett et al. 2005) using default Gabriel's tion. PCR efficiency was determined using standard curves
+rules (Gabriel et al. 2002), confidence interval minimal for for each primer pair constructed with serial dilutions (1:10,
+strong LD, upper=0.98, lower=0.7-D' >0.8 and fraction 1:100 and 1:1000) of the cDNA preparation. The reactions
+of strong LDX0.95. Nucleotide variation in a WGS dataset were performed in a StepOnePlus Real-Time PCR System
+obtained from sequencing 12 Brazilian soybean cultivars (Applied Biosystems) following the manufacturer's instruc-
+(dos Santos et al. 2016) as well as 14 additional Brazilian tions. After initial steps at 50 oC for 2 min and at 95 oC for
+cultivars and two other accessions (Torkamaneh et al. 2020) 10 min, a two-step program of 95 C for 15 S and 62 C
+was also examined to identify additional SNPS in the region for 1 min was run for 40 cycles. The final relative quanti-
+of chromosome 13 identified through GWAS. First, all the fication of each gene compared with the control conditions
+SNPs in the region from 30.7 Mb to 30.9 Mb were extracted, (mock-inoculated samples) for each timepoint was estimated
+and only SNPS present in at least two accessions and show- considering the RQ obtained in each biological replicate,
+ing no heterozygous alleles in the set were kept. Finally, represented by each independent experiment, with three rep-
+pairwise LD values (72) between the SNPS from the WGS licates each. Significant differences were determined based
+data and the peak SNP (Chr13_30,804,961) were calculated on estimates of the standard deviation (SD) and with REST
+using PLINK, and LD heatmaps were visualized using the software version 2.0.7 (p<0.05).
+"LDheatmap" R package (Shin et al. 2006). Only SNPs
+showing high levels ofLD with the peak SNP (220.9) were SNP genotyping using TaqMan assays
+used in haplotype analysis. Predictions of SNP effects were
+performed using SnpEff version 4.3i (Cingolani et al. 2012), The 200-bp flanking sequence for each SNP identifiedin the
+using version 2 ofthe soybean reference genome and physi- GWAS was extracted from the soybean reference genome
+cal gene locations (GFF3 file) (htplphylozome-metigs and was used to design TaqMane MGB allelic discrimina-
+doe.gov/info/Gmax_Wm82.a2.vl).
+tion assays (Applied Biosystems, Foster City, CA, USA) in
+Primer Express Software v3.0.1 using default parameters
+Expression levels obtainedby RT-qPCR
+for MGB assays. The primers and probe sequences gener-
+ated were aligned against the reference genome (https:/1
+To investigate the transcriptional regulation and polymor- phyltozome.jgidocgov/pl) in order to check their specific-
+phism in the genes located in the same LD block as the ity. The primers and probe sequences for two of the SNPS
+marker showing the greatest association with resistance (Chr13_30,804.961 and Chr13_30,792,409) aligned in the
+to M. javanica, the expression profile of four gene models desired region on chromosome 13 and therefore were syn-
+annotated as resistance genes containing TIR-NBS-LRR thetized. TaqMane qPCR end-point amplifications were
+domains was quantified by RT-qPCR at three timepoints performed according to manufacturer's instructions on an
+after pathogen infection (1, 2 and 6 days post-inoculation ABI 7900 Real-Time PCR System (Applied Biosystems,
+or DPI). Gene expression was measured on both suscepti- Foster City, CA, USA). Genotypes were acquired and clus-
+ble (BRS 133) and resistant (PI 595,099) accessions, under tered as plots by the TaqMane Genotyper v1.6 Software
+inoculated and mock conditions. The experiment was con- (Applied Biosystems, Foster City, CA, USA).
+ducted in a completely randomized block design with five
+The M700 (Chr13.30.792.409) and M800
+replicates. Inoculation was done as previously described. (Chr1s.30x0496JTa,Mane assays were usedto genotype
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+781
+both F2 populations (CD 224 and PI 595,099 populations), resistance and susceptibility were well sampled. The known
+as well as for genotyping a set of 69 soybean accessions, part M. javanica resistance sources PI 595,099, Bragg and also
+of them from the GWAS panel and some selected based on PI 437,127 B showed the lowest score (1.0), whereas PI
+their reported phenotype (R or S). The Chi-square for each 230,977 showed a score of 2.5 and was also classified as
+SNP marker was conductedto evaluate Mendelian segrega- resistant (Supplementary Table 1). Interestingly, another
+tion in Genes Software (Cruz, 1998).
+previously described resistance source to M. arenaria, PI
+200,538, showed a score of 2.7, and was thus classified
+as moderately resistant. As expected, BRS 133, a cultivar
+Results
+known to be susceptible to M. javanica, showed a score
+of 4.5. It can be observed that only approximately 10% of
+Evaluation ofroot-knot nematode resistance
+the accessions were resistant to M. javanica, but only PI
+inthe soybean accessions
+595,099, PI 437,127 B and Bragg showed the lowest score
+(1.0). Around 26% were classified as moderately resistant,
+Among the 317 soybean accessions comprising the associa- while the majority of accessions (- 65%) were classified as
+tion panel (Supplementary Table 1), 30 accessions received susceptible to M. javanica.
+scores between 1.0 and 2.5 (indicating a high level of resist-
+ance), 82 accessions received scores ranging from 2.6 to 3.5 Genome-wide association studyfor M.javanica
+(moderate resistance), while the remaining 205 accessions resistance
+exhibited scores higher than 3.6 (classifying as susceptible
+materials) (Fig. la). Considering the population size and A total of 44,992 SNPS was identified by GBS along the
+the number of accessions in each phenotypic class, it was 20 soybean chromosomes, providing an extensive coverage
+assumed that the genomic regions that are responsible for of the genome (Supplementary Fig. 1). This represented
+a
+b 15
+:
+10
+Reaction 9
+8
+MR -
+8e
+R
+Is
+:
+Phenotype MR
+S
+Chr
+10 12 13 14 15 16 17 18
+Chromosome
+C
+d
+LDdecay
+e
+9
+100
+5-
+eo
+Origin Brazil
+s
+Asia
+50
+UnitedStates Canada
+a
+8
+France
+Maldova
+Mexico
+a
+Netherlands
+Nigeria
+Russia
+Resistant Susceptible
+PC1
+Haplotypes
+Distance/Kb)
+Fig.1 Genome-wide association study for soybean resistance to cant threshold. c Heatmap of the VanRaden kinship matrix between
+Meloidogyne javanica. a Distribution of the soybean reaction to the soybean accessions. c Population structure of soybean accessions
+Meloidogyne javanica expressed as score values across all of the 317 used in GWAS reflected by the first two principal components. d
+accessions, R represents resistant phenotype, MR represents mod- Linkage disequilibrium (LD) decay rate estimated as squared correla-
+erately resistant and S represents susceptible phenotype. b GWAS tion coefficient (7) in the soybean genome. e Boxplot of Meloidogyne
+result as Manhattan plot, in which are presented by negative logio javanica phenotype variation between the different haplotypes formed
+p values against position on each of 20 soybean chromosomes and by SNPS identified by GWAS in 317 soybean accessions (colour fig-
+quantile-quantile plot (upper right), the red line indicates the signifi- ure online)
+Springer
+
+
+
+782
+Theoretical and Applied Genetics (2021) 134:777-792
+an average of 2250 SNPS per chromosome or one variation was sharedby five SNPs. These five 5 peak SNPs explained
+every 21 kb approximately. The largest number of variants approximately 34% ofthe phenotypic variation. The physi-
+(8.5% of total SNPS) was found, as expected, on the largest cal interval delimited by the peak SNPS was only 29.2 kb,
+chromosome (Chr18, 58 Mb). On the other hand, the small- extending between position 30,776,090-30,805.508 on
+est number of variants was not found on the smallest chro- chromosome 13, and all of these markers are located in
+mosome (Chrl 1-34 Mb; 1382 variants), but rather on Chr intergenic regions.
+12 (40 Mb) (only 1255 variants) (Supplementary Table 2).
+Based on the peak SNPS identified by GWAS, individu-
+Regarding the marker distribution within coding versus ally or jointly, we could define only two haplotypes among
+non-coding regions, SNPS were identified in all genic seg- the association panel, with accessions carrying Haplotype
+ments as well as in the intergenic regions, with the intergenic 1 showing a much lower disease rating (mean = 3.06) than
+regions presenting the largest number of SNPS, followed accessions bearing Haplotype 2 (mean == 4.20) (Fig. le,
+by downstream regions, intronic regions, upstream regions, Supplementary Table 1). In other words, it was possible to
+exons, 3'UTRs and 15 'UTRs (Supplementary Table 2). Based appropriately separate the resistant and moderately resist-
+on the results obtained in the linkage disequilibrium analysis ant accessions from susceptible accessions. For the SNP
+performed using the full set of 44,992 SNPS, the regression located at Chr13:30,804,961, the C allele was present in 25
+curve fitted to the LD decayed below 7=0.2 at-0.15 Mb of 30 resistant accessions (including the resistant checks
+(Fig. 1d). Finally, after removing markers showing a MAF PI 595,099, PI 230,977, Bragg, CD 201 and PI 200,538),
+lower than 0.05, a total of 37,784 SNPS were kept for sub- and in approximately 66% of the moderately resistant
+sequent analysis.
+accessions and in only 10% of susceptible accessions. In
+A principal component analysis (PCA) was performed contrast, the alternate allele (T) was present in only 5 of
+in order to capture the population structure in the panel the resistant accessions, and in approximately 34% of the
+(Fig. lc, Supplementary Fig 2). The PC1 explained approxi- moderately resistant accessions and 184 of the 205 (90%)
+mately 9% of the observed genetic variance, PC2 approxi- susceptible accessions (Table 2).
+mately 5% and PC3 approximately 4%; together, the first
+Among the SoySNP50K data for the USDA soy-
+three PCs explained about 18% of the total genetic vari- bean germplasm collection, two of the peak SNPs iden-
+ance. The GWAS was conducted using a CMLM taking into tified here were genotyped (Chr13:30,804.961 and
+account both genetic relatedness (K matrix) and population Chr13:30,805,508). We identified a total of 19,978 acces-
+structure (P matrix). The quantile-quantile plot showed that sions for which homozygous calls had been made at these
+observed p values strongly deviated from the expected p two SNP loci and were able to classify these accessions
+values only for the markers showing a very high degree of as bearing Haplotype 1 or Haplotype 2 (Supplementary
+association (Fig. 1b), which suggests that the CMLM model Table 1). In total, 2150 accessions were found to carry
+performed well in limiting confounding effects (Fig. 1b).
+Haplotype 1 and 17,828 accessions bear Haplotype 2. This
+All the significantly associated SNPs were located in suggests that approximately 11% ofthe whole USDA col-
+the same region of chromosome 13 (Fig. 1b) and exhibited lection may possess the same M. javanica resistance QTL
+a very high degree of association (Table 1). The strongest on the chromosome 13.
+degree of association (FDR-adjusted p value = 1.00E-11)
+Table 1 SNPS significantly
+SNP ID
+Chr Pos (bp)b
+P.value
+MAFC Rbd FDR adjustedp-values"
+associated with resistance to M.
+javanica identified by GWAS
+GBSRmj961 13
+30,804,961 1.23x10-15 0.31
+0.34 1.00x10-11
+GBSRmj499 13
+30,805,499 1.23x10-15 0.31
+0.34 1.00x10-11
+GBSRmj500 13
+30,805,500 1.23x10-15 0.31
+0.34 1.00x10-11
+GBSRmj508 13
+30,805,508 1.23x10-15 0.31
+0.34 1.00x1 10-11
+GBSRmj090 13
+30,776,090 1.33x10-15 0.29 0.34 1.00x 10-11
+GBSRmj409 13
+30,792,409 4.20x10-14 0.31
+0.32 2.64x 10-10
+GBSRmj474 13
+30,792,474 1.30x10-13 0.31
+0.31 7.03x1 10-10
+GBSRmj686 13
+30,804,686 5.76x10-12 0.27
+0.29 2.18x10-8
+GBSRmj726 13
+30,804,726 5.76x10-12 0.27
+0.29 2.18x10-8
+GBSRmj752 13
+30,804,752 5.76x10-12 0.27
+0.29 2.18x10-8
+"Chromosome, "physical position of the SNPS based on soybean genome (W82.a2.v1), minor allele fre-
+quency, dR squared value (%) of the model with the SNP, which corresponds to the percentage of pheno-
+typic variation explained by the SNP. *False-discovery rate (FDR)
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+783
+Table 2 Haplotypes obtained
+Haplotype ID
+Positions in the soybean genome- chromosome 13
+M. javanica
+using the most significant SNPS
+reactiont
+from GWAS
+30.804.9614 30.805.499 30.805.500 30.805.508 R MR S
+Hap-resistant
+C
+C
+A
+T
+25 54
+21
+Hap-susceptible T
+A
+G
+G
+5 28 184
+Total=317
+30 82 205
+"Physical position of the SNPS based on soybean genome (W82.a2.v1); Presistant R; moderately resist-
+ant-MR and susceptible S
+Development of SNP genotyping assays to facilitate resistance, Chi-square tests were performed in both popu-
+introgression of M.javanica resistance
+lations (CD 224 X BRS 133 and PI 595,099 X BRS 133)to
+determine the goodness of fit of observed F2 phenotypic
+Two TaqMane assays (M700 and M800) were designed to segregation patterns to genetic models of one dominant
+enable high-throughput genotyping of two of the peak SNPS. gene (3:1 ratio) and two recessive genes (7:9 ratio). As
+Both assays precisely discriminated between the two alleles expected for nematode resistance, segregation of resistant
+in a set of 69 soybean accessions (Supplementary Fig. 3). In (R) and susceptible (S) progenies did not fit a 3R:1S ratio
+the group of resistant soybean accessions, 38 of 41 acces- in F, populations, showing significant x2 values (Supple-
+sions carried the alleles associated with resistance in both mentary File 4). However, the Chi-square test for segrega-
+assays. Thus, about 93% of concordance between pheno- tion of both F2 populations showed a good fit of a 7 resist-
+type and genotype (Supplementary Table 3) was observed. ant: 9 susceptible (7R:9S) model, showing non-significant
+Regarding the incongruences, three cultivars classified as x2 values (Table 3).
+being resistant to M.javanica (BRS Pétala, BRSGO 204 and
+In these two populations, both SNP markers segregated
+BRSGO 8661 RR) nonetheless carried the alleles associated in the expected Mendelian ratio in the PI 595,099 X BRS
+with susceptibility. Ofthe 26 accessions classified as suscep- 133 population, but not in the CD 224 X BRS 133 popula-
+tible, 92.3% carried the alleles associated with susceptibility. tion (Supplementary Table 4). In the latter case, surpris-
+Only BRS 285 and PI 398,887 had the alleles associated ingly, an excess of homozygotes and a deficit of heterozy-
+with resistance while being classified as susceptible.
+gotes were observed with both SNP markers. In the PI
+To assess the degree of co-segregation between these 595,099 X BRS 133 population, 58 of 63 individuals (92%)
+SNP markers and M. javanica resistance, two F2 popula- scored as homozygous (for either allele) exhibited a disease
+tions derived from crossing resistant accessions known to rating that was consistent with the allele at these two asso-
+carry Haplotype 1,PI 595,099 (disease score == 1) and CD ciated markers. In the CD 224 X BRS 133 population, 75
+224 (score == 1.30) with the susceptible parent BRS 133 of 85 individuals (88%) scored as homozygous (for either
+(score = 4.5) carrying Haplotype 2 were examined. The allele) exhibited a disease rating that was consistent. In both
+frequency distribution of the reaction to M. javanica in crosses, a majority of individuals scored as heterozygous
+135 F2 individuals from the CD 224 XBRS 133 population produced a susceptible disease rating.
+(expressed as score values) is shown in Fig. 2a. The score
+To gain a further understanding of the relationship
+means for the resistant parental CD 224 (2.76) and for the between the scored haplotype and the observed disease rat-
+susceptible parent BRS 133 (4.72) were significantly dif- ing, we examined the proportion of individuals bearing each
+ferent (P<0.05). The phenotypic distribution among the haplotype within each phenotypic class (Fig. 2b, d). In prog-
+F2 progeny spanned a wide range with a skewed distribu- eny with an extreme disease rating (either high or low score),
+tion (Shapiro-Wilk's test; W=0.853.p<0.01). A majority the individuals mostly carried the expected haplotype. For
+of individuals were rated as susceptible, and few individu- example, in the CD 224 population, among progeny with
+als showed ratings above or below the parental lines. The a score of 1, eight were homozygous for Haplotype 1 (R
+frequency distribution in the PI 595,099 X BRS 133 F2 haplotype) and one was homozygous for Haplotype 2 (S
+progeny was similar to the one described above, as shown haplotype), while in the PI 595,099 population, individuals
+in Fig. 2d. The average phenotypic scores of the parents with score values of 1 and 2 showed only the R haplotype
+were significantly different (p <0.05), since PI 595,099 (Fig. 2b, Supplementary File 5). Finally, in progenies with
+and BRS 133 showed scores of 2.18 and 4.72, respectively. susceptible reactions (score of 5), most of the individuals
+The F2 phenotypic distribution was again skewed toward shared Haplotype 2 in both populations, and in progenies
+susceptibility (W=0.860, p <0.01) (Fig. 2a, d). In order with intermediate disease scores (2, 3 and 4 values) all three
+to clarify the genetic basis of inheritance to M. javanica haplotypes were observed.
+Springer
+
+
+
+784
+Theoretical and Applied Genetics (2021) 134:777-792
+a
+BRS 133 b
+C
+501
+1.001
+n
+a 5- :
+d
+40-
+0.75-
+*
+.
+30-
+Haplotype
+Haplotype
+I
+CD224
+0.50-
+20-
+V
+:
+: :
+10-
+0.25-
+0
+0.00
+2 3 4 5
+2 3 4 5
+R
+H
+S
+Phenotypic score
+Phenotypic score
+Haplotypes
+d
+BRS133 e
+f
+V
+1.001
+401
+5 :
+X
+Sa
+30
+0.75-
+s.
+Haplotype
+:
+Haplotype
+10 20
+PI 595099
+0.50-
+e
+a
+: H
+V
+:
+a E
+10
+0.25
+0.00
+2 3 4 5
+2 3 4 5
+R H S
+Phenotypic score
+Phenotypic score
+Haplotypes
+Fig. .2 Frequency distribution for Meloidogyne javanica resist- Meloidogyne javanica plotted as different haplotypes (PI 595,099
+ance expressed as score values in CD 224xBRS 133 and PI population). R represents the haplotype containing homozygous
+595,099xBRS 133 F2 populations and haplotypes proportion con- resistant alleles, H represents the haplotype containing heterozy-
+structed by genotyping results from M700/M800 assays. a Frequency gous alleles and S is the haplotype showing the susceptible alleles
+distribution in CD 224 F2 population. b Haplotype proportion in each for M700/M800 assays. The middle line is the median and the outer
+phenotypic class (CD 224 population). c Box plot for Meloidogyne dots are outliers in the boxplots. Black triangles represent the average
+javanica plotted as different haplotypes (CD 224 population). d Fre- values of resistant (CD 224 and PI 5,950,909) and susceptible (BRS
+quency distribution in PI 595,099 population. e Haplotype propor- 133) parents
+tion in each phenotypic class (PI 595,099 population). f Box plot for
+Table 3 Genetic of resistance
+Number of plants
+Chi-square
+to Meloidogyne javanica in F2
+individuals derived from the
+Parents/F2 populations
+Ra
+S
+Total
+Model
+x2 value
+p value
+soybean crosses CD 224xBRS
+133 and PI 595,099xBRS 133 CD 224
+17
+17
+BRS 133
+25
+25
+PI 595,099
+22
+22
+CD 224xBRS 133
+53
+82
+135
+7:9
+1.12 NS
+0.29
+PI 595,099xBRS 133
+46
+76
+122
+7:9
+1.71 NS
+0.19
+"Plants showing up to a score of f3 were classified las resistant to M. javanica, S susceptible plants. NS: non-
+significance of the Chi-square value (P=0.05)
+To characterize the effect of the locus on chromosome and PI 595,099 X BRS 133 populations, respectively. The
+13, all individuals from each F2 progeny set were grouped progeny scored as heterozygous showed a mean score of
+into the different three allelic states (Fig. 2c, f). Significant 3.88 (CD 224xBRS 133) and 3.90 (PI 595,099xBRS 133).
+differences in M. javanica resistance among these genotypic Among progeny homozygous for the allele associated with
+classes were observed (Kruskal-Wallis test;p<0.001) (Sup- susceptibility, mean scores of4.54 (CD 224 4xBRS 133) and
+plementary File 4). Then, further analysis, including the 4.56 (PI 595,099 X BRS 133) were observed. These stark
+Wilcoxon signed rank test for pairwise comparisons using phenotypic contrasts between the different genotypic classes
+Bonferroni correction, showed that QTL effects in each in both populations confirm that marker-assisted selection
+haplotype were significantly different. Indeed, in progeny among populations segregating for the locus on chromosome
+homozygous for the resistant haplotype, accessions showed 13 would facilitate the selection of progeny with improved
+a mean score of 2.56 and 2.37 in the CD 224x1 BRS 133 resistance.
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+785
+Identification of candidate genes and their
+Supplementary Table 6). As expected, due to the r2 val-
+expression
+ues> 0.9, the haplotype analysis showed that these addi-
+tional SNPS identified in WGS dataset are completely redun-
+According to the analysis of LD blocks, nine of the ten sig- dant, therefore bringing the same power of discrimination
+nificant SNPS (SNP 30,776,090 was the exception) were in between resistance and susceptible in the 28 accessions
+a single LD block of 117 kb (Supplementary Fig. 4) along with M. javanica reaction (Supplementary Table 1). Sum-
+with four other SNPs that were not significantly associated marizing, all the five resistant soybean accessions shared the
+with M. javanica resistance. To help gain insights into pos- resistant alleles; in the moderately resistant group, six acces-
+sible candidate genes and causal variants not detected by sions shared the resistant alleles and one accession shared
+the GBS approach, we also examined this LD block using the susceptible haplotype. Among the susceptible group, 14
+all SNPS located in this region of chromosome 13 within accessions shared the susceptible haplotype and only two
+a WGS dataset for 28 accessions of known reaction to M. accessions shared the resistant haplotype.
+javanica (5 resistant, 7 moderately resistant and 16 suscep-
+Regarding the functional annotation of the genes in
+tible). We examined the LD in the mapped region (Fig. 3b). the region, five gene models are predicted as disease
+Within this set, 187 SNPS were in complete LD (2=1) resistance TIR-NBS-LRR class protein-coding genes
+with the peak SNPs identified via GWAS (Supplementary (Glyma.13g194600, Glyma.13g/94700, Glyma.13g/94800,
+Table 5). Considering only markers in complete LD, these Glyma.13g194900 and Glyma.13g195100). Two genes
+encompassed a region of 118.9 kb, containing nine gene showed unknown domains (Glyma.13g195000 and
+models (Table 4). This LD region mostly overlapped with Glyma.13g195400). one gene domain coding for ser-
+the LD region identified using SNPS from GBS, thus dem- ine threonine/protein kinase/ankyrin repeat domain
+onstrating the accuracy of prediction ofLD size.
+(Glyma.13g195200) and one gene predicted as a hydrolase
+All nine genes showed SNPs in both their non-coding (Glyma.13g195300). Among the TIR-NBS-LRR class genes,
+and coding regions. However, among the 334 SNPs linked Glyma.13g194600 contains a Toll/interleukin-1 receptor
+to the peak SNP from GWAS, most of these variants (186 (TIR) domain. Glyma.13g194800 and Glyma.13g194900
+SNPS) were located inside only four gene models (Fig. 3c, genes were predicted as containing TIR and NB-ARC
+a
+15
+b
+Physical Length:198.8kb
+10
+0
+10
+J30
+40 (Mb)
+C
+d
+Glyma. .139194600
+Glyma .139194700
+Glyma. .139194800
+Glyma. .13g194900
+a
+- I
+E
+35 40
+80
+o6
+30
+I I I
+I I I I I
+I I li I I I
+HH
+-
+UTR
+DaeO
+T
+A
+T C
+CDS
+/
+Hap Resistant
+A
+/
+Hap Susceptible
+=Nonsynonymous smodification - esynonymousmodification
+Fig.3 Haplotypes analyses using additional SNPs identified on 31 the additional SNPS identified in the 4 genes models, the SNP posi-
+resequenced soybean accessions and allelic effects. a Manhattan plot tion highlighted in red represents the peak SNP identified by GWAS
+showing the negative logio p values from GWAS for soybean resist- and located between the Glyma.13g194700 and Glyma.13g/94800,
+ance to M. javanica with the significant SNPS plotted against base for clear visualization, only some SNPS were used in the haplotypes
+pair positions (Mb) on soybean chromosome 13. b Heatmap repre- construction, since 186 SNPS showed R? values of> 0.9 with the peak
+senting the R2 values between 1048 SNPS inside of GWAS region SNP were identified. d Predicted impact of variants in the four gene
+(SNPS identified as heterozygous as well as SNPS showing values of models, representing synonymous and non-synonymous SNPS (col-
+MAF<0.05 were not used). C Schematic graph shows the position of our figure online)
+Springer
+
+
+
+786
+Theoretical and Applied Genetics (2021) 134:777-792
+Table 4 Candidate resistance genes located in the GWAS region on the chromosome 13
+Candidate genea
+Functional annotation
+Physical locationb
+Ortholog number
+Glyma.13g194600
+Disease resistance protein (TIR-NBS-LRR class) family
+30,77,.645-30,787,581 (-)d
+AT4G14370.1
+Glyma.13g194700
+Disease resistance protein (TIR-NBS-LRR class) family
+30,793.151-30.800,421 (-)
+AT5G17680.1
+Glyma.13g194800
+Disease resistance protein (TIR-NBS-LRR class) family
+30,806,038-30,808.277 (-)
+ATIG64070.1
+Glyma.13g194900
+Disease resistance protein (TIR-NBS-LRR class) family
+30,832.071-30,838.537 (-)
+AT5G36930.2
+Glyma.13g195000
+No domain predicted
+30,833,034-30,83,451 (+)
+Glyma.13g195100
+Disease resistance protein (TIR-NBS-LRR class) family
+30,850314-30,856.196 (+)
+AT5G17680.1
+Glyma.13g195200
+Protein kinases; ubiquitin-protein ligases
+30862.185-30377,782)
+AT5G13530.1
+Glyma.13g195300
+Nudix hydrolase homolog
+30,878.334-30,882,722 2(-)
+AT3G12600.1
+Glyma.13g195400
+No domain predicted
+30895,968-30,896,400 (+)
+"Genes ID from Williams 82 genome, assembly version 2.0-Wm82.a2.vl Omplphysmejgidegwg
+bPhysical location in chromosome 13 (Wm82.a2.v1)
+CAccession number of orthologs obtained from Arabidopsis Information Resource (TAIR) database
+'Represents the antisense strand and+represents the sense strand
+domains, while Glyma. .13g194700 and Glyma.13g195100 at 1 dpi, and then, at 2 dpi, the gene expression level was sig-
+genes were predicted to contain a complete TIR-NBS-LRR, nificantly up-regulated in the resistant accession PI 595,099
+with TIR and NB-ARC domains and LRR-regions (Table 4). (-3.5-fold) and down-regulated in BRS 133 (Fig. 4c). At 6
+The functional impact of the SNPS was predicted in dpi, gene expression levels significantly increased only in
+the nine gene models (Supplementary Table 6), espe- the susceptible accession BRS 133 (-15.0-fold). A similar
+cially regarding nonsynonymous modifications. The expression profile was observed for Glyma.13g194900, in
+highest values were predicted in the TIR-NBS-LRR which no induction for both accessions was observed at 1 dpi
+class genes (Glyma.13g194900, Glyma.13g194800 and (Fig. 4d). Otherwise, at 2dpi, gene expression levels signifi-
+Glyma.13g/94600). The other two TIR-NBS-LRR genes cantly increased in PI 595,099 (-3.0-fold) and, at 6 dpi, gene
+showed similar values of nonsynonymous modifications, expression levels were significantly increased lin susceptible
+six and seven for Glyma.13g194700 and Glyma.13g195100, accession BRS 133 (-7.0-fold). Altogether, results showed
+respectively. Therefore, we selected the region containing the that Glyma.13g194800 and Glyma.13g194900 genes were
+four gene models (Glyma. .13g194600, Glyma.13g194700, differentially expressed between resistant and susceptible
+Glyma.13g194800 and Glyma.13g194900) in which most soybean accessions in the presence of M. javanica and may
+of the SNPs identified by GWAS are located. Summarizing, play roles in plant defense responses to nematode infection
+while the Glyma.13g194600 and Glyma.13g194700 gene in the initial stages ofinfection.
+models showed lower nonsynonymous SNPs with func-
+tional impact, several nonsynonymous SNPs with moderate
+effect were identified in TIR and NB-ARC domains cod-
+ing regions for Glyma.13g194800 and Glyma.13g194900. Discussion
+Therefore, these results suggested that these genes might be
+under strong selective pressure to modification.
+Characterization of soybean resistance against M.
+Finally, we investigated the gene expression levels of javanica in 317 accessions
+these four TIR-NBS-LRR class genes in PI 595,099 and
+BRS 133 soybean roots inoculated with M.javanica by RT- The root-knot nematode (M. javanica) is an important
+qPCR (Fig. 4, Supplementary Table 7). After inoculation, pest problem for soybean growers in Brazil and around the
+the gene model Glyma.13g194600 showed a significant dif- world (Wrather et al. 1997; Dias et al. 2010; Oyekanmi and
+ference in expression (-2.5-fold) only in BRS 133 after r6 dpi Fawole 2010). The development of cultivars showing genetic
+(Fig. 4a). Interestingly, Glyma.13g194700 was down-regu- resistance is one of most efficient control strategies for the
+lated in PI 595,099 at 1 dpi; however, it showed increased management of this nematode problem. An important step
+expression levels in BRS 133 from r 1.5-fold to 4.5-fold at 2 in the development of resistant cultivars is (1) to identify
+and 6 dpi, respectively (Fig. 4b). For the Glyma.13g194800 loci conferring partial or complete resistance, (2) the acces-
+and Glyma.13g194900 gene models, asignificant difference sions sharing the same or different resistance loci and (3)
+between resistant and susceptible parents was observed. Ini- SNP markers closely linked to these loci to enable marker-
+tially, Glyma. .13g194800 was down-regulated in PI 595,099 assisted selection.
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+787
+a
+Glyma.13g194600
+b 6
+Glyma. 13g194700
+5
+& 2.5
+8 4
+3
+1.5
+-
+2
+0.5
+ PI595099
+1
+. P1595099
+: -0.5
+. BRS133
+-1
+. BRS133
+-1.5
+-2
+1dpi
+2dpi
+6dpi
+1dpi
+2dpi
+6dpi
+C
+Glyma.13g194800
+d
+Glyma. 13g194900
+20
+10 15
+6
+10
+3
+5
+PI595099
+a P1595099
+0
+ BRS133
+-1
+BRS133
+-5
+-2
+1dpi
+2dpi
+6dpi
+1dpi
+2dpi
+6dpi
+Fig. .4 Gene expression profile of candidates genes for resist- sion levels Glyma.13g194900 (d). *Significant expression level at
+ance to Meloidogyne javanica. a relative expression levels of 95% probability. Relative fold expression levels between soybean
+Glyma.13g194600. b relative expression levels of Glyma.13g/94700. roots inoculated with Meloidogyne javanica eggs at 1, 2 and 6 dpi
+c relative expression levels of Glyma.13g/94800, d relative expres- (days post-inoculation)
+In the present study, we successfully performed the char-
+Finally, we provided an in-depth characterization of a
+acterization of the reaction against M. javanica in a collec- diverse soybean set and novel information regarding sev-
+tion of317 soybean accessions from different origins. Over- eral soybean accessions identified as resistant or moderately
+all, among 317 accessions, 31 were classified as resistant, 82 resistant is reported for the first time. Among those acces-
+accessions scored as moderately resistant and a larger pro- sions, some were highlighted for their high levels of resist-
+portion as susceptible, 204 accessions. Our phenotypic char- ance, such as PI 437127B, CV. CD 224, CD 219 RR, and
+acterization identified a small number of 12 accessions with BRSMG 850G RR. All these data will be useful in different
+high levels of resistance (disease score <2) that are from breeding programs, since we provided a diverse set ofresist-
+different origins (Brazil, USA, Japan and China) and most ant accessions from several origins.
+ofthese are supported by previous studies. For example, the
+resistance sources PI 595,099 (Davis et al. 1998; Silva et al. GWAS highlights a locus on chromosome 13
+2001a; Beneventi et al. 2013), cv. Bragg and CD 201 (Silva associated with resistance against M. javanica
+et al. 2001a, b) had been previously described. Interestingly,
+other resistant accessions had been described as resistant to We genotyped a diverse set of 317 accessions with approxi-
+other nematodes, such as PI 506,862 and PI 089,772, both mately 45 K SNPS obtained from GBS, allowing us to
+resistant to M. incognita and races of H. glycines (Anand identify SNPS associated with a region on chromosome 13
+and Luedders 1989; Lee et al. 2015); PI 437,679 and PI conferring resistance to M. javanica. Our results provide
+608,357 also described as resistant to H. glycines (Anand advantages in mainly two aspects. First, given the nature
+and Luedders 1989; Kilen and Young 2000). The known R of the GWAS approach, we narrowed down the genomic
+source, PI 230,977 (Luzzi et al. 1987), which is described region previously identified in biparental mapping studies,
+as donor of resistance to PI 595,099 (Davis et al. 1998), and also providing SNP markers tightly associated with the
+surprisingly, showed a lower level of resistance (score of R locus, which are more compatible and useful in marker-
+2.50) compared to PI 595,099 (score of 1). As expected, assisted selection. Indeed, the SNPS identified by GWAS
+the susceptible soybean accessions CV. BRS 133 (Silva et al. 00,776.090-30.805.508 bp) define a region of-29 kb,
+2001a), CV. BRSMT Pintado (Mattos et al. 2016) and CV. or the extent of the LD region (-119 kb), which contains
+BRSMG 250 (Nobreza) (Mattos et al. 2016) showed also only nine genes, and the genomic region was significantly
+susceptible reactions in our results.
+reduced. In prior studies, the SSR markers SOYHSP
+Springer
+
+
+
+788
+Theoretical and Applied Genetics (2021) 134:777-792
+176, Sat133 and Satt114 flanked a region of-4 Mb resistant to M. arenaria (Luzzi et al. 1997). Based on this,
+24949.516-29.041.673 bp) in progenies of biparental we propose that the R locus on chromosome 13 may confer
+crosses derivedfromboth PI 595,099 and CD 201 (Format- resistance to both Meloidogyne species; however, further
+ting Citation). The RFLP marker B212-1 (-29,000,000 bp studies should be done to confirm this hypothesis. For plant
+on chr 13) was also associated with resistance to M. javan- breeding purposes, the information might be useful to select
+ica in progenies derived from PI 230,977 (Tamulonis et al. soybean sources to introgression of multiple resistance for
+1997a) and cv. Gazelle (Mienie et al. 2002) and to resistance nematodes species.
+against M. arenaria in PI 200,538 (Tamulonis et al. 1997b).
+Finally, our GWAS results are important due to the lack
+The phenotypic variance explained by SNPS identified by of prior association studies aimed at resistance against
+our GWAS was around 34%, which was similar to pheno- Meloidogyne sp. nematodes, especially in soybean. As far
+typic variance explained by SNPS from GWAS for resist- we know, only a single GWAS for resistance to M. incognita
+ance to M. incognita in soybean (25-40%). These values has been published for soybean (Passianotto et al. 2017)and
+of phenotypic variance are indicative of other rare alleles for Arabidopsis (Warmerdam et al. 2018). Indeed, almost all
+(MAF <0.05) and small-effect QTLs contributing to resist- the previous GWAS were focused on soybean cyst nematode
+ance, but not captured by our GWAS, as pointed out in the (SCN) caused by Heterodera glycines (Vuong et al. 2015;
+GWAS for susceptibility to M. incognita in Arabidopsis Zhang et al. 2016, 2017; Tran et al. 2019).
+thaliana, in which the phenotypic variance was only 22%.
+In addition to the already known sources of resistance Validation ofSNP assays
+to M. javanica, 21 soybean accessions sharing the resistant
+haplotype were identified in this study, including adapted In our view, one important further step of any GWAS is
+cultivars that can be used for introgression of resistance to validate the QTLS associated with the SNPs identified.
+instead of ill-adapted PIs. This fact suggests that the locus Most of the GWAS published for soybean only identified
+on chromosome 13 is widely spread in resistant soybean SNPs associated with genomic regions without any valida-
+accessions. Interestingly, we also identified six accessions tion step or development of marker assays to directly apply
+(BRS 239, CD 225 RR, UFV10, PI 253651D, PI 424,588 in marker-assisted selection. Therefore, we also developed
+and PI 438,190) showing a resistance phenotype, but sus- marker assays for two of the peak SNPS from the GWAS
+ceptible haplotype (Haplotype 2) on chromosome 13. The and analyzed the agreement between these SNPS and the
+resistance in these accessions is likely due to other loci than M. javanica phenotype in two F, populations derived from
+the one of chromosome 13. Because of their small num- known R sources.
+ber (only 1.6% of the 317 accessions), even if they shared
+The phenotypic distribution in both progenies, one for
+the same resistance locus or not, markers associated with PI 595,099 and other for CV. CD 224, indicates that the M.
+this locus would likely have been removed when filtering javanica resistance was quantitatively inherited, following
+for minor allele frequency (2 5% or 1%). Such accessions a non-normal distribution, skewed toward the susceptible
+would, however, be extremely useful as targets to perform phenotypes. Such phenotypic distribution patterns are sup-
+QTL mapping in biparental crosses with a susceptible acces- portedby studies with Meloidogyne species and other nema-
+sion to explore whether or not their resistance is conferred todes in different legumes, as M. incognita (Oliveira et al.
+by another locus. Ifthis were the case, with marker-assisted 2015), M. javanica (Silva et al. 2001a) and Rotylenchulus
+selection, it could be possible to pyramid these different reniformis (Cardoso et al. 2014) in soybean, as well as M.
+QTLs to develop improved lines with a much more robust javanica in cowpea (Huynh et al. 2016) and M. arenaria
+resistance to M. javanica.
+in peanut (Burow et al. 2014; Ballén-Taborda et al. 2019).
+Interestingly, the screening of accessions belonging to the Results of the two TaqMane assays evaluated in both popu-
+USDA soybean collection, using our peak SNPS linked to lations showed that in general, F2 plants showing high levels
+M.javanica resistance, identified many accessions showing of resistance (score <2) were homozygous for the resistance
+the resistant alleles that also have already been described allele (Haplotype 1). Otherwise, most of the lines show-
+as containing resistance to other nematodes species, for ing moderate resistance were heterozygous, while a large
+example the CV. Peking, and PI 339,868 B, described as proportion of the lines showing high levels of susceptibility
+resistant to various races of H. glycines and Rotylenchulus showed the susceptible alleles (Haplotype 2).
+reniformis, as well as CV. Forrest described as resistant to
+As resistance to M. javanica is widely described as a
+H. glycines, R. reniformis andM. incognita (Klepadlo et al. quantitative trait, as expected, we were not able to explain
+2018). In our results, PI 200,538 (known source of resist- all the genetic control of resistance in PI 595,099 and CD
+ance to M. arenaria) was classified as moderately resistant 224. The inheritance of resistance to M.javanica in soybean
+to M. javanica and shared the resistant alleles on chromo- was described as quantitative, showing a moderate to high
+some 13. Similarly, PI 595,099 was already described as heritability (h=0.48-0.76) (Tamulonis et al. 1997a). The
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+789
+authors proposed that different accessions might possess (Jablonska et al. 2007), pepper (CaMi) (Chen et al. 2007),
+resistance genes at different loci or different alleles at the for Meloidogyne floridensi in Prunus species (Ma) (Clav-
+same locus. Overall, the genetic resistance to nematodes in erie et al. 2011), for M. incognita and Heterodera schachtii
+soybean is a complex trait (Mitchum 2016). For example, in Arabidopsis (NILRI) (Mendy et al. 2017; Warmerdam
+cyst nematode resistance was early described as qualitative, et al. 2020), and for in cowpea (QRk-vu9.1) (Santos et al.
+with dominant and recessive Rhg genes (Cook et al. 2012; 2018). The M.javanica resistance in soybean in the biparen-
+Liu et al. 2012; Bao et al. 2014) and later as quantitative tal populations did not show dominant inheritance; however,
+(QTLS) in soybean (Anand and Luedders 1989; Vuong et al. two recessive genes were indicated as underlying resistance
+2015), with 31 putative QTL mapped to 17 of the 20 soy- to M. javanica. Examples of recessive genes controlling
+bean chromosomes (Concibido et al. 2004). The complex resistance to many pathogens, including to nematodes, have
+nature of resistance to nematode contributes to explain the been described, for example, a single recessive gene control-
+failure in explaining all the phenotypic variation by the SNP ling resistance against M. javanica in cucumber (Walters
+markers. The validation of a codominant SCAR marker in et al. 1997; Devran et al. 2011) and M. arenaria in peanut
+a F2 soybean population derived from a cross between a (Church et al. 2005). Most of the LRR-NBS-types genes
+resistant cultivar (Gazelle) and a highly susceptible variety are described as dominant genes, conferring race-specific
+(Prima) explained 42% of gall-index variation in the prog- resistance based on the gene-for-gene theory (Flor, 1956).
+enies inoculated with M.javanica (Mienie et al. 2002), not However, this model does not provide a clear explanation for
+being able to explain all the variation as well. By validating all types of disease resistance in plants. At least one reces-
+SNP markers linked to two different QTLS in a F2 cowpea sive R gene being the LRR-NBS type has been described,
+population, high resistance to M. javanica was observed in the RRS1-R resistance gene to Ralstonia solanacearum in
+the lines with both QTLS in the homozygous resistant con- Arabidopsis (Deslandes et al. 2002). Additional studies are
+dition compared to lines harboring only one of the QTL. necessary, but we cannot exclude the possibility ofthe LRR-
+Probably additional minor QTLs not detected in GWAS are NBS-type gene involved in a recessive resistance at least in
+contributing to minor effect to the resistance to M. javanica the PI595099.
+in PI 595,099 and CD 224 progenies. QTL mapping studies
+While the functional impact predictions identified few
+should be done in order to identify these other loci and to nonsynonymous on Glymal3.g194600 and Glymal3.
+clarify the resistance to M. javanica in PI 595,099 and CD g194700, several nonsynonymous SNPS inside of Glymal3.
+224 accessions.
+g194800 and Glymal3.g194900 genes were identified,
+To further characterize the use of these marker assays, we pointing out these genes are strong resistance genes candi-
+genotyped a subset of the GWAS panel composed mostly dates. Indeed, the effect of nonsynonymous SNPS modifying
+of Brazilian cultivars. Most breeding efforts to introduce the gene function on soybean resistance to nematode was
+resistance to M. javanica in Brazilian soybean cultivars have previously reported in locus Rgh4, where changes in two
+used CV. Bragg (Dias et al. 2010) as a resistant donor. As nucleotides alter the role ofthis protein in resistance to cyst
+this accession carries the resistant haplotype (Haplotype 1) nematode (Liu et al. 2012).
+on chromosome 13, this can explain the good concordance
+Also, the expression levels of Glymal3g.194800 and
+(-93%) observed between the genotype determined using Glymal3g.194900 were up-regulated in the resistance
+the TaqMane assays and the resistance phenotype of these accession PI 595,099 and down-regulated in CV. BRS 133
+cultivars. In the few cases where there was a lack ofconcord- at 2 dpi, giving the assumption that the timing ofinduction
+ance, it could be due to the resistance having been derived might be an important factor in the resistance response to
+from another resistance source or errors in phenotyping or M. javanica in soybean. As expected, the initial recognition
+genotyping.
+of the pathogen by the resistance genes, followed by signal
+transduction cascade, might contribute to the global gene
+Functional annotation and gene expression levels
+activation toward the nematode resistance on soybean. On
+supporting the TIR-NBS-LRR genes underlying
+the other hand, Glymal3g.194700 was only significantly
+resistance to M.javanica
+induced in the susceptible CV. BRS 133 in 2 and 6 dpi. It
+is possible that the times evaluated in our study may not be
+In our results, the SNPs associated with the resistance to enough to capture all the gene expression profile. Indeed,
+M. javanica in soybean are located in a region that is rich the up-regulated genes in soybean plants inoculated with M.
+in genes presenting the TIR-NBS-LRR domains. Indeed, R incognita showed high levels of expression in 12 dpi (Pham
+genes to nematodes have been also identified and cloned in et al. 2013), many hours before the first time we have evalu-
+different crops, and the majority of them are described as ated in our study.
+LRR-NBS-type genes, which supports our results, for exam-
+Our study reported that the TIR and NB domains encod-
+ple genes for M. incognita in tomato (Mi-1 and Mi-9 genes) ing-genes (Glyma.13g194800 and Glyma. .13g194900)
+Springer
+
+
+
+790
+Theoretical and Applied Genetics (2021) 134:777-792
+possessed several nonsynonymous variants in their Compliance with ethical standards
+sequences and were differentially expressed in the resist-
+ance soybean source compared to susceptible one. There- Conflict ofinterest The authors declare that they have no competing
+interest.
+fore, our gene expression results and findings reported in
+previous studies suggested that LRR-NBS-type genes may Availability of fdata and material All phenotypic data are providedin
+be the mainly R genes related to nematodes resistance in supplementary data as well genotypic data (SNPS on chromosome
+several plant species.
+13) for 317 soybean accessions. GBS data and GAPIT code for run-
+ning GWAS are available through direct contact to the corresponding
+author Dra. Francismar C. Marcelino-Guimaries by email: francismar.
+marcelino@embrapa.b:
+Conclusion
+The present study reported the identification of a locus con-
+ferring partial resistance to M. javanica on chromosome 13 References
+in soybean, and this region contains a LRR-NBS cluster. As
+far as we know, our GWAS is the first one reporting SNPS Anand ISC, Luedders VD (1989) Use of soybean cyst nematode inbreds
+to determine genetic diversity among resistant soybeans. Crop
+markers associated with the resistance to this important
+Prot 8:380-382. htpe./dbi.ong1010160261-219489900595
+nematode. We validated two SNPs-based TaqMane assays Ballén-Taborda C, Chu Y, Ozias-Akins Pet al (2019) A new source of
+on two biparental populations and in Brazilian cultivars,
+root-knot nematode resistance from Arachis stenosperma incor-
+and we observed high correction levels between the SNPS
+porated into allotetraploid peanut (Arachis hypogaea). Sci Rep
+9:1-13. htpsl/idbiorg10.103W41038/41598.019-54183-1
+and the phenotype. Surprisingly, several soybean acces- Barrett JC, Fry B, Maller J, Daly MJ (2005) Haploview: analysis and
+sions reported as resistant to other important nematodes
+visualization ofLD and haplotype maps. Bioinformatics. https:ll
+species, as M. incognita, M. arenaria and H. glycine shared
+dingpasmwastemaschesdi
+the haplotype on chromosome 13 in our panel, leading us Bao Y, Vuong T,Meinhardt Cet al (2014) Potential lof association map-
+ping and genomic selection to explore PI 88788 derived soybean
+the assumption that these soybeans accessions may possess
+cyst nematode resistance. Plant Genome. htps/doi.org/10.38351
+multiple-resistance to nematodes, which are helpful for plant
+plamtgenome2013.1.0039
+breeding programs. Several additional nonsynonymous Bastien M, Sonah H, Belzile F (2014) Genome Wide Association Map-
+SNPS on Glyma.13g194800 and Glyma.13g194900 were
+ping of Resistance in Soybean with a Genoyping-by-Sequencing
+Approach. Plant Genome 7:1-13. htpaldoionglo3s3Spiam
+identified in the mappedregion using WGS data, and expres-
+genome2013.10.0030
+sion levels of these genes were only detected in PI 595,099, Beneventi MA, Bonfim O, Eugênia M, et al (2013) Transcription
+suggesting them as strong candidates to resistances genes for
+profile of soybean-root-knot nematode interaction reveals a key
+future functional validation. Finally, the SNPS assays iden-
+role of phythormones in the resistance reaction. BMC Genomics
+14:322. MpRigRtNEm3MHNE
+tified here can be used in the marker-assisted selection for Boudhrioua C, Bastien M, Torkamaneh D, Belzile F (2020) Genome-
+screening for resistance to M.javanica in soybean breeding
+wide association mapping of Sclerotinia sclerotiorum resistance in
+programs, as well as the resistance sources.
+soybean using whole-genome resequencing data. BMC Plant Biol
+20(1):195. hmpsl/doiong/10.1186112870-020-02401-5
+Acknowledgements This work was supported by INCT Plant Stress Burow MD, Starr JL, Park CH et al (2014) Introgression of home-
+Biotech Grant from MCT of the Brazilian Government and CNPq,
+ologous quantitative trait loci (QTLS) for resistance to the root-
+EMBRAPA Soybean and the National Council for the Improvement
+knot nematode [Meloidogyne arenaria (Neal) Chitwood] in an
+of Higher Education (CAPES) - -Finance code 001 for a scholarship.
+advanced backcross-QTL population of peanut (Arachis hypogaea
+Thanks also to the team of professionalsin Plant Biotechnology Labo-
+L.). Mol Breed 34:393-406. htpsldsionpld100TA10s
+ratory and Marker-Assisted and Molecular Genetics Laboratory from
+2-014-0042-2
+Embrapa-Soja, Londrina, Brazil.
+Cardoso PC, Asmus GL, Gonçalves MC et al (2014) Inheritance of
+soybean resistance to Rotylenchulus reniformis. Trop Plant Pathol
+39:251-258. hmepaldaiaglasosi9251982.36762014000000
+Authorcontiboutionstatement RVA and IFCMG designed land planned Chen R, LiH, Zhang L et al (2007) CaMi, a root-knot nematode resist-
+the project. JCA and WPD conducted the phenotypic approach. JCA,
+ance gene from hot pepper(Capsium annuum L.) confers nema-
+ALLP and EGCF performed GWAS analysis. ABS and DCGS per-
+tode resistance in tomato. Plant Cell Rep 26:895-905. https://doi.
+formed the genotyping in germplasm and biparental populations. JCA
+0p10101029.0720040
+performed the RT-qPCR studies. EGCF conducted the prediction of Church GT, Starr JL, Simpson CE (2005) A recessive gene for resist-
+effects, WGS and statistical analysis. JCA and EGCF drafted the manu-
+ance to Meloidogyne arenaria in interspecific Arachis spp.
+script. FMCG, RVA, EGCF and FB supervised the study and provided
+hybrids. .J Nematol 37:178-184
+assistance for manuscript preparation.
+Cingolani P, Platts A, Wang LL et al (2012) A program for annotating
+and predicting the effects of single nucleotide polymorphisms.
+Funding This work was supported lby INCT Plant Stress Biotech Grant
+SnpEff Fly (Austin). Mpeldbiaglioalelizlges
+from MCT ofthe Brazilian Government and CNPq, EMBRAPA Soy- Claverie M, Dirlewanger E, Bosselut N et al (2011) The ma gene for
+bean and the National Council for the Improvement of Higher Educa-
+complete-spectrum resistance to meloidogyne species in prunus
+tion (CAPES) Finance code 001 for a scholarship.
+isa TNL with a huge repeated c-terminal post-LRR region. Plant
+Physiol 156:779-792. htps/doi.org/10.1104/pp.111.176230
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:777-792
+791
+Concibido VC, Diers BW, Arelli PR (2004) A decade of QTL mapping
+nematode races 3 and 14. Crop Sci 40:304-304. https://doi.
+for cyst nematode resistance in soybean. Crop Sci
+aploalSespaawadloyp
+Cook DE, Lee TG, Guo X et al (2012) Copy number variation of mul- Klepadlo M, Meinhardt CG, Vuong TD et al (2018) Evaluation of
+tiple genes at Rhgl mediates nematode resistance in soybean.
+soybean germplasm for resistance to multiple nematode species:
+Science 338:1206-1209. htps/doi.ony/10.1126science.1228746
+Heterodera glycines, Meloidogyne incognita, and Rotylenchulus
+Cruz CD (1998) Programa GENES: Aplicativo Computacional em
+reniformis. Crop Sci 58:2511-2522. htpeldoiopgl102135eop
+Estatistica Aplicada à Genética (GENES - Software for Experi-
+ci2018.05.0327
+mental Statistics in Genetics). Genet Mol Biol 21. https://doi. Korte A, Farlow A (2013) The advantages and limitations of trait
+or/10.1590k1415-4757199800010022
+analysis with GWAS: A review. Plant Methods 9:29. https://doi.
+DallAgnol A, Antônio H (1982) Reaçâo de genotipos de soja aos
+0rp10118617464811-939
+nematoides formadores de galhas Meloidogyne incognita e M. Lee J-D, Kim H-J, Robbins RT et al (2015) Reaction of soybean cyst
+javanica. Soc Bras Nematol 151-77
+nematode resistant plant introductions to root-knot and reni-
+Davis EL, Meyers DM, Burton JW, Barker KR (1998) Resistance to
+form nematodes. Plant Breed Biotechnol 3:346-354. https://doi.
+root-knot, reniform, and soybean cyst nematodes in selected soy-
+0p1097s7,pb201534346
+bean breeding lines. J Nematol 30(4s):530-541
+Lima FSO, Correa VR, Nogueira SR, Santos PRR (2017) Nematodes
+Deslandes L, Olivier J, Theulières F et al (2002) Resistance to Ral-
+Affecting Soybean and Sustainable Practices for Their Manage-
+stonia solanacearum in Arabidopsis thaliana is conferred by the
+ment. In: Soybean - The Basis of Yield, Biomass and Productivity.
+recessive RRS1-R gene, a member of a novel family of resist-
+InTech, pp 95-110
+ance genes. Proc Natl Acad SciU S A 99:2404-2409.1 https://doi. Lipka AE, Tian F, Wang Q et al (2012) GAPIT: Genome association
+0np101073pma:0248509
+and prediction integrated tool. Bioinformatics 28:2397-2399.
+Devran Z, Firat AF, Tor M et al (2011) AFLP and SRAP markers
+hupel/idbionyli0.o93hicinformaticyb44
+linked to the mj gene for root-knot nematode resistance in cucum- Liu S, Kandoth PK, Warren SD et al 1(2012) A soybean cyst nematode
+ber. Sci Agric 68:115-119. httpsz/doi.org/10.1590/0103-90162
+resistance gene points to a new mechanism of plant resistance
+011000100017
+to pathogens. Nature 492:256-260. hmpeldoiongnioiosshnatur
+Dias WP, Garcia A, SilvaJFV, Cameiro GEDS (2010) Nematoides em
+e11651
+soja: identificaçao e controle. Embrapa Soja Circ 76:1-8
+Luzzi BM, Boerma HR, Hussey RS (1987) Resistance to three species
+dos Santos JVM, Valliyodan B, Joshi T et al (2016) Evaluation of
+ofroot-knot nematode in soybeanl. Crop Sci 27:258-262. https:ll
+genetic variation among Brazilian soybean cultivars through
+duingloz1aSompecilvez01X620118X07020271
+genome resequencing. BMC Genom 17:1-18. https://doi. Luzzi BM, Boerma HR, Hussey RS, Wood ED (1997) Registration of
+0pl0184123640162814
+javanese root-knot nematode resistant soybean germplasm line
+Elshire RJ, Glaubitz JC, Sun Q et al (2011) A robust, simple Geno-
+G93-9223. Crop Sci 37:1035-1036
+typing-by-Sequencing (GBS) approach for high diversity species. Maldonado dos Santos JV, Ferreira EGC, Passianotto A et al (2019)
+PLOS ONE 6:1-10. htpaldoiorg/lo.137ljourmalpome.0019379
+Association mapping of a locus that confers southern stem can-
+Ferraz LCCB (2001) As Meloidoginoses da Soja: Passado, Presentee
+ker resistance in soybean and SNP marker development. BMC
+Futuro. Relaçôes Parasito-Hospedeiro nas Meloidoginoses da Soja
+Genomics 20(1):798. htps/doi.org/10.1186s1186s12864-019-6139-6
+Flor HH (1956) The Complementary Genic Systems in Flax and Mattos VS, Furlanetto C, Silva JGP et al (2016) Meloidogyne spp.
+Flax Rust. Adv Genet 8:29-54. htpalidbionglo.016s0s
+populations from native Cerrado and soybean cultivated areas:
+-2660(08)60498-8
+genetic variability and aggressiveness. Nematology 18:505-515.
+Fuganti R, Fuganti R, Beneventi MA et al (2004) Identificaçao de Mar-
+hupszldoiong/l0.11691163/15685411-0002973
+cadores Moleculares de Microssatélites para Seleçao de Genoti- Mendy B, Wang'ombe MW, Radakovic ZS et tal (2017) Arabidopsis
+pos de Soja Resistentes a Meloidogyne javanica. Nematol Bras
+leucine-rich repeat receptor-like kinase NILR1 is required for
+28:125-130
+induction ofinnate immunity to parasitic nematodes. PLOS Pathog
+Fuganti R, Machado M de FP da S, Lopes VS et al (2010) Size of
+13:1-22. htpszlidoi.ong10137ljournal.ppaL.1006284
+AT(n) insertions in promoter region modulates Gmhsp17.6-L Mienie CMS, Fourie H, Smit MA et al (2002) Identification of
+mRNA transcript levels. J Biomed Biotechnol 2010:1-9. https:/1
+AFLP markers in soybean linked to resistance to Meloidogyne
+dbi.ong1011552010847673
+javanica and conversion to Sequence Characterized Amplified
+Gabriel SB, Schaffner SF, Nguyen H et al (2002) The structure of
+Regions (SCARS). Plant Growth Regul 37:157-166. https://doi.
+haplotype blocks in the human genome. Science. https://doi.
+oplia.iozyAti0uss0z396
+opf101126kciene.106924
+Mitchum MG (2016) Soybean resistance to the soybean cyst nematode
+Huynh BL, Matthews WC, Ehlers JD et al (2016) A major QTL corre-
+heterodera glycines: an update. Phytopathology 106:1444-1450.
+sponding to the Rk locus for resistance to root-knot nematodes in
+Nmpu/dHog10109UPMNYTO-0616027.RWW
+cowpea (Vigna unguiculata L. Walp.). Theor Appl Genet 129:87- Oliveira L, Vinholes P, Montecelli T et al (2015) Inheritance of resist-
+95. Imasiegaiensewiseussie
+ance of soybean for Meloidogyne incognita and identification of
+Iquira E, Humira S, François B (2015) Association mapping of QTLS
+molecular marker for marker assisted selection. J Sci Res Rep
+for sclerotinia stem rot resistance ina collection of soybean plant
+8:1-8. htps/doi.org/10.9734/sr/2015/18648
+introductions using a genotyping by sequencing (GBS) approach. Oyekanmi EO, Fawole B(2010) Nematodes of soybean and their man-
+BMC Plant Biol 15:5. htps/doi.ong/10.1186812870-014-0408:)
+agement. Soybean Bot Prod Uses. hepslidbionglaiong97sis
+Jablonska B, Ammiraju JSS, Bhattarai KK et al (2007) The Mi-9 gene
+45936440.0325
+from Solanum arcanum conferring heat-stable resistance to root- Passianotto A, Sonah H, Dias WP et al (2017) Genome-wide asso-
+knot nematodes is a homolog of Mi-1. Plant Physiol 143:1044-
+ciation study for resistance to the southern root-knot nematode
+1054. htps/doi.org/10.1104/p.106.089615
+(Meloidogyne incognita) in soybean. Mol Breed 37:148. https:ll
+Jones JT, Haegeman A, Danchin EGJ et al (2013) Top 10 plant-para-
+doi.org/10.1007/s11032-017-0744-3
+sitic nematodes in molecular plant pathology. Mol. Plant Pathol Pham AT, McNally K, Abdel-Haleem H et al (2013) Fine mapping
+14(9):946-961. https./doi.org/10.110.111/mpp.12057
+and identification of candidate genes controlling the resistance
+Kilen TC, Young LD (2000) Registration of D95-5246 soybean
+to southern root-knot nematode in PI 96354. Theor Appl Genet.
+germplasm line resistant to Phytophthora Rot and soybean cyst
+htps/Adoi.ongy10.1007k0012-013-2095-8
+Springer
+
+
+
+792
+Theoretical and Applied Genetics (2021) 134:777-792
+Purcell S, Neale B, Todd-Brown K et al (2007) PLINK: a tool set for Tran DT, Steketee CJ, Boehm JD et al (2019) Genome-Wide Associa-
+whole- genome association and population-based linkage analyses.
+tion Analysis Pinpoints Additional Major Genomic Regions Con-
+Am J Hum Genet. hep/dsiapio.C051995
+ferring Resistance to Soybean Cyst Nematode (Heterodera gly-
+Rincker K, Hartman GL, Diers BW (2016) Fine Mapping of Resist-
+cines Ichinohe). Front Plant Sci 10:1-13. htps_/doi.org/10.3389
+ance Genes from Five Brown Stem Rot Resistance Sources in
+fpls.2019.00401
+Soybean. Plant Genome 9(1). WepAsLAplasispantgen USDA (2019) World agricultural production. Foreign Agric Serv. pP
+e2015.08.0063
+1-31. htpel/doiong/1032317223172221-1055201907059
+Santos JRP, Ndeve AD, Huynh BL et al (2018) QTL mapping and Vuong TD, Sonah H, Meinhardt CG et al (2015) Genetic architecture
+transcriptome analysis of cowpea reveals candidate genes for
+ofcyst nematode resistance revealed by genome-wide association
+root-knot nematode resistance. PLOS ONE 13:1-22. https://doi.
+study in soybean. BMC Genom 16:1-13. htpsz/doi.org/10.1186
+splolsTlipeumlpme.oliwis
+s12864-015-1811-y
+Scheet P, Stephens M (2006) A fast and flexible statistical model for Walters SA, Wehner TC, Barker KR(1997) A single recessive gene for
+large-scale population genotype data: applications to inferring
+resistance to the root-knot nematode (Meloidogyne javanica) in
+missing genotypes and haplotypic phase. AmJ Hum Genet. https
+Cucumis sativus var. hardwickii.J Hered 88:66-69
+9/doi.ong10.1086502802
+Warmerdam S, Sterken MG, van Schaik C et al (2018) Genome-
+Shin J-H, Blay S, Graham J, McNeney B (2006) LDheatmap : an R
+wide association mapping of the architecture of susceptibility to
+function for graphical display of pairwise linkage disequilibria
+the root-knot nematode Meloidogyne incognita in Arabidopsis
+between single nucleotide polymorphisms. J Stat Softw. https:/1
+thaliana. New Phytol 218(2):724-737. htps_/doi.org/10.11
+deiagl01sa37,s0l6-ds
+nph.15034
+Silva JFV, Ferraz LCCB, Arias CA (2001) Herança da resistência a Warmerdam S, Sterken MG, Sukarta OCA et al (2020) The TIR-NB-
+Meloidogynejanvanica em soja. Nematropica 31:209-217
+LRR pair DSCI and WRKY19 contributes to basal immunity
+Silva JFV, Ferraz LCBC, Arias CAA, Abdelnoor RV (2001) Identi-
+of Arabidopsis to the root-knot nematode Meloidogyne incog-
+ficacao de Marcadores Moleculares de Microssatelites Associa-
+nita. BMC Plant Biol 20:73. htpul/dbeiomp70.1861287
+dos a Resistencia de Genotipos de Soja a Meloidogyne javanica.
+0-020-2285-x
+Nematol Bras 25:79-83
+Wrather JA, Anderson TR, Arsyad DM et al (1997) Soybean dis-
+Sonah H, Bastien M, Iquira E et al (2013) An improved Genotyping
+ease loss estimates for the top 10 soybean producing coun-
+by Sequencing (GBS) approach offering increased versatility and
+tries in 1994. Plant Dis 81:107-110. htps/doi.org/10.1094/
+efficiency of SNP discovery and genotyping. PLOS ONE 8:1-9.
+PDIS.1997.81.1.107
+htpsl/dbionyf10137l/joummalpome.0054605
+Wrather A, Shannon G, Balardin R et al (2010) Effect of Dis-
+Song Q, Hyten DL, Jia G et al (2015) Fingerprinting soybean germ-
+eases on Soybean Yield in the Top Eight Producing Coun-
+plasm and its utility in genomic research. G3 Genes, Genomes,
+tries in 2006. Plant Heal Prog 11:29. htpsz/doi.org/10.1094
+Genet 5:1999-2006. htps/doi.org/10.1534/93.115.019000
+php-2010-0102-01-s
+Tamulonis JP, Luzzi BM, Hussey RS Setal (1997a) DNA markers asso- Zhang J, Song Q, Cregan PB, Jiang GL (2016) Genome-wide asso-
+ciated with resistancetoJavanese root-knot nematode in soybean.
+ciation study, genomic prediction and marker-assisted selection
+Crop Sci. NepldsioglozSonpalyp7ET1NK00700
+for seed weight in soybean (Glycine max). Theor Appl Genet
+30015x
+129:117-130. htipsz/doiong10.1007600122015-2614x
+Tamulonis JP, Luzzi BM, Hussey RS et al (1997b) DNA marker analy- Zhang S, Zhang Z, Bales C et al (2017) Mapping novel aphid resistance
+sis of loci conferring resistance to peanut root-knot nematode in
+QTL from wild soybean, Glycine soja 85-32. Theor Appl Genet
+soybean. Theor Appl Genet 95:664-670. htps/doi.org/10.1007
+130:1941-1952. htpsz/doi.ong10.1007k00122-017-2935:2
+s001220050610
+Torkamaneh D, Laroche J, Bastien M et al (2017) Fast-GBS: a new Publisher's Note Springer Nature remains neutral with regard to
+pipeline for the efficient and highly accurate calling of SNPS from jurisdictional claims in published maps and institutional affiliations.
+genotyping-by-sequencing data. BMC Bioinform 18:1-7. https:/1
+dHgploilwelas@lbidig
+Torkamaneh D, Laroche J, Valliyodan B et al (2020) Soybean (Gly-
+cine max) haplotype map (GmHapMap): a universal resource for
+soybean translational and functional genomics. Plant Biotechnol
+J. hepldsiegioiTl/pN.HN
+Springer

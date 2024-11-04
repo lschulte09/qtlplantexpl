@@ -1,0 +1,865 @@
+plants
+MDPI
+Article
+Genome-Wide Association Study for Ultraviolet-B Resistance in
+Soybean (Glycine max L.)
+Taeklim Lee 1,2,t, Kyung Do Kim 3,+0,Ji-Min Kim 1, Ilseob Shin 1Jinho Heo 14JiyeongJung 1Juseok Lee 4,
+Jung-Kyung Moon 5 and Sungteag Kang 1,*D
+Department of Crop Science and Biotechnology, Dankook University, Cheonan 31116, Korea;
+terry163@g8-go.kr (LEmhamizb@navercom (J.-M.K.); sis3761@naver.com (I.S.);
+heojinhol23@kibbrekr (J.H.); duddis12@naver.com U.J.)
+Seed Management Office, Gyeonggi-do Provincial Government, Yeoju 12668, Korea
+Department of Bioscience and Bioinformatics, Myongji University, Yongin 17058, Korea;
+kyungdokim@mjuackr
+Bio-Evaluation Center, Korea Research Institute of Bioscience and Biotechnology, Cheongju 28116, Korea;
+juseokle@kribb.re.kr
+National Institute of Crop Science, Rural Development Administration, Wanju, Jeonbuk 55365, Korea;
+moonjk2@korea.kr
+Correspondence: kangst@dankook.ackr
++ These authors contributed equally to this work.
+Abstract: The depletion of the stratospheric ozone layer is a major environmental issue and has
+increased the dosage of ultraviolet-B(UV-B) radiation reaching the Earth'ssurface. Organisms are
+negatively affected by enhancedUV-B radiation, and especially in crop plants this may lead to severe
+check for
+yield losses. Soybean (Glycine max L.), a major legume crop, is sensitive to UV-B radiation, and
+updates
+therefore, it is required to breed the UV-B-resistant soybean cultivar. In this study, 688 soybean
+Citation: Lee, T; Kim, K.D.; Kim,
+germplasms were phenotyped for two categories, Damage ofLeafChlorosis (DLC) and Damage of
+J-M.;Shin, L; Heo,J.Jung..Lee,): Leaf Shape (DLS), after supplementary UV-Birradiation for 14 days. About 5% of the germplasms
+Moon, J.-K; Kang, S. Genome-Wide showed strong UV-B resistance, and GCS731 was the most resistant genotype. Their phenotypic
+Association Study for Ultraviolet-B distributions showed similar patterns to the normal, suggesting UV-B resistance as a quantitative
+Resistance in Soybean (Glycine max trait governed by polygenes. A total of 688 soybean germplasms were genotyped using the Axiome
+L.). Plants 2021, 10, 1335. https:/1
+Soya 180K SNP array, and la genome-wide association study (GWAS) was conducted to identify SNPS
+deiong/losw0/plamsior7as
+significantly associated with the two traits, DLC and DLS. Five peaks on chromosomes 2, 6, 10, and
+11 were significantly associated with either DLC or DLS, and the five adjacent genes wereselected as
+Academic Editor: Tae-HwanJun
+candidate genes responsible for UV-B resistance. Among those candidate genes, Glyma.02g017500
+Received: 11 June 2021
+and Glyma.06g103200 encode cryptochrome (CRY) and cryptochrome 1 (CRY1), respectively, and are
+Accepted: 25] June 2021
+known to play arole in DNA repair during photoreactivation. Real-time quantitative RT-PCR (qRT-
+Published: 29] June 2021
+PCR) results revealed that CRY1 was expressed significantly higher in the UV-B-resistant soybean
+compared to the susceptible soybean after 6 h of UV-B irradiation. This study is the first GWAS
+Publisher's Note: MDPI Istaysneutral report on UV-B resistance in soybean, and the results will provide valuable information for breeding
+with regard toj jurisdictional claims in UV-B-resistant soybeans in preparation for climate change.
+published maps and institutional affil-
+iations.
+Keywords: ultraviolet-B; soybean (Glycine max (L.) Merrill.); genome-wide association study (GWAS);
+Axiomo Soya 180K SNP array; DNA repair; photoreactivation; qRT-PCR
+Copyright: 0 2021 by the authors.
+Licensee MDPI, Basel, Switzerland. 1. Introduction
+This article is an open access article
+The dosage of ultraviolet (UV) radiation reaching the Earth's surface has increased since
+distributed under the terms and the manufacturing of ozone-depleting gas. Although the production of ozone-depleting
+conditions of the Creative Commons substances (ODSs) such as chlorofluorocarbons (CFCS) has been phased out under the 1987
+Attribution (CC BY) license (https:/1 Montreal Protocol, the atmospheric concentration of trichlorofluoromethane (CFC-11) still con-
+cmthwamomawgylhemalhy tributes one-quarter of all chlorine in the atmosphere. Moreover, dichloromethane (CH2C12),
+4.0/).
+Plants 2021, 10, 1335. htips//doiorg/10.330/plants1007135
+htips//www.mdpi.com/joumal/plants
+
+
+
+Plants 2021, 10, 1335
+20f15
+an ozone-depleting gas not controlled by the Montreal Protocol, was observed to be increas-
+ing rapidly in the atmosphere, becoming another threat to stratospheric ozone [1,2]. These
+unexpected factors have been delaying a full recovery of the ozone to pre-1970 levels, and the
+resulting UV light elevation continuously harms life on Earth.
+Solar UV radiation is subdivided into three types: UV-A (315-400 nm), UV-B (280-
+320 nm), and UV-C (200-280 nm). The stratospheric ozone layer absorbs UV-B radiation,
+but with the depletion causedby ODSs, high levels ofUV-B radiation can reach the ground
+through the ozone hole. Under the enhanced UV-B conditions, plants are negatively
+affected, with their membranes, proteins, and DNA showing biological and physiologi-
+cal changes associated with photomorphogenesis [3], along with a reduction in biomass
+accumulation [4]. In plants, the responses to UV-B are related to several biological mecha-
+nisms, such as the formation of cyclobutane pyrimidine dimers (CPDS) and pyrimidine-
+pyrimidone (6-4) photoproducts [5,6], inactivation of photosynthesis [71, downregulation
+of phytohormones [8], secondary metabolism [91, and free-radical scavenging [10]. CPD,
+the most abundant DNA damage induced by UV-B, inhibits transcription and replication,
+leading to mutagenesis in plants [11,12]. The UV-B-induced CPDs are repairedby mecha-
+nisms including nucleotide excision repair (NER) and photoreactivation [13-15]. The other
+mechanism can be activatedby UV RESISTANCE LOCUS8 (UVR8) homodimers [16]. This
+UV-B-specific photoreceptor interacts with CONSTITUTIVELY PHOTOMORPHOGENICI
+(COP1) and regulates the gene expression response to UV-B acclimation. Recent studies
+revealed that UV-induced responses such as changes in phytohormone and metabolite
+levels also depend on UVR8 [8,17,18].
+Soybean is considered a UV-B-sensitive plant. Enhanced UV-B turns the soybean
+plants into dwarf type by shortening the internode length [19]. Feng, An [20] indicated
+that soybean under UV-B enhanced conditions showed changes in flowering time and
+decreases in chlorophyll a/b contents, total leaf number, and total leaf area. Moreover,
+decreases in total biomass and yield components such as seed size and weight and reduc-
+tions in concentrations of phenolic compounds and isoflavones were observed in soybean
+plants when exposed to elevated UV-B radiation [7,21,22]. Recent studies in soybean have
+investigated the underlying genes and variations controlling these responses to UV-B light.
+Several quantitative trait loci (QTLs) associated with UV-B resistance were identified using
+the F11 recombinant inbred line (RIL) population of Keunol (UV-B susceptible) X Iksan 10
+(UV-B-resistant; derived from Bangsa by irradiation breeding) [23]. In a study with the
+F12 RIL population of Keunol X Iksan 10, positional mapping of a QTL on chromosome
+7 identified RAD23, a homolog of yeast RAD23, as one of the candidate genes for UV-B
+resistance [24]. In yeast, RAD23 was previously reported as a UV excision repair protein,
+suggesting a similar function regarding UV-B resistance in soybean. In another study, a
+genome-wide comparison between UV-B-resistant IT162669 and UV-B-sensitive Cheongja
+3 identified four genes related to plant protection including UV-B resistance [25]. Further-
+more, using an F6 RIL population of Cheongja 3 X Buseok, four UV-B resistance QTLs were
+identified, and among those QTLS, a gene with two non-synonymous SNPs differentiating
+the parental lines, was identified on chromosome 6 [26].
+Genome-wide association studies (GWASS) are a powerful approach that provides
+higher resolution than linkage mapping because they utilize the historical recombination
+events of a natural population [27]. Numerous GWASS have been conducted in soybean to
+identify putative genes and QTLs associated with agronomic traits such as branching [28],
+plant height [29], photosynthesis [30], resistance to insect pests [31], and soybean mosaic
+virus [32]. This was made possible by the availability ofhigh-throughput SNP genotyping
+systems such as Golden Gate assay [33], SoySNP50K array [34], and Axiome Soya 180K
+SNP array [35]. Nevertheless, for UV-B resistance genes and QTLS, a GWAS has not
+yet been conducted on a soybean germplasm collection. In this study, we performed a
+GWAS for a total of 688 soybean germplasms and identified eight genes associated with
+UV-B resistance. Furthermore, we compared the expression level of two candidate genes
+using real-time quantitative RT-PCR (qRT-PCR) between UV-B-resistant (GCS731) and
+
+
+
+Plants 2021, 10, 1335
+3of15
+susceptible (Daepung [35]) genotypes, showing significantly higher expressions in the
+UV-B-resistant genotype.
+2. Results
+2.1. Phenotypic Evaluation of Soybean Germplasm Collection under Enhanced uV-B Conditions
+A total of 688 soybean germplasms were evaluated under UV-B enhanced conditions
+for two different phenotypic change responses to UV-B light: Damage of Leaf Chlorosis
+(DLC) and Damage of Leaf Shape (DLS) (Table S1). The phenotypic distribution of DLS
+showed a similar pattern to the normal distribution (Figure 1). Seventy-two (10.5%) and
+59 (8.6%) accessions were scored as grade 1 for DLC and DLS, respectively, and 36 (5.2%)
+accessions were scored as grade 1 for both DLC and DLS. Among these 36 accessions,
+GCS731 (IT025231) showed the most resistant phenotype.
+A 250
+B 250
+1
+of 150
+150
+a
+50
+50
+
+.ll.
+1 3 5 7 9
+1 3 5 7 9
+Grade
+Grade
+Figure 1. Phenotypic distributions of 688 soybean germplasm responses to enhanced UV-B radiation. (A) Damage of Leaf
+Chlorosis (B) Damage of Leaf Shape. Grade 1: same degree of damage with resistant soybean (GCS731). Grade 7: same
+degree of damage with susceptible soybean (Daepung).
+2.2. Genome-Wide Association Study (GWAS)
+Principal component analysis (PCA) and kinship analyses were conducted for popu-
+lation structure analysis using 65,762 high-quality SNPs with a compressed mixed linear
+model (CMLM). The variation of the first 10 principal components (PCs) showed an inflec-
+tion point at PC2, suggesting that the first two PCs dominated the population structure on
+the association mapping (Figure 2A,B). Weak genetic relatedness of the population was
+observed from the distribution of the coefficients from kinship analysis among the 688
+germplasms (Figure 2C). To identify SNPs associated with the UV-B-induced traits DLC
+and DLS, a GWAS was conducted for the 688 soybean germplasms using GAPIT [36]. The
+observed p-values of MLM followed the expected p-values of that for both DLC and DLS
+as shown in quantile- quantile plots (QQ plots), indicating that there is little chance of false
+positives due to the population structure (Figure 3). A total of five peaks were significantly
+associated with DLC and DLS with a p-value (FDR-unadjusted) threshold of 0.0001 (Table
+S2). No SNP was found at FDR-adjusted p-value < 0.05 due to high stringency [37]. For
+association with DLC, a single peak on chromosome 10 and two peaks on chromosome 11
+were identified. AX-90454793 on chromosome 10 and AX-90522955 and AX-90521132 on
+chromosome 11 were significantly associated with DLC with -log(p) == 4.06, 4.38 and 5.19,
+respectively. For association with DLS, single peaks were identified on both chromosomes
+2 and 6. AX-90334094 on chromosome 2 and AX-90333167 on chromosome 6 were signifi-
+cantly associated with DLS with -log(p) = 4.34 and 4.29, respectively. In total, five SNPS
+(chromosomes 2, 6, 10, and 11) were significantly associated with UV-B resistance traits,
+DLC and DLS (Table S2).
+
+
+
+Plants 2021, 10, 1335
+4of15
+8
+A
+8
+6
+C
+8
+sn E
+H
+de
+I
+1
+8
+&
+H
+8
+we
+8
+6
+10
+Principal components
+B
+8
+8
+8
+8
+150 8
+o
+100
+$
+-100
+-150
+820 -150 -100 -50 0 50 100
+PC1
+Figure 2. Population structure analysis of 688 soybean germplasm collection. (A) Variance of first 10 principal components
+reflected by 65,762 SNPS used in the GWAS. (B) Principal component analysis (PCA) of 65,762 SNPs indicating the
+population structure of 688 soybean accessions. (C) A heatmap of kinship matrix presenting genetic relatedness of
+688 soybean accessions.
+A 6
+Damageof Leaf Chlorosis (DLC)
+B
+MLM.DLC
+5
+12 14 16 18 19
+Chromosome
+Expected -logio(p)
+5
+Damageof Leaf Shape (DLS)
+MLM.DLS
+C
+D
+4
+3 3
+G
+2
+1
+5 6 7 8 9 10 12 14 16 18 20
+Chromosome
+Expected -logio(p)
+Figure 3. Manhattan plots and quantile-quantile (QQ) plots ofUV-B resistance traits. The upper red lines of the Manhattan
+plots indicate the threshold (-log(p) = 4) for significant SNPS (FDR-unadjusted p-value < 0.0001)(A) Manhattan plot for DLC
+(Damage ofLeafChlorosis); (B) QQ plot for DLC; (C) Manhattan plot for DLS (Damage ofLeafShape); (D) QQplot for DLS.
+
+
+
+Plants 2021, 10, 1335
+5of15
+2.3. Linkage Disequilibrium (LD) Analysis
+The ranges of LDI blocks that contain significant SNPS were estimated to narrow down
+the candidate genes nearby. For DLC, three peaks on chromosomes 10 and 11 represented
+by AX-90454793, AX-90522955, and AX-90521132 were examined (Table 1). AX-90454793
+on chromosome 10 was found inside an LD block 292 bp in size with a gene not associated
+with UV-B resistance (Figure S1). A 19,194 bp-long LD block carrying AX-90522955 on
+chromosome 11 also contained 18 genes not related to UV-B resistance (Figure S2), while
+AX-90521132 was located within another LD block on chromosome 11 that was 24,174bp
+in length with eight genes including Glyma.11g130800, which encodes the WD40 domain
+(Figure S3). For DLS, LD blocks comprising the peaks on chromosomes 2 and 6 were
+determined. AX-90334094 on chromosome 2 was located inside an LD block spanning
+29,095bp withnine genes (Figure 4A-C), while the LD block on chromosome 6 carrying
+AX-90333167 was 798,909 bp in size with 94 genes including Glyma.06g103200, which
+encodes CRY1 (Figure 4D-F).
+
+
+
+Plants 2021, 10, 1335
+6of15
+Table 1. List of single nucleotide polymorphisms significantly (FDR unadjusted p-value < 0.0001 or -log(p) > 4) associated with DLC (Damage of LeafChlorosis) and DLS (Damage of
+LeafShape).
+FDR
+R2 without R2 with FDR
+Linkage
+No. of
+Trait Chr.
+SNP
+Position Unadjusted -log(p) maf SNP
+SNP Adjusted Effect Disequilibrium Distance Genes
+p-Values
+p-Values
+Block
+10 AX-90454793 38322497 8.65 x 10 -5 4.06 0.16 0.02
+0.04
+0.57 -0.46 382,934-383,225 292 bp
+1
+AX-90522955 1168027 4.22 X 10-5 4.38 0.40 0.02
+0.05
+0.46 0.37 9,939,957-1,013,188 19,194bp
+18
+AX-90521132 9939957 6.50 X 10-6 5.19 0.08 0.02
+0.05
+0.28 -0.69 1,144,379-1,168,553 24,174bp
+8
+AX-90466824 9955814 7.83 X 10-5 4.11 0.16 0.02
+0.05
+0.57 -0.45
+DLC
+AX-90325683 10099676 1.27 X 10-5 4.90 0.08 0.02
+0.05
+0.28 -0.65
+11
+AX-90318887 10104602 1.27 x 10-5 4.90 0.08 0.02
+0.05
+0.28 -0.65
+AX-90379400 10109488 3.77 X 10-5 4.42 0.10 0.02
+0.05
+0.46 -0.57
+AX-90353742 10119213 3.73 X 10-5 4.43 0.10 0.02
+0.05
+0.46 -0.58
+AX-90477047 10121857 6.84 xX 10-5 4.16 0.10 0.02
+0.05
+0.56 -0.56
+AX-90427669 10126101 5.30 x 10-5 4.28 0.10 0.02
+0.05
+0.50 -0.58
+AX-90319706 15429030 6.67 X 10-5 4.18 0.18 0.05
+0.07
+0.63 -0.45
+AX-90457128 15430402 6.26 X 10-5 4.20 0.18 0.05
+0.08
+0.63 -0.46
+AX-90334094 15460775 4.56 X 10-5 4.34 0.18 0.05
+0.08
+0.63 -0.47 1,516,984-1,550,224 29,095bp
+9
+DLS 2 AX-90344232 15464333 0.0000847 4.07 0.19 0.05
+0.07
+0.64 -0.45
+AX-90436068 15467717 6.09 x 10-5 4.22 0.18 0.05
+0.08
+0.63 -0.46
+AX-90474824 15473795 6.60 X 10-5 4.18 0.18
+0.05
+0.07
+0.63 -0.45
+AX-90329251 15474547 6.60 X 10-5 4.18 0.18 0.05
+0.07
+0.63 -0.45
+6 AX-90333167 8071856 5.13 x 10-5 4.29 0.23 0.05
+0.08
+0.63 -0.43 7,516,555-8315,464 798,909 bp 94
+
+
+
+Plants 2021, 10, 1335
+7of15
+Damage ofLeafShape
+Damage of LeafShape
+Chr2
+Chr6
+A
+D
+:
+B
+3
+E
+PILD)
+PILD)
+1.00
+1.00
+a
+075
+9
+075
+de
+050
+8
+le
+050
+025
+025
+- 0.00
+0.00
+1500 1525 1550 15.75 1600
+85
+Position/Mip)
+Position/Mbp)!
+C
+CRY
+F AFB5
+WD40
+CRYI
+a
+1520
+sad
+isac
+600
+7700k
+79odk
+Boodk
+100
+8200
+receo BETETFE 8 i
+*
+ras 1 E
+#: -
+#
+Figure 4. Identification of candidate genes associated with DLS (Damage ofLeafShape) on chromosomes 2 and 16. (A) Manhattan plot of chromosome 2 with the threshold (-log(p) = 4) for
+significant SNPS. (B) Scatter plot centered on AX-90334094 with r2 (LD) values. (C) Gene models presented within the LDblock region. The candidate genes for UV-B resistance are
+marked withred arrows. (D) Manhattan plot of chromosome 6 with the threshold(-log(p) = 4) for significant SNPS. (E) Scatter plot centered on AX-90333167 with r2(LD) values. (F) Gene
+models present within the LD block region. The candidate genes for UV-B resistance are marked with red arrows.
+
+
+
+Plants 2021, 10, 1335
+8of15
+For each gene within these LD blocks, gene descriptions suggesting their potential
+functions were obtained from SoyBase and carefully curated to select genes that have
+functions related to UV-B resistance. We selected a total of five putative genes related toUV-
+B perception and resistance mechanisms such as WD40 domain, auxin-related protein, and
+photolyase (Table 2). Most interestingly, Glyma.02017500 and Glyma.06g103200 encoding
+cryptochromes are reported to have a similar structure to photolyase, which plays a role in
+repairing UV-B damaged DNA by photoreactivation [38].
+Table 2. Information of candidate genes for UV-B resistance.
+Trait Chr. Linkage Disequilibrium Candidate Gene
+Gene Position
+Description
+Block
+Transducin/WD40 repeat-like
+DLC1 11
+9,939,957-10,131.,882
+Glyma.11g130800
+9,983,698-9,993,001
+superfamily protein, WD40
+repeat family
+CRYPTOCHROME,
+2
+1,516,984-1,550,224
+Glyma.02g017500
+1,550,874-1,554,518
+photolyase/bluelight
+receptor 2, DNA repair, DNA
+photolyase activity
+Glyma.06g095400
+7,530,783-7,533,737
+Auxin F-box protein 5,
+protein binding
+DLS2
+Protein binding, related
+Glyma.06g097800
+7,725,465-7,766,431
+BEACH and WD40 repeat
+6
+7,516,555-8,315,464
+proteins, WD domain
+CRYPTOCHROME 1, DNA
+Glyma.06g103200
+8,205,073-8,210,842
+repair, blue/ultraviolet
+sensing protein C terminal,
+DNA photolyase activity
+1 DLC: Damage of LeafChlorosis. 2 DLS: Damage of Leaf Shape.
+2.4. Gene Expression Analysis by qRT-PCR
+Expression levels of the candidate genes were measured using qRT-PCR to identify
+UV-B-induced changes in gene expression under UV-B enhanced conditions. UV-B-resistant
+(GCS731) and susceptible (Daepung) soybean plants were treated with supplementary
+UV-B radiation for three different durations (0, 1, and 6 h) with three replicates. Total RNA
+was isolated from trifoliate leaves of the two genotypes, and qRT-PCR was conducted
+for two candidate genes, Glyma.06g103200 (CRY1) and Glyma.06g095400 (AFB5). For both
+genes, the expression levels were higher in UV-B-resistant GCS731 than UV-B susceptible
+Daepung throughout all three UV-B conditions (Figure 5A,B). Gly-ma.06g103200 (CRY1)
+was expressed more after being exposed to enhanced UV-B radiation for 1 h, and then
+its expression decreased at 6 h of irradiation for both resistant and susceptible genotypes
+(Figure 5A). Interestingly, a statistically significant and nearly three-fold difference was
+observed between GCS731 and Daepung after 61 h ofUV-B irradiation (Figure 5A). On the
+other hand, the expression levels of Glyma.06g095400 (AFB5) remained downregulated
+when exposed to supplementary UV-B radiation regardless of the duration (Figure 5B).
+However, the difference between the two genotypes was not statistically significant.
+
+
+
+Plants 2021, 10, 1335
+9of15
+Glyma.06g103200 (CRY1) relative expression
+Giym.06095400(4FBS) relative expression
+2
+2
+L
+T
+L
+1.5
+-
+1.5
+J 1
+1
+>
+D
+mDaepung
+mDaepoong
+0.5
+GCS731
+0.5
+N
+T
+HGCS731
+il
+1
+0
+0
+Ohr 1hr 6hr
+Ohr 1hr 6hr
+Hours of UV-Birradiation
+Hours ofUV-B irradiation
+(A)
+(B)
+Figure 5. Comparisons of gene expression levels between susceptible "Daepung" and resistant "GCS731" under UV-B
+irradiation of0, 1, and 6h. (A)Relative expression levels of Glyma.06g103200 encoding cryptochrome (CRY1). (B) Relative
+expression levels of Glyma.06g095400 encoding Auxin F-box 5 (AFB5).
+3. Discussion
+In this study, a total of 688 soybean germplasms from diverse genetic backgrounds
+were evaluated for their responses to enhanced UV-B radiation. Evaluated by two distinct
+phenotypic criteria based on changes in leafchlorosis (DLC) and shape (DLS), we identified
+36 accessions (5.2% of total germplasms) showing strong UV-B resistance with DLC and
+DLS scores of 1 (most resistant). For both DLC and DLS, the distributions of phenotype
+scores were close to a normal distribution and showed transgressive segregation. These
+results indicate that DLC and DLS are quantitative traits governed by polygenes. The
+plant has many direct and indirect effects from UV-B radiation such as damage to DNA,
+proteins, and membranes [39]. Thus, resistance to UV-B radiation is strongly related to
+various mechanisms involving DNA repair, perception of UV-B radiation, and removal of
+oxidative stress.
+Based on the GWAS results, we selected a total of five genes involved in response
+mechanisms to UV-B radiation. Among these genes, Glyma.11g130800 and Glyma.06g097800
+encode the WD40 domain, which plays an essential role in UV-B resistance. The WD40
+domain is one of the most abundant domains that function as platforms for protein-protein
+interactions and are involved in numerous biological processes including DNA damage
+and repair [40]. COP1 carries the WD40 domain and interacts with UVR8, the specific UV-B
+receptor. Moreover, RUP1 and RUP2 are members of the WD40 repeat protein family and
+interrupt the interaction between UVR8-COP1 [41]. Interestingly, many protein-containing
+"WDxR" motifs in their WD40repeat regions enhance the repair of damaged DNAS as seen
+in Cockayne syndrome A (CSA) [42], damaged DNA binding protein 1 (DDB1)[43], and
+WRAP53 beta [44].
+Auxin is a plant hormone that promotes cell elongation. Plants may bend their
+shoots and roots in response to UV-B radiation by managing plant hormones [45,46],
+and several studies havereported that UV-B radiation inhibits auxin biosynthesis [17,47].
+Glyma.06g095400 encodes Auxin F-box protein 5 (AFB5), and AFB5 is known as an auxin
+receptor that plays a role in mediating the leaf cell expansion and division by auxin [48,49].
+The regulation of auxin is linked to the transcription factors central to UV-B signaling. For
+example, HY5, a transcription factor of auxin signaling and transportation, is an essential
+factor for UV-B perception signaling [46,50,51]. Therefore, Glyma.06g095400 might be
+involved in UV-B signaling regulating auxin in soybean.
+Glyma.02g017500 and Glyma.06g103200 encode cryptochrome (CRY) and cryptochrome
+1 (CRY1) in soybean, respectively. Cryptochrome is a flavoprotein photoreceptor that
+senses blue light to regulate plant development and circadian clock [52]. The structure
+of cryptochrome is similar to that of the photoreactivation enzyme, which is considered
+
+
+
+Plants 2021, 10, 1335
+10of15
+an ancient photolyase [38]. Photolyase is also a flavoprotein that has a role in eliminating
+UV-induced CPDs in DNA during photoreactivation [13,38,52]. Photoreactivation was
+described lin 1949 as a DNA repair mechanism through which photodimers are removed by
+binding of photolyase to the damaged region [53]. Although cryptochrome is considered
+a protein that reduces DNA repair activity and has a novel function in signaling, several
+studies have shown that cryptochrome still acts as a DNA repair enzyme [54]. DNA repair
+is well known as a key process to overcome UV-induced damage. Thus, Glyma.02g017500
+and Glyma.06g103200 could be important enzymes that promote UV-B resistance in soybean.
+Similarly, an orthologous gene of RAD23reported as an NER-related gene has been reported
+as a gene associated with UV resistance in soybean [24].
+For Glyma.06g103200 (CRY1) and Glyma.06g095400 (AFB5), the gene expression levels
+between UV-B-resistant and susceptible soybeans were compared using qRT-PCR. CRY1
+showed higher expression in a resistant soybean (GCS731) throughout the different ir-
+radiation times. In addition, the expression levels after 1 and 6 h of UV-B irradiation
+showed significant differences between the two genotypes, suggesting an induced ex-
+pression of CRY1 in the resistant genotype. Furthermore, Auxin F-box 5 (AFB5) in both
+soybean varieties showed further downregulation as UV-B was irradiated for a longer
+time. In the resistant genotype, AFB5 was expressed higher compared to the susceptible
+genotype; however, the difference was not statistically significant. This might be because
+the auxin hormone is commonly spread out in plants for growth and development as well
+as UV-induced response [48].
+In this study, we selected genetic resources, including GCS731, which showed the
+strongest UV-B resistance among 688 soybean germplasms. These resources can be in-
+corporated into a breeding program to develop soybean varieties resistant to enhanced
+UV-B radiation. Due to global warming, crop cultivation may expand to higher latitude
+to avoid pests and diseases that become more severe in warm environments. Moreover,
+warmer temperature stimulates the depletion of the ozone layer, resulting in elevated UV-B
+radiation throughout crop cultivation. Therefore, UV-B-resistant varieties can be cultivated
+at higher latitude under elevated UV-B radiation without any loss of production.
+As most plants produce energy from solar radiation, they evolved to tolerate UV-B
+radiation throughout the entire life cycle. However, not much has been reported about UV-
+B resistance in soybean, while numerous studies have covered various aspects of resistance
+mechanisms in the model plant Arabidopsis. This study is the first to report a GWAS
+analysis conducted with a large set of soybean germplasms. We identified five significant
+peaks covering five genes with their potential functions related to UV-B responses. Further
+investigation of these candidate genes of UV-B resistance would give us insights into how
+the resistant soybean responds to enhanced UV-B radiation. Furthermore, evaluating
+soybean transplants overexpressing the candidate genes would validate the exact function
+of these genes under high intensity of UV-B radiation.
+4. Materials and Methods
+4.1. Plant Materials and Growth Conditions
+A collection of a total of 688 soybean germplasms consisting of 620 landraces, 33
+breeding lines, 29 varieties, and 6 accessions with unknown origin were obtained from
+the National Institute of Crop Science in the Rural Development Administration (RDA,
+Wanju, Korea) (Table S1). In the collection, 620 accessions were from South Korea, and 12,
+9, 4, and 1 accessions were from the USA, Japan, China, and North Korea, respectively.
+Soybean plants were cultivated in a growth chamber and an experimental greenhouse at
+Dankook University, Cheonan, Korea. With Daepung [35] (UV-B susceptible) and GCS731
+(UV-B-resistant) as control plants, each accession was planted in 27 cm wide X 53 cm long
+trays with 50 holes filled with synthetic cultivation soil and organized in a completely
+randomized design with three replicates.
+
+
+
+Plants 2021, 10, 1335
+11of15
+4.2. Evaluation of uV-B Resistance
+Evaluation of UV-B resistance under enhanced UV-B radiation was conducted accord-
+ing to a previous study with minor modifications [23,24]. Artificial irradiation systems
+using UV-B lamps (TL 20W/01 RS 312 nm UV-B narrowband lamp, Philips) were installed
+in the growth chamber and the greenhouse at Dankook University, Cheonan, Korea. The
+soybean plants were transferred to the UV-B irradiation system and irradiated at the V2
+stage for 6h per day (10:00-16:00) for 14 days. For uniform UV-B intensity of 3.0-3.5 Wm -2 1
+the distances from the UV-B lamps to the tops of the plants were maintained between 20
+and 30 cm [24]. The UV-B intensity was checked repeatedly using a UV-radiometer (DO
+9847, Delta OHM) with an LP 471 UV-B sensor. After 14 days of irradiation, the levels of
+leaf damage due to supplemental UV-B light were measured. The degree of leaf chlorosis
+(DLC) and the degree of leaf shape change (DLS) were determined with scores from 1
+to 9 by comparing the phenotypes with control plants within each tray ("1" for 0-10%
+damage, "3" for 10-30% damage, "5" for 30-50% damage, "7" for 50-70% damage, and "g"
+for 70-90% damage) (Figure 6). To minimize phenotyping errors, soybean accessions with
+each measurement below three on average (DLC < 3 or DLS < 3) were tested twice with
+three replicates per accession.
+A
+Resistant soybean (GCS731)
+Susceptible soybean (Daepung)
+B
+1
+3
+5
+7b
+DLC
+I ae
+DLS
+Figure 6. (A) Phenotypic differences between resistant soybean (GCS731) and susceptible soybean (Daepung) after 2 weeks
+ofUV-B irradiation. (B) Levels of leaf damage after 2 weeks of UV-B irradiation in soybean. 1: 0-10% damage, 3: 10-30%
+damage, 5: 30-50% damage, 7: 50-70% damage, 9: 70-90% damage, DLC: Damage of Leaf Chlorosis, DLS: Damage of
+Leaf Shape. 1a: same degree of damage with resistant soybean (GCS731). 7b: same degree of damage with susceptible
+soybean (Daepung).
+4.3. Genome-Wide Association Study (GWAS)
+For population structure analysis, PCA and kinship plots were generated using the
+genome association and prediction integrated tool (GAPIT) package in the R program [55]
+and a heat map of kinship matrix was created using the VanRaden kinship algorithm [56].
+SNP genotyping data of soybean germplasms generated using 180K Axiome Soya SNP
+array [35] were obtained from the National Institute of Crop Science in the Rural Devel-
+opment Administration (RDA, Wanju, Korea). SNPS with a minor allele frequency under
+5% (MAF < 5%) were excluded to remove low-quality SNPS, which generated a final set of
+65,762 high-quality SNPs for GWAS analysis. The GWAS was performed using GAPIT [55]
+with defaultsettings. A mixed linear model (MLM), which generally outperforms a general
+linear model (GLM) by adding random effects of SNPs, was used to analyze associations
+between SNP genotypes and UV-B responses. The false discovery rate (FDR) adjusted
+
+
+
+Plants 2021, 10, 1335
+12of15
+p-values from GAPIT were found to be very stringent because the marker effects could have
+been overcorrecting based on both population structure Q and kinship K [57,58]. Therefore,
+an FDR-unadjusted p-value of0.0001 was used as the threshold to identify significant SNPs
+for UV-B resistance.
+4.4. Linkage Disequilibrium (LD) Analysis and Candidate Gene Identification
+LD analysis was performed using PLINK software with an LD window lengthof 1 Mb
+and an unlimited number of variants within the LD window (-12-ld-window-kb 1000 -ld-
+window 99999) [28,59]. LD blocks containing significant SNPs were searched using the
+genome browser at Phytozome (https:/ /phytozomeigidoe.gov /jbrowse/,accessed on
+21 June 2021) to narrow down candidate genes responsible for UV-B resistance. Functional
+descriptions of candidate genes were obtained from the SoyBase website (https://soybase.
+on/82/ghowe/.acesed on 21 June 2021) [60].
+4.5. Real-Time Quantitative Reverse Transcription PCR
+For RNA extraction, a resistance soybean GCS731 and a susceptible soybean Daepung
+were irradiated by UV-B at the V2 stage with three replicates. Fully expanded trifoliate
+leaves were harvested from each plant according to the irradiation time: 0,1,6h[61]. The
+harvested leaves were frozen immediately in liquid nitrogen and ground into a powder
+withbeadsi in a2mLtube. Total RNA was isolated from the groundleaves using the RNeasy
+Mini Kit (QIAGEN). The quantity of total RNA was estimated using Nanodrop, and 1 ug
+of total RNA was used for reverse transcription. First-strand cDNA was synthesized using
+CDNA EcoDry Premix (TaKaRa, Clontech, Cellartis).
+Real-time quantitative reverse transcription PCR (qRT-PCR) was performed on an ABI
+7500 real-time PCR machine with 2x QuantiTect SYBR Green PCR Master Mix (Biosystems,
+Germantown, MD, USA). The primers of genes were designed based on CDS sequences
+obtained at Phytozome. To minimize amplification error due to DNA contamination,
+primers sets were designed from exon-exonjunctions. The amount ofcDNA was normalized
+to the B-ACTIN reference gene [62]. Two replicate reactions were performed for each
+sample, and the 2 AACT method [63] was used to convert the Ct value (quantification
+cycles) into the relative quantities. The amplification conditions were as follows: 95 °C for
+5 min followed by 40 cycles of 95 C for 5 S, 60 C for 10 S, and 95 C for 15 S. The melting
+temperature was 60 C for 1 min.
+5. Conclusions
+In this study, we identified UV-B-resistant soybeans by evaluating the phenotypic
+changes of 688 soybean germplasms under UV-B enhanced conditions. We conducted
+a GWAS analysis for UV-B resistance, which is first to report on soybean, resulting in
+five significant peaks that narrowed into five candidate genes related to UV-B responses.
+Among these genes, CRY and CRY1 were the most presumed genes for UV-B resistance
+due to their function associated with the DNA repair process. Cryptochrome protein is
+structurally similar to photolyase, which repairs damaged DNA in a photoreactivation
+process. Furthermore, the expression level of CRY1 was statistically significantly higher
+in resistance soybean GCS731 compared to susceptible soybean Daepung. SNP markers
+AX-90334094 and AX-90333167 with the candidate genes CRY and CRY1 couldbe usedin
+marker-assisted selection when breeding UV-B-resistant soybean.
+Supplementary Materials: The following are available online at Hp/wwwmdpiem/amdel
+10330/plambs1007133/al, Figure S1: Identification of the candidate genes associated with DLC
+(Damage of Leaf Chlorosis) on chromosome 10, Figure S2: Identification of the candidate genes
+associated with DLC (Damage of Leaf Chlorosis) on chromosome 11, Figure S3: Identification of
+the candidate genes associated with DLC (Damage of Leaf Chlorosis) on chromosome 11, Table S1:
+Information of 688 soybean germplasms used in this study.
+
+
+
+Plants 2021, 10, 1335
+13of15
+Author Contributions: Conceptualization and supervision, S.K; methodology, T.L., IS.,J.H. andJJ.;
+software, T.L. andJ.-M.K.; resources,J-K.M.; data curation,J.L.; writing-original draft preparation,
+T.L.; writing -review and editing, K.D.K. and S.K. All authors have read land agreed to the published
+version of the manuscript.
+Funding: This research was funded by the National Research Foundation of Korea (Project No.
+NRE-ZUIGRIDIALAGMISPO,
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict ofinterest.
+References
+1. Montzka, S.A.; Dutton, G.; Yu, P.; Ray, E.; Portmann, R; Daniel, J.S.; Kuijpers, L.; Hall, B.D.; Mondeel, D.; Siso, C.; et al. An
+unexpected and persistent increase in global emissions of ozone-depleting CFC-11. Nat. Cell Biol. 2018, 557, 413-417. [CrossRef]
+2. Hossaini, R.; Chipperfield, M.; Montzka, S.A.; Leeson, A.A.; Dhomse, S.S.; Pyle, J.A. The increasing threat to stratospheric ozone
+from dichloromethane. Nat. Commun. 2017,8, 15962. [CrossRef]
+3. Hollosy, F. Effects of ultraviolet radiation on plant cells. Micron 2002, 33, 179-197. [CrossRef]
+4. Deckmyn, G.;Impens, I. Combined effects of enhanced UV-B radiation and nitrogen deficiency on the growth, composition and
+photosynthesis of rye (Secale cereale). Plant Ecol. 1997, 128, 235-240. [CrossRef]
+5. Pang, Q;Hays,J.B. UV-B-Inducible and Temperature-Sensitive PhotoreactivationofCyclobutane Pyrimidine Dimers inArabidopsis
+thaliana. Plant Physiol. 1991, 95, 536-543. [CrossRef]
+6. Mitchell, D.L.; Nairn, R.S. The Biology of the (6-4) Photoproduct. Photochem. Photobiol. 1989, 49, 805-819. [CrossRef]
+7. Teramura, A.H. Effects ofUltraviolet-B Irradiances on Soybean: II. Interaction between Ultraviolet-B and Photosynthetically
+Active Radiation on Net Photosynthesis, Dark Respiration, and Transpiration. Plant Physiol. 1980, 65, 483-488. [CrossRef]
+[PubMed]
+8. Hectors, K.; Van Oevelen, S.; Guisez, Y.; Prinsen, E.;Jansen, M.A.K. The phytohormone auxin is a component of the regulatory
+system that controls UV-mediated accumulation of flavonoids and UV-induced morphogenesis. Physiol. Plant 2012, 145, 594-603.
+[CrossRef]
+9. Chow, W.S.; Anderson, J.M. UV-B damage and protection at the molecular level in plants. Photosynth. Res. 1994, 39, 475-489.
+[CrossRef]
+10. Kalbin, G.; Ohlsson, A.B.; Berglund, T.; Rydstrom, J; Strid, A. Ultaviolet-B-ndationindued changes in nicotinamide and
+glutathione metabolism and gene expression in plants. Eur. J. Biochem. 1997, 249, 465-472. [CrossRef]
+11. Hidema, J.; Taguchi, T.; Ono, T.; Teranishi, M.; Yamamoto, K.; Kumagai, T. Increase in CPD photolyase activity functions
+effectively to prevent growth inhibition caused by UVB radiation. Plant J. 2007, 50, 70-79. [CrossRef]
+12. Takahashi, M.; Teranishi, M.; Ishida, H.; Kawasaki,J; Takeuchi, A.; Yamaya, T; Watanabe, M.; Makino, A.; Hidema.J.Cyclobutane
+pyrimidine dimer (CPD) photolyase repairs ultraviolet-B-induced CPDs in rice chloroplast and mitochondrial DNA. Plant J. 2011,
+66, 433-442. [CrossRef]
+13. Sancar, A. Structure and function of DNA photolyase. Biochemistry 1994, 33, 2-9. [CrossRefPubMed)
+14. Biever,JJ.:Gardner, G. The relationship between multiple UV-B perception mechanisms and DNA repair pathways in plants.
+Environ. Exp. Bot. 2016, 124, 89-99. [CrossRef]
+15. Biedermann, S.S.M.; Hellmann, H. Recognition and Repair Pathways ofDamaged DNA in Higher Plants; IntechOpen: Rijeka, Croatia,
+2011;pp. 201-236.
+16. Favory, J.-J.; Stec, A.; Gruber, H.; Rizzini, L.; Oravecz, A.; Funk, M.; Albert, A.; Cloix, C.; Jenkins, I.G.; Oakeley, E.J.; et al.
+Interaction of COP1 and UVR8 regulates UV-B-induced photomorphogenesis and stress acclimation in Arabidopsis. EMBOJ.
+2009, 28, 591-601. [CrossRef] [PubMed]
+17. Hayes, S.; Velanis, C.; Jenkins, G.I.; Franklin, K.A. UV-B detected by the UVR8 photoreceptor antagonizes auxin signaling and
+plant shade avoidance. Proc. Natl. Acad. Sci. USA 2014, 111, 11894-11899. [CrossRef]
+18. Hofmann, N.R. The Molecular Mechanism of the UVR8 UV-B Photoreceptor. Plant Cell 2012, 24, 3485. [CrossRefIPubMed)
+19. Barnes, P.W.; Flint, S.D.; Caldwell, M.M. Morphological Responses of Crop and Weed Species of Different Growth Forms to
+Ultraviolet-B Radiation. Am. J. Bot. 1990, 77, 1354-1360. [CrossRef]
+20. Feng, H.; An, L.; Chen, T.; Qiang, W.; Xu, S.; Zhang, M.; Wang, X.; Cheng, G. The effect of enhanced ultraviolet-B radiation
+on growth, photosynthesis and stable carbon isotope composition (813C) of two soybean cultivars (Glycine max) under field
+conditions. Environ. Exp. Bot. 2003, 49, 1-8. [CrossRef]
+21. Liu, B.; Liu, X.-B.; Li, Y.-S.; Herbert, S. Effects of enhanced UV-B radiation on seed growth characteristics and yield components in
+soybean. Field Crops Res. 2013, 154, 158-163. [CrossRef]
+
+
+
+Plants 2021, 10, 1335
+14of15
+22. Kim, E.H.; Seguin, P.; Lee, J.E.; Yoon, C.G.; Song, H.-K.; Ahn, J.-K.; Chung, I.-M. Elevated Ultraviolet-B Radiation Reduces
+Concentrations of Isoflavones and Phenolic Compounds in Soybean Seeds. J. Agron. Crop Sci. 2011, 197, 75-80. [CrossRef]
+23. Shim, H.-C.;Ha, B.-K.; Yoo, M.; Kang, S.-T. Detection of quantitative trait loci controlling UV-B resistance in soybean. Euphytica
+2014, 202, 109-118. [CrossRef]
+24. Lee,J.S.; Kim, S.; Ha, B.-K.; Kang, S. Positional mapping and identification ofnovel quantitative trait locus responsible for UV-B
+radiation tolerance in soybean [Glycine max (L.) Merr.]. Mol. Breed. 2016, 36. [CrossRef]
+25. Kim, K.D.; Yun, M.Y.; Shin, J.H.; Kang, Y.J.; Kim, M.Y.; Lee, S.-H. Underlying genetic variation in the response of cultivated and
+wild soybean to enhancedulraviolet-B radiation. Euphytica 2014, 202, 207-217. [CrossRef]
+26. Yoon, M.Y.; Kim, M.Y.;Ha,J; Lee, T.; Kim, K.D.; Lee, S.-H. QTL Analysis of Resistance to High-Intensity UV-B Irradiation in
+Soybean (Glycine max [L.] Merr.). Int. J.Mol. Sci. 2019, 20, 3287. [CrossRef]
+27. Ersoz, E.S.; Yu,J; Buckler, E.S. Applications of Linkage Disequilibrium and Association Mapping in Crop Plants. In Genomics-
+Assisted Crop Improvement; Springer: Dordrecht, The Netherlands, 2007; Volume 1, pp. 97-119.
+28. Shim, S.;Ha,J.; Kim, M.Y; Choi, M.S.; Kang,S.-T;Jeong, S-C:;Moon,J-K.; Lee, S.-H. GmBRC1 is a Candidate Gene for Branching
+in Soybean (Glycine max (L.) Merrill). Int. J.Mol. Sci. 2019, 20, 135. [CrossRef]
+29. Jing, Y.; Zhao, X.; Wang, J;Lian, M.; Teng, W.;Qiu, L.; Han, Y.;Li, W. Identification of loci and candidate genes for plant height in
+soybean (Glycine max) via genome-wide association study. Plant Breed. 2019, 138, 721-732. [CrossRef]
+30. Wang, L.; Yang, Y.;Zhang, S.; Che, Z.; Yuan, W.; Yu, D. GWAS reveals two novel loci for photosynthesis-related traits in soybean.
+Mol. Genet. Genom. 2020, 295, 705-716. [CrossRef]
+31. Chang, H.-X.; Hartman, G.L. Characterization of Insect Resistance Loci in the USDA Soybean Germplasm Collection Using
+Genome-Wide Association Studies. Front. Plant Sci. 2017, 8, 670. [CrossRefIPubMed)
+32. Che, Z.; Yan, H.;Liu, H.; Yang, H.;Du, H.; Yang, Y.; Liu, B.; Yu, D. Genome-wide association study for soybean mosaic virus SC3
+resistance in soybean. Mol. Breed. 2020, 40, 1-14. [CrossRef]
+33. Hyten, D.; Song, Q; Choi, I-Y.; Yoon, M.-S.; Specht, J.E.; Matukumalli, L.K.; Nelson, R.L.; Shoemaker, R.C.; Young, N.D.;
+Cregan, P.B. High-throughput genotyping with the GoldenGate assay in the complex genome of soybean. Theor. Appl. Genet.
+2008, 116, 945-952. [CrossRefIPubMed)
+34. Song, Q.; Hyten, D.L.; Jia, G.; Quigley, C.V; Fickus, E.W.; Nelson, R.L.; Cregan, P.B. Development and Evaluation of SoySNP50K,
+aHigh-Density Genotyping Array for Soybean. PLOS ONE 2013,8, e54985. [CrossRefIPubMed)
+35. Lee, Y.-G.; Jeong, N.; Kim, J.H.; Lee, K.; Kim, K.H.; Pirani, A.; Ha, B.-K.; Kang, S.-T.; Park, B.-S;Moon,J-K; et al. Development,
+validation and genetic analysis ofa large soybean SNP genotyping array. Plant J. 2015, 81, 625-636. [CrossRef]
+36. Tang, Y.; Liu, X.; Wang, J; Li, M.; Wang, Q; Tian, F; Su, Z.; Pan, Y.; Liu, D.; Lipka, A.E.; et al. GAPIT Version 2: An Enhanced
+Integrated Tool for Genomic Association and Prediction. Plant Genome 2016, 9. [CrossRef]
+37. Muller, B.U.;Stich, B.; Piepho, H.-P. A general method for controlling the genome-wide typelerror rate in linkage and association
+mapping experiments in plants. Heredity 2010, 106, 825-831. [CrossRefPubMed)
+38. Muller, M.; Carell, T. Structural biology of DNA photolyases and cryptochromes. Curr. Opin. Struct. Biol. 2009, 19, 277-285.
+[CrossRef]
+39. Jansen, M.A.;Gaba, V.;Greenberg, B.M. Higher plants and UV-B radiation: Balancing damage, repair and acclimation. Trends
+Plant Sci. 1998, 3, 131-135. [CrossRef]
+40. Yang, X.; Yan, J.; Shah, T.; Warburton, M.L.; Li, Q; Li, L.; Gao, Y.; Chai, Y.; Fu, Z.; Zhou, Y.; et al. Genetic analysis and
+characterization of fa new maize association mapping panel for quantitative trait loci dissection. Theor. Appl. Genet. 2010, 121,
+417-431. [CrossRef]
+41. Tossi, V.E.; Regalado, J.J.; Iannicelli, J; Laino, L.E.; Burrieza, H.P; Escandon, A.S.; Pitta-Alvarez, S.I. Beyond Arabidopsis:
+Differential UV-B Response Mediated by UVR8 in Diverse Species. Front. Plant Sci. 2019, 10, 780. [CrossRef]
+42. Zhang, C.; Guo, H.; Zhang, J.; Guo, G.; Schumaker, K.S.; Guo, Y. Arabidopsis Cockayne Syndrome A-Like Proteins 1A and 1B
+Form a Complex with CULLIN4 and Damage DNA Binding Protein 1A and Regulate the Response to UV Irradiation. Plant Cell
+2010, 22, 2353-2369. [CrossRef]
+43. Al Khateeb, W.M.; Schroeder, D.F. Overexpression of Arabidopsis damaged DNA binding protein 1A (DDB1A) enhances UV
+tolerance. Plant Mol. Biol. 2009, 70, 371-383. [CrossRef]
+44. Rassoolzadeh, H.; Bohm, S.; Hedstrom, E.; Gad, H.; Helleday, T.; Henriksson, S.; Farnebo, M. Overexpression of the scaffold
+WD40 protein WRAP53beta enhances the repair of and cell survival from DNA double-strand breaks. Cell Death Dis. 2016, 7,
+e2267. [CrossRef]
+45. Vandenbussche, F; Tilbrook, K.; Fierro, A.C.; Marchal, K.; Poelman, D.; Van Der Straeten, D.; Ulm, R. Photoreceptor-Mediated
+Bending towards UV-B in Arabidopsis. Mol. Plant 2014, 7, 1041-1052. [CrossRef]
+46. Vanhaelewyn, L.; Prinsen, E.; Van Der Straeten, D.; Vandenbussche, F. Hormone-controlled UV-B responses in plants. J. Exp. Bot.
+2016, 67, 4469-4482. [CrossRef]
+47. Hayes, S.; Sharma, A.; Fraser, D.P; Trevisan, M.; Cragg-Barber, C.K.; Tavridou, E.; Fankhauser, C.;Jenkins, G.I; Franklin, K.A.
+UV-B Perceived by the UVR8 Photoreceptor Inhibits Plant Thermomorphogenesis Curr. Biol. 2017, 27, 120-127. [CrossRef]
+[PubMed]
+48. Dharmasiri, N.; Dharmasiri, S.; Weijers, D.; Lechner, E.; Yamada, M.; Hobbie, L; Ehrismann,JS:largens, G.; Estelle, M. Plant
+Development Is Regulated by a Family of Auxin Receptor F Box Proteins. Dev. Cell 2005, 9, 109-119. [CrossRefPubMed)
+
+
+
+Plants 2021, 10, 1335
+15of15
+49. Villalobos, L.I.A.C.; Lee, S.; De Oliveira, C.; Ivetac, A.; Brandt, W.; Armitage, L.; Sheard, L.B.; Tan, X.; Parry, G.; Mao, H.; et al.
+A combinatorial TIRI/AFB-Aux/IAA co-receptor system for differential sensing of auxin. Nat. Chem. Biol. 2012, 8, 477-485.
+[CrossRef] [PubMed]
+50. Yadav, A.; Singh, D.; Lingwan, M.; Yadukrishnan, P; Masakapalli, S.K.; Datta, S. Light signaling and UV-B-mediated plant growth
+regulation. J. Integr. Plant Biol. 2020, 62, 1270-1292. [CrossRef]
+51. Galvao, V.C.; Fankhauser, C. Sensing the light environment in plants: Photoreceptors and early signaling steps. Curr. Opin.
+Neurobiol. 2015, 34,46-53. [CrossRefPubMed)
+52. Chaves, L;Pokorny, R.; Byrdin, M.; Hoang, N.; Ritz, T; Brettel, K; Essen, L.-O.; van der Horst, G.; Batschauer, A.; Ahmad, M. The
+Cryptochromes: Blue Light Photoreceptors in Plants and Animals. Annu. Rev. Plant Biol. 2011, 62, 335-364. [CrossRef]
+53. Wulff, D.L.; Rupert, C.S. Disappearance of thymine photodimer in ultraviolet irradiated DNA upon treatment with a photoreacti-
+vating enzyme from Baker's yeast. Biochem. Biophys. Res. Commun. 1962, 7, 237-240. [CrossRef]
+54. Tagua, V.G.; Pausch, M.; Eckel, M.; Gutiérrez, G.; Miralles-Duran, A.; Sanz, C.; Eslava, A.P; Pokorny, R.; Corrochano, L.M.;
+Batschauer, A. Fungal cryptochrome with DNA repair activity reveals an early stage in cryptochrome evolution. Proc. Natl. Acad.
+Sci. USA 2015, 112, 15130-15135. [CrossRef]
+55. Lipka, A.E.; Tian, F; Wang, Q; Peiffer, J; Li, M.; Bradbury, PJ.; Gore, M.; Buckler, E.S.; Zhang, Z. GAPIT: Genome association and
+prediction integrated tool. Bioinformatics 2012, 28, 2397-2399. [CrossRef]
+56. VanRaden, P.M. Efficient Methods to Compute Genomic Predictions. J. Dairy Sci. 2008, 91, 4414-4423. [CrossRef] [PubMed]
+57. Astorkia, M.; Hernandez, M.; Bocs, S.; De Armentia, E.L.; Herran, A.; Ponce, K; Leon, O.; Morales, S.; Quezada, N.; Orel-
+lana,F;et al. Association Mapping Between Candidate Gene SNP and Production and Oil Quality Traits in Interspecific OilPalm
+Hybrids. Plants 2019, 8, 377. [CrossRef]
+58. Gao, L.; Turner, M.K.; Chao, S.; Kolmer, J.; Anderson, J.A. Genome Wide Association Study of Seedling and Adult Plant Leaf Rust
+Resistance in Elite Spring Wheat Breeding Lines. PLOS ONE 2016, 11, e0148671. [CrossRef]
+59. Purcell, S.; Neale, B.; Todd-Brown, K.; Thomas, L.; Ferreira, M.A.; Bender, D.; Maller, J.; Sklar, P; de Bakker, PI.W.; Daly, M.J.;et al.
+PLINK: A tool set for whole-genome association and population-based linkage analyses. Am. J. Hum. Genet. 2007, 81, 559-575.
+[CrossRef]
+60. Grant, D.; Nelson, R.T.; Cannon, S.B.; Shoemaker, R.C. SoyBase, the USDA-ARS soybean genetics and genomics database. Nucleic
+Acids Res. 2009, 38, 843-846. [CrossRef]
+61. Yoon, M.Y; Kim, M.Y; Shim, S.; Kim, K.D.; Ha, J.; Shin, J.H.; Kang, S.; Lee, S.-H. Transcriptomic Profiling ofSoybean in Response
+to High-Intensity UV-B Irradiation Reveals Stress Defense Signaling. Front. Plant Sci. 2016, 7,1917. [CrossRef]
+62. Guénin, S.; Mauriat, M.; Pelloux, J.; Van Wuytswinkel, O.; Bellini, C.; Gutierrez, L. Normalization of qRT-PCR data: The necessity
+of adopting a systematic, experimental conditions-specific, validation of references. J. Exp. Bot. 2009, 60, 487-493. [CrossRef]
+63. Rao, X.; Huang, X.; Zhou, Z.; Lin, X. An improvement of the 2(-delta delta CT) method for quantitative real-time polymerase
+chain reaction data analysis. Biostat. Bioinform. Biomath. 2013, 3, 71-85.

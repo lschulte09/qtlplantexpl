@@ -1,0 +1,1043 @@
+Yan et al. BMC Genomics (2017) 18:529
+DOI 10118651286401739220
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+CrossMark
+Identification of QTL with large effect on
+seed weight in a selective population of
+soybean with genome-wide association
+and fixation index analyses
+Long Yan', Nicolle Hofmann27, Shuxian Li3, Marcio Elias Ferreira*, Baohua Song", Guoliang Jiangs, Shuxin Rens,
+Charles Quigley?, Edward Fickus?, Perry Cregan? and Qijian Song?"
+Abstract
+Background: Soybean seed weight is not only a yield component, but also a critical trait for various soybean food
+products such as sprouts, edamame, soy nuts, natto and miso. Linkage analysis and genome-wide association study
+(GWAS) are two complementary and powerful tools to connect phenotypic differences to the underlying
+contributing loci. Linkage analysis is based on progeny derived from two parents, given sufficient sample size and
+biological replication, it usually has high statistical power to map alleles with relatively small effect on phenotype,
+however, linkage analysis of the bi-parental population can't detect quantitative trait loci (QTL) that are fixed in the
+two parents. Because of the small seed weight difference between the two parents in most families of previous
+studies, these populations are not suitable to detect QTL that have considerable effects on seed weight GWAS is
+based on unrelated individuals to detect alleles associated with the trait under investigation. The ability of GWAS
+to capture major seed weight QTL depends on the frequency of the accessions with small and large seed weight
+in the population being investigated. Our objective was to identify QTL that had a pronounced effect on seed
+weight using a selective population of soybean germplasm accessions and the approach of GWAS and fixation
+index analysis.
+Results: We selected 166 accessions from the USDA Soybean Germplasm Collection with either large or small seed
+weight and could typically grow in the same location. The accessions were evaluated for seed weight in the field
+for two years and genotyped with the SoySNP50K BeadChip containing >42,000 SNPS. Of the 17 SNPS on six
+chromosomes that were significantly associated with seed weight in two years based on a GWAS of the selective
+population, eight on chromosome 4 or chromosome 17 had significant Fst values between the large and small
+seed weight sub-populations. The seed weight difference of the two alleles of these eight significant SNPS varied
+from 8.1 g to 11.7 g/100 seeds in two years. We also identified haplotypes in three haplotype blocks with
+significant effects on seed weight. These findings were validated in a panel with 3753 accessions from the USDA
+Soybean Germplasm Collection.
+(Continued on next page)
+:Correspondence Q,janSong@arsusdagov
+2Soybean Genomics and Improvement Laboratory, United States Department
+of Agriculture, Agricultural Research Service, 10300 Baltimore Ave, Building
+006, Beltsville, MD 20705, USA
+Full list of author information is available at the end of the article
+OThe Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BioMed Central International License fhtp/ceatvecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+Omp/cesbecommonsoyp/pubicdomanveonlon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 2 of 11
+(Continued from previous page)
+Conclusion: This study highlighted the usefulness of selective genotyping populations coupled with GWAS and
+fixation index analysis for the identification of QTL with substantial effects on seed weight in soybean. This
+approach may help geneticists and breeders to more efficiently identify major QTL controlling other traits. The
+major regions and haplotypes we have identified that control seed weight differences in soybean will facilitate the
+identification of genes regulating this important trait.
+Keywords: Soybean, Selective population, Seed weight, GWAS, SNP, Fixation index analysis
+Background
+[1, 3, 5-11]. Several GWAS were conducted to identify
+Soybean [Glycine max (L.) Merr.] is one of the most im- seed weight QTL based on the single nucleotide poly-
+portant crops worldwide. It accounts for about 68% of morphism (SNP) BeadChip Assay or genome re-
+the world protein meal and 57% of the world vegetable sequencing. Zhang et al. [1] conducted GWAS of seed
+oil production. Soybean seed weight is not only a yield weight in a population with 309 soybean accessions from
+component, but also a critical trait for various soybean Maturity Groups 0 and 00. The seed weight for most ac-
+food products such as sprouts, edamame, soy nuts, natto cessions was between 13.1-17.1 g. In another study,
+and miso [1]. Soybean seed weight is a complex trait af- Zhang et al. [10] analyzed 366 landrace accessions that
+fected by many genetic and environmental factors such were native to six soybean eco-regions in China, but only
+as temperature and precipitation during the seed devel- 41 accessions had 100 seed weights larger than 20 g. Zhou
+opment stage. The heritability of soybean seed weight et al. [11] randomly selected 286 soybean accessions in-
+has been reported to range from 44 to 94% [2].
+cluding 14 wild, 153 landrace, and 119 derived from
+Linkage analysis and genome-wide association studies breeding programs from six geographic regions in China
+(GWAS) are two complementary and powerful tools to for the detection of seed weight QTL. However, the low
+connect phenotypic differences to the underlying causa- frequency of QTL alleles with substantial effect in these
+tive loci. Previous studies have identified quantitative association panels may limit the power of GWAS [12]
+trait loci (QTL) associated with seed weight in soybean since the effects of such low frequency alleles may not be
+recombinant inbred lines (RILS) and these QTL are doc- captured. Bandillo et al. [13] reported that if the frequency
+umented in SoyBase [3]. This information will help of the seed protein-enhancing QTL alleles was lower than
+breeders and geneticists to understand the genetic archi- the minor allele frequency (MAF) threshold of GWAS,
+tecture underlying seed weight. Since linkage analysis is the QTL that were previously identified and confirmed in
+based on progeny derived from two parents, linkage ana- bi-parental QTL mapping populations could not be de-
+lysis of the bi-parental population can't detect QTL that tected by GWAS. In addition, as most previously studied
+are fixed in the two parents. As the number of recombin- association populations included accessions from a wide
+ation events in each soybean RIL is limited [4], resolution range of maturity groups, these accessions may not be well
+of the QTL position on the linkage map is frequently low. adapted to the same growing environment and would re-
+There were caveats in the previous soybean seed weight sult in immature or abnormal seeds for seed weight
+reports, e. g., some of the RIL populations were developed measurement.
+for the detection of QTL for other traits, not specifically Selective genotyping is a term first used by Lander and
+for seed weight. Among 24 G.max x G.max RIL popula- Botstein [14] to describe studies that only individuals
+tions used for the detection of seed weight QTL in the from the high and low extremes of the trait distribution
+past decades as described in SoyBase [3], a total of 16 pop- are selected to test the association of traits with markers.
+ulations had seed weight differences of less than 5.0 g/100 The value of selective genotyping for GWAS has been
+seeds between the two parents used in each cross. Thus, widely recognized in human association studies [15-17],
+subsequent analysis of these populations was highly un- e.g. case and control is the commonly used design to
+likely to identify QTL with substantial effects. Also, it was include only the two types of extreme individuals in
+unlikely to detect QTL correctly due to experimental ef- human epidemiology studies and clinic trials. The
+fects. Even though some QTL have been identified, it has method is very effective for screening a large number of
+been difficult to distinguish QTL with major or minor potential donors for large-effect QTL alleles governing a
+effects.
+particular trait of interest [12, 18]. Simulation showed
+GWAS is based on population samples of unrelated that for a fixed number of phenotypic individuals this
+individuals to detect alleles associated with a trait under approach increased power relative to random sampling
+study and has been widely used to detect agronomic, and may reduce statistical error [18, 19]. The approach
+seed composition and disease resistance QTL in soybean was considered as an efficient alternative to the analysis
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 3 of 11
+of the entire population in linkage analysis and GWAS Population structure
+[20], and has been used to identify genes controlling vari- A total of 7244 SNPs with LD less than 0.50 to adjacent
+ous traits in a number of bi-parental segregating popula- loci were selected using the program PLINK (Version
+tions of species such as barley, rice and soybean [12, 18, 1.07) [25] and were used to examine the population
+20]. Nonetheless the creation of association panels using structure of the 166 accessions using STRUCTURE
+selective genotyping is very limited in plants.
+2.3.4 [26]. The number of subsets (k) was tested from 2
+In this study, we assembled a selective population con- to 10, and the burn-in time and iterations for each run
+taining a high frequency of soybean accessions with large were both set to 100,000. Five runs were used for each
+and small seed weight from Maturity Groups II, III and k. Ln P (D) and Evanno's Ak was used to determine the
+IV, examined their allelic differences and conducted a most appropriate k value, where Ak=MIJL(k - 1)
+GWAS and fixation index analysis of seed weight in the 2 L(k) + L(k + 1)IJ/SIL(k)], and L(K) represents the kth
+population. The objective was to identify candidate QTL Ln P (D), M was the mean of 5 runs, and S was their
+that had pronounced effects on soybean seed weight.
+standard deviation [27]. The unweighted pair group
+with arithmetic mean (UPGMA) dendrogram was con-
+Methods
+structed based on the p-distance of SNPs using the
+Plant materials and field trials
+software Mega 7.0 [28].
+One hundred and sixty-six soybean Plant Introductions
+(PIs) from Maturity Groups II, III and IV were obtained Statistical analysis
+from the USDA Soybean Germplasm Collection (Urbana, In order to obtain variance components for the calcula-
+IL) (Additional file 1: Table S1). These maturity groups tion of heritability of seed weight, an analysis of variance
+were chosen because their photoperiod response allows was performed using the general linear model procedure
+them to mature appropriately in Beltsville, Maryland. The of SAS version 9.3 [29]. The model for the phenotypic
+collection consisted of 85 PIs with small 100-seed weight, trait was Yijk = H + gi + 4 + (gl)ij + eijks where H is the
+ranging from 4.2 g to 10.0 g, and 81 PIs with large seed overall mean, gi is the genetic effect of the th genotype,
+weight, ranging from 20.0 g to 38.0 g, based on the infor- 4 is the effect of the J th environment (year), (gl)ij is the
+mation supplied by the Germplasm Resources Informa- interaction effect between the ith genotype and the jh
+tion Network (GRIN) (htp/wwwarx-gringow), The two environment (year), and eijk is a random error following
+groups were carefully balanced in terms of Asian country N(0,02). The heritability of seed weight was calculated as
+of origin, maturity group, stem growth habit and flower H = Og/log + Ogilk + 02/(rk)), where de is the genotypic
+color. Two replications of a randomized block design with variance, Ogl is the genotype x environment (year) inter-
+the large seed and small seed weight sub-populations were action variance, k is the number of environments (years)
+planted in 2012 and 2013 at the USDA-ARS farms in and r is the number of replications [30]. In order to
+Beltsville, Maryland. The seeds were harvested at full ma- measure the population differentiation between the large
+turity, and a sample of 100 cleaned seeds from each plot and small seed weight sub-populations, the fixation
+was randomly selected and weighed.
+index (Fst) was calculated for each locus using Arlequin
+v3.1 [31]. The mixed linear model (MLM) accounting
+Genotyping and quality control
+for both population structure and kinship was conducted
+The Illumina Infinium SoySNP50K BeadChip containing for genome-wide association analysis using the TASSEL
+52,000 SNPs was used to genotype the population as program [23]. A value of -log (p) >3.0, where the P is the
+described by Song et al. [21, 22]. SNPs present in significance level of each locus, was obtained from TAS-
+unanchored sequence scaffolds or with MAF < 5% in the SEL, and was used as a threshold to identify the QTL.
+population were excluded.
+The MLM can be expressed as y= U + Xa + PB + Zu + e,
+where y is the vector of phenotypic observations, H is the
+Linkage disequilibrium (LD) estimation
+overall mean, a is the vector of SNP effects, X is the
+Pair-wise LD (r2) between SNPS was calculated using incidence matrix relating the individuals to the fixed
+the TASSEL program with an LD window size of 100 marker effects a, Bis the vector of population structure ef-
+SNPs [23]. Only 72 for SNPs with pairwise physical fect, P is the incidence matrix relating the individuals to
+distance less than 10 Mb were used to determine the the fixed population structure effects B, u is the vector of
+average LD decay. LD was estimated separately for kinship background effects, Z is the incidence matrix re-
+euchromatic and heterochromatic regions of each lating the individuals to the random group effects u and e
+chromosome due to the substantial difference in re- is the vector of residual effects [32]. The kinship coeffi-
+combination rate between the two regions. Haploview cient matrix that explained the most probable identity by
+4.2 was used to determine haplotype blocks based on state of each allele between individuals was estimated
+the confidence interval method [24].
+using the TASSEL program [23]. The seed weight
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 4 of 11
+difference among haplotypes of each haplotype block was 2013. Variance analysis indicated that effects of genotype,
+compared using SAS version 9.3 [29].
+year and genotype x year were significant (Additional
+file 3: Table S2). The broad-sense heritability of seed
+Validation of haplotype association with seed weight in
+weight was 0.98 in the analysis of the two years of
+the 3753 accessions in the USDA soybean germplasm
+field experiments. The phenotypic correlation of the
+collection
+seed weight between the two years was high and sig-
+A total of 3753 accessions in the USDA Soybean Germ- nificant (r = 0.971).
+plasm Collection with seed weight greater than 20 g (1936
+accessions) or smaller than 10 g (1817 accessions) were Distribution of SNPS and extent of LD
+obtained from the USDA-ARS GRIN site (http://www.ars- DNA genotyping with the Illumina Infinium SoySNP50K
+grin.gov/). In order to validate the association of the seed BeadChip provided 42,509 high quality SNPs with a call
+weight with the haplotypes observed in the 166 PIs, the success rate of >85%. A total of 35,009 SNPs with
+seed weight among haplotypes of 3753 accessions in the MAF X 0.05 or missing and ambiguous alleles <0.15 was
+USDA Soybean Germplasm Collection was compared in used for analysis (Table 1). These SNPs were generally
+each haplotype block using the analysis of variance pro- evenly selected from euchromatic and heterochromatic
+cedure of SAS version 9.3 [29]. The 3753 accessions have regions of the 20 soybean chromosomes. A total of
+been genotyped with the SoySNP50K Beadchip as previ- 29,819 SNPS were located in euchromatic regions with a
+ously described [21, 22].
+marker density of 15.4 kb per SNP, while 5190 SNPs
+were located in heterochromatic regions with a marker
+Permutation test of the association of Fst level with
+density of 102.9 kb per SNP. In euchromatic regions, the
+proportion of explained variance and allelic effects of
+mean value of LD measured by r2 dropped to half its
+the SNPS
+maximum value at an average distance of 122 kbp, while
+To examine if the Fst analysis with the GWAS in the in heterochromatic regions, it reached half its maximum
+selective population can facilitate the identification of value at 1225 kbp (Additional file 4: Figure S2).
+the SNPS with pronounced effects, a total of 20 sets of
+samples were randomly selected from the USDA Soybean
+Germplasm Collection with seed weight greater than 20 g Population structure
+or smaller than 10 g for GWAS and Fst analysis. Each set Ln P (D) and AK were used to identify the number of
+consisted of 166 accessions including 77 large, 85 small subsets (K) in STRUCTURE. The analysis did not pro-
+seed weight and four medium seed weight. A permutation duce a clear 'plateau' as Ln P (D) increased gradually
+test based on the SNP alleles of the 166 accessions in the with the number of K (Additional file 5: Figure S3 A).
+SoySNP50K BeadChips dataset [22] and the seed weight However, the highest value of AK for the 166 soybean
+of the 166 accessions was performed. The correlation CO- accessions was at K == 3 (Additional file 5: Figure S3 B).
+efficient of Fst with proportion of variance and allelic ef- When K == 3, a total of 153 of the 166 accessions had a
+fects of the SNPs were estimated.
+probability of greater than 0.6 of being in one of the
+three clusters (Additional file 5: Figure S3 C). Cluster 1
+Results
+contained 15 accessions from Korea, Cluster 2 contained
+Distribution of seed weight in the selective population
+39 accessions including 29 from China, 8 from Japan
+The distribution of seed weight for 166 soybean acces- and 2 from Korea and Cluster 3 contained 112 acces-
+sions showed two distinct peaks each year (Additional sions including 31 from China, 32 from Japan, and 49
+file 2: Figure S1), corresponding to sub-populations of from Korea. UPGMA dendrogram showed that clusters
+small and large seed weight. The large seed weight sub- of the accessions were generally consistent with their
+population consisted of 77 accessions with 100-seed geographic origins (Additional file 6: Figure S4).
+weight varying from 19.2 g to 35.8 g, an average 100-seed
+weight of 24.8 g was calculated based on the mean ob- Fst estimation between the large and small seed weight
+served in 2012 and 2013. The small seed weight popula- sub-populations
+tion was composed of 85 accessions with 100-seed weight Genome-wide Fst was 0.145 between the large and small
+varying from 6.2 g to 14.6 g and averaged 10.0 g in 2012 seed weight sub-populations with a standard deviation
+and 2013. There were four accessions that could not be of 0.125, and the threshold of Fst was 0.557 at P = 0.001.
+unambiguously placed in either large or small seed weight Allele frequencies of 260 SNPs on 18 chromosomes were
+sub-populations due to large seed weight differences be- significantly different between the two sub-populations
+tween the two years. The correlation of the seed weight (Fig. 1 and Additional file 7: Table S3). Of the 260 SNPS,
+was r = 0.946 between the values from GRIN and year a total of 163 were in euchromatic regions and 97 in het-
+2012 and r == 0.948 between the GRIN values and year erochromatic regions.
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 5 of 11
+Table 1 Number and density of SNPS in euchromatic (EU) and heterochromatic (HET) regions, sequence length, and the average
+SNP density of each chromosome
+Chromosome Number of Sequence SNP density in Number of Sequence SNP density in Number of Sequence SNP density
+SNPS in EU length of EU EU regions SNPS in HET length of HET HET regions SNPS
+length (Mb) (Kb/SNP)
+regions regions (Mb) (Kb/SNP)
+regions regions (Mb) (Kb/SNP)
+Chr.01
+1012
+14.8
+14.6
+425
+41.1
+96.6
+1437
+55.9
+39.2
+Chr.02
+1853
+26.2
+14.1
+261
+25.3
+97.1
+2114
+51.6
+24.3
+Chr.03
+1160
+18.8
+16.2
+212
+28.9
+136.1
+1372
+47.7
+34.8
+Chr.04
+1249
+18.8
+15.0
+390
+30.1
+77.3
+1639
+49.2
+30.0
+Chr.05
+1425
+21.8
+15.3
+83
+18.8
+227.1
+1508
+41.9
+27.8
+Chr.06
+1326
+22.0
+16.6
+315
+28.6
+90.8
+1641
+50.6
+30.9
+Chr.07
+1630
+275
+16.9
+168
+17.0
+101.4
+1798
+44.7
+24.8
+Chr.08
+1960
+30.5
+15.6
+182
+15.8
+86.5
+2142
+46.9
+21.9
+Chr.09
+1262
+17.4
+13.8
+369
+29.2
+79.0
+1631
+46.8
+28.7
+Chr.10
+1536
+24.1
+15.7
+337
+26.7
+79.2
+1873
+50.9
+27.2
+Chr.11
+1241
+243
+19.6
+111
+14.7
+132.2
+1352
+39.2
+29.0
+Chr.12
+1140
+17.0
+14.9
+135
+22.6
+167.2
+1275
+40.1
+31.5
+Chr.13
+2086
+29.5
+14.1
+171
+14.7
+86.2
+2257
+44.3
+19.6
+Chr.14
+1345
+20.3
+15.1
+307
+29.3
+95.3
+1652
+49.7
+30.1
+Chr.15
+1779
+22.9
+12.9
+309
+27.5
+89.1
+2088
+50.9
+24.4
+Chr.16
+1246
+17.6
+14.1
+225
+19.6
+87.3
+1471
+37.3
+25.4
+Chr.17
+1422
+20.1
+14.2
+289
+21.6
+74.7
+1711
+41.9
+24.5
+Chr.18
+2480
+36.6
+14.7
+309
+25.5
+82.6
+2789
+62.3
+22.3
+Chr.19
+1660
+27.4
+16.5
+331
+23.2
+70.0
+1991
+50.6
+25.4
+Chr.20
+1007
+17.6
+17.5
+261
+26.6
+101.9
+1268
+46.8
+36.9
+Average
+1491
+22.8
+15.4
+260
+24.3
+102.9
+1750
+47.5
+27.9
+Identification of QTL with large effect through GWAS and across 16 chromosomes were identified at -log (p) == 3.0
+Fst analysis
+for year 2013 (Fig. 2b). The phenotypic variation explained
+Thirty-two SNPs across 11 of the 20 soybean chromo- by these SNPs ranged from 6.35% to 14.50%. Of the 17
+somes were associated with seed weight at -log (p) = 3.0 SNPS across six chromosomes associated with seed weight
+based on MLM association analysis for year 2012 (Fig. in both years, eight had an Fst X 0.557 between the large
+2a). The phenotypic variation that was explained by each and small seed weight sub-populations (Table 2). The
+SNP varied from 6.68% to 9.62%. A total of 134 SNPS eight SNPs were considered as significant SNPs that were
+0.8 7
+0.7
+0.6
+0.559
+0.5
+:.
+E 0.4
+0.3
+0.2
+0.1
+0
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 1 Manhattan plot of Fst. Manhattan plot of genome-wide Fst between large and small seed weight sub-populations against the position of
+SNPS on each of the 20 chromosomes
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 6 of 11
+a 6
+5
+4
+of
+3
+!
+-
+2
+0
+A
+a
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+b 6
+5
+1
+4
+a
+1
+0
+ra
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 2 Manhattan plot of GWAS. Manhattan plot of GWAS of seed weight using MLM in the selective genotyping population grown at Beltsville,
+MD in 2012 (a) and 2013 (b)
+associated with large effect QTL. The seed weight differ- and Additional file 8: Table S4). With the exception of
+ence between the accessions carrying alternative alleles for BARC_1.01 Gm04.37010886T.C, the seven other SNPs
+each of the eight SNPS ranged from 8.1 g to 11.7 g/100 were in three haplotype blocks (Table 3), i.e. four SNPS
+seeds (P < 0.001). For example, the mean 100-seed weight (BARC_1.01_Gm04 20336481_T_C, BARC_101_Gm04
+of the 96 accessions carrying the 'T allele at the locus 20729591_G_A, BARC_101_Gm04.24276060_G_T and
+BARC_ 1.01_Gm04.37010886 T_C was 20.0 + 6.70 g in BARC_ 1.01_Gm04 27912357_T_C were in the haplotype
+2012 and 22.2 + 7.59 g in 2013. The mean seed weight of block on chromosome 4 (haplotype block 1), two SNPS
+the 69 accessions with the alternative 'C' allele was BABCIOULGmITZ5OU6TC and BARC_1.01_Gm
+10.8 + 3.75 g in 2012 and 11.3 + 3.97 g in 2013 (Table 2 17_2500333_T_G) were in the haplotype block on
+Table 2 SNPS associated with seed weight identified by MLM based on 166 accessions grown at Beltsville, MD in 2012 and 2013
+SNP ID
+Allele
+MAF
+Fst
+-log (p)
+R?
+Allelic effect (g)
+2012
+2013
+2012
+2013
+2012
+2013
+Gm04_20336481
+CT
+0.46
+0.562
+3.11
+3.40
+0.075
+0.072
+-3.99
+-4.89
+Gm04_20729591
+A:G
+0.46
+0.569
+3.01
+3.09
+0.069
+0.073
+-3.94
+-4.64
+Gm04_24276060
+GT
+0.46
+0.572
+3.04
+3.11
+0.069
+0.073
+3.97
+4.67
+Gm04_27912357
+CT
+0.43
+0.602
+4.06
+4.52
+0.096
+0.111
+-4.86
+-6.00
+Gm04_37010886
+CT
+0.42
+0.649
+3.91
+5.17
+0.090
+0.128
+-5.22
+-7.15
+Gm17_2500016
+CT
+0.28
+0.574
+3.27
+3.91
+0.073
+0.092
+-3.33
+-4.27
+Gm17_2500333
+GT
+0.29
+0.598
+3.53
+4.55
+0.079
+0.106
+-3.51
+-4.71
+Gm17_8635426
+CT
+0.41
+0.635
+3.33
+5.41
+0.075
+0.132
+-3.97
+-6.15
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 7 of 11
+chromosome 17 (haplotype block 2), and one (BARC_ (Additional file 8: Table S4). For example, the 'T and 'C'
+101.Gm17.8635426.T.C was in a haplotype block alleles of BARC_1.01_Gm04 20336481_T_C were asso-
+on chromosome 17 (haplotype block 3). Haplotype ciated with large and small seed weight in the 166 acces-
+block 1 contained 145 SNPs and spaned about 15.2 sions, respectively, and among the 3753 accessions the
+Mbp in the heterochromatic region of chromosome 4 100-seed weight for the accessions carrying the 'T' allele
+from 24.3 Mbp to 39.5 Mbp based on the Wm82a2v1 was 19.0 + 7.71 g and 11.4 + 6.70 g for those with the
+assembly [33, 34]. Haplotype block 2 contained 11 'C' allele. The haplotype contribution to the seed weight
+SNPS and spanned about 67.8 kbp in the euchromatic based on 3753 accessions was consistent with that based
+region of chromosome 17, while haplotype block 3 on 166 accessions (Table 3), e.g. a total of 290, 1104, 181
+contained 13 SNPs and spanned about 168.7 kbp in and 121 individuals were HAP1, HAP2, HAP3 and
+the euchromatic region of chromosome 17. Four HAP4 in haplotype block 1, respectively, and their aver-
+major haplotypes, each with more than ten individ- age 100-seed weight was 10.0 + 5.49 g, 20.7 + 7.39 g,
+uals, were identified based on 145 SNPS in haplotype 17.0 + 7.21 g, and 19.4 + 5.91 g, respectively.
+block 1. Seed weight was greater than 20.0 g for haplo-
+type 2 and haplotype 4, but was less than 13.6 g for Correlation coefficient of Fst value with the proportion of
+haplotype 1 and haplotype 3 in both years. There were variance explained and allelic effects of the SNPS
+three major haplotypes in both haplotype blocks 2 and Permutation test showed that the correlation coefficient
+3. Significant differences in seed weight were also de- ranged from 0.411 to 0.680 and 0.388 to 0.649 between
+tected among different haplotypes in both haplotype Fst and R?, and between Fst and absolute allelic effects
+blocks 2 and 3. Haplotype 2 in haplotype block 2, and among the 20 sets of random samples, respectively. The
+haplotypes 1 and 3 in haplotype block 3 were associ- Fst is also significantly associated with the LOD value of
+ated with large seed weight.
+the GWAS with an average correlation coefficient of
+0.557 (P < 0.01).
+Test of the haplotype association with seed weight using
+3753 accessions from USDA soybean germplasm
+Discussion
+collection
+In this study, we conducted GWAS to detect QTL as-
+The association of the SNPS with seed weight based on sociated with seed weight in soybean using selective
+166 accessions was further examined in a panel of 3753 populations. The mapping panel was selected from acces-
+accessions with 100-seed weight either greater than 20 g sions of Maturity Groups II, III and IV. These Maturity
+or smaller than 10 g as described for USDA Soybean Groups were chosen because of their photoperiod re-
+Germplasm Collection at GRIN (httpr/www.ars-grin. sponse allows them to mature appropriately in field trials
+gov/inpgs/index.htmle), Each of the eight significant in Beltsville, Maryland region. The purpose was to
+SNPs detected in the analysis of the 166 accessions were minimize the collection of inaccurate phenotypic data due
+also associated with seed weight in the 3753 accessions to poor adaptability of the accessions that were not well
+Table 3 Haplotype (HAP) ID and position as well as haplotype effect on seed weight estimated based on 166 accessions grown at
+Beltsville, MD in 2012 and 2013, and on 3753 accessions from USDA Soybean Germplasm Collection at Germplasm Resources
+Information Network (GRIN)
+SNP ID
+HAP block
+Seed weight for Hap within
+Seed weight for Hap within
+166 accessions
+3753 accessions
+HAP block ID HAP block position HAP name Number of 2012 (g) 2013 (g) Number of Seed weight
+accessions
+accessions in GRIN (g)
+Gm04_20336481 Block 1
+24300386-39511,809 HAP1
+26
+11.2
+11.8
+290
+10.0
+Gm04_20729591
+HAP2
+25
+23.6
+26.1
+1104
+20.7
+Gm04_24276060
+HAP3
+17
+13.2
+13.6
+181
+17.0
+Gm04_27912357
+HAP4
+14
+20.0
+23.2
+121
+19.4
+Gm17_2500016 Block 2
+2485,630-2553448
+HAP1
+69
+13.8
+14.7
+1435
+14.2
+Gm17_2500333
+HAP2
+44
+23.2
+25.9
+1022
+22.3
+HAP3
+27
+10.8
+11.4
+286
+9.4
+Gm17_8635426 Block 3
+8296,198-8464,870 HAP1
+68
+19.9
+22.2
+2151
+18.9
+HAP2
+47
+10.2
+10.2
+512
+9.3
+HAP3
+21
+20.3
+23.4
+201
+19.5
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 8 of 11
+suited to the growing region. Synthetic association due to results from GWAS analysis. Permutation test verified that
+genetic heterogeneity is one of the major limitations of the Fst values are significantly associated with the R2 and al-
+GWAS. This is despite the fact that the MLM in GWAS lelic effects among the 20 sets of random samples. In
+takes into account both population structure and relative addition, we also observed that the average 100-seed weight
+kinship [35], which can greatly reduce the false positive differences between the two alleles of the SNPs significant
+rate in GWAS compared with the general linear model in both Fst test and GWAS VS. GWAS alone ranged from
+that considers population structure only, and the simple 8.9 to 11.2 and 0.51 to 8.7 g in two years, respectively
+model which doesn't take into account population struc- (Additional file 8: Table S4). The average seed weight differ-
+ture or relative kinship [1, 5, 8]. In this study, accessions ence between the two alleles of the SNPS significant in both
+with similar maturity were chosen in order to reduce the Fst test and GWAS is on average 3.6 g bigger than that of
+genetic heterogeneity and issues related to normal growth the SNPS significant in GWAS only. Similar result was
+and maturity, as maturity is related to the genetic struc- also observed based on the seed weight of 3753 acces-
+ture in soybean [22]. In addition, the mapping panels were sions in the germplasm, the average seed weight differ-
+carefully balanced in terms of country of origin, maturity ence between the two alleles of the SNPs which were
+group and growth habit.
+significant in both Fst test and GWAS of the 166 acces-
+The power of GWAS to detect the association be- sions is on average 3.2 g bigger than that of the SNPs
+tween SNPs and traits depends on the percentage of significant in GWAS only (Additional file 8: Table S4).
+phenotypic variance that can be explained by markers, The observation suggested that the Fst with GWAS
+while the phenotypic variance is determined by allelic ef analysis were more likely to identify the SNPs with pro-
+fects, and the allele frequency in the panel [36, 37]. In found effects than the GWAS only.
+previous soybean seed GWAS, most association panels
+Although more than 200 QTL associated with seed
+may have had a low frequency of the genotypes contain- weight have been identified in the past decades [41], most
+ing causative alleles. In this study, by increasing the fre- had a small effect on seed weight because most linkage
+quency of the accessions with large and small seed mapping populations used in these studies were created
+weight, the frequency of variants with pronounced effect from parents with a small difference in seed weight. For
+on seed weight was expected to be elevated within the example, the additive effect of the QTL Sd_wt 36-15
+panel, thus the major effects could be detected. These mapped on chromosome 4 [42] was only 0.2 g as the seed
+variants would otherwise be rare in random populations weight difference between the two parents was only 3.7 g
+and might not be detected via genome-wide association over 3 years. In the present study, the corresponding re-
+analysis. Zhang et al. [1] performed GWAS of seed gion (haplotype block 1 of chromosome 4) showed addi-
+weight using a set of 309 random accessions. These ac- tive values varying from 3.94 to 6.00 g. We also identified
+cessions were genotyped with the SoySNP50K BeadChip major QTL in two haplotype blocks on chromosome 17,
+and analyzed with the MLM method. The frequency of one was in the interval from 2,485,630 bp to 2,553,448 bp,
+accessions with large (>20 g) or small seed weight and another in the interval from 8,296,198 bp to
+(<10 g) was less than 10% based on the frequency distri- 8,464,870 bp, explaining 13.2% and 6.0 g of the phenotypic
+bution of mean seed weights of the 309 accessions over variation and additive effects, respectively. QTL in this re-
+4 environments. The MAF of the significant SNPS gion of chromosome 17 were reported in linkage studies
+ranged from 0.05 to 0.43 and the allelic effects ranged of RIL populations. Of the three QTL identified in the
+from 0.43 g to 1.29 g/100 seeds. However, in the present 'Kefeng No. 1' x 'Nannong 1138-2' population, the QTL
+study, the MAF and allelic effects varied from 0.28 to in the region on chromosome 17 explained about 11.4%
+0.46 and 3.33 g/100 seeds to 7.15 g/100 seeds, respect- of phenotypic variance with LOD of 4.8 and an additive
+ively. The average of both parameters was higher in the effect of 0.6 g [43]. The LOD, R? and additive effect of
+present study than in Zhang's report [1]. Also, the vari- this QTL were all larger than those of the other two
+ation explained by significant markers (R?) ranged from QTL. This QTL also had the second largest R? among
+0.069 to 0.132, and was higher than that reported by six QTL that were identified in the RIL population of
+Zhang et al. [1] (from 0.018 to 0.038) and others [8, 9]. A97-775019 x A96-492041' by Hoeck et al. [44].
+Using selective genotypes as a mapping panel could also One suggested virtue of association studies is the ability
+facilitate cross-examination of QTL from GWAS by the to take advantage of existing phenotypes. However,
+Fst test. The Fst method has been used to identify gen- Hwang et al. [5] reported that there were some difficulties
+omic regions associated with domestication and selective in performing association studies of soybean seed protein
+sweeps associated with breeding in soybean [38-40]. By and oil content using the existing phenotypic data depos-
+taking advantage of selective populations, we also calculated ited at the GRIN since the traits were measured in differ-
+Fst values of the SNPS between the accessions with large ent years and locations. In this study, the correlation of
+and small seed weight. In addition, this further validates the seed weight measured at Beltsville, Maryland for two years
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 9 of 11
+and the data reported in the GRIN were highly significant Additional files
+(r = 0.95). The designation of the common accessions to
+large and small seed weight groups based on USDA Additional file 1: Table S1. PI entries and their country of origin,
+Soybean Germplasm Collection data, was consistent with maturity group, 100-seed weight, and other traits reported by the Germ-
+plasm Resources Information Network (GRIN). (XLSX 25 kb)
+that based on seed weight observed in 2012 and 2013, Additional file 2: Figure S1. The phenotypic distribution of seed weight
+even though the GRIN data were obtained in different for accessions grown at Beltsville, MD in 2012 and 2013. (PDF 88 kb)
+years and/or environments and variation of seed weight Additional file 3: Table S2. Analysis of variance for seed weight of the
+due to genetic environmental interaction was expected. 166 accessions grown at Beltsville, MD in 2012 and 2013. (XLSX 9 kb)
+Thus, the seed weight from the 3753 accessions of USDA Additional file 4: Figure S2. Extent of linkage disequilibrium (LD) in
+Soybean Germplasm Collection was successfully used to euchromatic (black) and heterochromatic (gray) regions of the 20
+soybean chromosomes. (PDF 219 kb)
+verify its association with SNPS and haplotypes.
+Additional file 5: Figure S3. Population structure inferred by Bayesian
+Identifying candidate genes controlling traits is a chal- clustering approaches based on SNPS and the schematic clustering
+lenge in genetic research. In this study, QTL associated procedure from STRUCTURE. Plots of cluster number VS. mean LnP(D) (A)
+with seed weight were identified in three haplotype blocks and AK (B) over 5 runs for each K value. Three clusters were inferred (C).
+(PDF 29 kb)
+and an independent SNP locus. A survey of the soybean Additional file 6: Figure S4. Genetic relationship of 166 Pls from Korea,
+genome indicated 212 genes in haplotype block 1, 10 in Japan and China. Genetic relationship was based on the unweighted pair
+the haplotype block 2, and 21 in the haplotype block 3, group with arithmetic mean (UPGMA) method. (PDF 20 kb)
+however, we didn't find a homologous gene in soybean Additional file 7: Table S3. Loci with Fst value >0.557 between the
+that was related to seed weight in other species [45, 46], large and small seed weight populations across the soybean genome.
+(XLSX 24 kb)
+except for Glyma.04G143300 in haplotype block 1. The Additional file 8: Table S4. Seed weight difference for SNPS associated
+gene function of Glyma.04G143300 was predicted as an with seed weight based on 166 accessions grown at Beltsville, MD in
+AP2/B3-like transcriptional factor family protein [33] 2012 and 2013, and 3753 accessions from USDA Soybean Germplasm
+which was related to seed weight in Arabidopsis [46]. It is Collection. (XLSX 14 kb)
+possible that soybean genes controlling seed weight may
+be structurally different than the genes in other species or Abbreviations Fst: Fixation index; GRIN: Germplasm Resources Information Network;
+that we still know very little about the nature of seed GWAS: Genome-wide association study; LD: Linkage disequilibrium;
+weight genes.
+MAF: Minor allele frequency; MLM: Mixed linear model; PI: Plant introduction;
+QTL: Quantitative trait loci; RIL: Recombinant inbred line; SNP: Single
+nucleotide polymorphism; UPGMA: Unweighted pair group with arithmetic
+mean
+Conclusion
+A selective population consisting of 166 large or small Acknowledgements
+We thank Rob Parry and Chris Pooley for their technical support in assembling
+seed weight soybean accessions was used to detect QTL the necessary hardware and software required for the data analysis.
+with pronounced effects on seed weight. Based on the
+association analysis of the seed weight observed in two Funding
+years with 35,009 SNP markers as well as the analysis This research was funded entirely by the U.S. Department of Agriculture-
+Agricultural Research Service, Project number: 8042-21220-275-00D.
+of SNP allelic difference between the large and small
+seed sub-populations, we observed SNPs and haplo- Availability of data and materials
+types in three haplotype blocks on chromosomes 4 and The data sets supporting the results of this article are included within this
+article and its additional files.
+17 that are related to the major QTL/genes contribut-
+ing to the seed weight variation. The average difference Authors' contributions
+of 100-seed weight between the accessions with two dif- QS and PBC provided project planning and coordination. NH prepared the
+population. ED performed field test LY,SL, MEF, BS, GJ, SR and QS performed
+ferent alleles among the significant SNPs varied from data analysis, interpretation and revision. CQ, ED, LY and QS performed
+8.1 g to 11.7 g. The significant association of the haplo- molecular genotypic data analysis, LY, QS and PBC prepared the manuscript All
+types with seed weight was further validated in a panel authors read and approved the final manuscript
+with 3753 accessions of the USDA Soybean Germplasm Competing interests
+Collection. This is the first report that attempts to The authors declare that they have no competing interests.
+identify major QTL controlling seed weight in soybean
+using selective genotyping GWAS and fixation index Publisher's Note
+analysis. The results and methods described here will Springer Nature remains neutral with regard to jurisdictional claims in
+assist us to efficiently identify major genes controlling published maps and institutional affiliations.
+seed weight and to fully understand the genetic mecha- Author details
+nisms underlying seed weight variation. This approach 'Institute of Cereal and Oil Crops, Hebei Academy of Agricultural and
+may also help geneticists and breeders to more effi- Forestry Sciences/ Shijiazhuang Branch of National Soybean Improvement
+Center / Key Laboratory of Crop Genetics and Breeding of Hebei,
+ciently identify major QTL controlling other traits.
+Shijiazhuang 050035, China. 2Soybean Genomics and Improvement
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 10 of 11
+Laboratory, United States Department of Agriculture, Agricultural Research
+19. Jin C Lan H, Attie AD, Churchill GA, Bulutuglo D, Yandell BS. Selective
+Service, 10300 Baltimore Ave, Building 006, Beltsville, MD 20705, USA ?United
+phenotyping for increased efficiency in genetic mapping studies. Genetics.
+States Department of Agriculture, Agricultural Research Service (USDA-ARS),
+200416814/2285-93
+Crop Genetics Research Unit, Stoneville, MS 38776, USA *EMBRAPA Genetic 20. Sun Y, Wang J, Crouch JH, Xu Y. Efficiency of selective genotyping for
+Resources and Biotechnology, Embrapa, Brasilia, DF CP.02372, Brazil.
+genetic analysis of complex traits and potential applications in crop
+SDepartment of Biological Sciences, University of North Carolina at Charlotte,
+improvement. Mol Breed. 2010263)493-511.
+Charlotte, NC 28223, USA 6Agricultural Research Station, Virginia State
+21. Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, Cregan PB.
+University, P.O. Box 9061, Petersburg, VA 23806, USA. 7Present address:
+Development and evaluation of SoySNP50K a high-density genotyping
+Davare Laboratory, Pediatric Cancer Biology Program, Oregon Health and
+array for soybean. PLOS One. 2013,8(1):e54985.
+Science University, 3181 SW Sam Jackson Park Rd, Portland, OR 97239, USA 22. Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, Cregan PB:
+Fingerprinting soybean germplasm and its utility in genomic research. G3:
+Received: 7 February 2017 Accepted: 4 July 2017
+Genes] Genomes] Genetics 2015, 5(10):1999-2006.
+Published online: 12 July 2017
+23. Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES.
+TASSEL: software for association mapping of complex traits in diverse
+References
+samples. Bioinformatics. 200723(19)2633-5
+1. Zhang J, Song Q, Cregan PB, Jiang G-L Genome-wide association study,
+24. Barrett JC, Fry B, Maller J, Daly MJ. Haploview: analysis and visualization of
+genomic prediction and marker-assisted selection for seed weight in
+LD and haplotype maps. Bioinformatics. 200521(2)263-5.
+soybean (Glycinemax). Theor Appl Genet 2016:12901,117-30.
+25. Purcell S, Neale B, Todd-Brown K Thomas L, Ferreira MA, Bender D, Maller J,
+2. Mian M, Bailey M, Tamulonis J, Shipe E, Carter T, Parrott W, Ashley D, Hussey
+Sklar P, De Bakker PI, Daly MJ. PLINK: a tool set for whole-genome
+R, Boerma H Molecular markers associated with seed weight in two
+association and population-based linkage analyses. Am J Hum Genet 2007;
+soybean populations Theor Appl Genet. 199693(7:1011-6.
+26. 81(3):559-75. Pritchard JK Stephens M, Donnelly P. Inference of population structure
+3. Grant D, Nelson RT, Cannon SB, Shoemaker RC: SoyBase, the USDA-ARS
+using multilocus genotype data. Genetics. 2000155(2)945-59
+soybean genetics and genomics database. Nucleic Acids Res 2009-gkp798. 27. Evanno G, Regnaut S, Goudet J Detecting the number of clusters of
+4. Song Q Long Y, Quigley C Jordan BD, Fickus E, Schroeder S, Song B-H, An
+individuals using the software STRUCTURE: a simulation Mol Ecol.
+Y-QC, Hyten D, Nelson R, et al. Genetic characterization of the soybean
+study.
+nested association mapping population. Plant Genome. 2017;In press
+28. 2005:1418/2611-20. Kumar S, Stecher G, Tamura K MEGA7: Molecular Evolutionary Genetics
+5. Hwang E-Y, Song Q Jia G, Specht JE, Hyten DL, Costa J, Cregan PB. A
+Analysis version 7.0 for bigger datasets. Mol Biol and Evol 2016:msw054.
+genome-wide association study of seed protein and oil content in soybean.
+BMC Genomics. 2014;15(1):1.
+29. SAS Institute Inc SAS 9.4 SAS/STAT user's guide. Cary, NC SAS Institute Inc
+6. Mamidi S, Lee RK Goos JR, McClean PE Genome-wide association studies
+2002-2012.
+identifies seven major regions responsible for iron deficiency chlorosis in
+30. Nyquist WE, Baker R Estimation of heritability and prediction of selection
+soybean (Glycine max). PLOS One 2014919,e107469.
+response in plant populations. Crit Rev Plant Sci. 1991;1003)235-322
+7. Sonah H, O'Donoughue L, Cober E, Rajcan 1,Belzile F.Identification of Floci
+31. Excoffier L, Lischer HE. Arlequin suite ver 3.5: :anew series of programs to
+governing eight tagronomic traits using a GBS-GWAS approach and validation
+perform population genetics analyses under Linux and windows. Mol Ecol
+by QTL mapping in soya bean. Plant Biotechnol IJ 2015,13(2)211-21.
+Resour. 2010;10(3)564-7.
+8. Wen Z, Tan R, Yuan J, Bales C Du W, Zhang S, Chilvers MI, Schmidt C,
+32. Yu J, Pressoir G, Briggs WH, Bi IV, Yamasaki M, Doebley JF, McMullen MD,
+Song Q, Cregan PB. Genome-wide association mapping of quantitative
+Gaut BS, Nielsen DM, Holland JB. A unified mixed-model method for
+resistance to sudden death syndrome in soybean. BMC Genomics.
+association mapping that accounts for multiple levels of relatedness. Nat
+2014:15(1):809.
+Genet 2006,38(2)203-8.
+9. Zhang J, Singh A, Mueller DS, Singh AK Genome-wide association and
+33. Schmutz J, Cannon SB, Schlueter J, Ma J, Mitros T, Nelson W, Hyten DL,
+epistasis studies unravel the genetic architecture of sudden death
+Song Q, Thelen J, Cheng J Genome sequence of the palaeopolyploid
+syndrome resistance in soybean. Plant J. 2015,846)1124-36
+soybean. Nature. 20104630278M178-83
+10. Zhang Y, He J, Wang Y, Xing G, Zhao J, Liy, Yang S, Palmer R, Zhao T, Gai J 34. Song Q, Jenkins J, Jia G, Hyten DL, Pantalone V, Jackson SA, Schmutz J,
+Establishment ofa 100-seed weight quantitative trait locus-allele matrix of
+Cregan PB: Construction of high resolution genetic linkage maps to
+the germplasm population for optimal recombination design in soybean
+improve the soybean genome sequence assembly Glyma1. 01. BMC
+breeding programmes. .J Exp Bot 2015,66120X6311-25
+Genomics 2016, 17(1):33.
+11. Zhou L, Wang S-B, Jian J, Geng Q-C, Wen J, Song Q Wu Z,Li G-J, Liu Y-Q 35. Zhang Z, Ersoz E, Lai CQ Todhunter RJ, Tiwari HK Gore MA, Bradbury PJ,
+Dunwell JM. Identification of domestication-related loci associated with
+Yu J, Arnett DK Ordovas JM. Mixed linear model approach adapted for
+flowering time and seed size in soybean with the RAD-seq genotyping
+genome-wide association studies Nat Genet. 20104214)355-60.
+method. Sci Rep. 2015;5:9350.
+36. Gibson G. Rare and common variants: twenty arguments. Nat Rev Genet
+12. Phansak P, Soonsuwon W, Hyten DL, Song Q, Cregan PB, Graef GL, Specht
+2012;13(2:135-45.
+JE. Multi-population selective genotyping to identify soybean (Glycine
+37. Korte A, Farlow A The advantages and limitations of trait analysis with
+max (L.) Merr.) seed protein and oil QTLS. G3: Genesl Genomes Genetics.
+GWAS: a review. Plant Methods. 2013,9(1):29.
+2016,6:1635-48.
+38. Han Y, Zhao X, Liu D, Li Y, Lightfoot DA, Yang Z, Zhao L, Zhou G, Wang Z,
+13. Bandillo N, Jarquin D, Song Q, Nelson R, Cregan P, Specht J, Lorenz A A
+Huang L Domestication footprints anchor genomic regions of agronomic
+population structure and genome-wide association analysis on the USDA
+importance in soybeans. New Phytol. 20162092)871-84.
+soybean germplasm collection. The Plant Genome. 2015;8(3). doi10.3835/ 39. Li Y-h, Zhao S-c, Ma J-x, Li D, Yan L, lij, qi X-t, Guo X-s, Zhang L, he
+plantgenome2015040024
+W-m: molecular footprints of domestication and improvement in
+14. Lander ES, Botstein D. Mapping mendelian factors underlying quantitative
+soybean revealed by whole genome re-sequencing. BMC Genomics
+traits using RFLP linkage maps. Genetics. 19891210),185-99
+2013, 14(1):579.
+15. Chen Z, Zheng G, Ghosh K Li Z. Linkage disequilibrium mapping of
+40. Zhou Z, Jiang Y, Wang Z, Gou Z, Lyu J, Li W, Yu Y, Shu L, Zhao Y, Ma
+quantitative-trait loci by selective genotyping. Am J Hum Genet.
+Y. Resequencing 302 wild and cultivated accessions identifies genes
+2005:77(4).661-9.
+related to domestication and improvement in soybean. Nat Biotechnol.
+16. Huang B, Lin D. Efficient association mapping of quantitative trait loci with
+201533(4)408-14.
+selective genotyping. Am. JHum Genet 2007,80(3):567-76.
+41. Yan L, LiYH, Yang CY, Ren SX Chang RZ, Zhang MC, Qiu LJ. Identification
+17. Wallace C Chapman JM, Clayton DG. Improved power offered bya score
+and validation of an over-dominant QTL controlling soybean seed weight
+test for linkage disequilibrium mapping of quantitative-trait loci by selective
+using populations derived from Glycine maxx Glycine soja. Plant Breed.
+genotyping. Am J Hum Genet. 2006783)498-504
+2014133(5)632-7.
+18. Navabi A, Mather D, Bernier J, Spaner D, Atlin G. QTL detection with
+42. Han Y,Li D, Zhu D,LiH, Lix, Teng W, Li W. QTL analysis of soybean seed
+bidirectional and unidirectional selective genotyping: marker-based and
+weight across multi-genetic backgrounds and environments. Theor Appl
+trait-based analyses Theor Appl Genet 2009118(2)347-58.
+Genet 201212514,671-83.
+
+
+
+Yan et al. BMC Genomics (2017) 18:529
+Page 11 of 11
+43. Zhang W-K, Wang Y-J, Luo G-Z, Zhang J-S,He C-Y, Wu X-L, Gai J-Y, Chen
+S-Y. QTL mapping of ten agronomic traits on the soybean (Glycine max L
+Merr) genetic map and their association with EST markers. Theor Appl
+Genet 2004:108(6/1131-9
+44. Hoeck. JA Fehr WR, Shoemaker RC Welke GA, Johnson SL, Cianzio SR
+Molecular marker analysis of seed size in soybean. Crop Sci 2003:43(1).68-74
+45. - Hu J, Wang Y, Fang Y, Zeng L, Xu J,Yu H, Shi Z, Pan J, Zhang D, Kang S. A
+rare allele of GS2 enhances grain size and grain yield in rice. Mol Plant.
+20158(10)1455-65.
+46. Sun X, Shantharaj D, Kang X Ni M. Transcriptional and hormonal
+signaling control of Arabidopsis seed development. Curr Opin Plant
+Biol. 2010,13(5)611-20.
+Submit your next manuscript to BioMed Central
+and we will help you at every step:
+We accept pre-submission inquiries
+Our selector tool helps you to find the most relevant journal
+We provide round the clock customer support
+Convenient online submission
+Thorough peer review
+Inclusion in PubMed and all major indexing services
+Maximum visibility for your research
+Submit your manuscript at
+w.bomedertalcomsubont
+BioMed Central

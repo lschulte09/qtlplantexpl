@@ -1,0 +1,1118 @@
+Malle et al. BMC Plant Biology (2020) 20:419
+htps/dolongy10.1861287002002631-W
+BMC Plant Biology
+RESEARCH ARTICLE
+Open Access
+Identification of loci controlling mineral
+Check for
+updates
+element concentration in soybean seeds
+Sidiki Malle',Malcolm Morrison? and François Belzile"o
+Abstract
+Background: Mineral nutrients play a crucial role in the biochemical and physiological functions of biological
+systems. The enhancement of seed mineral content via genetic improvement is considered as the most promising
+and cost-effective approach compared alternative means for meeting the dietary needs. The overall objective of
+this study was to perform a GWAS of mineral content (Ca, K P and S) in seeds of a core set of 137 soybean lines
+that are representative of the diversity of early maturing soybeans cultivated in Canada (maturity groups 000-11).
+Results: This panel of 137 soybean lines was grown in five environments (in total) and the seed mineral content
+was measured using a portable x-ray fluorescence (XRF) spectrometer. The association analyses were carried out
+using three statistical models and a set of 2.2 million SNPS obtained from a combined dataset of genotyping-by
+sequencing and whole-genome sequencing. Eight QTLS significantly associated with the Ca, K, P and S content
+were identified by at least two of the three statistical models used (in two environments) contributing each from
+17 to 31% of the phenotypic variation. A strong reproducibility of the effect of seven out these eight QTLS was
+observed in three other environments. In total, three candidate genes were identified involved in transport and
+assimilation of these mineral elements.
+Conclusions: There have been very few GWAS studies to identify QTLS associated with the mineral element
+content of soybean seeds. In addition to being new, the QTLS identified in this study and candidate genes will be
+useful for the genetic improvement of soybean nutritional quality through marker-assisted selection. Moreover, this
+study also provides details on the range of phenotypic variation encountered within the Canadian soybean
+germplasm.
+Keywords: Soybean, Minerals, XRF, GWAS, QTL
+Background
+used to plant succeeding crops [1]. The availability of
+Soybean is utilized for a wide array of food, feed, and in- mineral nutrients to plants is a very dynamic and com-
+dustrial purposes, making it one of the most versatile plex process that is affected by both biotic and abiotic
+grain crops grown. In fact, soybean is an important factors and their interactions [2]. In agriculture, it has
+source of protein, oils and carbohydrates, as well as been reported that deficiencies in essential elements can
+other beneficial nutrients such as mineral elements lead to yield loss, increased disease susceptibility, im-
+which affect end-use traits of both the oil and protein paired metabolism, interrupted normal development and
+fractions as well as the quality characteristics of seed poor seed quality [3]. For this purpose, understanding
+the uptake, regulation, transport, and storage of mineral
+*Correspondence FancosBeslefaulwalca
+elements under a variety of environmental conditions is
+'Département de phytologie, Faculty of Agricultural and Food Sciences and essential to deciphering the complex relationship be-
+Institute for Integrative and Systems Biology (IBIS), Laval University, Quebec tween a plant and its environment. Therefore, the seed
+City, Quebec, Canada
+ionomic
+is
+Full list of author information is available at the end of the article
+profiles a powerful tool for matching a plant's
+OThe Author(s). 2020 Open Access This article isl licensed under raCreative Commons Attribution 4.0 International License,
+BMC which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit tto the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material lin this article are included lin the article's Creative Commons
+licence, unless indicated otherwise ina credit line to the material. If material lis not included in the article's Creative Commons
+licence and your intended use isnot permitted by statutory regulation or exceeds the permitted use,you will need to obtain
+permission directly from the copyright holder. To viewacopy of this licence, visit htp/ceativecommonsorgflicensesby/40/
+The Creative Commons Public Domain Dedication waiver omp/cetiecommorsoyppébicdomanveonon applies to the
+data made available in this article, unless otherwise stated lin a credit line to the data.
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 2 of 14
+genetic characteristics with its response to environmen- sets of germplasm or that some studies suffered from in-
+tal perturbations [4].
+adequate genome coverage and failed to detect shared
+The enhancement of seed mineral nutrient content via QTLs.
+genetic improvement is considered as the most promis- In the context of an incomplete and often inconsistent
+ing and cost-effective approach to ensure that the dietary identification of QTLs controlling the accumulation of
+needs of consumers are met. As breeding for any trait mineral elements in the soybean seed [4], especially
+rests on the existence of phenotypic variability, this re- among early maturity soybeans (MG00O-II), we sought
+quires the identification of cultivars with useful genetic to characterize the phenotypic diversity among a set of
+variability for grain minerals and understanding the gen- 137 Canadian short-season soybean varieties and to
+etic architecture of these seed traits [5].
+identify QTLs controlling Ca, K, P and S content in this
+Since the concepts of plant nutrition were founded, set of germplasm. Using a large set of SNP markers and
+much effort has been put into developing methods and three analytical approaches (CMLM, MLMM and Farm-
+tools for quantitative measurement of the elemental CPU), we identified a total of 32 QTLs controlling the
+composition of living organisms [6]. Spectroscopic accumulation of these four important elements of which
+methods such as energy dispersive X-ray fluorescence eight were identified jointly by at least two approaches.
+(ED-XRF) are increasingly gaining a foothold as they are We believe that the findings of this research will provide
+easier to operate and constitute a non-destructive tool new insight for future research on genetic improvement
+compared to wet chemistry methods such as flame of soybean seed quality and nutrient content.
+atomic absorption spectroscopy (FAAS) [7]. Recently,
+ED-XRF has been used successfully to assess Ca, K, P Results
+and S concentrations in soybean [8, 9], in cacao [7] and
+Correlation between wet chemistry and energy-dispersive
+in pea seeds [10]. In these studies, measurements ob-
+tained via spectroscopy were consistent with previous X-ray fluorescence method
+To validate our chosen analytical method
+studies using more common but costly analytical
+(energy-dis-
+methods. Also, these studies have shown that mineral persive X-ray fluorescence, ED-XRF), thirty samples
+were analyzed by both ED-XRF and flame atomic ab-
+element content can span a large range of values in sorption spectroscopy (FAAS) for Ca and K and by spec-
+plants and that this content is determined both by gen-
+P
+As
+etic and environmental factors [2, 4, 11-13].
+trophotometry for content. can be seen in Fig. 1,
+the correlation coefficients (r) between both methods
+A limited number of studies have aimed to determine
+were positive and highly significant (P< 0.001) and
+the genetic architecture governing the accumulation of
+ranged from 0.91 (Ca) to 0.94 (P). These results demon-
+mineral elements in seeds and concluded these traits to
+strated that the ED-XDF was appropriate for the
+be most likely controlled by many genes [2, 14]. Zhang fication of Ca, P and K content in soybean seeds. quanti-
+et al. [15] reported 4 QTLs (on chromosomes 7, 8 and
+20) associated with calcium content in soybean seeds
+using 148 simple sequence repeat (SSR) markers and Phenotypic variation and correlations among traits
+178 F2:3 and 157 F2:4 lines. King et al. [13] reported 3 The concentrations of Ca, K, P and S on a set of 137
+QTLs (on chromosomes 7, 12 and 17) for phosphorus soybean lines grown on two sites (two replicates/site) in
+content using 916 SSR markers and 92 F2:4 lines. More 2013 were estimated using an ED-XRF device. The fre-
+recently, Ramamurthy et al. [2] used 1536 single nucleo- quency distributions exhibited an approximately normal
+tide polymorphism (SNP) markers and a total of 288 distribution and appeared to be quantitatively inherited
+soybean recombinant inbred lines (RILS) to identify 7 (Fig. 2). As shown in Table 1, the range of seed mineral
+QTLs associated with Ca, K and S content (on chromo- content varied for the four elements: from 1.6 to 2.4mg/
+somes 4, 6, 15, 16 and 18). Using a GWAS approach, g for Ca, 17 to 21 mg/g for K, 4.5 to 6.5 mg/g for P and
+Ziegler et al. [4] used 36,489 SNPs and 1653 soybean ac- 3.5 to 5.5mg/g for S content on a dry-weight basis.
+cessions from the USDA Soybean Germplasm Collection Across all 137 lines, the means were 1.8, 18.7, 5.3 and
+to identify 9 QTLs (on chromosomes 1, 2, 5, 9, 10 and 4.3 mg/g respectively for Ca, K, P and S content. The
+13) associated with Ca, K, P and S content in soybean least significant difference (LSD) between two genotype
+seeds. Finally, Dhanapal et al. [16] reported a total of 65 means was 0.03 mg/g for Ca, 0.44 mg/g for K, 0.28 mg/g
+QTLS across the 20 chromosomes associated with soy- for P and 0.09 mg/g for S content. A high broad-sense
+bean shoot Ca, K, P and S content using 31,748 SNPs heritability was observed and ranged from 81% (K) to
+and 104 soybean genotypes. Overall, little overlap in the 99% (S). The presence of a fairly large phenotypic vari-
+QTLs identified in these studies is observed. This could ation and high heritability suggested that these traits and
+be due to the genetic determinants of mineral element association panel would be well suited to uncover the
+content in soybean seeds being different among different genetic architecture of these traits.
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 3 of 14
+Ca (mg/g)
+P (mg/g)
+3.0
+8.0
+r= 91
+< 0.001
+r= 94
+P<0.001
+2.5
+7.0
+: 2.0
+6.0
+1.5
+5.0
+1.0
+4.0
+1.5 2.0
+2.5 3.0
+4.0
+6.0
+8.0
+ED-XRF
+ED-XRF
+K (mg/g)
+20.0
+19.5
+r=
+P<0.001
+19.0
+18.5
+3 18.0
+17.5
+17.0
+16.5
+16.5 17.0 17.5 18.0 18.5 19.0 19.5 20.0
+ED-XRF
+Fig. 1 Pearson correlation between wet chemistry and ED-XRF for Ca, K, P and S content on a dry-weight basis among 30 soybean seed samples
+As illustrated in Table 2, an analysis of variance significant genotype X environment interactions were
+showed that both the genotype and environment had a observed for any of the traits. The observed phenotypic
+highly significant effect (Ps 0.001) on phenotypic vari- values were significantly (p < 0.001) correlated between
+ation for all traits except for Ca where the genotypic ef- the two experimental sites, with correlations ranging be-
+fect was the sole significant source of variation. No tween 0.75 and 0.98. The seed content in the different
+80-
+60
+40
+30
+0
+D
+T
+1.6
+2.0
+2.4
+17
+19
+21
+Ca (mg/g)
+K (mg/g)
+40
+25 I
+20
+-
+15 -
+I
+-
+0
+L
+0
+n
+4.5 5.0 5.5 6.0 6.5
+3.5 4.0 4.5 5.0 5.5
+P (mg/g)
+S (mg/g)
+Fig. 2 Distribution of Ca, KP and S content in the seed of 137 Canadian soybean lines
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 4 of 14
+Table 1 Descriptive statistics for Ca, K, P and S content across
+Population structure
+two sites (two replicates per site) in the seed of 137 Canadian The population structure of this core set of 137 Canad-
+soybean lines
+ian soybean lines was initially inferred using fastSTRUC-
+Traits
+Range
+Mean
+LSD
+H? (%6) TURE and the number of subpopulation (K) was 7
+Ca
+1.6-2.4
+1.8
+0.03
+84
+(Fig. 3a). In addition, as can be seen in Fig. 3b and C,
+K
+17.0-21.0
+18.7
+0.44
+81
+both a phylogenetic tree and a PCA-based population
+P
+4.5-65
+5.3
+0.28
+83
+structure analysis were consistent with the result of the
+fastSTRUCTURE analysis. Together, these results
+S
+3.5-5.5
+43
+0.09
+99
+sug-
+gested that k =7 provided a good assessment of
+LSD
+popula-
+=least significant difference
+tion structure
+H2 = broad sense heritability
+and the corresponding Q matrix was used
+for GWAS.
+minerals also proved to be correlated (Table S1, in bold).
+All such pairwise comparisons were statistically signifi- Genome-wide association scan for mineral elements
+cant (p < 0.05) and the highest correlations were ob- content in soybean seeds
+served between K and S (r2=0.67, p< 0.001) as well as To discover chromosomal regions that contribute to the
+between P and K (r2 = 0.65, p < 0.001).
+phenotypic variation, we used three analytical tools to
+measure marker-trait associations: FarmCPU, CMLM
+and MLMM. As shown in the quantile-quantile (QQ)
+Genotyping and SNP calling
+plots (Fig. S2), all three models successfully limited the
+The lines of the association panel were initially geno- confounding effects as the observed p-values only di-
+typed via a GBS approach that yielded a total of 56 K verged from the diagonal (expected p-values) at the most
+high-quality SNPs. In a second step, a reference panel of extreme values (beyond 3E-03 for almost all traits).
+4.3 M SNPS was used to perform missing loci imputation The results of these association analyses are presented
+onto the original set of GBS-derived SNPs. After remov- as Manhattan plots for FarmCPU, CMLM and MLMM
+ing InDels, markers with a MAF < 0.05 and heterozygos- in Fig. 4. Based on the threshold for false discovery rate
+ity > 0.1, a total of 2.18M SNPS were retained, offering (blue horizontal line, FDR < 0.05), we detected 32 QTLs
+an average marker density of 1 SNP every 435 bases of which seven were associated with Ca content, ten
+across the entire genome. The physical distribution of with K, five with P and ten with S content (Table S2).
+these 2.18M SNPS across the soybean 20 chromosomes Interestingly, one shared QTL contributing to both K
+is illustrated in Fig. S1. The genotypic data thus obtained (K_#1) and P (P_#1) was observed. The uncorrected p-
+was then used to characterize population structure values of these QTLs ranged from 1.35E-06 to 2.84E-21
+within this panel and to look for marker-trait for Ca, from 1.89E-05 to 8.05E-19 for K, from 1.17E-06
+associations.
+to 3.61E-12 for P and from 1.75E-05 to 6.63E-15 for S
+content.
+Table 2 ANOVA results for Ca, K, P and S content across two
+In total, among these 32 QTLs, eight QTLS were CO-
+sites (two replicates per site) in seed of 137 Canadian soybean identified by at least two models (Fig. 5) and the features
+lines
+of these eight robust QTLs are summarized in Table 3.
+Nutrient Source of fvariation
+df F values p-values
+The portion of phenotypic variance explained (R?)
+Ca
+Genotype
+136 4.69
+< 0.0001*** ranged from 20 to 21% for Ca, from 17 to 31% for K,
+22% for P and from 18 to 23% for S. The magnitude of
+Environment
+1 0.47
+== 0.4900ns allelic effects varied between 0.06 to 0.07 mg/g, 0.30 to
+Genotype x Environment 136 0.17
+= 1.0000ns 0.57 mg/g, 0.30 mg/g and 0.15 to 0.46 mg/g for Ca, K, P
+K
+Genotype
+136 2.72
+< 0.0001*** and S, respectively. The genetic variance (additive) ex-
+Environment
+1 23.88 < 0.0001*** plained as the narrow-sense heritability (h?) was 41% for
+Genotype x Environment 136 0.34
+1.0000ns Ca, 82% for K, 78% for P and 93% for S.
+P
+Genotype
+136 15.32 < 0.0010 **
+Validation of the eight co-identified QTL across three
+Environment
+1 11.01 < 0.0010 ** environments
+Genotype X Environment 136 0.08
+=l 1.0000 ns To verify the stability of each of the eight QTLs detected
+S
+Genotype
+136 19.46 < 0.0001*** by at least two models, data from three additional trials
+Environment
+1 15.32 < 0.0001*** were obtained. Overall, across the three new environ-
+Genotype X Environment 136 0.10
+= 1.0000 ns ments, seven QTLs were validated in at least two envi-
+df= degree of freedom
+ronments (Fig. S3 and Table S3). Only QTL#4 for Ca
+*** and ** = Significant, p< 0.0001 and 0.001; ns=not significant, p>0.05
+could not be validated in any of the three new
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 5 of 14
+(a)
+Cluster1 Cluster2 Cluster3 Cluster4 Cluster5 Cluster6 Cluster7
+I 0.5
+I I
+-
+I
+0
+1 7 9 3 1 1 1 2 2 R 6 89 5 4 6 65 6 p 1 8 8 89 0 01 0 10,09. 2 2a a  39 33 37
+(c)
+a
+4
+e
+€
+N
+61
+of
+&
+59
+.
+00
+I
+co
+8
+8€
+I
+c
+de
+6
+8
+8
+6
+a
+4
+(b)
+8
+8
+2
+2
+4
+6
+8
+10
+Fig. 3 Models-based population structure in a core set of 137 Canadian soybean lines. a: Classification into seven populations using
+fastSTRUCTURE where each individual (from 1 to 137) is represented by a single vertical line and each color represents one cluster. b: Bootstrap
+consensus phylogenetic tree (2000 replicates) constructed using MEGA 7; each color represents a subgroup and seven subgroups were found in
+total and C PCA eigenvalues computed using GAPIT. The total variance explained by each principal component (PO decreased from PC1 to PC7
+and, beyond PC7, the variance explained by each further PC remained low and stable
+environments. The I18 environment saw the lowest rate stronger association signals were observed and the phys-
+of validation with five QTLs being successfully detected ical distance between the previous and the new peak
+in this environment (Fig. 6). Of the 24 possible QTL- SNP ranged from 1 to 311 kb (Table S4), but always re-
+environment combinations (8 QTLs x 3 environments), sided within the same haplotype block.
+18 resulted in a significant difference between the mean
+phenotype of lines contrasting for the peak SNP. These Prediction of candidate genes within the robust QTL
+results indicate that the identified QTLs are robust regions
+across a wide range of environments.
+Based on the GWAS results, we investigated the genes
+annotated in the soybean genome in order to identify
+Refinement of the GWA scan for co-identified QTL
+putative candidate genes from loci significantly associ-
+To more deeply explore variants in these robust QTLs, ated with each trait. To establish a list of candidate
+we extracted all SNPs falling within the haplotype blocks genes, we focused only on those residing within a region
+surrounding the seven most robust QTLs from the lar- delimited by the left-most and right-most flanking
+ger catalogue of 2.2 M SNPS. These were merged with markers that were in perfect LD (D'=1) with the peak
+the pruned data (243 K) set to perform the GWAS with SNP for the seven QTLs described above. These gen-
+three models again. In six of these seven instances, omic regions (ranging in size between 32 and 360 kb)
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 6 of 14
+20- (a) Calcium
+15-
+10-
+5-
+s
+0_
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+20 -
+(c) Potassium
+15
+10
++
++
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+20 (b) Phosphorus
+15
+10
+1
+5
+0
+4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+20 (d) Sulfur
+15-
+A
+210 
+:
+de
+*
+5
+0J
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosomes
+Fig. 4 Manhattan plots for mineral elements content in a core set of 137 Canadian soybean accessions. Manhattan plots for (a) calcium (b)
+potassium, (c) phosphorus and (d) sulfur content. Each dot/symbol indicates the degree of association between a single marker and a trait (y-axis)
+while the x-axis shows the physical position of each marker. A blue horizontal line indicates the significance threshold (FDR < 0.05). Significantly
+associated markers are indicated as a red dot for FarmCPU while the blue cross (+) and asterisk (*) indicate SNPS that were declared significantly
+associated by CMLM or MLMM, respectively. These associations were superimposed on the Manhattan plots produced using FarmCPU
+were extracted from Wm82.a2.vl and the GO annota- Glyma.10G020000 (222 kb downstream of the peak SNP
+tions of genes residing within these regions was exam- in K_#3). These two genes were both annotated as being
+ined (Table 4). An example of this approach is involved in transport and expressed in roots tips and
+illustrated in Fig. 7. The number of genes residing (fully roots hairs. In addition, Glyma.06G046000 was
+or in part) in each region varied between 4 and 43 and expressed in young leaves, flowers, main roots, pods as
+the full list of these genes and their annotations are pro- well as in seeds (Fig. S4b and 4d.). Finally, Gly-
+vided in Table S5.
+ma.20G151500 (32 kb downstream of S_#10) was anno-
+To identify a candidate gene, we looked for genes that tated as being involved in sulfate assimilation and
+met either of the two following criteria: 1) genes anno- expressed in flowers, roots, nodules and seeds (Fig. S4f).
+tated as being involved in the transport of the given No candidate gene falling within the defined LD blocks
+mineral element and expressed in roots, shoots or leaves and meeting our criteria was found for QTLs K_#1, P_
+or 2) genes annotated as being involved in the uptake, #1, S_#4 and S_#7.
+translocation, and/or homoeostasis of the element of
+interest and mainly expressed in seeds. In total, three Structural and nucleotide variation within candidate
+promising candidate genes involved either in the trans- genes and their predicted functional impact
+port or assimilation of these mineral elements were To determine if genetic (structural or nucleotide)
+identified. We first discovered Glyma.06G046000 (132 variation within or overlapping the candidate gene
+kb upstream of the peak SNP in Ca_#3), could constitute causal variants, we examined a
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 7 of 14
+Calcium
+Potassium
+MLMM
+MLMM
+1
+0
+CMLM 0
+0
+CMLM 5
+0
+1
+1
+0
+0
+1
+0
+5
+3
+FarmCPU
+FarmCPU
+Phosphorus
+Sulfur
+MLMM
+MLMM
+0
+1
+CMLM 0
+0
+CMLM 6
+0
+1
+1
+0
+0
+0
+1
+4
+1
+FarmCPU
+FarmCPU
+Fig. 5 Venn diagram for the 32 identified QTLS through three analytical approaches
+catalogue of such variation established from the protein function. It is therefore unlikely that the ob-
+whole-genome sequencing data available for a subset served phenotypic variation is due to a loss of func-
+of 56 lines. No structural variant (> 51 bp) was identi- tion of these candidate genes.
+fied as overlapping in full or in part with these three To provide more insight into the involvement of these
+candidate genes. As for nucleotide variants, a total of candidate genes in the observed phenotypic variation, a
+18 SNPs were found within the coding regions of two haplotype analysis was performed. As presented in Fig.
+genes (one within Glyma.06G046000 and 17 within S5, significant phenotypic differences (P< 0.05) were
+Glyma.20G151500). All of these variants were pre- observed between the haplotypes identified for each can-
+dicted as a having a "modifier" or "low" impact on didate gene. For example, among the four haplotypes (A,
+B, C and D) identified for Glyma.06G046000, the seven
+Table 3 List of QTLS for mineral element content identified by lines carrying haplotype B exhibited a significantly differ-
+at least two approaches in 137 Canadian soybean lines. The
+ent Ca content compared to the 130 other lines carrying
+most highly associated SNP within each QTL is indicated along haplotypes A, C or D. Similarly, a small group of five ac-
+with the associated statistics. For each trait, a measure of its
+cessions carrying haplotype C at Glyma.10G020000 had
+heritability (h?) is provided. The models that detected a
+a higher K content than the other accessions carrying
+significant marker-trait association are abbreviated as follows: C one of the four other haplotypes. In the case of Gly-
+for CMLM, M for MLMM and F for FarmCPU
+ma.20G151500, it was the more frequent haplotype A
+Gm Peak SNP QTL No p-value FDR R2% Effect h2%6 Models (n = 99) that exhibited a significantly higher S content
+06 3,354,869 Ca_#3 2.94E-08 4.5E-03 20 -0.06 41 C/M
+than the other four haplotypes. These results support
+09 6,092,970 Ca_#4 3.70E-08 4.5E-03 21 -0.07
+C/M/F that each candidate gene is highly promising as they
+04 49,071,552 K_#1 1.75E-06 6.1E-03 17 -0.30 82 C/F
+each contributed to the phenotypic variation.
+10 1,925,709 K_#3 4.31E-10 4.9E-05 31 -0.57
+CMF Discussion
+04 49,071,286 P_#1 6.12E-08 1.5E-02 22 -0.30 78 C/MF Phenotypic variation and correlations among traits
+10 1,602,998 S_#4 2.84E-08 4.0E-03 23 0.46 93 CM Across the two environments used to perform the
+15 3,986,243 S_#7 2.80E-07 2.3E-02 19 0.15
+MF
+original discovery of marker-trait associations, the
+20 39,076,484 S_#10 9.13E-07 9.7E-03 18 0.20
+C/M/F seed contents for all the elements (Ca, K, P and S)
+were
+distributed
+FDR = False discovery rate
+normally
+and suggested that they are
+R2% 6=Indicates the proportion of total phenotypic variation for each marker quantitatively inherited. The phenotypic variation in
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 8 of 14
+Table 4 Identification of candidate genes for seven QTLS associated with mineral element content in a core set of 137 Canadian
+soybean lines. For each robust QTL (detected using multiple models in many environments), a region of interest was delimited by
+flanking markers in perfect LD with the peak SNP. The identifier and annotation of candidate genes residing within the relevant
+genomic regions are provided
+Gm
+QTL
+Peak SNP
+Size of LD
+# of
+Candidate
+Relevant
+block
+genes
+gene
+annotation
+06
+Ca_#3
+3,354,869
+199 kb
+30
+Glyma.06G046000
+Calcium ion transport
+04
+K#1
+49,071,552
+32kb
+4
+NA
+NA
+10
+K_#3
+1,966,469
+360kb
+43
+Glyma.10G020000
+Potassium ion transport
+04
+P_#1
+49,071,286
+32kb
+4
+NA
+NA
+10
+S_#4
+1,602,998
+162kb
+18
+NA
+NA
+15
+S_#7
+3,986,243
+158kb
+20
+NA
+NA
+20
+S_#10
+39,076,484
+35kb
+04
+Glyma.20G151500
+Sulfate assimilation
+this study ranged from 1.6 to 2.4mg/g for Ca con- 4.9 mg/g). However, the range of S content in this
+tent, 17 to 21 mg/g for K content, 4.5 to 6.5 mg/g for study was slightly higher than what has been previ-
+P content and 3.5 to 5.5 mg/g for S content on a dry- ously reported. Our values for S content were gener-
+weight basis. In previous studies, different ranges have ally higher than those reported by Fageria [18] and
+been reported. Otaka et al. [8] and Homura et al. Bellaloui et al. [19] (2.5 to 4.0 mg/g and 1.6 to 3.1
+[17] reported similar seed content for Ca (1.5 to 3.5 mg/g, respectively). Overall, the values reported here
+mg/g and 1.5 to 3.2 mg/g, respectively) and K (19.8 to were fairly consistent with those reported in previous
+22.1 mg/g and 16.7 to 21.2 mg/g, respectively). Simi- studies and the slight differences in range may simply
+larly, King et al. [13] reported a comparable range of reflect differences due the specific set of accessions
+values for P content (3.9 to 5.6 mg/g), while Dhanapal grown in different environments as well as the choice
+et al. [16] reported a lower range of values (1.3 to of measurement method. Nonetheless, in the context
+4
+3.
+2-
+0
+1
+0
+o
+4
+o
+o
+3
+2 1
+6
+X Site
+o
+1
+o L17
+4
+e L18
+0
+6
+3
+2-
+e
+U o N_18
+1
+4-
+8
+3-
+A
+o
+2. 1
+4
+s
+o
+1
+Ca_#3 Ca_#4 K_#1 K_#3 P_#1 S_#4 S_#7 S_#10
+QTL
+Fig. 6 Stability of the eight QTLS detected by at least two models for Ca, K P and S content. The core set of 137 early Canadian soybean
+accessions were grown in three additional environments (in 2017 or 2018, with [ or without [N_J supplemental irrigation). The phenotypic
+mean was calculated for the subsets of lines contrasting for the peak SNP at each of 8 QTLS previously detected by at least two of the three
+GWAS models. Each colored symbol represents the p-value for the contrast observed in one environment. The y-axis shows the -log10(p-value) of
+each test while the x-axis shows the reported QTLS associated with each trait A red horizontal line indicates the Bonferroni significance threshold
+at < - log10 (0.05/n), where n= number of co-identified QTLS per trait (e.g. 0.05/2 for Ca)
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 9 of 14
+a 61
+:
+39040000
+39060000
+39080000
+39100000
+BP
+ia Gene models -alymawmszazna
+erasus sulfurylase adenyvivanderasel.tciat kfor more)
+Giyma.200151600
+BgBART
+MEDIATOR FiH APOLYMERASE II TRANSCRIPTION SUBUNIT (SOH1)...Idick for more)
+Glyma209151700
+unknown function (DUF688)
+E iE
+OR-LIKE PROTEIN KINASE..(click for more)
+IT
+TGm20
+Glyma.20g151500
+-
+A
+39,043,661 bp
+39,076,484 bp(S_#10)
+98 96 98 98 98
+96 94 98 96
+96
+94 96 96 98 98
+98 96 96
+98
+96 96 98 98
+96 96
+98
+Block 1 (35 kb)
+96 94
+98
+94 96
+96 96
+96
+Fig. 7 Identification ofa candidate gene underlying QTL S_#10 within the haplotype block on chromosome 20. Top panel: marker-trait
+associations within a - 80-kb interval (39,027-39,106 Kb) of Gm20. Middle panel: position and orientation of four gene models present in the 35-
+kb region that is defined by the left-most (Gm20: 39,042,071) and right-most (Gm20: 39,076,880) markers that are in perfect LD with the peak SNP
+(Gm2039,076484). The most likely candidate gene (Glyma20G151500, Sulfate assimilation) is highlighted with a green asterisk Bottom panel:
+pairwise LD among markers falling within the defined genomic region of interest. LD is indicated as D'x 100 and the empty squares indicate
+complete LD (D' = 1). The position of the peak SNP (blue arrow) and candidate gene (green arrow) are shown
+of an association study, the accuracy of the pheno- were detected by at least two models. More importantly,
+typic values is not as important as adequately captur- seven of these eight QTLs proved extremely robust as
+ing how the values vary across the panel.
+they could be successfully confirmed as impacting min-
+In our study, the broad-sense heritability estimated eral element content in three additional trials. In previ-
+across the two environments was high (H? > 0.80) for all ous GWAS studies, Ziegler et al. [4] and Ning et al. [14]
+traits. Such relatively high broad-sense heritability sug- reported 22 and 9 QTLS, respectively. Using a linkage
+gested that the phenotype was largely determined by the mapping approach, Ramamurthy et al. [2] reported 7
+genotypic effect [20]. Similar heritabilities for these traits and Bellaloui et al. [19] reported 11 QTLs associated
+have been reported in previous studies (H? == 0.48 to with soybean seed Ca, K, P and S content. The large ini-
+0.93) [14, 16]. In addition, a significant and positive cor- tial number of QTLs detected in this work (32) can po-
+relation between the concentrations of K and P was ob- tentially be ascribed to a more exhaustive genome
+served (0.65, Table S1). This is consistent with previous coverage (2.2 M SNPS) and to the use of multiple models
+reported results which ranged from 0.80 to 0.94 [2, 19]. for detecting marker-trait associations. It is unlikely to
+be due to a particularly wide range of phenotypic values
+Genome-wide association scan for mineral elements
+in our association panel as this range was comparable to
+content in soybean seeds
+those reported in previous studies.
+A total of 32 QTLs associated with the Ca, K, P and S The QTLs described in this work generally explained a
+content were identified (Table S2) and eight of these fairly substantial portion of the phenotypic variance (18-
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 10 of 14
+31%). The phenotypic variance explained by previously first enzyme known to be involved in the sulfate assimi-
+reported QTLs varied from 2 to 18%. Interestingly, one lation pathway in A. thaliana (AT3G22890.1; ASA1)
+of our QTLs was found to impact both K and P content. [25]. An A thaliana CDNA encoding ASA1 successfully
+This shared QTL for K and P content is not surprising complemented a Saccharomyces cerevisiae ATP sulfury-
+given the high degree of positive correlation between lase mutant (met3), thereby restoring both methionine
+these two elements. Similarly, Dhanapal et al. [16] also heterotrophy and sulfate transport [26]. Intriguingly, a
+reported a QTL associated with the content in these two paralog of our candidate gene was found on Gm10 by
+elements. Such correlations could be due to shared [16] (Glyma.10 g242600). This again suggests that the
+physiological mechanisms and metabolic pathways [4, same enzymatic activity is contributing to S accumula-
+21]. In other words, it may have occurred either by plei- tion, but that different copies of the gene control S con-
+otropy of the same gene involved in controlling these tent in different sets of germplasm.
+mineral concentrations such as a co-transporter [20] or Finally, for Ca content, the candidate gene Gly-
+simply by the presence of independent genes in the same ma.06G046000 was annotated as a calcium transporting
+regions.
+ATPase involved in calcium transport. This gene is
+In order to compare our results with previously identi- orthologous to an A. thaliana locus (ATIG27770.1;
+fied QTL regions, we queried the previous QTLs against ACA1) that encodes a chloroplast envelope Ca2*-
+the SoyBase genome browser and defined their physical ATPase which is known to bind the calmodulin that
+position. None of the seven robust QTLs identified in leads to activation of a Ca2* pump [27]. It has been
+this study coincided with previously reported QTL inter- shown that Ca2*-ATPases are enzymes that actively
+vals identified either in family-based mapping or GWAS. transport Ca2+ in eukaryotic cells [28] and are involved
+Thus, the current QTLs can be considered novel. This in all stages of the plant life cycle including growth and
+absence of overlap between the QTLs identified through development [29].
+this work and those reported previously may reflect the
+fact that these traits are determined by different genes in Conclusions
+the experimental materials used in the different mapping Compared to previous studies, the high density of
+experiments.
+markers used in this study has contributed to the repro-
+ducible detection of several new loci associated with the
+Candidates genes and their functions for mineral
+content of mineral elements in soybean seeds. In
+elements accumulation
+addition to providing details on the range of phenotypic
+As mentioned above, we focused our attention on variation encountered within the Canadian soybean
+transport-related genes that were also expressed in roots, germplasm for mineral elements content in the seeds,
+shoots or leaves and genes annotated to be involved in this study also provided more information on the genetic
+nutrient uptake, translocation, and/or homoeostasis architecture underlying their accumulation. The markers
+mainly expressed in seeds. For K content, a transport- and genes identified in this study will be useful for the
+related gene (Glyma.10G020000) was identified under- genetic improvement of soybeans through marker-
+lying QTL K_#3 on Gm 10. This gene was annotated as assisted selection.
+a K* potassium transporter and its ortholog in A. thali-
+ana (AT4G13420.1) encodes a high affinity K* trans- Methods
+porter 5 (HAK5). In rice, Yang et al. [22] demonstrated Plant material and experimental design
+that HAK5 plays important roles in controlling both the A set of 137 of early maturing soybean lines (belonging
+influx of K* into roots and its transport to the aerial to maturity groups 000-II, MG000-II), was selected from
+parts of the plant. Two paralogs of our candidate gene a larger group of 304 accessions based on the analysis of
+(Glyma.02 g154100 and Glyma.07 g042500) were func- population structure as described in Sonah et al [30] to
+tionally characterized as being involved in the root up- be representative of the genetic diversity in Canadian
+take of K* in soybean [23, 24]. Interestingly, in the work short-season soybean. Soybean lines were sourced from
+of Dhanapal et al. [16], QTLs for K content do overlap Drs. Louise O'Donoughue (CÉROM, St-Mathieu-de-
+with the genomic positions of these HAK5 paralogs. The Beloeil, QC), Elroy Cober (Agriculture and Agri-Food
+fact that we did not detect any association between these Canada, Ottawa, ON), Istvan Rajcan (University of
+paralogs and K content in our study suggests that it is Guelph, Guelph, ON) and Mr. Éric Gagnon (Semences
+variation in the HAK5 paralog on chromosome 10 (Gly- Prograin Inc., St-Césaire, QC). In a first (discovery)
+ma.10G020000) that contributes to differential accumu- phase, lines were phenotyped in two environments,
+lation of K in Canadian early-maturing soybean lines.
+namely Woodstock (ON) and St-Mathieu-de-Beloeil
+For S content, we identified a gene (Gly- (QC) in Canada in 2013. The experimental design was a
+ma.20G151500) that codes for ATP sulfurylase 1, the generalized lattice in which all lines were planted in a
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 11 of 14
+single-row plot with two replicates at each location. In a environment interaction and the error variance compo-
+second (validation) phase, the same lines were grown in nent, respectively. The nEnv is the number of environ-
+three environments at the Central Experimental Farm in ments, and nrep is the number of replicates.
+Ottawa (ON) in 2017 (17) and 2018 (18). The lines were
+planted in a modified augmented design as four-row Genotyping and SNPS imputation
+plots with a single replicate. Within each year, two dif- A total of  203 million 100-bp Illumina HiSeq2000
+ferent treatments were applied: no irrigation (N) or drip single-end reads derived from sequencing 192-plex GBS
+irrigation (I). As a full set of lines/seed was not available libraries were available for the 137 lines (as detailed pre-
+for the N_17 trial, the robustness of the discovered viously [30]). Briefly, the restriction enzyme ApeK1 was
+QTLs was carried out using data from 117, I18 and N_ used to produce a single 192-plex GBS library (contain-
+18 trials only.
+ing additional unrelated samples) that was sequenced on
+a single lane of an Illumina HiSeq2000 sequencer. Ap-
+Calibration and validation
+proximately 203 million 100-bp single-end reads were
+Calibration of the energy-dispersive X-ray fluorescence obtained for the entire population of 137 lines. The
+(ED-XRF) spectrometer was achieved by an empirical cali- Fast-GBS pipeline [35] and the Wm82.a2.vl reference
+bration approach [31] in which sets of standards with simi- genome [36] were used for SNP calling with a minimal
+lar composition and morphology to the samples of interest read depth of two reads and removing loci with more
+were used. Here, elemental concentrations were measured than 80% missing data. A first imputation step of miss-
+in a set of samples using flame atomic absorption spec- ing genotypes was performed on this set of GBS-derived
+trometry (FAAS) for Ca and K as per [32] and by spectro- SNPs using BEAGLE v5 [37]. Secondly, a reference panel
+photometry for P content as per [33]. For S content, we of 4.3M SNPS, obtained from whole-genome resequen-
+proceeded by successive addition of Na,SO4 on reference cing of a set of 102 partially overlapping (56 shared)
+materials (WEPAL, IPE 885 (Maize)) supplied by the Na- lines was used to perform missing loci imputation on
+tional Institute of Standards and Technology (NIST) whose the set of GBS-derived SNPs [38]. The accuracy of im-
+S content was known. The values thus obtained served as putation of such untyped loci was previously assessed
+baselines to calibrate the standard curve of our ED-XRF de- [38] and found to be 96.4%.
+vice (Niton XL3t955 GOLDD). To determine the accuracy
+and reliability of our ED-XRF measurements, thirty seed Population structure and kinship analyses
+samples were analyzed by both ED-XRF and wet chemistry For the population structure analysis, we used a pruned
+for their concentration in Ca, K and P. no wet chemistry (r2>0.5) catalogue of 14K SNPs obtained using Plink
+validation was necessary for S content.
+v1.9 [39]. The Bayesian model implemented in the pro-
+gram fastSTRUCTURE [40] was used to analyze the
+Phenotyping and statistical analysis
+population stratification. The number of subpopulations
+For each sample, 10g of whole seeds were ground using a (k) was set from 1 to 12 with 3 independent itterations.
+grinder (Foss A/S: Cyclotec" 1093 Sample Mill). A 0.3-g The number of subpopulations (k) was determined using
+sample of homogenous fine powder from each line was a python script ("choosek") implemented in fastSTRUC-
+pressed using a stainless-steel pellet die in a hydraulic pel- TURE. In addition to fastSTRUCTURE, two different
+let press (Carver 4350.L) to produce compact 13-mm pel- methods were used to infer population structure: (i) a
+lets (- 0.2 mm thick). The pellets were stored until the consensus phylogenetic tree computed with the
+measurement of Ca, K, P and S content by the ED-XRF.
+Tamura-Nei model with a boostrapping based on 2000
+Descriptive statistics, genotypic variance, environment iterations, implemented in MEGA7 [41] and (ii) a princi-
+and genotype by environment effects as well as correl- pal component analysis (PCA) implemented in the pro-
+ation analysis between these mineral contents were per- gram GAPIT [42].
+formed using an R package < Imer >. To combine
+information from different environments, best linear un- Genome-wide association analysis
+biased predictions (BLUPS) were calculated using the re- Genome-wide association between markers and the phe-
+stricted maximum likelihood in META-R [34]. The notypes was assessed in GAPIT using a pruned cata-
+broad-sense heritability H across environments was cal- logue of 243 K SNPs (r2>0.9) and the BLUP values for
+culated as follows:
+each trait. CMLM was used for single-locus GWAS
+while MLMM and FarmCPU were used for multi-locus
+og
+GWAS. The genetic relatedness between the lines con-
+H?
+t 02 gel nEnv + 02/ (nEnv x nrep)
+veyed through the kinship matrix (K) and the population
+structure matrix (Q) estimated through fastSTRUC-
+where 02 and 02 are the genotype, the genotype x TURE were used to control for false positive
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 12 of 14
+associations. The threshold of significance of marker- used. For the study nucleotide variants located within
+trait associations for the three models (CMLM, MLMM genic regions, SnpEff [47] was used with the full set of
+and FarmCPU) was an adjusted p-value with the false nucleotide variants (prior to pruning, 2.18 M SNPs).
+discovery rate (FDR) set at $0.05, as per the Benjamini To further support the involvement of candidate genes
+and Hochberg procedure [43]. We assumed that all sig- in the observed phenotypic variation, a gene-centric
+nificant marker-trait associations marked the same QTL haplotype (GCH) approach was used to identify poly-
+when these markers resided within the same haplotype morphic markers that defined the haplotypes inside the
+block (a region delimited by the left-most and right- candidate genes using HaplotypeMiner [48] and the full
+most flanking markers that were in perfect LD (D'=1) catalogue of 2.18 SNPs. A t-test was then used between
+with the peak SNP). When different peak SNPS were de- the mean phenotypic values for each haplotype.
+tected by the different models, the one detected by two
+models was chosen. In addition, when the same peak Supplementary information
+SNP was detected by at least two models, the lowest un- Supplementary information accompanies this paper at https//doi.org/10.
+corrected p-value was reported. We chose to report and 11865128700202631-0,
+investigate only co-detected QTLs, ones that were de-
+tected by at least two models for each trait. For the iden- Additional file 1. Table S1: Phenotypic correlation between the seeds
+minerals content. Table S2: The 32 reported QTLS associated with Ca, K P
+tification of candidate genes, genomic regions of interest and IS content tin seeds. Table S3: The t-test results. Table S4: Summary of
+surrounding a peak SNP were defined as extending be- localized GWAS results. Table S5: The full list of all genes residing in the
+tween the left-most and right-most flanking markers significant haplotype blocks.
+that were in perfect LD (D' = 1) with the peak SNP.
+Additional file 2 Fig. S1: Distribution of the 2.18M SNPS in the soybean
+genome. Fig. S2: Quantile-quantile (Q-Q) plot of p-values from the associ-
+ation study. Fig. S3: The boxplot and p-values for t-test result Fig. S4:
+Validation of the allelic effect of the co-detected QTLS in
+Identification of candidate genes underlying QTLS. Fig. S5: Candidate
+three environments
+gene haplotypes and their phenotypic contrast.
+To assess the reproducibility of the QTLs identified in
+the discovery phase, we validated the allelic effects of the Abbreviations
+BLUP: Best linear unbiased predictor; CMLM: Compressed mixed linear
+QTLs in three different environments (1_17, I18 and model; FarmCPU: Fixed and random model circulating probability unification;
+N_18) using the same set of 137 lines. Marker-trait asso- GWAS: Genome-wide association study; H 2. Broad-sense heritability; h
+ciations were tested using a t-test. The population was 2: Narrow-sense heritability; LD: Linkage disequilibrium; LOF: Loss of function;
+divided into two groups according to the allelic class at MAF: Minor allele frequency; MLMM: Multi-locus mixed linear model;
+QTL: Quantitative trait loci; R2 Phenotypic variance explained; SNP: Single
+the peak SNP. We performed a t-test between the mean nucleotide polymorphism
+phenotypic values of the two groups. The threshold of
+significance for marker-trait associations was adjusted Acknowledgments
+The authors wish to thank Jean Martin and Martin Lacroix, respectively from
+for multiple tests (a == 0.05/n, where n is the total num- Richard Belanger's laboratory and François Belzile's laboratory at université
+ber of QTLS for a trait). The significance test was Laval, Québec, Canada.
+assessed using a t-test function implemented in R ver-
+sion 3.5.1 according to the equation described in [44]: Authors' contributions
+S.M. and F.B. conceived the project, interpreted the data and wrote the
+Y=u+f (marker) + error, where Y is equal to the trait manuscript. SM. performed most of the phenotyping and all data analysis.
+value, H is equal to the population mean, and f (marker) MM performed the trials (three sites) used to validate the QTLS. All authors
+is a function of the significant markers.
+have read and approved the manuscript.
+Funding
+Candidate genes and their functional analysis
+This study was funded by the Agricultural Training for Food Security in Mali
+By using a data mining algorithm [45], all genes residing AFASAM in French> through a Collaborative Research and Development
+within haplotype blocks of interest were extracted from grant. The funders had no role in the study design, analysis, or preparation
+of the manuscript.
+the SoyBase Browser, and their GO annotations were ex-
+amined. After identifying a candidate gene, further ana- Availability of data and materials
+lyses were performed to identify in what tissues and at The datasets used and analyzed during the current study are available from
+which developmental stages these candidate genes were the corresponding author upon reasonable request.
+expressed using the electronic fluorescent pictograph Ethics approval and consent to participate
+(eFP) Browser (www.bar.utoronto.ca) for soybean.
+Not applicable.
+Altered transcripts resulting from potential loss-of-
+function (LOF) alleles among the list of candidate genes Consent for publication
+Not applicable.
+were investigated by inspecting the catalogue of struc-
+tural variants reported by [46]. For LOF analysis, only Competing interests
+the whole-genome sequencing dataset (56 lines) was The authors declare that there is no conflict of interest
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 13 of 14
+Author details
+22. Yang T, Zhang S, Hu Y, Wu F, Hu Q, Chen G, et al. The role of fa
+'Département de phytologie, Faculty of Agricultural and Food Sciences and
+potassium transporter OSHAKS in potassium acquisition and transport
+Institute for Integrative and Systems Biology (IBIS), Laval University, Quebec
+from roots to shoots in Rice at low potassium supply levels. Plant
+City, Quebec, Canada ?Ottawa Research and Development Centre,
+Physiol. 2014;166:945-59.
+Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada.
+23. Chen H, Chen X, Gu H, Wu B, Zhang H, Yuan X et al GmHKT1:4, a novel
+soybean gene regulating Na+/K+ ratio in roots enhances salt tolerance in
+Received: 23 April 2020 Accepted: 30 August 2020
+transgenic plants. Plant Growth Regul 2014:73:299-308.
+Published online: 07 September 2020
+24. Rehman HM, Nawaz MA, Shah ZH, Daur I, Khatoon S, Yang SH, et al In-
+depth genomic and Transcriptomic analysis of five K+ transporter gene
+families in soybean confirm their differential expression for nodulation.
+References
+Front Plant Sci. 2017;8:804.
+1. Gibson LR, Mullen RE. Mineral concentrations in soybean seed produced
+25. Leustek kT, Murillo M, Cervantes M. Cloning ofa CDNA encoding ATP
+under high day and night temperature. Can JI Plant Sci. 2001,81:595-600.
+sulfurylase from Arabidopsis thaliana by functional expression in
+2. Kastoori Ramamurthy R, Jedlicka J, Graef GL, Waters BM. Identification of
+Saccharomyces cerevisiae. Plant Physiol 1994,105897-902.
+new QTLS for seed mineral, cysteine, and methionine concentrations in
+26. Logan HM, Cathala N, Grignon C Davidian JC Cloning of fa CDNA encoded
+soybean [Glycine max (L) Merr.). Mol Breed. 201434:431-45.
+byar member of the Arabidopsis thaliana ATP Sulfurylase multigene
+3. Glass A Phyiological-mechanisms involved with genotypic differences in
+EXPRESSION STUDIES IN YEAST AND IN RELATION TO PLANT SULFUR family:
+ion absorption and utilization. HORTSCIENCE 198924559-64.
+NUTRITION.J Biol Chem. 1996271:12227-33.
+4. Ziegler G, Nelson R, Granada S, Krishnan HB, Gillman JD, Baxter L
+27. Singh A, Kanwar P, Yadav AK Mishra M, Jha SK, Baranwal V, et al Genome-
+Genomewide association study of fionomic traits on diverse soybean
+wide expressional and functional analysis of calcium transport elements
+populations from germplasm collections. Plant Direct. 20182:e00033.
+during abiotic stress and development in rice. FEBS 51.2014281.894-915.
+5. Peleg Z, Cakmakl, Ozturk L, Yazici A, Jun Y, Budak H, et al Quantitative trait 28. KMdKH, MstSA B, Tuteja R, Tuteja N. Global calcium transducer Ca2+
+loci conferring grain mineral nutrient concentrations in durum wheat X
+P-type
+wild emmer wheat RIL population. Theor Appl Genet 2009:119353-69.
+-ATPases open new avenues for agriculture by regulating stress signalling.
+6. Salt DE, Baxter I, Lahner B. lonomics and the study of the plant lonome.
+29. JExp Bot 2013,64:3099-109.
+Annu Rev Plant Biol. 2008;59:709-33.
+Wang Y, Itaya A, Zhong X Wu Y, Zhang J, van der Knaap E, et al Function
+7. Herreros-Chavez L, Cervera ML, Morales-Rubio A Direct determination by
+and evolution ofa MicroRNA that regulates a Ca 2+ -ATPase and triggers
+portable ED-XRF of mineral profile in cocoa powder samples. Food Chem.
+the formation of phased small interfering RNAS in tomato reproductive
+2019278:373-9.
+growth. Plant Cell 2011233185-203.
+8. Otaka A, Hokura A, Nakai il Determination of trace elements in soybean by 30. Sonah H, O'Donoughue L, Cober E, Rajcan 1, Belzile F. Identification of
+X-ray fluorescence analysis and its application to identification of their
+loci governing eight agronomic traits using a GBS-GWAS approach and
+production areas. Food Chem. 2014:147318-26.
+validation by QTL mapping in soya bean. Plant Biotechnol J. 2014;13:
+9. Tadeu Costa Junior G, Nunes LC, Feresin Gomes MH, Almeida E, Pereira de
+211-21.
+Carvalho HW. Direct determination of mineral nutrients in soybean leaves 31. Paltridge NG, Palmer L, Milham PJ, Guild GE, Stangoulis JCR Energy-
+under vivo conditions by portable X-ray fluorescence spectroscopy. X-Ray
+dispersive X-ray fluorescence analysis of zinc and iron concentration in rice
+Spectrometry. 2019,xrs.3111.
+and pearl millet grain. Plant Soil 2012361:251-60.
+10. Bamrah RK Vijayan P, Karunakaran C Muir D, Hallin E, Stobbs J,et al
+32. Perkin-Elmer. Analytical methods for Atomic Absorption Spectroscopy.
+Evaluation of X-Ray fluorescence spectroscopy asa tool for nutrient analysis
+Perkin - Elmer Corp, USA 1982;1-300.
+of pea seeds. Crop Sci 2019,59:2689.
+33. Murphy J, Riley JP.A modified method for the determination of phosphate
+11. Fageria NK, Baligar V. Improving nutrient use efficiency of fannual crops in
+in natural water. Anal Chim Acta. 1962;27:31-6.
+Brazilian acid soils for sustainable crop production. Commun Soil Sci Plant 34. Alvarado G, Marco L, Mateo V, Angela P, Francisco R, Juan B, et al META-R
+Anal 2001;32.
+(Multi Environment Trail Analysis with Rfor Windows) Version 6.01. 2015.
+12. Vreugdenhil D, Aarts MGM, Koornneef M, Nelissen H, Ernst WHO. Natural
+35. Torkamaneh D, Laroche J, Bastien M, Abed A, Belzile F. Fast-GBS: a new
+variation and QTL analysis for cationic mineral content in seeds of
+pipeline for the efficient and highly accurate calling of SNPS from
+Arabidopsis thaliana. Plant Cell Environ. 200427:828-39.
+genatyping-bysequending data. BMC Bioinformatics. 2017;18. https//doi.
+13. King KE, Lauter N, Lin SF, Scott MP, Shoemaker RC Evaluation and QTL
+097101185612590161319
+mapping of phosphorus concentration in soybean seed. Euphytica. 2013; 36. Song Q, Jenkins J, Jia G, Hyten DL, Pantalone V, Jackson SA, et al
+189:261-9.
+Construction of fhigh resolution genetic linkage maps to improve the
+14. Ning L, Sun P, Wang Q, Ma D, Hu Z, Zhang D, et al. Genetic architecture of
+soybean genome sequence assembly Glyma1.01. BMC Genomics. 2016;17.
+biofortification traits in soybean (Glycine max L Merr.) revealed through
+MRUA9PRIRAAO53HG
+association analysis and linkage mapping. Euphytica. 2015:204:353-69.
+37. Browning SR, Browning BL Rapid and accurate haplotype phasing and
+15. Zhang B, Chen P, Shi A Hou A, Ishibashi T, Wang D. Putative quantitative
+missing-data inference for whole-genome association studies by use of
+trait loci associated with calcium content in soybean seed. J Hered. 2009;
+localized haplotype clustering. Am J Hum Genet 2007,81:1084-97.
+100:263-9.
+38. Torkamaneh D, Boyle B, Belzile F. Efficient genome-wide genotyping
+16. Dhanapal AP, Ray JD, Smith JR, Purcell LC, Fritschi FB. Identification of novel
+strategies and data integration in crop plants. Theor Appl Genet. 2018;131:
+genomic loci iassociated with soybean shoot tissue macro- and
+499-511.
+micronutrient concentrations. The Plant Genome 2018;11:0.
+39. Purcell S, Neale B, Todd-Brown K Thomas L, Ferreira MAR, Bender D, et al
+17. Homura Y, Suzuki T, Kosaka H, Horita H, Yasui A Determination the
+PLINK: a tool set for whole-genome association and population-based
+geographic origin of one grain of black soybean "Tanbaguro" by using
+linkage analyses. Am J Hum Genet 2007,81:559-75.
+inorganic elements composition. Journal of The Japanese Society for Food 40. Raj A Stephens M, Pritchard JK fastSTRUCTURE: Variational inference of
+Science and Technology. 2006,53:619-26.
+population structure in large SNP data sets. Genetics. 2014;197-573-89.
+18. Fageria NK The use of nutrients in crop plants. Boca Raton: CRC Press; 2009. 41. Kumar S, Stecher G, Tamura K MEGA7: molecular evolutionary genetics
+19. Bellaloui N, Khandaker L, Akond M, Kantartzi SK, Meksem K Mengistu A,
+analysis version 7.0 for bigger datasets. Mol Biol Evol. 201633:1870-4.
+et al Genetic mapping of QTL associated with seed macronutrients
+42. Lipka AE, Tian F, Wang Q, Peiffer J,Li M, Bradbury PJ, et al GAPIT: genome
+accumulation in 'MD 96-5722 by "Spencer recombinant in bred lines of
+association and prediction integrated tool. Bioinformatics. 2012;28:2397-9.
+soybean. AJB. 20153:224-35.
+43. Benjamini Y Hochberg Y. Controlling the false discovery rate: a practical
+20. Bhatta M, Baenziger P, Waters B, Poudel R, Belamkar V, Poland J,et al
+and powerful approach to multiple testing. .J R Stat Soc Ser B Methodol.
+Genome-wide association study reveals novel genomic regions associated
+1995,57:289-300.
+with 10 grain minerals in synthetic Hexaploid wheat. UMS. 2018;193237.
+44. Francis DM, Merk HL, Namuth-covert D. Introduction to Single Marker
+21. Ma Y, Kan G, Zhang X, Wang Y, Zhang W, Du H, et al Quantitative trait loci
+Analysis (SMA). 2011:1-3.
+(QTL) mapping for Glycinin and B-Conglycinin contents in soybean (Glycine 45. Morales AMAP, O'Rourke JA, van de Mortel M, Scheider KT, Bancroft TJ,
+max L Merr). J Agric Food Chem. 2016,643473-83.
+Borém A, et al Transcriptome analyses and virus induced gene silencing
+
+
+
+Malle et al. BMC Plant Biology (2020) 20:419
+Page 14 of 14
+identify genes in the Rpp4-mediated Asian soybean rust resistance
+pathway. Functional Plant Biol 2013;40:1029.
+46. Torkamaneh D, Laroche J, Tardivel A, O'Donoughue L, Cober E, Rajcan I,
+et al. Comprehensive description of genomewide nucleotide and
+structural variation in short-season soya bean. Plant Biotechnol J. 2018;
+16:749-59.
+47. Cingolani P, Platts A, Wang LL, Coon M, Nguyen T, Wang L, et al A program
+for annotating and predicting the effects of fsingle nucleotide
+polymorphisms, SnpEff SNPS in the genome of Drosophila melanogaster
+strain w 1118 ;iso-2; iso-3. Fly. 2012;6:80-92.
+48. Tardivel A, Torkamaneh D, Lemay M-A, Belzile F, O'Donoughue LS. A
+systematic gene-centric approach to define haplotypes and identify alleles
+on the basis of dense single nucleotide polymorphism datasets. The Plant
+Genome. 201912:180061.
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Ready to submit your research? Choose BMC and benefit from:
+. fast, convenient online submission
+: thorough peer review by experienced researchers sinyour field
+rapid publication on acceptance
+support for research data, including large and complex data types
+gold Open Access which fosters wider collaboration and dincreased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions

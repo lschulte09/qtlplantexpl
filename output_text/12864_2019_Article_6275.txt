@@ -1,0 +1,1738 @@
+Ravelombola et al. BMC Genomics (2019) 20:904
+htps/doiorg/10.118612864-01962752
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+Genome-wide association study and
+Check for
+updates
+genomic selection for soybean chlorophyl
+content associated with soybean cyst
+nematode tolerance
+Waltram Second Ravelombola', Jun Qin12, Ainong Shi"o, Liana Nice34 Yong Bao34, Aaron Lorenz34
+James H. Orf4 Nevin D. Youngs and Senyu Chen34
+Abstract
+Background: Soybean cyst nematode (SCN), Heterodera glycines Ichinohe, has been one of the most devastating
+pathogens affecting soybean production. In the United States alone, SCN damage accounted for more than $1
+billion loss annually. With a narrow genetic background of the currently available SCN-resistant commercial cultivars,
+high risk of resistance breakdown can occur. The objectives of this study were to conduct a genome-wide association
+study (GWAS) to identify QTL, SNP markers, and candidate genes associated with soybean leaf chlorophyll content
+tolerance to SCN infection, and to carry out a genomic selection (GS) study for the chlorophyll content tolerance.
+Results: A total of 172 soybean genotypes were evaluated for the effect of SCN HG Type 1.2.3.5.6.7 (race 4) on soybean
+leaf chlorophyll. The soybean lines were genotyped using a total of 4089 filtered and high-quality SNPS. Results
+showed that (1) a large variation in SCN tolerance based on leaf chlorophyll content indices (CCI); (2) a total of 22, 14,
+and 16 SNPS associated with CCI of non-SCN-infected plants, SCN-infected plants, and reduction of CCI SCN,
+respectively; (3) a new locus of chlorophyll content tolerance to SCN mapped on chromosome 3; (4) candidate
+genes encoding for Leucine-rich repeat protein, plant hormone signaling molecules, and biomolecule transporters; and
+(5) an average GS accuracy ranging from 0.31 to 0.46 with all SNPS and varying from 0.55 to 0.76 when GWAS-derived
+SNP markers were used across five models. This study demonstrated the potential of using genome-wide selection to
+breed chloophylcontentioleant soybean for managing SCN.
+Conclusions: In this study, soybean accessions with higher CCI under SCN infestation, and molecular markers
+associated with chlorophyll content related to SCN were identified. In addition, a total of 15 candidate genes
+associated with chlorophyll content tolerance to SCN in soybean were also identified. These candidate genes
+will lead to a better understanding of the molecular mechanisms that control chlorophyll content tolerance
+to SCN in soybean. Genomic selection analysis of chlorophyll content tolerance to SCN showed that using
+significant SNPS obtained from GWAS could provide better GS accuracy.
+Keywords: Genome-wide association study (GWAS), Soybean cyst nematode (SCN), Leaf chlorophyll content,
+Single nucleotide polymorphism (SNP), Genomic selection (GS)
+Correspondence: ashi@uarkedu; chenxo99@umn.edu
+'Department of Horticulture, PTSC316, University of Arkansas, Fayetteville, AR
+72701, USA
+3Southern Research & Outreach Center, University of Minnesota, Waseca, MN
+56093, USA
+Full list of author information is available at the end of the article
+OThe Author(s). 2019 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BMC International License fhtp/ceativecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made The Creative Commons Public Domain Dedication waiver
+Omploeswecommonsoy/pulbicdonainv.eonon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 2 of 18
+Key message
+resistant gene within the Rhg4 locus was derived from
+To the best of our knowledge, this is the first report of an artificial selection occurring during soybean domesti-
+QTL associated with chlorophyll content tolerance to cation [17]. Resistance to SCN conferred by the rhgl
+soybean cyst nematode (SCN) in soybean.
+locus has been associated to copy number variation and
+DNA methylation, which can enhance the expression of
+Background
+SCN resistance genes within that locus [18]. Three genes
+Soybean [Glycine max (L.) Merr.] is one of the most im- in the rhg 1 locus encoding an amino acid transporter,
+portant legumes worldwide by providing oil and being a an a-SNAP protein, a WI12 (wound-inducible domain)
+source of vegetable protein. Developing soybean-derived protein contribute to the SCN resistance [19, 20].
+biofuel has been recently increasing, with an estimated The utilization of molecular markers through
+value exceeding $35 billion in the United States (www. marker-assisted selection (MAS) in soybean breeding
+soystats.com). Soybean cyst nematode (SCN), Heterodera programs has been proven to accelerate the develop-
+glycines Ichinohe, is an important pest with total annual ment of disease-resistant cultivars [21]. Recently, tools
+yield losses about $1.5 billion in the U.S. alone [1]. The such as genome-wide association mapping (GWAS)
+SCN is an obligate endoparasite, which feeds on soybean and genomic selection (GS) have increasingly become
+roots, depletes carbon of soybean plants and results in popular in efforts towards uncovering the genetic
+yield losses [2]. One pathway of SCN damage to soybean basis of traits of interest in agriculture and identifying
+is induction or enhancement of nutritional deficiency of important new loci. GWAS has been used to identify
+soybean such as iron, potassium, and/or nitrogen defi- new markers and loci associated with resistance to
+ciencies that result in chlorophyll content reduction or SCN. A total of 6 SSR markers associated with SCN
+in severe cases the typical chlorosis symptom [3, 4]. resistance were identified in a set of 159 soybean
+Iron-deficiency chlorosis (IDC) of soybean, in particular, lines [22]. GWAS was conducted on a total of 282
+is common in the North Central region, the major soy- soybean genotypes to identify SNP markers associated
+bean production region in the USA. It occurs in high pH with resistance to SCN HG type 0 [12]. Out of the
+soil, but many biotic and abiotic factors affect its occur- 1536 SNPS used, a total of 7 SNP markers were asso-
+rence [5-8]. The SCN is present in most soybean fields ciated with SCN resistance. Most of those significant
+in the region, and high pH also favors reproduction of SNP markers were located in the rhgl locus. In
+SCN and its damage to soybean plants [9]. Therefore addition, two genes, FGAM1 and Glyma18g46201,
+managing SCN and nutritional deficiencies is important were located in the vicinity of two significant SNPS.
+for soybean productivity in many fields in the North A total of 19 SNP markers were reported to be asso-
+Central USA and some other regions in the world.
+ciated with resistance to SCN HG type 0 and HG
+Use of SCN-resistant soybean cultivars and crop rota- type 1.2.3.5.7 in an association panel consisting of
+tion involving a non-host crop is the best way to manage 440 soybean genotypes, of which, three were mapped
+SCN [10, 11]. Development of new SCN-resistant soy- to loci that have not yet been reported [23]. A total
+bean cultivars requires a better understanding of the of 553 soybean genotypes were evaluated for resist-
+genetic mechanisms underlying SCN resistance. To date, ance to SCN HG type 0 and GWAS allowed for the
+at least 216 SCN-resistant QTL have been reported discovery of 8 new loci associated with SCN on this
+(www.soybase.org). A large number of those QTL have association panel [24].
+not been fully investigated [12]. Among the QTL confer- Genomic selection has been frequently used to achieve
+ring resistance to SCN, two loci, rhgl and Rhg4, which faster genetic gain in plant breeding [25]. Genomic se-
+are located on chromosomes 18 and 8, respectively, have lection has often been proven to have superior features
+been commonly used to deploy SCN resistance in soy- over the traditional MAS when dealing with complex
+bean germplasm [13]. Both rhgl and Rhg4 are required traits [12]. In the earliest genomic selection study on re-
+in the soybean cultivar 'Forest' to exhibit resistance to sistance to SCN [12], genomic selection accuracy for the
+SCN, with Rhg4 being dominant [14]. This resistance SCN resistance was in the range of 0.59 to 0.67.
+has been known as Peking-type resistance because the The objectives of this study were (i) to conduct a
+source of resistance was from Peking. In contrast, the re- genome-wide association study to identify QTL asso-
+sistance in cultivars with PI 88788 source requires only ciated with leaf chlorophyll content in soybean in
+rhgl, and the resistance is known as PI 88788-type [15]. SCN infested and non-infested soils, and the QTL as-
+Some studies of the genetic mechanism between the sociated with reduction of chlorophyll content by
+two aforementioned SCN-resistant loci have been re- SCN; (ii) identify SNP markers and candidate genes
+ported. A gene mapped at the Rhg4 locus and conferring associated with the traits; (iii) to carry out a genomic
+SCN resistance has been cloned [16]. This gene encodes selection study for tolerance of soybean chlorophyll
+for a serine hydroxymethytransferase [16]. The SCN- content to SCN infection.
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 3 of 18
+Results
+approximately normally distributed (Fig. 1). On average,
+Chlorophyll content phenotyping associated with SCN
+CCI was 36.0 in non-infested soil, and 30.1 in the SCN-
+Soybean leaf chlorophyll content (CCI) in non-SCN- infested soil, a 6.3% reduction. ANOVA showed signifi-
+infestation recorded at 8 weeks after planting was signifi- cant differences in CCI reduction by SCN among the
+cantly different among the genotypes (F-value = 11.17,p- soybean genotypes (F-value = 4.26, p-valuec 0.0001)
+value< 0.0001) (Table 1). The CCI was approximately (Table 1). CCI was almost not affected by SCN for the ge-
+normally distributed (Fig. 1). The genotypes having the notypes M99209070 (0.51%), M99286050 (0.58%), DWIGHT
+highest CCI on non-SCN-infested soils were MN0082SP (0.88%), CHIPPEWA64 (1.14%), MNO203SP (1.86%),
+(48.3), GRANDE (44.1), MN0603SP (43.9), AGASSIZ MN0201 (1.89%), MNO205SP (2.26%), M98134022 (2.32%),
+(43.5), M98240104 (43.4), MN1011CN (43.3), MN0502 BURLISON (2.56%), and M99337034 (2.57%) (Additional file
+(43.0), MN1106CN (43.0), CHICO (42.7), and WALSH 1: Table S1), indicating that the leaf chlorophyll content of
+(42.6) (Additional file 1: Table S1). Those having the these genotypes was not sensitive to SCN infection. CCI of
+lowest CCI were HARK (31.3), MN1008SP (31.2), VIN- the genotypes PI437228 (66.87%), NORMAN (60.00%),
+TON81 (30.8), M97205096 (30.5), KATO (30.2), MN1603SP (57.47%), PORTAGE (57.04%), MN1307SP
+PI372403A (29.8), M95118009 (29.3), PI437228 (24.4), (54.59%), MN1406SP (54.19%), PI437267 (52.66%),
+PI257428 (22.7), and NORMAN (22.6) (Additional file 1: MN1008SP (51.40%), PI437994 (44.97%), and MN1007SP
+Table S1).
+(44.26%) (Additional file 1: Table S1) were the most affected
+The distribution of CCI of soybean in the SCN- by SCN, suggesting that the leaf chlorophyll content of these
+infested soil was nearly normal (Fig. 1). Significant dif- genotypes could be highly sensitive to SCN infection. Pear-
+ferences in CCI in the SCN-infected plants were found son's correlation coefficient between reduction in CCI and
+among the genotypes (F-value = 9.43, p-valuec 0.0001) CCI without SCN was -0.24. However, the correlation be-
+(Table 1). The genotypes exhibiting high CCI under tween reduction in CCI and CCI with SCN was - 0.85.
+SCN infestation were MN1011CN (41.5), M98134022
+(41.2), MN1106CN (40.4), M98240104 (40.3), AGASSIZ
+(40.0), GRANDE (39.1), LAMBERT (38.2), SWIFT SNP profile
+(38.1), CHICO (38.0), and MN0502 (37.5) (Additional A total of 4089 high-quality SNPS were used for
+file 1: Table S1). The lowest CCI under SCN infestation genome-wide association analysis. The average SNP
+was found for the genotypes PI257428 (19.2), number per chromosome was in the range of 144 to 269
+MN1607SP (18.9), PI437267 (17.3), MN1307SP (15.7), SNPS, with an average of 204. Chromosome 11 with 144
+MN1406SP (15.2), MN1008SP (15.2), PORTAGE (14.9), SNPs had the lowest number of SNPS, whereas chromo-
+MN1603SP (14.0), NORMAN (9.1), and PI437228 (8.1) some 18 with 269 SNPS had the highest number of SNPs
+(Additional file 1: Table S1). Of the top 10 genotypes (Table 2). The average distance between two SNPS per
+having the highest CCI under non-SCN infestation, 7 chromosome varied from 119 kb to 352kb, with an aver-
+(MN1011CN, MN1106CN, M98240104, AGASSIZ, age of 251 kb. The shortest average distance between
+GRANDE, CHICO, and MN0502) had the highest CCI SNPs was found on chromosome 15, whereas the lon-
+when grown in SCN-infested soils. Of the 10 genotypes gest one was on chromosome 11 (Table 2). Average
+grown in SCN free soils and having the lowest CCI, 4 minor allele frequency (MAF) per chromosome ranged
+(PI257428, MN1008SP, NORMAN, and PI437228) still between 16.14 and 24.80%, with an average of 21.57%
+showed the lowest CCI when grown in SCN-infested (Table 2). Percentage of heterozygous SNPs per chromo-
+soils.
+some was in the range of 7.57 to 10.76%, and averaging
+Tolerance to SCN based on CCI was assessed by com- 9.30% (Table 2). Percentage of missing SNP per chromo-
+puting the percentage reduction in CCI due to SCN in- some varied from 4.16 to 5.60%, with an average of
+fection. Percentage reduction in CCI by SCN was 4.96% (Table 2).
+Table 1 ANOVA for leaf chlorophyll content of plants without SCN, plants infested with SCN, and decrease in chlorophyll content
+due to SCN
+Traits
+Source
+DF
+Sum of Squares
+Mean Square
+F Value
+Pr>F
+Without SCN
+Genotype
+171
+10,460.76
+63.02
+11.17
+<.0001
+Error
+516
+2939.98
+5.64
+SCN-infested
+Genotype
+171
+23,423.78
+141.11
+9.43
+<.0001
+Error
+516
+7791.98
+14.96
+Decrease in chlorophyll (%6)
+Genotype
+171
+110,482.93
+665.56
+4.26
+<.0001
+Error
+516
+81,465.40
+156.36
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 4 of 18
+100-
+40-
+50
+I
+€
+0-
+I
+20-
+I
+50-
+0
+Decease_in_CHorohl
+SCNJjrfested
+Witou_SCN
+Fig. 1 Combined violin-boxplots representing the probability density function of leaf chlorophyll content indices for plants grown in SCN-infested
+soils (yellow), plants grown in soils without SCN (green), and percentage reduction in leaf chlorophyll content indices due to SCN
+Genome-wide association study (GWAS)
+identifying SNPS was reasonable (Fig. 2d). LOD values
+Genome-wide association study was conducted to identify pertaining to those 14 SNPs were in the range of 2.52 to
+SNPS associated with CCI under non-SCN infection, CCI in 9.01, with an average of 4.29 (Table 3). SNPs having the
+SCN-infected plants, and reduction in CCI by SCN. The highest LOD values were Gm06.50593,128T.G (9.01),
+number of significant SNPS varied among those aforemen- Gm15.43797,502.G_T (5.94), Gm18_1.620,585_T.C
+tioned traits. A total of 22 SNPS were found to be signifi- (5.15), Gm19.39.863286GT (5.02), Gm02_2,246,479
+cantly associated with CCI under non-infested condition. A_G (4.82) (Table 3), which were located on chromo-
+These SNPS were located on chromosomes 4, 5, 6, 7, 10, 11, somes 6, 15, 18, 19, and 2 (Fig. 2c).
+12, 13, 19, and 20 (Table 3). Ofthe 22 SNPS, five were found A total of 16 SNPs were found to be associated with
+on chromosome 11 and 4 mapped on chromosome 6 reduction in CCI due to SCN. Those SNPs were located
+(Fig. 2a). The QQ-plot showed that the model used to assess on chromosomes 2, 3, 4, 6, 7, 8, 9, 13, 15, and 18 (Fig.
+the SNPs was robust (Fig. 2b). Among the 22 SNPS associ- 2e). Of the 16 SNPS, 4 were found on chromosome 8,
+ated with CCI for the non-infested plants, LOD varied from suggesting significant QTL associated with tolerance to
+2.51 to 8.63, with an average of 4.32 (Table 3). The SNPs SCN in this region, based upon the reduction in CCI.
+having the highest LOD values were Gm06.16792,113TC The QQ-plot (Fig. 2f) indicated the robustness of the
+(8.63), Gm20.1.621,036TC (7.90), Gm19.48074289AC model used for GWAS. For the 16 SNPS, LOD values
+(6.35), Gm06.11.948,808.GA (6.16), Gm06-47439414C varied from 2.50 to 10.33, with an average of 4.49 (Table
+T (5.80), Gm20.33580,029.CT (5.70), Gm05_40,299,923 3). The SNPS with the highest LOD values were Gm13_
+A_G (5.65) (Table 3). Most of these high LOD value SNPS 39,378,998_G_A (10.33), Gm06.50593,128T.G (7.22),
+(LOD>6) were located on chromosome 6 indicative of sig- Gmo7.35908.169T.C (6.37), Gm08 11,501,419AC
+nificant QTL associated with plant chlorophyll on this (5.70), Gm045,172,18LAG (5.50), and Gm06_16,315,
+chromosome.
+206_A_G (5.26) (Table 3), which were found on chro-
+Results showed a total of 14 SNPs significantly associ- mosomes 13, 6, 7, 8, 4, and 6, respectively. Two of the
+ated with leaf chlorophyll content for SCN-infested plants. most significant SNPs were located on chromosome 6,
+These SNPS were found on chromosomes 2, 3, 5, 6, 7, 10, indicating probable QTL affecting SCN on this region.
+13, 14, 15, 18, and 19. Of the 14 SNPS, 3 were mapped on An overlapping significant SNP, Gm19-48,074,289.A
+chromosome 19 and 2 were identified on chromosome 2 C, was found to be associated with both leaf chlorophyll
+(Fig. 2c). The QQ-plot suggested that the model used for content for non-SCN-infested and SCN-infested plants
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 5 of 18
+Table 2 Distribution of SNPS obtained from the Soy6K SNP Infinium Chips, average distance between SNPS within each
+chromosome, average minor allele frequency, average percentage of heterozygous SNP, and average percentage of missing data
+per SNP
+Chromosome
+SNP_ Number
+Aveag.dsunce.boeweenswe (kb)
+MAF(96)a
+H(96)b
+Missing(%6)
+1
+159
+352
+19.17
+9.21
+4.79
+2
+254
+223
+23.51
+9.72
+5.30
+3
+194
+267
+22.65
+9.40
+5.15
+4
+190
+286
+24.25
+9.43
+5.09
+5
+194
+239
+23.38
+10.02
+5.10
+6
+205
+275
+19.96
+9.23
+4.38
+7
+215
+189
+16.72
+8.39
+4.67
+8
+225
+208
+21.98
+8.21
+4.57
+9
+191
+274
+24.80
+8.93
+5.03
+10
+216
+280
+23.78
+9.57
+5.37
+11
+144
+266
+16.14
+7.57
+4.16
+12
+174
+256
+21.48
+8.52
+4.79
+13
+262
+201
+21.01
+9.64
+4.86
+14
+196
+302
+21.91
+9.80
+4.59
+15
+235
+119
+24.24
+10.76
+5.60
+16
+165
+227
+22.76
+9.43
+5.35
+17
+197
+235
+22.44
+10.23
+5.13
+18
+269
+291
+18.81
+8.91
+4.93
+19
+200
+279
+21.23
+8.58
+5.02
+20
+204
+260
+21.24
+10.50
+5.27
+aMinor Allele Frequency (MAF)
+bAverage percentage of heterozygous SNP
+CAverage percentage of missing SNP data
+(Table 3). Three overlapping significant SNPS, Gm06_50, directly involved in the chlorophyll pathway, which was
+593,128_T_G, Gm13.39378.998.G.A, and Gm15_43, indicative of the robustness and reliability of the SNPs re-
+797,502_G_T, were also identified for leaf chlorophyll ported in this current investigation (Table 3). In addition,
+content of plants grown in soils with SCN and the re- the protein, 4-alpha-glucanotransferae encoded by
+duction in CCI (Table 3), indicating these SNP markers Glyma.06g146400 and widely found in photosynthetic
+may not be related to SCN tolerance. However, no over- leaves was also identified. Genes located within the 10-kb
+lapping SNPS were identified for the traits leaf chloro- genomic region of the most significant SNPS, Gm06 16,
+phyll content under non-SCN infestation and reduction 792,113_T_C, Gm20_1.621,036T.C, Gm19_48,074,289
+in CCI due to SCN, suggesting that these SNP markers A_C, Gm06.11,948.08.GA Gm06-47439414.CT,
+were associated with SCN tolerance.
+and Gm20.33,580,029.CT were Glyma.06g191200,
+Glyma.20g017100, Glyma.19g229800, Glyma.06g146400,
+Candidate genes
+Glyma.06 g285800, and Glyma.20g092200, which encoded
+Genes within the 10kb-genomic region flanking a signifi- for IQ-domain, sulfate transporter, importin, 4-alpha-
+cant SNP were taken into a consideration. Of the 22 SNPS glucanotransferase, vascular plant one zinc finger protein,
+significantly associated with leaf chlorophyll content and 40S ribosomal protein (Table 3).
+under non-SCN infestation, 20 harbored genes within the A total of 13 candidate genes associated with leaf
+10kb-flanking region (Table 3). Functional annotations chlorophyll content for the SCN-infected plants were
+pertaining to these candidate genes consisted of mem- identified (Table 3). Of the 13 reported candidate
+brane proteins, kinase, phosphatase, biomolecule transfer- genes, 10 had functional annotations and 2 encoded
+ase, transporters, and transcription factors. The genomic for proteins with unknown functions. These candidate
+region containing the significant SNP, Gm07_3,990,308 genes were involved in biomolecule transporters such
+A_G, contained the gene Glyma.07g047600, which as importin, transcription factors such as sequence-
+encoded for a chlorophyll A-B binding protein and was specific DNA binding transcription factors, and plant
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 6 of 18
+Table 3 Significant SNPS associated with leaf chlorophyll content for plants without SCN infestation, leaf chlorophyll content for
+SCN-infested plants, decrease in leaf chlorophyll content due to SCN, genes within 10kb genomic region harboring the SNPS, and
+functional annotation of the genes
+Trait
+SNP_ID
+Chromosome Position MAF LOD
+Gene nameb Functional annotation
+(bp) (%6) (-log10(p-
+value))
+Leaf chlorophyll content
+Gm04_2,574, 4
+2,574, 14.11 2.54
+Glyma.04
+Predicted membrane protein
+undernon-SCN infestation
+201_T_G
+201
+g032100
+Gm04_7,672, 4
+7,672, 39.88 3.99
+Glyma.04
+Serine/threonine protein kinase
+403_A_G
+403
+g088800
+Gm05_40,299, 5
+40,299, 7.1 5.65
+Glyma.05
+Aspartyl/lysyl-trna synthetase
+923_A_G
+923
+g224000
+Gm06_11,948, 6
+11,948, 31.25 6.16
+Glyma.06
+4aphaglucanotansferase
+808_G_A
+808
+g146400
+Gm06_16,792, 6
+16,792, 6.62 8.63
+Glyma.06
+IQ-domain 31
+113_T_C
+113
+g191200
+Gm06_43,980, 6
+43,980, 6.02 3.31
+NAC
+NA
+786_G_A
+786
+Gm06_47,439, 6
+47,439, 35.58 5.80
+Glyma.06
+Vascular plant one zinc finger protein
+414_C_T
+414
+g285800
+Gm07_3,953, 7
+3,953, 38.51 2.57
+Glyma.07
+Calcineurin-like metallo-
+270_T_C
+270
+g047100
+phosphoesterase superfamily protein
+Gm07_3,990, 7
+3,990, 37.42 2.52
+Glyma.07
+Chlorophyll A-B binding protein
+308_A_G
+308
+g047600
+Gm10_4,458, 10
+4,458, 30.62 2.51
+Glyma.10
+ROP interactive partner 3
+104_G_A
+104
+g049600
+Gm10_41,610, 10
+41,610, 17.58 4.88
+Glyma.10
+Phytoene dehydrogenase
+215_C_T
+215
+g183000
+Gm11_3,641, 11
+3,641, 26.41 2.87
+Glyma.11
+Formin-related
+716_A_C
+716
+g048600
+Gm11_4,702, 11
+4,702, 25.95 2.89
+Glyma.11
+Homeobox protein transcription
+578_C_A
+578
+g062300
+factors
+Gm11_15,558, 11
+15,558, 21.81 4.21
+Glyma.11
+Serine/threonine protein
+504_T_C
+504
+g164300
+phosphatase
+Gm11_37,978, 11
+37,978, 11.11 3.82
+NA
+NA
+746_G_T
+746
+Gm11_38,183, 11
+38,183, 13.09 3.04
+LOC106795218 NA
+607_G_A
+607
+Gm12_1,460, 12
+1,460, 12.65 3.68
+Glyma.12
+2C-methy-D-erythritol 4-phosphate
+019_T_C
+019
+g020500
+cytidylytransferase
+Gm13_38,032, 13
+38,032, 38.6 3.40
+Glyma.13
+Asparagine synthetase
+737_G_A
+737
+9279200
+Gm19_42,195, 19
+42,195, 28.05 2.72
+Glyma.19
+Uridine kinase
+616_G_A
+616
+g161200
+Gm19_48,074, 19
+48,074, 40 6.35
+Glyma.19
+Karyopherin (importin) alpha
+289_A_C
+289
+g229800
+Gm20_1,621, 20
+1,621, 26.06 7.90
+Glyma.20
+Sulfate transporter
+036_T_C
+036
+g017100
+Gm20_33,580, 20
+33,580, 16.97 5.70
+Glyma.20
+40S ribosomal protein
+029_C_T
+029
+g092200
+Leaf chlorophyll conent for Gm02_207, 2
+207,506 4.76 3.09
+Glyma.02
+Protein of unknown function
+SCN-infested plants
+506_A_G
+g001700
+Gm02_2,246, 2
+2,246, 33.33 4.82
+Glyma.02
+Protein of unknown function
+479_A_G
+479
+g025200
+Gm03_36,634, 3
+36,634, 5.36 2.64
+Glyma.03
+NA
+361_G_A
+361
+g151400
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 7 of 18
+Table 3 Significant SNPS associated with leaf chlorophyll content for plants without SCN infestation, leaf chlorophyll content for
+SCN-infested plants, decrease in leaf chlorophyll content due to SCN, genes within 10kb genomic region harboring the SNPS, and
+functional annotation of the genes (Continued)
+Trait
+SNP_ID
+Chromosome Position MAF LOD
+Gene nameb Functional annotation
+(bp) (%6) (-log10(p-
+value))
+Gm05_39,995, 5
+39,995, 7.74 4.27
+Glyma.05
+Formin binding protein and related
+603_C_T
+603
+g220300
+proteins
+Gm06_50,593, 6
+50,593, 22.84 9.01
+Glyma.06
+Predicted transporter
+128_T_G
+128
+g317100
+Gm07_11,956, 7
+11,956, 34.18 2.54
+Glyma.07
+Ethylene-responsive element binding
+773_T_C
+773
+g114300
+factor 13
+Gm10_6,196, 10
+6,196, 34.18 4.13
+Glyma.10
+Sequence-specific DNA binding
+864_T_G
+864
+g064900
+transcription factors
+Gm13_39,378, 13
+39,378, 5.81 3.97
+Glyma.13
+Putative signaling peptide similar to
+998_G_A
+998
+g294200
+TAX1
+Gm14_49,357, 14
+49,357, 6.55 2.52
+NA
+NA
+738_A_G
+738
+Gm15_43,797, 15
+43,797, 23.75 5.94
+Glyma.15
+Leucine-rich repeat-containing
+502_G_T
+502
+g233100
+protein
+Gm18_1,620, 18
+1,620, 9.2 5.15
+Glyma.18
+BTB/POZ domain-containing protein
+585_T_C
+585
+g022100
+Gm19_38,917, 19
+38,917, 19.02 2.60
+Glyma.19
+F-box family protein
+571_A_G
+571
+g129700
+Gm19_39,863, 19
+39,863, 24.69 5.02
+Glyma.19
+Det1 complexing ubiquitin ligase
+286_G_T
+286
+g137300
+Gm19_48,074, 19
+48,074, 40 4.39
+Glyma.19
+Karyopherin (importin) alpha
+289_A_C
+289
+g229800
+Decrease in chlorophyll
+Gm02_6,340, 2
+6,340, 4.19 2.83
+Glyma.02
+Methyltransferase-lke protein
+content
+233_C_A
+233
+g072300
+Gm03_3,334, 3
+3,334, 35.03 4.47
+Glyma.03
+Cytochrome P450
+303_C_A
+303
+g029900
+Gm03_39,574, 3
+39,574, 27.85 2.67
+Glyma.03
+NA
+966_T_C
+966
+g183700
+Gm04_5,172, 4
+5,172, 23.27 5.50
+Glyma.04
+NA
+181_A_G
+181
+g062600
+Gm06_16,315, 6
+16,315, 39.26 5.26
+Glyma.06
+Lipase (class 3)
+206_A_G
+206
+g187300
+Gm06_50,593, 6
+50,593, 22.84 7.22
+Glyma.06
+Predicted transporter
+128_T_G
+128
+9317100
+Gm07_35,908, 7
+35,908, 17.5 6.37
+Glyma.07
+Secretory carrier membrane protein
+169_T_C
+169
+g191600
+Gm08_9,848, 8
+9,848, 4.71 2.69
+Glyma.08
+Phoghumoyenowid-eghoghute 5-
+168_T_C
+168
+g127700
+kinase
+Gm08_10,116, 8
+10,116, 5.32 2.75
+Glyma.08
+Protein of unknown function
+360_C_T
+360
+g132000
+Gm08_11,501, 8
+11,501, 5.36 5.70
+Glyma.08
+Iron/ascorbate family
+419_A_C
+419
+g149800
+oxidoreductases
+Gm08_43,787, 8
+43,787, 12.05 2.60
+Glyma.08
+NA
+988_G_A
+988
+g318600
+Gm09_6,664, 9
+6,664, 38.22 2.50
+LOC106794327 NA
+095_T_C
+095
+Gm13_5,211, 13
+5,211, 12.12 2.90
+NA
+NA
+326_T_C
+326
+Gm13_39,378, 13
+39,378, 5.81 10.33
+Glyma.13
+Putative signaling peptide similar to
+998_G_A
+998
+g294200
+TAX1
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 8 of 18
+Table 3 Significant SNPS associated with leaf chlorophyll content for plants without SCN infestation, leaf chlorophyll content for
+SCN-infested plants, decrease in leaf chlorophyll content due to SCN, genes within 10kb genomic region harboring the SNPS, and
+functional annotation of the genes (Continued)
+Trait
+SNP_ID
+Chromosome Position MAF LOD
+Gene nameb Functional annotation
+(bp) (%6) (-log10(p-
+value))
+Gm15_43,797, 15
+43,797, 23.75 4.79
+Glyma.15
+Leucine-rich repeat-containing
+502_G_T
+502
+g233100
+protein
+Gm18_1,427, 18
+1,427, 5.29 3.29
+Glyma.18
+Copper transport protein ATOX1-
+298_G_T
+298
+g019300
+related
+ap-value associated to each SNP was obtained using the FarmCPU model
+bGene name was retrieved from Soybase using the Glycine max genome version Glyma.Wm82.a2 (Gmax2.0)
+Information was not available
+hormones-induced genes such as ethylene-responsive harbored genes such as Glyma. .06 g317100, Glyma.15
+element binding factor. Candidate genes encoding for g233100, Glyma. 18 g022100, and Glyma.19g137300,
+a leucine-rich repeat protein have been also identified. which encoded for biomolecule transporter, leucine-
+The 10-kb flanking regions of the most significant rich repeat-containing protein, BTB/POZ domain-
+SNPS, Gm06.50.593,128.T.G, Gm15-437972502.G.T, containing protein, and Detl complexing ubiquitin
+Gm18.1,620,585_T.C and Gm19.39863,286G.T, ligase, respectively (Table 3).
+(A)
+(B)
+is
+Without SCN 9
+a
+1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 18 19 20
+1 2 3
+Expected -logio(p)
+a
+(C)
+(D)
+With SCN
+9
+1 2 3
+6 8 9 10 12 13 14 15 16 18 19 20
+1 2 3
+Expected -logio(p)
+(E)
+e (F)
+co
+Decrease in 9
+chlorophyll
+1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 18 19 20
+2
+Expected -logio(p)
+Fig. 2 Graphs showing Manhattan plots and QQ-plots for leaf chlorophyll content indices (CCI) of plants non-infected by SCN, CCI plants infected
+by SCN, and reduction in CCI by SCN. a Manhattan plot for CCI of plants without SCN, b QQ-plot for CCI of the non-infected plants, c Manhattan
+plot for CCI of the SCN-infected plants, d QQ-plot for CCI of the SCN-infected plants, e Manhattan plot for reduction in CCI by SCN, and (f): QQ-
+plot for reduction in CCI
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 9 of 18
+Results suggested a total of 15 candidate genes associated Marker-assisted selection accuracy and selection
+with chlorophyll content tolerance to SCN in soybean. Of efficiency
+the 15 candidate genes, 11 had functional annotations as re- SNP selection accuracy and efficiency pertaining to the
+ported in Table 3. Two genes, Glyma.13g294200 and significant SNPS were calculated for CCI under non-
+Glyma.15g233100 encoding for a putative signaling peptide SCN infestation, CCI under SCN infestation, and reduc-
+similar to TAX1 and a leucine-rich repeat-containing pro- tion in CCI by SCN. For the plants under non-SCN in-
+tein, respectively, were overlapping between CCI of SCN- festation, selection accuracy varied from 35.94 to
+infected plants and reduction in ICC. Most of the reported 87.80%, with an average of 55.40% (Table 4). The highest
+candidate genes encoded for molecule transporters within selection accuracy was found for the SNP Gm19_48,074,
+and between plant cells such as Glyma.06g317100, 289_A_C (87.80%), whereas the SNP Gm20_1,621,036
+Glyma.07g191600, and Glyma.13g294200. Candidate genes T_C had the lowest selection accuracy (35.94%) (Table
+found within the most significant genomic regions contain- 4). Selection efficiency ranged from 25.56 to 54.55%,
+ing the SNPS Gm13.3937899.GA, Gm06_50593,128T with an average of 35.71% (Table 4). The SNP Gm19_48,
+G, Gm07_ 35,908,169_T_C, Gm08.11501419AC and 074,289_A_C (54.55%) had the highest selection effi-
+Gm06.16315206AG were Glyma.13 g294200, Glyma.06 ciency. The lowest selection efficiency was found for the
+g317100, Glyma.07 g191600, Glyma.08 g149800, and Glyma. SNP Gm20.1.621,036.T.C (25.56%). Favorable alleles
+06 g187300, encoded for a putative signaling peptide similar for the most significant SNPs Gm06.16792113.T.C
+to TAX1, protein transporter, secretory carrier membrane Gm20.1,621,036T.C Gm19-48.074289.AC Gm06_
+protein, Iron/ascorbate family oxidoreductases, and lipase 11,948,808_G_A, and Gm06-47439414.CT were T, T,
+(class 3) (Table 3).
+C, G, and T, respectively (Table 4).
+Table 4 Marker-assisted selection accuracy and efficiency for the significant SNPS associated with leaf chlorophyll content under
+non-SCN infestation
+Selection_accuracy.0"
+Selection.eficdency_.os"
+Favorable_allele
+Gm04.2574201TG
+44.32
+30.23
+G
+Gm04_7672,403AG
+64.10
+38.46
+A
+Gmo5_40299923AG
+50.00
+33.77
+G
+Gm06.11948808.GA
+45.76
+31.76
+G
+Gm06_16792,113LC
+43.88
+28.10
+T
+Gm06.43980786.GA
+45.54
+30.87
+G
+Gm06.47A39414CT
+49.02
+32.05
+T
+Gm07_3953270_LC
+56.25
+34.18
+T
+Gm07_3990308AG
+56.00
+34.15
+A
+Gm10_4458104_GA
+77.78
+42.86
+A
+Gm10_41610215.CT
+50.65
+33.91
+T
+Gm11_3641716AC
+48.53
+31.43
+C
+Gm11_4702578.CA
+41.18
+27.18
+A
+Gm11_15558504.TC
+66.67
+42.31
+T
+Gm11_37978746GT
+56.98
+37.40
+G
+Gm11_38183607GA
+58.62
+39.53
+G
+Gm12_1460019LC
+49.00
+34.75
+T
+Gm13_38032737.GA
+71.79
+45.90
+A
+Gm19.42195616GA
+62.90
+39.80
+G
+Gm19.48074289AC
+87.80
+54.55
+C
+Gm20_1.621.036_TC
+35.94
+25.56
+T
+Gm20.33580029.CT
+56.00
+36.84
+C
+aSelection accuracy == 100"[(Number of genotypes having high leaf chlorophyll content with the favorable SNP allele)/(Number of genotypes having high leaf
+chlorophyll content with the favorable SNP allele + Number of genotypes having low leaf chlorophyll content with the favorable SNP allele)
+bSelection efficiency =1 100"((Number of genotypes having high leaf chlorophyll content with the favorable SNP allele)/(Total number of genotypes having the
+favorable SNP allele)]
+Favorable allele corresponds to the allele with the highest frequency in the top 57 genotypes having the highest chlorophyll content under non-SCN infestation
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 10 of 18
+Significant SNPs associated with CCI under SCN in- efficiency was Gm03.3334,303CA (29.55%). Favorable
+festation exhibited a large variation in selection accuracy alleles corresponding to the most significant SNPS
+and selection efficiency. Selection accuracy was in the Gm13.3937899.GA, Gm06 50,593,128_T_G, Gm07
+range of 41.18 to 85.11%, with an average of 56.01% 35,908,169_T_C, GmO8.11.501.419AC and Gm04_5,
+(Table 5). Among the significant SNPS, the highest selec- 172,181_A_G were G, T, C, A, and A (Table 6).
+tion accuracy was recorded for Gm19.48.074,289AC
+(85.11%), whereas the lowest one was found for Gm18_ Genomic selection (GS)
+1,620,585_T_C (41.18%) (Table 5). Selection efficiency Genomic selection for CCI of non-SCN-infected plants,
+varied from 26.72 to 60.61%, with an average of 38.24%. CCI of the SCN-infested plants, and reduction in CCI by
+The SNP Gm19.48.074,289AC (60.61%) had the high- SCN was conducted using 5 different statistical models.
+est selection efficiency, whereas the SNP Gm18_1,620, For the plants without SCN infection, average GS accur-
+585_T_C (26.72%) exhibited the lowest selection effi- acy was 0.33, 0.23, 0.32, 0.38, and 0.28 for rrBLUP,
+ciency. Favorable alleles for the most significant SNPS, gBLUP, Bayesian LASSO (BLR), Random Forest (RF),
+Gm06.50593,128.T.G, Gm15.43797502G.T, Gm18_ and Support Vector Machines (SVMS), respectively,
+1,620,585_T_C, Gm19.39,863286.G_T. and Gm02_2, when all 4089 SNPS were included in the models (Add-
+246,479_A_G associated with CCI under SCN infest- itional file 2: Table S2). Increase in GS accuracy was
+ation were T, T, T, G, and G respectively (Table 5).
+identified using GWAS-derived SNP markers for most
+Overall, selection efficiency and accuracy of the SNPS of the statistical models expect rrBLUP. The highest in-
+associated with reduction in CCI were lower than those crease was found when gBLUP was used (Fig. 3). When
+of the SNPs associated with CCI for the non-SCN- only significant SNPs were incorporated into the GS
+infected plants and SCN-infected plants. For the reduc- models, the Bayesian LASSO model provided the highest
+tion in CCI, selection accuracy was in the range of 44.07 average GS accuracy (0.74), whereas the lowest one was
+and 68.48%, with an average of 54.56% (Table 6). The recorded when rrBLUP was used (0.31), indicative of the
+SNP Gm15.43.797,502.GT had the highest selection GS accuracy being both SNP type and GS model-
+accuracy (68.18%), whereas the SNP Gm03_3,334,303 sensitive.
+C_A showed the lowest selection accuracy (44.07%). For CCI under SCN infestation, GS accuracy was 0.45,
+SNP selection efficiency varied from 29.55 to 45.45%, 0.41, 0.47, 0.51, and 0.44 for rrBLUP, gBLUP, BLR, RF,
+with an average of 35.75% (Table 6). The SNP with the and SVMs (Additional file 2: Table S2), respectively,
+highest selection efficiency was Gm15 43,797,502_G_T when all SNPs were used to estimate the genomic esti-
+(45.45%), whereas the one with the lowest selection mated breeding values (GEBVs). In contrast to the
+Table 5 Marker-assisted selection accuracy and efficiency for the significant SNPS associated with leaf chlorophyll content under
+SCN infestation
+Selection.accuracy.cs"
+Selection.efidiency.0"
+Favorable_allele
+Gm02_207,506AG
+48.08
+32.26
+A
+Gm02_2246479.AG
+66.67
+42.50
+G
+Gm03_36634361GA
+50.49
+33.77
+G
+Gm05_3995603CT
+51.02
+33.56
+C
+Gm06.50593,128.LG
+60.29
+39.42
+T
+Gmo7_11956.773.LC
+50.00
+34.02
+C
+Gm10_6196864_TG
+63.16
+41.38
+G
+Gm13_39378998.GA
+54.37
+35.44
+G
+Gm14.49357738AG
+46.00
+30.87
+A
+Gm15_43797502_G.T
+68.18
+45.45
+T
+Gm18_1.620585_TC
+41.18
+26.72
+T
+Gm19.38917571AG
+53.85
+34.43
+A
+Gm19.39863286.G.T
+45.71
+45.00
+G
+Gm19.48074289AC
+85.11
+60.61
+C
+aSelection accuracy == 100"[(Number of genotypes having high leaf chlorophyll content with the favorable SNP allele)/(Number of genotypes having high leaf
+chlorophyll content with the favorable SNP allele + Number of genotypes having low leaf chlorophyll content with the favorable SNP allele)
+bSelection efficienty = 100*((Number of genotypes having high leaf chlorophyll content with the favorable SNP allele)/(Total number of genotypes having the
+favorable SNP allele)]
+Favorable allele corresponds to the allele with the highest frequency in the top 57 genotypes having the highest chlorophyll content under SCN infestation
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 11 of 18
+Table 6 Marker-assisted selection accuracy and efficiency for the significant SNPS associated with decrease in leaf chlorophyll
+content under SCN infestation
+Selection_accuray.O
+Selection.effidency.o
+Favorable_allele
+Gm02_6340233CA
+53.40
+35.03
+C
+Gm03_3334303CA
+44.07
+29.55
+A
+Gm03_39574966.TC
+60.71
+37.36
+C
+Gm04_5.172,18LAG
+61.54
+41.67
+A
+Gm06.16315206AG
+57.14
+37.33
+A
+Gm06.50593,128.T.G
+60.29
+39.42
+T
+Gmo7_35908,169.TC
+57.33
+35.54
+C
+Gm08_9848.168_TC
+50.96
+33.13
+T
+Gm08.10116360.CT
+51.46
+33.54
+C
+Gm08.11501419AC
+50.00
+33.54
+A
+Gm08.43787988GA
+55.68
+35.77
+G
+Gm09-6664.095_TC
+47.06
+31.17
+C
+Gm13_5211326_TC
+47.37
+33.33
+C
+Gm13_39378998.GA
+54.37
+35.44
+G
+Gm15_43797502_G.T
+68.18
+45.45
+T
+Gm18_1427298.GT
+53.33
+34.78
+G
+aSelection accuracy = 100"[(Number of genotypes having the lowest decrease in leaf chlorophyll content with the favorable SNP allele)/(Number of genotypes
+having the lowest decrease in leaf chlorophyll content with the favorable SNP allele + Number of genotypes having the highest leaf chlorophyll content with the
+favorable SNP allele)
+bSelection efficienty == 100*((Number of genotypes having the lowest decrease in leaf chlorophyll content with the favorable SNP allele)/(Total number of
+genotypes having the favorable SNP allele)]
+Favorable allele corresponds to the allele with the highest frequency in the top 57 genotypes having the decrease in leaf chlorophyll content under
+SCN infestation
+0.9-
+0.6-
+Markers
+I 0.3-
+AIL_SNPS
+GWAS_SNPS
+0.0-
+:
+:
+-0.3-
+BLR
+gBLUP
+RF
+TBLUP
+SVMS
+GS_Models
+Fig. 3 Genomic selection accuracy under 5 GS models for leaf chlorophyll content indices for plants without SCN infection
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 12 of 18
+results found for CCI under non-SCN infestation, GS in- reduction of chlorophyll content and induction of chlor-
+creased by at least 39% when significant SNPs obtained osis by SCN infection have not been studied. As far as we
+from GWAS were used. Interestingly, the highest in- know, this investigation represents the first study of QTL
+crease was found when rrBLUP was used (Fig. 4), and associated with soybean chlorophyll content tolerance to
+GS accuracy was the highest under the rrBLUP model SCN. Leaf chlorophyll content-based phenotyping strategy
+(0.83), the second highest GS accuracy was provided by for SCN infection evaluation would allow for potential dis-
+the Bayesian LASSO model (0.81), whereas SVMs covery of new loci associated with SCN tolerance, there-
+showed the lowest GS accuracy (0.70). These results sug- fore making the genetic background broader for managing
+gested that using significant SNPs obtained from GWAS SCN, especially in the situation of the increasing SCN
+could provide a better GS accuracy.
+virulence. However, soybean tolerance to SCN should be
+GS accuracy for reduction in CCI by SCN was estab- based on yield response, and chlorophyll content can be
+lished. When all SNPS were used, the RF model exhib- one of factors contributing to soybean yield response [26].
+ited the highest GS accuracy (0.41), whereas the lowest Additional studies would definitely be required to estab-
+one was found under both rrBLUP and BLR (Additional lish a possible link between yield loss and reduction in
+file 2: Table S2). Significant increase in GS accuracy was chlorophyll under SCN infestation.
+found when only significant SNPS were considered GWAS was performed in efforts to identify new loci
+(Fig. 5), which was similar to what was found for the conferring tolerance of soybean to SCN based on the as-
+two aforementioned traits. By only using GWAS-derived sessment of reduction in leaf chlorophyll content, thus
+SNPS, GS accuracy was 0.79, 0.59, 0.77, 0.61, and 0.62 contributing to diversifying genes for SCN management.
+for rrBLUP, gBLUP, BLR, RF, and SVMS, respectively The use of GWAS to discover loci associated with SCN
+(Additional file 2: Table S2).
+resistance has been shown to be promising in other
+studies [12, 22-24]. All previously reported GWAS in-
+Discussion
+vestigations relied on mature female count to assess re-
+SCN resistance has been evaluated based on female (cyst) sistance to SCN and SNPS were associated with the
+counts as measurements of SCN reproduction in soybean- female count. In this report, a total of 14 and 16 SNPs
+infected plants. In this investigation, we evaluated toler- were found to be associated with CCI under SCN infest-
+ance of soybean to SCN based on leaf chlorophyll content. ation and reduction in CCI by SCN infection, respect-
+One pathway of SCN damage to soybean is reduction of ively. The significant SNP, Gm18_1,620,585_T.C found
+chlorophyll content and induction of chlorotic symptoms on chromosome 18 and associated with CCI under SCN
+[4]. However the molecular mechanisms involved in infestation was located at 88 Kbp upstream of the rhgl
+1.00
+0.75-
+1
+0.50 -
+Markers
+AII_SNPS
+de
+GWAS_SNPS
+0.25
+:
+:
+0.00 -
+BLR
+gBLUP
+RF
+TBLUP
+SVMS
+GS_Models
+Fig. 4 Genomic selection accuracy under 5 GS models for leaf chlorophyll content indices of the SCN-infected plants
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 13 of 18
+1.0-
+0.5-
+Markers
+:
+I
+AII_SNPS
+GWAS_SNPS
+:
+0.0
+
+BLR
+gBLUP
+RF
+TBLUP
+SVMS
+GS_Models
+Fig. 5 Genomic selection accuracy under 5 GS models for reduction in leaf chlorophyll content indices by SCN
+locus. In addition, the SNP Gm18_1427,298.G_T non-SCN infestation, CCI for the SCN-infected plants,
+mapped on chromosome 18 and significantly associated and reduction in CCI as reported in Tables 4, 5, and 6.
+with a reduction of CCI was located at 281 Kbp up- The use of SNP selection and accuracy has been
+stream from the rhgl locus. These results indicate that highlighted in other GWAS-related reports [32, 33].
+this panel carries PI 88788 SCN-type resistance. Similar SNP selection accuracy and efficiency varied from
+results were reported [12] stating that SNP markers lo- medium to high in this study. This suggested that the
+cated at even about 1 Mb from the rhgl locus were still significant SNPs identified from this investigation can be
+in high LD with that SCN-resistant locus. In addition, a used for further marker-assisted selection for enhancing
+SNP marker located at 23 Kbp from Gm18_1,620,585 soybean resistance/tolerance to SCN.
+T_C and being tightly linked with the rhgl locus was re- Candidate genes found within a 10-kb region harbor-
+ported [23]. Therefore, the two aforementioned SNPS ing significant SNPS have been established in Table 3.
+which were found at a distance less than 300 Kbp from Candidate genes associated with CCI under non-SCN
+the rhg 1 locus could be used in marker-assisted selec- infestation encoded for proteins that were relevant to
+tion for SCN resistance. This finding suggested that chlorophyll pathway. Functional annotation of the iden-
+assessing soybean tolerance to SCN based on chlorophyll tified candidate genes consisted of chlorophyll A-B bind-
+reduction could provide useful result for selecting SCN- ing protein and +-alpha-glucanotransferase found in
+tolerant genotypes. Most of the significant SNPS associ- photosynthetic leaves [34]. Proteins involved in plant de-
+ated with both CCI under SCN and reduction of CCI by velopment such as ROP interactive partner [35], formin-
+SCN were found within previously reported SCN- related [36], homeobox transcription factor [37], and uri-
+resistant QTL and loci [12, 23, 24, 27-31]. In addition, dine kinase [38] were identified as well. In addition,
+the results suggested three new loci associated with genes encoding for proteins associated with plant nutri-
+chlorophyll content tolerance to SCN, of which, two tion such as asparagine synthetase [39] and sulfate trans-
+were found on chromosome 3 and associated with the porter [40] were found. The results were indicative of
+SNPs Gm03.3.334,303.CA and Gm03.39,574,966T the robustness of the significant SNPs reported in this
+C, and the third one was mapped on chromosome 6 and study since they permitted the discovery of candidate
+associated with the SNP Gm06.50.593,128.T.G. The genes relevant to chlorophyll pathway and plant nutri-
+discovery of these new loci would permit for diversifying tion uptake under non-SCN infestation.
+SCN-tolerance genes for SCN management.
+The genomic region harboring the overlapping SNP
+Selection efficiency and accuracy were computed for (Gm19.48.074289AC, which was associated with
+the most significant SNPs associated with CCI under both CCI under non-SCN infestation and SCN-
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 14 of 18
+infestation, enclosed a gene encoding for an importin, resistance/tolerance. In this study, average GS accuracy
+which was responsible for biomolecule trafficking within among different GS models was 0.31, 0.46, and 0.35 for
+plant cells [41]. This gene could impact the flow of nu- CCI under non-SCN infestation, CCI in the SCN-
+trients during plant development even under plant stress infected plants, and reduction of CCI by SCN when all
+such as SCN infection. In addition, an overlapping marker sets were used. When GWAS-derived SNPs was
+candidate gene encoding for a leucine-rich repeat- used, average GS accuracy was 0.55, 0.76, and 0.68 for
+containing protein (Table 3) was reported to enhance the three aforementioned traits. A GS accuracy aver-
+both leaf chlorophyll content under SCN infestation and aging 0.46 for SCN resistance based on SCN female
+tolerance to SCN in leaf chlorophyll content. Leucine- count and using different GS models was previously re-
+rich repeat protein has been widely shown to be involved ported [12]. The results from the GS involving CCI was
+in plant resistance mechanism to pathogen attack [36]. in agreement with that of found by previous investiga-
+Further investigations are required to validate the func- tions [12] despite the fact that two different phenotypes,
+tion of this gene and its involvement in SCN tolerance leaf chlorophyll content and female count, were used. In
+in soybean. In addition, a signaling peptide was found to addition, GS accuracy involving linear models (rrBLUP,
+be associated with chlorophyll content tolerance to SCN. gBLUP, RF) performed almost similarly as those using
+Signaling peptides have been reported to be involved in more sophisticated approach (Bayesian LASSO) and ma-
+plant development [42], suggesting that this gene could chine learning strategy (Additional file 2: Table S2).
+enhance plant survival under stress of SCN infestation. Similar findings were reported [12].
+Protein transporters and membrane proteins were widely
+found to be involved in chlorophyll content tolerance to Conclusions
+SCN in this study. These proteins enhance the flow of A total of 172 soybean genotypes were evaluated for the
+biomolecules and nutrients within and between cells effect of SCN HG Type 1.2.3.5.6.7 (race 4) on soybean
+[41], thus permitting plant survival under SCN infection. leaf chlorophyll content in the greenhouse. The leaf
+Moreover, proteins associated with plant hormone sig- chlorophyll content indices (CCI) were used as the
+naling such as ethylene-responsive element binding fac- phenotypic data and 4089 filtered and high-quality SNPs
+tor 13, BTB/POZ domain-containing protein, and F-box obtained from the Soy6K SNP Infinium Chips as the
+family protein were identified. These signaling proteins genotypic data for the GWAS and GS analysis. A total of
+have been demonstrated to be directly involved in plant 22, 14, and 16 SNP markers were associated with CCI of
+defense against pathogens [43].
+non-SCN-infected plants, SCN-infected plants, and re-
+The new locus found on chromosome 3 harbors a duction of CCI by SCN, respectively. The average GS ac-
+gene encoding cytochrome P450, which has been shown curacy ranged from 0.31 to 0.46 with all SNPs and
+to contribute to both plant development and defense varied from 0.55 to 0.76 when GWAS-derived SNP
+under pathogen attack [44]. Further analysis is needed to markers were used across five GS models. The SNP
+confirm the involvement of this gene in resistance/toler- markers from this study could be used to improve the
+ance to SCN. A lipase (class 3) was also found on soybean leaf chlorophyll content tolerance to SCN infec-
+chromosome 6. Lipases have been demonstrated to assist tion through MAS and GS. Further study is needed to
+with plant defense mechanism against pathogen [45]. In investigate the translation of a reduction in chlorophyll
+addition, a methyltransferase-like protein gene was iden- content to yield loss under SCN infestation.
+tified in a genomic region belonging to chromosome 2,
+which was in the vicinity of a significant SNP (Gm03 3, Methods
+334,303_C_A) associated with chlorophyll content toler- Plant materials and phenotyping
+ance to SCN. This protein modulates gene expression A total of 172 soybean genotypes were used for this
+[44]. Additional studies are required to understand the study (Additional file 1: Table S1). This panel of lines
+involvement of this methyltransferase gene in enhancing was part of the panel of 282 lines selected by Bao from
+chlorophyll content tolerance to SCN in soybean plants. the University of Minnesota soybean breeding program
+Genomic selection has recently become more and using PediTree for the previous study of association
+more popular in modern and large-scale crop breeding mapping (AM) and genomic selection (GS) of SCN re-
+programs. Previous studies highlighted that GS allowed sistance by Bao et al. (2015) [12]. Most of the lines were
+for a more robust prediction of genotypic values com- susceptible to SCN in terms of SCN female counts of
+pared to QTL [46]. In addition, GS has been proven to HG Type 0 (race 3), but there were six resistant, six
+be more powerful compared to Marker-Assisted Selec- moderately resistant, and four moderately susceptible
+tion (MAS) when dealing with traits controlled by genes lines (Additional file 1: Table S1). The few resistant lines
+having small effects [47]. However, little has been done contained SCN resistance genes from PI 88788 [12]. The
+with respect to investigating GS accuracy for SCN plant materials listed in the Additional file 1: Table S1
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 15 of 18
+are preserved in the soybean breeding program in the NC, USA). Data were visualized through combined vio-
+University of Minnesota, and the lines with PI numbers lin and boxplots using the packages 'ggplot2', labeling'
+are available in the United States Department of Agricul- and 'gridExtra' of R 3.3.0. Data were analyzed using
+ture Germplasm Resources Information Network (USDA PROC GLM of SAS. 9.4. The statistical model for the
+GRIN).
+analysis was the following.
+The phenotyping experiment was conducted in the
+greenhouse at the University of Minnesota St. Paul cam-
+Yij H + Gi + Eij withi == 1,2, .... 172andj
+pus. A soil without SCN infestation was collected from a
+= 1,2,3,4
+soybean field. The soil was mixed and divided to four Yj denoted the response of the jth genotype at the jth
+lots. For each replicate, a lot of soil was further thor- replication, G; represented the effect of the jth genotype
+oughly mixed, and then divided to 1-kg lots that were (assumed to have fixed effect), and Eij was the experi-
+placed in 1-galon plastic bags. In each bag, 500 g sand mental error associated with the ijth observation.
+were added for increase of drainage. The soil of each bag
+was used for one pot.
+Genotyping
+Soybean cyst nematode HG Type 1.2.3.5.6.7 (race 4) DNA was extracted from young leaves of each accession
+was cultured on susceptible soybean 'Sturdy. Race 4 can using DNeasy 96 Plant Kit (QIAGEN, Valencia, CA).
+reproduce well on the lines containing resistance genes The DNA samples were genotyped using an Illumina
+from PI 88788. Eggs were collected from the soybean GoldenGate SNP assay. A total of 4252 SNPS obtained
+roots and soil. The eggs (80,000 eggs/bag R 10,000 eggs/ from the Soy6K SNP Infinium Chips (https.//www.soy-
+100 cm3 soil) in 10 ml water were added into the soil in bascorg/smpydownlgudphp were used in the genotyp-
+the plastic bag before planting. For the pots without ing. SNP data having more than 10% missing data, more
+SCN eggs, 10ml water was added into the bags. The than 20% heterozygous SNPS, and minor allele frequency
+soil-sand with or without SCN eggs were mixed in each less than 4% were removed from the analysis. After SNP
+bag. About 83% of the soil from each bag was placed in filtering, a total of 4089 high-quality SNPs were used for
+a pot. Ten soybean seeds were placed on the surface further analysis.
+each pot and the seeds were covered with the remaining
+soil. The pots were placed in the greenhouse benches. Genome-wide association study (GWAS)
+The two pots (SCN and no-SCN) of the same soybean GWAS was performed using a Fixed and Random Model
+line were placed together to minimize the environmental Circulating Probability Unification (FarmCPU) in R soft-
+difference between the SCN and no-SCN treatments
+ware as previously described [48]. FarmCPU was shown
+within a genotype. Each line was replicated four times. to have an enhanced statistical power when running for
+Due to the large number of lines, this experiment was GWAS [49]. Both fixed (FEM) and random effects
+conducted at four different times with approximately 60 (REM) were included in the model and run iteratively
+lines per time in the same greenhouse. Although pots of until no new pseudo QTNS were established. The model
+each replicate were placed in a block, the experiment was described as following [48].
+was considered randomized design because the lines
+were evaluated in four groups at four different times. (a)
+Leaf chlorophyll content indices (CCI) were recorded
+using SPAD 502 DL Meter (Minolta) on the second tri-
+FEM : Yi == Mibi + Mizb2 + ... + Mijb; + Sikdk + ei
+foliate leaves of 8-week old soybean plants. A total of 15
+observations were taken from the 15 leaflets of the five
+plants each pot, and the average CCI for each pot was where Yi represented the phenotypic data obtained
+calculated from the 15 observations.
+from the ith individual, M,'s denoted the pseudo QTNS,
+Data analysis.
+by's were the effect of the jth pseudo QTN, Sik denoted
+Data consisted of CCI without SCN, CCI of plants in the kth SNP corresponding to the ith individual, and ei
+soil infested with SCN, and percentage reduction in CCI. was the random error for the jth observation such that ei
+Percentage reduction in CCI was obtained as following: 2 N(O, 0).
+ Leaf chlorophyll content Reduction = 100 x((CCI
+(b)
+without SCN - CCI of plants infected with SCN)/
+REM : Yi == Ui + ej
+CCI without SCN]
+Descriptive statistics were generated using the option where Yi was the phenotype corresponding to the ith
+'Tabulate' of JMP Genomics"7 (SAS Institute Inc., Cary, individual, Ui denoted the total genetic effect (random
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 16 of 18
+effect) for the ith individual with a variance-covariance incidence matrix relating B to Yr Hr denoted the poly-
+matrix defined as 2Ko. 0. was an unkown genetic gene random additive effect with Hr -N(0, Ko.) where
+variance and K was the Kinship generated from the K was the Kinship matrix and 0. the additive genetic
+pseudo QTNS, and ei was the residual such that ei 2 variance, Er was the random error with Er -N(O, 107)
+N(0, 0). Estimate of the variance-covariance matrix where I was an identity matrix and 0e was the residual
+was computed using a Singular Value Decomposition variance.
+(SVD) of the pseudo QTNS based upon the FaST-LMM The Kinship matrix was divided into reference and in-
+(Factored Spectrally Transformed Linear Mixed Model) ference panel as described below.
+algorithm.
+Krr Kri
+Candidate gene(s) discovery
+K ==
+Significant SNPS (LOD > 2.0) [50] postulated from
+Kir Ki
+GWAS were used for candidate gene search. A 10-kb where
+Krr was the variance-covariance matrix for the ref-
+genomic region flanking each SNP was considered.
+erence group, Ki represented the variance-covariance
+Functional annotation of candidate genes was investi- matrix for the inference group, and Kir = (Kri)' denoted
+gated in Soybase (www.soybase.org).
+the covariance matrix between individuals from the ref-
+erence and inference groups, respectively.
+SNP selection accuracy and selection efficiency
+The predicted genetic effect in the inference panel was
+SNP selection accuracy and selection efficiency were obtained using the following formula [53].
+computed based on the formulas previously developed
+[33]. The top 57 performers and the 57 least performers
+Mi == Kir(Km)H,
+for each trait were chosen.
+where Ui denoted the polygene effect in the inference
+Selection accuracy
+group, and Kir Krr and Hr were previously described.
+100x [(Number of genotypes having high CCI with the favorable SNP allele)
+was
+/(Number of genotypes having high CCI with the favorable SNP allele gBLUP performed using GAPIT [54].
++Number of genotypes having low CCI with the favorable SNP allele).
+Bayesian least absolute shrinkage and selection operator
+Selection efficiency
+LASSO)
+genotype
+(Bayesian
+Bayesian LASSO was a modified version of LASSO re-
+gression. In Bayesian LASSO, posteriors related to the
+Genomic selection (GS)
+genetic and residual variances were Exponential and
+Genomic selection was conducted using all 4089 SNPs Multivariate Normal, respectively. The statistical model
+and the SNPs showing association (LOD > 2.0) [50] with was described as following [55].
+the traits of interest, respectively. Genomic estimated y=u+ Xg + E where y was the vector phenotype, H de-
+breeding value (GEBV) was estimated using 5 different noted the overall mean, X represented the SNP matrix, g
+statistical models described as following.
+was the vector of random effect due to SNPS, E repre-
+sented the vector of random residuals, the posterior dis-
+Ridge regression best linear unbiased predictor (rrBLUP)
+tribution of g was defined by g/A-II,A/2)exp.f- Algil3
+The rrBLUP model was y= WGB + E [25] where y is the with A-Unif0,1,000,000) being the A prior, and the pos-
+vector phenotype, B was the marker effect with B-N(O, terior distribution of el07-MVN(O, 10.) with OerInv-
+Iop), W was the incidence matrix relating the genotype x2(4) being the prior distribution for 07e Bayesian
+to the phenotype, G was the genetic matrix, and E was LASSO was done in R using the package 'BGLR' [56]
+the random error. The solution for the rrBLUP equation with burn-ins and iterations of Markov-Chain Monte
+was defined by BA=(Z'Z+ IA)-Iz"y with Z = WG. The Carlo (MCMC) equal to 5000 and 1000, respectively
+ridge parameter was described as A = 0l0p with oebe- [57].
+ing the residual variance and o7p the marker effect vari-
+ance. rrBLUP was performed using the 'rrBLUP' package Random Forest
+of R [51].
+Random forest regression was based upon on unpruned
+tree decision [58]. In random forest regression, a new
+Genomic best linear unbiased predictor (gBLUP) [52]
+split was obtained from a Bootstrap sample generated
+The gBLUP model was Yr = XB + Zrlr + Er where the T from the training set. Splitting at the tree node level was
+subscript referred to the genotypes involved in the refer- based upon randomly selected subsets of predictors. The
+ence panel, Yr was the vector phenotype, B was the gen- prediction of a new observation x(FAP(X)) was the
+etic effect being assumed to be fixed, X, was the mean outcomes obtained from B trees defined by (T(x,
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 17 of 18
+V). Therefore, the prediction function was described Funding
+as following.
+This research was supported by Minnesota Soybean Producers Check-off
+Funding through Minnesota Research and Promotion Council and Minnesota
+FA=(1/B)* Zb T(x, Yb) with b = 1....B and Yb denoted Agricultural Experiment Station. The funding body played no role in the de-
+the bth Random Forest tree defined by the split variables, sign of the study and collection, analysis, and interpretation of data and in
+cutpoints at each node, and the terminal node. Random writing the manuscript.
+Forest regression was established in R using the package Availability of data and materials
+'randomForest' [59]. A total of 500 trees and 4 branches All raw data for this article are provided in the Additional files 1 and 2.
+were used [12].
+Ethics approval and consent to participate
+All data and materials are not related to human and animals. This research is
+Support vector machines
+not related to any plant and nematode specimens to be deposited as
+Support Vector Machines (SVMS) have been recently vouchers or any other association for this section.
+widely used in genomic selection-related studies. This is a Consent for publication
+kernel-based supervised machine learning approach with Not applicable.
+a regression equation described as following [60].
+y= f(XIB) + E with f(XIB) = Z, Bi Kh (X, X) being the Competing The authors declare interests that they have no competing interests.
+kernel generating function. In this study, a Gaussian ker-
+nel was used. SVMs regression was performed in R using Author details
+'Department of Horticulture, PTSC316, University of Arkansas, Fayetteville, AR
+the package 'kernlab' [61].
+72701, USA 2Hebei Cereal & Oil Crop Institute, Hebei Academy of
+Agricultural and Forestry Sciences, Shijiazhuang 050031, Hebei, China.
+3Southern Research & Outreach Center, University of Minnesota, Waseca, MN
+Cross-validation
+56093, USA 4Department of Agronomy and Plant Genetics, University of
+A five-fold cross validation was performed for the gen- Minnesota, St. Paul, MN 155108, USA SDepartment of Plant Pathology,
+omic selection study [62]. The association panel was University of Minnesota, St. Paul, MN 55108, USA
+randomly divided into 5 disjoint groups. A total of 4 Received: 31 March 2019 Accepted: 12 November 2019
+subsets were used as training set, and the remaining set Published online: 27 November 2019
+was considered testing set. A total of 100 replications
+References
+were conducted at each fold. Mean and standard errors 1. Wrather JA, Koenning SR. Effects of diseases on soybean yields in the
+corresponding to each fold were computed. Genomic se-
+United States 1996 to 2007. Plant Health Progress. 2009;10:24.
+lection accuracy was obtained by computing the Pear- 2. Lauritis JA, Rebois RV, Graney LS. Development of Heterodera Glycines
+Ichinohe on soybean, Glycine Max (L) Merr, under gnotobiotic conditions.J
+son's correlation coefficient between GEBV and the
+Nematol. 198315:272-81.
+observed phenotype for the testing set as previously de- 3. Noel GR Soybean response to infection. In: Schmitt DP, Wrather JA, Riggs
+scribed by [62].
+RD, editors. Biology and management of the soybean cyst nematode.
+Marceline: Schmitt & Associates of Marceline; 2004. p. 131-51.
+4. Chen S, Kurle JE, Stetina SR, Miller DR, Klossner LD, Nelson GA, Hansen NC
+Supplementary information
+Interactions between iron-deficiency chlorosis and soybean cyst nematode
+Supplementary information accompanies this paper at https//doiorg/10.
+in Minnesota soybean fields. Plant Soil. 2007:299:131-9.
+5. Charlson DV, Bailey TB, Cianzio SR, Shoemaker RC Breeding soybean for
+1186512864-01962752
+resistance to iron-deficiency chlorosis and soybean cyst nematode. Soil Sci
+Plant Nutr. 200450:1055-62.
+Additional file 1: Table S1. Descriptive statistics for leaf chlorophyll
+6. Chen SY, Kurle JE, Stetina SR, Miller DR, Hansen NC. Soil variables associated
+content indices (CCI) of plants grown in soils without the soybean cyst
+with iron-deficiency chlorosis in Minnesota soybean fields. Phytopathology.
+nematode (SCN), CCI of plants in soils infested with SCN, and reduction
+2003;93:S16 (Abstr,).
+in CCI by SCN.
+7. Hansen NC, Jolley VD, Naeve SL, Goos RJ. Iron deficiency of soybean in the
+Additional file 2: Table S2. Genomic selection accuracy for leaf
+north central US and associated soil properties. Soil Sci and Plant Nutr.
+chlorophyll content indices (CCI) without the soybean cyst nematode
+2004:50:983-7.
+(SCN) infestation, CCI of the SCN-infested plants, and reduction in CCI by 8. Hansen NC, Schmitt MA, Anderson JE, Strock JS. Iron deficiency of
+SCN.
+soybean in the upper Midwest and associated soil properties. Agron J.
+200395:1595-601.
+9. Pedersen P,Tylka GL, Mallarino A, MacGuidwin AE, Koval NC Grau CR
+Acknowledgments
+Correlation between soil pH, Heterodera glycines population densities, and
+The authors thank M. Getzke, C Johnson, W. Gotischalk, J. Ballman for their
+soybean yield. Crop Sci. 2010,50:1458-64.
+assistance in conducting the phenotyping greenhouse experiment and data 10. Niblack TL Soybean cyst nematode management reconsidered. Plant Dis.
+collection; and R. Denny for genotyping.
+2005,89:1020-6.
+11. Niblack TL, Chen SY. Cropping systems. In: Schmitt DP, Wrather JA, Riggs
+RD, editors. Biology and management of the soybean cyst nematode.
+Authors' contributions
+Marceline: Schmitt & Associates of Marceline; 2004. p. 181-206.
+SC was the principal investigator (PI), and NY was the Co-PI of the project. 12. Bao Y,Vuong T Meinhardt C Tiffin P, Denny R, Chen S, Nguyen HT, Orf JH,
+SC advised phenotyping, and NY advised genotyping. WR, AS, JQ, LN, and BY
+Young ND. Potential of association mapping and genomic selection to
+performed data analysis; and NY, JO, AL, AS, and SC advised the data analysis
+explore PI 88788 derived soybean cyst nematode resistance. Plant Gen.
+and interpretations. WR wrote the draft of the manuscript. AS, SC, NY, AL, BY
+2014;7:1-13.
+and JQ reviewed and edited the manuscript. All authors have read and ap- 13. Concibido VC, Diers BW, Arelli PR. A decade of QTL mapping for cyst
+proved the manuscript.
+nematode resistance in soybean. Crop Sci. 2004:44:1121-31.
+
+
+
+Ravelombola et al. BMC Genomics (2019) 20:904
+Page 18 of 18
+14. Meksem K Pantazopoulos P, Njiti VN, Hyten LD, Arelli PR, Lightfoot
+negatively regulates abscisic acid (ABA) signalling during root development
+DA. 'Forrest' resistance to the soybean cyst nematode is bigenic:
+Plant Cell Environ. 2003;36:945-55.
+saturation mapping of the Rhg 1 and Rhg 4 loci. Theor Appl Genet. 36. Wang J, Xue Z, Ren H. New insights into the role of plant formins:
+2001;103:710-7.
+regulating the organization of the actin and microtubule cytoskeleton.
+15. Brucker E, Carlson S, Wright E, Niblack T, Diers B. Rhg1 alleles from soybean
+Protoplasma. 2012;249:101-7.
+PI 437654 and PI 188788 respond differentially to isolates of Heterodera
+37. Williams RW. Plant homeobox genes: many functions stem from a common
+glycines in the greenhouse. Theor Appl Genet. 2005;111:44-9.
+motif BioEssays. 1998:20:280-2.
+16. Lius, Kandoth PK Warren SD, Yeckel IG Heinz ZR Alden J, Yang CJamai A, El
+38. Koch K Sucrose metabolism: regulatory mechanisms and pivotal roles in
+MelloukiT,Juvale PS, HilJA soybean cystnematode resistance gene points toa
+sugar sensing and plant development. Curr Opin Plant Biol 2004:7:235-46.
+new mechanism of plant tresistance to pathogens Nature 2012492256-60
+39. Gaufichon L, Reisdorf-Cren M, Rothstein SJ, Chardon F, Suzuki A Biological
+17. Wu XY, Zhou GC Chen YX, Wu P, Liu LW, Ma FF, Wu M, Liu CC, Zeng YJ,
+functions of fasparagine synthetase in plants. Plant Sci. 2010;179:141-53.
+Chu AE, Hang YY. Soybean cyst nematode resistance emerged via artificial 40. Leustek T, Martin MN, Bick JA, Davies JP.Pathways and regulation of sulfur
+selection of duplicated serine hydroxymethytansferase genes. Front Plant
+metabolism revealed through molecular and genetic studies. Annu Rev
+Sci. 2016;7:998.
+Plant Physiol Plant Mol Biol 200051:141-65.
+18. Cook DE, Bayless AM, Wang K Guo X, Song Q, Jiang J, Bent AF. Distinct
+41. Goldfarb DS, Corbett AH, Mason DA, Harreman MT, Adam SA Importin a: A
+copy number, coding sequence, and locus methylation patterns underlie
+multipurpose nuclear-transport receptor. Trends Cell Biol 200414505-14.
+Rhgi-mediated soybean resistance to soybean cyst nematode. Plant Physiol. 42. Macho AP, Zipfel C Plant PRRS and the activation of innate immune
+2014:165(2)630-47.
+signaling. Mol Cell 2014;54:263-72
+19. Cook DE, Lee TG, Guo XL, Melito S, Wang K Bayless AM, Wang JP, Hughes 43. Dharmasiri N, Dharmasiri S, Estelle M. The F-box protein TIR1 is an auxin
+TJ, Willis DK, Clemente TE, Diers BW, Jiang JM, Hudson ME, Bent AF. Copy
+receptor. Nature 2005:435:441-5.
+number variation of multiple genes at rhgl mediates nematode resistance 44. Finnegan EJ, Kovac KA Plant DNA methytransferases Plant Mol Biol 1200043:189-210
+in soybean. Science. 2012338:1206-9.
+45. Kwon SJ, Jin HC, Lee S, Nam MH, Chung JH, Kwon SI, Ryu CM, Park OK
+20. Mitchum MG. Soybean resistance to the soybean cyst nematode Heterodera
+GDSL lipase-like 1 regulates systemic resistance associated with ethylene
+glycines: an update. Phytopathology. 2016;106:1444-50.
+signaling in Arabidopsis. Plant J. 2009,58:235-45.
+21. Mudge J, Cregan PB, Kenworthy JP, Kenworthy WJ, Orf JH, Young ND. Two 46. Lorenzana RE, Bernardo R. Accuracy of genotypic value predictions for
+microsatellite markers that flank the major soybean cyst nematode
+marker-based selection in biparental plant populations. Theor Appl Genet
+resistance locus. Crop Sci. 1996,37:1611-5.
+2009;120:151-61.
+22. LiYH, Smulders MUM, Chang RZ, Qiu LJ. Genetic diversity and association 47. Heffner EL, Jannink JL, Sorrells ME. Genomic selection accuracy using
+mapping in a collection of selected chinese soybean accessions based on
+multifamily prediction models ina wheat breeding program. Plant Genome.
+SSR marker analysis. Conserv Genet 201112:1145-57.
+2011;4(1).65-75.
+23. Han Y, Zhao X, Cao G, Wang Y, Li Y, Liu D, Teng W. Genetic characteristics 48. Liu X, Huang M, Fan B, Buckler ES, Zhang Z, Bradbury PJ. Iterative usage of
+of soybean resistance to HG type 0 and HG type 1.235.7 of the cyst
+fixed and random effect models for powerful and efficient genome-wide
+nematode analyzed by genome-wide association mapping. BMC Genomics.
+association studies. PLOS Genet. 201612e1005767.
+2015;16:598.
+49. Kaler AS, Dhanapal AP, Ray JD, King CA, Fritschi FB, Purcell LC. Genome-
+24. Vuong TD, Sonah H, Meinhardt CG, Deshmukh R Kadam S, Nelson RL,
+wide association mapping of carbon isotope and oxygen isotope ratios in
+Shannon JG, Nguyen HT. Genetic architecture of cyst nematode resistance
+diverse soybean genotypes. Crop Sci. 2017573085-100.
+revealed by genome-wide association study in soybean. BMC Genomics.
+50. Lander ES, Botstein D. Mapping Mendelian factors underlying quantitative
+2015;16(1):593.
+traits using RFLP linkage maps. Genetics. 1989:121:185-99.
+25. Meuwissen THE, Hayes BJ, Goddard ME Prediction oftotal genetic value
+51. Endelman JB. Ridge regression and other kernels for genomic selection
+using genome-wide dense marker maps. Genetics. 2001,257:1819-29.
+with R package TBLUP. Plant Genome. 201 11;4:250-5.
+26. Boerma HR, Hussey RS. Tolerance to Heterodera glycines in soybean. J
+52. Zhang Z, Todhunter RJ, Buckler ES, Van Vleck LD. Technical note: use of
+Nematol. 1984;16:289-96.
+marker-based relationships with multiple-trait derivative-free restricted
+27. Arriagada 0, Mora F, Dellarossa JC, Ferreira MFS, Cervigni GDL, Schuster L
+maximal likelihood. J Animal Sci. 2007:85:881-5.
+Bayesian mapping of quantitative trait loci (QTL) controlling soybean cyst 53. Henderson CR. Applications of linear models in animal breeding. Canada:
+nematode resistant Euphytica. 2012;186907-17.
+Guelph Univ Press; 1984.
+28. Chang SJC, Doubler TW, Kilo VY, Abu-Thredeih J, Prabhu R, Freire V, 54. Lipka AE, Tian F, Wang Q, Peiffer J,Li M, Bradbury PJ, Gore MA, Buckler ES,
+Suttner R, Klein J, Schmidt ME, Gibson PT, Lightfoot DA. Association
+Zhang Z.GAPIT: genome association and prediction integrated tool.
+of loci underlying field resistance to soybean sudden death syndrome
+Bioinformatics. 2012;28:2397-9.
+(SDS) and cyst nematode (SCN) race 3. Crop Sci. 1997:37:965-71.
+55. Legarra A, Granie CR, Croiseau P, Guillaume F, Fritz S. Improved Lasso for
+29. Ferreira MFS, Cervigni GDL, Ferreira A, Schuster rl,Santana FA, Pereira WD,
+genomic selection. Genet Res. 2011:93(1):77-87.
+Barros EG, Moreira MA QTL for resistance to soybean cyst nematode, races 56. Pérez P,de los Campos G. Genome-wide regression and prediction with the
+3,9, and 14 in cultivar Hartwig. Pesqui Agropecu Bras. 2011:46:420-8.
+BGLR statistical package. Genetics. 2014;198:483-95.
+30. Guo B, Sleper DA, Arelli PR, Shannon JG, Nguyen HT. Identification of QTL 57. Thavamanikumar S, Dolferus R, Thumma BR. Comparison of genomic
+associated with resistance to soybean cyst nematode races 2, 3 and 5 in
+selection models to predict flowering time and spike grain number in two
+soybean PI 90763. Theor Appl Genet 2005;111:965-71.
+hexaploid wheat doubled haploid populations. G3. 20155:1991-8.
+31. Wu X Blake S, Sleper DA, Shannon JG, Cregan P, Nguyen HT. QTL, additive 58. Ogutu JO, Piepho HP, Streeck TS. A comparison of random forests, boosting
+and epistatic effects for SCN resistance inPI 437654. Theor Appl Genet.
+and support vector machines for genomic selection. BMC Proc. 2011;5511.
+59. Gonzalez-Recio O, Forni S. Genome-wide prediction of discrete traits using
+2009118:1093-105.
+Bayesian regressions and machine learning. Genet Sel Evol. 2011;43:7.
+32. Ravelombola W, Qin J, Shi A, Lu W, Weng Y, Xiong H, Yang W, Bhattarai G, 60. Maenhout S, Baets BD, Haesaert G, Bockstaele EV. Support vector machine
+Mahamane S, Payne WA, Miller JC Association mapping revealed SNP
+regression for the prediction of maize hybrid performance. Theor
+markers for adaptation to low Phosphorus conditions and rock Phosphate
+Genet 2007;115:1003-13.
+Appl
+response in USDA cowpea (Vigna unguiculata (L.) Walp) germplasm.
+61. Karatzoglou A, Smola A, Hornik K Zeileis A An S4 package for kernel
+Euphytica. 2017;213(8):183.
+methods in RJ Stat Software. 2004;11:1-20.
+33. Shi A, Buckley B, Mou B, Motes D, Morris JB, Ma J, Xiong H, Qin J, Yang W, 62. Shikha M, Kanika A, Rao AR, Mallikarjuna MG, Gupta HS, Nepolean T.
+Chitwood J, Weng Y. Association analysis of cowpea bacterial blight
+Genomic selection for drought tolerance using genome-wide SNPS in
+resistance in USDA cowpea germplasm. Euphytica. 2016;208:1 143-55.
+maize. Front Plant Sci 2017;8:550.
+34. Steichen JM, Petty RV, Sharkey TD. Domain characterization ofa 4 alpha-
+glucanotransferase essential for maltose metabolism in photosynthetic
+leaves. J Biol Chem. 200828320797-804.
+Publisher's Note
+35. Choi Y, Lee Y, Kim SY, Lee Y, Hwang JU. Arabidopsis ROP-interactive CRIB
+Springer Nature remains neutral with regard to jurisdictional claims in
+motif-containing protein 1 (RICI) positively regulates auxin signalling and published maps and institutional affiliations.

@@ -1,0 +1,1396 @@
+PLOS ONE
+RESEARCHARTICLE
+Dissecting seed pgmentation-assocated
+genomic loci and genes by employing dual
+approaches of reference-based and k-mer-
+based GWAS with 438 Glycine accessions
+Jin-Hyun Kim'2, Joo-Seok Park, Chae-Young Lee', Min-Gyun Jeong?, Jiu Liang Xu*,
+Yongsoo Chor*, Ho-Won Jungs, Hong-Kyu Choios*
+1 Department of Medical Bioscience, Dong-A University, Busan, Republic of Korea, 2 Departmentof
+Agricultural Biotechnology, National Institute of Agricultural Sciences, Rural Development Administration,
+Jeonju-si, Jeollabuk-do, Republic of Korea, 3 Department of Applied Bioscience, Dong-A University, Busan,
+Republic of Korea, 4 Systems Biotechnology Research Center, Korea Institute of Science andTechnology
+Check for
+(KIST), Gangneung, Republic cof Korea, 5 Department of MolecularGenetics, Dong-A University, Busan,
+updates
+Republic of Korea
+*hkchoi@dau.ac.kr
+6 OPENACCESS
+Abstract
+Citation: Kim J-H, ParkJ-S, Lee C-Y,Jeong M-G,
+XuJL, ChoiY,etal. (2020) Dissecting seed
+The soybean is agro-economically the most important among all cultivated legume crops,
+pigmentation-associated genomic loci iand genes and its seed color is considered one of the most attractive factors in the selection-by-breed-
+by employing dual approaches of reference-based ers. Thus, genome-wide identification of genes and loci associated with seed colors is criti-
+and k-mer-based GWAS with 438 Glycine
+cal for the precision breeding of crop soybeans. To dissect seed pigmentation-associated
+accessions. PLOS ONE 15(12): e0243085. https:ll
+dw@proigrtipmaigpet@us
+genomic loci and genes, we employed dual approaches by combining reference-based
+genome-wide association study (rbGWAS) and k-mer-based reference-free GWAS
+Editor: Istvan Rajcan, University of Guelph,
+CANADA
+(rfGWAS) with 438 Glycine accessions. The dual analytical strategy allowed us to identify
+four major genomic loci (designated as SP1-SP4in this study) associated with the seed col-
+Received: August 14, 2020
+ors of soybeans. The k-mer analysis enabled us to find an important recombination event
+Accepted: November 15, 2020
+that occurred between subtilisin and I-cluster Bin the soybean genome, which could
+Published: December 1,2020
+describe a special structural feature offallele within the llocus (SP3). Importantly, mapping
+Copyright: :02020 Kim etal. This is an open
+analyses ofboth mRNAs and small RNAS allowed us to reveal that the subtilisin-CHS1/
+access article distributed lunder the terms ofthe CHS3 chimeric transcripts generate and lact as an initiator towards 'mirtron (i.e., intron-har-
+Creative Commons Attribution License, which
+boring miRNA precursor)-triggered silencing of chalcone synthase (CHS) genes. Conse-
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original quently, the results led us to propose a working model of 'mirtron-triggered gene silencing
+author and source are credited.
+(MTGS) 'to elucidate a long-standing puzzle in the genome-wide CHS gene silencing mech-
+Data Availability Statement: Whole genome
+anism. In summary, our study reports four major genomic loci, lists of key genes and
+resequencing data were deposited Ito the Sequence genome-wide variations that are associated with seed pigmentation in soybeans. In addi-
+Read ArchiveofNCBI under raccession number
+tion, we propose that the MTGS mechanism plays a crucial role in the genome-wide silenc-
+GRR7637070-SRR7637112, S1 Table lists the
+SRA accession number of feach sample.
+ing of CHS genes, thereby suggesting aclue to currently predominant soybean cultivars
+with the yellow seed coat. Finally, this study will provide a broad insight into the interactions
+Funding: Thes study was supportedby Rural
+Development Administration (PJ01313202) and and correlations among seedcolor-associated genes and loci within the context of anthocy-
+The National Research Foundation of Korea(NRF) anin biosynthetic pathways.
+(2020R1A6A03047729) received by HKC. The
+funders had no role in study design, data collection
+PLOS ONE Imtipsz/doiorg10.137tjumalpone.0243065 December 1, 2020
+1/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+and analysis, decision to publish, or preparation of Introduction
+the manuscript.
+The soybean [Glycine max (L.) Merr.] is the most agro-economically important among all
+Competing interests: The authors have declared domesticated legume crops. The soybean has served as a main source of protein and oil for
+thatno competing interests exist.
+humans during its 4500 year-long history of domestication [1]. In addition to its nutritional
+value, the soybean contains a variety ofbioactive phytochemicals such as saponin,lecithin, iso-
+flavone, anthocyanin and many others [2]. Among other phytochemicals, anthocyanin is one
+ofthe key components that exert antioxidant effects and determine the seed colors of soybean.
+A recent study reported that dark-colored seeds (i.e., seeds with higher anthocyanin contents)
+had positive effects for the grain storage compared to light-colored seeds [3], because anthocy-
+anins and other polyphenolic compounds contributed to resisting stresses during the storage
+[4,5]. As aresult, longer seed storability leads to beneficial effects on seed germination, growth
+vigor, nutritional contents, and overall seed quality. Thus, the seed color should be considered
+one ofthe most critical qualitative traits for grain crops like soybeans. The seed coat of the soy-
+bean can be represented by four colors; black, brown, yellow, green, and additionally mottled.
+Among various cultivated soybeans, yellow soybeans are currently the most predominant On
+the other hand, black soybeans are recently attracting more interest due to their antioxidant
+properties and flavors [6].
+It is known that soybean seed color is controlledby multiple loci of moderate complexity.
+So far, at least nine genomic loci (I, R, T, W1, O, D1, D2, qSC1 and psbM) have been reported
+[6-11], many of which are involved in anthocyanin-derived pigmentation pathways. For
+example, Ilocus harbors a cluster of chalcone synthase (CHS) genes, which are the key regula-
+tory enzymes ofthe flavonoid pathway [12]. Four alleles (I, i,f,) have been identified within
+the Ilocus, and they participate in controlling the colors ofhilum and seed coat. Soybeans with
+the dominant Iallele result in colorless (ie., yellow or green) seed coats, whereas soybeans har-
+boring the i allele exhibit colored (i.e., black or brown) coats. The i allele controls restricted
+pigmentation to the hilum, thereby resulting in soybean seeds with a colorless seed coat and
+coloredhilum, while the * allele restricts pigments to the saddle region [13]. The Tlocus con-
+tains flavonoid 3-hydroxylase (F3'H) and may control pubescence color. Soybeans with domi-
+nant Tallele give rise to brown pubescence while those with the recessive t allele inherit gray
+pubescence [7]. A R2R3 MYB transcription factor (R2R3 MYB TF) was reported as a key
+player ofthe R locus that was associated with a brown seed coat and hilum [10]. W1 locus is
+presumed to encode favonoid-35hydroxylase (F3'5H). Under a iRt genetic background,
+dominant W1 and recessive wl alleles are supposed to produce imperfect black and buff seed
+coats, respectively [11,14]. Both D1 and D2loci, known as homologs ofthe STAY-GREEN
+(SGR), were revealed to be duplicated by recent whole genome duplication ofthe soybean and
+correlated with chlorophyll degradation [9,15]. Double-recessive mutant (did1d2d2) caused
+chlorophyll retention and exhibited the green seed coat color [9]. The qSC1 locus is also
+known to be associated with a green seed coat color. However, genes associated with the corre-
+sponding phenotype have not yet been identified [6]. Another study reported that the psbM
+gene encoded one ofthe small subunits of photosystem II and that it was associated with the
+mechanism of chlorophyll degradation. Soybeans with the recessive allele of psbM gene are
+maternally inherited because this gene resides in the chloroplast [8].
+Since the advent ofnext-generation sequencing (NGS) technology and production ofthe
+whole genome reference sequence of soybeans [16],many soybean cultivars, landraces, and
+wild types have been sequenced for the purpose of genome-wide analyses. Currently, a total of
+3021 accessions derived from whole genome resequencing (WGR) are available in the public
+domain and account for atotal data amount of23.87 TB (the International Nucleotide
+Sequence Database Collaboration or INSDC: http:l/www. insdc.org/) [17]. Phenotypic data of
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+2/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+the soybean can be obtained from other DB resources such as Germplasm Resources Informa-
+tion Network (GRIN: htps/wwwars-gringow) and RDA-Genebank Information Center
+Gntp/gencankrdagale)
+Genome-wide association study (GWAS) is a useful and powerful means by which we can
+identify genes and/or loci associated with traits ofinterest across the entirety of genomes. Con-
+ventionally, GWAS is performed using genomic variants such as single nucleotide polymor-
+phisms (SNPS) and short insertion/deletion (InDels) obtained by mapping NGS reads against
+the reference genome. This type of'reference-based" GWAS (rbGWAS) analysis fully relies on
+the completeness and correctness ofthe reference genome information. Due to this reason,
+rbGWAS may sometimes have limitations in applying the analytical tool for some species
+whose reference genomes are not available or are incomplete. Although rbGWAS has success-
+fully served to discover numerous trait-associated variants [18-20] in the past, considerable
+cases of phenotype-to-genotype parallelism' could not be explained due to a problem known
+as 'missing heritability' [21].
+To effectively overcome the limitation in rbGWAS methodology, a new approach, namely
+'reference-free GWAS or rfGWAS' that does not require the reference genome, has recently
+been developed [22-27]. This analytical approach employs all possible sub-nucleotides, called
+'k-mers', with optimized lengths, all ofwhich can be identified within the whole genome NGS
+reads. Depending on the presence or absence ofk-mers, researchers can identify variants and
+determine their types. It appears that the majority ofrfGWAS approaches have been applied to
+bacterial genomes [22-25], while being rarely appliedto human genomes [26]. Recently, plant
+genomes have been analyzed with these methods [27].
+In this study, we intended to employ dual approaches, in terms ofanalytical means and
+data combinations, to accomplish precision analysis in genome-wide detection of genes and/
+orlociassociated with the pigmentation of fsoybean seeds. Towards this direction, k-mer-
+based rfGWAS in the soybean genome was employedto complement rbGWAS and to ensure
+discovery of missing trait-associated genomic fractions, by involving a wide array ofNGS data
+combined with in-house-generated and public data of WGR, RNA-seq and small RNAS.
+Materials and methods
+Plant materials, DNA extraction and NGS sequencing
+A total of43 Korean soybean accessions, including 40 cultivars and 3 landraces (seed coat col-
+ors; 22 black, 2brown, 16 yellow and 3 green) were chosen for a new WGR data production.
+All ofthe seedmaterials were acquired from the Rural Development Administration (RDA)-
+Genebank Information Center (GBIC; htrp/bwowgencbankgak) in Korea. Detailed infor-
+mation on each accession is available in S1 Table. Sterilized seeds were sown in 1 L pots and
+grown under greenhouse conditions. Leaves at the R1-R2 growth stages (i.e., during the flower
+development) were sampled for DNA extraction. Genomic DNA was extracted using the Plant
+DNA isolation kit (GeneAll, Seoul, ROK) according to themanufacturer's protocol. Purity and
+integrity ofDNA were inspected by A260/A280 absorbance ratio and agarose gel electrophore-
+sis, respectively. The sequencing libraries of each accession, with an average insert size of550
+bp, were constructed according to the manufacturer's instruction (Illumina, San Diego, CA,
+USA).Using the Illumina HiSeq4000 NGS platform, paired-end reads were produced at the
+Macrogen Inc. (ntp/how.mactogen.com, Seoul, Korea).
+Collection of ENGS data and phenotype information
+To avoid false positive variants generated by incorrect mapping due to highly duplicated soy-
+bean genome (approximately 75%) [28], only paired-end reads were collected from the
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+3/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+European Nucleotide Archive (ENA, htp/wwwebiacullena) and the National Agricultural
+Biotechnology Information Center (NABIC, http/nabicrdago.krl) with following search
+options; library strategy == WGS, depth X 5.0, read length X 90bp. As a result, 662 and 121
+WGR data sets were obtained from ENA and NABIC, respectively. Phenotype data was
+retrieved mainly from GRIN (itpe/hwwars-gringow), RDA-GBIC (https/www.ars-grin.
+gov/) DB and related literatures as well. To identify alternative splicing by nucleotide varia-
+tions, RNA-seq paired end reads were collected from ENA with following parameter adjust-
+ment; library strategy == RNA-Seq, depth N 5.0, readlength X 90bp.
+WGR read mapping, variant calling and annotation
+Trimmomatic (atrp/lwww.usadellab: O ms 1 as e-trimmomatic, Version: 0.36) was used to
+remove low quality regions of raw reads with the following parameter options (Leading:3
+Trailing:3 SlidingWindow:4:5 Minlen:90) according to the previous report [29]. G. max Wil-
+liams 82 assembly v2.0 was downloaded from the Phytozome @mpglphyroomeigadoc.gon
+Wpalheahasnhla.OnzGmas which contained only nuclear genome information,
+and was used as the reference genome for mapping. For other sub-organelle genome informa-
+tion, data for mitochondrion Ompulhwwndialinanhgeiimcm-NCG8SI) and
+chloroplast (https/www.ncbinim.nihgov/nucore/NC.007942.1) genomes were separately
+downloaded from the NCBI. These nuclear and sub-organellar genome information were
+merged together and used for the whole genome backbone for mapping WGR reads. This way,
+we intended to avoid any possibility oferroneous mapping that might be causedby non-
+nuclear DNA. Paired-end reads were mapped to the backbone reference genome using Bur-
+rows Wheeler Aligner (BWA) program (http://bio-bwa.sourceforge.netl, Version:
+0.7.15-r1140) with default options [30]. Overall mapping rates were calculated by Samtools
+software (http.l/isamtools.sourceforge.net/, Version: 1.3.1). Samples with <80% mapping rates
+were removed according to previously reported guideline [31]. Picard software (https:/l
+brodinstiutegthabialvand, Version: 2.8.3) was used to sort mapping outcomes and to
+remove duplicated reads.
+Reads mapped around InDel sites were realigned using the IndelRealigner program, and
+scores for base-pair quality were recalibrated using the BaseRecalibrator program, both of
+which were available as package programs in Genome Analysis Toolkit (GATK, https:Il
+ehwuschoadinstmicopg/pat, Version: 3.7-0-gcfedb67) [32]. Variant discovery was con-
+ducted using HaplotypeCaller in the GATK package. To minimize false positive variant calling,
+preliminary raw variants were further filtered out with following parameter options; QD < 5,
+FS N 30, SOR N 3.0, MQ < 30, MQRankSum < -3.5, MQRankSum > 3.5, ReadPosRankSum
+< -2.0 and ReadPosRankSum > 2.0. For the purposes ofannotating genes and evaluating
+effects ofvariant, Sptloepliepdaeudhgunt, Version: 4.3t) was employed [33].
+Population and phylogenetic analysis
+In order to interpret population structure of 438 soybean accessions, a total of 5717575 SNPs
+were used and calculated with analysis options ofMAF>0.05 and 10% maximum missing
+data. Initially, a neighbor joining tree was constructed using Molecular Evolutionary Genetics
+Analysis (MEGA, https./www.megasoftware.netl, Version: 7.0.26). A consensus tree with
+1000 bootstrap replicates was plotted for high-precision evolutionary relationship analysis
+[34]. To infer the population structure, fastSTRUCTURE (htps/rajanil.github.io
+fastStructurel, Version: 1.0) program was used and analyzed using the variational Bayesian
+framework. The fastSTRUCTURE program was implemented initially with simple basic
+option for K values ranging from 1to 10. The 'chooseK.py' script was used to determine
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+4/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+optimal number of genetic components, followed by 'distruct.py' script to visualize admixture
+proportions [35].
+Reference-based GWAS analysis
+For the purposes of precisely searching for trait-associated variants, two sets ofNGS-derived
+data were employed for the GWAS analyses; 1) WGR data from 438 soybean accessions, 2)
+Illumina Infinium SoySNP50K BeadChip SNP data [36] derived from 20087 soybean acces-
+sions. The SoySNP50K SNP data were downloaded directly from the SoyBase (http:l/soybase.
+org/snps). To remove low quality andless informative variants, variants with MAF<0.05 and
+10% minimum missing data were filtered out. Data filtration was able to identify a atotal of
+6948411 and 36587 nucleotide variants from the WGR and array chip data sets, respectively.
+GWAS analysis was conducted using the Efficient Mixed-Model Association eXpedited pro-
+gram (EMMAX, Meplgenefiscudalwiemmw, Version: 20120210) [37]. The kinship
+matrix was measuredby EMMAX-IBS. In order to implement GWAS, EMMAX program
+requires a binary input of data; for example, 1) quantification of contrasting qualitative pheno-
+types, 2) classification ofphenotypic characters into either 'case' or control'. In case oftraits
+related to more than two phenotypes, EMMAX may give rise to a problem for the GWAS anal-
+ysis. To circumvent such a problem, all possible binary combinations ('case' or'control)of
+phenotypes were made and used for the GWAS analyses. To estimate the significance thresh-
+old ofGWAS results, the Bonferroni correction method was employed.
+3-D structure molecular modeling of the CaaXEP protein
+3-D molecular structures ofthe CaaXEP protein were predicted using the stand-alone package
+ofI-TASSER server with default options [38]. In order for the molecular modeling, protein
+sequences were fed into the program after removing the chloroplast transit peptide sequences.
+Among five predicted models suggested by the I-TASSER, the best structure was selected on
+the basis ofthe number of decoy for robust ranking factor. The resulting data in the pdb file
+format were visualized using the PyMOL program [39]. The secondary structures (i.e., helix,
+sheet and loop) were drawn by the 'cartoon and surface' mode within the overall structural
+integrity ofcorresponding 3-D structure.
+K-mer-based reference-free association analysis
+To conduct reference-free association analysis, K-mer Counter (KMC) software (http://sun.
+aei.polsl.pl/kmcl, Version: 3.0) was used to count all possible k-mers in all WGR reads with
+following parameter optionss-k31, -m256 [40]. K-mers counted only once was filtered out to
+obtain accurate data set, because they might contain sequencing errors. Resulting k-mers were
+combined and converted into variant call format (VCF) data using in-house program (avail-
+able at github.com/kimz14/Kmer-to-VCF, Subsequently, GWAS analysis was performed
+using PLINK program with following parameter options; -allow-extra-chr,-allow-no-sex-
+assoc (http.lrz.bwh.harvard.edu/plink, Version: 1.90b5.2) [41].
+mRNA-seq mapping analysis
+To investigate the effects ofnucleotide variants on structural changes in genes, mRNA-seq
+reads were mapped onto the backbone reference genome using the STAR program (https:/1
+gthub.com@ledobinSTAR, Version: 2.7.0d) [42]. To figure out alternatively spliced gene
+structures ofinterest, RNA-seq reads were assembled into transcripts using StringTie program
+(htps/ccbjhu.edulsoftwarelstringtie', Version: 1.3.3b) with parameter -G [43]. Finally,
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+5/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+aligned reads and assembled transcripts were visualizedusing Integrative Genomics Viewer
+(IGV; htpel/befwarchroadinstitutecorglefwarceigva Version: 2.4.7 [44]. The Sashimi plot
+was generated by IGV with a parameter ofminimum junction coverage 5.
+Small RNA-seq mapping analysis
+Because adapter sequences used for generation of small RNA-seq reads were heterogeneous
+and were not available in public domains, they were searched by k-mer-based method and
+subsequently removed from the small RNA-seq reads using in-house program. The sizes of
+trimmed small RNA-seq reads ranged from 14to 43 nucleotides with a major peak around
+21-24nucleotides in length. Trimmed small RNA-seq reads were mapped onto the backbone
+reference using STAR program with the option of'no mismatches allowed' [42]. Subsequently,
+the python language was used for visualizing alignmentresults [45].
+Isolation and quantification ofanthocyanins
+Soybean seeds were ground and sieved through a 55 mesh screen. 40 mg of seed powder was
+mixed with 70% aqueous ethanol (4mL, 1% HCI) containing 1.5 ug/ml phlorizin as an internal
+standard, sonicated for 30-min, and set at room temperature in the dark for 16hours. 2 mL
+supernatant was filtered through a 0.20-um syringe filter with the GH Polypro membrane (Pall
+Corporation, Ann Arbor, MI, USA), freeze-dried under the vacuum, and re-dissolved using
+0.5 mL of 50% aqueous ethanol for the LC/MS analysis.
+Anthocyanins were quantified using the MicrOTOF-Q II (Bruker Daltonics, Bremen, Ger-
+many) mass spectrometer coupled with the 1290 HPLC system (Agilent Technologies, Santa
+Clara, CA, USA). Resolving power ofthe MS instrument was 17500 at m/z 922. The composi-
+tions of solvent system were as follows; solvent A- water/acetonitrile (95:5, v/v with 0.1% for-
+mic acid), solvent B-acetonitrile/water (95:5, v/v with 0.1% formic acid). A 45-min linear
+gradient was applied; initially 10 to 60% increment of solvent B for 35 min, followed by a
+steeper increment of60to 100% solvent B for 10 min. Chromatographic separation was per-
+formed using reverse phase Aegispak C18 Column (250x4.6mm, 5-um) at flow rate of0.7 ml/
+min.10-uL aliquot of each extract was injected into the mass spectrometer, and spectra were
+monitored ranging from 150-1000 m/z with 1.0 sec interval under the positive ESI mode. The
+ion source parameters for high-resolution mass measurements were as follows; +4.5kV for the
+capillary voltage, 10 L/min ofthe nebulization gas flow, 180°Cas a source gas temperature and
+35 V for the cone voltage. A calibration curve for each anthocyanin was plottedby calculating,
+based on the weighted least squares regression analysis, the ratio of peak areas between ana-
+lyte/internal standard and the nominal concentration of analyte in 50% blank ethanol.
+Results
+Genetic and phenotypic diversity of 438 Glycine accessions
+Originally, we acquired WGR data from a total of £783 Glycine accessions (662 plus 121 acces-
+sions from ENA and NABIC, respectively) available on the public databases(DB). Additionally,
+WGR data for 43 soybean accessions were newly generated in this study (NCBI SRAaccession
+ID; SRR767070-SRR7637112) and combined with the public data, thereby accounting for a
+total of 826 WGR data sets. Ofthese, 739 accessions (89.5%) were correctly mapped to the soy-
+bean reference genome (Williams 82 assembly v2.0), while phenotype information couldbe
+obtained only for 438 accessions (59.3%) via public DBs and literatures (S1 Table). According
+to geographical origins, the reorganized WGR data consisted of 169 Korean accessions, 137
+Chinese accessions, and 132 accessions from other countries (Fig 1A). Resulting 6.7 Tb
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+6/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+sequence data, with an average depth of 15.7 x for each genome, were analyzed using the
+GATK standard protocol. This analysis allowed us to identify a total of5717575 SNPs and
+961113 InDels (S2 Table).
+The phylogenetic topology of fneighbor-joining tree demonstrated that 438 Glycine acces-
+sions (G. max, 381 accessions; G.soja, 57 accessions) couldbe groupedinto three main clades,
+which were mainly correlated with their evolutionary relationships rather than geographical
+locations (Fig 1B). Consistent with this phylogenetic investigation, the fastSTRUCTURE anal-
+ysis also resulted in an estimated value ofK == 3 as the optimal number ofs subpopulations (S1
+Fig). Within the whole context of phylogeny, the majority ofwild soybeans (i.e., G. soja, 96.5%
+[55/57]) were clustered linto Group-1, almost all of whichhad black seed coat with tawny
+pubescence. Group-2 was mainly composed oflandraces with various seed coat colors, while
+the majority ofthem had black seed coat. Different from other groups, Group-3 consisted of
+cultivars and landraces with various seed colors, while the majority ofthose exhibited the yel-
+low seed coat. It was notable that the frequency ofblack seed color decreased gradually from
+Group-1 to Group-3, whereas the occurrence of yellow seeds increased in an opposite manner.
+It was also observed that yellow hilum and gray pubescence were increasingly selected during
+the development ofsoybean cultivars from the wild species. Taken together, both population
+structure and phylogenetic investigation indicate that seed pigmentation-associated trait was
+appreciably influencedby selection on seed colors during the history of domestication pro-
+cesses in soybean cultivars (Fig 1, S3 Table).
+Reference-based GWAS analysis on soybean pigmentation-associated traits
+For the purposes ofin-depth identification and cross-confirmation of causative variants asso-
+ciated with soybean seed pigmentation, two different sets of data were employed for the
+GWAS analysis. Both data sets contained 6678688 variants (>6.6M SNP data) from 438 WGR
+data and 36587 variants (>36K SNP data) for the SoySNP50K array data derived from 20087
+soybean accessions, respectively. Each data set showed different frequencies and distributions
+ofnucleotide variations throughout the genome. SNPs of 438 WGR data were distributedrela-
+tively more randomly or evenly, with an average frequency ofSNP/158bp, compared to that of
+the SoySNP50K array data (S2 Fig). In contrast, it was shown that SNP distribution ofthe
+SoySNP50K array chip corresponded mainly on gene-rich genomic regions, presumably due
+Seedice oat
+A
+B
+GroN
+Korea
+Ca
+169
+USA
+China
+58
+135
+Japan
+Braz
+Seedcoat color
+aCk
+Fig 1. Geographic, genetic and phenotypic diversity of f438 soybean accessions. (A) Geographic and phenotypic distribution of438 soybean
+cultivars. (B) Phylogenetic relationships among 438 soybean accessions. The seed color rofeach soybean accession is depicted lin the second circle.
+htps/iboiongf10137t/pumaipone.0243065001
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+7/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci and genes in the soybean
+A
+SP1 (qSC1 orG) SP2(T) SP3(I) SP4(R)
+Black -Brown
+20
+Seed coat color Black Yellow
+Brown Yellow
+Yellow -Green
+Black -Brown
+Hilum color Black Yellow
+20
+Brown Yellow
+Pubescence color Tawny -Gray
+60
+1 2 3
+7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+B
+C
+D
+SP2(T)
+SP3(1)
+SP4 (R)
+80 Pubescence color
+30 Seed coat color
+Hilum color
+Tawny - Gray
+Colored Colorless
+Black Brown
+30
+9 60
+20
+I
+e 40
+a 20
+2
+e 20
+$ 10
+o
+a
+-
+0
+18.4 18.5 18.6 18.7 18.8 18.9 19.0 8.2 8.3 8.4 8.5 8.6 8.7 8.8 45.0 45.4 45.8 46.2 46.6 47.0
+Chromosome 6 (Mb)
+Chromosome 8 (Mb)
+Chromosome 9 (Mb)
+Fig 2. GWAS analysis on the seed coat, hilum and pubescence color. (A) Genome-wide Manhattan plots ofthe GWAS analyses. The statistical
+significance ofP valuesis depicted by thenegative logarithm with the threshold (gray dottedlines) of5x109.Magnified Manhattan plots of
+candidate genomic region at the Tlocus (B), Ilocus (C) and Rlocus (D). Each colored dcircle denotesa different tlevel lofthe SnpEff-defined(a
+simple putative impactassessment) functional limpactofindividual variants: red, high; orange, moderate;yellow, low; gray, modifier.
+htipsldo.ongrio1a7t/pumalpone.0243005002
+to intentional variant selection around proximal regions of genes (S2 Fig). For precise predic-
+tion oftrait-associated genomic loci through GWAS statistical analysis, reasonably large num-
+bers of samples and variants are essential. Thus, we intended to complement GWAS analysis
+with one another by employing two different variant call data sets (i.e., 438 WGR data with
+higher numberofSNPs and SoySNP50K array chip data with highernumber of soybean acces-
+sions). Towards this direction, statistically significant signals were filtered land cross-checked
+using both data sets, and shared portions ofGWAS analyses were extracted to cross-check the
+results. In order for qualitative traits like seed pigmentation to be analyzedbased on the linear
+mixed model (LMM), quantified binomial terms, such as 'case' or 'control', for the qualitative
+traits are required. However, LMM-based GWAS analysis is not suitable for simultaneously
+dissecting qualitative traits representedby three or more phenotypes. To dissolve such alimit,
+we created all possible combinations that could be distinguishedby the 'case/control' binomial
+quantitative characters for three contrasting phenotypes (i.e., colors for the seed coat, hilum,
+and pubescence), and performed the GWAS analyses for each combination with correspond-
+ing data (Fig 2, S3Fig). As a result, four seed pigmentation (SP)-associatedloci (designated as
+SP1-SP4 in this study) were identifiedin four chromosomes (i.e., chromosomes 1,6, 8 and 9).
+In addition, genomicloci for three other qualitative traits, including pod color, flower color,
+and growth habit, were identified (S4 Fig).
+Detailed information on seed color-associated GWAS results is summarized in Table 1 and
+S4 Table. Ofthese four loci, SP2 locus was revealed to be involved in the pubescence color and
+to span a genomic range of 17683675-19248187bp in Chromosome 6 (Table 1). Within this
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+8/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+Table 1. Information for key genes with the highest significance of fvariations at four seed color-associatedloci.
+Locus Conven-tional Chr.
+Genomic range
+The most significant variants with high impact on protein functions
+Name Locus Name
+Start
+End Size Position P- Allele Allele SnpEff Effect" SnpEff Gene ID & annotation
+(kbp)
+value 1
+2
+Impacth
+SP1 qSCI orG 1 53,087,195 53,269,307 182 53,229,579 4.66E- G A Splicing site, High Glyma.01G198500 (CAAX
+39
+structural
+endopeptidase)
+change
+SP2
+T
+6 17,683,675 19,248,187 1,565 18,737,366 5.39E- TC T Frame shift High
+Glyma.06G202300
+20
+(flavonoid 3-hydroxylase)
+SP3
+I
+8 8,360,663 8,622,831 262 8,507,079 1.33E- G A
+Upstream Modifier
+Glyma.08G110500
+25
+(Chalcone synthase 4)
+SP4
+R
+9 45,576,015 45,939,643 364 45,759,137 1.32E- TC T Frame shift High Glyma.09G235100 (R2R3
+12
+MYBtranscription factor)
+"Predicted functional effects by variant at the identified genomic site.
+bPutative functional impact tofvariant that is defined by SnpEff
+htpsidoiongr1o137tijoumaipome02430851001
+region, the most statistically significant variant, which could affect the function ofthe protein
+product, was found at 18737366 bp. This nucleotide alteration resulted in a frameshift caused
+by a single base deletion (i.e., TC-T) on F3'H gene, which was previously known as Tlocus
+(Table 1). Consistent with the previous report, the single base deletion altered its reading
+frame and introduced a premature termination, consequently resulting in a truncated F3'H
+protein in which lost GGEK consensus sequence and heme-binding domain essential for its
+function [7]. Occurrences ofthetruncated protein products were different depending on their
+pubescence colors; 1.55% (4/258) and 84.62% (143/169) among soybeans with tawny and gray
+pubescence, respectively (S4B Table). In addition, a new deletion variant (i.e., CA-Cat
+Chr6_18737556 bp) was discovered in the same gene, which was positioned at 190 bp
+upstream of above-mentioned variant allele (S4B Table). This allele was also predictedto pro-
+duce a cleaved F3'H protein. Overall frequencies ofloss-of-function causedby these two trun-
+cated variants were 1.55% (6/258) and 88.76 (150/169) depending on tawny and gray
+pubescence colors, respectively (S4B Table).
+GWAS analyses identified dthe SP4locus near the terminal region ofchromosome 9 and
+revealed that the locus was associated with brown pigmentation in both seed coat and hilum
+(Fig 2). Among many variant alleles found within this locus, a nucleotide variation with the
+highest probability and functional impact on protein synthesis was identified at 45759137bp
+(Table 1, S4D Table). Further analysis could predict that the variant allele (a single base dele-
+tion ofTC-T, and subsequent introduction of premature stop codon) would produce a trun-
+cated transcript of R2R3 MYB TF (Glyma.09G235100) (Table 1, S4D Table). Itis known that
+the R2R3 MYB TF is a key member of previously reported Tlocus and regulates expression of
+UF3GT gene, which plays a critical role in the final step ofanthocyanin biosynthesis [10]. It
+was also previously reported that UF3GT expression was repressed when the R2R3 MYB TF
+was alteredby four different variants [10]. Consistent with Gillman' 's data (10), we could detect
+the same three of ffour variants within the genic region ofR2R3 MYB TF as follows: G-C at
+Chr9_45758856 bp, nonsynonymous mutation; CG-C at Chr9_45759100 bp, frameshift;
+GT-TT at Chr9_45759165, loss of splicing donor site (S4D Table). Consistent with this analy-
+sis, 98.2% (159/162) soybean accessions with normal R2R3 MYB TF exhibited black seed
+coats, while 100% (28/28) soybean accessions with altered genotypes resulted in brown ones.
+With regard to hilum phenotypes, soybean accessions also exhibited different frequencies of
+hilum colors; 91.90% (193/210) ofblack hilum and 98.61% (71/72) ofbrown ones without or
+with altered alleles in R2R3 MYB TF, respectively (S4D Table).
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+9/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+GWAS analysis with a reorganized population of yellow VS green seed coats allowed us to
+identify the SP1 locus at the terminal region of chromosome 1, which was potentially associ-
+atedwith the phenotype of green seed coat (Fig 2, S5A Fig). Identification of SP1 locus was
+cross-confirmed using the SoySNP50K array chip (S5A Fig). It was acquainted that SP1 locus
+corresponded to qSC1 locus that was one of14 qSC loci previously mapped by QTL analysis
+using abi-parental population [6]. It was known that dominant qSC1 allele was involved in the
+phenotype of green seed coat, whereas recessive qscl allele resulted in yellow ones. However,
+causative genic components have yet not been articulated probably due to a vast range ofthe
+qSC1 genomic region (1079 Kbp) and relatively low statistical significance [6]. Nevertheless,
+we could considerably narrow down corresponding genomic region for the qSC1 locus (182
+Kbp) and identified six functionally significant candidate genes within this region (S4A Table,
+S5 Table). Among many other variants and 16 candidate genes, it was expected that a nucleotide
+alteration found at the RNA splicing site (i.e., AG-AA at Chr1_53229579 bp) ofGly-
+ma.01G198500 (annotated as CaaX-type endopeptidase or CaaXEP) should be the most func-
+tionally significant (S5 Table). To verify production of falternatively spliced transcript, RNA-
+seq data was collected from the public domains and mapped on the CaaXEP gene using String-
+Tie program (htps/ccbjhu.edulsoftware/stringtiel) [43]. This transcriptome analysis allowed
+us to reveal that the alternative splicing site was generated 168 bp behind the original location
+and led to the creation of a new protein product exhibiting a different open reading frame and
+3D-structure (S5B and S5C Fig). In this analysis, we independently discovered and articulated
+the CaaXEP gene (Glyma.01G198500) as a key player associated with the green seed coat.
+However, a recent study has already reported that the same gene (ie., CaaXEP) was involved
+in the phenotype ofthe green seed coat and seed dormancy as well, which was denoted as'G
+locus [46]. This indicates that our study was efficient and accurate in detecting genomic loci
+and characterizing key genes associated with the seed pigmentation.
+In-depth GWAS analysis on i locus
+For purposes ofbetter interpreting the effect ofthe Ilocus on seed pigmentation with no per-
+turbation by other loci, the population was reorganized for an optimal GWAS analysis.
+According to the phenotype distribution with regard to Tlocus, almost all soybean accessions
+(143/144 accessions, 99.31%) possessing truncated variant(tallele) ofF3'H exhibited the color-
+less phenotype (i.e., yellow or green) in seed coat, thereby allowing us to assume that the trun-
+cated F3'H was intimately associated with colorlessness in seed coats (S6B Table). On the other
+hand, it is known that the Ilocus involves four different alleles (namely, I,f,fandi), each of
+which exerts different effects on colors of seed coat andhilum [7,11]. Taken combined genetic
+properties together between these two loci, the population was sub-divided according to their
+phenotypes (i.e., seed coat, hilum, and pubescence) (S6 Fig), with an expectation that GWAS
+analysis with the re-organizedpopulation according to customized genotypic combinations
+couldlead us to more accurate investigation on the i allele. Towards this direction, popula-
+tions with the following phenotypic contrasts were used for rbGWAS analysis; 'colored seed
+coat/colored hilum/brown pubescence' vs 'colorless seed coat/colored hilum/brown pubes-
+cence'. This customized-by-case rbGWASled us to the identification ofthe SP3locus(conven-
+tionally Ilocus), which was mapped to 8360-8622 Kbp region ofchromosome 8 (Fig 1,
+Table 1), and revealed that the corresponding genomic region was clustered with multiple cop-
+ies ofCHS genes. As widely known, CHS catalyzes the initial step ofthe phenylpropanoid
+pathwayleading to the flavonoid biosynthesis and plays a pivotal role in regulating spatial/tem-
+poral production of anthocyanins and proanthocyanidins [7,11].It was previously reported
+that the expression ofCHS gene in soybeans with colorless seed coat was hampered by the
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+10/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+posttranscriptional gene silencing (PTGS), consequently leading to the abolishment of chal-
+cone production, which was the first stage precursor towards the synthesis offlavonoids and
+other secondary metabolites [13]. Among alleles found in this genomic region, a variant allele
+with the highest functional impact was detected in CHS4 (G-A at Chr8_8507079; Gly-
+ma.08G110500) (Table 1). However, this nucleotide variation could not account for the
+expected mechanism ofthe PTGS. Most perplexingly, a large unsequenced genomic segment,
+probably due to confounded read assembly by inverted repeat arrangement of fmultiple CHS
+genes, was noticed and hampered further analysis into searching for key trait-associated ele-
+ments within the locus.
+Discovering a genomic structural change at Ilocus by k-mer analysis
+Since rbGWAS could not further dissect detailed genomic structure ofthe i locus due to
+incomplete assembly around corresponding genomic region, k-mer-based variant calling
+method, which could effectively operate in reference-independent manner, was applied to
+scrutinize the genomic structures and to identify variations. As a prelude to verify reliability of
+variant data obtained from the k-mer-based analysis, all k-mers with optimal length consisting
+of31 nucleotides were compared with variants derived from the reference-based variant call-
+ing method. The data comparison exhibited la reliable consistency between two different, but
+complementary, analytical methods (ie., reference-based VS reference-free variant calling
+methods); for examples, SP1-99.54%, SP2-97.92% and SP4-96.58% (S6 Table).
+To search for the missing genomic part off locus, association analysis was performed using
+only variant data set, which was obtained from the k-mer-based variant calling. Ofallk-mers,
+a unique k-mer with the consensus sequence of'ATGTCAATAAGATAAGTATAT TGTA
+AAATGG' (namedk-mer) showed significantly different distribution between two above
+mentioned populations; 1.3% (2/154 accessions) in the population with phenotypes of'colored
+seed coaticoloredhilum/brown pubescence VS 95.5% (64/67 accessions) in the population
+consisting of 'colored seed coat/colorless hilum/brown pubescence'. To locate corresponding
+genomic position ofthe k-mer', BLAST was carried out against two reference genomes; G.
+max Williams 82 Chntpel/phytozomejgidoegwipuiperalhmitinffoAalias-Org.Gmay and
+G. soja PI483463 (https/isoybase.org/data/public/Glycinc.soja/P1483463.gnml.Y/WS), How-
+ever, the genomic position ofk-mer' could not be found in neither G. max nor G. soja
+genomes, implicating that one oftwo genomes was incompletely assembled around the k-mer'
+site. Subsequently, BLAST was conducted against the non-redundant nucleotide database, in
+which contained the largest collection of fnucleotide sequences. Such an attempt allowed us to
+find two G. max bacterial artificial chromosome (BAC) clones (i.e., BAC77G7-a and
+Gm_ISb001_104.J07).
+It was found that BAC77G7-a clone was previously sequenced and analyzed to study the
+effects ofCHS genes at Ilocus on the seed pigmentation [12]. Corresponding study found two
+invertedrepeat clusters (namely, I-clusters A & B), each ofwhich was arranged in the order of
+CHS1-CHS3-CHS4 VS CHS4-CHS3-CHS1, respectively. It was revealed that the k-mer' newly
+identified in this study was localized on the right side ofl-cluster B, which was the missing
+genomic part in the reference genome and thereby could not be properly analyzedby the
+rbGWAS approach (Fig 3A). In an attempt to find a causal genomic change, it was also
+revealed, by comparing I-cluster ofBAC77G7-a with correspondinggenomic region ofG. soja
+(PI483463), that a critical recombination event had occurred at thellocus in G. soja genome,
+leading to the creation ofa new recombinant allele, subsequent inheritance into G. max
+genome (Fig 3A) and thereafter selection for soybean cultivars with yellow seed coats. Coinci-
+dently, such a scenario ofthe new allele creation could be evidenced by the k-mer' that
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+11/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci and genes in the soybean
+A
+G. soja (PI483463) : Gs08
+Serine hydroxymethyltransferase 2
+Subtilisin
+- IIT
+THI
+8,506,018
+8,521,018
+Recombination event X
+8,627,147
+8,612,149
+E
+I-cluster B
+I
+E
+CHS4
+CHS3
+CHS1
+CHS5
+G. max (Williams 82) :: BAC77G7-a
+K-mer': ATGICAATAAGATAAGIATATIGTAAAIGG
+45,000 -
+60,000
+E
+I-clusterB
+-
+E
+TII
+CHS4
+CHS3
+CHS1
+Cleaved subtilisin
+B
+1201
+I 100
+60
+I 40
+20
+0
+45,000
+20
+45
+60,000
+CHS4 l-cluster B
+TICHS3
+E
+CHS1
+TII Cleaved subtilisin] BAC77G7-a
+T
+Chimeric subtlisin-CHSI/CHS3
+Fig3. Genomic structures and gene expression profiles around the k-mer' allele. (A) Comparative genomic structures between G. soja (PI483463) and G. max
+(Williams 82 BAC77G7-a) at thel-cluster B.(B) Gene expression profile andSashimi plot of chimeric subtilisin-CHSI/CHS3 gene. X-axisindicates relative genomic
+locations within the BAC77G7-a BAC clone, while Y-axis the read depth. Solid lines are used to depict texon/intron junction-to-junction, and corresponding number of
+reads that tare splitted dueto the junctions sare denoted lon each line. The upper part ofSashimi plot demonstrates mapping result ofmRNA reads with an emphasison
+distribution ofjunction-spanning reads along on the chimeric subtilisin-CHSI/CHS3. The dark and light colors in arrow-shaped boxes representthe exons and lintrons
+ofthe gene, respectively.
+htpslidbiongr10137t/pumalpone02308509
+positioned precisely onto the recombination genomic site (Fig 3A). Also, Cho et al (2019) con-
+firmed that a recombination event occurred at the same location [47].
+Identifying a chimeric subilisin-CHSI/CHS3 gene
+It was noteworthy that the 5-portion oftruncated subtilisin gene was connectednext to the I-
+cluster B due to the recombination event (Fig 3A). This resulted lin a truncated subtilisin with a
+loss of3-portion ofthe gene, while retaining its 5-portion and its own cis-elements, which
+might control the expression ofrearranged chimeric gene. To verify a creation ofthe unex-
+pected chimeric transcript, mRNA sequence data (SRR1174225; generated from the seed coat
+ofG. max Williams 82) were obtained and mapped onto the BAC77G7-a BAC clone sequence.
+As a result, RNA-seq reads were mapped not only to the coding regions oftruncated subtilisin
+but also, interestingly, to an unexpected genomic region located between CHS3 and CHS4,
+which was predicted to be a newly acquired exon (Fig 3B). In addition, we could identify a sig-
+nificant number ofj junction reads spanning the fourth exon ofthe truncated subtilisin and the
+newly found fifth exon positioned between CHS3 and CHS4 (Fig 3B). This result clearly
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+12/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+demonstrates the creation ofa new transcript reading frame, within which two CHS genes
+occupies the middle portion of fnewly acquired intron ofthe chimeric gene along with the gain
+ofa new terminal exon (Fig 3B). Consequently, the RNA-seq mapping analysis provided a
+strong evidence that the recombination occurred at the Ilocus had eventually led to the crea-
+tion ofa new chimeric transcript enclosing both CHS1 and CHS3 genes (named as chimeric
+subilisin-CHSI/CHS3 or SC1C3 gene). In addition, the sequence similarity between CHS1
+and CHS3 including their introns is really high (>99%), and subsequently two very similar
+sequences, when aligned in an inverted orientation, can allow formation ofa hairpin structure
+that may potentially cause the RNA interference [48].
+Discovering intron-containing primary miRNA via mirtron
+To confirm whether the chimeric SCIC3 gene is a key player responsible for the PTGS mecha-
+nism ofCHS genes, NGS-derived small RNAS were further analyzed. Towards this direction,
+small RNA sequence data (SRR646505; generated from the seed coat ofG. max Williams 82)
+were obtained and mapped onto both soybean reference genome and BAC77G7-a. As shown
+in Fig 4, the analysis focused on the distribution patterns across CHS genes, in which the
+majority ofsmall RNAS were mapped along on the exon regions ofCHS genes with high fre-
+quencies. In this analysis, it was most notable that a considerable portion of fsmall RNA reads
+were mapped on the intron regions of CHS1 and CHS3, but not on introns of CHS4 and any
+other CHS genes (Fig 4, S7 Fig). This result strongly indicates that only two CHS genes (ie.,
+CHS1 and CHS3), which changed into a new intron ofthe chimeric SCIC3 gene, can play a
+certain role in the small RNA biogenesis via 'mirtron (i.e., intron-containing miRNA precur-
+sor)' formation. Naturally due to high sequence similarity and inverted orientation between
+CHS1 and CHS3, this finding allowed us to conceive a subsequent generation of mirtron-
+derived primary microRNAs (miRNAs) after the splicing of pre-mRNA derived from the chi-
+meric SCIC3 gene.
+A
+1000
+100
+I
+E
+I
+l-cluster
+I
+CHS4
+CHS
+CHS1
+Cleaved subtilisin
+44
+46
+48
+50
+52
+54
+56
+58
+BAC77G7-a (Kbp)
+B
+10000
+1000 £
+100
+10 10
+I 100001
+100-
+I 0 A I
+
+CHS7
+55,646
+55,648
+55,650
+55,652
+55,654
+55,656
+55,658
+55,660
+Chromosome 1 (Kbp)
+Fig 4. Mapping analysis of fsmall RNA-seq reads on the I-cluster B(A) and ICHS7 (B). Read depth was countedby the number of
+reads on each position. Exon-intron junctions are denoted with the vertical dotted lines. The size and position ofgenes are all drawn
+to scale, while the read depth to the logarithmic scale.
+htps/idoiongrioiart/joumalpone024308500
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+13/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+In addition, it was expected that the primary miRNAs might stimulate the amplification of
+small RNA species in cells by inducing secondary small interfering RNAS (siRNAS) derived
+from mRNAS ofall other CHS genes. As a supportive example, CHS-wide small RNA mapping
+analysis provides evidence that CHS7 transcript (also including other CHS genes) can be
+silenced by the mirtron-mediated secondary siRNAs. In more detail, CHS7 (chromosome 1) is
+totally separated from the i allele (chromosome 8) and has quite low sequence similarity with
+CHS1, where the sequence alignment tof>20 bp long small RNAS exhibited only 7.43% (120/
+1615 bp ofCHS7) ofperfect matches between CHS1 and CHS7. Nevertheless, it was shown
+that a large portion ofthe small RNA reads was mapped to CHS7 (and/or CHS8 that has high
+sequence similarity to CHS7), but with no small RNAS mapped within its intron region (Fig
+4B, S7 Fig). This result indicates that the small RNAS identified within CHS7 are all generated
+through miRNA-directed mRNA cleavage of mature CHS mRNAS, which is known as phased
+small interfering RNA' (phasiRNA) [49]. Cho et al (2013) suggested that secondary CHS siR-
+NAs from the CHS7 target mRNA was amplified by primary CHS siRNAs which was gener-
+ated from the inverted repeat cluster of chalcone synthase genes CHS1-3-4 [50]. However, our
+results show that secondary siRNA is amplified by primary CHS miRNA, not primary CHS
+siRNA.
+Discussion
+Since the advent ofhigh-throughput NGS sequencing technologies and large scale genotyping
+array platforms, GWAS has played a pivotal role in identifying informative trait-associated
+genes and genomic loci in many crops [6,18,51-54]. On the other side, many programs rele-
+vant to GWAS analysis, such as PLINK, EMMAX, GAPIT and MLMM, have been developed
+towards extracting more accurate genomic information within the context of phenotype-to-
+genotype correlations [37,41,55,56]. Nevertheless, the rbGWAS analyses can commonly be
+affected by the accuracy and completeness ofreference genomes. In addition, the rbGWAS
+may sometimes mislead us to erroneous conclusions, ifthe reference genomes are misassem-
+bled due to their complex nature. Moreover, even if fa certain genome is perfectly assembled as
+a standardframework for the reference, rbGWAS may retain their innate limitations against
+calling every single variation, mainly due to the genome's complexity and large scale genomic
+changes unaccounted in common GWAS analyses (e.g., copy number variations [or CNV],
+inversions and translocations), all of which may cause the 'missing heritability' problem [21].
+Therefore, it seems reliable that the k-mer-based rfGWAS may offer a new avenue or a means
+that can effectively complement the rbGWAS. The k-mer-based approach may exert undeni-
+able advantages over common rbGWAS analyses by enabling us to discover any types ofvari-
+ants, including large scale structural variations and CNVs as well as common SNPs and
+InDels, regardless ofthe integrity ofreference genomes. To our best knowledge, this study
+would be one of rare cases in which the k-mer-based association analysis was applied to dis-
+cover trait-associated genomic variations in plants. By employing dual analytical approaches
+and phenotype-defined populations, four genomic loci (i.e., SP1-SP4loci) associated with the
+seed colors could be identified (Fig 2, S3 Fig). Ofthese four loci, it was proved that three loci
+(i.e., SP1, SP2 and SP4) corresponded to the previously reported genomic loci(i.e., qSC1/G, T
+and R loci, respectively) (Table 1) [7,10,46]. Further in-depth analysis proved that the corre-
+sponding variant alleles were identified in key trait-associated genes at each locus.
+To get a more integrated picture ofcorrelations and/or interactions among these genes and
+loci, a biochemical characterization was performed by measuring the contents of anthocyanins
+in 43 soybean accessions that were used for the WGR data production (S7 Table). Interactions
+among four seed color-associated lociwithin the context of metabolic pathway and genotype-
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+14/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+4-coumaroyl-CoA + 3 Malonyl-CoA
+[R Locus]
+CHS [ILocus]
+R2R3 MYB TF
+Chalcone
+Activate
+CHI
+ANS Sor UF3GT
+Naringenin
+F3H [TLocus]
+IWI Locus]
+F3H
+F3'5'H
+Dihydrokaempferol > Dihydroquercetin
+ Dihydromyricetin
+DFR
+DFR
+DFR
+Leucopelargonidin
+Leucocyanidin
+Leucodelphinidin
+ANS
+LANS
+ANS
+Pelargonidin
+Cyanidin
+Delphinidin
+UF3GT
+UF3GT
+UF3GT
+UF3GT
+A
+A
+Pelargonidin 3-0-glucoside Cyanidin 3-0-galactoside Cyanidin 3-0-glucoside Delphinidin 13-0-glucoside
+AOMT
+AOMT
+Peonidin 3-0-glucoside Petunidin 3-0-glucoside
+Genotype Phenotype Cyanidin-3-0- Cyanidin Cyanidin3-0- Peonidin-3-0- Delphinidin 3-0- Petunidin-3-0-
+galactoside
+glucoside glucoside glucoside glucoside
+H-RR-TT-WIW1
+4
+H-RR-TT-wiw1
+/
+ii-rr.TT W1W1
+4
+#ortt
+:
+Presence or rabsence of anthocyanins in seed coat
+Fig5. Schematic for the seed colorasociatedlocigenes within the context tofthe anthocyanin biosynthetic pathway.
+Genes or corresponding enzymes are denoted with the capital letters ofabbreviated names, as follows: CHS, chalcone
+synthase; F3'H, flavonoid 13-hydroxylase; F3'5'H, flavonoid-3,5 hydroxylase; CHI, chalcone isomerase; DFR,
+dihydrofavonol-4-reductasc ANS, anthocyanidin synthase; UF3GT, flavonoid 3-0-glucosyltransferasc; AOMT,
+anthocyanin O-methyltransferase.
+htips_.tolorgrioisrlioumal,one0243065005
+to-phenotype correlations are depicted in Fig 5. As shown in S7 Table, it is obvious that the
+colored phenotype of seeds (i.e., black seed coat/hilum and brown pod/pubescence) is exhib-
+ited when all these anthocyanins are synthesized, except for delphinidin-derived anthocyanins
+(e.g., delphinidin 3-0-gloucoside and petunidin 3-0-glucoside). The W1 locus, in which the
+F3'5'H gene plays a key role, governs the production of delphinidin-derived anthocyanins and
+may affect colors of seeds and flowers. Thus, even ifthree other loci (i.e., I, Tand R) located in
+the upstream ofthe metabolic pathway are all functionally active, the wl allele would prohibit
+the production of delphinidin-derived pigments, as represented in the phenotype ofwhite
+flowers under the genetic background of HiRRTTwlwl allele combination (Fig 5). The Tlocus,
+which harbors the F3'H gene as the key enzyme, plays its role at the nodal position within the
+anthocyanin biosynthetic pathway, at which it can control the production ofcyanidin-derived
+anthocyanins as well as delphinidin-derived ones (Fig 5). Consistentwith this pathway-based
+depiction, 99.3% (146/147) soybeans with t allele exhibited yellow seed coats (S6B Table).In
+addition, the R locus (represented by R2R3 MYB TF) plays a key regulatory role before and
+after the synthesis ofanthocyanidins (e.g., cyanidin and delphinidin) by modulating the
+expression ofANS and UF3GT. Finally, the Ilocus (represented by CHS gene clusters) occu-
+pies the verytop hierarchy ofthe flavonoid pathway, and thus plays the key role as a master
+switch that can control overall anthocyanin biosynthesis. Therefore, if genes and/or alleles of
+high status within the biosynthetic pathway are in inactive forms (e.g., if or tt alleles), such
+genetic background will cause colorless phenotypes in seeds (Fig 5). However, since the
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+15/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+phenotypes relevant to these multiple loci can be further confounded by other homologous
+genes residing in different genomic loci, integrative genetic dissection and in-depth interpreta-
+tion should be made with a great caution.
+As mentioned in the results section, rbGWAS could not capture the full content of associa-
+tion signals at the Ilocus due to incomplete assembly ofthe reference genome (Fig 2C).Itwas
+obvious that the defective structure ofthe current reference genome was caused by duplicated
+clusters ofCHS genes around the Ilocus, but its structural arrangement ofinverted repeats
+was demonstrated by previous analyses in soybean [12,57] and G. soja [58]. In both genomes,
+they share the same inversely repeated array composed of two I-clusters (i.e.,I-cluster A;
+CHS1-3-4 and I-cluster B; CHS4-3-1) on the chromosome 8 [59]. As itis well known, CHS is
+one ofthe most important master switches that regulate the biosynthetic pathways for the
+anthocyanin production with the highest hierarchy (Fig 5). Thus, many endeavors have been
+made to get an insight into how the CHS cluster-containing gi allele exerts its effect on seed col-
+ors via gene silencing. Both Tuteja et al (2009) and Xie et al (2019) had proposed their own
+working models for CHS gene silencing occurring at the i allele, but in different ways. Thus, it
+was interpreted with our extreme caution that both models did not seem fully explainable.
+Tuteja et al (2009) appeared to miss a fact that chimeric subilisin-CHSI/CHS3 transcript was
+created and acted as a trigger for the PTGS. In contrast, Xie et al (2019) recognized the pres-
+ence ofthe chimeric gene by comparing G. soja and G. max genomes. Nevertheless, it was sus-
+pected that they could not precisely define a new open reading frame for the chimeric
+transcript, by which could serve as an initiator for the inverted repeat-mediated PTGS.
+By employing the k-mer analysis, this study independently revealed the recombination
+event occurred between subtilisin and I-cluster B and resulting structural change that had
+been inherited and adapted into the currently cultivated soybean genomes carrying the pheno-
+type of fyellow seed coat (Fig 3A). One step further, mapping analysis of mRNA-seq data
+allowed us to identify the chimeric SC1C3 transcript in the seed coat, whose pre-mRNA con-
+tained CHS1 and CHS3 within its newly acquired intron (Fig 3B). Subsequently, small RNA
+mapping analysis against CHS genes revealed the generation ofmiRNAs from the intron com-
+posed of CHS1 and CHS3, but not from introns of CHS4 and other CHS genes (Fig 4, S7 Fig),
+and hence providing a significant evidence for the mirtron production. Such a special type of
+miRNA precursor (i.e., mirtron) has recently been found and reported in many species, such
+as Drosophila, C. elegans, Human, Arabidopsis and Rice [48,60-62]. Taken together with these
+two new findings and the special structural feature ofthe i allele, we are carefully proposing a
+new PTGS working model via 'mirtron-triggered CHS gene silencing (MTGS) mechanism,
+which would be occurring in the yellow seed soybeans (Fig 6). As demonstrated in Fig 6, the
+chimeric SCIC3 gene generates its pre-mRNA containing a new transcript frame under the
+control of subtilisin promoter, thereafter producing a lariat form of post-splicing introns, one
+ofwhich harbors CHS1 and CHS3 arranged in an inverted orientation. After the lariat-form
+intron is linearized by a debranching enzyme (i.e., debranchase), the CHSI/CHS3-containing
+intron will fold into semfop.comtiningpreunons (tailed pre-miRNA) due to its innate
+structural feature ofinverted tandem duplication. Subsequently, 3' and 5' overhangs of tailed
+pre-miRNAs are removed by RNA exosome and nucleases, respectively [60,63-66], finally
+generating hairpin-formed intron-containing miRNA precursors (i.e., mirtron) [48]. Accord-
+ing to known general PTGS process in plants, the double-stranded stem portion ofmirtron is
+digested into shortmiRNA by Dicer-like protein (DCL), which occurs in the nucleus [67]. Fur-
+thermore, based on CHS-wide small RNA mapping analysis (S7 Fig), it is strongly assumed
+that the primary miRNAs can serve as primers for the induction and production ofphased,
+secondary, small interfering RNAS (i.e., phasiRNAs), which were originally designated as
+trans-acting small RNAS (tasiRNAs) and known as an efficient mechanism for synchronously
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+16/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+Mirtron-triggered miRNA biogenesis
+Secondary SiRNA biogenesis
+Chr08 I-cluster A
+I-cluster B
++
+All of
+CHS1 CHS3 CHS4
+CHS4 CHS3 CHS1 Cleaved subtilisin
+CHS genes
+T
+RNA Transcription
+RNA Transcription
+subtilisin-CHSTCHS3 Chimeric
+am pre-mRNA
+pre-mRNA
+RNA Splicing & Lariat debranching
+RNA Splicing
+010
+EID mature-mRNA
+mature-mRNA
+Spliced introns (Linear formation)
+RNA folding
+RDR
+Tailedpre-miRNA
+pre-miRNA
+TeCcce
+(mirtron)
+1
+Nuclease
+DCL o
+T DCL
+Trimming
+RNA exosome
+/Cleavage
+1 Cleavage
+sr Er ms Emp Emr Emra E E Eg
+Er r Eg Imr
+Eg Emg Emr
+primary miRNA
+secondary SIRNA (phasiRNA)
+Nucleus
+Cytoplasm
+mature-mRNA ofall CHS genes
+Eusug Eg
+s Emr Er
+Emag Smg Emug
+RISC
+Er my
+EERE Smng Eg
+tr Sm
+AGO
+LeoInron
+OXOI
+Target degradation or repression
+Fig6. A proposed modelfor "Mirtron-Triggered Gene Silencing (MTGS)' mechanism working on genome-wide CHS regulatory circuit. Itis
+noteworthy that the mirtron-derived primary miRNAS involve intron segments originated from CHSI/CHS3-containing transcript whereas the
+secondary siRNAsareall generated from the exon regions ofother CHS transcripts. Abbreviations sare as follows: RISC, RNA-induced silencing
+complex; AGO,argonaute proteins; RDR, RNA dependent RNA polymerase; DCL, dicer-like protein.
+htpslidoiorgr1o137l/pumalpone.0243005006
+controlling a large number of genes with some extents ofhomology (e.g., family genes such as
+MYB and NBS-LRR) [49,68]. Similar to this mechanism, phasiRNA (or secondary siRNA)
+derived from other CHS genes can be generated in such a way that the single-stranded primary
+miRNA act as primers for the RNA-dependent RNA polymerase (RDR), and subsequently
+resulting double-stranded RNA precursors are diced by the DCL proteins, finally producing
+the secondary SiRNA (i.e., phasiRNA) (Fig6).
+In this way, it appears that the pool of small RNA species (i.e., primary miRNA plus second-
+ary phasiRNA) can be enormously amplified through these two separate, but actually interact-
+ing, transcription regulatory circuits (Fig6), until the cell is equipped with nearly the entire
+breadth ofCHS gene-wide sequence specificity, which was evidenced by the small RNA map-
+ping analyses (S7 Fig). A possible scenario is that such a pool of small RNAS with full extent of
+CHS-wide specificity may be able to degrade almost all of CHS transcripts expressed from all
+genome-wide sectors for the CHS genes, ultimately leading to the phenotype (i.e., colorless-
+ness) caused by complete knock-down ofCHS genes. Consistent with this scenario, we could
+not detect any anthocyanins in yellow soybeans (Fig 5, S7 Table). In this working model, itis
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+17/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+noteworthy that the mirtron plays a critical role as a 'trigger' for the PTGS-mediated regulatory
+circuit (Fig 6).
+Conclusions
+To precisely identify and dissect genes and genomic loci associated with the pigmentation of
+soybean seeds, this study employed an integrated approach in both analytical means (i.e.,
+rbGWAS and rfGWAS) and data resources (i.e., in-house-generated and public WGR data).
+These analyses resulted in the detection of ffour major genomic loci (designated as SP1 2 SP4),
+key genes and numerous functional variants across the soybean whole genome. Ofthese four
+loci, in-depth dissection of SP3locus (conventionally known as Ilocus), in which contained a
+special genomic arrangement of CHS gene clusters, led us to a meaningful finding. The k-mer
+analysis allowed us to discover an ancient recombination event between subtilisin and I-cluster
+B, leading to the revelation of special structural features in the i allele ofllocus. Mapping anal-
+yses with NGS-derived mRNA-seq and small RNA data enabled us to discover chimeric subtil-
+isin-CHS1/CHS3 transcripts followed by 'mirtron' generation. Based on these results, it
+implicates that the mirtron plays a pivotal role as an initiator towards the direction of amplify-
+ing CHS-derived secondary siRNAS or phasiRNA, thereafterleading to the complete silencing
+ofgenome-wide CHS genes. Consequently, we carefully suggest a new working modelof'mir-
+tron-triggered gene silencing' (or MTGS) mechanism, even ifit needs to be further investi-
+gated through future experimental endeavor. Itis anticipated that the MTGS model will offer a
+deeper and broader insight into the PTGS pathways interacting within the context of complex
+regulatory circuits. We also expect that the information on trait-associated alleles found in this
+study will be beneficially used for the precision breeding ofthe crop soybean.
+Supporting information
+S1 Fig. The population structure of 438 soybean accessions. The fastSTRUCTURE program
+was used to infer the structure ofall Glycine accessions used in this study. Each group is pre-
+sented by different colors.
+(PPTX)
+S2 Fig. Genome-wide distribution of genes and variations. Both gene densities and frequen-
+cies ofSNP/InDel were all depictedby counting its corresponding number of genes and vari-
+ants every 100Kbp-long genomic section.
+(PPTX)
+S3 Fig. GWAS analyses and Manhattan plots resulted from all possible combinations of
+the seed color-associated traits.
+(PPTX)
+S4 Fig. GWAS analyses and Manhattan plots associated with pod color, follower color and
+growth habit.
+(PPTX)
+S5 Fig. GWAS analysis ofSP1 locus and structural comparisons of CaaXEP gene and pro-
+tein. (A) Comparison ofthe green seed coat-linked GWAS analyses and consistency ofthe
+Manhattan plots between the WGR data (248 soybean accessions) and SoySNP50K data
+(10312 soybean accessions). Color-coded circles indicate the functional impacts ofvariants, as
+denoted in Fig 2. In the magnified image, Glyma.01G198500 (CaaX-type endopeptidase;
+CaaXEP) was expected to be a candidate with the most functionally significant variation and
+thereby further analyzed. (B) Comparison oftranscriptome-based gene models for the
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+18/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+CaaXEP. Each CaaXEP gene model for the yellow (upper) or green (below) soybean was
+depicted along with the RNA-seq read depths. (C) Modeling-based prediction ofthe 3D-struc-
+tures and comparison of fthe CaaXEP proteins.
+(PPTX)
+S6 Fig. Schematic ofthe genetic interactions between Ilocus and T locus, and expected
+phenotypes. Each color denotes actual phenotypes in the corresponding tissues, except for the
+white, which represents independent inheritance in corresponding part ofthe tissues.
+(PPTX)
+S7 Fig. Comparison of small RNA mapping analyses within the phylogenetic context of
+nine representative CHS genes. The gray ribbons denote the genomic regions of perfect
+matches longer than 20 bps between the neighboring CHS genes. The gene sizes and positions
+of fexon/intron junctions are all drawn to scale, while the read depth to the logarithmic scale.
+(PPTX)
+S1 Table. List of phenotypic and NGS data information for 438 soybean accessions.
+(XLSX)
+S2 Table. Summary of fgenome-wide SNP/InDel distributions.
+(XLSX)
+S3 Table. Phenotypic distribution among three phylogenetic groups.
+(XLSX)
+S4 Table. List ofvariants identified at SP1 locus.
+(XLSX)
+S5 Table. Information for six candidate genes discovered at SP1 locus.
+(XLSX)
+S6 Table. Data consistency of genotypes between mapping-based and Kmer-based analy-
+ses.
+(XLSX)
+S7 Table. Phenotypes and anthocyanin quantification in seeds of 43 soybean accessions.
+(XLSX)
+Acknowledgments
+We thank the Systems Biotechnology Research Center ofKIST for providing high throughput
+LC/MS instruments and analyzing anthocyanin contents. We thank the Macrogen Inc. for
+producing the WGR data ofhigh quality. We thank the RDA-Gene Bank Information Center
+and the Korea Seed & Variety Services for providing seed samples for soybean cultivars. We
+are grateful to Joong-Kyung Moon for his constructive comments on genetic analysis.
+Author Contributions
+Conceptualization: Jin-Hyun Kim, Hong-Kyu Choi.
+Data curation: Jin-Hyun Kim, Joo-Seok Park, Min-Gyun Jeong, Jiu Liang Xu, Yongsoo Choi,
+Ho-Won Jung.
+Formal analysis: Jin-Hyun Kim, Joo-Seok Park, Min-Gyun Jeong, Yongsoo Choi.
+Funding acquisition: Hong-Kyu Choi.
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+19/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci and genes in the soybean
+Investigation: Jin-Hyun Kim, Min-Gyun Jeong, Jiu Liang Xu.
+Methodology: Jin-Hyun Kim, Hong-Kyu Choi.
+Project administration: Hong-Kyu Choi.
+Resources: Jin-Hyun Kim, Joo-Seok Park, Chae-Young Lee, Min-Gyun Jeong, Jiu Liang Xu,
+Yongsoo Choi.
+Software: Jin-Hyun Kim.
+Supervision: Hong-Kyu Choi.
+Visualization: Jin-Hyun Kim, Min-Gyun Jeong.
+Writing - original draft: Jin-Hyun Kim, Min-Gyun Jeong, Hong-Kyu Choi.
+Writing - review & editing: Jin-Hyun Kim, Ho-Won Jung, Hong-Kyu Choi.
+References
+1. QiuL, Chang R. The origin andhistory of soybean. The soybean: botany, production and uses. Walling-
+ford: CABI; 2010. pp. 1-23. htps.ldoi.ongy10.10799781845936440.0001
+2. BarrettJR. The Science of Soy: What Do We Really Know? Environ Health Perspect. 2006; 114: A352-
+8. htps_/doiorg/10.1289/ehp.114-a352 PMID: 16759972
+3. LiuJ, QinW, Wu H, YangC, Deng J, Iqbal N, et al. Metabolism variation and better storability of dark-
+versus light-coloured soybean (Glycine max L. Merr.) seeds. Food Chem. 2017; 223: 104-113. https:ll
+doiorg10.1016/,foodchem.2016.12.036 PMID: 28069115
+4. Wu K, Xiao S, Chen Q, Wang Q, Zhang Y, Lik, et tal. Changes in the Activity andTranscription of fAnti-
+oxidant Enzymes in Response to Al Stress in Black Soybeans. Plant Mol Biol Report. 2013; 31:141-
+150. htips/dolorg10.10071s10071511106-012.0487-6
+5. ZHANG T, KAWABATAK, KITANOR, ASHIDA H. Preventive Effects of Black Soybean Seed Coat
+Polyphenols against DNA Damage in Salmonella typhimurium. Food Sci Technol Res. 2013; 19: 685-
+690. https/doi.org/10.3136/fstr.19.685
+6. Song J, Liu Z, Hong H, Ma Y, Tian L, Lix, et al. Identification and Validation of fLoci Governing Seed
+Coat Color by Combining Association Mapping and Bulk Segregation Analysis in Soybean. Parida SK,
+editor. PLOS One. 2016; 11: e0159064. htpszldoiongy10.137t/ouumal.pone0159064 PMID: 27404272
+7. Toda K, Yang D, Yamanaka N, Watanabe S, Harada K, Takahashi R. A single-base deletion in soybean
+flavonoid3-hydroxylase gene is associated with gray pubescence color. Plant Mol Biol. 2002; 50: 187-
+96. Available: htp/hwwwndhinimanihgoowipubmed12175012 htips/doi.org/10.1023
+a:1016087221334 PMID: 12175012
+8. Kohzuma K, Sato Y, Ito H, Okuzaki A, Watanabe M, KobayashiH, et al. The Non-Mendelian Green Cot-
+yledon Gene in Soybean Encodes a Small Subunit of Photosystem II. Plant Physiol. 2017; 173: 2138-
+2147. Meulsgi@iiodpiconse PMID: 28235890
+9. Fang C, Lic, Liw, Wang Z, Zhou Z, ShenY, et al. Concerted evolution ofD1 and D2 to regulate chloro-
+phyll degradation in soybean. Plant J. 2014; 77: 700-712. Mpsdsiogroit/gi2419 PMID:
+24372721
+10. Gillman JD, Tetlow A, Lee J-D, ShannonJ, Bilyeu K. Loss-of-function mutations affecting gaspecific Gly-
+cine max R2R3 MYBtranscription factorresult tin brown hilum and brown seed coats. BMC Plant Biol.
+2011; 11: 155. htips/doiorg10.11881471-229-11-155 PMID: 22070454
+11. Palmer R, Pfeiffer T, Buss G, Kilen T. Qualitative genetics Soybeans: improvement, production, and
+uses. 3rd ed. Madison (WI). 2004; 137-214. Available: htps/dl.sciencesodetesocdeties.orgypubications
+boks/abstracts/agronomymonograisoybeansimprove/137
+12. TutejaJH. Tissue-Specific Gene Silencing Mediatedby al Naturally Occurring Chalcone Synthase
+Gene Cluster in Glycine max. PLANT CELL ONLINE. 2004; 16: 819-835. htipslidoiongf10.1105toc.
+021352 PMID: 15064367
+13. Senda M. Patterning of Virus-Infected Glycine max Seed Coat Is Associatedwith Suppression of
+Endogenous Silencing of Chalcone Synthase Genes. PLANTCELL ONLINE. 2004; 16: 807-818.
+Mmuialogroi@ypcotges PMID: 15037735
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+20/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+14. Takahashi R, Dubouzet JG, MatsumuraH, Yasudal K, Iwashina T.A new allele of flower color gene W1
+encoding flavonoid 35-hydroxylase is responsible for lightpurple flowersin wildsoybean Glycine soja.
+BMC Plant Biol. 2010; 10: 155. htips._/dol.org10.118611881471-229-10-155 PMID: 20663233
+15. Nakano M, Yamada T, Masuda Y, Sato Y, Kobayashi H, Ueda H, etal. A GrenCayedon(SayGreen
+Mutant Exemplifies the Ancient Whole-Genome Duplicationsin Soybean. Plant Cell Physiol. 2014; 55:
+1763-1771.htps.ldciongn01093popcuto? PMID: 25108243
+16. Schmutz J, Cannon SB, Schlueter J, Ma J, Mitros T, Nelson W, etal. Genome sequence ofthe palaeo-
+polyploid soybean. Nature. 2010; 463: 178-183. Meuldsognaio@hwurndesn PMID: 20075913
+17. Cochrane G, Karsch-Mizrachil.Takag T, Sequence Database Collaboration IN. The International
+Nucleotide Sequence Database Collaboration. Nucleic Acids Res. 2016; 44: D48-D50. https://doi.org/
+10.1093/hnarlgkv1323 PMID: 26657633
+18. Zhou Z, Jiang Y, Wang Z, Gouz, LyuJ, Liw, etal. Resequencing 302 wild and cultivated accessions
+identifies genes related to domestication and limprovement in soybean. Nat Biotechnol. 2015; 33: 408-
+414. hmpsldsongrioio@ret.30d PMID: 25643055
+19. Fang C, Ma Y, Wu S, Liu Z, Wang Z, Yang R, et al. Genome-wide association studies dissect the
+genetic networks underlying agronomical traits in soybean. Genome Biol. 2017; 18: 161. https://doi.org/
+10.1188513059017-12899 PMID: 28838319
+20. Schnable PS, Ware D, Fulton RS, Stein JC, WeiF, Pasternak S, et al. The B73 Maize Genome: Com-
+plexity, Diversity, and Dynamics. Science (80-). 2009; 326: 1112-1115. htips_/doi.org/10.11261
+science.11785341 4PMID: 19965430
+21. Manolio TA, Collins FS, Cox NJ, Goldstein DB, HindorffLA, Hunter DJ, et al. Finding the missing herita-
+bility of complex diseases. Nature. 2009; 461: 747-753. htips/doi.org/10.1038/nature08494 PMID:
+19812666
+22. Sheppard ISK, DidelotX, Meric G, Torralbo A, Jolley KA, Kelly DJ, etal. Genome-wide association
+study identifies vitamin B5 biosynthesis as a host specificity factorin Campylobacter. Proc Natl Acad
+Sci. 2013; 110: 11923-11927. htps.ldoi.org/10.1073pnas.1305559110 PMID: 23818615
+23. Earle SG, Wu C-H, CharlesworthJ, Stoesser N, Gordon NC, Walker TM, et al. Identifying lineage
+effects when contolingforpopulation structure improves power in bacterial association studies. Nat
+Microbiol. 2016; 1: 16041. htps.ldoi.org10.1038hhmicrobiol2016.41 PMID: 27572646
+24. Lees JA, Vehkala M, ValimakiN, Harris SR, Chewapreecha C, Croucher NJ, etal. Sequence element
+enrichment analysis to determine the genetic basis ofbacterial phenotypes. Nat Commun. 2016; 7:
+12797. htps_/doi.org/10.1038/ncomms12797 PMID: 27633831
+25. Jaillard M, Lima L, Tournoud M, Mahé P, van Belkum A, Lacroix V, et al. A fast and lagnostic methodfor
+bacterial genome-wide association studies: Bridging the gap between k-mers and genetic events. Dide-
+lot X, editor. PLOS Genet. 2018; 14: e1007758. htips.lidol.ongr10.1371/oumalpgen.1007758 PMID:
+30419019
+26. Rahman A, Hallgrimsdottirl, Eisen M, Pachter L. Association mapping from sequencing reads usingk-
+mers. Elife. 2018; 7. mmuibsiogrorsaeuleseg PMID: 29897334
+27. Arora S, Steuernagel B, GauravK, Chandramohan S, Long Y, Matny O, etal. Resistance gene cloning
+from a wild crop relative by sequence capture and association genetics. Nat Biotechnol. 2019; 37: 139-
+143. htipsIdoiorg/10.1038s41587-018-0007:9 PMID: 30718880
+28. Roulin A, Auer PL, Libault M, Schlueter J, Farmer A, May G, et al. The fate of duplicated genes in a poly-
+ploid plant genome. PlantJ.2013; 73: 143-153. Mpeldsegrgitti/e.taas PMID: 22974547
+29. Bolger AM, Lohse M, Usadel B. Trimmomatic: a flexible trimmer for Illuminasequence data. Bioinfor-
+matics. 2014; 30: 2114-2120. htips.ldoi.ongy10.1093bioinformatcsbtu170 PMID: 24695404
+30. LiH, Durbin R. Fast and accurate short tread alignment with Burows-Whelertanstom. Bioinformatics.
+2009; 25: 1754-1760. htipszidolongr10.1093bioinformaticsbip324 PMID: 19451168
+31. LiH, Handsaker B, Wysoker A, Fennell IT, Ruan J, Homer N, et tal. The Sequence Alignment/Map format
+and SAMtools. Bioinformatics. 2009; 25: 2078-2079. htipszidol.orgr10.1093bioinformaticsbip3s2
+PMID: 19505943
+32. McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, et al. The Genome Analysis
+Toolkit: AI MapReduce framework for analyzing next-generation DNA sequencing data. Genome Res.
+2010; 20: 1297-1303. htipsl/idoiongn10.1101igr11019:107524.110PMID: 20644199
+33. Cingolani P, Platts A, Wang LL, Coon M, Nguyen T, Wang L, et al. A program forannotating Jand predict-
+ing the effects of single nucleotide polymorphisms, SnpEff. Fly (Austin). 2012; 6: 80-92. https://doi.org
+10.4161/ly.19695 PMID: 22728672
+34. Kumar S, Stecher G, Tamura K. MEGA7:Molecular Evolutionary Genetics Analysis Version 7.0for Big-
+ger Datasets. Mol Biol Evol. 2016; 33: 1870-1874. htps_/doiorg/10.1093molbevimsw054 PMID:
+27004904
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+21/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+35. RajA, Stephens M, Pritchard JK. fastSTRUCTURE: Variational Inference of Population Structure in
+Large SNP Data Sets. Genetics. 2014; 197: 573-589. htips/doionrgf10153lgenetcs.14.164350
+PMID: 24700103
+36. Song Q, Hyten DL, Jia G, Quigley CV., Fickus EW, Nelson RL, etal. Fingerprinting Soybean Germ-
+plasm and Its Utility in Genomic Research. G3&#58; Genes/Genomes/Genetics. 2015; 5: 1999-2006.
+htps_/do.org/10.1534/93.115.019000 PMID: 26224783
+37. Kang HM, SulJH, Service SK, Zaitlen NA, Kong S, Freimer NB, et al. Variance component modelto
+accountfor sample structure in genome-wide association studies. Nat Genet. 2010; 42: 348-354.
+hmpeslidblogn010g@ing.548 PMID: 20208533
+38. Yang J, Yan R, Roy A, Xu D, Poisson J, Zhang Y. Thel I-TASSER Suite: protein structure and function
+prediction. NatMethods. 2015; 12: 7-8. https/doi.org/10.1038nmeth.3213 PMID: 25549265
+39. DELANO, L. W. The PyMOL Molecular Graphics System. In: http-/www.pymol.org [Internet). DeLano
+Scientific; 2002 [cited 12 Oct2018]. Available: htips/cinil.ac.jp/naid/10020095229/
+40. Kokot M, Dlugosz M, Deorowicz S. KMC 3: counting Jandmanipulating k-mer statistics. BergerB, editor.
+Bioinformatics. 2017; 33: 2759-2761. htips.idol.orgn10.10g3bioinformaticsbt.304 PMID: 28472236
+41. Purcell S, Neale B, Todd-Brown K, Thomas L, Ferreira MAR, Bender D, etal. PLINK: A Tool Setfor
+Whole-Genome Association and Population-Based Linkage Analyses. Am JHum Genet. 2007; 81:
+559-575. hpeldaiog10:06519795 PMID: 17701901
+42. Dobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, et al. STAR: ultrafast universal RNA-
+seq aligner. Bioinformatics. 2013; 29: 15-21. htps/doiong10.1093bio1093bioinformaticsbis635 PMID:
+23104886
+43. Pertea M, Pertea GM, Antonescu CM, Chang T-C, Mendell JT, Salzberg SL. StringTie enables
+improved reconstruction ofat transcriptome from RNA-seq reads. Nat Biotechnol. 2015; 33: 290-295.
+hp.dsopridi0@res3122 PMID: 25690850
+44. Thorvaldsdottin H, RobinsonJT, Mesirov JP. Integrative Genomics Viewer (IGV): high-performance
+genomics data visualization and exploration. Brief Bioinform. 2013; 14: 178-192. https://doi.org/10.
+1093/bib/bbs017 PMID: 22517427
+45. Van Rossum G, Drake FL. Python 3 Reference Manual. Scotts Valley, CA: CreateSpace; 2009.
+46. Wang M, Liw, Fang C, Xu F, Liu Y, Wang Z, etal. Parallelselection on a dormancy gene during domes-
+tication of crops from multiple families. Nat Genet. 2018; 50: 1435-1441. htps_/do.org'10.1038/
+$41588-018-0229-2 PMID: 30250128
+47. Cho YB, Jones SI, Vodkin LO. Nonallelic homologous recombination events responsiblefor copy num-
+ber variation within an RNA silencing locus. Plant Direct. 2019; 3: 1-16. htipsldoiongni0.1002pia,
+162 PMID: 31468028
+48. Ruby JG, Jan CH, Bartel DP. Intronic microRNA precursors that bypass Drosha processing. Nature.
+2007; 448: 83-86. Meuidaegiaio8hwundeg PMID: 17589500
+49. Fei Q, Xia R, Meyers BC. Phased, Secondary, Small Interfering RNAS in Posttranscriptional Regulatory
+Networks. Plant Cell. 2013; 25: 2400-2415. htps_/doi.org/10.1105Apc.113.114652 PMID: 23881411
+50. Cho YB, Jones SI, Vodkin L. The Transition from Primary siRNAS to Amplified Secondary SiRNAS That
+Regulate Chalcone Synthase During Development tof Glycine max Seed Coats. FreitagM, editor. PLOS
+One. 2013; 8: e76954. htips.ldoiongyf10.137t/oumal.pone.076954 PMID: 24204712
+51. Zhao Y, Wang H, Bo C, Dai W, Zhang X, Cai iR, et al. Genome-wide association study of maize plant
+architecture using F1 populations. Plant Mol IBiol. 2019; 99: 1-15. https_/doi.org/10.1007/511103-018-
+0797-7 PMID: 30519826
+52. WenT, Dai B, Wang T, Liu X, You C, Lin Z. Genetic variations in plant tarchitecture traits in cotton (Gos-
+sypium hirsutum) revealed by agenome-wide association study. Crop J. 2019; 7: 209-216. https://doi.
+0n910.10161d,201812004
+53. Zhao Y, Qiang C, Wang X, Chen Y, DengJ, Jiang C, et al. New alleles for chlorophyll content and stay-
+greentraits revealed by a genome wide association study in rice (Oryza sativa). Sci Rep. 2019; 9: 2541.
+htips.idoiong10.1038141038841598019-392805 PMID: 30796281
+54. Wang Y, LiY, Wu H, Hu B, ZhengJ, Zhai H, et al. Genotyping of Soybean Cultivars With Medium-Den-
+sity Array Reveals the Population Structure and IQTNS Underlying Maturity and SeedTraits. Front Plant
+Sci. 2018; 9: 610. htps//doi.org/10.3389fp1s.2018.00610 PMID: 29868067
+55. Tang Y, Liu X, Wang J, LiM, Wang Q, Tian F, etal. GAPIT Version 2: An Enhanced Integrated Tool for
+Genomic Association and Prediction. Plant Genome. 2016; 9: 0. htps//do.org/10.3835
+plantigenome2015.110120 PMID: 27898829
+56. Segura V, Vilhjalmsson BJ, Platt A, Korte A, Seren 0,LongQ, etal. An efficient multi-locus mixed-
+model approachfor genome-wide association studies in structured populations. Nat Genet. 2012; 44:
+825-830. htpsldalogrio10g@hg2314 PMID: 22706313
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+22/23
+
+
+
+PLOS ONE
+Dissecting seed pigmentation-associated loci iand genes in the soybean
+57. TutejaJH, Vodkin LO. Structural Features of the Endogenous Silencing and TargetLoci iin the Soybean
+Genome. Crop Sci. 2008; 48: S-49. htips.ldolong1021a5coppc207210.054209
+58. Xie M, Chung CY-L, LiM-W, Wong F-L, Wang X, Liu A, et al. A reference-grade wild soybean genome.
+Nat Commun. 2019; 10: 1216. htips./doi.org10.1098s41038841467019-091429 PMID: 30872580
+59. TutejaJH, Zabala G, Varala K, HudsonM, Vodkin LO. Endogenous, Tissue-Specific ShortInterfering
+RNAS Silence the Chalcone Synthase Gene Family in Glycine max Seed Coats. Plant Cell. 2009; 21:
+3063-3077. htps/Idoi.org/10.1105/pc.109.069856 PMID: 19820189
+60. Berezikov E, ChungW-J, Willis J, Cuppen E, Lai EC. Mammalian Mirtron Genes. Mol ICell. 2007; 28:
+328-336. htips.idolorg10.1016jmocel200209.028 PMID: 17964270
+61. Zhu Q-H, Spriggs A, Matthew L, Fan L, Kennedy G, GublerF, et al. A diverse setofmicroRNAS and
+microRNA-like small RNAS in developing rice grains. Genome Res. 2008; 18: 1456-1465. https://doi.
+0rg10.11019-075572107 PMID: 18687877
+62. Meng Y, Shao C. Large-Scale Identification of Mirtrons in Arabidopsis and Rice. ProvartNJ, editor.
+PLOS One. 2012; 7: e31163. htips.idol.ongn10.137/ouumal.pone.0031163 PMID: 22348048
+63. Flynt AS, Greimann JC, Chung W-J, Lima CD, Lai EC. MicroRNAI Biogenesis via Splicing and Exo-
+some-Mediated Trimmingin Drosophila. Mol Cell. 2010; 38: 900-907. hmpsldalogriaiot6imotet
+2010.06.014 PMID: 20620959
+64. Westholm JO, Lai EC. Mirtrons: MicroRNA biogenesis via splicing. Biochimie. 2011;93: 1897-1904.
+htips.Idoiorg710.10161.bioch1201.06017 PMID: 21712066
+65. Curtis HJ, Sibley CR, Wood IMJA. Mirtrons, an emerging class of atypical miRNA. Wiley Interdiscip Rev
+RNA. 2012; 3: 617-632. hmoulidsiogrioio@wma.lti2 PMID: 22733569
+66. Menezes MR, Balzeau J, Hagan JP. 3' RNA Uridylation in Epitranscriptomics, Gene Regulation, and
+Disease. Front Mol Biosci. 2018; 5: 61. htps_/doulorg/10.3389fmolb.2018.00061 PMID: 30057901
+67. Castel ISE, Martienssen RA. RNA interference in the nucleus: roles for small RNAS in transcription, epi-
+genetics and beyond. NatRev Genet. 2013; 14: 100-12.htipsl/doi.orgn.1038hrg355 PMID:
+23329111
+68. Poethig RS, Peragine A, Yoshikawa M, Hunter C, Willmann M, Wu G. The function of RNAi iin plant
+development. Cold Spring Harb Symp Quant Biol. 2006; 71: 165-170. htips.ldoiong10.101/sgh
+2006.71.030 PMID: 17381293
+PLOS ONE Ihmpszldoiong10137t/joalpone.0243065 December 1, 2020
+23/23

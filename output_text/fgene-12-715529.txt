@@ -1,0 +1,979 @@
+frontiers
+ORIGINALI RESEARCH
+published: 14 September 2021
+in Genetics
+doi: 1033919082021716629
+Conkter
+Genome-Wide Association Study to
+Map Genomic Regions Related to the
+Initiation Time of Four Growth Stage
+Traits in Soybean
+Wenliang Yan12, Benjamin Karikari, Fangguo Chang', Fangzhou Zhao', Yinghu Zhang*,
+Dongmei Lit2, Tuanjie Zhao 1* and Haiyan Jiang2*
+1Key Laboratory of Biology and Genetics and Breeding for Soybean, Ministry of Agriculture, State Key Laboratory for Crop
+Genetics and Germplasm Enhancement, National Center for Soybean Improvement, Nanjing Agricultural University, Nanjing,
+China, 2College of Artificial IIntelligence, Nanjing Agricultural University, Nanjing, China, Department of Crop Science,
+Faculty of Agriculture, Food and Consumer Sciences, University for Development Studies, Tamale, Ghana, Institute
+ofAgricultural Sciences in. Jiangsu Coastal Region, Yancheng, China
+The time to flowering (DF), pod beginning (DPB), seed formation (DSF), and
+OPEN
+maturity
+ACCESS
+initiation (DMI) in soybean (Glycine max [L.] Merr) are important characteristics of
+Edited by: growth stage traits (GSTS) in Chinese summer-sowing soybean, and are influenced by
+Aditya Pratap,
+Indian Institute of Pulses Research genetic as well as environmental factors. To better understand the molecular mechanism
+(ICAR), India underlying the initiation times of GSTS, we investigated four GSTS of 309 diverse
+Reviewed by: soybean accessions in six different environments and Best Linear Unbiased Prediction
+Long Li, values. Furthermore, the genome-wide association study was conducted a Fixed
+Sichuan
+China
+by
+Agricultural University,
+Silvas Prince, and random model Circulating Probability Unification method using over 60,000 single
+Noble Research Institute, LLC, nucleotide polymorphism (SNP) markers to identify the significant quantitative trait
+United States nucleotide (QTN) regions with phenotypic data. As a result, 212 SNPS within 102
+"Correspondence: QTN regions were associated with four GSTS. Of which, eight stable regions were
+Tuanjie Zhao
+tizhao@njau.edu.cn repeatedly detected in least three datasets for one GST. Interestingly, half of the QTN
+Haiyan Jiang regions overlapped with previously reported quantitative trait loci or well-known soybean
+jianghy@njau.edu.cn
+growth period genes. The hotspots associated with all GSTS were concentrated on
+Specialty section: chromosome 10. E2 (Glyma10g36600), a gene with a known function in regulating
+This article was submittedto flowering and maturity in soybean, is also found on this chromosome. Thus, this
+Evolutionary and Population Genetics,
+a section of the journal genomic region may account for the strong correlation among the four GSTS. All the
+Frontiers in Genetics significant SNPS in the remaining 7 QTN regions could cause the significant phenotypic
+Received: 27 May 2021 variation with both the major and minor alleles. Two hundred and seventy-five genes
+Accepted: 09 August 2021
+Published: 14 September 2021 in soybean and their homologs in Arabidopsis were screened within + 500 kb of
+Citation: 7 peak SNPS in the corresponding QTN regions. Most of the genes are involved in
+Yan W, Karikari B, Chang F flowering, response to auxin stimulus, or regulation of seed germination, among others.
+Zhao F Zhang Y LiD, Zhao Tand The findings reported here provide an insight for genetic improvement which will aid in
+Jiang H (2021) Genome-Wide
+Association Study to Map Genomic breeding of soybean cultivars that can be adapted to the various summer sowing areas
+Regions Related to the Initiation Time in China and beyond.
+of fFour Growth Stage Traits
+in Soybean. Front. Genet. 12:715529. Keywords: soybean, growth stage traits, environmental and genetic factors, quantitative trait nucleotide, genetic
+doi: 10.339/982021.715629 improvement
+Frontiers in Genetics www.rontiersin.org
+1
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+INTRODUCTION
+The seed-formation characteristic of soybean is also worthy
+of attention. Seed yield is the product of a number of yield
+Soybean (Glycine max [L.] Merr.) is a versatile crop with related traits, including seed number and seed size, factors that
+numerous nutritional qualities and uses. It is the highest source are largely determined at early seed developmental stages (Ruan
+of plant protein and second highest oil yielder among oilseed et al., 2012; Zhang et al., 2021). Jones and Vodkin (2013)
+crops (Kole et al., 2015). As a photoperiod-sensitive and self- found more than one hundred genes that were highly expressed
+pollinated species, the growth stage traits (GSTs) play important exclusively at young seed stages, whereas Karikari et al. (2020)
+roles in the adaptability and yield improvement of soybean identified three hub genes (Glyma06g44510, Glyma08g06420,
+(Li M. et al., 2019). Among the GSTS, flowering time and and Glyma19g28070) that were expressed relatively more highly
+maturity are important agronomic traits related to soybean in large-seeded cultivars than small-seeded cultivars at seed
+productivity (Wang et al., 2018). Furthermore, characteristics formation stage.
+related to pods and seeds are also often regarded as yield-related
+With the advance of next-generation sequencing in recent
+traits, or important components of yield in soybean (Du et al., years, the genome-wide association study (GWAS) can be
+2017; Li M. et al., 2019; Song et al., 2020), which emphasizes more efficiently applied in germplasm collections or naturally
+the importance of understanding the genetics underlying the occurring populations and provides higher resolution in terms of
+initiation time of GSTs.
+defining the genomic positions of QTLs/genes (Shirasawa et al.,
+The GSTs are controlled by both genetic (G) and 2013).In addition, the first whole-genomes sequence ofthe variety
+environmental (E) factors, which make breeding efforts Williams 82, completed in 2010, provides a powerful resource
+utilizing traditional, conventional methods both ineffective and for soybean functional genomic research (Schmutz et al., 2010).
+inefficient, leading to limited progress having been made on Moreover, multi-locus GWAS methods, e.g., Fixed and random
+soybean adaptability, biomass, and economic yield (Cober and model Circulating Probability Unification (FarmCPU) (Liu et al.,
+Morrison, 2010). In addition, the genetic mechanisms governing 2016), are more powerful and robust in detecting loci associated
+soybean flowering time to maturity are complex, regulated by with polygenic and/or multi-factorial complex traits than single-
+polygenes with both major and minor effects (Zhang et al., 2015). locus methods (Zhang Y. et al., 2019; Sertse et al., 2021), where
+So far, severalloci/genes have been reported to regulate flowering single-locus models tend to only be able to detect large-effect
+in soybean, prominent among them include the E-series (E1-11) QTNS (He et al., 2019b).
+(Bernard, 1971; Buzzell and Voldeng, 1980; Mcblain and Favorable alleles could be successfully introgressed by using
+Bernard, 1987; Kang and Kim, 1996; Bonato and Vello, 1999; marker-assisted selection (MAS), if they are independent of the
+Molnar et al., 2003; Watanabe et al., 2009; Cober et al., 2010; environmental and genetic background (Palomeque et al., 2010).
+Kong et al., 2014; Samanfar et al., 2017; Wang et al., 2019),J(Ray This means that genetic studies of the same trait in multiple
+et tal., 1995), Dtl (Liu et al., 2008), and Dt2 (Zhang D. et al., 2019). environments seems more scientifically viable to identify stable
+It has been reported that these loci interact with photoperiod in quantitative trait nucleotides (QTNS) for practical plant breeding.
+modulating flowering and maturity. Under natural day length, In this study, we evaluated 309 diverse soybean accessions across
+the dominant alleles tend to delay flowering time and maturity, six different agricultural experimental environments to record
+but the magnitude ofeffect of each gene can be different.
+four GSTs [i.e., days to flowering (DF), pod beginning (DPB),
+To date, SoyBase database' currently lists 356 quantitative seed formation (DSF), and maturity initiation (DMI)], then
+trait loci (QTLS) for first flower, 11 QTLs for pod beginning conducted a FarmCPU GWAS with individual environment and
+(Tasma et al., 2001), and 5 QTLs for seed formation (Mansur best linear unbiased prediction (BLUP) values by utilizing 61,174
+et al., 1993; Palomeque et al., 2010). Genetic studies on the single nucleotide polymorphism (SNP) markers to identify QTN
+initiation traits of the soybean pod and seed are relatively few. regions. Also, we mined candidate genes around the stable QTN
+The pod-bearing period is the most vigorous growth stage of regions for functional genomics studies in order to unravel
+soybean and also the maximum phase when dry matter forms, the molecular mechanisms underlying the studied GSTs. Our
+partitions, and accumulates (Hu et al., 2019). Reasonable pod- overall objective was to provide a valuable insight into the
+beginning time and as many pods as possible will directly lead to genetic architecture of soybean GSTs and genetic resources for
+a high yield, especially in vegetable soybean varieties (Li X. et al., accelerating soybean genomic breeding, aimed at yield and yield
+2019). Tasma et al. (2001) mapped a major effect QTL for days stability as well as wider adaptability to multiple ecological zones
+until pod formation on chromosome six in two different soybean within China andbeyond.
+populations, IX132 and IX136. The QTL region was found
+between the marker Satt205 and PO29D_2, which accounted for
+as much as 36.5% total phenotypic variance in population IX132, MATERIALS AND METHODS
+and 44.4% of total phenotypic variance in population IX136.
+Asakura et al. (2012) in addition reported 29,788 genes expressed Plant Materials and Experiment Design
+in soybean at four pod development stages via DNA microarray A set of 309 breeding lines adapted to the Chinese Yangtze-
+analysis. However, the QTLs or genes related to manipulating the Huai region, primarily utilized for grain and vegetable were used
+pod formation trait of soybean are rarely reported on.
+in this experiment. This population is designated as Yangtze-
+Huai Soybean Breeding Line Population (YHSBLP). Seeds for
+"htps/www.soybasc.org
+the panel were obtained from the National Center for Soybean
+Frontiers in Genetics www.frontiersin.org
+2
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+Improvement, Nanjing Agricultural University, Nanjing, in trait were calculated using the R package Ime4 (Bates et al., 2014).
+Jiangsu Province, China.
+Frequency distribution of phenotypic BLUPS was plotted by
+All soybean materials werej planted via a randomized.complete using OriginPro 2020 Statistical Software (Origin Corporation,
+block design with three replications in six different environments Northampton, MA, United States).
+across 2 years (2018 and 2019) viz., Jiangpu (JP) Experimental
+Station (32°12'N and 118°37'E), and Yancheng (YC) City SNP Genotyping
+(33°21'N and 120°09'E) in Jiangsu province, and Dangtu (DT) The present study used restriction-siteassociated DNA
+Experimental Station (31°34'N and118°29'E) in Anhui province. sequencing (RAD-seq) approach - to sequence the genomic
+2018 planting was done on June 22 in YC andJuly 3JP and these DNA of 309 lines of YHSBLP, and this sequencing was carried
+were designated 18YC and 18JP, respectively. 2019 planting was out by Beijing Genomics Institution, Shenzhen, China. First,
+done on June 21 in DT (19DT), June 24 in JP (19JP), June 19 in the genomic DNA of all 309 soybean lines was extracted
+YC (19YC6), and July 4 (19YC7), according to the local soybean from young and healthy leaf samples with a modified CTAB
+cropping calendar. Standard cultural and agronomic practices method (Allen et al., 2006). Taq I enzyme was used to digest
+were followed similarly in each environment.
+this genomic DNA for the construction of a genomic DNA
+library. The DNA fragments of 400-700 bp were selected and
+Phenotypic Evaluation
+sequenced using an Illumina HiSeq 2,000 standard protocol
+Four traits related to GSTs viz., DF, DPB, DSF, and DMI were for multiplexed shotgun genotyping, and 90-mer paired-end
+recorded following the Fehr's classification method (Fehr et al., reads were generated (Andolfatto et al., 2011). All the sequence
+1971). Briefly, DF was recorded at the R1 stage (the day when reads were aligned to the reference genome of Williams 82
+50% of the plants on a plot have an open flower at one of the (genome assembly 1 annotation version 1.1) (Schmutz et al.,
+top four nodes with a fully expanded leaf); DPB represents days 2010), using the SOAP2 software (Li et al., 2009). Based on the
+from emergence to a 1/4 inch (0.5 cm) long pod at one of the Bayesian estimation of the site frequency, RealSFS was utilized
+four uppermost nodes on the main stem with a fully developed for the SNP calling (Yi et al., 2010). The SNP data was screened
+leaf at the R3 stage; DSF refers to days from emergence to a 1/8 at a rate of missing and heterozygous allele calls < 30%, and
+inch (0.3 cm) long seed in one pod present at any of the four then the missing genotypes were imputed using fastPHASE
+uppermost nodes on the main stem with a fully developed leaf software (Scheet and Stephens, 2006). A total of 61,174 SNPS
+at the R5 stage, and DMI were recorded at the R7 stage (days with minor allele frequencies (MAF) N 5% were selected from
+from emergence to 50% of the leaves turning yellow and one pod 87,308 SNPS and were used for the GWAS analysis. The SNP
+having reached full mature coloration).
+dataset used in the current study is available in the Sequence
+Read Archive (SRA) at NCBI (SRA accession: PRJNA648781)
+Statistical Analysis
+repository,and on the website ofthe National Center for Soybean
+Descriptive statistics such as mean, standard deviation (SD), Improvement."
+maximum and minimum trait value, and coefficient of variation
+(CV%) were calculated using SAS version 9.3 (SAS Institute, Population Structure and Linkage
+2010, Inc., Cary, NC, United States). Analysis of variance Disequilibrium Analyses
+(ANOVA) was conducted to evaluate the effects of genotype SNPs were first prunedby the indep-pairwise commandoption of
+(G), environment (E), and genotype-byenvironment interaction PLINKv1.07 (Purcell et al., 2007), and the pruned SNPS were used
+(G X E) on the RGS traits in the joint environments using to infer population structure using the Bayesian Markov Chain
+the PROC general linear model (GLM) in SAS software. Monte Carlo (MCMC) model in STRUCTURE v2.3.4 software
+The statistical model for the ANOVA was Yijk = U+G; + (Pritchard et al., 2000). The number of presumed populations
+Ej + GEj + ReG) + Eijks where Yijk stands for the individual (K) was set from 1 to 11 using a burn-in of 10,000, and a run
+observation of ijkcth experimental unit; p is the total mean, length of 100,000 and, each K-value was obtained with seven
+Gi is the effect of the ith genotype, E; is the effect of the independent runs. The statistic "AK," which indicates the most
+jth environment, GEjj is the interaction effect between the likely number of subpopulations, was calculated by following
+ith genotype and the jth environment, Rk() is the effect the Evanno method (Evanno et al., 2005), and then the Q
+of the kth block within the jth environment, and Eijk is a matrix under the highest AK-value was obtained. A pairwise
+random
+distance matrix derived from the Nei's
+distance for
+error following N(0,02). Broad-sense heritability (h2)
+genetic
+all polymorphic SNPS was calculated to construct a Neighbor-
+was calculated as: h2
+for the combined joining (NJ) tree using TASSEL 5.0, and the Kinship was also
+analyzed in this software (Bradbury et al., 2007). Principal
+environments, whereo is the genotypic variance, oge is theG X E
+component analysis (PCA) was performed by using GCTA v1.92
+interaction variance, d is the error variance, n is the number software (Yang et al., 2011).
+of environments, and r is the number of replications. Pearson Linkage disequilibrium (LD), estimated as the r2 between
+correlation coefficients among the traits were estimated and SNPS, was calculated for each chromosome based on the LD
+visualized with Corrplot package in R(Taiyun and Viliam, 2017). tools option of RTM-GWAS V1.1 (He et al., 2017). LD was
+To minimize the effects of environmental variation, the best
+linear unbiased predictions (BLUPS) of individual lines for each hmplncisuaduasling.hm
+Frontiers in Genetics www.rontiersin.org
+3
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+visualized using the mean r2 within bin sizes of 100 kb within for the four GSTs showed the highest CV of 12.54% was
+the 5 Mb for each chromosome (Chr.) and then averaged across observed for DF followed by DPB, DSF, and DMI (Table 1).
+the whole genome. LD decay was calculated as the point at which The genotype by environment interaction (G X E) effects
+the chromosomes reached 50% oftheir original LD value (Huang were significant (P < 0.05), revealing that phenotypic variation
+et al., 2010). Only r2 for SNPS with pairwise distances less than 5 of GSTs are influenced by both genetics and environment.
+Mb in every chromosome was usedto draw the average LD decay A significant positive correlation showed among the four GSTs
+figure by GraphPad Prism version 5.01 (GraphPad Software, San with correlation coefficient (r) N 0.86 with P < 0.01. Besides,
+Diego California United States)."
+for the individual environments' analysis, an average highly
+significant correlation (r = 0.72, P < 0.001) was also shown
+Genome-Wide Association and
+among the GSTS' measured data across all six environments
+Haplotype Block Analyses
+(Supplementary Figure 1). These phenomena suggested that
+the four GSTs
+share similar
+bases. Figures 1A-
+A total of 61,174 SNPS with MAF > 5% were utilized for the
+may
+genetic
+D showed that the frequency distributions of the four GST-
+association mapping with the 309 soybean lines. The FarmCPU
+model
+BLUP values followed normal distribution. The h2 for the four
+was used to detect significant marker-trait associations
+in GAPIT version 3.0 (Lipka et al., 2012). The Kinship matrix GSTs was high, in the range of 94.17-96.74%. These results
+(K) and pseudo QTNS were used as covariates to minimize false suggest that selection based on only phenotypic observations
+positives as well as to increase statistical power. The significance may be misleading.
+threshold usedin the present study was set at -logio (1/m) where
+m = the number of markers, thus -logio(1/61,174) = 4.787 Population Structure and Linkage
+as the Bonferroni correction line. The phenotypic variation Disequilibrium Analysis
+explained (PVE) was calculatedby mixed liner modelin TASSEL In order to avoid false-positive associations from population
+(Bradbury et al., 2007). Manhattan plots were generated using stratification, we exploited three statistical methods viz.,
+the R software package gqman (Turner, 2018). Haplotype block population structure, NJ based-tree, and PCA to estimate the
+analysis was carried out for the significant and stable QTN relatedness among 309 accessions. The AK reached the highest
+regions in Haploview software version 4.2 with four gamete rule value when K was at four (Figure 2A). This indicated that these
+using default settings (Barrett, 2009). The GSTs of accessions 309 accessions could be divided into four subpopulations. The
+in each significant SNP were compared with Duncan Range measurement of population differentiation, FST, was estimated
+Multiple test via SPSS 25.0 (IBM Corp. Released 2017, Armonk, at 0.49 (P < 0.001) between the four subpopulations, suggest
+NY: IBM Corp) at significantlevel of0.05 to determine the extent high level of genetic variation among our association panel. The
+ofvariation among the accessions grouped.
+results of NJ phylogenetic tree and PCA (Figures 2B,D) were
+consistent with the population stratification obtained from the
+Candidate Gene Prediction Within Major
+STRUCTRUE software (Figure 2C).
+QTNS
+The LD decay rate varied considerably among the 20
+For each of the four growth stage traits, there will be seven chromosomes in soybean, and an average of 50% decay rate
+phenotypic datasets, including the measured data from six was observed between 800 kb and 3.2 Mb. However, except for
+different environments plus the BLUP values. We treated Chr.08, Chr.14, Chr.17, and Chr.19, the r2 did not drop to halfof
+SNPS that were co-localized in at least three datasets and its maximum value until 3.5 Mb; the average LD rate for SNPS
+exceeded the significance threshold as QTNS. Based on the reached 50% of this value at approximately 1.5 Mb across the
+LD distance, we extended and selected the region of 500 kb whole genome (Figure 3).
+upstream and downstream ofthe QTNS as 1.0 Mb QTN regions
+(Brodie et al., 2016; Karikari et al., 2020). According to the QTNS for Four GST Traits
+functional annotations available in the TAIR4 and SoyBase A multi-locus model, FarmCPU, was performed to identify
+(see text footnote 1) databases as well as available literature, significant SNPS associated with four GSTs. As a result, 50,
+the possible candidate genes were predicted within major 61, 55, and 47 SNPS were significantly associated [-logio
+significant QTN regions.
+(P) N 4.787] with DF, DPB, DSF, and DMI, respectively
+(Figures 4A-D and Supplementary Table 2). A total of 103
+QTN regions were screened from the 213 SNPS by gathering
+RESULTS
+them within a 1 Mb distance, and 8 of them were CO-
+located in at least three datasets (Supplementary Table 3).
+Natural Variation Available in YHSBLP
+QTN regions were named based on their physical location on
+Population for RGS Traits
+the chromosome, for example, qGm01-1 represented the first
+All the GSTs exhibited large phenotypic variation across the six QTN region on chromosome 1, and qGm02-3 represented the
+environments. Descriptive statistics and F-values from ANOVA third QTN region on chromosome 2 (Table 2). Moreover, one
+QTN region on Chr.10 was repeatedly detected in all GSTs
+www.graphpad.com
+at least three datasets, which owned the average phenotypic
+"htpe/wwwanabidopsitorg
+variation explained (PVE) of 4.79, 5.57, 6.05, and 5.62% for
+Frontiers in Genetics www.rontiersin.org
+4
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+TABLE 1/Descriptive statistics for four growth stage traits across six different environments in the 309 soybean accessions.
+Traite
+Mean
+SD
+Min
+Max
+CV(%)
+FG
+FE*
+FRIE"
+FGxE"
+h2(%)
+DF
+44
+5.54
+27
+65
+12.54
+25.39**
+5.63***
+1.02
+4.79**
+96.74
+DPB
+58
+6.72
+40
+79
+11.62
+24.2**
+2.76*
+0.4
+4.6***
+96.33
+DSF
+67
+6.87
+47
+87
+10.82
+21.85**
+1.73
+0.97
+4.53**
+96.25
+DMI
+103
+8.71
+82
+124
+8.56
+11.33***
+1.12
+0.28
+3.93**
+94.17
+aDF, days to flowering; DPB, days to pod beginning; DSF, days to seed formation; DMI, days to maturity initiation.
+bFrom ANOVA Table; FG, FE, FRIE), and FG x E represent the F-values for genotypic, environmental, block effects and genotype X environment interaction, respectively
+*p < 0.01, "p < 0.001.
+CBroad-sense heritability.
+A
+B 0
+00 7
+8
+80
+9
+I 80
+33
+&
+&
+of
+P
+o
+o
+-
+T
+T
+T
+I
+35 40 45 50 55
+45 50 55 60 65 70
+Days to Flowering (d)
+Days to Pod Beginning (d)
+C 8
+D 8
+88
+9
+9
+83
+80 
+&
+I
+&
+f
+of
+o
+o
+-
+T
+T
+T
+7
+55 60 65 70 75 80
+90 95 100 105 110
+Days to Seed Formation (d)
+Days to Maturity Initiation (d)
+FIGURE 11 [Frequency distribution and correlation analysis of four growth stage traits (GSTS) best linear unbiased prediction values (BLUPS). (A-D) represent the
+frequency distribution of time to flowering, pod beginning, seed formation and maturity initiation, respectively.
+DF, DPB, DSF, and DMI, respectively, was named qGm-10- with the average negative genetic effect of -2.01. The final
+1. Another region of qGm15-1, was associated with DF and QTN region was qGm11-1, which associated with DMI in three
+DSF, which had the average PVE for the two GSTs of 1.54 and datasets. It contributed an average negative genetic effect of -0.83
+2.49%, respectively.
+for this trait (Table 2 and Supplementary Table 3).
+Furthermore, the regions of qGm06-3 and qGm17-1 were
+mostly detected to associate with the DF trait within the Candidate Genes Within GSTs-Related
+remaining 6 QTN regions, which could contribute an average QTN Regions
+PVE of DF as 3.50 and 2.85%, respectively. Two QTN regions, The most prominent SNP-i.e., Gm10_44378814 in the qGm10-
+qGm02-1 and qGm06-1, were mostly associated with the DMI 1 region with the highest -logio(P) values (21.76) and
+trait, and had average positive genetic effect as 1.15 and 1.86. associated with all four GSTs on Chr.10-overlapped with
+Unprecedentedly, the qGm06-2 region was identified to associate E2 (Glyma10g36600), a well-known gene regulating flowering
+mostly with the DPB trait, and caused an average PVE of 4.05%, and maturation duration in soybean, and encodes a homolog
+Frontiers in Genetics www.frontiersin.org
+5
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+A 8007
+B
+Fsta == 0.4863
+600-
+x
+ 400-
+200-
+0*
+2
+4
+6
+8
+10
+K
+C
+D
+a
+? -
+100
+64 -
+EE
+080
+8
+080
+R 8
+04.
+e
+020
+e
+000
+L
+-0.05 0.00 0.05 0.10 0.15
+pc1
+FIGURE 21Population structure of 309 soybean accessions. (A) Calculation ofthe true K of the YHSBLP following procedure outlined by Evanno et al. (2005).
+(B)A neighbor-joining tree of the tested accessions that could be divided into four subpopulations. (C) Population structure derived from STRUCTURE software.
+Four colors (blue, yellow, green, and red) represent the four subpopulations (subpopulation 1, 2, 3, and 4, respectively). Each vertical column represents one
+individual and each colored segment in each column represents the percentage of the individual in the population. (D) Principal component analysis plot of the 309
+accessions; two-dimensional scales were used to reveal population stratification.
+1.07
+0.8-
+0.6- 1
+AL
+0.4-
+0.2-
+0.0 ++
+T
+0
+1
+2
+3
+4
+5
+Distance(Mb)
+Gm01
+Gm02
+Gm03
+Gm04
+Gm05
+Gm06
+Gm07
+Gm08
+Gm09
+Gm10
+Gmll
+Gm12
+Gm13
+Gm14
+Gm15
+Gml6
+Gml7
+Gm18 Gm19
+Gm20 - Arerage
+FIGURE 3 [Linkage disequilibrium decay plots across soybean chromosomes and the average decay across the genome.
+of GIGANTEA (GI) gene (Watanabe et al., 2011). This genes within the remaining 7 QTN regions (except for the
+gene is located 338 kb downstream from Gm10_44378814 qGm10-1 region) were screened (Supplementary Figure 2) and
+(Supplementary Table 4). A total of 275 Arabidopsis homologs listed in Supplementary Table 5.
+Frontiers in Genetics www.rontiersin.org
+6
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+A
+BLUP 18JP 18YC  19DT . 19JP 19YC6  19YC7
+QQplot
+1
+i t L t LE E L tm L L 1 t  E E t tml
+B
+Expected -logio(p)
+BLL ap
+10
+9 10 iovce
+1
+I
+C
+LL JP Expected -logio(p)
+E 9
+iev e
+:
+1
+e
+L - H H
+H
+- - m
+D
+Expected -logio(p)
+YC7
+9
+Che
+Expected logio(p)
+FIGURE 41 MManhattan and quantile-quantile plots for four GSTS in five different environments and BLUPS. (A-D) represent the Manhattan plots and Q-Q plots for
+the days to flowering, pod beginning, seed formation and maturity initiation, respectively. 18 and 19 represent the years of 2018 and 2019, DT : Dangtu; JP :
+Jiangpu; 2019YC6 and 12019YC7 means the planting date of June and July in Yancheng city, respectively. Red Line represents the significance threshold as
+determined by Bonferroni multiple comparisons corrections equivalent to -logio(p) == 4.787.
+For the DF trait, the qGm06-3, qGm15-1, and qGm17- flowering (according to the Table 1), with the highest expression
+1 regions harbor 47, 33, and 87 candidate genes, with being of NAD(P)-binding Rossmann-fold superfamily protein
+expression data available for 22, 16, and 55 genes in the SoyBase (Glymal5g27630; 126-fold), followed by a protein of unknown
+transcriptome database (see text footnote 1). Among these genes, function (Glymal5g27790; 51-fold). Two DMI related QTN
+6, 3, and 17 genes expressed more highly (by more than 50-fold) regions was qGm02-1 and qGm06-1. 63 and 93 candidate
+in flower tissues with the highest expression of fatty acyl-ACP genes were screened from them, respectively. 9 and 8 genes
+thioesterases B protein (Glyma06g23560; 1,587-fold), followed expressed higher in seed tissues 42 days after flowering. Two
+by CTC-interacting domain 7 (Glymal7g33510; 287-fold), and kinds of ribosomal protein (Glyma06g20540; 1,181-fold and
+Transcription factor TFIIE proteins (Glyma06g23400; 192-fold). Glyma02g00540; 335-fold) were the two most highly expressed
+For the DPB trait, qGm6-2 region obtained 65 model genes, of proteins, followed by an organic cation/carnitine transporter 3
+which 28 had expression data on SoyBase (see text footnote 1). protein (Glyma06g20500; 220-fold).
+Six genes (Glyma06g22410, Glyma06g22220, Glyma06g22840,
+Glyma06g22260, Glyma06g22660, and Glyma06g22800)
+expressed higher in one-cm pod tissues with highest expression DISCUSSION
+of COBRA-like extracellular glycosyl-phosphatidyl inositol-
+anchored protein family (Glyma06g22410; 216-fold), followed Four Soybean Growth Stage Traits Were
+by a protein of unknown function (Glyma06g22220; 87-fold)
+and WD-40 repeat family proteins (Glyma06g22840; 66-fold). Significantly Affected by
+One DSF related QTN region of qGm15-1 harbors 14 genes Genetic-Environment Interaction
+with available expression data from 33 model genes. Only Asal model crop for photoperiodic response research (Garner and
+2 genes expressed more highly in seed tissues 21 days after Allard, 1920), the phenotypic variation in the GSTs of soybean
+Frontiers in Genetics www.rontiersin.org
+7
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+TABLE 21Eight QTN regions associated with four growth stage traits via FarmCPU method across different environments in summer soybean.
+Region? Chr
+SNPb
+Pos.(bp)c Nod -logio(P) PVE(%) Position(Mb)' Effect
+Trait_environment9
+qGm02-1 2 Gm02_150932 150,932
+2
+6.27
+1.97-4.91 0.15-0.16
+1.56
+DPB_6; DMI_1,2,3,5
+qGm06-1 6 Gm06_16710123 16,710,123 1
+5.65
+1.28-3.12
+16.71
+2.11
+DM_1,4,7
+qGm06-2 6 Gm06_19332290 19,332,290 1
+12.93 1.44-5.77
+19.33
+-2.31
+DF_7; DPB_1,4,5; DSF_4
+qGm06-3 6 Gm06_21072696 21,072,696 2
+10.91 2.74-4.13 20.99-21.07 -2.02
+DF_2,3,6
+qGm10-1 10 Gm10_44378814 44,378,814 3
+21.76 2.39-7.66 44.35-44.55 -2.05 DF_1,2,4,5,6,7; DPB_1,2,3,4,5,6;
+DSF_1,3,4,5,6,7; DMIL_1,3,4,6,7
+qGm11-1 11 Gm11_15963231 15,963,231 3
+7.92
+2.04-3.70 15.95-15.96 -1.29 DPB_6; DSF_1,4; DMI_1,3,4
+qGm15-1 15 Gm15_29990587 29,990,587 4
+11.71 0.51-4.61 29.75-29.99 1.95
+DF_1,4,5,6; DPB_1,5;
+DSF_1,4,5; DMI4
+qGm17-1 17 Gm17_37676700 37,676,700 2
+7.41
+2.40-3.26 37.68-37.79 1.06
+DF_1,6,7; DPB_1
+aQTN regions which was detected at leastin three environments.
+bSNPS that were most significantly associated with the trait.
+CQTN position (bp) on soybean genome assembly Wm82.a2.v1.
+dThe number of significant QTNS identified in the region.
+ePhenotypic variation explained (PVE) calculated by mixed liner model.
+finterval range in each QTN region.
+9The trait-environment combination of QTN. DF days to flowering; DPB, days to pod beginning; DSF, days to seed formation; DMI, days to maturity initiation; 1-7
+represent the environment code of BLUP 18JP 18YC, 19DT, 19JP 19YC6, and 19YC7, respectively.
+was considerably influenced by environmental conditions. The during domestication, or breeding (Alqudah et al., 2020). The
+four GSTs (DT, DPB, DSF, and DMI) of 309 summer soybean high LD may lead to numerous unrelated genes being screened
+genetic resources in this study varied widely (Table 1) across out, therefore, some studies have proposed to use a cutoff
+the six different environments and BLUPS. The G X E played of 500 kb, since enhancers and repressors may be as distant
+a significant role, suggesting that in addition to genetic factors, as 500 kb from their genes (Brodie et al., 2016; Karikari
+environmental factors such as photoperiod and temperature have et al., 2020). By keeping this in view, we defined the range
+directinfluence on the four GSTs. Similar observations havel been of candidate genes and QTNS as within a 500 kb genomic
+reported by Li M. et al. (2019). While the genetic analysis of region ofsignificant markers in both directions, downstream and
+G X E for target traits in crop breeding has become the emerging upstream, in this study.
+research direction, the genetic background of important GSTs Two association study methodologies have been accomplished
+in soybean need to be paid more attention for increasing the in the past 10 years due to the rapid development of
+adaptivity ofthe crop to diverse environments.
+genome sequencing technologies and phenotypic capacities.
+These are the classical single-locus GWAS methods based on the
+Selection Basis of Linkage
+General Linear Model (GLM) and Mixed Linear Model (MLM),
+and recently developed multi-locus GWAS methods such as
+Disequilibrium Decay Distance and
+FarmCPU (Chen et al., 2021). The multi-locus methods consider
+GWAS Method
+the information of all loci simultaneously, and consequently do
+LD is one of the important factors affecting mapping resolution not require false discovery rate correction, leading to higher QTN
+of GWAS analysis (Zhang et al., 2015). In the present study, detection power (Zhang Y. et al., 2019). In our study, quantile-
+a considerable number of SNP markers (>61,000) were used quantile plots of the FarmCPU method indicated that the GWAS
+for the detection of marker-trait associated QTNS linked with model is a reasonable one - to deal with the association analysis
+various GSTs in the YHSBLP mapping panel. We observed a of soybean GSTs. Xu et al. (2018), He et al. (2019a), and Chen
+diverse range ofLD among various soybean chromosomes with et al. (2021) had evaluated the ability of FarmCPU with other
+an average LD decay distance of 1.5 Mb (Figure 3), which GWAS methods via the association study for Maize starch pasting
+is consistent with previous studies (Vuong et al., 2015; Zhang properties, Flax pasmo resistance, and Medicago truncatula seed
+et al., 2015; Copley et al., 2018). Our study also confirmed that size and seed composition: allthestudies showeda powerfulQTN
+soybean possesses long LD decay distance, and suggested that identified efficiency of FarmCPU.
+marker-trait association identified in soybean can be directly
+used in MAS rather than map-based cloning. The high LD
+may be due to cleistogamous characteristics of soybean which Genetic Bases of Four GSTS in YHSBLP
+have a strong influence on genomic homogeneity and reduced Population
+genomic variation, and this characteristic might become more Fifty percent of the QTN regions in this study overlapped with
+sensitive during domestication practices, resulting in low genetic the previously reported QTLs or genes with known functions
+diversity and high LD (Lam et al., 2010). In addition, LD in related to GSTs of soybean (Supplementary Table 4). E2 is a
+a population is affected by historical recombination, mutations, homologous gene GmGIA of Arabidopsis thaliana GIGANTEA
+allele frequency, genetic drift, founder effects, artificial selection (GI). The flowering time of E2 and its near-isogenic lines (e2)
+Frontiers in Genetics www.rontiersin.org
+8
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+was similar at high latitude 43°N and middle latitude 36°N, of promoter which suggests that this gene is active within
+indicating that the regulation of E2 gene on flowering time the seed-filling stage of development., TPS1 was related to
+of soybean might not only depend on photoperiod, SO that Glyma15g27480 in the qGm15-1 region, which may have an
+it had a stronger geographical adaptability (Watanabe et al., influence on the seed formation time of soybean (Dijken et al.,
+2011). Therefore, the E2 gene has broad application prospects 2004; Vuong et al., 2015).
+in breeding practice. In this study, the same location on Chr.10 In the two remaining QTN regions associated with DMI,
+near the E2 gene was identified among the four GSTs in both the LFR (At3g22990) gene coded an ARM repeat superfamily
+BLUPS and measured data, which may be the basis for the strong protein and was identified in the qGm02-1 region. Its ortholog
+genetic correlation among GSTs. Considering the role of the in rice, OSLFR, resulted in homozygous lethality in the early seed
+E2 gene in pod and seed is rarely reported, the results of this stage through endosperm and embryo defects via its depletion
+study have a guiding significance for the further functional study (Qi et al., 2020). Another gene, ARR6 (At3g47620) was reported
+ofE2 gene.
+as a response regulator of cytokinins, which could regulate the
+The allele variation of the most significant SNPS in each response to cytokinin stimulus and thus delay leaf senescence.
+QTN region could cause significant changes in the corresponding This gene was found as an ortholog of Glyma06g20660 in the
+phenotype, indicating that there may be candidate genes affecting qGm06-1 region (Hallmark and Rashotte, 2020).
+soybean GSTs in the remaining 7 QTN regions (Supplementary The markers detected in this present study could be validated
+Figure 3). On Chr. 06, two QTN regions qGm06-1 and and used for MAS geared at improving GSTs in soybean, and
+qGm06-2 were associated with DMI and DPB, respectively. provide foundation for future projects, including the designing
+Zhang et al. (2015) identified two SNPS, Gm06_16723946 and of Kompetitive Allele Specific PCR (KASP) markers for practical
+Gm06_16167243, that are associated with flowering time and breeding programs. The candidate genes predicted provide
+days from flowering to maturity, respectively, whose location was valuable information for functional validation to elucidate the
+close to the most significant SNP Gm06_16710123 of qGm06- molecular mechanism underlying the studied traits.
+1-in this study. A similar result was also found in the genetic
+study on the reproductive to vegetative growth period ratio
+in soybean by Wang et al. (2015). Fang et al. (2017) found a SUMMARY
+region from 19,178,035 to 20,299,454bp on Chr.06 was associated
+with full bloom date traits, which was overlapped with the In this study, we evaluated 309 diverse soybean breeding
+region of qGm06-2 detected in this study. Another QTN region, lines across five different environments for four GSTs (DF,
+qGm17-1 was located on Chr.17 associated with DF, the most DPB, DSF, and DMI), and applied a FarmCPU GWAS with
+significant SNP Gm17_37676700 in this region was only 100 high-density SNPS (>61 k). Fifty-eight SNPS within 8 QTN
+kb (Gm17_37574384) away from the genetic location results of regions were detected to associate with the four GSTs. In
+soybean flowering time under various photo-thermal conditions addition, one QTN region on Chr.10 was detected repeatedly
+reportedby Mao et al. (2017).
+among all four GSTs and overlapped with the well-known
+Some candidate genes around the QTN regions are also E2 gene. Seven remaining QTN regions contained the peak
+noteworthy: ARF4 (auxin response factor 4) and GCR1 (G- SNPS of Gm02_150932, Gm06_16710123, Gm06_19332290,
+protein-coupled receptor 1) are well-known genes modulating Gm06_21072696, Gm11_15963231, Gm15_29990587, and
+flowering, whose mutants affect the response to auxin and Gm17_37676700 on Chr.02, Chr.06, Chr.11, Chr.15, and Chr.17
+shorten time to flowering (Colucci et al., 2002; Pashkovskiy were identified uniquely or commonly associated with the
+et al., 2016). We identified two orthologs of ARF4 and GCR1, four GSTs and caused significant phenotypic variation with
+Glyma06g23830 (At5g60450) on Chr.06, and Glymal7g33480 both major and minor alleles. Two hundred and seventy-five
+(At1g48270) on Chr.17, which are located at the DF-related QTN Arabidopsis genes involved in defense response, flowering,
+regions of qGm06-3 and qGm17-1, respectively. In addition, the embryo development and SO on with their homologs in
+AGL8 (At5g60910.1) ortholog Glyma06g22650 was detected on soybean were screened, and some predicted as candidate
+Chr.06 around the peak SNP Gm06_19332290 in the qGm06- genes (Glyma06g23830, Glymal7g33480, Glyma06g22650,
+2 region, which was associated with DPB. AGL8 is a MADS Glyma15g27480, and Glyma06g20660) for DF DPB, DSF,
+box gene and involved in the early step of specifying floral and DMI of summer soybean. However, the predicted
+meristem identity as well as the later step of determining the candidate genes need further screening and functional
+fate of floral organ primordia (Mandel and Yanofsky, 1995; validation to ascertain their actual roles in modulating the
+Balanzà et al., 2019), hence Glyma06g22650 may be involved GSTs in soybean.
+in regulating GSTs. A plant-specific HD2 histone deacetylase
+gene, HD2B (At5g22650), was identified around the peak SNP
+Gm11_15963231 on the qGm11-1 region associated with DSF. DATA AVAILABILITY STATEMENT
+HD2B was regarded as a genetic factor associated with seed
+dormancy and plant growth, development, and response to The datasets presented in this study can be found in online
+abiotic stresses (Yano et al., 2013; Han et al., 2016). Another repositories. The names of the repository/repositorics and
+Arabidopsis trehalose biosynthesis gene, TPSI(At1g78580), has accession number(s) can be found in the artide/Supplementary
+an expression analysis and a spatial and temporal activity Material.
+Frontiers in Genetics www.rontiersin.org
+9
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+AUTHOR CONTRIBUTIONS
+r2-values. DF- days to flowering; DPB-days to pod beginning; DSF- days to seed
+formation; DMI- days to maturityinitiation. 1-7 represent the environment code of
+TZ and HJ conceived and designed the experiments. FC, FZ, BLUP, 18JP, 18YC, 19DT, 19JP, 19YC6, and 19YC7, respectively.
+YZ, and WY performed the experiments. DL and WY analyzed Supplementary Figure 31Phenotypic variation between cultivars carrying
+the data. WY drafted the manuscript. TZ and BK revised the different alleles of the QTNS significantly associated with four growth stage traits in
+manuscript. All authors contributed to the article and approved various environments. The box plot shows the significant difference of days to
+the submitted version.
+flowering, pod beginning, seed formation and maturity initiation of the cultivars
+carrying two alleles of the QTNS. The significant QTNS were Gm02_150932,
+Gm06_16710123, Gm06_19332290, Gm06_21072696, Gm11_15963231,
+Gm15_29990587, and Gm17_37676700. The major allele of significant loci was
+FUNDING
+marked by gray, and the minor allele was marked by pink. Significant differences
+tested by the t-test are also given (***p < 0.001, ** p < 0.01,*p < 0.05). DF-
+This work was supported by grants from the Natural Science days to flowering; DPB-days to pod beginning; DSF- days to seed formation;
+Foundation of China (Nos. 31872847 and 31871646) and the DMI- days to maturity initiation. 18 and 19 represent the years of 2018 and 2019,
+DT: Dangtu; JP : Jiangpu; 2019YC6 and 2019YC7 means the planting date of
+Jiangsu Collaborative Innovation Center for Modern Crop June and July in Yancheng city, respectively.
+Production (JCIC-MCP) Program.
+Supplementary Table 11Phenotypic data of four growth stage traits in 309
+summer soybeans across different datasets.
+SUPPLEMENTARY MATERIAL
+Supplementary Table 21 SNP associated with four GSTS in summer soybeans.
+Supplementary Table 2.1 ISNP associated with days to flowering of
+The Supplementary Material for this article can be found summer soybeans.
+online at: htps/hmww.fontieninorglenides/lo.3ligene
+2021.715529/fullisupplementary-material
+Supplementary Table 2.21SNP associated with days to pod beginning in
+summer soybeans.
+Supplementary Figure 11 [Pearson correlation among the four growth stage
+Supplementary Table 2.31SNP associated with days to seed formation in
+traits of the BLUPS (A) and measured data from six different environments (B).
+summer soybeans.
+***p < 0.001. DF- days to flowering; DPB-days to pod beginning; DSF- days to
+seed formation; DMI- dayst to maturity initiation. 1-7 represent the environment Supplementary Table 2.41SNP associated with days to maturity initiation in
+code of BLUP, 18JP, 18YC, 19DT, 19JP, 19YC6, and 19YC7, respectively.
+summer soybeans.
+Supplementary Figure 2qManhattan plot and linkage disequilibrium block of 7 Supplementary Table 31Details of eight QTN regions associated with four
+peak SNPS in different environments. Linkage disequilibrium blocks associated growth stage traits via FarmCPU methodi in summer soybeans.
+with flowering, pod beginning, seed formation and maturity initiation time near
+Supplementary Table 41 IThe overlapped QTLS or genes between present
+Gm02_150932, Gm06_16710123, Gm06_19332290, Gm06_21072696,
+and previous studies within + 500 kp upstream or downstream from the
+Gm11_15963231, Gm15_29990587, and Gm17_37676700. Significance
+peak SNPS.
+threshold lis denoted by the red line which was set as -logio(p) == 4.787. The up
+panel was the Manhattan plots of negative logio transformed ip-values vS. QTNS. Supplementary Table 51The detailed functional annotation information of 275
+The down panel was haplotype block based on pairwise linkage disequilibrium candidate genes in or near the QTN regions.
+REFERENCES
+Bernard, R. (1971). Two major genes for time of flowering and
+maturity in soybeans. Crop Sci. 11, 242-244. doi: 10.2135/cropsci1971.
+Allen, G. C., Flores-Vergara, M. A., Krasynanski, S., Kumar, S., and Thompson, 001183X00100020022
+W. F. (2006). A modified protocol for rapid DNA isolation from plant tissues Bonato, E. R., and Vello, N. A. (1999). E6, a dominant gene conditioning early
+using cetytrimethylammonium bromide. Nat. Protoc. 1, 2320-2325. doi: 10. flowering and maturity in soybeans. Genet. Mol. Biol. 22, 229-232. doi: 10.1590/
+1038/nprot.2006.384
+S1415-47571990020016
+Alqudah, A. M., Sallam, A., Stephen Baenziger, P., and Borner, A. (2020). GWAS: Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y., and
+fast-forwarding gene identification and characterization in temperate cereals: Buckler, E. S. (2007). Tassel: software for association mapping ofcomplex traits
+lessonsfrom barley-a review.J. Adv. Res. 22, 119-135. doi: 10.1016/jjare.2019. in diverse samples. Bioinformatics 23, 2633-2635. doi: 10.09/bioinformaticy
+10.013
+btm308
+Andolfatto, P., Davison, D., Erezyilmaz, D., Hu, T. T., Mast, J., Sunayama-Morita, Brodie, A., Azaria, J. R., and Ofran, Y. (2016). How far from the SNP may the
+T.,etal. (2011).Multiplexed shotgun genotyping for rapid and efficient genetic causative genes be? Nucleic. Acids. Res. 44, 6046-6054. doi: 10.1093/nar/gkw500
+mapping. Genome Res. 21,610-617. doi: 10.1101/g.115402110
+Buzzell, R., and Voldeng, H. (1980). Inheritance of insensitivity to long daylength.
+Asakura, T., Tamura, T., Terauchi, K., Narikawa, T., Yagasaki, K., Ishimaru, Y., Soybean Genet. News. 7,26-29.
+et al. (2012). Global gene expression profiles in developing soybean seeds. Plant Chen, Z., Lancon-Verdier, V., Le Signor, C., She, Y., Kang, Y., and Verdier, J.
+Physiol. Bioch. 52, 147-153. doi: 101016,plaphy201.12007
+(2021). Genome-wide association study identified candidate genes forseed size
+Balanzà, V., Martinez-Fernandez, I, Sato, S., Yanofsky, M. F., and Ferrandiz, C. and seed composition improvement in M. truncatula. Sci. Rep. UK 11:4224.
+0019.Inforescememeristem fateis dependenton seed development andfruit doi: 10.1094159.01-85817
+full in Arabidopsis thaliana. Front Plant. Sci. 10:1622. doi: 10.3389/fpls.2019. Cober, E. R., Molnar, S. J, Charette, M., and Voldeng, H. D. (2010). A new locus
+01622
+for early maturity in soybean. Crop Sci. 50, 524-527. doi: 10.2135/cropsci2009.
+Barrett, J. C. (2009). Haploview: visualization and analysis of SNP genotype data. 04.0174
+Cold Spring Harb. Protoc. 2009:171. doi: 10.1101/pdb.ip71
+Cober, E. R., and Morrison, M. J. (2010). Regulation of seed yield and
+Bates, D., Machler, M., and Bolker, B. (2014). Fitting linear mixed-effects models agronomic characters by photoperiod sensitivity and growth habit genes
+using Ime4. J. Stat. Softw. arXiv [Preprint] 67, 1-48. doi: 10.18637/j.V067.i01 in soybean. Theor. Appl. Genet. 120, 1005-1012. doi: 10.1007/500122-009-
+arXiv:1406,
+1228-6
+Frontiers in Genetics www.frontiersin.org
+10
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+Colucci, G., Apone.F.Alyshmemi, N., Chalmers, D., and Chrispeels, M.J. (2002). of genetic diversity and selection. Nat. Genet. 42, 1053-1059. doi: 10.1038/
+GCR1, the putative Arabidopsis G protein-coupled receptor gene is cell cycle- ng.715
+regulated, andits overexpression: abolishes seed dormancyands shortens time to Li, M., Liu, Y., Tao, Y., Xu, C., Li, X., Zhang, X., et al. (2019). Identification of
+flowering. PNAS 99, 4736-4741. doi: 10.1073/pnas.072087699
+genetic loci and candidate genes related to soybean flowering through genome
+Copley, T. R., Duceppe, M., and O'Donoughue, L.S. (2018). Identification of fnovel wide association study. BMC Genomics 20:987. doi: 10.1186/s12864-019-
+loci associated with maturity and yield traits in early maturity soybean plant 6324-7
+introduction lines. BMC Genomics 19:167. doi: 10/186.12864-018-455-4 Li,R., Yu,C.,Li, Y.,Lam, T.W., Yiu, S. M., Kristiansen, K., etal. (2009).SOAP2:an
+Dijken, A.J.H. V., Schluepmann, H., and Smeekens, S. C. M. (2004). Arabidopsis improved ultrafast tool for short read alignment. Bioinformatics 25, 1966-1967.
+trehalose-6-phosphate synthase 1 is essential for normal vegetative growth and doi: 10.093biinfrmateulhpule
+transition to flowering. Plant Physiol. 135 (2), 969-977. doi: 10.1104/pp.104. Li,X., Zhang, X., Zhu, L., Bu, Y., Wang, X., Zhang, X., et al. (2019). Genome-wide
+039743
+association study of four yield-related traits at the R6 stage in soybean. BMC
+Du,J., Wang, S., He, C., Zhou, B., Ruan, Y., and Shou, H. (2017). Identification of Genetics 20:39. doi: 10.18612863-019-0737-9
+regulatory networks and hub genes controlling soybean seed set and size using Lipka, A. E., Tian, F., Wang, Q., Peiffer, J., Li, M., Bradbury, P. J, et al. (2012).
+RNA sequencing analysis. J. Exp. Bot. 68, 1955-1972. doi: 10.1093/jxb/erw460
+GAPIT: genome association and prediction integrated tool. Bioinformatics 28,
+Evanno, G., Regnaut, S., and Goudet,J. (2005). Detecting the number of clusters of 2397-2399. doi: 10.93bioinfematia@but
+individuals using the software STRUCTURE: a simulation study. Mol. Ecol. 14, Liu, B., Kanazawa, A., Matsumura, H., Takahashi, R., Harada, K., and Abe,J.(2008).
+2611-2620. doi: 1019285392280502534
+Genetic redundancy in soybean photoresponses associated with duplication of
+Fang, C., Ma, Y., Wu, S., Liu, Z., Wang, Z., Yang, R., et al. (2017). Genome-wide the phytochrome eagene. Genetics 180, 995-1007.
+association studies dissect the genetic networks underlying agronomical traits Liu, X., Huang, M., Fan, B., Buckler, E. S., and Zhang, Z. (2016). Iterative usage
+in soybean. Genome Biol. 18:161. doi: 10.1861059-017-12899
+of fixed and random effect models for powerful and efficient genome-wide
+Fehr, W. R., Caviness, C. E., Burmood, D. T., and Pennington.,J.S.(971). Stage of association studies. PLoS Genet. 12:e1005767.
+development descriptions for soybeans, Glycine max (L.) Merrill. Crop Sci. 11, Mandel, M. A., and Yanofsky, M. F. (1995). The Arabidopsis AG18 mads box gene
+929-931. doi: 102135/copxdi97L.01185X00106051X
+is expressed in inflorescence meristems and is negatively regulated by apetalal.
+Garner, W. W., and Allard, H. A. (1920). Effect of the relative length of day and Plant Cell7, 1763-1771. doi: 10.1105/tpc.7.11.1763
+night and other factors of the environment on growth and reproduction in Mansur, L. M., Lark, K. G., Kross, H., and Oliveira, A. (1993). Interval mapping
+plants.). Agric. Res. 2, 157-158.
+of quantitative trait loci for reproductive, morphological, and seed traits of
+Hallmark, H. T., and Rashotte, A. M. (2020). Cytokinin isopentenyladenine and soybean (Glycine max L.). Theor. Appl. Genet. 86, 907-913. doi: 10.10071
+its glucoside isopentenyladenine-9G delay leaf senescence through activation of BF00211040
+cytokinin-associated genes. Plant Direct. 4:e00292. doi: 10.1002/pld3.292
+Mao, T., Li, J, Wen, Z., Wu, T., Wu, C., Sun, S., et al. (2017). Association
+Han, Z., Yu,H., Zhao, Z., Hunter,D., Luo, X., Duan, J., et al. (2016). AtHD2D gene mapping ofloci controlling genetic and environmental interaction ofsoybean
+plays a role in plant growth, development, and response to abiotic stresses in flowering time under various photo-thermalconditions BMC Genomics 18:415.
+Arabidopsis thaliana. Front. Plant. Sci. 7:310. doi: 103389/pk.2016.0310
+doi: 10118612864-017-378-3
+He, J, Meng, S., Zhao, T., Xing, G., Yang, S., Li, Y., et al. (2017). An innovative Mcblain, B. A., andBernard,R. L. (1987).Anewgene affectingthet time offlowering
+procedure of genome-wide association analysis fits studies on germplasm and maturity in soybeans. J. Hered. 78, 160-162.
+population and plant breeding. Theor. Appl. Genet. 130, 2327-2343. doi: 10. Molnar, S.J., Rai, S., Charette, M., and Cober, E. R. (2003). Simple sequence repeat
+1007500122-017-2962-9
+(SSR) markers linked to E1, E3, E4, and E7 maturity genes in soybean. Genome
+He, L., Xiao, J, Rashid, K., Jia, G., Li, P., Yao, Z., et al. (2019a). Evaluation of 46, 1024-1036. doi: 10.1139/g03-079
+genomic prediction for pasmo resistance in flax. Int. J. Mol. Sci. 20:359. doi: Palomeque, L., Liu, L., Li, W.,Hedges, B. R., Cober, E. R., Smid, M. P.,etal. (2010).
+10.3390/jms20020359
+Validation of mega-environment universal and specific QTL associated with
+He, L., Xiao, J., Rashid, K. Y., Yao, Z., Li, P., Jia, G., et al. (2019b). Genome-wide seed yieldand agronomic traits sin soybeans. Theor. Appl Genet. 120, 997-1003.
+association studies for pasmo resistancein flax(Linum usitatissimum L.). Front. doi: 10.100710012-09-1227-7
+Plant Sci. 9:1982. doi: 103897fpl.2018.01982
+Pashkovskiy, P. P., Kartashov, A. V., Zlobin, I. E., Pogosyan, S. I, and Kuznetsov,
+Hu,D.,Kan, G.,Hu, W.,Li, Y.H.D.L.X.dtalcug), Identification oflociand V.V. (2016). Blue light alters MIR167 expression and microrna-targeted auxin
+candidate genes responsible for pod dehiscence in soybean via genome-wide response factor genes in Arabidopsis thaliana plants. Plant Physiol. Bioch. PPB
+association analysis across multiple environments. Front. Plant. Sci. 10:811. 104, 146-154. doi: 10.016jplaphy201605015
+doi: 10.3389/(pls2019.00811
+Pritchard, J. K., Stephens, M., Rosenberg, N. A., and Donnelly, P. (2000).
+Huang, X., Wei, X., Sang, T., Zhao, Q., Feng, Q., Zhao, Y., et al. (2010). Genome- Association mapping in structured populations. Am. J. Hum. Genet. 67, 170-
+wide association studies of14 agronomic traits in ricelandraces. Nat. Genet. 42, 181. doi: 10.1086/302959
+961-967. doi: 10.1038/ng.695
+Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. A. R., Bender, D.,
+Jones, S. I., and Vodkin, L. O. (2013). Using RNA-seq to profile soybean seed et al. (2007). Plink: a tool set for whole-genome association and population-
+development from fertilization to maturity. Plos One 8:e59270. doi: 10.1371/ based linkage analyses. Am. J. Hum. Genet. 81, 559-575. doi: 10.1086/
+journal.pone.0059270
+519795
+Kang, S. W., and Kim, Y.S. (1996). Identification of bradyrhizobium japonicum Qi, D., Wen, Q., Meng, Z., Yuan, S., Guo, H., Zhao, H., et al. (2020). OSLFR is
+malonamidase E2 in the periplasmic space of soybean nodule bacteroids. essential for early endosperm and embryo development by interacting with
+J. Plant Physiol. 149,290-294. doi: 10.0169017616170681234
+SWI/SNF complex members in Oryza sativa. Plant J. 104, 901-916. doi: 10.
+Karikari, B., Wang, Z., Zhou, Y., Yan, W., Feng, J., and Jie Zhao, T. (2020). 1111/tpj.14967
+Identification of quantitative trait nucleotides and candidate genes for soybean Ray, J, Hinson, K., Mankono, J., and Malo, M. (1995). Genetic control of a
+seed weight by multiple models ofgenome-wide association study. BMC Plant long-juveniletrait in soybean. Crop Sci. 35, 1001-1006.
+Biol. 20:404. doi: 10118642870-02020047
+Ruan, Y., Patrick, J. W., Bouzayen, M., Osorio, S., and Fernie, A. R. (2012).
+Kole, C., Muthamilarasan, M., Henry, R., Edwards, D., Sharma, R., Abberton, Molecular regulation of seed and fruit set. Trends Plant. Sci. 17, 656-665.
+M., et al. (2015). Application of genomics-assisted breeding for generation of doi: 10.016/4.phants201206.005
+climate resilient crops: progress and prospects. Front. Plant. Sci. 6:563. doi: Samanfar, B., Molnar, S. J., Charette, M., Schoenrock, A., Dehne, F., Golshani,
+103897/fpls.2015.00563
+A., et al. (2017). Mapping and identification ofa potential candidate gene for
+Kong, F., Nan, H., Cao, D., Li, Y., Wu, F., Wang, J., et al. (2014). A new dominant a novel maturity locus, E10, in soybean. Theor. Appl. Genet. 130, 377-390.
+gene E9 conditions early flowering and maturity in soybean. Crop Sci. 54, doi: 10.1007X0012-016-2819-7
+2529-2535. doi: 102135(cropec201405025
+Scheet, P., and Stephens, M. (2006). A fast and flexible statistical model for large-
+Lam, H. M., Xu, X., Liu, X., Chen, W., Yang, G., and Wong, F. L. (2010). scale population genotype data:applications to inferring missinggenotypes and
+Resequencing of 31 wild and cultivated soybean genomes identifies patterns haplotypic phase. Am. J. Hum. Genet. 78, 629-644. doi: 10.1086/502802
+Frontiers in Genetics www.frontiersin.org
+11
+September 2021 [Volume 121 Article 715529
+
+
+
+Yan et al.
+GWAS for Soybean Phenology
+Schmutz, J., Cannon, S. B., Schlueter, J., Ma, J, Mitros, T., Nelson, W., et al. and multi-locus models. Front. Plant. Sci. 9:1311. doi: 10.3389/fpls.2018.
+(2010.Genomesequence: ofthe palacopolyploidsoybean. Nature 463, 178-183. 01311
+doi: 10.1038/nature08670
+Yang, J, Lee, S. H., Goddard, M. E., and Visscher, P. M. (2011). GCTA: a tool
+Sertse, D., You, F. M., Ravichandran, S., Soto-Cerda, B.J., Duguid, S., and Cloutier, for genome-wide complex trait analysis. Am. J. Hum. Genet. 88, 76-82. doi:
+S. (2021). Loci harboring genes with important role in drought and related 10.10161,-3hg2010.11011
+abioticstress responses in flax revealedby multiple GWAS models. Theor. Appl. Yano, R., Takebayashi, Y.,Nambara, E., Kamiya, Y., and Seo, M. (2013). Combining
+Genet. 134, 191-212. doi: 10.07A012-00-0691-0
+association mapping and transcriptomics identify HD2B histone deacetylase as
+Shirasawa, K., Fukuoka, H,Matsunaga, H., Kobayashi, Y.,Kobayashi, L,Hirakawa, a genetic factor associated with seed dormancy in Arabidopsis thaliana. Plant].
+H., et al. (2013). Genome-wide association studies using single nucleotide 74, 815-828. doi: 10.1111/tpi.12167
+polymorphism markers developed by re-sequencing of the genomes of Yi, X., Liang, Y., Huerta-Sanchez, E., Jin, X., Cuo, Z. X. P., Pool,J.E., et al. (2010).
+cultivated tomato. DNA Res. 20, 593-603. doi: 10.1093/dnares/dst033
+Sequencing of 50 human Exomes reveals adaptation to high altitude. Science
+Song, J., Sun, X., Zhang, K., Liu, S., Wang, J., Yang, C., et al. (2020). Identification 329:7578. doi: 101126/cience.1190371
+ofQTL and genes for pod number in soybean by linkage analysis and genome- Zhang, D., Wang, X., Li, S., Wang, C., Gosney, M. J., Mickelbart, M. V., et al.
+wide association studies. Mol. Breeding 40:60. doi: 10.1007/511032-020- (2019). A post-domestication mutation, Dt2, triggers systemic modification
+01140-w
+of divergent and convergent pathways modulating multiple agronomic
+Taiyun, W., and Viliam, S. (2017). r package "Corrplot": Visualization of a traits in soybean. Mol. Plant 12, 1366-1382. doi: 10.1016/j.molp.2019.
+Correlation Matrix (version 0.84). Available online at: https//github.com/ 05.010
+taiyun/corrplot (accessed April 20, 2021).
+Zhang, J, Song, Q., Cregan, P. B., Nelson, R. L., Wang, X., Wu, J., et al. (2015).
+Tasma, I. M., Lorenzen, L. L., Green, D. E., and Shoemaker, R. C. (2001). Mapping Genome-wide association study for flowering time, maturity dates and plant
+genetic loci for flowering time, maturity, and photoperiod insensitivity in height in early maturing soybean (Glycine max) germplasm. BMC Genomics
+soybean. Mol. Breeding 8, 25-35. doi: 101023/A.101198116037
+16:217. doi: 10118612864-015-1441-4
+Turner, S. (2018). QQman: an R package for visualizing GWAS results using Q-Q Zhang, W., Xu, W., Zhang, H., Liu, X., Cui, X., Li, S., et al. (2021). Comparative
+and manhattan plots. JOSS 3:731. doi: 10.21105/j0s.00731
+selective signature analysis and high-resolution GWAS reveal la new candidate
+Vuong, T. D., Sonah, H., Meinhardt, C. G., Deshmukh, R., Kadam, S., Nelson, gene controlling seed weight in soybean. Theor. Appl. Genet. 134, 1329-1341.
+R. L., et al. (2015). Genetic architecture of cyst nematode resistance revealed doi: 10.1076012-01-09746
+by genome-wide association study in soybean. BMC Genomics 16:593. doi: Zhang, Y., Jia, Z., and Dunwell, J. M. (2019). Editorial: the applications
+10.1186/512864-015- 1811-y
+of new multi-locus gwas methodologies in the genetic dissection of
+Wang, F., Nan, H., Chen, L., Fang, C., Zhang, H., Su, T., et al. (2019). A new complex traits. Front. Plant. Sci. 10:100. doi: 10.3389/fpls.2019.00
+dominant locus, E11, controls early flowering time and maturity in soybean. 100
+Mol. Breeding 39:70. doi: 10/00711092-019-078-3
+Wang, Y., Cheng, L., Leng, J, Wu, C., Shao, G., Hou, W., et al. (2015). Genetic Conflict of Interest: The authors declare that the research was conducted in the
+analysis and quantitative trait locus identification of the reproductive to absence of fany commercial or financial relationships that could be construed as a
+vegetative growth period ratio in soybean (Glycine max (L.) Merr.). Euphytica potential conflict ofinterest.
+201, 275-284. doi: 101007810681-0M4-1209-
+Wang, Y., Li, Y., Wu, H., Hu, B., Zheng, J., Zhai, H., et al. (2018). Genotyping of Publisher'sNote: All claims expressedin this article are solely those ofthe authors
+soybean cultivars with medium-density array reveals the population structure and do not necessarily represent those of their affiliated organizations, or those of
+and QTNS underlying maturity and seed traits. Front. Plant. Sci. 9:610. doi: the publisher, the editors and the reviewers. Any product that may be evaluated in
+103389/fpls.2018.00610
+this article, or claim that may be made by its manufacturer, is not guaranteed or
+Watanabe, S., Hideshima, R., Xia, Z., Tsubokura, Y., Sato, S., Nakamoto, Y., et al. endorsed by the publisher.
+(2009). Map-based cloning of the gene associated with the soybean maturity
+locus E3. Genetics 182, 1251-1262. doi: 101534/gnctic.10809572
+Copyright o 2021 Yan, Karikari, Chang, Zhao, Zhang, Li, Zhao and Jiang. This isan
+Watanabe, S., Xia, Z., Hideshima, R., Tsubokura, Y., Sato, S., Yamanaka, N., et al. open-access article distributedunder the terms ofthe Creative Commons Attribution
+(2011). A map-based cloning strategy employing a residual heterozygous line License (CCBY). The use, distribution or reproduction in other forums is permitted,
+reveals that thegigantea gene is involved in soybean maturity and flowering. provided the original author(s) and the copyright owner(s) are credited and that the
+Genetics 188, 395-407. doi: 10u15M4gemetic.110123062
+original publication in this journal is cited, in accordance with accepted academic
+Xu, Y., Yang, T., Zhou, Y., Yin, S., Li, P., Liu, J., et al. (2018). Genome-wide practice. No use, distribution or reproduction is permitted which does not comply
+association mapping of starch pasting properties in maize using single-locus with these terms.
+Frontiers in Genetics www.frontiersin.org
+12
+September 2021 IVolume 121 Article 715529

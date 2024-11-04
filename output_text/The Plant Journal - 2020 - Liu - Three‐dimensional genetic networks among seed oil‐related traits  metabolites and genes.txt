@@ -1,0 +1,3233 @@
+the plantjournal
+SEB
+The Plant Journal (2020) 103, 1103-1124
+doi: 10.1111/tpj.14788
+Three-dimensional genetic networks among seed oil-related
+traits, metabolites and genes reveal the genetic foundations
+of oil synthesis in soybean
+Jin-Yang Liuv2, Pei Li?, Ya-Wen Zhang?, Jian-Fang Zuo?, Guo Li?, Xu Han?, Jim M. Dunwell3 and Yuan-Ming Zhang12.
+'State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095,
+China,
+2Crop Information Center, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070,
+China, and
+3School of Agriculture, Policy and Development, University of Reading, Reading RG6 6AR, UK
+Received 11 December 2019; accepted 21 April 2020; published online 28 April 2020.
+*For correspondence (e-mails sophang@nimueducn.sozhau.sopzhng@malhaueducm!
+SUMMARY
+Although the biochemical and genetic basis of lipid metabolism is clear in Arabidopsis, there is limited infor-
+mation concerning the relevant genes in Glycine max (soybean). To address this issue, we constructed
+three-dimensional genetic networks using six seed oil-related traits, 52 lipid metabolism-related metabolites
+and 54 294 SNPS in 286 soybean accessions in total. As a result, 284 and 1279 candidate genes were found to
+be significantly associated with seed oil-related traits and metabolites by phenotypic and metabolic gen-
+ome-wide association studies and multi-omics analyses, respectively. Using minimax concave penalty
+(MCP) and smoothly clipped absolute deviation (SCAD) analyses, six seed oil-related traits were found to be
+significantly related to 31 metabolites. Among the above candidate genes, 36 genes were found to be asso-
+ciated with oil synthesis (27 genes), amino acid synthesis (four genes) and the tricarboxylic acid (TCA) cycle
+(five genes), and four genes (GmFATB1a, GmPDAT, GmPLDx1 and GmDAGAT1) are already known to be
+related to oil synthesis. Using this information, 133 three-dimensional genetic networks were constructed,
+24 of which are known, e.g. pmomte-GmPDAI-GmfATAzdi content. Using these networks, GmPDAT,
+GmAGT and GmACP4 reveal the genetic relationships between pyruvate and the three major nutrients, and
+GmPDAT, GmZF351 and GmPgs1reveal the genetic relationships between amino acids and seed oil content.
+In addition, GmCds1, along with average temperature in July and the rainfall from June to September,
+influence seed oil content across years. This study provides a new approach for the construction of three-
+dimensional genetic networks and reveals new information for soybean seed oil improvement and the
+identification of gene function.
+Keywords: seed oil-related traits, lipid-related metabolites, metabolome-based genome-wide association
+studies, three-dimensional genetic networks, soybean.
+INTRODUCTION
+a wide range of intermediate compounds, such as fatty
+Scientists have focused on the genetic basis of seed oil-re-
+acids, phospholipids and carbohydrates (Wen et al., 2015;
+lated traits in Glycine max (soybean) for a long time, with
+Chen et al., 2016). Although many genes have been found
+the purpose of improving seed oil content and quality in
+to be associated with seed oil-related traits and lipid syn-
+this crop (Fang et al., 2017). The significant negative corre-
+thesis, these studies have usually involved phenotypic gen-
+lation between seed oil and protein contents (Chaudhary
+ome-wide association studies (GWAS) and linkage analysis
+et al., 2015; Patil et al., 2017) has resulted in very slow pro-
+(Hwang et al., 2014; Meng et al., 2016; Fang et al., 2017;
+gress in improving soybean quality by means of conven- Van and McHale, 2017; Leamy et al., 2017; Zuo et al., 2019;
+tional breeding, however (Charron et al., 2005). Recently,
+Zhang et al., 2019c). Therefore, modern crop breeding
+metabolites, which act as a bridge between a trait pheno-
+necessitates the construction of three-dimensional genetic
+type and its genes, have been shown to determine crop networks among seed oil-related traits, genes and oil
+nutritional traits like seed oil content and composition via
+biosynthesis metabolites.
+@ 2020 Society for Experimental Biology and John Wiley & Sons Ltd
+1103
+
+
+
+1104 Jin-Yang Liu et al.
+To date, many genes have been reported to be
+decomposition, and other differentiation processes in each
+involved in seed oil biosynthesis in Arabidopsis. For cell (Chen et al., 2014, 2016; Wen et al., 2015). Recently,
+example: GPAT (Li et al., 2007), PDHC (Shen et al., 2006),
+using metabolome-based GWAS (mGWAS) and metabo-
+ACCase (Roesler et al., 1994), KASI (Xiong et al., 2017), lome profiling analysis, some genes have been identified
+and FATB and FATA2 (Bonaventure et al., 2003; Moreno-
+to be associated with primary or secondary metabolites,
+Pérez et al., 2012) were found to be involved in the syn- which are responsible for complex traits (Chen et al., 2016;
+thesis of short-chain fatty acids; DGAT and PDAT (Jako
+Wu et al., 2018). In Arabidopsis, for example, OMT1 encod-
+et al., 2001; Zhang et al., 2009; Fan et al., 2013; Pan
+ing 5-hydroxyferulic acid O-methyltransferase was found
+et al., 2013) were found to be involved in triacylglycerol
+to regulate 5-hydroxyferulic acid glucoside (Wu et al.,
+(TAG) biosynthesis; LACS (Lu et al., 2009; Katavic et al., 2018), which influences the synthesis of lignins and sina-
+2014) was found to be involved in the synthesis of very poyl esters (Tohge et al., 2005). In Oryza sativa (rice),
+long-chain fatty acids; PLP2/PLA2A (La Camera et al.,
+Os07g32060, encoding flavone 5-0-glucosytransferase,
+2009; Yang et al., 2012), Pgs1 or PGP1 (Tanoue et al., was found to regulate 5-0-glucoside, which influences the
+2014), Cds1 (Zhou et al., 2013), LPEAT2 (Jasieniecka-
+synthesis of flavonoids (Chen et al., 2014), Os12g27220
+Gazarkiewicz et al., 2017) and TIM/PDTPI (Lopez-Castillo
+and Os12g27254, encoding spermidine hydroxycinnamoyl
+et al., 2016) were found to be involved in lipid synthesis;
+transferases, were found to regulate N-hydroxycinnamoyl
+and OLE1 (oleosin) was found to be involved in the stor-
+spermidines, which influences phenolamide biosynthesis
+age of lipid droplets (Siloto et al., 2006; Shimada and
+(Dong et al., 2015), and Os02g57760, encoding nicotinic
+Hara-Nishimura, 2010). Although a hundred genes relat- acid N-methyltransferase, was found to regulate trigonel-
+ing to lipid synthesis have been reported to participate in
+line, which influences grain width (Chen et al., 2016). At
+the process of carbohydrate metabolism (Zhang et al.,
+present, the studies on soybean mGWAS are relatively lim-
+2018b), few genes have been reported to be related to
+ited.
+the tricarboxylic acid (TCA) cycle and amino acid synthe-
+As described above, genetic relationships are derived
+sis (Wen et al., 2015; Zhang et al., 2018a,b). In Arabidop-
+mainly from seed oil-related traits and genes or metabo-
+sis, SDH1 (Huang et al., 2013), ACO1 (Park et al., 2018),
+lites and genes. In modern breeding strategies, it is cru-
+MDH (Selinski and Scheibe, 2019), FUM1 (Zubimendi
+cial to construct three-dimensional genetic networks
+et al., 2018), IDH-V (Lemaitre and Hodges, 2006) and among seed oil-related traits, metabolites and genes. To
+2-OGDH (Araujo et al., 2014) were reported to participate
+address this issue, six seed oil-related traits, 52 lipid-re-
+in reactions of the TCA cycle; AGT (Zhang et al., 2013),
+lated metabolites and 54 294 SNP markers in a total of
+P5C1 (Giberti et al., 2014), MTO (Goto and Naito, 2002),
+286 soybean accessions were used to conduct single-
+HMT2 (Ranocha et al., 2000) and AtBCAT (Diebold et al., and multi-locus GWAS (Zhou et al., 2015; Zhou et al.,
+2002) were reported to participate in amino acid metabo-
+2015; Wang et al., 2016; Tamba et al., 2017; Zhang et al.,
+lism.
+2017b; Wen et al., 2018; Ren et al., 2018) for seed oil-re-
+In soybean, some transcription factors and genes encod-
+lated traits and metabolites, and genetic relationships
+ing other functional proteins have been reported to be
+between seed oil-related traits and metabolites were also
+responsible for seed oil biosynthesis. The transcription fac-
+established by the minimax concave penalty (MCP)
+tors GmDof4, GmDof11 (Wang et al., 2007), GmbZIP123 (Zhang, 2010) and smoothly clipped absolute deviation
+(Song et al., 2013), GmLEC1a/GmLEC1b (Zhang et al.,
+(SCAD) (Fan and Li, 2001) analyses. Candidate genes for
+2017a), GmWRI1a (Chen et al., 2017), GmMYB73 (Liu et al., seed oil-related traits and metabolites were predicted by
+2014), GmDREBL (Zhang et al., 2016b), GmNFYA (Lu et al.,
+bioinformatics, comparative genomics and transcrip-
+2016), GmLEC2 (Manan et al., 2017) and GmZF351 (Li et al., tomics. Using the above results, 133 three-dimensional
+2017) were found to participate in the regulation of lipid
+genetic networks were constructed in this study. Using
+accumulation. The functional genes GmDGAT1 or GmDA-
+these networks, some new genetic relationships were
+GAT1 (Lardizabal et al., 2008; Chen et al., 2016) and
+revealed, e.g. the relationships between pyruvate and
+GmOLE1 (desaturase) (Zhang et al., 2019a) were reported
+three major nutrients, and between amino acids and seed
+to play a key role in plant diacy/gyceroltriacylgycerol
+oil content. In addition, we also discuss the reasons for
+(DAG/TAG) biosynthesis, and GmPLD (phospholipase D)
+different seed oil contents across different years. Thus,
+and GmLPAT (lysophosphatidyl acyltransferase) (Zhao this study provides a new approach for constructing
+et al., 2012; Zhao, 2013) were found to regulate lipid syn- three-dimensional genetic networks, which reveal some
+thesis. Rarely have oil-synthesis genes been reported to be
+new genetic relationships among seed oil content, some
+related to the TCA cycle or amino acid synthesis in soy- metabolites (three major nutrients, malic acid and amino
+bean, however.
+acids) and genes. These relationships are useful for soy-
+As we all know, metabolites have a significant influence
+bean quality improvement and the identification of gene
+on signal transmission, material synthesis and
+functions.
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+3D networks reveal genetic bases of oil synthesis 1105
+RESULTS
+into organic acids, soybean isoflavone, phosphatidyl
+ethanolamines (PEs), phosphatidyl cholines (PCs),
+Distribution of six seed oil-related traits and 52
+phos-
+phatidyl inositols (Pls) and amino acids. Organic acids mea-
+metabolites in soybean
+sured in this study included pyruvic acid, succinic acid,
+The seed oil-related traits investigated in this study are
+fumaric acid, malic acid, palmitic acid, stearic acid, oleic
+seed oil content and its five oil constituents, including stea-
+acid, linoleic acid and linolenic acid. Their phenotypic values
+ric acid, palmitic acid, oleic acid, linoleic acid and linolenic were in the ranges of 175.87-50 980.18, 1.35-515.01, 1.25-
+acid. These traits were measured from 286 soybean acces- 440.91, 1861-528081,090-34263, 0.50-105.69, 0.15-112.67,
+sions between 2014 and 2016. The averages plus standard
+21.71-774.08 and 8.5-102.43 ug g, respectively, and their
+deviations across the 3 years for the above six traits were
+CVs were 181.85, 123.82, 113.08, 82.37, 79.92, 75.57, 126.59,
+17.92 + 2.16, 3.54 + 0.46, 11.65 + 1.21, 24.79 + 4.53,
+90.47 and 45.02%, respectively. Soybean isoflavones mea-
+52.29 + 3.63 and 7.73 + 1.58 (%), respectively, and their sured in this study included daidzein, daidzin, genistein,
+average coefficients of variation (CV) across the three years
+genistin and glycitin. Their phenotypic values were in the
+were 12.03, 10.33, 12.92, 18.24, 6.95 and 20.40 (%), respec- ranges of 0.23-163.78, 0.50-314.13, 0.22-87.65, 7.78-1611.42
+tively (Table S1). Clearly, these traits have large variation
+and 0.002-238.69 ug g, respectively, and their CVs were
+and are typical quantitative traits. Although the trends for
+107.06, 110.34, 104.93, 74.56 and 109.61%, respectively. The
+the five seed oil constituents over the 3 years are almost
+phenotypic values for PEs (six), Pls (six) and PCs (six), with
+the same (Figure 1a-e), the seed oil content in 2016 (16.67
+18 molecular species (for detail information, see Experimen-
++ 1.92%) was significantly lower than those recorded in
+tal Procedures) were in the ranges of 3.02-2160.52, 0.00-
+2014 (19.06 + 2.18%) and 2015 (18.03 + 2.37%) (P < 0.001).
+30 568.93 and 0.00-2830.26 ug g, respectively, and their
+A total of 52 lipid-related metabolites in the pathways of CVs were 91.88, 124.53 and 96.34%, respectively. A total of
+the TCA cycle, amino acid metabolism, oil synthesis and
+20 amino acids were measured: their phenotypic values ran-
+soybean isoflavone synthesis were measured from 214 soy-
+ged from 0.04 to 1864.51 ug g, and their CVs ranged from
+bean accessions in 2015. These metabolites are classified
+41.89 to 236.48%. Detailed information for all 52 metabolites
+. 12014 - 2015 2016
+80 (a)
+120 (b)
+à 70-
+100
+a 10
+*
+60
+1
+80
+5.
+:
+60
+of 20-
+2014 2015 2016 40
+2014 2015 2016
+- 10
+20
+0
+40-43 43-45 45-47 47-49 49-51 51-53 53-55 55-57 57-59 59-64
+46 6-7 7-8 8-9 9-10 10-11 11-13 13-17
+Linoleic acid (%)
+Linolenic acid (%)
+140 (c)
+140- (d)
+120
+A
+120
+1a
+100
+30-
+100
+10
+1
+80
+-
+80
+8-
+60
+60
+40
+!
+2014 2015 2016 40
+Elii
+2 20
+20
+2014 2015 2016
+0 L -
+In
+9-13 13-16 16-18 18-22 22-26 26-30 30-34 34-38 38-42
+8-9 9-10 10-11 11-12 12-13 13-14 14-15 15-16 16-17
+Oleic acid (%)
+Palmitic acid (%)
+250- (e)
+70 (f)
+200
+60
+e
+50
+a 30 25.
+150
+* 40
+10
+3 I T
+E2
+100
+2
+30
+i
+!
+Ti
+I
+1
+2
+2014 2015 2016 20
+2014 2015 2016
+50
+-
+10
+0
+2-3
+3-4
+4-5
+5-6
+10-1111-12 12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24 24-25 25-26 26-27
+Stearic acid (%)
+Seed oil contents (%)
+Figure 1. Frequent distributions for seed oil content (f) and constituents (a-e) in 286 soybean accessions. The results in 2014, 2015 and 2016 are indicated by
+green, yellow and navy-blue bars, respectively. Data are means + standard deviations. Levels of significance by paired Student's t-test (n i= 286): *P- 0.05,
+**P- 0.01 and ***p = 0.001.
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+1106 Jin-Yang Liu et al.
+is given in Table S2. Clearly, these metabolites have large
+Candidate genes for seed oil-related traits. In order to
+variations.
+determine candidate genes for seed oil-related traits, we
+Genome-wide association studies for seed oil-related
+adopted the following analyses. First, we found all genes
+between the 100-kb upstream and downstream regions for
+traits in soybean
+each ofthe 334 significant QTNS. Using the soybean meta-
+Detection of main-effect quantitative trait nucleotides
+bolic pathway database, KEGG annotation (https://soyc
+(QTNS) for oil-related traits. With 286 soybean accessions,
+yc.soybase.org), and the soybean genome annotation
+six seed oil-related traits measured from 2014 to 2016,
+database and gene ontology terms (htps./soybase.org/ge
+along with 54 294 SNPS, were used to conduct phenotypic
+nomeannotation), all of the above genes were then used
+GWAS using GEMMA, mrMLM, FASTmrEMMA, ISIS EM- to mine the potential candidate genes or their Arabidopsis
+BLASSO, pLARmEB and pKWmEB. As a result, 334 signifi-
+homologous genes, which were annotated for fatty acid
+cant QTNS were identified (Figure S1 and Table S3). These
+biosynthesis, phospholipid biosynthesis, phospholipid
+QTNS were mainly distributed - on chromosomes 5, 6, 7, 8,
+binding, phosphorylation and dephosphorylation, triacyl-
+9, 13, 17, 18 and 19 (216 QTNS for each chromosome), and
+glycerol biosynthesis, oxidoreductase activity, electron car-
+had 5.51% average proportion of total phenotypic variation rier activity and TCA cycle pathways. As a result, 284
+explained by each QTN, with 56, 46, 50, 68, 75 and 39
+genes were found to be associated with the above meta-
+QTNS, respectively, for palmitic, stearic, oleic, linoleic and
+bolic pathways.
+linolenic acids, and seed oil content. Thirty-five QTNS were
+Among the above 284 genes, 22 were found to be
+detected in at least two environments, whereas 299 QTNS
+related to lipid metabolism pathways, including 14 lipid
+were identified in only one environment. A total of 77 sig-
+biosynthesis-related genes, four amino acid biosynthesis-
+nificant QTNS for the above six oil-related traits were
+related genes and four TCA cycle-related genes. In oil
+detected in at least two environments or two GWAS meth-
+biosynthesis-related genes, GmPDAT, GmDAGAT1,
+ods (Table S4). Among these common QTNS there were
+GmFATB1a, GmKASI, GmPgs1, GmACC, GmFATA2,
+11, 17, 12, 18, 7 and 12 QTNS, respectively, for linolenic,
+GmCds1, GmWR11b, GmNFYA, GmDof11, GmCYP78A10,
+linoleic, stearic, oleic and palmitic acids, and seed oil con-
+Glyma. 189038400 and GmBS1 were found to be associ-
+tent. Based on previous studies Intips/www.soybase.org
+ated, respectively, with linolenic acid (limit of detection,
+GWASI), there are many QTNS on chromosome 5 and LOD = 4.15-4.20) and pyruvate (P == 1.44E -05) (Liu, 2020),
+almost no QTNS on chromosome 13. In this study, five sig-
+linolenic acid (P = 8.28E-09 to 1.58E-06) (Chen et al., 2016),
+nificant QTNS were positioned within 38.0-41.0 Mb at the
+stearic acid (LOD =1 2.61-5.13) (Murad et al., 2014), palmitic
+distal end of chromosome 5 and eight QTNS were posi- acid (LOD = 3.09) (Xiong et al., 2017), linoleic acid
+tioned on chromosome 13.
+(LOD = 4.86) (Tanoue et al., 2014), oil content (LOD = 3.11-
+5.31) (Roesler et al., 1994), oil content (LOD = 3.21) (Mor-
+Detection of QTN-environment interactions for oil-related eno-Pérez et al., 2012), linolenic acid (P = 1.56E 09) (Zhou
+traits. The above data sets in GWAS were also used to
+et al., 2013), palmitic acid (LOD == 3.59) (Chen et al., 2017),
+detect QTN-environment interactions (QES) using the oleic acid (P = 3.82E 06) (Lu et al., 2016), linolenic acid
+quantitative trait interaction (G x E) module in PLINK (Pur-
+(LOD = 3.95) (Wang et al., 2007), linolenic acid (LOD = 2.88)
+cell et al., 2007) (htp.lrz.bwh.harvard.edu/plinklanal
+(Wang et al., 2015), palmitic acid (LOD = 3.37-3.76) and
+shtml#qtgxe). As a result, 5, 1 and 3 significant QES were
+palmitic acid (LOD = 5.25) (Ge et al., 2016). Among these
+found to be associated with linolenic acid, palmitic acid genes, GmWR11b, GmNFYA and GmDof11have no annota-
+and stearic acid, respectively (Table S5). For example, the tions of biochemical metabolic processes; GmPDAT,
+locus Chr18-4720420 was significantly associated with lino-
+GmDAGAT1, GmFATB1a, GmPgs1 and GmFATA2 were dif-
+lenic acid (P = 6.53E-04).
+ferentially expressed between wild and domesticated soy-
+beans (Figure 2b; Table 1). In amino acid biosynthesis-
+Detection of QTN-QTN interactions for oil-related related genes, GmAGT, GmBCAT, GmHMT2 and GmP5C1
+traits. The above data sets in GWAS were again used to
+were found to be associated, respectively, with palmitic
+detect QTN-QTN interactions (QQs) using PEPIS (http:ll acid (LOD = 3.39) (Zhang et al., 2013), palmitic acid
+bioinfo.noble.org/Porg/PolyGenicOTLA (Zhang et al., 2016c). As
+(LOD = 4.70) (Diebold et al., 2002), oleic acid (P = 2.49E-09)
+a result, 2, 2, 3, 1,1 and 1 significant QQs were found to be
+(Ranocha et al., 2000) and linoleic acid (LOD = 3.84) (Gib-
+associated with linoleic acid, seed oil content, palmitic erti et al., 2014). In TCA cycle-related genes, GmACO1 (Gly-
+acid, oleic acid, stearic acid and linolenic acid, respectively
+ma.01g162800), GmFUM1 (Glyma.029015700, GmSDH1
+(Table S6). For example, the epistasis between locus
+(Glyma.01g175600 and GmMDH1 (Glyma.139104800) were
+Chr13-20532852 bp and locus Chr13-20704034 bp was
+found to be associated, respectively, with oleic acid
+found to be significantly responsible for linolenic acid (like-
+(P= 4.34E-06) (Park et al., 2018), linolenic acid (P = 1.25E-
+lihood-ratio test, LRT == 24.37).
+06) (Zubimendi et al., 2018), linoleic acid (LOD = 3.29-3.68)
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+3D networks reveal genetic bases of oil synthesis 1107
+(Huang et al., 2013) and linolenic acid, P= 2.24E-07) (Selin-
+chromosome), had an average proportion of total pheno-
+ski and Scheibe, 2019) (Figure 2a; Table 2).
+typic variation explained by each mQTN of 6.63%, and 230,
+115, 66, 111, 96 and 383 SNPS were identified to be signifi-
+Genome-wide association studies for acyl lipid-related
+cantly associated with nine organic acids, five soybean iso-
+metabolites in soybean
+flavones, six PEs, six Pls, six PCs and 20 amino acids in
+Genome-wide association studies for acyl lipid-related metabo-
+soybean, respectively (Figure S2). Forty-eight mQTNs were
+lites. In 214 soybean accessions, 52 acyl lipid-related
+detected by at least two approaches (Table S8). In addition,
+metabolites measured in 2015, along with 54 294 SNPS,
+there were some large-effect mQTNS, e.g. mQTNS
+were used to conduct metabolic GWAS using GEMMA,
+Chr4-3969004, Chr5-2665256, Chr8-17117978 and Chr18-
+mrMLM, FASTmrEMMA, ISIS EM-BLASSO, pLARMEB and 62242431 were found by ISIS EM-BLASSO to be associated
+pKWmEB. As a result, 1001 mQTNs were detected to be
+with glutamic acid (2 = 21.15%), PI (34:3) (2 = 9.31%),
+associated with the 52 acyl lipid metabolites (Figure S2;
+malate (2 = 4.97%) and isoleucine (22 = 6.75%), respec-
+Table S7). These QTNS were distributed mainly on chro- tively, and MQTN Chr20-45754357 was found by mrMLM
+mosomes 5, 7, 8, 13-18 and 20 (250 mQTNs for each to be associated with pyruvate (2 == 6.18%).
+(a)
+Succinate
+TCA Cycle
+Asparagin
+GmSDHI
+Amino acid metabolism
+Fumarate
+Succinyl-CoA
+Gm/
+/GmFUMI 2awChatrate
+Lysin
+Asparate
+Malate
+Glutamine
+AG
+(GmMDHI
+ACRDULEN
+Arginine GmPSCI
+Alaninea
+cis-Aconitate /GmMDHI
+Isoleucine
+Proline
+GmACOI Mitochondrion
+1
+oTeium
+Threonine GmNTO Glycine MAGT Homesreine Pyruvate
+Pyruvate GmPDHC Acetyl-CoA GmACC Malonyl-CoA
+Fatty acid
+GmHMT2
+GmKASI
+metabolism
+Methionin
+GmPK
+16:0-ACP 18:0-ACP GmSAD 18:1-ACP
+Chcin moereies GmCM PEP
+Leucine Isoleucine
+GmFATA2 GmFATBIa
+Tryptophan.
+GmABCI
+GmBCAT
+Fat acid
+Acetyl-CoA
+Plastid
+Ribosome
+GmBCAT
+Valine
+GmLACS2
+GmPDIIC-GmPDKI
+Pyruvate
+:
+: : :
+Acyl-CoA
+GmTIM
+7
+a 1E 3
+GmACP4
+/
+(b)
+:
+DHAP
+3
+:
+2
+Acyl-CoA Pool
+I
+I I - I
+GmGPDH
+GmGPAT
+G3P
+i
+I I
+TAG assembly
+LPA
+Glycerophospholipid
+E
+I
+metabolism
+:
+: : :
+GmGPAT
+I I I I
+TAG
+DG GmGPAT Glyceryl
+EE
+GmDAGATI
+phosphatide
+TAG GmPDAT
+GmCdsl
+ER
+GmPgsl
+OB
+TAG
+PG
+CDP-DAG
+
+la
+GmPLAZA LPI GmAgpat3 PI DAG
+-
+LPG LPE GmLPEATZ PE tompLrs PA IP3
+-
+as
+ER
+LPC GmPLAZA PC GmPLDal
+Figure 2. (a) The primary metabolic networks in soybean and (b) the expression profiling of 19 key seed oil-related genes identified in this study. Genes with
+red, pink and blue colors are in the pathways of oil biosynthesis, amino acid biosynthesis and TCA cycle, respectively. The metabolites and genes in gray were
+not identified in this study. Abbreviations: ABC1, activity of bc1 complex homolog 1; ACC, acetyl coenzyme-A carboxylase; ACO1, acyl-CoA oxidase 1; ACP4,
+acyl carrier protein (ACP)-4; AGD, diaminopimelate aminotransferase; BCAT, branched-chain amino acid transaminase; AGT, alanine glyoxylate aminotrans-
+ferase; Agpat3, acyiglycerophosphate acyltransferase; CDS1, CDP-diacylglycerol synthase 1; CM, chorismate mutase; DAGAT1, diacylglycerol acyltransferase
+enzymes 1; FATA, fatty acid thioesterase A; FATB, fatty acid thioesterase B; LACS, long-chain fatty acyl-CoA synthetase; FUM1, fumonisin synthase gene 1;
+GPAT, glycerol3-phosphate acyltransferase; GPDH, glycerol phosphate dehydrogenase; HMT2, homocysteine S-methyltransferase 2; IDH-V isocitrate dehydro-
+genase V; KASI, B-Ketoacyl-ACP synthase I; LPEAT2, lyso-PE acyltransferase 2; MDH, malate dehydrogenase; MTO, mitochondrial tRNA modification gene;
+P5C1, pyrroline-carboxylic acid synthase 1; PDAT1, phospholipid diacylglycerol acyltransferase 1; PDHC, pyruvate dehydrogenase complex; PDK1, pyruvate
+1n
+dehydrogenase kinase 1; Pgs1, phophatiow@yxemobphosphate synthase; PLA2A, phospholipase A2; PK, pyruvate kinase PLDz1, phospholipase D gene 1; PLP2,
+proteolipid protein 2; SAD, sinapyl alcohol dehydrogenase; SDH1, succinate dehydrogenase 1; TIM, translocases inner mitochondrial membrane. DAF: days
+after flowering. Domesticated soybeans include four accessions with high seed oil content; wild soybeans include two accessions with low seed oil content.
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+I
+1108 Jin-Yang Liu et al.
+I
+I
+: : a € E a € a à
+. à 8 E E
+a 8
+I
+a e
+e : E
+6
+e e et e et E : et et et et
+! E
+II
+et
+et : E et :
+de t et
+et : et : et et
+of E
+I I : : I 8 E 1 I E 3 E : I I I E : 3 I I I E E I 8 et
+:
+à
+:
+& I : g E € à à 8 : & E & a E : i S 3 & 8
+:
+1 1
+a
+4 II
+1
+I
+I
+I
+A
+! I E
+I f E
+in
+2
+E
+I
+1
+e I I :
+I
+I I
+I
+I
+-
+>
+I
+I
+I
+I
+I
+I
+:
+I
+1
+I I
+1
+I
+E
+I
+of
+€
+1 I
+- €
+E
+I
+I
+:
+I
+: I I
+E
+I I I
+I I I
+I
+I I I I I I
+I :
+I
+I
+I
+I I I
+9
+I
+I I
+I
+E
+I I I
+I
+I
+8
+:
+I I
+I I I I I I I I I I I I I I I I I I I I I I I I € I
+I
+!
+by 3
+E i
+I
+I et
+e
+I
+e I
+I
+I
+I I I I I I I I I I I I I I I I I I I I I I I
+I
+I
+I
+I
+I
+I I
+I E I
+€
+I
+I
+I I I I I
+I
+1
+I
+1
+I
+I
+I I
+E
+I I I I I I I
+I
+I
+I I
+I
+E
+I
+od
+:
+a :
+: I i
+I
+E
+I : : : : : : a à : a : : : Lo : a : a ci a : : : : : 4
+8
+1 co 1 co ai co 6 c ai 6 4 a Lo  co co N 11 11
+a
+€
+I
+I I
+a
+4 4 11 2
+I
+of
+I I
+f
+I
+:
+I
+I 8 a a : a : 8 : : : a : 8 : % : : : : 9 E 8 8 a  € by S
+I
+8
+I
+I
+8 9 8 e 8 8 5 S E e a a a % 8 9 : 8 g 9 8 I E
+5 S
+9 : 8 2 S & 9 8 : e 8 a 8 5 9 8 8 8 &
+I
+i
+e
+I 4 8 1 a & & & 9 + e i 6 9 80 88 80 4 co 16 1 9 € I
+9 I
+s co 2 LO
+I
+8
+22 2 22 2 co 0o 1  1 2  00 4 oo oo co 0o so
+a
+I
+I
+: I
+1
+:
+s
+1
+I
+:
+e
+:
+! €
+E E
+i
+i 3
+I e
+in
+:
+- I 8
+1 F I
+1
+O 2020 Society for Experimental The Plant Biology Journal, and John (2020), Wiley 103, & 1103-1124 Sons Ltd,
+I
+I
+RIG H TS LI N K
+I
+
+
+
+3D networks reveal genetic bases of oil synthesis 1109
+Candidate genes associated with metabolites. The
+soybean (Figure 2b; Table 2). In genes related to amino acid
+methodologies of determining the candidate genes for acyl
+biosynthesis, GmAGT (Glyma.089302600) was found to be
+lipid-related metabolites were the same as those for the
+associated with palmitic acid (LOD = 3.39) (Zhang et al.,
+above seed oil-related traits. First, we found all the genes 2013). In TCA cycle-related genes, GmIDH-V (Gly-
+between the 100-kb upstream and downstream regions for
+ma. 13g144900) and GmACO1 (Glyma.01g162800) were
+each of the significant mQTNS. Using the soybean metabolic
+found to be associated, respectively, with y-aminobutyric
+pathway database, KEGG annotation (htps/soycyc.soybase.
+acid (LOD = 2.78) (Lemaitre and Hodges, 2006) and glycytin
+org), and soybean genome annotation database and gene (P = 2.63E-07)(Park et al, 2018) (Figure 3b and Table 3).
+ontology terms (htps/soybase.orgigenomeannotation), all
+Genetic relationships between seed oil-related traits and
+of the above genes were then used to mine the potential
+lipid metabolism-related metabolites in soybean
+candidate genes or their Arabidopsis homologous genes,
+which were annotated for fatty acid biosynthesis, fatty acid The MCP and SCAD algorithms were used to conduct mul-
+activation, phospholipid biosynthesis, flavonoid biosynthe-
+tiple regression analysis of each seed oil-related trait on 52
+sis, amino acid transporters, brassinosteroid biosynthesis,
+acyl lipid-related metabolites, and the Student's t-test was
+glycolysis, triacylglycerol biosynthesis, cellulose biosynthe-
+further used to determine the acyl lipid-related metabolites
+sis, jasmonic acid biosynthesis and TCA cycle pathways. As that were significantly associated with each oil-related trait.
+a result, 279 genes were found to be associated with the To reduce experimental error, the average of each seed oil-
+above metabolic pathways.
+related trait in each accession across 3 years was used to
+Among the above 279 genes, 20 were found to be
+conduct the above analysis. As a result, seed oil content,
+related to lipid metabolism pathways, including 17 oil
+linoleic acid, linolenic acid, oleic acid and palmitic acid
+biosynthesis-related genes, one amino acid biosynthesis-
+were found to be significantly associated, respectively,
+related gene, two TCA cycle-related genes and one lipid-re- with 7, 5, 7, 2, and 10 lipid metabolism-related metabolites
+lated gene, reported in previous studies. Among these lipid
+(Figure 3a; Table 3). Seed oil content had significant partial
+metabolism-related genes, six were the same as those for
+regression with genistein (0.526, P= 0.002), PC (36:2)
+seed oil-related traits, including GmPDAT, GmCds1,
+(0.679, P = 1.09E-06), glutamic acid (0.243, P = 0.038), daid-
+GmACO1, GmAGT, GmBS1 and GmPgs1.
+zin (-0.842, P= 2.36E-06), PC (36:4) (-0.659, P = 4.75E-
+In oil biosynthesis-related genes, GmPDAT, GmLPEAT2 06), PC (36:5) (-0.316, P == 0.030) and aspartic acid (-0.172,
+(Glyma.039019200), GmPDHC (Glyma.20g115500,
+P = 0.034); linoleic acid had significant partial regression
+GmLACS2(Glyma. .11g122500), GmaCP4lGyma.2d923010,
+with fumarate (0.486, P= 0.050), PC (36:5) (0.564,
+GmGPDH (Glyma. 19g136100), GmPLDx1 (Gly- P = 4.84E-05), daidzin (-0.911, P= 0.003), PI (36:1)
+ma.089211700, GmPLP2 (Glyma.059049500, GmCds1 (Gly- (-1.162, P= 0.009) and stearic acid (-0.324, P= 0.017);
+ma. 18g055100), GmTIM (Glyma. .13g 146200), GmGPAT linolenic acid had significant partial regression with glyc-
+(Glyma.079069700, GmPgs1 (Glyma.189302100, GmPLA2A itin (0.664, P= 0.008), PI (34:1) (1.367, P = 4.19E-05), linole-
+(Glyma.14g081200), GmSAD (Glyma.14g121400, GmZF351
+nic acid (metabolite) (-0.324, P= 0.017), stearic acid
+(Glyma.06g290100, GmBS1 (Glyma10g38970) and Gly-
+(metabolite) (-0.633, P= 0.014), pyruvate (-0.026,
+ma.089323100 were found to be associated, respectively,
+P= 0.050), fumarate (-0.662, P= 0.017) and PI (34:2)
+with pyruvate (P == 1.44E-05) (Liu, 2020), PI (34:3) (P = 7.12E- (-1.420, P= 0.045); oleic acid had significantly partial
+10) Uasieniecka-Gazarkiewicz et al., 2017), phenylalanine
+regression with daidzin (0.0732, P= 3.11E-4) and isoleu-
+(LOD = 4.05) (Zhang et al., 2016a), linolenic acid (P = 2.63E-
+cine (-0.022, P= 0.041); palmitic acid had significant par-
+07) (Li et al., 2009; Katavic et al., 2014), pyruvate tial regression with daidzin (0.086, P= 0.047), fumaric acid
+(LOD = 14.68) (Feng et al., 2018), daidzin (LOD = 4.71) (Shen
+(0.220, P= 1.09E-4), PC (36:2) (0.739, P= 8.95E -4),
+et al., 2006), malate (LOD = 3.11) (Zhao et al., 2012; Zhang
+PE (36:5) (0.383, P= 1.24E-4), PI (34:1) (0.294, P= 0.0387),
+et al., 2019b), PI (34:3) (LOD = 4.26) (La Camera et al., 2009),
+tryptophan (0.142, P = 0.004), aspartate (0.148, P= 0.032),
+aspartic acid (LOD = 5.65) (Zhou et al., 2013), glycytin
+glutamic acid (-0.143, P= 0.042), PC (34:2) (-1.020,
+(LOD = 3.41) (Lopez-Castillo et al., 2016), serine (LOD == 3.55)
+P = 0.002) and PI (36:2) (-0.162, P= 0.005) (Table 1). No
+(Li et al., 2007), isoleucine (LOD == 6.75) (Tanoue et al., 2014),
+significant partial regression of stearic acid on acyl lipid
+PE (34:1) (LOD = 3.92) (Yang et al., 2012), stearic acid metabolites was identified.
+(LOD = 5.42) (Lindqvist et al., 1996), phenylalanine
+Protein-protein interaction (PPI) analysis
+(LOD = 3.96) (Li et al., 2017), oleic acid (LOD = 3.26) (Ge
+et al., 2016) and fumaric acid (LOD = 4.56). Note that gene The above 36 genes for seed oil-related traits and lipid-re-
+GmZF351 has no annotation for a biochemical metabolic lated metabolites were used to identify the PPIs using
+process, and eight genes (GmPDAT, GmLPEAT2, GmSAD,
+STRING impe.ntingdhopeglhpoaoli As a result, the
+GmLACS2, GmPLDz1, GmPLP2, GmTIMand GmZF351) were
+predicted values for 16 pairs of PPIs were larger than the
+differentially expressed between wild and cultivated
+medium confidence value of 0.40 (Table S9), indicating the
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+I
+1110 Jin-Yang Liu et al.
+I
+I
+€
+e6 et
+à E
+à
+et t
+à
+à a
+I
+: a
+: ee : I e6 et ee : E
+E e a E E
+II E
+: . : et
+: et e
+et e et a : E et E ee :
+a
+et I E I . E et : I
+: et
+3 :
+I I 8 I La I 2 3 E E : a LE
+I
+I
+2 I LE E I
+I
+à i : 8 I : . a & 5 à i : a j à à a :
+a
+& X
+:
+1
+I
+: 4
+I
+>
+II
+I
+E i
+a
+i
++ 1 I
+a I
+a E
+I
+:
+I I
+AA
+I
+I
+I
+: N
+o
+I
+1 I
+I
+I
+1
+I
+I
+I
+I
+I
+I
+I
+E
+e
+I
+E
+I
+I
+I
+I I
+E I I I
+I
+I
+I
+I I I
+I
+1
+I
+I
+I
+E
+I
+I
+2
+I
+I
+I
+I
+I
+I
+I
+I
+9
+I
+I
+I
+I I I I I I I I I I I I I I I I I I I I I I I I
+8
+€
+I
+by I
+E
+3
+i
+I
+I et
+a
+I I I I I
+I I
+e I
+e
+I
+I I I I : I I I I I I
+I
+I
+I
+I :
+I
+I
+I
+E I
+I I I I I I I I I I I I I
+€
+I I
+I
+I
+I
+I
+I I I I I
+I
+E
+I
+I
+4
+I
+LD 6 1 6 1 N
+i
++ co 1 1 1 1 LD 1 L 4 LD
+I
+I
+I
+I
+€
+8
+E
+I
+&
+I
+I
+8 9 : 8 a : 9 9 a : 8 5 E 5 : E a 8 & R : I I I
+f
+I
+e S
+I
+I
+8 8 % e &
+: & 8
+3 a e 8 8 8 a 5 a 8 5 8
+by
+8 2 9 8 8
+8 8 8 8 S 8 E 8 & 8 a 9 8 E a
+E
+I
+- N
+o r
+I
+I 1 & 9 9
+et 1
+12 F 24 + c de 4 c a 9
+I
+i 9
+co 1 € LO
+I
+8
+I
+2 1f
+& # F 1 o co 9 co  0 co # 9 co
+I
+I
+à
+a
+I
+€ I
+I
+8 :
+8
+:
+s
+E 1
+N
+8 : 9
+a
+a I €
+E
+i
+E I E & a
+:
+I
+I I I I I I I I I LE
+I I
+I I F I
+1
+O 2020 Society for Experimental The Plant Biology Journal, and John (2020), Wiley 103, & 1103-1124 Sons Ltd,
+I
+I
+RIGHTS LI N K
+I
+
+
+
+3D networks reveal genetic bases of oil synthesis 1111
+Seedoil-related traits
+o PCI PEPI
+(b)
+o Amino acid
+o Isoflavone
+Organic acid
+(a)
+O Gene
+GmP5C1
+nG cit teinDaidze
+GmPDHC
+PI(34:2)
+GmFUM1
+PI(36:2)
+GmHMT2
+PI(34:1)
+GmBS1
+GmNFYA
+PI(34:3)
+GmGPDH
+GmKASI
+PE(34:1)
+Ste
+GmFATB1a
+PE(36:5)
+addim) Fu
+Py
+GmAGT
+Q
+GmBCAT
+PC(36:5)
+GmDof11
+PC(36:2)
+GmSDH1
+GmTIM
+(
+PC(34:2)
+GmZF351
+Phe
+(c)
+GmPDAT
+GmCds1
+Ile
+I
+GmPDAT GmDAGAT1
+GmMDH1
+Asp
+GmLACS2
+8
+GmIDH-V
+Glu
+Pyruvate Lingle nic
+GmSAD
+a
+aoid
+GmACC
+Try
+GmPLA2A
+Daidzein
+Glyma. a.189038400
+C
+Glyma a.089323100
+o
+Daidzin
+II GMTIM
+GMPDAT
+GmACO1
+a
+Genistein
+GmDAGAT1
+GmWRI1b
+Glycitin
+GI Lingk nic
+GmPgs1
+Fumaric acid
+acid
+GmFATA2
+(
+GmGPAT
+Linolenic acid(m)
+Palmitic
+GmACP4
+a
+III Pyruvate
+Boid
+GmCYP78A10
+.
+Malate
+GmLPEAT2
+Stearic acid(m)
+GMPDATGMEATA2
+GmPLDa1 GmPLP2
+Pyruvate
+Palmitic Oleic Linolenic Stearic Oil Linoleic
+acid acid acid acic content acid
+Figure 3. (a) The significant associations of soybean seed oil-related traits with metabolites. (b and c) Three-dimensional genetic networks among seed oil-re-
+lated traits, metabolites and candidate genes. The red and green lines represent significantly positive and negative correlations between seed oil-related trait
+and metabolite, respectively. In three-dimensional genetic networks, the nodes for oil-related traits and genes are indicated lin red and yellow, respectively, and
+the other nodes are indicated by blue (PC, PE and PI), green (amino acids), pink (isoflavone) and gray (organic acids); the edges are indicated by the relationship
+among seed oil-related traits, metabolites and candidate genes; bold red and black lines represent known and newly identified subnetworks, respectively. l:the
+first group of subnetworks, in which the candidates are commonly and significantly associated with oil-related traits and metabolites. II: the second group of
+subnetworks, in which oil-related traits are significantly related to metabolites. Il: the third group of subnetworks, in which one interacting gene is related to oil-
+related traits and another interacting gene is related to metabolites.
+existence of significant PPIs: e.g. Glyma13g16790.1
+addition, the interactions between GmIDH-V and GmFUM1
+(GmPDAT) and Glyma18g36130.3 (GmFATA2) (0.69),
+and between GmDAGAT1 and GmPDAT were reported,
+GmCds1 (Glyma18g06190.1) and Glyma13g16790.1
+respectively, in Zhang et al. (2017c) and Liu (2020), and the
+(GmPDAT) (0.43), Glyma06944440.1 (GmZF351) and Gly- PPI between GmDAGAT1 and GmPDAT was further vali-
+ma13g16790.1 (GmPDAT) (0.43), Glyma08922600.1
+dated by the interaction between two loci: Chr13-20532852
+(GmPLDa1) and Glyma18g06190.1 (GmCds1) (0.69), Gly- and Chr13-20704079 bp (Table S6).
+ma05g03510.1 (GmPLP2) and Glyma13g16790.1 (GmPDAT)
+Construction of three-dimensional genetic networks from
+(0.57), Glyma13g16790.1 (GmPDAT) and Glyma08908910.1
+six soybean seed oil-related traits, 23 lipid-related
+(GmKASI) (0.69), Glyma13g16560.1 (GmDAGAT1) and Gly-
+metabolites, and 36 candidate genes in the pathways of
+ma13g16790.1 (GmPDAT) (0.75), Glyma13920790.1
+fatty acids, amino acid synthesis and TCA cycle
+(GmIDH-V) and Glyma02g01920.1 (GmFUM1) (0.92), and
+Glyma14g27990.1 (GmSAD) and Glyma20g25833.1
+First, primary metabolic networks in soybean were con-
+(GmFATB1a) (0.90). Clearly, the above two PPIs between structed. Making use of gene homogeneity, 28 genes with
+GmDAGAT1 and GmPDAT (Liu, 2020) and between
+functional annotations in the above 36 candidate genes
+GmPDAT and GmFATA2 (Figure 4) were confirmed in vivo were incorporated into primary metabolic networks in Ara-
+using luciferase complementation image assay. In
+bidopsis thaliana (Li-Beisson et al., 2013; Wen et al., 2015;
+@ 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+
+1112 Jin-Yang Liu et al.
+Table 3 Significant associations between seed oil-related traits and metabolites in soybean
+Seed
+Partial
+Seed
+Partial
+oil-related
+regression
+oil-related
+regression
+traits
+Metabolite coefficient t-test
+Ftest traits
+Metabolite coefficient t-test
+Ftest
+Linolenic acid Glycitin
+0.664
+0.008**
+4.61E- Palmitic
+Daidzin
+0.086
+0.047*
+2.59E-
+07*** acid
+15***
+Pyruvate
+-0.026
+0.050*
+Fumaric
+0.220
+1.09E-4***
+acid
+Fumaric acid -0.662
+0.017*
+PC (34:2) -1.020
+0.002**
+PI (34:1)
+1.367
+4.19E-05**
+PC (36:2) 0.739
+8.95E-4***
+PI (34:2)
+1.420
+0.045*
+PE (36:5)
+0.383
+1.24E-4***
+Linolenic acid 0.444
+0.045*
+PI (34:1)
+0.294
+0.0387*
+(m)
+Stearic acid -0.633
+0.014*
+PI (36:2) -0.162
+0.005**
+(m)
+Oil content Daidzin
+-0.842
+2.36E-06*** 3.62E-
+Asparagine 0.148
+0.032*
+10***
+Genistein
+0.526
+0.002**
+Glutamic -0.143
+0.042*
+acid
+PC (36:2)
+0.679
+1.09E-06***
+Tryptophan -0.142
+0.004**
+PCI 36:4)
+-0.659
+4.75E-06***
+Linoleic
+Daidzin
+-0.911
+0.003**
+3.11E-
+acid
+05***
+PC (36:5)
+-0.316
+0.030*
+Fumarate 0.486
+0.050*
+Asparagine -0.172
+0.034*
+PC (36:5) 0.564
+4.84E 05**
+Glutamic acid 0.243
+0.038*
+PI (36:1) -1.162
+0.009**
+Oleic acid Daidzin
+0.073
+3.11E-4*** 1.13E-
+Stearic acid -0.324
+0.017*
+4***
+(m)
+Isoleucine -0.022
+0.041*
+Significance levels: *0.05, **0.01 and ***0.001.
+Zhang et al., 2016a). In the networks, there were 19 oil
+GmAGT-palmitic acid- -GmKASI subnetwork, GmAGT was
+biosynthesis-related genes, four amino acid biosynthesis-
+identified to be associated with pyruvate (metabolite) and
+related genes, five TCA cycle-related genes, six seed oil-re-
+palmitic acid (trait). Among all of the 33 subnetworks, five
+lated traits and 43 metabolites (Figure 2a). Among the 19
+were already known and the others were newly identified
+oil biosynthesis-related genes, 12 were differentially
+(Figure 3d; Table S10). To validate these results, five high-
+expressed between four cultivated and two wild soybeans
+oil and five low-oil accessions were used to conduct
+(Figure 2b).
+hypothesis testing for each node (gene, metabolite or trait)
+The above primary metabolic networks in soybean and in the above subnetworks. As a result, five, seven, 14 and
+all the above genetic information in this study were used
+seven subnetworks were found to have one, two, three
+to construct three-dimensional genetic networks. In these
+and four significant nodes, respectively, although the
+networks, six oil-related traits, 23 lipid-related metabolites
+accessions used in trait and metabolite analyses differed
+and the above 36 candidate genes were used to construct
+little from those in the gene expression analysis
+133 genetic subnetworks, which belong to one of the three
+(Table S11).
+types listed below.
+The second group included 84 subnetworks, which
+The first group included 33 subnetworks, in which each were derived from the significant association of oil-re-
+linked gene was identified frequently by phenotypic and
+lated traits with metabolites (Tables 1 and S10). In the
+metabolic GWAS. In the isoleucine-GmPgs1-li
+GmPDAT-pyruvate linolenic acid-GmDAGAT1 subnet-
+nolenic acid-GmPDAT subnetwork, GmPgs1 was identified
+work, pyruvate was significantly associated with linolenic
+to be associated commonly with isoleucine (metabolite)
+acid (P < 0.050). In the GmLACS2-linolenic acid (metabo-
+and linolenic acid (trait). In the pyruvate GmPDAT
+lite)-linolenic acid-GmDof11 subnetwork, linolenic acid
+linolenic acid-GmCds1,
+PE (341-GmPDAT-linolenic
+(metabolite) was significantly associated with linolenic
+acid-GmDAGAT1 and PE (341-GmPDAT-inolenic acid- acid (P= 0.045). In the GmTIM-glycitin-linolenic acid-
+GmCds1 subnetworks, GmPDAT was identified to be asso-
+GmPDATIGMDAGATI subnetwork, glycitin was signifi-
+ciated commonly with linolenic acid (trait) and two
+cantly associated with linolenic acid (P = 0.008) (Table 1).
+metabolites [PE (34:1) and pyruvate]. In the pyruvate-
+Among all of these subnetworks, 13 were already known
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+3D networks reveal genetic bases of oil synthesis 1113
+I
+II
+N-GmPDAT
+N-LUC N-GmPDAT
+N-LUC
+C-GmFATA2
+C-GmFATA2 C-GmFATA2
+C-GmFATA2
+N-GmPDAT
+N-LUC N-GmPDAT
+N-LUC
+C-LUC
+C-LUC C-LUC
+C-LUC
+Figure 4. Luciferase complementation image assay of the interaction of GmPDAT with GmFATA2 in Agrobacterum-infitated Nicotiana benthamiana leaves
+under dark illumination. land II represent bright and dark fields, under the same treatment. The image shows the interaction between GmPDAT and GmFATA2
+in N. benthamiana leaves, with the LUC images of N. benthamiana leaves co-infiltrated with the Agrobacterium strains containing N-GmPDAT and C-GmFATA2
+(experimental group, top left corner), N-LUC and C-GmFATA2 (control, top right corner), N-GmPDAT and C-LUC (control, bottom left corner), and N-LUC and C-
+LUC (control, bottom right corner). LUC fluorescence was detected 48-60 h after infiltration by confocal microscopy. The experiment was repeated three times
+with similar results.
+and the others were newly identified (Figure 3b;
+DISCUSSION
+Table S10). Similarly, 15, 35, 31 and three subnetworks
+One-dimensional genetic networks among genes (Lin and
+were found to have one, two, three and four significant
+Lai, 2017) or metabolites (Sauvage et al., 2014), and two-di-
+nodes, respectively (Table S11).
+mensional genetic networks between traits and genes
+The third group included 16 subnetworks, which were
+derived from the interactions between the genes for oil-re-
+(Wang et al., 2007) and between metabolites and genes
+(Wen et al., 2015; Chen et al., 2016), have frequently been
+lated traits and/or metabolites (Figure 3d; Table S10). In
+reported in previous studies. Recently, Shi et al. (2020)
+the pyruvate GmPDAT-GmFATA2.0il content and pyru-
+reported one two-dimensional network between metabo-
+vate GmPDAT-GmkAS-painitic acid subnetworks, the
+lites and traits in Triticum aestivum (wheat). As we know,
+statistic scores for PPIs between GmPDAT and GmFATA2
+metabolites act as a bridge between traits and
+(Fiehn,
+and between GmPDAT and GmKASI were 0.69 and 0.69,
+genes
+2002). Thus, it is very important and necessary to construct
+respectively. Moreover, luciferase complementation image three-dimensional genetic networks among traits, metabo-
+(LCI) assays validated the protein interaction between
+lites and genes. In these networks, 36 candidate genes were
+GmPDAT and GmFATA2 (Figure 4). In the phenylalanine
+obtained from PGWAS and mGWAS, 23 metabolites were
+Gm235-GmPDATlinodmnic acid subnetwork, the statistic
+significantly associated with five oil-related traits, and all
+score for PPI between GmPDAT and GmZF351 was 0.43. In
+the genetic information was used to construct 133 three-di-
+the pyruvate-GmPDAT-GmCdsl-linolenic acid subnetwork,
+mensional genetic subnetworks. This study is novel in three
+the statistic score for PPI between GmPDAT and GmCds1
+aspects. First, to the best of our knowledge this study
+was 0.43, whereas GmPDAT was significantly associated
+first three-dimensional
+reports the
+genetic networks in
+with linolenic acid and pyruvate. Among all of these subnet-
+soy-
+bean. Among these subnetworks, 60 were found to be
+works, six were known and the others were newly identified. partly validated in previous molecular biology studies
+In the same way, nine, one and six subnetworks were found
+(Table 4), 21 were found to be involved in known KEGG
+to have two, three and four significant nodes, respectively
+metabolic pathways (https/www.kegg.ipkegg/pathway.
+(Table S11).
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+I
+1114 Jin-Yang Liu et al.
+I
+I
+8
+a
+I
+I
+de
+de
+I
+I I
+a
+E
+a
+E
+a
+E de
+et
+ae
+de
+I
+E
+I
+I
+I
+I
+I I
+I
+I
+et
+et
+:
+:
+:
+: I
+I
+I I I a I E I I I a
+E
+I a
+E
+I
+I
+I
+I
+I I
+I
+I 3
+3
+I 2
+à
+2
+I
+I
+2 I
+I
+2 2
+2
+I
+I
+:
+:
+8
+E
+E
+E
+I
+I
+:
+I
+:
+2
+I
+I
+I
+à
+:
+:
+a
+E
+E
+5
+is
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+8
+I
+I
+I
+I
+I I
+I
+I
+I
+I I
+3
+I
+I I
+I
+I
+I I
+I
+2 et
+13
+88
+1
+4
+9 9
+9
+I
+I
+83 8
+8
+I
+I
+E =
+=
+==
+==
+=
+== =
+==
+= =
+==
+I
+I
+:
+a I a I a I I : E
+E
+: E a E
+I I I 2 I a I : I e : I 8 I 3 :
+:
+:
+:
+a
+I
+I
+I
+8
+a
+a
+I
+E
+e
+8
+a I 8
+:
+I
+de
+I
+e
+de
+I
+a et a
+8
+I
+E a
+I
+I
+a
+a € :
+et
+a
+et
+I
+by
+de et & : a et : ae et à € ae
+I
+I I
+et
+I
+: a a &
+I
+I
+a
+I
+I
+a a
+I
+I
+. : a &
+I
+I
+I &
+I I
+I
+I
+I
+I I
+I
+I
+I
+I
+i
+1 2
+2
+2
+2
+2
+2 I
+I
+2 I
+I
+I 8
+€
+8
+f
+E I
+I
+I I
+:
+iE
+I
+I
+I
+e
+i
+I
+I
+I
+I
+I
+I I I
+I
+I
+I
+I
+I I I I I I I
+I
+8
+I 8 a 8
+1
+a I
+I
+I
+w
+I
+I
+I
+E
+E
+I
+I
+I
+à
+2 €
+4
+7
+11
+N
+0o e
+&
+N a
+R
+I
+4
+E E
+i
+8 -
+:
+I
+-
+-
+-
+-
+-
+e
+O 2020 Society for Experimental The Plant Biology Journal, and John (2020), Wiley 103, & 1103-1124 Sons Ltd,
+RIG H TS LI N
+E
+
+
+
+3D networks reveal genetic bases of oil synthesis 1115
+de et
+a
+8
+: E a
+DE
+I I
+E
+ee a :
+e de I
+a
+a
+a I a
+E a I et E E a I et
+E I
+d
+ee I : ae
+de et de a
+I
+I
+et
+de
+de
+I
+I
+I I I
+I
+a
+:
+et
+I
+a
+a et a
+et
+et : et
+I I I ae et I E
+:
+E : E a E a I
+E
+I
+I
+I
+I
+I
+E
+E
+I
+I
+& I I I I I
+€
+I I I I
+I
+] 2
+2
+2
+2 2 2 2 2 2 2 2 I I 2 I 2 I
+I
+:
+:
+e
+8 1 :
+$ 8 # $
+I
+a
+8
+I
+à
+E
+I
+I
+3 I 3
+E
+I
+is
+I
+E E
+: a
+I
+:
+I
+: :
+8
+I
+I
+I
+I I I I
+I
+I
+I
+I
+I
+I
+I I
+I
+I
+I
+I
+I
+I I
+I
+I
+I
+I
+I
+I
+I I
+I I
+I
+I I
+I
+2 1f
+e
+6
+8 R2 # R 8 & 88
+1  oo o
+I
+I
+8
+e N
+I
+8 ==
+==
+==
+== = == = == = = = E E iE E E E
+I
+E I E I E E I
+I
+I
+I
+I I
+I I : I 8 I 8
+I I
+I
+I
+I
+I I
+I
+8
+a
+E
+:
+8
+8 de :
+ae
+I
+I
+I
+I
+I
+:
+e 8
+I
+I
+: :
+I
+E
+I
+a
+E a
+E
+a
+et E
+et
+I
+a E
+a : a de et a de et : € ee et
+ae
+I
+I I I
+E : a E 8
+I
+I
+I
+I I I I I I I I I I : I a I & I : I et I a
+I
+I
+1 2
+2
+2
+2 2 2 2 I I 2 2 2 I I I 2 2
+I 8
+e 8 :
+f
+E E
+I
+I
+I : :
+I
+:
+I
+in
+I
+i
+I
+e
+I
+a
+I
+9
+I
+I I
+I
+I
+I
+I
+I
+: 3 I
+I
+I
+I
+I
+I I I
+a
+I
+I
+I
+8
+I
+I
+I
+I
+I I
+I I I
+I
+I
+I
+I I I - I I I
+1
+I
+2 N
+80
+4 LD co o
+1
+4
+oE
+A 2 # 0o & 2a N R N
+E E
+i
+-
+I
+8
+-
+-
+== = == = = = == = == = = = = =
+1
+@ The 2020 Plant Society Journal, for (2020), Experimental 103, 1103-1124 Biology and John Wiley & Sons Ltd,
+I
+I
+RIG HTSLIN Ko
+I
+
+
+
+1116 Jin-Yang Liu et al.
+html) (Table S10) and 112 were newly identified in this
+E E
+study. Then, a series of GWAS approaches were used and
+I 2 e
+all of the significant QTNS across various environments or
+I
+approaches were used to mine candidate genes in this
+I
+study. This is because the combination of several GWAS
+E
+approaches has been recommended in a series of studies to
+à
+improve the power in QTN detection (Chang et al., 2018; He
+€ a
+et al., 2019; Xu et al., 2018; Li et al., 2019; Zhang et al.,
+I
+I
+I
+I
+E
+2019d), and in practice some true genes for the traits of
+iS
+interest are found to be linked with the QTNS detected by
+I
+only one GWAS method or in one environment (Zhang
+2 I
+I
+et al., 2019e). Finally, quite constructive, reasonable and
+ee
+interesting issues in these subnetworks have been dis-
+cussed in this study. The results provide the theoretical
+:
+basis for both the functional identification of seed oil-related
+-
+genes and quality improvement in soybean breeding.
+I
+Using the three-dimensional genetic networks, we may
+-
+mine some candidate genes to uncover some genetic rela-
+E
+tionships: for example, pyruvate and the three major nutri-
+iE
+: :
+ents; and amino acids and seed oil content. In discussion
+I
+I
+this
+we will focus on these relationships (Figure 5; Table 4).
+I 9 :
+GmAGT
+reveal
+I
+GmPDAT,
+and GmACP4
+the genetic
+I
+a
+I
+I
+relationships between pyruvate and three major nutrients
+2 22 1
+Nutrients mainly include amino acids, fatty acids and carbo-
+hydrates. In amino acid metabolism, the absence of pyru-
+vate affected
+amino
+I
+I
+E E
+the synthesis of
+acids (Orsi and Leese,
+2004; Feng et al., 2018), and AGT participated in the metabo-
+I
+lism of aspartic acid in A. thaliana (Zhang et al., 2013). In
+this study, GmAGT was found to be associated commonly
+I
+with pyruvate (metabolite) and palmitic acid (trait) in the
+I
+I
+pyruvate-GmAGT-palmitic acid-GmBSUGmWRilb subnet-
+a
+work (Table 5), indicating the genetic relationship of
+I
+GmAGTwith both
+and
+I
+E
+ae :
+pyruvate palmitic acid.
+I
+et . I
+Pyruvate and adenosine triphosphate (ATP) are the basic
+E :
+molecules in the synthesis of acetyl-CoA, and acetyl-CoA is
+the
+I
+main
+I I
+in
+I
+precursor fatty acid synthesis (Weiss et al., 1974).
+Meanwhile, ACP acts as a carbon carrier for fatty acid synthe-
+and GmPDAT: and GmDAGAT1
+I
+I
+sis,
+have been reported to be
+2 2
+related to oil synthesis (Lardizabal et al., 2008; Chen et al.,
+8
+2016; Liu, 2020). In this study, pyruvate was found to be sig-
+€
+nificantly associated with linolenic acid (P = 0.050) (Table 1)
+et
+and both GmPDAT and GmACP4 in the GmACP4-pyruvate-
+€
+E
+linolenic acid GmDAGAT1 subnetwork (Table 5). We
+deduce that pyruvate may regulate the synthesis of fatty
+E
+0e
+acids through the action of GmACP4, GmPDAT and GmDA-
+E
+:
+GAT1.
+e
+In addition, pyruvate is an important product of glycoly-
+sis (Chen et al., 2019). Based on the above information,
+I I
+I I
+I I
+therefore, GmPDAT, GmAGT and GmACP4 may be key
+genes in the genetic
+between
+I
+2 R 2a
+relationships
+pyruvate and
+4 I
+three major nutrients.
+a
+i
+8
+= ==
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLI N K
+
+
+
+3D networks reveal genetic bases of oil synthesis 1117
+Isoleucine Threonine
+Pyruvate
+Pyruvate Acetyl-CoA Fatty acid
+1
+metabolism
+PEP
+16:0-ACP -18:0-ACP -18:1-ACP
+Fat tacid
+Plastid
+Amino acid metabolism
+DG
+Phenylalanine
+TAG assembly
+GRLE
+GmPgsl GmPDAT
+GAFDAT
+ER
+TAG
+OB
+Figure 5. The genetic relationships between pyruvate and three major nutrients, and between amino acids and seed oil content are dissected by GmPDAT,
+GmAGT and GmACP4 (red), and GmPLDz and GmCds1 (pink), respectively, in the three-dimensional genetic networks. The genes are set in italics.
+GmPDAT, GmZF351 and GmPgs1 reveal the genetic
+linolenic acid, GmCds1 was found to be significantly
+relationship between amino acids and seed oil content
+associated with linolenic acid, and the interaction
+between locus Chr18-4720420 and the environment was
+Although seed oil content in soybean is negatively corre- found
+to be significantly associated with linolenic acid.
+lated with seed protein content, knowledge about the
+Around Chr18-4720420, GmCds1 was mined and anno-
+molecular mechanism of the negative correlation is limited
+tated with phosphatidylglycerol biosynthesis in the soy-
+(Chaudhary et al., 2015; Patil et al, 2017). Warrington et al.
+bean metabolic pathway database. Zhou et al. (2013)
+(2015) and Patil et al. (2017) revealed a significant correla-
+showed that CDS can influence the biosynthesis of
+tion of crude protein with amino acids, especially threonine.
+phosphatidylglycerol in Arabidopsis. Meanwhile, GmCds1
+Note that threonine was the upstream mediator of isoleu-
+had significantly higher expression in cultivated soy-
+cine (Guo et al., 2015). If the isoleucine content changed,
+beans than in wild soybeans (Figure 2b). More impor-
+the threonine content would be influenced, followed by pro- tantly, soybean seeds in the plants with overexpression
+tein and oil contents. In this study, GmZF351 was found to
+and interference of GmPDAT showed significant
+interact
+with GmPDAT in the detection of PPIs, GmZF351
+changes
+in linolenic acid and linoleic acid, as compared with the
+and GmPDAT were found to be associated with phenylala-
+controls
+As
+(Liu, 2020). we know, CDP-DAG synthasePAP
+nine and linolenic acid (Table 4), respectively, and GmZF351
+(CDS) and phosphatidate phosphatase (PAP), along with
+was reported to increase TAG content in soybean seed (Li
+phosphatidic acid as the substrate, can form CDP-DAG
+et al., 2017). In addition, GmPgs1 was found to be signifi-
+and DAG, respectively (Nakamura, 2017). In extreme
+cantly associated with isoleucine and linolenic acid in this
+environments, GmCds1 may thus affect the synthesis of
+study (Table 5), whereas Pgs1 participated in the biosynthe-
+DAG, which may reduce the synthesis of TAG, with the
+sis of phosphatidylglycerol (Tanoue et al., 2014). Thus,
+assistance of GmPDAT, possibly resulting in a decrease
+GmPDAT, GmZF351 and GmPgs1 may be key genes in in seed oil-related traits.
+amino acid and oil synthesis, which may reveal the genetic
+In
+relationship between amino acids and seed oil synthesis.
+addition, we conducted two analyses for environ-
+mental factors. First, we conducted correlation analysis
+between seed oil-related traits and the average tempera-
+GmCds1, along with average temperature and rainfall,
+ture from June to September in 2011, 2012 and 2014-
+reveals interannual variation of seed oil content in
+2016. As a result, average temperatures in early and all of
+soybean
+July were found to have significant correlation with lino-
+A paired Student's t-test showed that all six oil-related
+leic acid (r = 0.907, P 0.007; r= 0.831, P = 0.020), respec-
+traits in 286 soybean accessions were significantly higher tively (Table S13). Then, we calculated the rainfall from
+in 2015 and 2016 than in 2014 (P< 1E-04; Figure 1; June to September and found that the rainfall in 2015 and
+Table S12). We discuss the reasons here.
+2016 was 1.57 and 1.42 times larger than in 2014
+From the genetic perspective, several types of evi-
+(Table S14), whereas seed oil content decreased by 5.4
+dence were obtained. In this study, GmPDAT was found
+and 12.5% in 2015 and 2016, respectively, as compared
+to be significantly associated with both pyruvate and with that in 2014.
+@ 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+I
+1118
+I
+Jin-Yang Liu et al.
+I
+e 8 :
+: 3
+e E
+E
+1
+I
+et
+:
+et E : a
+€
+t
+e
+I
+I
+I
+I I : I E E I à E I I et E : et
+3
+LE
+: I I
+E
+a
+à
+i
+I
+i
+I i
+8 a
+S
+9
+:
+9
+9
+:
+13 1
+H
++
++
++
++
++
+: :
+I
+I
+5
+I
+I
+3
+9 I
+I
+1 1
+I
+I
+3
+9
+I
+8
+3 :
+I
+E
+8
+8
+2
+8 a : 1 et
+I
+&
+I
+
+H
+H
+H
++
++
+H : E E &
+I i €
+:
+E
+8
+E
+:
+8 € : E E
+I
+E
+be
+I
+a
+à
+I
+I
+à
+I I : I I I
+E
+I
+1 :
+2
+e
+e
+a
+a
+e
+E I I
+:
+a a
+:
+:
+I
+I
+8
+8 2
+3
+8
+8
+8
+8
+H
++
++ de
+H
++
+H
+8
+I
+3 I
+2 I
+3 I
+3 E
+E
+:
+E :
+I
+I 3 I
+8
+8
+8
+I
+&
+I
+8
+I
+8
+* oo
++
++
++
++
+H
+E
+I I
+e : €
+8
+E
+5
+8
+E
+: € :
+I
+I i : :
+i
+a
+:
+.
+I
+j
+:
+&
+I I 3 3
+9
+:
+8
+8
+I
+I
+o3
+&
+H e
+H
++
++
+H
++
+I I
+i
+3 I
+8 I
+a I
+8 I
+8 I
+& I 3 : €
+e I E
+I
+E
+5
+8
+5
+5
+8
+a
+II 9 I 9
+I
+E N
+H
++
+H
+H
++
+H
+I !
+i €
+a
+8
+1
+e
+a
+5 5 € I
+I
+e
+I
+I
+I
+a
+à
+à
+8
+a
+8
+I I in is
+8
+a
+I
+€
+E
+I
+f
+is
+E
+3 E
+3 E
+I
+8 E
+3 E
+3
+:
+H
+H
++
+H
+E
+I
++
+I
+H
+3 I
+5 I 5 I
+: I E I E
+E
+I
+: I I
+I
+I
+I
+:
+:
+8
+a
+:
+5 I e : E :
+i 9
+H
+H
+H
+H
+H
+H : o o :
+-
+I
+I : €
+i
+i
+:
+i
+:
+E I I I I 8
+a
+E
+H e 8 :
+I e
+Ln
+i
+E
+i
+I
+E
+1
+a
+o
+4
+un
+I
+c
+I I I I
+O 2020 Society for Experimental The Plant Biology Journal, and John (2020), Wiley 103, & 1103-1124 Sons Ltd,
+RIGHTSLIN K4
+E
+
+
+
+3D networks reveal genetic bases of oil synthesis 1119
+Therefore, GmCds1 and GmPDAT, along with the aver-
+Measurement for 52 acyl lipid-related metabolites using
+age temperature in July and rainfall, may influence the
+LC-MS
+change of seed oil-related traits across years.
+A liquid chromatography-mass spectrometry system was used for
+the relative quantification of widely
+metabolites in
+EXPERIMENTAL PROCEDURES
+targeted
+pods
+harvested at 55 DAF. The beans were crushed using a mixer mill
+Association populations for phenotypic and metabolic
+(MM 200; Retsch, htps/www.retsch.com) by MIX-3000 (Hang-
+zhou Miou Instrument, Co., Ltd., http:/miulab.com), 100 mg dried
+GWAS
+powder was weighed and extracted overnight at 4°C with 1.0 ml
+As described by Zhou et al. (2015), the 286 soybean accessions pure methanol acetonitrile water (1:1). The sample was cen-
+trifuges at 14 000 g and 4°C for 15 before 1 of the
+were
+randomly selected from six geographic regions in China
+min,
+ul
+pre-
+using a stratified random sampling method, and included 14 wild, pared sample was injected into the LC-20AD system (Shimadzu,
+153 landrace and 119 bred accessions. All the accessions were
+htps@/wwwshinadruicoml. Separation was performed in a C18
+planted in three-row plots in a completely randomized design at column (150 x 2.1 mm, 3.5 um) using solvent A (water containing
+the Jiangpu Experimental Station of Nanjing Agricultural Univer-
+0.01% heptafluorobutyric acid and 10.1% formic acid) and solvent B
+sity (Nanjing, 31914'N, 118°22'E) in 2014, 2015 and 2016. The plots
+(acetonitrile containing 0.01% heptafluorobutyric acid and 0.1%
+were 1.5 m wide and 2.0 m long. Seeds for each accession in formic acid) as mobile phases, with a column temperature of
+2014-2016 were harvested from the middle row in three-row plots 50°C. The following MS conditions were used: gas temperature,
+and used to measure seed oil content, palmitic acid, stearic acid, 325°C; drying gas, 11 I/min; nebulizer, 40 psig; fragmentor, 120 V;
+oleic acid, linoleic acid and linolenic acid at the State Key Labora- and skimmer, 65 V. The instrument was set to acquire over the m/z
+tory of Crop Genetics and Germplasm Enhancement of Nanjing
+range of 40-1200 with an acquisition rate of 1.2 spectra sec-
+Agricultural University. Among the 286 accessions in 2015, 214
+(Nygren et al., 2011). Quantification of metabolites was carried out
+were selected at 55 days after flowering (DAF) and used to mea-
+using the standard curve method (Nygren et al., 2011;Thiele et al.,
+2012; Wen et al., 2015).
+sure acyl lipid-related metabolites at Beijing Pufeng Technology
+Co., Ltd. (Table S15; hmpelmaspeaisabiomarteml. The mixture
+The 52 acyl lipid-related metabolites measured in this study
+with at least three pods each from different plants for each acces- included nine organic acids [pyruvic, succinic, fumaric, malic, pal-
+sion was stored at -80°C before extraction and then extracted for
+mitic (metabolite, m), stearic (m), oleic (m), linoleic and linolenic
+metabolite profiling.
+acids (m)), - five soybean isoflavone (daidzein, daidzin, genistein,
+genistin and glycitin), six PEs [PE (34:1) (16:0/18:1), PE (34:2) (16:1/
+18:1), PE (36:2) (18:1/18:1), PE (36:3) (18:2/18:1), PE (36:4) (16:0/
+Measurement for six oil-related traits in 286 soybean
+20:4) and PE (36:5) (16:1/20:4)), six PCs [PC (34:1) (16:0/18:1),
+accessions
+PC (34:2) (16:0/18:2), PC (36:2) (18:0/18:2), PC (36:3) (18:1/18:2),
+PC (36:4) (18:1/18:3) and PC (36:5) (20:4/16:1)1, six Pls [PI (34:1)
+Approximately 10 g of seeds was collected from five plants per
+(16:0/18:1), PI (34:2) (16:0/18:2), PI (34:3) (16:1/18:2), PI (36:2) (18:0/
+accession. Based on the method of Baydar and Akkurt (2001),
+18:2), PI (36:3) (18:0/18:3) and PI (36:4) (16:0/20:4)] and 20 amino
+five fatty acids (stearic, palmitic, oleic, linoleic and linolenic acids (alanine, arginine, y-aminobutyric acid, phenylalanine, gly-
+acids) (Fang et al., 2017; Zuo et al., 2019; Zhang et al., 2019b) cine, glutamic acid, glutamine, methionine, lysine, tyrosine, leu-
+were measured for each accession by gas chromatography with cine, proline, tryptophan, serine, threonine, aspartic acid,
+a flame ionization detector and a Permabond free fatty acid
+asparagine, isoleucine, valine and histidine). The number of bio-
+phase (FFAP) stainless steel column (50 m x 0.2 mm x 0.33 um;
+logical replicates for each accession was two.
+ThermoFisher Scientific, htps.bw.hemofaher.com at Nan-
+jing Agricultural University in 2014, 2015 and 2016. After drying
+GWAS for oil-related traits and acyl lipid-related
+at 70°C for 3h, approximately 2g of mature and well-rounded metabolites
+seeds were milled to a fine powder with an electric grinder.
+Solid fractions were filtered using a 0.20-mm sieve, then 0.03 g The pre-processing procedures for phenotypic and metabolic
+of soybean powder was placed in a 2-ml tube with 0.5 ml of GWAS were as follows. Only SNPS with minor allele frequencies
+2 mg ml1 heptadecanoic acid (used as an internal standard) and
+(MAF) of 20.05 and missing rates of <0.1 in the mapping popula-
+1ml N-hexane, and then shaken for 30 sec and placed at 20-
+tions were used in the GWAS, the lines with more than 90% miss-
+30°C for 5 h. A 750-ul portion of the hexane layer was trans- ing for trait phenotypes or metabolites were filtered out and the
+ferred to a new 2-ml tube with 0.5 ml of 0.4 M KOH-methanol,
+metabolites with more than 50% missing in 214 lines were
+then shaken for 2 min and placed at room temperature for 2 h.
+excluded (Liaw and Wiener, 2002). The population structure was
+The hexane layer was transferred to a new 2-ml tube, cen-
+calculated using the Bayesian clustering program FASTSTRUCTURE
+trifuged for 5 min at 6000 rpm (4500 g), with 500 ul of super- (Raj et al., 2014). Six oil-related traits in 286 accessions and 52 acyl
+natant kept for further GC analysis. A 1-ul portion of the
+lipid-related metabolites in 214 accessions, along with the above
+prepared sample was injected into the Trace GC system (Ther- SNP information, were used to conduct phenotypic and metabolic
+moFisher Scientific), which was equipped with a DB-23 column
+GWAS using GEMMA (Zhou and Stephens, 2012), mrMLM (Wang
+(60 m x 0.25 mm x 0.25 um; Agilent, htps_/www.agient.comi
+et al., 2016), ISIS EM-BLASSO (Tamba et al., 2017), pLARmEB (Zhang
+at a split ratio of 1:20. The oven was programmed as follows: et al., 2017b), FASTmIEMMA (Wen et al., 2018) and pKWmEB (Ren
+150°C for 1 min, ramped to 200°C at 4°C min - ramped to 220°C et al., 2018) methods. The K matrix was calculated in the above
+at 3°C min -1 and finally ramped to 250°C at 25°C min-, then GEMMA and mrMLM programs. The threshold for significant QTN in
+held for 5 min with 1.1 ml min -1 helium as the carrier gas (Lisec
+phenotypic and metabolic GWAS was set at PS 1/54 294 = 1.84E-
+et al., 2006; Marques et al., 2006). Using methyl heptadecanoate 05 for GEMMA and LOD > 2.5 for the others (Xu et al., 2018; Zhang
+(C17) as an internal standard, oil content was calculated by the
+et al., 2019d). All the mQTNs were obtained from each biological
+method described by Zhou et al. (2016).
+replicate.
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+1120 Jin-Yang Liu et al.
+The interactions between QTNs and environment (QES) were
+Construction and visualization of three-dimensional
+detected using the quantitative trait interaction (G x E) module in
+PLINK 1.9 Ihmplnaz.bwh.harvandedupinkanalshunifegel (Pur- genetic networks among oil-related traits, metabolites
+cell et al., 2007), and the critical P-value for significant QEs was set
+and candidate genes
+at 0.001.
+The QTN-QTN interactions (QQs) were detected using the
+In the three-dimensional genetic networks, oil-related traits,
+online software PEPIS (Zhang et al., 2016c) (htp/ibioinfo.noble.org/
+metabolites and candidate genes were the nodes of the networks,
+PolyGenic.OTU/Home.gy, and the critical P value for significant
+and the genetic relationships between oil-related traits and candi-
+QQs was set at a LRT of 213.815. The protein-protein interactions date genes, between metabolites and candidate genes, between
+for candidate genes in phenotypic and metabolic GWAS were
+oil-related traits and metabolites, and between candidate genes
+detected using the online tools STRING (htps//string-db.org/h (Jen- were the edges of the networks. The genetic relationships
+between oil-related traits and candidate genes were derived from
+sen et al., 2009).
+phenotypic GWAS, the relationships between metabolites and
+Genetic association analysis between oil-related traits and
+candidate genes were derived from metabolic GWAS, the relation-
+metabolites
+ships between oil-related traits and metabolites were derived from
+the MCP, SCAD and Student's t-test analyses, and the relation-
+minimax concave penalty (MCP; Zhang et al., 2006), SCAD (Fan
+ships between candidate genes were derived from the detection
+and Li, 2001) and the Student's t-test were used to construct of both QQs and PPIs. Three-dimensional genetic networks with
+the genetic relationships between six oil-related traits and 52
+the above nodes, edges and interactions were constructed by the
+acyl lipid-related metabolites. To reduce experimental error, the
+open-source software CYTOSCAPE (Saito et al., 2012).
+average of each seed oil-related trait in each accession across
+2014-2016 was used to conduct the above analysis. Statistical sig-
+Hypothesis tests for the differences of traits, metabolites
+nificance was calculated using the Ftest for the total regression of and gene expressional levels in subnetworks between five
+each oil-related trait on several metabolites and the Student's
+high-oil and five low-oil soybean accessions
+t-test for the regression of each oil-related trait on each metabo-
+lite. *, ** and *** indicated significant probability levels of 0.05, Five high-oil (accession nos 95, 146, 159, 183, and 215, with an
+0.01 and 0.001, respectively.
+average oil content of 18.85 + 0.81%, SE) and five low-oil (acces-
+sion nos. 214, 260, 261, 270, and 271, with an average oil content
+Candidate gene identification
+of 13.83 + 1.69%) soybean accessions were selected to conduct
+hypothesis tests for the differences oftraits and metabolites in the
+Candidate genes for each oil-related trait and metabolite were constructed subnetworks, whereas four high-oil (accession nos.
+mined in two steps. First, all genes between the 100-kb upstream 101, 236, 257 and 276) and two low-oil (accession nos. 265 and
+and downstream regions for each of the significant QTNS or 272) soybean accessions were selected to conduct hypothesis
+mQTNS were mined. Then, we downloaded the soybean meta- tests for the expression level differences of genes in the con-
+bolic pathway database, KEGG annotation (htps.lsoycycsoybase.
+structed subnetworks. Trait phenotypes for each accession were
+org/) and soybean genome annotation database and gene ontol- averages across 3 years (2004-2006), metabolites in pods har-
+ogy terms (htps/soybase.org/genomeannotation), and identified
+vested at 55 DAF were measured by LC-MS in 2015 and the
+the genes or their Arabidopsis homologous genes, which were
+expression levels of genes at 15 DAF were measured by the RPKM
+annotated with fatty acid biosynthesis, fatty acid activation, phos- values based on RNA-sequenced data. The Student's t-test was
+phatidylglycerol biosynthesis, flavonoid biosynthesis, amino acid
+adopted for hypothesis testing.
+transporters, brassinosteroid biosynthesis I, glycolysis, triacylglyc-
+erol biosynthesis, cellulose biosynthesis, jasmonic acid biosynthe-
+Cloning and generation of plant LUC vectors
+sis and TCA cycle.
+Soybean (Glycine max Willimas 82) and Nicotiana benthamiana
+Differentially expressed gene based on RNA-sequenced
+plants were grown under 16 h light/8 h dark at 25°Cfor 30-60 days.
+data
+Soybean total RNA was isolated using TRIzol reagent (Invitrogen),
+the first-strand CDNA was then synthesized using Moloney murine
+Four domesticated soybeans (accession nos 101, 236, 257 and leukemia virus (M-MLV) reverse transcriptase (Promega, https:/l
+276) with high seed oil content (20.9, 22.3, 17.2, and 17.8%, respec- www.promega.com). PCR-amplified DNA fragments were cloned
+tively) and two wild soybeans (accession nos 265 and 272) with
+into the N-LUC (LUC-luciferase) and C-LUC vector(Chen et al., 2008;
+low seed oil content (11.9 and 12.5%, respectively) were selected
+Zhang et al., 2018a,b). The full-length coding sequence (CDS) of
+for RNA-seq analysis. Seeds were collected at five seed develop-
+GmPDAT and GmFATA2 were cloned into the BamHI and Sall sites
+ment stages (15, 25, 35, 45, and 55 DAF) for RNA extraction in
+ofJW-771-N, as well as Kpnl and Sall sites of JW-772-C, to produce
+2014. Total RNA was extracted using TRizol reagent (Invitrogen,
+N-gene and C-gene recombination vectors for the LCI assays (Kre-
+now ThermoFisher Scientific, hmpslbw.hermofiaher.com
+nek et al., 2015). Primers are listedinTable S16.
+according to the manufacturer's instructions. The RNA was ana-
+lyzed in an Illumina Hiseq 2500 Sequencer. Sequence reads were
+Detection of interactions in vivo
+aligned using sequence alignment map (SAM) format (Li et al.,
+2009). The raw reads were cleaned by removing reads with adap-
+As described by Zhang et al., (2018a,b), the recombinant plasmids
+ters and those of low quality. Clean reads were mapped to refer- like N-GmPDAT-C-GmFATA2 N-GmPDATHC-LUC, N-LUC+C-
+ence sequences using SOAPALIGNER/SOAP2 (htp./soap.genomics.
+GmGmFATA2 or N-LUC+C-LUC were transfected into Agrobac-
+orgcnisoapdenovo.htmil. Mismatches of no more than two bases terium tumefaciens (GV3101). After growing for 48 h under 16 h
+were allowed in the alignment. The gene expression level was cal-
+light/8 h dark, the leaf abaxial epidermis was daubed with 1 mM
+culated by using the reads per kb per million reads (RPKM)
+luciferin (E1602; Promega), and the resulting luciferase signals
+method (Mortazavi et al., 2008).
+were captured by the Tanon-5200 image system (Tanon, https:/l
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+3D networks reveal genetic bases of oil synthesis 1121
+www.biotanon.com). These experiments were repeated three Table S5. Nine QTN-environment interactions for seed oil-related
+times to get similar results.
+traits in soybean.
+Table S6. Ten QTN-QTN interactions for seed oil-related traits in
+ACKNOWLEDGEMENTS
+soybean.
+This work was supported by the National Natural Science Founda- Table S7. Candidate genes in genome-wide association studies for
+tion of China (31871242 and 31571268), Huazhong Agricultural
+52 metabolites.
+University Scientific & Technological Self-Innovation Foundation Table S8. Forty-eight metabolic QTNS detected by at least two
+(2014RC020) and the State Key Laboratory of Cotton Biology Open
+GWAS approaches.
+Fund (CB2019B01).
+Table S9. Sixteen pairs of significant PPls between 36 candidate
+genes derived from phenotypic and metabolic GWAS.
+AUTHOR CONTRIBUTIONS
+Table S10. One hundred and thirty-three genetic subnetworks
+YMZ conceived of the project and its components. JYL, PL,
+among oil-related traits, metabolites and candidate genes.
+Table S11. The significances for the differences of traits (t),
+YWZ, JFZ, GL, XH and YMZ performed field experiments,
+metabolites (m) and gene expression levels in 133 subnetworks
+bioinformatics analysis and real data analysis. JYL and JFZ
+between high-oil and low-oil soybean accessions.
+performed the experimental LCI assays. YMZ, JYL and Table S12. Paired Student's t-tests and their Pvalues for seed oil-
+JMD wrote and revised the article. All authors reviewed
+related traits between 2014 and others.
+the article for publication.
+Table S13. Correlation analysis between seed oil-related traits and
+average temperature at the seed developmental stages.
+CONFLICT OF INTEREST
+Table S14. Rainfall and annual averages (in mm) for 2014-2016.
+Table S15. Two hundred and fourteen accessions used to measure
+The authors declare that they have no conflicts of interest.
+acyl lipid-related metabolites at 55 days after flowering in 2015.
+Table S16. Primers used in Luciferase complementation image
+DATA AVAILABILITY STATEMENT
+assays.
+Supporting information is available from the Wiley Online
+REFERENCES
+Library or from the author.
+Araujo, W.L., Martins, A.O., Fernie, A.R. and Tohge, T. (2014) 2-Oxoglu-
+tarate: linking TCA cycle function with amino acid, glucosinolate, flavo-
+SUPPORTING INFORMATION
+noid, alkaloid, and gibberellin biosynthesis. Front. Plant. Sci. 5, 552.
+Baydar, N.G. and Akkurt, M. (2001) Oil content and oil quality properties of
+Additional Supporting Information may be found in the online ver-
+some grape seeds. Turk. J. Agric. For. 25, 163-168.
+sion ofthis article.
+Bonaventure, G., Salas, J.J., Pollard, M.R. and Ohlrogge, J.B. (2003) Disrup-
+tion of the FATB gene in Arabidopsis demonstrates an essential role of
+Figure S1. Chromosomal distribution of oil-related trait QTNS for
+saturated fatty acids in plant growth. Plant Cell, 15, 1020-1033.
+linoleic acid (blue), oleic acid (red), palmitic acid (green), stearic
+Chang, F., Guo, C., Sun, F., Zhang, J., Wang, Z., Kong, J., He, Q., Sharmin,
+acid (pink), linolenic acid (navy blue) and seed oil content (black)
+R.A. and Zhao, T. (2018) Genome-wide association studies for dynamic
+on the soybean genome positions (x-axis, cM).
+plant height and number of nodes on the main stem in summer sowing
+Figure S2. Chromosomal distribution of metabolic QTNS for
+soybeans. Front. Plant Sci. 9, 1184.
+Charron, C.S., Allen, F.L., Johnson, R.D., Pantalone, V.R. and Sams,
+amino acids (grey), daidzin group (green), organic acid (blue),
+C.E. (2005) Correlations of oil and protein with isoflavone concen-
+fatty acid (orange), and PC, PE and PI (pink) on the soybean gen-
+tration in soybean [Glycine max (L.) Merr.]. J. Agric. Food Chem.
+ome (x-axis, CM). Abbreviations: m1, alanine; m2, arginine; m3, Y
+53, 7128-7135.
+aminobutyric acid; m4, phenylalanine; m5, glycine; m6, glutamic
+Chaudhary, J., Patil, G.B., Sonah, H., Deshmukh, R.K., Vuong, T.D.,
+acid; m7, glutamine; m8, methionine; m9, lysine; m10, tyrosine;
+Valliyodan, B. and Nguyen, H.T. (2015) Expanding omics resources
+m11, leucine; m12, proline; m13, tryptophan; m14, serine; m15,
+for improvement of soybean seed composition traits. Front. Plant
+threonine; m16, aspartic acid; m17, asparagine; m18, isoleucine;
+Sci. 6, 1021.
+m19, valine; m20, histidine; m21, daidzin; m22, daidzein; m23, Chen, B., Wang, J., Zhang, G., Liu, J., Manan, S., Hu, H. and Zhao, J. (2016)
+glycitin; m24, genistein; m25, genistin; m26, pyruvate; m27, suc-
+Two types of soybean diacylglycerol acyltransferases are differentially
+involved in triacylglycerol biosynthesis and response to environmental
+cinic acid; m28, malic acid; m29, fumaric acid; m30, linoleic acid;
+stresses and hormones. Sci. Rep. 6, 28541.
+m31, stearic acid; m32, linolenic acid; m33, oleic acid; m34, palmi-
+Chen, L., Chen, X.W., Huang, X., Song, B.L., Wang, Y. and Wang, Y.G.
+tic acid; m35, PC (34:1); m36, PC (34:2); m37, PC (36:2); m38,
+(2019) Regulation of glucose and lipid metabolism in health and disease.
+PC (36:3); m39, PC (36:4); m40, PC (36:5); m41, PE (34:1); m42,
+Sci. China Life Sci. 62(11), 1420-1458.
+PE (34:2); m43, PE (36:2); m44, PE (36:3); m45, PE (36:4); m46, Chen, H., Zou, Y., Shang, Y., Lin, H., Wang, Y., Cai, R., Tang, X. and Zhou,
+PE (36:5); m47, PI (34:1); m48, PI (34:2); m49, PI (34:3); m50,
+J.M. (2008) Firefly luciferase complementation imaging assay for pro-
+PI (36:2); m51, PI (36:3); m52, PI (36:4).
+tein-protein interactions in plants. Plant Physiol. 146, 368-376.
+Table S1. Phenotypic characteristics for seed oil-related traits in Chen, L., Zheng, Y., Dong, Z., Meng, F., Sun, X., Fan, X., Zhang, Y., Wang,
+M. and Wang, S. (2017) Soybean (Glycine max) WRINKLED1 transcrip-
+286 soybean accessions.
+tion factor, GmWRI1a, positively regulates seed oil accumulation. Mol.
+Table S2. Phenotypic characteristics for metabolites (ug g')in 214
+Genet. Genomics, 293, 401-415.
+soybean accessions.
+Chen, W., Gao, Y., Xie, W. et al (2014) Genome-wide association analyses
+Table S3. Candidate genes in genome-wide association studies for
+provide genetic and biochemical insights into natural variation in rice
+seed oil-related traits.
+metabolism. Nat Genet. 46, 714-721.
+Chen, W., Wang, W., Peng, M. et al. (2016) Comparative and parallel gen-
+Table S4. Seventy-seven QTNS of seed oil-related traits detected
+ome-wide association studies for metabolic and agronomic traits in cere-
+commonly in two years or by at least two methods.
+als. Nat. Commun. 7, 12767.
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+1122 Jin-Yang Liu et al.
+Diebold, R., Schuster, J., Daschner, K. and Binder, S. (2002) The branched- Lardizabal, K., Effertz, R., Levering, C., Mai, J., Pedroso, M.C., Jury, T.,
+chain amino acid transaminase gene family in Arabidopsis encodes plas-
+Aasen, E., Gruys, K. and Bennett, K. (2008) Expression of Umbelopsis
+tid and mitochondrial proteins. Plant Physiol. 129, 540-550.
+ramanniana DGAT2A in seed increases oil in soybean. Plant Physiol. 148,
+Dong, X., Gao, Y., Chen, W., Wang, W., Gong, L., Liu, X. and Luo, J. (2015)
+89-96.
+Spatio-temporal distribution of phenolamides and the genetics of natural
+Leamy, L.J., Zhang, H., Li, C., Chen, C.Y. and Song, B.H. (2017) A genome-
+variation of hydroxycinnamoyl Ispermidine in rice. Mol. Plant, 8, 111-121.
+wide association study of seed composition traits in wild soybean (Gly-
+Fan, J. and Li, R. (2001) Variable selection via nonconcave penalized likeli-
+cine soja). BMC Genom. 18(1), 18.
+hood and its oracle properties. J. Amer. Statist. Assoc. 96, 1348-1360.
+Lemaitre, T. and Hodges, M. (2006) Expression analysis of Arabidopsis thali-
+Fan, J., Yan, C. and Xu, C. (2013) Phospholipid: diacylglycerol acyltrans-
+ana NAD- dependent isocitrate dehydrogenase genes shows the pres-
+ferase- -mediated triacylglycerol biosynthesis is crucial for protection
+ence of a functional subunit that is mainly expressed in the pollen and
+against fatty acid-induced cell death in growing tissues of Arabidopsis.
+absent from vegetative organs. Plant Cell Physiol. 47, 634-643.
+Plant J. 76, 930-942.
+Li, H., Handsaker, B., Wysoker, A., Fennell, T., Ruan, J., Homer, N., Marth,
+Fang, C., Ma, Y., Wu, S. et al. (2017) Genome-wide association studies dis-
+G., Abecasis, G. and Durbin, R. (2009) The sequence alignment/map for-
+sect the genetic networks underlying agronomical traits in soybean. Gen-
+mat and SAMtools. Bioinformatics, 25, 2078-2079.
+ome Biol. 18, 161.
+Li, K., Wang, D., Gong, L., Lyu, Y., Guo, H., Chen, W., Jin, C., Liu, X., Fang,
+Feng, Y., Zhang, Y., Wang, Y., Liu, J., Liu, Y., Cao, X. and Xue, S. (2018) Tun-
+C. and Luo, J. (2019) Comparative analysis of metabolome of rice seeds
+ing of acyl-ACP thioesterase activity directed for tailored fatty acid syn-
+at three developmental stages using a recombinant inbred line popula-
+thesis. Appl. Microbiol. Biotechnol. 102, 3173-3182.
+tion. Plant J. 100, 908-922.
+Fiehn, 0. (2002) Metabolomics - The link between genotypes and pheno- Li, Q.T., Lu, X., Song, Q.X. et al (2017) Selection for a zinc-finger protein
+types. Functional Genomics, 48, 155-171.
+contributes to seed oil increase during soybean domestication. Plant
+Ge, L., Yu, J., Wang, H., Luth, D., Bai, G., Wang, K. and Chen, R. (2016)
+Physiol. 173, 2208-2224.
+Increasing seed size and quality by manipulating BIG SEEDS1 in legume Li, Y., Beisson, F., Koo, A.J., Molina, L, Pollard, M. and Ohlrogge, J. (2007)
+species. Proc. Natl Acad. Sci USA, 113, 12414-12419.
+Identification of acyltransferases required for cutin biosynthesis and pro-
+Giberti, S., Funck, D. and Forlani, G. (2014) A1Pyroline-Scatboxlate
+duction of cutin with suberin-like monomers. Proc. Natl Acad. Sci. USA,
+reductase from Arabidopsis thaliana: stimulation or inhibition by chlo-
+104, 18339-18344.
+ride ions and feedback regulation by proline depend on whether NADPH Liaw, A. and Wiener, M. (2002) Classification and regression by ran-
+or NADH acts as co-substrate. New Phytol. 202, 911-920.
+domForest. R. News, 2, 18-22.
+Goto, D.B. and Naito, S. (2002) AtMRD1 and AtMRU1, two novel genes with Li-Beisson, Y., Shorrosh, B., Beisson, F. et al. (2013) Acyl-Lipid metabolism.
+altered mRNA levels in the methionine over-accumulating mto1-1
+Arabidopsis Book, 11, e0161.
+mutant tof Arabidopsis thaliana. Plant CellPhysiol. 43, 923-931.
+Lin, J.S. and Lai, E.M. (2017) Protein-Protein Interactions, Co-Immunoprecip-
+Guo, Y., Xu, J., Han, M. and Zhang, W. (2015) Generation of mutant
+itation. Methods Mol. Biol. 1615, 211-219.
+threonine dehydratase and its effects on isoleucine synthesis in
+Lindqvist, Y., Huang, W., Schneider, G. and Shanklin, J. (1996) Crystal struc-
+Corynebacterium glutamicum. World J. Microbiol. Biotechnol. 31,
+ture of delta9 stearoyl-acyl carrier protein desaturase from castor seed
+1369-1377.
+and its relationship to other di-iron proteins. EMBO J. 15, 4081-4092.
+He, L., Xiao, J., Rashid, K.Y., Yao, Z., Li, P., Jia, G., Wang, X., Cloutier, S. Lisec, J., Schauer, N., Kopka, J., Willmitzer, L. and Fernie, A.R. (2006) Gas
+and You, F.M. (2019) Genome-wide association studies for pasmo resis-
+chromatography mass spectrometry-based metabolite profiling in plants.
+tance in Flax (Linum usitatissimum L.). Front. Plant Sci. 9, 1982.
+Nat. Protoc. 10, 387-396.
+Hwang, E.Y., Song, Q., Jia, G., Specht, J.E., Hyten, D.L., Costa, J. and Cre-
+Liu, J.Y. (2020) Genetic network of seed oil-related traits and functional anal-
+gan, P.B. (2014) A genome-wide association study of seed protein and
+ysis of gene GmPDATin soybean (Glycine max) [D]. Nanjing Agricultural
+oil content in soybean. BMC Genom. 15, 1.
+University.
+Huang, S., Taylor, N.L., Stroher, E., Fenske, R. and Millar, A.H. (2013) Succi- Liu, Y.F., Li, Q.T., Lu, X. et al. (2014) Soybean GmMYB73 promotes lipid
+nate dehydrogenase assembly factor 2 is needed for assembly and activ-
+accumulation in transgenic plants. BMC Plant Biol. 14, 73-89.
+ity of mitochondrial complex ii and for normal root elongation in Lopez-Castillo, L.M., Jiménez-Sandoval, P., Baruch-Torres, N., Trasvina-Are-
+Arabidopsis. Plant tJ. 733, 429 -441.
+nas, C.H., Diaz-Quezada, C., Lara-Gonzalez, S., Winkler, R. and Brieba,
+Jako, C., Kumar, A., Wei, Y., Zou, J., Barton, D.L., Giblin, E.M., Covello, P.S.
+L.G. (2016) Structural basis for redox regulation of cytoplasmic and
+and Taylor, D.C. (2001) Seed-specific over-expression of an Arabidopsis
+chloroplastic triosephosphate isomerases from Arabidopsis thaliana.
+CDNA encoding a diacylglycerol acyltransferase enhances seed oil con-
+Front. Plant Sci. 7, 1817.
+tent and seed weight. Plant Physiol. 126, 861-874.
+Li, S., Song, T., Kosma, D.K., Parsons, E.P., Rowland, 0. and Jenks, M.A.
+JasienieckaGazarkiewic, K., Lager, L., Carlsson, A.S., Gutbrod, K., Peisker,
+(2009) Arabidopsis CER8 encodes LONG-CHAIN ACYL-COA SYNTHE-
+H., Dormann, P., Stymne, S. and Banas, A. (2017) Acyl-COA: Lysophos-
+TASE 1 (LACS1) that has overlapping functions with LACS2 in plant wax
+phatidylethanolamine acyltransferase activity regulates growth of Ara-
+and cutin synthesis. Plant J. 59, 553-564.
+bidopsis. Plant Physiol. 174(2), 986-998.
+Lu, X., Li, Q.T., Xiong, a. et al (2016) The transcriptomic signature of devel-
+Jensen, LJ., Kuhn, M., Stark, M. et al. (2009) STRING 8-a global view on
+oping soybean seeds reveals the genetic basis of seed trait adaptation
+proteins and their functional interactions in 630 organisms. Nucleic Acids
+during domestication. Plant J. 86, 530-544.
+Res. 37, 412-416.
+Manan, S., Ahmad, M.Z., Zhang, G., Chen, B., Haq, B.U., Yang, J. and Zhao,
+Katavic, V., Shi, L, Yu, Y., Zhao, L., Haughn, G.W. and Kunst, L. (2014)
+J. (2017) Soybean LEC2 regulates subsets of genes involved in control-
+Investigation of the contribution of oil biosynthetic enzymes to seed oil
+ling the biosynthesis and catabolism of seed storage substances and
+content in brassica napus and Arabidopsis thaliana. Can. J. Plant Sci. 94,
+seed development. Front. Plant Sci. 8, 1604.
+1109-1112.
+Marques, M.A.S., Pereira, H.M.G. and de Aquino Neto, F.R. (2006) Improve-
+Klaus, D., Ohlrogge, J.B., Neuhaus, H.E. and Dormann, P. (2004) Increased
+ments in steroid screening in doping control with special emphasis to
+fatty acid production in potato by engineering of acetyl-CoA carboxylase.
+GC-MS analytical conditions and method validation. J. Braz. Chem. Soc.,
+Planta, 219, 389-396.
+17, 382-392.
+Krenek, P., Samajova, 0., Luptovciak, L., Doskocilova, A., Komis, G. and Meng, S., He, J., Zhao, T., Xing, G., Li, Y., Yang, S., Lu, J., Wang, Y.
+Samaj, J. (2015) Transient plant transformation mediated by Agrobac-
+and Gai, J. (2016) Detecting the QTL-allele system of seed isoflavone
+terium tumefaciens: Principles, methods and applications. Biotechnol
+content in Chinese soybean landrace population for optimal cross
+Adv. 33, 1024-1042.
+design and gene system exploration. Theor. Appl. Genet. 129, 1557-
+La Camera, S., Balagué, C., Gobel, C., Geoffroy, P., Legrand, M., Feussner,
+1576.
+L, Roby, D. and Heitz, T. (2009) The Arabidopsis patatin-like protein 2 Moreno-Pérez, A.J., Venegas-Caleron, M., Vaistij, F.E., Salas, J.J., Larson,
+(PLP2) plays an essential role in cell death execution and differentially
+T.R., Garcés, R., Graham, LA. and Martinez-Force, E. (2012) Reduced
+affects biosynthesis of oxylipins and resistance to pathogens. Mol. Plant
+expression of FatA thioesterases in Arabidopsis affects the oil content
+Microbe Interact 22, 469-481.
+and fatty acid composition of the seeds. Planta, 235, 629-639.
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+3D networks reveal genetic bases of oil synthesis 1123
+Mortazavi, A., Williams, B.A., McCue, K., Schaeffer, L. and Wold, B. (2008) Song, a.X., Li, Q.T., Liu, Y.F. et al. (2013) Soybean GmbZIP123 gene
+Mapping and quantifying mammalian transcriptomes by RNA-Seq. Nat.
+enhances lipid content in the seeds of transgenic Arabidopsis plants. J.
+Methods, 5, 621-628.
+Exp. Bot. 64, 4329-4341.
+Murad, A.M., Vianna, G.R., Machado, A.M., da Cunha, N.B., Coelho, C.M., Tamba, C.L., Ni, Y.L. and Zhang, Y.M. (2017) Iterative sure independence
+Lacerda, V.A., Coelho, M.C. and Rech, E.L. (2014) Mass spectrometry
+screening EM-Bayesian LASSO algorithm for multi-locus genome-wide
+characterisation of fatty acids from metabolically engineered soybean
+association studies. PLOS Comput. Biol. 13, e1005357.
+seeds. Anal. Bioanal. Chem. 406, 2873-2883.
+Tanoue, R., Kobayashi, M., Katayama, K., Nagata, N. and Wada, H. (2014)
+Nakamura, Y. (2017) Plant phospholipid diversity: emerging functions in
+Phosphatidylglycerol biosynthesis is required for the development of
+metabolism and protein-lipid interactions. Trends Plant Sci. 22, 1027-
+embryos and normal membrane structures of chloroplasts and mito-
+1040.
+chondria in Arabidopsis. FEBS Lett. 588, 1680-1685.
+Nygren, H., Seppanen-Laakso, T., Castillo, S., Hyotylainen, T. and Oresic, Thiele, B., Stein, N., Oldiges, M. and Hofmann, D. (2012) Direct analysis of
+M. (2011) Liquid chromatography-mass spectrometry (LC-MS)-based lipi-
+underivatized amino acids in plant extracts by LC-MS-MS. Methods Mol.
+domics for studies of body fluids and tissues. Methods Mol. Biol. 708,
+Biol. 828, 317-328.
+247-257.
+Tohge, T., Nishiyama, Y., Hirai, M.Y. et al. (2005) Functional genomics
+Orsi, N.M. and Leese, H.J. (2004) Ammonium exposure and pyruvate affect
+by integrated analysis of metabolome and transcriptome of Arabidop-
+the amino acid metabolism of bovine blastocysts in vitro. Reproduction,
+sis plants over-expressing an MYB transcription factor. Plant J. 42,
+127, 131-140.
+218-235.
+Pan, X., Siloto, R.M., Wickramarathna, A.D., Mietkiewska, E. and Weselake, Van, K. and McHale, L.K. (2017) Meta-analyses of QTLS associated with pro-
+R.J. (2013) Identification of a pair of phospholipid: diacylglycerol acyl-
+tein and oil - contents and compositions in soybean [Glycine max (L.)
+transferases from developing flax (Linum usitatissimum L.) seed catalyz-
+Merr.] seed. Int. J. Mol. Sci 18(6), e1180.
+ing the selective production of trilinolenin. J. Biol. Chem. 288, 24173- Wang, H.W., Zhang, B., Hao, Y.J., Huang, J., Tian, A.G., Liao, Y., Zhang, J.S.
+24188.
+and Chen, S.Y. (2007) The soybean Dof-type transcription factor genes,
+Park, C.H., Roh, J., Youn, J.H., Son, S.H., Park, J.H., Kim, S.Y., Kim, T.W.
+GmDof4 and GmDof11, enhance lipid content in the seeds oftransgenic
+and Kim, S.K. (2018) Arabidopsis ACC oxidase 1 coordinated by multiple
+Arabidopsis plants. Plant J. 52, 716-729.
+signals mediates ethylene biosynthesis and is involved in root develop-
+Wang, S.B., Feng, J.Y., Ren, W.L., Huang, B., Zhou, L., Wen, Y.J., Zhang, J.,
+ment. Mol. Cells, 41, 923-932.
+Dunwell, J.M., Xu, S. and Zhang, Y.M. (2016) Improving power and accu-
+Patil, G., Mian, R., Vuong, T., Pantalone, V., Song, Q., Chen, P., Shannon,
+racy of genome-wide association studies via a multi-locus mixed linear
+G.J., Carter, T.C. and Nguyen, H.T. (2017) Molecular mapping and geno-
+model methodology. Sci. Rep. 6, 19444.
+mics of soybean seed protein: a review and perspective for the future. Wang, X., Li,Y., Zhang, H., Sun, G., Zhang, W. and Qiu, L. (2015) Evolution
+Theor. Appl. Genet. 130, 1975-1997.
+and association analysis of GmCYP78A10 gene with seed size/weight
+Purcell, S., Neale, B., Todd-Brown, K. et al. (2007) PLINK: a tool set for
+and pod number in soybean. Mol. Biol. Rep. 42, 489-496.
+whole-genome association and population-based linkage analyses. Am.
+Warrington, C., Abdel-Haleem, H., Hyten, D., Cregan, P., Orf, J., Killam, A.,
+J. Hum. Genet. 81, 559-575.
+Bajjalieh, N., Li, Z. and Boerma, H. (2015) QTL for seed protein and
+Raj, A., Stephens, M. and Pritchard, J.K. (2014) fastSTRUCTURE: variational
+amino acids in the Benning x Danbaekkong soybean population. Theor.
+inference of population structure in large SNP data sets. Genetics, 197,
+Appl. Genet. 128, 839-850.
+573-589.
+Weiss, L., Loffler, G. and Wieland, O.H. (1974) Regulation by insulin of adi-
+Ranocha, P., Bourgis, F., Ziemak, M.J., Rhodes, D., Gage, D.A. and Hanson,
+pose tissue pyruvate dehydrogenase. A mechanism controlling fatty acid
+A.D. (2000) Characterization and functional expression of CDNAS encod-
+synthesis from carbohydrates. Hoppe Seylers Z. Physiol. Chem. 355,
+ing methionine-sensitive and - insensitive homocysteine S-methyltrans-
+363-377.
+ferases from Arabidopsis. J. Biol. Chem. 275, 15962-15968.
+Wen, W., Li, K., Alseekh, S. et al. (2015) Genetic determinants of the net-
+Ren, W.L., Wen, Y.J., Dunwell, J.M. and Zhang, Y.M. (2018) pKWmEB: inte-
+work of primary metabolism and their relationships to plant performance
+gration of fKruskal-Wallis test with empirical Bayes under polygenic back-
+in a maize recombinant inbred line population. Plant Cell, 27, 1839-1856.
+ground control for multi-locus genome-wide association study. Heredity, Wen, Y.J., Zhang, H., Ni, Y.L., Huang, B., Zhang, J., Feng, J.Y., Wang, S.B.,
+120, 208-218.
+Dunwell, J.M., Zhang, Y.M. and Wu, R. (2018) Methodological implemen-
+Roesler, K.R., Shorrosh, B.S. and Ohlrogge, J.B. (1994) Structure and
+tation of mixed linear models in multi-locus genome-wide association
+expression of an Arabidopsis acetyl-coenzyme A carboxylase gene. Plant
+studies. Brief Bioinform. 19, 700-712.
+Physiol. 105, 611-617.
+Wu, S., Tohge, T., Cuadros-Inostroza, A. et al (2018) Mapping the Arabidop-
+Saito, R., Smoot, M.E., Ono, K., Ruscheinski, J., Wang, P.L., Lotia, S., Pico,
+sis metabolic landscape by untargeted metabolomics at different envi-
+A.R., Bader, G.D. and Ideker, T. (2012) A travel guide to Cytoscape plug-
+ronmental conditions. Mol. Plant, 11, 118-134.
+ins. Nat. Methods, 9, 1069-1076.
+Xiong, W., Wei, a., Wu, P., Zhang, S., Li, J., Chen, Y., Li, M., Jiang, H. and
+Sauvage, C., Segura, V., Bauchet, G., Stevens, R., Do, P.T., Nikoloski, Z.,
+Wu, G. (2017) Molecular cloning and characterization of two B-ketoacyl-
+Fernie, A.R. and Causse, M. (2014) Genome-wide association in tomato
+acyl carrier protein synthase I genes from Jatropha curcas L. Plant Phys-
+reveals 44 candidate loci for fruit metabolic traits. Plant Physiol. 165,
+iol. 214, 152-160.
+1120-1132.
+Xu, Y., Yang, T., Zhou, Y., Yin, S., Li, P., Liu, J., Xu, S., Yang, Z. and Xu, C.
+Selinski, J. and Scheibe, R. (2019) Malate valves: old shuttles with new per-
+(2018) Genome-wide association mapping of starch pasting properties in
+spectives. Plant Biol. 21, 21-30.
+maize using single-locus and multi-locus models. Front. Plant Sci. 9,
+Shen, W., Wei, Y., Dauk, M., Tan, Y., Taylor, D.C., Selvaraj, G. and Zou,
+1311.
+J. (2006) Involvement of a glycerol-3-phosphate dehydrogenase in Yang, W.Y., Zheng, Y., Bahn, S.C. et al. (2012) The patatin-containing phos-
+modulating the NADH/NAD+ ratio provides evidence of a mitochon-
+pholipase A pPLAllz modulates oxylipin formation and water loss in Ara-
+drial glycerol-3-phosphate shuttle in Arabidopsis. Plant Cell, 18, 422-
+bidopsis thaliana. Mol. Plant, 5, 452-460.
+441.
+Zhang, C.H. (2010) Nearly unbiased variable selection under minimax con-
+Shi, T.T., Zhu, A.T., Jia, J.Q. et al. (2020) Metabolomics analysis and
+cave penalty. Ann. Stat. 38, 894-942.
+metabolite-agronomic trait associations using kernels of wheat (Triticum
+Zhang, D., Zhang, H., Hu, Z. et al. (2019a) Artificial selection on GmOLE01
+aestivum) recombinant inbred lines. Plant J. htpsl/doiorgino1t1npl
+contributes to the increase in seed oil during soybean domestication.
+14727.
+PLOS Genet. 15, e1008267.
+Shimada, T.L. and Hara-Nishimura, I. (2010) Oi-body-membrane proteins Zhang, D., Zhao, M., Li, S., Sun, L., Wang, W., Cai, C., Dierking, E.C. and
+and their physiological functions in plants. Biol. Pharm. Bull. 33, 360-
+Ma, J. (2017a) Plasticity andinnovation of regulatory mechanisms under-
+363.
+lying seed oil content mediated by duplicated genes in the Palaeopoly-
+Siloto, R.M., Findlay, K., Lopez-Villalobos, A., Yeung, E.C., Nykiforuk, C.L.
+ploid soybean. Plant J. 90, 1120-1133.
+and Moloney, M.M. (2006) The accumulation of oleosins determines the Zhang, G., Bahn, S.C., Wang, G., Zhang, Y., Chen, B., Zhang, Y., Wang, X.
+size of seed oilbodies in Arabidopsis. Plant Cell, 18, 1961-1974.
+and Zhao, J. (2019b) PLDx1-knockdown soybean seeds display higher
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+
+
+
+1124 Jin-Yang Liu et al.
+unsaturated glycerolipid contents and seed vigor in high temperature Zhang, Z., Dunwell, J.M. and Zhang, Y.M. (2018b) An integrated omics anal-
+and humidity environments. Biotechnol. Biofuels, 12, 9.
+ysis reveals molecular mechanisms that are associated with differences
+Zhang, J., Feng, J.Y.,Ni, Y.L., Wen, Y.J., Niu, Y., Tamba, C.L., Yue, C., Song,
+in seed oil content between Glycine max and Brassica napus. BMC Plant
+a. and Zhang, Y.M. (2017b) PLARMEB, integration of least angle regres-
+Biol. 18, 328.
+sion with empirical Bayes for multilocus genome-wide association stud- Zhang, W., Dai, X., Wang, a., Xu, S. and Zhao, P.X. (2016c) PEPIS: A pipe-
+ies. Heredity, 118, 517-524.
+line for estimating epistatic effects in quantitative trait locus mapping
+Zhang, L., Liu, J.Y., Gu, H. et al. (2018a) Bradyrhizobium diazoefficiens
+and genome-wide association studies. PLOS Comput. Biol. 12, e1004925.
+USDA 110-Glycine max interactome provides candidate proteins associ- Zhao, J., Zhou, D., Zhang, a. and Zhang, W. (2012) Genomic analysis of
+ated with symbiosis. J. Proteome Res. 17, 3061-3074.
+phospholipase D family and characterization of GmPLDIs in soybean
+Zhang, L., Wang, S.B., Li, a.G., Song, J., Hao, Y.Q., Zhou, L., Zheng, H.Q.,
+(Glycine max). J. Plant Res. 125, 569-578.
+Dunwell, J.M. and Zhang, Y.M. (2016a) An integrated bioinformatics Zhao, J.Z. (2013) Phospholipase gene GmPLD and lipid synthase genes
+analysis reveals divergent evolutionary pattern of - oil biosynthesis in
+GmDGAT and GmLPAT play important role in regulating Arabidopsis
+high- and low-oil plants. PLOS ONE, 11, e0154882.
+seed oil content and growth [D]. Nanjing Agricultural University.
+Zhang, M., Fan, J., Taylor, D.C. and Ohlrogge, J.B. (2009) DGAT1 and PDAT1 Zhou, L., Luo, L., Zuo, J.F. etal (2016) Identification and validation of candi-
+acyltransferases have overlapping functions in Arabidopsis triacylglyc-
+date genes associated with domesticated and improved traits in soy-
+erol biosynthesis and are essential for normal pollen and seed develop-
+bean. Plant Genome, 9, htps/doiorg7103835plantgenome201509.
+ment. Plant Cell, 21, 3885-3901.
+0090.
+Zhang, a., Lee, J., Pandurangan, S., Clarke, M., Pajak, A. and Marsolais, F. (2013) Zhou, L, Wang, S.B., Jian, J. et al (2015) Identification of domestication-re-
+Characterization of Arabidopsis serine: glyoxylate aminotransferase, AGT1,as
+lated loci associated with flowering time and seed size in soybean with
+an asparagine aminotransferase. Phytochemistry, 85,30-35.
+the RAD-seq genotyping method. Sci. Rep. 5, 9350.
+Zhang, T., Wu, T., Wang, L., Jiang, B., Zhen, C., Yuan, S., Hou, W., Wu, C.,
+Zhou, X and Stephens, M. (2012) Genome-wide efficient mixed model anal-
+Han, T. and Sun, S. (2019c) A combined linkage and GWAS analysis
+ysis for association studies. Nat. Genet. 44, 821-824.
+identifies QTLS linked to soybean seed protein and oil content. Int. J. Zhou, Y., Peisker, H., Weth, A., Baumgartner, W., Dormann, P. and Frent-
+Mol. Sci. 20, E5915.
+zen, M. (2013) Extraplastidial cytidinediphosphate diacylglycerol syn-
+Zhang, Y., Beard, K., Swart, C. etal (2017c) Protein-protein interactions and
+thase activity is required for vegetative development in Arabidopsis
+metabolite channelling in the plant tricarboxylic acid cycle. Nat. Com-
+thaliana. Plant J. 75, 867-879.
+mun. 8, 15212.
+Zubimendi, J.P., Martinatto, A., Valacco, M.P., Moreno, S., Andreo, C.S.,
+Zhang, Y.M., Jia, Z. and Dunwell, J.M. (2019d) Editorial: The applications of
+Drincovich, M.F. and Tronconi, M.A. (2018) The complex allosteric and
+new multi-locus GWAS methodologies in the genetic dissection of com-
+redox regulation of the fumarate hydratase and malate dehydratase
+plex traits. Front. Plant Sci. 10, 100.
+reactions of Arabidopsis thaliana Fumarase 1 and 2 gives clues for
+Zhang, Y.-M., Jia, Z. and Dunwell, J.M. eds. (2019e) The Applications of
+understanding the massive accumulation of fumarate. FEBS J. 285,
+New Multi-locus GWAS Methodologies in the Genetic Dissection of
+2205-2224.
+Complex Traits. Lausanne: Frontiers Media.
+Zuo, J.F., Niu, Y., Cheng, P., Feng, J.Y., Han, S.F., Zhang, Y.H., Shu, G.,
+Zhang, Y.Q., Lu, X., Zhao, F.Y., Li, Q.T., Niu, S.L., Wei, W., Zhang, W.K., Ma,
+Wang, Y. and Zhang, Y.M. (2019) Effect of marker segregation distortion
+B., Chen, S.Y. and Zhang, J.S. (2016b) Soybean GmDREBLI increases lipid
+on high density linkage map construction and QTL mapping in soybean
+content tin seeds oftransgenic Arabidopsis. Sci Rep. 6, 34307.
+(Glycine maxL.). Heredity, 123, 579-592.
+5
+:
+I
+I
+I
+8
+I
+f
+I
+I
+i
+9
+I
+a
+1
+a
+E
+a
+O 2020 Society for Experimental Biology and John Wiley & Sons Ltd,
+The Plant Journal, (2020), 103, 1103-1124
+RIGHTSLIN Ko
+E

@@ -1,0 +1,1432 @@
+Do et al. BMC Genomics (2019) 20:318
+htps/doiorg/10.118612864-019-56629
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+Identification of new loci for salt tolerance
+Check for
+updates
+in soybean by high-resolution genome-
+wide association mapping
+Tuyen D. Do'4 I Tri D. Vuong', David Dunn?, Michael Clubb?, Babu Valliyodan', Gunvant Patils, Pengyin Chen?,
+Dong Xu?, Henry T. Nguyen' 1* and J. Grover Shannon?"
+Abstract
+Background: Salinity is an abiotic stress that negatively affects soybean [Glycine max (L.) Merr.] seed yield. Although
+a major gene for salt tolerance was identified and consistently mapped to chromosome (Chr.) 3 by linkage
+mapping studies, it does not fully explain genetic variability for tolerance in soybean germplasm. In this study, a
+genome-wide association study (GWAS) was performed to map genomic regions for salt tolerance in a diverse
+panel of 305 soybean accessions using a single nucleotide polymorphism (SNP) dataset derived from the
+SoySNP50K iSelect BeadChip. A second GWAS was also conducted in a subset of 234 accessions using another 3.7M
+SNP dataset derived from a whole-genome resequencing (WGRS) study. In addition, three gene-based markers (GBM)
+of the known gene, Glyma03932900, on Chr. 3 were also integrated into the two datasets. Salt tolerance among
+soybean lines was evaluated by leaf scorch score (LSS), chlorophyll content ratio (CCR), leaf sodium content (LSC), and
+leaf chloride content (LCC).
+Results: For both association studies, a major locus for salt tolerance on Chr. 3 was confirmed by a number of
+significant SNPS, of which three gene-based SNP markers, Salt-20, Salt14056 and Salt11655, had the highest association
+with all four traits studied. Also, additional genomic regions on Chrs. 1,8, and 18 were found to be associated with
+various traits measured in the second GWAS using the WGRS-derived SNP dataset
+Conclusions: A region identified on Chr 8 was identified to be associated with all four traits and predicted as a new
+minor locus for salt tolerance in soybean. The candidate genes harbored in this minor locus may help reveal the
+molecular mechanism involved in salt tolerance and to improve tolerance in soybean cultivars. The significant SNPS will
+be useful for marker-assisted selection for salt tolerance in soybean breeding programs.
+Keywords: Soybean [Glycine max (L) Merr.)], Salt tolerance, Genome-wide association study (GWAS), Single nucleotide
+polymorphism (SNP), Gene-based marker, Candidate genes
+Background
+significant loss of agricultural production [3]. The
+In the worldwide crop agriculture, salinity is considered United States has large areas of soils with 5.2 million ha
+a major abiotic stress. The global extent of salt-affected [2] or approximately 23% of the total irrigated land that
+soils amounts to 1128 million ha, of which 60% are sa- is salt affected. Exploiting plant salinity tolerance has
+line soils, 26% are sodic soils, and 14% are saline-sodic been shown to be among the effective strategies to limit
+soils [1]. Among irrigated agricultural land, an estimated losses from naturally occurring salinity and from the
+60 million ha is affected by salinity worldwide [2], and threat of human activities coupled with global climate
+0.25-0.5 million ha annual salt build-up causes changes [2, 4, 5].
+Although soybean is classified as a moderately salt tol-
+Correspondence nguyenhr@missouriedu; shannong@misouriedu
+erant crop plant with a threshold of 5 dS/m, salt sensi-
+'Division of Plant Sciences, University of Missouri, Columbia, MO 65211, USA tive soybean cultivars were severely affected under salt
+?Division of Plant Sciences, University of Missouri, Portageville, MO 63873,
+USA
+stress and did not produce seeds at a soil salinity level of
+Full list of author information is available at the end of the article
+OThe Author(s). 2019 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BMC International License fhtp/ceativecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made The Creative Commons Public Domain Dedication waiver
+Omploeswecommonsoy/pulbicdonainv.eonon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 2 of 16
+8 dS/m [6, 7]. Soybean yield losses could result from re- Although SNP chip data was successfully used in GWAS
+duced germination, low seedling emergence, and poor to provide valuable genetic information, the higher dens-
+plant growth and development [8-11]. In addition, soy- ity of SNP data generated from WGRS would be more
+bean seed protein, oil and carbohydrate content are precise in determining the candidate genes controlling
+negatively affected by salinity [12, 13].
+traits of interest [45, 48].
+Bi-parental quantitative trait locus (QTL) mapping An association mapping study for salt tolerance was
+was successfully implemented to identify and confirm a first reported in soybean by analyzing seed germination
+major locus on chromosome (Chr.) 03 for salt tolerance rate under salt conditions [49]. The study identified
+in soybean [14-20]. The candidate gene (Gly- three genomic regions significantly associated with the
+ma03g32900) underlying salt tolerance was identified on ratio of imbibition rate, the ratio of germination index,
+Chr. 3 and related to a sodium transporter [17, 19, 21]. and the ratio of germination rate under salt conditions
+Near-isogenic lines carrying the salt tolerant gene were and mapped to Chrs. 8, 9, and 18 [49]. The major locus
+selected using molecular markers and showed high yield for salt tolerance on Chr. 3 mapped by bi-parental link-
+under saline field conditions [21, 22]. Gene-based makers age mapping was confirmed using SoySNP50K iSelect
+(GBM) were developed for marker-assisted selection BeadChip and WGRS data of 106 soybean lines [23]. In
+(MAS) and also for identifying new tolerance genes [20, addition to the major locus on Chr. 3, eight additional
+23]. Minor loci for salt tolerance were also identified on genomic regions significantly associated with both leaf
+chromosomes (Chrs.) 2, 7,9, 11, 13, 14, 15 and 18 [20, 24, chloride concentrations and leaf chlorophyll concentra-
+25]. In addition, other soybean sources may carry new tions were mapped on Chrs. 2, 7, 8, 10, 13, 14, 16, and
+gene(s) for salt tolerance [15, 19, 23]. Nevertheless, the 20 using SoySNP50K iSelect BeadChip dataset and were
+major limitations of bi-parental linkage mapping can de- recommended for future studies [50].
+tect alleles from parents only and a few recombination In this study, two SNP marker datasets, the
+events occur in mapping populations [26].
+SoySNP50K iSelect BeadChip accessed from the Soybase
+Genome-wide association studies (GWAS) present Vittp/hvwwu.soybaseorg and the WGRS-derived 3.7 M
+some advantages over linkage mapping among individ- SNPS, which were developed in the Soybean Genetics
+uals in natural populations to exploit broader genetic di- and Genomics Lab (Valliyodan and Nguyen, unpublished
+versity [27-29]. The concern for GWAS is spurious data), along with three salt tolerant GBMS [20, 23] were
+associations (false positive or Type I error) that can be used for association mapping of salt tolerance among
+caused by population stratification and cryptic related- soybean plant introductions (PIs) from a core collection
+ness [30-33]. However, various statistical procedures (Drs. Cregan and Song, pers. comm.). The objectives of
+have been developed to reduce and control this issue. this study were to map additional loci for salt tolerance
+For instance, a Mixed Linear Model (MLM) with incorp- other than the known locus on Chr. 3 and to identify
+oration of population structure and a kinship matrix ef- new sources of salt tolerance for genetic analysis and
+fectively eliminated false positives in GWAS [34, 35]. breeding to improve salt tolerance in soybean.
+Multiple-Locus Linear Mixed Model (MLMM) was then
+developed based on MLM by adding significant markers Results
+as covariates in a stepwise MLM to remove the con- Phenotypic variation, heritability and correlation of salt
+founding effect between testing markers and relatedness tolerance traits
+[36, 37]. The MLMM, with the advantage in controlling Two salt-sensitive, Hutcheson and Jackson, and two
+false positives, has been successful for association map- salt-tolerant, Lee and Fiskeby III, checks were clustered
+ping in Arabidopsis, common wheat, rice, pea, sorghum, into corresponding groups as shown in phenotypic tree
+and tomato [38-43].
+(Additional file 1: Table S1; Additional file 2: Figure S1;
+Recently, many plant genomes have been re-sequenced Fig. 1). The phenotypic variation among 305 soybean
+using next-generation sequencing (NGS) technologies. lines was statistically significant for all traits studied, in-
+The exploration of whole-genome re-sequencing cluding leaf scorch score (LSS), chlorophyll content ratio
+(WGRS) data was considered as one of the requirements (CCR), leaf sodium content (LSC) and leaf chloride con-
+for GWAS [44]. Sequence-based GWAS was successfully tent (LCC), ranging from 1 to 5, 0.3-1.2, 0.03-1.7 (g kg
+applied for mapping agronomic traits and identifying the 1) and 2.7-18.2 (g kg ), respectively (Table 1). Some
+candidate genes inside of significant genomic regions in soybean lines evaluated showed higher salt tolerance
+rice, peach, and foxtail millet [45-47]. In a GWAS study than the salt-tolerant checks and some soybean lines
+in rice, in addition to the confirmation of the reported were more sensitive to salt than the sensitive checks.
+genes, new genes were identified for agronomic traits Correlation coefficients and heritability were estimated
+using WGRS data. The results of confirming those new for the four traits in the diverse panel. The Pearson cor-
+genes by overexpression were highly accurate [48]. relations indicated a significant linear relationship
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 3 of 16
++ Fiskeby III
+Lee
+Salt tolerant group
++ Hutcheson
+Salt sensitive group
++ Williams 82
++ Jackson
+5.00
+4.00
+3.00
+2.00
+1.00
+0.00
+Euclidean Distances
+Fig. 1 Phenotypic dendrogram for salt tolerance variation among 305 soybean accessions. This was constructed by combining leaf scorch score
+(LSS), chlorophyll content ratio (CCR), leaf sodium content (LSC) and leaf chloride content (LCC)
+among the four traits at a = 0.01. Among these, correl- 0.94 and 0.63, respectively. These results indicate that all
+ation coefficients (r2) of CCR with the other traits were four measurements are valid and representative of salt
+negative and ranged from -0.92 to -0.61. Conversely, tolerance and can be used in screening and selection for
+the correlations between LSS, LSC and LCC were posi- salt tolerance. However, LSC and CCR appear to be
+tive (Table 1). The broad-sense heritability was estimated more feasible and efficient in a practical breeding
+based on analysis of variance for all traits (Table 1). The program.
+lowest value of heritability was 0.29 for LSC while higher In addition, the variation among 305 soybean acces-
+heritability was observed in LSS, CCR and LCC as 0.82, sions was shown by combining the four traits to
+Table 1 Statistics for salt tolerance traits of a diverse panel of 305 soybean accessions
+Trait
+Mind
+Maxb
+Mean
+Root
+CV
+H2e
+Pearson correlation
+MSEC
+(%6)
+CCR
+LSC
+LCC
+LSS
+1.0
+5.0
+2.7
+0.52
+18.9
+0.8
+-0.922**
+0.638**
+0.743**
+CCR
+0.3
+1.2
+0.8
+0.04
+5.9
+0.9
+-0.606**
+-0.700**
+LSC (gkg" )
+0.03
+1.70
+0.45
+0.31
+76.98
+0.29
+0.692**
+LCC (gkg l
+2.70
+18.20
+7.85
+1.74
+22.21
+0.63
+LSS leaf scorch score, CCR chlorophyll content ratio, LSC leaf sodium content, LCC leaf chloride content
+** Correlation coefficients are significant at the 0.01 level (2-tailed)
+a minimum; b. maximum; C square root of mean square error; d. coefficient of variation; e: Broad-sense heritability
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 4 of 16
+construct a phenotypic dendrogram into salt-tolerant 3.7 M SNPS of the WGRS-derived SNP dataset. An aver-
+and salt-sensitive groups. A dissimilarity matrix that age distance between two markers was approximately
+measures the relative distance of each pairs in salt toler- 29.36 kb for the SoySNP50K dataset and 0.43 kb for the
+ance of soybean lines showed a range of Euclidean dis- WGRS-derived SNP dataset. LD decay on all adjacent
+tance from 0.06 to 10.81. The clustering analysis for the SNP pairs are in nonlinear curves (Additional file 3: Fig-
+Euclidean distance matrix in the dendrogram revealed ure S2) with the LD blocks at an 72 of 0.2 with 293.64
+two main groups of soybean lines at the lowest Euclid- and 371.42 kb for the SoySNP50K and the
+ean value and subgroups at higher values. Thereby, 137 WGRS-derived SNP datasets, respectively. Thus, the
+soybean lines, including salt-tolerant checks belonged to number of SNPs was sufficient to cover the
+salt-tolerant group and the remaining lines, including genome-wide haplotype blocks for both datasets.
+salt-sensitive checks were grouped into salt-sensitive The principal component analysis (PCA) showed that
+group (Fig. 1).
+the variance explained, by eigenvalue of each PC, rapidly
+dropped after the first 4 PCs for both SNP datasets
+Linkage disequilibrium decay, population structure and
+(Fig. 2a). The cumulative eigenvalues of the first three
+relatedness among soybean accessions
+PCs were 49.7 and 28.7% of variances for the diverse
+Linkage disequilibrium (LD) decay, population structure panel and the subset using the SoySNP50K and the
+and relatedness were analyzed for the panel of 305 soy- WGRS-derived SNP datasets, respectively. For the di-
+bean accessions using 37,573 SNPs of the SoySNP50K verse panel using 37,573 SNPS, 305 soybean accessions
+dataset and for the subset of 234 accessions using over were separated into groups roughly corresponding to
+A 30
+B
+--50K SNP dataset --3.7M SNP dataset
+25
+1e 20
+15
+a
+a
+10
+5
+0
+2 3 4 5 6 7 8 9 10
+-0a5
+Principlecomponents
+aas
+por
+010
+PC1
+015
+co0 G.max 000 G.soja
+C
+D
+%
+2
+4
+3
+a
+-415
+aes
+-415
+aas
+PCr
+-a.05
+Rol
+PC1 a10
+PC1
+ase
+ce Brazil 000 US  North_Korea e Others Russia
+coo Korea 000 China . Japan
+e0 India 000 Moldova  China
+Japan South_Korea
+000 uS 000 Others 000 Russia
+Fig. 2 Population structure by principal component analysis (PCA) of two SNP datasets. a Screen plot of the first 10 principal components (PCS)
+and their contribution to Eigenvalue by analyzing SoySNP50K dataset (yellow) and 3.7M SNP dataset (blue). b 3D scatterplot showed the first
+three PCs from SoySNP50K dataset corresponding to taxonomic groups for 305 soybean accessions. C 3D scatterplot showed the first three PCs
+from SoySNP50K dataset corresponding to original groups of 305 soybean accessions. d 3D scatterplot showed the first three PCs from 3.7M SNP
+dataset corresponding to 234 soybean accessions selected from the original 305 accessions
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 5 of 16
+taxonomy (G. max and G. soja) and country of origin models. By adding more kinship matrices in EMMAX
+(Figs. 2b and c) according to the first three PCs. How- (Efficient mixed-model association expedited) and
+ever, the subset of 234 G. max soybean accessions was MLMM (Multi-locus mixed model) models, the
+less defined into groups based on the first three PCs pseudo-lambda values were from 0.93 to 1.03 for associ-
+using over 2.2 M SNPs (Fig. 2d).
+ation of all traits from both genetic data sets indicating
+The cryptic relatedness among soybean accessions was the GWAS results were not inflated by population struc-
+evaluated by kinship matrix from identity by state (IBS) ture or cryptic relatedness.
+each from paired soybean lines. The matrix with a range
+of IBS from 0.42 to 0.97 was calculated using the GWAS for salt tolerance of the diverse panel using the
+SoySNP50K dataset for the diverse panel to construct a SoySNP50K dataset
+phylogenetic tree showing the relationship among 305 After marker quality control and assurance, a total of
+soybean accessions (Fig. 3a). In this dendrogram, two 37,573 polymorphic SNPs were selected from the
+main groups, G. max and G. soja, were clustered at the SoySNP50K dataset and were utilized for further analysis
+lowest IBS value and there were subgroups at higher IBS of LSS, CCR, LSC, and LCC in the diverse panel. The
+values. In a similar analysis, the kinship matrix with a quantile-quantile (Q-Q) distributions showed most SNPs
+narrower range of IBS from 0.52 to 0.89 was found by matched what was expected (Additional file 5: Figure
+analyzing the WGRS-derived SNP dataset in the subset. S3). The inflation values (Additional file 4: Table S2), the
+The relatedness among 234 G. max soybean accessions EMMAX and MLMM with corrections for the popula-
+was also shown in a heat map constructed from these tion stratification from the kinship matrix and the three
+IBS matrices (Fig. 3b).
+first PCs were optimal for all four traits evaluated in this
+The genomic inflation factors (lambda,À) from associ- study. Numbers of SNPS significantly associated with
+ation tests were applied to verify correction for popula- LSS, CCR, LSC, and LCC were 44, 38, 13, and 54 based
+tion stratification by including PCs and kinship in the on corrections Benjamini-Hochberg of False Discovery
+GWAS models (Additional file 4: Table S2). The lambda Rate (FDR) < 0.05. SNPs surrounding the known salt tol-
+values from association tests for all traits were high erance gene on Chr. 3 were the most significant in all
+using the general linear model (GLM) without correc- four traits (Table 2; Fig. 4b). In addition, several SNPs
+tion for stratification with ranges of 2.21-3.95 and 1.44- significantly associated with one or two traits were iden-
+2.08 by analyzing the SoySNP50K iSelect BeadChips and tified on other chromosomes using the EMMAX analysis
+the WGRS-derived SNP datasets, respectively. The lower such as ss715616720 on Chr. 13 significantly associated
+and closer to one values with a range of 1.05-1.20 were with LSS and CCR, ss715609949 on Chr. 11 and
+calculated with a population correction by PCs in P ss715611871 on Chr. 12 with LSC, ss715592375 on Chr.
+A
+B
+G. soja
+IBS
+0,2
+0,4
+0,6
+0,8
+,0
+L
+E
+PMO1D
+E
+! Passn I A
+ESRO
+I
+E
+a - d
+E a
+e
+I
+E -
+L
+I - dE E
+I I I I I
+eE
+G. max
+234soybean lines
+Fig. 3 Relationships among soybean accessions using SoySNP50K and 3.7M SNP datasets. a Phylogenetic tree of 305 soybean accessions using
+SoySNP50K dataset b Heatmap plot showing the relationship among 234 soybean accessions using 3.7M SNP dataset
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 6 of 16
+Table 2 Several SNPS significantly associated with salt tolerance evaluated in GWAS using the SoySNP50K dataset for 305 soybean
+accessions
+Marker
+Chr. Position
+-log10(P)
+Call
+MA MAF Allele Cloned/
+LSS
+CCR
+LSC
+LCC
+Rate
+Refer
+Candidate genes
+(96)
+Salt-20
+3
+38,610,964 23.9*
+22.3*
+7.2*
+25.7*
+99.7
+C
+0.40 C/G
+Glyma03932900h
+Salt14056
+3
+38,619,995 28.9* 24.7*
+10.3*
+29.1*
+100
+G
+0.44 CG
+Glyma03932900h
+Salt11655
+3
+38,622,492 24.4*
+22.5*
+7.8*
+27.9*
+99.7
+T
+0.41
+G/T
+Glyma03932900h
+5S715592375 5
+7,534,622
+25ns 3.1 Ins 2.4ns 4.7*
+98.0
+G
+0.22 A/G
+No gene
+5s715609949 11
+27,743,052 3.8ns 2.6ns 5.6*
+4.1ns 99.0
+A
+0.06
+G/A
+No gene
+$s715611871 12
+20,568,054 2.6ns 25ns 4.8*
+33ns 99.3
+T
+0.10 G/T
+No gene
+SS715616720 13
+16,871,244 5.8*
+4.9*
+1.8ns 3.2ns 99.7
+T
+0.31
+CT
+No gene
+5s715623199 15
+9,138,970
+4.4*
+22ns 1.0ns 1.3ns 100
+T
+0.24 CT
+Glyma.15g116200
+-log10(P) threshold 
+4.4
+43
+4.8
+4.2
+LSS leaf scorch score, CCR chlorophyll content ratio, LSC leaf sodium content, LCC leaf chloride content (LCC)
+: Significant association with salt tolerant traits; ns: None significant association with trait
+a: The candidate gene in Soybase Wm82 Genome Browser version 2 consist of significant SNP; b.The cloned gene for salt tolerance is named Glyma03932900in
+SoyBase Wm82 Genome Browser version 1; Threshold was calculated based on P-value using False Discovery Rate correction (Benjamini-Hochberg); MA: Minor
+allele; MAF: Minor allele frequency
+5 with LCC, and ss715592375 on Chr. 15 with LSS significant SNPs associated with salt tolerant traits were
+(Table 2; Fig. 4a). However, those significant SNPS, ex- located on Chrs. 1, 2, 3, 5, 6, 8, 14, 15, 16, 18, 19 and 20
+cept the GBMS, were not detected after step 1 of (Fig. 5a) and the most significant SNPs on each chromo-
+MLMM.
+some are listed in Table 3. SNPS inside the known gene
+for salt tolerance with the highest -log10 (P) values, in-
+GWAS for salt tolerance of the subset using the WGRS-
+cluding three GBMS on Chr. 3, were significantly associ-
+derived SNP dataset
+ated with all of four traits. Genomic regions on Chrs. 8
+The subset of 234 G. max soybean accessions with 3.7 M and 18 were also significantly associated with LSS, CCR,
+SNPS derived from the WGRS project (ittp-/hvww.soybase LSC and LCC, of which two adjacent peaks were in the
+org) was chosen to further perform GWAS for salt toler- significant region on Chr. 8. In addition, GWAS for salt
+ance. To ensure that population size had no effect on tolerance using MLMM indicated that the significant po-
+GWAS results, this subset was analyzed separately by reus- sitions in Chrs. 1, 3, 8 and 18 genomic regions were added
+ing SoySNP50K dataset. Similar results were found com- as covariates (the most significant SNP after each step in
+pared to GWAS of salt tolerance using SoySNP50K dataset the stepwise analysis) in the stepwise analysis (Fig. 6). Re-
+for the diverse panel of 305 soybean lines. However, only sults show, the positions on Chr. 3 and Chr. 8 appeared to
+the major locus on Chr. 3 was detected (Additional file 6: be associated with all of 4 salt tolerant traits while the po-
+Figure S4).
+sitions on Chr. 1 and Chr. 18 were covariates in GWAS
+The SNPs derived from the WGRS project were sub- for LSC and LCC. Thus, the genomic region on Chr. 8
+jected to further quality control and assurance with (Fig. 5B) is suggested as a minor locus for salt tolerance in
+MAF > 0.05 and the call rate > 0.95. Over 2.2 M poly- addition to the major gene on Chr. 3 and the other signifi-
+morphic SNPS were obtained for further analysis. This cant genomic regions associated with individual traits
+dataset was employed for LD calculation, kinship con- measured to detect salt tolerance in this study.
+struction, PCA, genotype association tests, and subse-
+quently for GWAS of the four salt tolerant traits. Based Putative candidate genes underlying salt tolerance
+on the Q-Q distributions most SNPs matched according Phytozome and Soybase genome browsers (https://phy-
+to expectations (Additional file 7: Figure S5). In GWAS tozomejgidoegow/jbrowsel and htps/soybaseorg/gbz/
+mixed models, the inflation values (Additional file 4: Table gbrowse/) were used to detect additional genes in the
+S2), with six PCs as a fixed effect and the kinship matrix significant genomic regions associated with salt tolerant
+as a random effect, were optimal for controlling con- traits in addition to the known gene on Chr. 3. The gen-
+founding risk due to population stratification. The num- omic intervals with the group of the significant SNPs
+bers of SNPs significantly associated with LSS, CCR, LSC ranged from 2788 to 787,140bp and were considered
+and LCC from the EMMAX model analysis were 217, significant genomic regions to search for putative candi-
+190, 136 and 278, respectively, based on a FDR correction date genes. A total of 222 genes were found in the signifi-
+(Benjamini-Hochberg) with FDR < 0.05 and selecting cant genomic intervals (Additional file 8: Table S3)
+causal SNPs surrounding the know gene on Chr. 3. The including the genes underlying the most significant SNPs
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 7 of 16
+A
+-log10(P-Value)
+EMMAXfor rLSS(1228]1) A
+3
+-
+-log10(P-Value)
+EMMAXfor CCR/124411-) A
+8
+-log10(P-Value)
+EMMAXfor FLSC(125811A
+16
+12-
+9 10-
+2
+Mi
+-log10(P-Value)
+EMMAXfor rLCC(127111 A
+9 - 15
+E
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosomes
+B
+-log10(P-Value)
+Salt-20
+Salt14056
+Salt11655
+Threshold = 4.37
+3X610.5K
+X36129
+XX049K
+X36169K
+XX618SK
+X3A2OK
+X3
+Chromosome 03
+Genes 2013-12-16, Phytozome
+andRegulat -Public Annctatio
+Gilyma0332900
+xon
+Fig. 4 Association mapping of salt tolerance using EMMAX with a SoySNP50K dataset for 305 diverse soybean accessions. a Manhattan plots
+showed association of SNPS distributed throughout 20 chromosomes with leaf scorch score (LSS), chlorophyll content ratio (CCR), leaf sodium
+content (LSC) and leaf chloride content (LCC. b Three GBMS associated with salt tolerance and their position inside the known gene
+(Glyma03932900), named in SoyBase Wm82 Genome Browser version 1
+on each chromosome (Table 3). Among these, 157 genes salt tolerance in soybean. Four genes were located in two
+have predicted functions and known protein families in adjacent, significant genomic intervals surrounding the
+Phytozome and Soybase databases. Based on functional minor locus on Chr. 8 and others on Chrs. 2 and 14.
+annotation, transporters (Glyma.08 3g146100, Glyma.08
+g224400), ion channel (Glyma.02g204300), membrane Identification of new sources of salt tolerance
+proton pump (Glyma.08 g225500), universal stress protein Soybean accessions belonging to salt tolerant and salt
+(Glyma.14g211300), and Callose synthase (Glyma.08 sensitive groups were classified by combining results of
+g157400) could be additional candidate genes related to LSS, CCR, LSC and LCC (Fig. 2) and were tested with
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 8 of 16
+A
+-log10(P-Value)
+EMMAKIOTLSSIRSIIA
+35-1
+25-
+3 15.
+-log10(P-Value)
+EMMAXfOrCCRIBB01 JA
+30-
+25-
+20-
+g 15
+-log10(P-Value)
+EMMAXfor FLSCI872111 JA
+3 10-
+Lstin
+AR .a
+:
+H, iwdlostt
+-log10(P-Value)
+EMMAXfor LCCI889JIIA
+30-
+25-
+20-
+3 15
+104
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosomes
+B
+$
+I
+:
+B6IM
+1LIM
+RI6IM
+8:21.1M
+8:26.1M
+8:31.1M
+8:36.1M
+84LIM
+Chromosome 08
+C
+Genes 2014-01-12, Phytozome
+imdRegaimon.nakcAmate
+ldvmaonciszewcl-H
+-IHNHUHH seccecee HI-HHHIHH
+Fig. 5 Association mapping of salt tolerance using EMMAX with 3.7M SNP dataset for the subset of 234 soybean accessions. a Manhattan plots
+showed association of SNPS distributed throughout 20 chromosomes with leaf scorch score (LSS), chlorophyll content ratio (CCR), leaf sodium
+content (LSC), and leaf chloride content (LCC). b The significant genomic region associated with LSC on Chr. 8. C One of the pu tative candidate
+gene underlying a minor locus for salt tolerance
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 9 of 16
+Table 3 The most significant SNPS on each chromosome associated with salt tolerance traits detected in an association analysis
+using the WGRS-derived SNP dataset in the subset of 234 soybean accessions
+Marker
+Chr. Position
+-log10(P)
+Call MA MAF Allele Cloned/
+LSS
+CCR LSC
+LCC Rate
+Refer Candidate a
+genes
+(%6)
+1:4591993-SNV
+1
+4,591,993 1.1ns 2.3ns 5.5* 4.9*
+100 T
+0.50 T/C
+No gene
+2:38974662-SNV 2
+38,974,662 4.5* 3.0ns 0.7ns 3.4ns 100 T
+0.41 T/A
+No gene
+2:43513959-SNV 2
+43,513,959 4.0ns 2.3ns 1.1ns 4.4*
+100 C
+0.49 T/C
+Giyma.029247400
+Salt-20
+3
+38,610,964 29.0* 25.6* 7.2* 27.4* 99.6 C
+0.45 C/G
+Glyma03932900
+Salt14056
+3
+38,619,995 32.4* 28.2* 8.2* 29.6* 100 G 0.46 C/G
+Glyma03932900
+Salt11655
+3
+38,622,492 27.2* 24.1* 6.2* 25.7* 99.6 T
+0.45 G/T
+Glyma03932900b
+5:2725777-SNV
+5
+2,725,777 1.1ns 23ns 5.5* 4.9* 100 T 0.50 T/C
+Glyma.05 g031300
+6:3536892-SNV
+6
+3,536,892 1.1ns 23ns 5.5* 4.9* 100 A
+0.50 AG
+No gene
+638850839-SNV 6
+38,850,839 4.8* 2.9ns 2.2ns 5.2*
+100 A
+0.25 A/G
+No gene
+8:11762527-SNV 8
+11,762,527 4.2ns 3.7ns 5.2* 6.6*
+100 T
+0.35 T/A
+No gene
+8:11859355-SNV 8
+11,859,355 4.3* 3.4ns 3.6ns 5.3*
+100 T
+0.32 T/A
+No gene
+8:11869912-SNV 8
+11,869,912 4.1 ns 3.3ns 3.5ns 5.0*
+100 T
+0.3 T/C
+Giyma.089153800
+8:11897542-SNV 8
+11,897,542 4.1ns 3.3ns 3.3ns 4.6*
+100 C 0.3 CT
+Glyma.08 g154400
+8:12168563-SNV 8
+12,168,563 3.3ns 3.5ns 6.7* 4.4*
+100 G 0.38 G/A
+Glyma.08 g157400
+8:12177874-SNV 8
+12,177,874 2.9ns 3.7ns 6.9* 3.4ns 100 A
+0.48 AT
+Glyma.08 g157400
+8:12198547-SNV 8
+12,198,547 3.8ns 4.1 ns 7.6* 4.6*
+100 C
+0.4 CT
+No gene
+8:12221598-SNV 8
+12,221,598 3.0ns 2.8ns 6.7* 4.3ns 100 G 0.4 G/A
+Gyma.089157700
+8:18197526-SNV 8
+18,197,526 3.5ns 3.2ns 3.1ns 5.0*
+100 T
+0.07 T/C
+Gyma.089224400
+8:18363900-SNV 8
+18,363,900 4.5* 3.6ns 2.2ns 4.6*
+100 A 0.47 A/G
+No gene
+8:18378659-SNV 8
+18,378,659 4.8* 4.5* 3.3ns 3.7 ns 100 G 0.48 T/G
+No gene
+14.8102511-SNV 14 8,102,511 4.6* 3.7ns 1.2ns 2.2ns 100 T
+0.49 T/C
+No gene
+14:47627721-SNV 14 47,627,721 1.2ns 0.9ns 5.6* 0.9ns 100 A 0.06 AG
+Giyma.149211300
+15:11833367-SNV 15 11,833,367 3.0ns 2.4ns 3.4ns 5.0* 100 C
+0.49 CT
+Giyma.159143900
+1634944055-SNV 16 34,944,055 4.9* 4.1 ns 1.3ns 2.4ns 100 C 0.37 CA
+No gene
+18:56065139-SNV 18 56,065,139 1.1ns 2.3ns 5.5* 4.9* 100 G 0.50 G/T
+Gyma.189294400
+18:57153685-SNV 18 57,153,685 3.2ns 5.3* 0.8ns 3.2ns 100 T 0.23 T/C
+No gene
+18:57203235-SNV 18 57,203,235 4.9* 4.1ns 2.5ns 2.9ns 100 A 0.17 AT
+No gene
+19:43567289-SNV 19 43,567,289 7.5*
+6.7* 2.1ns 5.1*
+100 T
+0.20 T/G
+Giyma.199175600
+20:37261341-SNV 20 37,261,341 3.3ns 4.6* 0.5ns 1.6ns 100 C 0.06 T/C
+No gene
+-log10(P) threshold c
+4.3
+4.4
+5.1
+43
+LSS leaf scorch score, CCR chlorophyll content ratio, LSC leaf sodium content, LCC leaf chloride content (LCC)
+* Significant association with salt tolerant traits; ns: None significant association with trait
+a:The candidate gene in Soybase Wm82 Genome Browser version 2 consisting of significant SNP; b. The cloned gene for salt tolerance is named Glyma03932900
+in SoyBase Wm82 Genome Browser version 1; ;Threshold was calculated based on P-value using False Discovery Rate correction (Benjamini-Hochberg); MA:
+Minor allele; MAF: Minor allele frequency
+genotypes of three GBMS. To evaluate the accessions had a perfect genotype-phenotype match, in
+genotype-phenotype association, genotypes of GBMS which salt tolerant and salt sensitive lines carried mutant
+(Salt-20, Salt14056 and Salt11655) among 305 soybean and wide-type alleles of all three GBMS, respectively.
+accessions were classified and evaluated by compatibility There were some salt sensitive lines with recombination
+with phenotypes. The GBM genotypes of salt tolerant of the three GBMS; however, no salt sensitive lines car-
+checks (Fiskeby III and Lee) were classified as mutant ried mutant alleles of all three GBMS. In the salt tolerant
+(mut) alleles while those of salt sensitive checks (Hutch- group, 9 lines had a combination of three GBMS (Table
+eson and Jackson) were wide-type (wt) alleles (Table 4). 4), suggesting that these soybean accessions may be new
+There was a strong genotype-phenotype association in salt tolerant sources with new alleles of the known salt
+the diverse panel of soybean accessions. Over 90% of the tolerant gene on Chr. 3. Additionally, another six lines
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 10 of 16
+A -log10(P-Value)
+EMMAXELSCIBOOA
+14
+12-
+B -log10(P-Value)
+MLMM-LSC1943111. A
+14-
+12-
+Covariate
+10
+Covariate
+: Covariate
+Covariate
+N
+-
+: ? M
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosomes
+Fig. 6 Comparison between EMMAX and MLMM in GWAS for salt tolerance. a Manhattan plot showed association of SNPS with leaf sodium
+content (LSC) by sequence-based GWAS using EMMAX. b Manhattan plot showed covariates (the most significant SNP after each step in stepwise
+analysis) associated with LSC by sequence-based GWAS using ML
+Table 4 New sources for salt tolerance from matching analysis of phenotype and gene-based marker genotypes
+PI
+Taxonomy
+Phenotypic
+Genotypes of GBMS
+Prediction/
+Group
+Salt-20
+Salt14056
+Salt11655
+Suggestion
+PI597458B
+G soja
+Tolerant
+Wt
+Mut
+Mut
+New allele on Chr 3
+P1342434
+G. max
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr 3
+PI548198
+G. max
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr 3
+PI561389B
+G max
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr 3
+P1407202
+G soja
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr. 3
+P1407220
+G soja
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr 3
+P1424107A
+G. soja
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr. 3
+P1479752
+G. soja
+Tolerant
+Wt
+Mut
+Wt
+New allele on Chr 3
+P1407083
+G. soja
+Tolerant
+Wt
+Wt
+Mut
+New allele on Chr. 3
+P1468908
+G. max
+Tolerant
+Wt
+Wt
+Wt
+New gene
+PI080837
+G. max
+Tolerant
+Wt
+Wt
+Wt
+New gene
+P1417500
+G. max
+Tolerant
+Wt
+Wt
+Wt
+New gene
+P1424116
+G. soja
+Tolerant
+Wt
+Wt
+Wt
+New gene
+P1483460B
+G. soja
+Tolerant
+Wt
+Wt
+Wt
+New gene
+PI562551
+G. soja
+Tolerant
+Wt
+Wt
+Wt
+New gene
+P1438471
+G. max
+Tolerant check
+Mut
+Mut
+Mut
+PI548656
+G. max
+Tolerant check
+Mut
+Mut
+Mut
+PI518664
+G. max
+Sensitive check
+Wt
+Wt
+Wt
+PI548657
+G. max
+Sensitive check
+Wt
+Wt
+Wt
+Wt: Wide-type allele of GBMS (Salt-20, Salt14056, Salt11655)
+Mut: Mutant allele of GBMS (Salt-20, Salt14056, Salt11655)
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 11 of 16
+without mutant alleles of the three GBMS (Table 4) were leaf chlorophyll concentrations, and confirmed the major
+predicted as salt tolerant sources carrying new gene(s) locus on Chr. 3 and detected additional genomic regions
+for salt tolerance in soybean. Additional studies are need on Chrs. 2, 7, 8, 10, 13, 14, 16 and 20 with -log10(P) > 4.1
+to confirm such predictions.
+and -log10(P) > 2.1 thresholds for a GLM and MLM, re-
+spectively. The results of those association mapping stud-
+Discussion
+ies require a confirmation because of -log10 (P) thresholds
+The association mapping approach is suited for the de- to control spurious association did not meet the require-
+tection and characterization of quantitative traits be- ments for GWAS [49, 50]. In our study, the significant
+cause of broad genetic base of natural populations [27- SNPs associated with salt tolerance using both SNP
+29]. The development of statistical models and multiple marker datasets were found on 15 chromosomes based on
+tests to control effects of population structure and re- the Benjamini-Hochberg correction with FDR S 0.05 (Ta-
+latedness [34-37], as well as exploration of bles 2 and 3). Consequentially, the major locus on Chr. 3,
+whole-genome sequencing data, has made GWAS more minor locus on Chr. 8, and significant genomic regions on
+efficient in identifying the significant genomic regions Chrs. 1 and 18 were confirmed and identified by a com-
+associated with the traits of interest and in predicting bination an association of salt tolerant traits and results of
+candidate genes [45, 48]. In this study, both SoySNP50K- GWAS using MLMM. Comparing to previous studies, the
+and WGRS-derived SNP datasets were sufficient to minor locus on Chr. 8 identified in our study was
+cover the genome-wide haplotype blocks. There was no 1,449,275bp away from BARC-041663-08059 associated
+genomic inflation by population stratification found in with germination-related traits under salt stress [49] and
+the association analysis using EMMAX and MLMM 17,932,879bp away from ss715601563 associated with salt
+(Additional file 5: Figure S3 and Additional file 7: Figure tolerance [50]. Thus, the significant genomic region on
+S5; Additional file 4: Table S2). Nevertheless, GWAS for Chr. 8 associated with salt tolerance in this study strongly
+detecting salt tolerance using the SoySNP50K dataset predicts a new minor locus for salt tolerance in soybean.
+only confirmed the major locus on Chr. 3. On the other In addition, a CI--tolerant QTL located between
+hand, using the 3.7 M SNP dataset discovered more sig- 27,665,585 and 28,206,014bp on Chr. 13 was identified
+nificant genomic regions, including a minor locus on by linkage mapping of KCl-salt tolerance [25]. Another
+Chr. 8. Additionally, three GBMS of the known gene QTL for leaf sodium content was mapped between
+(Glyma03g32900) on Chr. 3 [17, 19, 21] were signifi- 38,366,685 and 40,167,119bp on Chr. 13 [20]. In our
+cantly associated with salt tolerance by study only one SNP marker, ss715616720, was signifi-
+SoySNP50K-based GWASS (Fig. 4b) while there were cantly associated with leaf scorch score and chlorophyll
+many other significant SNPS in the known gene identi- content ratio (Table 2) from SoySNP50K-based GWAS
+fied by WGRS-based GWASS (Additional file 9: Figure using EMMAX. However, this SNP marker was un-
+S6). Pinpointing the known gene was only accomplished detected after one step of MLMM and WGRS-based
+by integration of GBMS into the SoySNP50K dataset. GWAS which could be a spurious association due to
+Therefore, a larger SNP dataset generated from confounding between testing markers and kinship [36].
+whole-genome sequencing was better for GWAS to de- Thus, the locus for salt tolerance on Chr. 13, which was
+tect new loci for salt tolerance.
+not identified in this study, may carry rare salt tolerant
+The major locus on Chr. 3, in which the known gene for alleles at low frequency in the diverse panel.
+salt tolerance (Glyma03g32900) was confirmed by previ- As efficient tools for candidate gene prediction, Phyto-
+ous GWAS [23, 50]. By integrating the three GBMs into zome and Soybase genome browsers (https.l/phytozome.
+the SNP marker datasets, the known gene was pinpointed jgidoe.gov/jbrowse/ and htps/soybase.org/gb2
+with the most significant SNPs associated with all four gbrowse/) provided a mechanism to search and predict
+traits by both SoySNP50K- and WGRS-based GWAS (Ta- putative candidate genes for iron deficiency chlorosis
+bles 2 and 3; Figs. 4a and 5a). Also, the other genomic re- [51], nitrogen fixation traits [52], soybean seed germin-
+gions associated with four traits have been mapped by ation under salt stress [49], sudden death syndrome re-
+association mapping in previous studies. A GWAS ana- sistance [53], Phytophthora sojae resistance [54], and
+lysis of 191 landraces for three germination-related traits soybean cyst nematode resistance [55, 56]. Using a simi-
+under high salt conditions using 1142 SNPs determined lar approach, Glyma.08g146100 (EamA-like transporter
+13 SNPs associated with salt tolerance on Chrs. 2, 3, 6, 8, family), Glyma.08 g157400 (SF9 - Callose synthase),
+9, 12, 13, 14, 17 and 18 and were reported with a log10(P) Glyma.08 g224400 (V-type H'-transporting ATPase sub-
+range of 2.05-3.60 by using a mixed linear model [49]. In unit A), and Glyma.08 g225500 (SF11
+a previous association study of a panel of 283 soybean Pyrophosphate-energized membrane proton pump) were
+lines with 33,009 SNPs (SoySNP50K dataset), Zeng et al. predicted as putative candidate genes for salt tolerance
+[50] evaluated two traits, leaf chloride concentrations and that was mapped on Chr. 8 by functional nominations.
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 12 of 16
+Similar functional genes have been reported controlling (Glycine soja) accessions. In addition, two salt-tolerant
+salt tolerance or abiotic stress in plants, such as Callose genotypes, cultivars Lee and Fiskeby III [20, 62-64], two
+synthase which plays an important role in response to salt-sensitive genotypes, cultivars Hutcheson and Jack-
+multiple biotic and abiotic stresses, including salt stress son [16, 18], and cultivar, Williams 82, were also in-
+[57, 58]. In addition, V-type H'-transporting ATPase cluded as checks. According to the Germplasm
+subunit expressed in the roots, energizes sodium seques- Resources Information Network-National Plant Germ-
+tration into the central vacuole and enhances salt toler- plasm System (GRIN, Htpa/hnwanglhigulepey
+ance in plants [59-61]. Therefore, the putative candidate database, this core set contains accessions from maturity
+genes should be considered for post-GWAS analysis group (MG) 000 to X and originated from 28 different
+such as gene expression.
+countries (Additional file 10: Table S4). While conduct-
+The association between salt tolerance and structure ing GWAS, a subset of 234 accessions from this germ-
+of the known gene (Glyma03g32900) on Chr. 3 [19, 23] plasm set was used for a separate association analysis
+or gene profiling expression of this gene [21] suggests based on the availability of the WGRS-derived 3.7 M
+other salt tolerant sources with novel genes for salt tol- SNP dataset Vittp/hwww.soybaseorg.
+erance. Three GBMS, Salt-20, Salt14056 and Salt11655,
+based on the Glyma03g32900 sequence showed a high Genotypic datasets
+association with salt tolerance [20, 23] and were con- Over 42,000 SNP markers from the Illumina Infinium
+firmed in this study. However, a few salt tolerant lines SoySNP50K iSelect BeadChip [65] were accessed from the
+were not a genotype-phenotype match that carried salt soybean database Vittp/hwww.soybaseorg, Of these, a
+sensitive alleles of these GBMS. The results suggest that total of 37,573 SNPS was selected based on the exclusion
+those salt tolerant lines might have new salt tolerant al- of SNPs with greater than 5% missing data and a minor al-
+lele(s) of the Chr. 3 known locus and other lines might lele frequency (MAF) of less than 5%. A second SNPs
+carry novel gene(s) for soybean salt tolerance.
+dataset of over 4.7 M SNPS was generated from the United
+Soybean Boarded-funded whole-genome resequencing
+Conclusions
+(WGRS) project in the Nguyen Lab (ittp-/hwww.soybase.
+The salt tolerant traits investigated and multiple gen- org). This SNP dataset was further filtered based on the
+omic regions and SNPs identified in this study confirm exclusion of the missing data (> 5%) and MAF (< 5%) to
+that salt tolerance is a complex trait with multiple genes obtain over 3.7 M qualified SNP using the SNP Variation
+and mechanisms involved. The SNP dataset developed & Suites (SVS) program (Golden Helix, Bozeman, MT
+from the WGRS was more efficient than those of the 59718, USA). This SNP dataset is hereafter referred as the
+SoySNP50K dataset for GWAS to predict minor loci and WGRS-derived 3.7 M SNP dataset. Additionally, three
+to pinpoint putative candidate genes for salt tolerance in GBMS, Salt-20, Salt14056 and Salt11655, that were previ-
+soybean. The significant genomic regions strongly sug- ously reported [20, 23] were also incorporated into these
+gested a minor locus associated with salt tolerance on SNP marker datasets.
+Chr. 8. The putative candidate genes and the significant
+SNPs may be useful to study the molecular mechanism Phenotyping
+and for marker-assisted selection and molecular breed- Soybean lines of the diverse panel were evaluated for salt
+ing to improve salt tolerance in soybean. Additionally, tolerance under greenhouse conditions following a pre-
+six new salt tolerant sources with predicted novel viously described method [66] with minor modifications.
+gene(s) should be further investigated to identify add- The experimental design was a randomized block with 3
+itional salt tolerant gene(s). Moreover, using LSS and/or replications blocked over time. Five seedlings of each
+CCR would be simple and efficient in selection for salt line were grown per cone-tainer and evaluated in a
+tolerance in a practical breeding program as measuring greenhouse at the University of Missouri, Columbia,
+LSC and LCC is time consuming and expensive and the MO, using artificial lights and a 13h photoperiod from
+four traits are highly correlated.
+September to December 2016. Soybean seedlings at the
+growth stage V2 [67] were treated with salt water by ex-
+Methods
+posing seedlings in cone-tainers to a 120 mM NaCl solu-
+Plant materials
+tion in a tank. The salt solution in the tank was kept at
+A core set of 305 soybean plant introductions (PIs) was one-third (7 cm) from the bottom of cone-tainers for 7
+selected from the USDA Soybean Germplasm Collection h/day. When the salt-sensitive checks showed severe leaf
+representing wide genetic diversity derived from the scorch, which typically appears approx. 2weeks after the
+SoySNP50K iSelect BeadChip analysis (Drs. Cregan and treatment, leaf scorch score (LSS) was visually scored for
+Song, pers. comm.). This diverse panel had 255 culti- each plant using a 1-5 scale, where 1 == no apparent
+vated soybean (Glycine max) and 50 wild soybean chlorosis; 2 = slight (25% of the leaves showed chlorosis);
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 13 of 16
+3 == moderate (50% of the leaves showed chlorosis and previously defined [73]. Principle components (PCs) and
+some necrosis); 4= severe chlorosis (75% of the leaves kinship matrix (relatedness) were applied to correct for
+showed chlorosis and severe necrosis); and 5= dead population structure and relatedness in mixed linear
+(leaves showed severe necrosis and were withered), mean models. Principal component analysis (PCA) was done
+of LSS of each line was then calculated as previously de- for all filtered SNPs with MAF > 0.05 and the call rate >
+scribed [66]. Leaf chlorophyll content was measured for 0.95. Number of PCs were selected to add in models
+the topmost fully expanded leaf 1 day before and about when an inflation factor (A) of p-value was close to one
+14 days after the salt treatment using a chlorophyll meter [74, 75] using a genotype association test with a PCs cor-
+(Chlorophyll meter SPAD-502, Konica Minolta, Inc., rection in SNP & Variation Suite (SVS) v8.7.0 software
+Osaka, Japan) to calculate chlorophyll content ratio (Golden Helix, Bozeman, MT, USA). Identity by state
+(CCR) [20].
+(IBS) matrices indicated relatedness among soybean ac-
+Combined trifoliate leaves of five seedlings from each cessions calculated using TASSEL 5 [76] to construct
+soybean line were harvested after being read for leaf phylogenic trees in MEGA 7 [77] and to apply as kinship
+scorch score and chlorophyll content and dried at 60°C matrix in GWAS. Genome-wide associations between
+for 7 days. The dried leaf tissue was ground using a SNPs and salt tolerant trait were identified using the effi-
+Thomas Model ED-5 laboratory Wiley mill (Thomas cient mixed-model association expedited (EMMAX) and
+Scientific, Swedesboro, NJ, USA) for analyzing leaf multi-locus mixed model (MLMM) with correction for
+chloride (LCC) and leaf sodium (LSC) contents at the population structure and relatedness in the SVS software
+Delta Research Center, University of Missouri, Portage- (Golden Helix, Bozeman, MT, USA). False positives were
+ville, MO [20, 64]. Briefly, sodium concentration was de- controlled by multiple test correction with false discov-
+termined by processing ground leaf tissue (0.25 g) with a ery rate (FDR) S 0.05 [78] and the threshold of -log10(p--
+modified wet acid dilution and measuring in an atomic value) for identifying significant associations was
+absorption spectrophotometer (Perkin-Elmer", Welles- calculated at FDR == 0.05. The significant SNPS associated
+ley, MA, USA). Standard reference curves were estab- with salt tolerant traits were counted with larger
+lished for calibration of 25, 50, 100 and 500 mg kg 1 of -log10(p-value) than the threshold that was calculated
+chloride. Then chloride concentration in solution of based on P-value using the False Discovery Rate correc-
+0.15 g ground leaf tissue was measured using an ion spe- tion (Benjamini-Hochberg and causal SNPs surrounding
+cific electrode in a Fisher Scientific AR 50 dual channel the known gene for salt tolerance on Chr. 3 [17, 19, 21].
+pH, ion, conductivity-meter (Fischer Scientific, Pittsburg,
+PA, USA). Finally, sodium and chloride concentrations Candidate genes of salt tolerance
+were converted to mg per kg of dry leaf tissue for leaf The soybean genomic data, the soybean genome assem-
+sodium content (LSC) and leaf chloride content (LCC). bly (Wm82.a2.v1), was integrated with the genomic scale
+data visualization tool by importing to the GWAS pro-
+Phenotypic data analysis
+ject created in the SVS software (Golden Helix, Boze-
+Analysis of variance (ANOVA) and the estimation of vari- man, MT, USA). The search for candidate genes was
+ance components of phenotypic data were performed using conducted by zooming in at positions of the significant
+the PROC GLM procedure of SAS 9.4 [68]. Broad-sense SNPs associated with salt tolerant traits. Information
+heritability (H?) of four salt tolerance associated traits were about the candidate gene was displayed by automatically
+calculated using the following equation for randomized linking with the Genome Browser of phytozome website
+block design: H? =0/(o 02), where Og is the genotypic (htps/phytozomeigidoegovjbrowse) The results
+variance and Oe is the error variance [69, 70]. Soybean lines were double checked by searching the SoyBase Wm80
+were grouped into salt tolerant and salt sensitive groups Genome Browser (https./Isoybase.org/seorg/gb2/gbrowse),
+based on combining all four salt tolerant traits using Eu-
+clidean distances in NTSYSpc 2.1 [71]. In addition, the Identification of new sources of salt tolerance using gene-
+Pearson correlations were also calculated to measure the based markers
+degree of linear relationship between each pairs of traits The soybean lines from salt tolerant group based on
+and the individual hypothesis tests of the correlations were their phenotypes were selected to evaluate matching ge-
+performed at a = 0.01 using Minitab 17 [72].
+notypes of GBMS. The salt tolerant lines that did not
+match the genotypes of GBMS were identified as new
+Genome-wide association study (GWAS)
+sources that may carry new salt tolerant gene(s) in
+Linkage disequilibrium (LD) and correlation coefficients addition to the known gene on Chr. 3 [17, 19, 21].
+(r2) were measured on all adjacent pairs within each Moreover, recombination between three GBMS in the
+chromosome and a fitted curve was computed based on salt tolerant lines was considered as new allele(s) of the
+nonlinear regression of LD (12) on distance (kb) as locus on Chr. 3 for salt tolerance.
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 14 of 16
+Additional files
+Funding
+This present study has received no funding sources from agencies All costs
+Additional file 1: Table S1.Variation of salt tolerance of checks grown were obtained from in-kind supports of the Nguyen and Chen Labs, Univer-
+under 120 mM NaCl treatment. (DOCX 12 kb)
+sity of Missouri-Columbia.
+Additional file 2: Figure S1. Comparisons of salt tolerance based on
+Availability of data and materials
+leaf scorch between soybean cultivars. Fiskeby IlI and Lee (salt tolerant
+The WGRS-derived SNP data was deposited to the Soybase database with
+checks), Hutcheson and Jackson (salt sensitive checks), Williams 82 (the
+Usage Policy applied and can be viewed at Oompurhopbuxcoy/pokausoy
+soybean reference cultivar). (JPG 6832 kb)
+Bne-suk@houercnysabeotpheyugolghes
+Additional file 3: Figure S2. Linkage disequilibrium (LD) decay plot of
+coefficient of correlation (7) between adjacent marker pairs and genomic Authors' contributions
+distance (kb). The fitted curves are based on nonlinear regression using
+TDD designed the study, conducted experiments, performed
+SoySNP50K dataset from 305 diverse genotypes (yellow) and using 3.7 7M
+and data analysis, and wrote the manuscript; TDV contributed salinity to data assays
+SNP dataset in the subset from 234 genotypes selected from the original analysis, manuscript reviewing and editing; DD and MC analyzed leaf sodium
+305 accessions (blue). (JPG 1168 kb)
+and chloride content; GP contributed to the development of whole-genome
+Additional file 4: Table S2. Genomic inflation factor Q) of models for
+resequencing work; BV, PC, and DX reviewed and edited the manuscript;
+analyzing association with salt tolerance among soybean accessions
+HTN and JGS conceived the study, reviewed and edited the manuscript. All
+using both datasets. (DOCX 13 kb)
+authors read and approved the final manuscript.
+Additional file 5: Figure S3. Quantile-quantile (Q-Q) plots showing the
+expected -log10(P) compared to the observed -log10(P). The results of
+Ethics approval and consent to participate
+statistical testing (EMMAX) for association across 37,573 SNPS from
+Not applicable.
+SoySNP50K dataset with leaf scorch score (A), chlorophyll content ratio
+(B), leaf sodium content (C) and leaf chloride content (D) among 305
+Consent for publication
+genetically diverse soybean genotypes. Most SNPS matched with solid
+Not applicable.
+lines [expected -log 10(P) = observed -log10(P)] were unassociated SNPS,
+on the other hand, sharp curves at the end are the number of true asso-
+interests
+ciations. (JPG 4403 kb)
+Competing
+The authors declare that they have no competing interests.
+Additional file 6: Figure S4. Manhattan plots showing association of
+SNPS distributed throughout 20 chromosomes with four traits. The results
+based on analyzing GWAS of leaf scorch score (LSS), chlorophyll content
+Publisher's Note
+ratio (CCR), leaf sodium content (LSC) and leaf chloride content (LCO using Springer Nature remains neutral with regard to jurisdictional claims in
+37,573 SNPS from SoySNP50K dataset from the subset of 234 diverse
+published maps and institutional affiliations.
+accessions selected from the original 305 accessions. (JPG 2008 kb)
+Additional file 7: Figure S5. Quantile-quantile (Q-Q) plots showing the Author details
+expected -log10(P) compared to the observed -log10(P). The results of
+'Division of Plant Sciences, University of Missouri, Columbia, MO 65211, USA.
+statistical testing (EMMAX) for association across 2,280,225 polymorphic
+?Division of Plant Sciences, University of Missouri, Portageville, MO 63873,
+SNPS from 3.7M SNP dataset with leaf scorch score (A), chlorophyll con-
+USA Department of Electric Engineering and Computer Science,
+tent ratio (B), leaf sodium content (C) and leaf chloride content (D) in the Christopher S. Bond Life Sciences Center, University of Missouri, Columbia,
+subset of 234 soybean lines selected from the original population of 305
+MO 65211, USA 4Present address: The Cuu Long Delta Rice Research
+genotypes. SNPS matched with solid lines [expected -log10(P) =observed Institute, Thoi Lai District, Can Tho City, Vietnam. SPresent Address:
+-log10(P)] were unassociated SNPS, on the other hand, sharp curves at
+Department Agronomy and Plant Genetics, University of Minnesota, St. Paul,
+the end presented the number of true associations. (JPG 4813 kb)
+MN 55108, USA
+Additional file 8: Table S3. The genes underlying the significant
+Received: 27 November 2018 Accepted: 31 March 2019
+genomic regions associated with salt tolerance from Phytozome and
+Soybase databases. (XLSX 24 kb)
+Published online: 25 April 2019
+Additional file 9: Figure S6. The significant SNPS underlying the
+References
+known gene (Glyma03932900) on Chr. 3 (red dots) associated with salt
+tolerance. The known gene (Glyma03932900) named in SoyBase Wm82
+1. Wicke B, Smeets E, Turkenburg W, Faaij A The global technical and
+Genome Browser version 1, and LD block in this genomic region. (JPG
+economic potential of bioenergy from salt-affected soils. Energy Environ Sci.
+647 kb)
+2011;42669-81.
+2. FAO, ITPS: Status of the world's soil resources (SWSR) main report. Food
+Additional file 10: Table S4. A core set of 305 soybean plant
+and agriculture organization of the United Nations and intergovernmental
+introductions (Pls) selected from the USDA Soybean Germplasm
+technical panel on soils, Rome, Italy 2015pp 124-127.
+Collection. (XLSX 27 kb)
+3. FAO: Crops and drops: Making the best use of water for agriculture. Food
+and Agriculture Organization of the United Nations, Rome 2002:pp 1-22.
+4. Batlle-Sales J: Salinization: An environmental concern under climate change
+scenarios. In: Proceedings of the Global Forum on Salinization and Climate
+Abbreviations
+Change (GFSCC2010), Valencia, 25-29 October 2010. Edited by Thomas RP,
+CCR: Chlorophyll content ratio; GBM: Gene-based marker; GWAS: Genome-
+vol II Rome: FAO; 2011: 10.
+wide association study; LCC: Leaf chloride content; LD: Linkage
+5. Varallyay G. The impact of climate change on soils and on their water
+disequilibrium; LSC: Leaf sodium content; LSS: Leaf scorch score; NGS: Next-
+management. Agron Res. 2010;11(Special Issue 1I):385-96.
+generation sequencing; PCA: Principal component analysis; QTL: Quantitative 6. Bustingorri C Lavado RS. Soybean growth under stable versus peak salinity.
+trait loci; SNP: Single nucleotide polymorphism; WGRS: Whole-genome
+Sci Agric. 2011;68:102-8.
+resequencing
+7. Papiernik SK, Grieve CM, Lesch SM, Yates SR. Effects of salinity, imazethapyr,
+and chlorimuron application on soybean growth and yield. Commun Soil
+Sci Plan. 20053617-8)951-67.
+Acknowledgements
+8. Blanco FF, Folegatti MV, Gheyi HR, Fernandes PD. Emergence and growth of
+The authors would like to thank Ms. Nguyen Diep Nhu Dang, an intern in
+corn and soybean under saline stress. Sci Agr. 2007,64(5)451-9.
+the Nguyen Lab, for her technical assistance to the present study in a
+9. Phang TH, Shao G, Lam HM. Salt tolerance in soybean. JI Integr Plant Biol
+greenhouse.
+2008:5010)1196-212
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 15 of 16
+10. Wang D, Shannon MC Emergence and seedling growth of soybean
+population structure and relatedness for binary traits in genetic association
+cultivars and maturity groups under salinity. Plant Soil. 199921401-2:117-
+studies via logistic mixed models. Am J Hum Genet. 201698/4).653-66.
+24.
+35. Yu J, Pressoir G, Briggs WH, Vroh Bil,Yamasaki M, Doebley JF, McMullen
+11. Essa TA Effect of salinity stress on growth and nutrient composition of
+MD, Gaut BS, Nielsen DM, Holland JB, et al A unified mixed-model method
+three soybean (Glycine max L Merrill) cultivars. J Agron Crop Sci. 2002;
+for association mapping that accounts for multiple levels of relatedness. Nat
+188(2):86-93.
+Genet 2006;38(2)203-8.
+12. El-Sabagh A, Sorour S, Ueda A, Saneoka H, Barutcular C Evaluation of
+36. Liu X, Huang M, Fan B, Buckler ES, Zhang Z. Iterative usage of fixed and
+salinity stress effects on seed yield and quality of three soybean cultivars.
+random effect models for powerful and efficient genome-wide association
+Azarian J Agric 2015:2(5):138-41.
+studies. PLOS Genet 2016120,e1005767.
+13. Rabie RK Kumazawa K Effect of salt stress on nitrogen nutrition and yield 37. Segura V, Vilhjalmsson BJ, Platt A, Korte A, Seren U, Long Q, Nordborg M.
+quality of nodulated soybeans. Soil Sci Plant Nutr 19883403)385-91.
+An efficient multi-locus mixed-model approach for genome-wide
+14. Lee GJ, Carter TE Jr, Villagarcia MR, Liz, Zhou X Gibbs MO, Boerma HR A
+association studies in structured populations. Nat Genet. 2012:447),825-30.
+major QTL conditioning salt tolerance in S-100 soybean and descendent
+38. Jaiswal IV Gahlaut V Meher PK, Mir RR, Jaiswal JP, Rao AR, Balyan HS, Gupta
+cultivars. Theor Appl Genet. 2004:10918:1610-9.
+PK Genome wide single locus single trait, multi-locus and multi-trait
+15. Hamwieh A, Tuyen DD, Cong H, Benitez ER, Takahashi R, Xu DH.
+association mapping for some important agronomic traits in common
+Identification and validation ofa major QTL for salt tolerance in soybean.
+wheat (T aestivum L). PLOS One. 2016110,e0159343
+Euphytica. 2011,179(3)451-9.
+39. Dilla-Ermita CJ, Tandayu E, Juanillas VM, Detras J, Lozada DN, Dwiyanti MS,
+16. Ha BK, Vuong TD, Velusamy V, Nguyen HT, Shannon JG, Lee JD. Genetic
+Vera Cruz C Mbanjo EGN, Ardales E, Diaz MG, et al. Genome-wide
+mapping of quantitative trait loci conditioning salt tolerance in wild
+association analysis tracks bacterial leaf blight resistance loci iin rice diverse
+soybean (Glycine soja) PI 483463. Euphytica. 2013;193(1)79-88
+germplasm. Rice. 2017;10(1):8.
+17. Qi ix, Li MW, Xie M, Liu X, Ni M, Shao G, Song C Kay-Yuen Yim A, Taoy,
+40. Desgroux A, L'Anthoene V, Roux-Duparque M, Riviere JP, Aubert G, Tayeh N,
+Wong FL, et al Identification of fa novel salt tolerance gene in wild soybean
+Moussart A, Mangin P, Vetel P, Piriou C et al Genome-wide association
+by whole-genome sequencing. Nat Commun. 2014,5:4340.
+mapping of partial Tresistance to Aphanomyces euteiches in pea. BMC
+18. Hamwieh A, Xu DH. Conserved salt tolerance quantitative trait locus (QTL)
+Genomics. 2016;17:124.
+in wild and cultivated soybeans. Breeding Sci. 2008;58(4)355-9.
+41. LiXLix, Fridman E, Tesso TT, Yu J. Dissecting repulsion linkage in the
+19. Guan RX, Qu Y, Guo Y, Yu LL, Liu Y, Jiang JH, Chen JG, Ren YL, Liu GY, Tian
+dwarfing gene Dw3 region for sorghum plant height provides insights into
+L, et tal Salinity tolerance in soybean is modulated by natural variation in
+heterosis. Proc Natl Acad Sci U S A 201511238:11823-8
+GmSALT3. Plant tJ. 201480(6)937-50
+42. Sauvage C Segura V, Bauchet G, Stevens R, Do PT, Nikoloski Z, Fernie AR,
+20. Do TD, Vuong TD, Dunn D, Smothers S, Patil G, Yungbluth DC Chen P,
+Causse M. Genome-wide association in tomato reveals 44 candidate loci for
+Scaboo A Xu D, Carter TE, et al Mapping and confirmation of loci for salt
+fruit metabolic traits. Plant Physiol. 20141658:1120-32
+tolerance in a novel soybean germplasm, Fiskeby IIL Theor Appl Genet
+43. Angelovici R, Lipka AE, Deason N, Gonzalez-Jorge S, Lin H, Cepela J, Buell R,
+2018:131(3)513-24.
+Gore MA, DellaPenna D. Genome-wide analysis of branched-chain amino
+21. Do TD, Chen H, Hien VT, Hamwieh A, Yamada T, Sato T, Yan Y, Cong H,
+acid levels in Arabidopsis seeds. Plant Cell. 201325012)4827-43
+Shono M, Suenaga K et al Ncl synchronously regulates Na(+), K(+), and
+44. Lee CY, Kim AJ, Lee S, Park YJ. Concept of genome-wide association studies.
+cl(-) in soybean and greatly increases the grain yield in saline field
+In: Koh HJ, Kwon SY, Thomson M, editors. Current technologies in plant
+conditions. Sci Rep. 2016,6:19147.
+molecular breeding. Dordrecht: Springer; 2015.p. 175-204.
+22. Liu Y, YuL, Qu Y, Chen J, Liu X, Hong H, Liu Z, Chang R Gilliham M, Qiu L 45. Cao K Zhou Z, Wang Q Guo J, Zhao P, Zhu G, Fang W, Chen C Wang X,
+et al GmSALT3, which confers improved soybean salt tolerance in the field,
+Wang X, et al Genome-wide association study of 12 agronomic traits in
+increases leaf cl- exclusion prior to Na+ exclusion but does not improve
+peach. Nat Commun. 2016;7:13246.
+early vigor under salinity. Front Plant Sci. 20167(1485:1485.
+46. Huang X Wei ix, Sang T, Zhao Q Feng Q Zhao Y,Li C Zhu C Lu T, Zhang
+23. Patil G, Do T, Vuong TD, Valliyodan B, Lee JD, Chaudhary J, Shannon JG,
+Z, et al Genome-wide association studies of 14 agronomic traits in rice
+Nguyen HT Genomic-assisted haplotype analysis and the development of
+landraces. Nat Genet 2010;42:961.
+high-throughput SNP markers for salinity tolerance in soybean. Sci Rep.
+47. Jia G, Huang X Zhi H, Zhao Y, Zhao Q Liw, Chaiy, Yang L,Liul K Lu HetalA
+2016,6:19199.
+haplotype map of fgenomic variations and genome-wide association studies of
+24. Chen HT, Cui SY, Fu SX, Gai JY, Yu DY. Identification of quantitative trait loci
+agronomic traits in foxtail millet (Setaria italica). Nat Genet 2013;45:957.
+associated with salt tolerance during seedling growth in soybean (Glycine 48. Yano K Yamamoto E, Aya K, Takeuchi H, Lo P-C, Hu L, Yamasaki M, Yoshida
+max L). Aust JAgric Res. 2008.59012/1086-91.
+S, Kitano H, Hirano K et al Genome-wide association study using whole-
+25. Zeng A, Lara L, Chen P, Luan X, Hancock F, Korth K Brye K Pereira A, Wu C
+genome sequencing rapidly identifies new genes influencing agronomic
+Quantitative trait loci for chloride tolerance in 'Osage' soybean. Crop Sci
+traits in rice. Nat Genet. 201648(8)927-34.
+2017;57:2345-53.
+49. Kan G, Zhang W, Yang W, Ma D, Zhang D,Hao D, Hu Z, Yu D. Association
+26. Korte A, Farlow A The advantages and limitations of trait analysis with
+mapping of soybean seed germination under salt stress. Mol Gen
+GWAS: a review. Plant Methods. 2013,9:29.
+Genomics. 20152906)2147-62
+27. Abdurakhmonov IY, Abdukarimov A Application of fassociation mapping to 50. Zeng A, Chen P, Korth K Hancock F, Pereira A, Brye K Wu C Shi A
+understanding the genetic diversity of plant germplasm resources. Int J
+Genome-wide association study (GWAS) of salt tolerance in worldwide
+Plant Genomics. 2008:2008:574927.
+soybean germplasm lines. Mol Breeding. 2017:37(3):30.
+28. Flint-Garcia SA, Thornsberry JM, Buckler ES. Structure of linkage
+51. Mamidi S, Lee RK, Goos JR, McClean PE. Genome-wide association studies
+disequilibrium in plants. Annu Rev Plant Biol 2003:54357-74.
+identifies seven major regions responsible for iron deficiency chlorosis in
+29. Soto-Cerda B, Cloutier S: Association mapping in plant genomes. In: Genetic
+soybean (Glycine max). PLOS One. 2014:9(9).
+Diversity in Plants Edited by Caliskan PM: InTech; 2012: 29-54.
+52. Dhanapal AP, Ray JD, Singh SK Hoyos-Villegas V,Smith JR, Purcell LC, King CA
+30. Astle W, Balding DJ. Population structure and cryptic relatedness in genetic
+Fritschi FB: Genome-wide association analysis of diverse soybean genotypes
+association studies. Stat Sci 2009244)451-71.
+reveals novel Imarkers for nitrogen traits. Plant Genome-Us. 2015:8(3).
+31. Balding DJ. A tutorial on statistical methods for population association
+53. Zhang JP, Singh A, Mueller DS, Singh AK Genome-wide association and
+studies. Nat Rev Genet. 20067(10).781-91.
+epistasis studies unravel the genetic architecture of sudden death
+32. Simko I, HuJ. Population structure in cultivated lettuce and its impact on
+syndrome resistance in soybean. Plant J 20158446/1124-36
+association mapping. JAm Soc Hortic Sci. 2008;133(1,61-8.
+54. Schneider R, Rolling W, Song Q, Cregan P, Dorrance AE, McHale LK
+33. Cappa EP, Martinez MC, Garcia MN, Villalba PV, Marcucci Poltri SN. Effect of
+Genome-wide association mapping of partial resistance to Phytophthora
+population structure and kinship relationships on the results of fassociation
+sojae in soybean plant introductions from the Republic of Korea. BMC
+mapping tests of growth and wood quality traits in four Eucalyptus
+Genomics. 2016;17(1).607.
+populations. BMC Proc 2011;5(7):P23.
+55. Zhang J,Wen Z, Liw, Zhang Y, Zhang L, Dai H, Wang D, Xu R Genome-
+34. Chen H, Wang C Conomos Matthew P, Stilp Adrienne M, Li Z, Sofer T,
+wide association study for soybean cyst nematode resistance in Chinese
+Szpiro Adam A, Chen W, Brehm John M, Celedon Juan C et al Control for
+elite soybean cultivars. Mol Breeding. 2017;37(5):60.
+
+
+
+Do et al. BMC Genomics (2019) 20:318
+Page 16 of 16
+56. Vuong TD, Sonah H, Meinhardt CG, Deshmukh R, Kadam S, Nelson RL,
+Shannon JG, Nguyen HT. Genetic architecture of cyst nematode resistance
+revealed by genome-wide association study in soybean. BMC Genomics.
+2015;16(1):593.
+57. Chen X-Y, Kim J-Y. Callose synthesis in higher plants. Plant Signal Behav.
+2009:4(6)489-92.
+58. Lis, Zhang L, Wang Y,Xu F, Liu M, Lin P, Ren S, Ma R, Guo Y-D. Knockdown
+ofa cellulose synthase gene BoiCesA affects the leaf anatomy, cellulose
+content and salt tolerance in broccoli. Sci Rep. 2017;7:41397.
+59. Zhang M, Fang Y, Liang Z, Huang L Enhanced expression of vacuolar H
++-ATPase subunit Ein the roots is associated with the adaptation of
+Broussonetia papyrifera to salt stress. PLOS One. 20127(10,e48183.
+60. Golldack D, Dietz K-J. Salt-induced expression of the vacuolar H(+)-ATPase
+in the common ice plant tis developmentally controlled and tissue specific
+Plant Physiol 200112514,1643-54
+61. He X Huang X Shen Y,Huang Z. Wheat V-H+-ATPase subunit genes
+significantly affect salt tolerance in Arabidopsis thaliana. PLOS One. 2014,9(1):
+e86982.
+62. Abel GH. Inheritance of the capacity for chloride inclusion and chloride
+exclusion by soybeans. Crop Sci 1969,9:697-8.
+63. Abel GH, MacKenzie AJ. Salt tolerance of soybean varieties (Glycine max L
+Merill) during germination and later growth. Crop Sci. 1964:4:157-61.
+64. Lenis JM, Ellersieck M, Blevins DG, Sleper DA, Nguyen HT, Dunn D, Lee JD,
+Shannon JG. Differences in ion accumulation and salt tolerance among
+Glycine accessions. J Agron Crop Sci. 2011:19714)302-10.
+65. Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, Cregan PB.
+Development and evaluation of SoySNP50K a high-density genotyping
+array for soybean. PLOS One. 2013;8(1)e54985.
+66. Lee JD, Smothers SL, Dunn D, Villagarcia M, Shumway CR, Carter TE,
+Shannon JG. Evaluation of fa simple method to screen soybean genotypes
+for salt tolerance. Crop Sci 200848672194-200
+67. Fehr WR, Caviness CE, Burmood DT, Pennington JS. Stage of development
+descriptions for soybeans, Glycine max (L) Merrill Crop Sci 1971;11:929-31.
+68. SAS Institute Inc: SAS 9.4 Guide to Software Updates In., 9.4 edn: Cary, NC:
+SAS Institute Inc; 2013.
+69. Sharma JR: Experimental field designs for plant breeding. In: Statistical and
+biometrical techniques in plant breeding. New Age International (P) Ltd;
+2006: 15-29.
+70. Libby WJ. Estimation of variance components of internode length in a
+cloned population of Mimulus guttatus. Genetics. 1962:47(6)769-77.
+71. Rohlf FJ: NTSYS-pc: Numerical Taxonomy and Multivariate Analysis System,
+Version 2.1. Exeter Software, Setauket, New York 2000.
+72. Minitab Inc: Minitab 17 statistical software [computer software]. In. State
+College, PA; 2010.
+73. Remington DL, Thornsberry JM, Matsuoka Y, Wilson LM, Whitt SR, Doebley J,
+Kresovich S, Goodman MM, Buckler ES. Structure oflinkage disequilibrium
+and phenotypic associations in the maize genome. Proc Natl Acad Sci iUS
+A 200198020:11479-84
+74. Lo M-T, Hinds DA, Tung JY, Franz C Fan C-C, Wang Y, Smeland OB, Schork
+A, Holland D, Kauppi K et al Genome-wide analyses for personality traits
+identify six genomic loci and show correlations with psychiatric disorders.
+Nat Genet 2017:49(1)152-6.
+75. LiG, Zhu H. Genetic studies: the linear mixed models in genome-wide
+association studies. Open Bioinforma J 2013;7:27-33.
+76. Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES.
+TASSEL: software for association mapping of complex traits in diverse
+samples Bioinformatics. 200723(19)2633-5.
+77. Kumar S, Stecher G, Tamura K MEGA7: molecular evolutionary genetics
+analysis version 7.0for bigger datasets. Mol Biol Evol. 2016330:1870-4.
+78. Qu HQ, Tien M, Polychronakos C Statistical significance in genetic
+Ready to submit your research? Choose BMC and benefit from:
+association studies. Clin Invest Med. 201033(5)E266-70
+fast, convenient online submission
+: thorough peer review by experienced researchers sinyour field
+rapid publication on acceptance
+support for research data, including large and complex data types
+gold Open Access which fosters wider collaboration and dincreased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions

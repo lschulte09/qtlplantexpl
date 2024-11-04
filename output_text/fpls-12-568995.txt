@@ -1,0 +1,1684 @@
+frontiers
+ORIGINALI RESEARCH
+published: 28. July 2021
+in Plant Science
+doi: 103389106.2021.56895
+Cmecktor
+Genome-Wide Association Study of
+Root and Shoot Related Traits in
+Spring Soybean (Glycine max L.) at
+Seedling Stages Using SLAF-Seq
+Ajmal Mandozai*t, Abdourazak Alio Moussat, Qi Zhang, Jing Qu, Yeyao Du,
+Gulaqa Anwari, Noor Al Amin and Piwu Wang*
+College of Agronomy, Plant Biotechnology Center, Jilin Agricultural University, Changchun, China
+Root systems can display variable genetic architectures leading to nutrient foraging
+OPEN ACCESS or improving abiotic stress tolerance. Breeding for new soybean varieties with efficient
+root systems has tremendous potential in enhancing resource use efficiency and plant
+Edited by:
+Sukhjiwan Kaur adaptation for challenging climates. In this study, root related traits were analyzed in a
+Agriculture Victoria, Australia panel of 260 spring soybean with genome-wide association study (GWAS). Genotyping
+Reviewed by: was done with specific locus amplified fragment sequencing (SLAF-seq), and five GWAS
+Dawei Xin,
+Northeast Agricultural University, models (GLM, MLM, CMLM, FaST-LMM, and EMMAX) were used for analysis. Atotal of
+China 179,960 highly consistent SNP markers distributed over the entire genome with an inter-
+Shahin Yazdifar, marker distance of 2.36 kb was used for GWAS analysis. Overall, 27 significant SNPS
+Agriculture Victoria, Australia
+Yongle Li, witha phenotypic contribution ranging from 20to 72% and distributed on chromosomes
+University of Adelaide, Australia 2, 6, 8, 9, 13, 16 and 18 were identified and two of them were found to be associated
+"Correspondence: with multiple root-related traits. Based on the linkage disequilibrium (LD) distance of 9.5
+Piwu Wang
+peiw.w@163.com kb for the different chromosomes, 11 root and shoot regulating genes were detected
+Ajmal Mandozai based on LD region of a maximum 55-bp and phenotypic contribution greater than 22%.
+amalmandoas@rotnaslcom Expression analysis revealed an association between expression levels of those genes
+tThese authors have contributed and the degree of root branching number. The current
+provides
+into
+equally to this work
+study
+new insights
+the genetic architecture of soybean roots, and the underlying SNPs/genes could be
+Specialty section: critical for future breeding of high-efficient root system in soybean.
+This article was submitted to
+Plant Breeding, Keywords: GWAS, soybean, SLAF-seq, root and shoot related traits, SNPS, genes, qRT-PCR
+a section ofthe journal
+Frontiers in Plant Science
+Received: 02 June 2020 INTRODUCTION
+Accepted: 08. July 2021
+Published: 28 July 2021 Soybean (Glycine max L.) is the third worldwide cultivated crop that plays a significant role in food
+Citation: and industrial production (Tran and Mochida, 2010). Globally, the human population is projected
+Mandozai IA, Moussa AA, to rise up to 25% and nearly hit ten billion. Still, the current rate of genetic yield in key crops
+Zhang Q, QuJ, Du Y Anwari G, species is deficient to fulfill upcoming demand (Hickey et al., 2019). The lack of water, lodging
+AlAmin N. and Wang P (2021) and deficiency of nutrients induced by extreme climate will seriously reduce crop production
+Genome-Wide Association Study and endanger worldwide food safety (Sinclair, 2011). Soybean is a major oilseed in China,
+ofRoot and Shoot Related Traits
+crop
+in Spring Soybean (Glycine max L.) growing on around eight million hectares (Zhang et al., 2004); therefore, continuous improvement
+at Seedling Stages Using SLAF-Seq. in soybean quality and yield is vital.
+Front. Plant Sci. 12:568995.
+The soybean roots grow from the seed radical, which has three distinct morphologically
+doi: 10338971p6.2021.56995 established components: a primary taproot that drills down into the soil and originates as a radicle
+Frontiers in Plant Science www.frontiersin.org
+1
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+from a germinating seed which holds the plant in place; fibrous culture at seedling stage, used a mapping population containing
+(lateral) roots that spread out throughout the soil, also referred 165 soybean recombinant inbred lines (RILS) derived from the
+to as secondary roots that emerge from the taproot, and tertiary cross between Zhongdou29 and Zhongdou32, and detected 20
+roots that originate from lateral roots and take up the nutrients QTLs associated with various root and shoot traits located on
+and water from soil (Carlson and Lersten, 2004). Over the last eight different chromosomes, along with 9 major QTLs on
+century, most soybean breeding efforts have concentrated on the chromosomes 11 and 14. Brensha et al. (2012) in a QTL analysis
+invention and development of aboveground characters such as, of root and shoot traits, utilized a RIL population originated
+end-use quality and yield (Assefa et al., 2018).
+from two contrasted parental lines, "Essex' and 'Forrest, and
+Roots, the below ground part of the plant which is obscured mapped 12 QTLs distributed on chromosomes 1, 3, 6, 8, 13,
+from direct observation, received nearly no direct thought for 14, and 18. Those QTLs were associated with multiple root and
+selection and breeding. Thus, root characteristics are rarely shoot traits including basal root thickness, lateral root number,
+considered as selection criteria (Tuberosa and Salvi, 2007), maximum root length, root fresh weight (RFW), root dry weight
+and therefore fewer root related genes have been detected and (RDW), shoot fresh weight (SFW), shoot dry weight (SDW), and
+many genes leading to root development remain unknown in RFW/SFW, and RDW/SDW ratios. Manavalan et al. (2015) in
+soybean. However, indirect selection via secondary phenotypes, a study involving 251 BC2F5 backcross inbred lines developed
+for example nutrient uptake and drought tolerance was used from the cross Dunbar/PI 326582A, and using a well-watered
+as a proxy to improve root systems (Rosa et al., 2019). Roots cone system in a growth chamber, identified a major QTL on
+play an important role in absorbing water and nutrients as chromosome 8 (Satt315-I locus) controlling various seedling
+well as providing protection against biotic and abiotic stresses shoot and root traits including tap root length, lateral root
+that can directly affect plant growth, above-ground development number, shoot length, and shoot dry weight. Recently, using
+and final yield (Khan et al., 2016). In crops, root and shoot an inter-specific mapping population comprising 184 F7:8 RILS
+characteristics are related to environmental stresses like salinity, grown in a cone system, Prince et al. (2020) constructed a high
+wind, aluminum toxicity, flood and drought (Keller et al., 1999; resolution genetic linkage map, and identified 11 putative QTLs
+Liu et al., 2005b). A well-developed root system is one of the associated with several root and shoot traits at V1 stage of
+crop protection mechanisms to defend against abiotic stress. soybean growth. The detected QTLs involved five chromosomes
+Because to their relative stability across different environments, (chromosomes 3, 7,8, 14, and 20) andharbored various candidate
+many root related quantitative traits, such as root biomass, genes. Lately, in a trial using 3-weeks old seedlings derived from
+root length, and root volume, usually exhibited high heritability a cross between K099 and Fendoul6 grown under hydroponic
+(Tian, 1984; Pantalone et al., 1996; Liu et al., 2005b). Besides, conditions, Chen et al. (2021) successfully detected and validated
+the root system is influenced by management, environmental a major QTL associated with primary root length trait located on
+conditions, and is genotype-dependent as plants respond to chromosome 16 between Sat_ 165 and Satt621 interval markers.
+soil nutrient restriction and water shortage by increasing root Yet, due to low-density markers and large confidence intervals,
+biomass and thus increasing the ratio of root to shoot biomass the localization of these different QTLs was inconsistent among
+(Bloom et al., 1985; Abdel-Ghani et al., 2013). Moreover, since the different findings and further soybean root studies were
+roots provide the interface between plants and the complex soil necessary to detect more chromosomal regions and ultimately
+environment (Smith and De Smet, 2012), it is advisable to use identify consistent loci to further screen and identify candidate
+root improvement as the main purpose of soybean resistance genes crucial for marker-assisted selection.
+breeding (such as drought, storm, flood, aluminum toxicity, etc.)
+Genome-wide association study (GWAS) is an influential
+(Rong et al., 2011).
+technique that helps researchers to determine that
+Due to the challenge in achieving reliable root trait data polymorphisms are associated with a specific trait in hundreds or
+from the field, characterizing crops like soybean with improved thousands ofi individuals in the genome, enabling repeated SNPS
+root system characteristics in the field remains still a major to be checked against specific traits. Today, the latest progress
+defy to current plant biology and, root phenotyping studies in sequencing technologies and bioinformatics approaches has
+are commonly conducted under controlled environments (Rong rendered GWAS an efficient way compared to conventional
+et al., 2011; Seck et al., 2020; Chen et al., 2021). Besides, QTL mapping methods (Thomson, 2014). GWAS is commonly
+some pieces of evidence support that high yielding soybean used in recent years to examine the genetic basis of complex
+varieties are supposed to have propitious root systems at the traits in main crops such as soybean and rice (Zhao et al.,
+early stages, which may strongly sustain water and nutrients, 2011; Zhou et al., 2015; Huang et al., 2016). Prince et al. (2019)
+resulting in increased yield especially under limited water or discovered many SNPS and candidate genes associated with
+nutrient availability (Seck et al., 2020; Chen et al., 2021; Dayoub multiple seedling root architectural traits, including lateral root
+et al., 2021). To date, several Quantitative Trait Loci (QTL) number, root surface area, and root volume, using a genome-
+studies have been conducted to locate shoot and root-related wide association study involving 397 soybean accessions. In
+trait QTLs in soybean under various conditions of growth, a comprehensive genome-wide association analysis involving
+at diverse developmental stages and involving various genetic a panel of 137 early maturing soybean lines genotyped via
+populations (Rong et al., 2011; Brensha et al., 2012; Manavalan genotyping-by-equencing and whole-genome sequencing, Seck
+et tal., 2015; Prince et al., 2020; Seck et al., 2020; Chen et al., 2021). et al. (2020) characterized twelve root system architecture traits
+Rong et al. (2011) in a controlled experiment under hydroponic and revealed 10 SNPs explaining 15 to 25% of the phenotypic
+Frontiers in Plant Science www.frontiersin.org
+2
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+variation for root total length and primary root diameter. Those was conducted carefully to avoid supplementary root injury
+QTL regions harbored chromosomes 1, 3,6, 7, 10, 13, 18, and 19, and losses. Manually evaluated traits were shoot length (SHL),
+and contained two putative candidate genes. Rapid progress in shoot dry weight (SDW), root dry weight (RDW), total plant
+Next-Generation Sequencing (NGS) relevant technologies, such biomass (TPB), and root dry weight to shoot dry weight ratio
+as Specific-Locus Amplified Fragment sequencing (SLAF-seq) (RDW/SDW) (Table 1). Shoot length was manually measured
+has generated a huge number of SNPS that provide substantial with the help of a ruler from the top tip of the primary leaf
+opportunities for GWAS studies for various traits in different to the base of shoot. After shoot measuring each root system
+crops (Hake et al., 2017; Pandey et al., 2017; Zhang X. et al., 2017; was cut from the shoot and roots were individually scanned via
+Zheng et al., 2018). Furthermore, SLAF-seq was proposed as a a root scanner-based image (Perfection V800; Epson) set to a
+fast, reliable, highly effidentandcost-efective method to develop resolution of12800 dots per inch (dpi: 5039.37 dots per cm) then
+large-scale SNP (Sun et al., 2013) and used in many crops like analyzed using DJ-GX02 software' (Supplementary File 2). Five
+rice, sesame, cucumber, Brassica napus, etc. (Zhang et al., 2013; root morphological traits were recorded using the root analysis
+Xu et al., 2015; Geng et al., 2016; Li Y. et al., 2017). However, to software (Table 1). If data collection could not be measured on
+our knowledge, there is no available report about genome-wide the same day, seedlings were conserved by submerging roots
+studies for root and shoot related traits using SLAF-seq in in 75% ethanol to avoid further growth of seedlings. For dry
+soybean. In this study, a panel of 260 spring soybean was used weight biomass, root and shoot were collected individually and
+to conduct GWAS using SLAF-seq technology to investigate the dried in the oven for 48 h at 75°C, to achieve the constant
+genetic basis underlying soybean root and shoot related traits at weight of shoot (SDW) and root (RDW) with the help of an
+VC, V1 and V2 stages.
+electronic scale.
+The present study aims to (i) examine phenotypic variation of
+root and shoot relatedtraits in the spring soybean germplasm; (ii) Statistical Analysis
+perform GWAS to detect candidate genes and SNPS associated Statistical analysis of variance (ANOVA) with repeated values
+with root and shoot related traits; and (iii) check the expression for all the above-mentioned traits at each stage in the natural
+level of potential candidate genes associated with root and shoot population of spring soybean was carried out to assess the
+development across stages.
+significance of variability amongst the soybean germplasm. The
+Pearson correlation coefficients among traits and across stages
+MATERIALS AND METHODS
+were analyzed to determine the relationship between seedling
+traits. Based on entry mean, the broad-sense heritability (H?)
+was estimated for each variable from variance estimates using the
+Plant Material and Experimental Design
+following equation (Pace et al., 2015):
+In this study, a panel of 260 spring soybean germplasm was used,
+collected from different sites that cover the major distribution
+MSG - MSE
+areas in China (Supplementary File 1). A greenhouse soil
+H2
+Op
+rep
+experiment was arranged in a completely randomized design
+(CRD) with three replications at the department of Agronomy
+MSG MSE
+82 =
++ MSE
+at Jilin Agricultural University (43.8139° N, 125.4066° E).
+rep
+The settings for the greenhouse were: 28/24°C temperature,
+65/85% relative humidity, and 16/8 h photoperiod day/night, Where, 82 is genotypic variance 82 is phenotypic variance, MSE
+respectively. The natural population seeds were directly seeded is mean square error, MSG is mean square genotype, and rep
+in polyvinyl chloride (PVC) pipes (8 cm in diameter and 3.2 mm (rep = 3) is the number of repetitions per accession. The Mean
+thick, 25 cm height) containing a mixture of soil and vermiculite 'www.Dianjangtech.com
+(2:1), and regularly watered at 5-day intervals in spring 2019.
+Phenotypic Evaluation and Root
+TABLE 11 [Description of traits which collected manually and by DJ-GX02.
+Scanning
+The root and shoot traits were investigated in three vegetative Trait name
+Unit Symbol
+Measurement description
+stages VC (after cotyledons and unifoliate leaves have fully Shoot length
+cm
+SL
+Manually (using a ruler)
+Expanded), V1 (Fully developedleaves at unifoliolate nodes) and Shoot dry weight mg SDW Manually (using an electronic scale)
+V2 (Fully developed trifoliate leaf at node above the unifoliolate Root dry weight
+mg RDW Manually (using an electronic scale)
+nodes) (Fehr and Caviness, 1977) corresponding to 7, 14, and Root dry weight per mg RDW/SDW Manually (RDW divided by SDW)
+21 days after germination, respectively. Root growth in soybean Shoot dry weight
+is well known to show linear growth from the vegetative (V1) Total plant biomass mg TPB
+Manually (RDW plus SDW)
+to mid-reproductive (R5) growth stages (Rong et al., 2011). The Total root length
+cm TRL Measured electronically (DJ-GX02)
+experiments were repeated three times to increase the credibility Surface area
+cm2 SA Measured electronically (DJ-GX02)
+of root related traits measurements. The seedlings were carefully Average diameter mm AD
+Measured electronically (DJ-GX02)
+removed from soil at the specific time-points and rinsed with Root volume
+cm3 RV Measured electronically (DJ-GX02)
+tap water to remove the soil. The procedure of washing root Branching number
+BN Measured electronically (DJ-GX02)
+Frontiers in Plant Science www.frontiersin.org
+3
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+values of each line were used to examine the distribution of was evaluated by measuring the guanine-cytosine (GC) content
+each trait across the three stages. All statistical analyses were and Q30 (Q = -10 X logio(P)); suggesting a 0.1% risk of
+performed using SPSS Statistics v.21 (IBM Corporation, MO, error and therefore 99.9% confidence). Ultimately, based on
+United States).
+the sequence similarity, all SLAF paired-end sample reads were
+grouped via BLAT software (Kent, 2002). Polymorphic SLAF tags
+Genotyping of Soybean Germplasms
+showed sequence polymorphisms between different accessions.
+The 260 Spring Soybean germplasm were sequenced using High-consistent SLAF tags that show polymorphisms between
+SLAF-seq technology (Sun et al., 2013; Han et al., 2016) to accessions were then mapped to the soybean reference genome
+generate molecular markers throughout the whole genome. The using BWA software (Li and Durbin, 2009).
+sequencing data have been deposited in the sequence read Identification of SNPS
+archive? under the accession number PRJNA681350.
+SNP loci were identified based on the polymorphic SLAF tags
+DNA Extraction From Soybean
+information using primarily GATK (McKenna et al., 2010).
+All samples were collected from plants growing in the Based on clean reads mapped against the reference genome,
+experimental fields at Jilin Agricultural University, Changchun, local realignments were performed, and SNPS were identified
+China. Ceyltrimethylammonium bromide (CTAB) technique using GATK software. For the detailed process, see GATK's
+(slightly modified), as described by Murray and Thompson official website, htpe/wwwbroadinstitutecorg/gautk/guidelbet
+(1980) was used for DNA extraction from young and healthy practices.php. To ensure the reliability of SNPS identified using
+leaves of each soybean accession. NanoDrop Spectrometer GATK, SAMtools also was used to detect SNPS with reference
+(ND-1000 Spectrophotometer, Thermo Scientific) was used to to Li et al. (2009). We designated the intersection of SNPS
+determine the DNA concentration andconsistency ofall samples. detected by both GATK and SAMtools as the reliable set of
+For SLAF sequencing, the quantified DNA was diluted to SNPS to subject to further analysis. Ultimately, highly consistent
+100 ng-ul-1.
+SNPs were selected with the criteria of minor allele frequency
+(MAF) > 0.05 and marker integrity frequency > 80% (Zhou
+Enzyme Digestion, SLAF Library Preparation, and
+et al., 2017) for genetic evolution correlation analysis, linkage
+Sequencing
+disequilibrium analysis, and GWAS analysis.
+In order to acquire more than 309244 SLAF tags (defined as
+Structure and
+Population
+an enzyme fragment sequence of 364-464 bp) per genome,
+Linkage
+restriction enzyme combinations were tested and selected using Disequilibrium Analysis
+in silico digestion prediction using the following criteria: To The population structure (Q matrix) was analyzed using
+obtain more than 309244 SLAF tags per genome, combinations Admixture software (Alexander et al., 2009). The number of
+of restriction enzymes were examined and selected using the subgroups (k-value) was set in from 1 to 15. The cluster results
+following criteria in the silico digestion prediction (1) The were cross-validated and the optimum number of subgroups was
+proportion restriction fragments in the repeat sequence was as determined according to the valley value of the cross-validation
+low as possible; (2) The distribution of enzyme fragments in the error rate (Fu and Perry, 2020). A total of 179,960 SNP markers
+genome was as uniform as possible; (3) The complementarity were used to assess the taxonomic and evolutionary relationships
+between the length of enzyme fragment and the specific between the 260 genotypes via phylogenetic and principal
+reference genome; and (4) The number of SLAF tags met the component analyses. To perform the phylogenetic analysis, using
+expected number. Based on these criteria, Rsal and Haelll the genomic data from the population, the distance between the
+(NEB, Ipswich, MA, United States) were selected as restriction materials was inferred based on the distance matrix, and then
+enzymes. To obtain the SLAF tags, DNA from each soybean the phylogenetic tree was constructed. Based on SNPS, principal
+accession was digested, followed by fragment end reparation, component analysis (PCA) was carried out in order to get the
+dual-index paired-end adapter ligation, PCR amplification, and clustering of the different genotypes. The phylogenetic tree was
+target fragment selection for SLAF library construction (Sun generated using MEGA5 (Tamura et al., 2011) software based on
+et al., 2013). To evaluate the accuracy of the restriction the neighboring method (neighbor-joining), using the Kimura
+enzymes digestion experiment, rice Nipponbare (Oryza sativa 2-parameter model with bootstrap repeated 1,000 times. PCA
+ssp. Japonica) data genome (374.30 MB) (download address') was was carried out using EIGENSOFT (Price et al., 2006) software.
+used as a control. Subsequently, the SLAF-seq was performed Through Plink2 (Purcell et al., 2007) software, the average decay
+with an Illumina HiseqTM 2500 (Illumina, Inc., San Diego, of LD measured in base pairs was calculated by plotting r2 onto
+CA, United States) at the Biomarker Technologies Corporation." difference between the genetic distance oftwo base pairs using an
+To obtain the reads for each sample, the raw SLAF-seq data r2-value of0.1 as a cut-off.
+was analyzed using Dual-Index software (Kozich et al., 2013).
+After filtering out the adapter reads, the sequencing accuracy Genome-Wide Association Studies
+To find out the underlying SNPS or genes associated with
+'mpulwwwadiatinnhgwin
+root and shoot related traits in a diverse soybean panel, a
+Phtpl/trapddnaffr.gejpl
+genome-wide association study was conducted. The association
+"htp/Biomarker.com.cn
+analysis was performed based on the phenotypic dataset and
+Frontiers in Plant Sciencel www.frontiersin.org
+4
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+the highly consistent population SNPS (179,960). Using the among varieties for all the traits evaluated at the three stages
+adjusted means for observations on each accession, we used (Table 2). The descriptive statistics of all traits for the 260
+five different statistical GWAS models, GLM, MLM, CMLM of spring soybean lines are listed in Table 2. High variability among
+TASSEL 5.0 software(Bradbury et al., 2007), FaST-LMM software the different traits investigated was observed at all stages. The
+(Lippert et al., 2011), and EMMAX software (Kang et al., 2010) coefficient of variation (CV) ranged from 7.38 to 36.61% for all
+to detect the SNPs associated with root and shoot complex seedling traits at all stages (Table 2). The highest variation was
+traits as well as to analyze their stability across the different observed for the BN at VC stage, while the lowest variation was
+stages. Since the Bonferroni correction (BC) for multiple testing performed by AD at V1 stage. The outcome of skewness and
+(Huang et al., 2010; Yang et al., 2014; Pace et al., 2015) was kurtosis of all traits at all stages indicate that the distribution of
+too conservative and only a few significant SNPS were detected, frequencies tended to a normal curve according to the Shapiro-
+markers with adjusted -logio (P) > 4 (control threshold) Wilk test (Supplementary File 4). The broad-sense heritability
+and -logio (P) > 5 (suggestive threshold) were considered as (H?) ofroot and shootrelated traits was estimated, and the values
+significant for SNP-trait association. Considering the complexity ranged from 27% for AD to 86% for SL, indicating that the
+ofroottraits, markers that passed the threshold score or above the observed variation in root related traits is genetically controlled
+threshold -logio(P) was held to be significantly associated with in greenhouse conditions. The Pearson correlation coefficients of
+the target trait.
+all ten seedling root and shoot related traits were also analyzed at
+each stage, and most of the traits displayed significant positive
+Identification of Candidate Genes and
+correlations with similar tendencies at all stages (P < 0.05,
+Expression Analysis
+P < 0.01, Table 3). As shown in Table 3, correlations among the
+The candidate region of candidate genes was defined by the
+average LD decay distance or the LD block. High priority
+candidate genes were chosen based on the criteria that they TABLE 2/Descriptive statistical results of seedling root and shoot related traits
+should have a minimum of 22% phenotypic contribution at three stages.
+and located no more than 55-bp upstream and downstream Traits Stage Mean + SD Skewness Kurtosis Range CV H2
+distance from significant SNPS. For expression analysis, spring
+(%) (%)
+soybean lines with extreme phenotypic differences in root SL VC 13.87 2.48 -0.01 -0.57 12.00 17.88 80
+branching number were chosen. Thus, four lines with high
+V1 19.65 2.47 0.16
+0.09 14.84 12.57 85
+branching number (Z166, Z201, Z203, and Z232) and four lines
+V2 25.48 2.85 0.01 -0.08 17.84 11.19 86
+with low branching number (Z038, Z049, Z059, and Z063) RDW VC 0.03 0.01 0.08 -0.58 0.05 33.33 55
+(Supplementary File 5) were selected among the 260 spring
+V1 0.11 0.02 -0.40 -0.05 0.13 18.18 56
+soybean panel as samples for RNA-extraction. The total RNA
+V2 0.20 0.03 0.36
+2.84 0.26 15.00 43
+was isolated from 100 mg root tissues following a Trizol method SDW VC 0.15 0.03 0.23 -0.16 0.17 20.00 64
+while the quantity and quality of RNA were examined using a
+V1 0.32 0.06 -0.48 0.42 0.39 18.75 56
+V2 0.51 0.07 0.08
+2.27 0.57 13.73 52
+NanoDrop Spectrometer (ND-1000 Spectrophotometer, Thermo RDW/ VC 0.23 0.06 0.33
+0.46 0.40 26.00 37
+Scientific). cDNAS were reverse transcribed from the total RNA SDW V1 0.35 0.06 0.56
+0.73 0.31 17.14 47
+using a CDNA kit (All-in-OneTm First-Strand CDNA Synthesis
+V2 0.39 0.05 0.18
+1.17 0.36 12.82 53
+kit, GeneCopoeiaTm) following the manufacturer's standard TPB VC 0.18 0.04 0.21 -0.21 0.22 22.22 66
+protocol. The two-step qRT-PCR Thermo cycling conditions
+V1 0.43 0.08 -0.53 0.51 0.52 18.60 57
+were an initial denaturation at 95°C for 30 S, followed by 40
+V2 0.71 0.09 0.05
+2.96 0.81 12.68 48
+cycles of 95°C for 5 S, 58°C annealing for 30 s and 72°C TRL VC 193.35 53.95 0.15 -0.53 248.81 27.90 56
+extension for 15 S and an infinite hold at 10°C. ActinII was
+V1 405.34 68.29 -0.41 0.09 380.43 16.85 41
+used as internal control gene and the relative expression level
+V2 582.49 75.81 0.44
+0.54 424.67 13.01 38
+of the candidate genes was calculated using the comparative SA VC 72.14 21.4 0.10 -0.57 103.09 29.66 68
+AAct
+V1 157.67 27.23 -0.22 -0.08 147.82 17.27 42
+2
+method (Livak and Schmittgen, 2001). All Primer
+V2 241.06 32.72 -0.03 0.60 206.12 13.57 43
+sequences were designed using Primer Premier 5.0 softwares AD VC 1.18 0.1 0.07
+0.08 0.57 8.47 28
+(Supplementary File 6).
+V1 1.22 0.09 0.02
+0.06 0.54 7.38 27
+V2 1.31 0.14 -0.09 0.60 1.02 10.69 50
+RV VC 2.14 0.69 0.22 -0.60 3.36 32.24 61
+RESULTS
+V1 4.82 1.07 0.06
+0.14 5.62 22.20 45
+V2 7.94 1.58 0.36
+1.35 11.43 19.90 48
+Statistical Analysis of Phenotypic Data
+BN VC 129.07 47.25 0.33 -0.36 223.00 36.61 63
+All accessions were examined for root and shoot related traits at
+V1 243.99 61.69 0.40
+0.51 408.33 25.28 63
+V2 430.29 81.49 0.68
+1.70 543.00 18.94 61
+7, 14, and 21 germination days, corresponding to VC, V1, and
+V2, respectively (Supplementary File 3). Results of analysis of SL = shoot length; SDW = shoot dry weight; RDW = root dry weight; TRL == total
+root length; AD = average diameter; RDW/SDW == root dry weight per shoot
+variance (ANOVA) showed substantial variability (P < 0.001) dry weight; TPB = total plant biomass; RV = root volume; SA == surface
+area; BN == branching number; SD = Std. dev; CV = coefficient of variation;
+hmp/hwwpremicbinet.om
+H = Broad-sense heritability.
+Frontiers in Plant Science www.frontiersin.org
+5
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+TABLE 31Pearson correlation coefficients among all seedling root and shoot traits at three stages.
+SL
+SDW
+RDW
+RDW/SDW
+TPB
+TRL
+SA
+AD
+RV
+VC Stage
+SDW
+0.67*
+RDW
+0.49*
+0.65*
+RDW/SDW
+0.18*
+0.10
+0.77*
+TPB
+0.68**
+0.97*
+0.80*
+0.31*
+TRL
+0.54*
+0.57*
+0.69*
+0.48*
+0.65*
+SA
+0.55*
+0.62*
+0.77**
+0.54*
+0.71*
+0.92*
+AD
+-0.02
+0.24*
+0.32*
+0.23*
+0.28*
+0.02
+0.26**
+RV
+0.49**
+0.63*
+0.80*
+0.56*
+0.73*
+0.83*
+0.96*
+0.47*
+BN
+0.35*
+0.37*
+0.51*
+0.40*
+0.44*
+0.80*
+0.77*
+-0.05
+0.67*
+V1 Stage
+SDW
+0.55*
+RDW
+0.25*
+0.74*
+RDW/SDW
+-0.39*
+-0.35*
+0.34*
+TPB
+0.50*
+0.97*
+0.85*
+-0.17*
+TRL
+0.19*
+0.53*
+0.65*
+0.14*
+0.59*
+SA
+0.18*
+0.58*
+0.75**
+0.20*
+0.66*
+0.84*
+AD
+0.01
+0.23*
+0.34**
+0.146*
+0.27*
+-0.03
+0.39*
+RV
+0.16*
+0.53*
+0.72*
+0.23*
+0.61*
+0.64*
+0.90*
+0.63*
+BN
+0.23*
+0.41*
+0.45*
+0.04
+0.45*
+0.61*
+0.64*
+0.13*
+0.55*
+V2 Stage
+SDW
+0.42*
+RDW
+0.006
+0.60*
+RDW/SDW
+-0.43*
+-0.35*
+0.52*
+TPB
+0.32*
+0.97*
+0.79*
+-0.10
+TRL
+0.07
+0.21*
+0.41*
+0.24**
+0.29*
+SA
+-0.04
+0.39*
+0.68**
+0.38*
+0.51*
+0.66*
+AD
+-0.12
+0.26*
+0.42*
+0.23*
+0.34*
+-0.31*
+0.46*
+RV
+-0.08
+0.38*
+0.67*
+0.39*
+0.51*
+0.25*
+0.86*
+0.81*
+BN
+-0.03
+0.05
+0.21*
+0.20*
+0.10
+0.42*
+0.53*
+0.19*
+0.44*
+SL == shoot length; SDW == shoot dry weight; RDW = root dry weight; TRL = total root length; AD = average diameter; RDW/SDW = root dry weight per shoot dry
+weight; TPB = total plantbiomass; RV = root volume; SA = surface area; BN = branching number, significant at P < 0.05 and  significant atP < 0.01.
+following six seedling root and shoot related traits, TRL, RDW, obtained for GWAS, population structure and LD analyses,
+SDW, TPB, RV, and SA were especially high and positive at all making the SNP density along the 20 chromosomes one SNP per
+the three stages. The highest positive significant correlation was 2.36 kb (Figure 1).
+found between TPB and SDW (0.97) and the lowest one between
+TRL and RDW/SDW (0.12) (P < 0.01 or P < 0.05, Table 3).
+Interestingly, the TRL and RDW were highly correlatedwith root Population Structure and Linkage
+SA at all stages (0.66-0.92, 0.68-0.77, respectively). In addition, Disequilibrium
+positive and significant correlations were found between TPB, Based on the results of the cross-validation (CV) error rate
+RDW, and SDW (r > 0.80) as well as between RV and SA and K-values from Admixture analysis, the 260 genotypes
+(r > 0.86) at all stages (Table 3).
+were subdivided into ten subgroups (K == 10, associated with
+the lowest CV error) originated from two ancestral lines
+Genotyping Analysis
+(Figures 2A,B). These results have furthermore been validated
+A total of 1263.91 Mb reads were obtained, and the cutting by the phylogenetic tree and principal components analysis.
+efficiency of Rsal-Haelll (restriction enzyme for digestion) From the phylogenetic tree, it can be concluded that the soybean
+was 85.65%. The averages Q30 and GC content were 94.01 lines originated from two large branches which suggests that the
+and 39.87%, respectively. The number of tags was recorded 260 soybean lines were from the same ancestors (Figure 2D).
+on the 20 soybean chromosomes (Supplementary File 8). However, in the process of evolution, they evolved in different
+Bioinformatics analyses revealed 1,102,987 SLAF tags, of which subgroups. By transforming a set ofcorrelated variables into a set
+609,361 polymorphic, and 2,311,337 SNP markers. Upon filtering eflneantyumereitedearible, PCA allows different subgroups
+the genotype results for minimum MAF of 0.05 and locus to be clustered based on the degree ofSNP difference of different
+integrity of 0.8, a total of 179,960 highly consistent SNPS was materials. According to the PCA results, the 260 soybean lines
+Frontiers in Plant Science www.frontiersin.org
+6
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+The number of SNP within 1Mb window size
+6Mb 13Mb 19Mb 26Mb 32Mb 39Mb 45Mb 52Mb 58Mb
+Chr01
+Chr02
+Chr03
+Chr04
+Chr05
+Chr06
+Chr07
+Chr08
+Chr09
+Chr10
+Chr11
+Chr12
+0
+Chr13 
+713 1426
+Chr14
+2139
+Chr15
+2852
+Chr16
+3565
+Chr17
+4278
+4991
+Chr18
+5704
+Chr19
+6417
+Chr20
+>6417
+FIGURE 11 [Distribution of SNPS in 20 chromosomes of Soybean. Each color represents different densities (Liu et al., 2020).
+A
+B
+Population structure
+k=2
+0.84
+Two ancestral populations
+k=3
+k=4
+k=5
+0.82
+k=6
+CTR
+k=7
+a
+k-8
+0.80
+SE
+k=11
+0.78
+k=12
+:
+k=13
+k=14
+I
+k=15
+2 3 4 5 6 7 R 9 10 11 12 13 14 15
+value
+C
+D
+i
+Amet =
+Area
+0.20
+0.15
+0.10
+0.05
+0.00
+I
+-0.05
+-
+2
+D -0.10
+RS Rers
+-0.15
+3
+-0.20
+R Area 10
+RS Area2 d
+-0.20 -0.15-0.10 -0.05 0.00 0.05 0.10 0.15 0.20 Re Area3
+PC1 (6.43%)
+FIGURE 21Population structure of 260 genotypes of spring soybean (Liu et al., 2020): (A) Diagram showing the value of 260 samples based on clustering from 11 to
+15; Cross validation error rate for each K-value of 1-15, X-axis is K-value 1-15, Y-axis is cross-validation errors. (B) Clustering analysis when the number of
+subgroups is in the range 2-15, the colors represent separate groups. (C) Three-dimensional score plot (PCI, PC2, and PC3) to discriminate between soybeans lines
+from three provinces of China. (D) Phylogenetic tree of 260 soybean lines. Areal represents the soybean lines from Jilin province, Area2 represents the soybean lines
+from Heilongjiang province, Area3 represents the soybean lines from Liaoning province.
+can be divided into different subgroups with more overlapping as an admixture oftwo ancestral populations. By spanning across
+areas. PC1, PC2, and PC3 accounted for 6.43, 3.81, and 3.11% all 20 chromosomes a subset ofhigh-quality markers (see section
+respectively (Figure 2C). Collectively,itcan be concluded that the "Materials and Methods"), we evaluated genome-wide LD in the
+260 soybean lines were subdividedinto 10 subgroups represented 260 soybean accessions. The average decay distance ofLD for all
+Frontiers in Plant Science www.frontiersin.org
+7
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+the 260 soybean lines was approximately 9.5 kb at a threshold of 16, position 29621947 (-log1o(P) =l 7.97, R2 = 72%), was
+r2 == 0.3 (Figure 3).
+associated with RDW/SDW and was detected across three
+different methods (GLM, MLM and CMLM) at VC stage.
+Genome-Wide Association Analysis
+The second most important SNP found on Chromosome 13,
+In this analysis, as the multiple testing for BC was too location 40092616 (-logio(P) = 5.89, R2 = 34%) was associated
+conservative, to further confirm the significant SNPS associated with SDW and was detected across two different methods
+with root related traits, all the 260 spring soybean genotypes (GLM and MLM) at V2 stage. In regards of SNPs controlling
+were analyzed at three various stages using five GWAS models multiple traits, two significant SNPS (Chr13-30887365, Chr09-
+(GLM, MLM, CMLM, FaST-LMM, and EMMAX) in order to 40442312, -logio(P) = 4.64, 5.15, respectively) were found to
+control false positives. According to the results of GWAS, a be substantially associated with five specific seedling root and
+total of 27 unique SNP markers were detected which exhibited shoot traits namely AD, RDW, RV, TPB and SDW (Table 4).
+significant associations with root and shoot morphological traits Individually, nine SNPS were significantly associated with SDW
+at the critical threshold of -logio(P) N 4.0, and these SNP on chromosome 9 and 13, six SNPS were associated with SA on
+positions were distributed in nine chromosomes, 2, 4, 6, 8, 9, chromosome 4, 6, 13 and 20, four SNPS were associated with
+13, 16, 18, and 20 (Table 4). Minor allele frequencies (MAF) RV on chromosome 13 and 20, and three SNPs were associated
+and phenotypic variation ranged from 5 to 47% and 20 to with RDW on chromosome 9 and 14, three SNPS were associated
+72%, respectively, for all the identified SNPs (Table 4). We with TPB on chromosome 8 and 13 (Table 4). The remaining five
+further analyzed significant SNPS that were repeatedly detected SNP positions were related to SL, BN and RDW/SDW along four
+throughout the different stages and methods. In particular, different chromosomes 2, 9, 16, and 18 (Table 4). Additionally,
+16 SNPS were consistently detected from two stages while 9 Q-Q (quantile-quantile) plots and individual Manhattan plots of
+SNPS were detected by at least three GWAS models. These all the significant SNPS associated with all traits at all stages are
+SNPS may therefore be considered major SNPS in this study. shown in Supplementary Files 9, 10, respectively.
+Comparing the results from the five GWAS approaches, 22 SNPS
+were detected by FaST-LMM, 15 SNPS by GLM, 14 SNPs by
+EMMAX, 7 SNPS by MLM, and 1 SNP by CMLM (Figure 4A Mining of Candidate Genes and
+and Table 4). The FaST-LMM detected the highest number of Expression Analysis
+significant SNPS, with 22 SNPS detected for the ten traits, while In this analysis, eleven candidate genes located within + 55 bp
+CMLM was the least efficient by detecting only 1 SNP associated distance from the SNPS with phenotypic contribution rate
+with RDW/SDW (Table 4). Besides, FaST-LMM combined with (R2 > 22%) were obtained as putative candidate genes for
+EMMAX followed by FaST-LMM combined with GLM were root and shoot development in the spring soybean panel. The
+the combinations that detected the most number of SNPS with, candidate genes were Glyma.09G179600, Glyma.08G060300,
+14 and 10 SNPS, respectively (Figure 4B). Interestingly, several Glyma.16G138900, Glyma.16G208400, Glyma.09G153400,
+SNPS were simultaneously detected by multiple GWAS models. Glyma.13G303800, Glyma.08G060600, Glyma.16G173300,
+The SNP with the lowest p-value, located on chromosome Glyma.02G113900, Glyma.06G148800, and Glyma.18G094200
+0.61
+0.5
+& 0.4
+E
+0.3
+0.21
+W
+Mn
+My
+0.11
+yhusru
+0
+250
+500
+750
+1000
+Distance(kb)
+FIGURE 31 Genome-wide linkage disequilibrium (LD) decay for all 260 accessions. R2 indicates the squared allele frequency correlations between all pairs of SNP
+markers. The X-axis indicates the distance between marker pairs.
+Frontiers in Plant Science www.frontiersin.org
+8
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+TABLE 41Significant SNPS associated with root and shoot related traits detected by GWAS.
+Trait
+Position Methoda Stageb Chr P-value -log1o(P)
+R2 Allele
+Count
+MAF
+TPB
+4653989
+1
+1
+Chr08 8.10E-05
+4.09
+0.251
+T/C T:116_C:22 0.16
+TRL
+4673257
+4
+1
+Chr08 3.70E-05
+4.43
+0.252 C/G C:123_G:21 0.15
+BN
+9585410
+1
+3
+Chr18 1.22E-05
+4.92
+0.301 G/C
+G:110_C:6 0.05
+BN
+11071047
+5,4
+2
+Chro2 6.17E-05
+4.21
+0.300 G/C G:100_C:18 0.15
+SA
+12157467
+4,5
+3
+Chr06 2.18E-05
+4.66
+0.323 T/C
+T79_C:65
+0.45
+SA
+12684509 4,1,5
+2,3
+Chr04 9.8E-05
+4.01
+0.238 AT
+A:93_T:45 0.33
+RDW/SDW
+29621947 2,3,1
+1
+Chr16 1.08E-08
+7.97
+0.721 CIA C:113_A:15 0.12
+SDW
+30444845 2,1,4,5
+2,3
+Chr13 7.1E-05
+4.15
+0.260 T/C
+T:130_C:8 0.06
+SDW
+30444857 2,1,4,5
+2,3
+Chr13 7.1E-05
+4.15
+0.260 G/A
+G:130_A:8 0.06
+SDW
+30444862 5,1,2,4
+2,3
+Chr13 1.2E-05
+4.92
+0.240 A/G
+A:130_G:8 0.06
+SDW
+30444865 4,1,2,5
+2,3
+Chr13 7.4E-06
+5.13
+0.354 C/T
+C:130_T.8
+0.06
+SDW
+30444924 1,2,4,5
+2,3
+Chr13 9.6E-05
+4.02
+0.207 CT
+C:130_T:8 0.06
+RV, SDW, TPB
+30887365
+4,5
+2,3
+Chr13 2.3E-05
+4.64
+0.234 AT A:123_T11 0.08
+RV
+30910036
+1
+2,3
+Chr13 6.1E-05
+4.22
+0.210 C/T C:114_T:18 0.14
+SA
+30910036
+5,4
+2,3
+Chr13 5.2E-05
+4.29
+0.212 CIT C:114_T:18 0.14
+RV
+30910036 4,1,5
+2,3
+Chr13 6.1E-05
+4.07
+0.253 C/T
+C:114_T:18 0.14
+SL
+31398594
+1,4
+2,3
+Chr09 7.8E-05
+4.11
+0.228 T/C
+T118_C:8 0.06
+TRL
+33383414
+4
+2
+Chr16 2.08E-05
+4.68
+0.213 G/T
+G:76_T:68 0.47
+RDW/SDW
+36801463
+5,4
+1
+Chr16 1.26E-05
+4.90
+0.253 T/A
+T:133_A:9 0.06
+SDW
+37605828
+4
+2
+Chr09 9.04E-05
+4.04
+0.250 C/T
+C:76_T:64 0.46
+SDW
+40092616
+1,2
+3
+Chr13 1.30E-06
+5.89
+0.345 C/G C:105_G:31 0.23
+AD, RDW, SDW, TPB 40442312
+1,4
+1
+Chr09 7.10E-06
+5.15
+0.306 CIA
+C:131_A:7 0.05
+RDW
+40958088 1,4,5
+2,3
+Chr04 9.7E-05
+4.01
+0.264 A/G
+A:117_G:7 0.06
+SA
+42374764
+4
+2,3
+Chr20 6.1E-05
+4.22
+0.270 G/T
+G:124_T8 0.06
+SA
+42374776
+4
+2,3
+Chr20 7.2E-05
+4.14
+0.250 AT
+A:124_T8 0.06
+SA
+42374808
+4
+2,3
+Chr20 7.2E-05
+4.14
+0.250 T/C
+T124_C:8
+0.06
+RV
+45819633
+4,5
+2,3
+Chr20 7E-05
+4.16
+0.251 A/G A:105_G:23 0.18
+SL == shoot length, SDW = shoot dry weight, RDW == root dry weight, TRL = total root length, AD = average diameter, RDW/SDW = root dry weight per shoot dry
+weight, TPB = total plant biomass, RV = root volume, SA = surface area, BN = branching number, a method 1-5refers to GLM, MLM, CMLM, FaST-LMM, andEMMAX,
+respectively, b stage 1-3 refers to VC, V1, andV2, respectively, MAF = minor allele frequency, R2 = phenotypic contribution, Chr = chromosome.
+(Table 5). The list of all genes associated with significant SNPS and widespread phenotypic heterogeneity in such germplasms
+detected in this study is presented in Supplementary File 7. The improve the reliability ofGWAS for discovering significant SNPS
+functional annotations of these candidate genes were clarified underlying root traits. Although the optimization of crop root
+and predicted using NCBI and SoyBase databases (Table 5). systems has been projected for a long time, genetic dissection
+The relative expression level results obtained through qRT-PCR and improvement of roots are seldom attempted (Bishopp and
+revealed that the eleven candidate genes were upregulated at all Lynch, 2015). Phenotyping of root architecture traits at the adult
+considered stages (VC, V1, V2) in the different root samples. stage in the field is a complex, costly, and time-consuming
+Comparatively, expression levels in accessions with higher task, particularly when a large number of plants need to be
+branching number were higher, especially in the later growth phenotyped (Huisman, 1982). Root evaluation methods based
+stages (Figure 5), indicating that these genes play crucial roles in on controlled environments such as greenhouse are less time-
+soybean root development.
+consuming, and reliable results easily related to the field can be
+achieved (Huisman, 1982). Thus, 260 soybean inbred lines were
+grown under standardized conditions in the greenhouse with
+DISCUSSION
+three replications in order to get accurate and reliable phenotypes
+at different seedling stages. The experiment was conducted in
+Our study's main goal was to elucidate the genetic basis three stages (VC, V1, V2) which corresponded to 7, 14, and 21
+underlying the phenotypic differences in spring soybean root days after germination (Table 2).
+system architecture. Our study described a genome-wide Large phenotypic variations for the ten vegetative period traits
+association mapping for root and shoot related traits in a diverse can be observed in the 260 spring soybean accessions (Table 2).
+population consisting of 260 natural soybean genotypes. China Our research showed that the phenotypic output of all the
+has preserved 70% ofits unique soybean germplasm in the global investigated root related traits rapidly increased from stage VC
+gene bank, and many of them are ancient local varieties with to stage V2, supporting the crucial role of the selected stages
+high genetic diversity (Qiu et al., 2011). The genetic diversity in root and shoot evaluation in this study. The broad-sense
+Frontiers in Plant Science www.frontiersin.org
+9
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+A
+B
+24.
+22
+15
+14
+21
+18 -
+12-
+10
+15
+E 15. -
+14 E
+of
+of 9-
+8
+et 12.
+- 7
+-
+i 9-
+7
+- j
+5 5
+6-
+-
+3- -
+3-
+1
+d.
+1
+1
+0 0
+1 2 3 4 5
+1,2 1,3 1,41,5 2,3 2,42,5 3,4 3,54,5
+Method number
+Combinations of methods
+FIGURE 41(A) The number of SNPS detected by different methods and (B) different combinations of methods. Method numbers correspond to (1)GLM, (2) MLM,
+(3) CMLM, (4) FaST-LMM, and (5) EMMAX.
+TABLE 5/Potential candidate genes identified through GWAS and their functional annotations.
+Genes
+Traits
+SNP position Length (bp) Chr Distance(bp) Function explanation
+Glyma.09G179600 AD, RDW, SDW, TPB 40442312
+2525
+Chr09
+-55
+PREDICTED: Glycine max aminopeptidase
+M1-like (LOC100811437), transcript variant X3,
+MRNA
+Glyma.08G060300
+TPB
+4653989
+2338
+Chr08
+-44
+PREDICTED: Glycine max uncharacterized
+LOC100803004 (LOC100803004), misc_RNA
+Glyma.16G138900
+RDW/SDW
+29621947
+1464
+Chr16
+-48
+PREDICTED: Glycine max: sugar transporter
+ERD6-like 6-like (LOC100801076), mRNA
+Glyma.16G208400
+RDW/SDW
+36801463
+11522 Chr16
+8
+PREDICTED: Glycine max chloride channel
+protein CLC-c-like (LOC100809070), transcript
+variant X8, mRNA
+Glyma.09G153400
+SL
+37605828
+3135
+Chr09
+-41
+Phaseolus vulgaris hypothetical protein
+PHAVU.009G20590001 MRNA, complete cds
+Glyma.13G303800
+SDW
+40092616
+5464
+Chr13
+11
+PREDICTED: Glycine max G-type lectin
+S-receptor-like serine/threonine-protein kinase
+At4g03230-like (LOC100817898), mRNA
+Glyma.08G060600
+TRL
+4673257
+3725
+Chr08
+24
+PREDICTED: Glycine max pentatricopeptide
+repeat-containing protein At2g17140-like
+(LOC100803535), transcript variant X2,
+misc_RNA
+Glyma.16G173300
+TRL
+33383414
+832
+Chr16
+-49
+Glycine max strain Williams 82 clone
+GM.WBb0117F02, complete sequence
+Glyma.02G113900
+BN
+11071047
+3810
+Chr02
+1
+PREDICTED: Glycine max tankyrase-2-like
+(LOC100795610), transcript variant X1, mRNA
+Glyma.06G148800
+SA
+12157467
+3573
+Chr06
+-17
+PREDICTED: Glycine max ribonuclease P protein
+subunit p25-like protein-like (LOC100802967),
+transcript variantX1, MRNA
+Glyma.18G094200
+BN
+9585410
+2581
+Chr18
+19
+PREDICTED: Glycine max disease resistance
+protein RPM1-like (LOC102663437), mRNA
+heritability of most root related traits was moderate to high length and volume in soybean has SO far been reported to be
+(Table 2). In addition, the majority of traits followed a normal associated with aluminum tolerance and drought (Liu et al.,
+distribution indicating the relative stability behind the measured 2005b; Yang et al., 2005; Ying etal., 2007).Acquisition ofnutrients
+features in this study. Furthermore, all the root related traits were from soil and accessibility of soil moisture by plants was stated to
+highly significantly and positively correlated at all studied stages. be more reliant on rootlength and/or surface area than total root
+Interestingly, root dry weight (RDW) andtotal rootlength (TRL) biomass (Nye and Tinker, 1977; Sattelmacher et al., 1990). Also,
+were extremely correlated with the surface area of root at all these traits were previously indicated to regulate the total root
+stages, which affects the nutrient of plant and water absorption growth rate and the root architecture plasticity ofplants, which is
+(Comas et al., 2013). In this study, total root length and volume necessary for successful soil explorationto interceptnutrients: and
+were found tightly correlated. The involvement of total root communicate stress signals (Falik et al., 2012). Several studies in
+Frontiers in Plant Science www.frontiersin.org
+10
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+10- Glyma.09G179600
+87 Glyma.18G094200
+87 Glyma.13G303800
+87 Glyma.16G208400
+8-
+***
+** ***
+T
+6-
+T
+-
+6-
+**
+6-
+**
+6-
+I
+**
+L
+4-
+4- *
+**
+4-
+4-
+2-
+2-
+ial.
+i. Li
+0-
+L.
+0-
+0-
+0
+lal
+VC V1
+V2
+VC V1 V2
+VC V1
+V2
+VC V1
+V2
+87 Glyma.16G138900
+8-7 Glyma.08G060600
+8-7 Glyma.08G060300
+8- Glyma.16G173300
+**
+6-
+6-
+** **
+6-
+6-
+*** ***
+4-
+** T
+4-
+T
+L
+4-
+4- ***
+**
+2- * -
+2-
+.
+T
+Tiii
+.1.i.
+0-
+0-
+0-
+L.lal.
+0-
+VC V1 V2
+Vc V1 V2
+vc V1
+V2
+vc V1
+V2
+87 Glyma.02G113900
+87 Glyma.06G148800
+87 Glyma.09G153400
+6-
+6-
+6-
+** ***
+**
+**
+4-
+4-
+-
+4- T
+**
+al.l.
+2-
+0-
+hial
+hai.i.
+VC V1 V2
+VC V1 V2
+VC V1 V2
+FIGURE5/Relative expression levels of eleven candidate genes in phenotypically different root samples from the spring soybean at three seedling stages analyzed
+via qRT-PCR. The red and blue bars indicate the mean expression level (for four samples) of genes in high and low branching number accessions at VC, VI and V2
+stages, respectively; *** **, and* specify the significance at the level ofP < 0.001, P < 0.01, and IP < 0.05, respectively.
+crops have emphasized that a deeper root system is influencedby (Karikari et al., 2019). In soybean, roots have previously been
+root dry weight and total root length, important for improving indicated to becontrolledby multigenes, and are strongly affected
+drought tolerance andbeing associated with the final yield under by environmental changes (Li et al., 2010). Hence, most of
+drought stress in soybean (Hudak and Patterson, 1995) and rice the earlier recorded QTLs were neither stable nor confirmed
+(Bengough et al., 2011; Suji et al., 2012). Therefore, identifying and have therefore not been successfully utilized in marker-
+ideotypes for root traits involved in drought tolerance at early assisted selection (MAS) for soybean breeding. To address these
+growth stages could be very useful in guiding the development limitations, a genome-wide association study based on LD was
+of soybean cultivars with enhanced soil exploration, and thus performed in the present study. Previous studies have shown
+water acquisition, under water deficit conditions (Dayoub et al., that GWAS is an effective approach to detecting and identifying
+2021). In this study, four soybean genotypes including Z166, SNPS or genes correlated with specific traits, such as root
+Z201, Z203 and Z232 with promising root structure were growth in crops (Atwell et al., 2010; Ingvarsson and Street, 2011;
+identified. The different genotypes performedbetter in all thekey Riedelsheimer et al., 2012; Crowell et al., 2016). Based on 179,960
+root architectural traits investigated like, total root length, root high-quality SNPS in 260 spring soybean accessions, 27 SNPS
+branching number, root surface area, root volume, and root dry were identified to be associated with ten root related traits with
+weight (Supplementary File 5). These accessions are all Chinese the significance threshold of (-logio(P) N 4). Many SNPS found
+landraces, with Z166 from Jiangsu Province and Z201, Z203, and in this analysis were not recorded in earlier studies. This mightbe
+Z232 from Jilin Province (Supplementary File 1).
+clarified by the variance in the genetic background as well as the
+Understanding the mechanism of root related traits in crops environmental factors thatinfluence root related traits expression
+like soybean through SNPS and genes investigation could be and, ultimately, plant development.
+the most powerful and successful strategies to develop high- In the present research, besides the most commonly used
+quality root cultivars via marker-assisted selection. Many studies models, three GWAS models including CMLM, FaST-LMM, and
+have been performed to elucidate the genetic foundation and EMMAX were used to improve the accuracy of the results. As
+underlying root genetic function in soybean, and several root- GLM uses only Q population structure information while MLM
+related QTLs have been reported in various populations using uses Q + K, due to the strict screening requirements, CMLM and
+various environments (Liang et al., 2010, 2014; Li et al., 2010; MLM may increase GWAS analysis accuracy. Many researchers
+Rong et al., 2011). Nevertheless, most of these QTL mapping have reported that GLM's stringency and accuracy are weaker
+studies were carried out using low-density genetic linkage maps compared to the MLM (Huang et al., 2010; Yang et al., 2010;
+Frontiers in Plant Science www.frontiersin.org
+11
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+Zhang et al., 2010; Liu et al., 2016). Furthermore, it had been 8 harbored SNPS Chr8-4673257 and Chr8-4653989 for two
+previously recommendedthatmuliple algorithmic models ought different traits namely TRL and TPB, respectively. SNP
+to be used to perform GWAS analysis in real application for Chr8-4673257 was located 24 bp from the candidate gene
+complex traits studies (Dhanapal and Crisosto, 2013; Hecht Glyma.08G060600 predicted to encode a pentatricopeptide
+et al., 2013; Zhang H. et al., 2017) due to the limitation in repeat-containing protein At2g17140-like highly expressed in
+some GWAS scanning models to detect associations with the nodule roots, leaves and primary root in soybean (Libault et al.,
+variation of polygenes. The EMMAX model (Kang et al., 2010) 2010; Severin et al., 2010). SNP Chr8-4653989 was located 44 bp
+has the ability to handle a large number of markers and reduces downstream the gene model Glyma.08G060300 highly expressed
+the computational time for analysis; FaST-LMM (Lippert et al., in the soybean primary root and lateral roots (Libault et al., 2010;
+2011) can solve the computational problem but requires that the Severin et al., 2010). Furthermore, several QTLs for root dry
+number of individuals be more than the number of SNPS; and weight, taproot length, shoot length, lateral root number, and
+CMLM (Zhang et al., 2010) can boost both statistical power and total root length were previously detected on this linkage group
+computing efficiency (speed). Based on these GWAS methods, from various similar root studies at seedling stage/time-point
+a different number of SNPs were detected as each method has (Liu et al., 2005a; Ying et al., 2007; Liang et al., 2014; Manavalan
+its specific power and stringency to identify SNP associations. In et al., 2015; Prince et al., 2020). Moreover, a region spanning
+this study, FaST-LMM followed by GLM were the most effective only 15 cM on this chromosome was earlier revealed to contain
+in detecting more significant SNPS associated with the ten target four cluster QTLs for root fresh weight, root dry weight, shoot
+traits as compared to other models. Thus, 22 SNPS were detected fresh weight, and shoot dry weight using the Essex X Forrest
+by FaST-LMM, 15 by GLM, 14by EMMAX, 7by MLM and 1 by soybean population (Brensha et al., 2012). SNPS Chr6-12157467,
+CMLM (Figure 4A and Table 4), and among the combinations Chr18-9585410, and Chr20-45819633 associated with SA, BN,
+of methods, FaST-LMM combined with EMMAX detected the and RV were in LD with three noteworthy QTNS namely q6,
+maximum number of SNPS (Figure 4B). Comparatively FaST- q18-2, and q20-3 associated with photosynthetic traits related to
+LMM detected the greatest number of SNPS followed by GLM, phosphorus efficiency in soybean, respectively (Li et al., 2018).
+and EMMAX while the small number of SNPS was detected by SNP Chr6-12157467 was located 17 bp downstream the gene
+CMLM and MLM models which confirmed the relevance and model Glyma.06G148800 predicted to encode a ribonuclease
+ability of the different GWAS models used for controlling the subunit p25-like protein-like while SNP Chr18-9585410
+false positives. Several studies used various approaches, along was 19 bp away from the candidate gene Glyma.18G094200
+with significant and suggestive level to balance the false negatives encoding for a RPM1 protein-like conferring disease resistance.
+and false positives in root related studies (Li X. et al., 2017; Jia These two genes were recorded - to display high expression in
+et al., 2019). Interestingly, a major SNP, Chr09-40442312 was soybean primary root (Libault et al., 2010; Severin et al., 2010).
+found to be associated with four root-related traits AD, RDW, Chromosomes 6 and 14 seem to harbor multiple QTLS for soybean
+SDW and TPB, and described 30.6% of the total phenotypic root traits. Wang et al. (2004) detected 3 QTLs for root weight on
+variation. The above-mentioned major SNP overlapped one chromosomes 6 with 6.8-26.3% of the phenotypic contributions
+annotated gene Glyma.09G179600, which encodes an amino at maturity stage of soybean. Liu et al. (2005b) revealed 6
+acid transport and metabolism. This gene was also previously QTLs for drought tolerance on chromosome 6 at V4 stage,
+recorded for soybean nodule-related traits (Li et al., 2018). Thus, including 3 major QTLs explained 22 to 24.7% of phenotypic
+this gene may be a promising candidate gene for further study on variations associated with root dry weight, total root length, and
+soybean root development.
+root volume. At R7 stage, Zhou et al. (2009) mapped 1 and 3
+Chromosome 13 was found substantially associated with QTLs for root weight on chromosomes 6 and 8, respectively,
+numerous SNPs for multiple root and shoot related traits with phenotypic contributions ranged from 8.3 to 12.5%. Our
+including RDW, SDW, RV, TPB, and SA. Of these SNPS, Chr13- detected SNP Chr06-12157467 associated with SA at V2 stage on
+30444845, Chr13-30444857, Chr13-30444862, Chr13-30444865, chromosome 6 was also found very close to qMRL6, a QTL for
+Chr13-30444924, Chr13-30887365, and Chr13-30910036 main root length linked to the marker locus Sat_153 (10.52 cM),
+overlapped with the reported QTLs "Root length 1-1', 'Root which was earlier detected in a similar study at V2 stage (Rong
+length 1-2', "Root length 1-3', "Root length 1-4', "Root area et al., 2011). In addition, this SNP was in LD with qMRL/RW6,
+2-1', and "Root area 2-2' underlying soybean root length and a QTL for main root length to root weight ratio (MRL/RW)
+surface area development under hypoxia conditions (Van linked to marker Satt557 (5.55 CM) (Rong et al., 2011). SNP
+Nguyen et al., 2017). The soybean salt tolerance loci $s715616115 Chr04-40958088 on chromosome 4 associated with RDW and
+and ss715624611 on chromosomes 13 (position 33,415,484) consistently detected at V1 and V2 stages collocated with qHW4
+and 16 (position 33383414) reported by Zeng et al. (2017) (Rong et al., 2011), a previously reported QTL for hypocotyl
+were located especially near the SNPs Ch13-40092616 and weight between markers Satt476 and Satt294. This SNP was
+Chr16-33383414 associated with SDW and TRL, respectively. also in LD with a SNP on chromosome 4 (position 36376946)
+SNP Chr13-40092616 was only 11 bp far from the gene model associated with root surface area detected by Prince et al. (2019)
+Glyma.13G303800 coding for a G-type lectin S-receptor-like at V1 stage. SNPS Chr16-29621947 and Chr16-33383414 on
+serine/threonine-protein kinase At4g03230-like. This gene was chromosome 16 significantly associated with RDW/SDW and
+earlier indicated to show high expression in soybean seedling TRL, respectively were in LD with a SNP (position 30021671)
+leaves (Libault et al., 2010; Severin et al., 2010). Chromosome for lateral root number and root diameter in thickness Class
+Frontiers in Plant Science www.frontiersin.org
+12
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+I (Prince et al., 2019). SNPS chr20-42374764, chr20-42374776, DATA AVAILABILITY STATEMENT
+chr20-42374808 associated with SA and SNP chr20-45819633
+associated with RV were found very close to the SNP (position The original contributions presented in the study are publicly
+43048714) associated with root diameter in volume and surface available. This data can be found here: htps/www.ncbinlm.nih.
+area Class II (Prince et al., 2019). These loci were also in LD with go/bioprogctPRINA61350
+a QTL for total root length recently identified by Prince et al.
+(2020) within a SNP06258 2 NCSB_004833 marker interval.
+Based on the LD decay analysis, an approximately 55 bp SNP AUTHOR CONTRIBUTIONS
+region was chosen as a candidate region for selecting potential
+candidate genes. According to the functional annotation, GO AM drafted the original manuscript. AAM reviewed and edited
+enrichment, and gene expression profile, we selected 11 genes the manuscript. AM and AAM conducted the experiments
+for expression analysis using qRT-PCR, widely used to validate and performed the analysis. JQ, QZ, and YD performed the
+GWAS-identified genes expression with high accuracy and phenotyping. GA and NA conducted formal analysis. PW
+sensitivity (Bustin, 2002; Bustin and Nolan, 2004). The relative supervised the experiments. All authors have read and agreed the
+expression rates of the eleven potential candidate genes tested final version ofthe manuscript.
+were significantly higher in high root branching number
+accessions as compared to low root branching number accessions
+at all considered growth stages (VC, V1, V2), particularly later FUNDING
+stages (Figure 5). Therefore, the evaluated genes served as a
+constructive regulator in the spring soybean panel which could This research was supported by the National Natural Science
+be of great significance for elite's soybean breeding programs. Foundation ofChina under grant number (31571689).
+Upcoming research based on these potential candidate genes will,
+however thoroughly elucidate the role of these aforementioned
+genes in soybean root growth and development.
+ACKNOWLEDGMENTS
+We would like to express our gratitude to Biomarker Company
+(Beijing, China) for their kind support in SLAF sequencing.
+CONCLUSION
+We also thank M. I. Nasser for his valuable help to improve
+this manuscript.
+In conclusion, this work provides a comprehensive analysis of
+the genetic architecture of root related traits in spring soybean.
+We performed a genome-wide association study through 260 SUPPLEMENTARY MATERIAL
+soybean accessions genotyped by SLAF-seq for root related
+traits at three developmental stages under standard greenhouse The Supplementary Material for this article can be found
+conditions and identified a total of 27 substantial SNPS using online at: https/www.frontiersin.orglarticles100.3389/fpls.2021.
+different GWAS models (GLM, MLM, CMLM, FaST-LMM, and 568995/fullesupplementary-material
+EMMAX). All The detected SNPS showed individual phenotypic
+contribution rates greater than 20% and were significantly Supplementary File 1/List and provenance of the 260 spring
+associated with SDW (7), SA (6), RV (3), TRL (2), BN (2), soybean accessions.
+RDW/SDW (2), TPB (1), RDW (1), and SL (1). However, two Supplementary File 2]Root trait phenotypic evaluation and scanning.
+major SNPS were found to be associated with multiple traits Supplementary File 31Phenotypic data of root and shoot related traits of 260
+including AD, RDW, SDW, and TPB in one side and RV, SDW, spring soybean population at VC, V1, and V2 stages.
+TPB in the other. Based on the LD region of no more than Supplementary File 41 Histogram of the frequency distribution of root and shoot
+55-bp and SNPs with phenotypic contribution rate greater related traits at all three stages with data from VC stage shown in blue color (A),
+than 22%, eleven promising root and shoot regulating genes data from V1 stage shown in green color (B), and data from V2 stage shown in
+viz. Glyma.09G179600, Glyma.08G060300, Glyma.16G138900, turquoise color (C).
+Glyma.16G208400, Glyma.09G153400, Glyma.13G303800, Supplementary File 5JAccessions used in QRT-PCR analysis.
+Glyma.08G060600, Glyma.16G173300, Glyma.02G113900, Supplementary File 6List of primers used for the qRT-PCR assay of the
+Glyma.06G148800, and Glyma.18G094200 overlapping with investigated genes involvedi in the root pathway.
+SNPS on chromosomes 2, 6, 8, 9, 13, 16, and 18 were detected and
+verified for expression level. The evaluated genes were shown Supplementary File 7]List of all associated genes with significant SNPS
+detected in this study.
+to serve as positive regulators for root branching number in the
+spring soybean panel, which could play a crucial role in marker- Supplementary File 8/Distribution of SLAF tags and polymorphic SLAF tags on
+assisted selection programs. Thus, SNPS and underlying genes soybean chromosomes.
+discovered in the current study provide a key basis for revealing Supplementary File 91Quantile-Quantile (Q-Q) plots of root and shoot related
+the complex genetic mechanism of Froot development and genetic traits at three stages.
+enhancement of soybean root, as well as supporting the breeding Supplementary File 10/Individual Manhattan plots of all the significant SNPS
+ofhigh-efficiency soybean root system varieties in the future.
+associated with all traits at all stages.
+Frontiers in Plant Science www.frontiersin.org
+13
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+REFERENCES
+Geng, X., Jiang, C., Yang, J, Wang, L., Wu, X., and Wei, W. (2016). Rapid
+identification of candidate genes for seed weight using the SLAF-Seq method
+Abdel-Ghani, A. H., Kumar, B., Reyes-Matamoros, J., Gonzalez-Portilla, P. J, in Brassica napus. PLOS One 11:e0147580. doi: 10.37L/jpurmalpone.0kg50
+Jansen, C., San Martin,J.P., et al. (2013). Genotypic variation and relationships Hake, A. A., Shirasawa, K., Yadawad, A., Sukruth, M., Patil, M., Nayak, S. N., et al.
+between seedling and adult plant traits in maize (Zea mays L.) inbred lines (2017). Mapping of important taxonomic and productivity traits using genic
+grown under contrasting nitrogen levels. Euphytica 189, 123-133. doi: 10.10071 and non-genic transposable element markers in peanut (Arachis hypogaea L.).
+S10681-012-0759-0
+PLOS One 12:e0186113. doi: 101371jouralpone-0186113
+Alexander, D.H,Novembre,). and Lange, K. (2009). Fast model-based estimation Han, Y., Zhao, X., Liu, D., Li, Y., Lightfoot, D. A., Yang, Z., et al. (2016).
+of fancestry in unrelated individuals. Genome Res. 19, 1655-1664.
+Domestication footprints anchor genomic regions of agronomic importance in
+Assefa, Y., Bajjalieh, N., Archontoulis, S., Casteel, S., Davidson, D., Kovacs, P., soybeans. N. Phytol. 209, 871-884. doi: 10.1111/nph.13626
+et al. (2018). Spatial characterization ofsoybeany yield and quality (amino acids, Hecht, B. C., Campbell, N. R., Holecek, D. E., and Narum, S. R. (2013). Genome-
+oil, and protein) for United States. Sci. Rep. 8:14653. doi: 10.1038/41598-018- wide association reveals genetic basis for the propensity to migrate in wild
+32895-0
+populations of rainbow and steelhead trout. Mol. Ecol. 22, 3061-3076. doi:
+Atwell, S., Huang, Y. S., Vilhjalmsson, B. J, Willems, G., Horton, M., Li, Y., 10.111/mec.12082
+et al. (2010). Genome-wide association study of 107 phenotypes in. Arabidopsis Hickey, L. T., Hafeez, A. N., Robinson, H., Jackson, S. A., Leal-Bertioli, S. C. M.,
+thaliana inbred lines. Nature 465:627. doi: 10.1038/nature08800
+Tester, M., et al. (2019). Breeding crops to feed 10 billion. Nat. Biotechnol. 37,
+Bengough, A. G., McKenzie, B., Hallett, P., and Valentine, T. (2011). Root 744-754. doi: 10103/41587-019-01529
+elongation, water stress, and mechanical impedance: a review of limiting Huang, X., Sang, T., Zhao, Q,Feng, Q., Zhao, Y,Li,C.,etal.( (2010). Genome-wide
+stresses and beneficial root tip traits. J. Exp. Bot. 62, 59-68. doi: 10.1093/jxb/ association studies of 14 agronomic traits in rice landraces. Nat. Genet. 42:961.
+erq350
+doi: 10.1038/ng.695
+Bishopp, A., and Lynch, J. P. (2015). The hidden half of crop yields. Nat. Plants Huang, X., Yang, S., Gong, J, Zhao, Q., Feng, Q, Zhan, Q, et al. (2016). Genomic
+1:15117. doi: 101038/mplants2015.117
+architecture of heterosis for yield traits in rice. Nature 537:629. doi: 10.1038/
+Bloom, A. J, Chapin, F. S. III, and Mooney, H. A. (1985). Resource limitation in nature19760
+plants-an economic analogy. Annu. Rev. Ecol. Syst. 16, 363-392.
+Hudak, C., and Patterson, R. (1995). Vegetative growth analysis of a drought-
+Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y., resistant soybean plant introduction. Crop Sci. 35, 464-471. doi: 10.21351
+and Buckler, E. S. (2007). TASSEL: software for association mapping of awpaipseliseuiswaeis
+complex traits in diverse samples. Bioinformatics 23, 2633-2635. doi: 10.1093/ Huisman, O. (1982). Interrelations of root growth dynamics to epidemiology
+bioinformatics.btm308
+of root-invading fungi. Annu. Rev. Phytopathol. 20, 303-327. doi: 10.1146/
+Brensha, W., Kantartzi, S. K., Meksem, K., Grier, R. L. IV, Barakat, A., Lightfoot, ammurxÀpy2009018200151
+D. A., et al. (2012). Genetic analysis of root and shoot traits in the 'Essex'by Ingvarsson, P. K., andStreet, N. R. (2011). Association genetics ofcomplex traitsin
+"Forrestrecombinant inbred line (RIL) population of soybean [Glycine max plants. N. Phytol. 189, 909-922. doi: 1019898137230100593
+(L.) Merr.]. Plant Genet. Genomics Biotechnol. 1, 1-9. doi: 10.5147/pggb. Jia, Z., Liu, Y., Gruber, B. D., Neumann, K., Kilian, B., Graner, A., et al. (2019).
+vlil.146
+Genetic dissection of root system architectural traits in spring barley. Front.
+Bustin, S. (2002). INVITED REVIEW Quantification of mRNA using real-time Plant Sci. 10:400. doi: 103389/pls2019.00400
+reverse transcription PCR (RT-PCR): trends and problems. J. Mol. Endocrinol. Kang, H. M., Sul, J. H., Service, S. K., Zaitlen, N. A., Kong, S.-Y., Freimer, N. B.,
+29, 23-39.
+et al. (2010). Variance component model to account for sample structure in
+Bustin, S. A., and Nolan, T. (2004). Pitfalls of quantitative real-time reverse- genome-wide association studies. Nat. Genet. 42:348.
+transcription polymerase chain reaction. J. Biomol. Tech. JBT 15:155.
+Karikari, B., Chen, S., Xiao, Y., Chang, F., Zhou, Y., Kong, J., et al. (2019).
+Carion..B.andleNEmNR (2004). "Reproductive morphology 1,"in Soybeans: Utilization of interspecific high-density genetic map of RIL population for the
+Improvement, Production, and Uses (Soybeansimprove), eds R. M. Shibles, J. E. QTL detection and candidate gene mining for 100-seed weight in soybean.
+Harper, R. F. Wilson, and R. C. Shoemaker (Madison, WI: American Society of Front. Plant Sci. 10:1001. doi: 10.389fpla2019.01001
+Agronomy), 59-95. doi: 10213agonmonpgiégedd
+Keller, M., Karutz, C., Schmid, J., Stamp, P., Winzeler, M., Keller, B., et al. (1999).
+Chen, H., Kumawat, G., Yan, Y., Fan, B., and Xu, D. (2021). Mapping and Quantitative trait loci for lodging resistance in a segregating wheatx spelt
+validation ofa major QTL for primary root length of soybean seedlings grown population. Theor. Appl. Genet. 98, 1171-1182. doi: 10.0075300120051182
+in hydroponic conditions. BMC Genomics 22:132. doi: 10.1186/12864-021- Kent, W. J. (2002). BLAT-the BLAST-like alignment tool. Genome Res. 12,
+07445-0
+656-664.
+Comas, L., Becker, S., Cruz, V. M. V., Byrne, P. F., and Dierig, D. A. (2013). Root Khan, M., Gemenet, D. C., and Villordon, A. (2016). Root system architecture and
+traits contributing to plant productivity under drought. Front. Plant Sci. 4:442. abiotic stress tolerance: currentknowledge in root and tuber crops.. Front. Plant
+doi: 103389/(pk.2013.00442
+Sci. 7:1584. doi: 103389/fpk.201601584
+Crowell, S., Korniliev, P., Falcao, A., Ismail, A., Gregorio, G., Mezey,]., etal. (2016). Kozich, J. J., Westcott, S. L., Baxter, N. T., Highlander, S. K., and Schloss, P. D.
+Genome-wide association and high-resolution phenotyping link Oryza sativa (2013). Development ofa dual-index sequencing strategy and curation pipeline
+panicle traits to numerous trait-specific QTL clusters. Nat. Commun. 7:10527. for analyzing amplicon sequence data on the MiSeq Illumina sequencing
+doi: 10.1038/ncomms10527
+platform. Appl. Environ. Microbiol. 79, 5112-5120. doi: 10.1128/AEM.
+Dayoub, E., Lamichhane, J. R., Schoving, C., Debaeke, P., and Maury, P. 01043-13
+(2021). Early-Stage phenotyping of root traits provides insights into the Li,C., Chang, H., Wang, J., Zou,J., Shi, Y., Zhang, Y.,etal. (2018). Genetic analysis
+drought tolerance level of soybean cultivars. Agronomy 11:188. doi: 10.3390/ of nodule traits in soybean via wild soybean background population (Glycin
+agronomy11010188
+soja) and high generation recombination inbred lines [Glycine max (L.) Merr.).
+Dhanapal, A. P., and Crisosto, C. H. (2013). Association genetics of chilling injury Int. J. Agric. Biol. 20, 2521-2528. doi: 10.17957/1JAB/15.0794
+susceptibility in peach (Prunus persica (L.) Batsch) across multiple years. 3 Li, H., and Durbin, R. (2009). Fast and accurate short read alignment with
+Biotech 3, 481-490. doi: 101007113206:012-0109-
+Burrows-Wheeler transform. Bioinformatics 25, 1754-1760. doi: 10.1093/
+Falik, O., Mordoch, Y., Ben-Natan, D., Vanunu, M., Goldstein, O., and bioinformatics/btp324
+Novoplansky, A. (2012). Plant responsiveness to root-root communication of Li, H., Handsaker, B., Wysoker, A., Fennell, T., Ruan, J., Homer, N., et al. (2009).
+stress cues. Ann. Bot. 110, 271-280. doi: 10.1093/aob/mcs045
+The sequence alignment/map format and SAMtools. Bioinformatics 25, 2078-
+Fehr, W. R., and Caviness, C. E. (1977). Stages of Soybean Development. Special 2079. doi: 10.03biinfematealhepisz
+Report 80. Ames, IA:Iowa State University. .Agricultural andHome Economics Li,X., Guo, Z., Lv, Y., Cen, X., Ding, X., Wu,H.,et al. (2017). Genetic control ofthe
+Experiment Station.
+root system in rice under normal and drought stress conditions by genome-
+Fu, W., and Perry, P. O. (2020). Estimating the number of clusters using cross- wide association study. PLOS Genet. 13:e1006889. doi: 10.1371/journal.pgen.
+validation. J. Comput. Graph. Stat. 29, 162-173.
+1006889
+Frontiers in Plant Science www.frontiersin.org
+14
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+Li, Y., Zeng, X.-F., Zhao, Y.-C., Li, J.-R., and Zhao, D.-G. (2017). Identification Prince, S. J, Vuong, T. D., Wu, X., Bai, Y., Lu, F., Kumpatla, S. P., et al. (2020).
+ofa new rice low-tiller mutant and association analyses based on the slaf-seq Mapping quantitative trait loci for soybean seedling shoot and root tarchitecture
+method. Plant Mol. Biol. Rep. 35, 72-82. doi: 10100711105016-1002.2
+traits in an inter-specific genetic population. Front. Plant Sci. 11:1284. doi:
+Liang, H., Yu, Y., Yang, H., Xu, L., Dong, W., Du, H., et al. (2014). Inheritanceand 103389/fpls2020.01284
+QTL mapping ofrelated root traitsin soybean at the seedling stage. Theor. Appl Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. A., Bender, D., et al.
+Genet. 127,2127-2137. doi: 10.10070012-014-2361
+(2007). PLINK: a tool set for whole-genome association and population-based
+Liang, Q., Cheng, X., Mei, M., Yan, X., and Liao, H. (2010). QTL analysis of root linkage analyses. Am. J. Hum. Genet. 81, 559-575. doi: 10.1086/519795
+traits as related to phosphorus efficiency in soybean. Ann. Bot. 106, 223-234. Qiu, L-I, Chen, P.-Y., Liu, Z.-X., Li, Y.-H.,Guan, R.-X., Wang, L.-H., etal (2011).
+doi: 10.1093/aob/mcq097
+The worldwide utilization of the Chinese soybean germplasm collection. Plant
+Libault, M., Farmer, A., Brechenmacher, L., Drnevich, J., Langley, R. J., Bilgin, Genet. Resour. 9, 109-122. doi: 10107514792621100093
+D. D., et al. (2010). Complete transcriptome of the soybean root hair cell, a Riedelsheimer, C., Lisec, J, Czedik-Eysenberg, A., Sulpice, R., Flis, A., Grieder, C.,
+single-cell model, and its alteration in response to Bradyrhizobium japonicum et al. (2012). Genome-wide association mapping of leaf metabolic profiles for
+infection. Plant Physiol. 152, 541-552. doi: 10.1104/pp.109.148379
+dissecting complex traits in maize. Proc. Natl. Acad. Sci. U.S.A. 109, 8872-8877.
+Lippert, C., Listgarten, J, Liu, Y., Kadie, C. M., Davidson, R. I, and Heckerman, doi: 101073/pnas:1120813109
+D. (2011). FaST linear mixedmodels for genome-wide association studies. Nat. Rong, Z., Hai-Feng, C., Xian-Zhi, W., Bao-Duo, W., Shui-Lian, C., Zhang, X-1.,
+Methods 8:833. doi: 10.1038/nmeth.1681
+et al. (2011). Analysis ofQTLs for root traits at seedling stage in soybean. Acta
+Liu, X., Huang, M., Fan, B., Buckler, E. S., and Zhang, Z. (2016). Iterative Agron. Sin. 37, 1151-1158.
+usage of fixed and random effect models for powerful and efficient genome- Rosa,A., Diaz, D., Hansel,F,Sebastian, J., andAdee, E. (2019). Genotypic variation
+wide association studies. PLOS Genet. 12:e1005767. doi: 10.1371/journal.pgen. on root growth and nutrient uptake in corn and soybean. Agrosyst. Geosci.
+1005767
+Environ. 2, 1-12.
+Liu, X., Qin,D., Piersanti, A., Zhang, Q.,Miceli, C., andWang, P. (2020). Genome- Sattelmacher, B., Klotz, F., mdMendnczHk.awo.htewe ofthe nitrogenlevel
+wide: association study identifies candidate genes relatedto oleic acid contenti in on root growth and morphology oftwo potato varieties differing in nitrogen
+soybean seeds. BMC plant Biol. 20:399. doi: 10.18612370-02607-M
+acquisition. Plant Soil 123, 131-137. doi: 10.1007/BF00011258
+Liu, Y., Gai, J, and Lu, H. (2005a). Identification of rhizosphere abiotic stress Seck, W., Torkamaneh, D., and Belzile, F. (2020). Comprehensive genome-wide
+tolerance and related root traits in soybean [Glycine max (L.) Merr.). Zuo Wu association analysis reveals the genetic basis of root system architecture in
+Xue Bao 31, 1132-1137.
+soybean. Front. Plant Sci. 11:590740. doi: 10.3389fpla2020590740
+Liu, Y., Gai, J.Y., Lu, H. N., Wang, Y.J., and Chen, S. Y. (2005b). Identification of Severin, A. J., Woody, J. L., Bolon, Y.-T., Joseph, B., Diers, B. W., Farmer,
+drought tolerant germplasm and inheritance and QTL mapping of related root A. D., et al. (2010). RNA-Seq Atlas of Glycine max: a guide to the soybean
+traits in soybean (Glycine max (L.) Merr.). Acta Genet. Sin. 32,855-863.
+transcriptome. BMC Plant Biol. 10:160. doi: 10.1186/1471-2229- 10-160
+Livak, K. J, and Schmittgen, T. D. (2001). Analysis of relative gene expression Sinclair, T. R. (2011). Challenges in breeding for yield increase for drought. Trends
+data using real-time quantitative PCR and the 2-AACT method. Methods 25, Plant Sci. 16, 289-293. doi: 101016/.phamt.201102065
+402-408. doi: 10.1006/meth.2001.1262
+Smith, S., and De Smet, I. (2012). Root system architecture: insights from
+Li, C., Guo, J, Wang, Y., Leng, J, Yang, G., Hou, W., et al. (2010). Identification, Arabidopsis and cereal crops. Philos. Trans. R. Soc. Lond. B Biol. Sci. 367,
+inheritance analysis and QTL mapping of root and shoot traits in soybean 1441-1452. doi: 10.1098/rstb.2011.0234
+variety PI471938 with tolerance to wilting. Acta Agron. Sin. 36, 1476-1483. Suji, K., Prince, K. S. J, Mankhar, P. S., Kanagaraj, P., Poornima, R., Amutha,
+Li, H., Yang, Y., Li, H., Liu, Q., Zhang, J., Yin, J., et al. (2018). Genome-wide K., et al. (2012). Evaluation of rice (Oryza sativa L.) near iso-genic lines with
+association studies of photosynthetic traits related to phosphorus efficiency in root QTLS for plant production and root traits in rainfed target populations of
+soybean. Front. Plant Sci. 9:1226. doi: 103389/pk.2018.01226
+environment. Field Crops Res. 137, 89-96. doi: 10.1016,fer201208.006
+Manavalan, L. P., Prince, S. J, Musket, T. A., Chaky, J, Deshmukh, R., Vuong, Sun, X., Liu, D., Zhang, X., Li, W., Liu, H., Hong, W., et al. (2013). SLAF-seq: an
+T. D., et al. (2015). Identification of novel QTL governing root architectural efficient method of large-scale de novo SNP discovery and genotyping using
+traits in an interspecific soybean population. PLOS One 10:e0120490. doi: 10. high-throughput sequencing. PLOS One 8:e58700. doi: 10.1371journalpone.
+1371/journal.pone.012090
+0058700
+McKenna, A., Hanna, M., Banks, E., Sivachenko, A., Cibulskis, K., Kernytsky, Tamura, K., Peterson, D., Peterson, N., Stecher, G., Nei, M., and Kumar, S. (2011).
+A., et al. (2010). The genome analysis toolkit: a MapReduce framework for MEGA5: molecular evolutionary genetics analysis using maximum likelihood,
+analyzing next-generation DNA sequencing data. Genome Res. 20, 1297-1303. evolutionary distance, and maximum parsimony methods. Mol. Biol. Evol. 28,
+Murray, M., and Thompson, W. (1980). Protocol OfDNA isolation. Nucleic Acids 2731-2739. doi: 10.109/molbev/msr121
+Res. 8, 4321-4325. doi: 10.1093/nar/8.19.4321
+Thomson, M. J. (2014). High-throughput SNP genotyping to accelerate crop
+Nye, P. H., and Tinker, P. B. (1977). Solute Movement in the Soil-Root System. improvement. Plant Breed. Biotechnol. 2, 195-212. doi: 10.9787/PBB.2014.
+Berkeley, CA: Univ ofCalifornia Press.
+2.3.195
+Pace, J., Gardner, C., Romay, C., Ganapathysubramanian, B., and Lubberstedt, Tian, P. (1984). Ecotypes of root system in soybean cultivars. Acta Agron. Sin. 10,
+T. (2015). Genome-wide association analysis of seedling root development 173-178.
+in maize (Zea mays L.). BMC Genomics 16:47. doi: 10.1186/s12864-015- Tran, L.-S. P., and Mochida, K. (2010). Functional genomics of soybean for
+1226-9
+improvement ofp productivity in adverse conditions. Funct. Integr. Genomics 10,
+Pandey, M. K., Agarwal, G., Kale, S. M., Clevenger, J., Nayak, S. N., 447-462.
+Sriswathi, M., et al. (2017). Development and evaluation of a high Tuberosa, R., and Salvi, S. (2007). "From QTLS to genes controlling root traits in
+density genotyping 'Axiom_Arachis' array with 58 K SNPS for accelerating maize," in Scale and Complexity in Plant Systems Research: Gene-Plant-Crop
+genetics and breeding in groundnut. Sci. Rep. 7:40577. doi: 10.1038/srep Relations, eds J. H. J. Spiertz, P. C. Struik, and H. H. van Laar (Wageningen:
+40577
+Springer), 13-22. Frontis.
+Pantalone, V. R., Burton, J. W., and Carter, T. E. (1996). Soybean fibrous root Van Nguyen, L., Takahashi, R., Githiri, S. M., Rodriguez, T. O., Tsutsumi, N.,
+heritability and genotypic correlations with agronomic and seed quality traits. Kajihara, S., et al. (2017). Mapping quantitative trait loci for root development
+Crop Sci. 36, 1120-1125.
+under hypoxia conditions in soybean (Glycine max L. Merr.). Theor. Appl.
+Price, A. L., Patterson, N.J., Plenge, R. M., Weinblatt, M. E., Shadick, N. A., and Genet. 130, 743-755. doi: 101007100122-016-2847-3
+Reich, D. (2006). Principal components analysis corrects for stratification in Wang, H.-L., Yu, D.-Y., Wang, Y.-I., Chen, S.-Y.,and Gai, J.-Y. (2004). Mapping
+genome-wide association studies. Nat. Genet. 38:904. doi: 10.1038/ng1847
+QTLs of soybean root weight with RIL population NJRIKY. Yi Chuan 26,
+Prince, S. J., Valliyodan, B., Ye, H., Yang, M., Tai, S., Hu, W., et al. (2019). 333-336.
+Understanding genetic control ofroot system architecture in soybean: Insights Xu, X., Xu, R., Zhu, B., Yu, T., Qu, W.,Lu, L., et al. (2015). A high-density genetic
+into the genetic basis oflateral root number. Plant Cell Environ. 42, 212-229. map ofcucumber derivedfrom Specific Length Amplified Fragment sequencing
+doi: 10.1111/pce.13333
+(SLAF-seq). Front. Plant Sci. 5:768. doi: 103389/pls2014.00768
+Frontiers in Plant Science www.frontiersin.org
+15
+July 2021 [Volume 121 Article 568995
+
+
+
+Mandozai iet al.
+GWAS for Root-Related Traits
+Yang, N., Lu, Y., Yang, X., Huang, J., Zhou, Y., Ali, F., et al. (2014). Zhao, K., Tung, C.-W., Eizenga, G. C., Wright, M.H., Ali,M.L., Price, A.H., et al.
+Genome wide association studies using a new nonparametric model reveal (2011). Genome-wide association mapping reveals arich genetic architecture
+the genetic architecture of 17 agronomic traits in an enlarged maize of complex traits in Oryza sativa. Nat. Commun. 2:467. doi: 10.1038/ncomms
+association panel. PLOS Genet. 10:e1004573. doi: 10.1371journalpgen.10 1467
+04573
+Zheng, Z., Sun, Z., Fang, Y.,Qi, F.,Liu, H., Miao, L., etal. (2018). Genetic diversity,
+Yang, S., Chen, J, He, X., Yu, D., and Gai, J. (2005). Inheritance of drought population structure, and botanical variety of 320 global peanut accessions
+toleranceand root traits ofseedling in soybeans. Soybean Sci. 24, 275-280.
+revealed through tunable genotypingby-sequencing Sci. Rep. 8:14500. doi:
+Yang, X., Yan, J., Shah, T., Warburton, M. L., Li, Q., Li, L., et al. (2010). Genetic 10.108941598.018-328009
+analysis and characterization of a new maize association mapping panel for Zhou, Q., Zhou, C., Zheng, W., Mason, A. S., Fan, S., Wu, C., et al. (2017).
+quantitative traitlocidissection. Theor. Appl. Genet. 121,417-431. doi: 10.10071 Genome-Wide SNP markers based on SLAF-Seq uncover breeding traces in
+s00122-010-1320-y
+rapeseed (Brassica napus L.). Front. Plant Sci. 8:648. doi: 10.3389/fpls.2017.
+Ying, L., Jun-yi, G., and Hui-neng, L. (2007). Genetic variation of root traits at 00648
+seedling stage and their relationship with stress tolerance in soybean. Soybean Zhou, R., Wang, X., Chen, H., Zhang, X., Shan, Z., Wu, X., et al. (2009). QTL
+Sci. 26, 127-133.
+analysis of lodging and related traits in soybean. Acta Agron. Sin. 35, 57-65.
+Zeng, A., Chen, P., Korth, K., Hancock, F., Pereira, A., Brye, K., et al. (2017). doi: 1037245PLL00620200597
+Genome-wide association study (GWAS) of - salt tolerance in worldwide Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., et al. (2015). Resequencing
+soybean germplasm lines. Mol. Breed. 37:30. doi: 10.107131032-017-0634-8
+302 wild and cultivated accessions identifies genes related to domestication and
+Zhang, H., Fan, X., Zhang, Y., Jiang, J., and Liu, C. (2017). Identification of improvement in soybean. Nat. Biotechnol. 33:408. doi: 10.1038/nbt.3096
+favorable SNP alleles and candidate genes for seedlessness in Vitis vinifera
+L. using genome-wide association mapping. Euphytica 213:136. doi: 10.10071 Conflict of Interest: The authors declare that the research was conducted in the
+s10681-017-1919-2
+absence of any commercial or financialrelationships that could be construed as a
+Zhang, W.-K., Wang, Y.-J., Luo, G.-Z., Zhang, J.-S., He, C.-Y., Wu, X.-L., et al. potential conflict ofinterest.
+(2004). QTL mapping of ten agronomic traits on the soybean (Glycine max L.
+Merr.) genetic map and their association with EST markers. Theor. Appl. Genet. Publisher's Note: All claims expressedin this article are solely those ofthe authors
+108, 1131-1139. doi: 10.100780012-003-152722
+and do not necessarily represent those oftheir affiliated organizations, or those of
+Zhang, X., Zhang, J., He, X., Wang, Y., Ma, X., and Yin, D. (2017). the publisher, the editors and the reviewers. Any product that may be evaluated in
+Genome-wide association study of major agronomic traits related to this article, or claim that may be made by its manufacturer, is not guaranteed or
+domestication in peanut. Front. Plant Sci. 8:1611. doi: 10.3389/fpls.2017. endorsed by the publisher.
+01611
+Zhang, Y., Wang, L., Xin, H., Li, D., Ma, C., Ding, X., et al. (2013). Construction of Copyright o 2021 Mandozai, Moussa, Zhang, Qu, Du, Anwari, Al Amin and Wang.
+ahigh-density genetic map for sesamel based lon large escale marker development This is an open-access article distributed under the terms ofthe Creative Commons
+by specific length amplified fragment (SLAF) sequencing. BMC Plant Biol. Attribution License (CC BY). The use, distribution or reproduction in other forums
+13:141. doi: 10.1861471-229-13-141
+is permitted, provided the original author(s) and the copyright owner(s) are credited
+Zhang, Z., Ersoz, E., Lai, C.-Q., Todhunter, R.J., Tiwari, H. K., Gore, M. A., et al. and that the original publication in thisjournal is cited, in accordance with accepted
+(2010). Mixed linear model approach adapted for genome-wide association academic practice. No use, distribution or reproduction is permitted which does not
+studies. Nat. Genet. 42:355. doi: 10.1038/ng.546
+comply with these terms.
+Frontiers in Plant Science www.frontiersin.org
+16
+July 2021 IVolume 121 Article 568995

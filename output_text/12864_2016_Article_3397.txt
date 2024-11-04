@@ -1,0 +1,1372 @@
+Leamy et al. BMC Genomics (2017) 18:18
+DOI 10118651286401633974
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+CrossMark
+A genome-wide association study of
+seed composition traits in wild soybean
+(Glycine soja)
+Larry J. Leamy', Hengyou Zhang',Changbao Li?, Charles Y. Chen3 and Bao-Hua Song"o
+Abstract
+Background: Cultivated soybean (Glycine max) is a major agricultural crop that provides a crucial source of edible
+protein and oil Decreased amounts of saturated palmitic acid and increased amounts of unsaturated oleic acid in
+soybean oil are considered optimal for human cardiovascular health and therefore there has considerable interest
+by breeders in discovering genes affecting the relative concentrations of these fatty acids. Using a genome-wide
+association (GWA) approach with nearly 30,000 single nucleotide polymorphisms (SNPS), we investigated the
+genetic basis of protein, oil and all five fatty acid levels in seeds from a sample of 570 wild soybeans
+(Glycine soja), the progenitor of domesticated soybean, to identify quantitative trait loci (QTLS) affecting
+these seed composition traits.
+Results: We discovered 29 SNPS located on ten different chromosomes that are significantly associated with
+the seven seed composition traits in our wild soybean sample. Eight SNPS co-localized with QTLS previously
+uncovered in linkage or association mapping studies conducted with cultivated soybean samples, while the
+remaining SNPS appeared to be in novel locations. Twenty-four of the SNPS significantly associated with fatty
+acid variation, with the majority located on chromosomes 14 (6 SNPS) and seven (8 SNPS). Two SNPS were
+common for two or more fatty acids, suggesting loci with pleiotropic effects. We also identified some
+candidate genes that are involved in fatty acid metabolism and regulation. For each of the seven traits, most
+of the SNPS produced differences between the average phenotypic values of the two homozygotes of about
+one-half standard deviation and contributed over 3% of their total variability.
+Conclusions: This is the first GWA study conducted on seed composition traits solely in wild soybean
+populations, and a number of QTLS were found that have not been previously discovered. Some of these
+may be useful to breeders who select for increased protein/oil content or altered fatty acid ratios in the
+seeds. The results also provide additional insight into the genetic architecture of these traits in a large sample
+of wild soybean, and suggest some new candidate genes whose molecular effects on these traits need to be
+further studied.
+Keywords: Quantitative trait loci, Fatty acids, Protein, Oil, Candidate genes, GWAS
+*Correspondence: cyc0002@auburnedu; bsong5@uncc.edu
+3Department of Crop, Soil and Environmental Sciences, Auburn University,
+Auburn, AL 36849, USA
+'Department of Biological Sciences, the University of North Carolina at
+Charlotte, Charlotte, NC 28223, USA
+Full list of author information is available at the end of the article
+OThe Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BioMed Central International License fhtp/ceatvecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+Omp/cesbecommonsoyp/pubicdomanv,eonlon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 2 of 15
+Background
+(Glycine soja Sieb & Zucc.), the progenitor of cultivated
+Cultivated soybean (Glycine max (L.) Merr.) is a major agri- soybeans. The level of genetic variability in soybean cul-
+cultural crop that provides a crucial source of edible protein tivars has been considerably reduced from that in G. soja
+and oil [1]. Although the seed protein composition typically [22-26] and therefore GWA analyses of this wild species
+is about double that of oil, soybean produces over half of may be expected to yield some novel QTLs for seed
+the world's vegetable oil (htp/www.soytats.com) Soy- composition traits. We conducted such an analysis of
+bean oil is comprised almost entirely of two saturated protein, oil and fatty acid content in 570 wild soybean
+(palmitic and stearic acid), and three unsaturated fatty acids accessions genotyped with nearly 30,000 SNPs. We docu-
+(oleic, linoleic, and linolenic acid). The relative proportions ment a number of SNPS significantly associated with these
+of these fatty acids determine the overall quality of the oil, traits, with some suggestions for candidate genes import-
+with decreased amounts of saturated palmitic acid and ant for the seed composition trait variation.
+increased amounts of unsaturated oleic acid considered
+optimal for human cardiovascular health [2, 3]. Minimal Methods
+amounts of linoleic and linolenic acid also are beneficial Plant material and traits measured
+because partial hydrogenation of soybean oil routinely done The source material for the analysis originated from over
+to improve the oxidative stability of these fatty acids leads 600 G. soja accessions in the USDA Soybean Germplasm
+to the production of undesirable trans-fats [4].
+Collection representing maturity groups V through IX.
+Given the enormous agricultural importance of seed These accessions were originally collected from various
+composition traits in soybean, it is not surprising that sites primarily in South Korea and Japan although also
+there have been a number of studies aimed at under- from a few sites in China (Additional file 1). All seeds
+standing their genetic basis [5-7]. Much of our genetic from these accessions were soaked for 15 min in concen-
+knowledge has come from discovery of quantitative trait trated sulfuric acid, rinsed in water and then air-dried
+loci (QTLS) located at various sites on all of the 20 chro- prior to planting. One replicate from each accession was
+mosomes throughout the soybean genome that affect planted on May 19th 1998 in hill plots in an open field in
+one or more of these traits [5, 6, 8-10]. Many of these Stoneville, MS (Lat. 33°26'N), using a completely random-
+QTLs were discovered through linkage mapping that ized design (CRD). One replicate from each accession also
+requires F2, backcross, or recombinant inbred popula- were planted on May 14, 1999 in the same plots using a
+tions derived from original biparental crosses. With this randomized complete block (RCB) design. The wild
+approach, therefore, any QTLs found are limited to those soybean plants were allowed to mature at which time
+whose alleles differ in the progenitor populations. A seeds were harvested and used to quantify protein, oil and
+perhaps even greater difficulty with bi-parental linkage fatty acid content. In the analysis we used the average of
+mapping is that the confidence intervals for the QTLs the two replicate values for each accession. The total
+uncovered typically are quite wide (often 20 cM or more) number of individuals available was 570.
+because of extensive regions of linkage disequilibrium Seed composition measurements included protein and
+(LD) in the populations analyzed [11]. These large gen- oil concentration and the concentration of five fatty acids:
+omic regions may contain many underlying genes, making palmitic, stearic, oleic, linoleic and linolenic. Nitrogen
+the search for putative candidates difficult.
+content of whole seeds was determined with a LECO FP-
+Especially with the recent availability of large numbers 428 Nitrogen Determinator (LECO Corp, St. Joseph MI).
+of genomic markers in various taxa, genome-wide asso- A 6.25 conversion factor was used to calculate protein
+ciation studies (GWAS) increasingly have been used to concentration on a dry weight basis. Oil concentration
+search for QTLs affecting various traits [12, 13]. This (dry weight basis) of whole seeds was determined with a
+approach can be applied to outbred or wild populations 5 MHz nuclear magnetic resonance spectrometer (Newport
+that have experienced extensive recombination resulting Oxford Instruments, Newport Pagnell, England). Fatty acid
+in shorter LD segments and therefore increased reso- methyl esters were prepared from chloroform/hexane/
+lution of marker-phenotype associations. GWA studies methanol (8:5:2, v/v/v) extracts of crushed seed by trans-
+sometimes can produce false negative results because of methylation with sodium methoxide. Fatty acid compos-
+potential confounding factors such as population struc- ition was determined with a Hewlett-Packard 5890-II (Palo
+ture and cryptic relatedness [14, 15], however, but Alto, CA) gas chromatograph equipped with dual flame
+current statistical procedures adjust for these factors ionization detectors, and a 0.53 mm x 30 m AT-Silar
+[16]. A number of GWA studies have been successfully capillary column (Alltech Associates, Deerfield, IL).
+applied to soybean seed composition traits [7, 17-21].
+Authentic fatty acids were used for calibration. Protein
+While this work on soybean has proceeded, to our and oil were expressed as a percentage of the total seed
+knowledge no comparable GWA study has been con- content whereas all fatty acids were expressed as a per-
+ducted on seed composition traits solely in wild soybean centage of the oil content.
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 3 of 15
+Genotyping and quality control
+relatedness. We also ran CMLMS that included the K
+SNP data for the 570 accessions were retrieved from the matrix as well as the first 3 (Q3), 10 (Q10), 25 (Q25) or
+publically-available soybase website (http-l/soybase.org/ 50 (Q50) principal components (PCs) derived from a
+snps/), which were genotyped using the Illumina Soy principal components analysis of the SNP data. The PC
+SNP50k iSelect BeadChip (Illumina, San Diego, CA. values were treated as fixed covariates in these models
+USA) containing a total of 52,041 SNPs as previously de- and were used to adjust for population structure. From
+scribed [25, 27]. The SNP alleles were called using the the results for each of these models, we generated
+GenomeStudio Genotyping Module v1.8.4 (Illumina, Inc. quantile-quantile (QQ) plots of the observed versus
+San Diego, CA). SNPs without a known physical position expected p-values at each SNP. For each trait, the model
+on any of the 20 chromosomes were excluded from chosen for eventual analysis was that determined by the
+further analyses. Further, for the genome-wide associ- distribution of the QQ plot as well as its associated
+ation analysis described below, we filtered the data by genomic inflation value (A). Generally those plots that
+removing SNPs with missing rates >10%, minor allele yielded A values closest to 1.00 were considered optimal.
+frequencies < 0.05, and those existing in minor states SO All probabilities generated in the association runs were
+that only two alleles were segregating at each SNP locus. transformed by -logioP, and the highest scores on each
+Heterozygote SNPs were also treated as missing since chromosome were inspected to determine whether they
+they were rare (<2%) and wild soybeans reproduce reached a significance threshold. We calculated this
+primarily by selfing. These adjustments reduced the threshold by first estimating the total number of inde-
+number of SNPS used in the analysis to 29,969.
+pendent SNPS following the method of Li and Ji [31).
+This number was 11,149, considerably below the total
+Linkage disequilibrium estimation
+number of SNPs used (29,969) because many of them
+We used the filtered SNP data to calculate linkage dis- were correlated due to linkage disequilibrium. The 5%
+equilibrium (LD) across the wild soybean genome with genome-wide threshold therefore was established at a
+the TASSEL program, version 5 [28]. TASSEL produced probability of 0.05/11,149 == 4.48 X 10-6, equivalent to a
+two measures of LD: squared correlations (72s) and stan- -logioP score of 5.348. In addition, we considered a
+dardized disequilibrium coefficients (D's). For various Kb probability of 0.63/11,149 = 5.65 X 10-5 (-logioP = 4.248)
+distance intervals, we derived means of the distances as being suggestive of a SNP/trait association. These
+between SNP pairs and then plotted these means against 0.05 and 0.63 values are widely accepted thresholds for
+2 values to visualize the rate of LD decay.
+significant and suggestive QTLs [32]. We used conven-
+tional Manhattan plots to help with visualization of
+Preliminary statistical analysis
+SNPs reaching either of these thresholds.
+We first inspected the distributions of the phenotypic For all SNPS reaching at least the suggestive level of
+values for the seven traits and found that they were association, we tallied estimates of their allelic effects
+skewed for oleic and linoleic acid but approximately from TASSEL. These effects estimate the difference
+normal for the other five traits. We did not transform between the average phenotypic values of the two
+the values for any of the traits because our sample size homozygotes. TASSEL also computed SNP 2 values
+was reasonably large [29]. We calculated basic statistics, that we multiplied by 100 to estimate the percentage
+including means and standard deviations, for these traits contribution of each SNP to the total phenotypic vari-
+in the total sample of 570. In addition, Pearson correla- ation in each trait. We also calculated heritabilities for
+tions were calculated for each pair of traits, and their each trait across the entire genome from the ratio of
+significance assessed by the false discovery rate proced- the genetic variance to the total of the genetic and
+ure [30]. We also conducted one-way ANOVAS for each residual variance REML estimates obtained through
+of the seven traits to test whether those originally from the Efficient Mixed-Model Association (EMMA) algo-
+South Korea differed from those from Japan. We re- rithm in TASSEL.
+stricted this geographic analysis to these two countries
+because they comprised 534 of the 549 accessions whose QTL and candidate gene search
+locations were known.
+Once all significant SNPS were identified, we used the
+soybean reference genome, SoyBase (www.soybase.org)
+Genome-wide association analysis
+to search for all genes located in the regions extending
+We used TASSEL to test for the association of the seven 50 Kb on each side of the SNPs. Any of these genes were
+traits with each SNP across the wild soybean genome. regarded as potential candidate genes. We also used
+For each trait we first ran a general linear model (GLM) SoyBase to search for any QTLs in similar locations that
+and then a compressed mixed linear model (CMLM) previously have been found to affect the protein/oil or
+that included a kinship matrix (K) to account for familial fatty acid traits.
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 4 of 15
+Results
+GLM model (Fig. 1). This was especially the case for
+Wild soybean traits
+models including principal components that adjusted
+Protein comprised nearly one-half (48%) of the total dry for population structure (a PCA bi-plot is shown in
+weight of the wild soybean seeds in our sample whereas Additional file 4). Based on inspections of the QQ
+the percentage of oil was 11% (Table 1). The three unsat- distributions and the calculated genomic inflation values,
+urated fatty acids (oleic, linoleic, and linolenic acid) the K + Q50 model was considered optimal for protein,
+made up fully 83% of the content of the oil, with the oil, palmitic acid, oleic acid and linolenic acid whereas the
+remaining 17% contributed by the saturated fatty acids K+ Q10 model appeared most appropriate for stearic acid
+(palmitic and stearic acid). The coefficients of variation and linoleic acid. Genomic inflation values for these
+show that protein and linoleic acid are the least variable models varied from 0.97 to 1.02 for all traits except oleic
+traits whereas oleic acid is the most variable. Correla- acid which exhibited a slightly inflated value of 1.08 even
+tions among the seven traits are mostly low to moderate with the K+ Q50 model (Fig. 1). Using these two models,
+in magnitude with the exception of the high, negative as- the CMLM analyses produced a total of 29 SNPs associ-
+sociations of oleic acid with both linoleic and linolenic ated with the seed composition traits, with details summa-
+acid. Nearly all (19/21) of the correlations are statisti- rized in Table 2.
+cally significant (P<0.05).
+For protein, two SNPS on chromosomes 14 and 18
+One-way ANOVAS showed that mean protein levels reached the chromosome-wide threshold of association
+did not significantly differ between seeds originating in (Table 2; Fig. 2). Three SNPs were associated with oil,
+Japan versus those from South Korea (P = 0.19), but one on chromosome three and two close to each other
+mean levels of oil and all five fatty acids did exhibit sig- on chromosome 20. All five SNPs exhibit additive effects
+nificant differences (P<0.05). Inspection of the means of about % standard deviations and contribute 3% or
+showed that oil, palmitic and oleic acid levels were more to the total phenotypic variation in these traits.
+higher in seeds from South Korea compared to those The heritability estimates for protein (0.22) and oil
+from Japan whereas the reverse occurred for stearic, (0.32) estimated in TASSEL were quite low (Table 2),
+linoleic, and linolenic acid (Additional file 2). Differences especially for protein.
+between the two means were relatively small, ranging TASSEL runs uncovered a total of 24 SNPS associ-
+from 0.14% (stearic acid) to 2.06% (palmitic acid).
+ated with the fatty acids, including one on chromo-
+some 16 for oleic acid and two on chromosome
+Linkage disequilibrium
+seven for linoleic acid that reached the 5% genome-
+The results of the linkage disequilibrium estimation are wide significance level (Table 2, Figs. 3 and 4). These
+shown in Additional file 3 where 2 values are plotted SNPS are located on seven different chromosomes,
+against distances (Kb units) between SNP pairs. This fig- with three on chromosome 16, four on chromosome
+ure shows that the rate of LD decay is quite rapid. The two, six on chromosome 14, and eight on chro-
+highest average 72 value is 0.47 for SNPS separated by mosome seven. The fourteen SNPS located on chro-
+distances between 0 and 1 Kb, but falls to less than 0.03 mosomes seven and 14 collectively are the most
+for SNPs separated by about 100 Kb.
+prominent feature in the Manhattan plots (Figs. 3
+and 4). The SNPs contribute on average 3.32% of
+Association mapping
+the total variation in the fatty acids. Heritabilities
+Association runs in TASSEL were performed for a num- estimated for these traits generally are higher than
+ber of CMLM models as previously described, and those for protein and oil, ranging from 0.44 to 0.49
+yielded QQ plots that all were an improvement over the and averaging 0.45.
+Table 1 Basic statistics for the seven traits in the wild soybean population (n = 570)
+Mean StDev CV
+Oil
+Palmitic Acid Stearic Acid Oleic Acid Linoleic Acid Linolenic Acid
+Protein
+48.10 2.626 5.46 -0.36* 0.23*
+0.14*
+0.22*
+-0.26*
+-0.17*
+Oil
+11.02 1.185 10.75
+-0.20*
+-0.04
+0.30*
+0.01
+-0.34*
+Palmitic Acid 12.90 1.020 7.91
+0.33*
+0.25*
+-0.41*
+-0.38*
+Stearic Acid
+3.89 0.466 11.98
+0.36*
+-0.30*
+-0.49*
+Oleic Acid
+14.88 3.673 24.68
+-0.78*
+-0.76*
+Linoleic Acid
+54.27 2.686
+4.95
+0.28*
+Linolenic Acid 14.05 2.645 18.83
+Shown are means (in percentages), standard deviations, and coefficients of variation (CVs) for each of the wild soybean traits as well las their pairwise correlations
+(*=P<0.05 from false discovery rate tests of significance)
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 5 of 15
+a
+PROTEIN
+b
+OIL
+co
+GLM
+GLM
+K
+K
+K+Q10
+K+Q10
+c K+Q50
+s K+Q50
+9
+i
+: 4
+
+4
+I
+2
+-log.lp)
+Egeded-loo-dp)
+C
+PALMITIC ACID
+d
+STEARIC ACID
+t
+of
+GLM
+GLM
+e
+K-aro
+ao K+Q10
+9 K+Q50
+K+Q50
+i c
+i s
+I 6
+8
+2 3
+Expected -logulp)
+Expected -log.dp)
+e
+OLEIC ACID
+f
+LINOLEIC ACID
+g
+LINOLENIC ACID
+x
+e
+1
+: GLM
+GLM
+e
+f Kigro
+a Riaro
+of
+- K+Q50
+K+Q50
+LE
+f
+co
+€
+1 c
+i
+8 ao
+I co
+3 s
+E s
+de
+2
+0
+2 3
+2 3
+5
+Expected lognulp)
+Epected -loode)
+Coeded -logde)
+Fig. 1 Comparison of QQ plots using different GWA models for the wild soybean seed composition traits. Shown are plots of observed and
+expected -logioPvalues for protein a, oil b, palmitic acid C, stearic acid d, oleic acid e, linoleic acid f and linolenic acid g. Shown are results for
+the general linear model (GLM) and composite mixed linear models (CMLMS) with a kinship matrix (K) alone and with K plus the first 10 (Q10)
+and 50 (Q50) principal components from a principal components analysis of the SNP data
+Three SNPS were associated with each of the two satu- For the unsaturated fatty acids, five SNPS were associ-
+rated fatty acids, palmitic acid and stearic acid (Table 2, ated with oleic acid, 9 with linoleic acid, and four with
+Fig. 3). Two stearic acid SNPS are clustered together on linolenic acid (Table 2, Fig. 4) A chromosome 14 SNP at
+chromosome 14 (17.50 - 17.56 Mb), but are at a different 22537916 bp is associated with both oleic and linolenic
+location than the chromosome 14 SNP associated with acid, as well as palmitic acid, suggesting pleiotropy of
+palmitic acid (22.5 Mb) and another SNP on this an underlying gene that is affecting all three traits.
+chromosome associated with protein (24.4 Mb). Allelic Pleiotropy also is apparent with a SNP on chromo-
+effects for the underlying QTLs affecting palmitic and some seven at 11603310 bp associated with both oleic
+stearic acid tend to be higher than for those affecting and linoleic acid. All other SNPS, however, appear to
+protein and oil.
+occupy unique chromosomal locations. Allelic effects
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 6 of 15
+Table 2 SNPS associated with each of the wild soybean seed composition traits
+Trait
+SNP
+Chr
+bp
+P
+LogioP
+Allelic effect
+%
+h?
+PROTEIN
+$S715617976
+14
+24367698
+3.10E-05
+4.51
+A
+0.551
+3.41
+0.22
+PROTEIN
+$S715631057
+18
+45438677
+3.42E-05
+4.47
+A
+0.574
+3.09
+OIL
+SS715585518
+3
+34839398
+9.21E-06
+5.04
+A
+0.527
+3.53
+0.32
+OIL
+SS715637730
+20
+36705945
+1.31E-05
+4.88
+A
+0.479
+3.31
+OIL
+SS715637732
+20
+36710220
+3.24E-05
+4.49
+A
+0.422
+2.99
+PALMITIC ACID
+SS715595323
+6
+5303094
+1.91E-05
+4.72
+A
+-0.567
+3.87
+0.45
+PALMITIC ACID
+Ss715597684
+7
+37911072
+5.07E-06
+5.29
+A
+-0.646
+3.40
+PALMITIC ACID
+$s715617910
+14
+22537916
+4.15E-05
+4.38
+C
+0.801
+3.13
+STEARIC ACID
+SS715618427
+14
+17499955
+5.17E-05
+4.29
+A
+0.704
+2.95
+0.50
+STEARIC ACID
+$s715618430
+14
+17561477
+3.37E-05
+4.47
+A
+0.753
+3.15
+STEARIC ACID
+SS715625341
+16
+6804502
+5.31E-06
+5.27
+C
+-0.745
+3.76
+OLEIC ACID
+$s715596070
+7
+11603310
+1.25E-05
+4.90
+G
+0.545
+3.39
+OLEIC ACID
+SS715617910
+14
+22537916
+2.06E-05
+4.69
+C
+0.693
+3.13
+0.36
+OLEIC ACID
+SS715623399
+16
+1258943
+2.23E-06
+5.65
+A
+-0.472
+2.93
+OLEIC ACID
+SS715623400
+16
+1260003
+6.66E-06
+5.18
+A
+-0.374
+2.76
+OLEIC ACID
+Ss715633271
+19
+12874336
+5.24E-05
+4.28
+G
+-0.588
+2.49
+LINOLEIC ACID
+$S715582510
+2
+39934224
+8.71E-06
+5.06
+A
+-0.691
+3.60
+0.49
+LINOLEIC ACID
+SS715582512
+2
+39940256
+157E-05
+4.80
+A
+-0.692
+3.41
+LINOLEIC ACID
+$S715596075
+7
+11584261
+2E-05
+4.70
+C
+0.546
+2.72
+LINOLEIC ACID
+Ss715596074
+7
+11585878
+1.39E-05
+4.86
+C
+-0.562
+3.35
+LINOLEIC ACID
+SS715596072
+7
+11592971
+9.15E-06
+5.04
+C
+-0.577
+3.52
+LINOLEIC ACID
+Ss715596071
+7
+11602516
+1.88E-05
+4.73
+A
+-0.549
+3.64
+LINOLEIC ACID
+Ss715596070
+7
+11603310
+2.10E-06
+5.68
+G
+-0.636
+3.38
+LINOLEIC ACID
+SS715596058
+7
+11756838
+3.62E-06
+5.44
+C
+0.696
+4.17
+LINOLEIC ACID
+SS715604488
+9
+44197778
+3.2E-05
+4.50
+A
+-0.430
+4.04
+LINOLENIC ACID
+SS715583655
+2
+573749
+5.04E-05
+430
+C
+0.745
+3.72
+0.44
+LINOLENIC ACID
+SS715583662
+2
+578327
+1.46E-05
+4.84
+C
+0.741
+3.34
+LINOLENIC ACID SS715617909
+14
+22514991
+3.99E-05
+4.40
+C
+-0.842
+3.01
+LINOLENIC ACID
+SS715617910
+14
+22537916
+6.71E-06
+5.17
+C
+-0.891
+2.92
+Shown are the locations (in base pairs, bp), standardized allelic effects, and the percentage (%) of the total phenotypic variation explained for SNPS (? x 100) on
+all chromosomes (Chr) associated with the wild soybean traits. The allelic effect tisthe standardized effect of the allele listed (A, C, G) compared with the alternate
+allele and also represents the standardized difference in the means of the two homozygous genotypes. All -logioP scores (where P= the probability of SNP/trait
+associations) exceeding 5.348 are significant at the 5% experimentwise level and those exceeding 4.248 are significant at the chromosome-wide level. Heritabilities
+(h?) calculated using all SNPS also are given for each trait
+of SNPs associated with the unsaturated fatty acids Some of these genes are involved in fatty acid metabol-
+are highest for linolenic acid, ranging from 0.75 to ism and regulations, such as those encoding plant
+0.89 standard deviations.
+stearoy/-acgyarier-protein desaturase family protein,
+and phospholipase D alpha 1. (Additional file 5).
+QTLS and candidate genes
+A total of 29 SNPS are significantly associated with the Discussion
+seed composition traits in our wild soybean populations. The intent of this investigation was to identify SNPs
+Eight co-located with QTLS previously identified in and candidate genes that play an important role in
+cultivated soybean populations (Table 3), including two the seed composition trait variation in our wild soy-
+each for oil and stearic acid, one for linoleic acid, and bean population. We were especially interested to
+one for linolenic acid. We also found a number of genes see whether we might identify a number of novel
+that harbor, or are adjacent to, the 29 SNPs associated QTLs not discovered in the linkage or association
+with the seed composition traits (Additional file 5). mapping studies previously done with cultivated soybean
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 7 of 15
+PROTEIN
+5
+4
+:
+:
+3
+:
+5
+2
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+OIL
+6
+5
+4
+:
+- 3
+:
+2
+U
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 2 Manhattan plots for protein and oil content in the wild soybean sample. The red horizontal line denotes the experimentwise threshold and
+the blue line denotes the chromosome-wide threshold
+samples. By using GWA strategy with high-density of with previously-identified QTLs in cultivated soybean
+genome-wide SNPS, we were able to uncover SNP as- populations whereas others appeared to be novel.
+sociations for these traits, some of which co-localized Below we discuss details regarding these SNPs and
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 8 of 15
+PALMITIC ACID
+6
+5
+4
+I 3
+:
+2
+1
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+STEARIC ACID
+6
+5
+le
+4
+8
+:
+6 3
+-
+ 4
+2
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 3 Manhattan plots for the two saturated fatty acids in the wild soybean sample. The red horizontal line denotes the experimentwise
+threshold and the blue line denotes the chromosome-wide threshold
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 9 of 15
+OLEIC ACID
+6
+5
+4
+- 3
+I 2
+1
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+LINOLEIC ACID
+6
+:
+5
+e
+:
+4
+5 3
+I 2
+1
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+LINOLENIC ACID
+6
+5
+4
+- 3
+I 2
+1
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 4 Manhattan plots for the three unsaturated fatty acids in the wild soybean sample The red horizontal line denotes the experimentwise
+threshold and the blue line denotes the chromosome-wide threshold
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 10 of 15
+Table 3 Soybean QTLS and candidate genes for the peak SNPS found for the 7 soybean traits
+TRAIT
+SNP
+CHR
+BP
+Previous
+Gene ID
+QTLS
+PROTEIN
+Ss715617976
+14
+24367698
+PROTEIN
+SS715631057
+18
+45438677
+[57]
+OIL
+SS715585518
+3
+34839398
+OIL
+SS715637730
+20
+36705945
+[58]
+Glyma20G124700.1
+OIL
+SS715637732
+20
+36710220
+[58]
+Glyma20G124700.1
+PALMITIC ACID
+SS715595323
+6
+5303094
+PALMITIC ACID
+Ss715597684
+7
+37911072
+PALMITIC ACID
+SS715617910
+14
+22537916
+STEARIC ACID
+Ss715618427
+14
+17499955
+[59]
+Glyma.14G1214001
+STEARIC ACID
+SS715618430
+14
+17561477
+[59]
+STEARIC ACID
+SS715625341
+16
+6804502
+Glyma.16G068500.1
+OLEIC ACID
+SS715596070
+7
+11603310
+[60]
+OLEIC ACID
+SS715617910
+14
+22537916
+OLEIC ACID
+SS715623399
+16
+1258943
+OLEIC ACID
+SS715623400
+16
+1260003
+OLEIC ACID
+SS715633271
+19
+12874336
+LINOLEIC ACID
+SS715582510
+2
+39934224
+LINOLEIC ACID
+SS715582512
+2
+39940256
+LINOLEIC ACID
+SS715596075
+7
+11584261
+Glyma07G1121001
+LINOLEIC ACID
+Ss715596074
+7
+11585878
+Glyma.07G112100.1
+LINOLEIC ACID
+SS715596072
+7
+11592971
+LINOLEIC ACID
+SS715596071
+7
+11602516
+LINOLEIC ACID
+SS715596070
+7
+11603310
+LINOLEIC ACID
+SS715596058
+7
+11756838
+LINOLEIC ACID
+SS715604488
+9
+44197778
+Glyma.09G2187001
+LINOLENIC ACID
+SS715583655
+2
+573749
+LINOLENIC ACID
+SS715583662
+2
+578327
+Glytma.02G0052001
+LINOLENIC ACID
+SS715617909
+14
+22514991
+[60]
+LINOLENIC ACID
+SS715617910
+14
+22537916
+[60]
+Gene IDs are given for soybean genes containing the SNPS and are based on SoyBase searches
+their potential underlying candidate genes affecting content in cultivated soybeans range from -0.62 to
+each of the traits.
+-0.78 [7, 20, 21], and some loci affecting both traits
+exhibit antagonistic pleiotropy [20]. Our estimated
+Wild soybean protein and oil
+protein/oil correlation of -0.36 (Table 1) was consider-
+The protein content in our wild soybean sample aver- ably lower, and presumably is a reflection of reduced
+aged about 48%, a higher mean percentage than typically selection pressure on oil content in wild soybeans.
+is seen in cultivated soybeans [6, 17]. Consistent with The genetic variability in protein content as estimated
+this, Chen and Nelson [33] found that the mean protein by its heritability was a rather low 0.22 and thus it is not
+level in a wild soybean sample was significantly higher surprising that only two SNPs associated with this trait
+than that in a sample of cultivated soybeans. The con- reached even the suggestive threshold level. This herit-
+ventional explanation for this disparity is that selection ability estimate for protein is strictly applicable to our
+for cultivated soybean varieties generally has focused on specific sample of (maturity groups V through IX) wild
+increased yield and oil content [19], traits that tend to soybean accessions and thus estimates from other
+be negatively related to protein content [34, 35, 36]. Esti- studies may be very different depending upon the num-
+mates of the phenotypic correlation of protein and oil ber of QTLs segregating for protein, the maturity groups
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 11 of 15
+sampled, and various other factors. For example, the Unfortunately, these alleles also tend to decrease
+heritability of protein content estimated by Hwang et al. overall yield [42] and thus compromise their usefulness in
+[7] in a GWA study of cultivated soybeans was a soybean breeding regimes. This suggests that a use-
+quite high 0.78. Consistent with this, Hwang et al. [7] ful alternate might be to screen wild soybeans for
+also uncovered 40 SNPs significantly associated with accessions with reduced palmitic acid levels to iden-
+protein content, although used a very low threshold tify novel genes for eventual transfer to domesticated
+of -logioP = 3.0. Only five of their 40 SNPS, all tightly varieties. The palmitic acid level in our accessions
+clustered on chromosome 20 [7] exceeded our -logioP from Japan was less than for those from South
+suggestive threshold of 4.248. On the other hand, Korea when all plants were grown in a common en-
+Bandillo et al. [20] used a more conservative -logioP vironment, SO there clearly is some natural genetic
+threshold of 5.17, and found 19 SNPs (11 clustered variation for this trait in wild soybeans across differ-
+on chromosome 20) associated with protein in their ent geographic areas.
+domesticated soybean sample.
+Beyond major gene effects, many QTLs with minor
+The oil content in the wild soybeans we analyzed aver- effects on palmitic acid levels have been discovered in
+aged 11%, well below the 15-25% levels typically found soybean [5, 18], and our study uncovered three add-
+in cultivated soybeans [18]. Selection for increased oil itional QTLs for this trait in wild soybeans that all
+content has been practiced for many years, and Zhou et appear to be in novel positions. The SNP on chromo-
+al. [19] recently have identified 96 separate selective some 14 at 22537916 bp had the greatest effect, with the
+sweeps located within known oil QTL regions. Oil TT genotype at this marker decreasing the palmitic acid
+variability in our wild soybean sample as assessed by the mean from 12.95% in the CC genotype to 12.15%. Selec-
+coefficient of variation (10.8) was higher than compar- tion for the T allele at this marker therefore might be
+able estimates for cultivated soybeans such as that of useful in reducing the palmitic acid level, but this same
+4.74 calculated by Akond et al. [6] among recombinant allele also reduced oleic acid (Table 2) from about 15%
+inbred lines.
+in the GG genotype to 12% in the TT genotype).
+As was the case for protein content, the heritability Although this is consistent with the positive correlation
+for oil content was considerably lower (0.32) than between palmitic and oleic acid in our sample (Table 1),
+various estimates such as 0.66 [17] and 0.78 [7] made increases rather than decreases in oleic acid are consid-
+for cultivated soybean samples. These consistently ered optimal for cardiovascular health [3]. A better strat-
+higher levels of heritability for both protein and oil egy therefore would be to select for QTLs affecting
+content in soybean may well reflect the past history of palmitic acid, such as those we found on chromosomes
+selection for these traits among a number of different six and seven (Table 2), that have no pleiotropic effects
+soybean populations. Three SNPs in the wild soybeans on oleic acid.
+showed associations with oil, including one on chromo- We also discovered three SNPs associated with the
+some three in a region not enclosing any previously- other saturated fatty acid, stearic acid (Table 2). Two
+discovered QTLs or genes affecting oil (Table 3). This were clustered on chromosome 14, and it seems quite
+makes the identity of the candidate gene underlying likely that the candidate gene underlying both SNPs is
+this association more speculative, although some Glyma.14G121400.1 that codes for plant stearoyl-acyl-
+possibilities are listed in Additional file 5. Two other carrier-protein desaturase. This is an enzyme that catalyzes
+SNPs on chromosome 20 are located within Glyma.20 the conversion of stearoyl-ACP to oleoyol-ACP and
+G124700.1, which therefore is a strong possibility for a plays an important role in the biosynthesis of unsat-
+candidate gene affecting protein.
+urated fatty acids (specifically, oleic acid) from sa-
+turated fatty acids [43]. The other SNP associated
+Wild soybean saturated fatty acids
+with stearic acid is located in the soybean gene Gly-
+The mean for palmitic acid in our wild soybean sam- ma.16G068500.1 that codes for surfeit locus protein
+ple was nearly 13%, slightly higher than the 11% [37] two (SURF2). Ma et al. [44] found that this protein
+to 12% [5] levels typically found in soybean oil. Be- was differentially expressed after 6 and 12 h of
+cause this predominant saturated fatty acid in cu- rehydration of desiccated Myrothamnus flabellifolia
+Itivated soybeans is associated with cardiovascular branches, with the fatty acid biosynthetic pathway
+problems [38], efforts have been made to reduce its among those significantly enriched during the rehy-
+level [5, 39, 40]. Considerable success has been dration process.
+achieved with the discovery of alleles at two inde-
+pendent loci, fapl on chromosome nine and fap3 on Wild soybean unsaturated fatty acids
+chromosome five, either of which can reduce palmitic Oleic acid is a monounsaturated fatty acid that at high
+acid levels to as low as 6% or even lower [41, 42]. levels is associated with increased health benefits as well
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 12 of 15
+as oxidative stability [5, 45]. In soybean, this fatty acid seven traits. Most notable were six SNPs clustered in an
+typically averages 20-25% [46, 47], although its level in interval from 11.58 to 11.75 Mb on chromosome seven,
+our wild soybean sample was considerably lower than an area where no previous QTLS affecting this trait have
+this (overall average = 15%), especially in accessions from been found. Two SNPS in the proximal part of this re-
+Japan. This difference might partially be explained by gion (at 11.58 Mb) are found within Glyma.07G112100.1,
+selection for overall oil content in domesticated soy- and three other SNPs (11.59 to 11.60 Mb) are within 50
+beans that has increased oleic acid levels as well. Con- Kb of this gene. In Arabidopsis, this gene codes for a
+sistent with this, oleic acid in our wild soybean sample mitochondrial transcription termination factor (MTERF)
+was the only one of the five fatty acids to exhibit a family protein. Babiychuk et al. [51] characterized a
+significant, positive (although low) correlation with total number of Arabidopsis proteins in the MTERF family,
+oil content (Table 1). Direct selection for increased oleic and showed that they are essential for plastid gene
+acid itself also has been practiced in domesticated soy- expression and plant development, including biosyn-
+beans, especially with the discovery of mutant FAD2 thesis of fatty acids. Thus this gene would appear to be a
+genes that can increase its level to as much as 80% or strong candidate for the QTLs on chromosome seven
+more [47, 48]. This approach appears very promising, affecting linoleic acid in the wild soybeans. Gly-
+although in some populations these mutant alleles may ma.07G112100.1 also is within 50 Kb of the SNP on
+negatively impact yield [5].
+chromosome seven associated with palmitic acid
+We found five SNPs associated with oleic acid, includ- (Additional file 5), SO seems a likely candidate gene for
+ing one on chromosome 14 in the same position as a that fatty acid as well.
+SNP associated with palmitic acid. Two SNPS clustered Like linoleic acid, linolenic acid also is a polyunsat-
+on chromosome 16 generated the highest -logioP urated fatty acid although its proportion in soy oil is
+values, but mapped in a region where no previous QTLs much less, typically about 8-10% [52]. Three key loci
+affecting oleic acid have been reported. Among the coding for omega-3 fatty acid desaturases (FAD3A,
+candidate gene possibilities in this region is Gly- FAD3B, and FAD3C) have been discovered that con-
+ma.16G014000 that codes for the enzyme pectin methy- vert linoleic acid into linolenic acid [47, 48]. Further,
+lesterase 1 (Additional file 5) that in kiwis is influenced marker assays now have been developed to allow
+by the level of oleic acid [49]. An oleic acid SNP on breeders to screen for mutants at these loci that de-
+chromosome seven was interesting because it coloca- crease linoleic acid to desirable levels [47]. As was
+lized with another SNP associated with linoleic acid, dis- true for the other fatty acids, however, a number of
+cussed below. A final SNP on chromosome nine showed other QTLs affecting linoleic acid have been discov-
+an association with oleic acid, but it barely reached the ered [10, 18]. We found four SNPs associated with
+suggestive threshold and in fact would fall below this linoleic acid, including one on chromosome 14 at
+level with an appropriate adjustment for the genomic precisely the same location (22537916 bp) as others
+inflation in this trait.
+affecting both palmitic and oleic acid. Clearly there
+Linoleic acid is a polyunsaturated fatty acid that, appears to be a candidate gene in this area that is
+unlike oleic acid, does not exhibit oxidative stability pleiotropically affecting three of the five fatty acids.
+and therefore can quickly become rancid, effectively
+reducing its shelf life [10, 47]. To remedy this, soy oil QTL and candidate gene considerations
+typically is hydrogenated, but this produces trans-fats We discovered a total of 29 SNPs on ten different chro-
+that are associated with cardiovascular problems [4, 50]. mosomes that were associated with the seed compos-
+Linoleic acid makes up the largest proportion (typically ition traits in our wild soybean sample. SNPs in clusters,
+about 2%) in soy oil (Fehr [37]), as it also did in our especially those on chromosomes seven and 14, probably
+wild soybean sample (mean = 54%), SO there has been are of most interest and worth further investigation, but
+a considerable incentive to considerably reduce the all of the significant SNPS affecting these traits would
+level of this fatty acid. Fortunately, the mutant FAD2 need to be verified in subsequent studies. If some of
+genes discussed above do precisely this by largely these SNPs/candidate genes and their effects on the seed
+disrupting the conversion of oleic acid precursors into composition traits are validated in future studies, this
+linoleic acid precursors [47]. As a consequence, less should provide valuable information about the genetic
+emphasis appears to have been put on discovering basis of protein and oil biosynthesis in wild soybean.
+major genes that reduce linoleic acid levels, although They may also prove worthwhile for eventual introgres-
+a number of QTLs with minor effects on fatty acid sion into soybean lines to enhance breeding efforts for
+have been discovered [6, 18].
+increased protein or oil content and/or suggest add-
+Our CMLM analysis produced nine SNPs associated itional genetic control of pathways involved in seed
+with linoleic acid, the highest number for any of the composition biosynthesis.
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 13 of 15
+Eight of the 29 significant SNPs co-localized with presence of rare variants that affect the traits of inter-
+previously-identified QTLs in cultivated soybean popula- est [12, 15, 53]. The QTL results for the traits in our
+tions and some of the candidate genes identified here sample of wild soybeans presumably reflect these and
+are involved in fatty acid metabolism and regulations. It various other factors. One factor may have been LD
+was not surprising, however, that some of the well- which in the wild soybean genome spans much shorter
+studied fatty acid pathway genes were not identified in distances than in soybean, suggesting that the use of
+our wild soybean sample. There are several potential many more markers would have resulted in the detection
+reasons for this: 1) The genetic architecture of most of additional QTLs. Among the available soybean SNPS,
+quantitative traits is very complex and population- we filtered those with minor frequencies less than 0.05,
+specific, with different QTLs/candidate genes for the some of which may have been linked to genes affecting
+same trait typically identified in different populations the traits. If SO, an alternative strategy would be to use a
+and/or species. For example, Li et al. [18] used 1205 linkage mapping approach where it is possible to con-
+SNPs developed for more than 600 candidate genes struct crosses that would produce an F2 generation with
+identified in the model plant Arabidopsis, and found that minor alleles at moderate frequencies. We also were quite
+only a small fraction of these SNPs (37 out of 1205) successful in adjusting for population structure and thus
+showed significant associations with fatty acid biosyn- reducing genomic inflation that would have resulted in
+thetic genes in soybean. The wild soybean used here is higher -logioP association scores and thus more SNPs
+the closest wild relative of cultivated soybean, but has a associating with the wild soybean traits.
+substantially higher level of genetic diversity. We there-
+Beyond these kinds of considerations, it may well be
+fore did not expect to find the same SNPs/genes control- that the seed composition traits in our wild soybean
+ling the seed composition traits in our sample as those sample are affected by a number of genes, each with a
+previously discovered in the more intensively-studied small effect. This sort of genetic architecture is common
+cultivated soybean populations. 2) This result may sim- in a number of traits, but detection of relatively weak
+ply be a reflection of the fact that these loci were not signals presents special difficulties for the GWA ap-
+polymorphic in our sample. Or even if some of these proach [15, 53]. As a potential example of this, the SNP
+genes turned out to be polymorphic, they could have on chromosome 14 (at 22537916 bp) affecting palmitic
+been missed because of a lack of sufficiently close SNP acid, oleic acid, and linolenic acid also exhibited associ-
+markers. This is especially the case because the linkage ation scores of 2.26 (P = 0.005) with linoleic acid and
+disequilibrium blocks in wild soybean populations are 2.91 (P=0.0013) with stearic acid. Although these scores
+well known to be much less extensive than those in are well below the suggestive threshold, it is possible
+domesticated soybean samples. We investigated these that the underlying QTL in this region pleiotropically
+possibilities for the well-studied genes, fapl (chromo- affects all five rather than three fatty acids but we simply
+some nine) and fap3 (chromosome five), in our genomic do not have sufficient power to detect its effect on
+data, and found that the closest SNPs were within 58.6 linoleic and stearic acid.
+(fap1) and 606.8 kb (fap3) of the locations of these The QTLs controlling variation in the seed compos-
+genes. For fap3 especially, therefore, this suggests that ition traits in wild soybeans also may exhibit interactions
+we may not have had adequate coverage of SNP markers within loci (dominance) or between loci (epistasis). We
+to detect the effect of this gene, if segregating. 3) Some ran a preliminary analysis that included heterozygous
+loci previously discovered as affecting these traits might SNPs and uncovered suggestive evidence of dominance
+also have been missed if SNPs were eliminated that did effects, but the sample sizes for the heterozygotes in
+not meet the filtering criteria. 4) Given that most genes most cases were SO small (some were as low as 1) that
+exhibit interactions (epistasis), some genes known to these results appeared unreliable and could represent
+affect the seed composition traits may have had weaker false positives [54]. The linkage mapping approach
+signals in wild soybean population than in other culti- generally would seem to be a better strategy for the
+vated soybean populations, and their effects may not detection of dominance effects in generally selfing or-
+have met the stringent statistical threshold for detection. ganisms such as G. soja. Non-additive epistatic effects
+Regardless of the actual number of QTLs affecting the among different loci also may be an important part of
+seed composition traits in our wild soybean sample, SNP the genetic architecture of these traits. Tests for epistasis
+variation for each of the traits was not nearly enough to in GWA studies are technically difficult [55] and only
+account for their total genetic variance as estimated by rarely have been attempted [56]. As computer and statis-
+their heritabilities. This 'missing heritability is com- tical techniques for the detection of epistasis in these
+mon in GWA studies and is generally ascribable to studies evolve, we predict that these effects will explain
+several factors such as incomplete linkage between the some of the hidden genetic variability in many traits,
+underlying genes and the closest markers and/or the including those we have analyzed in wild soybeans.
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 14 of 15
+Conclusions
+Ethics approval and consent to participate
+This GWA study is the first conducted on seed compos- Not applicable.
+ition traits measured solely in a wild soybean population, Author details
+and revealed a number of QTLs that have not been pre- 'Department of Biological Sciences, the University of North Carolina at
+viously discovered. Some of these QTLs may be useful Charlotte, Charlotte, NC 28223, USA 2Double Haploid Optimization Group,
+Monsanto Company, Chesterfield, MO 63017, USA Department of Crop, Soil
+to breeders who select for increased protein/oil content and Environmental Sciences, Auburn University, Auburn, AL 36849, USA
+or altered fatty acid ratios in soybean seeds. Our results
+also provide additional insight into the genetic architec- Received: 24 July 2016 Accepted: 7 December 2016
+ture of these traits in a large sample of wild soybean, Published online: 05 January 2017
+and suggest some new candidate genes whose molecular
+References
+effects on these traits need to be further studied.
+1. Wilson RF. Soybean: market driven research needs. In: Stacey G, editor.
+Genetics and genomics of soybean. New York: Springer; 1988. p. 3-15.
+Additional files
+2. Willett WC. Diet and health: what should we eat? Science. 1994,264:532-7.
+3. Beare-Rogers J Food fats and FA in human nutrition. In: Przybylski R,
+McDonald BS, editors. Vegetable oils for human nutrition. Champaign:
+Additional file 1: The country and province where the 570 accessions
+AOCS; 1995. p. 1-7.
+(PI) used in the analysis originated. Blank entries indicate unknown
+4. Mozaffarian D, Katan MB, Ascherio A, Stampfer MJ, Willett WC Trans fatty
+origins. (DOCX 37 kb)
+acids and cardiovascular disease. N Engl IJ Med. 2006354:1601-13.
+Additional file 2: Plots of the mean values of the 7 soybean traits from 5. Lee J-D, Bilycu KD, Shannon JG. Genetics and breeding for modified fatty
+accessions sampled from Japan versus South Korea. (DOCX 15 kb)
+acid profile in soybean seed oil.JCrop Sci Biotech. 2007;10:201-10.
+6. Akond M, Liu S, Boney M, Kantartzi SK Meksem K Bellaloui N, Lightfoot
+Additional file 3: Genome-wide average LD decay estimated for the
+DA, Kassem MA. Identification of quantitative trait loci (QTL) underlying
+wild soybean sample. The LD decay is measured in 72 values between
+protein, oil, and five major fatty acids' contents in soybean. Amer
+SNPS as a function of the distance between them. (DOCX 35 kb)
+J Plant Sci. 2014:5:158-67.
+Additional file 4: A PCA bi-plot showing the genetic population
+7. Hwang E-Y, Song Q, Jia G, Specht JE, Hyten DL, Costa J, Cregan PB. A
+structure of the studied accessions. (DOCX 379 kb)
+genome-wide association study of seed protein and oil content in soybean.
+Additional file 5: Candidate genes for the top SNPS associated with the
+BMC Genomics. 2014;15:1.
+seed composition traits. Soybean genes located in regions 50 kb in both 8. Hyten DL, Pantalone VR, Saxton AM, Schmidt ME, Sams CE. Molecular
+directions from top SNPS Shown are the locations of each SNP, the
+mapping and identification of soybean fatty acid modifier quantitative trait
+soybean gene ID and the Arabadopsis best hit symbol and description.
+loci.JAmer Oil Chem Soc. 2004;12:1115-18.
+(XLSX 46 kb)
+9. Panthee DR, Pantalone VR, Saxton AM. Modifier QTL for fatty acid
+composition in soybean oil. Euphytica. 2006;152:67-73.
+10. Wang X, Jiang GL, Green M, Scott RA, Hyten DL Quantitative trait locus
+Acknowledgements
+analysis of unsaturated fatty acids in a recombinant inbred population of
+We thank kthree anonymous reviewers for their helpful suggestions. We also
+soybean. Mol Breeding. 201433:281-96.
+thank Dr. Richard F. Wilson for providing the chemical composition data
+11. Borevitz JO, Nordborg M. The impact of genomics on the study of natural
+used in this research, Dr. Thomas C Kilen for growing and harvesting plants
+variation in Arabidopsis. Plant Physiol. 2003;132718-25.
+in the field plots, and Dr. Randall Nelson for providing the seeds and for
+12. Ingvarsson PK Street NR Association genetics of complex traits in plants
+advice on growing the accessions.
+New Phytol. 2011;189909-22
+13. Chaudhary J, Patil GB, Sonah H, Deshmukh RK, Vuong TD, Valliyodlan B,
+Funding
+Nguyen HT. Expanding omics resources for improvement of soybean seed
+This work was supported in part by the North Carolina Biotechnology Center,
+composition traits. Front Plant Sci. 2015,6:1021.
+Award number: 2014-CFG-8005; The National Institute Of General Medical
+14. Astle W, Balding DJ. Population structure and cryptic relatedness in genetic
+Sciences of the National Institutes of Health, Award Number: R15GM122029;
+association studies Stat Sci. 2009,24:451-71.
+and The Charlotte Research Institute, Award Number: 1603-020.
+15. Korte A, Farlow A The advantages and limitations of trait analysis with
+GWAS: :a review. Plant Methods. 2013,9:29.
+Availability of data and materials
+16. Sillanpaa MJ. Overview of techniques to account for confounding due to
+The datasets generated during and/or analyzed during the current study can
+population stratification and cryptic relatedness in genomic data association
+be retrieved in the publically accessible database: htp/wwwsoybase.org,
+analyses. Heredity. 2011;106511-19.
+17. Vaughn JN, Nelson RL, Song Q, Cregan PB, Li Z. The genetic
+Authors' contributions
+architecture of seed composition in soybean is refined by
+BHS and CC initiated the project and designed the experiment; CC collected
+genome-wide association scans across multiple populations. G3:
+the phenotypic data; UL performed the data analyses; HZ and CL assisted
+GenesGenomes/Genetics. 2014:4:2283-94.
+with the data analyses; UL BHS, HZ wrote the manuscript All authors read 18. Li Y-H, ReifJC, Ma Y-S, Hong H-L, Liu Z-X, Chang R-Z, Qiu L-J. Targeted
+and approved the final version of the manuscript.
+association mapping demonstrating the complex molecular genetics of
+fatty acid formation in soybean. BMC Genomics. 2015;16:841.
+19. Zhou Z, JiangY,Wang Z,Gou Z, LyuJ,Liw, YuY,Shu IL, Shao Y,May,Fang C
+Authors' information
+Shieny, Liu T,LIC,LiQ, Wu M, Wang M, WuY, Dong Y, Wan W, Wang X,
+Dr.
+Ding
+Bao-Hua Song is interested in dissecting the genetic basis of ecologically-
+Z, Gao Y,Xiang H, Zhu B, Lee S-H, Wang W, Tian Z.Resequencing 302 wild and
+and agronomicaly-important complex trait variation using crop wild relatives
+cultivated accessions identifies genes related to domestication and
+as study systems and integrating multiple disciplines such as omics, genetics,
+improvement in soybean. Nature Biotech. 201533408-14.
+ecology, and evolution.
+20. Bandillo N, Jarquin D, Song Q, Nelson R, Cregan P, Specht J,Lorenz A A
+population structure and genome-wide association analysis on the USDA
+Competing interests
+soybean germplasm collection. Plant Genome. 2014;8:3.
+The authors declare that they have no competing interests.
+21. Sonah H, O'Donoughue L, Cober E, Rajcan 1, Belzile F. Identification
+of loci governing eight agronomic traits using a GBS-GWAS
+Consent for publication
+approach and validation by QTL mapping in soya bean. Plant
+Not applicable.
+Biotech J. 2015;13:211-21.
+
+
+
+Leamy et al. BMC Genomics (2017) 18:18
+Page 15 of 15
+22. LiYH, Li W, Zhang C Yang L, Chang R-Z, Gaut BS, Qiu L-J. Genetic diversity 45. Teres S, Barcelo-Coblijn G, Benet M, Alvarez R, Ressani R, Halver JE, Escriba
+in cultivated soybean (Glycine max) and its wild progenitor (Glycine soja)
+PV. Oleic acid content tis responsible for the reduction in blood pressure
+for simple sequence repeat and single-nucleotide polymorphism loci. New
+induced by olive oil. Proc Nat Acad Sci. 2008:105:13811-6.
+Phytol 2010;188242-53.
+46. Pantalonev, Walker D, Dewey R, Rajcan L DNA marker-assisted selection for
+23. Li YH, Zhao SC, Ma JX, Li D, Yan L, Li J, Qi XT, Guo XS, Zhang L, He
+improvement of soybean oil concentration & quality. In: Wilson R, Stalker
+WM, Chang RZ, Liang QS, Guo Y, Ye C Wang XB, Tao Y, Guan RX,
+HT, Brummer EC, editors. Legume crop genomics. Champaign: AOCS Press;
+Wang JY, Liu YL, Jin LG, Zhang XQ, Liu ZX, Zhang LJ, Chen J, Wang KJ,
+2004. p. 283-311.
+Nielsen R, Li RQ, Chen PY, Li WB, Reif JC, Purugganan M, Wang J,
+47. Shi Z, Bachleda N, Pham AT, Bilyeu K Shannon G, Nguyen H, Li Z.
+Zhang MC, Wang JW, Qiu LJ. Molecular footprints of domestication and
+High-throughput and functional SNP detection assays for oleic and
+improvement in soybean revealed by whole genome re-sequencing.
+linolenic acids in soybean. Mol Breed. 2015;35:176.
+BMC Genomic. 2013;14:579.
+48. Pham AT, Shannon JG, Bilyeu KD. Combinations of mutant FAD2 and FAD3
+24. Li YH, Zhou G, Ma J, Jiang W, Jin LG, Zhang Z, Guo Y, Zhang J, Sui Y,
+genes to produce high oleic acid and low linolenic acid soybean oil.
+Zheng L, Zhang SS, Xuo Q, Shi XH, Li YF, Zhang WK, Hu Y, Kong G,
+Theoret Appl Genet 2012;125503-15.
+Hong HL, Tan B, Song J, Liu ZX, Wang Y, Ruan H, Yeung CK, Liu J, Wang 49. Liu Q, Xu W, Han S, Cao D, He X, Huang K Mei X. Production and
+H, Zhang L, Guan RX, Wang KJ, Li WB, Chen SY, Chang RZ, Jiang Z,
+optimization ofal kiwi pectin methylesterase inhibitor in Pichia pastoris
+Jackson SA, Li R, Qiu L. De novo assembly of soybean wild relatives for
+GS115. Food Sci Biotech. 201423:1971-76
+pan-genome analysis of diversity and agronomic traits. Nat Biotect.
+50. Mensink RPO, Temme EH, Hornstra G. Dietary saturated and trans fatty acids
+201432:1045-52.
+and lipoprotein metabolism. Annl Med. 1994,26461-4.
+25. Song Q, Hyten DL, Jia G, Quigley CV,Fickus EW, Nelson R, Cregan BP.
+51. Babiychuk E, Vandepoele K Wissing J, Garcia-Diaz M, De Rycke R, Akbari H,
+Development and evaluation of SoySNP50K,al high-density genotyping array
+Joubes J, Beeckman T, Jansch L, Frentzen M, Van Montaqu MCE, Kushnir S.
+for soybean. PLOS One. 20138(1)e54985. d6mt01371/prnigoneosegs,
+Plastic gene expression and plant development require a plastidic protein
+26. Kisha TJ, Sneller CH, Diers BW. Relationship between genetic distance
+of the mitochondrial transcription termination factor family. Proc Nat Acad
+among parents and genetic variance in populations of soybean. Crop Sci.
+Sci. 2011,108:6674-79.
+1997;37:1317-25.
+52. Wilson RF. Soybeans: improvement, production and uses. In: Boerma H,
+27. Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW. Fingerprinting soybean
+Specht JE, editors. Seed composition. 3rd ed. Madison: American Society of
+germplasm and its utility in genomic research. G3 (Bethesda). 2015;5:
+Agronomy; 2004. p. 621--7.
+1999-2006.
+53. Brachi B, Morris GP, Borevitz JO. Genome-wide association studies in plants:
+28. Bradbury PJ, Zhang Z Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES.
+the missing heritability is in the field. Genome Biol 2011;12:232.
+TASSEL: Software for association mapping of complex traits in diverse
+54. Anderson CA, Pettersson FH, CIrke GM, Cardon LR, Morris AP, Zondervan ZT.
+samples. Bioinform. 2007:23:2633-5.
+Data quality control in genetic case-control lassociation studies. Nat Protoc
+29. Goh L,Yap VB. Effects of normalization on quantitative traits in association
+20105:1564-73.
+test. BMC Bioinform. 2009;10:415.
+55. Oh S, Lee J, Kwon MS, Weir B, Ha K Park T. A novel method to
+30. Benjamini Y, Hochberg Y.Controlling the false discovery rate: a practical and
+identify high order gene-gene interactions in genome-wide association
+powerful lapproach to multiple testing. JJ Roy Stat Soc B. 1995,57:289-300.
+studies: gene-based MDR. BMC Bioinform. 2012;13 Suppl 9:55.
+31. LiJ,JiL Adjusting multiple testing in multilocus analyses using the
+56. Zhang J, Singh A, Mueller D, Singh AK Genome-wide association and
+eigenvalues ofa correlation matrix. Heredity. 2005;95:221-7.
+epistasis studies unravel the genetic architecture of sudden death
+32. Lander E, Kruglyak L Genetic dissection of complex traits: guidelines for
+syndrome resistance in soybean. The Plant J. 2015,86:1124-36.
+interpreting and reporting linkage results. Nat Genet 1995;11:241-7.
+57. Lu W, Wen Z, Li H, uan D, Li J, Zhang H, Huang Z, Cui S, Du W.
+33. Chen YW, Nelson RL Genetic variation and relationships among cultivated,
+Identification of the quantitative trait loci (QTL) underlying water
+wild, and semiwild soybean. Crop Sci. 200444316-25.
+soluble protein content in soybean. Theor Appl Genet. 2012; doi 10.
+34. Helms TC, Orf JH. Protein oil, and yield of soybean lines selected for
+1007800122-012-1908.
+increased protein. Crop Sci. 1998:38:707-11.
+58. ReinprechtY, Poysa W, Yu K Raican l,Ablett GR, Pauls KP. Seed and
+35. LiH, Barton JW. Selecting increased seed density to increase indirectly
+agronomic QTL in low linolenic acid, lipoxygenase-free soybean (Glycine
+soybean seed protein concentration. Crop Sci 2002:42:393-8.
+max (L) Merrill) germplasm. Genome. 2006;49:1510-27.
+36. Dong YS, Zhuang BC, Zhao LM, Sun H, He MY. The genetic diversity of annual 59. Panthee DR, Pantalone VR, Saxton AM. Modifier QTL for fatty acid
+wild soybeans grown in China. Theoret Appl Genet 2001;10398-103.
+composition in soybean oil. Euphyt 2006; doi: 10107510681-00691793
+37. Fehr WR. Breeding for modified fatty acid composition in soybean. Crop Sci. 60. Bachlava E, Dewey R, Burton JW, Cardinal AJ. Mapping and comparison of
+2007:47:572-87.
+quantitative trait loci for oleic acid seed content in two segregating
+38. Hu FB, Stampfer MJH, Manson JE, Rimm E, Colditz GA, Rosner BA,
+soybean populations. Crop Sci 2009,9:433-42.
+Hennekens CH, Willet WC. Dietary fat intake and the risk of coronary heart
+disease in women. New Engl JI Med. 1997337:1491-9.
+39. Takagi Y, Rahman SM, Joo H, Kawakita T. Reduced and elevated palmitic
+acid mutants in soybean developed by X-ray irradiation. Biosci biotech
+biochem. 1995,59:1778-9.
+40. Thapa R, Carrero-Colon M, Hudson KA. New alleles of FATB1A to reduce
+palmitic acid levels in soybean. Crop Sci 2015,56:1076-80.
+41. Wilson RF, Marquardt TC, Novitzky WP, Burton JW, Wilcox JR, Kinney AJ,
+Dewey RE. Metabolic mechanisms associated with alleles governing the 16.
+Submit your next manuscript to BioMed Central
+Oconcentration of soybean oil. J Amer Oil Chem Soc. 2001;78335-40.
+and we will help you at every step:
+42. Cardinal AJ, Whetten R Wang S, Auclair J, Hyten DL Mapping the low
+palmitate fap1 mutation and validation of its effects in soybean oil and
+We accept pre-submission inquiries
+agronomic traits in three soybean populations. Theoret Appl Genet. 2014;
+Our selector tool helps you to find the most relevant journal
+127:97-111.
+43. Zhang Y, Maximova SN, Guiltinan MJ. Characterization ofa steraoyl-acyl
+We provide round the clock customer support
+protein desaturase family from chocolate tree, Theobroma cacao L Front
+Convenient online submission
+Plant Sci. 20156:239.
+Thorough peer review
+44. Ma C Wang H, Macnish AJ, Estrada-Melo AC, Linz J, Chang Y, Reid MS, Jiang
+Inclusion in PubMed and all major
+services
+C-Z. Transcriptomic analysis reveals numerous diverse protein kinases and
+indexing
+transcription factors involved in desiccation tolerance in the resurrection
+Maximum visibility for your research
+plant Myrothamnus flabellifolia. Horticult Res. 20152:15034. doi:10.1038/
+hortres.201534.
+Submit your manuscript at
+BioMed Central
+w.bomedertalcomsubont

@@ -1,0 +1,2570 @@
+Received: 19 February 2021 I Accepted: 6July 2021
+DOI: 10.1002/1pg2.20146
+The Plant Genome m0
+ORIGINAL RESEARCH
+Genetic control and allele variation among soybean maturity
+groups 000 through IX
+Gustavo Zimmer120 I Mark J. Miller! I Clinton J. Steketee'O I Scott A. Jackson' D I
+Lilian Vanussa Madruga de Tunes? I Zenglu Lil 0
+'Institute ofPlant Breeding, Genetics, and
+Genomics, and Department tofCrop and Soil Abstract
+Sciences, University of Georgia, Athens,
+Soybean [Glycinemax (L.) Merr.] maturity determines the growing region of a given
+GA, 30602, USA
+soybean variety and lis a primary factor in yield land other agronomictraits. The objec-
+2 Department of Crop Production, Federal
+University of Pelotas, Capao do Leao, RS,
+tives of this research were to identify the quantitative trait loci (QTL) associated
+96160-000, Brazil
+with maturity groups (MGs) and determine the genetic control of soybean maturity
+in each MG. Using data from 16,879 soybean accessions, genome-wide association
+Correspondence
+ZengluL.InsitutecofPlant Breeding, Genet- (GWA) analyses were conducted for each paired MG and across MGs 000 through
+ics,andGenomics, andDepartmentofCrop
+IX. Genome-wide association analyses were also performed using 184 genotypes
+andSoilSciences, University ofGeorgia,
+(MGs V-IX) with days to flowering (DTF) and maturity (DTM) collected in the
+Athens, GA,USA30602.
+Email-zli@uga.edu
+field. A total of 58 QTL were identified to be significantly associated with MGs in
+individual GWAS, which included 12 reported maturity loci and two stem termina-
+AwpealioAwwiasetim-Dawd Hyten.
+tion genes. Genome-wide associations across MGs 000-IX detected a total of 103
+QTL and confirmed 54 QTL identified in the individual GWAS. Of significant loci
+identified, qMG-5.2 had effects on the highest number (9) of MGs, followed by E2,
+E3, Dt2, qMG-15.5, E1, qMG-13.1, qMG-7.1, and qMG-16.1, which affected five
+to seven MGs. A high number of genetic loci (8-25) that affected MGs 0-V were
+observed. Stem termination genes Dtl and Dt2 mainly had significant allele varia-
+tion in MGs II-V. Genome-wide associations for DTF,DTM, andreproductive period
+(RP) in the diversity panel confirmed 15 QTL, of which seven were observed in MGs
+V-IX. The results generated can help soybean breeders manipulate the maturity loci
+for genetic improvement of soybean yield.
+1 I INTRODUCTION
+Soybean [Glycine max (L.) Merr.] is a photosensitive short-
+day plant, and soybean varieties differ in geographical adapt-
+Abbreviations: Chr, chromosome; DTF, days to flowering; DTM, days to ability according to photoperiod, temperature, rate of pho-
+maturity; FarmCPU, fixed and random model circulating probability
+toperiodic changes, daily irradiance, management practices,
+unification; GWA, genome-wide association; MG, maturity group; NIL,
+and genetics (Cober et al., 2014; Mourtzinis & Conley,
+near-isogenic line; QTL, quantitative trait loci; RP, reproductive period;
+2017). Hypothetical maturity group (MG) zones were first
+SNP, single nucleotide polymorphism.
+This is an open access article under the terms of the Creative Commons AmhwsaNeCcemwuaNipens License, which permits use and distribution in any medium, provided
+the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+@ 2021 The Authors. The Plant Genome published by Wiley Periodicals LLC on behalf of Crop Science Society of America
+Plant Genome. 2021;14:20146.
+wlgewtie@ihagyemsyeumaled 1of25
+htps.l/doi.org/10. .1002/tpg2.20146
+
+
+
+20f25 The Plant Genome 20
+ZIMMER ET AL.
+defined across the U.S. territory using empirical data (Scott
+& Aldrich, 1970) and represent a defined area where a cul-
+Core Ideas
+tivar is best adapted and recommended for agricultural use
+(Figure 1). Maturity groups range from 000 to X (Boerma &
+Soybean maturity is a primary factor that affects
+Specht, 2004) and are essential in determining planting dates
+yield and agronomic traits
+and locations, as late planting can lead to truncated vegeta-
+Understanding maturity genetic control will aid
+tive growth periods, reduced nitrogen uptake, and ultimately
+breeders to use germplasm across maturity groups
+lower yields (Ortel et al., 2020).
+The genetic profile of maturity groups were deter-
+The genetic loci associated with soybean maturity have
+mined using genome-wide association analyses
+been defined as E loci with 12 loci reported SO far. The first
+Effects ofthese QTL were calculated
+two loci, El and E2, were discoveredby Bernard 1(1971) using
+Our results can help breeders manipulate the matu-
+genotypes from MGs II-V. The El allele delayed flowering
+rity loci for genetic improvement of yield
+by downregulating GmFT2a and GmFT5a (Xu et al., 2015).
+Besides the El locus on chromosome (Chr) 6, the soybean
+genome has two El homologues, ElLa and EILb, located
+on Chr 4, with minor effects on flowering time (Xu et al.,
+2015). A recent study demonstrated that EILb delays flow-
+00
+E
+ering under long-day conditions independently of El (Zhu,
+0
+I
+et al., 2019). E2, located on Chr 10, is an ortholog of the Ara-
+I
+:
+bidopsis thaliana (L.) Heynh. GIGANTEA (GI) gene, which
+II
+P
+delays flowering by inhibiting expression of GmFT2a under
+III
+long days (Watanabe et al., 2011).
+I
+E3 and E4 encode PYTHOCHROME A genes GmPHYA3
+IV
+(Watanabe et al., 2009) and GmPHYA2 (Liu et al., 2008),
+V
+which suppress the expression of GmFT2a and GmFT5a
+I
+VI
+(Kong et al., 2010). The E3locus, identifiedby Buzzell (1971)
+:
+using genotypes from MGs0-Ill,islocated on Chr 19 (Watan-
+VII
+abe et al., 2009), while E4 was reported by Buzzell and Vold-
+/
+eng (1980) using genotypes from MGs 00-II, which is located
+on Chr 20 (Liu et al., 2008). The recessive allele of E4 was
+identified to confer adaptation to high-latitude environments
+in Japan (Kanazawa et al., 2009). E3 and E4 are also respon-
+sible for postflowering photoperiod responses affecting the FIGURE 1 Soybean maturity group map depicting approximate
+expression of Dtl, the determinate growth habit gene (Xu growing regions in the United States based on Stowe and Dunphy
+et al., 2013).
+(2017).
+The E5 locus was detected in the cross of Harosoy (e5) X
+PI 80837 (E5) (McBlain & Bernard, 1987), which are geno- istic where the dominant allele conditioned early flowering
+types from MGs II and IV, respectively. A subsequent study and the recessive allele was responsible for the long-juvenile
+by Dissanayaka et al. (2016) failedto identify a QTL for E5 in trait (Ray et al., 1995). Genetic mapping demonstrated that
+the original cross, suggesting that a unique E5 gene may not E6 and J are tightly linked (Li et al., 2017a), and subse-
+exist. However, the molecular analysis of the near-isogenic quent research discovered that these are different alleles of
+lines (NILS) at the transcriptome level of E5 indicated that it ELF3 (Miranda et al., 2020; Fang et al., 2021; Nissan et al.,
+was a unique locus (Wu et al., 2019).
+2021).
+The delayedflowering under short-day conditions has been
+The E7 locus was detected because of an association
+defined as a long-juvenile trait (Hartwig & Kiihl, 1979). E6 between early maturity and tawny pubescence observed in
+is involved in the control of late flowering under short-day short-season soybean from MGs 000-II (Cober & Vold-
+conditions and the dominant allele conditions early flowering eng, 2001). Molnar et al. (2003) mapped E7 to Chr 6
+(Bonato & Vello, 1999). The E6 locus was identified lin natu- between Satt100 and Satt460. While markers identified by
+ral mutations in the cultivar Parana (MG VI). Li et al. (2017a) Molnar et al. (2003) for El and T loci are located near
+mapped the E6 locus to Chr 4 near the single nucleotide their known position in the Glyma.Wm82.a2 genome assem-
+polymorphism (SNP) marker HRM101 and demonstrated that bly, the position identified for E7 relative to El and T
+E6 had a suppressive effect on E1. Additionally, E6, the J was not consistent with the result from Cober and Voldeng
+gene located on Chr 4, is also involved in this character- (2001).
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 30f25
+The E8 locus was mapped to Chr 4 using isolines devel- of special importance for late MGs where previous evidence
+oped from the crosses of genotypes in MGs 000-II and the suggested that late MG soybean accessions have the El allele
+dominant E8 allele resulted in late maturity (Cober et al., (Jiang et al., 2014; Li et al., 2017b).
+2010). GmCRYla played a predominant role in photoperiodic
+The determinate growth habit in soybean is controlled by
+flowering (Zhang et al., 2008) and is most likely associated a recessive allele at the Dtl locus (Liu et al., 2010). Sev-
+with E8 (Cheng et al., 2011). However, while some markers eral studies have shown that Dtl can also affect flowering
+reported in these studies are located closer to GmCRYla, oth- and maturity time (Bernard, 1972; Zhang et al., 2015a; Kong
+ers are either unknown or located closer to ElLa and ElLb et al., 2018; Ogiso-Tanaka et al., 2019; Yue et al., 2021). The
+in the Glyma.Wm82.a2 genome assembly. E8 was associ- semi-indeterminate phenotype in soybean is conditioned by
+ated with the photoperiod sensitivity, prolonging the repro- adominant epistatic effect of Dt2 in Dtl backgrounds, which
+ductive period in normal environments and long day condi- represses Dtlinthe shoot apicalmeristem promoting the early
+tions (Cheng et al., 2011).
+conversion of shoot apical meristem into reproductive inflo-
+The E9 locus was identified on Chr 16 using a cross rescences (Bernard, 1972; Ping et al., 2014). However, the
+between early cultivar Tokey 780 and a late wild soybean (G. effect of Dt2 on flowering time and maturity has not been
+soja Siebold & Zucc.) accession Hidaka 4 (Kong et al., 2014). reported in the literature.
+The dominant allele promotes early flowering under a long-
+The allelic diversity for major maturity loci has been char-
+day condition(Kong et al., 2014). The e9 allele maintains veg- acterized in different soybean collections (Miladinovic et al.,
+etative growthin early flowering genetic backgrounds and can 2018; Tsubokura et al., 2014; Ogiso-Tanaka et al., 2019) and
+be used to select the long-juvenile trait (Zhao et al., 2016). E9, mostly was focused on reported maturity genes E1, E2, E3,
+which encodes GmFT2a and GmFT5a, are Flowering Locus and E4. Langewisch et al. (2017) identified the eight most
+T orthologs that have been shown to control photoperiod- common genotype combinations for E1, E2, and E3 alleles
+regulated flowering redundantly and differentially in soybean, within MGs in the USDA Soybean Germplasm Collection.
+inducing the expression of floral identity genes (Nan et al., Additionally, they identified El in x98% of MG V+ lines and
+2014). The E10 locus was mapped to Chr 8 using materi- E3 in a majority of those lines (Langewisch et al., 2017). Li
+als from MGs 000-0 and encodes the florigen gene GmFT4, et al. (2017b) reported 12 different allele combinations of E1,
+also a Flowering Locus T ortholog (Samanfar et al., 2016). E2, E3, and E4 in a Chinese mini-core collection, in which
+GmFT4isexpressed in parallel with El andupregulatedunder 99% of lines in MG V+ had a combination of functional El
+long days, delaying flowering, and downregulated under short and E3. A similar finding was also previously reported by
+days, resulting in earlier flowering (Zhai et al., 2014).
+Jiang et al. (2014). These findings suggested that combining
+The latest maturity locus reported was E11, which was the roles ofEloci couldbe used to design MGs when selecting
+mapped to Chr 7 in a cross of Minsoy' (MG 0) by "Archer' soybean parents to breed varieties adapted to distinct crop-
+(MG I). The dominant allele of Ell promotes earlier flow- ping systems. Furthermore, these studies demonstrated that
+ering and maturity under long day conditions (Wang et al., El and E3 alleles are prevalent in MGs V+, while most soy-
+2019). Recently, several independent studies also reported the bean accessions throughout MGs 000-VI (Li et al., 2017b),
+effect of PSEUDO RESPONSE REGULATOR (PRR) genes, and possibly up to MG X (Langewisch et al., 2017), carry
+PRR3 and PRR7, which controlled flowering time and matu- an e2 allele. Soybean accessions containing an E1/E2/E3/E4
+rity in soybean (Li et al., 2019a, 2019b, 2020; Lu et al., genotype have also been detected in MGs I and II (Liu et al.,
+2020; Ogiso-Tanaka et al., 2019). These genes were identi- 2020).
+fied through targeted resequencing of germplasm collections
+Despite the recent progress in identifying new soybean
+followedby multiple-regression analysis (Ogiso-Tanakaet tal., maturity genes, the relationship between these loci and MG
+2019) and genome-wide association (GWA) studies followed classification is still poorly understood. Soybean breeders
+by fine mapping with recombinant inbred lines (Li et al., tend to use genotypes with similar maturities for crosses,
+2019a, 2019b, 2020; Lu et al., 2020). PRR3 and PRR7 were while they try to introgress the desirable traits from differ-
+associated with ancient flowering time adaptation and domes- ent maturity groups (Kumar et al., 2015; Prenger et al., 2019).
+tication resulting from reduced presence of fully functional The e2 allele, for example, was a confounding factor during
+alleles (Li et al., 2019a, 2020; Lu et al., 2020). The identifi- the combined introgression of the high oleic-low linolenic
+cation of these genes disclosed the involvement of the circa- acid trait and elevated vitamin E in soybean seed oil (Hagely
+dian clock in flowering time regulation in soybean (Li et al., et al., 2021). Understanding the allelic variation of maturity
+2019b). Lu et al. (2020) proposed la modelfor PRR3 and PRR7 genes and the genetic control of each MG will help soybean
+actions after observing that E3 and E4 upregulated PRR3 and breeders leverage soybean germplasm across MGs in their
+PRR7. Quantitative trait loci for PRR3 and PRR7 were only breeding programs. During the expansion of soybean culti-
+detected in recombinant inbred line subpopulations carrying vation to the tropics, the introgression of loss-of-function j
+the El allele (Lu et al., 2020), indicating these genes might be alleles to temperate cultivars was successfully used in the
+RIGHTSLIN Ko
+
+
+
+4of25 The Plant Genome 20
+ZIMMER ET AL.
+development and introduction of elite cultivars in Brazil and (GA-16). The plots were 2.43 m in length and planted with
+Southern China (Destro et al., 2001;Luet al., 2017; Yue et al., 0.76-m row spacing at a seeding density of 32 seeds m-2.
+2017). The objectives of this study were to identify the QTL Days to flowering was recorded as the number of days from
+associated with MGs using GWA analyses and determine the planting until 50% ofthe plants in a plot reachedthe R1 stage.
+genetic control of maturity in each MG.
+Days to maturity was recorded as the number of days from
+planting to maturity, when 95% of the pods of plants in a
+plot exhibited a mature pod color at the R8 stage. Reproduc-
+2 I MATERIALS AND METHODS
+tive period was calculated as the difference between DTF and
+DTM.
+2.1 I Materials
+The Germplasm Resources Information Network (GRIN, 2.4 I Statistical analyses
+www.ars-grin.gov) contains MG observations for 18,432
+Glycine accessions. SoySNP50K data for these accessions Genotypic data of 16,879 accessions from MGs 000-IX were
+were retrieved at SoyBase (www.soybase.org). which con- coded numerically (0, 1, 2). Principal component analysis
+tains data from 20,087 Glycine genotypes (Song et al., 2015). was performed using GAPIT (Lipka et al., 2012). The first
+After filtering, 16,879 soybean accessions having both MG two principal components were plotted for visualization with
+andSNP genotype data were used for the analyses in this study TIBCO Spotfire (Spotfire).
+(Supplemental Table S1).
+Maturity groups retrieved from the USDA Soybean
+To validate the results obtained from the Soybean Germplasm Collection were converted into integers, ranging
+Germplasm Collection with the data collectedfrom field leval- from Oto 11 for MGs 000-IX,respectively, for the subsequent
+uations such as days to maturity (DTM), days to flowering GWA analyses. Phenotypic observations of DTF, DTM, and
+(DTF), and reproductive period (RP), an assembled diversity RP from the diversity panel were used for analysis of vari-
+panel consisting of 184 diverse soybean genotypes in MGs ance (ANOVA) using PROC GLMin SAS v9.4(SAS Institute
+V-IX from 27 different countries (Steketee et al., 2020) was Inc.). The least-squares means of DTF, DTM, and RP were
+used (Supplemental Table S2).
+calculated using PROC MIXED, with genotype treated as a
+fixed effect and replication and year as random effects. The
+model for the combined datasets from two environments GA-
+2.2 I Genotype data and quality control
+15 and GA-16 accounted for the interaction between geno-
+types and years. To determine the correlation among DTF,
+All accessions obtained from the USDA Soybean Germplasm DTM, and RP, a Pearson correlation analysis was performed
+Collection and most of fthe accessions from the diversity panel using PROC CORR in SAS v9.4.
+have high-density SNP data available from the SoySNP50K
+Genome-wide association analyses were performed using
+project (Song et al., 2015). Eight genotypes on the diversity a 'fixed and random model circulating probability unifica-
+panel were genotyped with SoySNP50K iSelect BeadChips tion' (FarmCPU) method (Liu et al., 2016). Individual GWA
+as described by Steketee et al. (2020). Prior to the analy- analysis was performed for the paired MGs from USDA
+ses, datasets were filtered to remove SNPS with minor allele Soybean Germplasm Collection. To control false positives,
+frequencies <5% or with >10% missing data. Therefore, the a GWA analysis was also performed across MGs 000-IX.
+number of SNPS used varied slightly across analyses, ranging The population structure was accounted for using the first
+from 31,627to 35,133. The number ofSNPs used lin the GWA four principal components, while a Bonferroni threshold of
+analysis ofthe diversity panel was 34,764. The physical posi- 0.01 per number of markers was used for the significance
+tions of Glyma.Wm82.a2.vl reference genome were used to level. The threshold ranged from -logio (P) >6.50 to -logio
+determine the locations of the SNPS used in the analyses.
+(P) > 6.55 according to the number of markers used in each
+analysis. To further reduce false positives, significant mark-
+ers with minor allele frequency <0.09 were not included in
+2.3 I Experimental design and phenotypic
+this paper except for those observed for MGs VIII-IX, where
+data collection
+MGIXonly accountedfor 10% ofthe observations used lin the
+analysis. Manhattan and quantile-quantile plots were visual-
+The diversity panel was evaluated for DTF and DTM in ized with the 'qqman' R package (Turner, 2018) using p val-
+Athens, GA, in both 2015 (GA-15) and 2016 (GA-16). Geno- ues generated from the FarmCPU output.
+types were planted in two-row plots in arandomizedcomplete
+For the diversity panel, GWAS were performed similarly to
+block design with three replications per environment. Exper- the method previously described with minor modifications.
+iments were sown on 16 June 2015 (GA-15) and 8 June 2016 The least-squares means of DTF, DTM, and RP were used
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 5of25
+as the phenotype values for subsequent GWAS. Two princi- 3 I RESULTS
+pal components were used to account for population struc-
+ture. Considering the reduced number of phenotypic observa- 3.1 I GWA analyses on MGs among soybean
+tions used in the GWA, a less stringent Bonferroni threshold germplasm
+(0.05 per number of markers) was used for significance level
+[-logio (P) >5.84].
+Soybean genetic diversity is unevenly distributed across MGs
+in the USDA Soybean Germplasm Collection (Figure 2,
+Table 1). Based on the principal component analysis plot, in
+2.5 I Identification and naming of QTL
+general, soybean germplasm can be grouped approximately
+associated with MGs
+by MG. While some overlap exists, there is a clear separa-
+tion between genotypes from MG III and earlier and those
+Significant markers observed in an individual analysis were from MGs V+. A list of reported loci affecting maturity is
+attributed to the same QTL if the distance between them presented in Table 2. For the loci where the causal genes
+was <3 Mbp. Similarly, these QTL were considered as 'con- have been identified, the physical position and the gene names
+firmed' ifmarkersinthe GWA across MGs 000-IX were iden- are also provided in the table. Overall, GWA analyses using
+tified <3 Mbp from their positions. The distance of 3 Mbp paired MGs identified 58 QTL, consisting of 146 SNPs that
+was chosen based on the linkage disequilibrium tests. At the are significantly associated with differences in paired MGs
+QTL where more than one known maturity genes are located, (Table 3). These QTL included the genomic regions for
+such as Dtl and E3 on Chr 19, the QTL were then split and reported E maturity loci, flowering and maturity genes PRR3
+SNPs attributedto the closet maturity locus. Quantitative trait and PRR7, and stem termination genes described in Table 2.
+loci identified in individual GWA were defined using a prefix
+'qMG- followed by the number of the chromosome and an
+identifier associated with the QTL order on the chromosome. 3.1.1 I MGs 000-00
+The prefix for the QTL identified in GWA across MG 000-IX
+is 'ECqMG-, wherein EC stands for 'entire collection', while Genome-wide association for MGs 000-00 did not reveal sig-
+for QTL only identified from the diversity panel, the prefix is nificant SNPs near known E maturity genes (Supplemental
+'qDTF-, 'qDTM- or 'qRP-' according to the trait where each Figure Sla; Table 3). However, two QTL, qMG-13.4 and
+region was identified.
+qMG-19.2 located on Chrs 13 and 19, showed a significant
+association with MGs 000-00 (Tables 3 and 4). The SNP at
+qMG-13.4 is only 85 kb from an ortholog of TARGET OF
+2.6 I Orthologs of Arabidopsis flowering
+EARLY ACTIVATION TAGGED (EAT) 1 (TOE1) (Supple-
+genes
+mental Table S3). TOE1 has been shown to inhibit early flow-
+ering in Arabidopsis by suppressing Flowering Locus T genes
+Except for El and EIL genes, all other reported maturity (Jung et al., 2007). The SNP for qMG-19.2 is <530 kb from
+loci, the recently identified PRR genes, and stem termina- GmFT3b and GmFT5b, which are soybean orthologs of Flow-
+tion genes are orthologs of genes identified in Arabidopsis. ering Locus T genes and promoted flowering in Arabidopsis
+An extensive list of Arabidopsis genes is already identified when expressedectopically (Fan et al., 2014). Both QTLiden-
+and characterized. Therefore, previously assembled lists of tified in this analysis have not been reported (Supplemental
+soybean orthologs of Arabidopsis flowering genes were ver- Table S4).
+ified as possible candidates for QTL identified in our GWAS
+(Jung et al., 2012; Kim et al., 2012; Watanabe et al., 2012).
+Gene positions were converted from the Glyma.wm82.al 3.1.2 I MGs 00-0
+assembly to Glyma.wm82.a2 using the 'gene model cor-
+respondence lookup' available at SoyBase (SoyBase.org). The GWA between MGs 00-0 also did not yield significant
+Additionally, using the "TAIR keyword search and browse' SNPs near known E maturity loci (Table 4; Supplemental
+available at TAIR (arabidopsis.org) and selecting the option Figure Slb). However, four significant QTL, defined as qMG-
+'go biological process', we searched for the terms 'flower- 5.2, -10.1, -13.1, and -15.5, were detected (Table 4). The
+ing', 'photoperiodism', and 'vegetative to reproductive phase SNPs for the QTL qMG-5.2 and -15.5 are both located
+transition ofthe meristem' (Berardini et al., 2015). Using the near orthologs of the genes associated with FLC expression
+gene model names downloaded, all annotated genes on the (Supplemental Table S3). The SNP for qMG-10.1 is near
+Glyma.wm82.a2 were filtered.
+GmPHYA1 (Supplemental Table S3), a homologous copy of
+RIGHTSLIN KO
+
+
+
+60f25 The Plant Genome 20
+ZIMMER ET AL.
+80
+o 000-00-0-1
+60
+o II-111
+o Iv
+o V-VI-VII
+.
+o VIII-IX
+40
+s
+20
+2
+8 0
+-20
+a
+-40
+-60
+-
+-80
+-80 -60 -40 -20 0 20 40 60 80 100 120
+PC1
+FIGURE 2 Principal component (PC) plot of soybean accessions from the USDA Soybean Germplasm Collection determined by
+genome-wide single nucleotide polymorphism markers. Accessions are colored by maturity group.
+TABLE 1 Number of soybean [Glycine max (L.) Merr.] accessions from each maturity group used in this study
+Maturity
+group
+000 00 0
+I
+II III IV V VI
+VII VIII IX X Total
+Total no. of 136 509 1,150 1,719 2,011 1,954 4,037 2,707 1,547 940 913 30 1 17,654
+accessions"
+No. of
+136 498 1,119 1,642 1,868 1,823 3,939 2,572 1,476 901 887 18 0 16,879
+accessions
+used
+aNumber of accessions after filtering out Glycine soja accessions and duplicated entries on the raw data downloaded at Germplasm Resources Information Network
+(GRIN, hmtp/hwwwanx-gringow).
+E4. However, the effect of E4 was not detected in the indi- ysis is located near ElLa. The SNPs near El and ElLa pre-
+vidual GWA and only a minor effect was found in the GWA sented extensive linkage blocks. The second and third most
+for MGs 000-IX. At qMG-13.1, the significant SNP is near significant SNPs were located near E2 and E3.
+an ortholog of ENHANCED EM LEVEL (EEL). qMG-10.1
+Nine additional QTL were also detected in this GWA anal-
+and -13.1 were previously reported as GWA QTL in Soy- ysis (Table 4). The most significant SNP among these regions
+Base (Supplemental Table S4). Furthermore, QTL overlap- was observed for qMG-15.2, near an ortholog of SHOOT
+ping qMG-5.2 and -15.5 were previously reported for the MERISTEMLESS (STM) (Supplemental Table S3), a well-
+DTF in a study with 86 plant introductions from MGs 000 characterized regulator of shoot apical meristem maintenance
+and 00 (Copley et al., 2018).
+in Arabidopsis, which is also involved in flower meristem
+identity (Roth et al., 2018). Significant SNPs for seven of
+these QTL (qMG-1.1, -2.2, -5.1, -7.1, -13.2, -15.1, and
+3.1.3 I MGs 0-I
+-15.3) are located near orthologs of the genes associated with
+the vernalization pathway and responses to low temperatures
+Genome-wide association for MGs 0 and I detected 15 sig- in Arabidopsis, especially genes that affect FLC expression
+nificant QTL, of which six QTL were located near the known (Supplemental Table S3). Of these seven regions, qMG-5.1,
+E maturity loci: E1, ElLa, E2, E3,J, and E10 (Supplemental -13.2, and -15.1 are reported as QTL for maturity related
+Figure Slc; Table 4). The most significant SNP in this anal- traits (Supplemental Table S4).
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 70f25
+TABLE 2 Reported soybean maturity loci or genes and flowering and stem termination genes and associated ISNP markers
+ID of the
+most
+significantly
+associated SNP
+-logio
+Name Gene ID
+Description
+Chromosome Gene position" SNP
+position" (P) MGb Reference
+bp
+bp
+Reported E maturity loci
+El Glyma.
+B3 domain-
+6
+20,207,077- ss715593833 19,913,355 194.6 II-V Bernard, 1971;
+06G207800 containing
+20,207,940
+Xia, et al.,
+2012
+ElLa Glyma.
+B3 domain-
+4
+36,758,125- ss715587784 38,334,609 47.8 I
+Xu, et al., 2015
+04G156400 containing
+36,758,770
+EILb Glyma.
+B3 domain-
+4
+26,120,011-
+I, 000-II Xu, et al., 2015;
+04G143300 containing
+26,120,532
+Zhu et al.,
+2019
+E2 Glyma.
+GIGANTEA (GI) 10
+45,294,735- ss715607502 45,550,230 141.4 II-V
+Bernard, 1971;
+10G221500
+45,316,121
+Watanabe,
+et al., 2011
+E3 Glyma.
+Phytochrome A 19
+47,633,059- ss715635703 47,632,093 93.4 0-III Buzzell, 1971;
+19G224200 (PHYA3)
+47,641,958
+Watanabe,
+et al., 2009
+E4 Glyma.
+Phytochrome A 20
+33,236,018- ss715637690 36,473,914 13.1 00-II Buzzell &
+20G090000 (PHYA2)
+33,241,692
+Voldeng,
+1980; Liu,
+et al., 2008
+E5 Not Identified Not Identified 10
+II,IV McBlain &
+Bernard,
+1987
+E6/J Glyma.
+Early Flowering 3 4
+4,075,901- ss715587817 3,674,817 7.1 VI-VIII Hartwig &
+04G050200 (ELF3)
+4,081,260
+Kiihl, 1979;
+Bonato &
+Vello, 1999;
+Yue, et al.,
+2017; Fang,
+et al., 2021;
+Nissan, et al.,
+2021
+E7 Not Identified Not Identified 6
+ss715592723 10,863,803 28.0 000-II Cober &
+Voldeng,
+2001;
+Molnar, et
+al., 2003
+E8 Glyma.
+Cryptochrome 1A 4
+9,337,214- ss715589384 8,296,302 10.3 000-II Cober, et al.,
+04g101500 (CRY1a)
+9,341,731
+2010; Cheng,
+et al., 2011
+E9 Glyma.
+Flowering Locus 16
+31,109,999- ss715624382 31,208,131 22.4 NA
+Kong, et al.,
+16G150700 T(FT2a)
+31,114,963
+2014; Zhao,
+et al., 2016
+E10 Glyma.
+Flowering Locus 8
+47,458,142- ss715602235 44,623,218 21.7 000-0 Samanfar, et al.,
+08G363100 T(FT4)
+47,459,829
+2016; Zhai,
+et al., 2014
+E1l Glyma.
+LHYI/CCAI-like 7
+4,102,968- ss715598197 4,429,773 26.5 0-I
+Wang, et al.,
+07G048500 (LCL4)
+4,114,174
+2019
+(Continues)
+RIGHTSLIN Ko
+
+
+
+8of25 The Plant Genome 20
+ZIMMER ET AL.
+TABLE 2 (Continued)
+ID of the
+most
+significantly
+associated SNP
+-logio
+Name Gene ID
+Description
+Chromosome Gene position" SNP
+position" (P) MGb Reference
+Reported other flowering and maturity genes
+PRR3 Glyma.
+Pseudo Response S32
+197,150-
+ss715608786 10,848,358 46.3 NA
+Ogiso-Tanaka,
+U034500
+Regulator 3
+220,019
+et al., 2019;
+Lu et al.,
+2020
+PRR7 Glyma.
+Pseudo Response 12
+5,508,365- ss715613180 5,502,184 164.7 NA
+Ogiso-Tanaka,
+12g073900 Regulator 7
+5,522,772
+et al., 2019;
+Li, et al.,
+2019; Lu
+et al., 2020
+Stem termination genes
+Dtl Glyma.
+TERMINAL
+19
+45,183,357- ss715635506 45,557,751 7.6 II-V
+Bernard, 1972;
+19G194300 FLOWER 1
+45,185,175
+Liu, et al.,
+2010
+D12 Glyma.
+Agamous-Like 8 18
+55,638,209- ss715632241 55,784,646 18.3 II-V
+Bernard, 1972;
+18g273600 (AGL8)
+55,646,547
+Ping, et al.,
+2014
+=Positions of the genes and SNPS were based lon the Glyma.Wm82.a2.vl genome assembly and the genes were identified from the SoyBase (htp./SoyBase.org).
+bMaturity group.
+CVirus-induced gene silencing.
+3.1.4 I MGs I-II
+-3.3, -6.4, -9.1, -16.4, and -20.1 identified in this analysis
+were also reported as GWA QTL in SoyBase (Supplemental
+A total of 16 significant QTL were identified in GWA for Table S4).
+MGs I-II. Of these regions, three were overlapped with
+E1, E2, and E3 loci, with the most significant SNP near E2
+(Table 4; Supplemental Fig. Sld). All known maturity loci 3.1.5 I MGs II-III
+detected in this analysis were also observed in the GWA for
+MGs 0-I. Additionally, 13 QTL were also detected in this Genome-wide association for MGs II-III detected signifi-
+analysis. Significant SNPs for six of these QTL, qMG-5.2, cant SNPs near El and E2 and Dtl and Dt2 (Table 4; Sup-
+-6.1, -13.3, -15.2, -16.4, and -20.1 are located very plemental Figure Sle). The most significant SNP is located
+close to orthologs of the Arabidopsis genes associated with near E2 and the second one is close to E1. Additionally,
+meristem identity (Supplemental Table S3). The SNP for four QTL, qMG-5.3, -13.3, -15.4, and -16.1, were also
+qMG-15.2 is the second most significant in this analysis, detected in this analysis (Table 4). The SNP for qMG-16.1 is
+which is close to Chromatin Remodeling Factor17 (CHR17). located Inear an ortholog ofHLPI.InArabidopsis, HLP1 regu-
+In Arabidopsis, CHR17 prevents early activation of the lates plant flowering by targeting alternative polyadenylation,
+vegetativeio-reproductive transition by regulating several which ultimately suppresses FLC expression via FCA (Zhang
+key genes that contribute to flower timing such as FT, SEP1, et al., 2015b). The QTL qMG-13.3 was again detected with
+SEP3, and FUL (Li et al., 2012). The third most significant a SNP near an ortholog of SHORT VEGETATIVE PHASE
+SNP is in qMG-3.2, which is near an ortholog NUCLEAR (SVP). Two QTL, qMG-5.3 and -15.4, were only detected in
+FACTOR Y SUBUNIT B8 (NF-YB8), and the SNP for qMG- this analysis. qMG-5.3 is located near SPAI-related2 (SPA2),
+3.3 close to an ortholog of NUCLEAR FACTOR Y SUBUNIT while qMG-15.4 is close to an ortholog of CYCLING DOF
+C9 (NF-YC9). As observed in the previous GWA, significant FACTOR 2 (CDF2). However, qMG-15.4 could not be con-
+SNPs for four QTL (qMG-3.1, -6.4, -7.1, and -19.5) were firmed in GWA for MGs 000-IX. Of these four additional
+located near the genes involved in the regulation of FLC regions, qMG-5.3 and -16.lhavebeen reported as GWA QTL
+expression (Supplemental Table S3). The QTL qMG-3.2, on SoyBase (Supplemental Table S4).
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 9of25
+TABLE 3 Genomic regions detected with genome-wide association (GWA) analyses in paired maturity groups and a diversity panel or across
+maturity groups (MGs) 000 through IX
+Genomic region identified by individual GWAS in
+paired MGs and a diversity panel
+Genomic region identified by GWA across MGs 000-IX
+ID of the
+most
+Name of Chrom- Genomic
+ID of the most SNP
+-logio
+significant SNP
+-logio
+QTL
+osome regiona
+significant SNP position" (P) Genomic region" SNP
+position" (P)
+bp
+bp
+bp
+qMG-1.1 1
+823,278-
+ss715579545 4,576,595 13.6 683,307-
+ss715579934 4,934,180 15.6
+4,576,595
+6,613,885
+ECqMG- 1
+9,410,680-
+ss715580877 9,736,511 9.1
+1.1
+10,015,821
+qMG-1.2 1
+17,436,477
+ss715578644 17,436,477 7.9
+ECqMG- 1
+38,438,736-
+ss715579323 41,331,273 8.3
+1.2
+43,632,505
+qMG-1.3 1
+47,064,250- ss715579673 48,078,170 13.7 44,117,573-
+ss715579488 44,965,732 15.8
+48,078,170
+50,630,943
+qMG-1.4 1
+53,074,367- ss715580337 53,074,367 8.3 55,572,527-
+ss715580723 56,770,865 8.4
+53,136,582
+56,830,220
+qMG-2.1 2
+4,363,973-
+ss715583837 7,233,292 7.2 51,236-7,126,284 ss715583777 6,812,100 34.7
+7,233,292
+qMG-2.2 2
+12,190,975
+ss715581049 12,190,975 7.8 9,541,869-
+ss715581055 12,242,977 36.7
+15,271,225
+qMG-2.3 2
+34,898,716
+ss715582072 34,898,716 11.1
+ECqMG- 2
+39,244,018-
+ss715583006 43,440,684 18.6
+2.1
+46,461,916
+ECqMG- 3
+344,529-
+ss715586167 425,209 9.4
+3.1
+5,244,122
+ECqMG- 3
+21,261,809-
+ss715584554 21,261,809 20.5
+3.2
+23,085,439
+qMG-3.1 3
+34,532,040
+ss715585469 34,532,040 6.5 33,636,101
+ss715585354 33,636,101 14.7
+qMG-3.2 3
+39,438,564- ss715586078 39,438,564 8.6 38,876,486-
+ss715585981 38,876,486 7.5
+39,727,905
+39,946,374
+qMG-3.3 3
+43,513,124
+ss715586428 43,513,124 7.1 41,473,003-
+ss715586233 41,473,003 7.5
+41,491,337
+qMG-4.1 4
+1,514,139-
+ss715587850 3,752,035 7
+321,728-
+ss715587817 3,674,987 7.1
+3,752,035
+3,674,987
+qMG-4.2 4
+9,358,265
+ss715589638 9,358,265 9.2 8,260,240-
+ss715589384 8,296,302 10.3
+8,537,216
+ECqMG- 4
+15,927,855-
+ss715587172 15,927,855 24.9
+4.1
+16,536,652
+ECqMG- 4
+19,570,043-
+ss715587282 19,570,043 7.3
+4.2
+19,731,043
+ECqMG- 4
+30,123,651
+ss715587362 30,123,651 6.7
+4.3
+qMG-4.3 4
+38,334,609- ss715587844 39,977,826 32.9 38,334,609
+ss715587784 38,334,609 47.8
+39,977,826
+ECqMG- 4
+41,351,742-
+ss715587995 43,710,656 22.2
+4.4
+45,185,501
+ECqMG- 4
+45,305,251-
+ss715588448 47,242,528 29.5
+4.5
+51,927,929
+(Continues)
+RIGHTSLIN Ko
+
+
+
+10of25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+TABLE 3 (Continued)
+Genomic region identified by individual GWAS in
+paired MGs and a diversity panel
+Genomic region identified by GWA across MGs 000-IX
+ID of the
+most
+Name of Chrom- Genomic
+ID of the most SNP
+-logio
+significant SNP
+-logio
+QTL
+osome region"
+significant SNP position" (P) Genomic region" SNP
+position" (P)
+qMG-5.1 5
+3,057,232
+ss715589900 3,057,232 6.5 1,070,290-
+ss715592501 1,070,290 25.7
+5,397,251
+ECqMG- 5
+7,534,622-
+ss715592451 8,820,984 12.5
+5.1
+8,820,984
+ECqMG- 5
+19,982,333
+ss715589809 19,982,333 8.2
+5.2
+ECqMG- 5
+24,193,817-
+ss715590269 26,446,634 12.9
+5.3
+28,758,005
+qMG-5.2 5
+32,020,107- ss715590998 34,338,769 10.7 33,550,707-
+ss715591126 35,209,993 15.8
+35,918,853
+36,707,377
+qMG-5.3 5
+39,168,144
+ss715592097 39,168,144 6.5 38,691,715-
+ss715591630 41,925,052 44.8
+42,119,049
+41,571,382- ss715591680 41,571,382 7.2
+41,598,296
+qMG-6.1 6
+608,094
+ss715595380 608,094 7.7 894,552
+ss715595639 894,552 24.7
+qMG-6.2 6
+13,462,721- ss715593059 13,509,587 9
+10,402,418-
+ss715592723 10,863,803 28.1
+14,363,799
+14,029,207
+ECqMG- 6
+15,379,050-
+ss715593752 17,453,327 25.9
+6.1
+17,453,327
+qMG-6.3 6
+19,486,921- ss715593832 19,858,251 16.2 19,913,355-
+ss715593833 19,913,355 194.6
+20,940,014
+22,212,993
+qMG-6.4 6
+47,568,246- ss715594829 47,999,849 10.4 47,959,012-
+ss715595278 51,046,599 20.3
+50,743,212
+51,076,174
+47,416,685- ss715594695 47,416,685 10.8
+47,526,846b
+qMG-7.1 7
+1,159,635-
+ss715596226 1,443,929 7.8 1,789,219-
+ss715596814 2,222,940 6.6
+1,443,929
+2,222,940
+ECqMG- 7
+4,429,773-
+ss715598197 4,429,773 26.5
+7.1
+6,306,291
+qMG-7.2 7
+15,741,518- ss715596697 18,327,575 7.8
+18,327,575
+qMG-7.3 7
+35,220,682
+ss715597312 35,220,682 7.3 35,613,115-
+ss715597441 36,523,592 9.9
+38,770,938
+ECqMG- 7
+41,776,639-
+ss715598143 42,909,420 10.6
+7.2
+42,909,420
+ECqMG- 8
+1,632,674-
+ss715601551 3,604,631 20.6
+8.1
+3,810,391
+ECqMG- 8
+7,470,603-
+ss715602913 9,909,193 20.3
+8.2
+9,909,193
+ECqMG- 8
+11,259,469-
+ss715599301 11,571,237 9
+8.3
+11,843,090
+ECqMG- 8
+16,161,353-
+ss715599780 16,161,353 13.3
+8.4
+17,748,776
+ECqMG- 8
+35,572,498-
+ss715601530 36,075,677 9.4
+8.5
+36,272,305
+(Continues)
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0
+11of25
+TABLE 3 (Continued)
+Genomic region identified by individual GWAS in
+paired MGs and a diversity panel
+Genomic region identified by GWA across MGs 000-IX
+ID of the
+most
+Name of Chrom- Genomic
+ID of the most SNP
+-logio
+significant SNP
+-logio
+QTL
+osome region"
+significant SNP position" (P) Genomic region" SNP
+position" (P)
+ECqMG- 8
+39,599,594-
+ss715601743 40,648,803 32
+8.6
+43,023,964
+qMG-8.1 8
+45,603,518- ss715602415 46,696,857 10.5 44,623,218-
+ss715602235 44,623,218 21.7
+46,696,857
+47,636,307
+45,939,398b ss715602332 45,939,398 6.7
+ECqMG- 9
+6,551,732*
+ss715605312 6,551,732 11 722,588-
+ss715605167 5,557,122 13.2
+9.1
+6,256,888
+ECqMG- 9
+20,477,995-
+ss715603268 21,494,387 13.2
+9.2
+21,780,623
+ECqMG- 9
+28,590,229-
+ss715603485 31,230,369 13.1
+9.3
+32,388,671
+ECqMG- 9
+37,706,393-
+ss715603782 39,137,680 11.5
+9.4
+42,366,861
+qMG-9.1 9
+43,517,260- ss715604581 45,416,118 7.3 43,072,567-
+ss715604897 48,543,094 22.2
+4,564,8182
+48,792,461
+ECqMG- 10
+3,057,808-
+ss715607708 4,735,320 15.5
+10.1
+5,366,082
+ECqMG- 10
+7,741,398b
+ss715608531 7,741,398 6.2 9,092,840-
+ss715608709 9,707,338 20.1
+10.2
+9,707,338
+qDTF- 10
+14,457,726b ss715605986 14,457,726 6.5
+10.1
+qMG-10.1 10
+37,229,632
+ss715606418 37,229,632 8
+39,017,342-
+ss715606978 40,636,624 11
+42,522,750
+qMG-10.2 10
+44,990,199- ss715607517 45,826,997 31.9 44,224,500-
+ss715607502 45,550,230 141.4
+45,826,997
+46,839,076
+qMG-10.3 10
+50,364,853
+ss715608125 50,364,853 6.7 48,197,057-
+ss715607788 48,197,057 25.8
+48,689,540
+ECqMG- 11
+423,724-
+ss715611000 6,506,375 16.1
+11.1
+7,299,608
+qMG-11.1 11
+10,457,269- ss715608812 11,032,954 30.1 8,148,438-
+ss715608786 10,848,358 46.3
+45,826,997
+11,133,013
+10,477,945b ss715608757 10,477,945 11.3
+ECqMG- 11
+15,649,090-
+ss715609885 15,649,090 11.6
+11.2
+15,678,644
+qMG-11.2 11
+19,622,661- ss715609781 19,622,661 9.1 20,324,493-
+ss715609757 20,324,493 26.9
+24,156,840
+26,217,355
+24,450,418- ss715609104 24,450,418 10.1
+24,605,877
+#
+ECqMG- 11
+28,292,491-
+ss715609996 28,333,194 8.4
+11.3
+33,838,162
+qMG-12.1 12
+2,839,426-
+ss715613180 5,502,184 19.9 1,464,938-
+ss715613180 5,502,184 164.7
+7,829,045
+7,545,940
+3,551,311-
+ss715613335 6,896,151 6.6
+6,896,151
+#
+(Continues)
+RIGHTSLIN Ko
+
+
+
+120f25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+TABLE 3 (Continued)
+Genomic region identified by individual GWAS in
+paired MGs and a diversity panel
+Genomic region identified by GWA across MGs 000-IX
+ID of the
+most
+Name of Chrom- Genomic
+ID of the most SNP
+-logio
+significant SNP
+-logio
+QTL
+osome region"
+significant SNP position" (P) Genomic region" SNP
+position" (P)
+qMG-12.2 12
+34,178,221
+ss715612380 34,178,221 7.2 35,429,338-
+ss715612674 36,444,348 11
+36,530,315
+ECqMG- 12
+39,605,154-
+ss715612992 39,628,194 9.5
+12.1
+39,740,802
+ECqMG- 13
+437,287-
+ss715613779 437,287 9
+13.1
+7,767,773
+qMG-13.1 13
+12,937,337- ss715616972 15,183,485 15.2 10,706,972-
+ss715613749 10,706,972 27.7
+19,373,536
+20,896,502
+14,774,149b ss715617053 14,774,149 6.6
+ECqMG- 13
+23,852,214-
+ss715614171 25,259,816 25.5
+13.2
+25,259,816
+qMG-13.2 13
+28,443,623
+ss715614630 28,443,623 6.5 27,335,661-
+ss715614445 27,335,661 10
+28,970,569
+28,674,444b ss715614684 28,674,444 6.4
+qMG-13.3 13
+36,221,688- ss715615732 36,221,688 7.6 33,204,263-
+ss715615977 37,756,892 31.0
+37,756,892
+39,607,602
+qMG-13.4 13
+42,512,630
+ss715616362 42,512,630 8.6 42,643,435-
+ss715616434 43,322,945 8.9
+43,322,945
+ECqMG- 14
+38,001-4,131,877 ss715618715 4,131,877 12.9
+14.1
+ECqMG- 14
+8,109,384b
+ss715619996 8,109,384 10.1 10,170,989
+ss715617384 10,170,989 31.5
+14.2
+ECqMG- 14
+19,438,518
+ss715618515 19,438,518 24
+14.3
+qMG-14.1 14
+47,621,296
+ss715619421 47,621,296 6.7 44,916,140-
+ss715619207 46,197,333 26.3
+48,566,026
+qMG-15.1 15
+1,969,699-
+ss715621926 4,334,070 9.3 1,490,854-
+ss715621693 3,573,258 11.9
+4,334,070
+4,171,376
+qMG-15.2 15
+7,632,638-
+ss715623042 7,632,638 11.3 6,689,402-
+ss715623029 7,550,103 40.4
+8,829,779
+9,941,854
+qMG-15.3 15
+12,816,590- ss715620851 14,876,073 6.9 11,280,882-
+ss715620628 13,684,555 12.6
+14,876,073
+14,551,414
+ECqMG- 15
+24,160,945-
+ss715621754 27,430,182 10.4
+15.1
+28,637,600
+ECqMG- 15
+31,169,128-
+ss715621511 32,116,867 8.1
+15.2
+32,116,867
+qMG-15.4 15
+35,067,373
+ss715621602 35,067,373 6.6
+ECqMG- 15
+43,135,797
+ss715621895 43,135,797 6.8
+15.3
+qMG-15.5 15
+47,538,275- ss715622238 47,693,099 7.3 46,458,753-
+ss715622143 47,324,767 28
+48,537,095
+49,902,462
+qMG-16.1 16
+204,698-
+ss715623677 204,698 13.8 137,239-
+ss715625403 7,229,931 9.2
+6,042,142
+8,037,107
+114,805-
+ss715623373 114,805 13.6
+139,928b
+(Continues)
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0
+130f25
+TABLE 3 (Continued)
+Genomic region identified by individual GWAS in
+paired MGs and a diversity panel
+Genomic region identified by GWA across MGs 000-IX
+ID of the
+most
+Name of Chrom- Genomic
+ID of the most SNP
+-logio
+significant SNP
+-logio
+QTL
+osome region"
+significant SNP position" (P) Genomic region" SNP
+position" (P)
+qMG-16.2 16
+26,791,660
+ss715623863 26,791,660 9.9 27,169,242-
+ss715623971 28,762,445 10
+28,765,102
+qMG-16.3 16
+29,084,941- ss715624158 29,609,620 7.9 29,309,383-
+ss715624382 31,208,131 22.4
+30,777,681
+31,765,761
+qMG-16.4 16
+36,556,952
+ss715624868 36,556,952 7.6 33,406,638-
+ss715624927 37,000,804 10.7
+37,653,674
+qMG-17.1 17
+2,160,065
+ss715626414 2,160,065 7.8 3,237,615-
+ss715626835 3,532,847 19
+3,644,762
+qMG-17.2 17
+7,488,569
+ss715628177 7,488,569 9.5 7,913,612-
+ss715628225 7,913,612 7.6
+8,285,863
+ECqMG- 17
+11,379,945-
+ss715625783 11,404,483 8
+17.1
+14,188,211
+ECqMG- 17
+35,528,444-
+ss715626948 36,180,745 12.1
+17.2
+36,248,107
+qMG-17.3 17
+39,528,940
+ss715627640 39,528,940 7.6 37,879,637-
+ss715627754 40,575,507 16.2
+41,052,244
+ECqMG- 18
+433,470-
+ss715630397 3,706,238 19.1
+18.1
+9,365,931
+ECqMG- 18
+18,240,230-
+ss715629942 22,192,855 14.4
+18.2
+22,192,855
+qMG-18.1 18
+43,090,752
+ss715630715 43,090,752 6.7 41,820,094
+ss715630648 41,820,094 8.1
+ECqMG- 18
+49,080,769-
+ss715631442 49,080,769 12.1
+18.3
+50,727,159
+qMG-18.2 18
+53,076,934- ss715632205 55,478,846 11.2 54,391,672-
+ss715632241 55,784,646 18.3
+57,094,471
+57,272,786
+54,143,499b ss715631995 54,143,499 5.8
+qMG-19.1 19
+975,170-
+ss715633055 1,150,070 8.7 546,020-
+ss715634669 3,810,489 20
+1,150,070
+3,810,489
+5,674,894b
+ss715636141 5,674,894 7.4
+qMG-19.2 19
+34,484,934- ss715634147 34,484,934 7.1 33,080,644-
+ss715634523 36,869,893 13
+36,578,790
+37,185,287
+38,458,734b ss715634725 38,458,734 7.7
+ECqMG- 19
+40,022,634-
+ss715634923 40,022,634 8.6
+19.1
+41,094,171
+qMG-19.3 19
+45,589,306- ss715635535 45,830,407 7.8 45,557,751-
+ss715635506 45,557,751 7.6
+45,830,407
+45,643,073
+qMG-19.4 19
+46,509,345- ss715635694 47,564,698 33 47,329,907-48,3 ss715635703 47,632,093 93.4
+48,137,823
+31,596
+qMG-19.5 19
+49,327,515- ss715635915 49,327,515 7.8 49,327,515
+ss715635915 49,327,515 18.3
+50,325,877
+qMG-20.1 20
+3,413,871
+ss715637552 3,413,871 6.6 208,950-
+ss715639020 678,338 27.6
+3,978,705
+ECqMG- 20
+11,811,683-
+ss715636765 12,236,008 10.8
+20.1
+20,229,461
+(Continues)
+RIGHTSLIN Ko
+
+
+
+14of25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+TABLE 3 (Continued)
+Genomic region identified by individual GWAS in
+paired MGs and a diversity panel
+Genomic region identified by GWA across MGs 000-IX
+ID of the
+most
+Name of Chrom- Genomic
+ID of the most SNP
+-logio
+significant SNP
+-logio
+QTL
+osome region"
+significant SNP position" (P) Genomic region" SNP
+position" (P)
+ECqMG- 20
+34,830,489-
+ss715637690 36,473,914 13.1
+20.2
+37,218,045
+ECqMG- 20
+39,207,633-
+ss715638198 41,797,319 14.1
+20.3
+43,293,034
+qMG-20.2 20
+47,638,221
+ss715638916 47,638,221 6.5 44,108,146-
+ss715638617 45,398,904 21
+46,968,588
+aPhysical positions are based lon Glyma. Wm82.a2.v1 genome assembly. The genomic regions were defined by significant SNPS across GWAS.
+bPhysical positions of SNPS detected with GWA in the diversity panel.
+3.1.6 I MGs III-IV
+(Supplemental Table S3). The SNP for qMG-5.2 is only
+46 kb from the sole ortholog of FLC in the soybean,
+The GWA for MGs III and IV revealed the greatest num- Glyma.05g148700, which has been implicated in long-term,
+ber of significant SNPs near known flowering and matu- low-emperature-triggered late flowering by inhibiting FT
+rity loci, with SNPS being near seven E maturity loci and expression (Lyu et al., 2020). The other QTL detected from
+PRR3 (Table 4; Supplemental Figure S1f). The most signifi- this analysis were qMG-7.2 and -14.1.In addition to the QTL
+cant SNP was associated with E3, which was followed by El previously mentioned in other analyses, qMG-1.4, -2.3, and
+and PRR3. A significant SNP associated with Dtl was also -16.2 have been reported as maturity related GWA QTL in
+detected in this analysis, while E8 was only detected in this SoyBase (Supplemental Table S4).
+analysis. The greater portion of the most significant SNPS in
+this analysis are associated with the photoperiodic and circa-
+dian clock pathways; however, six QTL(qMG-1.1, -6.2 [E7], 3.1.8 I MGs V-VI
+-6.4, -17.2, -18.1, and -19.1) have significant SNPS close
+to orthologs of genes associated with the control FLC expres- For MGs V-VI, significant SNPs near E2, E3, E6, E9,
+sion (Supplemental Table S3). Other QTL detected from this E10, and PRR7 were detected (Table 4; Supplemental Fig-
+analysis were qMG-2.1, -9.1, and -13.1. The QTL qMG-2.1, ure Slh). The SNPs attributed to E3, E10, and PRR7 were
+-6.2, and -18.1have beenreported as GWA QTL in SoyBase near orthologs of other Arabidopsis flowering genes (Sup-
+(Supplemental Table S4).
+plemental Table S3). Five additional QTL were also iden-
+tified (Table 4). The most significant SNP in this analy-
+sis was observed for qMG-16.1, which was closest to an
+ortholog of VRN1. Quantitative trait loci qMG-7.3, -17.1,
+3.1.7 I MGs IV-V
+and -17.3 were only detected in this analysis. The SNP for
+qMG-7.3 is closest to an ortholog of SVP, qMG-17.1 to an
+The GWA between MGs IV and V yielded 25 QTL. Signifi- ortholog of EARLYINSHORT DAYS4(ESD4) and qMG-17.3
+cant SNPs near known E maturity loci were observed for El, to an ortholog of MED25-BINDING RING-H2 PROTEIN2
+ElLa, E2, E7, and E10 (Table 4; Supplemental Figure Slg). (MBR2), while qMG-19.2 is closest to an ortholog of MBR1.
+Additionally, SNPs for Dt2 and the recently identified PRR3 In Arabidopsis, MBRI and MBR2 promote the degradation of
+and PRR7 genes were also observed. The SNPS for PRR3, E2, MEDIATOR25 (MED25), which is required for the activation
+and PRR7 were most significant in this analysis, highlight-
+ofFTtranscription (Inigo et al., 2012). Ofthese five additional
+ing the importance of circadian-clock-related genes in MGs
+regions, only qMG-17.3 was also reported as GWA QTL in
+IV and V. For the other 17 QTL detected, SNPs for three SoyBase (Supplemental Table S4).
+regions (qMG-19.5, -13.1, and -16.1) are near orthologs of
+the genes associated with the circadian clock (Supplemen-
+tal Table S3). Additionally, 13 QTL (qMG-1.4, -2.3, -3.2, 3.1.9 I MGs VI-VII
+-5.2, -8.1 [E10], -11.2, -12.2, -15.1,-15.3,-15.5, -16.2,
+-19.1, and -20.2) contained SNPS close to orthologs of The GWA analysis in MGs VI-VII detected four QTL
+genes associated with responses to envionmentaltempenature (Table 4; Supplemental Figure Sli). The most significant
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0
+150f25
+TABLE 4 Quantitative trait loci (QTL) for maturity groups (MGs) detected by the genome-wide association analyses in paired MGs and across
+MGs 000 through IX
+Name of Reported Chromo- 000-
+VI- VII- VIII- No. MGs
+QTL
+locus some IX 000-00 00-0 0-I I-II II-III III-IV IV-V V-VI VII VIII IX affected
+qMG-1.1
+1
+15.64 -
+7.3
+13.6
+4
+qMG-1.2
+1
+7.9 2
+qMG-1.3
+1
+15.9
+7.5 13.7 3
+qMG-1.4
+1
+8.4
+8.3
+2
+qMG-2.1
+2
+34.7 -
+7.0
+7.2
+4
+qMG-2.2
+2
+36.7 -
+7.8
+2
+qMG-2.3
+2
+11.1
+2
+qMG-3.1
+3
+14.7 -
+6.5
+2
+qMG-3.2
+3
+7.5 -
+8.6
+8.1
+4
+qMG-3.3
+3
+7.5 -
+7.1
+2
+qMG-4.1 E6/J
+4
+7.1 -
+7.0
+6.5
+4
+qMG-4.2
+E8
+4
+10.3 -
+9.2
+2
+qMG-4.3 EILa 4
+47.8 -
+32.9
+10.6 8.4
+5
+qMG-5.1
+5
+25.7 -
+6.5
+2
+qMG-5.2
+5
+15.1 -
+8.1
+8.3
+10.7
+7.0 7.6 9
+qMG-5.3
+5
+44.8 -
+6.5
+2
+qMG-6.1
+6
+24.7 -
+7.7
+2
+qMG-6.2 E7
+6
+28.0 -
+9.0 8.6
+7.1 7.6 6
+qMG-6.3 El
+6
+194.6 -
+8.6 7.6 9.8 16.2 7.8
+6
+qMG-6.4
+6
+19.8 -
+6.5
+6.7
+10.4 4
+ECqMG-7.1 E1l
+7
+26.5 -
+na
+qMG-7.1
+7
+6.6 -
+6.6 7.0
+7.8
+5
+qMG-7.2
+7
+7.8
+6.7
+4
+qMG-7.3
+7
+9.9
+7.3
+2
+qMG-8.1
+E10
+8
+21.7
+10.5
+10.0 6.7
+5
+qMG-9.1
+9
+22.2 -
+6.7
+7.3
+4
+qMG-10.1
+10
+11.0 -
+8.0
+2
+qMG-10.2 E2
+10
+141.4 -
+27.7 31.9 20.5 7.4 22.2 7.7 13.2
+8
+qMG-10.3
+10
+25.8 -
+6.7
+2
+qMG-11.1 PRR3 11
+46.3 -
+15.7 30.1
+8.2
+5
+qMG-11.2
+11
+26.9
+9.1
+2
+q-MG12.1 PRR7 12
+164.7 -
+19.9 8.9 9.7 9.5
+5
+qMG-12.2
+12
+11.0 -
+7.2
+2
+qMG-13.1
+13
+27.7 -
+8.6
+7.5 15.2
+5
+qMG-13.2
+13
+18.3 -
+6.5
+2
+qMG-13.3
+13
+31.0 -
+6.7 7.6
+3
+qMG-13.4
+13
+8.9 8.6
+2
+qMG-14.1
+14
+26.3
+6.7
+2
+qMG-15.1
+15
+11.9 -
+7.3
+9.3
+4
+qMG-15.2
+15
+40.4 -
+8.3 11.3
+3
+qMG-15.3
+15
+12.6 -
+6.7
+6.9
+4
+qMG-15.4
+15
+6.6
+2
+qMG-15.5
+15
+28.0
+6.7
+7.3
+6.6
+6
+qMG-16.1
+16
+9.15 -
+7.7
+13.8 10.8
+5
+(Continues)
+RIGHTSLIN Ko
+
+
+
+160f25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+TABLE 4 (Continued)
+Name of
+Reported Chromo- 000-
+VI- VII- VIII- No. MGs
+QTL
+locus some IX 000-00 00-0 0-I I-II II-III III-IV IV-V V-VI VII VIII IX affected
+qMG-16.2
+16
+10.9
+9.9
+2
+qMG-16.3 E9
+16
+22.4
+6.7
+7.9
+4
+qMG-16.4
+16
+10.7
+7.6
+2
+qMG-17.1
+17
+19.0
+7.8
+2
+qMG-17.2
+17
+7.6 -
+9.5
+2
+qMG-17.3
+17
+16.2
+7.6
+2
+qMG-18.1
+18
+8.1
+6.7
+2
+qMG-18.2 D12
+18
+18.3
+6.9 7.1
+11.2
+6.9 7
+qMG-19.1
+19
+20.0
+7.8 8.7
+3
+qMG-19.2
+19
+13.0 6.7
+7.1
+4
+qMG-19.3 Dtl
+19
+7.6
+7.8
+3
+qMG-19.4 E3
+19
+93.4 -
+12.2 8.0
+33.0
+7.3
+7
+qMG-19.5
+19
+18.3
+7.8
+7.3
+4
+ECqMG-20.2 E4
+20
+13.1
+0
+qMG-20.1
+20
+27.6 -
+6.6
+2
+qMG-20.2
+20
+21.0
+8.4
+2
+Significant
+6.6 6.5 6.5 6.5 6.5 6.5 6.5 6.5 6.5 6.5 6.5 6.5
+threshold
+Sum ofloci
+56 2
+4 15 17 8 17 25 11 4 7 6
+The values of -logio (p), indicating significance of SNPS.
+SNP was observed for E2, while SNPs near PRR3 and was only detected in this analysis and was not confirmed lin the
+PRR7 were also detected. Furthermore, a significant SNP for GWA with MGs 000-IX. There were no known orthologs of
+QTL qMG-10.3 was only detected in this analysis, which is Arabidopsis flowering genes close to its position.
+near orthologs of JMJC DOMAIN-CONTAINING PROTEIN
+27 (JMJ27) and TCP7, a member of the TCP (TEOSINTE
+BRANCHEDI/CYCLOIDEM/PROLIFERATING CELL FAC- 3.1.12 I MGs 000-IX
+TOR) transcription factor family.
+To understand allele variation across MGs 000-IX and con-
+firm the results from each individual analysis, GWA was per-
+3.1.10 I MGs VII-VIII
+formed lacross MGs 000-IX. The analysis identified 103 QTL
+(Table 3), confirming 54 of the QTL identified in individ-
+The GWA between MGs VII and VIII revealed seven signifi- ual GWAS that encompassed 618 significant SNPS. The addi-
+cant QTL (Table 4; Supplemental Figure Slj). The most sig- tional 49 QTL identified in this GWA comprised 508 signifi-
+nificant SNP is near PRR7. A SNP for the QTL where E7 cant SNPS; 13 have been reported as GWA QTL for maturity
+might be located is also observed. Furthermore, SNPS for related traits in SoyBase, while the other 36 are newly iden-
+the QTL qMG-1.3, -2.1, -5.2, -7.1, and -15.5 were also tified GWA QTL (Supplemental Table S4). In this analysis,
+detected. The QTL qMG-1.3 has been reported as GWA QTL significant SNPS were identified near all known maturity loci,
+for RP in SoyBase (Supplemental Table S4).
+the stem termination genes, and the recently discovered PRR
+genes (Table 4; Figure 3). The most significant SNPs were
+observed, in descending order, for E1, PRR7, E2, E3, ElLa,
+3.1.11 I MGs VIII-IX
+and PRR3. Aside from QTL reported near maturity loci and
+PRR genes, four QTL identified in individual GWA and con-
+For MGs VIII-IX, six QTL were identified (Table 4; Supple- firmed in this analysis (qMG-2.1,-2.2, -5.3, and -15.2) pre-
+mental Figure S1k) including SNPs near E7 and Dt2 loci. The sented highly significant SNPs (-logio (P) > 34) with QTL
+most significant SNP was observed for QTL qMG-1.3, which qMG-2.2 and -15.2, representing new, unreportedGWAQTL
+was also detected in the GWA for MGs VII-VIII. Of three for maturity (Supplemental Table S4). For QTL only detected
+additional QTL, qMG-1.2, -5.2, and -6.4, detected, qMG-1.2 in this GWA, none reached the stringent threshold of -logio
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0
+170f25
+Maturity yGroups0o0-x
+8
+Maturity Groups 000-1X
+3 8
+200
+E1
+8
+E
+PRR7
+logidp)
+150
+E2
+I
+1 100
+E3
+I
+E1La
+PRR3
+a
+50
+5.3
+15.2
+2122
+.5.1 E7 E11
+11.2 13.1 13.3 14.1 15.5
+20.1
+E6/J
+6.1. 6.4"
+E10 9.1 110.3,
+.13.2"
+E9
+D1219.1
+20.2
+1.1 1.31.4
+5.2,
+15.3 -17.1 17.3
+19.5
+2a
+"3,1E8 >
+7.3
+10.1
+12.2
+16.1
+19.2
+a
+2 3 4 5 6 7
+10 11 12 13 14 15
+17 18 19 20
+- am
+Chromosome
+13.4 15.1 16.2- 16.4
+18.1 - Dt1
+3.3
+FIGURE 3 Manhattan plot displaying the results ofthe genome-wide association (GWA) for the accessions across maturity groups 000 to IX.
+Red thresholdline set at -logio (2.84 X 10-7)= x6.55. The known maturity loci are indicated with most significantly associated single nucleotide
+polymorphisms on each chromosome. Quantitative trait loci confirmed from individual GWA analyses are presented without the prefix 'qMG' for
+ease of visualization. The quantile-quantile plot of observed VS. expected P values is presented in the top right corner.
+(P) > 34; however, seven QTL presented higher significance significant SNP was detected in ECqMG-9.1, near an ortholog
+than reported loci with known effects on maturity such as of ELF4-Like3 (EFL3) (Supplemental Table S3). The region
+Dtl, E6, E8, E9, E10, and J (Table 3). Furthermore, five of was also observed in the GA-16 environment (Supplemen-
+these seven QTL represent new unreported QTL for maturity tal Fig. S2b). The second most significant SNP is in qMG-
+(Supplemental Table S4). For QTL detected within individual 6.4 near an ortholog of VOZI. The region was detected in
+GWA,atotal of 13 also presented higher significance than the both environments (Supplemental Figure S2a and S2b). The
+abovementioned maturity loci, with eight of these QTL rep- third SNP is in qMG-5.3, close to an ortholog of FLAVIN-
+resenting new GWA QTL for maturity.
+BINDING, KELCH REPEAT, F BOX 1 (FKF1), and was also
+detected in GA-16 environment. The QTL qDTF-10.1 was
+3.2 I Validation using a diversity panel
+only observed for the combined DTF dataset and was not
+observed in the GWAS with MGs 000-IX. A significant SNP
+Soybean maturity is affected by two major periods: from for PRR7 was also detected in the combined dataset. E10 was
+planting to flowering and from flowering to physiological observed individually for GA-15 and GA-16 environments
+maturity. Increase in DTF or RP periods can extend DTM. but not in the combined dataset. Furthermore, one SNP near
+Correlationanalysis indicatedthat both DTF and RP hadasig- D12 was significantin the GA-15 environment only (Table 5).
+nificant positive correlation with DTM I(P <.01) with correla-
+tion coefficients of0.85 and 0.53, respectively. No significant
+correlation was observed between DTF and RP. Besides con- 3.2.2 I Days to maturity
+firming 15 QTL identified in previous analyses, GWA using
+the diversity panel also detected one additional QTL for DTF Four QTL, qMG-11.2, -13.1, -16.1, and -19.2, were identi-
+(Tables 3 and 5).
+fiedtobe significantly associated withDTM in GWA analyses
+using the combined dataset (Figure 4, Table 5). The most sig-
+3.2.1 I Days to flowering
+nificant SNP for the combined dataset is qMG-16.1, which is
+near an ortholog of ELF4-Like 4 (EFL4) (Supplemental Table
+Five QTL were identified in a combined DTF dataset from S3). The second most significant SNP was observed for qMG-
+2yr (Figure 4, Table 5). Ofthese five significant regions, four 19.2 and was closest to an ortholog ofAREB3. For qMG-11.2,
+regions have been identified with GWA analyses. The most the SNP was not near any known orthologs of Arabidopsis
+RIGHTSLIN Ko
+
+
+
+18of25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+TABLE 5 Genomic regions detected for days to flowering (DTF), days to maturity (DTM), and reproductive period (RP) using a genome-wide
+association analysis in a diverse panel of soybean genotypes
+2015
+2016
+Combined
+Name of genomic
+Reported
+regions
+locus
+DTF DTM RP DTF DTM RP
+DTF DTM
+RP
+qMG-5.3
+6.94
+7.2
+qMG-6.4
+10.8
+5.9
+6.5
+9.6
+qMG-8.1
+E10
+6.7
+5.9
+ECqMG-9.1
+7.8
+11.0
+ECqMG-10.2
+6.2
+qDTF-10.1
+6.5
+qMG-11.1
+PRR3
+11.3
+qMG-11.2
+10.1
+6.7
+6.8
+qMG-12.1
+PRR7
+6.4
+6.6
+qMG-13.1
+6.6
+qMG-13.2
+6.4
+ECqMG-14.2
+10.1
+qMG-16.1
+10.7
+9.4
+13.6
+12.1
+qMG-18.2
+D12
+5.8
+qMG-19.1
+7.4
+qMG-19.2
+7.7
+*The values of -logio(p), indicating significance of SNPs.
+12 A
+ECqMG-9.1
+10
+6.4
+8
+5.3
+qDTF-10.1 PRR7
+S
+de
+6
+4
+2
+14
+16.
+I
+12 B
+10
+I
+8
+11.2 13.1
+19.2
+E
+6
+1
+4
+2
+ST :
+0
+14
+12 C
+16.1
+10
+3 8
+11.2 13.2
+19.1
+6
+2 1
+o
+7
+10 11 12 13 14 15 16 17 18 19 20
+FIGURE 4 Manhattan plots displaying the results of the genome-wide association (GWA) for the diversity panel using a combined dataset.
+Red threshold line set at -logio (1.44 X 10-7)= x5.84. The quantitative trait loci overlapping the ones from individual GWA analyses are presented
+without the prefix 'qMG. Quantile-quantile plots of observed vs. expected P values are presented in the top right corner of each Manhattan plot. (A)
+Days to flowering; (B) Days to maturity; (C) Reproductive period.
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0
+190f25
+flowering genes while the SNP for qMG-13.1 was close to an
+Individual GWAS demonstrated that the E1, ElLa, E8, and
+ortholog of COL2. Only one significant QTL qMG-6.4 was Dtl loci had effects on MGs V and earlier; in contrast, E7,
+observed in GA-15 (Supplemental Figure S2c), while three PRR3, and PRR7 loci had impacts on MGs III+ (Table 4).
+QTL, ECqMG-10.2, PRR3, and qMG-16.1, were identified in Furthermore, of the 45 QTL identified in individual GWA,
+GA-16 environment (Supplemental Figure S2d). Except for 29 QTL were observed that had effects in MGs V and ear-
+ECqMG-10.2 and qMG-13.1, all other regions observed were lier, while there were only six QTL that had effects in MGs
+also found in the individual analyses for MGs V-IX.
+V+ (Table 4). Among all the significant loci identified in
+this study, qMG-5.2 had effects on the highest number (9) of
+MGs from 000 to IX, followed by E2, E3, Dt2, qMG-15.5,
+3.2.3 I Reproductive period
+E1, qMG-13.1, qMG-7.1, and qMG-16.1, which affected 5-7
+MGs. E2 presented distributed effects in MGs 0-VII, possess-
+Four significant QTL, qMG-11.2, -13.2, -16.1, and -19.1, ing the most significant SNPS for the GWAS between MGs I-
+from the diversity panel were identified for RP (Table 5, II, II-III, and VI-VII andthe second most significant SNP for
+Figure 4) and these regions have also been detected in pre- MGs 0-I and MGs IV-V. Although qMG-5.2 affected more
+vious GWA analyses. Of these four regions, two QTL were MGs than E2, the effects were small compared with E2.
+also detected in the GWA for DTM. None ofthese regions are
+The existence of multiple QTL near each other is a com-
+in common with those detected for DTF. The GA-16environ- mon challenge for QTL detection when working with complex
+ment also confirmed QTL qMG-16.1 and -11.2 and detected traits (Du et al., 2019). Furthermore, several orthologs of Ara-
+a SNP for PRR7 and ECqMG-14.2. No significant SNPS were bidopsis flowering-related genes are present within the qMG-
+observed for this trait in GA-15.
+5.2 region (Supplemental Table S3). These factors might be
+responsible for the lower significance observed for this QTL
+despite its widespread presence in several MGs. There were
+4 I DISCUSSION
+22 QTLthat affected lonly two to four MGs in individualGWA
+but had SNPS with greater significance in the GWA with MG
+4.1 I Genetic control of soybean maturity
+000-IX compared with qMG-5.2 (Table 3).
+Overall, genes associated with the photoperiodic and cir-
+Soybean maturity is a complex trait controlled by the inter- cadian clock pathways have the greatest effects on soybean
+action of many genes, pathways, and the cultivation environ- maturity, with E2 among the reported maturity loci affecting
+ment (Cober et al., 1996, 2001, 2014). Even with the appli- the highest number of MGs (Table 4, Figure 3). The absence
+cation of stringent thresholds, we observed a large number of of significant SNPs near the El locus on MGs VI-IX and
+QTL in this study. This might be attributed to the availability near E3 on MGs VII-IX supports previous evidence that most
+ofa high number of phenotypic observations, a common lim- genotypes from MGs V+ have El and E3 alleles (Jiang et al.,
+itation with other GWA studies, and the more efficient detec- 2014; Langewisch et al., 2017; Li et al., 2017b; Liu et al.,
+tion of true positives by FarmCPU (Liu et al., 2016). While 2020; Miranda et al., 2020). Furthermore, the detection of
+several new, unreported GWA QTL were detected, QTL for SNPs near PRR3 and PRR7 only on MGs III+ supports previ-
+all reported maturity loci were observed. From the total of ous indications that these genes depend on El to delay matu-
+108 QTL detected on all GWAS, 60 are previously unreported rity and are upregulated by E3 (Lu, et al., 2020).
+GWA QTL for maturity (Supplemental Table S4). Aside from
+Quantitative trait loci for the E4 locus were not detected in
+QTL attributedtoreported maturity genes, 45 QTL were iden- individual GWAS, which might be due to the restricted dis-
+tified in individual GWA analyses and 25 of these are newly tribution of the recessive e4 alleles (Kanazawa et al., 2009).
+identified GWA QTL.
+Genotyping of 308 cultivars detected e4-SORE and e4-kes in
+All 14 reported maturity loci and two stem termination only 1.3 and 1.9% ofthe cultivars, respectively, and these alle-
+genes were confirmed in the GWA across MGs 000-IX and les were restricted to MGs 0000 and 000 (Liu et al., 2020).
+GWAS using the paired MGs, except for E4 and E11, which These results suggest that recessive e4 alleles have a limited
+were not detected in the GWAS with the paired MGs. None relevance for accessions in the USDA Soybean Germplasm
+of the reported maturity loci were detected in MGs 000-0. Collection. Overall, most SNPs near maturity genes were
+Of those reported loci, E1, EIL, E2, E3, E7, E10, PRR3, and detected in or near the MGs usedfor their discovery except for
+PRR7 affected five or more MGs throughout the USDA Soy- E7 (Tables 2 and 4). The SNPs significantly associated with
+bean Germplasm Collection. In contrast, of45 QTL identified E7, reported in the crosses involving genotypes from MGs
+in individual GWA analyses, five QTL, including qMG-5.2, 000-II, were detected within MGs III-IX.
+-7.1, 13.1, -15.5, and -16.1, impacted five or more MGs.
+Our results provided levidence for further studies on E5, E7,
+Although Dtl and D12 are stem termination genes, they had and E8 and suggested some candidate genes. For E5, previ-
+effects on three and seven MGs, respectively (Table 4).
+ous results suggested that it might be either an allele of E2
+RIGHTSLIN Ko
+
+
+
+20of25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+or a closely located gene (Dissanayaka et al., 2016) with the PRR3 and PRR7 are upregulated by E3 and E4, while El acts
+molecular phenotype for E5 NILS, indicating the existence both downstream of E3 and the PRR genes being, therefore,
+of a unique locus (Wu et al., 2019). Our results indicated a simultaneously associated with both pathways. In our anal-
+QTL in the vicinity of E2 for the GWA with MGs VI-VIIand yses, several significant SNPS were identified near orthologs
+MGs 000-IX (qMG-10.3, Table 3). The most significant SNP of genes associated with the vernalization pathway, especially
+(P == 1.59 X 10-26) for this QTL is located near an ortholog of genes associated in the regulation of FLC expression, the
+Arabidopsis flowering genes (Supplemental Table S3), which FLC ortholog itself and three orthologs of SVP (Supplemen-
+might be responsible for the E5 locus.
+tal Table S3). However, while SNPs near vernalization related
+Two QTL detected in our GWA analysis were associated orthologs appeared in considerable numbers in some GWAS,
+with E7. The first is qMG-6.2, where significant SNPS were such as for MGs 0-I, the significance of the SNPS is usually
+detected for several paired MG GWAS (Table 4), most fre- inferior compared with SNPs associated with the circadian
+quently near an ortholog of LEAFY (LFY), a floral identity and photoperiodic pathways.
+gene. However, the most significant SNPs for this region on
+Despite consisting in a key integrator of flowering signals,
+the GWA with MGs 000-IX were close to an ortholog of FT orthologs had only a modest effect on soybean maturity.
+PRR5, which, considering the recent discovery of PRR3 and While significant SNPs near E9 (GmFT2a), E10 (GmFT4),
+PRR7, might also affect maturity in soybean. Furthermore, and GmFT5b were detected in individual GWAS, the sig-
+the QTL ECqMG-6.1 also fits the order observed by Cober nificance of SNPs near these genes in the GWA with MGs
+and Voldeng (2001) with a highly significant SNP near an 000-IX is relatively low. Furthermore, the SNPS attributed to
+ortholog of CYCLING DOF FACTOR3 (CDF3) (Supplemen- E10 were usually closer to the orthologs of other Arabidop-
+tal Table S3).
+sis flowering genes than to the actual position for the loci
+The causal gene for E8 has been attributed to genes in two (Supplemental Table S3). The soybean genome has 14
+different QTL on Chr 4. Significant SNPS near ElLa (Tables 2 orthologs of FT (Zhai et al., 2014), which might be respon-
+and 3), which might be the true gene for the E8 locus (Cao sible for the reduced effect of allele variants in specific locus;
+et al., 2017), were detected in several GWAS (Table 4). In however, this would require that we consider that the number
+contrast, a SNP near GmCRYla, suggested by Cheng et al. offunctional FTalleles has reducedeffects on the phenotypes.
+(2011), was only detected for MGs III-IV and had lower sig-
+nificance than ElLa in the GWA with MGs 000-IX. The
+presence of El and E3 alleles for MGs 000-0 was previ- 4.2 I Genome-wide association QTL for
+ously predicted in the USDA Germplasm Collection using DTF, DTM, and RP
+en masse prediction (Langewisch et al., 2017). However, sig-
+nificant SNPs near El and E3 were not detected in GWAS In soybean, the period from planting to flowering is geneti-
+for MGs 000-00 and MGs 00-0. These results might indi- cally controlled by multiple genes, while only a few known
+cate that the effect of these alleles might depend on the gene maturity genes, such as E3, E4, and E8, also have been
+located in qMG-4.3. Nevertheless, resequencing of ElLa and reported that affect the reproductive period (Cheng et al.,
+EILb from 192 accessions in a soybean mini-core collec- 2011; Xu et al., 2013). Genome-wide association QTL for the
+tion did not find any high-effect variants to the gene func- reproductive period near ElLa, E2, E7, PRR3, and PRR7have
+tion in these loci (Ogiso-Tanaka et al., 2019). A recessive been reported in SoyBase. Correlation coefficients indicated
+allele for EILb, which eliminated the inhibitory effect of far- that both DTF and RP had significant positive correlations
+red light-enriched long-day conditions, was recently discov- with DTM (P < .01) and there was no correlation between
+ered in crosses with far-eastern Russian soybean cultivars DTF and RP, suggesting that the lengths of DTF and RP in
+(Zhu et al., 2019). Another possible candidate gene located in the diversity panel might be controlled lby different genes. The
+the region is Glyma.04G159300, an ortholog of FRUITFUL GWA QTL detected for these traits support the hypothesis
+(FUL). The expression ofGlyma.06g205800, also an ortholog drawn for the correlation analysis.
+of FUL, has been previously associated with maturity in soy-
+The QTL detected for DTM were very similar to those
+bean varieties with different photoperiod sensitivities; how- identified for RP, which shared the genomics regions qMG-
+ever, FUL homologs and their functions are still poorly 11.2 and qMG-16.1 for the combined datasets; however, none
+understood in soybean (Jia et al., 2015). Furthermore, the of the QTL observed for DTF in the combined dataset were
+semi-indeterminate gene Dt2 is an ortholog of FUL (Ping detected for RP. The most significant SNPs for DTM and RP
+et al., 2014).
+are near an ortholog of ELF4-Like 4 (EFL4) on qMG-16.1.
+The late MGs in the USDA Soybean Germplasm Col- The QTL mapping for the long-juvenile trait recently identi-
+lection, in contrast with early MGs, were strongly affected fied a QTL that encompasses qMG-16.1 (Fang et al., 2019).
+by genes associated with the circadanclock-asociated PRR This trait is of special importance for soybean varieties cul-
+genes (Table 4). However, Lu et al. (2020) observed that tivated on low latitudes, which are usually from MGs VI-X.
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 210f25
+While SNPs near EFL4 were not significant for DTF, the most selection models are best able to capture small to moderate
+significant SNPS for this trait was an ortholog of ELF4-Like 3 marker effects (Heslot et al., 2012; Meuwissen et al., 2001;
+(EFL3). The causative gene for the long-juvenile j-1 allele is Stewart-Brown et al., 2019; Whittaker et al., 2000). The large
+an ortholog of ELF3 (Yue et al., 2017).
+impacts of maturity on low heritability traits, such as grain
+Significant SNPS near an ortholog of VOZI on Chr 6 were yield, reduces the model's accuracy. Therefore, maturity must
+consistently observed for DTF and once for DTM in GA-15. be compensated for within a genomic selection model, typi-
+Additionally, a SNP near another ortholog of this gene was cally through the addition ofDTM as an environmental effect
+observed for RP in Chr 13 (Table 5; Supplemental Table S3). (Crain et al., 2018; Rutkoski et al., 2016). The use of matu-
+Accordingly, significant SNPs near orthologs of CONTANS- rity genes as weighted covariates in genomic selection mod-
+Like 2 (COL2) on Chr 13 and 19 were detected for DTM els presents an opportunity for increased genomic selection
+and RP, respectively. While no significant markers near COL accuracy (Smallwood et al., 2019).
+orthologs were detected for DTF, SNPS near an ortholog of
+In Smallwood et al. (2019), plant materials within the train-
+FKF1 in Chr 5 were observed in two instances (Table 5). ing and validation sets segregatedformaturiy. mostnotably at
+Overall, most ofthe QTL detected in the diversity panel over- the El locus. By including El and Dtl as covariates separate
+lapped with those identified in individual MG GWAS with from the other markers used in cross-validation, grain yield
+MGs V-IX and the GWA with MGs 000-IX. The significant prediction reached an accuracy of 0.51, as indicated by Pear-
+SNPS detected in the diversity panel are generally near the son correlation. These results indicatedthat genomic selection
+orthologs of genes that interact with PRR7and IGI, which were across segregating maturities is possible if the segregating
+consistently significant on late MGs.
+maturity genes are accounted for as covariates (Smallwood
+et al., 2019). This would make the prediction of yield and
+other agronomic traits possible when crossing distant matu-
+4.3 I Implications of genetic variation of
+rity groups with greater accuracy.
+maturity loci in plant breeding
+Ourresults demonstratedthat the GWA QTLwith the great-
+est effects identified from paired MGs are mostly associated
+Based on the GWA analyses using paired MGs, a range of two with characterized E maturity loci such as E1, E2, E3, and
+to 25 QTL were identified for each pair of MGs, which indi- the PRR genes PRR3 and PRR7. The available evidence sug-
+cated the genetic controls for the MGs might be more com- gests that functional El and E3 alleles are necessary to obtain
+plex in some of MGs than others. Genome-wide association MGs V+ (Jiang et al., 2014; Li et al., 2017b) and that PRR
+across MGs 000-IX identified more QTL (103) than those genes PRR3 and PRR7, consistently detected on late MGs in
+using paired MGs (58 QTL), where 54 QTL were in com- our study, might depend on El to delay flowering (Lu et al.,
+mon with those identified across MGs 000-IX. These 49 new 2020). These results indicate that manipulating a few genes
+QTL identified by the GWA across MGs 000-IX might be might be sufficient to significantly change the MG from an
+due to the allele variation across MGs 000-IX. It is possible accession, as it was the case during the successful introgres-
+that some of these QTL have large effects on the MGs that sionofthe long-juvenile traitin temperate cultivars to develop
+are not detected using the materials from the paired maturity elite cultivars in Brazil and southern China (Lu et al., 2017).
+groups. A follow-up analysis will be conducted to investigate Besides conventional breeding strategies, recent studies were
+the effects of these QTL across MGs that were not detected also able to use the CRISPR/CAS9 technology to develop ear-
+using the materials from the paired MGs.
+lier and later flowering germplasm by mutating or overex-
+Using -logio (P) = 34 as a threshold, 10 QTL were pressing maturity related genes (Han et al., 2019; Lu et al.,
+detected by the GWA across MGs 000-IX, which were also 2020; Wang et al., 2020).
+identifiedby individual GWAS including reportedloci E1,E2,
+Additionally, for some paired MGs, the number of signif-
+E3,E1La, PRR3, and PRR7 using paired MGs. When we use icant QTL appear too small, such as for MGs 000-0, where
+-logio (P) = 15 as a threshold, GWA across MGs 000-IX only a total of six QTL were detected. In comparison, a total
+detected 38 QTL, of which 37 QTL were also identified by of 28 QTL were yielded for MGs V-IX, compared with only
+GWAS with paired MGs. This suggested that the majority of 25 QTL for MGs IV-V alone. Principal component analyses
+high-effect QTL could be detected using a combination of demonstrated a greater genetic diversity for MGs II-IV
+GWAS across MGs and with pairedMGs. The numberofQTL (Figure 2), which somewhat agree with our results for
+conditioning each MG from this study couldbe used to predict the number of QTL. Nevertheless, these results might be
+maturity groups in a breeding program.
+partially a consequence of a reduced number of genotypes
+Maturity's large impacts on soybean yield and other agro- for testing in early (000-0) and late (V-IX) MGs when
+nomic traits make it a significant factor in accelerated compared with the GWA for MGs IV-V (Table 1). Iden-
+breeding pipelines that use genomic selection, limiting the tification and characterization of these new GWA QTL
+formation of training sets across multiple MGs. Genomic could enable the development of significantly better models
+RIGHTSLIN Ko
+
+
+
+220f25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+especially for use in genomic prediction to improve optimal Buzzell, R., & Voldeng, H. (1980). Inheritance of insensitivity to long
+cross-predictions.
+daylength. Soybean Genetics Newsletter, 7, 26-29.
+Cao, D., Takeshima, R., Zhao, C., Liu, B., Jun, A., & Kong, F. (2017).
+ACKNOWLEDGMENTS
+Molecular mechanisms of fflowering under long days and stem growth
+This
+habit in soybean. Journal of Experimental Botany, 68, 1873-1884.
+study was financed in part by the Coordenaçao de Aper-
+MmpulidsiaglidionNakerdge
+feiçoamento de Pessoal de Nivel Superior-Brasil (CAPES)- Cheng, L., Wang, Y.,Zhang, C., Wu,C.Xu,.Zhu, H., Leng, J., Bai, Y.,
+Finance Code 001 by providing a fellowship to the first author.
+Guan, R., Hou, W., Zhang, L., & Han, T. (2011). Genetic analysis and
+Support of this research was also provided by the Univer-
+QTL detection ofreproductive period land post-flowering photoperiod
+sity of Georgia Research Foundation and Georgia Agricul-
+responses in soybean. Theoretical and Applied Genetics, 123, 421-
+tural Experiment Stations. We thank Tatyana Nienow at the
+429. htps./doi.orgy10.1007k00122-011-1594-8
+University of Georgia for her technical support.
+Cober, E., Curtis, D., Stewart, D., & Morrison, M. (2014). Quantifying
+the effects of photoperiod, temperature and daily irradiance on flow-
+DATA AVAILABILITY STATEMENT
+ering time of soybean isolines. Plants, 3, 476-497. https://doi.org/10.
+3390/plants3040476
+The phenotypes of the accessions used in this study can be Cober, E. R., Molnar, S. J., Charette, M., & Voldeng, H. D. (2010). A
+accessedthrough the Germplasm Resources Information Net-
+new locus for early maturity in soybean. Crop Science, 50, 524-527.
+work (GRIN) (www.ars.grin.gov). High-density SNP data for
+htpsz/doiong/10213Secropxc12009.04.0174
+the accessions used in genome-wide association analyses are Cober, E. R., Stewart, D. W., & Voldeng, H. D. (2001). Photope-
+publicly available and can be retrieved at SoyBase (www.
+riod and temperature responses in early-maturing, near-isogenic
+soybase.org). Phenotypes, DTF, DTM, and RP of the diver-
+soybean lines. Crop Science, 41, 721-727. htps/doi.org/1021351
+cropsci2001.413721x
+sity panel are listed in the Supplemental Table S2. All other
+Cober, E. R., Tanner, J. W., & Voldeng, H. D. (1996). Genetic
+datasets generated for this study are available upon request.
+control of photoperiod response in early-maturing, near-isogenic
+soybean lines. Crop Science, 36, 601-605. htps/doi.org/102135
+CONFLICT OF INTEREST DISCLOSURE
+cropsci1996.0011183X003600030013x
+The authors declare that there is no conflict of interest.
+Cober, E. R., & Voldeng, H. D. (2001). A new soybean maturity and
+photoperiod-sensitivity locus linked to E1 and T. Crop Science, 41,
+ORCID
+698-701. htpsldoiorg10213/ecropci2001.413698
+Gustavo Zimmer D htps//orcid.org/00-0-0001-7164-889X Copley, T. R., Duceppe, M. O., & O'donoughue, L. S. (2018). Identifi-
+ClintonJ. Steketee D hmploedaegtww.os.ses
+cation of novel loci associated with maturity and yield traits in early
+maturity soybean plant introduction lines. BMC Genomics, 19, 1-12.
+2396
+MPANHPRINNBHAONLA4
+ScottA.Jackson 0 htpsz/orcid.org/0000-0002-3172-1607
+Crain, J., Mondal, S., Rutkoski, J., Singh, R. P., & Poland, J.
+ZengluLiOhttps.lorcid.org/0000-0-0003-4114-9509
+(2018). Combining high-throughput phenotyping and genomic infor-
+mation to increase prediction and selection accuracy in wheat
+breeding. The Plant Genome, 11, 170043. htpsz/doi.org/10.38357
+REFERENCES
+plamtgemom201205.0043
+Berardini, T. Z., Reiser, L., Li, D., Mezheritsky, Y., Muller, R., Strait, Destro, D., Carpentieri-Pipolo, V., Kiihl, R. A. S., & Almeida, L. A.
+E., & Huala, E. (2015). The Arabidopsis Information Resource:
+(2001). Photoperiodism and genetic control of the long juvenile
+Making and mining the "gold standard" annotated reference
+period in soybean: A review. Crop Breeding and Applied Biotech-
+plant genome. Genesis, 53, 474-485. htpldsiongyl0.0034hg2s
+nology, 1, 72-92. htpa./doi.ong/10.30021984-7033.0101al0
+77
+Dissanayaka, A., Rodriguez, T. O., Di, S., Yan, F., Githiri, S. M., Rodas,
+Bernard, R. L. (1971). Two major genes for time of flowering and matu-
+F. R., Abe, J., & Takahashi, R. (2016). Quantitative trait locus map-
+rity in soybeans. CropScience, 11, 242-244. htps/doi.org/102135
+ping of soybean maturity gene E5. Breeding Science, 66, 407-415.
+cropsci1971.0011183X001100020022x
+https./doi.org/10.1270/jsbbs.15160
+Bernard, R.L.(1972). Two genes affecting stem termination in soybeans. Du, B., Wang, Q., Sun, G., Ren, X., Cheng, Y., Wang, Y., Gao, S., Li,
+Crop Science, 12, 235-239. WpuMsegploaiSowpalyna
+C., & Sun, D. (2019). Mapping dynamic QTL dissects the genetic
+0011183X001200020028x
+architecture of grain size and grain filling rate at different grain-filling
+Boerma, H.R, & Specht, J.E. (2004). Soybeans: Improvement, pro-
+stages in barley. Scientific Reports, 9, 18823. htps/doi.org/10.1038/
+duction, and uses (3rd Vol.). ASA, CSSA, and SSSA, Madison,
+541598-019-53620-5
+Wisconsin.
+Fan, C., Hu, R., Zhang, X., Wang, Xu, Zhang, W., Zhang, Q., Ma, J.,
+Bonato, E. R., & Vello, N. A. (1999). E6, A dominant gene
+& Fu, Y. F. (2014). Conserved CO-FT regulons contribute to the
+conditioning early flowering and maturity in soybeans. Genet-
+photoperiod flowering control in soybean. BMC Plant Biology, 14,
+ics and Molecular Biology, 22, 229-232. htps/doi.org/10.1590
+9. WpuAd.gmai10inh2319
+S141547571990002016
+Fang, C., Chen, L., Nan, H., Kong, L., Li, Y., Zhang, H., Li, H., Li,
+Buzzell, R. I. (1971). Inheritance of a soybean flowering response to
+T., Tang, Y., Hou, Z., Dong, L., Cheng, Q., Lin, X., Zhao, X.,
+fluorescent daylength conditions. Canadian Journal of fGenetics and
+Yuan, X., Liu, B., Kong, F., & Lu, S. (2019). Rapid identification
+Cytology, 13, 703-707. hmpeldeiogloilswgl-ion
+ofconsistent novel QTLS underlying long-juvenile trait in soybean by
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 230f25
+multiple genetic populations and genotypingby-sequencing Molec-
+conditions early flowering and maturity in soybean. CropScience,54,
+ular Breeding, 39, 80. htipsz/doiong/10.1007k1007811032-019-0979.2
+2529-2535. htpez/idoiong10213/eropwc201403.028
+Fang, C., Liu, J., Zhang, T., Su, T., Li, S., Cheng, Q., Kong, L., Li, X., Kong, L., Lu, S., Wang, Y., Fang, C., Wang, F., Nan, H., Su, T., Li, S.,
+Bu, T.,Li, H., Dong, L., Lu, S., Kong, F., & Liu, B. (2021). A recent
+Zhang, F., Li, X., Zhao, X., Yuan, X., Liu, B., & Kong, F. (2018).
+retrotransposon insertion of J caused E6 locus facilitating soybean
+Quantitative trait locus mapping of flowering time and maturity in
+adaptation into low latitude. Journal ofIntegrative Plant Biology, 63,
+soybean using next-generation sequencing-based analysis. Frontiers
+995-1003 . Mpuldsiangioilil@phi.wos
+in Plant Science, 9, 995. htps/doi.org/10.3389/fpls2018.00995
+Hagely, K., Konda, A. R., Kim,J. H., Cahoon, E. B., & Bilyeu, K. (2021). Kumar, V., Rani, A., Rawal, R., & Mourya, V. (2015). Marker assisted
+Molcular-asisedbreding forsoybean with high oleic/low linolenic
+accelerated introgression of null allele of kunitz trypsin inhibitor
+acid and elevated vitamin E in the seed oil. Molecular Breeding, 41,
+in soybean. Breeding Science, 65, 447-452. htps/doi.org/10.1270/
+3. MPANPOINPNAINDMNIRy
+jsbbs.65.447
+Han, J., Guo, B., Guo, Y., Zhang, Bo, Wang, X., & Qiu, L. J. (2019). Langewisch, T., Lenis, J.,Jiang, G. L., Wang, D., Pantalone, V., & Bilyeu,
+Creation of early flowering germplasm of soybean by CRISPR/Cas9
+K. (2017). The developmentand luse ofamolecular model for soybean
+technology. Frontiers in Plant Science, 10, 1446. https://doi.org/10.
+maturity groups. BMC Plant Biology, 12.91.htmpulidbionglioiise
+3389/fpls.2019.01446
+s12870-017-1040-4
+Hartwig, E. E., & Kiihl, R. A. S. (1979). Identification and utiliza- Li,C.,Li, Y.H.,Li, Y.,Lu, H., Hong, H., Tian, Yu,Li, H.,Zhao, T., Zhou,
+tion ofa delayed flowering character in soybeans for short-day con-
+X., Liu, J., Zhou, X., Jackson, S. A., Liu, B., & Qiu, L. J. (2020).
+ditions. Field Crops Research, 2, 145-151. htps/doi.org/10.1016
+A domestication-associated gene GmPRR3b regulates the circadian
+0378-429007990017-0
+clock and flowering time in soybean. Molecular Plant, 13, 745-759.
+Heslot, N., Yang, H. P., Sorrells, M. E., & Jannink,J.L. (2012). Genomic
+MmpaNsgaeN.eshanint
+selection in plant breeding: A comparison of models. Crop Science, Li, G., Zhang, J., Li,J., Yang, Z., Huang, H., & Xu, L. (2012). Imitation
+52, 146-160. htpsz/doiong/10213Scrropwc2011.06.0297
+switch chromatin remodeling factors and their interacting RINGLET
+Inigo, S., Giraldez, A. N., Chory,J.,& Cerdân, P.D.(2012). Proteasome-
+proteins act together in controlling the plant vegetative phase in
+mediated turnover of Arabidopsis MED25 is coupled to the activa-
+Arabidopsis. Plant Journal, 72, 261-270. htps/doiorg/10.1111;
+tion of FLOWERING LOCUS Ttranscription. Plant Physiology, 160,
+1365313X2012.05074x
+1662-1673. htps/doi.org/10.1104/pp.112.205500
+Li, J., Wang, X., Song, W., Huang, X., Zhou, J., Zeng, H., Sun, S., Jia,
+Jia, Z., Jiang, B., Gao, X., Yue, Y.,Fei, Z., Sun, H., Wu, C., Sun, S., Hou,
+H.,Li, W.,Zhou, X., Li, S., Chen, P., Wu, C., Guo, Y., Han, T., & Qiu,
+W., & Han, T. (2015). GmFULa, a FRUITFULL homolog, functions
+L. (2017b). Genetic variation of maturity groups and four E genes in
+in the flowering and maturation of soybean. Plant Cell Reports, 34,
+the Chinese soybean mini core collection. PLOS ONE, 12, e0172106
+121-132. htpsz/doiongy10.1007k00299-014-1693-5
+htpszidbiopl10137l/jormal.pome.0172106
+Jiang, B., Nan, H., Gao, Y., Tang, L., Yue, Y., Lu, S., Ma, L., Cao, D., Li,M. W.,Liu, W., Lam, H.M., & Gendron,J.M.(2019a). Characteriza-
+Sun, S., Wang.J.,Wu,C. Yuan, X., Hou, W., Kong, F., Han, T., & Liu,
+tion of two growth period QTLS reveals modification of PRR3 genes
+B. (2014). Allelic combinations of soybean maturity loci E1, E2, E3
+during soybean domestication. Plant & CellPhysiology, 60,407-420.
+and E4 result in diversity of maturity and adaptation to different lat-
+MepulidsiaglaioMppirgls
+itudes. PLOS ONE, 9, e106042. https/doi.org/10.1371/journal.pone. Li, X., Fang, C., Xu, M., Zhang, F., Lu, S., Nan, H., Su, T., Li, S.,
+0106042
+Zhao, X., Kong, L., Yuan, X., Liu, B., Abe, J., Cober, E R., &
+Jung, C. H., Wong, C. E., Singh, M. B., & Bhalla, P. L. (2012). Com-
+Kong, F. (2017a). Quantitative trait locus mapping of soybean matu-
+parative genomic analysis of soybean flowering genes. PLOS SONE, 7,
+rity gene E6. Crop Science, 57, 2547-2554. htps/doi.org/10.2135
+e38250. htps./doi.ongyl10.137l/ouralpome.003250
+cropsci2017.02.0106
+Jung, J. H., Seo, Y. H., Seo, P. J., Reyes, J. L., Yun, J., Chua, N. Li, Y., Dong, Y., Wu, H., Hu, Bo, Zhai, H., Yang, J., & Xia, Z. (2019b).
+H., & Park, C. M. (2007). The GIGANTEA-regulated microRNA172
+Positional cloning of fthe flowering time QTLqFT12-1 reveals the link
+mediates photoperiodic flowering independent ofCONSTANSin.Ara-
+between the clock related PRR homolog with photoperiodic response
+bidopsis. Plant Cell, 19, 2736-2748. Mpldsiongyioiiobepcloz
+in soybeans. Frontiers in Plant Science, 10, 1303. https://doi.org/10.
+054528
+3389/fpls.2019.01303
+Kanazawa, A., Liu, B., Kong, F., Arase, S., & Abe, J. (2009). Adap- Lipka, A E., Tian, F., Wang, Q., Peiffer, J., Li, M., Bradbury, P. J., Gore,
+tive evolution involving gene duplication and insertion of a novel
+M A., Buckler, E S., & Zhang, Z. (2012). GAPIT: Genome associ-
+Tyl/copia-like retrotransposon in soybean. JournalofMolecular Evo-
+ation and prediction integrated tool. Bioinformatics, 28, 2397-2399.
+lution, 69, 164-175. htipsz/doiong10.1007600239-009-9262-1
+hupel/idbiongl10.193/bioinformaticvb44
+Kim, M. Y., Shin, J. H., Kang, Y.J., Shim, S. R., & Lee, S. H. (2012). Liu, B., Kanazawa, A., Matsumura, H., Takahashi, R., Harada, K., &
+Divergence of flowering genes in soybean. Journal of Biosciences,
+Abe, J. (2008). Genetic redundancy in soybean photoresponses asso-
+37, 857-870. htpsz/doiong/10.1007512038-012-92520
+ciated with duplication of the Phytochrome A gene. Genetics, 180,
+Kong, F., Liu, B., Xia, Z., Sato, S., Kim, B. M., Watanabe, S., Yamada,
+995-1007. hmpldsiogloisslpmtics .108.092742
+T., Tabata, S., Kanazawa, A., Harada, K., & Abe, J. (2010). Two Liu, B., Watanabe, S., Uchiyama, T., Kong, F., Kanazawa, A., Xia, Z.,
+coordinately regulated homologs of FLOWERING LOCUS T are
+Nagamatsu, A., Arai, M., Yamada, T., Kitamura, K., Masuta, C.,
+involved in the control of photoperiodic flowering in soybean. Plant
+Harada, K., & Abe,J.(2010). The soybeanstem growthhabit gene Dtl
+Physiology, 154, 1220-1231. Impuldhioplaioupliaien
+is an ortholog of Arabidopsis TERMINAL FLOWER1. Plant Physiol-
+96
+ogy, 153, 198-210. htps/doiorg/10.1104/pp.109.150607
+Kong, F., Nan, H., Cao, D., Li, Y., Wu, F., Wang, J., Lu, S., Yuan, X., Liu, L., Song, W., Wang, L., Sun, X., Qi, Y., Wu, T., Sun, S.,
+Cober, E. R., Abe, J., & Liu, B. (2014). A new dominant gene E9
+Jiang, B., Wu, C., Hou, W., Ni, Z., & Han, T. (2020). Allele
+RIGHTSLIN Ko
+
+
+
+24of25 I The Plant Genome 2a.0
+ZIMMER ET AL.
+combinations of maturity genes E1-E4 affect adaptation of soybean
+variation of flowering time-related genes in soybean (Glycine max).
+to diverse geographic regions and farming systems in China. PLOS
+DNA Research, 26, 243-260. Wpuliaglipnildsursibsams
+ONE, 15, e0235397. htips.ldoi.ongl10137l/joalpome.0235397
+Ortel, C. C., Roberts, T. L., Hoegenauer, K. A., Purcell, L. C., Slaton,
+Liu, X., Huang, M., Fan, B., Buckler, E. S., & Zhang, Z. (2016). Iter-
+N. A., & Gbur, E. E. (2020). Soybean maturity group and plant-
+ative usage of fixed and random effect models for powerful and
+ing date influence grain yield and nitrogen dynamics. Agrosystems,
+efficient genome-wide association studies. PLOS Genetics, 12,
+Geoscience & Environment, 3, e20077. hmpeldoionpglai00lhgg.
+e1005957. htpsz/doiony10137l/jommalpgen.1005767
+20077
+Lu, S., Dong, L., Fang, C., Liu, S., Kong, L., Cheng, Q., Chen, L., Su, Ping, J., Liu, Y., Sun, L., Zhao, M., Li, Y., She, M., Sui, Yi, Lin, F., Liu,
+T., Nan, H., Zhang, D., Zhang, L., Wang, Z., Yang, Y., Yu, D., Liu,
+X., Tang, Z., Nguyen, H., Tian, Z., Qiu, L., Nelson, R L., Clemente,
+X., Yang, Q., Lin, X., Tang, Y., Zhao, X.,  Kong, F. (2020). Step-
+TE., Specht,JE., & Ma, J. (2014). D12 is a gain-of-function MADS-
+wise selection on homeologous PRR genes controlling flowering and
+domain factor gene that specifies semideterminacy in soybean. The
+maturity during soybean domestication. Nature Genetics, 52, 428-
+Plant Cell, 26, 2831-2842. htps/doi.org/10.1105/pc.114.126938
+436. htps/doi.org10.1038/4158-020-0604-7
+Prenger, E M., Yates, J., Mian, M. A. R, Buckley, B., Boerma, H.
+Lu, S., Zhao, X., Hu, Y., Liu, S., Nan, H.,Li, X., Fang, C., Cao, D., Shi,
+R., & Li, Z. (2019). Introgression of a high protein allele into an
+X., Kong, L., Su, T., Zhang, F., Li, S., Wang, Z., Yuan, X., Cober,
+elite soybean cultivar results in a high-protein near-isogenic line with
+E. R., Weller, J. L., Liu, B., Hou, X., Kong, F. (2017). Natural
+yield parity. Crop Science, 59, 2498-2508. htps_/doi.org/1021351
+variation at the soybean J locus improves adaptation to the tropics
+cropsci2018.12.0767
+and enhances yield. Nature Genetics, 49, 773-779. https.//doi.org/10. Ray, J D., Hinson, K., Mankono, J. E B, & Malo, M F. (1995).
+1038/ng.3819
+Genetic control of a long-juvenile trait in soybean. Crop
+Lyu,J., Cai, Z., Li, Y., Suo, H., Yi, R., Zhang, S., & Nian, H. (2020). The
+Science, 35, 1001-1006. Wpuldhegloasoepsliles
+floral repressor GmFLC-like is involved in regulating flowering time
+00183X00350000124
+mediated by low temperature in soybean. International Journal of Roth, O., Alvarez, J P., Levy, M., Bowman, J L., Ori, N., & Shani,
+Molecular Sciences, 21, 1322. htps/doi.org/10.3390/jms21041322
+E. (2018). The KNOXI transcription factor SHOOT MERISTEM-
+McBlain, B. A., & Bernard, R. L. (1987). A new gene affecting the time
+LESS regulates floralfate in Arabidopsis. Plant Cell, 30, 1309-1321.
+of flowering and maturity in soybeans. Journal of Heredity, 78, 160-
+Wpulbiagloiioglikeums
+162. hmpldbsioglioiojoudadguruigemdaliosp
+Rutkoski, J., Poland, J., Mondal, S., Autrique, E., Pérez, L. G., Crossa,
+Meuwissen, T. H. E., Hayes, B.J., & Goddard, M. E., (2001). Prediction
+J., Reynolds, M., & Singh, R. (2016). Canopy temperature and vege-
+oftotal genetic value using genome-wide dense marker maps. Genet-
+tation indices from high-throughput phenotyping improve accuracy
+ics, 157, 1819-1829.htps./doiorg/lo.1093/genctics/1574.1819
+of pedigree and genomic selection for grain yield in wheat. G3
+Miladinovic, J., Ceran, M., Dordevic, V., Balesevic-Tubic, S., Petrovic,
+GenesiGenomesiGenetics, 6, 2799-2808. htpslidoiong/10.1534g)
+K., Dukic, V., & Miladinovic, D. (2018). Allelic variation and dis-
+116.032888
+tribution ofthe major maturity genes in different soybean collections. Samanfar, B., Molnar, S. J., Charette, M., Schoenrock, A., Dehne, F.,
+Frontiers in Plant Science, 9, 1286.htps/doi.org/10.3389/fplks.2018,
+Golshani, A., Belzile, F., & Cober, E. R. (2016). Mapping and liden-
+01286
+tification of a potential candidate gene for a novel maturity locus,
+Miranda, C., Scaboo, A., Cober, E., Denwar, N., & Bilyeu, K.
+E10, in soybean. Theoretical and Applied Genetics, 130, 377-390.
+(2020). The effects and interaction of soybean maturity gene alle-
+htps./doi.ong10.1007k0012-016-2819-7
+les controlling flowering time, maturity, and adaptation in tropical Scott, W. O., & Aldrich, S. R. (1970). Modern soybean production (lst
+environments. BMC Plant Biology, 20, 65. htps/doi.org/10.1186
+ed.). S & A Publ. Inc.
+s12870-020-2276-y
+Smallwood, C.J., Saxton, A. M., Gillman, J. D., Bhandari, H. S., Wadl,
+Molnar, S. J., Rai, S., Charette, M., & Cober, E. R. (2003). Simple
+P. A., Fallen, B. D., Hyten, D. L., Song, Q., & Pantalone, V.R. (2019).
+sequence repeat (SSR) markers linked to E1,E3,E4, and E7 maturity
+Context-specific genomic selection strategies outperform phenotypic
+genes in soybean. Genome, 46, 1024-1036. htpsz/doi.org/10.11391
+selection for soybean quantitative traits sin the progeny row stage. Crop
+g03-079
+Science, 59, 54-67. Wpassegpmaikep.autialown
+Mourtzinis, S., & Conley, S. P. (2017). Delineating soybean maturity Song, Q., Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W., Nelson, R.
+groups across the United States. Agronomy Journal, 109, 1397-1403.
+L., & Cregan, P. B.(2015). Fingerprinting soybean germplasm and lits
+htps/doi.ongyl102134agron2016.100581
+utility in genomic research. G3 GeneslGenomeslGenetics, 5, 1999-
+Nan, H., Cao, D., Zhang, D., Li, Y., Lu, S., Tang, L., Yuan, X., Liu, B.,
+2006. htps/doi.org/10.1534/93.115.019000
+& Kong, F. (2014). GmFT2a and GmFT5a redundantly and differen- Steketee, C.J., Schapaugh, W.T., Carter, T.E., &Li,Z.(2020). Genome-
+tially regulate flowering through interaction with and upregulation of
+wide association analyses reveal genomic regions controlling canopy
+the bZIP transcription factor GmFDL19 in soybean. PLOS ONE, 9,
+wilting in soybean. G3 GemeslGemomeslGemetics, 10, 1413-1425.
+e97669. htps./doi.ongyl10.137l/ouralpome.0097669
+htpsz/doi.org/10.1534/93.119.401016
+Nissan, N., Cober, E. R., Sadowski, M., Charette, M., Golshani, A., & Stewart-Brown, B. B.,Song, Q., Vaughn,J.N., &Li,Z.(2019). Genomic
+Samanfar, B. (2021). Identifying new variation at the J locus, previ-
+selection for yield and seed composition traits within an applied
+ously identified as e6, in long juvenile 'Paranagoiana' soybean. The-
+soybean breeding program. G3 GemeslGeomeslGenetio, 10, 2253-
+oretical and Applied Genetics, 134, 1007-1014. https://doi.org/10.
+2265. htps/doi.org/10.1534/93.118.200917
+100760012.020-037462
+Stowe, K. D., & Dunphy, J.. (2017). The soybean plant. In North Car-
+Ogiso-Tanaka, E., Shimizu, T., Hajika, M., Kaga, A., & Ishimoto, M.
+olina soybean production guide (pp. 3-10). AG-835. North Carolina
+(2019). Highly multiplexed AmpliSeq technology identifies novel
+State Extension.
+RIGHTSLIN Ko
+
+
+
+ZIMMER ET AL.
+The Plant Genome m0 25of25
+Tsubokura, Y., Watanabe,S., Xia,Z., Kanamori,H., Yamagata, H., Kaga, Yue, L., Li, X., Fang, C., Chen, L., Yang, H., Yang, J., Chen, Z., Nan,
+A., Katayose, Y., Abe,J., Ishimoto, M., & Harada, K. (2014). Natural
+H., Chen, L., Zhang, Y., Li, H., Hou, X., Dong, Z., Weller, J. L.,
+variation in the genes responsible for maturity loci El, E2, E3 and E4
+Abe, J., Liu, B., & Kong, F. (2021). FT5a interferes with the Dtl-
+in soybean. Annals ofBotany, 113, 429-441.1 htps/doi.org/10.1093
+AP1 feedback loop to control flowering time and shoot determinacy
+aob/mct269
+in soybean. Journal of Integrated Plant Biology, 63, 1004-1020.
+Turner,D. S. (2018).qqman: An R package for visualizing GWASresults
+hmpuldhiagloilupaismo
+using Q-Q and Manhattan plots. The Journal of Open Source Soft- Yue, Y., Liu, N., Jiang, B., Li, Mu, Wang, H., Jiang, Ze, Pan, H., Xia,
+ware, 3, 731. Mpoldsiagioziobjpuomns
+Q., Ma, Q., Han, T., & Nian, H. (2017). A single nucleotide deletion
+Wang, L., Sun, S., Wu, T., Liu, L., Sun, X., Cai, Y.,Li,J., Jia, H., Yuan,
+inJencoding GmELF3 confers long juvenility and is associated with
+S., Chen, Li, Jiang, B., Wu, C., Hou, W., & Han, T. (2020). Natural
+adaption oftropic soybean. Molecular Plant, 10, 656-658. https://doi.
+variation and CRISPR/Cas9-mediated mutation in GmPRR37 affect
+apla.0l6,m0lp.201612001
+photoperiodic flowering and contribute to regional adaptation of fsoy- Zhai, H., Li, S., Liang, S., Wu, H., Zhang, X., Liu, B., Kong, F., Yuan,
+bean. Plant Biotechnology Journal, 18, 1869-1881. https://doi.org/
+X., Li, J., & Xia, Z. (2014). GmFT4, a homolog of FLOWERING
+10.1111/pbi.13346
+LOCUS T, is positively regulated by El and functions as a flower-
+Wang, F., Nan, H., Chen, L., Fang, C., Zhang, H., Su, T., Li, S.,
+ing repressor in soybean. PLOS ONE, 9, e89030. https://doi.org/10.
+Cheng, Q., Dong, L., Liu, B., Kong, F., & Lu, S. (2019). A new
+1371/joummal.pome.008030
+dominant locus, E11, controls early flowering time and maturity Zhang, J., Song, Q., Cregan, P., Nelson, R., Wang, X., Wu, J., &
+in soybean. Molecular Breeding, 39, 70. htps/doi.org/10.1007
+Jiang,G. (2015a). Genome-wide association study for flowering time,
+s11032-019-0978-3
+maturity dates and plant height in early maturing soybean (Glycine
+Watanabe, S., Harada, K., & Abe, J. (2012). Genetic and molecular bases
+max) germplasm. BMC Genomics, 16, 217. htps/doi.org/10.1186
+of photoperiod responses of flowering in soybean. Breeding Science,
+s12864-015-1441-4
+61, 531-543. Wp2ldH.ep10170,98.6131
+Zhang, Q.Li,H.Li,R.Hu, R., Fan, C., Chen, F., Wang, Z., Liu, X.,Fu,
+Watanabe, S., Hideshima, R., Xia, Z., Tsubokura, Y.,Sato, S., Nakamoto,
+Y., & Lin, C. (2008). Association of the circadian rhythmic expres-
+Y., Yamanaka, N., Takahashi, R., Ishimoto, M., Anai, T., Tabata, S.,
+sion of GmCRYla with a latitudinal cline in photoperiodic flowering
+& Harada, K. (2009). Map-based icloning of the gene associated with
+of soybean. Proceedings of the National Academy of Sciences, 105,
+the soybean maturity locus E3. Genetics, 182, 1251-1262. https://doi.
+21028-21033. htps/doi.org/10.1073/pnas.0810585105
+OpTOUSH/pRef.IONONTTZ
+Zhang, Y., Gu, L., Hou, Y., Wang, L., Deng, X., Hang, R., Chen,
+Watanabe, S., Xia, Z., Hideshima, R., Tsubokura, Y., Sato, S., Yamanaka,
+D., Zhang, X., Zhang, Yi, Liu, C., & Cao, X. (2015b). Integrative
+N., Takahashi, R., Anai, T., Tabata, S., Kitamura, K., & Harada, K.
+genome-wide analysis reveals HLP1, a novel RNA-binding protein,
+(2011). A map-based cloning strategy employing a residual heterozy-
+regulates plant flowering by targeting alternative polyadenylation.
+gous line reveals that the GIGANTEA gene is involved in soybean
+Cell Research, 25, 864-876. Impuldsiangiaiosez.0157
+maturity and flowering. Genetics, 188, 395-407. https://doi.org/10. Zhao, C., Takeshima, R., Zhu, J., Xu, M., Sato, M., Watanabe, S.,
+1534/genetic.10.125062
+Kanazawa, A., Liu, B., Kong, F., Yamada, T., & Abe, J. (2016). A
+Whittaker, J., Thompson, R., & Denham, M. (2000). Marker-assisted
+recessive allele for delayedflowering atthe soybean maturity locus E9
+selection using ridge regression. Genetic Research, 75, 249-252.
+is a leaky allele of FT2a, a FLOWERING LOCUS T ortholog. BMC
+htps_/doi.on10.1017S0016672399004462
+Plant Biology, 16, 20. htps/doi.ong10.1186s1186512570016-07049
+Wu,F., Kang, X., Wang, M., Haider, W.,Price, W.B.,Hajek, B., & Han- Zhu,J., Takeshima, R.,Harigai, K., Xu, M., Kong,F,Liu,B. Kanazawa,
+zawa, Y. (2019). Transcriptome-enabled network inference revealed
+A., Yamada, T., & Abe, J. (2019). Loss of function of the El-Like-
+the GmCOL1 feed-forward lloop and lits roles in photoperiodic flower-
+b gene associates with early flowering under long-day conditions in
+ing of soybean. Frontiers in Plant Science, 10, 1221. https://doi.org/
+soybean. Frontiers in Plant Science, 9, 1867. htpsz/doi.org/10.33891
+1033897/fpls.2019.0121
+fpls.2018.01867
+Xia, Z., Watanabe, S., Yamada, T., Tsubokura, Y., Nakashima, H., Zhai,
+H., Anai, T., Sato, S., Yamazaki, T., Lu, S., Wu, H., Tabata, S., &
+Harada, K. (2012). Positional cloning and characterization reveal the SUPPORTING INFORMATION
+molecular basis for soybean maturity locus El that regulates photope- Additional supporting information be found online in the
+riodic flowering. Proceedings of the National Academy of Sciences,
+may
+109, E2155-E2164. htps/doi.org/10.1073/pnas.117982109
+Supporting Information section at the end of the article.
+Xu, M., Xu, Z., Liu, B., Kong, F., Tsubokura, Y., Watanabe, S., Xia,
+Z., Harada, K., Kanazawa, A., Yamada, T., & Abe,J. (2013). Genetic
+variation in four maturity genes affects photoperiod insensitivity and
+PHYA-regulated post-flowering responses of soybean. BMC Plant
+How to cite this article: Zimmer G, Miller MJ,
+Biology, 13, 91. htps/doi.org/10.1866/1471-2229-13-91
+Steketee CJ, Jackson SA, de Tunes LVM, Li Z.
+Xu, M., Yamagishi, N., Zhao, C., Takeshima, R., Kasai, M., Watan-
+Genetic control and allele variation among soybean
+abe, S., Kanazawa, A., Yoshikawa, N., Liu, B., Yamada, T., & Abe,
+maturity groups 000 through IX. Plant Genome,
+J. (2015). The soybean-specific maturity gene El family of floral
+2021;74:e220146. htps/doi.org/10.1002/tpg2.20146
+repressors controls night-break responses through down-regulation
+of FLOWERING LOCUS T orthologs. Plant Physiology, 168, 1735-
+1746. Wpuldseplaioumpisens
+RIGHTSLIN Ko
+DE

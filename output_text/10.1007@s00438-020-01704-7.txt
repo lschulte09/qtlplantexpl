@@ -1,0 +1,893 @@
+Molecular Genetics and Genomics
+htpsl/doi.org/10.1007500438-020-017047
+ORIGINAL ARTICLE
+Check for
+updates
+Genome-wide association mapping for protein, oil and water-soluble
+protein contents in soybean
+Shanshan Zhang' : Derong Hao2.Shuyu Zhang' : Dan Zhang3. HuiWang' Haiping Du*.Guizhen Kan'.
+DeyueYu'O
+Received: 30 March 2020/Accepted: 30 June 2020
+OSpringer-Verlag GmbH Germany, part of fSpringer Nature 2020
+Abstract
+As a globally important legume crop, soybean provides excellent sources of protein and oil for human and livestock nutrition.
+Improving seed protein and oilcontents has always been an important objective in soybean breeding. Water-soluble protein
+plays a significant role in the processing and efficacy of soybean protein. Here, a genome-wide association study (GWAS)
+of seed compositions (protein, oil, and water-soluble protein contents) was conducted using 211 diverse soybean accessions
+genotyped with a 355 K SoySNP array. Three, four, and five QTLs were identifiedrelated to the protein, oil, and water-soluble
+protein contents, respectively. Furthermore, five QTLs (qPC-15-1, qOC-8-1, 90C-12-1.90C-20-1 and qWSPC-8-1) were
+detected in multiple environments. Analysis of the favorable alleles for oil and water-soluble protein contents showed that
+q0C-8-1 (qWSPC-8-1) exerted inverse effects on oil and water-soluble protein synthesis. Relative expression analysis sug-
+gested that Glyma. 15G049200 in qPC-15-1 affects protein synthesis and Glyma.08G107800 in qOC-8-1 and qWSPC-8-1
+might be involved in oil and water-soluble protein synthesis, producing opposite effects. The candidate genes and significant
+SNPS detected in the present study will allow a deeper understanding of the genetic basis for the regulation of protein, oil
+and water-soluble protein contents and provide important information that could be utilized in marker-assisted selection for
+soybean quality improvement.
+Keywords Soybean : Protein : Oil : Water-soluble protein : Genome-wide association
+Communicated by Stefan Hohmann.
+Introduction
+Electronic supplementary material The online version of this
+Soybean (Glycine max L. Merr) is an important economic
+article (htpel/dbi.ongy10.1007A0038-02001704-7) contains
+crop because it contains approximately 40% protein con-
+supplementary material, which is available to authorized users.
+tent (PC) and 20% oil content (OC), which supplies a great
+X Guizhen Kan
+source of human food, cooking oil, and livestock feed, and
+kanguizhen@nju.educmn
+has biodiesel production, industrial, and pharmaceutical
+X Deyue Yu
+applications (Chaudhary et al. 2015; Clemente and Cahoon
+dyyu@njau.edu.cn
+2009). The demand for soy food production has increased
+fivefold as a result of the awareness of the nutritional value
+National Key Laboratory ofCrop Genetics and Germplasm
+Enhancement, National Center for Soybean Improvement,
+and health benefits of soybean in the human diet (Patil et al.
+Jiangsu Collaborative Innovation Center for Modern
+2017). As an important source of edible oils and biodiesel,
+Crop Production, Nanjing Agricultural University,
+the OC in soybean is relatively low compared to most other
+Nanjing 210095, China
+oilseed crops (Singh and Hymowitz 1999). The water-sol-
+Jiangsu Yanjiang Institute of Agricultural Sciences,
+uble protein content (WSPC) is a critical trait that affects
+Nantong 226000, China
+the soybean food quality and the production of isolated
+Collaborative Innovation Center of Henan Grain Crops,
+proteins (Zhang et al. 2014). Therefore, increased PC, OC,
+College of Agronomy, Henan Agricultural University,
+and WSPC in soybean seeds are desirable and would dra-
+Zhengzhou 450000, China
+matically contribute to meeting growing soybean protein and
+School ofLife Sciences, Guangzhou University,
+oil demands. However, information about the mechanism
+Guangzhou 510006, China
+Published online: 02 October 2020
+Springer
+
+
+
+Molecular Genetics and Genomics
+controlling the variation of the PC, OC, and WSPC is lim- involved in pod dehiscence. Zhao et al. (2019) reported
+ited. Furthermore, the negative genetic correlations of the that 16 genes derived form 31 QTNS (quantitative trait
+PC with the OC in soybean has made the development of nucleotides), which were detected in different environ-
+soybean lines with high PC and OC through conventional ments, were significantly associated with the seed weight
+breeding a challenge (Eskandari et al. 2013; Patil et al. in soybean. Based on GWAS, Wang et al. (2020) revealed
+2017).
+two novel loci for photosynthesis-related traits in soybean
+In recent decades, extensive efforts have been made to in different environments. In the previous study, a total of
+dissect the genetic basis of the soybean PC and OC. More 32 significant loci (16 for PC and 16 for WSPC) across 18
+than 100 quantitative trait loci (QTLs) have been reported of 20 soybean chromosomes significantly associated with
+for the two traits (Phansak et al. 2016). However, only a few the WSPC and PC across multi-environments was obtained
+reports have focused on mapping QTLs associated with the by GWAS (Zhang et al. 2017). In addition, 110 SNPS on
+WSPC in soybean (Lu et al. 2013; Zhang et al. 2014, 2017). three chromosomes (8, 12, and 20) were identified as asso-
+Most QTLS were detected in the genetic background ofbipa- ciated with the oil content across at least two environments
+rental populations, and some ofthe QTLS were inconsistent. (Zhang et al. 2019). Based on the GWAS results and gene
+In addition, the resolution of QTL mapping via biparen- annotation, several genes related to corresponding traits
+tal populations is limited by the number of recombination were identified (Zhang et al. 2017, 2019).
+events, which makes it difficult to apply in breeding pro-
+To identify new genes controlling the genetic architec-
+grams based on marker-assisted selection (MAS) (Li et al. ture components of the PC, OC and WSPC, we conducted a
+2018). Genome-wide association studies (GWAS) based on GWAS incorporating 211 diverse accessions with a high-res-
+recombination events that occurred during the evolution- olution single nucleotide polymorphism (SNP) array (NJAU
+ary process provide a complementary tool for detecting the 355K SoySNP array) based on phenotypic data in different
+underlying complex traits ofQTLs. The resolution and accu- environments. In total, 12 QTLS were identified related to
+racy of QTLS detected in a GWAS depend on the character- the three traits, among which qOC-8-1 (qWSPC-8-1) had
+istics of the association panel, including its genetic diversity, opposing effects on the OC and WSPC. Two candidate
+population structure, linkage disequilibrium (LD), and den- genes, Glyma.15G049200 and Glyma.08G107800, might be
+sity of markers (Li et al. 2018). Extensive natural variation involved in the synthesis of the PC, OC, and WSPC. These
+may facilitate GWAS by overcoming the allele limitations genes and SNPS ultimately may be used in MAS programs
+in the parents of segregating populations. GWAS has been for the breeding ofhigh-PC, high-OC and high-WSPC lines.
+applied in different populations to identify QTLs associated
+with PC, OC, and WSPC. These reports not only confirmed
+QTLs discovered by linkage mapping, but also identified
+novel QTLs. Thus far, several genes related to the soybean Materials and methods
+PC and OC have been cloned and functionally identified, but
+no WSPC-related genes have been reported. Further surveys Plant materials
+are needed to complement the set of QTLs governing the
+PC, OC, and WSPC.
+A population consisting of a diverse collection of 211 soy-
+Gene-pyramiding molecular breeding combined with bean accessions was used in this study. This population
+conventional breeding techniques has become the main originated from 25 provinces of China and was distributed
+strategy in crop breeding. Crop gene-pyramiding molecu- across all three ecological habitats ofChina. In addition, ten
+lar breeding requires more favorable alleles or genes. In of these soybean accessions were overseas cultivars from the
+addition, the expression of a gene is sensitive to the envi- USA, Japan, and Brazil (Wang et al. 2016).
+ronment, as is the case for the genes controlling the con-
+All 211 lines were planted over the course of 3 years
+tents of protein and oil in soybean. Although some QTLs (2015, 2016 and 2017; designated E1, E2 and E3, respec-
+and markers have been obtained, new loci and genes need tively) at the experimental station of the Jiangsu Yanjiang
+to be found across different environments. Different sig- Institute of Agricultural Sciences, Nantong, China, in a com-
+nificant loci and genes with large effects on traits could pletely randomized design with three replicates. The seeds
+be detected in different environments by GWAS. Li et al. were sown in a row with the following dimensions: 2 m
+(2017) discovered loci on chromosomes A04 and A10 in length, 0.5 m width, and 0.10 m interplant spacing. After
+different environments with great effects on Verticillium harvesting, seeds from the replicated samples were pooled
+wilt resistance in upland cotton. In addition to qPDH1 based on accession and driedto a constant weight in an oven.
+on chromosome 16, Hu et al. (2019) determined that
+Glyma09g06290 in the flank region of significant SNPS
+on chromosome nine in different environments might be
+Springer
+
+
+
+Molecular Genetics andGenomics
+Phenotypic data collection
+the association mapping approach were the averages of
+three replicates. The GWAS was performed in the R pack-
+Determination of the soybean PC, OC, and WSPC was con- age GAPIT 3.0 with a compressed mixed linear model
+ducted with a near-infrared spectrophotometer (NIR) seed (CMLM) (Lipka et al. 2012). A threshold of 1/n (n is the
+analyzer (DA7200, Perten Instruments, Huddinge, Swe- number of markers; P <4.82x10-6 or -logioP25.32) was
+den) as described by Zhang et al. (2014). Calibrations of used in this study.
+the instrument were performed by Perten Instruments and
+the Inspection and Testing Center for Quality of Cereals Haplotype analysis
+and Products ofthe Ministry of Agriculture of China. These
+calibrations involved more than 700 diverse soybean sam- Haploview 4.2 software was utilized to estimate the squared
+ples with varied PC and OC, and 146 soybean samples had allele frequency correlation coefficient (72) of the alleles
+varied WSPC. Approximately. 60 g dry seeds were placed (Barrett et al. 2004). In addition, the haplotype block was
+in a 75 mm-diameter cup that rotated during NIRS scanning. definedby the "Four Gamete Rule" algorithm.
+Three scans were conducted on each sample, and the data
+obtained was the average of the three scans. Afterward, the Candidate gene selection and expression analysis
+seeds were mixed, and three technical replicates were used
+for each material.
+Based on the average LD decay distance of significant SNPs
+in cultivated soybeans (130 kb) in this population (Wang
+Statistical analyses of phenotypic data
+et al. 2016), we predicted putative genes with reference to
+the Glyma.Wm82.a2.vl genome (hntpez/www.soybusc.omp)
+Descriptive statistics were obtained and correlation analy- as in previous studies (Li et al. 2017; Si et al. 2016).
+ses were conducted with SPSS version 20.0 (https://www.
+We used public gene annotation data sets from Phy-
+ibm.com/products'spss-statistics). An analysis of variance tozome (https.liphytozome.jgi.doe.gov) and performed
+(ANOVA) ofthe phenotypic data was performed with SAS BLASTP analysis against Arabidopsis proteins using the
+version 9.2 software (htps/www.sas.com). The broad- amino acid sequences of putative genes to predict gene
+sense heritability (h2) of every trait was calculated using functions. To ensure that the selected materials were in the
+the following equation:
+same developmental stage, we selected 12 soybean acces-
+sions with different PC, OC, and WSPC for qRT-PCR. Seeds
+G2
+h2
+were harvested from soybeans at the half-weight stage ofthe
+whole fresh seed and stored at  70 °C for RNA isolation
+(Liu et al. 2014; Song et al. 2013). The total RNA of the
+where
+seeds was isolated using a kit (TIANGEN, China). A first-
+strand cDNA synthesis kit (Vazyme, China) was used to
+oe
+synthesize cDNA. With the soybean tubulin gene (GenBank
+number: AY907703) as an internal control, qRT-PCR was
+is genotypic variance,
+performed using the ABI 7500 system (Applied Biosystems,
+USA) under the following conditions: denaturation at 95 oC
+oe
+for 5 min, followed by 40 cycles at 95 oC for 15 s and at
+60 oC for 60 S. The fold change in the expression level of
+is genotypicxenvironmental variance,
+each gene was calculated as the 2-AACT value. All experi-
+02
+ments were performed with three biological and three tech-
+nical replicates. The specific primers used for the relative
+is error variance, e is the number of environments, and r expression analysis of candidate genes in soybean seeds are
+is the number of replicates. The value of h2 was calculated listed in Supplemental Table 1.
+with SAS version 9.2.
+Association mapping
+Results
+A 355K SoySNP array was developed to genotype the The PC, OC, and WSPC display significant variation
+211 soybean accessions used in this study (Wang et al. in soybean seeds
+2016). A total of 207,608 SNPs with a minor allele fre-
+quency (MAF) greater than 0.05 was employed to per- Significant phenotypic variation in the PC, OC, and WSPC
+form the GWAS. The PC, OC, and WSPC data used in of soybean seeds was observed among 211 accessions in
+Springer
+
+
+
+Molecular Genetics and Genomics
+Table 1 Descriptive statistics,
+Trait
+Mean SD Median Min Max CV (%) Skew Kur Ga Eb GxE h2 (%)d
+ANOVA results, and broad-
+sense heritability (h)of the
+PC-E1 42.75 26.38 42.64 36.15 50.10 6.2
+0.35 0.28 *** *** *** 64.10
+PC, OC, and WSPC of soybean PC-E2 44.27 24.02 44.34 38.24 50.30 5.4 -0.06 -0.49
+across three environments
+PC-E3 43.48 21.77 43.41 37.25 48.98 5.0
+0.06 -0.03
+OC-E1 15.89 19.61 15.79 10.13 21.27 12.3 -0.04 0.34 *** *** *** 92.26
+OC-E2 16.37 18.88 16.41 10.99 21.99 11.5 -0.03 0.40
+OC-E3 17.64 17.82 17.47 11.24 23.00 10.1
+0.02 1.03
+WSPC-E1 29.41 47.55 30.33 9.52 42.00 16.17 1.07 2.65 *** *** *** 93.95
+WSPC-E2 25.07 48.88 25.70 6.85 35.82 19.50 1.24 3.22
+WSPC-E3 29.05 47.88 29.92 10.25 40.93 16.48 - 1.40 3.10
+***Significant at the 0.001 probability level
+"Genotype
+bEnvironment
+"Genotypexenvironment
+*Broad-sense heritability
+a 45.
+b 60
+40-
+PC-E2 PC-E1
+OC-E1 Oc-E2
+PC-E3
+50
+JOc-E3
+35.
+30-
+40
+! 25.
+e
+30
+à 20-
+N
+-
+15.
+20
+10-
+10
+5.
+0 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 5
+0 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+Protein content (%)
+Oil content (%)
+C 50.
+d 60
+WSPC-E1
+WSPC-E2
+40-
+WSPC-E3
+40
+I -
+! 30-
+E
+I 20.
+20.
+10-
+- : : :
+
+10 15 20 25 30
+40
+PCE1 PCE2 PC-ES OC-E1 OCE2 OCE3 WSPCE1 WSPCEZ WSPC-E3
+Water r-soluble protein content 3
+Fig.1 Frequency distribution of variation for the PC, OC, and WSPC in the 211 association-mapping populations across three environments; a
+the trait of the PC; b the trait of the OC; c the trait of the WSPC; d box plot of the three trait distributions across three environments
+this study (Table 1; Fig. 1). For the three traits, the maxi- environments. ANOVA revealed that the genotype and
+mum phenotypic values were approximately 1.4-, 2.3-, and genotype-by-environment interactions significantly influ-
+6.1-fold higher than the minimum values across the three enced the PC, OC, and WSPC (P<0.001), indicating that
+environments, respectively (Table 1; Fig. 1). A higher CV the three traits were complex traits controlled by multiple
+(coefficient of variation) was found for the OC and, espe- factors. In addition, the h2 values of the PC, OC, and WSPC
+cially, WSPC compared to that for the PC across the three were 64.10%, 92.26%, and 93.95%, respectively, indicating
+Springer
+
+
+
+Molecular Genetics andGenomics
+that genetic factors play an important role in the formation a pleiotropic locus for the OC and WSPC. The favorable
+ofthe three traits. The correlation analysis of the three traits allele (AX-93634511-G) for the OC was unfavorable for the
+across the three environments showed that the WSPC had a WSPC, and vice versa (Supplemental Fig. 1). The result was
+higher negative relationship with the OC than the PC with consistent with the significant negative correlation between
+the OC (Supplemental Table 2). As a component of the PC, the two traits. Sixty-four SNPS on chromosome 8 were asso-
+the WSPC had la low correlation coefficient with the PC dur- ciated with both the OC and WSPC. Favorable alleles for
+ing the same year, although the correlations were significant the OC at these loci were all different from those for the
+at the 0.01 level in all of the environments.
+WSPC. The genotypes with favorable alleles at loci related
+to the OC exhibited high values for the OC and low val-
+Signtficantlodi.controling the PC, OC, andWSPC
+ues for the WSPC, and the genotypes with favorable alleles
+at loci related to the WSPC exhibited high values for the
+The combined analysis of the three environments was WSPC and low values for the OC (Supplemental Fig. 2).
+regarded as the fourth environment. A GWAS was per- The results indicated that these 64 SNPs were pleiotropic
+formed based on 207,608 SNPs with an MAF>0.05 across and had inverse effects in the OC and WSPC.
+the four environments. According to the significance thresh-
+For one trait, lead SNPS distributed within a region of
+old of -log10P25.32, in total, 9, 90, and 162 SNPs distrib- less than or approximately 2 Mb were considered to be
+uted on chromosomes 6, 7, 8, 11, 12, 13, 15, 17, 19, and caused by one common gene (Powell et al. 2012). Based
+20 were detected for the PC, OC, and WSPC, respectively on this rule, 12 loci (three for PC, four for OC, and five for
+(Fig. 2; Supplemental Table 3).
+WSPC) were identified (Table 2). Of these 12 loci, eight
+AX-93634511 on chromosome 8 was related to both were co-localized with previously reported QTLs for the
+the OC and WSPC in all four environments. Thus, it was PC, OC, or related traits. The remaining four (q0C-12-1,
+Fig. 2 Manhattan plots ofthe
+14
+GWAS results for the PC, OC,
+12 
+PCE1
+12
+OCE1
+12
+WSPCE1
+and WSPC of soybean seed
+10
+10
+10
+in three environments and the
+combined environment. The red
+lines on the Y-axis designate
+the significance threshold(-
+logioP= 5.32). The numbers
+11 14 17 19
+19
+on the X-axis represent the
+14
+chromosomes of soybean
+12
+PCE2
+12
+OCE2
+12
+WSPCE2
+10
+10
+10
+1 5 7 11 14 17 19
+11 14 17 19
+12
+PCE3
+12
+OCE3
+12
+WSPCE3
+10
+10
+10
+3
+11 14 17 19
+17 19
+14
+12 PCcombined
+12 OCcombined 12 WSPCcombined
+10
+10
+10
+Chromosome
+Springer
+
+
+
+Molecular Genetics and Genomics
+Table 2 QTLS associated with PC, OC, and WSPC
+QTL
+Chra Rep. SNPb Pos.(bp) No. sig. R2 (%) Environments
+Related QTLO
+References
+qPC-7-1
+7 AX-94035476 4210426 1
+18.51 E2
+cqSeed protein-006, Panthee et al. (2006),
+Seedprotein 12-4,
+Pathan et al. (2013)
+Seed Leu 1-6 and Seed and Specht et al.
+Ser 1-6
+(2001)
+qPC-13-1 13 AX-93812948 25811574 2 17.92 E2
+Seed protein 36-21 and Mao et al.(2013)
+Seed protein 36-23
+qPC-15-1 15 AX-93834405 3846799 6 33.94 E1, E2, Combined Seed protein 30-3, Seed Pathan et al. (2013),
+protein 39-2 cqSeed Phansak et al. (2016),
+protein-008
+Tajuddin et al. (2003),
+Warrington et al.
+(2015) and Zhou et al.
+(2015)
+qOC-6-1
+6 AX-93730252 19251651 1
+23.51 E3
+Seed oil 27-6, Seed oleic Hyten et al. (2004)
+3-1,Seed oil 23-1
+and Reinprecht et al.
+(2006)
+q0C-8-1
+8 AX-94284412 8434697 69 30.13 E1, E2, E3, Combined Seed oil 30-2, Seedoil Liang et al. (2010),
+1-1, GqOil-8
+Mansur et al. (1993)
+and Zhang et al.
+(2019)
+qOC-12-1 12 AX-93799425 9862679 3 26.71 E1, Combined
+q0C-20-1 20 AX-93905778 31641964 17
+26.31 E2, Combined
+Seed oil 2-1, Seed oleic Bachlava et al. (2009),
+6-11,Seed oil 15-1
+Chung et al. (2003)
+and Diers et al. (1992)
+qWSPC-8-1 8 AX-93930669 8276381 141
+56.24 E1, E2, E3, Combined Seed protein 34-4,
+Lu et al. (2013), Pathan
+Seedprotein 26-1,
+et al. (2013), Reinpre-
+cqSeed protein-016, cht et al. (2006) and
+GqWSPC-8
+Zhang et al. (2017)
+qWSPC-11-1 11 AX-94091850 32951114 1
+23.12 El
+Seed protein 26-6
+Reinprecht et al. (2006)
+qWSPC-17-1 17 AX-93856909 959379 17
+26.06 Combined
+qWSPC-17-2 17 AX-93867540 40976006 2 25.14 Combined
+qWSPC-19-1 19 AX-93658470 37860368 1
+24.35 Combined
+"Chromosome
+bThe representative SNP with the min P value
+Physical position
+dThe number of significant SNPS detected lin the region
+*Reported QTLS related to the PC, OC, and WSPC or any other related traits collected from SoyBase
+(NSPC.17-1.gWSPC.172, and qWSPC-19-1) were novel Candidate genes associated with the PC, OC,
+QTLs. Among the reported QTLS, qOC-8-1 for the OC andWSPC
+was also associated with the WSPC in multiple environ-
+ments. This QTL has been detected to be associated with To identify candidate genes with strong effects on traits
+the PC and OC by linkage mapping and association map- and reduce the false-positive rate, we investigated candi-
+ping (Liang et al. 2010; Lu et al. 2013; Mansur et al. 1993; date genes in the 130-kb flanking regions upstream and
+Pathan et al. 2013; Reinprecht et al. 2006; Zhang et al. downstream ofthe SNPS repeatedly identified in multiple
+2017, 2019). qPC-15-1, which is a unique QTL located on environments or with low P values. AX-93834405 related
+chromosome 15 that was associated with the PC in multi- to the PC in qPC-15-1 and AX-93634511 related to the
+ple environments, was previously detected to be associated OC in qOC-8-1 were detected repeatedly in most envi-
+with the PC in a recombinant inbred line (RIL) population ronments. AX-93930669 with minimum P values was
+and six BC,Fo-derived families (Kim et al. 2016; Tajuddin related to the WSPC in the combined analysis of the three
+et al. 2003).
+environments.
+Springer
+
+
+
+Molecular Genetics andGenomics
+Glyma.15G049200 and Glyma.15G049800 were located affecting the amount of available sucrose. Thus, we selected
+in the flanking region of AX-93834405 in qPC-15-1. it as a candidate gene related to the OC and WSPC.
+Glyma.15G049200 is a member of the SWEET (Sugars
+Will Eventually be Exported Transporters) family, which
+is responsible for transporting sucrose molecules across Expression analysis of candidate genes related
+a membrane (Chen et al. 2012; Patil et al. 2015). Smith to the PC, OC, andWSPC
+et al. (1989) reported that sucrose in soybean seeds couldbe
+metabolized to produce precursors for protein. Seed devel- To elucidate the potential functions of the three genes,
+opment was accompanied by the accumulation of storage qRT-PCR analysis was performed to investigate their
+substances. Due to Glyma. 15G049200 being involved in expression patterns in different accessions with corre-
+the transportation of carbohydrates and its high expression sponding phenotypes.
+during the process of soybean seed development (Supple-
+We detected the expression of Glyma.15G049200 and
+mental Table 6), it was selected as a candidate gene for the Glyma.15G049800 in the seeds of 12 soybean accessions
+PC in the expression analysis. Glyma. 15G04980 belongs (Fig. 3). The 12 accessions represented varieties with high
+to the nodulin MtN21 transporter protein family, which is and low PCs in soybean seeds (Fig. 3a). The results of the
+essential for effective symbiotic N2 fixation, nodule devel- expression analysis revealed that the relative expression of
+opment, and INH,+ transport. Nitrogen resources are impor- Glyma.15G049200, rather than that of Glyma.15G049800,
+tant for the accumulation of protein. Glyma.08G107800 in most high-PC accessions was higher than that in low-PC
+was located in the 130-kb flanking regions upstream and accessions (Fig. 3b, c). The relative expression result for
+downstream of AX-93634511 and AX-93930669. Inter- Glyma.15G049200 in the selected accessions was gener-
+estingly, AX-93751849, which was located in the same ally consistent with the phenotypic variation in the PC
+block as AX-93930669, causes an amino acid change in in these accessions, which suggested a potential role of
+Glyma.08G107800 (Supplemental Table 4; Supplemental this gene in protein synthesis or accumulation in soybean
+Fig. 3). Glyma.08G107800 encodes a bifunctional aspartate seeds.
+kinase/homoserine dehydrogenase (AK-HSDH), which is
+We also selected 12 accessions with different OC and
+important for the synthesis of amino acids in the aspartic WSPC values (Fig. 4a, b). The relative expression of
+acid family (Lys, Thr, Met, and Ile). Amino acids in the Glyma.08G107800 in high-OC accessions was lower than
+aspartic acid family are the major agents involved in the that in low-OC accessions (Fig. 4c). Based on the results in
+biosynthesis of other amino acids. Furthermore, in Arabi- which the correlation coefficients between OC and WSPC
+dopsis, sucrose-stimulated AK-HSDH expression to facili- were significant and negative and qOC-8-1 (qWSPC-8-1)
+tate the utilization of sucrose for Asp-related amino acids exhibited inverse functions in oil and water-soluble protein
+biosynthesis and the synthesis offatty acids was sensitiveto synthesis, the expression of Glyma.08G107800 in high-
+the availability of sucrose (Lam et al., 1994; Zhu-Shimoni WSPC accessions was correspondingly higher than that
+and Galili 1998). Storage compound synthesis (mainly pro- in low-WSPC accessions. Therefore, Glyma.08G107800
+tein and oil in soybean) in a seed includes the processes of might be negatively related to the synthesis of oils and
+carbon source competition and allocation. We speculated positively related to water-soluble protein synthesis in
+Glyma.08G107800 might regulate the synthesis of oil by soybean.
+a
+b 1.75 Glyma. 15G049200 C Glyma.15G049800
+42.5-
+8
+lan
+0.0
+37.5-
+0.04
+0.02
+t
+35.0.
+0.00
+0.00
+888888 888888
+APoPe lA P8888 d
+888880 888888
+sSsss sssss
+ssss Psss
+sssss Pssss
+Fig. 3 Protein contents of 12 accessions (a) and expression patterns of Glyma. 15G049200 (b) and Glyma.15G049800 (c) in the seeds of 12
+accessions. The bars represent the standard errors of three technical replicates for three biological replicates
+Springer
+
+
+
+Molecular Genetics and Genomics
+a 20.07
+b 325
+C 1251 Glyma.08G107800
+30.0- I
+1.00-
+17.5-
+27.5-
+H
+2 at I I
+2 25.0-
+80.75
+le 15.0.
+I
+I d
+I 25
+i I I
+Bmol
+125
+17.5-
+0.25.
+-
+10.0
+151
+0.00
+888888 888886
+888888 d808dd
+88880 doees
+PSSSSS ASPPNS
+PSSSSS APSSSS
+PSSPNS SNNNs
+Fig. .4 Content of oil (a) and water-soluble protein (b) in 12 accessions and expression patterns of Glyma.08G107800 (c) in the seeds of 12
+accessions. Bars represent the standard errors of three technical replicates for three biological replicates
+Discussion
+phenotypic variation. It was possible to detect genetic factors
+that controlled phenotypic variation in this study. The differ-
+Soybean quality improvement has always been an important ences in descriptive statistics for the three traits between the
+target in breeding programs. As the basic compositions of current study and previous studies reconfirmed the quanti-
+quality traits in soybean, the PC, OC, and WSPC are com- tative genetic nature and environmental sensitivities of the
+plex quantitative traits, which are controlled by multiple three traits.
+genes with minor effects. Furthermore, knowledge about
+The relationship between the PC and OC found in this
+the regulating mechanism of the variation of the PC, OC, study confirmed the negative correlation reported in the pre-
+and WSPC was previously limited. Based on a GWAS with vious studies (Li et al. 2018; Patil et al. 2017). The WSPC
+355K SoySNP array and 211 collections, a total of 12 QTLS had a low correlation with the PC in the current study. Thus,
+was identified as being related to the three traits with five the genetic loci that control the PC and WSPC might be
+detected in multiple environments. Two candidate genes different. Unfortunately, the relationship between the OC
+might be involved in the pathways of protein, oil, and water- and WSPC was significant and negative, and the correla-
+soluble protein synthesis. The significant SNPS and candi- tion coefficient was high. The strong negative correlation
+date genes detected in this study will provide enlightenment between the OC and WSPC may be one of the reasons for
+and useful information for the improvement of soybean qual- the negative correlation between the OC and PC. In addition,
+ity traits.
+this result suggests the possibility of tightly linked QTLs
+with opposite pleiotropic effects on the two traits, which will
+Phenotypic variation and the relationships
+make it difficult for breeders to develop soybean cultivars
+ofthe PC, OC, andWSPC
+with a high OC and a high WSPC.
+Given the important roles that the protein and oil in soybean Confirmation ofstable QTLs andidentification
+seed play in our daily life, it is of great practical significance ofnovel QTLS associated with the PC, OC, and WSPC
+to increase the PC, OC, and WSPC in soybean. In this study, in soybean
+the three traits exhibited significant phenotypic variation
+among 211 accessions, especially for the WSPC. The range The PC, OC, and WSPC are complex, quantitative, herit-
+of variation of the WSPC was similar to that reported by able traits controlled by multiple genes (Li et al. 2019; Lu
+Zhang et al. (2017) and larger than that reported by Lu et al. et al. 2013). Many efforts have been made to discover the
+(2013). The significant phenotypic variation in the acces- genetic mechanism underlying these traits. Previous studies
+sions used for association mapping promotes the identifica- used different mapping methods and different populations
+tion of more relevant markers in a broad genetic background. to detect QTLs associated with the PC and OC, which were
+The heritability of the PC and OC detected in the present distributed on the 20 chromosomes of fsoybean (https://www.
+study was consistent with the estimated range (PC from soybase.org)). In the present study, all three QTLs related
+0.57 to 0.99 and OC from 0.51 to 0.99) summarized by Kim to the PC were consistent with those in previous reports,
+et al. (2016). In addition, the heritability of the WSPC was which indicated the stability of the QTLS. qPC-15-1 was
+also high. The heritability of the three traits in this study designated as an officially confirmed QTL, which overlapped
+indicated that genetics was the main factor underlying the with the results of many different studies involving mapping
+Springer
+
+
+
+Molecular Genetics andGenomics
+with different populations and methods (Pathan et al. 2013; et al. 2009). Thus, this locus might be an important genetic
+Phansak et al. 2016; Tajuddin et al. 2003; Warrington et al. region preserved over evolution.
+2015; Zhou et al. 2015). Kim et al. (2016) mapped this QTL
+in a 535 kb interval between BARCSOYSSR_15.0161 and Potential candidate genes for the PC, OC, andWSPC
+BARCSOYSSR_15.0194 with six BC,Fg-derived families.
+Van and McHale (2017) performed a meta-QTL analysis toa To date only a few genes related to the PC and OC
+large number of QTLs related to the protein and oil contents in soybean have been reported, such as Gyl to Gy7
+and composition-related QTLS. In total, five meta-QTLs (encoding glycinin subunits), CG1 to CG15 (encoding
+were detected on chromosome 15, and qPC-15-1 was con- B-conglycinin subunits) (Li and Zhang 2011), GSOAS-
+sistent with mPO15-2 (117.8 kb) between BARC-008231- TL1 (Zhang et al. 2008), GmOASTL4 (Ning et al. 2010)
+00112 and BARC-042857-08439. This QTL was stable related to the PC, and GmbZiP123 (Song et al. 2013),
+across different mapping populations and environments and GmMYB73 (Liu et al. 2014), GmDofl/GmDof4 (Wang
+thus should be used in molecular breeding to improve the et al. 2007) and GmOLEOI(Zhang et al. 2019) related to
+soybean protein quality. Compared with the results of previ- the OC. In the current study, we selected three candidate
+ous study, all three QTLS related to the PC were novel QTLs genes based on the GWAS results. In addition to these
+(Zhang et al. 2017).
+three genes, we also detected that genes in qPC15-1 and
+QTLS linked to the OC in this study were mainly dis- 90C8-I(qWSPC-8-1) might regulate the PC, OC, and
+tributed on chromosomes 6, 8, 12, and 20. qOC-6-1, qOC- WSPC, including Glyma.15g049100, Glyma. 15g050100 in
+8-1 and qOC-20-1 overlapped with QTLs related to oil qPC-15-1 and Glyma.08G109200 to Glyma.08G109500,
+and its compositional content in different populations, as Glyma.08G110300 to Glyma.08G110500 in qOC-8-
+determined by different mapping methods (Bachlava et al. I(qWSPC-8-1), which are involved in the metabolic path-
+2009; Chung et al. 2003; Diers et al. 1992; Hyten et al. ways of proteins, oils and related substances (Supplemental
+2004; Liang et al. 2010; Mansur et al. 1993; Reinprecht Table 5) (Van and McHale 2017; Xuan et al. 2018). Van
+et al. 2006). qOC-12-1 was a novel QTL identified in E1 and McHale (2017) reported that Glyma.15g049100 and
+and the combined environments that had never been reported Glyma.15g050100 might be involved in carbon partition-
+in other studies. qOC-8-1 overlapped with GqOil-8, which ing and further regulating the PC and OC in soybean.
+was detected in a previous study (Zhang et al. 2019). How- Glyma.15G049700 and Glyma.15G049900 in qPC-15-1
+ever, it was not the QTL with the greatest effect on the OC are also members of the nodulin MtN21 transporter protein
+in the previous study, unlike in the present study, and the family. However, the expression levels sofGiyma.15G049700
+other three QTLS (qOC-6-1, qOC-12-1, and qOC-20-1) were and Glyma.15G049900 in the different kinds of soybean tis-
+newly discovered in the present study. Two QTLs (qWSPC- sues were too low to be detected (Supplemental Table 6). We
+8-1 and qWSPC-11-1) associated with the WSPC overlapped provided some evidence in terms of the expression levels of
+with previously reported QTLS related to the PC or WSPC genes, and the specific genes regulating these traits need to
+(Lu et al. 2013; Pathan et al. 2013; Reinprecht et al. 2006). be verified according to well-designed experiments.
+In addition, qWSPC-8-1 overlapped with GqWSPC-8identi-
+Some genes located in the reported and novel QTLs
+fied in a previous study (Zhang et al. 2017). The remaining might also control the PC, OC and WSPC (Supplemen-
+three QTLs (qWSPC-17-1, qWSPC-17-2 and qWSPC-19-1) tal Table 5). For example, Glyma.07G048300 in qPC-7-1
+were novel QTLS related to the WSPC. Therefore, a GWAS encodes a pyrophosphorylase, which plays an important
+carried out in different environments yielded new results and role in the process of glycolysis. Seed-preferred RNA inter-
+confirmed our previous results, which suggested the neces- ference-mediated silencing of PPal, which is the homolog
+sity and significance of increasing environments.
+of Glyma.07G048300 in Arabidopsis, led to an oil increase
+In the present study, we elaborated the inverse effects of 1-4%, mostly at the expense of seed storage proteins
+of qOC-8-1 (qWSPC-8-1) on the OC and WSPC in terms (Meyer et al. 2012). Glycolysis provides precursors for pro-
+of the phenotype, favoring alleles, and expression levels of tein and oil synthesis; thus, there is a high probability that
+candidate genes. Although this locus was stable and preva- genes encoding pyrophosphorylase also regulated the PC
+lent, it cannot be utilized in the development of elite cul- and the contents of related materials. Glyma.13G144900
+tivars with both high OC and high WSPC. Nevertheless, in qPC-13-1 encodes an isocitrate dehydrogenase, which
+it can provide useful information for subsequent molecular is one of the major enzymes in TAC (tricarboxylic acid
+biological research. This region has also been associated cycle). Fait et al. (2011) reported that TCA was closely
+with other traits in soybean, such as resistance to soybean related to the accumulation of storage materials in seeds.
+cyst nematodes, salt tolerance, seed coat color, seed weight, Glyma.11G234600 in qWSPC-11-1 encodes an amino acid
+internode length, and some quality traits (Guo et al. 2006; transporter, which might regulate the PC (Cheng et al.
+Lu et al. 2013; Mansur et al. 1993; Oyoo et al. 2011; Wu 2016). Four genes (Glyma.17G011500 encoding an aspartyl
+Springer
+
+
+
+Molecular Genetics and Genomics
+protease and Glyma.19G120400 to Glyma.19G120600 Chung J, Babka HL, Graef GL, Staswick PE, Lee DJ, Cregan PB,
+encoding isopropylmalate synthases) were located in two
+Shoemaker RC, Specht JE (2003) The seed protein, oil, and
+novel QTLs (qWSPC-17-1 and qWSPC-19-1) also involved
+yield QTL on soybean linkage group I. Crop Sci 43:1053-1067
+Clemente TE, Cahoon EB (2009) Soybean oil: genetic approaches
+in the progress of protein synthesis. A functional study of
+for modification of functionality and total content. Plant Physiol
+ATIG62290, which is the homolog of Glyma.17G011500
+151:1030-1040
+in qWSPC-17-1, showed that it plays an important role in de Kraker JW, Gershenzon J (2011) From amino acid to glucosi-
+the processing of storage proteins into chains competent
+nolate biosynthesis: protein sequence changes in the evolution
+of methylthioalkylmalate synthase in Arabidopsis. Plant Cell
+for stable accumulation in mature seeds (Gruis et al. 2002).
+23:38-53
+The three genes (Glyma.19G120400, Glyma. 19G120500, Diers BW, Keim P, Fehr W, Shoemaker R (1992) RFLP analysis
+and Glyma.19G120600) in qWSPC-19-1 are involved in the
+of soybean seed protein and oil content. Theor Appl Genet
+83:608-612
+synthesis of Leu and related materials (de Kraker and Ger- Eskandari M, Cober ER, Rajcan I (2013) Genetic control of soybean
+shenzon 2011). GWAS is an effective tool with which to
+seed oil: II. QTL and genes that increase oil concentration with-
+detect genes that control quantitativetraits like the PC, OC,
+out decreasing protein or with increased seed yield. Theor Appl
+and WSPC. The QTLS and candidate genes detected in the
+Genet 126:1677-1687
+present study could be useful for the future MAS and the Fait A, Nesi AN, Angelovici R, Lehmann M, Pham PA, Song L,
+Haslam RP, Napier JA, Galili G, Fernie AR (2011) Targeted
+elaboration of the underlying mechanisms of controlling the
+enhancement of gltamatesoy-aminobutyate conversion in
+PC, OC, and WSPC.
+arabidopsis seeds affects carbon-nitrogen balance and storage
+reserves in a development-dependent manner. Plant Physiol
+Acknowledgements This work was supported in part by the Minis-
+157:1026-1042
+try of Science and Technology (2017YFE011000). the Fundamen- Gruis D, Selinger DA, Curran JM, Jung R (2002) Redundant proteo-
+tal Research Funds for the Central Universities (KYZ201705), the
+lytic mechanisms process seed storage proteins in the bbsence
+National Natural Science Foundation of China (31571688, 31871649,
+of seed-type members of the vacuolar processing enzyme family
+31671715), and the Ministry of Agriculture (2016ZX08004-003,
+of cysteine proteases. Plant Cell 14:2863-2882
+2016ZX08009003-004,
+Guo B, Sleper DA, Nguyen HT, Arelli PR, Shannon JG (2006)
+Quantitative trait loci underlying resistance to three soybean
+Author contributions GK, DY, and SZ designed the research, and SZ,
+cyst nematode populations in soybean PI 404198A. Crop Sci
+46:224-233
+DH, SZ, and DZ performed the research. SZ, HW, and HD analyzed Hu D, Kan G, Hu W, Li Y, Hao D, Li X, Yang H, Yang Z, He X,
+the data, and SZ wrote the manuscript. All authors read and approved
+Huang F, Yu D(2019) Identification of loci and candidate
+the final manuscript.
+responsible for pod dehiscence in soybean via genome-wide genes
+association analysis across multiple environments. Front Plant
+Compliance with ethical standards
+Sci 10:811
+Hyten DL, Pantalone VR, Sams CE, Saxton AM, Landau-Ellis D,
+Conflict of interest The authors declare that they have no conflict of
+Stefaniak TR, Schmidt ME (2004) Seed quality QTL in a promi-
+interest.
+nent soybean population. Theor Appl Genet 109:552-561
+Kim M, Schultz S, Nelson RL, Diers BW (2016) Identification and
+Ethical approval This article does not contain any studies involving
+fine mapping of a soybean seed protein QTL from PI 407788A
+human participants or animals performed by any of the authors.
+on chromosome 15. Crop Sci 56:219-225
+Lam HM, Peng SS, Coruzzi GM (1994) Metabolic regulation of the
+gene encoding glutamine-dependent asparagine synthetase in
+Arabidopsis thaliana. Plant Physiol 106:1347-1357
+Li C, Zhang YM (2011) Molecular evolution of glycinin and beta-
+conglycinin gene families in soybean (Glycine max L. Merr.).
+References
+Heredity 106:633-641
+LiT, Ma X, LiN, Zhou L, Liu Z, Han H, Gui Y, Bao Y, Chen J, Dai
+Bachlava E, Dewey RE, Burton JW, Cardinal AJ (2009) Mapping and
+X (2017) Genome-wide association study discovered candidate
+comparison of quantitative trait loci for oleic acid seed content
+genes of Verticillium wilt resistance in upland cotton (Gos-
+in two segregating soybean populations. Crop Sci 49:433-442
+sypium hirsutum L.). Plant Biotechnol IJ 15:1520-1532
+Barrett JC, Fry B, Maller J, Daly MJ (2004) Haploview: analysis Li YH, Reif JC, Hong HL, Li HH, Liu ZX, Ma YS, Lij, Tian Y, Li
+and visualization of LD and haplotype maps. Bioinformatics
+YF, Li WB, Qiu LJ (2018) Genome-wide association mapping
+21:263-265
+of QTL underlying seed oil and protein contents of a diverse
+Chaudhary J, Patil G, Sonah H, Deshmukh R, Vuong T, Valliyodan
+panel of soybean accessions. Plant Sci 266:95-101
+B, Nguyen H (2015) Expanding omics resources for improve- Li S, Xu H, Yang J, Zhao T (2019) Dissecting the genetic architec-
+ment of soybean seed composition traits. Front Plant Sci 6:1021
+ture of seed protein and oil content in soybean from the Yang-
+Chen LQ, Qu XQ, Hou BH, Sosso D, Osorio S, Fernie AR, Frommer
+tze and Huaihe River Valleys using multi-locus genome-wide
+WB (2012) Sucrose efflux mediated by SWEET proteins as a
+association studies. IntJ Mol Sci 20:3041
+key step for phloem transport. Science 335:207-211
+Liang HZ, Yu YL, Wang SF, Lian Y, Wang TF, Wei YL, Gong PT,
+Cheng L, Yuan HY, Ren R, Zhao SQ, Han YP, Zhou QY, Ke DX,
+Liu XY, Fang XJ, Zhang MC (2010) QTL mapping of iso-
+Wang YX, Wang L (2016) Genome-wide identification, classi-
+flavone, oil and protein contents in soybean (Glycine max L.
+fication, and expression analysis of amino acid transporter gene
+Merr.). Ag Sci China 9:1108-1116
+family in Glycine Max. Front Plant Sci 7:515
+Springer
+
+
+
+Molecular Genetics andGenomics
+Lipka AE, Tian F, Wang Q, PeifferJ,Li M, Bradbury PJ, Gore MA,
+X, An K, An G, Han B (2016) OSSPL13 controls grain size in
+Buckler ES, Zhang Z (2012) GAPIT: genome association and
+cultivated rice. Nat Genet 48:447-456
+prediction integrated tool. Bioinformatics 28:2397-2399
+Singh RJ, Hymowitz T (1999) Soybean genetic resources and crop
+Liu YF, Li QT, Lu X, Song QX, Lam SM, Zhang WK, Ma B, Lin
+improvement. Genome 42:605-616
+Q, Man WQ, Du WG, Shui GH, Chen SY, Zhang JS (2014) Smith AJ, Rinne RW, Seif RD(1989) Phosphoenolpyruvate carboxy-
+Soybean GmMYB73 promotes lipid accumulation in transgenic
+lase and pyruvate kinase involvement in protein and oil biosyn-
+plants. BMC Plant Biol 14:73
+thesis during soybean seed development. Crop Sci 29:349-353
+Lu W, Wen Z, Li H, Yuan D, LiJ, Zhang H, Huang Z, Cui S, Du W Song QX, Li QT, Liu YF, Zhang FX, Ma B, Zhang WK, Man
+(2013) Identification of the quantitative trait loci (QTL) under-
+WQ, Du WG, Wang GD, Chen SY, Zhang JS (2013) Soybean
+lying water soluble protein content in soybean. Theor Appl
+GmbZIP123 gene enhances lipid content in the seeds of trans-
+Genet 126:425-433
+genic Arabidopsis plants. J Exp Bot 64:4329-4341
+Mansur L, Lark K, Kross H, Oliveira A (1993) Interval mapping Specht J, Chase K, Macrander M, Graef G, Chung J, Markwell J,
+of quantitative trait loci for reproductive, morphological, and
+Germann M, OrfJ, Lark K (2001) Soybean response to water: a
+seed traits of soybean (Glycine max L.). Theor Appl Genet
+QTL analysis of drought tolerance. Crop Sci 41:493-509
+86:907-913
+Tajuddin T, Watanabe S, Yamanaka N, Harada K (2003) Analysis of
+Mao T,Jiang Z, Han Y, Teng W, Zhao X, Li W (2013) Identification
+quantitative trait loci for protein and lipid contents in soybean
+of quantitative trait loci underlying seed protein and oil contents
+seeds using recombinant inbred lines. Breed Sci 53:133-140
+of soybean across multi-genetic backgrounds and environments. Van K, McHale LK (2017) Meta-analyses of QTLs associated with
+Plant Breed 132:630-641
+protein and oil contents and compositions in soybean [Glycine
+Meyer K, Stecca KL, Ewell-Hicks K, Allen SM, EverardJD (2012)
+max (L.) Merr.] seed. Int J Mol Sci 18:1180
+Oil and protein accumulation in developing seeds is influenced Wang HW, Zhang B, Hao YJ, Huang J, Tian AG, Liao Y, Zhang
+by the expression of a cytosolic pyrophosphatase in Arabidop-
+JS, Chen SY (2007) The soybean Dof-type transcription fac-
+sis. Plant Physiol 159:1221-1234
+tor genes, GmDof4 and GmDof11, enhance lipid content in the
+Ning H, Zhang C, Yao Y, Yu D (2010) Overexpression of a soy-
+seeds of transgenic Arabidopsis plants. Plant J 52:716-729
+bean O-acetylserine (thiol) lyase-encoding gene GmOASTL4 Wang J, Chu S, Zhang H, Zhu Y, Cheng H, Yu D (2016) Develop-
+in tobacco increases cysteine levels and enhances tolerance to
+ment and application of a novel genome-wide SNP array reveals
+cadmium stress. Biotechnol Lett 32:557-564
+domestication history in soybean. Sci Rep 6:20728
+Oyoo ME, Benitez ER, Kurosaki H, Ohnishi S, Miyoshi T, Kiribu- Wang L, Yang Y, Zhang S, Che Z, Yuan W, Yu D (2020) GWAS
+chi-Otobe C, Horigane A, Takahashi R (2011) QTL analysis of
+reveals two novel loci for photosynthesis-related traits in soy-
+soybean seed coat discoloration associated with II TT genotype.
+bean. Mol Genet Genom. Wpulsisglaiomiowasens
+Crop Sci 51:464-469
+01661-1
+Panthee DR, Pantalone VR, Saxton AM, West DR, Sams CE (2006) Warrington CV, Abdel-Haleem H, Hyten DL, Cregan PB, Orf JH,
+Genomic regions associated with amino acid composition in
+Killam AS, Bajjalieh N, Li Z, Boerma HR (2015) QTL for seed
+soybean. Mol Breed 17:79-89
+protein and amino acids in the Benning X Danbaekkong soybean
+Pathan SM, Vuong T, Clark K, Lee J-D, Shannon JG, Roberts CA,
+population. Theor Appl Genet 128:839-850
+Ellersieck MR, Burton JW, Cregan PB, Hyten DL, Nguyen HT, Wu X, Blake S, Sleper D, Shannon J, Cregan P, Nguyen H (2009)
+Sleper DA (2013) Genetic mapping and confirmation of quanti-
+QTL, additive and epistatic effects for SCN resistance in PI
+tative trait loci for seed protein and oil contents and seed weight
+437654. Theor Appl Genet 118:1093-1105
+in soybean. Crop Sci 53:765-774
+Xuan L, Zhang C, Yan T, Wu D, Hussain N, Li Z, Chen M, Pan J,
+Patil G, Valliyodan B, Deshmukh R, Prince S, Nicander B, Zhao
+Jiang L (2018) TRANSPARENT TESTA 4-mediated flavonoids
+M, Sonah H, Song L, Lin L, Chaudhary J, Liu Y, Joshi T, Xu
+negatively affect embryonic fatty acid biosynthesis in Arabidop-
+D, Nguyen HT (2015) Soybean (Glycine max) SWEET gene
+sis. Plant Cell Environ 41:2773-2790
+family: insights through comparative genomics, transcriptome Zhang C, Meng Q, GaiJ, Yu D (2008) Cloning and functional char-
+profiling and whole genome re-sequence analysis. BMC Genom
+acterization of an Oaseplemncthablpewcemadieg gene in
+16:520
+wild soybean (Glycine soja). Mol Biol Rep 35:527-534
+Patil G, Mian R, Vuong T, Pantalone V, Song Q, Chen P, Shan- Zhang D, Kan G, Hu Z, Cheng H, Zhang Y, Wang Q, Wang H, Yang
+non GJ, Carter TC, Nguyen HT (2017) Molecular mapping and
+Y,LiH, Hao D, Yu D (2014) Use ofsingle nucleotide polymor-
+genomics ofsoybean seed protein: a review and perspective for
+phisms and haplotypes to identify genomic regions associated
+the future. Theor Appl Genet 130:1975-1991
+with protein content and water-soluble protein content in soy-
+Phansak P, Soonsuwon W, Hyten D, Song Q, Cregan P, Graef G, Spe-
+bean. Theor Appl Genet 127:1905-1915
+cht J (2016) Multi-population selective genotyping to identify Zhang D, Lu H, Chu S, Zhang H, Zhang H, Yang Y, Li H, Yu D
+soybean [Glycine max (L.) Merr.] seed protein and oil QTLS.
+(2017) The genetic architecture of water-soluble protein content
+G3 (Bethesda) 6:1635-1648
+and its genetic relationship to total protein content in soybean.
+Powell JE, Henders AK, McRae AF, Caracella A, Smith S, Wright
+Sci Rep 7:5053
+MJ, Whitfield JB, Dermitzakis ET, Martin NG, Visscher PM, Zhang D, Zhang H, Hu Z, Chu S, Yu K, Lv L, Yang Y, Zhang X,
+Montgomery GW (2012) The brisbane systems genetics study:
+Chen X, Kan G, Tang Y, An YC, Yu D (2019) Artificial selec-
+genetical genomics meets complex trait genetics. PLOS ONE
+tion on GmOLEO1 contributes to the increase in seed oil during
+7:e35430
+soybean domestication. PLOS Genet 15:e1008267
+Reinprecht Y, Poysa VW, Yu K, Rajcan I, Ablett GR, Pauls KP Zhao X, Dong H, Chang H, Zhao J, Teng W, Qiu L, Li W, Han Y
+(2006) Seed and agronomic QTL in low linolenic acid, lipox-
+(2019) Genome wide association mapping and candidate gene
+ygenase-free soybean (Glycine max (L.) Merrill) germplasm.
+analysis for hundred seed weight in soybean [Glycine max (L.)
+Genome 49:1510-1527
+Merrill). BMC Genom 20:648
+Si L, Chen J, Huang X, Gong H, Luo J, Hou Q, Zhou T, Lu T, Zhu Zhou Z, Jiang Y, Wang Z, Gou Z, Lyu J,Li W, Yu Y, Shu L, Zhao Y,
+J, Shangguan Y, Chen E, Gong C, Zhao Q, Jing Y, Zhao Y, Li
+Ma Y, Fang C, Shen Y, Liu T,LiC, Li Q, Wu M, Wang M, Wu
+Y, Cui L, Fan D, Lu Y, Weng Q, Wang Y, Zhan Q, Liu K, Wei
+Y, Dong Y, Wan W, Wang X, Ding Z, Gao Y, Xiang H, Zhu B,
+Springer
+
+
+
+Molecular Genetics and Genomics
+Lee S-H, Wang W, Tian Z (2015) Resequencing 302 wild and Publisher's Note Springer Nature remains neutral with regard to
+cultivated accessions identifies genes related to domestication jurisdictional claims in published maps and institutional affiliations.
+and improvement in soybean. Nat Biotechnol 33:408-414
+Zhu-Shimoni JX, Galili G(1998) Expression of an arabidopsis aspar-
+tate kinase/homoserine dehydrogenase gene is metabolically reg-
+ulated by photosynthesis-related signals but not by nitrogenous
+compounds. Plant Physiol 116:1023-1028
+Springer

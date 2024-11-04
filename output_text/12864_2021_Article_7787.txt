@@ -1,0 +1,1607 @@
+Hu and Zuo BMC Genomics (2021) 22:511
+htpsl/dolorg/10.1186s1186512864-021-077879
+BMC Genomics
+RESEARCH
+Open Access
+The CCCH zinc finger family of soybean
+Check for
+updates
+(Glycine max L.): genome-wide
+identification, expression, domestication,
+GWAS and haplotype analysis
+Xin Hul and Jianfang Zuo2t
+Abstract
+Background: The CCCH zinc finger (zf_CCCH) is a unique subfamily featured one or more zinc finger motif(s)
+comprising of three Cys and one His residues. The zf_CCCH family have been reported involving in various
+processes of plant development and adaptation.
+Results: In this study, the zf_CCCH genes were identified via a genome-wide search and were systematically
+analyzed. 116 Gmzf_CCCHs were obtained and classified into seventeen subfamilies. Gene duplication and expansion
+analysis showed that tandem and segmental duplications contributed to the expansion of the Gmzf_CCCH gene
+family, and that segmental duplication play the main role. The expression patterns of Gmzf_CCCH genes were tissue-
+specific. Eleven domesticated genes were detected involved in the regulation of seed oil and protein synthesis as well
+as growth and development of soybean through GWAS and haplotype analysis for Gmzf_CCCH genes among the 164
+of 302 soybeans resequencing data. Among which, 8 genes play an important role in the synthesis of seed oil or fatty
+acid, and the frequency of their elite haplotypes changes significantly among wild, landrace and improved cultivars,
+indicating that they have been strongly selected in the process of soybean domestication.
+Conclusions: This study provides a scientific foundation for the comprehensive understanding, future cloning and
+functional studies of Gmzf_CCCH genes in soybean, meanwhile, it was also helpful for the improvement of soybean
+with high oil content.
+Keywords: Soybean, CCCH zinc finger (zf_CCCH), Expression, Domestication, Haplotype analysis
+Background
+functions demands [1]. Zf proteins are interaction with
+Zinc finger (Zf) proteins are a large family in eukaryotes. other macromolecules, such as the metal ion zinc, DNA,
+The Zf motifs in proteins are composed of cysteines RNA, proteins and lipids through their Zf motifs [2]. Ac-
+and/or histidines, which coordinate with a zinc ion to cording to the structure and function, Zf proteins can be
+form local peptide structures to meet specific biological divided into at least 14 families, such as ERF, WRKY,
+DOF and RING-finger families [3-6]. The CCCH is a
+"Correspondence huxing@@foxmail.com; zf0922@foxmail.com
+unique subfamily of Zf proteins, which features one or
+tXin Hu and Jianfang Zuo contributed equally to this work
+more Zf motif (s) comprised of three Cys and one His
+'The Key Laboratory for Quality Improvement of Agricultural Products of
+residues [7]. CCCH proteins in plant mainly contain one
+Zhejiang Province, College of Advanced Agricultural Sciences, Zhejiang A&F to six CCCH motifs [1, 7-10]. According to the differ-
+University, Linan, Hangzhou 311300, Zhejiang, China
+2College of Plant Science and Technology, Huazhong Agricultural University, ence in the number of amino acids between the Cys and
+Wuhan 430070, Hubei, China
+OThe Author(s). 2021 Open Access This article isl licensed under raCreative Commons Attribution 4.0 International License,
+BMC which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit tto the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material lin this article are included lin the article's Creative Commons
+licence, unless indicated otherwise ina credit line to the material. If material lis not included in the article's Creative Commons
+licence and your intended use isnot permitted by statutory regulation or exceeds the permitted use,you will need to obtain
+permission directly from the copyright holder. To viewacopy of this licence, visit htp/ceativecommonsorgflicensesby/40/
+The Creative Commons Public Domain Dedication waiver omp/cetiecommorsoyppébicdomanveonon applies to the
+data made available in this article, unless otherwise stated lin a credit line to the data.
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 2 of 19
+His residues in the CCCH motif, the consensus sequence proteins, has been reported to be involved in improving
+of the CCCH motif can be defined as C-X4-15-C-X46 seed oil accumulation without decreasing seed size
+C-X3-4-H (X for any amino acid, C for Cys and H for through activating lipid biosynthesis-related genes in
+His) [10]. Most of the Zf subfamilies have been identified both transgenic Arabidopsis and soybean plants [24].
+as DNA-binding proteins or protein-binding proteins Genetic and functional analyses reveal that GmZF351 is
+[11], while more and more evidence demonstrates that a regulator of seed oil content in cultivated soybean that
+CCCH zinc finger (zf_CCCH) may be RNA-binding pro- was selected during the process of domestication [24].
+teins functions in RNA processing [12-14].
+Soybean (Glycine max (L.) Merr.), an important food
+It has been reported the zf_CCCH family plays a key and oil crop, accumulates large amounts of oil and pro-
+role involving in various processes of plant development tein in seeds and represents one of the main sources of
+and adaptation. In Arabidopsis, the CCCH gene AtPEI1 vegetable oil and protein for human food and/or animal
+is essential for heart-stage embryo formation in Arabi- feed [25]. Many studies of zf_CCCH family have been
+dopsis seeds [15]. AtTZF1 was identified to be involved carried out at whole genome level in Arabidopsis, rice,
+in sugar signaling [16]. The overexpression of AtTZF1 and maize [1, 10], as well as recently in switchgrass [26],
+results in compact plants with late flowering and higher chickpea [27] and Brassica rapa [28]. These studies
+stress tolerance, positively regulating the abscisic acid show that zf_CCCH proteins play important roles in
+(ABA)/sugar responses and negatively regulating the gib- many aspects of plant growth and development, but
+berellic acid (GA) responses [16]. The CCCH genes their functions in soybean have not yet been reported.
+AtTZF2/3/4/5/6 of Arabidopsis were close paralogous The publications of genomic sequences of several wild
+genes to AtTZF1 [17, 18]. The expression patterns of and domesticated soybeans and resequencing of 302 soy-
+AtTZF2/3 genes were similar to that of AtTZF1 [17]. bean genotypes, provided an opportunity for genome-
+Unlike AtTZF1/2/3, the expression of AtTZF4/5/6 is wide analyses in efforts to discern the functional and
+seed-specific [18]. The expression level of AtTZF4/5/6 evolutionary history of the zf_CCCH gene family. In this
+decreased during seed imbibition and was up-regulated study, soybean zf_CCCH genes were identified via a
+by ABA and down-regulated by GA, suggesting that genome-wide search that was based on the whole
+AtTZF4/5/6 played critical roles in ABA-, light- and genome of Williams82 (Wm82.al.v1.1) [29] and system-
+GA-mediated seed germination responses [18]. It is re- atically analyzed with regard to phylogeny structure,
+ported that salt stress-inducible Zf protein 1 (AtSZF1) conserved domain, conserved motifs, chromosome
+and AtSZF2 negatively regulate the expression of many localization, duplication, synteny, and transcription fac-
+salt-responsive genes, thus improving the salt tolerance tor (TF) binding sites. The expression of Gmzf_CCCH
+of Arabidopsis [19]. HUA1, a CCCH-type zinc finger was investigated in different tissues using public RNA-
+protein with six tandem CCCH motifs, has been identi- seq data, and the effects of selection during soybean do-
+fied as an RNA-binding protein and specifically regulates mestication on these genes were also investigated using
+floral morphogenesis by binding to AGAMOUS pre- the 302 soybean resequencing data (including wild and
+mRNA leading to the indirect determination of organ cultivar). The association between Gmzf CCCHS and
+identity [12, 20]. AtCPSF30 was demonstrated to be a macro traits such as seed oil content, seed protein con-
+nuclear-localized RNA-binding protein that can bind to tent and plant height, and the haplotype analysis in the
+calmodulin in Arabidopsis [13]. In rice, OsDOS (a CCCH 164 soybeans of 302 resequencing accessions were stud-
+gene in rice) was detected involved in the negative regu- ied to gain insights into the function of Gmzf_CCCH in
+lation of the jasmonic acid (JA) pathway, and its overex- soybean. The results of this study provide a foundation
+pression significantly delayed the leaf senescence [21].
+for better understanding, future gene cloning and func-
+OsTZF1 is a rice ortholog gene to AtTZF1 [22]. The tional studies of Ef_CCCH genes in soybean and will pro-
+expression of OsTZF1 gene was found to be induced by mote more efficient and effective breeding for seed oil
+drought, salt, hydrogen peroxide, as well as abscisic acid content.
+(ABA), jasmonic acid (JA) and salicylic acid (SA) [22].
+OsTZF1 regulates the pre-mRNA stability of down- Results
+stream genes by directly binding to U-rich regions in the Identification of Gmzf_CCCH genes in soybean
+3'-UTR, thus delaying seed germination and leaf senes- In soybean, 116 GmzfCCCHs were identified via
+cence while improving the tolerance to drought and salt genome-wide search using HMM profiles and confirmed
+stress [22]. Recently, it has been reported that a cotton by the conserved domain of CCCH- zinc finger detected
+CCCH gene GhZFP1 regulates salt tolerance and disease in Pfam databases (htp./pfam.xfam.org) and SMART
+resistance through interacting with a dehydration and a domain search database Ontpliemartembldeimart
+pathogenesis-related protein, respectively [23]. In soy- batch.pl). Basic information of all the Gmzf_CCCH genes
+bean, only GmZF351, encoding tandem zf_CCCH including gene ID, chromosome location, gene length,
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 3 of 19
+amino acid length, pl value, MW and subcellular loca- thaliana and rice respectively) by IQ-TREE software
+tion were also determined and presented in the Table (Fig. 2). The best-fit model for the construction of the tree
+S1. The distribution of the GmzfCCCH genes on chro- was PMB + F + G4. The numbers beside the branches rep-
+mosomes were counted and showed in Fig. 1. The num- resent bootstrap values (2500) based on 1000 replications
+ber of GmzfCCCH genes ranges from 2 (Chromosomes that were used to class the major 17 subfamilies (Group
+Gm16 and Gm18) to 10 (Gm08) on chromosomes (Fig. 1-17). According to the consensus classification system
+1). The Amino acid length of Gmzf_CCCH proteins (I-XVII) in Arabidopsis and rice [10], Group 17 with 26
+ranged from 127 (Glyma10g28540.1) to 1991 (Gly- Gmzf CCCH genes is the largest, which belongs to sub-
+mal4g24710.2), with isoelectric point and molecular family VII, followed by Group 13 (belong to VII and IX)
+weight ranging from 4.35 (Glyma13831033.1) to 9.88 with 17 Gmzf CCCH members, and Group 4,10 and 11
+(Glyma20g00950.1) and 14,475.51 Da (Glymal0g28540.1) with 5,4 and 1 Gmzf CCCH members are new sets, re-
+to 220,064.76 Da, respectively (Table S1). The predicted spectively. The distribution of the Gmzf CCCH genes in
+subcellular locations of the GmzfCCCHs showed that each group was rather uneven. The specific gene list of
+most of the Gmzf_CCCHs (104 of 116) were localized in each category is presented in the Table S2. Phylogenetic
+nucleus. Seven Gmzf_CCCH genes were predicted to be analysis showed that the relationships between legume
+localized in chloroplast and 3 localized in cytoplasm. species and soybean were higher than Arabidopsis and
+The other 2 Gmzf_CCCH genes (Glyma03802000.3 and rice.
+Glyma08g39400.1) were localized in vacuole and mito-
+chondrial, respectively. Similar result was reported in Chromosomal locations and Synteny analysis
+Arabidopsis, Populus and Brassica rapa, indicating that Gene duplication, including tandem and segmental duplica-
+most of these proteins might be involved in functions in tions, is widespread in plant genomes, which is considered
+the nucleus [8, 10]. (Table S1).
+one of the major driving forces of genome evolution result-
+ing in large gene family expansion in plants [30]. Duplicated
+Phylogenetic analysis of Gmzf_CCCH genes
+genes are the source for creating novel genetic variation.
+In order to further investigate the phylogenetic relation- MCScanX was used to analyze the gene duplications of
+ships of ZfCCCH genes family in soybean and there re- Gmzf_CCCHs [31). In total, 88 genes were involved in du-
+lated legume plants (Medicago truncatula, Phaseolus plication. Five gene pairs Glyma02g17250/Glyma02g17260
+vulgaris and Vigna unguiculata) to other known zf GmaagauGmadga Glyma09g35980Gly-
+CCCH gene families (Arabidopsis thaliana and rice), a ma09g35990, Glymal0g02550/Glymal0g02540 and Gly-
+maximum-likelihood phylogenetic tree was constructed mal201301Gpm120130 were identified as tandem
+using 393 full-length protein sequences of 2fCCCHS (116, duplicated genes and located on chromosomes Gm02,
+50, 43, 49, 68 and 67 for soybean, Medicago truncatula, Gm03, Gm09, Gm10 and Gm12 (Table S3, Fig. 3). 75% (87
+Phaseolus vulgaris, Vigna unguiculata, Arabidopsis of 116) of Gmzf_CCCHs were involved in segmental
+12 7
+10
+8
+-
+I 6
+-
+4
+0
+Silhalhlilhal
+Do o oe cA co co cA oA oo o co oA co cor o cor co or co COO
+Chromosome
+Fig. 1 The distribution of the Gmzf_CCCH on chromosomes of soybean
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 4 of 19
+2 Group 1
+Group
+Compa XNIL XVIII
+SUI
+<1
+111 dhoutg
+AL
+i
+A
+F
+
+in
+10
+-
+I 5
+E
+
+I
+I
+a
+E
+I
+4
+I
+f
+2
+
+1
+6
+HI
+à
+TOn
+'uintg
+21 dinaug
+VIII
+Group 13
+Fig. 2 Phylogenetic tree of the Zf_CCCH protein sequence of soybean. The full-length protein sequences of 116, 50, 43, 49, 68 and 67 Zf_CCCH
+proteins from soybean, Medicago truncatula, Phaseolus vulgaris, Vigna unguiculata, Arabidopsis thaliana and rice respectively, were aligned by
+MUSCLE and constructed the phylogenetic tree using the maximum-likelihood method in IQTREE with 1000 bootstrap replicates The numbers
+beside the branches represent bootstrap values (2500) based on 1000 replications that were used to class the major 17 subfamilies, subfamily I-
+XVII in the color circle is based on the reference [10]. The circles at the end of tree nodes marked with blue, red, orange, green, darkgreen and
+purple colors refer to Arabidopsis thaliana, rice, soybean, Medicago truncatula, Phaseolus vulgaris and Vigna unguiculata, respectively
+duplication forming 68 segmentally duplicated gene pairs example, chromosomes Gm19 and Gm20 are highly hom-
+(Table S3 and S4). Among which, 30 gene pairs were from ologous to the long arm of Gm03 and Gm10, respectively,
+5 groups with 6 gene pairs in each group formed by 4 and Gm05 is highly homologous to the short arm of Gm17.
+genes, for example, four genes Glyma01g00820, Gly- Similar results were reported in different studies [29, 32,
+ma05g36110, Glyma07g15240 and Glyma08g03540 formed 33], verifying the duplication and diploidization events in
+6 gene pairs for each other (Table S3, S4 and Fig. 3), and 10 the genome, as well as chromosomal rearrangements which
+gene pairs were from 4 groups with 2 or 3 pairs in each was mentioned in Schmutz, et al. [29].
+group formed by 3 genes, for example, three genes Gly-
+Three rounds of whole-genome duplication (WGD)
+ma02g29360, Glyma03g30020 and Glyma19g32910 formed events, including Y WGD event about L 130 to 240
+3 gene pairs for each other. These high collinear genes were million years ago (Mya), the legume WGD event about
+clustered in same clade (Fig. 2). Moreover, 28 genes were 2 58 Mya, and the Glycine genus WGD event about 2
+neither tandem nor segmentally duplicated genes. The 13 Mya, were occurred in the soybean genome evolu-
+above results indicated that the segmental duplication tion, which retained more than 50% of the repeated seg-
+events seemed to play the predominant role in the expan- ments [29, 34, 35]. The general range of Ks value for
+sion of the GmzfCCCHs gene family. Collinear analysis soybean genome Y WGD events is bigger than 1.5, while
+showed that there were several multiplicons (or blocks) of that for legume WGD event is 0.3 to 1.5, and that for
+segmented repeated gene pairs between chromosomes, Glycine genus WGD event is 0 to 0.3 [29, 34, 35]. In
+showing the regional collinearity of the chromosomes. For total, 68 orthologous gene pairs identified within the
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 5 of 19
+Gm01
+Gm20 8 8
+of & 8 e 8
+REE
+a
+le Gmoa
+3
+b
+e
+Coi s E
+11 I
+e
+H M ( I
+Le
+- Th L
+1 A /
+o o
+C
+II
+a0
+PI
+ag
+- /
+a0
+LA0
+I
+A
+X
+I
+/
+de angy
+-
+
+o
+I
+204
+
+A
+L
+-
+4
+L10
+104
+F 4 20
+oJ
+/
+-
+R
+30
+404
+/
+L 40
+301
+/
+
+E
+20
+a
+3
+-
+-0
+1SU RNB
+101
+7 E 10
+o- E E E AE
+DE
+-20
+/
+8
+30-
+Gpmalegtam
+1y J-40 -30
+€ 20-
+00€ euko -
+ro
+10-
+L Glymal6,01296
+/
+RASIERENARB 1A F10
+o- F Gl ma
+-20
+50- A 8
+40- 1
+emthencerd / F30 I
+30-
+BTI
+F40
+20-
+L LE
+/
+E
+&
+EIEY - So
+10-
+h
+5
+-
+o- A - -
+%
+F10
+/
+-
+Lrur /
+F2o
+A0-
+1 -
+oe &
+r30
+S
+E
+y
+A
+20
+-e
+a d
+A - Fao
+20
+VY
+1
+& 40 1
+N
+
+sp
+Ilf
+b6 6006 TET
+X
+6e %f
+ap
+II 17
+I
+I
+% co
+n e
+/II 11 KY
+of
+Gnis ds
+TT III III
+o of
+e e de
+e a de Gmop
+Gmi2 de de de 8 8 8
+Gmll
+Gm10
+Fig. 3 Genomic distribution of Gmzf_CCCH genes and gene pairs collinearity analysis in soybean. The tracks toward the center of the circle
+display: (a) Chromosome name and size of soybean (10Mb tick size); (b) The distribution of Gmzf_CCCH genes on chromosome; (c) Collinearity
+of Gmzf_CCCH genes, tandem and synteny relationships between gene pairs are marked with color lines
+pairwise syntenic blocks of MCScanX were used to study suite program (htp/meme-sulite-org, 20 conserved
+the WGD events of GmzfCCCHs (Fig. 3). We calculated motifs were detected among the GmzfCCCH genes var-
+the Ks, Ka and the Ka/Ks ratio between collinear gene ied in length from 11 to 50 aa (Table S5, Fig. 4B).
+pairs (Table S4). The WGD events of most Gmzf Among which, motif 7,5, 4, 2 and 3 accounting for a
+CCCHS were at the legume and the Glycine genus WGD large proportion, are CCCH motifs with the constitution
+events, 57.4% of gene pairs (39 of 68) were divergence sequence of C-X8-C-X5-C-X3-H or C-X5-C-X3-H
+during the Glycine genus WGD event, nearly 41.2% of (Table S5, Fig. 4B). Most GmzfCCCHs in the same
+gene pairs (28 of 68) were divergence during the legume clade shared similar conserved motif composition and
+WGD event, and 1 gene pair was divergence during the showed remarkably similar gene structures (Fig. 4B),
+Y WGD event. All 68 synteny pairs with Ka/Ks<1 suggesting a possible functional similarity. All the detected
+underwent purify selection during the soybean genome GmzfCCCH genes contain the zf_CCCH (PF00642) do-
+evolution.
+mains (Fig. 4C). The gene structure of different Gmzf
+CCCHS including intron-exon size and number varied
+Gene structure, protein domain, and motif analysis of
+largely, with the exons ranging from 1 to 14 (Fig. 4D).
+Gmzf_CCCHs
+Closely related members, especially collinear genes, have
+According to the phylogenetic analysis of Gmzf_CCCH similar exon-intron structure, and the most important
+genes above and the consensus classification system (I- difference among them is the length of intron. For
+XVIII) in Arabidopsis and rice [10], the Gmzf CCCH example, the collinear gene pairs Glyma08g250501/Gly
+genes of soybean can divided into 13 groups (Table S2, mal5g30265.1, and Glyma13g310331/Glyma15g0833L1
+Figs. 2 and 4A). The conserved motifs of the Gmzf are much similar in motif, protein domains and exon-
+CCCH genes were determined by the online MEME intron structure, while the exon-intron length results in
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 6 of 19
+A
+B
+C
+D
+E i
+M otif
+Group 17 VII
+E I
+M
+-
+I
+-
+-
+NE
+Nour #
+Group 16 I
+complexity _region
+Group 15 mI
+SH
+Group14 II
+E
+3
+brane domain
+L
+Dus
+3
+VII
+Beatim
+Group 13
+REy
+Pram:t
+E
+ETY
+2:
+EEE
+am: tran
+IX
+BeSKRaors Pfam: C 1
+groupif x
+Pfam: P
+Group 10
+S0 OPR
+repe
+DEBAREC XPE
+Group9 XIII
+ETE
+Groups XII
+Group Groupo Av
+Group5 VI 4
+IX
+XIV
+XI
+Group 4
+XVII
+Group3 XVII
+Group 2 XVII
+GroupI XVITt
+3'5
+-3' 5i
+-3'
+300 600 900 12001500180021000 300 600 900 1200 1500 1800 2100 0 3000 6000 9000 12000 15000 18000
+Fig. 4 Phylogenetic relationship, conserved motif, protein-conserved domains and gene structure analysis of Gmzf_CCCH genes. (A) Phylogenetic
+tree of 116 Gmzf_CCCH proteins. The maximum-likelihood phylogenetic tree was constructed using IQ-TREE with 1000 replicates; (B) Conserved
+motifs of Gmzf_CCCH proteins. Twenty conserved motifs are shown in different colored boxes, and the details of the motifs are provided in Table
+S5; (C) Conserved domains of Gmzf_CCCH proteins, different domain was marked with different colors; (D) Exon-intron structures of Gmzf_CCCH
+genes. Orange boxes represent exons, black lines represent introns, and the upstream/downstream regions of Gmzf_CCCH genes are represented
+by green boxes
+the great difference in gene length (16,596 bp VS 7235 bp, initiate transcription and play important roles in the
+and 14,323 bp VS 6776 bp, respectively) (Fig. 4, Table S1). regulation of gene expression. To further explore the
+However, there are great differences in exon/intron and possible biological functions of Gmzf_CCCHs, the 2kb
+motif composition among different groups, which indi- upstream promoter regions of all GmzfCCCHs were
+cates that functional differentiation exists in each sub- submitted to PlantCARE for the prediction of potential
+group of soybean fCCCH gene family.
+cis-acting elements. Virous cis-acting regulatory ele-
+ments of all Gmzf CCCH genes were predicted to be
+Cis-acting elements in the promoters of Gmzf_CCCHs
+related to transcription, cell cycle, development, hor-
+The cis-acting elements in the promoter regions are the mones, and stresses (Fig. 5, Table S6). Most Gmzf
+key regions where the transcription factor binding sites CCCHs have the cis-acting elements (114 for CAAT-box
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 7 of 19
+140
+EGroupi BGroup? EGroup3 BGroup4 BGroups BGroupo BGroup7 BGroups mGroups
+120
+BGroup 10BGroup BGroup 128Group BGroup 14
+Group 1780ther
+100
+60
+E
+LH lm
+EEE
+& 3
+Transcription Celleycle Development
+Hormone
+Abiotic/biotic estressandLight
+Fig. 5 Number of various cis-acting regulatory elements of Gmzf_CCCH genes. The cis-acting regulatory elements were identified from PlantCARE
+online service using 2.0 kb upstream sequence of the transcription start site of Gmzf_CCCH genes. The graph was generated using cis-acting
+element names and functions of Gmzf CCCH genes, different colors refer to the different subfamilies, the ordinate indicates the number of genes
+containing the cis-acting regulator in different group, the abscissa represents various cis-acting regulatory elements
+and 113 for TATA-box) involved in the regulation of expression patterns. For instance, Glyma06g44440, Gly-
+transcript. Many cis-acting elements related to hormone ma12g13300, Glyma12g33320 and Glymal3g37101 were
+signaling pathways were found, such as methyl jasmo- segmentally duplicated genes that are homologous to
+nate (MeJA), salicylic acid (SA), abscisic acid (ABA), gib- ATTZF4/S(ALC3H2/AIC3H61) (Fig. 2), the expression of
+berellins (GA) and auxin (IAA). A total of 65 Gmzf AtTZF4/5 is reported seed-specific in Arabidopsis thali-
+CCCHS were detected with MeJA-responsive elements, ana [18], similarly, Glyma06g44440, Glyma12g13300
+containing CGTCA-motif and TGACG-motif, and 77 and Glyma12g33320 were predominantly expressed in
+for ABA-responsive element (ABRE), indicating that seed and very poorly expressed in other tissues in soy-
+most of the Gmzf CCCHS might participate in JA- and bean (Fig. 6), suggesting that the three duplicated genes
+ABA-mediated signaling pathways. Several cis-acting ele- have similar functions in the development of soybean
+ments on the promoters of some Gmzf_CCCHs are in- seeds; other four segmentally duplicated genes Gly-
+volved in the regulation of tissue-specific expression, ma05g36110, Glyma08g03540, Glyma01g00820 and Gly-
+such as meristem expression and seed-specific regula- ma07g15240, showed similar expression patterns and
+tion. In addition, some elements were predicted to be in- were mainly expressed at flower, pod and following in
+volved in various abiotic stresses, such as salt, cold and seed, which may participate in the regulation of the de-
+light, etc.. In particular, all of the GmzfCCCH genes velopment of flower, pod and seed. It was worth noting
+contained light-responsive elements (Fig. 5, Table S6).
+that, several members of Gmzf_CCCH family were ex-
+hibited expression throughout the reproductive cycle of
+Tissue-specific expression patterns of Gmzf_CCCHs
+soybean, and may be involving in regulating the whole
+According to the available RNA-seq data of three study growth and development of soybean.
+[36-38] obtained from Expression Atlas of EMBL-EBI
+(https./www.ebi.ac.k/gxa/home), Soybase (https:/1 Selective regions and nearby QTLS around Gmzf_CCCH
+www.Soybase.org/experiments) and GEO (Gene Expres- genes
+sion Omnibus: https/www.ncbi.nl.nih.gov/geol) the The soybean domestication and improvement selection
+temporal and spatial expression patterns of 116 Gmzf regions of four previously reported studies [39-42] were
+CCCH genes in 48 tissues at different developmental used to analyze whether the Gmzf CCCH genes in the
+stages (including root, nodule, stem, leaf, pod and seed) domestication or improvement selection regions. The
+were visualized using the 'pheatmap' package of R QTLs of linkage analysis and GWAS were obtained from
+(Fig. 6). The expression levels of GmzfCCCHs varied the soybean database were anchored on the chromo-
+significantly in different tissues and developmental some based on the physic position of associated markers
+stages, and the GmzfCCCHs from the same group in Wm82.al.v1.1 genome. The distribution of Gmzf
+showed similar expression patterns. Most of the highly CCCH genes, domestication and improvement selection
+similar genes in sequence, especially collinear (or dupli- regions and QTL regions were showed in Fig. 7. Domes-
+cated) gene pairs in one cluster clade exhibited similar tication and improvement regions and QTL regions
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 8 of 19
+A
+B
+C
+- E - E
+E
+E
+Group Group 17
+E E E LE E
+-
+Group 16
+E E -
+-
+-
+E
+ma
+Group 15
+E -
+-
+mal
+Group14
+-
+E
+Group 13
+E =
+E
+- E
+Group Group 12 11
+-
+€ E E E - E -
+- +
+Group 10
+-
+E
+Group9
+-
+E
+-
+-
+E
+Group 8
+Group7
+ma
+Group6
+Groups
+Group4
+Grpop3
+Group2
+Group1
+n
+- -
+-
+-
+ma
+ma
+1
+I
+E
+Gi
+ma
+E
+-
+E - E E E E E - -
+-
+E
+E -
+E I E E E E
+-
+-
+E E E E E
+-
+ma
+- - t -
+I E - E
+-
+yma
+m: 9g36150
+GE  
+o
+de 
+< <S
+S
+S
+ce -
+2
+n
+RE
+So
+7
+U
+3
+ à 6 6 S -
+4
+Ao Afs PAR -
+a a
+Fig. 6 Expression profiles of Gmzf_CCCHs in different tissues and organs at different developmental stages. The heatmap was constructed using
+the 'pheatmap' package of R software, and the FPKM (Fragments Per Kilobase per Million) values of Gmzf_CCCH genes were transformed by
+logz(x + 1). The red and green colors represent the higher and lower relative abundance of the transcript, respectively. (A), The expression data
+obtained from Severin, et al [36] (B): The expression data obtained from Jones and Vodkin [38], (C): The expression data obtained from Shen,
+et al. [37]
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 9 of 19
+Gm01
+Gm20 8 3
+f & 80 of e
+s8
+a
+o
+e Gmoa
+coi 28
+b
+e
+C
+d s
+d
+
+e I
+-
+L
+2 Sma
+Sg
+f
+30
+1o,
+II T 1A U / LUT 
+40
+30
+a
+d
+20 L -
+E
+I
+a
+a
+J /
+V10
+104
+RE U
+t
+K
+a 20
+3
+I
+o
+1
+- o
+de
+-
+E
+ 5
+o
+30
+40
+7 4
+40
+30
+
+o F
+-
+à 204 -
+/ Gy
+-0
+6E
+I
+10-
+E
+3 - -
+E 10
+o- E
+E E
+L E E
+D 7
+-20 -30 a
+30
+- LI E E E -40
+20-
+ro
+u
+€
+10-
+BE LE E E
+10
+0-
+T
+OMPNS
+E
+50-
+E
+/
+-20
+40-
+El
+E L E 30
+d
+I
+30-
+- E
+E
+40
+L
+k
+5 -
+20-
+a
+d /
+rO L50
+(
+e
+10-
+
+3
+6
+10
+0
+E
+A -
+E
+1
+4 >
+o F20
+40
+1
+T
+€ 1 1
+30
+V
+If
+E
+30
+M 7
+YI
+C
+Fa0
+20
+III I1 KKI RI I 9 - ro
+8 -
+ITT
+N.
+- 2 o
+e
+p
+% Doe
+e
+Cnis de
+III
+of of
+de e
+s de
+de o
+de
+Gmup
+Gmi2 de 80 de g oe 88
+Gmll
+Gm10
+Fig. 7 Genomic distribution of Gmzf_CCCH genes and previously reported Domestication and improvement regions and QTLS in soybean. The
+tracks toward the center of the circle display: (a), Chromosome name and size of soybean (10Mb tick size); (b), Previously domestication regions
+of four studies in soybean (darkgrey lines), the regions around Gmzf_CCCH genes were marked with blue; (c), Previously improvement regions of
+four studies in soybean (darkgrey lines), the reagions around Gmzf_CCCH genes were marked blue; (d), QTL regions form Soybase in soybean
+(darkgrey lines), the regions around Gmzf_CCCH genes were marked with red; (e), GWAS regions form Soybase in soybean (darkgrey lines), the
+regions around Gmzf_CCCH genes were marked with red; (f), The distribution of Gmzf_CCCH genes on chromosome
+matched with Gmzf_CCCH genes were shown in Table marked with green diamonds) and 18 improved cultivars
+S7. Totally, 18 and 4 Gmzf_CCCHs were located in the (I, marked with blue diamonds), Group III can be di-
+domestication and improvement regions respectively, vided into four subgroups containing 34 landraces and
+these genes may have been selected in the process of do- 92 improved cultivars (Fig. 8). These results imply that
+mestication and improvement of soybean. 84 and 51 the nucleotide diversity of the Gmzf_CCCH genes in
+Gmzf CCCHS were located in the previously reported wild accessions is much higher than that of landraces
+QTL regions or around the GWAS loci, and 37 of which and cultivated accessions.
+were both located in QTL and GWAS regions (Fig. 7,
+Table S7).
+GWAS and haplotype analysis
+The SNP information of Gmzf_CCCH genes obtained The GWAS between the phenotypes of 164 soybeans
+from resequencing data of 302 soybeans (Table S8) were obtained from GRIN and the corresponding genotype
+used to analyze the clustering and construct the phylo- data of 116 Gmzf CCCH genes from the resequencing
+genetic tree (Table S9, Fig. 8). The 302 accessions can be data of 302 soybeans (Including 4176 filtered SNPs on
+divided into three clusters. Groups I were all wild soy- the promoter and gene sequences of GmzfCCCH)
+beans (W, 62 accessions were marked with red dia- (Table S10, S11 and S12) were carried out by Tassel 5.25
+monds), Group II can be divided into three subgroups, using MLM model. Totally, 162 significant associations
+including a mixture of most landraces (L, 96 were were detected between the SNPS loci of Gmzf_CCCHs
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 10 of 19
+GrouplI-1
+Dor
+Sor
+-
+I
+E
+as F
+-
+DrmOn
+Group III-2
+Fig. 8 Phylogenetic tree of 302 soybeans. SNPS of the Gmzf_CCCH genes among resequenced genomes of the 302 soybean accessions were
+used to construct the phylogenetic tree using the maximum-likelhood method in IQTREE with 1000 bootstrap replicates. The diamonds at the
+end of tree nodes marked with red, green and blue refer to wild soybeans, landraces and improved cultivars. Corresponding specie identifiers
+(IDs) of the accessions are available from Reference [39]
+and 9 traits. The associations SNPS for different traits var- soybean, which had been identified as domestication
+ied largely from 3 for seeds weight to 75 for protein, and gene undergone selection during the domestication of
+the associated GmzfCCCH genes ranged from 3 to 32 for soybeans. It was worth noting that Glymal2g13300, Gly-
+the 9 traits. If one gene has more than two SNP loci that ma12g33320 and Glyma12g36600 were detected as do-
+are significantly associated with a trait, the gene is consid- mestication genes involving in the regulation of
+ered to be a stable associated gene and may be involved in synthesis and metabolism of oil and protein. As an ex-
+regulating the trait. Therefore, 3, 16, 3, 1, 2 and 7 stably ample, for Glyma12g33320, previous tissue specific ex-
+genes were significantly associated with height, protein, pression analysis showed that Glyma12g33320 were
+oil, oleic, stearic, linoleic and linolenic of soybean, respect- mainly highly expressed in the late stage of soybean seed
+ively, and may be involved in the corresponding biological development (Figs. 6, 10A), and the study of Lu, et al.
+processes (Table S13, Fig. 9). The haplotypes of the Gmzf [43] proved that this gene showed differentially expres-
+CCCH genes in the 164 soybean accessions were analyzed, sion during seed development through gene CO-
+and the phenotypic differences corresponding to different expression networks analysis of 40 transcriptomes from
+haplotypes ofthe genes were also tested.
+developing soybean seeds in cultivated and wild soybean
+accessions (Fig. 10B). This indicates that Glyma12g33320
+The domestication genes of Gmzf_CCCHs detected by GWAS is involved in the synthesis of oil during seed develop-
+and haplotype analysis
+ment. Moreover, The QTL and GWAS data form Soy-
+Eleven Gmzf CCCH genes were associated with seed oil- base showed that Glyma12g33320 was in the region of
+related traits, protein, seed weight and plant height of previously reported QTLs mqSeed Oil-018, Seed oil 19-
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 11 of 19
+Height
+Linoleic Linolenic o Oil
+Oleic
+5
+Palmitic o Protein
+Stearic o SW
+4
+3
+E
+1
+2
+-
+-
+1
+0
+T
+Chr 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Fig. 9 The Manhattan plot of association mapping between 9 traits of soybean and the SNP of Gmzf_CCCH genes in 164 of 302
+soybean accessions
+Glymal2g33320
+A
+B
+2001
+p=2.1e-03
+200
+p=3.5e-04
+150
+I 100
+-
+50
+a
+L
+50 LE F
+se
+
+Pesaeot ss
+*$ cs ** cA
+Sf
+Tissue
+e
+C
+-
+Wild
+A f y o o
+1.1e-16
+p=0.0e+00
+s
+ % % 
+:
+p=1.5e-02
+p=3.0e-15
+Landrace
+25 p=0.0e+00
+:
+Hapl
+A
+T A
+T
+C C C  A A
+20
+Hap2
+T
+T A
+A
+C G T C A A
+6
+Cultivar
+Hap3
+A
+C T
+T
+T G T C G G
+15
+Hap4
+A
+T A
+T
+C C C A A A
+W/L/C(30 genomes data) : C G/C T/C-TGCIA-.
+10
+Protein (Hap2and Hap3) 4/0/0
+: Y R RGGCSR-..
+Hap
+Protein (Hap1)
+1/10/10
+Y P RGGCSR-..
+R H:
+Protein (Hap4)
+0/1/4
+Y P RGG*
+suad Vagr Maf vat
+H
+Fig. 10 The expression, haplotype, the frequency of haplotype and sequence analysis of Glyma12g33320. (A), The expression of Gymal2933320in
+different tissues and organs at different developmental stages in three studies [36-38]; (B), The expression of Glyma12933320 in the early-(E) and
+mid-(M) maturity during the development of wild (W) and cultivar (C) soybean seed; (C), The sequence analysis of Glyma12g33320 in the 30
+released soybean genomes; (D), The haplotype and its frequency distribution of Glyma12g33320 among 164 of 302 soybean accessions
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 12 of 19
+2, Seed oil 24-28 and Seed oil 2-g4 (Table S7). Addition- process of improvement from landrace to cultivar. Gly-
+ally, the haplotype analysis showed that Glyma12g33320 ma12g13300 and Glyma12g3660 have similar functional
+contained four main haplotypes in 164 soybean acces- variations as Glyma12g33320 at coding region that af-
+sions, Hapl and Hap4 were with high oil content, low fecting oil and protein (Table S14). In addition, Gly-
+protein content and low linolenic content (Fig. 10 D, mal2g13300 and Glyma12g3660 have variations at
+Fig. S1 A1-2), and the percentage of Hapl and Hap4 promoter region (Table S14), suggesting that they may
+were increased from wild (3.0 and 0%) to landrace (83.1 also affect the synthesis of oil and protein in wild and
+and 16.9%) (Fig. 10D), which further proved that the cultivated soybeans through expression regulation.
+gene Glyma12g33320 was involved in the regulation of The gene Glymal7g12510 were significantly associated
+oil synthesis in soybean and undergone selection in the with seed oil and linolenic content in soybean, which
+process of soybean domestication. The sequence analysis was relatively highly expressed in pod formation and
+of Glyma12g33320 in the 30 soybean genomes (26 re- early seed development (Fig. 6). It is suggested that the
+leased by Liu, et al. [44] and 4 from soybase) showed gene is involved in the synthesis of oil and linolenic in
+that the SNPs at chromosome Gm12: 36,644,336bp (G the early stage of seed formation. It was worth noting
+to C) and 36,644,337 bp (T to C) resulted in the change that previous domestication studies indicated that this
+of amino acids from arginine (R) in wild (most are Hap2 gene were lying the domestication region of soybean
+and Hap3 type) to praline (P) in landraces and improved (Fig. 7, Table S7). Haplotype analysis shows that Gly-
+cultivars (Hapl and Hap4 type), and the SNPs at Gm12: ma17g12510 have seven main haplotypes in the 164 soy-
+36,644,349bp (C to A) resulted in the early termination bean accessions, Hap4 and Hap5 were all wild soybeans
+of amino acid translation (most are Hap4 type for culti- with lower oil content but high linolenic content, Hapl
+var) (Fig. 10C and Table S14). Therefore, Gly- was a major haplotype in landrace and cultivar with high
+mal2g33320 was a domestication gene with functional oil content and its frequency increased a lot from wild
+variations in wild, landraces and improved cultivar that (7.1%) to cultivated varieties (80% for landrace and
+affecting the synthesis and metabolism of oil. The soy- 73.5% for cultivar) (Fig. S1 A8-9). These results further
+beans of Hapl (with amino acids changed) and Hap4 verified that the gene Glymal7g12510 is an oil-related
+(with amino acids changed and early terminated) are domestication gene, which had been strong positive se-
+with high oil content, suggesting that Glymal2g33320 as lected during soybean domestication, resulting in an in-
+a zf_CCCH transcription factor may negatively regulated creased haplotype frequency and oil content of
+oil synthesis. In addition, this gene is also found to be cultivated varieties, and a negative selection for linolenic
+associated with protein and linolenic, which may be due content at the same time.
+to the fact that the oil content is continuously improved
+Glymal0g02540 and Glymal0g02550 was tandem du-
+by positive selection resulting in the inevitably decrease plicated gene pair significantly associated with linolenic
+of the protein content, because there is a significant (Table S13, Fig. 7), which showed relatively highly
+negative correlation between oil content and protein.
+expressed in pod formation and early seed development
+Glyma12g13300, homologues with Glymal2g33320, indicating involving in the synthesis of linolenic (Fig. 6).
+showed similar seed-specific expression pattern as Gly- The haplotype analysis indicated that Glyma10g02540
+ma12g33320, suggesting similar regular pattern in the and Glyma10g02550 may also be domestication genes
+regulation of oil. The Glyma12g13300 have four main suffering selection during domestication and improve-
+haplotypes, the accessions with Hap4 showed the high ment of soybean (Fig. S1 A10-11), moreover the GWAS
+oil content, the percentage of Hap4 were increased from data from Soybase indicated that Glyma10g02540 and
+wild (5.6%) to landrace (76.1%), and continual from Glyma10g02550 located near to the QTL Seed oil 5-g3
+landrace (76.1%) to improved cultivar (88.2%), while (about 100 kb) (Table S7, Fig. 7. The tandem duplicated
+Hap2 and Hap3 was decreased to 0% (Fig. S1 A3-4). gene pair Glyma12g01340 and Glyma12g01350 was as-
+The Glyma12g36600 have five main haplotypes, Hap2, sociated with linoleic, the homologous gene Gly-
+Hap3 and Hap4 were with high oil content and the per- ma09g35990 was associated with protein (Table S13),
+centage of these three haplotypes were increased from These three genes have similar expression pattern during
+wild (9.1, 0 and 0%) to landrace (32.1, 41.1 and 25.0%), the pod and early seed development (Fig. 6), and their
+moreover the percentage of Hap3 was continuously in- haplotype frequency showed that these genes were under
+creased from landrace (41.1%) to improved cultivar domestication (Fig. S1 A12-14), suggesting that they
+(95.0%) (Fig. S1 A5-7). This proved that Glyma12g36600 maybe have similar cross-talk function during seed
+is related to oil synthesis, and its favorable haplotype development.
+was under selection in the process of domestication Glyma15g42820, highly expressed in the whole period
+from wild to landrace soybeans, and the excellent haplo- of soybean growth and development, was significantly
+type Hap3 has been further selected and utilized in the associated with height, suggesting that this gene is
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 13 of 19
+involved in the growth and development of soybean domestication. For instance, Glymallg27130 was signifi-
+(Table S13, Figs. 6 and 7). Haplotype analysis showed cantly related to linolenic and oil content, which had
+the gene was under selection during soybean domestica- seven main haplotypes. From wild species to landrace
+tion, the frequency of Hap2 were increased in cultivar and then to cultivated species, the frequency of haplo-
+(Fig. S1 A15). Glymal3g44045 was associated with seed type has changed accordingly, the frequency of Hapl is
+weight, which was only expressed in the 5-6 mg seed/ increasing, which shows that this gene has been strongly
+coat or 3-week seed, indicating that this gene regulated selected (Fig. S1 B6-7). similar results were identified
+the early development of seeds and ultimately affected for Glyma03g30030 (associated with protein and height),
+the seed weight, and the haplotype frequency showed Glyma04g32251 (associated with linolenic and protein),
+that the gene was under domestication (Table S13, Figs. Glymallg11630 (associated with olic and linolenic acid),
+6, 7, FigureS1 A16). Therefore, Glymal5g42820 and Gly- and Glymal2g01905 (associated with protein) and Gly-
+mal3g44045 were domestication genes and involving in ma19g36150 (associated with height) (Table S13, Fig. S1
+regulating the growth and seed development.
+B8-15). These genes were not expressed (or very low)
+during the whole growth period of soybean, implying
+The Gmzf CCCH genes in domestication regions detected
+that these gene may also be located in a domesticated
+by GWAS and haplotype analysis
+region related to corresponding traits.
+Eleven Gmzf_CCCH genes were detected significant as-
+sociated with oil related traits, protein content, seed Discussion
+weight and height, and the haplotype analysis showed The CCCH zinc finger family is a large multifunctional
+that the frequency of haplotypes of the genes had a cor- protein family. In plants, fCCCH genes have been re-
+responding change trend from wild to cultivar, suggest- ported to play pivotal roles in cell fate specification and
+ing that the genes were under selection during soybean hormone-regulated stress responses. Family members
+domestication (Table S13, Fig. S1). However, their ex- identification and functional studies of the fCCCH
+pressions were no tissue specific (or very low) during the family have been carried out in many model plants and
+development of seed. This means that these genes may crops [1, 10, 16, 21, 27, 28]. However, the functions of
+not be directly related to the associated traits, they may soybean Gmzf_CCCHs are rarely reported. In this study,
+be located in the domestication regions near to the key we aim to investigate gene structures, protein properties,
+genes for the corresponding traits. Among which, 5 phylogenetic relationships, replication characteristics, ex-
+genes, Glyma05g08450 (associated with protein), Gly- pression profiles, selection pressures and possible func-
+ma08g09630 (associated with linolenic), Glyma08g39400 tions of GmzfCCCH gene family members in soybean.
+(associated with linolenic), Glymal7g02720 (associated In order to predict and analyze the function of the de-
+with protein) and Glyma05g02920 (associated with lino- tected Gmzf CCCHS, many methods and approaches
+lenic) were reported in the previous domestication stud- have been used, such as gene expression profiling with
+ies of soybean [39-42] (Fig. 7, Table S7), which have multiple transcriptome data, domestication selection,
+been proved located in domestication regions suffering GWAS and haplotype analysis, as well as the gene se-
+selection by haplotype analysis in this study. For ex- quences analysis from pan-genomic data of soybean, A
+ample, Glyma08g09630 was associated with linolenic total of 8 Gmzf CCCHS were detected as domestication
+content and has four main haplotypes, Hapl and Hap2 genes involved in regulation of oil synthesis during the
+were all wild accessions with high linolenic content and domestication of soybean. Our research provides new
+their frequency were increased from wild to cultivar insight for future identification and function analysis of
+(Fig. S1 B3), suggesting that this gene had been selected. this gene family. In addition, the detected oil synthesis-
+However, this gene showed no tissue specific expression related genes and their excellent haplotypes could be
+during seed development, which expressed similar in all used for improving oil content in soybean breeding.
+tissues (Fig. 6). Therefore, this gene might not be dir-
+ectly related to linolenic, but only located in a domesti- Identification and characterization of zf_CCCH gene
+cation region near to a key domestication gene that family help to better understand the evolutionary events
+affected the content of linolenic. Similar results were de- and relationships in soybean and its relative species
+tected for Glyma05g08450, Glyma08g39400, Gly- Typical fCCCH genes usually have one to six CCCH
+ma17g02720, Glyma05g02920 (Fig. 7, Table S7, Fig. S1 motifs [1, 7-10]. A total of 116 GmzfCCCH genes were
+B1-5). Moreover, although some Gmzf CCCH genes identified and confirmed by detecting the CCCH- zinc
+haven't been reported in the previous domestication finger domain in the soybean genome of Williams 82,
+studies [39-42] (Fig. 7, Table S7), the haplotype analysis which is higher than those detected in maize (68) [1],
+identified that 6 Gmzf_CCCH genes may be under selec- rice (67) and Arabidopsis (68) [10], chickpea (58) [27],
+tion at domestication region during soybean Brassica rapa (63) [28] and switchgrass (103) [26],
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 14 of 19
+suggesting the genome size does not determine the loss, while the variations of promoter region often affect
+number of zf CCCH genes reported for species. How- the expression pattern of genes. For instance, the SNP
+ever, the number of ZfCCCH genes detected in Medi- mutations in the coding region of Glyma12g13300 re-
+cago truncatula, Phaseolus vulgaris and Vigna sulted in early termination of amino acids translation in
+unguiculata (50, 43 and 49, respectively), was less than a different haplotypes, leading to the changes or loss of
+half compared with that in soybean (116). Meanwhile, gene function (Fig. 10, Table S14), thus affecting the oil
+the genome sizes of M. truncatula, P. vulgaris and V. synthesis and metabolism. In addition, Glyma12g13300
+unguiculata (about 500 Mb, 587 Mb, 620 Mb) are about and Glyma12g3660 showing high and specific expression
+half to that of soybean (about 1.1 Gb), suggested that the in seed (Fig. 6), have variations in both the coding and
+number of zf CCCHS was related to genome size in its promoter regions (Table S14), suggested they may affect
+relative species. Phylogenetic analysis showed that the the synthesis of oil in wild and cultivated soybeans
+relationships between legume species and soybean were through functional variation and expression regulation.
+closer than Arabidopsis and rice. Further, each fCCCH Moreover, In the study of Li, et al. [24], GmZF351 (Gly-
+of the three legume species may find at least one homo- ma06g44440), encoding tandem CCCH zinc finger pro-
+log zf CCCH gene in soybean, suggested that soybean teins, was reported as a domestication-selective regulator
+experiences an independent Glycine WGD event during that was involved in improving seed oil accumulation
+the evolution of legumes. This was confirmed by further without decreasing seed size in both transgenic Arabi-
+analyses of genome-wide duplication (GWD), homolo- dopsis and transgenic soybean plants through the activa-
+gous, and historical duplication events of Gmzf CCCH tion of lipid biosynthesis-related genes. Interestingly, the
+genes. Our results revealed that the zf CCCH genes of association between Glyma06g44440 and oil-related
+soybean are an ancient gene family that expanded as traits was not significant in the GWAS of this study,
+early as 2 150 Mya ago during the Y WGD event and probably owning to population differences. The Gly-
+continued to expand in subsequent legume WGD and ma12g13300 and Glyma12g33320 had been proved to be
+Glycine WGD events, and 57.4% of gene pairs (39 of 68) domesticated genes associated with oil content, which
+of soybean fCCCH genes were divergence during the were homologue with Glyma06g44440, suggested they
+Glycine genus WGD event. Synteny analysis and the may have similar functions or regulation mode in soy-
+physical location of Gmzf CCCH genes show that seg- bean oil accumulation as Glyma06g44440. The SNP vari-
+mental duplications (75%) were the main mechanisms of ations at promoter region or 5' UTR of Glyma17g12510,
+2fCCCH gene duplication, which is consistent with the Glymal0g02540, Glyma10g02550, Glyma12g01340 and
+analysis of CCCH families in Arabidopsis, rice and maize Glyma12g01350 may affect the synthesis of oil in the de-
+[10]. Furthermore, several multiplicons (or blocks) of seg- velopment of seed in wild and cultivated soybeans
+mental duplication gene pairs between chromosomes were through expression and transcription regulation (Table
+detected, showing the regional collinearity between chro- S14). Although the function of the detected domesti-
+mosomes (such as Gm19 and Gm03, Gm20 and Gm10, as cated genes has been predicted by bioinformatic analyses
+well as Gm05 and Gm17) (Fig. 3), similar results were re- and supported by multiple data in this study, their spe-
+ported in different studies [29, 32, 33], verifying the dupli- cific roles and mode of action need to be investigated by
+cation and diploidization events in soybean genome further intensive functional studies, such as the trans-
+evolution, as well as chromosomal rearrangements which genic and biological approaches.
+was mentioned in Schmutz, et al. [29].
+The co-selection of seed oil and protein content in the
+Several Gmzf CCCHS detected undergone selection
+domestication of soybean and the utilization of seed oil
+during the domestication of soybeans might be involved related elit haplotypes of Gmzf_CCCH genes in soybean
+in regulation of soybean oil synthesis in different ways
+breeding
+The expression profiles of Gmzf_CCCHS, GWAS and Agronomic traits of soybean have undergone strong arti-
+haplotype analysis showed that 8 genes (Glymal2g13300, ficial selection during the domestication process and
+Glyma12g33320, Glyma12g36600, Glymal7g12510, Gly- modern breeding practices, such as the greatly increased
+ma10g02540, Glyma10g02550, Glyma12g01340, and Gly- seed oil content from wild to landrace, and further to
+ma12g01350) were detected as domestication genes cultivated soybean [24, 45-47]. In this study, a total of 8
+involved in regulation of oil synthesis during the domes- Gmzf CCCH genes were detected as domestication
+tication of soybeans (Table S7, Fig. S1 A). The genes genes involved in regulation of oil synthesis during the
+with different functional mutations in population may domestication of soybeans, among which, Gly-
+result in phenotypic variances through different way. ma12g13300, Glyma12g33320 and Glymal2g36600 were
+The mutations in the coding region affect the amino significantly associated with oil and protein content, the
+acids translation, which lead to gene function change or haplotype analysis showed that the frequency of
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 15 of 19
+haplotype with high-oil / low-protein content (Hapl and http.//hmmer.org). To avoid missing GmzfCCCH fam-
+Hap4) were increased from wild to cultivated soybean ily members, the new HMM profile was constructed by
+(Fig. 10 and Fig. S1), suggested that co-selection exists hmm-build using an aligned file of a high-quality protein
+between oil and protein content. That could be ex- set (E value <1 x 10 20) in MUSCLE [48], and was used
+plained by the following reasons: one is pleiotropism, as the query to search for all the Gmzf_CCCH members
+these genes with higher expression during soybean seed (E value < 0.001) in soybean. All the obtained protein se-
+development, are likely to be transcription factor in- quences were submitted to the PFAM databases (http:l1
+volved in regulating downstream genes and pathways pfam.xfam.org) and SMART domain search database
+that affecting oil synthesis and protein accumulation; the (htrpJ/smartembl.de/smart/batch.pl) to confirm the
+other is linkage drag, these oil-related genes are located structural integrity of the zf_CCCH domain [49]. Finally,
+in a strong domestication region (or linkage bloke, LD) the physical and chemical properties of the Gmzf_CCCH
+where they co-exist other genes controlling protein syn- protein sequences, including the number of amino acids
+thesis, therefore, the protein content is co-selected dur- (NAA), molecular weight (MW), and isoelectric point
+ing the domestication of oil content; another is the (theoretical pl), were calculated using the online ExPASy
+correlation between traits, as the main qualitative com- tool Oepulndepyegtempu.ep [50]. The sub-
+ponents of soybean seeds, the content of oil and protein cellular localization of GmzfCCCH proteins was pre-
+showed significant negative correlation with each other, dicted via WOLF PSORT (htps/wolfpsort.hgcip) [51).
+therefore, during the process of positive domestication The non-redundant, confirmed genes encoding proteins
+of oil from wild to cultivated species, protein content with zf_CCCH domains were assigned as the family of
+will obviously be subject to certain negative selection, Gmzf CCCH genes.
+even the protein- and the oil-related genes are not in the
+same domesticated region. Thus, strong signatures of se- Conserved sequence and phylogenetic analyses
+lection associated with key traits can also cause CO- It is important to analyze new gene families with known
+selection for related traits even in different linkage established families during phylogenetic analyses. There-
+blokes (LDs) or nonrelated traits in the same LD with fore, to further characterize the zf CCCH genes in soy-
+undesirable effects, resulting in what commonly known bean and its relationship with other legumes such as
+as linkage drag [47].
+Medicago truncatula, Phaseolus vulgaris and Vigna
+In this study, although these genes still need further unguiculata, the zf_CCCH proteins of Arabidopsis and
+investigation, the detected oil synthesis-related genes rice were added to establish the phylogenetic relation-
+and their elite haplotypes could be potentially used for ship following the references of Rameneni, et al. [28]
+oil improvement in soybean breeding. The frequency of and Upadhyay, et al. [52]. The zf_CCCH protein se-
+excellent haplotypes for high oil content continually in- quences of the Medicago truncatula (50 2f_CCCHS),
+creased from wild to cultivated soybean. For example, Phaseolus vulgaris (43 fCCCHS) and Vigna unguicu-
+the frequencies of oil-related excellent haplotypes Hapl lata (49 zf CCCHS) were downloaded from the database
+and Hap4 of Glyma12g33320, Hap4 of Glymal2g13300 of plant genomics resource Phytozome 12 using the tool
+and Hap3 of Glymal2g36600 reached at 82.5 and 7.5%, of Biomart with the Pfam ID:PF00642 (https:/1
+88.2, and 95.0% in cultivated soybean, suggested that ex- phytozome.jgidoe.gov/biomart). The zf_CCCH protein
+cellent haplotypes could be further utilized during the sequences of Arabidopsis (68 2f_CCCHS) and rice (67 zf
+improvement of soybean seed oil. However, the selection CCCHS) was from Wang, et al. [10]. Multiple alignments
+of target traits may result in negative selection of related of all the conserved zf_CCCH protein sequences of soy-
+traits due to pleiotropic trait correlations or LD drag, bean and the three legumes with that of Arabidopsis and
+therefore, it is necessary to consider other important re- rice were performed using MUSCLE [48] with default
+lated traits when selecting target traits or utilizing the parameters. A phylogenetic tree was constructed using
+elite haplotypes in soybean breeding.
+the IQ-TREE software via a maximum-likelihood
+method with 1000 bootstrap replications [53]. Figtree
+Materials and methods
+1.4.4 (htp/tre-bioedacul/software/igtrel) was used
+Identification of zf_CCCH protein in soybean
+to optimize visualization of the phylogenetic tree and
+The HMM profile of the zf_CCCH family (PF00642, classify sequences to groups.
+Zinc finger C-x 8-C-x 5-C-x 3-H type (and similar)), was
+downloaded from Pfam (htpl/pfamxfam.org), which Chromosomal locations and Synteny analysis
+was used to genome-wide search for the Gmzf_CCCH The information of Gmzf_CCCH gene loci on soybean
+protein in the local protein database of soybean chromosomes was extracted according to the annotation
+(Wm82.al.v1.1, download at Soybase, https://www. gff3 file (Wm82.al.vl.1) using a Perl script. Multiple
+Soybase.org), using HMMER3.1 software (HMMER 3.1, Collinearity Scan toolkit (MCScanX) was adopted to
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 16 of 19
+analyze the gene Synteny with following parameters (five identified whether the Gmzf_CCCH genes were in the
+genes required to call a collinear block based on the pre- domestication or improvement regions or not based on
+vious all-to-all BLASTP result E-value <1 x 10-5) [31]. physical position. The results of QTLs and GWAS in
+Tandem duplication events were defined as two or more soybean were downloaded from Soybase (https://www.
+adjacent homologous genes located on the same Soybase.org/). According to Wm82.al.vl.1 genome an-
+chromosome without any intervening genes, while seg- notation, the QTLS around GmzfCCCH genes (up-
+mental duplication genes were defined as those located stream and downstream 100 kb) were anchored on the
+in the same synteny blocks. The chromosomal distribu- corresponding physical position of genome. The distri-
+tion, segmental duplication of GmzfCCCH genes were bution of GmzfCCCH genes, domestication and im-
+visualized by the 'circlize' package of R program [54]. provement regions and related QTLs were visualized by
+The ratio of nonsynonymous substitutions per nonsy- the 'circlize' package of R program [54].
+nonymous site (Ka) to synonymous substitutions per SNP (Single nucleotide polymorphism) data gathered
+synonymous site (Ks) was computed using the function from resequencing of 302 soybeans (including Glycine
+'Simple Ka/Ks Calculator' of TBtools [55]. Then, the soja and Glycine max (landrace and improved cultivar)),
+mean Ks values (T = Ks/2X) were used to calculated the downloaded under SRA: SRP045129 of NCBI dbSNP,
+estimated date (MYA, million years ago) of each duplica- were used to detected the genetic variation of Gmzf
+tion event, assuming clocklike rates (A) of6.1 x 10 9 [56]. CCCH genes in 302 soybeans [39]. The SNPs of Gmzf
+CCCH genes (including upstream promoter 2kb and
+Characterization of gene structure, protein domain, and gene sequence) in 302 soybeans with missing data > 10%
+motif
+or MAF (Minor Allele Frequency) < 5% were filtered. In
+The domains of 116 members of Gmzf_CCCH gene family addition, the lines in each panel for more than 25%
+in soybean were confirmed by SMART domain search missing data were also filtered. Marker missing data was
+database Osplhemutemtilewurheude [49]. The imputed using the LD-kNNi genotype imputation
+conserved motifs of the GmzfCCCH gene family in soy- method [59] in TASSEL 5.25 [60]. The SNP data of
+bean were determined by the online MEME suite program Gmzf_CCCH genes in 302 soybeans were further used to
+(htp./meme-suite.org [57]. The gene structure, protein analyze the genetic diversity and construct the phylogen-
+domain, and motif of the GmzfCCCH genes were visual- etic tree using IQ-TREE software [53].
+ized using the 'Gene Structure View' function of TBtools
+[55] according to the annotation gff3 files of Wm82.al.vl.1, GWAS between Gmzf_CCCH genes and height, seeds
+and the protein domain file of SMART domain search as weight, protein and oil related traits in soybean
+well as the Motif result files of MEME suite.
+In order to verify the relationship between Gmzf_CCCH
+genes and nearby QTL, and to reveal the functional phe-
+Identification of putative cis-acting regulatory elements
+notypes that these genes may affect, a GWAS between 9
+The 2kb upstream sequences of the Gmzf CCCH genes traits (including height, seeds weight, protein, oil contain
+were extracted from the soybean genome reference and five fatty acids) of the 164 soybeans (from 302 soy-
+(Wm82.al.v1.1) using the 'GTF/GFF3 Sequences Extract' beans) download from GRIN (htps/inpgswebars-grin.
+function of TBtools [55], and submitted to PlantCARE gov/) and the corresponding SNPs data of GmzfCCCH
+(htrpullbioinformaticspsbugentbe/webtools/plantcare) genes from the resequencing data of 302 soybeans were
+html/) for the prediction of potential cis-acting elements. performed using mix line model of Tassel 5.25 [60]. The
+Q matrix were calculated by Structure 2.3.4 [61] and the
+Expression profiles of Gmzf_CCCH genes
+kinship were calculated by default method of Tassel 5.25
+To analyze the expression profiles of Gmzf CCCH genes in [60]. The threshold of significant associations was set as
+different tissues, the public RNA-seq data, including data LOD X 2.5 (-log(p) 22.5) following the references [62-
+files of Severin, et al. [36], GSE42871 [38], E-MTAB-4270 64]. The Gmzf_CCCH genes and their upstream 2 Kb se-
+[37], were obtained from Soybase (https/www.Soybase. quence in the released 30 soybean genomes (26 released
+org/), National Center for Biotechnology Information Gene by Liu, et al. [44] and 4 from soybase, including wild and
+Expression Omnibus Owpulhewwadhainahgwipel cultivated soybeans) were extracted for variation analysis
+query/acc.cgi) and Expression Atlas of EMBL-EBI (https:11 of gene sequence.
+www.ebiac.uk/gxa/experiments), then visualized using the
+'pheatmap' package of R software [58].
+Hap analysis of Gmzf_CCCH genes in soybeans
+The haplotype analysis of the Gmzf CCCH genes among
+Selective regions and QTLS around GmZf_CCCH genes
+the 164 of 302 soybean accessions were performed using
+According to the results of soybean domestication and the SNP data on GmzfCCCH genes and the promoter se-
+improvement regions in previous reports [39-42], we quences by 'CandiHap' package [65] of R, and the
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 17 of 19
+difference of phenotype corresponding to different haplo- Acknowledgments
+types of genes were tested with TukeyHSD method [66]. We are greatly indebted to the anonymous reviewers for their critical, helpful
+The
+of
+landraces and
+and constructive comments on this manuscript. We also sincerely thank Dr.
+frequency haplotype among wild,
+cul- Yu-juan Zhang at Murdoch University for her editing and improving the Eng-
+tivar soybean were also calculated. The results were visual- lish of this paper.
+ized using 'ggplot2' [67] and 'ggpubr' [68] packages ofR.
+Authors' contributions
+Conclusions
+Conceptualization, XH. and JZ; Family member detection and analysis, XH;
+RNA-sed data down load and analysis, XH. and JZ; SNP data acquisition J.Z;
+We identified and characterized the zf_CCCH gene family GWAS and haplotype analysis, XH; visualization, J.Z and XH; writing original
+in soybean. A total of 116 GmzfCCCHS were obtained draft, XH; review and editing, JZ All authors have read and agreed to the
+and classified into subfamilies 1-13 after systematic inves- published version of the manuscript. The author(s) read and approved the
+final manuscript.
+tigations. Gene duplication and expansion analysis showed
+that tandem and segmental duplications contributed to Funding
+the expansion of the GmzfCCCH gene family, and seg- This research was funded by the Natural Science Foundation of Zhejiang
+mental duplication play the main role. Purifying selection Province, China (LQ20C130001), the Program for Research and Development
+of the Zhejiang A&F University (2019FR0327).
+was the major driving force in Gmzf_CCCH gene family
+evolution. The analyses of conserved domains and motifs Availability of data and materials
+suggested that, in general, adjacent members collinear (or The soybean reference genome assembly (Wm82.a1.v1.1) and its GFF3 gene
+duplicated) gene pairs in the phylogenetic tree had annotation, as well as the Gmzf_CCCH coding sequences and protein
+sequences, are available Soybase website Omtps/www.Soybaseorg), The
+common motif compositions. The Gmzf CCCHS were released 30 soybean genomes (26 released by Liu, etal [44)) are available
+involved in regulating various biological processes, such as Soybase website Ontps/www.Soybaseorg). The HMM profile of the
+plant growth and development, phytohormone-mediated zf_CCCH family (PF00642, Zinc finger C-x 8-C-x5-C-x 3-H type (and similar),
+was downloaded from Pfam database (http/pfamxfam.org/ family/
+metabolism, and defensive responses to various abiotic PF00642). The Zf_CCCH proteins of Arabidopsis and rice were download from
+and biotic stresses. The expression patterns of Gmzf the database of The Arabidopsis Information Resource (TAIR, https//www.
+CCCH genes were tissue-specific, the highly similar genes arabidopssorg/indedispl and Rice Genome Annotation Project website
+Omp/ieginbsdogymudu) respectively, according to the reference of
+in sequence, especially collinear (or duplicated) gene pairs Wang, et al. [10]. The expression profiles of Gmzf_CCCH genes in different
+in one cluster clad exhibited similar expression patterns. tissues at different developmental stages are available on Soybase (https//
+The GWAS and haplotype analysis for GmzfCCCH genes www.Soybase.org) [36], National Center for Biotechnology Information Gene
+Expression Omnibus under the accession number of GSE42871 (https//www.
+in the 164 soybeans of 302 resequencing accessions in rchininnhgoulgeolueyacglace-GEQ87) [38], and the Expression
+Zhou, et al. [39], certificated 5 genes and newly found six Atlas of EMBL-EBI under the accession number of E-MTAB-4270 (https://
+genes in the domesticated region. And in addition, 11 wwweblacul/gsa/experimentsE-MTAB -4270) [37], respectively. The public
+results of QTLS and GWAS in soybean were downloaded from Soybase
+genes were detected as domestication genes involving in Ontps/www.Soybaseorg), The SNP (Single nucleotide polymorphism) data
+the regulation of oil and protein synthesis and metabolism for Gmzf_CCCH genes gathered from resequencing of 302 soybeans was
+or plant growth in soybean. This study provides a scien- downloaded from Figshare database Oealhghwcomindhadosen,
+rexquendrg.pPOK0717813) [39]. The phenotype data (including height,
+tific foundation for the comprehensive understanding, seeds weight, protein, oil contain and five fatty acids) of the 164 soybeans
+future cloning and functional studies of zf_CCCH genes (from 302 soybeans) download from GRIN Ompslngswebasgingow7 ac-
+in soybean, and provides a systematic and effective cording to the accession ID of Table S11.
+method for identifying family genes, predicting and study- Declarations
+ing the function of family gene members, meanwhile, it
+was also be helpful for the improvement of soybean with Ethics approval and consent to participate
+high oil content using the Gmzf_CCCH genes.
+Not applicable.
+Abbreviations
+Consent for publication
+zf_CCCH: CCCH zinc finger; Gmzf_CCCH: Glycine max CCCH zinc finger;
+Not applicable.
+GWAS: Genome-Wide Association Studies; MCScanX: Multiple Collinearity
+Scan toolkit; LOD: Logarithm of Odds; QTL: Quantitative Trait Loci;
+Competing interests
+WGD: Whole genome duplication; MeJA: Methyl Jasmonate; SA: Salicylic
+No competing interests.
+Acid; ABA: Abscisic Acid; GA: Gibberellins; IAA: Auxin; MW: Molecular Weight;
+pl: Protein Isoelectric Point; NAA: Amino Acids; MAF: Minor Allele Frequency; Received: 7 April 2021 Accepted: 7 June 2021
+SNP: Single Nucleotide Polymorphism
+Published online: 07 July 2021
+Supplementary Information
+References
+The online version contains supplementary material available at https//doi. 1. Peng X, Zhao Y, Cao J, Zhang W, Jiang H, Lix, et al CCCH-type zinc finger
+009/018612640107839
+family in maize: genome-wide identification, classification and expression
+profiling under abscisic acid and drought treatments. PLOS One. 2012;7(7):
+Additional file 1.
+e40120. htpsl/doiorg710137l/,uralpone00x0120.
+2. Blackshear PJ. Tristetraprolin and other CCCH tandem zinc-finger proteins in
+Additional file 2.
+the regulation of mRNA turnover. Biochem Soc Trans. 2002;30(Pt 6):945-52.
+heplibsognaioobeoos
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 18 of 19
+3. Nakano T, Suzuki K Fujimura T, Shinshi H. Genome-wide analysis of the ERF 24. Li QT, Lu X, Song QX, Chen HW, Wei W, Tao JJ, et al. Selection for a Zinc-
+gene family in Arabidopsis and rice. Plant Physiol. 2006;140(2)411-32
+Finger Protein Contributes to Seed Oil Increase during Soybean
+Mepu/ssegraigegaisony
+Domestication. Plant Physiol. 201717314,2208-24. htps/doiorg/101104/
+4. Zhang Y, Wang L The WRKY transcription factor superfamily: its origin in
+pp.16.01610.
+eukaryotes and expansion in plants. BMC Evol Biol. 2005;5(1):1. https//doi 25. Wilson RF. Soybean: market driven research needs: Genetics and genomics
+09/1011861471-214851.
+of soybean. Springer; 2008. p. 3-15.
+5. Lijavetzky D, Carbonero P, Vicente-Carbajosa J. Genome-wide comparative 26. Yuan S, Xu B, Zhang J, Xie Z, Cheng Q, Yang Z, et al Comprehensive
+phylogenetic analysis of the rice and Arabidopsis Dof gene families. BMC
+analysis of CCCH-type zinc finger family genes facilitates functional gene
+Evol Biol. 2003;3(1):17. heplsograniseneiglesi
+discovery and reflects recent allopolyploidization event in tetraploid
+6. Kosarev P, Mayer KF, Hardtke CS. Evaluation and classification of RING-finger
+switchgrass. BMC Genomics. 2015;16(1):129. htps/6siong7101188126
+domains encoded by the Arabidopsis genome. Genome Biol. 2002:3(4):RESE
+015-1328-4.
+ARCH0016. htpsl/dologn1ai18sgb.20234rexeach0016
+27. Pradhan S, Kant C Verma S, Bhatia S. Genome-wide analysis of the CCCH
+7. Zhang C Zhang H, Zhao Y, Jiang H, Zhu S, Cheng B, et al Genome-wide
+zinc finger family identifies tissue specific and stress responsive candidates
+analysis of the CCCH zinc finger gene family in Medicago truncatula. Plant
+in chickpea (Cicer arietinum L). PLOS One. 2017127,e0180469. https//doi
+Cell Rep. 201332(10X1543-55. RusgnstRnNObiee4
+0gnai37t/oursipopecdtigesz
+8. Chai G, Hu R, Zhang D, Qi iG, Zuo R, Cao Y,et tal Comprehensive analysis of 28. Rameneni JJ, Dhandapani V, Paul P, Devaraj SP, Choi SR, Yi SY, et al
+CCCH zinc finger family in poplar (Populus trichocarpa). BMC Genomics.
+Comprehensive analysis of CCCH zinc -finger-type transcription factors in the
+2012;13(1):253. ImwbscgpahNwheng431
+Brassica rapa genome. Hortic Environ Biotechnol 2018,59(5):729-47. https//
+9. Liu S, Khan MR, Liy, Zhang J,Hu C Comprehensive analysis of CCCH-type
+dsi0gn0i00a1380807
+zinc finger gene family in citrus (Clementine mandarin) by genome-wide
+29. Schmutz J, Cannon SB, Schlueter J,Ma J, Mitros T, Nelson W, et al Genome
+characterization. Mol Gen Genomics. 2014289(5)855-72 https//doiorg/10.1
+sequence of the palaeopolyploid soybean. Nature. 20104637278:178-83
+007500438-014-08589
+hmepliesiognoioshwudes
+10. Wang D, Guo Y, Wu C Yang G, LiY, Zheng C Genome-wide analysis of
+30. Moore RC, Purugganan MD. The early stages of duplicate gene evolution.
+CCCH zinc finger family in Arabidopsis and rice. BMC Genomics. 2008,9(1):
+Proc Natl Acad Sci USA 200310026:15682-7. htps/doiorg7101073/pna
+44. Reulssegraliwghenhgles4
+$2535513100.
+11. Bai C Tolias PP. Cleavage of RNA hairpins mediated by a developmentally 31. Wang Y, Tang H, Debarry JD, Tan X, LiJ, Wang X, et al MCScanX: a toolkit
+regulated CCCH zinc finger protein. Mol Cell Biol. 1996;16(12,6661-7.
+for detection and evolutionary analysis of gene synteny and collinearity.
+heulisograngnais1ae8.
+Nucleic Acids Res. 2012:40(7):e49. Impldsogrologhalgetigt
+12. LiJ,Jia D, Chen X HUA1, a regulator of stamen and carpel identities in
+32. Zhang Z, Zhao Y, Feng X, Luo Z, Kong S, Zhang C et al Genomic, molecular
+Arabidopsis, codes for ranuclear RNA binding protein. Plant Cell. 2001;
+evolution, and expression analysis ofNOX genes in soybean (Glycine max).
+13(10)2269-81. hepuidsigpnationecoioo
+Genomics 201911147619-28 Imaudsgrawbisgpatisons
+13. Delaney KJ, Xu R, Zhang J, LiQQ, Yun KY, Falcone DL, et al Calmodulin
+33. DuJ, Tian Z, Sui Y, Zhao M, Song Q Cannon SB, et al. Pericentromeric
+interacts with and regulates the RNA-binding activity of an Arabidopsis
+effects shape the patterns of divergence, retention, and expression of
+polyadenylation factor subunit Plant Physiol. 2006140(431507-21. https//
+duplicated genes in the paleopolyploid soybean. Plant Cell 2012;24(1):21-
+doiognianio/palosoneg.
+32. kepulssograiosecliguns
+14. Berg JM, Shi Y. The galvanization of biology: a growing appreciation for the 34. Severin AJ, Cannon SB, Graham MM, Grant D, Shoemaker RC Changes in twelve
+roles of zinc. Science. 199627105252M1081-5. htps/doiorg/101126/
+homoeologous genomic regions in soybean following three rounds of
+science.271.52521081.
+polyploidy. Plant Cell. 2011239)3129-36 hepulisogrlaiosreligesh
+15. Liz, Thomas TL PE11, an embryo-specific zinc finger protein gene required 35. Schlueter JA Lin JY, Schlueter SD, Vasylenko-Sanders IF, Deshpande S, YiJ,
+for heart-stage embryo formation in Arabidopsis Plant Cell 1998;10(3):383-
+et al. Gene duplication and paleopolyploidy in soybean and the
+98. hmpldsognaitosecio3s
+implications for whole genome sequencing. BMC Genomics. 2007;8(1):330.
+16. Lin PC, Pomeranz MC, Jikumaru Y, Kang SG, Hah C Fujioka S, et al The
+heusognoniwrenalesg
+Arabidopsis tandem zinc finger protein AtTZF1 affects ABA- and GA-
+36. Severin AJ, Woody JL, Bolon YT, Joseph B, Diers BW, Farmer AD, et tal RNA-
+mediated growth, stress and gene expression responses. Plant J. 2011,65(2):
+Seq atlas of Glycine max a guide to the soybean transcriptome. BMC Plant
+253-68. htps/6giog7101/1365313X20100419X
+Biol. 2010;10(1):160. htps/doiorg/101186/1471-229-10-160.
+17. Lee SJ, Jung HJ, Kang H, Kim SY. Arabidopsis zinc finger proteins AtC3H49/ 37. Shen Y, Zhou Z, Wang Z, Li W, Fang C Wu M, et al Global dissection of
+AtTZF3 and AtC3H20/AtTZF2 are involved in ABA and JA responses. Plant
+alternative splicing in paleopolyploid soybean. Plant Cell. 2014:26(3):996-
+Cell Physiol. 2012:5314)673-86. impldsograiosegpeus
+1008. htps/dolongn1010s/pcl 114.122739.
+18. Bogamuwa S, Jang JC The Arabidopsis tandem CCCH zinc finger proteins 38. Jones SI, Vodkin LO. Using RNA-Seq to profile soybean seed development
+AtTZF4, 5 and 16 are involved in light-, abscisic acid- and gibberellic acid-
+from fertilization to maturity. PLOS One. 2013;8(3)e59270. https//doi.org/1
+mediated regulation of seed germination. Plant Cell Environ. 2013;36(8):
+01371/gumalpone059270.
+1507-19. Ntpeledsiogranit/pelze
+39. Zhou Z,Jiang Y,Wang Z,Gou Z, Lyu J,Li W, et al Resequencing 302 wild
+19. SunJ, Jiang H, Xu Y, LiH, Wu X, Xie Q, et al The CCCH-type zinc finger
+and cultivated accessions identifies genes related to domestication and
+proteins AtSZF1 and AtSZF2 regulate salt stress responses in Arabidopsis.
+improvement in soybean. Nat Biotechnol. 2015:3314)408-14. https//doi.
+Plant Cell Physiol. 200748(8)1148-58. hepulisiogrlioepbonos
+org/10.1038/nbt3096
+20. Cheng Y, Kato N, Wang W, Li J, Chen X Two RNA binding proteins, HEN4 40. LiYH, Zhao SC, Ma JX, Li D, Yan L, LiJ,et al Molecular footprints of
+and HUA1, act in the processing of AGAMOUS pre-mRNA in Arabidopsis
+domestication and improvement in soybean revealed by whole genome re-
+thaliana. Dev Cell 2003:4(1):53-66. hmpulasgnalosatsesenog
+sequencing. BMC Genomics. 2013;14(1):579. htpslidbiongnattes14nhzn
+)00399-4.
+64-14-579.
+21. Kong Z,Li M, Yang W, Xu W,Xue YA novel nuclear-localized CCCH-type 41. Zhou L, Wang SB, Jian J, Geng QC, Wen J, Song Q, et al. Identification of
+zinc finger protein, OSDOS, is involved in delaying leaf senescence in rice.
+domestication-related loci associated with flowering time and seed size in
+Plant Physiol. 20061414:1376-88 Meu/ssgyatioNpategnL
+soybean with the RAD-seq genotyping method. Sci Rep. 20155(1):9350.
+22. Jan A, Maruyama K Todaka D, Kidokoro S, Abo M, Yoshimura E, et al
+hepal/6sognatogwgosg
+OSTZF1, a CCCH-tandem zinc finger protein, confers delayed senescence 42. Zhou L, Luo L, Zuo JF, Yang L, Zhang L, Guang X et al Identification and
+and stress tolerance in rice by regulating stress-related genes. Plant Physiol.
+validation of candidate genes associated with domesticated and improved
+2013;1613M1202-16 heulisogranioegalizzss
+traits in soybean. Plant Genome. 2016,9(2):1-17. htps/doiorg103835/pla
+23. Guo YH, Yu YP, Wang D, Wu CA, Yang GD, Huang JG, et tal GhZFP1, a novel
+ntgenome2015090090
+CCCH-type zinc finger protein from cotton, enhances salt stress tolerance 43. Lu X, Li QT, Xiong Q, Li W, Bi YD, Lai YC, et al. The transcriptomic signature
+and fungal disease resistance in transgenic tobacco by interacting with
+of developing soybean seeds reveals the genetic basis of seed trait
+GZIRD21A and GZIPR5. New Phytol. 2009:183(1)62-75. https//doiorg/1
+adaptation during domestication. Plant J. 2016,86(6)530-44. https//doi.
+011/,169837209088
+org/10.111/p.13181.
+
+
+
+Hu and Zuo BMC Genomics (2021) 22:511
+Page 19 of 19
+44. Liu Y,Du H,LiP, Shen Y, Peng H, Liu S, et al Pan-genome of wild and
+65. Lix, Shi Z, Qie Q, Gao J, Wang X, Han Y.CandiHap: a toolkit for haplotype
+cultivated soybeans Cell 2020:182()162-76 e13. htps/doiorg/101016
+analysis for sequence of samples and fast identification of candidate causal
+cell2020.05.023.
+gene (s) in genome-wide association study. BioRxiv. 2020. https//doi.org/1
+45. Sedivy EJ, Wu F, Hanzawa Y. Soybean domestication: the origin, genetic
+01102020027967539
+architecture and molecular bases. New Phytol. 201721402)539-53. https!l 66. Abdi H, Williams LJ. Tukey's honestly significant difference (HSD) test.
+doiongn1011/nph1418.
+Encyclopedia Res Design. 2010;3:583-5.
+46. Zhang D, Zhang HY, Hu ZB, Chu SS, Yu KY, Lv LL, et al. Artificial selection on 67. Wickham H. ggplot2: elegant graphics for data analysis. springer; 2016.
+GmOLEO1 contributes to the increase in seed oil during soybean
+68. Kassambara A, Kassambara MA. Package 'ggpubr; 2020.
+domestication. PLOS Genet 2019,150,e1008267. htps/dolorg/101371
+journalpgen.1008267.
+Publisher's Note
+47. Qian L, Qian W, Snowdon RJ. Haplotype hitchhiking promotes trait
+Springer Nature remains neutral with to
+in
+coselection in Brassica napus. Plant Biotechnol IJ. 2016;140):1578-88 https!l
+regard jurisdictional claims
+doiorg/10i11/pb.1z521.
+published maps and institutional affiliations.
+48. Edgar RC. MUSCLE: multiple sequence alignment with high accuracy and
+high throughput Nucleic Acids Res. 20632981792-7.908s9101
+093/nar/gkh340.
+49. Schultz J, Copley RR, Doerks T,Ponting CP, Bork P. SMART: :a web-based tool
+for the study of genetically mobile domains. Nucleic Acids Res. 2000;28(1):
+231-4. imepldsognoioshwr2ai2a1
+50. Gasteiger E, Hoogland IC Gattiker A, Wilkins MR, Appel RD, Bairoch A
+Protein identification and analysis tools on the ExPASy server. In: The
+proteomics protocols handbook: Springer 2005. p. 571-607.
+51. Horton P, Park KJ, Obayashi T, Fujita N, Harada H, Adams-Collier CJ, et al.
+WOLF PSORT: protein localization predictor. Nucleic Acids Res. 2007;35(Web
+Server issue)W585-7. implidsogroioshuigendse
+52. Upadhyay RK Edelman M, Mattoo AK Identification, phylogeny, and
+comparative expression of the lipoxygenase gene family of the aquatic
+duckweed, Spirodela polyrhiza, during growth and in response to methyl
+Jasmonate and salt. Int J Mol Sci 202021(24)9527. https/doiorg/103390/
+ijms21249527.
+53. Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ. IQ-TREE: a fast and
+effective stochastic algorithm for estimating maximum-likelihood
+phylogenies Mol Biol Evol. 201532(1):268-74. https/doiorg/10.109/
+molbev/msu300.
+54. Gu Z, Gu L, Eils R, Schlesner M, Brors B. Circlize implements and enhances
+circular visualization in R Bioinformatics. 201430019)2811-2 https//doi.
+0pf0iobanhomuoteadn)
+55. Chen C Chen H, Zhang Y, Thomas HR, Frank MH, He Y, et al TBtools: An
+integrative toolkit developed for interactive analyses ofbig biological data.
+Mol Plant. 2020;1 13(8):1194-202. htps/dolorg/101016jmolp202006009.
+56. Lynch M, Conery JS. The evolutionary fate and consequences of duplicate
+genes Science. 20002905494/1151-5. hepuidsognonzadicbeezg
+5494.1151.
+57. Bailey TL, Williams N, Misleh CLi WW. MEME: discovering and analyzing
+DNA and protein sequence motifs. Nucleic Acids Res. 2006;34(Web Server
+issue)W369-73. hepsldsiograioghutgligs
+58. Kolde R, Kolde MR. Package 'pheatmap' R Package 2015;1(7):790.
+59. Money D, Gardner K Migicovsky Z, Schwaninger H, Zhong GY, Myles S.
+Linklmpute: fast and accurate genotype imputation for nonmodel
+organisms. G3. 20155(11):2383-90. meulibsiognaiswalisantez
+60. Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES.
+TASSEL: software for association mapping of complex traits in diverse
+samples Bioinformatics. 229381499089700
+bioinformaticsiotm308
+61. Pritchard JK Stephens M, Donnelly P. Inference of population structure
+using multilocus genotype data. Genetics. 2000,155(2)945-59 https//doi.
+009f10109/geneticv155295,
+62. An Y, Chen L, Li YX, Li C Shi Y, Song Y, et al Candidate loci for the kernel
+row number in maize revealed by va combination of transcriptome analysis
+Ready to submit your research? Choose BMC and benefit from:
+and regional association mapping. BMC Plant Biol. 2019;19(1):201. https/l
+dsiognl0i8eslaoosi8li.
+fast, convenient online submission
+63. Hao D, Cheng H, Yin Z, Cui S, Zhang D, Wang H, et al Identification of
+: thorough peer review by experienced researchers sinyour field
+single nucleotide polymorphisms and haplotypes associated with yield and
+rapid publication on acceptance
+yield components in soybean (Glycine max) landraces across multiple
+support for research data, including large and complex data
+environments. Theor Appl Genet 2012;12403)447-58 https//doiorg/10.1
+types
+007500122-011-17190
+gold Open Access which fosters wider collaboration and dincreased citations
+64. Wu C, Mozzoni LA, Moseley D, Hummer W, Ye H, Chen P, et al. Genome-
+maximum visibilityfor your research: over 100M website views per year
+wide association mapping of flooding tolerance in soybean. Mol Breed.
+2020:40(1):1-14.
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions

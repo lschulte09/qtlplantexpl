@@ -1,0 +1,1136 @@
+Plant Biotechnology Journal
+gab
+OpenAccess
+SOB
+Plant Biotechnology Journal (2020) 18, pp. 389-401
+doi: 10.1111/pbi.13206
+Identification of loci controlling adaptation in Chinese
+soya bean landraces via a combination of conventional
+and bioclimatic GWAS
+Ying-hui Li' 5. Delin Li2,3, Yong-qing Jiao', James C. Schnable2.5,6 Yan-fei Li', Hui-hui Li', Huai-zhu Chen?,
+Hui-long Hong', I Ting Zhang?, Bin Liu', Zhang-xiong Liu', Qing-bo You*, Yu Tian', Yong Guo', Rong-xia Guan ,
+Li-juan Zhang', Ru-zhen Chang', Zhiwu Zhangs, Jochen Reif9, Xin-an Zhou*, Patrick S. Schnable2.3.6,10 and
+Li-juan Qiul*
+'The National Key Facility for Crop Gene Resources and Genetic Improvement (NFCRI)/Key Lab of Germplasm Utilization (MOA), Institute of Crop Sciences, Chinese
+Academy of Agricultural Sciences, Bejing, China
+2Data Biotech (Beijing) Co., Ltd., Beijing, China
+3Department of Plant Genetics and Breeding, China Agricultural University, Bejing, China
+4Key Laboratory of Oil Crop Biology (MOA), Oil Crops Research Institute of Chinese Academy of Agriculture Sciences, Wuhan, China
+SDepartmentof Agronomy and Horticulture, University of Nebraska-Lincoln, Lincoln, NE, USA
+6Data2Bio LLC Ames, IA, USA
+"Guangxi Academy of Agricultural Sciences, Nanning, China
+SDepartment of Crop and Soil Sciences, Washington State University, Pullman, WA, USA
+9Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany
+10Department of Agronomy, lowa State University, Ames, IA, USA
+Received 16 February 2019;
+Summary
+revised 24 June 2019;
+Landraces often contain genetic diversity that has been lost in modern cultivars, including alleles
+accepted 2 July 2019.
+that confer enhanced local adaptation. To comprehensively identify loci associated with adaptive
+*Correspondence (Tel./fax: +86 10
+traits in soya bean landraces, for example flowering time, a population of 1938 diverse landraces
+82105840; email qiulijuan@caas.cn)
+and 97 accessions of the wild progenitor of cultivated soya bean, Glycine soja was genotyped
+using tGBSO. Based on 99 085 high-quality SNPS, landraces were classified into three sub-
+populations which exhibit geographical genetic differentiation. Clustering was inferred from
+STRUCTURE, principal component analyses and neighbour-joining tree analyses. Using pheno-
+typic data collected at two locations separated by 10 degrees oflatitude, 17 trait-associated SNPS
+(TASS) for flowering time were identified, including a stable locus Chr12:5914898 and previously
+undetected candidate QTL/genes for flowering time in the vicinity of the previously cloned
+flowering genes, E1 and E2. Using passport data associated with the collection sites of the
+landraces, 27 SNPS associated with adaptation to three bioclimatic variables (temperature,
+daylength, and precipitation) were identified. A series of candidate flowering genes were
+detectedwithin linkage disequilibrium (LD) blocks surrounding 12 bioclimatic TASS. Nine of these
+TASS exhibit significant differences in flowering time between alleles within one or more of the
+three individual sub-populations. Signals of selection during domestication and/or subsequent
+Keywords: soya bean landrace,
+landrace diversification and adaptation were detected at 38 of the 44 flowering and bioclimatic
+flowering time, bioclimatic variable, TASS. Hence, this study lays the groundwork to begin breeding for novel environments predicted
+adaptation, associated SNP.
+to arise following global climate change.
+Introduction
+adaptation. Two approaches that have been used in other species
+to link genomic regions or loci to local adaptation include
+The widespread adoption of elite crop cultivars has resulted in genome-wide association studies (GWAS) to identify genes
+substantial increases in productivity. Adaptive differences among controlling variation in specific adaptive traits (Fournier-Level
+crop cultivars are prime examples of the impact of natural and et al., 2011; Hancock et al., 2011) and reverse ecological
+artificial selection on genetic polymorphisms. Therefore, one of approaches that use genome-wide scans (GWS) to identify genes
+the abiding goals of evolutionary genetics is to develop a better that exhibit significant differences in allelic frequencies indicative
+understanding of the genetic regulation of crop's environmental of selection among populations adapted to different environ-
+adaptation by identifying the genomic and geographic extent of ments (Beaumont and Balding, 2004; Gunther and Coop, 2013).
+o 2019 The Authors. Plant Biotechnology. Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd.
+389
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use,
+distribution and reproduction in any medium, provided the original work is properly cited.
+
+
+
+390 Ying-hui Li et al.
+The wild progenitor (Glycine soja Sieb.&Zucc.) of cultivated soya Results
+bean (Glycine max (L.) Merr.) is one potential source of alleles
+conferring adaption to new environments (Hymowitz and Newell, Polymorphism, Population Structure and Diversity
+1981; Li et al., 2013). G. soja is naturally distributed throughout We genotyped a total of 2368 soya bean accessions (Table S1),
+East Asia, including China, Korea, Japan and the far eastern including 112 annual wild soya bean selected from China, Korea,
+regions of Russia, ranged from 24 to 53°N (latitude), 97 to 143°E Russia and Japan to represent the ecogeographical range of
+(longitude) and 0 to 2650 m above sea level (altitude) (Xu et al., G. soja and 2256 Chinese landraces. The latter were selected to
+1989). However, adaptive alleles in wild accessions are often represent much of the phenotypic diversity and geographic
+linked with other loci that can confer undesirable agronomic traits distribution of the 18 780 soya bean landraces from the Chinese
+(McNally et al., 2009). Soya bean was domesticated from G. soja National Soybean GeneBank (CNSGB)Qiu et al., 2009, 2013;
+in a region of China located at 35-40°N (Xu et al., 1986). Wang et al., 2006). A total of 0.75 terabases (Tb) of sequence
+Consequently, early landraces were not adapted to either high- or data from 5.9 billion quality-trimmed reads was generated via
+low-latitude environments. Nonetheless, over hundreds of years tGBSA (Ott et al., 2017; Table S2). After alignment to the
+of relatively stable climate, farmers developed many diverse reference genome (Glycine max Wm82.a2.v1, https.//phytozome.
+landraces by selecting plants adapted to specific regions and to jgi.doe.gov)), a total of 186 122 single nucleotide polymorphisms
+diverse cropping systems (Qiu et al., 2003; Zhou et al., 1998). (SNPS) were identified. After imputation and filtering, 333
+These landraces are distributed across a broad ecogeographical accessions with >80% missing data were removed. Following
+range (18.2-51.4°N, 80.5-134.0°E) spanning a wide range of these procedures, 99 085 SNPS each with a minor allele
+climactic conditions that differ with respect to sowing time, frequency (MAF) 2 1% and heterozygosity <20% (Figure S1)
+length of growing season, annual precipitation, maximum sum- were available for 2035 accessions, including 97 G. soja and
+mer temperature, etc. (Chang and Sun, 1991; Chang et al., 1938 landraces (Figure 1A, Table S1). Each of SNPS is supported
+1996; Wang, 1982). As a consequence of this selection history, by an average of 13 sequencing reads per genotyped sample.
+these landraces exhibit a complex population structure (Li et al., These SNPS are well distributed across the genome (Figure 1B).
+2008; Song et al., 2015; Zhou et al., 2015b). Moreover,
+STRUCTURE analyses (Figures 2A,B and S2), principal compo-
+improved cultivars exhibit 16%-25% less genetic diversity than nent analyses (PCA; Figure 2C) and a neighbour-joining tree
+the landraces, consistent with the view that landraces contain (Figure S3) for the 2035 accessions identified one wild (termed
+vast amounts of unexploited genetic diversity. Hence, these Wild', N = 80) and three distinct sub-populations of landraces.
+landraces may contain adaptive alleles (Hyten et al., 2006; Li Based on the geographical origins of the accessions within each
+et al., 2013; Zhou et al., 2015b). This untapped diversity could be sub-population (Table S3), they were termed 'NR' (Northern
+used to adapt soya bean to future environments (Bandillo et al., region, N == 385), 'HR' (Huanghuai region, from central China,
+2017).
+N = 346) and 'SR' (Southern region, N = 1007). An additional
+Flowering time is a major trait associated with soya bean 217 accessions with admixed genomes, labelled in grey in
+adaptation, because soya beans are very sensitive to photope- Figure 2C were classified as 'Mixed'. Our results are consistent
+riod. Hence, any given genotype is only adapted to a specific with a previous classification consisting of three main areas of
+range of latitudes; a variety that flowers too early in a given soya bean production in China defined according to geographical
+environment will produce few seeds, while a variety that flowers distribution and are also in accordance with previously described
+too late will be killed by frost prior to seed production scenarios of the history of soya bean differentiation (Li et al.,
+(Burgarella et al., 2016; Navarro et al., 2017). Several genes 2008, 2010). In addition, these results are largely congruent with
+controlling flowering time, including E1 to E4, J, E9 (FT2a) and another prior classification system, defined based on ecogeo-
+FT5a (Liu et al., 2008, 2018; Lu et al., 2017; Takeshima et al., graphical location and sowing time (Gai and Wang, 2001).
+2016; Watanabe et al., 2009, 2011; Xia et al., 2012; Yue et al.,
+2017; Zhao et al., 2016) have been cloned. Further analysis of Population differentiation
+cultivars from different ecological zones indicated that the Linkage disequilibrium (LD) plays a critical role in determining the
+combinations of allelic variations for E1 to E4 and J determined precision with which causal loci can be identified via GWAS
+the adaptation of soya bean to different latitudes (Jiang et al., (Gupta et al., 2005). Variation in patterns of LD across the
+2014; Lu et al., 2017). However, we do not yet fully understand genome or between different populations can also provide
+the genetic regulation of flowering time in soya bean (Tsub- information on the presence or absence of selective sweeps and
+okura et al., 2014).
+selective pressure (Kim and Nielsen, 2004). The average extents of
+Here, we employed GWAS to identify loci that regulate LD decay in the wild panel and the all-landrace panel were 12 and
+flowering time in soya bean, as well as genes associated with 58 kb, respectively (Table S4). Although the number of accessions
+local adaptation by genotyping a set of 1938 landraces and in the all-landrace panel (N = 1938) was twenty times larger than
+97 G. soja accessions, and phenotyping these landraces in the number of G. soja accessions (N == 97), the landraces still
+multiple environments and exploiting their GPS passport data to displayed more LD, fewer private SNPS and less diversity than the
+obtain high-resolution historical weather data associated with the wild panel (Tables S4-S6).
+collection site of each landrace (Qiu et al., 2009, 2013; Wang
+Pairwise comparisons of the three landrace sub-populations
+et al., 2006). The identified 'adaptive alleles' could be used by inferred from the STRUCTURE analysis exhibited different pat-
+breeders to develop new elite cultivars adapted to the environ- terns of LD and different levels of diversity (Figure 2D, Table S5
+mental conditions expected to prevail in target regions at the date and S6). NR and HR had similar patterns of LD decay, both of
+LE
+of release, as opposed to breeding cultivars adapted to environ- which were slower than the pattern of LD decay in SR. NR
+mental conditions as they exist today.
+(Ow = 1.08E-05) exhibited less genetic diversity than HR
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &Sons Ltd., 18, 389-401
+RIGHTS L I N Ko
+
+
+
+Identify loci controlling adaptation in soya bean 391
+(A)
+(B)
+:
+I
+
+NESP o NSp
+:
+I
+HSp HSu
+a SSp SSu SAu
+I
+10
+E
+Figure 1 The geographical distribution of genotyped accessions and properties of the soya bean genome. The 2035 genotyped accessions include 1938
+landrace and 97 wild soya bean accessions (A). Landraces were classified into seven ecotypes based on ecogeographical location and sowing time (Li et al.,
+2008; Zhou et al.,1998). The seven ecotypes included Northeast Spring-type (NESp), North Spring-type (NSp), Huang-Huai Spring-type (HSp), Summer-type
+(HSu), South Spring-type (SSp), Summer-type (SSu) and Autumn-type (SAu). A total of 99 085 SNPS were obtained across the 20 soya bean chromosomes
+as highlighted in the Circos plot (B). In the outer circle, heterochromatic regions are highlighted in grey and chromosome arms highlighted lin black for the
+20 soya bean chromosomes. (a) Gene density, (b) SNP density and (c-f) genetic diversity (@w) of the Wild' (brown), 'SR' (dark blue), 'HR' (orange) and 'NR'
+(light blue) sub-population inferred from a STRUCTURE analysis, respectively.
+g
+(A) E 55 1
+45
+de 35
+E
+25
+(B) 15 NESP
+NSp HSp
+HSu
+SSp
+SSu
+SAu: Wild
+E 100%
+80%
+8 60%
+40%
+I
+20%
+à
+0
+I
+(C)
+(D)
+oWild OSR OHR o NRo Mixed
+8
+- Wild - SR HR NR Landrace
+8
+3
+I
+8
+a
+e
+o
+N
+I
+8
+n
+a
+0.15
+0.10
+3
+0.05
+0.00
+eEn
+& 9
+-0.05
+0
+200 400 600 800 1000
+-0.02 0.02 0.06 0.10
+Rel
+PC1 (7.9%)
+Distance (kb)
+Figure 2 Population structure and linkage disequilibrium within sup-populations. The samples are arranged by ecotypes and then by latitude of collection
+site (A). Structure analyses were conducted on the 1938 landrace and 97 wild accessions with K = 4. The estimated proportions of an individual's
+membership in the corresponding populations are designated by percentages shown on the y-axis (B). Principal component analysis (PCA) was conducted
+on 99 085 SNPS for the 1938 landrace and 97 wild accessions (C). The membership within samples was displayed as red for Wild, dark blue for Southern
+Region (NR), orange for Huanghuai Region (HR), light blue forNorthern region (NR) and greyfor Mixed. Linkage disequilibrium (LD) was calculated lasr (D).
+LE
+The decay of LD over distanceis displayed within each sub-population and all of the landraces scombined (purple). Samples arel labelled with the same colour
+scheme used for the PCA and LD plots (B-C).
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIGHTS L I N Ko
+
+
+
+392 Ying-hui Li et al.
+(@w = 1.16E-05) or SR (@w = 1.16E-05). Pairwise Fst estimates early-flowering alleles in a given landrace at both of these two
+between the three sub-populations indicated the largest genetic locations (Figure 3C,D).
+differentiation was detected between HR and SR (0.164),
+We also conducted GWAS on the core-landrace panel
+followed by that between NR and SR (0.136), and the smallest (N = 414) using flowering time data collected from three sites
+differentiation was detected between NR and HR (0.077).
+(Beijing CP, Beijing SY and Nanning) over 4 years (2009-2012)
+Natural variation of bioclimatic variables and flowering (Figures 3E-G and S6C,D). Based on pairwise LD between
+time
+identified SNPS (r2 X 0.8), four of 17 TASS identified in the all-
+landrace panel were rediscovered (Table 1). Moreover, strong
+The 1938 landraces were originally collected from sites ranging and significant correlations were observed between flowering
+from 18.2 to 51.4°N latitude, from 82.5 to 132.6°E longitude and times of members of the core-landrace panel at the three
+from 1 to 2520 m above sea level (Figures 1A and S4; Table S1). environments and the number of the 17 original TASS carrying
+Moreover, these landraces were formed via selection for adap- early-flowering alleles in a given landrace (Figure 3H-J). These
+tation to specific regions and diverse cropping systems (Qiu et al., results validated the GWAS results from the all-landrace panel.
+2003; Zhou et al., 1998). As a result, the temperatures and
+Thirteen of these 17 TASS were located within previously
+photoperiods to which these landraces were originally adapted identified larger genomic intervals for flowering time QTLS
+span a wide range of values. The temperature annual ranges (Table S8). We defined the LD block surrounding each these 17
+(TARS) and maximum daylight lengths (MDLS) were calculated TASS using 2 2 0.8 and examined these LD blocks for association
+from sowing to harvest time in the collection locations and range signals and previously reported candidate genes. Ten of these 17
+from 14.4 to 58.7 OC and from 13.3 to 16.6 h (Figure S4). blocks contained flowering time TASS, and for five of these
+Annual precipitation (AP) ranges from 81 to 1986 mm in their intervals, we identified previously described flowering time
+collection locations. The distribution of precipitation reflects the regulators of soya bean (including the two cloned soya bean
+topography of China, with a trend towards greater rainfall in the flowering genes, E1 and E2) or homologs of flowering-time-
+south.
+associated Arabidopsis genes (Table S8). Although we are not
+The all-landrace panel was grown and phenotyped in two able to identify the specific causative gene responsible for most of
+locations, Beijing (40.1°N, 116.7°E) and Wuhan (30.5°N, the TASS, these results provide clear validation of the power of
+114.3°E). Substantial variation in flowering time among the GWAS in this high LD species.
+accessions was observed at both locations. Flowering time ranged
+Based on the analyses of the observed differences in days to
+from 25.5 to 116 days in Beijing and from 23 to 78.5 days in flowering between the two homozygous genotypes for the 17
+l
+Wuhan (Figure S4). The narrow-sense heritability of flowering flowering time TASS, we found that most (82.3%) of the 17 SNPS
+time was 0.625 in Beijing and 0.704 in Wuhan. Qst, a measure of are associated with a consistent direction of effect on flowering
+phenotypic differentiation, was greater between pairwise com- time across the three landrace sub-populations when phenotyped
+binations of landraces than Fst, a measure of genetic differen- in the Beijing and Wuhan locations (Figure S7). Only
+tiation for phenotypic data from both Beijing and Wuhan Chr06:19873100 exhibited a reversed direction among sub-
+(Table S7). This result is consistent with the divergence of population. NR and HR landraces carrying Chr06:19873100-AA
+flowering time across sub-populations resulting from directional showed significant earlier flowering time than those carrying
+selection. Significant differences in flowering time were discov- Chr06:19873100-GG with an average of 12.1 days in Beijing and
+ered across three inferredlandrace sub-populations in Beijing and 3.1 days in Wuhan location. But their genotypic effect was
+Wuhan environments (Figure S5). While almost all of the reversed in the SR sub-population. Further analyses of the effect
+landraces had shorter flowering times in Wuhan than in Beijing, of Chr06:19873100 among spring sowing type, summer sowing
+the flowering times for each of the accessions at each of the two type and autumn sowing type landraces in the SR sub-population
+locations were significantly correlated (r = 0.90, P < 0.001). In indicated that the direction of effect of Chr06:19873100 in the
+combination, these results suggest that while absolute flowering NR and HR sub-populations was consistent with that in the spring
+time of a given landrace is quite plastic in response to environ- sowing type landraces within the SR sub-populations, but was
+mental cues, variation in relative flowering time among landraces reversed in the summer sowing type landraces within SR sub-
+at a given growth location is primarily controlled by genetic populations (Figure S8). This phenomenon may reflect different
+factors.
+effects of the same locus under the different natural conditions
+GWAS for flowering time
+that vary with respect to photoperiod, temperature, and other
+environmental parameters and crop management practices.
+GWAS was conducted to identify genes associated with flowering GWAS for bioclimatic parameters
+time. Using a statistical significance cut-off of P< 10-7(i.e. the
+1% Bonferroni-corrected threshold for 99 085 SNPS), a total of We used GWAS to identify loci associated with adaptation to
+18 associations were identified for flowering time across two three bioclimatic variables (temperature/TAR, daylength/MDL and
+locations separated by a 10° difference of latitude [Beijing (N = 9) precipitation/AP) that we treated as quantitative traits based on
+and Wuhan (N = 9)] (Figures 3A,B and S6A,B, Table S8). The nine the location of the collection site of each accession. A total of 29
+trait-associated SNPS (TASS) identified from the Beijing location significant association signals (P < 10-7) for TAR (7 SNPS), MDL
+explained 58.0% of the phenotypic variance, and the nine TASS (16 SNPS) and AP (6 SNPS) corresponding to 27 unique TASS
+identified from the Wuhan location explained 57.5% of the (Figure S9, Table S9) were detected. Consistent with our
+phenotypic variance. These 18 associations represent 17 TASS observation of strong correlations between MDL and TAR
+because one SNP (Chr12:5914898) was associated with flowering (r = 0.96, Figure S4), two SNPS (Chr02:6487107 and
+time in both Beijing and Wuhan. Significant correlations were Chr15:23361474) were associated with both MDL and TAR.
+observed between the flowering times of members of the all-
+In accordance with the observation that all of three bioclimatic
+landrace panel and the number of the 17 original TASS carrying variables (TAR, MDL and AP) are tightly correlated with flowering
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &Sons Ltd., 18, 389-401
+RIGHTS L - N Ko
+
+
+
+Identify loci controlling adaptation in soya bean 393
+(A) a Beijing
+E1
+E2
+(C) 140
+r=-0.63 Beijing
+f
+120
+E 100 8 %
+I s
+80 8
+60
+a
+- 40
+8
+8
+7 8 9 10 11 12 13 14 15 16 17 18 19 20
+20 1 3 5 7 9 11 13 15
+Chromosome
+No. TASS with early-flowering variant per landrace
+(B) Wuhan
+(D) 90
+r=-0.59 Wuhan
+9
+80
+E 70
+8 8
+8
+e 60 8 i a
+o o
+e
+1 e
+&
+50
+8
+I
+o I
+X
+40
+0
+9
+30
+
+20
+o
+10 11 12 13 14 15 16 17 18 19 20
+1 3 5 7 9 11 13 15
+Chromosome
+No. TASS with early-flowering variant tper landrace
+(E) a
+(H) 140
+BeijingCP
+f
+120
+r=-0.69 BeijingCP
+E
+3
+100
+o
+E
+8
+d
+80 o
+60 o
+bA
+d
+L 40
+a & o
+20
+2 3
+8 9 10 11 12 13 14 15 16 17 18 19 20
+3 5 7 9 11 13 15 17
+Chromosome
+No. TASS with early-flowering variant per landrace
+(F)
+(I) 120
+a BeijingSY
+r=-0.53 Beijingsy
+f
+100
+3
+I
+80
+8 8
+E
+o
+60 8 1 € a 18
+i
+o
+E 40
+20
+9 10 11 12 13 14 15 16 17 18 19 20
+5 7 9 11 13 15 17
+Chromosome
+No. TASS with early-flowering variant per landrace
+(G)
+(J) 60
+1 Nanning
+o
+r=-0.56 Nanning
+E 50
+a e
+8
+40
+8 8
+de
+de
+30
+o
+o e 8
+20
+3
+5
+8 9 10 11 12 13 14 15 16 17 18 19 20
+5 7
+11 13 15 17
+Chromosome
+No. TASS with early-flowering variant per landrace
+Figure 3 Identification and analysis of flowering time trait-associated SNPS (TASS) from landraces. Manhattan plots from GWAS analyses for flowering
+time data collected from five locations, including Beijing (A), Wuhan (B), Beijing CP (E), Beijing SY (F) and Nanjing (G). Beijing and Wuhan plots are based on
+the all-landrace panel (N = 1938); the other three plots are based on the core-landrace panel (N = 414). Grey horizontal dashed lines indicate 1%
+Bonferroni-corrected genome-wide significance thresholds, 1.0E-07 for Beijing and Wuhan, 1.0E-06 for Beijing CP, Beijing SY and Nanjing. Red vertical
+lines designate the genomic locations of two cloned flowering time genes, E1 and E2. Relationships between flowering times of landraces and the number
+of the 17 TASS that carry the early-flowering variant across two locations for the all-landrace panel Beijing (C) and Wuhan (D), and three locations for the
+core-landrace panel, Beijing CP (H), Beijing SY (I) and Nanjing (J).
+times in soya bean (Figure S4), we identified a series of soya bean landraces carrying Chr06:20055100_AA, 83.6% were from high-
+flowering genes (E1, GmFT2c, GmELF4, etc.) or homologs of latitude NR cluster. In the NR cluster, landraces with
+fowering-time-assocated Arabidopsis genes (Table S9) in the LD Chr06:20055100_AA were significantly earlier flowering than
+blocks surrounding 12 of the bioclimatic TASS. The most those that carried Chr06:20055100.GG (pof t-test = 5.0E-20 for
+significant MDL TAS Chr06:20055100 (P value = 2.4E-17) is Beijing and 7.3E-24 in Wuhan locations). The most significant AP
+located within the LD block that contains the E1 locus. Of 146 TAS Chr18:2029602 (Pvalue = 1.9E-13) was located 34 kb away
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIG H TS L I N Ko
+
+
+
+I
+:
+j
+394 Ying-hui Li et al.
+Table 1 Common (based on LD blocks) flowering time TASS identified via five independent GWAS of two panels
+TASs-core near TASS-all
+PVE Location (No. Distance to the nearest Position Distance to 2 with
+TASs-all
+Pvalue MAF (%) of accessions) cloned flowering gene (bp)
+TASS-all (bp) TASs-all Pvalue MAF Location
+Chr06:20355903 3.2E-09 0.269 12.4 Beijing (886) 148 kb to E1 (Xia et al., 20 346 551 9352
+0.820 1.4E-08 0.366 Nanning
+2012)
+Chr10:45520960 7.0E-38 0.412 16.5 Wuhan (1433) 204.8 kb to E2
+45 520 978 18
+0.883 3.4E-10 0.455 Beijing CP
+(Watanabe et al., 2011)
+Chr10:45521328 8.1E-10 0.360 12.0 Beijing (886) 205.2 kb to E2
+45 520 978 350
+0.883 3.4E-10 0.455 Beijing CP
+(Watanabe et al., 2011)
+Chr12:5470311 2.6E-22 0.124 0.9 Wuhan (1433)
+5 496 042 25 731
+0.938 2.3E-07 0.221 Beijing CP
+MAF, minor allele frequency; PVE, phenotypic variance explained; TASS core, TASS identified via GWAS of core-landrace panel; TASS-all, TASS identified via GWAS of
+the all-landrace panel.
+from the flowering gene GmELF4 (Marcolino-Gomes et al., S12, Table S11). Of these 27 sub-population specific TASS, ten
+2017). In addition, we detected Glyma. 15G196500, the homolog were specific to NR, two were specific to HR, eight were specific
+of phyE which plays an important role in the integration of to SR, one was specific to NR and HR, three were specific to NR
+flowering, light and temperature cues (Sânchez-Lamas et al., and SR.
+2016) located in the LD block surrounding MDL and TAR-
+Of the 17 flowering time and 27 bioclimatic TASS, 11
+associated TAS Chr15:23361474. More interestingly, nine sub- experienced selection during both domestication and subsequent
+population-specific (or with particularly low MAF (<5%) in one landrace diversification and adaptation; three underwent selec-
+and/or two populations) alleles of bioclimatic TASS showed tion only during domestication; 24 underwent selection only
+significant differences in flowering time in these corresponding during landrace diversification and adaptation; and six did not
+sub-populations (Figure S10). This suggests that the identification exhibit signals of selection (Tables S10 and S11). These analyses
+of bioclimatic TASS via GWAS has the potential to help elucidate results provide evidence for natural and/or artificial selection for
+the genomic basis of variation in flowering time.
+adaptation to specific environment conditions across China and
+Detection of selection signals during soya bean
+provide an initial picture on how bioclimatic variables shaped
+domestication and the diversification of landraces
+patterns of genetic variation among soya bean landraces.
+during adaptation
+Identification of candidate flowering QTL/genes
+The diversity of soya bean landraces is mainly derived from the E1 is a novel transcription factor containing a B3-related domain,
+annual wild soya bean, G. soja. We estimated the genetic which has a large effect on flowering time (Cao et al., 2016; Zhai
+differentiation of these flowering time and bioclimatic TASS using et al., 2015). We found three TASS (Chr06:19873100,
+Fst and allele frequency comparisons between landraces and Chr06:20003061 and Chr06:20355903) near theE1 gene on
+G. soja. We found evidence that 52.9% of the 17 flowering time Chr06. These three TASS cover a 482.8 kb region, but belong to
+TASS and 18.5% for the 27 bioclimatic TASS experienced strong different LD blocks on the basis of pairwise LD correlations
+selection during domestication (Table S10). The frequency of the (? 2 0.8). The alleles of Chr06:19873100, Chr06:20003061 and
+accessions containing early-flowering alleles of the five flowering Chr06:20355903 had different effects on flowering time, which
+time TASS (Chr02:12358355-TT, Chr06:20003061-TT, explained 15.0% (Wuhan location), 8.4% (Wuhan location) and
+Chr12:5470311-TT, Chr12:5914898-CC and Chr17:20231663- 12.4% (Beijing location) of phenotypic variance, respectively.
+AA) increased after domestication. This finding is consistent with They also had different patterns of geographical distribution
+the hypothesis that the early flowering trait was selected during (Figure S11). For example, the late-flowering genotype (CC) of
+domestication.
+Chr06:20003061 was present at a frequency of 5.7%, and
+Directed selection resulting from human needs and geo- landraces carrying Chr06:20003061-CC were collected from low-
+graphical adaptation is expected to strengthen population latitude regions (south of 34°N). In contrast, the early-flowering
+differentiation at the genomic regions that are the targets of genotype (CC) of Chr06:20355903 was present ata frequency of
+selection. Significant differences in flowering time, MDL, TAR 27.3%, and the landraces carrying it were mainly collected from
+and AP observed among north (NR), central (HR) and south (SR) the central and north of China (Figure S11), similar to E1 (Zhou
+China, encouraged us to further investigate the geographic et al., 2015b). In combination, these results suggest that there
+differentiation of these TAS alleles. By comparing Fst and allele may be one or more previously undetected flowering time-related
+frequency among pairwise sub-populations of landraces, we loci near E1.
+detected 35 (12 flowering time and 23 bioclimatic) adaptation-
+The E2 gene, an orthologue of Arabidopsis circadian clock-
+related TASS exhibiting various differentiation patterns among controlled gene GIGANTEA, was tagged by Chr10:45375315,
+three sub-populations of landraces (Figure S11 and S12, which was significantly associated with flowering time measured
+Table S11). For seven of the 17 flowering time TASS and 20 at the Wuhan location. The landraces with Chr10:45375315-GG
+of the 27 bioclimatic TASS, the minor allele was found only in genotype exhibited 11.1 and 6.6 days earlier flowering time than
+geographically constrained sets of landraces or exhibited low those landraces with Chr10:45375315-TT genotypes in the
+MAF (<0.05) in one or two sub-populations (Figure S11 and Beijing and Wuhan locations, respectively. Only 65 landraces
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &Sons Ltd., 18, 389-401
+RIGHTS L I N Ko
+
+
+
+Identify loci controlling adaptation in soya bean 395
+carried the early genotype Chr10.45375315-GG, which was beans, the frequency of the unfavourable late-flowering geno-
+mainly (90.8%) collected in China north of 33°N. In addition to types Chr12:5470311-GG and/or Chr12:5914898-TT decreased
+Chr10:45375315, two other TASS were detected near E2. from 0.686 in G. soja to 0.127 in landraces and from 0.892 G.
+Chr10:45520960 had the strongest association signal and soja to 0.271 landrace, respectively. After domestication, both
+explained the largest proportion of phenotypic variance (16.5%) alleles of Chr12:5470311 were distributed across China, from the
+in the Wuhan environment. Chr10:45521328 had the second south to the northeast region (Figure S14A), whereas the
+strongest association signal and explained the second largest distribution of Chr12:5914898 alleles reflects genetic differenti-
+proportion of phenotypicvariance (12.0%) in the Beijing location; ation between the HR sub-population and the two other sub-
+these two TASS are located 204.8 kb and 205.2 kb away from populations (NR and SR) (Figure S14B).
+E2, respectively, but only 369 bp away from each other. Pairwise
+LD correlations using 2 2 0.8 suggest that these two TASS are Discussion
+located within a candidate region from 45 426 954 to
+45 554 899 bp, which overlaps a previously reported QTL First China maintains 70% of the unique soya bean accessions in gene
+flower 24-4 (from soybase.org) 55.8 kb away from the bloom banks worldwide, and many of these accessions are genetically
+date-related locus Chr10_45465189 (Fang et al., 2017). Of three diverse and ancient landraces (Qiu et al., 2011). There are at least
+genotypic combinations formed by Chr10:45520960 and two challenges in utilizing such germplasm collections for crop
+Chr10:45521328, most landraces carry Chr10-45520960-AA improvement. First, simply phenotyping large numbers of indi-
+Chr1045520960-GG or Chr1045520960-GG/Chr10.45520960- viduals, particularly in multiple environments, is both time and
+AA (57.6% and 42.4%, respectively), while few carry resource intensive. Second, it is particularly difficult to collect
+Chr10-45520960-AWChr1045520960-AA (0.1%). Landraces equivalent measurements from accessions that exhibit extensive
+that carry Chr10-45520960-AWChr10.45520960-GG flowered physiological and morphological variation, as is often the case
+19.5 and 9.8 days earlier than those that carry Chr10:45520960- with landrace accessions. In this study, 1938 representative
+GG/Chr10:45520960-AA in Beijing and Wuhan locations, respec- landraces, selected to represent much of the phenotypic and
+tively. In the NR sub-population, 95.1% of landraces carried geographic diversity of the Chinese collection, were used to
+the early-flowering Chr10-45520960-AA/Chr10-45520960-GG identify SNPS associated with both empirically measured flower-
+genotype. Moreover, a significant (P< 2.2e-16) difference in ing time across multiple environments and bioclimatic parameters
+flowering time was detected in the NR sub-population between extracted from passport data associated with the collection sites
+the landraces carrying these two genotypes (Figure S13). These of accessions.
+results pointed to Glyma. 10G224500 being a candidate flowering
+We identified 18 significant (P< 10-7) association signals
+time-related gene.
+(tagged by 17 TASS) with flowering time across two geographic
+In addition, two flowering time TASS on chromosome 12 locations. Surprisingly, only one of these TASS was identified at
+(Chr12:5470311 and Chr12:5914898) were identified via GWAS both locations. Although it has been reported that soya bean
+using experimentally measured flowering time data from the flowering is controlled by both environment-insensitive and
+Beijing and Wuhan locations. Chr12:5470311, which explained environment-sensitive loci and the latter type is in the majority
+0.9% of the phenotypic variance, was the second strongest signal (Mao et al., 2017), the findings that effect sizes and directions for
+for association with flowering time in Wuhan, while most SNPS were well conserved across both locations and that the
+Chr12:5914898 exhibited a significant association with flowering rank orders of landrace flower times were well conserved across
+time at both locations and explained 1.8% and 2.3% of the two locations suggest that flowering time in soya bean
+phenotypic variance in Wuhan and Beijing, respectively (Fig- exhibits little GxE. It is therefore likely that the substantial
+ure 4A,B, Table S8). The 92.9 kb LD block surrounding differences in the compositions of the panels analysed at the two
+Chr12:5470311 contains the candidate flowering gene (Gly- locations are responsible for why different TASS were detected at
+ma. 12G073900, GmPRR3a), a homolog of the Arabidopsis the two locations. For example, as compared to the Wuhan
+flowering gene PSEUDO-RESPONSE REGULATORS 3 (AtPRR3) GWAS panel (n = 1433), 547 landraces collected from South
+(Para et al., 2007). Chr12:5470311 exhibits LD (2 == 0.938) with China were excluded from the Beijing GWAS panel (n = 886)
+the SNP marker Chr12:5496042, which was identified as a because they are not adapted to flower properly in Beijing.
+flowering time TAS (P = 2.3E-07) in the core-landrace panel in
+The identified flowering time SNPS included both some that are
+Beijing CP location (Table 1). Chr12:5914898 is located in an near genes previously associated with flowering time, as well as
+intron of the Glyma. 12G076800 gene (Glyma12 g08160 in v1.1), some newly identified associations. This conclusion is based on
+which encodes a Cyclic Nucleotide-gated lon Channel 15-Related the fact that we identified more than one candidate QTU/gene
+protein. The consistency of the associations was tested by region near the cloned flowering gene E1 as well as more than
+comparing the flowering times of particular genotypes of one candidate QTL/gene region near the E2 gene. Because
+Chr12:5470311 and Chr12:5914898 SNP sites within each of population structure can cause false-positive GWAS hits (Larsson
+the three landrace sub-populations defined in this study (Fig- et al., 2013), we controlled for it during our GWAS. Further,
+ure 4C,D). Accessions that carry Chr12:5470311-GG and/or because soya bean populations are geographically stratified
+Chr12:5914898-TT genotypes flowered significantly later within (Figure 2) (Li et al., 2010; Zhou et al., 2015b), it is probable that
+each of the three sub-populations than did genotypes homozy- our control for population structure removed true positives and
+gous for the alternate alleles.
+thereby inadvertently produced some false negatives. In addition,
+Fst and allele frequency analysis demonstrated that when two populations exhibit oppositely phased coupling
+Chr12:5470311 and Chr12:5914898 underwent selection during linkage between a marker and a causative gene, their signals
+soya bean domestication (Figure 4E). Chr12:5914898 is adjacent may cancel out in a combined GWAS. To a certain extent, these
+to a reported domestication region (5 903 254-5 907 102 bp) challenges were overcome by conducting GWAS on individual
+(Zhou et al., 2015a). During the breeding of early-flowering soya sub-populations.
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIGHTS L I N Ko
+
+
+
+396 Ying-hui Li et al.
+(A)
+Beijing
+(B)
+Wuhan
+& H
+Chr12:5470311
+"Chr12:5914898
+I 16
+e
+: Chr12:5914898
+:
+..
+7
+r.tos" mi...
+ :4 -
+4.5
+5.0
+5.5
+6.0
+6.5 (Mb) 4.5
+5.0
+5.5
+6.0
+65(Mb)
+4.5
+6.5Mb 4.5
+6.5 Mb
+e
+-
+:
+a
+R'Colorkey
+I
+lF
+(C)
+Chr12:5470311
+(D)
+Chr12:5914898
+(E) Chr12:5470311 (F) Chr12:5914898
+E
+1251 NR
+HR
+SR
+1251 NR
+HR
+SR
+CC
+100
+100
+D3 TT
+75
+75
+5
+GG
+TT
+I
+50
+50
+9
+E 25
+251 196
+80l
+00 80l
+GG
+60
+TT
+E
+40
+TT
+CC
+20L
+6
+20L 25
+GG TG TT GG TG TT GG TG TT
+CC CT CC CT TT CC
+Figure 4 Identification of Chr12:5470311 and Chr12:5914898 flowering time loci. (A) Local Manhattan plots and LD heatmaps (Shin et al. 2006)
+surrounding Chr12:5470311 and Chr12:5914898 in the Beijing (A) and Wuhan locations (B). Boxplots for flowering times in three defined landrace sub-
+populations based on the genotypes for Chr12:5470311 (C) and Chr12:5914898 (D). Box edges represent the 0.25 and 0.75 quantiles with median values
+shown by bold lines. Genotype frequencies at Chr12:5470311 (E) and Chr12:5914898 (F) in the wild panel (G. soja) and the all-landrace panel.
+In addition to directly seeking to identify associations between adaptive flowering time variation. Many of these candidate genes
+SNPS and flowering time, passport data associated with the are well supported by ancillary evidence. As such, this study lays
+collection sites of the landrace accessions allowed us to identify the groundwork to begin breeding for novel environments
+SNPS associated with three bioclimatic parameters (viz., temper- predicted to arise as a consequence of global climate change.
+ature, daylength and precipitation). Some of these SNPS exhibited
+associations with flowering time per se within individual sub- Plant materials and methods
+populations. This could be a consequence of differential LD Plant materials
+among populations (Figure 2C) and/or different linkage relation-
+ships between markers and causative alleles among sub-popula- A total of 2368 soya bean accessions were analysed in this study;
+tions. For example, within a population with slower LD decay these accessions were from two unique germplasm diversity
+(such as NR) it may be easier to detect associations between panels maintained at The Chinese Academy of Agricultural
+markers and causative genes even though mapping precision will Sciences (CAAS, Table S1), including
+be lower. Because a similar analysis reported for maize (Navarro
+The 'wild panel' consists of 112 annual wild soya bean
+et al., 2017) involving bioclimatic parameters successfully identi- accessions selected from China, Korea, Russia and Japan, and
+fied SNPS associated with flowering time, the challenges associ- represents the ecogeographical range of G. soja. After discarding
+ated with population structure reported in the current study may 15 accessions with 280% missing SNP data, the final wild panel
+be of particular importance in self-pollinated species where LD included 97 G. soja accessions.
+decay is slower and greater population structure is expected.
+The 'all-landrace panel' comprised 2256 landraces; these were
+New crop varieties are typically developed by evaluating their originally collected from areas across China. Most of landraces
+field performance. These field tests are necessarily conducted in (85.3%, 1925 accessions) were selected from a Chinese primary
+current environments. Global climate change complicates this core collection that was initially developed to capture as much of
+paradigm because the target environments for the new varieties the phenotypic diversity and geographic distribution of the
+may not yet exist. In the current study, using data about soya collection of 18 780 cultivated soya beans present in the Chinese
+bean landraces developed via selection during centuries of National Soybean GeneBank (CNSGB) as possible (Qiu et al.,
+relatively stable climate we were able to detect loci underlying 2009; Wang et al., 2006). We also included 331 additional
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIG HTS L - N Ko
+
+
+
+Identify loci controlling adaptation in soya bean 397
+landraces that exhibited at least one ancestral phenotypic trait the equator) (Hijmans et al., 2005). Maximum daylight length
+(e.g. small seed size, semi-erect stem or seed bloom) but which observed between sowing and harvest time in the original
+were not present in the primary core collection to this all-landrace locations of landraces (MDL) was calculated as previously
+panel. After discarding 318 accessions with 280% missing SNP described (Teets, 2003).
+data, the final all-landrace panel included 1938 accessions. Note DNA extraction, sequencing and data trimming and
+that, due to divergent farming and cropping systems, as well as alignment
+climactic variation among soya bean growing regions, previous
+work has divided soya bean landraces into seven original ecotypes Young leaf tissue was collected from each accession, and total
+according to ecogeographical and planting season types, specif- genomic DNA was isolated using the CTAB method, as described
+ically: Northeast spring-type (NESp), North spring-type (NSp), previously (Xie et al., 2005). Tunable genotyping by sequencing
+Huang-Huai spring-type (HSp), Huang-Huai summer-type (HSu), (tGBSO), with one base pair of selectivity, was performed and
+South spring-type (SSp), South summer-type (SSu) and South sequenced on Life Technologies' lon Proton Systems by Data2Bio
+autumn-type (SAu) (Li et al., 2008; Zhou et al., 1998). Of the LLC, as previously described (Ott et al., 2017).
+1938 landraces examined in this study (after removing lines with
+Each individual sequence read was scanned and trimmed for
+280% missing SNP data), 269 were classified as belonging to regions of low-quality sequence (defined as having a PHRED
+NESp, 362 from NSp, 26 from HSp, 415 from Hsu, 249 from SSp, quality score <15). Trimming was conducted in two phases: (i)
+529 from SSu and 88 from SAu (Table S1).
+low-quality nucleotides of each read end were removed; (ii)
+We also analysed a 'core-landrace panel', based on the Chinese remaining nucleotides were then scanned using overlapping
+core-landrace panel that included 414 all-landrace accessions, all windows of 10 bp, and sequences beyond the last window with
+of which are also present in the all-landrace panel of the present average quality value less than PHRED 15 were truncated.
+study (Qiu et al., 2009, 2013; Wang et al., 2006).
+Trimmed reads were aligned to the Glycine max Wm82.a2.v1
+reference genome using GSNAP (Wu and Nacu, 2010; Wu and
+Phenotyping
+Watanabe, 2005). Subsequently, confidently mapped reads were
+The all-landrace panel (2256 soya bean landraces) was planted filtered lifit mapped uniquely (<2 mismatches every 36 bp and <5
+and phenotyped at two locations: in early July 2015 in Wuhan city bases for every 75 bp as tails), and used for subsequent analyses.
+in Hubei province (30.5°N, 114.3°E), and in late June 2015 in SNP calling, genotyping and imputation
+Beijing city (40.1°N, 116.7°E) (Figure S10). Experiments were
+conducted using a completely randomized experimental design Polymorphic sites with alleles which differ from the reference
+with two complete replicates, and the core-landrace panel (414 genome were identified within each soya bean accession. While
+landraces) was planted and phenotyped in three locations over doing SO, the first and last 3 bp of each read was ignored; only
+several years. The three locations were as follows: Nanning city in sites with PHRED quality 220 and which were covered with at
+Guangxi province (2009-2011), Changping District in Beijing least five reads were considered; only bi-allele sites with a
+(Beijing CP) and Shunyi District in Beijing (Beijing SY) (2011- combined overall allele frequency of 280% were retained as
+2012). The landraces planted in Beijing CP were sown in early polymorphic sites.
+May (to mimic a spring growing season), in Beijing SY in late June
+The genotypes of all retained bi-allele polymorphic sites were
+(to mimic a summer growing season) and in Nanning in middle determined for each accession. Homozygous SNP sites were
+July. Flowering time and maturity time were scored across defined as having 22 reads of major allele, and overall major
+experiments. Flowering time was scored as the number of days allele reads account >90%. Heterozygous SNP sites were defined
+from the emergence of the cotyledons to the appearance of as having 21 read for each of two alleles, each allele accounting
+flowers in 50% of the plants within the row, and maturity time for 20% of total reads. Meanwhile, the sum of those two alleles
+was defined as the number of days from the date of emergence should be at least five reads and account for >90% of total
+of the cotyledons to the appearance of maturity (95% of pods reads. For all other situations, a missing genotype was assigned.
+coloured brown) in 50% of the plants within the row (Qiu et al.,
+Genotyping filtering criteria were applied in R 3.3.2 (R Core
+2006). For field trials with the all-landrace panel, the flowering Team, 2016) to improve quality of polymorphic sites data. First of
+time of the two replicates was averaged for each landrace. For all, we required a SNP to have a minor allele frequency (MAF) of
+field trials with the core-landrace panel, the averaged value for 21%, heterozygous rate <20% and a missing data rate <70%
+each accession in each location using 3 years and 2-3 replicates among all polymorphic sites; among remaining SNPS, we
+was used for final analysis.
+removed 333 samples with a missing data rate 280%. Next,
+Ecogeographical and BioClimatic variables
+imputation was performed among the remaining SNPS and
+samples using Beagle (V4.1) and default parameters without a
+The latitude, longitude and altitude data of the original collection reference panel (Browning and Browning, 2007, 2016). Finally, in
+locations of Chinese wild soya bean and landraces were obtained addition to applying the aforementioned filtering criteria,
+from previously published information (Chang and Sun, 1991; imputed SNPS were also required to be present as a homozygous
+Chang et al., 1996; Li, 1990; Wang, 1982); those of wild soya minor allele in 220 soyal bean accessions. In the end a high-quality
+bean from Japan, South Korea and Russia were obtained from the SNP set, consisting of 99 085 SNPS was obtained.
+Germplasm Resources Information Network (http_/www.ars-grin. Population structure
+gov/). The latitude and longitude coordinates of wild soya bean
+and landraces were used to query two bioclimatic variables: Population structure was characterized using three methods. (i) a
+temperature annual range (TAR, BIO7) and annual precipitation model-based clustering approach implemented in the software
+(AP, BIO12) from BioClim omtplhwwwrscsmagbodin, package STRUCTURE (Falush et al., 2007; Pritchard et al., 2000)
+version 1.4), using the highest resolution dataset presently using 'BURNIN 100000' and 'NUMREPS 100000' with other
+available (30 arc-seconds (-1 km), 0.93 x 0.93 = 0.86 km2 at default parameters. To clarify the hierarchical population
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIG HTS L I N Ko
+
+
+
+a
+398 Ying-hui Li et al.
+structure in this diversity panel, the analysis was initially
+conducted with all samples. Then, population structure was Heritability
+identified by further separately analysing the distinct populations The narrow-sense heritability [h2 = 02/(a2 + 02)] was assessed
+identified in the first step. The number of populations (K) was from the variance component estimates of the mixed models
+assessed from 1 to 10 for all of analysis. And best K was inferred implemented in GAPIT (Lipka et al., 2012; Zhang et al., 2010). d2
+using the 'Evanno' method (Evanno et al., 2005) implemented in is the estimated additive genetic variance and de is the residual
+STRUCTURE HARVESTER (Earl, 2012). We filtered the imputed effect.
+99 085 SNPS, which has 21% MAF among all samples, among Genome-wide association study (GWAS)
+each subset samples with a >MAF 5%. After that 10 000 SNPS
+were randomly selected for STRUCTURE analyses. (i) Pairwise Genome-wide association study of the all-landrace panel and the
+distances were estimated between soya bean accession using an core-landrace panel was conducted using the Fixed and random
+unbiased model of substitution frequencies on those 99 085 model Circulating Probability Unification (FarmCPU) package (Liu
+SNPS. Distance estimates were then used to construct a phylo- et al., 2016). For the all-landrace panel, GWAS was conducted
+genetic tree using the neighbour-joining-lke algorithm imple- across eight variables including three ecogeographical (latitude,
+mented in the APE R package (V3.2) (Paradis et al., 2004) Then, longitude and altitude), three climate (illumination hours, precip-
+the tree was visualized and customized with tools on the itation and temperature) and one phenology variable, flowering
+EvolView website (htp_/www.evolgenius.infolevolview) (He time in Beijing and Wuhan. Corresponding to a 'break' on the P-
+et al., 2016). (ili) Principal component analysis (PCA) was value distribution as represented by a QQ-plot for most variables,
+performed based on the 99 085 SNPS based using a variance- the threshold for significant association was determined as 10-7
+standardized relationship matrix implemented in PLINK (V1.9) (<0.01/No. of SNPS) in each association analysis. For the core-
+(Purcell et al., 2007).
+landrace panel, GWAS was conducted for flowering time in
+Weir and Cockerham's fixation index (Fst) (Weir and Cocker- Beijing CP, Beijing SY and Nanning. Considering the smaller
+ham, 1984) was calculated by VCFtools (Danecek et al., 2011) for number of SNPS decreased by population size of the core-
+pairwise sub-populations on a per SNP basis and sliding window landrace panel, the threshold for significant association was
+(30-kb window) separately.
+determined by 10-6
+Gene diversity
+Phenotypic variance explained (PVE)
+The gene diversity, that is Watterson's estimators of theta (Ow), To evaluate the phenotypic variance explained by each TASS, a
+was evaluated using software package VariScan (V2.0.3) (Hutter full model was constructed to include all the identified SNPS, that
+et al., 2006) among the whole population and each sub- is Y == u+ Cii Bxi where Yis the observed phenotype, pis the
+populations, respectively. SNPS with a MAF of 21% within each mean performance, q is the number of identified SNPS, Bi and X;
+set of samples were used to characterize a given set of samples. are the effect and genotype of each identified SNP. The
+Sliding window with a1 Mb window length was used to scan the coefficient of determination Rull can be obtained from the full
+whole genome. The central 95% range and average value were model. A reduced model was constructed to exclude one SNP at a
+calculated among Ow of each window to present polymorphism. time, say the jh SNP, that is Y = H + 1FI Bx Thus R2 can be
+Qst-Fst comparisons
+obtained as PVE; == Rul R2.
+Pst, a reasonable Qst proxy (Leinonen et al., 2006, 2013), was Acknowledgements
+used to assess phenotypic differentiation among pairwise sub-
+populations for given traits. An R package, Pstat (V1.2) (Silva and This research was supported by the National Key R & D Program
+Silva, 2018) was used to calculate Pst with a bootstrap of 1000 for Crop Breeding (2016YFD0100201, 2016YFD0100304), the
+along a 95% confidence level interval. Mean of Weir and Platform of National Crop Germplasm Resources of China (2016-
+Cockerham's Fst between pairwise sub-populations was used to 004 and 2017-004) and the Agricultural Science and Technology
+compare with the corresponding Pst.
+Innovation Program (ASTIP) of Chinese Academy of Agricultural
+Sciences.
+Linkage disequilibrium (LD)
+To evaluate LD within wild, landrace and the landrace sub- Conflict of interest
+populations, PLINK(V1.9/Purcell let al., 2007) was usedto estimate
+the correlation (7). This calculation was made for all possible pairs The authors declare no conflicts of interest.
+of SNPS with MAF 21% in the target population, which were
+separated by 1 megabase or less. Average LD values were Author contributions
+calculated using all pairs of SNPS within 1-kb windows of distance
+beginning at0-1 kb and ending at 999-1000 kb. The reportedLD Y-H.L., J.C.S., P.S.S. and L.Q. conceived the study. Y-H.L.,
+distance was defined as the distance at which the average 2 J.C.S., Z.Z., J.R., P.S.S. and L.Q., jointly wrote the paper. Y-H.L.,
+between SNPS declinedto one-halfofits maximum observedvalue. Y-F.L., Y.T. and L.Z. provided DNAS. Y.J., Y-F.L., H.C., H.H.,
+The pairwise 2 was calculated between trait-associated SNPS Z.L., Q.Y. Y.G. R.G. and X.Z. collected the phenotype data.
+(TAS) and its two sides 1 Mb-context SNPS; the LD block region of Y-H.L., D-L.L., J.C.S., Y-F.L., H-H.L., T.Z., B.L., R.C. P.S.S. and
+TAS was defined by its farthest 1 Mb-context SNPS with a L.Q. performed sequencing/SNP caligpopuationfedlutonany
+72 0.8 in each side.
+biology analyses.
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &Sons Ltd., 18, 389-401
+RIGHTS LIN Ko
+
+
+
+Identify loci controlling adaptation in soya bean 399
+Hyten, D., Song, Q., Zhu, Y., Choi, L, Nelson, R., Costa, J., Specht, J. et al.
+Data deposition and accession numbers
+(2006) Impacts of genetic bottlenecks on soybean genome diversity. Proc.
+All the DNA sequence data have been deposited into the
+Natl Acad. Sci. USA, 103, 16666-16671.
+Sequence Read Archive (SRA) under BioProject accession Jiang, B., Nan, H., Gao, Y., Tang, L., Yue, Y., Lu, S., Ma, L. et al. (2014) Allelic
+combinations of soybean maturity loci E1, E2, E3 and E4 result in diversity of
+PRJNA454779, PRJNA454780 and PRJNA477242.
+maturity and adaptation to different latitudes. PLOS ONE, 9, e106042.
+Kim, Y. and Nielsen, R. (2004) Linkage disequilibrium asas signature of selective
+References
+sweeps. Genetics, 167, 1513-1524.
+Larsson, S., Lipka, A and Buckler, E. (2013) Lessons from Dwarf8 on the
+Bandillo, N., Anderson, J., Kantar, M., Stupar, R., Specht, J., Graef, G. and
+strengths and weaknesses of structured association mapping. PLOS Genet. 9,
+Lorenz, A. (2017) Dissecting the genetic basis of local adaptation in soybean.
+e1003246.
+Sci Rep. 7, 17195.
+Leinonen, T., Cano, J., Makinen, H. and Merila, J. (2006) Contrasting patterns
+Beaumont, M.A. and Balding, D.J. (2004) Identifying adaptive genetic
+of body shape and neutral genetic divergence in marine and lake populations
+divergence among populations from genome scans. Mol. Ecol. 13, 969-980.
+of threespine sticklebacks. J. Evol. Biol 19, 1803-1812.
+Browning, S. and Browning, B.L. (2007) Rapid and accurate haplotype phasing Leinonen, T., McCairns, R., O'hara, R. and Merila, J. (2013) Q ST-F ST
+and missing data inference for whole genome association studies by use of
+comparisons: evolutionary and ecological insights from genomic
+localized haplotype clustering. Am. J Hum. Genet. 81, 1084-1097.
+heterogeneity. Nat Rev. Genet 14, 179.
+Browning, S. and Browning, B.L. (2016) Genotype imputation with millions of Li, F.S. (1990) Catalogues of Chinese Wild Soybean Germplasm and Resources.
+reference samples. Am. J. Hum. Genet. 98, 116-126.
+Beijing, China: China Agriculture Press.
+Burgarella, C., Chantret, N., Gay, L, Prosperi, J., Bonhomme, M., Tiffin, P., Li, Y.H., Guan, R., Liu, Z., Ma, Y., Wang, L, Li, L., Lin, F. et al. (2008) Genetic
+Young, N. et al. (2016) Adaptation to climate through flowering phenology:
+structure and diversity of cultivated soybean (Glycine max (L.) Merr.)
+a case study in Medicago truncatula. Mol Ecol. 25, 3397-3415.
+landraces in China. Theor. Appl Genet 117, 857-871.
+Cao, D., Takeshima, R., Zhao, C., Liu, B., Jun, A. and Kong, F. (2016) Molecular Li, Y.H.,Li, W., Zhang, C., Yang, L., Chang, R.Z., Gaut, B.S. and Qiu, LJ. (2010)
+mechanisms of flowering under long days and stem growth habitin soybean.
+Genetic diversity in domesticated soybean (Glycine max) and its wild
+J Exp. Bot. 68, 1873-1884.
+progenitor (Glycine soja) for simple sequence repeat and single-nucleotide
+Chang, R.Z. and Sun, J.Y. (1991) Catalogues of Chinese Soybean Germplasm
+polymorphism loci. New Phytol 188, 242-253.
+and Resources: Continuation I. Beijing, China: China Agricultural Press.
+Li, Y.H., Zhao, S.C., Ma, J.X., Li, D., Yan, L, Li, J., Qi, X.T. et al. (2013)
+Chang, R.Z., Sun, J.Y., Qiu, LJ. and Chen, Y.W. (1996) Catalogues of Chinese Molecular footprints of domestication and improvement in soybean revealed
+Soybean Germplasm and Resources: Continuation II. Beijing, China: China
+by whole genome re-sequencing. BMC Genom. 14, 579.
+Agricultural Press.
+Lipka, AE., Tian, F., Wang, Q., Peiffer, J., Li, M. and Bradbury, PJ. (2012)
+e
+Danecek, P., Auton, A., Abecasis, G., Albers, CA., Banks, E., DePristo, MA,
+GAPIT: genome association and prediction integrated tool. Bioinformatics,
+Handsaker, R.E. et al. and 1000 Genomes Project Analysis Group (2011) The
+28, 2397-2399.
+variant call format and VCFtools. Bioinformatics, 27, 2156-2158.
+Liu, B., Kanazawa, A., Matsumura, H., Takahashi, R., Harada, K. and Abe, J.
+Earl, D.A. (2012) STRUCTURE HARVESTER: a website and program for
+(2008) Genetic redundancy in soybean photoresponses associated with
+visualizing STRUCTURE output and implementing the Evanno method.
+duplication of the Phytochrome A gene. Genetics, 180, 995-1007.
+Conserv. Genet. Resour. 4, 359-361.
+Liu, X., Huang, M., Fan, B., Buckler, E.S. and Zhang, Z. (2016) Iterative usage of
+Evanno, G., Regnaut, S. and Goudet, J. (2005) Detecting the number of clusters
+fixed and random effect models for powerful and efficient genome-wide
+of individuals using the software STRUCTURE: a simulation study. Mol Ecol
+association studies. PLOS Genet. 12, e1005767.
+14, 2611-2620.
+Liu, W., Jiang, B., Ma, L., Zhang, S., Zhai, H., Xu, X. and Wu, T. (2018)
+Falush, D., Stephens, M. and Pritchard, J.K. (2007) Inference of population
+Functional diversification of Flowering Locus Thomologs in soybean: GmFT1a
+structure using multilocus genotype data: dominant markers and null alleles.
+and GmFT2al5a have opposite roles in controlling flowering and maturation.
+Mol. Ecol Resour 7, 574-578.
+New Phytol 217, 1335-1345.
+Fang, C., Ma, Y., Wu, S., Liu, Z., Wang, Z., Yang, R., Hu, G. et al (2017) Lu, S., Zhao, X., Hu, Y., Liu, S., Nan, H., Li, X., Fang, C. et al. (2017) Natural
+Genome-wide association studies dissect the genetic networks underlying
+variation at the soybean J locus improves adaptation to the tropics and
+agronomical traits in soybean. Genome Biol. 18, 161.
+enhances yield. Nat. Genet. 49, 773-781.
+Fournier-Level, A., Korte, A, Cooper, M.D., Nordborg, M., Schmitt, J. and Mao, T., Li, J., Wen, Z., Wu, T., Wu, C., Sun, S. and Wang, D. (2017)
+Wilczek, A.M. (2011) A map of local adaptation in Arabidopsis thaliana.
+Association mapping of loci icontrolling genetic and environmentalinteraction
+Science, 334, 86-89.
+of soybean flowering time under various photo-thermal conditions. BMC
+Gai, J. and Wang, Y. (2001) A study on the varietal eco-regions of soybeans in
+Genom. 18, 415.
+China. Sci. Agricult Sin. 34, 139-145.
+Marcolino-Gomes, J., Nakayama, T., Molinari, H., Basso, M., Henning, L. and
+Gunther, T. and Coop, G. (2013) Robusti identification of local adaptation from
+Fuganti-Pagliarini, R. (2017) Functional characterization of a putative Glycine
+allele frequencies. Genetics, 195, 205-220.
+max ELF4 in transgenic Arabidopsis and its role during flowering control.
+Gupta, P., Rustgi, S. and Kulwal, P. (2005) Linkage disequilibrium and
+Front. Plant Sci. 8, 618.
+association studies in higher plants: present status and future prospects. McNally, KL, Childs, K.L., Bohnert, R., Davidson, R.M., Zhao, K., Ulat, V.J.,
+Plant Mol. Biol. 57, 461-485.
+Zeller, G. et al. (2009) Genomewide SNP variation reveals relationships
+Hancock, A.M., Brachi, B., Faure, N., Horton, M.W., Jarymowycz, L.B., Sperone,
+among landraces and modern varieties of rice. Proc. Nat/Acad. Sci. USA, 106,
+F.G., Toomajian, C. et al. (2011)Adaptation to climate across the Arabidopsis
+12273-12278.
+thaliana genome. Science, 334, 83-86.
+Navarro, J., Willcox, M., Burgueno, J., Romay, C., Swarts, K., Trachsel, S. and
+He, Z., Zhang, H., Gao, S., Lercher, M., Chen, W. and Hu, S. (2016) Evolview v2:
+Ortega, A. (2017) A study of allelic diversity underlying flowering-time
+an online visualization and management tool for customized and annotated
+adaptation in maize landraces. Nat Genet 49, 476-480.
+phylogenetic trees. Nucleic Acids Res. 44, W236-W241.
+Ott, A., Liu, S., Schnable, J., Yeh, C., Wang, K. and Schnable, P. (2017) tGBS"
+Hijmans, R., Cameron, S., Parra, J., Jones, P. and Jarvis, A. (2005) Very high
+genotypingbysequending enables reliable genotyping of heterozygous loci.
+resolution interpolated climate surfaces for global land areas. Int. J. Climatol.
+Nucleic Acids Res. 45, e178.
+25, 1965-1978.
+Para, A., Farre, E., Imaizumi, T., Pruneda-Paz, J., Harmon, F. and Kay, S. (2007)
+Hutter, S., Vilella, AJ. and Rozas, J. (2006) Genome-wide DNA polymorphism
+PRR3 is a vascular regulator of TOC1 stability in the Arabidopsis circadian
+analyses using VariScan. BMC Bioinformatics, 7, 409.
+clock. Plant Cell 19, 3462-3473.
+Hymowitz, T. and Newell, C. (1981) Taxonomy of the genus Glycine, Paradis, E., Claude, J. and Strimmer, K. (2004) APE: analyses of phylogenetics
+domestication and uses of soybeans. Econ. Bot. 35, 272-288.
+and evolution in R language. Bioinformatics, 20, 289-290.
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIG HTS L I N Ko
+
+
+
+400 Ying-hui Li et al.
+Pritchard, J., Stephens, M. and Donnelly, P. (2000) Inference of population Xu, B., Lu, Q. and Zhuang, B.(1989) Analysis of ecotypes and their geographical
+structure using multilocus genotype data. Genetics, 155, 945-959.
+distribution of wild soybean (G. soja) in the world. Acta Phytoecol. Geobotan.
+Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. and Bender, D.
+Sin. 13, 114-120.
+(2007) PLINK: a tool set for whole-genome association and population-based Yue, Y., Liu, N., Jiang, B., Li, M., Wang, H., Jiang, Z. and Nian, H. (2017) A
+linkage analyses. Am. J Hum. Genet. 81, 559-575.
+single nucleotide deletion inJencoding GmELF3 confers long juvenility and dis
+Qiu, LJ., Cao, Y., Chang, R., Zhou, X., Wang, G., Sun, J., Xie, H. et al. (2003)
+associated with adaption of tropic soybean. Mol Plant 10, 656-658.
+Establishment of Chinese soybean (G. max) core collection I Sampling Zhai, H., Lu, S., Wu, H., Zhang, Y., Zhang, X. and Yang, J. (2015) Diurnal
+strategy. Sci. Agricult. Sin. 36, 1442-1449.
+expression pattern, allelic variation, and association analysis reveal functional
+Qiu, LJ., Chang, R.Z., Liu, Z.X., Guan, R.X. and Li, Y.H. (2006) Descriptors and
+features of the E1 gene in control of photoperiodic flowering in soybean.
+Data Standard for Soybean (Glycine spp.). Beijing, China: China Agriculture
+PLOS ONE, 10, e0135909.
+Press.
+Zhang, Z., Ersoz, E., Lai, C.Q., Todhunter, RJ., Tiwari, H.K. and Gore, M.A.
+Qiu, LJ., Li, Y.H., Guan, R.X., Liu, ZX., Wang, LX. and Chang, R.Z. (2009)
+(2010) Mixed linear model approach adapted for genome-wide association
+Establishment, representative testing and research progress of soybean core
+studies. Nat. Genet. 42, 355-360.
+collection and mini core collection. Acta Agron. Sin. 35, 571-579.
+Zhao, C., Takeshima, R., Zhu, J., Xu, M., Sato, M., Watanabe, S., Kanazawa, A.
+Qiu, LJ., Chen, P., Liu, Z., Li, Y., Guan, R., Wang, L. and Chang, R. (2011) The
+et al. (2016) A recessive allele for delayed flowering at the soybean maturity
+worldwide utilization of the Chinese soybean germplasm collection. Plant
+locus E9isal leaky allele of FT2a, aFLOWERINGLOCUS STortholog. BMC Plant
+Genet Resour 9, 109-122.
+Biol 16, 20.
+Qiu, LJ., Xing, LL, Guo, Y., Wang, J., Jackson, S.A. and Chang, R.Z. (2013). A Zhou, XA, Peng, Y., Wang, G. and Chang, R. (1998) A study on the
+platform for soybean molecular breeding: the utilization of core collections
+classification and retrieval of Chinese cultivated soybean. Crop Germplasm
+for food security. Plant Mol. Biol. 83, 41-50.
+Resour. 1, 1-4.
+R Core Team (2016) R:A Language and Environment for Statistical Computing. Zhou, L., Wang, S., Jian, J., Geng, Q., Wen, J., Song, Q., Wu, Z. et al. (2015a)
+Vienna, Austria: R Core Team.
+Identification of domestication-related loci associated with flowering time
+Sanchez-Lamas, M., Lorenzo, C. and Cerdân, P. (2016) Bottom-up assembly of
+and seed size in soybean with the RAD-seq genotyping method. Sci Rep. 5,
+the phytochrome network. PLOS Genet. 12, e1006413.
+9350.
+Shin, J., Blay, S., McNeney, B. and Graham, J. (2006) LD heatmap: An R Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., Yu, Y. et al. (2015b)
+function for graphical display of pairwise linkage disequilibria between single
+Resequencing 302 wild and cultivated accessions identifies genes related to
+nucleotide polymorphisms. J Stat Soft 16, 1-10.
+domestication and improvement in soybean. Nat Biotechnol. 33, 408-414.
+Silva, S. and Silva, A. (2018) Pstat: an R package to assess population
+differentiation in phenotypic traits. R. Journal, 10, 447-454.
+information
+Song, Q., Hyten, D.L., Jia, G., Quigley, C.V., Fickus, E.W., Nelson, R.L. and Supporting
+Cregan, P.B. (2015) Fingerprinting soybean germplasm and its utility in Additional supporting information may be found online in the
+genomic research. G3-Genes Genom. Genet. 5, 1999-2006.
+Supporting Information section at the end of the article.
+Takeshima, R., Hayashi, T., Zhu, J., Zhao, C., Xu, M. and Yamaguchi, N. (2016)
+A soybean quantitative trait locus that promotes flowering under long days is
+identified as FT5a, a FLOWERING LOCUS T ortholog. J. Exp. Bot. 67, 5247- Figure S1 Summary of 99 085 imputed SNPS.
+5258.
+Figure S2 AK values as a function of K, the number of putative
+Teets, D. (2003) Predicting sunrise and sunset times. College Mathematics sJ 34, sub-clusters within 2035 soybean accessions.
+317-321.
+Tsubokura, Y., Watanabe, S., Xia, Z., Kanamori, H., Yamagata, H., Kaga, A. and Figure S3 Neighbor-joining tree of 2035 soybean accessions
+Harada, K. (2014) Natural variation in the genes responsible for maturity loci based on shared allele pairwise distances.
+E1, E2, E3 and E4 in soybean. Ann. Bot-London, 113, 429-441.
+Figure S4 Pearson's co-efficient for pairwise comparison of eight
+Wang, G.X. (1982) Catalogues of Chinese Soybean Germplasm and Resources. variables, including flowering time in Beijing and Wuhan, three
+Beijing, China: China Agricultural Press.
+geographical, and three climate variables in soybean landraces.
+Wang, L., Guan, Y., Guan, R., Li, Y., Ma, Y., Dong, Z., Liu, X. et al. (2006) Figure S5 Variation in flowering time across three defined sub-
+Establishment of Chinese soybean Glycine max core collections with populations of soybean landrace at Beijing and Wuhan locations.
+agronomic traits and SSR markers. Euphytica, 151, 215-223.
+Figure S6 Quantile-quantile plots from GWAS analyses for
+Watanabe, S., Hideshima, R., Xia, Z., Tsubokura, Y., Sato, S., Nakamoto, Y., flowering time data collected from five locations, including
+Yamanaka, N. et al. (2009) Map-based cloning of the gene associated with Beijing (A), Wuhan (B), Beijing CP (C), Beijing SY (D) and Nanjing
+the soybean maturity locus E3. Genetics, 182, 1251-1262.
+(E).
+Watanabe, S., Xia, Z., Hideshima, R., Tsubokura, Y., Sato, S., Yamanaka, N.,
+Takahashi, R. et al. (2011) A map-based cloning strategy employing a Figure S7 Genotype effects (measured as the difference in days
+residual heterozygous line reveals that the GIGANTEA gene is involved in between two homozygous genotypes) of the 17 flowering TASS
+soybean maturity and flowering. Genetics, 188, 395-407.
+in three sub-populations of landraces at the Beijing and Wuhan
+Weir, B.S. and Cockerham, C.C. (1984) Estimating F-statistics for the analysis of locations.
+population structure. Evolution, 38, 1358-1370.
+Figure S8 Boxplots for flowering times in three sowing types of
+Wu, T. and Nacu, S. (2010) Fast and SNP-tolerant detection of complex variants SR sub-population based on the different genotypes of
+and splicing in short reads. Bioinformatics, 26, 873-881.
+Chr06:19873100 in Beijing and Wuhan locations.
+Wu, T. and Watanabe, C. (2005) GMAP: a genomic mapping and alignment Figure S9 Manhattan and quantile-quantile plots resulting from
+program for mRNA and EST sequences. Bioinformatics, 21, 1859-1875.
+genome-wide association studies for bioclimatic variables in
+Xia, Z., Watanabe, S., Yamada, T., Tsubokura, Y., Nakashima, H., Zhai, H., Anai, soybean landraces.
+T. et al. (2012) Positional cloning and characterization reveal the molecular
+horizontal dashed lines indicate 1% Bonferroni-corrected
+basis for soybean maturity locus E1 that regulates photoperiodic flowering. Grey
+Proc. Natl Acad. Sci USA, 109, E2155-E2164.
+genome-wide significance thresholds, 1.0E-07.
+Xie, H., Chang, R., Guan, R. and Qiu, L. (2005) Genetic diversity of Chinese Figure S10 Genotype frequencies in three sub-populations of
+summer soybean germplasm revealed by SSR markers. Chinese Sci Bull 50, landraces inferred from STRUCTURE analysis and the genetic
+526-535.
+effects on associated flowering times across two locations, Beijing
+Xu, B., Zhen, H., Lu, Q., Zhao, S. and Zhou, S. (1986) Three new evidences of and Wuhan, at nine bioclimatic TASS that are sub-population-
+the original area of soybean. Soybean Sci. 5, 123-130.
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &Sons Ltd., 18, 389-401
+RIGHTS L I N Ko
+
+
+
+Identify loci controlling adaptation in soya bean 401
+specific (or with particularly low MAF (<5%) in one and/or two Table S6 Population differentiations between G. soja and
+populations).
+landraces and between pairs of four defined sub-populations of
+Figure S11 Geographic distributions of genotypes in 1938 landraces.
+Chinese landraces of 17 SNPS associated with flowering time at Table S7 Evaluation of Pst by comparing mean Qst and Fst
+Beijing and/or Wuhan locations. Blue dots indicate minor estimates for flowering times between pairs of sub-populations of
+homozygous, yellow dots indicate major homozygous and grey landraces.
+dots indicate heterozygous genotypes.
+Table S8 17 SNPS associated with flowering time in landraces
+Figure S12 Geographic distributions of genotypes in 27 SNPS measured at Beijing and Wuhan locations.
+associated with bioclimatic variables.
+Table S9 27 TASS associated with three bioclimatic variables
+Figure S13 Boxplots for flowering times in three defined sub- (temperature annual range (TAR), annual precipitation (AP) and
+populations of landraces based on the two predominately maximum daylight length (MDL)].
+genotypic combinations of Chr10:45520960 and Table S10 Allelic status and Fst in 17 flowering time and 27
+Chr10:45521328.
+bioclimatic TASS evaluated via comparisons between G. soja and
+Figure S14 Distribution of genotypes of Chr12:5470311 and landraces.
+Chr12:5914898 in three Chinese sub-populations of landraces. Table S11 Allelic status and Fst in 17 flowering time and 27
+Table S3 No. of soybean landraces in pre-defined species or bioclimatic TASS evaluated via comparisons between pairs of
+cultivated ecotypes assigned into populations inferred from three landrace sub-populations.
+STRUCTURE analysis.
+Table S1 Geographical distribution pattern of 2035 soybean
+Table S4 Summary statistics of soybean linkage disequilibrium (7) accessions.
+within different sub-groups on accessions.
+Table S2 Quality trimming of tGBS Reads.
+Table S5 Summary statistics for genome-wide SNPS and esti-
+mates of gene diversity (Ow) across 2035 soybean accessions.
+I
+8
+I
+E
+I
+I
+I
+I
+I
+I
+I
+I
+I
+2
+o
+0 2019 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 18, 389-401
+RIGHTS L I N Ko
+I

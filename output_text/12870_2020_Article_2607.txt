@@ -1,0 +1,1241 @@
+Liu et al. BMC Plant Biology (2020) 20:399
+htps/dolongy10.1861287002002607-W
+BMC Plant Biology
+RESEARCH ARTICLE
+Open Access
+Genome-wide association study identifies
+Check for
+updates
+candidate genes related to oleic acid
+content in soybean seeds
+Liu'23t
+Xiaoyi
+I Di Qin23*, I Angela Piersanti?, Qi Zhang,Cristina Miceli?" and Piwu Wang"o
+Abstract
+Background: Soybean oil is a complex mixture of five fatty acids (palmitic, stearic, oleic, linoleic, and linolenic).
+Soybean oil with a high oleic acid content is desirable because this monounsaturated fatty acid improves the
+oxidative stability of the oil. To investigate the genetic architecture of oleic acid in soybean seeds, 260 soybean
+germplasms from Northeast China were collected as natural populations. A genome-wide association study (GWAS)
+was conducted on a panel of 260 germplasm resources.
+Results: Phenotypic identification results showed that the oleic acid content varied from 8.2 to 35.0%. A total of 2,
+311,337 single-nucleotide polymorphism (SNP) markers were obtained. GWAS analysis showed that there were
+many genes related to oleic acid content with a contribution rate of 7%. The candidate genes Gyma.11G229600.1
+on chromosome 11 and Glyma.04G102900.1 on chromosome 4 were detected in a 2-year-long GWAS. The
+candidate gene Glyma.11G229600.1 showed a positive correlation with the oleic acid content, and the correlation
+coefficient was 0.980, while Glyma.04G102900.1 showed a negative correlation, with a coefficient of - 0.964.
+Conclusions: Glyma.04G102900.1 on chromosome 4 and Glyma.11G229600.1 on chromosome 11 were detected in
+both analyses (2018 and 2019). Gyma.04G102900.1 and Glyma.11G229600.1 are new key candidate genes related to
+oleic acid in soybean seeds. These results will be useful for high-oleic soybean breeding.
+Keywords: Soybean, Oleic acid, SNPS, Genome-wide association study, Oleic acid-associated genes
+Background
+complex mixture of five fatty acids (palmitic, stearic, oleic,
+Soybean [Glycine max (L.) Merrill] originated in China and linoleic, and linolenic), all of which have different melting
+has been cultivated for more than 3000 years [1). Soybean points, oxidative stabilities, and chemical functionalities [3].
+oil accounts for 20-25% of the total global fat and oil The fatty acid composition of soybean oil is approxi-
+production and 30-35% of the total edible vegetable oil mately 5to 11% linolenic acid, 43 to 56% linoleic acid, 15
+production [2]. In China, soybean oil is an important con- to 33% oleic acid, and 11 to 26% saturated acids [4].
+stituent of the diet, and it is considered a major factor in Palmitic acid and stearic acid are saturated fatty acids that
+the maintenance of a healthy population. Soybean oil is a constitute 15% of soybean oil. In recent times, there has
+been a running debate, mainly in mainstream literature,
+"Correspondence digin@unicam.it; 603988396@qq.com;
+regarding the effects of palmitic acid and stearic acid con-
+CisinaMiceli@unicamit: wangpiwul89@163.com
+sumption on heart
+in
+*Xiaoyi Liu and Di Qin contributed equally to this work
+function, especially the development
+2School of Biosciences and Veterinary Medicine, University of Camerino,
+of coronary artery disease [5, 6]. Linolenic and linoleic
+Camerino, MC, Italy
+acids are polyunsaturated fatty acids that constitute 80%
+>Biotechnology Center of Jilin Agricultural University, Jilin Agricultural
+of soybean oil. Linolenic acid is needed for normal human
+University, Changchun 130118, PR China
+Full list of author information is available at the end of the article
+growth and development and can lower the cholesterol
+OThe Author(s). 2020 Open Access This article isl licensed under raCreative Commons Attribution 4.0 International License,
+BMC which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit tto the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material lin this article are included lin the article's Creative Commons
+licence, unless indicated otherwise ina credit line to the material. If material lis not included in the article's Creative Commons
+licence and your intended use isnot permitted by statutory regulation or exceeds the permitted use,you will need to obtain
+permission directly from the copyright holder. To viewacopy of this licence, visit htp/ceativecommonsorgflicensesby/40/
+The Creative Commons Public Domain Dedication waiver omp/cetiecommorsoyppébicdomanveonon applies to the
+data made available in this article, unless otherwise stated lin a credit line to the data.
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 2 of 14
+content in blood, but this acid is not resistant to high Results
+temperatures. Atmospheric oxygen and ultraviolet rays Phenotypic identification of oleic acid content in soybean
+can oxidize linolenic acid, resulting in the odour of seeds
+soybean oil, which lowers the nutritional value of soy- From 2018 to 2019, the oleic acid content of each soy-
+bean oil. Oleic acid is a monounsaturated fatty acid, bean line was analysed by SPSS 22.0 software. The oleic
+and soybean seeds with high oleic acid content also acid content of the seeds approached the normal distri-
+exhibited reduction in or elimination of chemical hy- bution (Fig. la, b). The standard deviation (SD) of the
+drogenation processes, reducing the cost of soybean oleic acid content of soybean seeds was 6.7 in 2018 and
+oil processing [7]. The cultivation of soybean varieties 7.5 in 2019 (Fig. 1c). The normal distribution is a prob-
+with high oleic acid content has become an important ability function that describes how the values of a vari-
+goal of high-quality soybean breeding [8].
+able are distributed. It is a symmetric distribution where
+Genome-wide association analysis (GWAS) presents most of the observations cluster around the central peak,
+a powerful tool to connect this trait with the under- and the probabilities for values farther away from the
+lying genetics. With the rapid development of next- mean taper off equally in both directions. The results
+generation sequencing technology, GWAS has been also indicated that the oleic acid content in different soy-
+successfully applied to plants such as rice and Arabi- bean lines is significantly different, and the distribution
+dopsis [9, 10]. A large number of genetic variations of the oleic acid content in soybean seeds is continuous,
+associated with complex traits have been identified by which is consistent with the genetic law of quantitative
+the GWAS method [11]. In soybean, GWAS was per- traits. The oleic acid content in the soybean line q070
+formed to identify quantitative trait loci (QTLS) con- was 35.32% in 2019 and 34.84% in 2018, which was the
+trolling seed oil concentration in 298 soybean highest among all the soybean lines. The oleic acid con-
+germplasm accessions that exhibited a wide range of tent in the soybean line q024 was 5.49% in 2018 and
+seed protein and oil content [12]. A soybean breeding 6.33% in 2019, which was the lowest among all the
+germplasm population (279 lines) was established to soybean lines.
+perform a GWAS, and 8 QTLs were found that
+explained phenotypic variances ranging from 6.3 to Soybean fatty acid correlation analysis and heritability
+26.3% [13]. These results demonstrated that the use calculation
+of GWAS with specially designed mapping popula- The multiple linear regression model was used to ana-
+tions is effective in uncovering the basis of key agro- lyse the relationship between different fatty acids. Ac-
+nomic traits.
+cording to the regression coefficients of the standardized
+Scientists have successfully used the GWAS method multiple linear regression model, the soybean oleic acid
+to obtain a large number of candidate genes [14-16]. content is significantly negatively correlated with the
+However, after the discovery of new candidate genes, linoleic acid content (Fig. 2). The correlation coefficient
+verifying their biological function becomes a hot topic between oleic acid and linoleic acid is  0.660 (Table 1).
+of research; RNA interference technology, the estab- There was a significant positive correlation between soy-
+lishment and application of biochips, real-time fluor- bean oleic acid content and palmitic acid content, with a
+escent quantitative PCR technology (qRT-PCR), and correlation coefficient of 0.581. The heritability of the
+gene editing technology provide, theoretically, a basis five fatty acids in 260 soybean lines was different, and
+for candidate gene function verification. In this study, the heritability of oleic acid was 0.652 (Additional file 1:
+we selected two key candidate genes and measured Table S1).
+their expression in four different tissues (root, stem,
+leaf and seed) of 14 diverse soybean lines appropri- SNP genotyping and SNP annotation
+ately selected using qRT-PCR.
+In our experiments, SLAF-seq technology was used to
+Specifically, 260 soybean germplasms from Northeast sequence soybean genomic DNA. A total of 1,102,987
+China (Heilongjiang Province, Jilin Province and Liao- SLAF tags and 2,311,337 SNP markers were obtained
+ning Province) were collected as natural populations. (Fig. 3a, b). The results of SNP distribution on chromo-
+The soybean lines were planted in the field of Jilin Agri- somes are shown in Fig. 3b. According to the location
+cultural University from 2018 to 2019. The fatty acid information for SNP loci in the reference genome (CDS
+content in the soybean seeds as determined by a NIRS regions, gene regions or intergenic regions), the mutated
+DS 2500 instrument after harvest. Specific-locus ampli- loci (non-synonymous mutations) were predicted. More
+fied fragment sequencing (SLAF-seq) technology was than 50% of the SNPs were located in the intergenic
+used to sequence the genomes of the 260 soybean regions (stretches of DNA sequences located between
+materials, and GWAS was used to screen candidate genes). Ten percent of the SNP markers were located in
+genes related to soybean oleic acid content.
+the upstream region of genes, and 10% of the SNPs were
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 3 of 14
+2018
+2019
+A
+B
+100- A
+B
+60-
+80-
+-
+E
+I 60-
+I 40-
+of 40-
+of
+20-
+I 20-
+I
+do 10.00 20.00 30.00 40.00 50.00
+20
+30
+Oleic acid content (%)
+Oleic acid content (%)
+C
+Years Traits
+Numbers minimum Maximum Average Standard deviation (SD)
+2019 Oleic acid
+780
+6.33
+35.32 21.3341 7. 53547
+2018 Oleic acid
+780
+5.49
+34.84 22.1941 6.72357
+Fig. 1 Frequency distribution of oleic acid content in soybean seeds in 2018 and 2019. The X-axis on the graph shows the range of content of
+oleic acid. The Y-axis is the number of soybean lines The distributions of oleic acid content in 2018 (a) and in 2019 (b) resemble the bell-shaped
+curve for a normal distribution. (c) Statistical analysis of oleic acid content in soybean seeds from 2018 to 2019
+located in the downstream region of genes. A total of samples that we collected can be represented as an ad-
+4.99% of the SNP loci were located in the protein-coding mixture of two ancestral populations (Fig. 4d).
+regions. Nine percent of the SNP markers were located Based on the difference in SNPS, we performed principal
+in introns (Fig. 3c).
+component analysis by using EIGENSOFT software for
+clustering of the 260 soybean materials. The PCA results
+showed that the 260 soybean lines clustered together in two
+Phylogenetic analysis, genetic structure analysis, principal subgroups (Additional file 2: Fig. S1). PC1, PC2 and PC3
+components analysis (PCA)
+accounted for 36.43, 33.82 and 33.12%, respectively (Fig. 4c).
+From the phylogenetic tree, it can be concluded that the
+soybean lines originated from two large branches. This Genome-wide association study (GWAS) for seed oleic
+result suggests that the 260 soybean lines were from the acid content
+same ancestor. However, in the process of evolution, Based on the oleic acid content of 260 soybean lines,
+they evolved in two directions (Fig. 4a).
+TASSEL software (Glm model, mlm model, cmlm
+Population structure analysis can quantify the number model), fastlmmc software, and Emmax software were
+of ancestors of the studied population and infer the used for the GWAS. SNP markers significantly corre-
+source of each sample. It is a cluster analysis method lated with the oleic acid content of soybean seeds were
+that is currently widely applied and is helpful for under- detected, and the linkage disequilibrium (LD) distance
+standing the evolutionary process of materials based on was set to 8.9kb. The Manhattan and QQ (quantile-
+SNPs. This experiment was used to analyse the soybean quantile) diagrams for the oleic acid content in 2018 and
+population structure. For the study population, the num- 2019 are shown in Fig. 5 and Fig. 6. A search was per-
+ber of subpopulations preset in this trial was 15 (Fig. formed for SNP markers that were significantly corre-
+4b). We analysed the data with EIGENSTRAT for the lated with the oleic acid content of soybean seeds
+study of 260 soybean lines. It was concluded that the (Additional file 3: Table S2). In this study, we evaluated
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 4 of 14
+7000- A
+B
+&
+14.00-
+8 00 o
+€ 12.00-
+a 8
+8 00 o
+I 30.00-
+o
+o o
+0o o
+E
+:e g
+I 10.00-
+oc
+% 00
+oi a a 8o
+iE
+08
+A - 08 08
+ô
+o
+-
+SiRo
+8.00-
+8
+00so a 088
+50.00-
+=76.79+-1 1.06
+o
+8800
+8 P.
+o
+o
+I
+8 ang
+C
+6.00-
+CRRBO %
+I
+8oo
+:
+88
+o
+o
+a 80
+8 00 a
+10.00-
+e
+:
+4.00-
+000
+2.00-
+o
+b
+I
+06
+I
+30.00-
+00-
+ao
+0o
+10.00 20.00 30.00 40.00 50.00
+00
+10.00
+20.00
+30.00
+40.00
+50.00
+Oleic acid content in seed (%)
+Oleic acid content in seed (%)
+12.00- C
+8 00
+€
+D
+€
+o0
+E 14.00-
+o
+o
+10.00-
+80
+O 0
+I
+i
+8
+00
+iE 8.00-
+o 08
+
+8eo
+2
+1200-
+800
+I 6.00-
+E
+8
+o
+: 4.00-
+0888
+o
+pb
+10.00-
+8
+8
+8 8o e 00 &
+I
+2.00-
+o & S60
+o
+08
+80
+I
+00
+00
+8.00-
+10.00 20.00 30.00 40.00 50.00
+d0
+10.00
+20.00
+30.00
+40.00
+50.00
+Oleic acid content in seed (%)
+Oleic acid content in seed (%)
+Fig. 2 The relationship between oleic acid and other fatty acids. a Association between percentages of oleic acid and linoleic acid,) y= 1.06x +
+76.79, is a linear equation, where y represents linoleic acid content and x represents oleic acid content. b Association between percentages of
+oleic acid and linolenic acid. C Association between percentages of oleic acid and palmitic acid,y= 0.3x + 1.71, isa linear equation, where y
+represents palmitic acid content and x represents oleic acid content d Association between percentages of oleic acid and stearic acid
+genome-wide LD in 260 accessions and found that the screened within the LD distance. In 2018, 21 candidate
+LD (R?) values decayed to half of the maximum value genes related to soybean oleic acid content were
+within 9.5 kb (Additional file 4: Fig. S2). Using 9.7 kb as screened using genome-wide association analysis
+the linkage disequilibrium attenuation distance, candi- (Table 2). In 2019, 8 candidate genes were screened by
+date genes related to soybean oleic acid traits were genome-wide association analysis (Table. 2). Based on
+Table 1 Correlations of the relative oleic acid content in soybean
+Oleic acid
+Linoleic acid
+Linolenic acid
+Palmitic acid
+Stearic acid
+Oleic acid
+Pearson correlation
+1
+-0.660b
+0.3329
+0.581b
+-0.254b
+Linoleic acid
+Pearson correlation
+-0.660b
+1
+0.571b
+0.051b
+-0.893b
+Linolenic acid
+Pearson correlation
+0.3324
+0.571b
+1
+0.447b
+-0.473b
+Palmitic acid
+Pearson correlation
+0.581b
+0.051b
+0.447b
+1
+-0.043b
+Stearic acid
+Pearson correlation
+-0.2549
+-0.893b
+-0.473b
+-0.043b
+Note: a indicates significance at 0.05, b indicates significance at 0.01
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 5 of 14
+a
+The number of SLAF within 1Mb window size
+b
+The number of SNP within 1Mb window size
+GMb 13Mb 19Mb 26Mb 32M0 39Mb 45Mb 52M0 58Mb
+6MO 13Mb 19Mb 26Mb 32Mb 39Mb 45Mb 52Mb 58ME
+Chor
+Chee
+chca
+Chos
+Chos
+Chro
+Cho
+Chos
+Cho
+-
+Chuce
+Caos
+Choo
+ao
+Chrio
+ChTi
+Chia
+ama
+E
+Cine
+a
+Fias
+Chris
+Chis
+Chrie
+Chrie
+CAvIT
+E
+E
+Chrie
+Chrt
+4991
+Gano
+E
+E
+C
+INTERGENIC
+NON.SMNOWMOUS.CONG
+INTRAGENIC
+SYNONYMOUS_STOP
+-CDS
+STOONOSANED
+START_LOST
+Other
+SYNONTMOUS.CODING
+SPLICE_SITE_DONOR
+SNE
+INTRON SMSRASRE
+START_GAINED
+UPSTREAM
+SAUCESITEACIORIETREN
+CDS:979614.99%)
+START GAINED:41(0.02%6)
+SYNONYMOUS STOP:4(0.04%)
+INTRAGENIC-410.00N)
+INTRON.1802919.18X)
+NOUSENOMNONCONGEIMBISN
+INTERGENC1173535923M)
+Other:24310.1296)
+START_LOSTE.8I0.08M)
+SPUCE-STEDONORIBIOOIN)
+SAUCESITE.REGONSAOIEN SMONNONS.COONGAHASIN
+UPSTREAM251301279X)
+UTRJPRINE19860.019)
+STOP_LOST1110.11%)
+SPUCESTEXCEFTO63J007N UITRIS.PRIME10160SZM)
+STOP GAINED:153(1.56X)
+DOWNSTREA22482014N
+Fig. 3 Genotyping and SNP Annotation. The abscissa is the length of the chromosome. Each band represents one chromosome. The genome is
+divided according to the size of f1Mb. a Distribution Map of SLAF on chromosomes. The SLAF label is concentrated in the red area of map.
+b Distribution Map of SNPS on different chromosome. The red color represents more than 5706 SNP markers in the region, the yellow color
+represents a number of SNP markers between 2852 and 3565. c Pie chart of SNPS annotation. Left panel: SNPS percentages generally associated
+to genes. Right panel: SNPS percentages in coding regions
+GO terms, the functions of the genes were as follows: 1. 0009862), 14. development (GO:0007275), and 15. trans-
+major CHO metabolism (GO:0004527), 2. cell wall (GO: port (GO:0003712). The functional distribution of candi-
+0009058), 3. lipid metabolism (GO:0005737), 4. metal ion date genes is shown in Fig. 7. The first promising candidate
+binding (GO:0046872), 5. N metabolism (GO:0006499), 6. gene, Glyma.1IG2296001, located on chromosome 11, was
+amino acid metabolism (GO:0008152), 7. secondary metab- detected by GWAS during 2018 and 2019. Its function was
+olism (GO:0016491), 8. stress (GO:0034976), 9. redox not annotated in the soybean database. According to Swis-
+(ECO:0000313), 10. misc. (GO:0004526), 11. protein (GO: sprot annotation, the Glyma.1IG229600.1 gene belongs to
+0004674), 12. cell (GO:0051510), 13. signalling (GO: the plant BAG protein family. The second promising
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 6 of 14
+a
+b
+EE
+2
+d
+Areat Area2 :
+Two ancestral populations
+Area3
+C
+I 8
+8
+8
+a
+8
+.
+I
+8
+E 8
+8
+E
+8
+3 8
+0.10 0.15
+a
+0.05 ooen 8
+a
+0:010
+8
+0.20
+12 13
+Rs 0.15 0.10 0.05 0.00 005 0.10 0.15 0.20
+Kvalue
+PCA1 (36.43%)
+Fig. 4 Group Structure of 260 soybean lines a Phylogenetic tree of 260 soybean lines. b Clustering analysis when the number of subgroups is in
+the range 2-13, the colours represent separate groups. c Three-dimensional score plot (PC1, PC2, PC3) to discriminate between soybeans lines
+from three provinces of China. d Diagram showing the value of 260 samples based on clustering from 1to 15; Cross validation error rate for each
+K value of 1-15, X-axis is K value 1-15, Y-axis is cross-validation errors. Aeal represents the soybean lines from Jilin province, Area2 represents the
+soybean lines from Heilongjiang province, Area3 represents the soybean lines from Liaoning province
+candidate gene, Glyma.04G1029001, located on chromosome seeds of the soybean line q001 was also the lowest (25.26).
+4, was also detected by GWAS in the 2 years. Again, there is The relative expression level of the candidate gene Gly-
+no report regarding the function of this candidate gene in the ma.11G229600.1 in the leaves of the soybean line q353
+soybean database, according to Swissprot annotation. A similar was 4.3 times higher than that in the leaves of the soybean
+gene in.Arabidopsis belongs to the plant GRAS protein family. line q001, and the level in seeds was 10 times higher than
+that in leaves (Additional file 5: Fig. S3). In general, the
+Expression of two candidate genes in different tissues
+correlation coefficient between Glyma.1IG229600.1 and
+To validate their association with oleic acid content, the the oleic acid content was 0.980-0.994 (P<0.01) (Add-
+expression of the two selected candidate genes was mea- itional file 6: Table. S3). This result strongly indicates that
+sured in different tissues (root, stem, leaf and seed) by the candidate gene Glyma.1IG229600.1 plays a positive
+using qRT-PCR. The lectin gene (GenBank: A5547-127) role in regulating the oleic acid content in seeds.
+was used as the reference gene. The results showed that The relative expression of Glyma.04G102900.1 was
+the candidate gene Glyma.1IG229600.1 in soybean seed- also analysed in soybean leaves, stems, roots and seeds.
+lings was expressed in different tissues, but the relative ex- The relative expression level of Glyma.04G102900.1 in
+pression level of the gene was differed significantly, leaves ranged from 9.62 to 44.41 and that in stems ranged
+ranging from 1.23 to 4.31 in soybean leaves, from 10.21 to from 3.18 to 28.11 (Fig. 8b). Specifically, in the soybean
+39.56 in stems, and from 16.21 to 43.14 in roots (Fig. 8a). line q001, which has the lowest oleic acid content in seeds,
+The candidate gene Glyma.1IG229600.1 had the lowest the candidate gene Glyma.04G102900.1 showed the high-
+relative expression level (1.23) in the leaves of the soybean est expression level, which was 49.01 (Additional file 7:
+line q001, which has the lowest oleic acid content. The Fig. S4). In general, the relative expression level of Gly-
+relative expression level of Glyma.1IG2296001 in the ma.04G102900.1 in different tissues differed significantly
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 7 of 14
+i
+A,
+Manhaitani
+QQ
+- E
+F
+o
+-
+9
+I L
+ii
+$
+ii:i
+ifi
+Te
+%o
+Expected -logiolp)
+8 BE11EEE HEEL 8 8EE 8
+B
+- L
+8
+G
+1.i
+TU
+a
+i
+i.i.
+e
+ii
+2
+Ri
+0
+Expected -logiolp)
+111TE1II BETE I E 8
+Chrgmglorjes
+C
+- il
+10
+H
+1.i
+Hi
+T:
+o 2 3
+Expected -logiolp)
+TLUTLTT 8
+D.
+Chrpmpsor nes
+I
+I
+II
+t L
+6
+li
+iii
+i
+it
+10
+2
+Expected -logro(p)
+E11EEIE HEBS 8 111 8
+E
+Chromppores
+iil
+T TE
+a
+J
+Tit
+ii
+lil
+if
+i1
+o 1 2
+Expected -logiolp)
+TTTTUUL B10TET
+Fig. 5 Genome-wide Manhattan plots of fassociations to oleic acid content tin the 2018 analysis In the left panel, the X-axis indicates the SNPS along each
+chromosome; the Y-axis is the -log 10 (P-value) for the association, the threshold value was set at -log(p) > 6.20 (red) and -log(p) > 7.20 (blue). a to e are
+GWAS results based on the cmlm model, EmMax model, fastimm model, GLM, andMLM are in F to J, respectively. e GWAS result based on the MLM
+model Q-Q plots for oleic acid using cmlm model (f, EmMax model (g), fastimm model (h), GLM 0, MLM (. The grey area represents the 95%6
+concentration band. Each dot represents a SNP
+(P<0.05), with a correlation coefficient between Gly- Discussion
+ma.04G102900.1 and oleic acid content of - 0.964 2 Soybean oil is composed of five fatty acids: palmitic acid
+- 0.998 (Additional file 8: Table. S4). This result indicates (16:0), stearic acid (18:0), oleic acid (18:1), linoleic acid
+that Glyma.04G102900.1 is closely related to the oleic acid (18:2), and linolenic acid (18:3) [17], and the percentage
+content, specifically showing a negative effect on the oleic of these five fatty acids in soybean oil averages 10, 4, 18,
+acid content in seeds.
+55, and 13%, respectively. It was found that the oleic acid
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 8 of 14
+Manhattan
+QQ
+F
+-
+a
+o
+Expected -logiolp)
+6 818
+BUS i1811 e
+Chrom
+B
+10
+G
+8
+9
+of 2
+Expected -logilp)
+3 - BILI 1 88 id 11T1E
+Chromo
+H
+o 2
+Expected -logiolp)
+F3e I 11 Li8 : i a
+Ch
+2
+Expected logriolp)
+JLII I
+TTIE
+@
+J
+0
+Expected -logiolp)
+I 8EH I 111 LII TRI I la
+Chrom
+Fig. 6 Genome-wide Manhattan plots of associations for oleic acid content for 2019 analysis In the left panel, the X-axis indicates the SNPS along
+each chromosome; the Y-axis is the -log 10 (P-value) for the association, the threshold value was set at -log(p) > 6.20 (red) and -log(p) > 7.20
+(blue). a GWAS result based on the cmlm model, b GWAS result based on the EmMax model, C GWAS result based on the fastimm model, d
+GWAS result based on the GLM model, e GWAS result based on the MLM model. Q-Q plots for oleic acid using cmlm model (f), EmMax model
+(g), fastimm model (h), GLM (I), MLM (). The grey area represents the 95% concentration band. Each dot represents a SNP
+content in grains of different soybean varieties varied [19]. In 2008, cultivated and wild soybean germplasms
+greatly [18]. Japanese scientists collected 319 Japanese from different regions were analysed for their fatty acid
+soybean varieties in 2016; among the 319 accessions, the content. The results showed that the average fat content
+oleic acid content in seeds ranged from 7.66 to 15.86%, in cultivated soybean was 17.21%, which was 6.22%
+and 101 accessions had seed oleic acid levels of 11.5% higher than that in wild soybean; the oleic acid content
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 9 of 14
+Table 2 Correlation between relative gene expression and oleic acid content in soybean
+Year Chromosome Gene
+Predicted function
+Length Contribution
+rate
+2018 Chr03
+Glyma.03G054100.1 3PREDICTED: Glycine max TMV resistance protein N-like (LOC100805036), transcript 687 0.10
+variant X3, MRNA
+Glyma.03G1682003 3PREDICTED: Glycine max pleiotropic drug resistance protein 1-like
+4662 0.07
+(LOC100791601), MRNA
+Chr04
+Glyma.04G191100.1 3PREDICTED: Glycine max probable pectate lyase 18-like (LOC100814679), MRNA 1657 0.32
+Glyma.04G102900.1
+2522 0.43
+Glyma.04G203200.1 3PREDICTED: Glycine max respiratory burst oxidase homolog protein C-like
+2440 0.08
+(LOC100800248), MRNA
+Chros
+Glyma.05G155300.1 3PREDICTED: Glycine max ATP carrier protein 2, chloroplastic-like (LOC100797684), 1655 0.11
+MRNA
+Chr07
+Glyma.07G033100.1 3PREDICTED: Glycine max ADP,ATP carrier protein 1, chloroplastic-like
+2317 0.12
+(LOC100793284), MRNA
+Glyma.07G089000.1 3PREDICTED: Glycine max VIN3-like protein 1-like (LOC100780157), transcript variant 2756 0.10
+X2, mRNA
+Chr08
+Glyma.08G019700.1 3PREDICTED: Glycine max calcium-dependent protein kinase 3-like
+1877 0.16
+(LOC100777096), transcript variant 1, MRNA
+Glyma.08G1850002 3PREDICTED: Glycine max probable plastid-lipid-associated protein 4, chloroplastic- 979 0.15
+like (LOC100803367), transcript variant 1, MRNA
+Chr11
+Glyma.11G229600.1 3PREDICTED: Glycine max DNA replication complex BAG protein, transcript variant 1257 0.47
+2, MRNA,
+Chr13
+Glyma.13G163400.1 3PREDICTED: Glycine max protein S-acyltransferase 24-like (LOC100777470), misc_ 2490 0.32
+RNA
+Chr14
+Glyma.14G0451001 3PREDICTED: Glycine max abscisic-aldehyde oxidase-like (LOC100812604), MRNA 4517 0.22
+Chr15
+Glyma.15G1177001 3PREDICTED: Glycine max uncharacterized LOC102666654 (LOC102666654), MRNA 693 0.17
+Glyma. .15G120100.1 3PREDICTED: Glycine max tRNA methyltransferase 10 homolog A-like
+1337 0.10
+(LOC100779099), mRNA
+Glyma. .15G120200.2 3PREDICTED: Glycine max uncharacterized LOC102665381 (LOC102665381), mRNA 1227 0.08
+Glyma. .15G127500.1 3PREDICTED: Glycine max polygalacturonaselike (LOC100785701), mRNA
+1551 0.10
+Glyma.15G201700.1 3PREDICTED: Glycine max uncharacterized LOC100814752 (LOC100814752), mRNA 1945 0.11
+Glyma.15G2101003 3PREDICTED: Glycine max aphaphartehaboyephoghate synthase [UDP-forming] 3542 0.12
+1-like (LOC100797320), transcript variant X6, mRNA
+Glyma.15G2440001 3PREDICTED: Glycine max uncharacterized LOC100814749 (LOC100814749), MRNA 1213 0.10
+Glyma. .15G261100.1 3PREDICTED: Glycine max uncharacterized LOC100801946 (LOC100801946),
+3888 0.09
+transcript variant X1, mRNA
+2019 Chr19
+Glyma .19G110600.1 3PREDICTED: Glycine max uncharacterized LOC102659858 (LOC102659858), MRNA 1709 0.10
+Chr02
+Glyma.02G220300.1 2PREDICTED: Glycine max ataxin-2-like (LOC100788042), MRNA
+1135 0.18
+Chr04
+Glyma.04G102900.1
+2522 0.10
+Chr08
+Glyma.08G071600.1 2PREDICTED: Glycine max metacaspase-3-like (LOC100796113), transcript variant X2, 1839 0.12
+mRNA
+Chr11
+Glyma.11G229600.1 3PREDICTED: Glycine max DNA replication complex BAG protein, transcript variant 1257 0.47
+2, MRNA,
+Chr12
+Glyma.12G224000.1 2PREDICTED: Glycine max uncharacterized LOC102660202 (LOC102660202), MRNA 2799 0.17
+Glyma.12G2273001 2PREDICTED: Glycine max DNA ligase 1-like (LOC100818049), MRNA
+2728 0.17
+Chr20
+Glyma.20G026100.1 2PREDICTED: Glycine max 26S proteasome non-ATPase regulatory subunit 7 homo- 896 0.08
+log A-like (LOC100816479), mRNA
+in cultivated soybean was 23.25%, which was 7.75% ranged from 13.5 to 38.4%. The results also showed that
+higher than that in wild soybean; and the linoleic acid the average oleic acid content in soybean germplasms
+content was 53.53%, which was 2.57% lower than that in varied greatly, and the oleic acid content in soybean
+wild soybean [20]. In this study, the oleic acid content grain was significantly different between regions. In
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 10 of 14
+transport
+notclassified Major CHO metabolism
+8X
+1%
+4%
+PS
+development
+8X
+7X
+cell Iwall
+signaling
+7%
+4X
+cell
+metabolism
+4%
+ipid
+5%
+metal Ihanding
+4%
+rotein
+12%
+N-metabolism
+5%
+amino acid metabolism
+misc
+4%
+5%
+secondary metabolism
+3%
+RNA
+hormone metabolism
+5%
+stress tetrapyrrole synthask
+DNA
+redox
+3%
+1%
+5X
+3X
+MajorCHO met tabolism : PS
+cellwal
+"ipid metabolism
+metal handing
+N-metabolsm
+"amino acid metabolism . secondary metabolsm harmane metabalism "tetrapyrrole synthesis stress
+redax
+-DNA
+RNA
+misc
+"protein
+-cell
+signaling
+-devek bopment
+- trareport
+notdassified
+Fig. 7 Distribution Map of Candidate Genes in the different functional process
+A
+B
+seeds
+lleaves 50-
+A lleaves
+T
+A
+Istems
+B
+B
+Istems
+Jroots
+seeds Iroots
+8 40-
+Iseeds'
+leaves
+Iseeds
+roots
+a
+roots
+stems B
+40-
+B
+C
+D C
+seeds
+roots C
+D
+seeds
+stems
+20-
+D
+roots
+stems 4
+E
+10-
+leaves
+leaves E
+:
+F
+leaves
+4
+E
+a
+stems
+Soybean with low oleic acid Soybean with high oleic acid
+Soybean with low oleic acid Soybean with high oleic acid
+Fig. 8 Box-plot representation of two candidate genes expression in different tissues. a Variance analysis of Giyma.11G229600.1 expression in
+different tissues of soybean. b Variance analysis of Gyma.04G102900.1 expression in different tissues of soybean. The different uppercase letters
+indicate significant differences at P<0.01, as determined by Duncan's multiple-range test
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 11 of 14
+Kurt's study, the correlation analysis clearly indicated a content in soybean seed in both the 2018 and 2019 ana-
+significant and negative correlation of oleic acid with lyses. This is the first time that the key genes Gly-
+linoleic acid (r= - 0.701, P<0.0001) and stearic acid (r = ma.04G102900.1 and Glyma.1IG229600.1 have been
+- 0.218, P<0.001), stearic acid was significantly posi- reported to be associated with the oleic acid content.
+tively correlated with oleic and arachidic acid, while ste- Hence, further studies should be conducted to support
+aric acid had an inverse association with both linoleic this finding. Our results provide a basis for deciphering
+and linolenic acids [21]. In our study, the oleic acid con- the mechanism underlying the determination of fatty acid
+tent was also significantly positively correlated with lino- composition in soybean. Moreover, the SNP markers
+leic acid (0.454). The results indicated that the identified here demonstrate that marker-assisted selection
+relationship between oleic and linoleic acids may be is a powerful strategy for identifying genes of interest in
+helpful in evaluating varieties that are rich in oleic acid. soybean and can be used in breeding programmes aimed
+Glyma.1IG2296001, located on chromosome 11, was at optimizing fatty acid profiles in seeds.
+simultaneously detected by GWAS during 2018 and
+2017. Glyma.1IG229600.1 belongs to the plant BAG
+protein family. The BAG proteins are a broadly con- Conclusions
+served gene family with homologs spanning wide evolu- In this study, the genome-wide association study (GWAS)
+tionary distances, including yeast, animals, and plants technique was used to find SNP markers correlated with
+[22]. Studies have shown that BAG proteins are also oleic acid content. In 2018, 20 new candidate genes re-
+present in Arabidopsis thaliana [23]. The BAG protein lated to oleic acid content were detected, and in 2018, a
+family plays an important role in plant growth and de- total of8 new candidate genes related to oleic acid content
+velopment. Overexpression of BAG7 can increase plant were also detected. Glyma.04G102900.1 on chromosome
+sensitivity to temperature, and BAG4 encodes anti- 4 and Glyma.1IG229600.1 on chromosome 11 were
+apoptotic genes that have been reported to confer toler- detected in both analyses (2018 and 2019). Gly-
+ance to salinity and drought stresses in transgenic to- ma.04G102900.1 and Glyma.1IG229600.1 are new key
+bacco [24]. Drought treatment at different growth stages candidate genes related to oleic acid in soybean seeds.
+also contributed to differences in fatty acids [25]. The
+fatty acid composition and amino acid composition were
+significantly affected by drought stress [26]. Severe Methods
+drought increased the protein content by 4.4 percentage Plant materials
+points, while the oil content decreased by 2.9 percentage The 260 soybean materials provided by the Biotechnol-
+points. With increasing drought stress, measured as ac- ogy Center of Jilin Agricultural University were planted
+cumulating stress over days, the protein content in- in the experimental field of Jilin Agricultural University
+creased linearly, and the oil content decreased [27]. It (Changchun, China) from 2018 to 2019 (total of 2 years).
+can be speculated that Glyma.11G2296001 may increase A randomized complete block design was used. Each
+the drought tolerance of soybean, thus affecting the soybean line was examined using three biological repli-
+accumulation of oleic acid in soybean seeds.
+cates. The field was divided into three blocks of 260 m2
+Glyma.04G102900.1 belongs to the plant GRAS pro- (26 x 10 m), and each block was subdivided into eight
+tein family. GRAS proteins constitute an important fam- sections. Each section was subdivided into 260 subsec-
+ily of plant-specific proteins named after the first three tions. Natural drying (sunlight) was allowed to occur,
+members discovered: gibberellic acid insensitive (GAI), and then, the seeds were threshed for oleic acid deter-
+repressor of gai (RGA) and scarecrow (SCR). At least 33 mination. Fourteen soybean varieties with significantly
+GRAS genes have been identified in A. thaliana and rice different oleic acid levels were selected to test candidate
+[28]. Two GRAS domain proteins have recently been gene expression. The names of the soybean lines and the
+discovered in pulses [29]. Rhizobial bacteria enter a sym- fatty acid content are shown in Table 3.
+biotic interaction with pulses, activating diverse re-
+sponses in roots through the lipochito oligosaccharide
+signalling molecule Nod factor. Indeed, a study showed Determination of fatty acid levels in soybean seeds
+that a GRAS protein transduces calcium signals in plants The levels of oleic acid and four other fatty acids (stearic
+and acts as a possible regulator of Nod-factor-inducible acid, palmitic acid, linoleic acid and linolenic acid) in
+gene expression [30]. In this study, we investigated the soybean seeds were determined by a NIRSTM DS 2500
+expression of two candidate genes in different independ- instrument (FOSS, Hillerod, Denmark) after harvesting.
+ent soybean lines by qRT-PCR and found that the ex- SPSS version 22.0 software (SPSS Inc., Chicago, IL,
+pression of the candidate genes varied in these lines. We USA) was used to calculate the correlation coefficients
+discovered two genes that were correlated with oleic acid of fatty acids in soybean seeds.
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 12 of 14
+Table 3 Names of 14 soybean lines and average levels of five fatty acids
+Group
+Name of line Oil
+Protein Oleic acid Linoleic acid Linolenic acid Palmitic acid Stearic acid
+Low oleic acid content q001
+21.1 37.62 9.56
+67.85
+10.77
+9.79
+1.26
+q024
+20.18 39.1
+10.42
+67.19
+8.57
+9.02
+0.75
+q020
+20.94 39.12 11.55
+65.56
+8.6
+8.59
+1.01
+q008
+17.94 43.49 11.67
+64.32
+7.75
+9.48
+1.01
+q035
+19.13 39.17 11.99
+62.45
+9.43
+8.73
+1.38
+T7287
+20.96 37.76 12.23
+60.62
+7.74
+8.22
+2.36
+q033
+21.1 38.03 12.4
+62.92
+9.33
+9.86
+0.81
+High oleic acid content q318
+16.88 40.29 25.34
+57.71
+8.17
+2.32
+3.27
+q20
+22.19 40.42 26.41
+54.1
+6.04
+2.65
+1.8
+q073
+21.29 41.54 28.08
+50.94
+7.97
+1.72
+2.69
+q176
+12.36 38.91 29.73
+55.13
+8.85
+0.76
+5.06
+q070
+20.9 40.99 29.78
+51.08
+7.09
+1.67
+1.89
+q68
+16.91 39.44 29.94
+53.64
+6.01
+0.56
+4.43
+q353
+15.59 39.49 31.02
+52.18
+8.6
+0.99
+5.73
+Genotyping of soybean germplasms
+correlation between genotype data and phenotypic data.
+Total genomic DNA was extracted from the leaves of The QQ map was used to represent the level of differ-
+each soybean line using the CTAB method according to ence between observed and predicted values. In this
+Murray & Thompson (1980) [31]. The 260 soybean ma- study, the candidate genes were predicted by using the
+terials were genotyped by specific-locus amplified frag- Swiss-Prot and NR databases.
+ment sequencing (SLAF-seq), and SNP molecular
+markers were developed. DNA extraction is the first step Quantitative reverse transcription PCR
+in sequencing. SNP molecular markers are used for qRT-PCR analysis was performed using a Bio-Rad CFX
+phylogenetic analysis and genetic evolutionary correl- system (Amersham Biosciences, Little Chalfont, Buck-
+ation analysis. The restriction endonuclease combination inghamshire, UK). Total RNA was extracted using an
+was Rsal-Haelll. The sequencing service was provided Eastep* Super Total RNA Extraction Kit (TaKaRa Com-
+by Beijing Biomarker Biotechnology Company, PR pany, Kusatsu, Shiga, Japan). The amplification reaction
+China.
+conditions were as follows: predenaturation at 95 °C for
+10 min, denaturation at 95 C for 10s, followed by an-
+Population structure evaluation
+nealing at 53 C for 20 s, and extension at 72°C for 15s.
+Principal component analysis (PCA) was used to assess The amplification reaction conditions for the Gly-
+the population structure using the EIGENSOFT software ma.11G229600.1 gene were as follows: 95 C for 10 min;
+package. Based on the neighbour-joining method, MEGA5 35 cycles of denaturation at 95°C for 30 S, annealing at
+software was used to construct a phylogenetic tree that 67°C for 30 s, and extension at 72 °C for 30s; and exten-
+included each sample.
+sion at 72°C for 10 min. All of the above reactions in-
+cluded 40 cycles. After amplification, the dissolution
+Genome-wide association study (GWAS)
+curve was calculated by the 2-AACt method [32]. The
+Based on the SNP markers obtained by SLAF-Seq tech- amplification reaction conditions for the gene Gly-
+nology, the correlation values between SNP markers and ma.04G102900.1 were as follows: predenaturation at
+oleic acid content were obtained by using the five 95°C for 10 min; 35 cycles of denaturation at 95°C for
+models (glm, mlm, cmlm, fastlmm and emmax) in TASS 30 S, annealing at 59 °C for 30 S, and extension at 72°C
+EL software. TASSEL software can calculate the Q for 35 S; and extension at 72°C for 10 min. Three bio-
+matrix of the sample population structure according to logical replicates were used for each gene.
+the K matrix and finally obtain a correlation value for
+each SNP marker. The results of each model of each Data analysis
+trait were annotated based on a 0.000001 level of signifi- The phenotypic data were measured and recorded using
+cance. In this experiment, both the Manhattan map and Microsoft Excel 2010 software. Differential saliency ana-
+QQ map were constructed using Haploview software. lysis, analysis of variance, correlation analysis and de-
+The Manhattan map was used to represent the scriptiveness analysis were performed by using SPSS
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 13 of 14
+19.0 (IBM Corp, Armonk, NY, USA) software [33]. The Competing interests
+positive and negative maps and histograms were con- The authors declare that they have no competing interests.
+structed by using GraphPad Prism software (GraphPad Author details
+Company, San Diego, CA).
+'Research Center of Integrative Medicine, School of Basic Medical Sciences,
+Guangzhou University of Chinese Medicine, Guangzhou 510006, Guangdong,
+PR China. 2School of Biosciences and Veterinary Medicine, University of
+Supplementary information
+Camerino, Camerino, MC, Italy. Biotechnology Center of Jilin Agricultural
+Supplementary information accompanies this paper at https//doi.org/10. University, Jilin Agricultural University, Changchun 130118, PR China.
+11866128700202607-,
+Received: 11 July 2020 Accepted: 16 August 2020
+Additional file 1 Table S1. Heritability of fatty acid content in soybean
+Published online: 28 August 2020
+seeds.
+Additional file 2 Figure S1. Population structure of the soybean
+References
+germplasm collection. (PPTX 182 kb)
+1. Liu S, Zhang P, Marley B, Liu W. The factors affecting farmers' soybean
+Additional file 3 Table S2. SNPS identified as being associated with
+planting behavior rin Heilongjiang Province, China. Agriculture. 2019,9(9):188.
+oleic acid content in 2years (P< 0.000001).
+2. Tunde-Akintunde T, Olajide J, Akintunde B. Mass-volume-area related and
+mechanical properties of soybean asa function of moisture and variety. Int
+Additional file 4 Figure S2. Genome-wide linkage disequilibrium (LD)
+JFood Prop. 2005;8(3)449-56.
+decay for all 260 accessions. (PPTX 223 kb)
+3. Zhao X, Chang H, Feng L Jing Y, Teng W, Qiu L, et al Genome-wide
+Additional file 5 Figure S3. Expression of Glyma.11G229600.1 in
+association mapping and candidate gene analysis for saturated fatty acid
+different tissues of soybean lines. (PPTX 354 kb)
+content in soybean seed. Plant Breed. 201913815)588-98.
+Additional file 6 Table S3. Correlation between Giyma.11G229600.1
+4. Collins F, Sedgwick V. Fatty acid composition of several varieties of
+expression and oleic acid content.
+soybeans. J Am Oil Chem Soc. 1959:36(12)641-4
+5. Patil S, Balu D, Melrose J, Chan C Brain region-specificity of palmitic acid-
+Additional file 7 Figure S4. Expression of Gyma.04G102900.11 in
+induced abnormalities associated with Alzheimer's disease. BMC Res Notes.
+different tissues of soybean lines. (PPTX 233 kb)
+2008;1(1):20.
+Additional file 8 Table S4 Correlation between Gyma.04G102900.1
+6. Mensink RP, Zock PL, Kester AD, Katan MB. Effects of dietary fatty acids and
+expression and oleic acid content.
+carbohydrates on the ratio of serum total to HDL cholesterol and on serum
+lipids and apolipoproteins a meta-analysis of 60 controlled trials. Am J Clin
+Nutr. 20037715)1146-55.
+Abbreviations
+7. Sherwin E. Oxidation and antioxidants in fat and oil processing. J Am Oil
+SNP: Single-nucleotide polymorphism; SLAF-seq: Specific-locus amplified
+Chem Soc 197855(11,809-14
+fragment sequencing; GWAS: Genome-wide association study; LD: Linkage
+8. Combs R, Bilyeu KD. Novel alleles of FAD2-1A induce high levels of oleic
+disequilibrium; qRT-PCR: Real-time quantitative PCR; CM: Centimorgan;
+acid lin soybean oil. Mol Breeding. 2019:39(6:1-11.
+QTL: Quantitative trait locus; PCA: Principal component analysis;
+9. Wang X, Pang Y, Zhang J,Wu Z, Chen K Ali iJ, Ye G, Xu J,Li Z. Genome-
+QQ: Quantile-quantile
+wide and gene-based association mapping for rice eating and cooking
+characteristics and protein content. Sci Rep. 2017;7(1):1-10.
+Acknowledgements
+10. Verslues PE, Lasky JR, Juenger TE, Liu TW, Kumar MN. Genome-wide
+We are grateful for the generous grant from the Biotechnology Center of
+association mapping combined with reverse genetics identifies new
+Jilin Agricultural University and the Jilin Academy of Agricultural Sciences
+effectors of low water potential-induced proline accumulation in
+that made this work possible.
+Arabidopsis Plant Physiol. 2014:16401)144-59
+11. Brachi B, Morris GP, Borevitz. JO. Genome-wide association studies in plants:
+Authors' contributions
+the missing heritability isi in the field. Genome Biol. 2011;12(10)232.
+WP and QD designed the experiments. QD and XYL planned and performed 12. Hwang EY, Song QJia G, Specht JE, Hyten DL, Costa J, et al A genome-
+the experiments. CM, AP and QD edited the manuscript. All authors
+wide association study of seed protein and oil content in soybean. BMC
+discussed the results and commented on the manuscript. All authors have
+Genomics. 2014;15(1):1.
+read and approved the manuscript.
+13. Cao Y,Li S, Wang Z, Chang F, Kong J,Gai J, et al Identification of major
+quantitative trait loci for seed oil content in soybeans by combining linkage
+Funding
+and genome-wide association mapping. Front Plant Sci. 2017;8:1222.
+The project was funded by the National Key R&D Program for Crop Breeding 14. Bastien M, Sonah H, Belzile F. Genome wide association mapping of
+(2016YFD0100201). The funder took part in the design of the study;
+Sclerotinia sclerotiorum resistance in soybean with a genotyping-by-
+collection, analysis and interpretation of the data; and writing of the
+sequencing approach. Plant Genome. 2014;7:1.
+manuscript.
+15. Kaler AS, Ray JD, Schapaugh WT, King CA Purcell LC Genome-wide
+association mapping of canopy wilting in diverse soybean genotypes. Theor
+Availability of data and materials
+Appl Gent 2017130010X2203-17.
+16. Zhang J,Wang X, Lu Y, Bhusal SJ, Song Q Cregan PB, et al Genome-wide
+The raw sequence information that support the findings of this study are
+scan for seed composition provides insights into soybean quality
+available from [Beijing Biomarker Biotechnology Co., ltd, Beijing, China] but
+improvement and the impacts of domestication and breeding. Mol Plant.
+restrictions apply to the availability of these data, which were used under
+2018,113)460-72
+license for the current study, and so are not publicly available. Data are
+17. Priolli RH, Campos JB, Stabellini NS, Pinheiro JB, Vello NA. Association
+however available from the corresponding authors upon reasonable request
+mapping of oil content and fatty acid components in soybean. Euphytica.
+and with permission of [Beijing Biomarker Biotechnology Co, ltd, Beijing,
+2015203(1)83-96
+China). Other datasets supporting the conclusions of this article are included 18. Diers BW, Shoemaker R. Restriction fragment polymorphism analysis
+within the article and its additional files.
+of soybean fatty acid content J Am Oil Chem length Soc 1992,6912:1242-4
+19. Wee CD, Hashiguchi M, Anai T, Suzuki A, Akashi R Fatty acid composition
+Ethics approval and consent to participate
+and distribution in wild soybean (Glycine soja) seeds collected in Japan.
+Not applicable.
+Asian J Plant Sci. 2017;16:52-64.
+20. Pantalone VR, Rebetzke GJ, Wilson RF, Burton JW. Relationship between
+Consent for publication
+seed mass and linolenic acid in progeny of crosses between cultivated and
+Not applicable.
+wild soybean. J Am Oil Chem Soc 1997:74(5)563-8.
+
+
+
+Liu et al. BMC Plant Biology (2020) 20:399
+Page 14 of 14
+21. Kurt C Variation in oil content and fatty acid composition of sesame
+accessions from different origins. Grasas Aceites. 2018:69(1):241.
+22. Williams B, Kabbage M, Britt R, Dickman MB. AtBAG7, an Arabidopsis Bcl-2-
+associated athanogene, resides in the endoplasmic reticulum and lis involved
+in the unfolded protein response. P Natl IA Sci. 2010107013)6088-93
+23. Yan J, He C Zhang H. The BAG-family proteins in Arabidopsis thaliana. Plant
+Sci. 2003;165(1)1-7.
+24. Hoang TM, Moghaddam L, Williams B, Khanna H, Dale J, Mundree SG.
+Development of salinity tolerance in rice by constitutive-overexgresion of
+genes involvedin the regulation of programmed cell death. Front Plant Sci.
+2015,6:175.
+25. Sanchez-Martin J,Canales FJ, Tweed JK, Lee MR, Rubiales D, Gomez-
+Cadenas A, et al Fatty acid profile changes during gradual soil water
+depletion in oats suggests a role for jasmonates in coping with drought
+Front Plant Sci. 2018,9:1077.
+26. Dwivedi S, Nigam S, Rao RN, Singh U, Rao K Effect of drought on oil, fatty
+acids and protein contents of groundnut (Arachis hypogaea L) seeds. Field
+crops res. 1996482-3:125-33.
+27. Dornbos D, Mullen R. Soybean seed protein and oil contents and fatty acid
+composition adjustments by drought and temperature. J Am Oil Chem Soc.
+1992,69(3)228-31.
+28. Hirsch S, Oldroyd GE GRAS-domain transcription factors that regulate plant
+development. Plant Signal Behav. 2009:418)698-700.
+29. Heckmann AB, Lombardo F, Miwa H, Perry JA, Bunnewell S, Parniske M,
+et al Lotus japonicus nodulation requires two GRAS domain regulators, one
+of which is functionally conserved in a non-legume. Plant Physiol. 2006;
+142(4):1739-50.
+30. Smit P, Raedts J, Portyanko V, Debellé F, Gough C Bisseling T, et al NSP1 of
+the GRAS protein family is essential for rhizobial nod factor-induced
+transcription. Science. 20053085729:1789-91.
+31. Murray M, Thompson WF. Rapid isolation of high molecular weight plant
+DNA. Nucleic Acids Res. 1980,8(19)4321-6.
+32. Livak KJ, Schmittgen TD. Analysis of relative gene expression data using
+real-time quantitative PCR and the 2 AACT method. Methods. 2001;25(4):
+402-8.
+33. Verma JP. Data analysis in management with SPSS software. Springer. Berlin:
+Science & Business Media; 2013.
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Ready to submit your research? Choose BMC and benefit from:
+. fast, convenient online submission
+: thorough peer review by experienced researchers sinyour field
+rapid publication on acceptance
+support for research data, including large and complex data types
+gold Open Access which fosters wider collaboration and dincreased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions

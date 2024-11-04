@@ -1,0 +1,1515 @@
+frontiers
+ORIGINAL RESEARCH
+in Plant Science
+published: 10 February 2021
+doi: 10.338971p5.2020590179
+Coektor
+Genome-Wide Association Study of
+Topsoil Root System Architecture in
+Field-Grown Soybean Glycine max
+(L.) Merr.]
+Arun Prabhu Dhanapal', Larry M. York?, Kasey A. Hames' and Felix B. Fritschi**
+'Division ofPlant Sciences, University of Missouri, Columbia, MO, United States, 2Noble Research Institute, LLC, Ardmore,
+OK, United States
+Water and nutrient acquisition is a critical function of plant root systems. Root system
+architecture (RSA) traits are often complex and controlled by many genes. This is the
+first genome-wide association study reporting genetic loci for RSA traits for field-grown
+soybean (Glycine max). A collection of 289 soybean genotypes was grown in three
+environments, root crowns were excavated, and 12 RSA traits assessed. The first
+OPEN ACCESS two components of a principal component analysis of these 12 traits were used as
+additional aggregate traits for a total of 14 traits. Marker-trait association for RSA traits
+Editedby:
+Laurent Gentzbittel, were identified using 31,807 single-nucleotide polymorphisms (SNPS) by a genome-wide
+Skolkovo Institute of Scienceand association analysis. In total, 283 (non-unique) SNPS were significantly associated with
+Technology, Russia one or more of the 14 root traits. Of these, 246 were unique SNPS and 215 SNPS were
+Reviewedby: associatedwitha single root trait, while 26, four, and one SNPS were associatedwithtwo,
+Valerio Hoyos-Villegas,
+McGill University, Canada three, and four root traits, respectively. The 246 SNPS marked 67 loci associated with
+Yongzhong Xing, at least one ofthe 14 root traits. Seventeen loci on 13 chromosomes were identified by
+Huazhong Agricultural
+University, China SNPS associated with more than one root trait. Several genes with annotation related to
+"Correspondence: processes that could affect root architecture were identified near these 67 loci. Additional
+Felix B. Fritschi follow-up studies will be needed to confirm the markers and candidate genes identified
+fitschif@missouriedu for RSA traits and to examine the importance of the different root characteristics for
+Specialty section: soybean productivity under a range of soil and environmental conditions.
+This article was submitted to
+Plant Breeding, Keywords: genome-wide association study, root system architecture, root complexity score, tap root, lateralroot
+a section oft the journal number, lateral root angle, lateral root density, candidate genes
+Frontiers in Plant Science
+Received: 31 July 2020 INTRODUCTION
+Accepted: 14 December 2020
+Published: 10 February 2021 Survival and performance of plants depend on efficientexploration ofthe soilin search for available
+Citation: water and nutrients (Gruber et al., 2013). Quantification of root growth and development requires
+Dhanapal AP YorkLM, Hames KAand repetitive measurements during a growing season, and because such measurements are difficult
+Fritschi FB (2021) Genome-Wide to acquire for field-grown plants, relatively little is known about
+roots
+Association Study of Topsoil Root
+root systems. Thus,
+are
+System Architecture in Field-Grown often referred to as the "hidden half" of the plant yet are critically important (Waisel et al., 2002).
+Soybean [Glycine max (L.)Merr). Root system architecture (RSA) was well-defined by Fitter et al. (1991) and encompasses the spatial
+Front. Plant Sci. 11:590179. arrangement tofrotsofdiferentages: and classes (Lynch, 1995; Malamy, 2005; Osmont et al., 2007).
+doi: 103389/p65.2020590179 RSA varies within and among species due to genetics yet also displays phenotypic plasticity in
+Frontiers in Plant Science lwww.frontiersin.org
+1
+February 2021 IVolume 11 JArticle 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+response to the environment (Lynch, 1995). Root system genotypes in soybean (Manavalan et al., 2009; He et al., 2017).
+characteristics largely have been ignored by plant breeders and While rooting depth is critical in many environments to ensure
+were not targeted as selection criteria as part of the 1960's green access to water, the distribution of nutrients in the soil profile is
+revolution. However, understanding RSA holds promise for the heterogeneous in space and time. For instance, mobile nutrients
+discovery, manipulation, and exploitation of root characteristics such as nitrate-nitrogen may readily moveinto deeper soil layers,
+to both increase plant yield and optimize agricultural land use whereas immobile nutrients such as phosphorus and potassium
+(Waines and Ehdaie, 2007; Den Herder et al., 2010).
+often are more abundant in the upper layers of the soil profile
+The RSA in Arabidopsis and cereals, including its potential (Jobbagy and Jackson, 2001; Ho et al., 2005; Houx and Fritschi,
+for genetic improvement in crops, and high-throughput root 2011; Lynch, 2013). Consequently, the distribution of roots in
+phenotyping methodologies are well-reviewed (De Dorlodot the soil in space and time is critical for efficient exploration of
+et al., 2007; Zhu et al., 2011; Smith and De Smet, 2012; Rich soil resources essential for crop growth and development and,
+and Watt, 2013). While fundamental RSA is determined by to maximize productivity, should be optimized for different soil
+constitutive genetics, substantial modifications are induced by types and environmental conditions.
+environmental cues (Malamy, 2005). The more dynamic changes
+Targeted breeding for root systems tailored to different
+in overall RSA through time are deemed root plasticity, which soils and locations requires a thorough understanding of the
+reflects changes in three-dimensional distribution, shape, and implications of different RSA types for these environments,
+branching patterns that may allow the plantto efficiently respond the genetics underlying root system characteristics, and the
+to different environmental conditions (Malamyand Benfey, 1997; heritabilities ofthese traits. While genotypic variation in soybean
+Osmont et al., 2007; Péret et al., 2009; Pacheco-Villalobos and taproot elongation (Kaspar et al., 1984; Manavalan et al., 2015)
+Hardtke, 2012).
+and lateral root production (Read and Bartlett, 1972) has been
+The soybean [Glycine max (L.) Merr.] root system is relatively demonstrated, only a limited number of studies aimed to
+simple with three distinct morphological components: the elucidate the genetics underlying soybean RSA. These studies
+primary root, commonly called the taproot, which originates as primarily have been based on the use of recombinant inbred
+the radicle from germinating seeds; lateral roots, often referred line (RIL) populations to discover quantitative trait loci (QTLs)
+to as secondary roots that emerge from the taproot; and tertiary for RSA traits. A RIL population developed from a cross
+and higher-order lateral roots that originate from the secondary between genotypes known to differ in root architecture identified
+and successive order lateral roots (Lersten and Carlson, 2004). nine QTLs for six root traits under low-phosphorus conditions
+The first study of a soybean root system was performed in the and four QTLs for four root traits under high-phosphorus
+1930's (Borst and Thatcher, 1931). In 1953, it was hypothesized conditions (Liang et al., 2010). Five QTLs associated with a
+that the root distribution is related to the soil water extraction visual rating of root system complexity, which they termed
+pattern because the zone of the greatest uptake of the plant root "fibrous roots," was identified in field-grown soybean evaluated
+is behind the growing apex of the whole system (Brouwer, 1953), in 2 years (Abdel-Hallem et al., 2011), and an another study
+and this was verifiedin soybeans in the 1970's by studies showing reported nine QTLs for five root characteristics based on data
+correlations between water uptake and root depth (Allmaras in 1 year (Brensha et al., 2012). Soybean seedling root traits
+et al., 1975; Arya et al., 1975) and root length density (Burch et al., were studied in a large RIL population grown in a modified
+1978). Root developmental plasticity, especially morphological hydroponic system and identified five QTLs for maximum root
+and architectural changes, is an adaptive response to avoid plant length, four QTLs for lateral root number, three QTLs for root
+water deficit and/or nutrient deficiencyby exploring agreater soil weight, and three QTLs for root volume (Liang et al., 2014).
+volume or a given soil volume more thoroughly. Indeed, root Given the limited information about the genetics underlying
+developmental plasticity is observed in soybean in response to soybean root architecture available to date, and the limited
+various conditions, including differences in water and nutrient number of genotypes upon which this information is based, an
+availabilities (Silvius et al., 1977; Bacanamwo and Purcell, 1999; examination of topsoil RSA of a diverse population of soybean
+Zhao et al., 2004).
+genotypes can be expected to provide novel insights. Thus, the
+The intrinsic ability of plant roots to extract water from deeper objectives of this study were to assess a broad range of RSA
+soil profiles can enable plants to maintain optimal water relations, traits in a soybean diversity panel and to conduct a genome-wide
+as well as carbon assimilation, under water-deficit stress (Fenta association analysis to identify genomic regions conditioning
+etal., 2011). One ofthe major factors influencing soybean rooting topsoil root characteristics under field conditions.
+depth is the tap root (primary root) elongation rate (Kaspar et al.,
+1984). Deep taproots, with greater density of lateral roots that METHODS
+increase the surface area for absorption, contribute to drought
+avoidance in soybean (Ha et al., 2013; Matsuo et al., 2013). The Field Locations and Experimental Design
+taproot is formed first in soybean and serves as the primary Field experiments were conducted at three locations, namely,
+axis for vertical soil exploration. Genotypic variation in tap Rollins Bottom in Columbia, MO(385537.5N,922044.6'W),
+root elongation rates has been reported (Kaspar et al., 1984), in 2012 and 2013, and at the Rhodes Farm (Rhodes) near
+and identification of genotypes with rapidly elongating taproots Clarkton, MO 06487A7N.89932rW.n 2013. At Rollins
+under water and phosphorus stress conditions may benefit Bottom, the soil is a Haymond silt loam soil (course-silty, mixed,
+in selection toward high nutrient and water uptake efficient superactive, mesic Dystric Fluventic Eutrudepts); and at Rhodes,
+Frontiers in Plant Sciencel lwww.frontiersin.org
+2
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+it is a Malden fine sand (mixed, thermic Typic Udipsamments). phenotypic means and bestlinear unbiased predictions (BLUPS),
+Seeds of 341 maturity group IV soybean accessions, originally the 2 years at Rollins Bottom and 1 year at Rhodes were treated
+obtained from the USDA Soybean Germplasm Collection, were as three environments, and analysis of variance was performed
+planted in a randomized complete block design (RCBD) with using the PROC MIXED procedure using the model suggested
+three replications in each environment. Genotypes were planted by Bondari (2003) and Piepho (1994), where the genotype
+at r2.5-cm depth to a density of 25 seeds m -2 in single-row was treated as a fixed effect, and replication nested within
+plots measuring 6.1 m (2012) and 2.4m (2013) in length at environment was treated as a random effect.
+Rollins Bottom and 4.6m in length at Rhodes. Row distance
+BLUPS were used to minimize the effects of environmental
+was 0.76m in all three environments. In 2012 at Rollins variation for a genome-wide association analysis. The phenotypic
+Bottom and in 2013 at Rhodes, the experiments were watered values of all root traits per genotype were derived within each
+with an irrigation gun and a lateral-move irrigation system, environment and across all environments using the Imer package
+respectively. No irrigation was applied at Rollins Bottom in in R (version 3.3.2). Broad-sense heritabilities were determined
+2013. Pre-plant application of P and K was conducted based using a SAS (Sas-Institute-Inc., 2004) program as previously
+on soil test results as recommended by the University of described (Piepho and Mohring, 2007; Dhanapal et al., 2015b).
+Missouri, Columbia. Weeds were controlled using pre- and
+post-emergence herbicide applications supplemented by manual Principal Component Analysis, Population
+weeding as needed. No insecticide applications were conducted. Structure (Q), and Kinship Matrix (K)
+Of the 341 diverse soybean accessions planted, 289 accessions
+To better understand the
+traits, Pearson
+were used for a genome-wide association study (GWAS), while
+dependencies among
+the remaining accessions were excluded because of missing correlation coefficients were computed in R (version 3.3.2).
+Principal component analysis (PCA) was performed
+phenotype or marker data. Throughout the remainder of the
+using
+original phenotypic values of all genotypes for all root traits in
+text, Rollins Bottom 2012 and 2013 experiments and the Rhodes R
+(version 3.3.2). Data were centered and scaled using the scale
+2013 experiment will be referred to as RB12, RB13, and function, and then the prcomp function was used to conduct
+RH13, respectively.
+the PCA. The scores, or rotations, from principal components
+Characterization of Topsoil Root System
+(PCS) 1 and 2 were selected as aggregate traits to be included in
+the GWAS.
+Architecture
+For the 289 genotypes included lin the GWAS analysis, single-
+Root crown phenotyping was used to determine the RSA of the nucleotide polymorphism (SNP) markers originated from the
+top portion of the root system, the root crown (York, 2018). application of the Illumina Infinium SoySNP50K iSelect SNP
+When the genotypes reached the beginning seed to seed filling Beadchip (Song et al., 2013). The SNP markers available for
+stages, soybean stems were cut a 10-15cm above the soil surface, the 289 genotypes were filtered to ultimately include 31,708
+and shoots were removed from the row. Root crowns were polymorphic SNPS with a minor allele frequency (MAF) 25%
+excavated to a depth of r0.25 m using a single-row potato digger in the GWAS analysis. The Bayesian model-based program
+(SP50, Checchi & Magli, Budrio, Italy) pulled by a tractor. Root STRUCTURE 2.3.4 (Pritchard et al., 2000) software was
+systems from five plants were removed from the middle third used to infer the population structure (Q) using the 31,708
+of each plot and were shaken by hand to remove the remaining SNPS. The burn-in iteration and Markov chain Monte Carlo
+loosely attached soil. Root phenotypes were determined using (MCMC) replications after burn-in with an admixture and allele
+a combination of visual ratings, counting, and measurements frequencies correlated model was used as described previously
+as indicated in Table 1. Overall Complexity Score (OCS) was (Dhanapal et al., 2015a,b). The population structure analysis was
+scored visually with the simplest root systems (least fibrous) performed with 10 independent iterations with the hypothetical
+assigned a score of 1 and the most complex root systems (most number of subpopulations (k) ranging from 1 to 10. All soybean
+fibrous) assigned la score of5, and intermediate root systems were accessions were assigned to a subpopulation based on the
+scored as 2, 3, or 4. A visual scoring system ranging from 1 to optimum k (k = 8), and the population structure matrix (Q) was
+4 was used for the Taproot (TRT) with well-defined, prominent generated for further association analyses. TASSEL 5.2.3 software
+taproots scored as one and missing taproots scored as four. (Bradbury et al., 2007; Buckler et al., 2009) was used to generate
+Primary and secondary lateral roots at different positions on the the kinship matrix (K) based on "scaled Identity by State (IBS)"
+excavated root system were counted manually. Root angles were similarity matrix (Endelman and Jannink, 2012).
+determined using a plexiglass board made into a 180° protractor
+with angles indicated every 5°. With the use of this protractor,
+angles oflateral roots emerging from the taproot (primary lateral Genetic Diversity of Germplasm and
+roots) were determined based on the position of the lateral root Linkage Disequilibrium
+at 5cm from the point of emergence from the taproot.
+The 31,708 SNPS with MAF 25% along 20 chromosomes were
+included for genetic diversity analysis and linkage disequilibrium
+Statistical Analysis
+(LD) calculation. Clustering ofgenotypes was conducted with the
+Descriptive statistics were computed for all measured variables cladogram functionin TASSEL 5.2 (Bradbury et al., 2007; Buckler
+using the PROC MEAN procedures of SAS (Sas-Institute-Inc., et tal., 2009) to producea neighbor-joining (NJ) relationship using
+2004). To analyze genotype X environment interactions of raw parsimony substitution models Newick file. The output Newick
+Frontiers in Plant Sciencel lwww.frontiersin.org
+3
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+TABLE 1 List of root traits measured with their abbreviations and their rating methodology.
+Name of trait
+Rating methodology or score
+Overall Complexity Score (OCS)
+Visual rating of the overall complexity: 1= very simple, 2 t= simple, 3 = average, 4 = complex, 5 = very complex.
+Taproot (TRT)
+Visual rating of taproot definition: 1 == well-defined, 2 = poorly defined/small, 3 = not defined, 4 = broken/missing.
+Upper Primary Lateral Root Number (UPLN)
+Number of primary lateral roots emerging from the taproot in the top half of the root crown.
+Upper Secondary Lateral Root Density (USLD)
+Number of secondary lateral roots ina2-cm window of one randomly selected upper primary lateral root located
+at r2 to 4cm from the parent root's origin.
+Upper Primary Lateral Root Angle Average (ULAA) Angles of up to five upper first-order lateral roots to the nearest 50. Angles measured at 5cm from taproot. Larger
+diameter roots prioritized for measurements.
+Upper Primary Lateral Angle Range (UPAR)
+Difference between maximum and minimum angles of upper lateral roots measured for ULAA determination.
+Lower Primary Lateral Root Number (LPLN)
+Number of primary lateral roots emerging from the taproot in the bottom half of the root crown.
+Lower Secondary Lateral Root Density (LSLD)
+Number of secondary lateral roots ina2-cm window of one randomly selected lower primary lateral root located
+at r2-4 cm from the parent root's origin.
+Lower Primary Lateral Root Angle Average (LLAA) Angles of up to 5 lower first-order lateral roots to the nearest 50. Angles measured at 5cm from taproot. Larger
+diameter roots prioritized for measurements.
+Lower Primary Lateral Root Angle Range (LPAR) Difference between maximum and minimum angles of lower lateral roots measured for LLAA determination.
+Total Number of Primary Lateral Roots (NPL)
+Total number of lateral roots emerging from the taproot (UPLN + LPLN).
+Average Lateral Density (ALD)
+Average of USLD and ILSLD.
+Soybean accessions (289) were evaluated at three site-years, namely, at Rollins Bottom in 2012 and 2013 and at Rhodes in 2013.
+file was used as input in TreeDyn 198.3 software (Chevenet et al., Candidate Genes
+2006) to obtain the final tree.
+To identify genes that may be affecting the RSA phenotypes,
+The calculation of pairwise LD (r2) among SNPS and a region encompassing a +0.5-Mb window around each of
+identification of haplotype blocks was based upon SNPS within the putative loci was explored for candidate genes in SoyBase
+1-Mb windows as discussed previously (Dhanapal et al., 2015c). (www.soybase.org) (Grant et al., 2010). For the candidate gene
+LD plot of SNPS was generated in TASSEL 5.2 using Linkage search, the GlymaID from Gmax version 2.0 was used, and
+Disequilibrium function with LD sliding window of50 SNPS and only primary predicted protein encoding genes were included
+visualized with LD plot function.
+in the search. The candidate genes were further narrowed
+down by gene ontology (GO)-based biological, molecular
+Genome-Wide Association Studies
+functions, and cellular component descriptions relevant to root
+A GWAS analysis was performed in the R package Genome function. PFAM, PANTHER, and KOG descriptions assigned by
+Association and Prediction Integrated Tool (GAPIT) (Bradbury Phytozome (http/phytozome.ji.doc.gov/pz/portal.htmlelinfo?
+et al., 2007; Lipka et al., 2012). The model employed for alias-Org_Gmax) were also taken into consideration based on
+an association analysis was a compressed mixed linear model previous candidate genes reported for root traits in the literature.
+(CMLM) incorporating the kinship matrix (K) to model random
+effects and the population structure (Q) estimated by the
+Bayesian model-based program STRUCTURE to model fixed RESULTS
+effects (Pritchard et al., 2000; Bradbury et al., 2007; Zhang et al.,
+2010; Lipka et al., 2012). Significance ofmarker-trait associations Diversity in Root Characteristics Among
+was assessed by performance of multiple testing using QVALUE Genotypes and Environment Effects
+R 3.1.0 employing the smoother method (Storey and Tibshirani, A total of 12 root traits were assessed for 289 genotypes in
+2003; Bass et al., 2015), an extension of the false discovery rate three different environments. A list of these traits and their
+(FDR) method (Benjamini and Hochberg, 1995). Markers with abbreviations and assessment methodology are provided in
+qFDR < 0.05 were considered significant (Dhanapal et al., 2015c; Table 1. As Figure 1 and Supplementary Table 1 demonstrate,
+Herritt et al., 2016), and all markers that satisfied the multiple a broad range of phenotypic values were observed for each trait
+testing had -logio P N 3.12. The GAPIT package produces within each environment, and differences among genotypes were
+an R2 value that includes contributions from the kinship and highly significant (P < 0.001) for all traits. Additionally, strong
+population structure in addition to the contribution of the SNP. environment effects (P < 0.001) were observed for all root traits
+R2 has been successfully used as an effective measure to compare (Supplementary Table 2), but the genotype by environment
+models rather than an effective measure of contribution of interactions were significant (P < 0.05) only for one half [OCS,
+individual SNPS itself. Therefore, in order to have an R2 thatmore UPLN, Upper Primary Lateral Root Number; ULAA, Upper
+reflects the contribution of individual SNPS, the model was run Primary Lateral Root Angle Average; LPLN, Lower Primary
+in GAPIT without and with SNP. The difference in R2 values Lateral Root Number; LLAA, Lower Primary Lateral Root Angle
+between the two runs was used as the estimate of the R2 value of Average; NPL, Total Number of Primary Lateral Roots] but not
+individual SNPS for all putative markers obtained in this study. the other half [TRT, Taproot; USLD, Upper Secondary Lateral
+Frontiers in Plant Sciencel lwww.frontiersin.org
+4
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+OCS (score)
+TRT (score)
+UPLN(number)
+USLD (per 2 cm)
+s!
+20
+4
+-
+15
+31
+21
+XK
++HTt
+RB12 RB13 RH13
+RB12 RB13 RH13
+RB12 RB13 RH13
+RB12 RB13 RH13
+ULAA (degrees)
+UPAR (degrees)
+LPLN (number)
+LSLD (per 2 cm)
+80l
+eo
+20
+E
+20
+40
+.
+-
+-
+10
+N 20
+-
+1144
+5
+dL
+ 
+RB12 RB13 RH13
+RB12 RB13 RH13
+RB12 RB13 RH13
+RB12 RB13 RH13
+LLAA (degrees)
+LPAR (degrees)
+NPL (number)
+ALD (per 2 cm)
+1
+e0
+e0
+401
+-
+20
+20
+10
+et 4iltt44
+o
+L
+RB12 RB13 RH13
+RB12 RB13 RH13
+RB12 RB13 RH13
+RB12 RB13 RH13
+Environment
+FIGURE 11 Box plots showing the average and quartiles along with a violin plot giving the continuous distribution within each environment for each measured trait.
+OCS, Overall Complexity Score; TRT, Taproot; UPLN, Upper Primary Lateral Root Number; USLD, Upper Secondary Lateral Root Density; ULAA, Upper Primary
+Lateral Root Angle Average; UPAR, Upper Primary Lateral Angle Range; LPLN, Lower Primary Lateral Root Number; LSLD, Lower Secondary Lateral Root Density;
+LLAA, Lower Primary Lateral Root Angle Average; LPAR, Lower Primary Lateral Root Angle Range; NPL, Total Number of Primary Lateral Roots; ALD, Average Lateral
+Density. RB12, RB13, and RH13 show distributions of the phenotype values for genotypes within each site-year combination.
+Root Density; UPAR, Upper Primary Lateral Angle Range; LSLD, followedby RB13 (14°), and the shallowest in RB12 (11°).Within
+Lower Secondary Lateral Root Density; LPAR, Lower Primary a plant, the angles of the upper primary lateral roots were the
+Lateral Root Angle Range; ALD, Average Lateral Density] of same or very similar in some genotypes, whereas in others, the
+the 12 traits (Supplementary Table 2). The highest mean and angles of one root compared with another differed by as much as
+median value for OCS were observedin RH13, whereas thelowest 80° (UPAR). The mean UPAR was 12° in RB12, 16° in RB13, and
+mean was observed in RB12 and the lowest median in RB13. 190 in RH13. The mean LPLN was higher in RB13 (10.1) than
+Taproot scores ranged from well defined (1) to not defined and in RB12 (8.6) and RH13 (9.5), but the range extended up to 23
+absent as indicated by maximum values of 3.0, 3.5, and 3.7 for at RH13. Similarly, mean LSLD was higher in RB13 (6.2) than in
+RB12, RB13, and RH13, respectively. However, as indicated by RH13 (5.6) and RB12 (4.9). Mean LLAA values were 31° (RB12),
+mean scores <2, most genotypes exhibited defined taproots in 22° (RB13), and 33° (RH13),indicating thatlower primarylateral
+all three environments. In some genotypes, upper primary lateral roots generally were steeper than upper primary lateral roots in
+roots were numerous, while in others, they were entirely absent; all three environments. The maximum LPAR observed among
+but on average across all environments and genotypes, 4.5 upper the genotypes was the largest in RB12 (75°), and similar in RB13
+primary lateral roots were observed per plant. Similarly, other (53°) and RH13 (55°); but mean LPAR was similar in RB12 (32°)
+traits associated with the UPLN, including USLD, ULAA, and and RH13 (32°), whereas it was lower at RB13 (23°). Among
+UPAR exhibitedlarge genotypic differences in each environment. the three environments, both the lowest and highest NPLS were
+The mean genotype USLD across all environments was 5.0 and a observed in RB13, where the genotype with the lowest NPLS had
+maximumrange of0-23 that was foundin RH13.Theorientation 2.7 primary lateral roots and the genotype with the highest NPLs
+ofupper primary lateral roots rangedfrom horizontalto 70°;and had 43.0. Mean NPL was 16.4in RB13, 14.1 in RH13, and 10.7 in
+on average across all genotypes, it was the steepest in RH13 (22°), RB12. The same pattern was observed for ALD, where RB12 had
+Frontiers in Plant Sciencel www.frontiersin.org
+5
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+the lowest mean (4.5) followed by RH13 (5.2) and RB13 (6.1).
+An LD analysis was conducted by calculating the square
+More detailed descriptive statistics by environment and across value of correlation coefficient (r2) between all pairs of markers
+environments are provided in Supplementary Table 1.
+(only markers with MAF N 5% were included). Pairwise LD
+estimates were performed on the complete panel using all 31,708
+Principal Component and Correlational
+SNP markers. The average r2 of marker pairs suggested that
+Analysis Among Root Traits
+significant LD blocks were observed on several CHRS' regions
+Thefirst PC (PC1) explained 136.05%ofthe multivariate variation, (Supplementary Figure 3). To demonstrate the difference in
+with the second PC (PC2) explaining another 15.95% of the LD between euchromatic and heterochromatic regions in the
+variation for a total of 52% of the root trait variation being genome, we also compared the average r2 values between these
+attributedto these first two PCs (Figure 2). The traits that loaded regions in each CHR. The LD decay was much higher in the
+onto PC1 most strongly were NPL, ALD, LSLD, UPLN, USLD, euchromatic compared with heterochromatic regions. In the
+OCS, and LPLN in descending order of strength. The traits that euchromatic regions, the LD decayed to half of its maximum
+loaded onto PC2 most strongly were ULAA, LLAA, LPAR, and value within r80 kb; and in the heterochromatic regions, the
+UPAR in descending order of strength. A correlational analysis LD did not decay to half of the maximum value within 1Mb
+among all traits confirmed that traits loading most strongly onto (Supplementary Figure 4).
+a specific component had greater correlations to other traits
+The pairwise kinship estimates based on 31,807 markers
+showed that most of the
+of
+had
+loading onto the same component than with traits that loaded
+pairs soybean genotypes
+onto the other component (Figure 2).
+zero estimated kinship value. The remaining pair of genotypes
+suggested some common parental genotypes in their history.
+Genetic Diversity, Population Structure,
+Further, the kinship analysis results indicated that most
+genotypes in the panel have weak kinship, which may be
+Linkage Disequilibrium, and Kinship
+attributed to the broad geographic range of collection of
+Analysis
+the genotypes and the exclusion of similar genotypes in
+The accessions characterized in this study were selected as the analysis. A heat map plot of kinship matrix using
+described in Dhanapal et al. (2015a) and originated from average linkage clustering based on SNP markers depicts the
+11 different countries including 187 from South Korea; 46 existence of different groups among the soybean genotypes
+from China; 30 from Japan; 10 from North Korea; six from (Supplementary Figure 5).
+Georgia; three from Korea (North or South Korea not recorded
+in GRIN); three two each from Russia and Taiwan; and
+one each from India, Mexico, and Romania. The distance-
+based genetic diversity analysis NJ method identified eight Heritability and Genome-Wide Association
+sub-clusters (C1-C8) using model-based subpopulation groups Analysis
+(G1-G8). The genotypes comprising major groups of model- The broad-sense heritability was calculated independently
+based method were consistent with distance-basedmethods with for each environment and across all environments. When
+few differences (Supplementary Figure 1).
+considering data across all environments, heritability was the
+The SNP markers available for the 289 genotypes were greatest for OCS (0.32) followed by LPLN (0.30) and NPL (0.28)
+filtered to ultimately include 31,708 polymorphic SNPS with a (Table 2). Heritabilities calculated for RB13 were the lowest for
+MAF 25% for all analyses. The MAF examined with regard all root traits. With the exception of TRT across environment,
+to the genotype frequency showed a peak slightly above heritabilities within individual environments were equal orlower
+10% and then gradually declined to plateau in the range of than heritabilities across all three environments.
+20-50% (Supplementary Figure 2a). Among the 20 soybean
+Genome-wide association analysis across environments
+chromosomes (CHRs), the highest number of SNPS was on CHR identified both unique SNPS (SNPS that are associated with one
+18 (2,622), and the lowest number of SNPS on CHR 20 (1,079) trait only) and SNPS common among root traits as well as for
+(Supplementary Figure 2b).
+PC1 and PC2 (Table 3; Supplementary Table 4). A total of 283
+An analysis of genetic relatedness using STRUCTURE (non-unique) SNPs were significantly associated with one or
+simulation demonstrated that the calculated average of more of the 14 root traits including PC1 and PC2. Of these, 246
+LnP(D) against k = 8 was determined to be the optimum were unique SNPs (Table 3) and 215 SNPS were associated with
+k, indicating that eight subpopulations could contain all a single root trait, while 26, four, and one SNPS were associated
+individuals with the greatest probability. Hence, a k value with two, three, and four root traits, respectively. The number
+of 8 was selected to describe the genetic structure of the 289 of significant SNP associations per root trait ranged from eight
+soybean genotypes. The estimated population structureindicated for ULAA to 33 for USLD. Considering the co-location of SNPS,
+genotypes with partial membership to multiple subpopulations, the number of putative loci identified for the different root traits
+with few subpopulations exhibiting distinctive identities ranged from 3 forLPLNto 13 for UPAR (Table 3). For individual
+(Supplementary Figures 2c-e). Significant divergence among root traits, the maximum number of SNPS tagging the same
+subpopulations and average distances (expected heterozygosity) putative locus ranged from 3 (ULAA, UPAR) to 16 (LPAR), but
+among individuals in the same subpopulations was also assigned for all root traits, at least one locus was identifiedby only a single
+(Supplementary Table 3).
+SNP at the threshold used in the study. The maximum R2 for the
+Frontiers in Plant Sciencel lwww.frontiersin.org
+6
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+A 5.01
+B OCS 1
+UPLN
+Pearson
+8
+USLD
+Correlation
+2.5
+LPLN
+1.0
+I
+NPL
+LSLD
+SLD
+0.5
+pes ALD
+NPL
+0.0
+USLD
+TRT
+UPLN
+ALD
+0.0
+-
+ULAA
+I
+UPAR
+-0.5
+ -2.5
+SUPAR
+2
+ULAA LPAALLAA
+LLAA
+-1.0
+LPAR
+-5.0
+TRT
+-5.0 -2.5 0.0 2.5 5.0
+D ssostso PPYRO SuT SA  gA RR
+PC1 - Complexity - 36%
+PC1
+PC2
+FIGURE 21 (A) Al biplot from principal component analysis with principal components 1 and 12, PC1 and PC2, respectively. The points represent the PCA scores,
+while lines show the magnitude of correlation between each original trait OCS, Overall Complexity Score; UPLN, Upper Primary Lateral Root Number; USLD, Upper
+Secondary Lateral Root Density; LPLN, Lower Primary Lateral Root Number; LSLD, Lower Secondary Lateral Root Density; NPL, Total Number off Primary Lateral
+Roots; ALD, Average Lateral Density; ULAA, Upper Primary Lateral Root Angle Average; UPAR, Upper Primary Lateral Angle Range; LLAA, Lower Primary Lateral
+Root Angle Average; LPAR, Lower Primary Lateral Root Angle Range; TRT, Taproot and the PCA scores. The maximum correlation was 0.86. The color of the points
+represents the magnitude of the product after multiplying the scores for PC1 and PC2. (B) AI heat map of the inter-item Pearson correlations of all measured traits.
+Traits are grouped based on their contribution to the two principal component axes shown in (A).
+TABLE 21Broad-sensel heritability estimates of root system architectural traits
+TABLE 3]Number of unique single-nucleotide polymorphisms (SNPS), number of
+OCS, Overall Complexity Score; TRT, Taproot; UPLN, Upper Primary Lateral Root putative loci, maximum number of unique SNPS tagging al locus, and the greatest
+Number; USLD, Upper Secondary Lateral Root Density; ULAA, Upper Primary
+R2 value observed among the SNPS identified for each root trait (maximum R?).
+Lateral Root Angle Average; UPAR, Upper Primary Lateral Angle Range; LPLN,
+Lower Primary Lateral Root Number; LSLD, Lower Secondary Lateral Root
+Root traits Unique Number of Maximum no. Maximum R2
+Density; LLAA, Lower Primary Lateral Root Angle Average; LPAR, Lower Primary
+SNPS putative loci unique SNPS
+Lateral Root Angle Range; NPL, Total Number of Primary Lateral Roots; ALD,
+per locus
+Average Lateral Density, for 289 soybean accessions evaluated at Rollins Bottom
+in 2012 and 2013 and at Rhodes in 2013.
+OCS
+18
+8
+7
+0.07
+TRT
+25
+10
+4
+0.06
+Name of trait
+RB12
+RB13
+RH13
+Across
+UPLN
+28
+11
+9
+0.05
+OCS
+0.40
+0.22
+0.60
+0.32 USLD
+33
+9
+12
+0.08
+TRT
+0.14
+0.11
+0.12
+0.10 ULAA
+8
+5
+3
+0.05
+UPLN
+0.37
+0.12
+0.56
+0.17 UPAR
+17
+13
+3
+0.05
+USLD
+0.19
+0.10
+0.24
+0.10 LPLN
+10
+3
+4
+0.05
+ULAA
+0.28
+0.11
+0.30
+0.11 LSLD
+19
+8
+7
+0.05
+UPAR
+0.17
+0.11
+0.19
+0.12 LLAA
+32
+8
+13
+0.04
+LPLN
+0.28
+0.14
+0.52
+0.30 LPAR
+29
+8
+16
+0.06
+LSLD
+0.30
+0.12
+0.33
+0.14 NPL
+16
+9
+8
+0.06
+LLAA
+0.34
+0.13
+0.45
+0.13 ALD
+15
+9
+4
+0.05
+LPAR
+0.13
+0.11
+0.15
+0.11 PC1
+17
+11
+4
+0.06
+NPL
+0.39
+0.11
+0.59
+0.28 PC2
+16
+8
+5
+0.05
+ALD
+0.28
+0.12
+0.33
+0.18 OCS, Overall Complexity Score; TRT, Taproot; UPLN, Upper Primary Lateral Root
+Number; USLD, Upper Secondary Lateral Root Density; ULAA, Upper Primary Lateral
+Root Angle Average; UPAR, Upper Primary Lateral Angle Range; LPLN, Lower Primary
+Latera/RorNumberLSLD, LowerSecondaryLateral Root tDensity;LLAA, Lower Primary
+SNPS associated with each trait ranged from 0.04 for LLAA to Lateral Root Angle Average; LPAR, Lower Primary Lateral Root Angle Range; NPL, Total
+Number of Primary Lateral Roots; ALD, Average Lateral Density, for PC1 and PC2.
+0.08 for USLD.
+The genomic locations of significant SNPS marking putative root traits with significant marker-trait associations are shownin
+loci for the different root traits are indicated in Figure 3. Supplementary Figure 6 and Supplementary Figure 7. Specific
+Quantile-quantile (QQ) plots and Manhattan plots for different data for the putative loci and individual SNPS visualized
+Frontiers in Plant Sciencel lwww.frontiersin.org
+7
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+204
+19-
+W
+18-
+Tested SNP
+17-
+(31,807 MAF 2 0.05)
++
+16+
+OCS (8 Genomic loci)
+15
+.
+TRT (3 Genomic loci)
+14-
+UPLN (11 Genomic loci)
+u
+*
+USLD (9 Genomic loci)
+13
+a
+X ULAA (5 Genomic
+**)
+Loci)
+& 12
++ UPAR (11 Genomic Loci)
+5
+C 11
+LPLN (3 Genomic loci)
+OA.t
+1010
+LSLD (8 Genomic loci)
+E
+0 *
+++
+a 9-
+LLAA (8 Genomic Loci)
+C
+I
+8-
+LPAR (9 Genomic loci)
+7 *
+NPL (9 Genomic loci)
+A
+4*
+ALD (9 Genomic loci)
+6+
+X
+PC1 (11 Genomic Loci)
+5-
+A+
+Y
+I PC2 (8 Genomic Loci)
+4-
+.
+Y
+* Candidate Genes
+3+
+e QTLS in Soybase
+2f A
+*
+O V,
+1
+0
+1x107 2x107 3x107 4x107 5x107 6x107 7x107
+Chromosomal Position (base pairs)
+FIGURE 31 Genomic locations of single-nucleotide polymorphism (SNP) markers showing significant marker-trait associations of root system architecture traits
+[OCS, Overall Complexity Score; TRT, Taproot; UPLN, Upper Primary Lateral Root Number; USLD, Upper Secondary Lateral Root Density; ULAA, Upper Primary
+Lateral Root Angle Average; UPAR, Upper Primary Lateral Angle Range; LPLN, Lower Primary Lateral Root Number; LSLD, Lower Secondary Lateral Root Density;
+LLAA, Lower Primary Lateral Root Angle Average; LPAR, Lower Primary Lateral Root Angle Range; NPL, Total Number of Primary Lateral Roots; ALD, Average Lateral
+Density). For each chromosome, the black dots represent the location of SNPS evaluated for association with different root traits. Also shown are the locations of
+candidate genes identified based on haplotype analysis of significant markers and quantitative trait loci (QTLS) in SoyBase.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+8
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+in Figure 3 and summarized in Table3 are included in submitted genes could be classified into three overarching GO
+Supplementary Table 4. For each root trait, putative loci were categories: (i) biological processes including, carbohydrate, lipid
+identified on three or more CHRS, and several of the putative metabolic process, signal transduction, embryo, postembryonic
+loci were located near previously identified QTLS (Figure 3). and flower development, cell growth, and cellular development
+Every CHR had at least one putative locus for one root process; (ii) cellular component or compartments such as
+trait, and several CHRs contained multiple putative loci for extracellular region, cell wall, intracellular, nucleus, nucleolus,
+different root traits. Indeed, not only did several genomic regions cytoplasm, mitochondria, endosome, golgi apparatus, cytosol,
+encompass putative loci for several root traits, but 31 SNPS plasma membrane, plastid, and membrane; and (iii) molecular
+were significantly associated with more than one root trait function such as nucleotide, protein and carbohydrate binding,
+(Supplementary Table 5). The genomic locations ofthese multi- sequence-specific DNA binding transcription factor (TF), and
+root trait "hot spots" are visualized in Figure 4, which shows catalytic and transferase activities.
+putativeloci imarkedbyboth single SNPS associatedwith multiple
+traits and putative loci marked by multiple SNPS associated with DISCUSSION
+the same combination of root traits. Each of the 12 root traits
+and PC1 and PC2 was associated with an SNP that was also Descriptive Statistics and Correlations
+associated with at least one other root trait. In total, 13 different This study employed root crown phenotyping of a soybean
+combinations of root traits were significantly associated with diversity panel in three field environments to assess 14 RSA
+individual SNPS (Table 4, Figure 4).
+traits including lateral root numbers, secondary lateral root
+In some instances, more than one SNP was significantly densities, and lateral root angles (Table 1) and the first two PCs
+associated with a particular combination of root traits. Ofthe 13 from a PC analysis. Broad ranges of phenotypic values were
+different root trait combinations, threeroot traits, namely, UPLN observed for different RSA traits. Differences between the Rollins
+(NPL, PC1, USLD, and ALD), USLD (ALD, LLAA, UPLN, and Bottom and the Rhodes locations include latitude, soil type, and
+PC1), and ALD (LSLD, USLD, UPLN, and PC1), were identified irrigation (watered with an irrigation gun at RB12, alateral-move
+by SNPS tagging four other root traits. Additionally, LSLD (ALD irrigation system at RH13, and no irrigation at RB13), all of
+and PC1) and NPL (UPLN and PC1) were marked by SNPS that which may affect the growth response of soybean. These factors,
+also were associated with two other root traits. Not surprisingly, as well as differences in temperatures and precipitation amounts
+PC1 co-localized with multiple root characteristics (ALD, LSLD, and distributions, likely modulated the RSA phenotypes. A
+UPLN, NPL, and USLD). In contrast, PC2 co-localized with correlational analysis indicated that numbers and densities of
+only one trait (LPLN). One of the SNPS (located on CHR 15) roots tended to be more strongly associated with each other and
+associated with PC1 was also associated with three other traits, complexity and thatvarious measures of angles formed la separate
+making it the single SNP associated with the largest number of co-correlated group.
+traits (UPLN, USLD, ALD, and PC1). On CHR 14, one putative
+locus was marked by eight SNPS associated with both UPLN and Root System Architecture and Their
+NPL, and the other locus was associated with three SNPS that Relationship Among Root Traits
+each marked ALD in combination with either LSLD or PC1. The To our knowledge, this is the first use of PCs in GWAS of
+putative locus on CHR 18 was marked by three SNPS that were root traits. PCI was heavily influenced by complexity" traits
+associated with USLD and ALD. A locus on CHR 16 was marked such as the numbers of primary and secondary laterals, while
+by two SNPS that were associated with both LSLD and ALD, and a PC2 was more influenced by all the measures of angle. In fact,
+locus on CHR 19 was markedby two SNPS associated with UPLN this structure agrees with earlier reports in maize where nodal
+and PC1. Additionally, the putative locus on CHR 9 was marked root number and lateral root density influenced PC1, while
+by one SNP associated with USLD and ALD and another SNP the angles of various nodes of crown roots influenced PC2
+associated with USLD and LLAA.
+(York and Lynch, 2015), which might imply a common data
+structure among genotypes of all plant species since maize is
+a monocot and soybean is a dicot. Since data are scaled for
+Candidate Genes and Gene Ontology
+PCA, loadings of "complexity" traits onto PCI indicate that
+Enrichment Analysis
+there was generally more variation for these traits than for
+Putative candidate genes were identified within +0.5 Mb for angle-related traits, which may have implications for breeding,
+all significant SNPS showing marker-trait association for all which requires selection gradients. However, these complexity
+root traits. Across the 14 traits, 70 candidate genes that may traits are also expected to be more affected by plant allometry
+underlie associations with root characteristics were identified (larger plants have more roots intrinsically), which means angles
+(Supplementary Table 6). Among the 70 candidate genes, 20 are suitable as traits that are independent from plant size. The
+candidate genes (Supplementary Table 7) were identified near discovery of QTLs responsible for both PCI and PC2 implies
+120f17 putativeloci associated with more than oneroot trait. For a common genetic and developmental basis for the multitude
+all 70 candidate genes identified in this study, a GO enrichment of underlying and correlated traits that form the components.
+analysis was conducted in SoyBase (www.soybase.org: Morales Not surprisingly, PC1 co-localized more often with other traits
+et al., 2013) using the gene model and data mining and analysis than any other traits, and only with traits that strongly loaded
+option. All 70 genes identified had one or more GOs. The onto the component. Previous work substantiates that PC
+Frontiers in Plant Sciencel lwww.frontiersin.org
+9
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+20+
+
+*
+19-
+18-
+*
+17
+16-
+Tested SNP
+15
+(31,807 MAF N 0.05)
+14
+A UPLN (6 Genomic loci) 
+13
+a V USLD (4 Genomic loci)
+e
+LPLN (1 Genomic loci)
+12-
+LSLD (5 Genomic loci)
+11
+-
+LLAA (1 Genomic loci)
+10-
+V
+NPL (6 Genomic loci)
+9-
+0
+e
+ALD Genomic
+a
+/
+(7
+loci)
+8-
+*F
+*
+PC1 (10 Genomic loci)
+7
+I PC2 (1 Genomic loci)
+6-
+* Candidate Genes
+5-
+€ QTLS in Soybase
+*
+4-
+3-
+à
+*
+2-
+1
+0
+1x107 2x107 3x107 4x107 5x107 6x107 7x107
+Chromosomal Position (base pairs)
+FIGURE 41 Genomic location of identical single-nucleotide polymorphism (SNP) markers showing significant marker-trait associations for more than one root trait
+[UPLN, Upper Primary Lateral Root Number; USLD, Upper Secondary Lateral Root Density; LPLN, Lower Primary Lateral Root Number; LSLD, Lower Secondary
+Lateral Root Density; LLAA, Lower Primary Lateral Root Angle Average; NPL, Total Number of Primary Lateral Roots; ALD, Average Lateral Density; NPL, Total
+Number of Primary Lateral Roots, for PC1 and PC2). For each chromosome, the black dots represent the location of an SNP evaluated for association with different
+root traits. Also shown are the locations of candidate genes identified based on haplotype analysis of significant markers and quantitative trait loci (QTLS) in SoyBase.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+10
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+TABLE 41Summary of root trait combinations identified by individual single-nucleotide polymorphisms (SNPS).
+Root trait combinations
+SNPS
+CHR Position Number of SNPS per combination Locus number for combination
+1
+LSLD, ALD, PC1
+Ss715583303
+2
+46530067
+2
+1
+Ss715618168 14 31978272
+2
+2 USLD, ALD
+Ss715588242
+4
+45895882
+2
+1
+Ss715604322
+9
+42951837
+2
+Ss715632710 18
+7954314
+3
+3
+Ss715632713 18
+7963930
+3
+SS715632806 18
+8660316
+3
+3 UPLN, NPL, PC1
+SS715589583
+4
+9104210
+2
+1
+Ss715614264 13 26344379
+2
+4 UPLN, NPL
+Ss715590397
+5
+1960856
+9
+1
+Ss715618902 14 43548260
+2
+SS715618903 14 43557868
+2
+Ss715618905 14 43561539
+2
+Ss715618908 14 43572822
+2
+Ss715618911 14 43575830
+2
+Ss715618915 14 43597753
+2
+Ss715618917 14 43604766
+2
+ss715618918 14 43606363
+2
+5 LSLD, PC1
+SS715602853
+8
+9332121
+2
+1
+Ss715601637
+8
+39714639
+2
+6 USLD, LLAA
+Ss715604431
+9 43681624
+1
+1
+7 NPL, PC1
+SS715613088 12
+4364475
+1
+1
+8 ALD_PC1
+Ss715618165 14 31869835
+1
+1
+9 LSLD, ALD
+Ss715618173 14 32148722
+1
+1
+Ss715624967 16 37323949
+2
+2
+Ss715624973 16 37381270
+2
+10 UPLN, PC1
+Ss715634102 19 34015909
+2
+1
+Ss715634106 19 34038285
+2
+11 UPLN, USLD, ALD, PC1
+Ss715621832 15 40976845
+1
+1
+12 LPLN, PC2
+Ss715634639 19 37841812
+1
+1
+13 NPL, PC1
+SS715636802 20 11434953
+1
+1
+UPLN, Upper Primary Lateral Root Number; USLD, Upper Secondary Lateral Root Density; LPLN, Lower Primary Lateral Root Number; LSLD, Lower Secondary Lateral Root Density;
+LLAA, Lower Primary Lateral Root. Angle Average; NPL, Total Number ofPrimary Lateral Roots; ALD, Average Lateral Density for PC1 and PC2.
+scores have greater statistical power for SNP associations than (Table 3). Thirty-one SNPS were associated with combinations
+univariate measures (Galesloot et al., 2014). The PCAresults were of two to four traits (Tables 3, 4; Supplementary Table 5). On
+supported by a correlational analysis where traits loading more the one hand, these SNPS may be of particular interest in that
+strongly onto a component were more likely to have stronger they may mark genomic hotspots or key regulatory elements
+correlations with each other than with traits loading onto the for root architecture but, on the other hand, may be associated
+other component. PCs ofroottraits may serve as useful aggregate with two or more traits because these traits are not independent
+traits for physiological experimentation, genetic mapping, and of each other. Clearly, the 67 loci identified for the 14 root
+breeding programs. The relationships among traits are driven by traits indicate that allelic variation exists for each of these
+latent constructs represented by the PCs due to developmental traits, which may be explored to alter soybean root system
+and genetic constraints, and further consideration ofthese latent characteristics through breeding. That said, the generally rather
+constructs will be needed for the future of phenomics (York, low heritabilities, ranging from 10 to 60% based on individual
+2019).
+environments and from 10 to 32% when estimated across all
+three environments, indicate a strong environmental influence
+Root System Architecture Trait
+on these traits. Given the complexity of phenotyping of root
+Single-Nucleotide Polymorphisms and Loci systems of field grown plants, the relatively low heritabilities, in
+The genome-wide association analysis revealed significant SNPS part, could also be a reflection of the phenotyping challenges.
+for all 14 root traits, and each trait was associated with eight Previous reports of heritabilities of soybean root traits based on
+to 33 SNPS, which marked three to 13 putative loci per trait experiments with RIL populations generally were higher than
+Frontiers in Plant Sciencel lwww.frontiersin.org
+11
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+those found here. Root characteristics examined in soybean weight (qRDW001), all of which were located near a putative
+grown under low P and high P in the field reported heritabilities locus identified for LSLD and PCI on CHR 8. Interestingly, none
+of root traits that ranged from 47 to 72% (Liang et al., 2010). ofthe QTLs identified lfor root weightby different studies (Zhang
+Similarly, soybean root characteristics assessed in response to et al., 2009; Brensha et al., 2012; Liang etal., 2014) were co-located
+P availability under field conditions have reported heritabilities with each other.
+between 50 and 191% (Ao et al., 2010), and another study reported
+A putative locus for ALD identified on CHR 13 was found
+heritabilities for root hair density and root hair length ranging near a previously identified QTL for root-shoot weight ratio 2-
+from 27 to 34% and from 54 to 61%, respectively (Wang et al., 2 (qR/S-f-1) (Wu et al., 2012). A QTL for root morphology 1-2
+2004).
+(Q_root_Gm03) on CHR 3 was co-located with the putativelocus
+To date, specific mechanisms underlying root architecture identified for PC2, and another one (Q_root_Gm08) was located
+traits growth and developmental process are often unclear. close to theLPAR locus identified on CHR 8 (Abdel-Hallem et tal.,
+Targeted improvement of root characteristics for specific 2011).
+production challenges requires a thorough understanding of
+Two QTLs for root volume, root volume 1-2(qRV1-m-1) and
+the value and tradeoffs associated with specific root traits root volume 1-3 (qRV1-m-2), were identified to be located near
+and combinations of root traits under particular soil and a putative locus for UPAR on CHR 7 (Liang et al., 2014). Root
+environmental conditions. However, for the most part, a length was previously mappedby differentgroups (Brensha etal.,
+significant knowledge gap remains about such root trait benefits 2012; Nguyen et al., 2017) in two different RIL populations. A
+and tradeoffs. Nevertheless, if beneficial root properties can putative locus identified for ALD, PC1, LSLD, and OCS on CHR
+be determined, the responsible alleles could be bred into elite 14 was located near a QTL (Qrl-14) for root length on CHR 14
+cultivars using marker assisted breeding. Recently, steeper root that was identified by Nguyen et al. (2017), and Brensha et al.
+angles were observed in drought-tolerant lines of soybean (2012) identified two QTLs (qMRL001 and qMRL002) that were
+(Fenta et al., 2014), which confirms work in the common bean located close to a putative locus for PC2 on CHR 6. Additionally,
+(Phaseolus vulgaris), which has a root system similar to that of a QTL (Qhti-14-2) for root area and two QTLs (Qrd-14-1 and
+soybean (Ho et al., 2004, 2005). At the same time, shallow root Qrd-14-2) for root diameter and a QTL (Qcard-14) for change
+angles were shown to improve phosphorus uptake in soybean in root diameter identified (Nguyen et al., 2017) were also found
+and in the common bean (Liao et al., 2004). Interestingly, during in the same genomic region.
+combined water and phosphorus stress, shallow-angled common
+Populations, plant growth conditions, and developmental
+bean root systems performed better than steep-angled root stages at the time of phenotyping and phenotyping methods
+systems because the enhanced early P nutrition allowed greater differed considerably among the various mapping studies cited
+plant growth and deeper rooting (Ho et al., 2005). Due to such above as well as the present study, including growth on paper
+tradeoffs and possibly non-intuitive trait integration (York et al., (phenotyped at V2; Liang et al., 2014), in soil-filled pots
+2013), studies of the functional implications for soil resource (phenotyped 35 days after germination; Zhang et al., 2009),
+acquisition and crop performance are imperative to successfully in a modified hydroponic system (phenotyped 13 days after
+utilize root traits in breeding programs.
+sowing; Nguyen et al., 2017), in pots and later transplanted to
+the field (phenotyped at R8; Brensha et al., 2012), and under
+Relationships of Identified Loci With
+field conditions (phenotyped at R4; Abdel-Hallem et al., 2011).
+Despite these differences, co-located QTLs among this and other
+Previously Reported Quantitative Trait Loci studies indicate genomic regions that may be of particular
+for Root Traits
+interest with respect to soybean root system characteristics.
+A literature search for previously identified QTLs for different
+soybean root traits and SoyBase (htps/www.soybasc.org
+sarch/previouvindezphp) based search using term "root" Putative Candidate Genes and Their
+revealed 19 QTLs that werelocatedwithin t0.5 Mb ofatleastone Function
+oftwo flanking markers close to the putative loci identified lin this A total of 70 candidate genes were identified within +0.5 Mb of
+study. The putative locus identified for LSLD, ALD, LPAR, and the 67 loci associated with the 14 root traits. Of these candidate
+PCI on CHR 2 was located near one QTL previously identified genes, 53 and 47% were located within <0.25 and0.25-0.5 Mb of
+for lateral root number (qLRN1-D1b-1) (Liang et al., 2014) putative loci, respectively. Functional annotations of candidate
+and a QTL (rdwlpD1b+W-05) for root dry weight of seedlings genes and follow-up literature search revealed potential root-
+grown at low-phosphorus availability (Zhang et al., 2009). A related functions (Supplementary Table 6).
+previously identified QTL for root dry weight (rdwnpA2-05) at
+Among the candidate genes identified for root traits,
+high-phosphorus availability (Zhang et al., 2009) was near a leucine-rich repeat receptor-protein genes or leucine-rich
+putative locus identified for LSLD and PC1 on CHR 8. Another repeat receptor-like protein kinase genes (LRR-RPS or LRR-
+QTL for root weight (qRW2-f_1-1) identified previously (Liang RLKS) were abundant (12 genes) in the vicinity of loci for
+et al., 2014) was located near - a putative TRT locus on CHR 13 UPLN, USLD, UPAR, LSLD, LLAA, ALD, PC1, and PC2
+identified in the present study. Root weight was also mapped by (Supplementary Table 6). A potential role of these genes with
+Brensha et al. (2012), who identified two QTLs for root fresh respect to root traits is consistent with a recent genome-wide
+weight (qRFW001 and qRFW002) and one QTL for root dry analysis ofsoybean LRR-RLKS (Zhou et al., 2016), which suggests
+Frontiers in Plant Sciencel lwww.frontiersin.org
+12
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+that LRR-RLKS may function as tissue-specific regulators, containing WD40 repeats were found within 25 kb of putative
+including in roots. Interestingly, six LRR-RLKS were found in the QTLs that were identified for root angle and total number of
+vicinity ofmarkers for root cone angle in rice (Bettembourg et al., tillers in rice (Courtois et al., 2013).
+2017).
+The EF-hand motif is the most common calcium-binding
+Auxin and auxin-related genes are well-known to play motif found in proteins, and genes encoding EF-hand calcium-
+important roles in various aspects of root growth and binding proteins are preferentially expressed in roots/root
+development (Benjamins and Scheres, 2008; Petricka et al., tips/root hairs in soybean (Zeng et al., 2017) and in root tips in
+2012). As such, auxin-related genes located in the vicinity of the Arabidopsis (Wagner et al., 2015). In this study, three candidate
+identified putative loci were of particular interest and included genes near three putative loci on CHRs 5, 9, and 18 associated
+eight auxin/indole-acetic acid (AUX/IAA) family genes, which with OCS, UPAR, USLD, andLSLD were found.
+were found near six putative loci (CHRS 7,8, 9, 10, 12, and 14) for
+Three lipoxygenase genes were found near two putative loci
+UPLN, USLD, ULAA, UPAR, LLAA, ALD, and PC2. Aux/IAAs on CHRs 7 and 10 for LLAA, LLAR, and PC2. Lipoxygenases
+and ARFS are TFs that regulate the cell-specific transcription of (linoleate:oxygen oxidoreductase, EC 1.13.11;LOXs) catalyze the
+auxin response genes for lateral root development (Guilfoyle and conversion of polyunsaturatedfatty acids (lipids) into conjugated
+Hagen, 2007; Li et al., 2016). Recently, it was documented that hydroperoxides. The genome-wide analysis of the lipoxygenase
+miR167 modulated expression of GmARF8 genes influences not gene family in Arabidopsis and rice showed their potential role
+only nodulation but also lateral root numbers in soybean (Wang in lateral root development (Hayashi et al., 2008; Umate, 2011).
+et al., 2015).
+In soybean, LOX9 may be involved in root and nodule growth
+Five serinefthreonine-protein kinase-related genes were and development, and one ofthe candidate genes identified here
+found close to putativeloci on CHRs 1,3,5,7,and 8identified for (Glyma.07G034800) was found near a previously studied LOX
+TRT, USLD, UPAR, LSLD, and/or PC1. Serine/hreonine-protein gene (Hayashi et al., 2008).
+kinase-related genes are members of the SnRK2 subfamily
+Other genes found close to putative loci were related to ABC
+of the SNF1-related family of protein kinases and include transporter super family, phospholipase D (PLD), BURP domain
+some members that are highly expressed in newly emerged encoding genes, protein phosphatase 2C (PP2C), ubiquitin
+soybean roots (Monks et al., 2001) and Arabidopsis lateral roots C-terminal hydrolases gene (UCHs), glycerophosphodiester
+(Mcloughlin et al., 2012). SnRK2 protein kinases are well-known phosphodiesterases (GPX-PDE) genes, proline-rich receptor-like
+to be involved in plant responses to abiotic stresses (Kulik protein kinase PER12-related genes, exostosin family protein-
+et al., 2011), and GmWNK1, a member of the WNK kinase relatedgenes, COBRA-like (COB) genes, bHLH protein encoding
+family of serine/threonine kinases, has been shown to regulate genes, and TFs, namely, HD-Zip, TPR, AP2/ERF, and WRKY
+RSA via an ABA-dependent pathway in soybean (Wang et al., TF family.
+2010).
+This study relied on manual measurements and scoring of
+MYB-type TFs (MYB TFs) play diverse roles in plant root traits, an approach that has been used for a variety of crops
+development and stress responses. Four candidate genes were (Trachsel et al., 2011; Burridge et al., 2016). With the advent of
+found in the vicinity of four putative loci on CHRs 4, 5, 9, image-based methods, higher throughput and possibly greater
+and 10 identified for UPAR, LPAR, LLAA, and NPL. MYB TFs precision of trait measurement due to less time spent evaluating
+are reported to mediate ABA-auxin cross-talk in drought stress traits and human bias or error (Bucksch et al., 2014; Colombi
+responses and lateral root growth, providing an adaptive strategy et al., 2015; Seethepalli et al., 2020) will allow more ambitious
+under drought (Wang et al., 2017). Additionally, MYB TFs are studies to expand on the findings reported here. Alleviating
+involved in root elongation (Feng et al., 2004) and root hair the phenotyping bottleneck for roots through the utilization
+patterning (Kang et al., 2009) in Arabidopsis and RSA in rice (Dai of new technologies like imaging and image analysis for root
+et al., 2012).
+traits is expected to enhance future genetic and physiological
+Fasciclin-like arabinogalactan proteins (FLAS) are a subclass studies. Indeed, physiological studies documenting the influence
+of arabinogalactan proteins (AGPS), play a key role in barley root of roots on crop performance are imperative for the future of
+epidermal cell differentiation and root hair development (Marzec crop breeding.
+et al., 2015), and show higher expression in root tissue during
+various hormones and stress treatments in Arabidopsis (Johnson
+et al., 2003). Here, four FLA-encoding genes were found near CONCLUSIONS
+putative loci for UPAR, USLD, LPAR, and ALD on CHRs 2, 6,
+8, and 18.
+Substantial heritability for some RSA traits of field-grown
+WD40-repeat (WDR) proteins often function as molecular soybean reveals promise for breeding, and numerous genetic
+"hubs" mediating supramolecular interactions (Guerriero et al., loci were uncovered for all traits. PCA allowed identification of
+2015). In Medicago truncatula (Pang et al., 2009) and Arabidopsis shared and unique regions associated with multivariate traits.
+(Walker et al., 1999), WDR proteins are involved in development GWAS resulted in the identification of numerous marker-
+of trichomes and root hairs. One WD domain encoding gene on trait associations for each of the RSA trait examined in this
+CHR 16 and three WD40 candidate genes were found close to study. A total of 67 loci associated with at least one of the
+putative loci on CHRs 6, 10, and 17 for UPLN, LLAA, LLAR, 14 root traits were identified. Seventeen loci on 13 CHRS were
+UPAR, NPL, ALD, and PC2. Previously, genes encoding proteins identified by SNPS associated with more than one root trait.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+13
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+Several gene candidates are proposed for future work to confirm, AUTHOR CONTRIBUTIONS
+which will allow studies on contrasting RSAS in the field. A
+better understanding of the roles and importance of specific AD, KH, and FF designed the study. AD and KH performed field
+root traits with soybean performance in distinct environments experiments and collected phenotype data for RSA traits. AD
+and in different soil types, and the identification of associated performed SNP-trait association. AD and LY performed other
+genetic markers will be critical to strategically target and exploit statistical analyses and wrote the manuscript. FF coordinated
+root characteristics to increase crop yields and ensure cropping and supervised the projects. AD, LY, and FF critically revisedthe
+system sustainability.
+manuscript. All authors read and approved the final manuscript.
+FUNDING
+DATA AVAILABILITY STATEMENT
+This work was partially supported by United Soybean Board
+The 289 genotypes used in this study are part of 19,652 (USB) project number 1420-532-5613. We appreciate the
+G. max and G. soja accessions genotyped with 52,041 SNPS assistance of Dr. James H. Houx III, for all root phenotyping
+Omplepbacaghwplindasphp of which 31,708 SNPS were campaigns in Columbia and Clarkton locations.
+used in this study. This information is already available to
+the public, and the SNP data for our user defined genotypes SUPPLEMENTARY MATERIAL
+can be obtained from the following link http.l/www.soybase.
+org/snps/download.php. All the data that directly underlie The Supplementary Material for this article can be found
+key results and conclusions of this article are attached as online at: https./www.frontiersin.orglarticles100.3389/fpls.2020.
+Supplementary Material.
+590179/fullisupplementary-material
+REFERENCES
+Brensha, W., Kantartzi, S., Meksem, K., Grier, R., Barakat, A., Lightfoot, D., et al.
+(2012). Genetic analysis of root and shoot traits in the 'Essex' by 'Forrest'
+Abdel-Hallem, H., Lee, G. J, and Boerma, R. H. (2011). Identification of QTL
+recombinant inbred line (RIL) population ofsoybean [Glycine max (L.) Merr.]
+for increased fibrous roots in soybean. Theor. Appl. Genet. 122, 935-946. J Plant Genome Sci. 1,1-9. doi: 105147/jpgs20120051
+doi: 101007600122-010-150.9
+Brouwer, R. (1953). Water absorption by roots of vicia faba at transpiration
+Allmaras, R. R., Nelson, W. W., and Voorhees, W. B. (1975). Soybean
+strengths. Analysis ofthe uptake and factors determining it. Proc, Koninklijke
+and corn rooting in southeastern minnesota. II. Root distributions Nederlandse. Akademie Wetenshappen Seriv. 56, 106-115.
+and related water inflow. Soil Sci. Soc. Am. Proc. 39, 771-777. Buckler, E., Casstevens, T., Bradbury, P., and Zhang, Z. (2009). Analysis by
+doi: 10213605531975036159500390004006K
+association, Evolution and Linkage (TASSEL) Version 2.1 User Manual. Ithaca,
+Ao, J., Fu, J., Tian, J., Yan, X., and Liao, H. (2010). Genetic variability for root
+NY: Cornell University.
+morph-architecture traits and root growth dynamics as related to phosphorus Bucksch, A., Burridge, J., York, L. M., Das, A., Nord, E., Weitz, J.S., et al. (2014).
+efficiency in soybean. Func. Plant Biol. 37, 304-312. doi: 10.1071/FP09215
+Image-based high-throughput field phenotyping of crop roots. Plant Physiol.
+Arya, L. M., Blake, G. R., and Farrell, D. A. (1975). A field study of soil
+166, 470-486. doi: 10.1104/pp.114243519
+water depletion patterns in presence of growing soybean roots: III. Rooting Burch, G. L., Smith, R. C. G., and Mason, W. K. (1978). Agronomic and
+characteristics and root extraction of soil water. Soil Sci. Soc. Am. Proc. 39,
+physiologicalresponses: ofs soybean and sorghum cropsto water deficits. II. Crop
+437-444. doi: 102136/s531975.03615900390030023
+evaporation, soil water depletion and root distribution. Austr. J. Plant Physiol. 5,
+Bacanamwo, M., and Purcell, L. C. (1999). Soybean root morphological and
+169-177. doi: 10.1071/PP9780169
+anatomical traits associated with acclimation to flooding. CropSci. 39,143-149. Burridge, J, Jochua, C. N., Bucksch, A., and Lynch, J. P. (2016).
+doi: MEINSPUIPIANINENNEN
+Legume shovelomics: high-throughput phenotyping of common
+Bass, J. D., Swcf, A. J, Dabney, A., and Robinson, D. (2015). qvalue: Q-Value
+bean (Phaseolus vulgaris L.) and cowpea (vigna unguiculata subsp,
+Estimation for False Discovery Rate Control. R package version 2.4.2. Available
+unguiculata) root architecture in the field. Field Crops Res. 192, 21-32.
+online at: hmplgthahcmpasurgyiguale
+doi: 10.016.fcr.201604.008
+Benjamini, Y., and Hochberg, Y. (1995). Controlling the false discovery rate: a Chevenet, F., Brun, C., Banuls, A. L., Jacq, B., and Christen, R. (2006). TreeDyn:
+practical and powerful approach to multiple testing. J. R. Stat. Soc. Series B 57,
+towards dynamic graphics and annotations for analyses of trees. BMC
+289-300. doi: 101251748.9508013
+Bioinformatics 7:439. doi: 1011861471-2105:7-439
+Benjamins, R., and Scheres, B. (2008). Auxin: the looping star Colombi, T., Kirchgessner, N.,LeMarié, C.A., York, L.M., Lynch, J.P., and Hund,
+in plant development. Annu. Rev. Plant Biol. 59, 443-465.
+A. (2015).Next generation shovelomics: set upa tent and REST. Plant Soil 388,
+doi: 101146annurevarplant.58032806.10305
+1-20. doi: 10/00781104-015-23797
+Bettembourg, M., Dardou, A., Audebert, A., Thomas, E., Frouin, J., Guiderdoni, Courtois, B., Audebert, A., Dardou, A., Roques, S., Ghneim-Herrera, T.,
+E., etal. (2017). Genome-wide association mapping for root cone anglein rice.
+Droc, G., et al. (2013). Genome-wide association mapping of root traits
+Rice 10:45. doi: 10.1861284-017-01842
+in a japonica rice panel. PLOS ONE 8:e78037. doi: 101371journalpone.00
+Bondari, K. (2003). "Statistical lanalysis of genotype x environment interaction in 78037
+agricultural research," in SESUG: The Proceedings of the South East SAS Users Dai, X., Wang, Y., Yang, A., and Zhang, W. H. (2012). OsMYB2P-
+Group (StPete Beach, FL), Paper SD15.
+1, an R2R3 MYB transcription factor, is involved in the
+Borst, H. L., and Thatcher, L. E. (1931). Life History and Composition ofthes Soybean
+regulation of phosphate-starvation responses and root architecture
+Plant. Research Bulletin 494. Ohio Agricultural Research and Development
+in rice. Plant Physiol. 159, 169-183. doi: 10.1104/pp.112.19
+Center. Columbus, OH, USA: Ohio State Universit,. 96.
+4217
+Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y., De Dorlodot, S., Forster, B., Pagès, L., Price, A., Tuberosa, R., and Draye,
+and Buckler, E. S. (2007). TASSEL: software for association mapping
+X. (2007). Root system architecture: opportunities and constraints
+of complex traits in diverse samples. Bioinformatics 23, 2633-2635.
+for genetic improvement of crops. Trends Plant Sci. 10, 474-481.
+doi: 10.03bioinformatia@bimses
+doi: 10.1016j.phant3200708012
+Frontiers in Plant Science - www.frontiersin.org
+14
+February 2021 IVolume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+Den Herder, G., Van Isterdael, G., Beeckman, T., and De Smet, I. (2010). Ho, M. D., Rosas, J. C., Brown, K. M., and Lynch, J.P. (2005). Root architectural
+The roots of a new green revolution. Trends Plant Sci. 15, 600-607. tradeoffs for water and phosphorus acquisition. Func. Plant Biol. 32, 737-748.
+doi: 10.1016/.phamt.201008.009
+doi: 10.1071/FP05043
+Dhanapal, A. P., Ray,J.D., Singh, S. K., Hoyos-Villegas, V., Smith,J. R., Purcell, L. Houx, J. H. III, Wiebold, W.J., and Fritschi, F. B. (2011). Long-term tillage and
+C., et al. (2015a). Genome-wide association study (GWAS) of carbon isotope
+crop rotation determines the mineral nutrient distributions of some elements
+ratio (813C) in diverse soybean [Glycine max (L.) Merr.] genotypes. Theor.
+in a vertic epiaqualf. Soil Tillage Res. 112,27-35. doi: 10.1016/jstll2010.1.003
+Appl. Genet. 128, 73-91. doi: 101007600122-01424139
+Jobbagy, E. G., and Jackson, R. B. (2001). The distribution of soil nutrients with
+Dhanapal, A. P., Ray, J. D., Singh, S. K., Hoyos-Villegas, V., Smith, J. R., Purcell,
+depth: global patterns and the imprint of plants. Biogeochemistry 53, 51-77.
+L. C., et al. (2015b). Genome-wide association analysis of diverse soybean
+doi: 101023/A.1010760720215
+genotypes reveals novel markers for Nitrogen derived from atmosphere Johnson, K. L., Jones, B. J., Bacic, A., and Schultz, C. J. (2003). The fasciclin-
+(Ndfa), nitrogen concentration ((N]) and C/N ratio. Plant Genome 8:86.
+like arabinogalactan proteins ofarabidopsis. A multigene family ofputative cell
+doi: l0385plamgmemaMiciaoN
+adhesion molecules. Plant Physiol. 133, 1911-1925. doi: 10.1104/pp.103.031237
+Dhanapal, A. P., Ray, J. D., Singh, S. K., Hoyos-Villegas, V., Smith, J. R., Kang, Y. H., Kirik, V., Hulskamp, M., Nam, K. H., Hagely, K., Lee, M. M.,
+Purcell, L. C., et al. (2015c). Association mapping of total carotenoids in
+et al. (2009). The MYB23 gene provides a positive feedback loop for cell
+diverse soybean genotypes based on leaf extracts and high-throughput
+fate specification in the arabidopsis root epidermis. Plant Cell 21, 1080-1094.
+canopy spectral reflectance measurements. PLOS ONE 10:e0137213.
+doi: 101105/tpc.108.063180
+doi: 10.371jpurmalpone.0157213
+Kaspar, T. C., Taylor, H. M., and Shibles, R. M. (1984). Taproot-elongation rates
+Endelman, J. B., and Jannink, J. L. (2012). Shrinkage estimation of the realized
+ofsoybean cultivars in the glasshouse and their relation to field rooting depth.
+relationship matrix. G3 2, 1405-1413. doi: 10.1534/g3.112004259
+Crop Sci. 24, 916-920. doi: 102135/copxdi984.00183X002400501X
+Feng, C., Andressson, E., Maslak, A., Mock, H. P., Mattsson, O., and Mundy, L. Kulik, A., Wawer, I., Krzywinska, E., Bucholc, M., and Dobrowolska, G. (2011).
+(2004). Arabidopsis MYB68 in development and responses to environmental SnRK2 protein kinases-key regulators of plant response to abiotic stresses.
+cues. Plant Sci. 167, 1099-1107. doi: 10.016jphamticd200.06014
+OMICS 15, 859-872. doi: 10.1089/omi2011.0091
+Fenta, B., Beebe, S., Kunert, K., Burridge, J., Barlow, K., Lynch, J., et al. (2014). Lersten, N. R., and Carlson, J. B. (2004). "Vegetative morphology," in Soybeans:
+Field phenotyping of soybean roots for drought stress tolerance. Agronomy 4,
+Improvement, Production and Uses, 3 ed. eds H. R. Boerma and J. E. Specht
+418-435. doi: 10390lagronomyt030418
+(Madison, WI: American Society ofAgronomy, Crop Science SocietyofAmerica,
+Fenta, B. A., Schluter, U., Garcia, B. M., Duplessis, M., Foyer, C. H., and Kunert, SoilScience SocietyofAmerica), 15-57.
+K. J. (2011). "Identification and application of phenotypic and molecular Li, S. B., Xie, Z. Z., Hu, C. G., and Zhang, J.Z. (2016). A review of fauxin response
+markers for abiotic stress tolerance in soybean," in Soybean - Genetics and
+factors (ARFS)in plants. Front. Plant Sci. 7:47. doi: 103389/fpl.2016.00047
+Novel Techniques for Yield Enhancement, D. Krezhova (Shanghai, China: Liang, H., Yu, Y., Yang, H., Xu, L., Dong, W.,Du, H., et al. (2014). Inheritance and
+InTech), 181-200.
+QTLmapping ofrelatedroottraitsin: soybean at the seedling stage. Theor. Appl.
+Fitter, A. H., Stickland, T. R., Harvey, M. L., and Wilson, G. W.
+Genet. 127, 2127-2137. doi: 101007600122-014-2361
+(1991). Architectural analysis of plant root systems. 1. Architectural Liang, Q., Cheng, X., Mei, M., Yan, X., and Liao, H. (2010). QTL analysis of root
+correlates of exploitation efficiency. N. Phytol. 118, 375-382.
+traits as related to phosphorus efficiency in soybean. Ann. Bot. 106, 223-234.
+doi: 1011031P817APLANIN:
+doi: 10.1093/aob/mcq097
+Galesloot, T.E., Van Steen, K., Kiemeney, L. A., Janss, L. L., and Vermeulen, S. H. Liao, H., Yan, X., Rubio, G., Beebe, S. E. S., Blair, M. M. W., and Lynch,
+(2014). A comparison of fmultivariate genome-wide association methods. PLOS
+J. P. (2004). Genetic mapping of basal root gravitropism and phosphorus
+ONE 9:e95923. doi: 101371/oumalponex923
+acquisition efficiency in common bean. Func. Plant Biol. 31, 959-970.
+Grant, D., Nelson, R. T., and Cannon, S. C. (2010). SoyBase, the USDA-ARS
+doi: 10.1071/FP03255
+Genetics and Genomics Database. [WWW document] URL Available online at: Lipka, A. E., Tian, F., Wang, Q., Peiffer, J., Li, M., Bradbury, P. J., et al. (2012).
+http:l/soybase.org doi: 10.1093/nar/gkp798
+GAPIT: genome association and prediction integrated tool. Bioinformatics 28,
+Gruber, B. D., Giehl, R. F., Friedel, S., and Von Wirén, N. (2013). Plasticity of 2397-2399. doi: 10.93bicinfrmatia@bt4
+the arabidopsis root system under nutrient deficiencies. Plant Physiol. 163, Lynch, J. P. (1995). Root architecture and plant productivity. Plant Physiol. 109,
+161-179. doi: 10.1104/pp.113.218453
+7-13. doi: 10.1104/pp.109.1.7
+Guerriero, G., Hausman, J. F., and Ezcurra, I. (2015). WD40-repeat proteins in Lynch, J. P. (2013). Steep, cheap and deep: an ideotype to optimize water
+plant cell wall formation: current evidence and research prospects. Front. Plant
+and N acquisition by maize root systems. Ann. Bot. 112, 347-357.
+Sci. 6:1112. doi: 103389/fpl.2015.01112
+doi: 10.1093/aob/mcs293
+Guilfoyle, T. J., and Hagen, G. (2007). Auxin response factors. Curr. Opin. Plant Malamy, J. E. (2005). Intrinsic and environmental response pathways
+Biol. 5, 453-460. doi: 10.1016/jpb1200208.014
+that regulate root system architecture. Plant Cell Environ. 28, 67-77
+Ha, C. V., Le, D. T., Nishiyama, R., Watanabe, Y., Tran, U. T., Dong, N. V.,
+doi: 101092X65.902965096
+etal. (2013). Characterization ofthe newly developed soybean cultivar DT2008 Malamy, J. E., and Benfey, P. N. (1997). Organization and cell differentiation in
+in relation to the model variety W82 reveals a new genetic resource for
+lateral roots ofarabidopsis thaliana. Development 124,33-44.
+comparative and functional genomics for improved drought tolerance. Biomed Manavalan, L. P., Guttikonda, S. K., Tran, L. S., and Nguyen, H. T. (2009).
+Res. Int. 2013:759657. doi: 10.1155/2013/759657
+Physiological and molecular approaches to improve drought resistance in
+Hayashi, S., Gresshoff, P. M., and Kinkema, M. (2008). Molecular analysis of soybean. Plant Cell Physiol. 50, 1260-1276. doi: 10.1093/pcp/pcp082
+lipoxygenases associated with nodule development in soybean. Mol. Plant Manavalan, L. P., Prince, S. J., Musket, T. A., Chaky, J., Deshmukh, R, Vuong,
+Microbe Interact. 21, 843-853. doi: 101094/MPM121-6-0843
+T. D., et al. (2015). Identification of novel QTL governing root architectural
+He,J.,Jin, ,Y.,Du, Y.L., Wang, T., Turner,N.C., Yang, RP.dal@017.Genutypic
+traits in an interspecific soybean population. PLOS ONE 10:e0120490.
+variation in yield, yield components, root morphology and architecture, in
+doi: 10.371jourmalpume.012090
+soybean in relation to water and phosphorus supply. Front. Plant Sci. 8:1499. Marzec, M., Szarejko, L, and Melzer, M. (2015). Arabinogalactan proteins are
+doi: 10387/fpl2017.01499
+involved in root hair development in barley. J. Exp. Bot. 66, 1245-1257.
+Herritt, M., Dhanapal, A. P., and Fritschi, F. B. (2016). Identification
+doi: 10.1093/jxbleru475
+of genomic loci associated with the photochemical reflectance index Matsuo, N., Takahashi, M., Fukami, K., Tsuchiya, S., and Tasaka, K. (2013). Root
+by genome-wide association study in soybean. Plant Genome 9:72.
+growth of two soybean cultivars grown under different groundwater level
+doi: 10385plamsgmama.wi50k07
+conditions. Plant Prod. Sci. 16, 374-382. doi: 10.1626/pps.16.374
+Ho, M. D., Mccannon, B. C., and Lynch, J. P. (2004). Optimization modeling of Mcloughlin, F., Galvan-Ampudia, C. S., Julkowska, M. M., Caarls, L., Van
+plantrootarchitecturef for water and phosphorus acquisition.]. Theor. Biol. 226,
+Der Does, D., Laurière, C., et al. (2012). The Snfl-related protein kinases
+331-340. doi: 10.1016/,1b12003.09011
+SnRK24andSnRK2.10areinvolvedin maintenance ofroot system architecture
+Frontiers in Plant Sciencel www.frontiersin.org
+15
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+during salt stress. Plant J. 72, 436-449. doi: 1011/136-313X2012 Umate, P. (2011). Genome-wide analysis of lipoxygenase gene
+05089.x
+family in arabidopsis and rice. Plant Signal. Behav. 6, 335-338.
+Monks, D., Aghoram, K., Courtney, P., Dewald, D., and Dewey, R. E.
+doi: 10.4161/psb.6.3.13546
+(2001). Hyperosmotic stress induces the rapid phosphorylation of Wagner, S., Behera, S., De Bortoli, S., Logan, D. C., Fuchs, P., Carraretto,
+a soybean phosphatidylinositol transfer protein homolog through
+L., et al. (2015). The EF-hand Ca2+ binding protein MICU choreographs
+activation of the protein kinases SPK1 and SPK2. Plant Cell 5, 1205-1219.
+mitochondrial Ca2+ dynamics in arabidopsis. Plant Cell 27, 3190-3212.
+doi: 10.1105/tpc.13.5.1205
+doi: 10.1105/tpc.15.00509
+Morales, A. M., O'rourke, J. A., Van De Mortel, M., Scheider, K. T., Bancroft, T. Waines, J. G., and Ehdaie, B. (2007). Domestication and crop physiology: roots of
+J, Borém, A., et al. (2013). Transcriptome analyses and virus induced gene
+green-revolution wheat. Ann. Bot. 100, 991-998. doi: 10.1093/aob/mcm180
+silencing identify genes in the Rpp4-mediated Asian soybean rust resistance Waisel,Y., Eshel,A., and Kafk Afi, U. (2002). Plant Roots the Hidden Half 3rd. Edn.
+pathway. Func. Plant Biol. 40, 1029-1047. doi: 10.1071/FP12296
+New York: Marcel Dekker. doi: 10.1201/9780203909423
+Nguyen,L., Takahashi, R., Githiri, S., Rodriguez, T., Tsutsumi, N., Kajihara, S., etal. Walker, A. R., Davison, P. A., Bolognesi-Winfield, A. C.,James, C. M., Srinivasan,
+(2017). Mapping quantitative trait loci for root development under hypoxia
+N., TI, B., et al. (1999). The TRANSPARENT TESTA GLABRA1 locus,
+conditions in soybean (Glycine maxL. Merr.) Theor. Appl. Genet. 130, 743-755.
+which regulates trichome differentiation and anthocyanin biosynthesis in
+doi: 10100760012.01623473
+arabidopsis, encodes a WD40 repeat protein. Plant Cell 11, 1337-1349.
+Osmont, K. S., Sibout, R., and Hardtke, C. S. (2007). Hidden branches:
+doi: 10.1105/tpc.11.7.1337
+developments in root system architecture. Annu. Rev. Plant Biol. 58, 93-113. Wang, L., Liao, H., Yan, X., Zhuang, B., and Dong, Y. (2004). Genetic variability
+doi: 101146annurevarplant.58052806.104006
+for root hair traits as related to phosphorus status in soybean. Plant Soil 261,
+Pacheco-Villalobos, D., andHardtke, C.S. (2012). Natural genetic variation ofroot 77-84. doi: 10.1023/B-PLS0.000003555294249.63
+system architecture from arabidopsis to brachypodium: towards adaptivevalue. Wang, N., Zhang, W., Qin, M., Li, S., Qiao, M., Liu, Z., et al. (2017).
+Philos. Trans. R. Soc. B Biol. Sci. 367, 1552-1558. doi: 10.1098/rstb.2011.0237
+Drought tolerance conferred in soybean (Glycine max. L) by GmMYB84,
+Pang, Y., Wenger, J. P., Saathoff, K., Peel, G. J., Wen, J., Huhman, D., et al. (2009). a novel R2R3-MYB transcription factor. Plant Cell Physiol. 58, 1764-1776.
+A WD40 repeat protein from medicago truncatula is necessary for tissue-
+doi: 10.1093/pcp/pcxl11
+specific anthocyanin and proanthocyanidin biosynthesis but not for trichome Wang, Y., Li, K., Chen, L., Zou, Y., Liu, H., Tian, Y., et al. (2015). MicroRNA167-
+development. Plant Physiol. 151, 1114-1129. doi: 10.104/pp.109.144022
+directed regulation ofthe auxin response factors GmARF8a and GmARF8b is
+Péret, B., De Rybel, B., Casimiro, L, Benkova, E., Swarup, R., Laplaze, L., et al.
+required for soybean nodulation and lateral root development. Plant Physiol.
+(2009). Arabidopsis lateral root development: an emerging story. Trends Plant
+168, 984-999. doi: 10.1104/pp.15.00265
+Sci. 14,399-408. doi: 10.016j4phants2090502
+Wang, Y., Suo, H., Zheng, Y., Liu, K., Zhuang, C., Kahle, K. T., et al.
+Petricka, J. J., Winter, C. M., and Benfey, P. N. (2012). Control of (2010). The soybean root-specific protein kinase GmWNK1 regulates stress-
+arabidopsis root development. Annu. Rev. Res. Plant Biol. 63, 563-590.
+responsive ABA signaling on the root system architecture. Plant J. 2, 230-242.
+doi: 10.146/annurev-arplant-042811-105501
+doi: 10143246532X.301000X
+Piepho, H. P. (1994). Best linear unbiased prediction (BLUP) for regional yield Wu, J. J, Xu, P. F., Liu, L. J., Zhang, S., Wang, J. S., Lin, W. G., et al.
+trials: a comparison to additive main effects and multiplicative interaction
+(2012). "Mapping QTLS for phosphorus-deficiency tolerance in soybean at
+(AMMI) analysis. Theor. Appl. Genet. 89, 647-654. doi: 10.1007/BF00222462
+seedling stage," in 20121 Interational/Conference on. BiomedicalEnginering and
+Piepho, H. P., and Mohring, J. (2007). Computing heritability and selection
+Biotechnology (Macao: IEEE), 370-378. doi: 10.1109ACBEB2012269
+response from unbalanced plant breeding trials. Genetics 177, 1881-1888. York, L. M. (2019). Functional phenomics: an emerging field integrating high-
+doi: 10.15341gnctic.07.07429
+throughput phenotyping, physiology, and bioinformatics. J. Exp. Bot. 70,
+Pritchard, J, Stephens, M., and Donnelly, P. (2000). Inference of population
+379-386. doi: 10.1093/jxb/ery379
+structure using multilocus genotype data. Genetics 155, 945-959.
+York, L. M., and Lynch, J. P. (2015). Intensive field phenotyping of maize (Zea
+Read, D.J., and Bartlett, E. M. (1972). The physiology ofdrought resistance in the
+mays L.) root crowns identifies phenes and phene integration associated
+soy-bean plant (Glycine max) the relationship between drought resistance and
+with plant growth and nitrogen acquisition. J. Exp. Bot. 66, 5493-5505.
+growth. J. Appl. Ecol. 9,487-499. doi: 10.2307/2402447
+doi: 10.1093/jxb/erv241
+Rich, S. M., and Watt, M. (2013). Soil conditions and cereal root system York, L. M., Nord, E. A., andlynch.J.P.(2013),. Integration ofroot phenes for soil
+architecture: review and considerations for linking darwin and weaver. J. Exp.
+resource acquisition. Front. Plant Sci. 4:355. doi: 103389/fpls2013.0035
+Bot. 64, 1193-1208. doi: 10.1093/jxb/ert043
+York, L. M. (2018). "Phenotyping crop root crowns: general guidance and specific
+Sas-Institute-Inc. (2004). SAS/STAT User's Guide Version 9.2 Cary, NC: SAS-
+protocols for maize, wheat, and soybean," in Root Development: Methods and
+Institute-Inc.
+Protocols, eds D. Ristova and E. Barbez (New York, NY: Springer), 23-32.
+Seethepalli, A., Guo, H., Liu, X., Griffiths, M., Almtarfi, H., Li, Z., et al.
+doi: 10.07978-1-499-74952
+(2020). RhizoVision crown: an integrated hardware and software Zeng, H., Zhang, Y., Zhang, X., Pi, E., and Zhu, Y. (2017). Analysis of EF-hand
+platform for root crown phenotyping. Plant Phenomics 2020:3074916.
+proteins in soybean genome suggests their potential roles in environmental
+doi: 1034133/2020/3074916
+and nutritional stress signaling. Front. Plant Sci. 8:877. doi: 10.3389/fpls.2017.0
+Silvius, J. E., Johnson, R. R., and Peters, D. B. (1977). Effect of 0877
+water stress on carbon assimilation and distribution in soybean Zhang, D., Cheng, H., Geng, L., Kan, G., Cui, S., Meng, Q., et al. (2009).
+plants at different stages of development. Crop Sci. 17, 713-716. Detection of quantitative trait loci for phosphorus deficiency tolerance at
+doi: 102135/cropxdi97200113X001700050010X
+soybean seedling stage. Euphytica 167, 313-322. doi: 10.1007/510681-009-9
+Smith, S., and De Smet, I. (2012). Root system architecture: insights from
+880-0
+arabidopsis and cereal crops. Philos. Trans. R. Soc. B Biol. Sci. 367, 1441-1452. Zhang, Z., Ersoz, E., Lai, C. Q., Todhunter, R. J., Tiwari, H. K., Gore, M. A., et al.
+doi: 10.1098/rstb.2011.0234
+(2010). Mixed linear model approach adapted for genome-wide association
+Song, Q, Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W., Nelson, R. L., et al.
+studies. Nat. Genet. 42, 355-360. doi: 10.1038/ng.546
+(2013). Development and levaluation of SoySNP50K, ahigh-density genotyping Zhao, J., Fu, J., Liao, H., He, Y., Nian, H., Hu, Y., et al. (2004). Characterization
+array for soybean. PLOS ONE8:e54985. doi: 101371/pumalpone005985
+of root architecture in an applied core collection for Phosphorus efficiency
+Storey, J. D., and Tibshirani, R. (2003). Statistical significance for
+of soybean germplasm. Chin. Sci. Bull. 49, 1611-1620. doi: 10.1007/BF0318
+genomewide studies. Proc. Natl. Acad. Sci. U.S.A. 100, 9440-9445.
+4131
+doi: 10.1073/pnas.1530509100
+Zhou, F., Guo, Y., and Qiu, L. J. (2016). Genome-wide identification
+Trachsel, S., Kaeppler, S. M., Brown, K. M., and Lynch, J. P. (2011). Shovelomics:
+and evolutionary analysis of leucine-rich repeat receptor-like protein
+high throughput phenotyping of maize (Zea mays L.) root architecture in the
+kinase genes in soybean. BMC Plant Biol. 16:58. doi: 10.1186/s12870-016-
+field. Plant Soil 341, 75-87. doi: 10.1007161104010-06235
+0744-1
+Frontiers in Plant Sciencel www.frontiersin.org
+16
+February 2021 [Volume 11 [Article 590179
+
+
+
+Dhanapal et al.
+Soybean Root Architecture Loci
+Zhu, J, Ingram, P. A., Benfey, P. N., and Elich, T. (2011). From lab to field, new Copyright 0 2021 Dhanapal, York, Hames andFritschi. This sisan open-accessarticle
+approachest to phenotypingroot system architecture. Curr. Opin. Plant Biol. 14, distributed under the terms ofthe Creative Commons Attribution License (CCI BY).
+310-317. doi: 10.1016/jpb12011.03.020
+The use, distribution or reproduction in other forums is permitted, provided the
+original author(s) and the copyright owner(s) are credited and that the original
+Conflict ofInterest: The authors declare that the research was conducted in the publication in this journal is cited, in accordance with accepted academic practice.
+absence ofany commercial or financial relationships that could be construed as a No use, distribution or reproduction is permitted which does not comply with these
+potential conflict ofi finterest.
+terms.
+Frontiers in Plant Sciencel www.frontiersin.org
+17
+February 2021 [Volume 11 [Article 590179

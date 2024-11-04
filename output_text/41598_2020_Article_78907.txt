@@ -1,0 +1,983 @@
+www.nature.com/scientificreports
+scientific reports
+Checkfor updates
+OPEN Genome-wide association identifies
+severalQTLs controlling cysteine
+and methionine content in soybean
+seed including some promising
+candidate genes
+Sidiki Malle', Milad Eskandari?, Malcolm Morrison3 & François Belzile1s
+Soybean is an important source of protein, oil and carbohydrates, as well as other beneficial
+nutrients. A majorfunction ofproteins in nutrition isto supply adequate amounts ofamino acids.
+Although they are essential for human nutrition, the sulfur-containing amino acids cysteine (Cys) and
+methionine (Met) are often limited and the genetic control oftheir contentin soybean seeds is poorly
+characterized.This study aimed to characterize the phenotypic variation andidentify quantitative
+traitloci (QTL) associatedwith Cys and Met contentin a core set of137 soybean lines, representative
+ofthe genetic diversity among Canadian short-season soybean, spanning maturity groups 000-
+II (MG000-I1). Significant phenotypic differences were found among these linesfor Cys, Met and
+Cys+ Met content. Using both a mixedlinear model and six multi-locus methods with a catalogue of
+2.18 M SNPS, we report a total ofnine QTLS and seventeen QTNS ofwhich seven comprise promising
+candidate genes. This work allowed US to reproducibly detect multiple novelloci associated with
+sulfur-containing amino acid content. The markers and genesi identifiedin this study may be usefulfor
+soybeangenetcimpovement aiming to increase Cys and Met content.
+Soybean (Glycine max (L.) Merr) is a legume species native to East Asia and now widely planted for its edible
+bean, which plays an essential role in global food security'. Although soybeans are classified as an oilseed with
+18-23% oil lonamoisture-free basis, its increased production worldwide can be attributed lalso to itshigh protein
+content ranging 38-44%2. Soybean seed proteins are categorized as either albumins or globulins based on their
+solubility patterns'.The main storage protein is comprised ofthe globulin fraction, accounting for roughly 70%
+of the total seed protein. The 7S (B-conglycinin) and 11S (glycinin) polypeptides are the major components
+of the globulin fraction. This fraction provides 18 amino acids, including all 10 essential amino acids, but the
+sulfur-containing amino acids cysteine (Cys) and methionine (Met) are not present at adequate levels for optimal
+growth and development of monogastric animals'.
+Cysteine and methionine contribute highly to human health and animal nutrition by preventing cancer, the
+development tofcardiovascular diseases and promoting proper function ofthe immune system". Unlike fat and
+starch, the body does not store excess amino acids for later use. Therefore, amino acids must be obtained from
+food dailys.". Considering their role in maintaining human and animal health and their low level in soybean
+protein (<3% ofall lamino acids in seed), developing soybean varieties with improvedcysteine and/or methionine
+content is an important breeding objective to address soybean nutritional limitationss. Understanding the precise
+genetic architecture ofthese traits and identifying key genes controlling the accumulation of fthese protein frac-
+tions or amino acids would be an important step in this direction. So far, fifteen genes encoding B-conglycinins
+(CG1-CG15) and five genes (Gyl-Gy5) encoding glycinins have been reporteds.10 (htp/www.soybascorg).
+Seed content in sulfur amino acids has been shown to be quantitatively inherited and controlledby multiple
+genes3,6. Only a few studies have reported quantitative trait loci (QTL) associated with cysteine and methionine
+content in soybean seed(SoyBase, https/soybase.org). Qiu et al." predicted 12 candidate genes based on the
+Département de Phytologie, Faculty of Agricultural and Food Sciences and Institute for Integrative and Systems
+Biology (IBIS), Laval University, Quebec City, QC, Canada. 2Department of Plant Agriculture, University of Guelph,
+Ridgetown, ON, Canada. 3Ottawa Research and Development Centre, Agriculture and Agri-Food Canada, Ottawa,
+ON, Canada. Femail: FancoisBetie@haaudalca
+Scientific Reports] (2020) 10:21812
+htpslidoiorgn1010384103841598-020-78907-W
+natureresearch
+1
+
+
+
+www.nature.com/scientificreports
+synteny between 113 genes from a gene mining ofsulfur-containing amino acid metabolic enzymes in soybean.
+These authors also identified many QTLS related to the 7S (B-conglycinin), 11S (glycinin) fractions and Cys/
+Met content soybean on chromosomes 1, 3, 4, 6, 10, 13, 16, 17, 19 and 20. From linkage mapping, Panthee et tal.s
+reported la total ofseven QTLs associated with Cys, Met tand Cys+ Met tcontent across five chromosomes (Gm01,
+07, 13, 17 and 18) in a population of 101 Fo-derived recombinant inbred lines (RILS) (N87-984-16XTN93-99),
+Using the same population, Panthee et al.12 reported three QTLs associated with glycinin (Satt461, Satt156 and
+Satt292), on chromosomes (Gm17, 19 and 20) respectively, whereas two QTLs were detected for conglycinin
+(Satt461 and Satt249) distributed on chromosomes 17 and 16. From a bulked segregant analysis in the F,
+ping population derived from the cross ofHarovinton and SQ97-0263_3-1a, Boehm et al.13 reported one mat
+on chromosome 10 associated with the 7S a' subunit and five QTLs associated with 11S A-type storage protein
+subunits respectively on chromosomes (Gm03, 10, 13 and 19). Fallen et tal. 14 detected two QTLS on chromosomes
+(Gm13 and 20) associated with both Cys and Met content in progeny ofEssex x Williams 82 (282 Fs9 RILS). All
+these QTLs were reported as a result of QTL mapping in biparental populations and resulted in a poor overlap
+between the QTLs/QTNS reported in these studies. This is not unexpected since in biparental populations only
+two sources of allelic variation are evaluated. Moreover, the major limitation of this approach is that they offer
+poor resolution in detecting QTLS15 and the large confidence intervals surrounding the detected QTLs limits
+their utility for identifying candidate genes16.
+Population-based mapping approaches such as genome-wide association studies (GWAS) can overcome many
+ofthese shortcomingsofthe biparental mapping approach".In GWAS, we evaluate the association between each
+genotyped marker and la phenotype ofinterest that has been scored lin a large number of unrelated individuals's.
+A GWAS can be achieved using asingle-locus method where markers are tested individually in a one-dimensional
+genome scan like the MixedLinear Model (MLM'9) or using ga multi-locus method where effects ofall potentially
+associated markers are simultaneously estimated lin a multi-locus genetic model such as the multi-locus random-
+SNP-effect Mixed Linear Model (mrMLM?9). Furthermore, the use of next-generation sequencing in the context
+of GWAS makes it possible to genotype larger populations of plants with a higher density of markers than was
+previously possible and this contributes directly to increasing GWAS resolution.
+With a single-locus approach, Vaughn et al.17 performed a GWAS on two different panels (IL-1996 and
+MS-1997), exploiting data from the Germplasm Resources Information Network (GRIN.htplwwwarxgrin.
+gov/). The IL-1996 panel was composed of 900 cultivarsbelonging to maturity groups (MGs) III and IV, while
+the MS-1997 panel was composed of978 cultivars from MGs V through IX. All the lines were genotyped using
+the SoySNP50K iSelect Array17 to produce a total of 32 K SNPS with a minor allele frequency (MAF) 2 0.05.
+This allowed these authors to identify a total of fourteen QTLS across 10 chromosomes (Gm01, 03, 02, 05, 06,
+08, 10, 11, 16 and 20).
+Recently, Lee et al.21 used both MLM and a Multi-Locus Mixed Linear Method (MLMLM) to conduct a
+GWAS for soybean seed components (including protein, oil, five fatty acids and 18 amino acids) on 313 plant
+introductions (PIs). These accessions belonged to MGs 0 (92%) and 00 (8%) and 91% originated from China.
+They were genotyped with the SoySNP50K Array and a total of32 K SNPS with MAF20.05 were used for asso-
+ciation analyses. Only one QTL on chromosome 15 was associated with both cysteine and methionine. Using
+the same approach, Song et tal.19 conducted la GWAS using phenotypic data collected from five environments for
+621 accessions in maturity groups I-IV and 34,014 markers genotyped with the SoySNP50K array to identify one
+QTL on chromosome 3 and three (on Gm01, 15 and 18), respectively, associated with cysteine and methionine.
+None of the previous work resulted in the identification ofhighly promising candidate genes that could be
+targeted by breeders for developing cultivars with increased content in sulfur-containing amino acids.
+Thus, to obtain a comprehensive understanding of fthe genetic architecture of Cys and Met content in soy-
+bean seeds, we used a core set of 137 Canadian soybean lines grown on two sites and four replicates in total.
+The best linear unbiased predictor (BLUP) value of each line and a set of 2.18 M SNP markers [obtained from
+a combined dataset of genotyping-bysequencing (GBS) and whole-genome sequencing (WGS)] were used to
+identify marker-trait associations. Both a single-locus method (MLM'9) and six multi-locus GWAS methods
+(FASTmTEMMA", FASTmrMLM", ISIS EM-BLASSO4, mrMLM20, pKWmEB25 and PLARmEB26) were used.
+Here, we report a total of nine QTLs detected by the MLM method and seventeen major QTNS detected by at
+leasttwo ofthe six multi-locus method llocated on 12 soybean chromosomes. In addition, seven strong candidate
+genes based on their high degree of fassociation and functional annotation were identified.
+Results
+Phenotypic variation and correlations among traits. In view of performing a GWAS, we obtained
+phenotypic data for the sulfur amino acid content (g/kg TP) onasetof137 soybean lines by growing single-row
+plots on two sites (two replicates/site) in 2013. The frequency distributions for Cys, Met and Cys+Met contents
+are presented in Fig. 1. All of the seed composition traits examined in this study exhibited a normal distribu-
+tion as the p-value ofa shapiro test for the three traits was <0.05 and appeared to be quantitatively inherited.
+Descriptive statistics for Cys, Met and Cys+Met contents are presented in Table 1.It can be seen that the amino
+acid content varied from 13.5 to 15.0 g/kg on total protein basis (TP) for Cys and from 12.6 to 13.6 g/kg TP for
+Met. The total sulfur amino acid content Cys +Met varied from 26.0 to 28.5 g/kg TP. Across all 137 lines, the
+means were 14.6, 13.0 and 27.6 g/kg TP for Cys, Met and Cys+ Met, respectively. The least significant difference
+(LSD) between two genotype means was 0.3 for Cys, 0.2 for Met and 0.5 g/kg TP for Cys+1 Met contents. An
+analysis ofvariance showed that the genotype main effect was a much greater source ofvariation ps0.001 than
+the environment and genotype by environment effect, but the latter was found to be a more important source of
+variation (p 050.01) for the sulfur amino acid content than the site. A high broad-senseheritability was observed
+and ranged from 49 to 62%.
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch
+2
+
+
+
+www.nature.com/scientificreports
+(a)
+(b)
+9.
+9
+f DE -
+-
+R
+-
+: I
+E
+-
+I
+1f
+2-
+-
+oo
+o.
+L
+13.5 14.0 14.5 15.0
+12.6 12.8 13.0 13.2 13.4 13.6
+Cys (g/kg TP)
+Met (g/kg TP)
+(c)
+9
+f
+a R -
+2-
+0
+T T T
+26.0 26.5 27.0 27.5 28.0 28.5
+Cys + Met (g/kg TP)
+Figure 1. Distribution ofCys (a), Met (b) and (c) Cys+Met content (g/kgoftotal protein) in the seed of 137
+Canadian soybean lines.
+Variable
+Min Max Mean LSD
+Var (G)
+Var (E)
+Var (GxE) H? (%)
+g/kg oftotal protein
+Cys
+13.8 15.2
+14.6
+0.3
+0.0002*** 0.000008NS 0.00010**
+49
+Met
+12.5
+13.4
+13.0
+0.2
+0.0001*** 0.000014NS 0.00007**
+62
+Cys+Met
+26.3
+28.5
+27.6
+0.5
+0.0009*** 0.000047NS 0.00040*
+57
+Table 1. Descriptive statistics for cysteine, methionine and the sulfur amino acid content across two sites
+(two replicates per site). LSD at the 0.05 probability level. Var(G) = genotypic variance, Var(E) = environmental
+variance, Var(GxE) = Genotype by environment variance and H = Broad sense heritability. NS Not significant
+at ta=0.05. ** Significant at the 0.01 and 10.001 probability levels, respectively.
+To assess if these three traits were associated, we measured the correlation between them across the two
+environments. Allthree amino acid contents were positively andhighly significantly correlated (p <0.001). The
+Pearson correlation coefficients between these traits ranged from 0.81 to 0.97 (Table S1, upper diagonal) and
+thegenetic correlation explaining the proportion ofvariance that two traits shared due to genetic causes ranged
+from 0.89 to 0.97 (Table S1,boldlower diagonal).
+Genotyping and SNP calling. Using the Fast-GBS pipeline for SNP calling, 93% of previous GBS single-
+end reads (-203 million 100-bp Illumina HiSeq2000) were successfully mapped onto the Wm82.a2.vl refer-
+ence genome. A total of 56 K high-quality SNPS were obtained and so called wGBS-derived SNPn. To obtain an
+extensive SNP coverage ofthe genome, we used a two-step approach to genotype the 137 lines ofthis association
+panel(Fig. S1). In afirst step, we re-analyzed previously obtained reads derivedfrom GBS analysis to take advan-
+tage of fan improved SNP-calling pipeline and reference genome. Overall, 93% of-203 million 100-bp Illumina
+HiSeq2000 single-end reads successfully mapped onto the reference genome and 56 KI high-quality GBS-derived
+SNPS were identified using the Fast-GBS pipeline (see "Materials and methods" section). In a second step, to
+further densify marker coverage, we performed the imputation of close to 4.3 M SNPS by using aset of102 rese-
+quenced lines (of which 56 were common to both sets oflines) as a reference panel. This fully imputed set of 4.3
+million SNPS was filtered to remove InDels and to retain markers with a MAF20.05 and heterozygositys0.1.
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch
+3
+
+
+
+www.nature.com/scientificreports
+(a)
+Cluster1 Cluster2 Cluster3 Cluster4 Cluster5 Cluster6 Cluster7
+a
+: 0.5
+M
+0
+3 3 2 1 29 2 
+o5 6 p 1 8 89 89 o 0
+3 3
+(c)
+#
+s
+8
+N
+61
+of
+59
+8
+&
+0
+61
+I
+co
+8
+de
+I
+
+e
+d a
+8
+8
+(b)
+4
+2
+&
+2
+4
+6
+8
+10
+Figure 2. (a) Classification into seven populations using fastSTRUCTURE where each individual (from 1
+to 137) is representedby a single vertical line and each color represents one cluster. (b) Bootstrap consensus
+phylogenetic tree (2000 replicates) constructed using MEGA 7; each color represents a subgroup and seven
+subgroups were foundin total and (c) PCA eigenvalues computed using GAPIT
+This yielded la catalogue of 2.18 M SNPS distributed across the twenty chromosomes (Fig. S2), an average marker
+density ofl SNP every 435 bases across the entire genome.
+Population structure. Based on a posterior Bayesian clustering analysis performed using a subset of
+pruned markers (r2<0.5), the optimum number of subpopulation (k) was 7 (Fig. 2a). A phylogenetic tree in
+(Fig. 2b) constructed with the same subset of markers showed seven main branches with bootstrap values? 50%.
+Similarly, for PCA (Fig. 2c), the total variance explained by each principal component (PC) decreased from PCI
+to PC7 and, after PC7, the variance explainedby eachfurther PC remained llow and stable. Together, these results
+suggestedthat k=7 provided la good assessment ofpopulation structure (illustrated in Fig. 2). These subpopula-
+tions tended to contain lines belonging to the same maturity group and/or originating from the same breeding
+programs and the corresponding Q matrix was used for GWAS.
+Genome-wide association scan for sulfur amino acid content. To identify genomic regions asso-
+ciated with the seed content in sulfur amino acids, a genome-wide scan was performed using a MLM and six
+multi-locus models implemented in the mrMLM package v4.0. A pruned set (r220.9) of SNP markers and a
+single phenotypic value (BLUP) for each trait were used.
+For the MLM analyses, as can be seen in the Q-Q plots shown in Fig. S3, this method successfully limited
+the confounding effects of population structure and kinship as the observed p-values only diverged from the
+diagonal (expectedp-values) at the most extreme values (beyond 3E-03 for all three traits). The results of these
+MLM Tassociation analyses are presented as genome-wide Manhattan plots in Fig. 3. With the chosen thresholdfor
+false discovery rate (blue horizontalline, FDRS0.05), only 0.03% ofthe SNPS (71 ofthe 243 K) were significantly
+associated with Cys content, with the uncorrectedp-values ranging from 1.37E-05 to 1.82E-09. There were 41
+markers (0.02%) significantly associated with Met content (p-value from 8.02E-06 to 1.25E-08) and 71 SNPs
+(0.03%) with Cys+ Met content (p-value from 1.32E-05 to 9.56E-10) as uncorrected p-values.
+To identify distinct QTLS, we characterized haplotype blocks formed by these associated SNPS according
+to Gabriel et al.27. For SNPS associated with more than one trait, the most significant SNP (lowest FDR, across
+all significantly associated traits) was retained to mark a given haplotype block. In total, nine haplotype blocks
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch
+4
+
+
+
+www.nature.com/scientificreports
+10 - (a)
+5
+8
+8 -
+2
+-
+1
+7:
+
+8 4
+2 -
+0
+10-
+(b)
+8
+8
+- 6
+31 5
+4
+2 -
+0
+10 (c)
+8
+8
+5
+6
+21
+-
+6
+7; 19
+-
+4
+2-
+0
+1 2 3 4 5 6 7 8 9 10 12 14 16 18 19 20
+Chromosomes
+Figure 3. Manhattan plots for (a) Cys, (b) Met, and (c) Cys+Met content in a core set of 137 Canadian soybean
+accessions using MLM.
+(numbered 1-9 in Fig. 3) were defined of which eight were associated with Cys, four with Met and seven with
+Cys+1 Met. In three cases, the same QTL/haplotype block was detected for all three traits (QTLs #4, 5and 18on
+Gm08, 10 and 20) andin four cases, the same QTL was shared between two ofthe three traits, Cys and Cys+Met
+(QTLs #2, 6,7 and 9 on Gm08, 14, 19 and 20). Only two QTLs (QTLs #1 and 3 on Gm05 and 08) were unique
+to a single trait (Cys and Met, respectively). The features of these nine QTLS are summarized in Table 2. The
+portion of phenotypic variance explained (R?) varied between 15 and 27%. The magnitude ofallelic effects were
+calculated according as per Kang et tal.28 and varied between 0.12 and 0.42 g/kg TP.
+From the multi-locus analyses, 0.01% ofthe SNPS (36, 36 and 38 ofthe 243 K) were significantly associated
+with Cys, Metand Cys+Met content, respectively. The LOD score ofthese associated SNPS rangedfrom 3.26to
+17.65 for Cys, 3.05 to 18.98 for Met and 3.04 to 13.15 for Cys+ Met content. Across the six multi-locus methods
+(Fig. 4), pKWmEB detected the fewest associated SNPS (0), while thehighest number was detected by pLARmEB
+(14 SNPS associated with Cys content).
+Here, we report QTNS that met the following criteria: (i) the associated SNP was detectedby at least two
+multi-locus methods and (ii) explained at least 5% ofthe phenotypic variance (R?). In total, seventeen QTNS/
+haplotype blocks were identified in this fashion including three QTNS codetected by both MLM land multi-locus
+methods (Table S2). In most cases, using multi-locus methods, the exact same SNP was the mosthighly associ-
+ated SNP with each trait, although occasionally, a different SNP residing in the same haplotype block was most
+highly associated (e.g. Gm08: 43,871,472 for ISIS EM-BLASSO and Gm08: 43,877,254 for mrMLM).In the latter
+case, tobe conservative, the SNP with the lowest LOD score was reported as the QTN.Of fthese seventeen QTNS,
+four (Cys), three (Met) and five (Cys+ Met) were unique to a single trait. One QTN was shared by each oftwo
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch
+5
+
+
+
+www.nature.com/scientificreports
+Trait
+Chr Peaks SNP (bp) QTL# p-values FDR R2 Allelic effect
+Cys
+5
+837,667 1
+1.04e-05 0.039 0.16 0.24
+Cys/Cys+Met
+8 47,147,391 2 6.73e-07 0.007 0.21 0.27
+Met
+8 47,343,134 3
+2.18e-06 0.022 0.17 0.16
+Cys/Met/Cys+Met 8 47,797,482 4 1.65e-06 0.012 0.19 0.26
+Cys/Met/Cys+Met 10 1,815,572 5 5.93e-06 0.036 0.16 0.15
+Cys/Cys+Met
+14 1,755,083 6 1.32e-05 0.045 0.15 0.42
+Cys/Cys+Met
+19 49,914,926 7 1.95e-06 0.011 0.19 0.42
+Cys/Met/Cys+Met 20 31,861,877 8 1.25e-08 0.003 0.27 0.22
+Cys/Cys+Met
+20 37,038,638 9 7.11e-06 0.030 0.16 0.12
+Table 2. The most highly associated SNP markers within each QTL from MLM analyses and their effects on
+phenotypic variation for sulfur amino acid contentin a Canadian soybean collection. "QTLs codetected by
+MLM and the multi-locus methods.
+HFASTmrEMMA "FASTmrMLM
+8 ISIS EM-BLASSO
+LI mrMLM
+4pLARmEB
+pKWmEB
+4
+19
+24
+10
+10
+00 00
+0o
+
+
+6
+of
+5
+.
+2 - - - -
+:
+2
+1
+T
+
+1
+-
+0
+0
+0
+Cys
+Met
+Cys + Met
+Traits
+Figure 4. Total number of significant SNPS detected using six multi-locus methods.
+trait pairs (Cys/Met and Met/Cys+ Met content), while three QTNS were detected for all three traits. The R2 of
+these multi-locus QTNS varied from 5.20 to 25.39% and the QTN effectvariedbetween 0.03 and 10.31 g/kg TP.
+Each dot indicates the degree of association between a single marker and la trait (y-axis) while the x-axis shows
+the physical position of each marker. A blue horizontal bar indicates the significance threshold (FDRS0.05)
+and significantly associated markers are coloured in green. The red numbers (from 1 to 9)identify the different
+QTLs based on the haplotype blocks formed by the significantly associated markers. The pink vertical stripes
+highlight QTLs that were common to all three traits and the black arrows indicates the overlapped QTL between
+MLM and multi-locus methods.
+MLM QTL validation. To validate the QTLs discovered by the MLM method, data from three additional
+trials were obtained. Given the difference in original purpose and experimental design ofthis secondsetoftrials,
+the resulting data were used to assess ifthe phenotypic mean differed between lines carrying one or the other
+allele at each QTL (Table S3). For Cys, seven out ofthe eight QTLs resulted in a significant difference (p<0.006)
+in the mean Cys content between lines carrying contrasting alleles in at least one of the three validation trials.
+Six out ofeightQTLs were validated in atleast two trials and five QTLs werevalidated in all three trials. For Met,
+ofthe four QTLs discoveredinitially, all four were validated(p<0.01) in all trials. For Cys+Met, all seven QTNS
+were validated (p <0.007) in at least one trial, six were confirmed in at least two trials and five were validated in
+all three trials (Fig. 5). Together, these data strongly suggest that the QTLs identified through GWAS are robust
+and highly reproducible across multiple environments.
+Multi-locus QTN validation. To validate the QTNS discovered by the multi-locus methods, the same
+approach and phenotypic data used for validation of MLM-derived QTLs was used. With the exception of
+QTN_#7 in the OT_L2018 environment, unique QTNS (i.e. not including the three coinciding with QTLs) did
+not produce a significant phenotypic contrast between lines carrying alternate alleles at these loci (Table S4).
+Thus, we find that the QTNS discovered using a multi-locus model could seldom be validated using an approach
+relying on the observation of phenotypic contrasts resulting from considering these loci individually.
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch
+6
+
+
+
+www.nature.com/scientificreports
+10.0
+7.5
+5.0-
+$
+: * * 1 8
+2.5
+:
+6
+0.0
+Sites
+10.0
+7.5
+d OT_I_2017
+ OT_I2018
+I 5.0
+a d OT_N_2017
+2.5
+o 8 $
+0.0
+10.0
+7.5
+*
+5.0
+$
+t
+2.5
+0.0
+#1 #2 #3 #4 #5 #6 #7 #8 #9
+QTLS
+Figure 5. Degree ofsignificance (p-value) ofthe contrast between phenotypic means for lines carrying
+different alleles at candidate QTLS for sulfur-containing amino acid content in whole soybean seeds. Cys, Met,
+and Cys+Met content was measured lin a core set of137 Canadian soybean accessions in three environments
+(indicated by coloured symbols). A t-test was performedto compare the mean trait value for lines sharing one or
+the other allele at the nine QTLs discovered in the MLM method. Each coloured symbol represents the p-value
+for this comparison ofmeans. The red horizontal lbar indicates the adjusted Bonferroni significance threshold at
+alpha S -log10(0.05/8 QTLs) for Cys, alphas -log10(0.05/4 QTLS) for Met and alpha s - log10(0.05/7 QTLS)
+for Cys+Met content.
+Prediction of candidate genes within the QTL/haplotype blocks regions. To establish a list of
+candidate genes, all genes residing within one of the haplotype blocks identified by MLM or the multi-locus
+methods (ranging in size between 5 and 376 kb) were extractedfrom SoyBase and their GO annotations exam-
+ined. The number ofgenes per haplotype block varied between land 32, and the full listofthese genes and their
+annotations are provided lin Table S5. An example ofthis approachis illustratedin Fig. 6. Amongthese haplotype
+blocks, the haplotype block codetected by MLMandby four ofthe six multi-locus methods (FASTmIMLM, ISIS
+EM-BLASSO, mrMLM andpLARMEB) corresponding to QTL #9 (MLM) and QTN #17 (multi-locus) spanned
+64 kb and included 12 genes. Among these genes, Glyma.20g129700 was located 45 kb upstream of the MLM
+peak SNP (Gm20: 37,038,638) and 35 kb upstream of the multi-locus peak SNP (Gm20: 37,049,294). This gene
+was annotated as being involved in methionine biosynthesis (GO: 0009086). In addition, within haplotypes
+identified from MLM analysis, only one other candidate gene had an annotation evoking an association with
+sulfur amino acid content. Glyma.08g367600 is located 10.8 kb downstream ofthe peak SNP in QTL #4 (Gm08:
+47,797,482), encodes a protein that is predicted to have an oxido-reductase activity and its annotation (GO:
+0000096) suggests a role in sulfur amino acid metabolism.
+Five other candidate genes were identified within four haplotype blocks identified only by the multi-
+locus methods and correspond to QTNS #1, #10, #11 and #14 (Table 3). Among them, Glyma.13g108800,
+Glyma.14g003200 and Glyma.14g003400 were all annotated as being involved in cysteine biosynthetis.
+Glyma.13g108800 was found among 11 other genes in a 71-kb haplotype block and located 17 kb uptream of
+the peak SNP corresponding to QTN #10 (Gm13: 22,275,813). The last two candidate genes were found within
+ahaplotype block of 149 kb corresponding to QTN #11 and included 24 other genes. These were located 61 kb
+and 50 kb downstream of the peak SNP (Gm14: 367,224).
+Two other candidate genes, Glyma.04g237300 and Glyma.16g032200, hadan annotation indirectly associated
+with the methionine biosynthesiss. They were located 43 kb and 23 kb uptream ofthe peak SNPS (QTN #1, Gm04:
+50,542,407) and (QTN #14, Gm14: 3,028,024), respectively. Glyma.04g237300 was annotated to have a spermi-
+dine synthase activity and found among 21 other genes in a 243-kb haplotype block while Glyma.16g032200
+was located in a 56-kb haplotype block containing 6 genes and is annotated as being involved in ethylene
+biosynthetiss.
+We then investigated the expression profile ofthese seven candidate genes. Based on previous transcriptomic
+analyses, these genes (except Glyma.08g367600) were known to be mainly expressedin young leaves, flowersand
+roots but also expressed in pods 7 days after flowering (DAF), podshells (10-13 DAF) andin seeds (14-17 and
+35 DAF) as illustrated in Figs. 7 and S4. There were no transcriptomic data available yet for the expression profile
+ofGlyma.08g367600, likely due to the fact that it is present only in the current Wm82.a2 assembly/annotation.
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch
+7
+
+
+
+www.nature.com/scientificreports
+3
+0
+:
+37000000
+37050000
+37100000
+37150000
+37200000
+BP
+FODOHO Gmmniomwaane
+Glyma.20g129700
+- 
+* E
+E8
+MLM peak SNP Multi-locus peak SNP
+bp 37,038,638 bp 37,049,294 bp
+37,091,079 bp
+4
+*
+4
+137,034,068
+96
+96
+84
+92
+81
+83
+92
+90
+96
+91
+83
+93
+91
+96
+85
+92
+90
+91
+91
+88
+95
+Block 57 kb
+Figure 6. Identification of candidate genes within the haplotype block codetected lby both MLM and the multi-
+locus methods (QTL #9 and QTN #17) on chromosome 20.
+Traits
+Gm Nbr. genes in HB QTL QTN Candidate genes Relevant tannotation
+Met
+4 21
+#1 Glyma.04g237300 Spermidine synthase activity
+Cys/Met/Cys+Met 8 7
+#4
+Glyma.08g367600 Oxido-reductase activity
+Cys
+13 12
+#10 Glyma.13g108800 Cysteine biosynthetic process
+Cys/Met/Cys+Met 14 26
+#11 Glyma.14g003200 Cysteine biosynthetic process
+Glyma.14g003400 Cysteine biosynthetic process
+Met
+16 7
+#14 Glyma.16g032200 Ethylene biosynthetic process
+Cys/Met/Cys+Met 20 12
+#9 #17 Glyma.20g129700 Methionine biosynthetic process
+Table 3. Candidate genes underlying the reported QTLS/QTNS based on a relevant GO annotation.
+Top panel constructedfrom MLM results shows the Manhattan plot for the marker-trait associations show-
+ing the region of interest in light orange on Gm20. The blue horizontal line represents the FDR threshold
+(FDRS0.05). The central panel shows the position and orientation ofall ten gene models present in the haplotype
+block (bottom panel). The most likely candidate gene (Glyma.20g129700, involved lin methionine biosynthetis)
+is highlighted with a red asterisk and is 45 kb and 35 kb upstream of the MLM peak SNP (Gm20: 37,038,638)
+and the multi-locus peak SNP (Gm20: 37,049,294), respectively. The extent of LD is indicated as D'x100. The
+purple squares indicate no LD (D'=0) while empty red squares indicate complete LD (D'=1).
+Structural and nucleotide variation within candidate genes and their predicted functional
+impact. Given the availability of WGS data for 56 lines of our association panel, we looked for structural or
+nucleotide variation within the eight candidate genes identified previously. No structural variants>51 bp were
+identified in any of the candidate genes within these 56 lines. We also examined ifSNP variants within coding
+regions could impact gene function. In total, 49 nucleotide variants were identified within coding regions of
+Scientific Reports] (2020) 10:21812 I
+htps1doiorg101038541038X41598.020-78907-W
+natureresearch
+8
+
+
+
+www.nature.com/scientificreports
+Soybean eFP Browser at bar.utoronto.ca
+DAF == Days after Fertilization
+I
+Glyma.20g129700 Glyma2026580
+TTTTTTTTTTTTI
+Absolute
+I
+Young Leaf
+Flower
+5.59
+LE
+1 cm Pod (7 DAF)
+Pod shell (10 - 13 DAF) Pod shell (14- 17 DAF)
+Seeds (DAF)
+10-13 14-17 21 25 28 35
+Nodule Root
+Figure 7. Expression profile ofGlyma.20g129700 based on previous transcriptomic analysis in soybeans.
+Expression strength coded by color: yellow=low, red =high. As shown, Glyma.20g129700 is most highly
+expressed in flowers, pods, roots, pod shells and in the seed. Data derived from RNA-seq of Glycine max,
+publishedby Severin et al.21 and download from eFP browser29 (www.barutoronto.ca).
+seven candidate genes. All of these variants were predicted as having a "low" to "modifier" effect. As such, we do
+not consider these variants to be likely causal.
+Discussion
+Phenotypic variation and correlations among traits. Normal distributions were observed for all the
+traits (Shapiro test p-value <0.05) and suggested that these traits are controlled by polygenes. The phenotypic
+variation ranged from 13.5 to 15.0 g/kg for Cys and from 12.6 to 13.6 g/kg for Met content. The total sulfur
+amino acid content Cys + Met varied from 26.0 to 28.5 g/kg on the basis of total protein. The observed pheno-
+typic values reported in this study were slightly lower but similar in range to those reported in previous studies
+when similarly expressed in terms of g of amino acid per kg of total protein. Warrington et al. reported 14.8
+to 16 g/kg and 13.9 to 14.7 g/kg for Cys and Met content. Song et al.19 reported 12.1 to 14.5 g/kg and 11.5 to
+13.7 g kg respectively for Cys and Met contents. However, in terms of range, the results reported here corre-
+spond most closely to those reported by (1.4 and 0.9 g/kg, respectively, for cysteine and methionine content).
+Moreover, similarly to previous studies, high and positive correlations (0.81 to 0.97) were seen between cysteine,
+methionine and the total sulfur amino acid contents. It has been suggested that the high phenotypic and/or
+genotypic correlations between cysteine and methionine contents are due to a shared biosynthetic pathway or a
+similar molecular basis of finheritance6.30.
+Genome-wide association analysis. For marker-trait association analysis, a total of 243 K SNP mark-
+ers and a single phenotypic value for each line (BLUP) was used in two GWAS approaches (one single-locus
+(MLM) and six multi-locus (FASTmrEMMA, FASTmrMLM, ISIS EM-BLASSO, mrMLM; PLARmEB, and
+pKWmEB) methods). In all cases, we incorporated population structure and family relatedness to control for
+confounding effects. We reported a total of nine QTLs/haplotype blocks associated with the sulfur amino acid
+content detectedby an MLM approach and seventeen major QTNS detected by at least two ofthe six multi-locus
+methods. Interestingly, three chromosomalregions were detected using both approaches. Among MLM-derived
+QTLS, one third ofthese SNPs were significantly associated with all three traits.
+Importantly, approximately two thirds ofthese QTLs proved extremely robust as they could be successfully
+confirmedin three additional trials. This suggests that these individual markers would provide a good tool for
+breeders interested in using marker-assisted selection (MAS) to improve Cys and/or Met content within this
+germplasm. In contrast, however, the QTNsuncovered in the multi-locus analysis could not bevalidatedin the
+same fashion. One must keep in mind though that these QTNS were discovered in a model based on the joint
+consideration ofthese loci whereas our validation experiment was based on the consideration oflociindividually.
+This may have contributedto our inability to confirm the impact ofthe QTNS on these traits. Nonetheless, in the
+context ofMAS, it is likely that these QTN would not prove useful; these might be better capturedin a genomic-
+selection scheme relying on a wider set ofloci and allowing for multi-locus contributions to the phenotype.
+Scientific Reports] (2020) 10:21812 I
+htps1doiorg101038541038X41598.020-78907-W
+natureresearch
+9
+
+
+
+www.nature.com/scientificreports
+In previous mapping work, the total number ofQTLs associated with cysteine andmethionine content varied
+from 131 to 1417 in GWAS studies while 214 and8 QTLS32 were reported following family-based mapping. As we
+observed here, a subset of QTLS were common to both cysteine and methionine content5.7,31 and, in one case, all
+the QTLs (eight) were associated with both cysteine and methionine content32. This is unsurprising given the
+high degree of correlation between these traits and the fact that both amino acids share the same biosynthetic
+pathway with cysteine being aprecursor of methionine production".
+To compare the genomic regions reportedby previous studies with the QTLs reportedin this study, we used
+SoyBase to define the physical position of previously reported QTLs. Two of the three QTL/QTN codetected
+by both approaches in this study fell within genomic intervals identified in previous biparental mapping work.
+Indeed, Wang et al.32 reported one QTL Cys 3-7 located from 3.0 to 35.9 Mb on chromosome 20 associated
+with seed cysteine content. Moreover, this genomic region fell within QTL qMet_Gm20 and qCys+ Met_Gm20
+(24.5 to 34.7 Mb) reported by Warrington et al.3 associated with Met and Cys s+ Met content. Interestingly, this
+genomic region overlapped with QTL #8 from MLM analysis and QTN #16 from multi-locus analysis located
+on chromosome 20 at 31.8 Mb. Similarly, Ramamurthy et al.34 reported one QTL on chromosome 20 flanked
+by BARC-038869-07364 and BARC-039753-07565 (36.5 to 39.8 Mb) simultaneously associated with both seed
+Cys and Cys+Met content, an interval within resides a second codetected QTL, (QTL/QTN #9/#17 for MLM/
+multi-locus) on chromosome 20 (Gm20, 37.0 Mb).
+None ofthe seven other QTLs that we reported from MLManalysis in this study coincided with previously
+reported QTLs intervals identified in family-based mapping. Similarly, none of fthe QTLs reported by previous
+GWAS studies1731,35 were located within 500 kb of those reported in this study. Except for the work of Zhang
+et al.31 in which only one QTLwasreported, all lother GWAS studies have been conducted within later maturity
+groups (MG I-IX) and the limited overlap in QTLs could be attributed to differences in the loci controlling
+these traits within the different maturity groups.
+Considering that sulfur amino acids are components of protein fractions, notably the glycinin (11S) and con-
+glycinin (7S) storage proteins, one might expect that genomic regions reported as significantly associated with
+sulfur amino acid content also be associated with the abundance of11S and 17S, which together constitute nearly
+70% of total storage proteins in the soybean seed'2. Interestingly, Ma et al.36 reported two QTLs significantly
+associated with glycinin and beta-conglycinin content on chromosome 10 (174 kb and 2.7 Mb) and 20 (34.6
+to 37.8 Mb) a genomic region spanning QTL #5 and #9 reported lin this study (Gm10 at 1.8 Mb) and (Gm20 at
+37.0 Mb) significantly associated with all three traits.
+For the multi-locus analyses, we reported a total of seventeen QTNS across twelve chromosomes including
+three shared regions with the MLM method. Across the traits, three QTNS were detected for all three traits.
+Two QTNS were sharedby two trait pairs (one each for Cys/Met and Met/Cys+ Met content). Four (Cys), three
+(Met) and five (Cys s+Met) were unique to a single trait. Similar to the QTLs discovered via MLM, very little
+overlap was observed between previously reported QTLs and the multi-locus QTNS identified in this study.
+Among the seventeen QTNS, QTN #10 located on chromosome 13 (Gm13, 22.2 Mb) coincided with one QTL
+reported by Qiu et al.11 to be significantly associated with cysteine content (flanked by BARC-042289-08234
+and BARC-045205-08910,
+Four of the QTNS reported in this study (QTN #1 and #2 at 48.4 and 50.5 Mb on Gm04; QTN #14 at 3.0 Mb
+on Gm16 and QTN #17 at 37.0 Mb on Gm20) were significantly associated with all three traits andthese coincide
+with three broad genomic regions reported by Ma et al.36 that were significantly associated with seed glycinin,
+beta-conglycinin and seed glycinin to beta-conglycinin ratio content across three chromosomes (Gm04: 7.6 to
+51.2 Mb, Gm16: 569 kb to 29.5 Mb and Gm20: 34.6 to 37.8 Mb).
+Candidate genes and their functions for sulfur amino acid accumulation. The peak SNPS associ-
+ated with sulfur amino acid content reside in the nine and seventeen haplotype blocks identified through MLM
+and multi-locus analysis within which one would expect to find the causal genes that control Cys and Met con-
+tent in this collection of soybean lines. Of the genes located within these haplotype blocks, seven stood out as
+promising candidate genes based on their GO annotations.
+Ofthese seven candidate genes, only Glyma.20g129700 was identified using both MLM and multi-locus
+analysis and encodes a 5-methylthioribose kinase protein. This protein was demonstratedtobea) primary enzyme
+involved lin the recycling of the methylthio group of 5-methylthioribose back into methioninew.as.
+A second promising candidate gene identified using MLM, Glyma.08g367600, encodes a protein that is pre-
+dicted to have an oxido-reductase activity acting on NAD(P)H. Although the annotation for this gene indicates
+arole in sulfur amino acid metabolism, we have not been able to pinpoint the preciserole ofthe protein encoded
+by this gene in sulfur amino acidmetabolism. Moreover, no information from previous studies or transcriptomic
+data was available for this gene. Its role in the metabolism of sulfur amino acids needs to be confirmed.
+Among the five other candidate genes identified from multi-locus analysis, Glyma.04g237300 was annotated
+as a spermidine synthase and said to be involved in methionine synthesis in plants. From the work ofQiu let al.",
+the spermidine synthase encoding gene was foundin association with eleven other genes to contribute6-38.5%
+ofthe genetic variation of fsulfur-containing amino acids.
+Glyma.13g108800 encode a stress-responsive alpha-beta barrel protein and is thought to be involved in both
+cysteine and methionine synthesis under stress conditions. Cysteine-containing molecules like glutathione and
+thioredoxin play a major role in maintaining an intracellular reducing environment and protecting the cell from
+oxidative damage39.
+Glyma.16g032200 encodes a protein that is involved in ethylene biosynthetis and in the L-methionine sal-
+vage cycle II (in plants). The ortholog ofthis gene corresponds to the A. thaliana AT3G61510.1 locus, encoding
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch 10
+
+
+
+www.nature.com/scientificreports
+an ACC synthase 1. In plants, the methionine is a precursor of ethylene synthesis. Therefore, this biosynthetic
+pathway is directly connected to the methionine cycle40,41.
+Although Glyma.14g003200 and Glyma.14g003400 were both annotated as being involved in cysteine biosyn-
+thesis, again, no directlink was found between these genes and cystheine biosynthesis through previous studies.
+As none of the SNPs located inside the coding region of our candidate genes were predicted to cause a
+functional change, it is likely that the alleles of this gene differ in expression, thus resulting in the observed
+differences in sulfur-containing amino acids. Taken together, these data strongly suggest that the phenotypic
+variation observed in this collection of Canadian lines is due to variants located outside the coding region that
+likely result in differences in gene expression.
+Materials and methods
+Plants material and field trials. A set of 137 lines thought to constitute a core set representative of the
+extent of genetic diversity among soybean varieties belonging to maturity group 000-II ( MG000-II) in Canada
+was selected from a larger group of 304 accessions based on the analysis of population structure as previously
+describedin*. Plant research material was originally providedby four breeding programs, respectively CÉROM
+at St-Mathieu-de-Beloeil (QC), Agriculture and Agri-Food Canada at Ottawa (ON), University of Guelph (ON)
+and Semences Prograin Inc at St-Césaire (QC). These lines were grown in field trials conducted on two research
+farms, namely Woodstock (ON, 43.1447° N, 80.7809° W) and St-Mathieu-de-Beloeil (QC, 45° 35' 14.1" N 73°
+14' 59.6"W) in Canada in 2013. The experimental design was a generalized! lattice in which all llines were planted
+in either 4-m rows with 50-cm spacing or 6-m rows with 30-inch spacing in Woodstock and St-Mathieu-Beloeil,
+respectively, with two replicates at each site.
+Phenotyping and statistical analysis. For sulfur amino acid content for both mapping and validation
+population, 25-g samples (from each replicate) of whole seeds were analyzed using near-infrared spectroscopy
+(Perten NIR DA 7250, Perten Instruments). The NIR used was calibrated according to manufacturer's calibra-
+tion module based on set of 2646 samples. After sample scanning, the concentration of sulfur amino acids was
+expressed on thebasis of the dry matter percentage. Each value was then normalized per kg oftotalprotein (g/kg
+TP). Three traits were considered in the ensuing analyses: cysteine content(Cys), methionine content (Met) and
+the sum ofboth (Cys+Met). Statistical analyses on amino acid content data were performed using META-R43.
+Descriptive statistical analysis and a mixed linear model were used to determine genotypic variance, environ-
+ment and genotypexenvironment effects as well as a Shapiro-Wilk test for normal distribution of the pheno-
+type. The two sites were considered as two environments and all effects were assumed random, the broad-sense
+heritability for a given trait across the two environments was calculated as follows:
+H?
+og
+op + Oge/nEnv + 02/(nEnv X nrep)
+where o2 2 and o 2 ge are the genotype and genotypexe environment interaction variance component, nEnv is the
+number of environments,o? is error variance components nrep is the number of freplicates. Restricted maximum
+likelihood was used to estimate the BLUP to provide a single value for each variety. Pearson's pairwise andgenetic
+correlations among the traits were estimated using META-R, the genetic correlation was calculated using equa-
+tions from Cooper and Delacy4
+Oguf)
+Pg =
+980)00)
+where 0 is the arithmetic mean of all pairwise genotypic covariances between traitjand/.020%) is the
+arithmetic average ofall pairwise geometric means among the genotypic variance components ofthe traits.
+Genotyping and quality control. A total of- 203 million 100-bp Illumina HiSeq2000 single-end reads
+derived from sequencing 192-plex GBS libraries were available for the 137 lines as described previously by42.
+Briefly, DNA extraction was performed using the Qiagen DNeasy 96 Plant kit, The Apek1 restriction enzyme
+was usedforlibrary preparation as per*5. These archived reads were processed anewto benefit from an improved
+SNP-calling pipeline (Fast-GBS4) and a more recent annotation of the soybean genome Wm82.a2.v14. Geno-
+types were called using a minimal read depth of two reads and loci with more than 80% missing data were
+removed. Imputation was first performed on this catalogue of 56 K GBS-derived SNPS using BEAGLE v548 to fill
+in any missing genotypes. We then used la set of 4.3 million SNPS derived from the whole-genome sequencing
+of 102 Canadian elite soybean lines49 as a reference panel to impute all missing loci onto the initial catalogue
+ofGBS-derived SNPS, again using BEAGLE (Fig. S1). Among these 102 resequencedlines, 56 were in common
+with the association panel described above (i.e.>40% overlap). The accuracy of imputation of such untyped
+loci was previously assessed50 and found to be 96.4%. After imputation of missing loci, VCFtools51 was used to
+retain SNPS with a minor allele frequency (MAF)20.05 and heterozygositys0.1, thus producing a catalogue of
+2.18 M SNPs.
+Population structure. The resulting marker dataset was pruned by excluding SNPS in moderate linkage
+disequilibrium (LD) (r2>0.5) using PLINKS to obtain a setof14K markers. Population structure was character-
+ized using fastSTRUCTURES with the number of subpopulations (K) being set from 1 to 12 with 3 independ-
+Scientific Reports] (2020) 10:21812 I
+htps1doiorg101038541038X41598.020-78907-W
+natureresearch 11
+
+
+
+www.nature.com/scientificreports
+ent runs of each. The most likely K value was determined using a python script ("choosek") implemented in
+fastSTRUCTURE based on the rate of change in LnP betweensuccessive K values. In order to better support the
+number ofsub-populations, we used two additional tools: (i) abootstrap consensus phylogenetictree (2000 rep-
+licates) was constructed using the maximum likelihood method based on the Tamura-Nei model implemented
+in MEGA754; and (ii) a principal component analysis (PCA) was performed using GAPITSS.
+Genome-wide association analysis. Genome-wide association between markers and the phenotypes
+was assessed in GAPIT and mrMLM R package v4.0 using a catalogue of 243 K SNPS and the best linear unbi-
+ased predictors (BLUP) values for each trait. Two GWAS approaches includedone single-locus methods (MLM)
+and six multi-locus (mrMLM; FASTmrMLM, PLARmEB, ISIS EM-BLASSO, FASTmrEMMA and pKWmEB)
+methods were used. For significant SNP markers detection,asignificant threshold, FDRS0.05 andLOD23 were
+used, respectively for MLM and multi-locus methods. To account for population structure and genetic related-
+ness between the lines, we used the Q matrix obtained from fastSTRUCTURE and a K matrix (estimated using
+the EMMA algorithm28) as covariates. To distinct different QTL/QTN, significantly associated SNPS from the
+same genomic region were grouped together to form haplotype blocks, as per the LD-based method?7, using the
+complete 2.18 MSNP catalogue. To be chosen as a haplotype block ofinterest, a block hadto contain atleast one
+peak SNP significantly associated with sulfur amino acid content. The extent of each block was used to retrieve
+all genes and their annotation.
+Candidate genes and their functional analysis. Only genes residing within haplotype blocks contain-
+ing a peak SNP were extracted from SoyBase and were examined for their GO annotations. In order to provide
+more information about potential candidate genes, the electronic fluorescent pictograph (eFP) Browser (www.
+bar.utoronto.ca) for soybeans was used to identify in what tissues and at which developmental stages candidate
+genes were expressed (based on the transcriptomic data of Severin et al.56 We also looked for potential loss-
+of-function (LOF) alleles among the list of candidate genes by inspecting the catalogue of structural variants
+reported by Torkamaneh et al.57 and by examining the predicted impact of the full set of nucleotide variants
+locatedwithin genic regions using SnpEff 58. The search for such LOF alleles was limitedto the 56lines for which
+WGS data were available.
+Received: 11 December 2019; Accepted: 26 November 2020
+Published online: 11 December 2020
+References
+1. Medic, J, Atkinson, C. & Hurburgh, C. R. Current tknowledge in soybean composition.). Am. Oil Chem. Soc. 91,363-384 (2014).
+2. Bilyeu, K., Ratnaparkhe, M. B. &1 Kole, C. Genetics, Genomics, and Breeding ofSoybean 380 (CRCI Press, Cambridge, 2010).
+3. Warrington, C. V. et al. QTLfor seed protein and amino acids in the Benning x Danbaekkong soybean population. Theor. Appl.
+Genet. 128, 839-850 (2015).
+4. Krishnan, H. B. & Jez, JM. Review: the promise and limits for enhancing sulfur-containing amino acid content ofsoybean seed.
+Plant Sci. 272, 14-21 (2018).
+5. Hell, R. & Hillebrand, H. Plant concepts for mineral acquisition and allocation. Curr Opin. Biotechnol. 12, 161-168 (2001).
+6. Panthee, D. R., Pantalone, V.R.,Saxton, A. M., West, D. R. & Sams, C. E. Genomic regions sassociated with amino acid composition
+in soybean. Mol. Breed. 17, 79-89 (2006).
+7. Panthee, D. R. et al. Quantitative trait loci controlling sulfur containing amino acids, methionine and cysteine, in soybean seeds.
+Theor. Appl. Genet. 112, 546-553 (2006).
+8. Clarke, E.J. & Wiseman,J. Developments in plant breeding for improved nutritional quality ofsoya beans I. Protein and amino
+acid content. J. Agric. Sci. 134, 111-124 (2000).
+9. Nielsen, N. C., Bassiiner, R. & Beaman, T The biochemistry and icell biology rofembryo storage proteins. In Cellular and Molecular
+Biology vofPlant Seed Development (eds Larkins, B. A. & Vasil, I. K.) 151-220 (Springer, Berlin, 1997).
+10. Li,C. & Zhang, Y.-M. Molecular evolution ofglycinin and B-conglycinin gene families in soybean (Glycine maxL. Merr.). Heredity
+106, 633-641 (2011).
+11. Qiu, H. et al. Gene mining of sulfur-containing amino acid metabolic enzymes in soybean. YiChuan 36, 934-942 (2014).
+12. Panthee, D. R. et al. Quantitative trait locifor B-conglycinin (7S) and glycinin (11S) fractions of fsoybean storage protein.J.Am.
+Oil Chem. Soc. 81, 1005-1012 (2004).
+13. Boehm, J.D. et al. Genetic mapping and validation ofthe loci controlling 7S Sa'and 111S A-typestorage protein subunitsin soybean
+[Glycinemax (L.) Merr.). Theor. Appl. Genet. 131, 659-671 (2018).
+14. Fallen, B. D. etal. Soybean seed lamino acid content QTL detected using the universal soy linkage panel 1.0 with 1,536 SNPS. Plant
+Genet. Genomics Biotechnol. 1, 68-79 (2013).
+15. Stich, B. et al. Comparison of mixed-model approaches for rassociation mapping. Genetics178, 1745-1754 (2008).
+16. Gong, Q.et al. Meta-analysis ofsoybean amino acid QTLsand candidate gene mining.J. Integr Agric. 17, 1074-1084 (2018).
+17. Vaughn,.N,Nelson, R. L., Song, Q., Cregan, ,P.B. &Li,Z. The genetic architecture ofseed composition in soybean is refinedby
+genome-wide association scans across multiple populations. G3 Genes Genomes Genet. 4, 2283-2294 (2014).
+18. Korte, A. & Farlow, A. The advantages and limitations oftrait analysis with GWAS: :areview. Plant Methods9, 29 (2013).
+19. Yu, J.et al. A unified mixed-model method for association mapping that accounts for multiple levels of relatedness. Nat. Genet.
+38, 203-208 (2006).
+20. Wang, S.-B. et al. Improving power and accuracy of genome-wideassociation studies via a multi-locus mixedlinear model meth-
+odology. Sci. Rep. 6, 19444 (2016).
+21. Song, Q. et al. Development and levaluation of SoySNP50K, a high-density genotyping array for soybean. PLOS ONE 8, e54985
+(2013).
+22. Wen, Y.-J. et al. Methodological implementation of fmixed linear models in multi-locus genome-wide association studies. Brief
+Bioinform. 19, 700-712(2018).
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch 12
+
+
+
+www.nature.com/scientificreports
+23. Tamba, C. L. & Zhang, Y.-M. A fast mrMLM algorithm for multi-locus genome-wide association studies. bioRxiv https:l/doi.
+org/10.1101/341784 (2018).
+24. Tamba, C. L., Ni, Y.-L. & Zhang, Y.-M. Iterative sure independence screening EM-Bayesian LASSO algorithm for multi-locus
+genome-wide association studies. PLOS Comput. Biol. 13, e1005357 (2017).
+25. Ren, W.-L., Wen, Y.-J., Dunwell, J. M. & Zhang, Y.-M. pKWmEB: integration of Kruskal-Wallis test with empirical Bayes under
+polygenic background control for multi-locus genome-wide association study. Heredity (Edinb.) 120, 208-218 (2018).
+26. Zhang, Jet al. PLARMEB: integration ofleast angle regression with empirical Bayes for multilocus genome-wide association
+studies. Heredity (Edinb.) 118, 517-524 (2017).
+27. Gabriel, S. B. etal. The structure ofhaplotype blocks in the human genome. Science 296, 2225 (2002).
+28. Kang, H. M. et al. Efficient control of population structure in model organism association mapping. Genetics 178, 1709-1723
+(2008).
+29. Patel, R. V.,Nahal, H. K., Breit, R. & Provart, ,N.J.BAR expressolog identification: expression profile similarity ranking ofhomolo-
+gous genes in plant species: expression profile similarity ranking ofhomologous genes. Plant]. 71, 1038-1050 (2012).
+30. Brosnan,]. T. & Brosnan, M. E. The sulfur-containing amino acids: an overview. J Nutr 136, 1636S-1640S (2006).
+31. Zhang, J. et al. Genome-wide scan for seed composition provides insights into soybean quality improvement and the impacts of
+domestication andbreeding. Mol. Plant 11, 460-472 (2018).
+32. Wang, X. Letal. Quantitative trait locus analysis ofseed sulfur-containing amino acids in two recombinant tinbred line populations
+ofsoybean. Euphytica 201, 293-305 (2015).
+33. Saito, K. Sulfur assimilatory metabolism. The long and smelling road. Plant Physiol. 136, 2443-2450 (2004).
+34. Kastoori Ramamurthy, R., Jedlicka, J., Graef, G. L. & Waters, B. M. Identification of new QTLS for seed mineral, cysteine, and
+methionine concentrations in soybean [Glycine max (L.) Merr.). Mol. Breed. 34, 431-445 (2014).
+35. Lee, ,S.etal. Genome- -wide association study ofseed protein, oil and amino acid contents in soybean from maturity groupsItoIV.
+Theor. Appl. Genet. 132, 1639-1659 (2019).
+36. Ma, Y. et al. Quantitative trait loci (QTL) mapping for glycinin and B-conglycinin contents in soybean (Glycine max L. Merr.).J.
+Agric. Food Chem. 64, 3473-3483 (2016).
+37. Ferro, A. J., Barrett, A. & Shapiro, S. K. 5-Methylthioribose kinase. .A new enzyme involved in the formation of fmethionine from
+5-methylthioribose. JBC 253, 6021-6025 (1978).
+38. Cornell, K. A., Winter, R. W., Tower, P. A. & Riscoe, M. K. Affinity purification of S-methythioadenosine kinase and
+S-methythioriboxe/Sadenoylhomocgyseine nucleosidase from Klebsiella pneumoniae. Biochem. J. 319, 1007 (1996).
+39. Carmel-Harel, O. & Storz, G. Roles ofthe glutathione- and thioredoxin-dependent reduction systems sin the Escherichia coli and
+Saccharomyces cerevisiae responses to oxidative stress. Annu. Rev. Microbiol. 54, 439-461 (2000).
+40. Burstenbinder, K., Rzewuski, G., Wirtz, M., Hell, R. & Sauter,M. The role of fmethionine recycling for ethylene synthesis in Arabi-
+dopsis: ethylene synthesis and methionine recycling. Plant J. 49, 238-249 (2007).
+41. Roeder, S. .etal. SAM levels, gene expression of fSAM synthetase, methionine synthase and ACC oxidase, and ethylene emission
+from N. suaveolens flowers. Plant Mol. Biol. 70,535-546 (2009).
+42. Sonah, H., O'Donoughue, L., Cober, E., Rajcan, L& Belzile, E Identification oflocigoverning eight agronomic traits using a GBS-
+GWAS approach and validation by QTLmapping in soya bean. Plant Biotechnol. J 13, 211-221 (2014).
+43. Alvarado, G. et al. METAR(MatiEmionment Trial Analysis with R), 25.
+44. Cooper, M.& DeLacy, I. H. Relationships among analytical methods usedto study genotypic variation and genotype-by-environ-
+ment interaction in plant breeding multi- -environment experiments. Theor. Appl. Genet. 88, 561-572 (1994).
+45. Elshire, R. etal. Genotyping By Sequencing (GBS) MethodOverview, 46.
+46. Torkamaneh, D., Laroche, J, Bastien, M., Abed, A. & Belzile, E Fast-GBS:anew pipeline for the efficient and highly yaccurate calling
+ofSNPs from genotypingbr-sequencing data. BMC Bioinform. 18, 5(2017).
+47. Song, Q. etal Construction ofhigh resolution geneticlinkage maps to improve the soybean genome sequence assembly Glyma10.1.
+BMC Genomics 17, 33 (2016).
+48. Browning, S. R. &1 Browning, B.L. Rapidand accurate haplotype phasing sandmising-datsinfrencer for whole-genomeassociation
+studies by use of flocalized haplotype clustering. Am. .J. Hum. Genet. 81, 1084-1097 (2007).
+49. Torkamaneh, D. et tal. Comprehensive description ofgenomewide nucleotide and Istructuralvariation in short-season soya bean.
+Plant Biotechnol. J. 16, 749-759 (2018).
+50. Torkamaneh, D. & Belzile, E Scanning and filling: ultra-dense SNP genotyping combining genotypingby-sequencing SNP Parray
+and whole-genome resequencing data. PLOS ONE 10, e0131533 (2015).
+51. Danecek, P.et al. The variant call format tand VCFtools. Bioinformatics 27,2156-2158 (2011).
+52. Purcell, S. et al. PLINK:a tool set for whole-genome association and population-based linkage analyses. Am. J. Hum. Genet. 81,
+559-575 (2007).
+53. Raj, A., Stephens, M. & Pritchard, J. K. fastSTRUCTURE: variational inference of population structure in large SNP data sets.
+Genetics 197, 573-589 (2014).
+54. Kumar, S., Stecher, G. & Tamura, K. MEGA7: molecular evolutionary genetics analysis version 7.0 for bigger datasets. Mol. Biol.
+Evol. 33, 1870-1874 (2016).
+55. Lipka, A. E. etal. GAPIT: genome association and prediction integrated tool. Bioinformatics 28, 2397-2399 (2012).
+56. Severin, A.J. etal. RNA-Seq Atlas ofGlycine max: aguide to the soybean transcriptome. BMC Plant Biol. 10, 160 (2010).
+57. Torkamaneh, D., Boyle, B. & Belzile, F Efficient genome-wide genotyping strategies and data integration incrop plants. Theor.
+Appl. Genet. 131, 499-511 (2018).
+58. Cingolani, P etal. A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPS in the
+genome ofDrosophila melanogaster strain w 1118; iso-2; iso-3. Fly 6, 80-92 (2012).
+Author contributions
+S.M. and F.B. conceived the project, interpreted the data and wrote the manuscript. S.M. performed most of
+the phenotyping and all data analysis. M.M. performed the trials (three sites) used to validate the QTLs. M.E.
+performed the phenotyping (NIR) on seeds from the trials used to validate the QTLS.All authors read and
+approved the finalmanuscript.
+Competing interests
+The authors declare no competing interests.
+Additionalinformation
+Supplementary Information The online version contains supplementary material available at https://doi.
+aplaioNetis.0u-77
+Scientific Reports] (2020) 10:21812 I
+htps1doiorg101038541038X41598.020-78907-W
+natureresearch 13
+
+
+
+www.nature.com/scientificreports
+Correspondence and requests for materials should be addressed to FB.
+Reprints and permissions information is available at wwwnature.comfreprints
+Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+CC 0 Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the
+Creative Commons licence, and indicate ifchanges were made. The images or other third party material in this
+article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article's Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this licence, visit htplcretivecommonsorglicenses/byl4.0.
+@ The Author(s) 2020
+Scientific Reports] (2020) 10:21812 I
+htpsidoiorg101038541038541598.020-78907-W
+natureresearch 14

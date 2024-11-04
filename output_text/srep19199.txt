@@ -1,0 +1,888 @@
+www.nature.com/scientificreports
+SCIENTIFIC
+REPORTS
+OPEN : Genomic-assisted haplotype
+analysis and the development of
+high-throughput SNP markers for
+Received: 21September2015
+tolerance
+07 December 2015
+in
+Accepted:
+salinity
+soybean
+Published: 19January 2016 Gunvant Patil*, Tuyen Do1*, Tri D. Vuong', BabaVeliodan,sengDongter;
+Juhi Chaudhary,J.Grover Shannon1 & HenryT. Nguyent
+Soil salinityis a limitingfactor ofcrop yield.The soybean is sensitive to soil salinity, and a dominant
+gene, Glyma03932900 is primarlyresponsiblefor salt-tolerance.Theidentification ofhigh throughput
+and robustmarkers as well as the deployment of salt-tolerantcultivars are effective approaches to
+minimize yieldloss under saline conditions.We utilized high quality (15x) whole-genome resequencing
+(WGRS) on 106 diverse soybean lines andidentified three major structural variants and allelic
+variation in the promoterand genicregions ofthe GmCHX1 gene.The discovery of fsingle nucleotide
+polymorphisms (SNPS) associatedwith strutuaivariantsfadlitated the design ofsix KASPar assays.
+Additionally, haplotype analysis and pedigree tracking gof93U.S. ancestrallines were performed using
+publically available WGRS datasets. Identified ISNP markers were validated, and a strong correlation
+was observed between the genotype and salttreatment phenotype (leaf scorch, chlorophyll content
+and Na+ accumulation) using a panel of 104 soybeanlines and, an interspecific bi-parental population
+(Fg)from P1483463 x Hutcheson.These markers precisely identifiedsalt-tolerant/sensitive genotypes
+(>91%), and diferentstructuralwariants (>98%). These SNP assays, supported by accurate
+phenotyping, haplotype analyses and pedigree tracking information, will accelerate marker-assisted
+selection programs to enhance the development of fsalt-tolerant soybean cultivars.
+The development of fsustainable high-yield varieties that persist under biotic and abiotic stresses is a prerequisite
+for meeting global food demand'. Approximately 20% ofthe world's total land area is affected by salt, and this
+area is increasing as a result ofirrigation, water quality andland clearing23. Salinity not only affects plant health
+but talso influences soilfunction, the soil microbiome, pest/disease infestation and other factors that finally affect
+overall crop yield.
+Soybean [Glycine max (L.) Merr.] is considered as a semi-salt sensitive crop*, with salinity causing a 20-40%
+reduction in seed lyieldss. Salinity occurs when the levelofsoluble salt - most often sodium chloride (NaCI), is
+elevated lin soil and water. Salt-tolerant plants differ from salt-sensitive ones in theirlow rate ofNat and Cl trans-
+portto leaves; their ability to compartmentalize salt tions in vacuoles to prevent their build-up in cytoplasm or cell
+wall, thereby avoiding salt toxicity; and the presence ofa salt exclusion mechanism in which Nat and Cl ions are
+notstored lin roots, ensuring that tions do not accumulate in leaves to patoxic concentration-".Soybeans accumu-
+late a higherlevel of Na+ than Cl- in leaves, but the plants more effectively manage to exclude Nat from leaves
+than Cl comparedwith other plants'1-13. In addition, injury in soybean leavesis morestrongly linked(2-3 folds)
+with Na+ than with CI- concentrations. Plants sense salt stress via both ionic (Na+) and osmotic stress signals,
+then activate signaltransduction*, Salt-specific symptoms occur mainly in older leaves, where salt transported
+via the transpiration stream accumulates to higher levels over timel2. Older leaves no longer expandand therefore
+newly arriving and previously accumulated salt does not get dilutedcompared with younger leaves, causing severe
+leaf chlorosis (ie. reduced chlorophyll.content), and necrosis (i.e. leafscorchingl.leading to plant death12.1516 The
+underlying physiological mechanism of salinity response has been studied in higher and llower plants1-19.Ithas
+NationalCemterforSoybean Biotechnology and Division of PlantSciences, University ofMissouri, Columbia, 65211,
+MO,USA. 2School ofApplied Biosciences, KyungporNationaiUnwest, Daegu, 41566,Republic ofKorea. *These
+authors contributed equallyto this work. Correspondence and requests for materials should be addressedto H.T.N.
+(email: nguenheny@mssourieduy
+SCENTIFICREPORT5161919 IDOI: 10.1038/srep19199
+1
+
+
+
+www.nature.com/scientificreports)
+been proposed that salts outside ofroots had an immediate effect on cell growth and associated metabolism and
+that salt then slowly accumulates inside plantsbefore affecting overall plant function12.
+Soybeans in the USDA germplasm collection range widely in their reaction to saltss. In several early studies,
+quantitative trait loci (QTL) for soybean salinity tolerance were widely detected and consistently mapped on
+chromosome (Chr.) 3 (LGN)15.20-24 Recently, Qi et al.25 utilized de novo assembly and re-sequencing ofa recom-
+binant inbred line (RIL) population to identify the salt tolerance gene CHX1 Gpwlipossewdpmalg.se
+in a wild soybean [Glycine soja (Siebold & Zucc.)] accession. The identified QTL region overlappedwith the pre-
+viously identified Ncl (Chr. 3) locus from cultivar S-10015. Hereafter, in this study we refer to Glyma03g32900 as
+GmCHX1. In another study, using map based cloning and expression profiling, Guan et al.24 identified the same
+gene named GmSALT3 (Glyma03g32900) in the commercial cultivatedsoybean (G. max) Tiefeng 8. Compared
+with salt-sensitive Williams 82 (W82, the reference soybean genome), GmCHX1 contains a r3.8Kb Tyl/copia
+retrotransposon insertion in exon 3, resulting in a inon-functionaltruncated transcript25. Another variant without
+the retrotransposon produces a full transcriptand lexhibitsa tolerant phenotype. Other than Tyl/copia retrotrans-
+poson insertion, sequence variation in the promoter and gene regions of GmCHX1 also results in salt-sensitive
+and -tolerant genotypes?5.
+Molecular markers are powerful genomic tools for increasing the efficiency and precision of breeding
+practices for crop improvement-6- A number of molecular markers such as simple sequence repeats (SSRS),
+randomly amplified polymorphic DNA (RAPD), and diversity array technology (DArT) have been used in
+molecular plant breeding over the last several decades; however, these marker technologies are labor-intensive
+and time-consuming compared with SNP markers29. Advances in next-generation sequencing (NGS) and the
+availability of sequence information have paved the way for the identification and development of SNP mark-
+ers for several crop species. SNP markers have gained significant importance in plant genetics and molecular
+breeding due to their suitability for genetic diversity analysis, abundance in genomes, evolutionary relationships
+and association with complex phenotypic traits29. Additionally, their detection and related assays are amenable
+to automation and thus are useful for high throughput genotyping. The Kompetitive allele-specific polymerase
+chain reaction (KASPar) assay has emerged as a cost-effective marker assay, especially for molecular breeding
+applications0.31 and has been applied in several plant systems32-35 including soybean6.37. The KASPar assay is
+specific to a targeted ISNP or Indel and consists oftwo competitive, allele-specific forward primers (labelled with
+fluorescent dye) and one common primer Chtp/hwelgoup.com) The identification of molecular mark-
+ers associated with salinity would be helpful for developing tolerant varieties, especially because phenotyping
+soybeans according to salinity response is time-consuming, labor-intensive and costly. Additionally, evaluation
+of salinity-tolerance via conventional breeding programs is difficult because the salt concentration graded in a
+horizontal or rvertical direction in the field*. In this study, we evaluated la salt-tolerance locus to verify the allelic
+variation in 106 soybean resequencing lines and identified SNPS in the promoter as well as exonic and intronic
+regions for the development tofaj panel ofbreeder-friendly KASPar assays.
+Results
+Greenhouse screening for salinity tolerance. To determine salt stress response, 104 out of fa total of
+106 soybean genotypes with available whole genome sequence data were screened by the Plastic Cone-tainer
+(PC) method under greenhouse conditions38. Salt screening in a greenhouse can be easily controlled land moni-
+tored39. Thereaction ofthe esalt-tolerant(Fiskeby III, HN105) and sensitive (Hutcheson, HN101) genotypes to salt
+treatment (120mMNaCI) clearly differed (Fig. 1). The tolerant control scored 1.2 and 0.99, respectively, for the
+leaf scorch score (LSS) andleaf chlorophyll content (SPAD ratio after and before treatment), while the sensitive
+control scored 4.8 and 0.52, respectively (Supplementary Table S1). In addition, the tolerant control showed no
+apparent chlorosis in its leaves, while the sensitive control showedsevere chlorosis. Based on avisual rating ofthe
+104 lines evaluated, PI 561271 (HN074) was the most tolerant genotype and PI 548657 (HN071) was the most
+sensitive genotype (Fig. 1A). A correlation between LSS and SPAD ratio was calculated by regression analysis
+to determine confidence level. The results indicatedahigh correlation (r2= 0.76) between the two assessment
+methods (Fig. 1B).
+The combination ofphenotypic data (SPAD ratio and LSS) was utilized to determine the cluster between
+salt-sensitive and -tolerant genotypes by Euclidean distance using NTSYS-pc software40 (Fig. 1C). The 104 lines
+were clustered into two major groups; tolerant (35 lines) and sensitive (69 lines). Based on our results, approxi-
+mately 32% oftested genotypes via re-sequencing were salt-tolerant. A majority ofthe lines were U.S. cultivars
+thathave been utilized lin many soybean breeding programs. The tolerant and sensitive groups were further subdi-
+videdinto two sub-clusters, I-II andIII-IV, respectively. Comparing the mean values of thetwo clusters (p < 0.01,
+Duncan's multiple range test, Table 1) revealeda significant difference. Cluster I showed superior salinity toler-
+ance and had an average LSS of 1.0, whereas cluster IV exhibited higher salt sensitivity and had an average LSS
+of 4.70. Clusters II and III showed moderate tolerance (LSS == 2.30) and/or moderate sensitivity (LSS == 3.60) in
+response to salt stress, respectively. Leafchlorophyll lcontent (SPAD ratio) was significantly decreasedfrom cluster
+Ito cluster IV. The tolerant tand sensitive controls were groupedinto their respective tolerant and sensitive groups
+(Fig. 1C). To investigate the accumulation ofNa+ in leaf tissue, five representative genotypes (3 tolerant and 12
+sensitive) were evaluated at OmM and 120mM NaCl concentrations. At 120mM NaCI, the Na+ concentrations
+in leaftissue were significantly lower in tolerant genotypes than sensitive genotypes, suggesting a mechanism of
+limiting Na+ transport in leaftissue (Supplementary Fig. S1). To elucidate the relationship between salt tolerance
+and allelic variation, whole genome re-sequencing data were used to identify SNP markers as discussed below.
+Genome-wide association study. To identify and obtain insight into genes controlling salt tolerance
+in soybean, a genome-wide association study (GWAS) was performed on the106 soybean lines using an expe-
+dited single-locus mixed model (EMMAX) implemented in the SVS suite (v8.1.5). The efficient EMMAX model
+SCENTIFICREPORT5161919 IDOI: 10.1038/srep19199
+2
+
+
+
+www.nature.com/scientificreports)
+A
+C
+P1561271 ON074)
+Fiskebyl MN10S1
+Hutcheson
+P1S48657
+E
+1
+I
+B
+1.2 Fiskeby IlI
+y= -0.1335x+ r=0.7626 +1.187
+d
+-
+e 0.8
+of 0.6
+4$
+€
+0.4
+Hutcheson*
+0.2
+1.5
+2.5 3 3.5
+4.5 5
+Leafscorch score (LSS)
+Euclidean distance
+Figure 1. The phenotypic evaluation for salinitytolerance. (A) Effect of fsalt treatment (120mM NaCI) on
+four diverse genotypes after 1 week oftreatment under greenhouse conditions. Fiskeby III (HN105, salt-tolerant
+control), Hutcheson (HN001, salt-sensitive control) along with PI 561271 (HN074) and PI 548657 (HN071)
+showed da high level oftolerance and sensitivity out of104 germplasm lines tested, respectively. (B) Correlation
+coefficients ofleafscorch score (LSS) and ISPAD ratio were calculated from 104 soybean genotypes evaluatedfor
+salt tolerance. The highlighted circle shows the most tolerant and sensitive genotypes. (C) Dendrogram showing
+phenotypic (LSS and SPAD ratio) variability relationship between 104 soybean accessions based on phenotypic
+data. The Euclidean distance (horizontal axis) between objects is used as the distance measure; the clustering
+was performed usingNTSYS software.
+No.of SPAD
+Cluster
+Saltreaction genotypes ratio LSS
+I
+Tolerant
+21
+1.01" 1.214
+II
+Moderately tolerant
+14
+0.91b 2.34
+III
+Moderately sensitive 49
+0.70 3.66b
+IV
+Sensitive
+20
+0.554 4.724
+CV%
+19.48 14.24
+Table 1. Relationship of ffour phenotype clusters with an average leaf chlorophyll content (SPAD ratio) and
+leafscorch score (LSS). Mean followedby the same letter are not significantly different according to Duncan's
+multiple range test (p< 0.01). CV == coefficient of fvariation.
+corrected for confounding effects due to subpopulation structure and lincludes PCA-Eigen vectors andidentity by
+descent (IBD) matrices41. The WGRS data of 106 lines (Valliyodan et. al. unpublished) as well as publically availa-
+ble SoySNP50K42 (-42,509) SNP data were utilized for the analysis and comparison between ofthe datasets. After
+initial quality filtering, over 51 million SNPS from WGRS data and over 37,400 SNPS generated by SoySNP50K42
+were considered for association mapping. Using WGRS and SoySNP50K, both datasets pin-pointed a single and
+highly significant tassociation for average SPAD ratio and ILSS (Supplementary Table SIA, B) on Chr. 3 (40520215-
+40637459) (Fig. 2, Supplementary Fig. 2). This region overlapped with a previously identified salt-tolerant locus,
+and the gene Glyma03g32900 (GmCHX1), characterized for salt tolerance in soybean, was detected(Fig. 2C).
+GWAS identified 19 and 11 SNPS using SoySNP50K data, and 401 and328 SNPS were identified lusing WGRS data
+that were associated with LSS and SPAD, respectively, at the significancelevel -logioP N 7.3. The most significant
+SNP (-logiop22.62) ofWGRS data for LSS was identified within the GmCHX1 gene (fourth intron) and explained
+63% ofthe phenotypic variation (Supplementary Table S1B). Genome-wide analysis showedthatnatural variation
+associated with this gene has a major impact on salt tolerance in soybean. Therefore, subsequent analysis was
+focused on the GmCHX1 gene.
+Hierarchical clustering using soybean whole genome re-sequencing data. Analysis ofthe soy-
+bean GmCHX1 gene provided an opportunity to obtain an overview of allelic variation using the soybean whole
+SCENTIFICREPORT5161919 IDOI: 10.1038/srep19199
+3
+
+
+
+www.nature.com/scientificreports)
+A
+LSS
+SISIA
+B
+4
+Awauestemsnjntoon VieiNeduT
+SPAD
+
+C
+Glyma03932900
+HH
+I - H HTel Glyma0332910 Gpmoanot HHIHHA HIH
+Figure 2. Manhattan plots ofGWAS for (A) LSS and, (B) SPAD ratio, in 106 soybean lines using WGRS
+dataset. Negative logio-transformed P values of fSNPS from genome-wide scan for salinity traits using EMMAX
+modelincluding kinship and population structure are plotted against positions on each ofthe 20 chromosomes;
+(C) genes underlying significantraitassocated ISNPS on Chr. 3. The horizontalline denotes sthe calculated
+threshold value for declaring significant association.
+genome re- sequencing (WGRS) data. The wealth of whole genome resources for soybean provides a unique
+method to study natural variation in germplasm and further allows the functional characterization of candi-
+date genes242543 Complete genome sequences for the 106 soybean genotypes, sequenced at approximately 15X
+coverage, were utilized for analysis. To observe phylogenetic clustering, multi-sampled SNPS for the GmCHX1
+locus, including a 2Kb promoter region (Chr. 3: 40621077-40634451) were extracted from the WGRS data and
+were utilizedto infer phylogenetic relationships. In addition to the 106 lines, we included 23 previously reported
+salt-tolerant and -sensitive genotypes from 31 soybean re-sequencing lines4. These 23 lines were sequenced at
+relativelylower coverage compared with the other 106lines and groupedclosely together in the phylogenetictree
+(Fig. 3). Phylogenetic analysis of129 lines showedthree distinct clusters associated with structural land allelicvar-
+iation atthe GmCHX1 locus (Fig. 3). Based on the salt-treatment phenotypic data (LSSandSPAD ratio), tolerant
+indicator lines such as S-100 (HNO28) and Fiskeby III (HN105) as well as a wild soybean genotype, PI483463
+(HN063) were clustered separately. On the other hand all ofthe sensitive genotypes were clustered into two
+distinct subgroups with the known salt-sensitive indicator lines Hutcheson (HN001), W82 (Ref) and Maverick
+(HN030). In agreement with previous studies?5, the 23 genotypes from 31 re-sequencedlines were also grouped
+into their respective salt-tolerant or -sensitive clusters. In addition, we utilized the genome sequence information
+of93 U.S. ancestral lines45 to explore allelic diversity at the GmCHX1 locus. These 93 diverse accessions com-
+prise 23 wild soybeans (G. soja), 45 landraces, and 25 improved cultivars and represent primary founder lines of
+U.S. soybean breeding programs16. When compared with known salt-tolerant and sensitive-lines from 106 ger-
+mplasm accessions, we identified 123 lines which were clustered with salt-tolerant accessions and the remainder
+with salt-sensitive genotypes. These lines were assigned to three structural variant (SV) groups (Supplementary
+Table S2).
+Identification of structural variants associated with salt-tolerant and sensitive
+groups. GmCHX1belongs to the sodium/hydrogen (Na+/H+) exchanger family and comprises 10 transmem-
+brane domains (TMD) (Supplementary Fig. S5). Recently, an improved assembly of the soybean genome was
+released (htpliphytozome.jgidocgov/puiportalhtml, and the gene Glyma03g32900 was predicted to produce
+two transcript models (Glyma.03G171600, Glyma.03g171700) in the new soybean genome assembly (Wm82.
+a2.v1). However, in the first assembly (W82.al.v1), this gene was predicted to have a single transcript. This pre-
+diction oftwo transcripts could be due to considering an alternative spliced model as two separate genes. In this
+study, we used assembly one for consensus alignment and further genotypic inference. To infer allelic variation,
+the -13Kb consensus sequence ofthe gene GmCHXI,including the gene plus a 2Kb upstream promoter region,
+was aligned with the soybean reference genome. Based on 100% similarity, the alignment with the reference
+genome revealed three major structural variants (SV) SV-1,SV-2 andSV-3(Fig. 4A) and severalSNPs (Fig. 4B,
+Supplementary Table S3). SV-1 was similar to the salt-sensitive W82, C0825, as well as 85-140 genotypes?4 that
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+4
+
+
+
+www.nature.com/scientificreports)
+WO2
+a nE
+a
+S
+Fiskby III
+E .
+S-100
+E
+Soja
+Marverik
+5
+W82
+Hutcheson
+S
+4 102
+Figure 3. Hierarchical clustering of129 diverse lines based on SNP information ofWGRS data. Clusters
+were observed lin 23 lines44 [denoted with 'C and "W'] and 106 lines [denoted with "HN']. Lines representing
+structural variation are highlighted with different colors (see details in Fig. 4A).Lines with known salinity
+reaction are shown with pointed arrow in each group.
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+5
+
+
+
+www.nature.com/scientificreports)
+A
+B
+Tyi/c
+SV-1
+Ty1/Copia
+-
+SV-2
+-
+HHH
+SV-3
+M1 M2
+M3 M4 MS M6
+Figure 4. (A) Structural variation in the GmCHX1 gene. Blue box represents exon, green bar represents
+intron, brown box represents insertion ofTy1/Copia transposon in exon 3, and gray bar represents 3' and 5'
+UTR. Dottedlines indicate the exon position. Red lines indicate that this region is deleted lin SV-3 (Valliyodan
+et al. unpublished). (B) Schematic graph shows the position of SNP/Indels at for the GmCHX1 (40621077-
+40634451) gene. For clear visualization, 10 genotypes from each SV group were selected (for all other lines see
+Supplementary Table S3). SNP in back background are different from the reference genome (W82). The asterisk
+(*) above gene structure represents the approximate position ofthe SNP. SNPS used for the KASPar assay is
+denotedby black asterisk. The number above the SNP matrix shows position from start codon. PIline with
+underline represents wild soybean genotypes (G. soja).
+retain -3.3Kb Tyl/copia retrotransposon in exon 3. The presence ofthe Tyl/copia retrotransposon results in
+loss-of-function, leading to asalt-sensitive genotype. In contrast, SV-2 does not carry the Tyl/copia retrotranspo-
+son and hence expresses full-length protein (811 aa residue, NCBI ID KF879911.1), confirming the salt-tolerant
+genotype?5. SV-1 and SV-2 have been reported in earlier studies24,25, whereas SV-3 was identified in this study.
+Genotypes belongingto SV-3 also lack the Tyl/copia retrotransposon; however, phenotypically, this group oflines
+is sensitive to salt treatment. To understand the phenotypic differences between the SV-2 and SV-3lines, we stud-
+ied the variation in the promoter and coding regions ofthese two groups. It is known that SNPs in the coding or
+promoter regions can abolish proteinlocalization andfunction. Wei identified 29 SNPS in the promoter region and
+nine non-synonymous SNPs leading to an amino acid changespecific to the SV-3 group (Supplementary Fig. S3).
+Three out of nine nonsynonymous SNPS (at amino acid position 13, 354 and 1450) were identified at a high fre-
+quencyi in the SV-3 group compared with the other six SNPS (Supplementary Fig. S3).Furthermore, an r180 bp
+deletion (A232-292 aa) in exon 3 and two large deletions in the first andsecond lintrons were identified (Fig. 4A,
+indicated by aredline) that were confined to SV-3, with exception ofgenotype HN058 (PI 438258). Based lon a
+transmembrane topology prediction tool, GmCHX1 comprises 10 transmembrane domains (TMD),andt the dele-
+tion starting at 232 aa resulted in the loss of the seventh transmembrane helix domain (Supplementary Fig. S5).
+Qi et al.25 also identified a deletion in exon 3, but this deletion was smaller than those that we observed, possibly
+due to the different sets ofsoybean lines usedin each both study. Haplotype analysis using SNP information from
+the 129 lines (106 re-sequencedlines and 23 out of31 lines from Lam et al.44 with known salinity reactions) was
+performed(Supplememtary Fig. S4).Overall, allelic variation other than the Tyl/copia retrotransposon insertion
+could be the reason for salt-sensitive genotypes in SV-1, although further studies are required to confirm this
+inference.
+Discovery ofinformative SNP markers associated with the salt-tolerance gene. The WGRS and
+phenotypic correlation information of104 soybean lines were used Ito identify SNP marker(s) associatedwith the
+salt-tolerance locus. First, SNPS associated with three allelic variants (Fig. 4B) were considered, including three
+SNPslocated in the promoter region (the 5' UTR (untranslatedregion) and, thirteen in the genic region (introns
+and exons). To evaluate which SNP correlated with the three structural variants, six SNPS - M1 (-20bp, pro-
+moter), M2 (38bp, first exon), M3 (8961 bp, third intron), M4 (9011bp, thirdintron), M5 (10705bp, fifth exon)
+and M6 (6th exon) - were selected for KASPar assay design. Based on genotypic data, M2 and M3 were able to
+differentiate between SV-1,SV-2 with SV-3 suggesting that these markers were associated with 'Hutcheson type'
+(ie. SV-3, without transposon insertion) salt-sensitive genotypes. The M5 SNP was associated with Tyl/copia
+retrotransposon insertion and differentiated betweenSV-lvs. SV-2andSV-3. Importantly, the SNP markers M1,
+M4 and M6 were associated with salt-sensitive (SV-1 andSV-3) and salt-tolerant (SV-2) lines.
+Validation ofmakers in diverse germplasm and linterspecific population. Three KASPar assays
+(M2, M3 and M5) were selected to identify the structural variants representative ofthree groups. The M2 and
+M3 marker assays precisely differentiated SV-3 from SV-1 and SV-2 with a >98% success rate (Supplementary
+Table S4; Fig. 5B,C). Similarly, the marker M5 differentiated between a transposon insertion allele (SV-1)
+SCENTIFICREPORT5161919 IDOI: 10.1038/srep19199
+6
+
+
+
+www.nature.com/scientificreports)
+A
+B
+C
+[CC]
+(GC]
+(TT]
+(CC]
+I
+[AT]
+[TC]
+E
+(GG]
+TAAI,
+[TT]
+Sat toion
+reeit
+iheeitnt
+acoe
+000
+M1
+M2
+M3
+D
+E
+F
+Senttern
+[TT] :
+[GG]
+[AA]
+:
+[TG]
+a
+[CG]
+[TA]
+O
+I
+[GG]
+[CC]
+[TT]
+cissnes
+000
+R
+M4
+M5
+M6
+Figure 5. Sample genotyping plots ofa diverse set of106 WGRS lines and Fa RILS from population (PI
+483463 x Hutcheson). Plots generated from Roche 480 II software during KASPar assay genotyping ofM1-M6
+SNP markers. A-E: KASPar SNP graphs of 106 diverse soybean lines. F: KASPar SNP graph ofRIL population.
+Genotype signal: Green- Mutant, Red- Heterozygote, Blue- WT (W82), Grey- Non template control.
+Heterozygote signal highlightedby circle represents artificialheterozygote.
+and a non-insertion allele (SV-2, -3) with a >98% success rate (Fig. 5E). The SNP genotypes were found to
+be in complete agreement with the three structural variant groups (Supplementary Table S3). To evaluate the
+genotype-phenotype correlation for salt tolerance in diverse lines, the salt tolerance phenotypic data of 104
+lines were tested with three (M1, M4 and M6) KASPar assays (Fig. 5A,D). A strong correlation was observed
+between SNP genotype and reaction to salt, with the exception of 10 lines (success rate >91%). However, the
+success rates of genotyping for high tolerance (cluster 1) and sensitivity (cluster 4) were 95 and100%, respectively
+(Fig. 1C, Supplementary Tables S1 and S4). In agreement with the previous studies44,Peking (HN002) carries
+salt-tolerant alleles similar to those of other salt-tolerantlines; however, phenotypically, this line was found to be
+salt-sensitive (SPAD ratio 0.67, LSS 3.6). On the basis of fhierarchical clustering, Peking grouped with the S-100
+line (SV-2), suggesting thatthis gene mightbe suppressed aftertranscription or that its expression mightberegu-
+lated by unknown cis or trans-elements; however, further study is needed to validate these observations.
+In addition to 104 diverse sequencing lines, we performed a precise genotyping test on an interspecific
+bi-parental population of Fs recombinant inbredlines (RILS) from a PI 483463 x Hutcheson cross48,49 (Fig. 5F;
+Supplementary Table S5). The parental line PI 483463 (HN063) is awild soybean accession (G. soja) and carries
+a salt tolerance allele (SV-2), while Hutcheson (HN001) carries a salt sensitivity allele (SV-3) (Fig. 3). HN063 (PI
+483463) andHNO28IGDE-12916100 are consideredhighly salt-tolerantlines with the common ancestor S-100,
+according to the U.S. breeding programs'548 Plant reactions to salt treatment showed that Hutcheson exhibited
+severe leaf fscorch; however, the leaves ofPI 483463 were less affectedby salt injury (Fig. 1; Supplementary Table
+S1). We also tested M1 and M6 markers on artificialheterozygous DNA, in which the DNA oftolerant (HN105 or
+HN063) andsensitive (HN001 or Williams 82) accessions were mixed at equal 10ng concentrations. This artificial
+heterozygote allele correctly designated the genotype and was clustered between mutant and wild-type alleles
+(Fig. 5A,F). Overall, a strong association was observed between SNP genotype and reaction to salt treatment in
+the RIL population at a success rate >94.5%. This shows that the gene-based molecular markers and the geno-
+typing assay developed in this study are powerful and efficient tools for selecting true heterozygotes in an early
+generation (F,) for genetic studies or breeding purposes, as well as for selecting tolerant genotypes from diverse
+soybean germplasm.
+Discussion
+An important goal of whole genome re-sequencing data analysis of crop species is to explore genetic variation
+in diverse germplasm resources, such as wild species, landraces and improved cultivars and to identify molec-
+ular markers that accelerate breeding cycles. Soybean germplasm, both G. max and G. soja species, provide a
+wide range of salt tolerances. For many years, a great effort has been made to understand the mechanism of
+salt reaction39 andto precisely identify gene(s) underlying salt tolerance QTL in soybeans2425. Previous studies
+have shown that a QTL on Chr. 3 is the major genomic region determining salinity tolerance in soybean. This
+SCENTIFICREPORT5161919 IDOI: 10.1038/srep19199
+7
+
+
+
+www.nature.com/scientificreports)
+locus carries the dominant functional sodium/hydrogen exchanger family gene Glyma03g32900 (GmCHX1) and
+accounts for more than 64% ofthe phenotypic variation?5. GWAS is sa statistically powerful approach and provides
+ahigher resolution to identify the position of genetic factors underlying the trait ofinterest1550-52 Alarge number
+ofGWAS has been successfully conducted in soybean using SoySNP50K and WGRS data for nematode resist-
+ance50 carbon-isotope,oil. land protein content1552, and domestication traits45.In this study, GWAS pin-pointed
+a single major and significant locus on Chr. 3 that harbors the previously characterized GmCHX1 gene. While
+the SoySNP50K and WGRS data were able to identify the same major loci on Chr 3, the number of SNPS was
+relatively higher in WGRS dataset, which was notsurprising. Importantly, high quality WGRS data benefited the
+discovery of novel structural lvariants and the large number of fSNPS that were translated linto functional mark-
+ers. The results obtained from GWAS thus, allowed us to further investigate the haplotype and SNP variation
+using WGRS datasets. The genetic basis of salt tolerance in soybean is relatively less complex compared with the
+response to other abiotic stresses (e.g., drought, flooding' 1,53) due to the presence ofa single dominant locus as
+detected lin the present study.
+In addition to genotypic data, robust salt tolerance assays for generating reliable phenotypic data are also
+important for molecular marker development. A conventional method ofscreening for salt tolerance in soybean
+was based on visual leaf fscorch score (LSS). However, in the present study, we utilized a combination ofLSS and
+leafchlorophyll assessed by a SPAD ratio to determine the phenotypes. The chlorophyll content ofa developing
+plant changes significantly under stress conditions, and chlorophylevel hasbeen shown to be a goodindicator of
+photosynthetic function 10,12. Chlorophyll fluorescence provides a non-invasive and rapid method for estimating
+the photosynthetic) performance of plantss.55.Lenis setals reportedthatincrementalincreases in NaCI concentra-
+tion from 25 to 100mM were significantly associated with leafscorch and SAPD ratio. In this study, the significant
+negative correlation between LSS and SPADratio gave us additional lconfidence in associating the phenotype with
+the genotype.
+The function of GmCHX1 was studiedby expressing a tolerant allele using transgenic soybeanhairy roots and
+transgenic tobacco BY-2cells?5. This analysis srevealedhealthy hairy roots and dahigher survival rate for BY-2 cells
+in the transgenic lines, which confirmed a gain-of-function. The GmCHX1 gene is expressed under elevated salt
+conditions in root stellar cells and limits salt transport to shoot tissues24. In other plant species such as cotton*,
+rice",Arabidopsi.*s, P tenuifloraso, wheat17,61 and grapevines2, the expression ofNa+ exclusion protein in root
+tissue is associatedwith lower Na+ accumulation in shoot tissue. In general, a plant adapts to soilsalinity through
+osmotic tolerance, Nat or CI exclusion, and the accumulation ofions in various tissues10.12.63.64. Consistentwith
+earlier findingss, significantly lower Nat accumulation in the leaftissues of tolerant genotypes was observed
+(Supplementary Fig. S1), confirming sodium exclusion in the above-ground tissues of soybean plants. The toler-
+ant genotypes had a lower LSS, greater SPAD ratios and la greater capacity to prevent Na transport from the soil
+to stems and leaves than did sensitive lines.
+Wild relatives represents a unique resource to study the regulation of salt tolerance and other abiotic stress
+responses and present tawiderange ofgenetic diversity for several traits8.16,65,66 The progeny ofa cross between G.
+max and G. soja were more tolerantto salt injury than those ofa cross between G. max and G. max48, suggesting
+allelic cand backgroundeffects. Previously, Lee et al.48 carried out an allelism test and icondudedithatwild.soybean
+has a tolerant locus different from that in the line S-100 (HN028)48.49. However, they subsequently mapped this
+trait to a similar genomic region (Chr. 3) and concluded that the tolerance gene from the two sources could be
+the same, but the degree oftolerance (after 30 days ofsalt tolerance) was different21. In agreement with previous
+studies, we confirmed that wild and cultivated soybean possess the same loci ibut show allelic variation (Fig. 4).
+Therefore, differential responses of salt-tolerant genotypes could be (1) the result of allelic variation in promoter
+and gene regions?5; (2) due to mechanisms usedto exclude sodium ions from the roots, thereby preventing accu-
+mulation at toxic concentrations in the stem and leaves10,12,62, (3) caused by regulation at the transcription or
+powt-trankcriptionallevedss, or (4) due to genetic backgroundefct.Qidt al.25 concluded that elimination ofthe
+salt tolerance gene in salt-sensitive germplasm could be due to negative selection against a stress tolerance gene
+in an unstressed environment because its expression could be an energy burden on the plant when its function
+is not required.
+Guan et al.24 identified nine haplotypes, including two salt-tolerant haplotypes and seven salt-sensitive hap-
+lotypes, based on SNP variation in GmSALT3 (GmCHX1) and its r600 bp promoter region. In this study, we
+utilized high-quality, deep sequence information (15X) for GmCHX1 loci (gene plus 2kb up- and down-stream
+sequence) and identified three major structural variants and several SNPS (Supplementary Table S3). A number
+of SNPS identified in this study matched with previously reported SNPS. However, two insertions of 148bp and
+4bp in the promoter region reported by Guan et al.24 were not observed linour sequencedlines, inagreement with
+are-sequencing analysis by Qiet tal.25
+In previous studies15.22.47 SSR and ISCAR (Sequence Characterized Amplified Region) markers were utilizedin
+association with salinity tolerance based on the sequence information obtained by mapping parents to genotype
+diverse germplasm. Several ISSR marker alleles were found to be associated with salt tolerance phenotypes in the
+descendants and diverse germplasm. A majority of SSRs can amplify multiple alleles at one locus depending on
+the genetic background, despite the fact that the same allele may not always be associated with that particular
+trait47.67 In addition, popular PCR or non-PCR basedmarkers, including SSR and SCAR makers, have limitations
+for use in high-throughput genotyping, such as high costand transferability in complex genomes and diverse ger-
+mplasm. In next-generation breeding, these markers cannot be usedin high-throughput genotyping technologies
+as required by breeders to accelerate selective breeding for a number oftraits. Correct identification and qual-
+ity assurance are crucial to ensure reproducible breeding programs. Thus, next-generation SNPS along with the
+KASPar genotyping method loffer rawide range of advantages over other molecular markers68. KASPar assays have
+emerged as a powerful tool due to their high-throughput nature,locus specificity, co-dominant inheritance, sim-
+ple documentation, transferability between genotyping platforms, lower error rate and lower cost30,36 Moreover,
+SCENTIFICREPORT5161919 IDOI: 10.1038/srep19199
+8
+
+
+
+www.nature.com/scientificreports)
+A
+Forrest
+Dyer
+Sprite
+Gorden*
+Pickett 71
+Lee*
+S-100*
+Lloyd*
+Centennial
+Cumberland*
+Pella
+Zane*
+Capital
+Bicentennial
+Harosoy63 Harosoy(8)
+OACMusca*
+Fiskebyv
+McCall
+Hark
+Harosoy
+A.K. Harow
+Burlison* K74-113-76-486
+Pomona
+Tracy
+B
+V68-1034
+York
+Dorman
+Arksoy
+Hutcheson*
+Essex*
+Lee
+Ogdan*
+Volstate (2)
+Tokyo
+Jackson*
+Palmetto
+Young*
+Davis
+Williams*
+Resnik
+Macon*
+Kershaw
+Mandarin*
+Manchu Lincoln
+Evans
+Merit
+Blackhwak
+Dawson*
+Hodgson
+Harosoy
+Corsoy
+Dunbar*
+Hardin
+Jack
+Pana*
+Fayette
+Asgrow
+Figure 6. Partial pedigree tracing of fsalt-tolerant and salt-sensitive lines. Green represents salt-tolerant,
+light-redrepresents salt-sensitive, grey unknown. Asterisk (*) denotes that genotypeofthese lines studiedin the
+present investigation using WGRS information.
+KASPar assay can be applied to germplasm characterization, allele mining, and fore-ground and back-ground
+selection34.
+Remarkably, the genotypic andphenotypic data generated in the present study are more resilient tand provided
+asolid foundation to develop robust, high-throughput, and breeder-friendly markers. We successfully identified
+and validated several SNP-based KASPar assays for salt-tolerance using WGRS information with a >95% pre-
+dictionrate (Supplementary TableS1). The KASPar assay was developedtoidentify not only the salt-tolerant and
+sensitive genotypes, but also other structural variants at a high frequency (Supplementary Tables S4 and S5). All
+KASPar assays were tested on artificial heterozygote DNA and showed la perfect cluster with true heterozygotes
+(Fig. 5A,F). A few lines (10 out of 106 diverse lines), including the salt-sensitive cultivar Peking (LSS 3.6, SPAD
+0.67), did not show an exact correlation between the expected phenotype and the salt tolerance alleles. Several
+factors may result in this discrepancy between the genotyping and phenotyping results. One reason could be
+that salinity scoring was based on al to 5 scale, making the aforementioned lines with a moderately-tolerant
+or moderately-sensitive phenotype difficult to assess. Another possibility is the variation in expression level
+ofthe salt-tolerance gene due to unknown (cis or trans) regulation. In rice, a class of endogenous small RNAS
+is thought to regulate the expression of salt-responsive genes at the post-transcriptional level69. Recently, He
+et al.0 elucidated the role of cyclic electron flow into vacuoles under salt stress in soybean and, suggested Nat
+ion compartmentation mechanism. They identified genes associated with Na* that were highly expressed in the
+salt-tolerant variety (S111-9) and laccumulated Nat in vacuoles, whereas the salt-sensitive variety (Melrose) accu-
+mulated Na+ in the chloroplasts. In agreement with earlier reports1024.70 we conclude that in addition to a major
+salt-tolerant gene (GmCHX1), there couldbe minor undetermined element(s) (e.g., post-transcription regulation
+or ion compartmentation) involved in salt tolerance in soybean. Future investigation is warrantedto understand
+and elucidate these factors.
+Lee et al.15 reported that several ancestors ofU.S. soybean cultivars are salt tolerant; however, our analysis
+of 93 ancestral lines showed that only 23 lines exhibited a salt-tolerant genotype. The 23 lines included seven
+wild accessions, nine landraces and seven improved cultivars, including, Gordon (IGDB-228), Lloyd (IGDB-
+259), Sprite (IGDB-257), Zane (IGDB-234), Capital (IGDB-143), Musca (IGDB-231), and Burlison (IGDB-258).
+To gain insight into the pedigree information ofthese lines, we used the GRIN @mp/hwwwar-gingwiepg
+acclacc.queries.html) and Soybase (htp/wwsoybasc.org) databases. Interestingly, the pedigree of Gordon,
+Lloyd, Sprite and Burlison trace back to Lee and S-100 (Fig. 6). The descendants Musca, Zane and Capital can
+be traced back to the salt-tolerant line A. K. Harrow (Dr. Thomas Carter personal communication). Similarly,
+the salt-sensitive genotypes trace back to Williams82, Tokyo, Davis and Arksoy (Fig. 6, Supplementary Table
+S2). This analysis showed that a majority ofthe U.S. soybean cultivars are fixed for the salt-sensitive allele. To
+improve salt tolerance, two main approaches can be utilized. The first tapproach includes the exploration ofnatural
+genetic variation via direct selection under saline conditions, either in field or under controlled conditions, or
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+9
+
+
+
+www.nature.com/scientificreports)
+through marker-assisted selection. The second approach includes the generation oftransgenic plants expressing
+a salt-tolerance gene371,72. A salt-tolerant transgene (e.g., GmCHX1) can also be utilized for positive selection
+with 150-200mM NaCl as the selectable agent7374. Positive selection offers several advantages over herbicide or
+antibiotic gene based selection approaches and can be coupled with other transgenes?5. However, this transgenic
+approach has several challenges, including acceptance oftransgenic crops and the costs associated with regulation
+andlicensing, while screening through marker assisted selection offers several advantages.
+In summary, we successfully developed an efficient, high-throughput and cost effective next-generation
+KASPar assay for salinity tolerance in soybean using a whole genome resequencing information of 106 diverse
+germplasm lines. The newly developed markers and genotype information will greatly benefit soybean breeders
+in the development ofsalt-tolerant varieties. In addition, it willhelp to select parent lines to designfuture crosses,
+trait introgression and the evaluation of diverse germplasm.
+Methods
+Plant materials. A subset of104 soybean lines were evaluated for salt tolerance in two independent tests in
+the salinity phenotyping facility at University ofMissouri, Columbia, MO,following a wellestabishedprcedure
+as previously described38. Briefly, at the V2 growth stage, soybean seedlings in cone-trainers were exposed to salt
+water (120mM) addedto a depth ofone-third (7cm) ofthe cone to allow the uptake of fsalt water. Electrical con-
+ductivity (EC) was monitored daily. Individual soybean plants were visually rated for salt sensitivity or tolerance
+when the sensitive parent, cultivar Hutcheson (HN001), showed severe leaf fscorch (approximately 2 weeks after
+treatment with salt water). Leaf scorch was scored using a 1-5 scale, where 1= no apparent chlorosis; 2= slight
+(25% ofthe leaves showed chlorosis); 3 == moderate (50% ofthe leaves showed chlorosis and some necrosis);
+4= severe chlorosis (75% oftheleaves showed chlorosis and severe necrosis); and 15 == dead (leaves showed severe
+necrosis and were withered). The averageleaf scorch score for each genotype was calculated using the equation
+(1):
+Average leaf scorch score == E(LSSi) (No.of plants)
+Total No.of plants
+where LSSi i= the level ofleaf scorch score.
+The measurements ofleaf chlorophyll content were carried out on the top secondary fully expanded leaves.
+At 1 day before and 14d after treatment, the chlorophyll concentration, expressed as SPAD value, was measured
+with a chlorophyll meter (Konica Minolta SPAD-502). The SPAD ratio, an indicator ofthe efficiency ofthe pho-
+tosynthetic apparatus and shows decreasing chlorophyll content under salt stress, was calculated with a portable
+fluorometer (model FMS-2 Hansatech Instruments Ltd., England). After scoring LSS and SPAD,leaves, including
+petiole, were harvested separately before and after salt water treatment. The sodium (Na+) content of soybean
+leaves for the five genotypes with known levels ofsalt tolerance was measured in two independent experiments
+as describedby Lenis et al.s using aPerkin-Elmer (Wellesley, MA, USA) atomic absorption spectrophotometer"*
+In addition to the subset of104 germplasm lines, the salt phenotypic data ofan Fs RIL population developed
+from an interspecific cross ofPI 483463 and Hutcheson was obtained from a previous studyis. These phenotypic
+data were employed to test the association ofthe phenotypes and genotypes that were generated in the present
+study.
+Genome-wide association study. The WGRS data of 106 lines (-9.4 million SNPS) and SoySNP50K
+iSelect BeadChip data42 was utilized for GWAS analysis. The WGRS data (sequencing depth r15X) for 106
+lines was obtained from Soybean Genetics and Genomics Laboratory at the University ofMissouri (Valliyodan
+et. al. unpublished), and the SoySNP50K data was accessed from the soybean database (htp-l/www.soybase.
+org/). After excluding SNPS with more than 10% missing data and la minor allele frequency (MAF) less than 5%,
+over 5 million SNPS from WGRS and 37,400 SNPS from SoySNP50K data were usedfor GWAS. The PCA matrix
+and identity by descent (IBD) were calculated from LD-pruned SNPS in SVS v8.1.5 (htpl/goldenhelix.com
+SNP_ Variation/). A single- -locus mixed linear model developed by the EMMAX method and implementedin SVS
+v8.1.5 was used. The EMMAX model corrects for population structure as well as identity by descent (IBD)41.We
+used la PCA matrix (first two vectors) andthe IBD matrix to correct for population stratification. We defined the
+whole- -genome significance cutoff as empirical"7 threshold 7.3 (p == 5x 10 -8) for selection ofsignificant markers.
+Manhattan plots for associated SNPS were visualized in GenomeBrowse v1.0 (Golden Helix, Inc).
+Analysis of structural variation. The mapped sequence reads of 106 lines at position (Chr. 3:40621077-
+40634451) were used to create a consensus sequence using SAM and BAM tools78. The consensus sequence
+was then aligned with the soybean reference genome W82 (Phytozome: Gmax v9.0) using the MEGA 6.079 and
+BioEdit80 sequence alignment editor tools. Transcript sequence-based annotation25 was used to identify struc-
+tural variants (SV-1, SV-2 and SV-3) associated with the GmCHX1 gene. SNPS were identified using an in-house
+SOAP381 pipeline and were confirmed by examining read alignment in the GenomeBrowse tool (http:l/golden-
+hdlit.com/Gemomebrowse). SNPS were further analyzed for possible iyotymousnon-syanymous variation
+by translation into amino acid sequences.
+The publically available WGRS datasets of31 lines44 and 93 US ancestrallines'5 were downloaded to investi-
+gate genetic variation. SNP haplotypes were examinedby generating map and genotype data files using TASSEL
+5.0 program82 and clustering pictorial output for GmCHX1 genic region was visualized using FLAPJACK and
+SNPviz software83,84
+SNP and KASPar assay design. Whole -genome re-sequencing coupled with structural variation infor-
+mation were used to develop KASPar assays. A panel of six SNPS (Fig. 4B) were selected and targeted for the
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+10
+
+
+
+www.nature.com/scientificreports)
+development of the KASPar assays. Two allele-specific forward primers with tail sequences and one common
+reverse primer were synthesized for the SNP genotyping assays (Supplementary Table S6). The reaction mixture
+was prepared according to the protocol describedby KBiosciences (http/www.ksre.ksu.eduligenomics) Briefly,
+KASPar assays were run in a 10ulfinal reaction volume containing 5ul KASPar master mix, 0.14pl primer mix,
+2ul 10-20ng/ul genomic DNA, and 2.86ul water. The following cycling conditions were used: 15min at 95°C,
+followedby 10 touchdown cycles of 20sat94°C,1min at 61 1-55 °C (dropping 0.6°C per cycle); and then 26 cycles
+of 20s at 94 °C, 1min at 55°C. The fluorescent end-point genotyping method was carried out using a Roche
+LightCycler 480-II instrument (Roche Applied Sciences, Indianapolis, IN, USA). The seeds of 104 diverse lines
+and la RIL population derivedfrom a PI 483463 x Hutcheson cross were germinatedin a greenhouse with 24 seeds
+per line. Young leaf ftissuefrom each line was pooled and flash-frozen in liquid nitrogen. DNA was isolated using
+amodified C-TAB extraction protocol.
+Statistical analysis. Comparisons between the mean treatment values were made by rleast significance dif
+ference (LSD) using Duncan's multiple test.
+References
+1. Deshmukh, R. et al. Integrating omic approaches for abiotic stress tolerance in soybean. Front Plant Sci5, 244 (2014).
+2. Sairam, R. K. & Tyagi,A. Physiology and molecular biology ofsalinity stress tolerance in plants. Curr Sci86, 407-421 (2004).
+3. Yamaguchi, T. & Blumwald, E. Developing salt-tolerant crop plants: challenges and opportunities. Trends Plant Sci 10, 615-620
+(2005).
+4. Tuyen, D. D.,Lal,S. K. &Xu, D.H. Identification ofamajor QTLallele from wild soybean (Glycine soja Sieb. & Zucc.) for increasing
+alkaline salt tolerance in soybean. Theor Appl Genet 121, 229-236 (2010).
+5. Chinnusamy, V, Jagendorf, A. & Zhu,J.K. Understanding andimproving salt tolerance in plants. Crop Sci45, ,437-448 (2005).
+6. Papiernik, S. K., Grieve, C. M., Lesch, S. M. & Yates, S. R. Effects of fsalinity, imazethapyr, and chlorimuron application on soybean
+growth and yield. Commun SoilSci Plan 36, 951-967 (2005).
+7. Munns, R. Comparative physiology ofsalt and water stress. Plant Cell Environ 25, 239-250 (2002).
+8. Lenis,J. M. etal. Differences in Ion Accumulation and Salt Tolerance among Glycine Accessions. Agron Crop Sci 197, 302-310
+(2011).
+9. Azevedo Neto, A. D. & Silva, E.C. Physiology and biochemistryofsalt stress tolerance in plants. In Abiotic Stresses in Crop Plants
+(edA(eds Chakraborty, B.). CABI (2015).
+10. He, Y.etal. Increasing cyclic electron flow ris related Ito Na+ sequestration into vacuoles for salt tolerance in soybean.J Exp Bot 66,
+6877-6889 (2015).
+11. Deinlein, U., Stephan, A. B., Horie, T., Luo, W., Xu, G. & Schroeder, J.I. Plant salt-tolerance mechanisms. Trends Plant Sci 19,
+371-379 (2014).
+12. Munns, R. &Tester, M. Mechanisms ofsalinity tolerance. Annu Rev Plant Biol59, 651-681 (2008).
+13. Tuteja, N. Chapter Twenty-Four-Mechanisms ofHigh Salinity Tolerance in Plants. Method Enzymol428, 419-438 (2007).
+14. Parida, A. K. & Das, A. B. Salt tolerance and salinity effects on plants: areview. Ecotoxicology and environmental Isafety 60, 324-349
+(2005).
+15. Lee, G.J. et al. A major QTL conditioning salt tolerance in S-100 soybean and descendent cultivars. Theor Appl Genet 109,
+1610-1619 (2004).
+16. Yang, Y., Yan, C. Q, Cao, B. H., Xu, H. X., Chen, J. P. & Jiang, D. A. Some photosynthetic responses to salinity resistance are
+transferred into the somatic hybrid descendants from the wild soybean Glycine cyrtoloba ACC547. Physiol IPlantarum 129, 658-669
+(2007).
+17. Munns, R. etal Wheat grain yield on saline soils is improvedby an ancestralNa+ transporter gene. Nat Biotechnol 30, 360-U173
+(2012).
+18. Beilby, M.J.Salt toleranceat single celllevel lin giant-celled Characeae. Front Plant Sci 6, 1-16(2015).
+19. Piro, A. etal. The modulation ofleaf fmetabolism playsarole in salt tolerance ofCymodocea nodosa exposed to hypersaline stress in
+mesocosms. Front Plant Sci6, 1-12 (2015).
+20. Phang, T. H., Shao, G. &Lam, H. M.Salt tolerance in soybean. JI Integr Plant Biol50, 1196-1212 (2008).
+21. Ha, B. K., Vuong, T. D., Velusamy, V., Nguyen, H. T., Shannon, J. G. & Lee, J.D. Genetic mapping of quantitative trait loci
+conditioning salt tolerancein wild soybean (Glycine soja) P1483463.Euphytical 193, 79-88 (2013).
+22. Hamwieh, A., Tuyen, D. D., Cong, H., Benitez, E. R., Takahashi, R. & Xu, D. H. Identification and validation ofa major QTLfor salt
+tolerance in soybean. Euphytica 179, 451 1-459 (2011).
+23. Hamwieh, A. & Xu, D. H. Conserved salt tolerance quantitative trait locus (QTL) in wild and cultivated soybeans. Breed Sci 58,
+355-359 (2008).
+24. Guan, R. X. etal. Salinity tolerance in soybean is modulated lby natural lvariation in GmSALT3. Plant Journal 80, 937-950 (2014).
+25. Qi,X.etal. Identification ofa novel salt ttolerance gene in wildsoybean by whole-genome sequencing. Nat Commun 5, 4340 (2014).
+26. Varshney, R. K. etal. Advancesin geneticsand mukculrkedigefahnekgme crops of fsemi-arid tropics using gnext-generation
+sequencing and high-throughput genotyping technologies. JBiosciences 37,811-820 (2012).
+27. Ashraf, M. & Foolad, M. R. Crop breeding for salt tolerance in the era of fmolecular markers and marker-assisted selection. Plant
+Breed132, 10-20 (2013).
+28. Parida, S. K., Mukerji, M., Singh, A. K, Singh,N. K. & Mohapatra, T. SNPS in stress-responsive rice genes: validation, genotyping,
+functional relevance and population structure. BMC Genomics 13, 426 (2012).
+29. Rafalski, A. Applications of nucleotide polymorphisms in crop genetics. Current opinion in plant tbiology 5, 94-100 (2002).
+30. Semagn, K, Babu, R., Hearne, mmgte & Olsen, M. Single nucleotide polymorphism genotyping using Kompetitive Allele Specific PCR
+(KASP):overview ofthe technology and its application in cropimprovement. Mol Breed 33, 1-14 (2014).
+31. He, C., Holme, ,J& Anthony, J.SNP genotyping: the KASP assay. In Crop Breeding (edA(eds Delphine, E, Whitford, R.). Springer
+(2014).
+32. Pariasca-Tanaka, J,Lorieux, M., He, C.,McCouch, S., Thomson,M.J& Wissuwa, M. Development ofa SNP genotypingpanel for
+detectingpolymorphisms in Oryza glaberrima/O. sativa interspecific crosses. Euphytica 201, 67-78 (2015).
+33. Holdsworth, W.L. & Mazourek, M. Development of user-friendly markers for the pvrl and Bs3 disease resistance genes in pepper.
+Mol Breed 35, 1-5(2015).
+34. Ramirez-Gonzalez, R. H.etal. RNA-Seq bulkedsegregant analysis senables theidentification ofhigh-resolution genetic markers for
+breeding in hexaploid wheat. Plant Biotechnol J13, 613-624 (2015).
+35. Allen, A. M. Letal. Discovery and development tofexome-based, co-dominant single nucleotide polymorphism markers in hexaploid
+wheat (Triticum aestivum L.). Plant Biotechmol/11,279-295 (2013).
+36. Yuan Jiazheng, W. Z., Cuihua, G. & Dechun, W. Introduction ofHigh Throughput and Cost Effective SNP Geno- typing Platforms
+in Soybean. JPlant Genome Scil, ,90-94 (2014).
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+11
+
+
+
+www.nature.com/scientificreports)
+37. Shi, Z., Liu, S., Noe, J., Arelli, P., Meksem, K. & Li, Z. SNP identification and marker assay development for high-throughput
+selection of soybean cyst nematode resistance. BMC Genomics 16, 314 (2015).
+38. Lee,J.D. .et al. Evaluation ofa Simple Method to Screen Soybean Genotypes for Salt Tolerance. Crop Sci 48, 2194-2200 (2008).
+39. Pathan, M. S., Lee, J.-D., Shannon, J. G. & Nguyen, H. T. Recent advances in breeding for drought and salt stress tolerance in
+soybean. In Advancesin molecular breeding toward drought and salt tolerant tcrops (edA(eds Jenks, M., Hasegawa, P,Jain, S.). Springer
+(2007).
+40. Rohlf, ENTSYS-pc version 2.0. Numericaltaxonomy and multivariate analysis system. (edA(eds RohlfF). Version 2.1 edn (1998).
+41. Kang, H. M.et al. Variance component model to account for sample structure in genome-wide association studies. Nat Genet 42,
+348-354 (2010).
+42. Song, Q. et tal. Development and levaluation ofSoyswpsok.ahighdesty genotypingarray for soybean. PLOSOne8, e54985 (2013).
+43. Patil, G. et al. Soybean (Glycine max) SWEET gene family: insights through comparative genomics, transcriptome profiling and
+whole genome re-sequence analysis. BMC Genomics 16, 2-16 (2015).
+44. Lam, H. M.et al. Resequencing of31 wild and cultivated soybean genomes identifies patterns of genetic diversity and selection. Nat
+Genet 42, 1053-1059 (2010).
+45. Zhou, Z. et al. Resequencing 302 wild and cultivated accessions identifies genes related to domestication and improvement tin
+soybean. Nat Biotechnol 33, 408-414(2015).
+46. Hyten, D. Let al. Impacts of geneticbottlenecks on soybean genome diversity. Proc NatlAcad Sci USA 103, 16666-16671 (2006).
+47. Guan, R. et al. Mapping and validation ofa dominant salt tolerancegene in the cultivated isoybean (Glycine max) variety Tiefeng 8.
+The Crop Journal 12,358-365 (2014).
+48. Lee,]. D., Shannon, J.G.,Vuong, T D. & Nguyen, H. T. Inheritance of salt tolerance in wild soybean (Glycine soja Sieb. and Zucc.)
+accession P1483463.JHered 100, 798-801 (2009).
+49. Ha, B.-K., Vuong, T. D., Velusamy, V., Nguyen, H. T., Shannon, J. G. & Lee, J.-D. Genetic mapping of quantitative trait loci
+conditioning salt tolerance in wild isoybean (Glycine soja) PI483463. Euphytica 193, 79-88 (2013).
+50. Vuong, TD. et al. Genetic architecture ofcyst nematoderesistance revealedby genome-wide association study in soybean. BMC
+Genomics 16, 593 (2015).
+51. Dhanapal, A. P. et al. Genome-wide association study (GWAS) ofcarbon isotope ratio (813C) in diverse soybean [Glycine max (L.)
+Merr.] genotypes. Theor Appl Genet 128, 73-91 (2015).
+52. Bandillo, N.etal. A population structure and genome-wide association analysis on the USDA soybean germplasm collection. The
+Plant Genome 8, 1-13 (2015).
+53. Syed, N. H. et al. Core clock, SUB1, and ABAR genes mediate flooding and drought responses via alternative splicing in soybean.]
+Exp Bot66, ,7129-7149 (2015).
+54. Guidi, L. & Degl'Innocenti, E. Chlorophyll la fluorescence in abiotic stress. In Crop Stress and its Management: Perspectives and
+Strategies (ed*(eds). Springer (2012).
+55. Alam, M. A., Juraimi, A. S., Rafi, M. Y. & Abdul Hamid, A. Effect of salinity on biomass yield and physiological and stem-root
+anatomical characteristics of fpurslane (Portulaca oleracea L.) accessions. Biomed Res Int 2015, 1-15 (2015).
+56. Wu, C. A., Yang, G. D., Meng, Q. W. & Zheng, C. C. The cotton GhNHX1 gene encoding a novel putative tonoplast Na(+)/H(+)
+antiporter playsan important role in salt stress. Plant CellPhysiol45, 600-607 (2004).
+57. Ren, Z. H. et al. A rice quantitative trait locus for salt ttolerance encodesasodium transporter. Nat Genet 37, 1141-1146 (2005).
+58. Moller, I.S. et al. Shoot tNa+ exclusion and lincreased salinity tolerance engineered ibycelltype-specific calteration ofNa+ transport
+in Arabidopsis. Plant Cell 21,2163-2178 (2009).
+59. Xue, S. .etal. AtHKT1;1 mediates nernstian sodium channeltransport propertiesin. Arabidopsis root stelar cells. PLoSOne 6, e24725
+(2011).
+60. Wang, C. M. et al. Puccinellia tenuiflora maintains alow Na+ level lundersalinityby limiting unidirectional Na+ influx resulting in
+ahigh selectivity forK+ overNa+. Plant Cell Environ 32, 486-496 (2009).
+61. Byrt, C.S.etal. TheNa(+) transporter, TaHKTI:5-D,limits shootNa(+) accumulation in bread wheat. PlantJ80, 516-526 (2014).
+62. Ma, Y., Wang, J, Zhong, Y, Geng, E, Cramer, G. R. & Cheng, Z.-M.M. Subfunctionalization ofcation/proton antiporter lgenes in
+grapevine in responseto salt stress in different torgans. Hort Res 2, 1-9 (2015).
+63. Yaish, M. W. & Kumar, PP Salt tolerance research in date palm tree (Phoenix dactylifera L.), past, present, and future perspectives.
+Front Plant Sci 6, 348 (2015).
+64. Reguera, M., Bassil, E. & Blumwald, E. Intracellular NHX-type cation/H+ antiporters in plants. Mol Plant 17,261-263 (2014).
+65. Rus, A. et tal. Natural lvariantsofAt HKT1 enhanceNa+ accumulation in two wild populations sofArabidopsis. PLOS Genetics s2,210
+(2006).
+66. Manavalan, L., Prince, S., Musket, T., Chaky, J., Deshmukh, R. & Vuong, T. Identification of Novel QTL Governing Root
+Architectural Traits in an Interspecific Soybean Population. PLOS One 10, e0120490 (2015).
+67. Diwan, N., Bouton, J. H., Kochert, G. & Cregan, P. B. Mapping of simple sequence repeat (SSR) DNA markers in diploid and
+tetraploid lalfalfa. Theor Appl Genet 101, 165-172 (2000).
+68. Singh, N. et al. Comparison of SSR and SNP markers in estimation of genetic diversity and population structure ofIndian rice
+varieties. PLOS One 8, 84136 (2013).
+69. Mittal, D., Sharma, N., Sharma, V. & Sopory, S., Sanan-Mishra N. Role of microRNAs in rice plant under salt stress. Annals of
+Applied Biology 198, 1-17 (2015).
+70. Qu, Y., Guan, R., Qiu, L. &Gilliham, M. Improving the Salinity ToleranceofSoybean. ISB News Rep 2015, 6-9(2015).
+71. Flowers, T.J.Improving crop salt tolerance.] Exp Bot 55, 307-319 (2004).
+72. Yu, L. H. et al. Arabidopsis EDT1/HDG11 improves drought and salt tolerance in cotton and poplar and increases cotton yield lin
+the field. Plant Biotechnol], doi: 10.1111/pbi.12358, 1-13(2015).
+73. Zhang, W.J., Yang, S. S., Shen, X. Y., Jin, Y.S., Zhao, H.J.& Wang, T. The salt-tolerance gene rstB can be used lasa selectable marker
+in plant genetic transformation. Mol Breed23, 269-277 (2009).
+74. Zhu, Z. & Wu, R. Regeneration oftransgenic rice plants using high salt for selection without the need for rantibiotics or herbicides.
+Plant Sci174, 519-523 (2008).
+75. Patil, G., Deokar, A., Jain, P. K., Thengane, R. J. & Srinivasan, R. Development of a phosphomannose isomerase-based
+Agrobacterium-mediated transformation system for chickpea (Cicerarietinum L.). Plant Cell Rep 28, 1669-1676 (2009).
+76. Thomas, G. W. Exchangeable Cations. In Methods ofSoil Analysis Part 2, 2nd ed. (edA(eds Page, A. L.). American Society of
+Agronomy, (1982).
+77. Bush, W.S. & Moore,J.H. Chapter 11: Genome-wide eassociation studies. PLOS Comput Biol8, e1002822 (2012).
+78. Page,L.T,Liechty, Z. S., Huynh, M. D.& Udall,JA. BamBam: genome sequence analysis stools forl biologists. BMCResNotes 7, 829
+(2014).
+79. Tamura, K., Stecher, G., Peterson, D., Filipski, A. & Kumar, S. MEGA6: Molecular Evolutionary Genetics Analysis version 6.0. Mol
+Biol Evol30, 2725-2729 (2013).
+80. Hall, TI BioEdit:a user-friendly biological sequence alignment editor and lanalysis program for Windows 95/98/NT. In Nucleic Acids
+Symposium Series (edA(eds) (1999).
+81. Liu, C.M. et al. SOAP3: ultra-fastGPU-based parallel alignment tool for short treads. Bioinformatics 28, 878-879 (2012).
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+12
+
+
+
+www.nature.com/scientificreports)
+82. Bradbury, ,P.J,Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y.& Buckler, E.S. TASSEL:software for rassociation mapping of
+complex traits in diverse samples. Bioinformatics 23, 2633-2635 (2007).
+83. Milne, I. etal. Flapjack-graphical genotype visualization. Bioinformatics 26, 3133-3134 (2010).
+84. Langewisch, T., Zhang, H., Vincent, R., Joshi, T., Xu, D. & Bilyeu, K. Major Soybean Maturity Gene Haplotypes Revealedby SNPViz
+Analysis of72Sequenced Soybean Genomes. PLOS One 9, e94150 (2014).
+Acknowledgements
+The authors gratefully acknowledge the financial support for this study provided by United Soybean Board
+and Missouri Soybean Merchandising Council. The authors acknowledge Dr. Li Song, Cuilan Liu and Dennis
+Yungbluth, Division of Plant Sciences, University of Missouri, for their technical assistance. The authors also
+wouldlike to thank Theresa A. Musket for editing the manuscript.
+AuthorContributions
+G.P., T.D. andT.V. designedthe experiment. G.P., T.D., TV,B.V.andJ.D.L. contributed to drafting the manuscript.
+G.P. performed WGRS data analysis, identification of structural-variants and SNP markers. T.D. conducted
+experimentfor salt phenotyping and data analysis. GP and TV designed KASPar assay. B.V. providedWGRS data.
+G.P. andJ.D.L. performed pedigree tracking. G.P., T.D. andJ.C. performed genotyping with KASPar assay. G.S.
+and H.T.N. conceived the study and editedthe manuscript. All authors read and approvedthe final manuscript.
+Additional Information
+Supplementary information accompanies this paper at htp/hwww.nature.com/sep
+Competing financial interests: The authors declare no competing financiali linterests.
+How to cite this article: Patil, G. et al. Genomic-asistedhuplotype analysis and the development ofhigh-
+throughput SNP markers for salinity tolerance in soybean. Sci. Rep. 6, 19199; doi: 10.1038/srep19199 (2016).
+This work is licensed under ra Creative Commons Attribution 4.0International License. The images
+or other third party material in this article are included lin the article's Creative Commons license,
+unless indicatedotherwise in the credit line; ifthe materialis not included under the Creative Commons license,
+users will need to obtain permission from the license holder to reproduce the material. To view a copy ofthis
+license, visit htpyl/creativecommons.orglicenscsbyf4.01
+SCENTIFICREPORT5161919 [DOI: 10.1038/srep19199
+13

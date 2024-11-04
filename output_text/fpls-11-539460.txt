@@ -1,0 +1,1929 @@
+frontiers
+ORIGINAL RESEARCH
+published: 09 September 2020
+in Plant Science
+doi: 1033894052020539460
+Coecklor
+Identification of Loci and Candidate
+Genes Analyses for Tocopherol
+Concentration of Soybean Seed
+Meinan Sui't, Yan Jing 1, Haiyan Li't, Yuhang Zhan', Jian Luo , Weili Teng 1, Lijuan Qiu?,
+Hongkun Zhengs, Wenbin Li', Xue Zhao 1* and Yingpeng Han 1*
+1Key Laboratory of Soybean Biology in Chinese Ministry of Education (Key Laboratory of Soybean Biology and Breeding/
+Genetics of Chinese Agriculture Ministry), Northeast Agricultural University, Harbin, China, 2Institute of Crop Science,
+OPEN ACCESS National Key Facility for Crop Gene Resources and Genetic Improvement (NFCRI) Chinese Academy ofAgricultural Sciences,
+Bejing, China, 3Bioinformatics Division, Biomarker Technologies Corporation, Bejing, China
+Edited by:
+Marcelino Perez De La Vega,
+Universidad de Leon, Spain Tocopherol (Toc) occurs in soybean seeds and is extracted together with the soybean oil.
+Reviewed by: Toc is utilized as an antioxidant in food and an additive in animal feed. A total of 180
+Zhiwu. Zhang, representative accessions and 144 recombinant inbred lines (RILS) from the cross of
+Washington State University, 'Hefeng 25' and 'OAC Bayfield' were selected to evaluate individuals and total Toc
+United States
+Javaid Akhter Bhat, concentrations in soybean seeds. The 180 soybean samples were sequenced by the
+Indian Agricultural Research approach of Specific Locus Amplified Fragment Sequencing (SLAF-seq). Atotal of 22,611
+Institute (IARI), India single nucleotide polymorphisms
+were developed. Nineteen
+trait
+Khalid Meksem,
+(SNPS)
+quantitative
+Southern Illinois University nucleotides (QTNS) were identified associated with individual or total-Toc based on
+Carbondale, United States genome-wide association analysis (GWAS). Among them, three QTNS located near
+"Correspondence: known QTLS, and 16 were novel. Eighteen QTLS and nine eQTLS were also detected
+Yingpeng Han
+hp234286@alyun.com by linkage mapping. The QTN rs9337368 on Chr.02 was colocalized according to the
+Xue Zhao linkage mapping of the RILS and genome-wide association analysis and regarded as a
+xuezhao@neau.educn stable locus for mining the candidate genes in association with Toc. A total of 42
+tThese authors have contributed
+equally to this work candidate genes near the 200 kbp flanking region of this identified locus were found.
+Upon a gene-based association, 11 SNPS from five genes out of the 42 candidates were
+Specialty section: detected. Expression level analysis of five candidate genes revealed that two genes were
+This article was submitted to significantly related to Toc content. The identified loci, along with the candidate genes,
+Plant Breeding,
+a section of the journal might be valuable for increasing the Toc concentration in soybean seeds and improving
+Frontiers in Plant Science the nutritional value of soybean oil.
+Received: 01 March 2020
+Accepted: 18. August 2020 Keywords: soybean seed, tocopherol concentration, genome-wide association analysis, linkage mapping,
+Published: 09 September 2020 candidate genes
+Citation:
+Sui M, Jing Y, LiH, Zhan Y, LuoJ,
+Teng W, Qiu L, Zheng H, Liw, Zhao X INTRODUCTION
+and Han Y (2020) Identification ofLoci
+and Candidate Genes Analyses for Soybean (Glycine max (L.) Merr.) is a major crop for oil and food. Soybean oil accounts for 30% of
+Tocopherol Concentration vegetable oil consumption. Tocopherols (Tocs) are extracted with soybean oil during seed
+of Soybean Seed.
+Toc concentrations account
+of
+Front Plant Sci 11:539460. processing.
+only 1.5% the total oil, but they are important for
+doi: 103389/p5.2020539460 providing oxidative stability (Tavva et al., 2007). Toc is also used as an antioxidant in foods
+Frontiers in Plant Science I www.frontiersin.org
+1
+September 2020 I Volume 11 I Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+and a nutrient additive in animal food to improve meat quality (HPT)) are associated with Toc accumulation. Increasing the
+(Munné-Bosch and Alegre, 2002). As a human diet supplement, transcript abundance of these genes is an effective approach for
+Toc can reduce cancer and help prevent cardiovascular diseases improving Toc concentration (Dwiyanti et al., 2007). The
+(Dwiyanti et al., 2007; Shaw et al., 2017). Toc is a member of the integrated analysis of genotype and transcript abundance data
+family of structurally-related compounds, including a-, B, Y associated with complex traits can be used to identify novel
+and 8-Toc, and four corresponding unsaturated derivatives, a-, genetic pathways involved in complex traits through QTL
+B, Y and 8-tocotrienols (Wan et al., 2008). All Tocs are expression (Wang et al., 2014). Wang et al. (2014) identified 33
+amphipathic molecules and contain a polar chromanol head eQTLs of four genes from the biosynthetic pathway of soybean
+group, which is derived from homogentisic acid and a lipophilic seeds isoflavone, and these were valuable for MAS.
+tail from phytyl-diphosphate (Maheswari et al., 2015; Park et al.,
+In this study, a GWAS of Toc concentration was performed
+2019). In soybean oil, the biological activities offour individual through 22,611 SNPs and 180 soybean accessions. Based on a
+Tocs vary with the number and position of methyl groups on the recombinant inbred line (RIL) population, a QTL analysis was
+chromanol ring (Bramley et al., 2000). The biological activities of conducted, and MPBQ, TC, and HPT in the Toc biosynthetic
+a-, B, Y, and 8-Toc are 100, 50, 10 and 3% equivalent to that of pathway were selected as the target genes (TGs) to analyze eQTL
+a-Toc activity (Kamal-Eldin and Appelqvist, 1996; Wan et al., that related to Toc concentration. This study aims to identify
+2008). The proportion of a-Toc is usually less than 10% of the stableloci and screen candidate genes that highly associated with
+total Toc in soybean seeds (Park et al., 2019). The demand for individual or total-Toc concentration.
+Toc has increased due to the increasing interest in functional
+foods and meat products. However, about 85% of Toc is derived
+from chemical synthesis nowadays (Dwiyanti et al., 2007). The MATERIALS AND METHODS
+biological activities of Toc that were synthesized by chemical
+account for only 50% of the natural a-Toc (Dwiyanti et al., Plant Material and Field Trials
+2007). Thus, increasing a-Toc proportion and total Toc A germplasm collection including 180 diverse soybean
+concentration of soybean seeds is important for soybean accessions, representing the genetic diversity inside and outside
+breeding programs.
+of China (Table S1), was selected to evaluate the individual and
+Toc content of soybean seeds is a complex quantitative trait total Toc and used for subsequent sequencing analysis and
+that is regulated by multiple genetic and environmental factors GWAS. Additionally, a cross population of 144 recombinant
+(Seguin et al., 2010). Genetic improvement on Toc content of inbred lines (RILS), derived from crossing between two elite
+soybean seeds by traditional selection is inefficient and time- soybean cultivars, 'Hefeng 25' (low Toc concentration) and
+consuming. Marker-assisted selection (MAS) is faster and more 'OAC Bayfield' (high Toc concentration), was used for
+accurate and is based on genotype instead of solely on subsequent linkage analysis (Tanner et al., 1998; Guan et al.,
+phenotype. Determining the genetic basis of Toc in soybean 2009). All samples were planted in Harbin for four consecutive
+seeds is critical for MAS. Two strategies, including traditional years (2014-2017). Field trials were performed using single-row
+quantitative trait locus (QTL) mapping and genome-wide plots (3 m long and 0.65 m between rows) and a randomized
+association study (GWAS), were utilized to determine the complete block design (three replications per test environment).
+genetic basis of Toc. For bi-parent QTL mapping, only a After reaching full maturity, ten randomly selected plants per
+limited number with famous strains that have genetic basis row in each plot were collected and used to evaluate individual
+(Keszthelyi A.S, "OAC Bayfield' and "Beifeng 9) have been and total Toc concentration. Additionally, for the eQTL analysis,
+analyzed (Li et al., 2010; Shaw et al., 2016). Nearly all of these immature seeds of the RILS at the R7 reproductive stage were
+identified QTLS were obtained through a low-resolution genetic harvested and quantified in 2017 for transcript abundances (Li
+map, which was constructed by lower density simple-sequence et al., 2016). Furthermore, sixteen characteristic germplasms
+repeat (SSR) markers (Li et al., 2010; Shaw et al., 2016). These within the association panel were used to analyze the
+identified QTLs were difficult to use for MAS. Complementary expression levels of candidate genes, including relatively higher
+to linkage analysis, genome-wide association study (GWAS) accessions (Line 1 to Line 8) and lower accessions (Line 9 to Line
+with a population of unrelated lines and high-density single 16) of a-Toc, YToc, 8-Toc, and total Toc contents were planted
+nucleotide polymorphism (SNP) markers could identify causal in 2018. Immature seeds were harvested at the R7 reproductive
+genes for a broad range ofcomplex traits. Many important traits stage, which stage showed the highest content of Toc in grains,
+including soybean cyst nematode (Han et al., 2015; Zhang et al., for the determination of Toc content and expression analysis of
+2016), seed weight (Liu et al., 2017), fatty acid content (Zhao genes (Li et al., 2016).
+et al., 2019), protein and oil (Li et al., 2018; Lee et al., 2019)
+have been reported in the Soybase database. However, no Sample Preparation and High-
+studies for GWAS of Toc concentration in soybean seeds have Performance Liquid Chromatography
+been reported.
+(HPLC) Analysis
+The Toc biosynthetic pathway to higher plants is known, and Extraction and determination of soybean seed Toc were
+relatively few genes methyl-6-phytyl-1, 4-benzoquinone conducted based on methods described by Ujiie et al. (2005). In
+(MPBQ), tocopherol cyclize (TC) and Phytyl transferase detail, 5 g test samples were ground to a fine powder. A mixture of
+Frontiers in Plant Science - www.frontiersin.org
+2
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+0.1 g soybean flour, 0.05 g ascorbic acid, and 3 ml of 80% (w/v) length, from each accession based on preliminary analysis of the
+ethanol was stirred in a 5 ml tube for 10 S, sonicated for 15 min, reference genome. These tags were distributed in unique genomic
+and stirred for 10 min after adding 2 ml ofhexyl hydride at room regions of the 20 soybean chromosomes. The sequencing libraries
+temperature. The slurry was centrifuged at 13,000 g for 15 min, of each accession were defined based on the sequencing tags. For
+and then the clear aliquot was filtered through a 0.45-um PTFE each accession library, the 45bp sequence reads at both ends ofthe
+filter. The supernatant was used to measure individual and total sequencing tags were obtained through a barcode method
+Toc using HPLC (Dionex ASI-100, USA) with a C18 reverse- combination with Illumina Genome Analyzer II system
+phase column (250 mm length and 4.6 um particle sizes). The (Illumina Inc., San Diego, CA, USA). The alignment between
+measurement conditions (solvent A: 100% methanol, flow rate: the raw paired-end reads and soybean reference genome was
+1.5 ml min-, the temperature of the column: 40°C; and the performed using Short Oligonucleotide Alignment Program 2
+injection volume: 20 ul) were set. A senex fluorescent light a (SOAP2) software. The raw read in the same genomic position
+detector was used with excitation at 295 nm and emission at 330 were used to define the SLAF groups based on more than 58,000
+nm. The standard concentrations ranged from 5 to 100 UM, and high-quality SLAF tags from each tested sample. The SNPS were
+10 ul volumes (5-1,000 pM) were injected. FR spectra were based on MAF X 0.05. The genotype was regarded as heterozygous
+recorded, and the responses were integrated using Dionex 2.0 when the depth of the minor allele/the total depth of the sample
+software. The external standard method was used for the was more than 1/3 (Han et al., 2016).
+quantification of Toc in soybean seeds.
+Twenty soybean germplasms (10 lines with higher level and 10
+lines with lower level of Toc concentration) were selected for a
+genome re-sequencing 10-fold in depth using an Illumina HiSeq
+Real-Time PCR of the Target Genes
+2500 sequencer. Paired-end re-sequencing reads were mapped to
+Involved in the Toc Biosynthetic Pathway
+the reference genome via BWA (Version: 0.6.1-r104) using default
+Some target genes (TGs) involved in the biosynthesis pathway of parameters. The BAMformat ofthese mappedreads was converted
+soybean tocopherols (https/www.keggjp) were selected for via SAMtools48 (Version: 0.1.18) software, and unmapped and
+investigation of transcript abundance. Total RNA was isolated non-unique reads were filtered. Duplicated reads were further
+from soybean seeds samples of all the 144 RIL individuals at the filtered with the Picard package (picardsourceforge.net,
+R7 stage using plant RNA purification reagent (TIANGEN, Version:1.87). The BEDtools (Version: 2.17.0) coverage Bed
+DP432), and then we synthesized the first-strand CDNA based program was used for computing the coverage of sequence
+on the TIANScript RT Kit (TIANGEN, KR104). The transcript alignments. A sequence was defined as "absent" when coverage
+abundances of the TGs were determined by real-time PCR was lower than 90% and "present" when coverage was higher than
+analysis, and the assay was performed on an ABI 7500 Fast 90%. SNPS were identified through the Genome Analysis Toolkit
+using SuperReal PreMix Plus (SYBR Green) Kit (TIANGEN, (GATK, version 2.4-7-g5e89f01) and SAMtools (Zhou et al., 2015).
+FP205) according to manufacturer instructions.
+Only the SNPS which were detected by both methods were further
+Each reverse transcription was performed with approximately analyzed. SNPS with allele frequencies lower than 1% in the
+1 ug oftotal RNA. About 1 ul of the first-strand CDNA, 0.2 UM population were discarded. The annotations of SNPS were
+of each primer, 0.4 ul of Dyell, and 10 ul of SYBR Green PCR conducted based on the soybean reference genome using the
+Master Mix, were used for each amplification reaction of 20 ul. package ANNOVAR (Version: 2013-08-23).
+The real-time PCR programs were as follows: 95°C for 30 S, for
+holding stage; 95°C for 3 S, 60°C for 30 S, 72°C for 30 S for 40
+cycles, for cycling stage; 95°C for 15 S, 60°C for 1 min, 95°C for Population Structure Evaluation and
+30 S and 60°C for 15 s for melt curve stage. Three technical Linkage Disequilibrium (LD) Analysis
+replicates and three biological duplications were conducted for Principal component analysis (PCA) programs of Software
+each sample, and the relative transcript levels were calculated package GAPIT (Lipka et al., 2012) were used to analyze the
+using the comparative threshold method (2-AACT) with population structure of the natural panel. Software TASSEL
+GmActin4 (GenBank accession no. AF049106) as the internal version 3.0 (Bradbury et al., 2007) was used to determine LD
+standard control. The sequences of the primer pairs used to across the soybean genome with these SNPS (MAF N 0.05 and
+amplify these genes are listed in Table S2.
+missing data < 3%). Compared with the GWAS, missing SNP
+genotypes were not imputed with the major allele before LD
+analysis. Parameters in the program included MAF (2 0.05) and
+SNP Genotyping Data Collection
+the integrity of each SNP (> 80%).
+The genomic DNA of the whole association panel was isolated
+using the CTAB method described by Han et al. (2015) and then
+sequenced based on the specific-locus amplified fragment Genome-Wide Association Analysis
+sequencing (SLAF-seq) approach (Sun et al., 2013). A group of The association signals of individuals and total Toc were
+digest enzymes Mse I (EC 3.1.21.4) and Haelll (EC:3.1.21.4) identified based on 22,611 SNPS and 180 tested soybean
+(Thermo Fisher Scientific Inc., Waltham, MA, USA.) were used samples with the compressed mixed linear model (CMLM) in
+to obtain more than 50,000 sequencing tags, each 300-500 bp in GAPIT (Lipka et al., 2012). The significance threshold for the
+Frontiers in Plant Science I www.frontiersin.org
+3
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+association between SNP and traits was determined by -logio(P) the expression analysis of target genes involved in the Toc
+X 3 (Yan et al., 2017).
+biosynthetic pathway. The sequences of the primer pairs used
+to amplify these genes were listed in Table S2.
+QTL and eQTL Mapping Based on Linkage
+Analysis for Soybean Toc Concentration-
+Statistical Analysis
+Related
+A statistical analysis was performed by SPSS 22.0. Descriptive
+QTL and eQTL analyses were performed using the composite statistics such as minimum, maximum, mean, coefficient of
+interval mapping (CIM) method implemented with QTL variation, skewness, and kurtosis were calculated for the
+IciMapping v4.1 using stepwise regression for cofactor selected population, including the tocopherol contents of 178
+selection (Meng et al., 2015). The LOD score threshold was soybean germplasms in four environments, the tocopherol
+determined based on the results of 1,000 permutations for each contents of RILS and the expression patterns of three genes
+trait. The percentage of phenotypic variance and additive effect (MPBQ, TC, HPT) in RILS at R7 stage. In addition, descriptive
+explained by a QTL for a trait was also estimated.
+statistics such as minimum, maximum, mean, standard error,
+and coefficient of variation were calculated for expression levels
+of candidate genes in 16 characteristic soybean germplasms.
+Prediction of Candidate Genes Controlling Analysis of Pearson's correlation coefficient among tocopherol
+Toc Concentration of Soybean Seed
+contents related to expression levels of candidate genes were
+Candidate genes, located in the 200-kb genomic region up- and estimated. The degree of correlation was divided into two levels,
+down-stream of each peak SNP, were classified and then including significant correlation (P < 0.05) and extremely
+annotated with the soybean reference genome through the significant correlation (P < 0.01).
+methods developed by Cheng et al. (2017). The SNP
+variations that occurred in the regions of candidate genes,
+including exon regions, splicing sites, 5'UTRs and 3'UTRS, RESULTS
+intron regions and upstream and downstream regions, were
+detected via genome re-sequencing data. A candidate gene- Phenotype Variation Analysis of the
+based association was conducted based on these SNPs and Germplasm Collection and the RILS
+phenotype values of 20 soybean germplasms in different years The phenotypic values were measured to analyze the variation
+by using the General Linear Model (GLM) model in TASSEL distribution of the association panel at Harbin from 2014 to 2017
+software 3.0 to identify haplotypes of candidate genes that and the RIL population at Harbin in 2017 (Tables 1 and 2). In the
+related to Toc (Bradbury et al., 2007). Significant SNPS association panel, the individual and total Toc concentration of the
+related to the target traits were claimed when the test statistic 180 testedsoybean lines varied greatly, including 8-Toc (from 34.90
+was P < 0.01. Permutation test was used to control the false to 235.10 ug/g), *Toc (from 60.20 to 279.40 ug/g), a-Toc (from
+positive results (Chaubey et al., 1993). The expression levels of 1.00 to 69.20 ug/g) and total-Toc (from 80.08 to 497.10 ug/g). The
+five candidate genes in 16 characteristic soybean germplasms at contents of112.36, 168.04,21.59,and 301.34 ug/g were the means of
+R7 stage were detected by real-time PCR to further analyze the four years of data (Table 1). Of the RIL population, these
+candidate genes. The method of real-time PCR was the same as concentrations also varied over a wide range with averages of68.95,
+TABLE 11 Basic genetic parameter statistics for tocopherol in the tested soybean population (n =180).
+Trait
+Year
+Location
+Min (ug/g)
+Max (ug/g)
+Mean (ug/g)
+CV (%)
+Skewness
+Kurtosis
+8Toc
+2014
+Harbin
+52.68
+130.65
+81.02
+2.22
+0.77
+0.75
+2015
+Harbin
+43.48
+215.10
+127.27
+9.57
+0.45
+-0.05
+2016
+Harbin
+34.90
+217.70
+108.88
+8.96
+0.69
+0.92
+2017
+Harbin
+65.70
+235.10
+132.29
+13.11
+0.58
+-0.04
+yToc
+2014
+Harbin
+105.94
+193.58
+150.53
+2.89
+0.05
+-0.18
+2015
+Harbin
+86.97
+244.70
+165.11
+6.78
+0.34
+0.08
+2016
+Harbin
+83.00
+241.40
+176.16
+7.24
+0.04
+0.25
+2017
+Harbin
+60.20
+279.40
+180.38
+11.13
+-0.11
+0.95
+a-Toc
+2014
+Harbin
+6.15
+48.94
+22.77
+0.70
+0.39
+0.03
+2015
+Harbin
+2.96
+48.43
+18.40
+0.58
+0.82
+0.84
+2016
+Harbin
+1.00
+54.40
+22.53
+1.68
+0.55
+-0.53
+2017
+Harbin
+1.00
+69.20
+22.65
+2.64
+0.73
+-0.01
+total-Toc
+2014
+Harbin
+183.62
+332.03
+254.75
+7.19
+0.18
+-0.09
+2015
+Harbin
+80.08
+416.04
+307.72
+21.11
+-1.23
+4.99
+2016
+Harbin
+130.30
+405.80
+307.56
+15.43
+-0.87
+2.25
+2017
+Harbin
+222.50
+497.10
+335.32
+22.37
+0.18
+0.66
+Min, minimum; Max, maximum; CV, coefficient of variation.
+Frontiers in Plant Science I www.frontiersin.org
+4
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+TABLE 21 Total and individual tocopherol content of the RIL population.
+Traits
+Min(ug/g)
+Max(ug/g)
+Mean(ug/g)
+CV (%)
+Skewness
+Kurtosis
+8Toc
+10.78
+122.70
+68.95
+30.32
+0.03
+-0.46
+yToc
+59.81
+195.97
+139.82
+19.57
+-0.32
+0.08
+a-Toc
+0.10
+25.53
+9.90
+93.46
+0.27
+-0.92
+total-Toc
+66.34
+309.56
+222.43
+18.08
+-0.52
+1.42
+MPBQ expression
+0.46
+267.61
+59.44
+97.07
+1.08
+1.40
+HPT expression
+1.18
+39.66
+13.39
+76.61
+0.89
+0.47
+TC expression
+10.06
+3236.01
+1047.16
+76.23
+1.04
+1.14
+Min, minimum; Max, maximum; CV, coefficient ofvariation.
+139.82, 9.90, and 222.43 ug/g (Table 2). The coefficient ofvariation, expressions. No significant skewness or kurtosis of the three
+skewness, and kurtosis of the association panel and RIL population expressions was observed among the RILS; thus these values were
+are shown in Tables 1 and 2. Continuous distributions with no suitable for the eQTL analysis.
+significant skewness or kurtosis of individual and total Toc
+concentration for the association and RIL populations showed
+that these phenotypic values were appropriate for the subsequent SNP Genotyping of the Association Panel
+GWAS and QTL analysis (Table 1, Figure 1 and Table 2). For the association panel, the genomic DNA of the 180 soybean
+Additionally, the transcript abundances of three TGs (MPBQ, samples was sequenced based on the SLAF-seq approach. A total
+HPT, and TC) among the RILS at the R7 stage were of 22,611 SNPS distributed on 20 soybean chromosomes were
+measured (Table 1). Among these, the variation range of TC screened with MAF 2 0.05 and missing data < 3%. These SNPS
+expression of the RILs was greater than the MPBQ and HPT spanned 947.07 Mb, which covered about 86.10% of the entire
+#8-Toc content in 2014
+"y-Toc content in 2014
+90
+80
+#6-Toc content in 2015
+"y-Toc content in 2015
+80
+=8-Toc content in 2016
+70
+"y-Toc content in 2016
+70
+8-Toc content in 2017 a 60
+"y-Toc content in 2017
+60
+50
+50
+I
+40
+of 40
+30
+30
+20
+I
+- - -
+I
+10
+0
+53.1
+89.5 125.9 162.3 198.7 235.1
+80.14 120.01 159.88 199.75 239.63 279.50
+6-tocopherol content
+y-tocopherol content
+=a-Toc content tin 2014
+stotal-Toc content in 2014
+60
+100 -
+a-Toc content tin 2015
+stotal-Toc content in 2015
+90
+50
+"a-Toc contentin 2016
+"total-Toc content in 2016
+"a-Toc contentin: 2017 : 80
+"total-Toc content in 2017
+40
+70
+60
+30
+I
+50
+of -
+40
+20
+30
+20
+I
+10
+10
+
+0
+7.2
+19.6
+32
+44.4
+56.8
+69.2
+117.99 193.81 269.63 345.46 421.28 497.10
+a-tocopherol content
+total-tocopherol content
+FIGURE 1 I Distribution of tocopherol content among 180 soybean accessions in four tested environments.
+Frontiers in Plant Science I www.frontiersin.org
+5
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+OMb
+6Mb
+13Mb 19Mb 26Mb 32Mb 39Mb 45Mb
+52Mb 58Mb
+r
+T
+1
+Chr1
+Chr2
+Chr3
+Chr4
+Chr5
+Chr6
+Chr7
+Chr8
+Chr9
+Chr10
+-
+IIN
+Chr11
+Chr12 I
+0
+7
+Chr13
+14
+Chr14 -
+21
+Chr15
+28
+Chr16
+35
+Chr17
+42
+49
+Chr18
+56
+Chr19
+63
+Chr20
+>63
+FIGURE 2 I SNP density and distribution across the 20 soybean chromosomes.
+soybean genome (Figure 2). The number of SNPS varied across mapping (Figures 4B, C). In addition, a lower level of genetic
+the 20 soybean chromosomes, and the average number of SNPS relatedness was found based on the distribution of the pairwise
+per chromosome was 1130. The average marker density was relative kinship coefficients among the 180 tested accessions
+approximately one SNP every 41.89 kb genome-wide.
+(Figure 4D). Based on the CMLM model (Lipka et al., 2012),
+19 SNP loci identified in at least two years were considered to be
+associated with individual or total Toc of soybean seeds. They
+Polymorphic SSRs for the RIL Population
+distributed on ten different chromosomes (Chr.), including
+Underlying the SSR markers mapped on the 20 LGs of soybean Chr.01, Chr.02, Chr.06, Chr.07, Chr.09, Chr.11, Chr.15,
+(Cregan et al., 1999; Song et al., 2004), 69 polymorphic SSRs Chr.17, Chr.18, and Chr.20 (Figure S1 and Table 3). Among
+between the two parental genotypes in this study were the new them, three QTNS located near the SNP markers of rs37703714
+markers compared to the ones on the genetic map published by Li on Chr.17, rs33069111, andrs35562231 on Chr.20, were near the
+et al. (2010) and were applied in screening the RIL population. The genomic region of known QTLs for Toc concentration. The
+genotypes of the recombinants were determined on the basis of other 16 QTNS were novel Toc-related loci (Table 3). Of these
+these polymorphic markers and used to encrypt the reportedgenetic QTNS, 15 loci located on different genomic regions of nine
+map for further QTL and eQTL analysis (Figure 3 and Table S3). chromosomes were identified to be associated with total Toc of
+soybean seeds. The numbers ofthe QTNS correlated with a-Toc,
+yToc and 8-Toc were 2, 5, and 12, respectively. The allele effects
+Genome-Wide Association of Toc
+of these identified QTNS showed that different alleles for each
+Concentration in Soybean Seeds
+QTN could significantly affect the Toc content of the tested
+The average distance of LD decay was analyzed to describe the soybean samples (Table 3).
+mapping resolution of GWAS. The mean LD decay of the panel
+was estimated as 223.2 kb when R? dropped to 0.4 (Figure 4A).
+Principal component (PC) and kinship analyses were also Linkage Mapping for Soybean Seeds Toc
+conducted by the 22,611 SNPS. The first three PCs accounted Concentration
+for 12.83% of the overall genetic variation, and the inflection For the linkage analysis, 18 QTLS (a-Toc, nine QTLs; 8-Toc, four
+point occurred at PC3, which indicated that the first three PCs QTLS; yToc, three QTLs; total Toc, two QTLs) mapped on ten
+could dominate the population structure for the association different chromosomes were detected using the CIM method
+Frontiers in Plant Science I www.frontiersin.org
+6
+September 2020 I Volume 11 I Article 539460
+
+
+
+I
+&
+Gm02
+Gm04
+Gm06
+Gm10
+Gm11
+P
+5
+(LG.D1b)
+(LG.C1)
+(LG.C2)
+(LG.O)
+(LG.B1)
+I
+Satt542
+0.0 A Sat_311
+0.0 Satt371
+0.0-A Sat_109
+0.0 Sat_095
+5o7
+227 Satt195
+19.9 Satt202
+18.0 Satt153
+I
+56.7 Satt646
+39.11 Satt319
+44.2- Satt592
+-
+740-H Satt190 E 45.4WA Sat 312
+93.9- Satt633
+82.9 Satt638
+100.2- Satt338 I
+Satt277
+1024-H Satt608 E 124.8-
+- 3 le 49.1 1H
+E
+Satt665
+107.4 Satt180
+52.9 H Satt643 I E
+111.11 Satt345 E
+1341 Satt682
+Dy 62.6 E Sat_213
+175.3 Sat_321 I
+184.7- Sat_331
+E
+64.4 - Sat_246 F
+de
+722 - Satt286
+Gm15
+78.1 J EN Satt376
+Gm18
+I
+I
+(LG.E)
+97.41 R Sat 238
+(LG.G)
+0.01 SSR15_1524
+1129 Satt460
+0.0 A + Satt303 a
+4.6 SSR15_1508
+136.0 Sat_062
+I
+SSRO2
+6.9 SSR15_1476
+I
+48.7 Satt472
+D E
+8.51 SSR15_1491
+Gm13
+822 Satt038 e
+L- 1539
+15.1 SSR15_1429
+SSRO2 1740 o 25.2 SSR15_1378
+(LG.F)
+129.5- Sat 1641 E
+SSRO2_0458 SSRO2 1774
+a 29.7 E SSR15_1282
+149.6 Satt012
+SSRO2 0520 I I El 36.2 SSR15_1231
+0.0 - Sat_387
+158.5 Satt199
+Gm20
+I
+Satt005
+45.7 E SSR15_1251
+8
+o
+Satt579
+80
+I
+I
+70.2 SSR15_0680
+66.4 Satt252
+(LG.I)
+Satt282 -
+75.0- SSR15_0712
+70.4 Satt149
+Gm19
+-
+11201 Sat_169 Satt041
+84.6 E SSR15_0745
+101.8 Sat 262
+(LG.L)
+0.0- Sat_170
+445.3 1 E Satt546
+94.2 N SSR15_0760
+123.6 Satt030
+470.6 L Sat_139
+115.8-  SSR15_0435
+149.0 Satt649
+0.0 -A Satt523
+9
+508.51 Satt274
+122.7- SSR15_0454
+166.8 Satt569 F
+74.9
+Satt172
+SSR15_0401
+172.4 Satt343
+36.7 Satt156
+Sc_189
+le
+8218 Satt266
+134.84
+203.7 Satt657 E
+Satt076 116.8- Satt239
+557.8- SSRO2 0908
+N SSR15_0385
+9
+51.0
+146.3 SSR20_1252
+598.51 Satt428
+Satt490
+I
+SSR15_0305
+260.6
+67.5 Satt561 158.7 SSR20_1237
+633.3 SSRO2 0335 E 184.1 Satt355 -
+68.8
+E 1682-1 SSR20_1220
+651.7 SSRO2_0340
+305.0
+Satt527 I
+=
+663.94 SSRO2_0307 I E E 217.7 Satt685
+Satt510 2 101.3 Satt664 - E
+694.61 SSRO2
+240.3 Satt706
+a 344.4 Sat_133
+241.8 SSR20_0096
+734.1 SSRDZO1S : E 280.1 Satt651
+145.3 Sat_191
+763.2- SSRO2_0146
+:
+FIGURE 31 Summary of eQTL and QTL locations detected in the soybean genome.
+P
+I
+a
+I
+I
+I
+I
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+A
+B
+1
+0.9 -
+0.8
+8
+0.7
+e
+0.6
+& 0.5
+&
+de
+0.4
+8 o
+0.3
+460 8
+8
+0.2
+0.1
+F
+9
+-40
+0
+-80 -60
+0
+1000000
+2000000
+3000000
+Edo -40 -20 0 20 40 60 80
+LD decay distance (Mb)
+PC1
+C
+D
+8
+8
+I 8
+8
+8
+2
+4
+6
+8
+10
+PCs
+FIGURE 41 The linkage disequilibrium (LD), principal component, and kinship analyses of soybean genetic data. (A) The linkage disequilibrium (LD) decay of
+genome-wide association study (GWAS) population. (B) The first three principal components of the more than 20,000 SNPS used in the GWAS. (C) Population
+structure of soybean germplasm collection as reflected by principal components. (D) A heatmap of the kinship matrix of the 180 soybean accessions calculated from
+the same SNPS.
+(Meng et al., 2015). The phenotypic variation (PVE) explained account for 2.07, 6.53, and 7.15% of the phenotypic variation,
+by these QTLs was analyzed with the value range of0.60-17.97% respectively. The other six eQTLs (qTCC1_1, qTCE_1, qTCG_1,
+(Table 4). Additionally, additive effects analysis for individual or qTCG_2, qTCI_1, and qTCI_2) underlying TC transcript
+total Toc content was also performed. As shown in Table 4, two abundance could explain the phenotypic variations from 2.86
+QTLs located in the Satt303-Satt472 and Satt472-Satt038 to 7.20%. Of them, qTCG_2 located in the interval of Satt472-
+interval on Chr.18 for 8-Toc and total-Toc showed a higher Satt038 on Chr.18 showed a higher LOD score with the value
+positive additive effect. In contrast, two QTLs located in the of 6.18.
+interval of SSRO2.0458-S5R02.0520 on Chr.02 and Satt657-
+Satt490 on Chr.13 exhibited a higher negative additive effect for Analysis of the Candidate Genes
+8-Toc and total-Toc, respectively. To confirm the stable loci for Regulating Toc Concentration on Chr.02
+the Toc concentration, an eQTL analysis was conducted based on For association analysis, a total of 177 candidate genes were
+the same SSR markers and the transcript abundance of the TGs screened in the 200-kbp flanking region of the identified
+(Table 5). Finally, nine eQTLs mapped on five different nineteen QTNS (Table S4). Except for the seven genes with an
+chromosomes (Chr.02, Chr.04, Chr.15, Chr.18, and Chr.20) unknown or uncharacterized protein domain, the other 170
+were detected. Among these, qMPBQD1b_1 on Chr.02, candidates were classified and were mainly related to secondary
+qMPBQE_1 on Chr.15, and qMPBQI_I on Chr.20 were metabolism, lipid metabolism, signaling, cell, protein synthesis/
+associated with MPBQ transcript abundance and could modification/degradation, and RNA regulation of transcription
+Frontiers in Plant Science I www.frontiersin.org
+8
+September 2020 I Volume 11 I Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+TABLE 3 I All significant SNPS for tocopherol traits detected by GWAS.
+SNP
+Chr. Position Year Trait -log10(P) MAF R?
+KnownQTL
+Allele1/Allele2 Average tocopherol Average
+of accessions with tocopherol
+Allele1/Allele2 of population
+(ug/g)
+(ug/g)
+rs2162876 1 2162876 2015 a-tocopherol 4.35 0.06 0.24
+CIA
+23.25/18.11
+18.40
+2017 a-tocopherol 3.43 0.07 0.40
+37.41/23.14
+24.17
+rs5437879 1 5437879 2015 total-tocopherol 3.17 0.06 0.13
+AC
+343.91/305.56
+307.72
+2015 a-tocopherol 4.36 0.06 0.24
+25.91/17.95
+18.40
+rs5957934 1 5957934 2014 S-tocopherol 4.05 0.41 0.32
+G/A
+86.95/76.85
+81.02
+2016 8-tocopherol 3.04 0.39 0.19
+120.20/101.54
+108.88
+rs23631390 1 23631390 2015 total-tocopherol 3.85 0.05 0.14
+G/A
+311.36/203.01
+307.72
+2015 ytocopheral
+5.26 0.05 0.25
+166.20/156.08
+165.11
+rs56799896 1 56799896 2017 total-tocopherol 3.08 0.06 0.22
+T/G
+337.83/336.20
+336.08
+2017 8-tocopherol 3.83 0.06 0.24
+134.04/131.06
+130.15
+rs9337368 2 9337368 2015 total-tocopherol 3.46 0.06 0.13
+AT
+311.06/226.82
+307.72
+2015 8-tocopherol 4.59 0.06 0.29
+128.84/88.04
+127.27
+rs11882008 6 11882008 2014 total-tocopherol 3.02 0.08 0.26
+AIC
+272.69/253.07
+254.75
+2014 rtocopheral
+3.02 0.08 0.33
+160.84/149.58
+150.53
+rs36073631 7 36073631 2017 total-tocopherol 4.08 0.04 0.25
+C/G
+350.50/335.09
+336.08
+2017 S-tocopherol 3.20 0.04 0.22
+136.16/129.73
+130.15
+rs5307458 9 5307458 2017 total-tocopherol 3.72 0.19 0.24
+T/G
+339.28/335.61
+336.08
+2017 S-tocopherol 4.35 0.19 0.25
+122.56/132.39
+130.15
+rs5553040 9 5553040 2014 8-tocopherol 3.58 0.06 0.31
+A/G
+81.90/65.39
+81.02
+2016 8-tocopherol 3.13 0.06 0.19
+111.09/73.87
+108.88
+rs20628671 11 20628671 2017 total-tocopherol 3.40 0.05 0.23
+T/G
+359.43/334.12
+336.08
+2017 8-tocopherol 4.29 0.05 0.25
+137.23/130.24
+130.15
+rs30665207 15 30665207 2016 total-tocopherol 4.23 0.07 0.15
+CIA
+311.22/255.44
+307.56
+2016 y-tocopheral
+3.05 0.07 0.26
+178.01/148.12
+176.16
+rs14108110 17 14108110 2015 total-tocopherol 5.27 0.19 0.18
+T/C
+316.41/270.88
+307.72
+2015 8-tocopherol 3.45 0.19 0.26
+130.29/113.97
+127.27
+rs14593163 17 14593163 2015 total-tocopherol 5.18 0.19 0.18
+T/G
+316.53/271.50
+307.72
+2015 8-tocopherol 3.49 0.19 0.26
+130.19/115.46
+127.27
+rs14680873 17 14680873 2015 total-tocopherol 5.02 0.19 0.17
+A/G
+316.27/271.50
+307.72
+2015 8-tocopherol 3.29 0.19 0.26
+129.96/115.46
+127.27
+rs37703714 17 37703714 2016 total-tocopherol 3.16 0.09 0.12 Seed tocopherol, gamma
+G/A
+310.99/267.81
+307.56
+2016 y-tocopheral
+3.23 0.09 0.26 3-6
+178.49/156.27
+176.16
+rs14143396 18 14143396 2014 8-tocopherol 3.26 0.18 0.31
+T/G
+87.53/79.35
+81.02
+2017 S-tocopherol 3.38 0.19 0.23
+146.46/125.66
+130.15
+rs33069111 20 33069111 2014 total-tocopherol 4.29 0.06 0.29 Seed tocopherol, total 3-3
+A/G
+290.83/252.11
+254.75
+2014 8-tocopherol 3.63 0.06 0.31
+98.16/79.80
+81.02
+rs35562231 20 35562231 2015 total-tocopherol 3.51 0.23 0.14 Seed tocopherol, total 3-3
+AT
+311.74/293.70
+307.72
+2015 y-tocopheral
+3.82 0.23 0.21
+169.48/150.07
+165.11
+TABLE 41 QTL information mapped in RIL population.
+Trait Gm (LG) Position
+Marker interval
+Physical location ofMarkers LOD Phenotypic variationEffect (%) Additive effect
+8-Toc 2(D1b) 386 SSRO2_0458- SSRO2_0520 8328227-9943059
+5.2282
+9.8437
+-13.718
+SToc 2(D1b) 652 SSR02.0040-S5R02.007 6308278-5612501
+2.8376
+4.3066
+7.2472
+a-Toc 2(D1b) 353 SSROQ.1774-SSRO2.0458 50374310-8328227
+2.0848
+1.9812
+-3.6801
+yToc 2(D1b) 755 SSRO20179-SSR02.0146 3040487-2464018
+2.1762
+10.9363
+-10.6354
+a-Toc 4(C1)
+104 Satt338-Satt180
+46964891-47299563
+3.7889
+3.7726
+-5.0428
+7Toc
+6(C2)
+59 Satt643-Sat_213
+16057506-14601388
+2.2208
+5.7178
+-7.8969
+a-Toc 10(0)
+141 Satt345-Sat_321
+12172070-2471540
+3.4919
+5.0583
+5.8561
+a-Toc 11(B1)
+53 Sat_095-Satt638
+29344200-6961206
+3.609
+4.8946
+5.7481
+total-Toc 13(F)
+214 Satt657-Satt490
+38558064-35557764
+2.2513
+10.5033
+-16.3965
+a-Toc
+13(F)
+35 Sat_387-Satt252
+10787056-5376564
+3.0948
+4.9516
+5.7792
+8-Toc
+15(E)
+184 SSR15_0305-Sat1355
+6708675-32216247
+2.8183
+4.2166
+-11.5413
+8Toc
+18(G)
+24 Satt303-Satt472
+22150272-58136231
+2.9879
+17.9714
+15.3252
+total-Toc 18(G)
+75 Satt472-Satt038
+58136231-1343760
+2.2344
+8.2001
+14.5236
+a-Toc 18(G)
+96 Satt038-Sat_164
+1343760-53656448
+6.0305
+4.3014
+5.3941
+yToc
+18(G)
+82 Satt472-Satt038
+58136231-1343760
+3.2412
+6.9263
+8.6665
+a-Toc
+19(L)
+86 Satt527-Satt664
+42835228-46109700
+2.9972
+4.2565
+5.3898
+a-Toc
+200)
+41 Sat_170-Sct_189
+38657685-45550622
+2.7995
+4.9808
+-5.8007
+a-Toc
+200)
+116 Sct_189-Satt239
+45550622-24129710
+2.1183
+0.5989
+-2.9987
+Frontiers in Plant Science I www.frontiersin.org
+9
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+TABLE 5 I The eQTLS for target genes of MPBQ, TC and HPT.
+Trait
+eQTL
+Gm (LG)
+Marker
+Marker interval
+Position
+LOD
+PVE (%)
+MPBQ
+qMPBQD1b_1
+2(DIb)
+SSRO2_0458
+SSRO2045-SSR0Q2.0620
+376
+3.02
+2.07
+qMPBQE_1
+15(E)
+Satt355
+Satt355-Satt685
+193
+2.82
+6.53
+qMPBQL_1
+200)
+Sct_189
+Sct_189-Satt239
+103
+3.82
+7.15
+TC
+qTCC1_1
+4(C1)
+Satt338
+Satt338-Satt180
+103
+2.53
+3.49
+QTCE_1
+15(E)
+Satt355
+Satt355-Satt685
+195
+3.46
+7.20
+QTCG_1
+18(G)
+Satt303
+Satt303-Satt472
+12
+3.40
+6.71
+QTCG_2
+18(G)
+Satt472
+Satt472-Satt038
+82
+6.18
+2.86
+QTCL1
+200)
+Sct_189
+Sct_189-Satt239
+106
+4.18
+6.52
+QTCL2
+200)
+Satt239
+Sat1239-SSR20.1252
+124
+3.46
+5.34
+eQTL: The nomenclature of the eQTL included four parts: QTL, trait, linkage group name and QTL order in the linkage group, respectively.
+Position: from the left marker of the interval on each linkage group.
+(Figure S2). Of these genes, some were directly or indirectly Glyma.02G102900 3 SNPS) were identified (Figure 5 and Table
+relatedto the tocopherolmetabolism pathways. Glyma.18G115500 S5). For the haplotype analysis, at least two haplotypes existed
+(located near QTN rs14143396 on Chr.18) was derived from for each of the five genes, and the individual or total Toc with
+the superfamily of NAD(P)-linked oxidoreductase. Two these different haplotypes exhibited significant or highly
+genes belonging to the zinc finger superfamily, including significant differences (Figure 6).
+Glyma.01G021100 and Glyma.20G113200 located near QTN
+To predict the potential role of candidate genes in the
+rs2162876 on Chr.01 and rs35562231 on Chr.20, respectively, regulation of Toc content, pods from 16 characteristic soybean
+might aid in the soybean Toc concentration with higher germplasms at development stages (R7) were selected to
+expressions in soybean seeds and pods (https/soybase.org) determine the content of 8-Toc, y-Toc, a-Toc and total-Toc
+(Park et al., 2019). Glyma.02G102900 is a protein containing (Figure 7), and to analyze the expression levels offive potential
+plant U-box domain (PUB26), which triggers the accumulation genes. Of them, only Glyma.02g098200 was not expressed in
+ofToc content by regulating the transient burst ofreactive oxygen immature soybean seeds, and the expression levels of the other
+species (ROS) (Kadota et al.,2014; Li et al., 2014; Stahl et al., 2019). four genes varied greatly among soybean germplasms (Figure
+Glyma.02G101300 (located near QTN rs9337368 on Chr.02), 8). A statistical analysis for the expression levels of these five
+belonging to cytochrome b561/ferric reductase transmembrane genes were conducted. The result showed that the expression
+protein family, participates in the regeneration of ascorbic levels of the five potential genes in 16 germplasms varied over a
+acid; ascorbic acid-glutathione circulation is related to the wide range and the expression levels among the lines with
+regeneration of tocopherol phenolic groups, the oxidized form higher and lower tocopherol contents were different, including
+of tocopherol, and the results of the reaction of tocopherol with Glyma.02G099800 (Line 1 to Line 8 were from 4.53 to 7.52, Line
+lipid peroxygen radicals (Kamal-Eldin and Appelqvist, 1996; Lane 9to Line 16 were from 3.16 to 5.63), Glyma.02G100800 (Line 1
+et al., 2015).
+to Line 8 were from 0.21 to 0.42, Line 9 to Line 16 were from
+Based on the loci detected by GWAS, QTL, and eQTL 0.07 to 0.63), Glyma.02G102900 (Line 1 to Line 8 were from 0.17
+analysis, a stable locus on Chr.02 was identified to be highly to 0.75, Line 9 to Line 16 were from 0.05 to 0.13),
+associated with Toc concentration in soybean seeds. Therefore, a Glyma.02G101300 (Line 1 to Line 8 were from 5.27 to 9.99,
+total of 42 genes in the 200-kb flanking region of the QTL Line 9 to Line 16 were from 6.05 to 10.86). Among them, the
+(located in the interval of SSRO2.0458-55R020520, eQTL range of the expression levels of Glyma.02G099800 and
+(qMPBQD1b_1, located in the interval of SSRO2_0458- Glyma.02G102900 in higher Toc lines (Line 1 to Line 8) was
+SSRO2_0520), and QTN (rs9337368) were considered as much higher than those of lower Toc lines (Line 9 to Line 16)
+candidate genes (Table 6). To verify whether these candidates (Table S6). An analysis of Pearson's correlation coefficient was
+were associated with individual or total Toc, a candidate gene- performed to analyze the correlations between expression levels
+based association was conducted. A total of 2,975 SNPS of 42 and tocopherol contents of the five potential genes. The results
+candidate genes were obtained from the genome re-sequencing showed that the expression levels of Glyma.02G099800,
+of 20 soybean lines (10 higher/lower level of Toc concentration Glyma.02G100800 and Glyma.02G102900 in pods were
+lines). Of them, 108 SNPS from 25 candidate genes were found significantly correlated with total Toc content or its
+reaching the threshold with -logio(P) N 2. The stable SNPS components, and Glyma.02G101300 showed no significant
+detected in multiple years were picked out and considered to be correlation with Toc content (Table S7). Among them, the
+significantly associated with Toc concentration; the genes expression level of Glyma.02G099800 showed significantly
+containing these stable SNPs were then referred to the positive correlation (P < 0.05) with the *Toc content and
+potential ones. Finally, a total of 11 SNPS from five potential total Toc content in soybean seeds among tested germplasms.
+genes (Glyma.02G098200 2 SNPS; Glyma.02G099800 2 SNPS; The expression level of Glyma.02G100800 showed significantly
+Glyma.02G100800 2 SNPS; Glyma.02G101300 2 SNPS; positive correlation (P < 0.05) with the content of 8-Toc and
+Frontiers in Plant Science I www.frontiersin.org
+10
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+TABLE 6 I Candidate genes in overlapping regions detected by QTL, eQTL, and GWAS.
+Gene
+Chr. Start Stop Distance to left/right Distance to Distance to
+Annotation
+position position
+QTL (kb)
+eQTL (kb) SNP (kb)
+Giyma.02G098200 Chr02 8959322 8968035 631.10/983.737
+631.10
+378.05 Transmembrane amino acid transporter family protein
+Giyma.02G098300 Chro2 8974511 8999545 646.28/968.548
+646.28
+362.86 phytochrome and flowering time regulatory protein
+(PFT1)
+Giyma.02G098400 Chr02 9036077 9036352 707.85/906.982
+707.85
+301.29 Protein with RNI-Ike/FBD-like domains
+Giyma.02G098500 Chr02 9038015 9060145 709.79/905.044
+709.79
+299.35 phytochrome and flowering time regulatory protein
+(PFT1)
+Giyma.02G098600 Chro2 9101997 9106449 773.77/841.062
+773.77
+235.37 Endosomal targeting BRO1-like domain-containing
+protein
+Giyma.02G098700 Chr02 9141033 9149017 812.81/802.026
+812.81
+196.34 Meabrhpdoimeboudgedcime superfamily protein
+Giyma.02G098800 Chr02 9169020 9171899 840.79/774.039
+840.79
+168.35 myb-like transcription factor family protein
+Giyma.02G099000 Chr02 9195657 9195881 867.43/747.402
+867.43
+141.71 ROTUNDIFOLIA like 21
+Giyma.02G099100 Chr02 9220377 9222397 892.15/722.682
+892.15
+116.99 C2H2-like zinc finger protein
+Giyma.02G099200 Chr02 9257064 9258661 928.84/685.995
+928.84
+80.30 allene oxide cyclase 4
+Giyma.02G099300 Chr02 9259923 9271860 931.70/683.136
+931.70
+77.45 methionine aminopeptidase 1B
+Giyma.02G099400 Chro2 9293211 9293733 964.98/649.848
+964.98
+44.16 glutathione S-transferase tau 7
+Giyma.02G099500 Chr02 9306726 9308948 978.50/636.333
+978.50
+30.64 AP2/B3 transcription factor family protein
+Giyma.02G099800 Chro2 9374053 9384823 1045.83/569.006
+1045.83
+36.69 Di-glucose binding protein with Leucine-rich repeat
+domain
+Giyma.02G099900 Chro2 9401424 9403579 1073.20/541.635
+1073.20
+64.06 galacturonosytansterseske 3
+Giyma.02G100000 Chr02 9418107 9423906 1089.88/524.952
+1089.88
+80.74 STT7 homolog STN7
+Giyma.02G100100 Chr02 9429539 9430299 1101.31/513.52
+1101.31
+92.17 ROTUNDIFOLIA like 15
+Giyma.02G100200 Chr02 9440858 9446878 1112.63/502.201
+1112.63
+103.49 NAC (No Apical Meristem) domain transcriptional
+regulator superfamily protein
+Giyma.02G100300 Chro2 9449378 9454175 1121.15/493.681
+1121.15
+112.01 Protein kinase superfamily protein
+Giyma.02G100400 Chr02 9454764 9457069 1126.54/488.295
+1126.54
+117.40 Protein kinase superfamily protein
+Giyma.02G100500 Chr02 9458910 9462064 1130.68/484.149
+1130.68
+121.54 Leucine-rich repeat protein kinase family protein
+Giyma.02G100800 Chr02 9493864 9495581 1165.64/449.195
+1165.64
+156.50 Eukaryotic aspartyl protease family protein
+Giyma.02G101300 Chr02 9565694 9576957 1237.47/377.365
+1237.47
+228.33 Cytochrome b561/ferric reductase transmembrane
+protein family
+Giyma.02G101400 Chr02 9596487 9600839 1268.26/346.572
+1268.26
+259.12 2-oxoglutarate (20G) and Felll-dependent
+oxygenase superfamily protein
+Giyma.02G101500 Chro2 9603161 9609480 1274.93/339.898
+1274.93
+265.79 decapping 5
+Giyma.02G101700 Chr02 9635465 9642262 1307. .24/307.594
+1307.24
+298.10 decapping 5
+Giyma.02G101800 Chro2 9646459 9655022 1318.23/296.6
+1318.23
+309.09 nuclear matrix constituent protein-related
+Giyma.02G101900 Chr02 9656994 9660818 1328.77/286.065
+1328.77
+319.63 Leucine-rich repeat (LRR) family protein
+Giyma.02G102000 Chro2 9666417 9673757 1338.19/276.642
+1338.19
+329.05 Tetratricopeptide repeat (TPR)-like superfamily protein
+Giyma.02G102400 Chr02 9687071 9689680 1358.84/255.988
+1358.84
+349.70 Thioredoxin superfamily protein
+Giyma.02G102500 Chr02 9706607 9709983 1378.38/236.452
+1378.38
+369.24 Putative endonuclease or glycosyl hydrolase
+Giyma.02G102600 Chro2 9710565 9715971 1382.34/232.494
+1382.34
+373.20 Protein kinase superfamily protein
+Giyma.02G102700 Chr02 9722998 9730991 1394.77/220.061
+1394.77
+385.63 PLC-like phosphodiesterases superfamily protein
+Giyma.02G102800 Chr02 9733111 9737918 1404.88/209.948
+1404.88
+395.74 PLC-like phosphodiesterases superfamily protein
+Giyma.02G102900 Chr02 9762548 9766635 1434.32/180.511
+1434.32
+425.18 plant U-box 26
+Giyma.02G103200 Chr02 9795987 9799196 1467.76/147.072
+1467.76
+458.62 basic helix-loop-helix (bHLH) DNA-binding
+superfamily protein
+Giyma.02G103300 Chr02 9805442 9814109 1477.22/137.617
+1477.22
+468.07 RING/U-box superfamily protein
+Giyma.02G103400 Chr02 9820787 9821647 1492.56/122.272
+1492.56
+483.42 zinc ion binding; nucleic acid binding
+Giyma.02G103500 Chr02 9836681 9838714 1508.45/106.378
+1508.45
+499.31 Sasmontimethovedgmdnt
+methyitransferases superfamily protein
+Giyma.02G103600 Chro2 9841746 9843168 1513.52/101.313
+1513.52
+504.38 Ribosomal protein S5 domain 2-like superfamily
+protein
+Giyma.02G103700 Chr02 9844516 9849873 1516.29/98.543
+1516.29
+507.15 Plant protein of unknown function (DUF869)
+Giyma.02G103800 Chr02 9854347 9861255 1526.12/88.712
+1526.12
+516.98 RING/U-box superfamily protein
+showed the opposite correlation with a-Toc content. In DISCUSSION
+addition, the expression level of Glyma.02G102900 was
+significantly positively correlated with 8-Toc content (P < Toc compounds, belonging to the vitamin E family, arel lipophilic
+0.01) and total-Toc content (P < 0.05) (Table S7). These antioxidants that are beneficial to human health because they can
+genes with beneficial haplotypes would be of great value prevent the oxidation of unsaturated fatty acids (Shaw et al.,
+in regulating individual and total Toc concentration of 2016).Comparedto other oil crops, soybean oil contains ahigher
+soybean seeds.
+total Toc concentration with the dominant form being yToc,
+Frontiers in Plant Science I www.frontiersin.org
+11
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+Glyma.02G098200
+Glyma.02G099800
+3.0
+-8-Toc content in 2014 5.0
+-y-Toc content in 2015
+4.5
+2.5
+-8-Toc content In 2015 4.0
+total-Toc content in 2015
+3.5
+a-Toc content in 2017
+2.0
+3.0
+1.5
+2.5
+2.0
+I
+1.0
+1.5
+0.5
+1.0
+0.5
+0.0
+0.0
+8
+E
+oa
+Physical position
+Physical position
+Glyma.02G100800
+Glyma.02G101300
+3.5
+-y-Toc content in 2016
+4.5
+-8-Toc content In 2014
+3.0
+4.0
+-6-Toc content in 2015
+total-Toc content in 2016 3.5
+-6-Toc content in 2017
+2.5
+3.0
+2.0
+A 2.5
+1.5
+: 2.0
+I
+1.0
+1.5
+1.0
+0.5
+0.5
+0.0
+0.0
+2
+a
+i
+2
+:
+00
+E
+Physical position
+Physical position
+Glyma.02G102900
+4.5
+- -6-Toc content in 2014
+4.0
+3.5
+-8-Toc content in 2017
+3.0
+2.5
+I 2.0
+1.5
+1.0
+0.5
+0.0
+df
+Physicalposition
+FIGURE 51 Candidate gene-based association. Gene-based association analysis of candidate genes with SNPS that were significantly correlated to tocopherol
+content. Horizontal line indicated that the threshold was set to 2.0.
+which comprises 70% of the total Toc content. The vitamin E wide range of variation among the different accessions but a
+activity of *Toc is only moderate due to its lower affinity with relatively smaller range of variation among the different years.
+the hepatic tocopherol transfer protein. The a-Toc, with a lower The test samples containing a higher level of a-Toc andtotal Toc
+content in oil, has the highest activity (Bramley et al., 2000). might be the useful sources for the breeding of new
+Therefore, increasing the a-Toc and total Toc content in soybean soybean cultivars.
+seeds is important. In this four-year study, a germplasm
+Nearly thirty QTLs have been identified associated with
+collection of 180 soybean accessions in Harbin was used for individual or total Toc via different mapping populations, and
+measuring individual and total Toc content. Toc levels had a most of these are specific to the genetic background (www.
+Frontiers in Plant Science I www.frontiersin.org
+12
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+Glyma.02G098200
+Glyma.02G098200
+Glyma.02G099800
+Glyma.02G099800
+(2014)
+(2015)
+(2015)
+(2015)
+**
+1207
+2007
+250-
+4007
+-
+100-
+150-
+200-
+350-
+E
+I
+150- I
+H
+8 80- -
+100-
+300-
+8
+100-
+10 60-
+50-
+50-
+250-
+40- -
+0-
+0-
+200-
+Hapt Hap2 Hap3 Hap4
+Hap1 Hap2 Hap3 Hap4
+Hap1Hap2Hap3
+Hap1Hap2Hap3
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.02G099800
+Glyma.02G101300
+Glyma.02G101300
+Glyma.02G101300
+(2016)
+(2014)
+(2015)
+(2017)
+50-7
+120-7
+2007
+250-
+T
+40-
+T
+200-
+E
+100-
+150-
+30-
+150-
+8
+80-
+100-
+
+8 20-
+100- I I
+a 10-
+60-
+50-
+50-
+40
+Hap1Hap2Hap3
+Hap1Hap2Hap3
+Hap1Hap2Hap3
+Hap1Hap2Hap3
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.02G102900
+Glyma.02G102900
+(2014)
+(2017)
+120-
+2507
+100-
+200-
+150-
+80-
+100-
+60-
+L
+50-
+40
+0
+Hap1Hap2Hap3
+Hap1Hap2Hap3
+Haplotype
+Haplotype
+FIGURE 61 Haplotypes analysis of genes that related to tocopherol content. The * and ** was significance at p < 0.05 and ip< 0.01, respectively.
+soybase.org). Li et al. (2010) detected four, eight, four, and five the other three contained similar genomic regions known as
+QTLs related to a-Toc, *Toc, 8-Toc, and total Toc from "OAC QTLS for Toc concentration reported by Shaw et al. (2017). The
+Bayfield," respectively. Shaw et al. (2017) identified 26 SSR rs37703714 on Chr.17 and rs33069111 and rs35562231 on
+markers linked to QTL with individual and total Toc content Chr.20 were close to "Seed tocopherol, gamma 3-6" and "Seed
+from the cross of'OAC Bayfield' and 'OAC Shire.' In the present tocopherol, total 3-3,"respectively, which were detected between
+study, 18 QTLS mapped to 10 chromosomes and nine eQTLs on the SSR markers of "Sat_354-Satt135" and "Satt270-BARC-
+five different chromosomes were associated with individual and 041717-08071" using the "OAC Bayfield x OAC Shire"
+total Toc content through linkage mapping. Additionally, a mapping population. The allele effects in these identified QTNS
+GWAS for Toc-related was also performed, and 19 stable were evaluated, and the results showed that these alleles occurred
+QTNS detected in more than two years were identified. Among on diverse soybean accessions. The soybean accessions with the
+these QTNS, 16loci were regarded as novel for soybean Toc, and "beneficial" allele in these identified QTNS had a higher
+Frontiers in Plant Science I www.frontiersin.org
+13
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+Few definite genes associated with individual or total Toc
+have been characterized or cloned,
+for the
+250
+2507
+except
+genes encoding
+the key enzymes involved in Toc metabolism. For accurately
+: 200-
+screening candidate genes, a total of 42 genes in the 200-kb
+8 150-
+200-
+flanking region of the locus on Chr.02 co-detected by QTL,
+100-
+eQTL, and GWAS analysis were selected and classified into
+8
+150-
+different functional
+the Gene
+database
+50-
+groups using
+Ontology
+Chtrpl/gencontologyorg), Using a gene-based association by the
+100
+High Low
+High Low
+GLM method, five genes (Glyma.02G098200, Glyma.02G099800,
+Samples
+Samples
+Glyma.02G100800, Glyma.02G101300, and Glyma.02G102900)
+407
+450-
+were determined to be significantly related to a-Toc, yToc, 8
+400-
+Toc and total Toc in soybean seeds. Further expression level
+30-
+analysis of these five genes showed that the expression levels of
+350-
+20-
+Glyma.02G099800 and Glyma.02G102900 were significantly
+300-
+correlated with Toc content in soybean seeds, which might
+10-
+250-
+regulate Toc content. Glyma.02G102900 is a plant U-box
+0-
+200-
+domain-containing protein (PUB26), as an E3 ligase, which
+High Low
+High Low
+targets BIK1 for degradation and negatively regulates BIK1-
+Samples
+Samples
+mediated immunity. BIKI is of central importance to the plant
+immune system, and it regulates transient bursts of reactive
+FIGURE 7 I Tocopherol content of 16 germplasms at R7 growth period.
+oxygen species (ROS) (Kadota et al., 2014; Li et al., 2014). ROS
+"High" represent the higher accessions (Line 1-Line 8), "Low" represent the
+has a triggering function in the pathogen-inducible biosynthesis
+lower accessions (Line 9-Line 16).
+oftocopherols; the elevated ROS can trigger the accumulation of
+Toc content (Stahl et al., 2019). Glyma.02G099800, belonging to
+Di-glucose binding protein with Leucine-rich repeat domain, is a
+individual or total Toc concentration than accessions with the Receptor-like kinase (RLK). RLKS mediate a large amount of
+"inferior" allele. Thus, these QTNS, exhibiting more potential in signal transmission information on the cell surface and acts as a
+manipulating individual or total Toc, might be useful for MAS. crucial regulator in the development process (Afzal et al., 2008;
+Glyma.02G099800
+Glyma.02G100800
+0.70
+5
+0.60
+0.50
+0.40
+0.30 -
+0.20
+0.10
+0.00
+lnthililla
+Jee See Se Der - -e A e - - - S S  - Vre N
+see A   -  A - -    Vee See ur
+Samples
+Samples
+Glyma.02G102900
+Glyma.02G103100
+0.80 1
+0.70
+10
+1 0.60
+0.50
+II
+0.40
+0.30
+-
+I
+I
+Iill
+0.20
+0.10
+I
+lillul
+ul
+0.00
+Ver  P e    uer Ve -  Ss - S  ve
+Jee   e  s D  - R - S A  X -
+Samples
+Samples
+FIGURE 81 Expression levels of candidate genes in 16 soybean germplasms at R7 growth period.
+Frontiers in Plant Science I www.frontiersin.org
+14
+September 2020 I Volume 11 I Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+Gish and Clark, 2011). The role of this gene in Toc metabolism design, data collection and analysis, decision to publish, or
+needs to be further explored. Additional studies on the functions preparation of the manuscript.
+and mechanisms of these candidate genes are planned.
+ACKNOWLEDGMENTS
+DATA AVAILABILITY STATEMENT
+This study was conducted in the Key Laboratory of Soybean
+All datasets generated for this study are included in the articlel Biology of the Chinese Education Ministry, Soybean Research &
+Supplementary Material.
+Development Center (CARS) and the Key Laboratory of
+Northeastern Soybean Biology and Breeding/Genetics of the
+Chinese Agriculture Ministry.
+AUTHOR CONTRIBUTIONS
+MS, YJ, and HL conceived the study and contributed to SUPPLEMENTARY MATERIAL
+population development. YZ and HZ contributed to
+genotyping. JL and WT contributed to phenotypic evaluation. The Supplementary Material for this article can be found online
+LQ, WL, XZ, and YH contributed to experimental design and at: https/www.frontierin.org/articles100.3389/fpls.2020.
+writing the paper. All authors contributed to the article and 539460/fullesupplementary-material
+approved the submitted version.
+SUPPLEMENTARY FIGURE S1 I Manhattan plot of association mapping of the
+tocopherol content in soybean.
+FUNDING
+SUPPLEMENTARY FIGURE S2 I Functional classifications of the candidate
+genes of tocopherol content in soybean.
+This study was financially supported by the Heilongjiang Provincial
+Project (GJ2018GJ0098, JC2018007, GX17B002, C2018016), SUPPLEMENTARY TABLE S1 I The information of 180 soybean accessions.
+the National Key R & D Project (2017YFD0101306,
+SUPPLEMENTARY TABLE S2 I PCR primers used for expression analysis by
+2016YFD0100304, 2017YFD0101302), the Chinese National RT-qPCR.
+Natural Science Foundation (31701446,31671717, 31471517,
+31971967, 31871650), the National Project (2014BAD22B01, SUPPLEMENTARY TABLE S3 I Information of SSR markers among RILS.
+2016ZX08004001-007), the Youth Leading Talent Project of the
+Ministry of Science and Technology in China (2015RA228), The SUPPLEMENTARY TABLE S4 I Gene models in the flanking regions of peak
+SNP by GWAS.
+National Ten-thousand Talents Program, Postdoctoral Fund in
+Heilongjiang Province (LBH-Z15017, LBH-Q17015), The national SUPPLEMENTARY TABLE S5 I Haplotype analysis of candidate genes.
+project (CARS-04-PS04), The "Youth Innovation Talent' Project of
+the general undergraduate universities in Heilongjiang province SUPPLEMENTARY TABLE S6 I Basic genetic parameter statistics for
+(UNPYSCT-2016145), the "Academic Backbone' Project of expression levels of genes.
+Northeast Agricultural University (17XG22), Student Innovation SUPPLEMENTARY TABLE S7 I Correlation analysis of tocopherol contents
+Practical Training (SIPT). The funding bodies had no role in study with expression levels of genes.
+REFERENCES
+Cregan, P. B., Jarvik, T., Bush, A. L., Shoemaker, R. C., Lark, K. G., Kahler, A. L,
+Afzal, A. J, Wood, A. J, and Lightfoot, D. A. (2008). Plant receptor-like serine
+et al. (1999). An integrated genetic linkage map of the soybean genome. Crop
+threonine kinases: roles in signaling and plant defense. Mol. Plant Microbe 21
+Sci. 39, 1464-1490. doi: 10213Slaropcdiyp.951464
+(5), 507-517. doi: 10.1094MPM1:21-5-0507
+Dwiyanti, M. S., Ujiie, A., Thuy, L. T. B., Yamada, T., and Kitamura, K. (2007).
+Bradbury, P. J, Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y., and
+Genetic analysis ofhigh a-tocopherol content in soybean seeds. J. Breed. Sci. 57,
+Buckler, E. S. (2007). TASSEL: software for association mapping of complex
+23-28. doi: 10.1270/jsbbs.57.23
+traits in diverse samples. Bioinformatics 23 (19), 2633-2635. doi: 10.1093/ Gish, L. A., andClark, S.E. (2011).Thel RLK/Pelle family ofkinases. Plant]. 66(1),
+bioinformatics/btm308
+117-127. doi: 1019L06531XK0105183
+Bramley, P.M., Elmadfa, I, Kafatos, A., Kelly, F.J.,Manios, Y.,Roxborough, H. E., Guan, R. X., Qin, J, Hu,J. S., Chen, W. X., Chang, R. Z., Liu, Z. X., et al. (2009).
+et al. (2000). Vitamin E.J. Sci. Food. Agric 80 (7),913-938. doi: 10.1002/(SICI)
+Genetic Composition of Elite Soybean Cultivar Hefeng 25. Acta Agronom. Sin.
+10720102900590913:AID-5FA38C03
+35 (9), 1590-1596. doi: 10.0165155279005401029
+Chaubey, Y. P., Westfall, P. H., and Young, S. S. (1993). Resampling-based Han, Y., Zhao, X., Cao, G., Wang, Y., Li, Y., Liu, D., et al. (2015). Genetic
+multiple testing: examples and methods for p-value adjustment.
+characteristics ofsoybean resistance to HG type0 and HG type 1.2.3.5.7 ofthe
+Technometrics 35 (4), 450. doi: 10.2307/1270279
+cyst nematode analyzed by genome-wide association mapping. BMC Genomics
+Cheng, Y.,Ma, Q., Ren, H., Xia, Q., Song, E., Tan, Z., et al. (2017). Fine mapping of
+16, 598. doi: 10.186612864-015-18001
+a Phytophthora-resitance gene RpsWY in soybean (Glycine max L.) by high- Han, Y., Zhao, X., Liu, D., Li, Y., Lightfoot, D. A., Yang, Z., et al. (2016).
+throughput genome-wide sequencing. Theor. Appl. Genet. 130 (5), 1041-1051.
+Domestication footprints anchor genomic regions of agronomic importance
+doi: 101007600122-017-2869-5
+in soybeans. New Phytol. 209, 871-884. doi: 10.1111/nph.13626
+Frontiers in Plant Science I www.frontiersin.org
+15
+September 2020 I Volume 11 Article 539460
+
+
+
+Sui et al.
+QTL Mapping for Soybean Tocopherol
+Kadota, Y.,Sklenar, J, Derbyshire, P., Stransfeld, L, Asai, S., Ntoukakis, V.,et al. (2014). Song, Q.J,Marek, L. F., Shoemaker, R. C., Lark, K. G., Concibido, V. C., Delannay,
+Direct regulation of the NADPH oxidase RBOHD by the PRR-associated kinase
+X., et al. (2004). A new integrated genetic linkage map of the soybean. Theor.
+BIK1 during planti timmunity. Mol Cell54, 43-55. doi: 10.1016j,moked201402021
+Appl Genet. 109 (1), 122-128. doi: 10.1007600122-004-1602.3
+Kamal-Eldin, A., and Appelqvist, L. A. (1996). The chemistry and antioxidant Stahl, E., Hartmann, M., Scholten, N., and Zeier, E. (2019). A role for tocopherol
+properties of tocopherols and tocotrienols. J. Lipids 31 (7), 671-701.
+biosynthesis in Arabidopsis thaliana basal immunity to bacterial infection.
+doi: 10.1007/bf02522884
+Plant Physiol. 181 (3), 618. doi: 10.1104/pp.19.00618
+Lane, D. J, Bae, D. H., Merlot, A. M., Sahni, S., and Richardson, D. R. (2015). Sun, X., Liu, D., Zhang, X,Li, W., Liu, H., Hong, W., et al. (2013). SLAF-seq: an
+Duodenal cytochrome b(DCYTB)in iron metabolism: an update on function
+efficient method of large-scale de novo SNP discovery and genotyping using
+and regulation. Nutrients 7 (4), 2274-2296. doi: 10.3390/nu7042274
+high-throughput sequencing. PloS One 8 (3), e58700. doi: 10.1371/
+Lee, S., Van, K., Sung, M., Nelson, R., LaMantia, J, McHale, L. K., et al. (2019).
+journal.pone.0058700
+Genome-wide association study of seed protein, oil and amino acid contents in Tanner, J. W., Luzzi, B. M., Gostovic, P., Montminy, W., and Hume, D.J. (1998).
+soybean from maturity groupsIto IV. Theor. Appl Genet. 132 (6), 1639-1659.
+OAC Bayfield soybean. Can. J. Plant Sci. 78 (4), 625-626. doi: 10.4141/P97-096
+doi: 10.00780012.0194033045
+Tavva, V.S., Kim, Y.H., Kagan, I. A., Dinkins, R. D., Kim, K.H, and Collins, G.B.
+Li, H, Liu, H., Han, Y., Wu, X., Teng, W., Liu, G., et al. (2010). Identification of
+(2007). Increased alpha-tocopherol content in soybean seed overexpressing the
+QTL underlying vitamin E contents in soybean seed among multiple
+Perilla frutescens gamma-tocopherol methyltransferase gene. Plant Cell Rep. 26
+environments. Theor. Appl. Genet. 120 (7), 1405-1413. doi: 10.1007/s00122-
+(1), 61-70. doi: 10.1007600299-006-02182
+010-1264-2
+Ujiie, A., Yamada, T., Fujimoto, K., Endo, Y., and Kitamura, K. (2005).
+Li, L, Li, M., Yu, L., Zhou, Z., Liang, X., Liu, Z., et al. (2014). The FLS2-associated
+Identification of soybean varities with high levels of a-tocopherol content.
+kinase BIK1 directly phosphorylates the NADPH oxidase RbohD to control
+Breed Sci. 55 (2), 123-125. doi: 10.1270/jsbbs.55.123
+plant immunity. Cell Host. Microbe 15, 329-338. doi: 10.1016/j.chom. Wan,J., Zhang, W.,Jiang, B., Guo, Y., and Hu, C. (2008). Separation ofIndividual
+2014.02.009
+Tocopherols from Soybean Distillate by Low Pressure Column
+Li, H., Sui, M., Nie, T., Shi, S., Han, Y., Li, W.,et al. (2016). Expression analysis of
+Chromatography. J. Am. Oil Chem. Soc. 85 (4), 331-338. doi: 10.10071
+five relative genes of soybean vitamin E. J. Northeast Agric. U. 05 15-22.
+s11746-008-1198-x
+doi: lopejamuims.sws.sli6s.es
+Wang, Y., Han, Y., Teng, W., Zhao, X., Li, Y., Wu, L., et al. (2014). Expression
+Li, D., Zhao, X., Han, Y., Li, W., and Xie, F. (2018). Genome-wide association
+quantitative trait loci infer the regulation of isoflavone accumulation in
+mapping for seed protein and oil contents using a large panel of soybean
+soybean (Glycine max L. Merr.) seed. BMC Genomics 15 (1):680.
+accessions. Genomics 111, 90-95. doi: 10.1016/ygen0201801004
+doi: 10.11861471-216415:680
+Lipka, A. E., Tian, F., Wang, Q, Peiffer, J., Li, M., Bradbury, P. J., et al. (2012). Yan, L., Hofmann, N., Li, S., Ferreira, M. E., Song, B., Jiang, G., et al. (2017).
+GAPIT: genome association and prediction integrated tool. Bioinformatics 28
+Identification ofQTL with large effect on seed weight inaselective population
+(18), 2397-2399. doi: 10.0930cinfermaticabtu
+of soybean with genome-wide association and fixation index analyses. BMC
+Liu, Z., Li, H., Fan, X., Huang, W., Yang, J, Wen, Z., et al. (2017). Phenotypic
+Genomics 18 (1), 529. doi: 10.18612864017392.0
+characterization and genetic dissection of nine agronomic traits in Tokachi Zhang, H., Li, C., Davis, E. L., Wang, J., Griffin, J. D., Kofsky, J, et al. (2016).
+nagaha and its derived cultivars in soybean (Glycine max (L.) Merr.). Plant Sci.
+Genome-Wide Association Study of Resistance to Soybean Cyst Nematode
+256, 72-86. doi: 10.016@phamted20161L.00
+(Heterodera glycines) HG Type 2.5.7 in Wild Soybean (Glycine soja). Front.
+Maheswari, E., Saraswathy, G. R., and Santhranii,T. (2015). Influence of vitamin E
+Plant Sci. 7:1214:1214. doi: 103389/pls201601214
+on hepatotoxicity and loxidative stress.J.Int.) J. Res. Pharm. Biosci. 2 (3), 30-38. Zhao,X., Jiang, H., Feng, L., Qu, Y., Teng, W., Qiu, L., et al. (2019). Genome-wide
+Meng, L., Li, H., Zhang, L., and Wang, J. (2015). QTL IciMapping: Integrated
+association and transcriptional studies reveal novel genes for unsaturated fatty
+software for genetic linkage map construction and quantitative trait locus
+acid synthesis in a panel of soybean accessions. BMC Genomics 20 (1), 68.
+mapping in biparental populations. Crop J. 3 (3), 269-283. doi: 10.10161
+doi: 101186612864-019:5494
+j.cj.2015.01.001
+Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J, Li, W., etal (2015). Resequencing 302
+Munné-Bosch, S., and Alegre, L. (2002). The Function of Tocopherols and
+wild and cultivated accessions identifies genes related to domestication and
+Tocotrienols in Plants. Crit. Rev. Plant Sci. 21 (1), 31-57. doi: 10.1080/0735-
+improvement in soybean. Nat. Biotechnol. 33 (4), 408-414. doi: 10.1038/nbt.3096
+260291044179
+Park, C., Dwiyanti, M. S., Nagano, A. J., Liu, B., Yamada, T., and Abe, J. (2019). Conflict of Interest: HZ was employed by the company Biomarker Technologies
+Identification of quantitative trait loci for increased alpha-tocopherol Corporation.
+biosynthesis in wild soybean using a high-density genetic map. BMC Plant The remaining authors declare that the research was conducted in the absence of
+Biol. 19 (1), 510. doi: 10.1021/jf100455f
+any commercial or financial relationships that could be construed as a potential
+Seguin, P., Tremblay, G., and Pageau, D. (2010). Soybean Tocopherol conflict of interest.
+Concentrations Are Affected by Crop Management. J. Agric. Food Chem. 58
+(9), 5495. doi: 10.1021/jf100455f
+Copyright o 2020 Sui, Jing Li, Zhan, Luo, Teng Qiu, Zheng, Li, Zhao andHan. This
+Shaw, E. J., Kakuda, Y., and Rajcan, I (2016). Effect of Genotype, Environment, is an open-access article distributed under the terms of the Creative Commons
+and Genotype x Environment Interaction on Tocopherol Accumulation in Attribution License (CC. BY). The use, distribution or reproduction in otherforums is
+Soybean Seed. Crop Sci. 56 (1), 40-50. doi: 1021351-ropuc2015020069
+permitted.providedithe originalauthor(s) andthe copyright owner(s) are creditedand
+Shaw, E. J, Rajcan, I, and Morris, B. (2017). Molecular mapping of soybean seed that the original publication in this journal is cited, in accordance with accepted
+tocopherols in the cross "OAC BayfieldxOACShire. Plant Breed. 136 (1), 83- academic practice. No use, distribution or reproduction is permitted which does not
+93. doi: 10.1111/pbr.12437
+comply with these terms.
+Frontiers in Plant Science I www.frontiersin.org
+16
+September 2020 I Volume 11 Article 539460

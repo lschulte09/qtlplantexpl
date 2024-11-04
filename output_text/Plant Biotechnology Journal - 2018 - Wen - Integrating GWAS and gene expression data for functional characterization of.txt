@@ -1,0 +1,1025 @@
+Plant Biotechnology
+&
+aab I SEB for
+Journal
+Experim ntalBiology
+Plant Biotechnology Journal (2018) 16, pp. 1825-1835
+doi: 10.1111/pbi.12918
+Integrating GWAS and gene expression data for
+functional characterization of resistance to white
+mould in soya bean
+Zixiang Wen', Ruijuan Tan', Shichen Zhang', Paul J. Collins', Jiazheng Yuan 1,2 1 Wenyan Du', Cuihua Gu',
+Shujun Ou3, Qijian Song4, Yong-Qiang Charles An5, John F. Boyse', Martin I. Chilvers' and Dechun Wang' 1*
+'Department of Plant Soil and Microbial Sciences, Michigan State University, East Lansing, MI, USA
+2Department of Biological Sciences, Fayetteville State University, Fayetteville, NC, USA
+3Department of Horticulture, Michigan State University, East Lansing, MI, USA
+4Soya bean Genomics and Improvement Laboratory, United States Department of Agriculture, Agricultural Research Service, Beltsville, MD, USA
+SUSDA-ARS Plant Genetics Research Unit at Donald Danforth Plant Science Center, Saint Louis, MO, USA
+Received 8 November 2017;
+Summary
+revised 31 January 2018;
+White mould of soya bean, caused by Sclerotinia sclerotiorum (Lib.) de Bary, is a necrotrophic
+accepted 24 February 2018.
+fungus capable of infecting a wide range of plants. To dissect the genetic architecture of
+*Correspondence (Tel 517-353-0219;
+resistance to white mould, a high-density customized single nucleotide polymorphism (SNP)
+fax 517-353-3955;
+array (52 041 SNPS) was used to genotype two bean
+Combined
+email: wangdech@msu.edu)
+soya diversity panels.
+with
+resistance variation data observed in the field and greenhouse environments, genome-wide
+association studies (GWASS) were conducted to identify quantitative trait loci (QTL) controlling
+resistance against white mould. Results showed that 16 and 11 loci were found significantly
+associated with resistance in field and greenhouse, respectively. Of these, eight loci localized
+to previously mapped QTL intervals and one locus had significant associations with resistance
+across both environments. The expression level changes in genes located in GWAS-identified
+loci were assessed between partially resistant and susceptible genotypes through a RNA-seq
+analysis of the stem tissue collected at various time points after inoculation. A set of genes
+with diverse biological functionalities were identified as strong candidates underlying white
+mould resistance. Moreover, we found that genomic prediction models outperformed
+predictions based on significant SNPS. Prediction accuracies ranged from 0.48 to 0.64 for
+disease index measured in field experiments. The integrative methods, including GWAS, RNA-
+Keywords: Sclerotinia sclerotiorum seq and genomic selection (GS), applied in this study facilitated the identification of causal
+(Lib.) de Bary, GWAS, RNA-seq, soya variants, enhanced our understanding of mechanisms of white mould resistance and provided
+bean (Glycine max (L.) Merr.), single valuable information regarding breeding for disease resistance through genomic selection in
+nucleotide polymorphism.
+soya bean.
+Introduction
+of them has been completely effective. Host plant resistance is the
+most economical and environmental friendly way of controlling
+Sclerotinia sclerotiorum (Lib.) de Bary has a broad host range and soyat beanwhitemouldinddence to preventy tyieldloss. Although no
+is documented to infect at least 408 plant species (Boland and soya bean cultivars with complete resistance to white mould have
+Hall, 1994). On soya bean, S. sclerotiorum causes the disease been developed through conventional breeding, soya bean plant
+Sclerotinia stem rot that also known as white mould. It causes introductions (Pls) and varieties showing differences from suscep-
+yield loss through the reduction of seed number and weight as tible to partially resistance to the pathogen have been reported
+well as seed quality (Hoffman et al., 1998). The pathogen can (Chen and Wang, 2005; Kim et al., 1999). It is important for
+persist in the field through the production of sclerotia, a resting breeders to understand the genetics of resistance available in soya
+body for the fungus. Additionally seeds can be infected and act as bean germplasm to develop varieties with greater resistance.
+a source of inoculum particularly to noninfested fields (Danielson
+Quantitative trait loci (QTL) mapping in bi-parental derived
+et al., 2004; Yang et al., 1999). In 1994, 2004 and 2009, it population is a method commonly used to dissect the genetics
+ranked second to soya bean cyst nematode on total yield lost in basis of white mould resistance in soya bean. The previous
+US soya bean production (Koenning and Wrather, 2010; Wrather mapping studies have identified a total of 103 QTLS (http:ll
+and Koenning, 2006; Wrather et al., 1997).
+www.soybase.org). which distributed on 17 chromosomes (LGS)
+Fungicide management of white mould can be difficult to of soya bean. Among these QTLS, only six loci were identified
+achieve, and complete control is not possible, with reductions in under field conditions (Huynh et al., 2010; Kim and Diers, 2000)
+disease incidence ranging from 0 up to 60% (Peltier et al., 2012). and the rest were identified under greenhouse or growth
+Toreduce inoculum and create unfavourable conditions for fungal chamber studies with various artificial inoculation methods
+and disease development, several agronomic practices such as (Arahana et al., 2001; Guo et al., 2008; Vuong et al., 2008).
+reduced tillage and croprotationhave beens suggested (Kurle et al., Unfortunately, these tests under controlled conditions produced a
+2001; Peltier andGrau, 2008;Workneh andYang, 2000), but none poor correlation with the resistance observed in the field (Guo
+o 2018 The Authors. Plant Biotechnology. Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd.
+1825
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use,
+distribution and reproduction in any medium, provided the original work is properly cited.
+
+
+
+1826 Zixiang Wen et al.
+et al., 2008; Nelson et al., 1991). Moreover, such inoculation in Figure S1, the distribution of mortality data was skewed
+techniques cannot be used for large-scale application in the field. towards susceptible. However, live node (un-infested node)
+It is probably because different isolates, inoculation techniques number covered a broad range (0 to 4) with normal distribution
+and resistance sources were used, most of those QTLS showed in both panels. Resistant check AxN-1-55 showed more live nodes
+limited reproducibility. Therefore, there is still a great need to map than the average (1.67 and 2.0), whereas the susceptible check
+and identify white mould resistance genes in soya bean.
+Olympus developed much longer lesions with no live nodes
+A large-scale shotgun sequencing of Glycine max var. Williams remaining (Figure S1).
+82 (2n=40) began in the middle of 2006 and was completed
+In field tests, averaged over 2 years, a large variation in white
+early in 2008. Approximately 978 million base pair (Mb) is mould resistance was also observed across assayed soya bean
+captured in 20 chromosomes, with a small additional amount of accessions in both panels. Disease severe index (DSI) had a mean
+mostly repetitive sequence in unmapped scaffolds (Schmutz of 31.2 and 30.8 for Pls and improved lines, respectively, with
+et al, 2010). With the advent of high-throughput genotyping more than a 20-fold difference among the resistant and suscep-
+technologies, such as resequencing and microarray, GWAS has tible lines(Table 1, Figure S2). ANOVA for the two disease indices,
+become an affordable and powerful tool for dissecting complex field derived DSI and greenhouse derived number of live nodes,
+traits in soya bean. To date, GWAS has been performed for the indicated that the factors of accession, year and accession by year
+dissection of soya bean traits, such as disease resistance (Bao had significant effects (Table 1). The broad-sense heritability of
+et al., 2014; Han et al., 2015; Wen et al., 2014), yield, protein DSI was 0.63 and 0.51 for improved lines and Pls, respectively,
+and oil content in soya bean (Hao et al., 2012a; Hwang et al., suggesting that genetic variability may still play asubstantial role in
+2014; Sonah et al, 2014; Wen et al., 2015). As for white white mould resistance under significant G x E.
+mould, a GWAS identified three genomic regions related to
+A previous study demonstrated that maturity groups (MGs)
+resistance on a panel of 101 soya bean Pls screened under significantly affected disease incidence (Yang et al., 1999). In the
+controlled conditions. The strongest association was found on present study, we did find negative correlation between maturity
+Chromosome 3 (Iquira et al., 2015). With a germplasm panel of and DSI However, the correlation was insignificant and likely was
+130 breeding lines from eastern Canada, the same research due to limited coverage of MGs (MGI to MG III) among the tested
+group found that the strongest association switched to Chro- lines. Nevertheless, there were significant (a = 0.05) and positive
+mosome 15 and that none of the QTLS identified in these two correlations between lodging and DSI in field trials for both
+association studies overlapped (Bastien et al., 2014). Addition- panels. Significant correlations were also observed for DSI
+ally, a GWAS was conducted to identify loci associated with between the 2014 and 2015 field trials for both panels.
+stem pigmentation, an indicator of resistance to white mould, in Meanwhile, DSI had a lower (r -0.22 in 2014, r= -0.12 in
+330 diverse soya bean landraces; a major QTL on Chromosome 2015) but statistically significant correlation (P < 0.05) with live
+13 were identified as associated with stem pigmentation (Zhao node number measured in the greenhouse for improved lines
+et al., 2015). Despite these results, GWAS does not necessarily (Table S1). No statistically significant correlation was observed
+lead directly to the gene(s) at a given locus because of between DSI and live node number for Pls (Table S1).
+insufficient marker density and linkage disequilibrium. This raises
+the question of whether GWAS data sets can yield additional Polymorphic marker, patterns of linkage disequilibrium
+insights when combined with other data modalities. Recently, and profile of population structure
+interrogating the significant SNPS identified from GWAS for
+associations with gene expression data (Hao et al., 2012a,b; Profiles of 52 041 SNPS were characterized in 405 soya bean
+Hernandez et al., 2012) has been employed to interpret GWAS landraces and 915 improved lines with SoySNP50K BeadChip.
+results.
+After quality control, a total of 31 600 and 35 708 SNPS passed
+With this background in mind, two diverse panels consisting of the filters and were used in linkage disequilibrium (LD) analysis
+405 soya bean Pls and 905 improved lines were evaluated for and GWAS for the improved lines and Pls, respectively. Moreover,
+response to white mould in greenhouse and field environments. population structure analysis was based on 4549 SNPS with minor
+With employing high-density SNP genotyping data and RNA-seq allele frequency (MAF) >20% and physical distance >60 kb.
+data, our study aimed (i) to identify loci associated with resistance
+As the decay of LD and population structure of the two panels
+to white mould via GWAS, (ii) to explore candidate genes located were characterized in our previous published paper (Wen et al.,
+at GWAS-identified loci through differential expression analyses 2015), herein we conducted the corresponding analysis for the
+and (ii) to assess the potential of marker-based prediction model subsets of the two panels used in field trials. Decay of LD over
+as a new approach in soya bean breeding. We believe that increasing physical distance is illustrated in Figure 1. The LD rate,
+genetic dissection in two different germplasm panels will provide measured by 7 declining to half its maximum value, was 240 kb
+complementary information for understanding of mechanisms and 370 kb in the two subsets of Pls and improved lines,
+underlying white mould resistance.
+respectively. These LD decay estimates are larger than previously
+published values in landraces of 187 kb and in improved lines of
+Results and discussion
+233 kb (Wen et al., 2015). This difference may be attributed to
+Phenotypic characterization of the two panels
+curtailing of sample size in this study, as a similar phenomenon
+was observed in maize (Yan et al., 2009). The estimates of LD
+Greenhouse evaluations of the two panels of germplasm for decay herein suggest at least 2700 (1000 Mb/370 kb) to 4200
+resistance to white mould revealed a broad range of resistance (1000 Mb/240 kb) markers will be needed for whole genome
+levels (Table 1). As a mycelial inoculation method was used to scanning in soya bean, as the soya bean genome is known to
+assess the resistance level of each line in a greenhouse under the extend slightly over 1000 Mb. The number of polymorphic
+conditions facilitating disease development, severe disease symp- markers in both panels exceeds 30 000, which ensure the
+toms were observed across all greenhouse trials. As can be seen coverage of most LD blocks and a reasonable power to identify
+o 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIGHTS L - N Ko
+
+
+
+Dissection of resistance to white mould in soya bean 1827
+Table 1 Descriptive statistics, ANOVA and broad-sense heritability of disease indexes in the two panels
+Environment
+Population
+Min.
+Max.
+Mean
+Std.
+G
+G xE
+H
+Field (DSI)
+Pls (279))
+0.0
+80.7
+31.2
+17.7
+**
+**
+0.51
+Improved lines (421)
+3.2
+77.9
+30.8
+15.2
+0.63
+Greenhouse (No. of live node)
+Pls(405)
+0.0
+4.8
+1.7
+0.96
+ns
+0.52
+Improved lines (915)
+0.0
+5.0
+2.0
+1.10
+0.69
+ns, not significant; H, broad-sense heritability.
+'No. of accessions.
+istd., standard deviation.
+SG, Genotype across different environments.
+IG x E, Genotype x Year.
+**Significant at P< 0.01.
+0.6
+patterns of ancestry resulting from geographic differentiation and
+Improvedlines
+regional soya bean breeding efforts. Taken together, these results
+0.5
+PIs
+highlight the need to account for population structure when
+0.4
+conducting association analyses in soya bean.
+L 0.3
+GWAS for white mould resistance
+0.2
+GWAS was conducted using the phenotypic variation data from
+0.1
+greenhouse and field trials in a mixed linear model (MLM), which
+0
+accounts for both population structure (top four principal
+0 500 1000 1500 2000 2500 3000 3500
+components) and familial relatedness (K matrix). The MLM model
+Distance (Kb)
+resulted in a good approximation to expected cumulative
+distribution of Pvalue (Figure S3). A total of 21 SNPS significantly
+Figure 1 Genome-wide average LD decay in two subsets of improved
+associated with the number of live nodes were identified (Table 2
+lines and Pls. Decay of LD (measured as genotypic 7) as a function of
+and Figure 3) from the greenhouse evaluations. Given that some
+distance between SNPS.
+of these SNPS showing strong LD with each other and could not
+be considered as separate loci, all of these SNPS were clumped
+common variants of large effect associated with white mould using LD block as a criterion to define major QTL. After the
+resistance. Note that LD decay varies across different chromo- clumping of SNPS, 11 significant loci scattered across nine
+somes, and particularly within heterochromatic or euchromatic chromosomes were identified (Table 2). The peak SNPS at the
+chromosome regions. Our previous study demonstrated a large identified loci explained approximately 24.6% and 22.1% of the
+variation in extent of LD among chromosomes with a range from total phenotypic variance in the improved lines and Pls, respec-
+100 kb to 430 kb (Wen et al., 2015). Moreover, Hwang et al. tively. In the panel of improved lines, the locus with the largest
+(2014) identified that LD decay rate in heterochromatic and effect (R2 = 5.1%) comprisedfour SNPS covering 44.5 kb around
+euchromatic chromosome regions was 360 kb and 9600 kb, 7.2 Mb on Chromosome 16. In the panel of Pls, the locus most
+respectively.
+significantly associated (P value = 4.7 x 10-6) with number of
+As population structure can result in spurious associations, it live nodes comprised six SNPS covering 270 kb at 36.7 Mb on
+has constrained the use of association studies in human and plant Chromosome 7.
+genetics (Yu et al., 2006). Neighbour-joining (NJ) cluster analysis
+We compared the positions of the significant SNPS identified in
+was performed on the two subsets to explore the relatedness this study with the positions of the QTL reported from previous bi-
+among the sampled accessions. As for the NJ tree, no clear parental and association mapping studies. Of the 11 loci we
+grouping was observed among Pls, whereas a few genotypes detected in the greenhouse trials, three overlapped with QTL
+from the improved lines showed close relatedness and subtle previously identified from biparentalmapingstudes (Table 2).Of
+grouping trends (Figure 2). These results indicate a lower level of the 16 loci we detected in the field trials, four reside within large
+population structure in Pls than that in improved lines. The chi- intervals of QTL reported from previous bi-parental mapping
+square test was used to test whether the SNP data-based studies, andone(Chr.15at123 Mb) locates within asmall linterval
+subgroups were associated with geographic origins or MGs (from 12.2to 13.2 Mb delimitedby 2 SNPS) identifiedbyaprevious
+(Table S2). The results showed very significant association GWASforwhite mouldi resistance in soyabean (Iquira et al., 2015).
+(P < 0.0001) between the two grouping factors. For example,
+As for the field trials data, 26 SNPS around 16 loci were
+Pls from Japan were mainly (63%) clustered in Cluster 4, whereas significantly associated with DSI (Table 3 and Figure S4). These
+Cluster 1 contained 31 accessions, of which 19 were from loci scattered across 12 chromosomes, and the peak SNPS at the
+northern China; improved lines belonging to MG II dominated identified loci explained approximately 45.6% and 51.7% of the
+Cluster 4, whereas Cluster 3 contained eight accessions, of which total phenotypic variance in improved lines and Pls, respectively.
+all were from MG Ill (Table S2). These results show population In the panel of improved lines, the locus with the largest effect
+structures positively correlated with geographic origins, which (R? = 8.2%) comprised of two SNPS (ss715605011 and
+validated the previous analyses (Hao et al., 2012a,b; Wen et al., $S715605026) covering 190 kb around 49.5 Mb on Chromo-
+2014, 2015) and provide additional insights into the fine-scale some 9. In the panel of Pls, the SNP showing the highest
+0 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIG H T s L I N Ko
+
+
+
+I
+1828 Zixiang Wen et al.
+i
+(a)
+(b)
+I
+0.03
+I
+(c)
+(d)
+I
+2
+1.5
+I
+1
+-
+0.5
+0
+Figure 2 Population structures and kinship heat
+map of two subsets of soyal bean Pls and improved
+lines. (a) NJ tree of soya bean improved lines. The
+five subgroups identified from the tree are colour-
+coded. (b) NJ tree of soya bean Pls. The four
+subgroups identified from the NJ tree are colour-
+coded. (c) A heatmap of the kinship value among
+accessions of the improvedlines. (d) Al heatmap of
+the kinship value among accessions of Pls.
+association (P value = 5.3 x 10-6) with DSI comprised of three 49 genes were detected as having significant differential expres-
+SNPS (5s715624027, SS715624030 and $S715624031) covering sion (Table S3). Of those genes, about half had more abundance
+14 kb around 29 Mb on Chromosome 16. Only one locus in the resistant genotypes and half had more abundance in the
+(Locus #7) had a significant association with white mould susceptible genotypes. Although it is hard to arrive at reasonable
+resistance across both panels. One explanation for this unex- conclusions about the exact mechanisms underlying white mould
+pected result is that the two populations had a different genetic resistance based on these small sets of genes, both groups should
+background and molecular mode of action underlying resis- be considered of great importance and be most likely candidates
+tance. A NJ tree showed that the panels of Pls and improved for improving resistance level in the partially resistant genotype.
+lines formed highly differentiated populations (Wen et al., After assigning these genes to functional categories defined by
+2015).
+Calla et al. (2009), the sum of genes in the categories 'Defense',
+Characteristics of GWAS-identified
+'Signaling' and 'Unknown' accounted for more than half the
+genes
+genes. Genes related to DNA/RNA processing, secondary
+Given that GWAS-identified loci often fall within gene deserts or metabolism protein synthesis and processing and membrane
+in regions with many equally plausible causative genes, it can be had lower percentages accounting for about 6% to 8%. Genes
+challenging to interpret GWAS signals biologically (Nica et al., related to oxidative processes, cytoskeleton and cell wall
+2010). Analysis of differential gene expression has been proposed accounted for only about 2% (Figure S5). Overall, the gene
+as a promising approach to aid the interpretation (Emilsson et al., expression profiles were similar to some extent to those of PI
+2008). A previous study showed that genes that were found to 194639 (partially resistant soya bean genotype) seedlings in
+have different expression patterns across varieties are most likely response to S. sclerotiorum infection (Calla et al., 2009). A
+to be directly or indirectly related to specific susceptibility/ comparison between the RNA sequences of those candidates
+resistance outcomes, while genes having differential expression from resistant and susceptible lines' transcriptomes identified 32
+across time points are most likely general responses of the plant nucleotide differences (24 single nucleotide polymorphisms
+to the infection, and may not lead to enhanced resistance (Calla (SNPS) and eight indels). Nine of the nucleotide differences from
+et al, 2009). Therefore, we sequenced transcriptomes of four seven genes found result in an amino acid change in the
+resistant and susceptible genotypes, and the following analyses predicted protein sequences (Table S4). Eight indels from eight
+were based on different expression patterns between the two genes create frameshift mutation.
+genotypes.
+As mentioned above, about half (58) of the differentially
+Within GWAS-identified loci based on greenhouse trials, a set expressed genes were more abundant in the resistant line's
+of 58 genes were detected as having significant differential transcriptome compared to the susceptible line's transcriptome.
+expression (FDR <0.05) between resistant and susceptible geno- Among these up-regulated genes, those encoding defence-
+types (Table S3). As for GWAS-identified loci based on field trials, associated proteins, such as pectate lyase (Glyma.056044000),
+o 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIGHTS L I N Ko
+
+
+
+Dissection of resistance to white mould in soya bean 1829
+Table 2 SNPS significantly associated with white mould resistance and a subset of candidate genesi identified by RNA-seq from greenhouse trials
+Subset of candidate geness based on RNA-seq
+Logz
+Panel Loci SNP
+Chr. Position' P
+Allele R2 (%) QTLt Name
+Annotation
+(fold change) TP1 (hpi)
+Improved 1 5s715588043 4 44059284 1.1 x 10-5 A/G 4.0
+Glyma.04G184400 F-box only protein 1.5
+12
+lines 2 SS715596204 7 10951353 6.1 x 10-5 AG 3.6 1-2 Glyma.07G109600 SBP domain
+1.7
+12
+3 $s715607404 10 44648970 6.0 x 10-5 CIA 3.2
+Glyma. 10G214500 Unknown
+1.6
+12
+4 $s715616839 13 15951647 1.4 x 10-5 AG 3.8
+Glyma.13G062000 NAM protein
+-2.0
+48
+5 $s715616533 13 44344336 7.1 x 10-5 AG 4.1
+Glyma.13G355600 NAD-dependent 1.7
+12
+E
+epimerase
+$s715616535 13 44357080 5.9 x 10-5 TIC 4.2
+e d
+6 $s715625406 16 7257702 9.1 x 10-5 TIC 4.1
+Glyma. 16 g071700 LOB domain
+2.5
+12
+8
+containing
+LE
+$s715625408 16 7265131 8.1 x 10-6 CIT 5.2
+$s715625410 16 7272893 3.3 x 10-5 T/G 4.5
+I
+$s715625414 16 7302240 9.7 x 10-5 AG 4.0
+e
+Pls
+7 5S715595608 6 8486465 5.6 x 10-5 TIC 4.7
+E
+$s715595609 6 8488833 1.1 x 10-5 T/G 4.6
+Glyma.06G107800 Serine hydroxyl
+1.8
+12
+o
+methyltransferase
+LL
+8 $s715597461 7 36664586 2.2 X 10-5 CT 5.1
+$s715597466 7 36679589 3.6 x 10-5 CIT 4.9
+S
+SS715597467 7 36684209 4.1 x 10-5 AG 4.8
+e
+$s715597472 7 36740564 4.7 x 10-6 T/C 5.0
+Glyma.07G199800 MAC/Perforin
+1.5
+48
+E
+domain
+SS715597474 7 36745679 5.6 X 10-5 T/C 4.8
+8
+e
+$s715597504 7 36936795 7.9 x 10-5 T/C 3.7
+9 $s715605211 9 5948655 2.6 x 10-5 CIT 4.3 1-3 Glyma. .09G062100 LRR
+2.8
+12
+10 $s715611206 11 8151411 6.4 x 10-5 T/G 3.8 3-3 Gilyma.11G107000 Amino acid
+1.6
+48
+E
+transporters
+11 $s715612432 12 34480040 2.8 x 10-5 GIA 4.2
+Glyma.12G183400 Acyl-COA
+1.6
+12
+reductase
+tPosition in base pairs for the peak SNP according to soya bean reference sequence (a2. v1) of Williams 82.
+*The position of significant SNP is located in one of the QTL intervals (defined as physical position of associated markers) as reported previously (http/www.soybase.
+angwewcMindesgholet-whte mould).
+SCandidate genes selected by RNA-seq analysis as having the significant changes (FDR<0.05) in abundance between partially resistant and susceptible genotypes by
+comparisons of Logz (fold change) of reads per kilobase per million (FPKM) around peak SNP.
+'TP stands for time point in hours (hours postinoculation).
+phosphatase (Glyma.09 g281900 and Glyma. 14G049600) and identified locus, and it was up-regulated with log2 (fold
+methyltransferase (Glyma.16 g134700), were prominent (Table 2 change) = 2.8 (FDR <0.05) in the resistant line's transcriptome
+and Table 3). Four NB-ARC domains (Gyma.09G062100, but had no significant change in susceptible line's transcriptome
+Glyma. 16G135200, Glyma. 16G135500 and Glyma.16G159200) across time points. Furthermore, three additional oxalate
+were also significantly higher in abundance in the resistant lines at exchanger-related genes (Glyma.07G218800, Glyma. 13G087200
+both time points studied. The NB-ARC domain is believed to be a and Glyma.19G159000) exhibited elevated levels of transcripts
+functional ATPase domain, and its nucleotide-binding state is in resistant line's transcriptome after inoculation with
+proposed to regulate activity of the resistance protein (van S. sclerotiorum, but did not overlap with GWAS-identified
+Ooijen et al., 2008). Moreover, there were two transferase- loci. Future studies will focus on functionally validating effects
+related genes were induced within 12 h postinoculation (hpi), of these genes, uncovering the molecular mechanisms of complex
+which encode acyltransferase (Glyma.04G198000) and a UDP- white mould resistance in soya bean.
+glucosyltransferase (Glyma 16G158100) involved in secondary
+Marker-assisted selection (MAS) and genomic selection
+metabolism biosynthesis. The expression of this gene implies that for white mould resistance
+a detoxification battle is being waged between host and
+pathogen (Zhao et al., 2009). Previous studies found that the Prediction accuracies of MAS using the loci identified via GWAS
+secretion of oxalic acid of S. sclerotiorum can produce an for DSI were investigated. For MAS by multiple linear regression
+unspecific toxin (Godoy et al., 1990; Zhao et al., 2015) in host (MLR) method, 12 and 14 SNPS identified from improved lines
+plants. The oxalate exchanger-related gene may play a role in the and Pls were investigated, respectively. At the same time, the
+detoxification of oxalic acid. In our study, an oxalate exchanger- prediction accuracies estimated from an equal number of
+related gene (Glyma.06G106100) was found located at a GWAS- randomly selected SNPS were used as a control. The prediction
+0 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIG H TS L I N Ko
+
+
+
+I
+1830 Zixiang Wen et al.
+i
+(a).o
+I
++
+I
+a
+a
+:
+o
+1 2
+3 4
+5 6 7 8 9 10 11 12 13 14 15 16 17 18
+19 20
+(b) 2
+(c)
+1.5
+3
+I 1
+I 2
+0.5
+1
+0
+L
+I
+0
+:
+!
+-1
+-0.5
+I
+-2
+(d) o -
+W W  SXT K SNN M S XX S S
+ I M AI AN AM A A AM M
+I
+E
+9
+P
+C
+E
+1 2
+3 4
+5 6 7 8
+9 10 11 12 13
+15 16 17 18
+19 20
+Chromosome
+Figure 3 Visualization of the GWAS results in the two association panels and changes in transcript level of genes around peak SNP. (a) Manhattan plots of
+de
+the MLM for live node in Pls. The - log10 P-values from a genome-wide scan are plotted against the position on each of the 20 chromosomes. The
+horizontal red line indicates the genome-wide significance threshold (FDR <0.05). (b, c) Transcript-level difference in candidate genes between SSR partially
+resistant and susceptible genotypes measured by comparisons of Logz (fold change) of FPKM around peak SNP. (d) Manhattan plots of the MLM for live
+node in improved lines.
+accuracies of MAS in the improved lines ranged from 0.47 to 0.51 prediction accuracy in the improved lines remained >0.60 till the
+(average of 0.50) for the 12 SNPS, which was 26% higher than number of SNPS used for prediction dropped below 500.
+that of the random SNPS (average of 0.37) (Figure 4a). Prediction
+With using a minimum of 1500 SNP markers, soya bean
+accuracies for MAS in the Pls ranged from 0.29 to 0.36 (average breeders are likely able to improve average prediction accuracy
+of 0.34; Figure 4a, b), which was 24% higher than those for to 0.64, which is significantly greater than that of the
+random SNPS (average of 0.26; Figure S6).
+conventional MAS approach (-0.41). The Illumina SoySNP6K
+Based on the above analysis, it is clear that white mould iSelect BeadChip (Illumina, San Diego, CA), which consists of
+resistance in soya bean is a complex trait and controlled by 5361 SNPS, has recently been developed for use specifically
+multiple genes with small effects. Our MAS model showed within soya bean breeding/research programmes (Ping et al.,
+relatively low prediction accuracy for DSI. Moreover, it was 2016; Wen et al., 2014). This BeadChip has established
+recently suggested that MAS had failed to significantly improve advantages in soya bean, including less bioinformatics analyses,
+complex traits (Heffner et al., 2009). Therefore, it was necessary robust and repeatable allele calling. As gBLUP was used in the
+to develop a genomic selection (GS) model for improving white present study, the higher prediction accuracy of GS in improved
+mould resistance in soya bean. The same sets of phenotypic (DSI) lines can be partially due to relative closer kinship among the
+and genotypic data used in the GWAS were used to assess the sampled accessions (Figure 2c). Compared with previous GS
+genomic prediction accuracy for white mould resistance through studies in soya bean, the prediction accuracy of GS in this study
+a fivefold cross-validation. The prediction accuracies ranged from was relatively lower than that of grain yield (0.64), seed weight
+0.62 to 0.64 for GS in the improved lines, whereas prediction (0.87) and soya bean cyst nematode (SCN) resistance (0.67)
+accuracies ranged from 0.48 to 0.56 for GS in Pls (Figure 4a, b). (Bao et al., 2014; Jarquin et al., 2014; Zhang et al., 2016).
+Although there are slight variations in prediction accuracies The higher prediction accuracy of GS in these previous studies
+among the different folds (Figure 4a, b), the GS model overall could be due to higher heritabilities of the traits they
+outperforms the MAS model by -20% in both populations. As it investigated.
+is important to determine the minimum number of markers for
+Collectively, GWAS has been proven very successful in discov-
+conducting GS Sin soya bean, differently sized SNP subsets were ering SNPS associated with complex traits, and now, it is
+selected and the corresponding prediction accuracies were imperative to explore their potential functional relevance. In this
+E
+estimated. For both populations, there was no significant study, we successfully combined GWAS with RNA-seq
+difference in prediction accuracies for DSI when 1500 approaches to localize candidate genes underlying white mould
+SNPS (approximately 1 SNP for every 670 kb) were used versus resistance in soya bean. The present study can serve as a good
+when the full set of SNPS were used (Figure 4c). Note that the reference for future studies on disease resistance in other plant
+o 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIGHTS L - N Ko
+
+
+
+Dissection of resistance to white mould in soya bean 1831
+Table 3 SNPS significantly associated with white mould resistance and a subset of candidate genes identified by RNA-Seq from the field trials
+Subset of candidate genest based on RNA-seq
+Log2
+(fold TP1
+Panel Loci SNP
+Chr. Positiont P
+Allele R(%) QTLt Name
+Annotation
+change) (hpi)
+Improved 1 $s715583735 2 6447172 3.1 x 10-5 TIC 5.3
+Glyma.02G073700 Aquaporin transporter
+2.5 12
+lines 2 Ss715587841 4 3732457 3.4 x 10-5 CT 5.3
+Glyma.04G046600 Hypothetical protein
+-2.1 12
+$s715587850 4 3752035 5.3 x 10-5 T/G 5.1
+$s715587866 4 3797774 3.9 x 10-5 GIA 5.1
+3 $S715587925 4 42372944 2.6 x 10-5 TIC 5.6
+Glyma.04G184400 F-BOX
+1.5 12
+$s715588278 4 46104694 3.2 x 10-5 T/C 5.5
+4 $s715590176 5 3924139 1.6x 10-6 GIA 6.9
+Glyma.05G044000* Pectate lyase
+1.6 12
+5 SS715601283 8 2789107 4.5 x 10-5 T/G 5.1
+Glyma.08 g035900 Glycosyl hydrolase
+1.6 12
+6 $s715605011 9 49559911 3.6 x 10-5 GIA 5.3 2-18 Glyma.09G281900 O-methytransferase
+2.2 48
+$s715605026 9 49749681 4.7 x 10-7 CT 8.2
+7 $s715624465 16 31915854 7.7 x 10-6 T/G 6.1
+Glyma.16G158100 Glucuronosytransferases 2.0 48
+8 SS715630705 18 43030373 1.2 x 10-5 T/C 6.0
+Glyma.18G177400 Laccase
+2.0 12
+a
+Pls
+9 $S715590828 5 33208876 5.9 X 10-5 TIC 5.2 2-1 Glyma.05G138800 Cytochrome b
+1.8 12
+10 SS715596286 7 10514582 4.6 x 10-5 T/G 5.3 1-2
+11 SS715607488 10 45331299 2.3 x 10-5 CIT 5.8
+Glyma.10G221700 Solute carrier
+1.5 12
+12 $s715618590 14 3852549 6.6 x 10-5 CT 6.8
+Glyma. .14G049400 Protein binding
+1.7 12
+SS715618599 14 3878273 3.7 x 10-5 AG 5.9
+$s715618604 14 3885274 1.5 x 10-5 T/C 6.0 8-2
+13 $s715620418 15 12264951 4.0 x 10-5 T/C 5.4 G.S Glyma.15G147100 5'-3 exoribonuclease 3
+4.2 12
+$s715620421 15 12278417 7.1 x 10-5 T/C 5.2
+de
+14 $s715624027 16 29081835 5.5 x 10-5 CT 5.2
+Glyma. .16 g134000, SAM dependent
+1.8; 1.6 12
+Glyma.16G134400 carboxyl methyltransferase
+$s715624030 16 29090022 2.3 x 10-5 T/G 6.0
+$s715624031 16 29095909 5.3 x 10-6 GIA 7.7
+7 $s715624900 16 31667215 6.1 x 10-5 CT 5.2
+Glyma.16G158100 Gilucuronosytransferases 2.0 12
+15 S5715636086 19 579512 6.1 x 10-5 GIA 5.2
+Glyma.19G005800 Polyribonucleotide
+1.6 12
+nucleotidytransferase
+16 $s715634194 19 3498043 6.4 x 10-5 GIA 5.1
+Glyma.19G026900 Plastocyanin-like domain 1.9 12
+tPosition in base pairs for the peak SNP according to soya bean reference sequence (a2.v1) of Williams 82.
+*the position of significant SNP is located lin one of the QTL or GWAS (G.S) intervals (defined as physical position of associated markers) as reported previously (http:ll
+www.soybase.orgsearchindex.phplqti-white mould).
+SCandidate genes selected by RNA-seq results as having the significant changes ((FDR<0.05) in abundance between partially resistant and susceptible genotypes by
+comparisons of fold change (log2-transformed) of reads per kilobase per million (FPKM) around peak SNP.
+'TP stands for time point (hours postinoculation).
+species. Furthermore, we demonstrated that GS can be an Improved-ines:962-MSU, 'Improved lines' for shortened form),
+effective tool to increase the efficiency of breeding for disease which were chosen to represent a range of materials developed
+resistance in soya bean.
+for North Central production area of the United States. Further
+information for each accession (selection criteria, commercial
+Experimental procedures
+name and origin) is given in Table S5.
+and
+DNA samples from each accession were genotyped with
+Sampling genotyping
+SoySNP50 iSelect BeadChip (Illumina, San Diego, CA), which
+Two association panels were used in the present study. The first consists of 52 401 SNPS. The quality of each SNP was checked
+panel consisted of 405 accessions of soya bean Pls obtained from manually as previously reported by Yan et al. (2010). The SNPS
+the USDA Germplasm Collection (hereafter named as Pls- with minor allele frequency (MAF) >5% and a missing data rate
+soybean-405, 'Pls' for shortened form). These accessions were <20% were retained.
+collected from multiple geographic origins including the United White mould resistance evaluation in greenhouse and
+States, China, Japan, Korea, Kyrgyzstan and Russia. All of those field trials
+accessions were selected to represent the variation and maintain
+the diversity of the collection, based on SNPS detected by the All soya bean accessions were grown in a greenhouse on the
+SoySNP50K BeadChip (Song et al., 2013) for material in maturity campus of Michigan State University, East Lansing. The
+groups (MG) I, II and III. The second panel consisted of 962 experimental design was a randomized complete block design
+improved lines released from 2007 to 2012 (hereafter named as with two replicates. For each accession, six plants per replicate
+0 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIG H T s L I N Ko
+
+
+
+1832 Zixiang Wen et al.
+(a)
+-Significant SNPS - Genome-wide SNPS
+Two subsets of soya bean lines were selected from two
+0.7 7
+association panels, 278 Pls and 421 improved lines. To reduce
+the influence of lodging to white mould in field trials, all
+0.6
+selected lines had lodged plants fewer than 25%. The two
+panels were evaluated for white mould resistance in a naturally
+0.5
+infested white mould disease nursery at Montcalm, Michigan,
+during the growing seasons (May-October) of 2014 and 2015.
+A
+Consistent heavy white mould disease symptoms had been
+0.4
+observed historically in the disease nursery. Ninety seeds were
+planted in single-row plots, 6 m long with 0.58 m row spacing,
+0.3
+at a depth of 3.8 cm with three replications. Plots were rated for
+0
+1
+2
+3
+4
+5
+disease severity based on the rating system developed by Kim
+et al. (1999) at approximately the beginning of physiological
+(b)
+-Significant SNPS Genome-wide SNPS
+maturity (R7; Fehr et al., 1971). All plants in the plots were
+0.6
+individually rated with a scale of 0 to 3, where 0 = no
+symptoms, 1 = lesions on lateral branches only, 2 = lesions on
+0.5
+the main stem but no effect on pod fill and 3 = lesions on main
+stem resulting in plant death and poor pod fill. A disease severity
+e
+index (DSI) was calculated for each
+the
+5
+plot using following
+0.4
+formula:
+<
+0.3
+DSI= (rating of each plant)/3 x total Inumber of plantsrated
+x 100
+0.2
+0
+1
+2
+3
+4
+5
+Therefore, DSI ranges from 0 to 100 standing for no disease
+--Improved lines - PIs
+symptom to plant death. As the DSI data were collected from
+(c) 0.7
+multiple years; best linear unbiased predictors (BLUPS) were used
+0.65
+for the overall association analysis. The linear model for BLUP was
+Yik = Lk + E, + R(E)j + (L x Elik + Eijks where Yjk is the observed
+0.6
+phenotype for the kth line in the jh replicate of the th
+0.55
+environment; Lk is the random effect of the kth line; E; is the
+2
+random effect of the th year; R (E)j is the random effect of
+0.5
+the/th
+replicate in the jth year; (E x L)ik is the random interaction effect
+0.45
+of the th year and the kth line, and Eijk is the error. The heritability
+0.4
+estimates were calculated using variance components obtained
+by the BLUP linear model (Nyquist, 1991).
+0.35
+0
+1000
+2000
+3000
+4000
+Population structure and kinship analyses
+Different number ofSNPs
+Principal component and neighbour-joining tree analysis were
+Figure 4 Mean accuracies of cross-validation for prediction of DSI in two applied to infer population stratification. A pairwise distance
+panels of soya bean germplasm. (a) Comparison of prediction accuracy of matrix derived from a modified Euclidean distance for all
+different fold between GS and MAS in improved lines (b) Comparison of polymorphic SNPS was calculated to construct neighbour-joining
+prediction accuracy of different fold between GS and MAS in Pls. (c)
+trees using TASSEL 5.0 software (Bradbury et al., 2007). Principal
+Prediction accuracy with different number of SNP markers in GS for DSI. component analysis was performed using TASSEL 5.0 based on
+The prediction accuracy was the mean of fivefold estimated from fivefold 4549 SNPS with minor allele frequency (MAF) >20% and physical
+cross-validation with 100 replications within each fold.
+distance >60 kb. Kinship matrixes were calculated using centred
+IBS method (Endelman and Jannink, 2012) implemented in
+TASSEL 5.0 to determine relatedness among individuals based
+were evaluated at the V3 growth stage (Fehr et al., 1971) in on the same sets of SNPS. TASSEL 5.0 was used to make all
+pots. The S. sclerotiorum isolate 105HT provided by Dr. Glen pairwise comparisons of alleles to calculate squared correlation
+Hartman (soya bean Pathogen Collection Center at the United coefficient (7) of alleles between markers. The extent of LD decay
+States Department of Agriculture, Agricultural Research Service was measured as the chromosomal distance at which the average
+at the University of Illinois) was used for inoculations. The pairwise correlation coefficient (7) dropped to half its maximum
+experiments were conducted in the winter of 2012 and 2013. value.
+The drop-mycelium method developed by Chen and Wang Genome-wide association analysis
+(2005) was adopted to evaluate white mould resistance.
+Greenhouse day/night temperature was set at 24°C. Humidity A unified mixed model was used to perform GWAS with the
+was controlled by Trion Herrmidifier (model 707, Sanford, control of both population structure and relative kinship. The
+NC). Plants were individually rated with a scale of 0 to 4 MLM can be expressed as y + Xa + PB + Ku + e, respectively,
+(Figure S7) based on living node number 10 days after the where yis the phenotypic value; ais the vector of SNP effects; Bis
+inoculation.
+the vector of population structure effects; H is the vector of
+o 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIGHTS LIN Ko
+
+
+
+Dissection of resistance to white mould in soya bean 1833
+kinship background effects; eis the vector of residual effects; Pis 500, 1000, 1500, 2000, 2500, 3000, 3500 and 4000 corre-
+the PCA matrix relating y to B; X and K are incidence matrices of sponding to interval distance of 10.0 Mb, 2.0 Mb, 1.0 Mb,
+1s and Os relating yto OL and H, respectively (Zhang et al, 2010). 0.67 Mb, 0.5 Mb, 0.4 Mb, 0.3 Mb, 0.28 Mb and 0.25 Mb,
+The top five principal components were used to build the Pmatrix respectively. Each subset was then used as the genotype matrix to
+for population structure correction. Analyses were performed perform fivefold cross-validation across both two panels.
+with the software TASSEL 5.0. False discovery rate (FDR) <0.05
+was used to identify significant associations.
+Acknowledgements
+Characterization of candidate genes based on RNA-seq
+We thank N. Boyse, J. Jacobs, Yingdong Bi, Zhimin Dong, Xiao
+To identify causative candidate gene around GWAS-identified Wei, Lihong Li, Feng Lin and A. Byme for technical assistance. The
+loci, the most resistant line (AG1703), the most susceptible line funders had no role in study design, data collection and analysis,
+(V28N8RR) and resistance (R, AxN-1-55) and susceptible (S, decision to publish or preparation of the manuscript. This work
+Olympus) check were grown and inoculated with Sclerotinia was supported by the National Sclerotinia Initiative and Michigan
+sclerotiorum in greenhouse with the drop-mycelium method soya bean Promotion Committee. The authors declare no conflict
+(Chen and Wang, 2005). For each accession, the main stem tips of interest.
+(top 3 cm) were collected from two replicates at 12 and 48 h
+postinoculation hpi, respectively. Control samples (noninoculated,
+freshly cut stems from seedlings at 12 and 48 h hpi) were also References
+collected. Samples were quickly packed into foil and frozen in Arahana, V.S., Graef, G.L., Specht, J.E., Steadman, J.R. and Eskridge, K.M.
+liquid nitrogen within 10 S of collection.
+(2001) Identification of QTLS for resistance to Sclerotinia sclerotiorum in
+Total RNA was isolated using the RNeasy Plant Mini Kit (Qiagen
+soybean. Crop Sci. 41, 180-188.
+Inc., Valencia, CA) according to the manufacturer'sinstructions in Bao, Y., Vuong, T., Meinhardt, C., Tiffin, P., Denny, R., Chen, S., Nguyen, H.T.
+conjunction with DNase treatment. The quality of total RNA was
+et al. (2014) Potential of association mapping and genomic selection to
+determined using RiboGreene RNA Assay Kit. Libraries were
+explore PI 88788 derived soybean cyst nematode resistance. Plant Genom. 7
+constructed and sequenced by MOGENE (Saint Louis, MO), and
+(3), 1-13.
+Bastien, M., Sonah, H. and Belzile, F. (2014) Genome wide association
+their sequencing reads were analysed as described by (Goettel
+mapping
+of Sclerotinia sclerotiorum resistance in soybean with a genotyping-by-
+et al., 2014). Tophat v2.0.1 (Trapnell et al., 2009) was run on
+sequencing approach. Plant Genom. 7(1), 1-13.
+each of the samples using the Williams 82 a2 v1 reference Boland, GJ. and Hall, R.(1994) Index of plant hosts of Sclerotinia sclerotiorum.
+genome and transcriptome annotation from Phytozome v10 to
+Can. J Plant Pathol. 16(2), 93-108.
+guide the alignments. Cufflinks v2.2.1 (Roberts et al., 2011) was Bradbury, P.J., Zhang, Z., Kroon, D.E., Casstevens, T.M., Ramdoss, Y. and
+run on each sample bam to quantitate against reference
+Buckler, E.S. (2007) TASSEL: Software for association mapping of complex
+transcript annotations only. Cuffmerge v1.0.0 (https:/manned.
+traits in diverse samples. Bioinformatics, 23, 2633-2635.
+orgycuffmergef06f1a10) was then used to produce the merged Calla, B., Radwan, O., Vuong, T., Clough, S.J. and Hartman, G.L. (2009) Gene
+transcriptome file. Cuffdiff (v2.2.1; Trapnell et al., 2010) was
+expression profiling soybean stem tissue early response to Sclerotinia
+used to produce normalized gene expression values in FPKMS
+sclerotiorum and in silico mapping in relation to resistance markers. Plant
+(fragments per kilobase of exon per million fragments mapped),
+Genom. 2(2), 149-166. htpslibiongno383Spantgigenome20802008.
+well
+Chen, Y. and Wang, D. (2005) Two convenient methods to evaluate soybean
+as as an all by all differential expression analysis by combining
+for resistance to Sclerotinia sclerotiorum. Plant Dis. 89, 1268-1272. httpsl/d
+replications. Differentially expressed genes in the specific paired
+oi.org/10. 1094/PD-89-1268.
+sample comparisons were identified with the logz fold change Danielson, G.A., Nelson, B.D. and Helms, T.C. (2004) Effect of Sclerotinia stem
+between the two samples and the P-values given to the
+rot on yield of soybean inoculated at different growth stages. Plant Dis. 88,
+comparison along with the FPKMS for each of the two samples
+297-300.
+in the comparison.
+Emilsson, V., Thorleifsson, G., Zhang, B., Leonardson, A.S., Zink, F., Zhu, J.,
+Carlson, S. et al. (2008) Genetics of gene expression and lits effect on disease.
+Genomic prediction and marker-assisted selection model
+Nature 452, 423-428.
+A genomic best linear unbiased prediction (gBLUP) model was Endelman, J.B. and Jannink, J.L. (2012) Shrinkage estimation of the realized
+used to predict genomic estimated breeding values (GEBVS) of
+relationship matrix. G3: Genes. Genomes. Genetics 2, 1405-1413.
+white mould resistance. The model for gBLUP is given by Fehr, W.R., Caviness, CE., Burmood, D.T. and Pennington, J.S.(1971) Stage of
+development descriptions for soybeans, Glycine max (L.)Merrill. Crop Sci 11,
+y= 1nH + Zg + e, where y is a vector of phenotypes, 1n is a
+929-931.
+vector of ones, H is the mean, Z is a design matrix allocating Godoy, G., Steadman, J.R., Dickman, M.B. and Dam, R. (1990) Use of mutants
+records to genetic values, g is a vector of additive genetic effects
+to demonstrate the role of oxalic acid in pathogenicity of
+for an individual, and e is a vector of random normal deviates 0.
+Sclerotinia sclerotiorum on Phaseolus vulgaris. Physiol. Mol Plant Pathol.
+Analyses were performed with the software TASSEL 5.0.
+37, 179-191.
+As for the MAS model, MLR was employed to predict DSI Goettel, W., Xia, E., Upchurch, R., Wang, M.L., Chen, P. and An, Y.Q. (2014)
+(Zhang et al., 2016). The Pearson correlation coefficient between
+Identification and characterization of transcript polymorphisms in soybean
+the observations and the cross-validated GEBVS was used to
+lines varying in oil composition and content. BMC Genom. 15, 299.
+determine the accuracy. To compute the accuracy, we used a Guo, X., Wang, D., Gordon, S.G., Helliwell, E., Smith, T., Berry, S.A., Martin,
+S.K.S. et al (2008) Genetic mapping of QTLS underlying partial resistance to
+fivefold cross-validation. Each phenotypic data set was randomly
+Sclerotinia sclerotiorum in soybean PI 1391589A and P1391589B. Crop Sci 48,
+divided into five equal parts. The GEBVS for each fold were later
+1129-1139.
+E
+predicted by training the model on the four remaining folds.
+Han, Y., Zhao, X., Cao, G., Wang, Y., Li, Y., Liu, D., Teng, W. et al. (2015)
+To investigate the prediction accuracies with different number
+Genetic characteristics of soybean resistance to HG type 0 and HG type
+of markers, nine subsets of SNPS that were evenly distributed
+1.2.3.5.7 of the cyst nematode analyzed by genome-wide association
+across the genome were selected. The subsets sizes were 100,
+mapping. BMC Genom. 16(1), 598.
+0 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIG H TS L I N Ko
+de
+
+
+
+1834 Zixiang Wen et al.
+Hao, D., Cheng, H., Yin, Z., Cui, S., Zhang, D., Wang, H. and Yu, D. (2012a)
+approach and validation by QTL mapping in soybean. Plant Biotechnol. J. 13,
+Identification of single nucleotide polymorphisms and haplotypes associated
+211-221.
+with yield and yield components in soybean (Glycine max) landraces across Song, Q., Hyten, D.L., Jia, G., Quigley, CV., Fickus, E.W., Nelson, R.L. and
+multiple environments. Theor. Appl Genet 124, 447-458.
+Cregan, P.B. (2013) Development and evaluation of SoySNP50K, a high-
+Hao, K., Bosse, Y., Nickle, D.C., Pare, P.D., Postma, D.S., Laviolette, M.,
+density genotyping array for soybean. PLOS ONE, 8, e54985.
+Sandford, A. et al. (2012b) Lung eQTLS to help reveal the molecular Trapnell, C., Pachter, L. and Salzberg, S.L. (2009) TopHat: discovering splice
+underpinnings of asthma. PLOS Genet. 8(11), e1003029.
+junctions with RNA-seq. Bioinformatics, 25(9), 1105-1111.
+Heffner, E.L., Sorrells, M.E. and Jannink, J.L. (2009) Genomic selection for crop Trapnell, C., Williams, B., Pertea, G., Mortazavi, A., Kwan, G., van Baren, M.J.,
+improvement. Crop Sci 49, 1-12.
+Salzberg, S.L. et al. (2010) Transcript assembly and quantification by RNA-
+Hernandez, D.G., Nalls, M.A., Moore, M., Chong, S., Dillman, A., Trabzuni, D.,
+Seq reveals unannotated transcripts and isoform switching during cell
+Gibbs, J.R. et al. (2012) Integration of GWAS SNPS and tissue specific
+differentiation. Nat. Biotechnol. 28(5), 511-515.
+expression profiling reveal discrete eQTLs for human traits in blood and brain. Vuong, T.D., Diers, B.W. and Hartman, G.L. (2008) Identification of QTL for
+Neurobiol. Dis. 47, 20-28. htps/doiorgy10.1016j1bd.201203.020.
+resistance to Sclerotinia stem rot in soybean plant introduction 194639. Crop
+Hoffman, D.D., Hartman, G.L., Mueller, D.S., Leitz, R.A., Nickell, C.D. and
+Sci. 48, 2209-2214.
+Pedersen, W.L. (1998) Yield and seed quality of soybean cultivars infected Wen, Z., Tan, R., Yuan, J., Bales, C., Du, W., Zhang, S., Chilvers, M.I. et al
+with Sclerotinia sclerotiorum. Plant Dis. 82, 826-829.
+(2014) Genome-wide association mapping of quantitative resistance to
+Huynh, T.T., Bastien, M., Iquira, E., Turcotte, P. and Belzile, F. (2010) sudden death syndrome in soybean. BMC Genom. 15(1), 809.
+Identification of QTLS associated with partial resistance to white mould in Wen, Z., Boyse, J.F., Song, Q., Cregan, P.B. and Wang, D. (2015) Genomic
+soybean using field-based inoculation. Crop Sci. 50, 969-979.
+consequences of selection and genome-wide association mapping in
+Hwang, E.Y., Song, Q, Jia, G., Specht, J., Hyten, D., Costa, J. and Cregan, P.B.
+soybean. BMC Genom. 16, 671.
+(2014) A genome-wide association study of seed protein and oil content in Workneh, F. and Yang, X.B. (2000) Prevalence of Sclerotinia stem rot of
+soybean. BMC Genom. 15(1), 1-12.
+soybeans in the north-central United States in relation to tillage, climate, and
+Iquira, E., Humira, S. and François, B. (2015) Association mapping of QTLS for
+latitudinal positions. Phytopathology, 90, 1375-1382.
+sclerotinia stem rot resistance in a collection of soybean plant introductions Wrather, JA. and Koenning, S.R. (2006) Estimates of disease effects on
+using a genotyping by sequencing (GBS) approach. BMC Plant Biol. 15, 5.
+soybean yields in the United States 2003 to 2005. J Nematol. 38(2), 173-
+Jarquin, D., Kocak, K., Posadas, L., Hyma, K., Jedlicka, J., Graef, G. and Lorenz,
+180.
+A. (2014) Genotyping by sequencing for genomic prediction in a soybean Wrather, JA., Anderson, T.R., Arsyad, D., Gai, J., Ploper, L., Porta-Puglia, A.,
+breeding population. BMC Genom. 15, 740.
+Ram, H.H. et al. (1997) soybean disease loss estimates for the top 10 soybean
+Kim, H.S. and Diers, B.W. (2000) Inheritance of partial resistance to Sclerotinia
+producing countries in 1994. Plant Dis. 81(1), 107-110.
+stem rot in soybean. Crop Sci. 40, 55-61.
+Yan, J., Shah, T., Warburton, M.L., Buckler, E.S., McMullen, M.D. and Crouch,
+Kim, H.S., Sneller, C.H. and Diers, BW.(1999)Evaluation of fsoybean cultivarsfor J. (2009) Genetic characterization and linkage disequilibrium estimation ofa
+resistance to Sclerotinias stem rotin field environments. Crop Sci 39, 64-68.
+global maize collection using SNP markers. PLOS ONE 4(12), e8451.
+Koenning, S. and Wrather, J.A. (2010) Suppression of soybean yield potentialin Yan, J., Yang, X., Shah, T., Sanchez-Villeda, H., Li, J., Warburton, M., Zhou, Y.
+the continental United States by plant diseases from 2006 to 2009. Plant
+et al (2010) High-throughput SNP genotyping with the Golden Gate assay in
+Health Prog. 10, 1-6. https://doi. 091010XPP2010120185
+maize. Mol. Breed. 25, 441-451.
+Kurle, J.E., Grau, C.R., Oplinger, E.S. and Mengistu, A. (2001) Tillage, crop Yang, X.B., Lundeen, P. and Uphoff, M.D. (1999) soybean varietal
+sequence, and cultivar effects on Sclerotinia stem rot incidence and yield in
+response and yield loss caused by Sclerotinia sclerotiorum. Plant Dis. 83,
+soybean. Agron. J 93, 973-982.
+456-461.
+Nelson, B.D., Helms, T.C. and Olson, M.A. (1991) Comparison of laboratory and Yu, J., Pressoir, G., Briggs, W.H., Vroh Bi, L., Yamasaki, M., Doebley, J.F.,
+field evaluations of resistance in soybean to Sclerotinia sclerotiorum. Plant
+McMullen, M.D. et al. (2006) A unified mixed-model method for association
+Dis. 75, 662-665.
+mapping that accounts for multiple levels of relatedness. Nat. Genet. 38,
+Nica, A.C., Montgomery, S.B., Dimas, A.S., Stranger, B.E., Beazley, C., Barroso,
+203-208.
+I. and Dermitzakis, E.T. (2010) Candidate causal regulatory effects by Zhang, Z., Ersoz, E., Lai, C.Q., Todhunter, R.J., Tiwari, H.K., Gore, M.A.,
+integration of expression QTLS with complex trait genetic associations. PLOS
+Bradbury, P.J. et al (2010) Mixed linear model approach adapted for
+Genet 6(4), e1000895.
+genome-wide association studies. Nat Genet. 42, 355-360.
+Nyquist, W.E. (1991) Estimation of heritability and prediction of selection Zhang, J, Song, Q., Cregan, P.B. and Jiang, G.L. (2016) Genome-
+response in plant populations. Crit. Rev. Plant Sci. 10, 235-322.
+wide association study, genomic prediction and marker-assisted
+van Ooijen, G., Mayr, G., Kasiem, M.M., Albrecht, M., Cornelissen, B.J. and
+selection for seed weight in soybean (Glycine max). Theor. Appl Genet
+Takken, F.L. (2008) Structure-function analysis of the NB-ARC domain of
+129, 117-130.
+plant disease resistance proteins. J. Exp. Bot. 59, 1383-1397.
+Zhao, J., Buchwaldt, L., Rimmer, S.R., Sharpe, A., McGregor, L., Bekkaoui, D.
+Peltier, AJ. and Grau, C.R. (2008) The influence of light on relationships
+and Hegedus, D. (2009) Patterns of differential gene expression in Brassica
+between sclerotinia stem rot of soybean in field and controlled environments.
+napus cultivars infected with Sclerotinia sclerotiorum. Mol. Plant Pathol. 10,
+Plant Dis. 92, 1510-1514.
+635-649.
+Peltier, AJ., Bradley, C.A., Chilvers, M.I., Malvick, D.K., Mueller, D.S., Wise, Zhao, X., Han, Y.,Li,Y., Liu, D., Sun, M., Zhao, Y., Lv, C. et al. (2015) Loci and
+K.A. and Esker, P.D. (2012) Biology, yield loss, and control of sclerotinia stem
+candidate gene identification for resistance to Sclerotinia sclerotiorum in
+rot of soybean. J Int. Pest Manag. 3(2), B1-B7.
+soybean (Glycine max L. Merr.) via association and linkage maps. Plant J. 82
+Ping, J., Fitzgerald, J.C., Zhang, C., Lin, F., Bai, Y., Wang, D., Aggarwal, R. et al
+(2), 255.
+(2016) Identification and molecular mapping of Rps11, a novel gene
+conferring resistance to Phytophthora sojae in soybean. Theor. Appl.
+Genet 129, 445-451.
+Supporting information
+Roberts, A., Trapnell, C., Donaghey, J., Rinn, J.L. and Pachter, L. (2011)
+Improving RNA-seq expression estimates by correcting for fragment bias. Additional Supporting Information may be found online in the
+Genome Biol. 12, R22.
+supporting information tab for this article:
+Schmutz, J., Cannon, S.B., Schlueter, J., Ma, J., Mitros, T., Nelson, W., Hyten,
+D.L. et al. (2010) Genome sequence of the palaeopolyploid soybean. Nature, Figure S1 Histograms showing the distributions of phenotypic
+463, 178-183.
+data observed in greenhouse trials.
+Sonah, H., O'Donoughue, L., Cober, E., Rajcan, I. and Belzile, F. (2014) Figure S2 Histograms and box-plots showing the distributions of
+Identification of loci governing eight agronomic traits using a GBS-GWAS phenotypic data observed in field trials.
+o 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIGHTS LIN Ko
+
+
+
+Dissection of resistance to white mould in soya bean 1835
+Figure S3 Quantile-quantile (QQ) plot of MLM for living node and Table S1 Correlation analysis of DSI and agronomic traits in
+DSI in two panels.
+improved lines and Pls.
+Figure S4 Manhattan plots of MLM for DSI in improved lines (a) Table S2 Distribution of accessions in each subgroup based on
+and Pls (b).
+genetic distance in improved lines and Pls.
+Figure S5 Functional category annotations for candidate genes Table S3 Candidate genes showing statistically significant
+and their respective percentages identified via GWAS as signif- induction in response to Sclerotinia sclerotiorum inoculation
+icantly associated with white mould resistance.
+among genotypes tested.
+Figure S6 Comparison of predication accuracy between signif- Table S4 Nucleotide differences found between resistant and
+icant SNP and randomly selected SNP.
+susceptible genotypes result in an amino acid change at GWAS-
+Figure S7 Scale used for phenotyping white mould disease hit loci.
+severity (DS).
+Table S5 Soya bean germplasm accessions analyzed in this study.
+I
+E
+P
+I
+e
+I
+F
+E
+i
+-
+I
+E
+I
+I
+i
+9
+I
+]
+8
+1
+9
+8
+0 2018 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 16, 1825-1835
+RIGHTS L I N Ko
+I

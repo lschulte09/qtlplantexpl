@@ -1,0 +1,940 @@
+Chang et al. BMC Genomics (2016) 17:153
+DOI 10118651286401624837
+BMC Genomics
+RESEARCH ARTICLE
+Open Access
+CrossMark
+Genome-wide association and genomic
+prediction identifies associated loci and
+predicts the sensitivity of Tobacco ringspot
+virus in soybean plant introductions
+Hao-Xun Chang',Patrick J. Brown', Alexander E. Lipka',Leslie L. Domier12 and Glen L. Hartman 1,2,3*
+Abstract
+Background: Genome-wide association study (GWAS) is a useful tool for detecting and characterizing traits of
+interest including those associated with disease resistance in soybean. The availability of 50,000 single nucleotide
+polymorphism (SNP) markers (SoySNP50K iSelect BeadChip; www.soybase.org) on 19,652 soybean and wild soybean
+plant introductions (Pls) in the USDA Soybean Germplasm Collection allows for fast and robust identification of loci
+associated with a desired phenotype. By using a genome-wide marker set to predict phenotypic values, genomic
+prediction for phenotype-unknown but genotype-determined Pls has become possible. The goal of this study was
+to describe the genetic architecture associated with sensitivity to Tobacco ringspot virus (TRSV) infection in the
+USDA Soybean Germplasm Collection.
+Results: TRSV-induced disease sensitivities of the 697 soybean Pls were rated on a one to five scale with plants
+rated as one exhibiting mild symptoms and plants rated as five displaying terminal bud necrosis (ie., bud blight).
+The GWAS identified a single locus on soybean chromosome 2 strongly associated with TRSV sensitivity. Cross-
+validation showed a correlation of 0.55 (P< 0.01) to TRSV sensitivity without including the most significant SNP
+marker from the GWAS as a covariate, which was a better estimation compared to the mean separation by using
+significant SNPS. The genomic estimated breeding values for the remaining 18,955 unscreened soybean Pls in the
+USDA Soybean Germplasm Collection were obtained using the GAPIT R package. To evaluate the prediction
+accuracy, an additional 55 soybean accessions were evaluated for sensitivity to TRSV, which resulted in a correlation
+of 0.67 (P< 0.01) between actual and predicted severities.
+Conclusion: A single locus responsible for TRSV sensitivity in soybean was identified on chromosome 2. Two
+leucine-rich repeat receptor-like kinase genes were located near the locus and may control sensitivity of soybean to
+TRSV infection. Furthermore, a comprehensive genomic prediction for TRSV sensitivity for all accessions in the USDA
+Soybean Germplasm Collection was completed.
+Keywords: Genome association and prediction integrated tool (GAPIT), Genome-wide association studies (GWAS),
+Genomic prediction, Single nucleotide polymorphism (SNP), Soybean (Glycine max), Tobacco ringspot virus (TRSV)
+:Correspondence ghartman@illinois: s.edu
+'Department of Crop Sciences, University of illinois, Urbana, IL 61801, USA
+PUSDA-Agricultural Research Service, Urbana, IL 61801, USA
+Full list of author information is available at the end of the article
+02016 Chang et al Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+BioMed Central International License fhtpl/ceatvecommonsorgficensesby/400, which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide al link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+Omp/cesbecommonsoyp/pubicdomanveonlon applies to the data made available in this article, unless otherwise stated.
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 2 of 11
+Background
+from the sensitive Estland ecotype, the resulting plants
+Tobacco ringspot virus (TRSV), a single-stranded bipart were sensitive to TRSV infection. In contrast, when Col-0
+ite RNA virus, is one of the most destructive viral patho- was transformed with TTR1 that contained single amino
+gens of soybean (Glycine max (L.) Merr.) [1]. Soybean acid substitutions at different locations, only L956S and
+plants infected with TRSV are generally stunted, leaflets K1124Q escaped the necrosis symptoms, suggesting that
+may be dwarfed and rolled, buds may become brown, the leucine (L956) and lysine (K1124) residues in the
+necrotic and brittle, and terminal buds may form a TTR1 gene were needed for TRSV sensitivity and for dis-
+crook and die. Plants infected at early developmental playing lethal systemic necrosis [8].
+stages often produce undeveloped flowers that impact The genome-wide association study (GWAS) is a stat-
+fertilization resulting in aborted pods and yield losses istical analysis that associates variation across the entire
+ranging from 25 to 100 % [1, 2]. TRSV is transmitted genome with phenotypes [9, 10]. In the case of soybean,
+through infected seeds or by vectors, including the dag- GWASS have been used to identify loci associated with
+ger nematode (Xiphinema americanum Cobb), grass- agronomic traits [11], abiotic stress [12], and disease re-
+hoppers (Melanoplus differentialis Thomas), thrips sistance including Phytophthora root rot (Phytophthora
+(Thrips tabaci Lindeman) and tobacco flea beetles (Epi- sojae Kaufman & Gerdman) [13], Sclerotinia stem rot
+trix hirtipennis Melsheimer) [1]. Transmission by seed (Sclerotinia sclerotiorum (Lib.) de Bary) [14-16], soybean
+and nematodes may be the most common pathways of cyst nematode (Heterodera glycines Ichinohe) [17-19],
+infection [3]. TRSV has a broad host range that includes and sudden death syndrome (Fusarium virguliforme
+many plant genera, and has been reported on soybean in Akoi, O'Donnell, Homma &. Lattanzi) [20]. With the
+most soybean producing states in the USA and in availability of SoySNP50K single nucleotide polymorph-
+Australia, Canada, the People's Republic of China, and ism (SNP) markers [21], genomic information for over
+Russia [1].
+19,000 accessions in the USDA Soybean Germplasm
+There are few options for managing TRSV outbreaks. Collection can be utilized to identify genes underlying
+Resistance to TRSV has not been described for commer- many traits, including resistance or tolerance to TRSV.
+cial soybean cultivars, and may not be available based on The goal of this study was to identify regions of the
+the absence of TRSV resistance in a set of 52 lines that soybean genome associated with sensitivity to TRSV
+are the ancestors to most North American public culti- infection based on a subset of the PIs in the USDA Soy-
+vars [4]. In another study, TRSV resistance was reported bean Germplasm Collection. For these analyses, 697 soy-
+in wild soybean (Glycine soja Siebold & Zucc.) as three bean PIs were phenotyped TRSV sensitivity and GWAS
+out of 630 plant introductions (PIs) displayed only mild was performed, which identified a single locus associated
+symptoms when infected by TRSV [5]. No further stud- with sensitivity to TRSV infection. Moreover, we applied
+ies have been conducted to determine the inheritance of genomic prediction to estimate TRSV sensitivities for the
+the potential sources of resistance in G. soja. However, unscreened 18,955 soybean PIs in the USDA Soybean
+one study crossed the soybean cultivar Young and Germplasm Collection, and evaluated the accuracy of
+PI416937 and identified a major quantitative trait locus genomic prediction. To our knowledge, this work consti-
+(QTL) that explained 82 % of the phenotypic variation tutes the first GWAS and genomic prediction study for
+of TRSV resistance. This QTL was located on chromo- TRSV sensitivity in soybean.
+some 13 between 25 Mb to 28 Mb between markers
+K644_1 and Satt510 based on Williams82 assembly Results
+version 1 (Gmax1.01) [6]. In addition, when Arabidopsis Sensitivity of soybean Pls to TRSV infection
+thaliana (L.) Heynh. was inoculated with TRSV, most All 697 soybean PIs evaluated were susceptible to TRSV
+ecotypes were tolerant to TRSV, but some ecotypes, and showed symptoms. At ten days post inoculation,
+such as Estland, displayed lethal systemic necrosis [7], most soybean plants infected with TRSV were stunted
+which resembled bud blight of soybean. An allele of and displayed a range of foliar symptoms (Fig. la). Plants
+TTR1 (Tolerance to Tobacco ringspot virus 1), which were separated into sensitivity categories of one to five
+encodes a protein with Toll/interleukin-1 receptor, based on the severity of their symptoms. Plants that dis-
+nucleotide-binding site and leucine-rich repeat (TIR- played terminal necrosis on the first or second trifoliates
+NB-LRR) domains was reported to control tolerance to were classified as a sensitivity of five or four, respectively
+TRSV in A. thaliana [8]. Comparison of protein se- (Fig. 1b, c). Plants classified as sensitivity three had nec-
+quence alignments between tolerant and sensitive A. rotic spots in the first or second trifoliate that generally
+thaliana ecotypes identified different amino acid resi- started at the leaf margin or had terminal necrosis of
+dues in the LRR region between sensitive TTR1 and tol- third trifoliates (Fig. 1d). Plants with mosaic foliar symp-
+erant ttrl alleles. When the TRSV-tolerant A. thaliana toms on first trifoliates were categorized as sensitivity
+ecotype Col-0 was transformed with the TTR1 allele two (Fig. le) Plants with sensitivities of one were slightly
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 3 of 11
+A
+Sensitivity 5Diagnostics
+Terminal death
+Sensitivity 4 Diagnostics
+on the 1st trifoliate
+Terminal death
+Sensitivity 31 Diagnostics
+No: nextlevel on the 2nd trifoliate Terminal death on the 3nd trifoliate, Sensitivity 2 Diagnostics
+No:next level or necrosis on the ]st 'trifoliate
+Mosaic symptoms
+No:next level
+on the 1st trifoliate Sensitivity 1 Diagnostics
+No:nextlevel Stunt and chlorosis
+B
+D
+F
+G
+255
+144
+128
+103
+67
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+a 5
+a 4
+a 3
+a 2
+a 1
+Fig. 1 Sensitivity of soybean accessions to TRSV infection. a Decision tree for determining TRSV sensitivities one to five. b Red arrows indicate
+necrotic reactions on different trifoliates. When the first trifoliate became necrotic, plants were rated with a sensitivity of five. C Necrosis of the
+second trifoliate at the bud stage typifies sensitivity four d Plants that had necrotic spots on first trifoliate leaves belonged to sensitivity three.
+e Plants in sensitivity two displayed clear mosaic symptoms on the first trifoliate. fPlants in sensitivity one were stunted with chlorosis. g The
+distribution of TRSV sensitivity on 697 soybean accessions
+stunted with mild chlorosis (Fig. 1f). More than 50 % of genetic relatedness among the 697 soybean PIs (Fig. 2b)
+the PIs were classified as sensitivity four or five, and only was included in the mixed linear model for GWAS.
+67 PIs were classified as sensitivity one (Fig. 1g).
+Since the observed and expected P-values differed sub-
+stantially only for a few SNPS, the quantile-quantile
+GWAS to identify QTL associated with sensitivity to TRSV (QQ) plot supported the appropriateness of the GWAS
+The Bayesian information criterion (BIC)-based model model (Fig. 3a). The GWAS identified a single locus as-
+selection procedure [22] indicated that no principal sociated with TRSV sensitivity that exceeded the
+components (PCS) were required to control for popula- Bonferroni-corrected a =1 0.05 threshold on chromosome
+tion structure in the GWAS model (Table 1). This result 2 (Fig. 3b). Four SNPs in this region were significant at a
+underscored our findings that the principal component 1 % false discovery rate (FDR). Individually, these SNPs
+analysis did not detect distinct subpopulations among accounted for 3 to 4 % of the variance in the GWAS
+the selected 697 soybean PIs (Fig. 2a). Therefore, no PC model. Although most of the significant SNPS were
+was included, but a heatmap of the kinship matrix with located within a genomic region on chromosome 2, one
+SNP on chromosome 8 was significantly associated with
+Table 1 Bayesian information criterion (BIC)-based model
+TRSV sensitivity at 5 % FDR (Table 2). To confirm and
+selection. The model with the largest BIC value is optimal
+detect other potential minor signals, the GWAS was
+Principal components
+BIC
+log(Likelihood Function) reran with the most significant SNP on chromosome 2
+0
+-1125.50
+-1115.68
+(ss715581043) included as a covariate. The resulting
+1
+-1128.76
+-1115.67
+QQ-plot showed that the observed P-values followed the
+2
+-1131.94
+-1115.58
+expected P-values (Fig. 3c), and no additional SNPS
+3
+-1133.62
+-1113.98
+identified at 5 % FDR (Fig. 3d). The result indicated that
+4
+-1136.89
+-1113.98
+fixation of ss715581043 as a covariate explained most of
+the genetic contribution to the overall phenotypic vari-
+5
+-1140.16
+-1113.97
+ation and suggested only one locus on chromosome 2
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 4 of 11
+A
+B
+I
+Sensitivity
+l 1
+6
+E 3
+8
+a a 5
+8
+3
+100 8
+50
+$
+-50
+8
+-100
+-100
+-50
+0
+50
+100
+PC1
+Fig. 2 Principal component and kinship analyses of soybean genetic data. a The first three principal components of the 30,697 SNPS used in the
+genome-wide association study (GWAS) indicates little population structure among the 697 tested accessions. The different colors of dots indicate
+differing TRSV sensitivity values. b A heatmap of the kinship matrix of the 697 soybean accessions calculated from the same 30,697 SNPS used in
+the GWAS suggests low levels of relatedness among the 697 individuals
+was responsible for TRSV sensitivity in soybean. The four reduced for GAPIT (r=0.48) but not rrBLUP (r=0.54)
+SNPs displaying peak associations with TRSV sensitivity in (Fig. 4b). These results indicated that genomic prediction
+the initial GWAS defined a genomic region of approxi- without including a covariate might provide a better esti-
+mately 130 kb between 12,089,749 bp to 12,219,313 bp on mate for the unscreened soybean accessions in the USDA
+chromosome 2 (Table 2). Within this region, there were Soybean Germplasm Collection. We subsequently con-
+two candidate genes (Glyma02g13460 and Glyma02g13470) ducted genomic prediction by splitting the unscreened
+that may be involved in plant defense responses. Both en- 18,955 soybean PIs into 85 groups to increase computa-
+code leucine-rich repeat receptor-like kinases (LRR-RLKS) tional speed and acquired an average BLUP for each of
+(Table 3).
+the 18,955 soybean PIs. The BLUPS of the unscreened
+soybean PIs was sigmoidal with continuous values while
+Genomic prediction
+the BLUP of the training subpopulations were centered
+Because a single genomic region on chromosome 2 associ- around  2.5,-1.5,-0.5, 0.5, and 1.5 that corresponded to
+ated with TRSV sensitivity, the mean separation of TRSV genomic estimated breeding values (GEBVS) of one to five,
+sensitivity at each of the four most significantly associated respectively (Fig. 5a). The distribution of BLUPS and
+SNPS were tested to determine if marker-assisted selection GEBVS for the 18,955 unscreened soybean PIs suggested
+would aid in breeding for reduced sensitivity to TRSV none was close to PIs in the TRSV sensitivity one from the
+infection. The results suggested strong overlaps in these training population (Fig. 5a; Additional file 1: Table S1).
+distributions (Fig. 4a), and the correlation between geno- We then phenotyped an additional 55 PIs selected from
+types of each SNP to the rated TRSV sensitivity resulted the predicted GEBV distribution for sensitivity to TRSV in
+in low significant (P> 0.01) correlations (r= 0.15, r= 0.14, order to evaluate the accuracy of genomic prediction
+r= -0.14, r= -0.15 for the first, second, third, and fourth (Fig. 5a). The GEBV showed that the TRSV sensitivities of
+SNPS, respectively). We then tested if genomic selection the 55 PIs: 19 PIs with TRSV sensitivities of two (1.5 S
+would provide a better prediction and applied GAPIT GEBV < 2.5), 15 PIs with TRSV sensitivities of three (2.5 S
+and rrBLUP to perform cross-validation [23, 24]. The GEBV < 3.5), 13 PIs with TRSV sensitivities of four (3.5s
+results of the five-fold cross-validation without a GEBV < 4.5), and 8 PIs with TRSV sensitivities of five
+covariate in the model resulted in significant correla- (GEBV X 4.5). The rated TRSV sensitivity was correlated
+tions (r= 0.54) for both GAPIT and rrBLUP. When the (r=0.67, P< 0.001) to GEBVS obtained from both
+most significant SNP, ss715581043, was fixed as a GAPIT and rrBLUP (Fig. 5b). However, the accuracy of
+covariate in the model, the correlation coefficient was genomic prediction tended to be divergent in the lower
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 5 of 11
+A
+B
+10
+10
+8
+9
+6
+:
+E
+1
+3
+10 11 12 13 14 15 16 18 19 20
+Expected -logilp)
+Chromosome
+D 10
+10
+8
+9
+6
+3
+e
+:
+10 11 12 13 15 16 17 18 19 20
+Expected -logilp)
+Chromosome
+Fig. .3 QQ-plots and Manhattan plots for TRSV sensitivities a QQ-plot from the initial GWAS scan. Most P-values were similar to the expected diagonal
+in the QQ-plot, which indicates the appropriateness of fthe GWAS model b A single QTL that exceeded genome-wide significance was identified on
+chromosome 2. Red line indicates Bonferronicorrected threshold with an experimental typel error rate at 0.05. Significant SNPS ata false discovery rate of
+1% are highlighted in green. cQQ-plotfrom a second GWAS scan using a model that included the peak SNP from the initial GWAS scan (ss715581043) as
+a covariate. d The Manhattan plot with one covariate in the GWAS model identified no additional significant genomic signals
+ratings but more reliable toward the higher sensitivity Discussion
+ratings. That is, most plants with predicted sensitivity In this study, 697 of the 19,652 soybean PIs in the
+ratings of five and four had actual sensitivity ratings of USDA Soybean Germplasm Collection were evaluated
+five and four, but accessions with a predicted sensitivity for their responses to TRSV inoculation. Although no
+rating of two had actual sensitivity ratings that ranged TRSV-immune accessions were observed, 43 % of the
+from one to four (Table 4).
+accessions did not display bud blight, the most severe
+Table 2 Top-ten SNPS in the genome-wide association study without any peak SNP covariates
+SNP (ss_id) Chromosome Position MAF P-value
+R2 of Model without SNP R of model with SNP FDR-adjusted P-value
+SS715581043 2
+12,089,749 0.416 1.68x10-9
+0.22
+0.26
+5.16x 10-5
+Ss715581049 2
+12,190,975 0.415 1.23x 10-8
+0.22
+0.26
+1.31x10-4
+SS715581051 2
+12,206,518 0.422 1.28x 10-8
+0.22
+0.26
+131x10-4
+SS715581052 2
+12,219,313 0.480 4.60x 10-7
+0.22
+0.25
+3.53x10-3
+SS715581033 2
+11,974,580 0.493 3.76x 10-6
+0.22
+0.24
+2.31 x 10-2
+SS715581062 2
+12,327,212 0.453 4.90x 10-6
+0.22
+0.24
+243x10-2
+Ss715581054 2
+12,235,906 0.481 5.54 1x 10-6
+0.22
+0.24
+2.43x 10-2
+SS715601789 8
+40,952,506 0.473 1.22x 10-5
+0.22
+0.24
+4.30x 10-2
+SS715581036 2
+12,036,555 0.430 1.26x 10-5
+0.22
+0.24
+4.30x 10-2
+Ss715601747 8
+40,684,679 0.433 4.07x1 10-5
+0.22
+0.24
+1.19x10-
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 6 of 11
+Table 3 Genes between 12,089,749 bp to 12,206,518 bp on soybean chromosome 2a
+Gene ID
+Position (start.end)
+Annotation
+Glyma.02 g121600
+12,084714.12,089,043
+K-box region and MADS box transcription factor
+Glyma.02 g121700
+12,093,068.12,095.722
+RING/U-box Zinc finger, C3HC4 typeprotein
+Glyma.02 g121800
+12,106,073.12,107969
+Adenine nucleotide alpha hydrolases-like superfamily protein
+Glyma.02 g121900
+12,112034.12,115,054
+Leucine-rich repeat (Malectin-like) protein kinase family protein
+Glyma.02 g122000
+12,115287.12,118397
+Leucine-rich repeat (Malectin-like) protein kinase family protein
+Glyma.02 g122100
+12,134374.12,137,612
+Heavy metal transport/detoxification superfamily protein
+Glyma.02 9122200
+12,141974.12,149.160
+Chaperone Dnal-domain superfamily protein
+Glyma.02 g122300
+12143960.12145950
+Putative unknown protein
+Glyma.02 g122400
+12,150906.12151220
+Putative unknown protein
+Glyma.02 g122500
+12,158735.12,163,084
+ACT domain repeat 4
+Glyma.02 g122600
+12,195454.12,196275
+FRS (FAR1 Related Sequences) transcription factor family
+*Gene ID, position, and annotation were based on soybean genome assembly version Glyma.Wm82.a2 (Glyma2.0)
+symptom. A GWAS identified a single genomic region Genes of the LRR-RLK type are well known for their
+on chromosome 2 strongly associated with TRSV sen- involvement in pathogen-associated molecular pattern
+sitivity using the unified mixed linear model [25] in (PAMP)-triggered immunity (PTI). Classical examples
+the GAPIT package [24], which identified a 130 kb are the ligand-dependent receptor Flagellin Sensing2
+chromosome 2 interval that contains Glyma02g13460 (FLS2) that recognizes bacterial flagellin and EF-TU
+and Glyma02g13470, two candidate LRR-RLK genes.
+Receptor (EFR) that recognizes EF-TU. After recognizing
+A 1stSNP ss715581043
+2ndSNP ss715581049
+B
+Cross-Validation
+a Covariate excluded
+&
+Da Covariate included
+:
+8
+cc CT TT
+cc CT TT
+Genctype
+Gonotype
+8
+8
+3rdSNP ss715581051
+4thSNP 5s715581052
+
+9
+€
+9
+cc CT TT
+cc CT TT
+GAPIT
+TBLUP
+Genotype
+Genotype
+Fig. 4 Mean separation by significant SNPS and cross-validation by GAPIT and TTBLUP. a Distribution of FTRSV sensitivity by each significant SNP
+genotype showed strong overlap between the sensitivity scales. b Five-fold cross-validation with orwithout the most significant SNP, SS715581043, as
+the covariate. Cross-validation was evaluated by GAPIT and rBLUP. In general, the correlation of training and validating population dropped slightly
+when the covariate was included in the model for both GAPIT and TTBLUP
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 7 of 11
+A
+B
+Genomic Prediction
+- 20000
+Unscreened PIs (18,955)
+3
+: Smeses
+e Sensitivity 1 (67)
+. Sensitivity 2(103)
+A Sensitivity 3(128)
+9
+x Sensitivity 4(144)
+15000
++ Sensitivity 5(255)
+E 3
+10000 I 8
+J
+3
+5000
+9
+BLUP -2.50 -2.00 -1.50 -1.00 -0.50 0.00 0.50 1.00 1.50
+8
+GEBV 1
+2
+3
+4
+5
+GAPIT
+MBLUP
+Fig. 5 Genomic prediction and accuracy evaluation.a BLUP and GEBVfor 18,955 unscreened soybean Pls by GAPIT. GAPIT generated a
+continuous BLUP value for 18,955 soybean Pls, while BLUP for the training population (with determined TRSV sensitivity) were centered at-2.50
+(GEBV 1),-1.50 (GEBV 2),-0.50 (GEBV 3), 0.50 (GEBV 4) and 1.50 (GEBV 5). b Comparison of the TRSV sensitivities of the selected 55 soybean
+accessions that were selected from the predicted 18,955 soybean accessions resulted in correlation between 0.63 and 0.67. The evaluations by
+GAPIT and rrBLUP had similar results and the inclusion of the most significant SNP, $S715581043, as the covariate reduced the correlation slightly
+the extracellular PAMP, another RLK co-receptor (BRI1- ectopic expression of a nonphosphorylatable NIK1 in the
+Associated receptor Kinasel/Somatic Embryogenesis NIK1 deletion mutant failed to rescue the enhanced virus
+Receptor-like Kinase3) forms a complex with FLS2 or susceptibility [32]. Blocking of T474 eliminated its kinase
+EFR and activates downstream PTI defense responses activity and abolished the phosphorylation of a protein
+[26]. One of the LRR-RLK genes from A. thaliana, that moves from cytosol to the nucleus when phosphory-
+ERECTA, is particularly interesting for its involvement lated, where it interacts with a nucleus-located transcrip-
+in developmental processes in multiple tissue types, in- tion factor to down regulate translation processes that
+cluding aerial organs, epidermal tissue, pedicels, and eventually suppress viral replication [33]. Under the
+floral primordia, as well as its function in controlling proposed mechanism, NIK1 serves as a target to NSP for
+resistance against the bacterial pathogen Ralstonia suppressing host defense responses. The discoveries of
+solanacearum (Smith) Yabuuchi [27], fungal pathogen how NIK1 is involved in controlling plant susceptibility to
+Plectosphaerella cucumerina (Lindf.) Arx and oomycete geminiviruses may underline how one or two soybean
+pathogen Pythium irregular Buisman [28]. It has been LRR-RLK genes in the chromosome 2 region harboring
+proposed that ERECTA-dependent resistance against peak genomic associations with TRSV sensitivity could
+necrotrophic P. cucumerina is linked to regulation plant control the disease responses to TRSV. If these two LRR-
+cell wall biosynthesis [29].
+RLK genes are confirmed to play a biological role in
+In addition to ERECTA that is associated with bacter- regulating TRSV sensitivity, it may imply that these
+ial and fungal resistance, nuclear shuttle proteins (NSPS) soybean LRR-RLK are virulence targets for TRSV that
+from viruses in the Geminiviridae have been reported to control sensitivity rather than resistance, if the mechanism
+interact with A. thaliana NSP-interacting kinasel of the interactions of soybean LRR-RLK proteins with
+(NIK1), which also belongs to the LRR-RLK protein TRSV are similar to NIK1 with geminiviruses. Further
+family [30]. Unlike TRSV, viruses in the Geminiviridae studies focused on comparing the protein sequences of the
+have bipartite circular single-stranded DNA genomes two LRR-RLK genes from soybean PIs with different
+(DNA-A and DNA-B). While DNA-A of Geminiviridae sensitivity levels to TRSV may reveal if any amino acid
+encode proteins involved in replication, transcription, polymorphism indeed associate with these levels of sensi-
+and encapsidation, DNA-B encodes two proteins, NSP tivity. In addition, characterization of the putative viral
+and a movement protein. The NSP inhibits the kinase component(s) and the mechanism of interaction may
+activity of NIK1 by binding to the kinase active site and improve our understanding on how soybean sensitivity to
+activation loop, which contains an essential threonine resi- TRSV is controlled.
+due (T474). NIK1 deletion mutants displayed enhanced Genomic prediction has become a powerful tool for
+susceptibility to viruses in the Geminiviridae [31], and rapidly predicting plant phenotypes based on genome-
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 8 of 11
+Table 4 GEBV and actual TRSV sensitivities of 55 soybean plant introductions
+Plant introduction
+GEBV
+Actual Sensitivity
+Plant introduction
+GEBV
+Actual Sensitivity
+PI594142
+1.72
+3
+PI092470
+3.08
+5
+PI548527
+1.75
+4
+PI511361
+3.09
+4
+P1634903
+1.82
+3
+P1603327
+3.13
+3
+PI548598
+1.87
+4
+PI468400B
+3.38
+5
+P1603290
+1.95
+3
+PI416864
+3.40
+5
+PI548525
+1.97
+3
+PI548301
+3.42
+4
+PI578479
+1.99
+4
+PI399066
+3.46
+3
+P1602449
+1.99
+4
+P1192871
+3.47
+5
+PI088289
+2.00
+3
+PI417536B
+3.49
+4
+PI088290
+2.00
+3
+PI594418B
+4.04
+5
+PI592933
+2.04
+3
+P1603633
+4.09
+5
+PI594399C
+2.06
+2
+PI594570B
+4.12
+4
+PI092713
+2.07
+4
+PI437207
+4.14
+5
+P1634890
+2.16
+1
+PI587880B
+4.16
+5
+PI518677
+2.36
+3
+PI594837A
+4.19
+4
+PI591503
+2.37
+3
+PI436566
+4.21
+4
+PI547878
+2.40
+4
+PI587554
+4.28
+5
+PI547663
+2.41
+2
+PI594635B
+4.29
+5
+PI091733_1
+2.43
+4
+PI341254
+4.44
+5
+PI507709
+2.45
+3
+P1103080
+4.63
+5
+PI547821
+2.48
+4
+P1603449
+4.69
+5
+PI547531
+2.51
+4
+P1603524
+4.69
+5
+PI060269_2
+2.54
+2
+PI407739
+4.81
+5
+P1408335A
+2.96
+2
+PI253664
+4.85
+5
+P1438501
+2.98
+2
+P1603459
+4.85
+5
+P1399004
+3.00
+2
+PI603451A
+4.87
+5
+P1437607
+3.02
+4
+P1603581
+4.89
+5
+PI592974
+3.07
+3
+*GEBV was an average of 10 predictions performed by GAPIT
+wide marker information. This approach has great po- the GWAS. Moreover, we noticed the prediction was
+tential to accelerate plant breeding cycles because it more accurate and conservative in identifying soybean
+requires fewer generations of selection compared to accessions that displayed severe necrosis symptoms.
+phenotype-based breeding approaches [34]. A recent re- There are several limitations of genomic prediction, and
+view on "next generation breeding" illustrated how next one of them is the possibility that the phenotype is a
+generation sequencing will be used to more quickly im- combination of genetic and environmental effects [37].
+prove crop productivity [35]. Multiple genomic predic- It has been reported that soybean response to TRSV
+tion models have been developed with similar accuracies may differ by maturity stage [38]. Accordingly, it is
+[36], and in our study, we applied the compressed BLUP possible that there may be more soybean PIs in the
+approach in the GAPIT R package [24] and the ridge USDA Soybean Germplasm Collection that have TRSV
+regression BLUP in the rrBLUP R package [23]. Al- sensitivity of one but may have been misjudged by the
+though a single locus on chromosome 2 was identified genomic prediction.
+for TRSV sensitivity, our results suggest that genomic
+prediction performs better than marker-assisted selec- Conclusion
+tion. We showed that the prediction accuracy among the TRSV is a potential threat to the soybean industry with
+additional 55 soybean PIs was close to that obtained limited resistance to the virus identified. To understand
+from the cross-validation study of the 697 PIs used for if additional resistance exists in the USDA Soybean
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 9 of 11
+Germplasm Collection, we evaluated 697 soybean acces- (1995) procedure was used to control the FDR at 1 %,
+sions for sensitivity to TRSV infection. By performing a and the Bonferroni procedure was implemented to
+GWAS using the publicly available SoySNP50K marker control the experiment-wise type I error rate at 0.05. To
+set, we identified a novel genomic region on chromo- search for any possible minor signals, the most signifi-
+some 2 containing two candidate LRR-RLK genes that cant SNP (ss715581043) was fixed as a covariate.
+may control sensitivity to TRSV. We also assessed the To determine if marker-assisted selection could pre-
+ability of the SoySNP50K markers to predict TRSV dict TRSV sensitivity, numeric genotypes of each signifi-
+sensitivity for 18,955 soybean PIs in the USDA Soybean cant SNP among the 697 soybean PIs were correlated to
+Germplasm Collection, and high prediction accuracies their sensitivity. To determine if genomic selection could
+were obtained. Our study not only discovered a new predict TRSV sensitivity, five-fold cross validation, with
+locus for TRSV sensitivity but also demonstrated the or without a covariate in the model, was tested using
+potential of using GWAS and genomic prediction for GAPIT and rrBLUP. In each five-fold cross-validation,
+genetic analysis with the use of the SoySNP50K 140 soybean PIs were assigned to a validation popula-
+resource.
+tion, and the remaining 557 soybean PIs were used as
+training population to build the model. Each accession
+Methods
+of the 697 soybean PIs was assigned once as the
+Phenotyping and genotyping soybean Pls
+validation population in a five-fold cross-validation. The
+Soybean accessions used in this study were obtained mean of each five-fold cross-validation, which is a
+from the USDA Soybean Germplasm Collection (http:/1 correlation between the BLUPS of validation population
+wwwars-grin.gov/npgs) Soybean plants were grown in that generated from the training model and the TRSV
+a growth chamber at 25 C and inoculated with TRSV sensitivity of validation population, was saved as a result
+using carborundum as an abrasive at the unifoliate stage of a five-fold cross-validation. A total of 100 iterations of
+around 10 days after sowing. Inoculated plants were kept five-fold cross-validation were conducted with the 697
+in a moist chamber at 25 C for about 16 h, and soybean PIs randomized in order for each run. The same
+returned to a growth chamber set at 25 C. Sensitivities five-folds were used to assess the predictive accuracy of
+were scored based on a sensitivity scale from one to five the genomic prediction models used in GAPIT and
+at 10 days after inoculation with one showing the least rrBLUP. The mean of the 100 iterations was presented
+amount of symptoms and five showing the strongest to represent the results of GAPIT and rrBLUP.
+symptoms including bud blight (Fig. la). A completely To assess the predictive accuracy of genomic predic-
+randomized design was used to test sensitivity of PIs tion in the remaining 18,955 unscreened soybean PIs in
+with a minimum of three plants per trial. There were the USDA Soybean Germplasm Collection (Additional
+three trials completed over time using a different file 1: Table S1), these PIs were randomly divided into 85
+randomization for each trial. SoySNP50K was down- groups with 223 PIs per group to reduce computational
+loaded from SoyBase (htp/www.soybaseorg, and split time. To predict GEBVS for the unscreened groups, the
+into 20 profiles based on chromosomes. For each profile genotypes of each group were combined to the geno-
+(chromosome), missing SNPS were imputed by BEAGLE types of the 697 screened PIs to fit a genomic prediction
+version 3.3.2 [39]. There were overall 42,449 SNPS model in GAPIT; thus 85 independent genomic predic-
+available but SNPS with minor allele frequencies below tion models were fitted to acquire one GEBV for each of
+0.1 were excluded, leaving 30,697 SNPs for GWAS.
+the 18,955 PIs. A total of ten runs for each of the 18,955
+unscreened soybean PIs were conducted and the mean
+GWAS and genomic prediction
+was used to represent the GEBV for each of the PIs. To
+Five PCs were used in a BIC-based model selection approximate the genomic prediction accuracy, a total of
+procedure that determined how many PCs were needed 55 soybean PIs were selected from the 18,955 un-
+to control for population structure in the unified mixed screened soybean accessions and phenotyped for their
+linear model used for the GWAS. A kinship matrix was actual TRSV sensitivities following the methods de-
+calculated by the VanRaden method using mean and scribed above. Cross-validation was conducted as de-
+average cluster algorithm [24]. GWAS was conducted in scribed above to obtain a mean correlation between
+GAPIT using the unified mixed linear model including predicted GEBV and actual sensitivities of these 55
+the kinship matrix but excluding PCs [25]. A total of accessions, which was regarded as the prediction accur-
+697 soybean PIs rated for TRSV symptom sensitivity acy for genomic prediction.
+were included in the GWAS (Additional file 2: Table
+S2). Given the inherent conservativeness of correcting Availability of data and materials
+for multiple testing in a GWAS, two multiple testing The original genotypic data (SNPs) used in this study
+procedures were implemented. The Benjamini-Hochberg are available on SoyBase Chtp/www.soybaseorg: the
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 10 of 11
+original phenotypic data for association mapping and gen- 7. Lee JM, Hartman GL, Domier LL, Bent AF. Identification and map location of
+omic prediction are available in supplementary Table 1; and
+TTR1,a single locus in Arabidopsis thaliana that confers tolerance to
+tobacco ringspot nepovirus. Mol Plant Microbe Interact. 1996,9:729-35.
+the analyzing tools, GAPIT and rrBLUP, are available on 8. Nam M, Koh S, Kim SU, Domier LL, Jeon JH, Kim HG, et al Arabidopsis TTR1
+developer's website (htrp./www.maizegeneticsnet/Flgapit
+causes LRR-dependent lethal systemic necrosis, rather than systemic
+cmkv) and R CRAN website (htps/cranr-projectorg
+acquired resistance, to tobacco ringspot virus. Mol Cel. 201 11:32:421-9.
+9. Brachi B, Morris GP, Borevitz. JO: Genome-wide association studies in plants:
+web/packages/TBLUP), respectively.
+the missing heritability is in the field. Genome Biology 2011, doi10.1186/gb-
+2011-12-10-232
+10. Korte A, Farlow A: The advantages and limitations of trait analysis with
+Additional files
+GWAS:ar review. Plant Methods 2013, d0H1018517464811929
+11. Hwang E-Y, Song Q, Jia G, Specht JE, Hyten DL, Costa J, Cregan PB: A
+Additional file 1: Table S1. LUP and GEBV of unscreened 18,955 USDA
+genome-wide association study of seed protein and oil content in soybean. BMC
+Soybean Germplasm Collection. (XLSX 890 kb)
+Genomics 2014, doi 1011861471-2164151.
+Additional file 2: Table S2. T RSV sensitivities of 697 soybean Pls that
+12. Mamidi S, Lee RK, Goos JR, McClean PE Genome-wide association studies
+used for GWAS (XLSX 45 kb)
+identifies seven major regions responsible for iron deficiency chlorosis in
+soybean (Glycine max). PLOS One. 2014919,e107469. doi10.1371/journal
+pone.0107469.
+Abbreviations
+13. Sun J, Guo N, Lei iJ,LiL,Hu G, Xing H. Association mapping for partial
+BIC: Bayesian information criterion; BLUP: Best linear unbiased predictor;
+resistance to Phytophthora sojae in soybean (Glycine max (L.) Merr).
+FDR: False discovery rate; GAPIT: Genome association and prediction integrated 14. JGenet Bastien M, 2014,93:355-63. Sonah H, Belzile FGenome wide association
+of Sderotinia
+tool; GWA: Genome-wide association studies; LRR-RLK: Leucine-rich repeat
+sclerotiorum resistance in soybean with a genatypingbysequending mapping
+receptor-like kinases; PC Principal components; Pl: Plant introduction;
+approach. The Plant Genome 2014, 708K@axtgpwonaRiaio
+QQ: Quantile-quantile; QTL: Quantitative trait loci; SNP: Single nucleotide 15. Iquira E, Humira S, François B: Association
+of QTLS for sclerotinia
+polymorphism; TIR-NB-LRR: Toll/interleukin-1 receptor, nucleotide-binding
+mapping
+site and leucine-rich repeat; TRSV: Tobacco ringspot virus.
+stem rot resistance in a collection of soybean plant introductions using a
+genotyping by sequencing (GBS) approach. BMC Plant Biology 2015DOI 10.
+118651287012014-104081
+Competing interests
+16. Zhao X, Han Y,Liy, Liu D, Sun M, Zhao Y,et al Loci and candidate gene
+The authors declare that they have no competing interests.
+identification for resistance to Sclerotinia sclerotiorum in soybean (Glycine
+maxL. Merr) via association and linkage maps. Plant J. 2015;82:245-55.
+Authors' contributions
+17. Bao Y,Vuong T, Meinhardt C Tiffin P, Denny R, Chen S, et al Potential of
+HXC: Designed the study, analyzed the data, and wrote the manuscript; PJB:
+association mapping and genomic selection to explore PI 88788 derived
+Assisted with data analysis and wrote the manuscript; AEL: Assisted with
+soybean cyst nematode resistance. Plant J. 2014;7:1-13.
+data analysis and wrote the manuscript; LED: Assisted with data analysis and 18. Han Y, Zhao X, Cao G, Wang Y,LiY, Liu D, et al Genetic characteristics of
+wrote the manuscript; GLH: Initiated and supervised the study and wrote the
+soybean resistance to HG type 0 and HG type 1.2.3.5.7 of the cyst
+manuscript. All authors read and approved the final version.
+nematode analyzed by genome-wide association mapping. BMC Genomics.
+2015;16:598. GRONANL2MA1I518D1281
+19. Vuong TD, Sonah H, Meinhardt CG, Deshmukh R, Kadam S, Nelson RL,
+Acknowledgements
+Shannon JG, Nguyen HT: Genetic architecture of cyst nematode resistance
+This research was supported in part by the USDA Agricultural Research
+revealed by genome-wide association study in soybean. BMC Genomics
+Service and the University of Illinois. The authors thank J.M. Lee and R.
+2015, DOI 101186512864015-1811y
+Warsaw for technical help, and Chong Yu and Hongxu Dong for their
+20. Wen Z, Tan R, Yuan J, Bales C Du W, Zhang S, et al Genome-wide
+generous suggestions on genetics and rrBLUP.
+association mapping of quantitative resistance to sudden death syndrome
+in soybean. BMC Genomics. 2014;15:809.
+Author details
+21. Song Q, Hyten DL, Jia G, Quigley CV, Fickus EW, Nelson RL, et tal Development
+'Department of Crop Sciences, University of fillinois, Urbana, IL 61801, USA
+and evaluation ofSoySNP50K a high- density genotyping array for soybean.
+PUSDA-Agricultural Research Service, Urbana, IL 61801, USA. ?National
+PLOS One. 2013;8(1),e54985. dat01371/pumaponeotses
+Soybean Research Center, University of Illinois, 1101 W. Peabody Dr, Urbana, 22. Lipka AE, Gore MA, MagalaneslundbackM, Mesberg A, Lin H, Tiede T, et al
+IL 61801, USA
+Genome-wide association study and pathway-level analysis of tocochromanol
+levels in maize grain G3: Genes, Genomes Genetics. 20133:1287-99.
+Received: 9 November 2015 Accepted: 17 February 2016
+23. Endelman J Ridge regression and other kernels for genomic selection with
+Published online: 29 February 2016
+R package TBLUP. Plant Genome. 2012:4:250-5.
+24. Lipka A, Tian F, Wang Q, Peiffer J, Li M, Bradbury P, et al.
+References
+GAPIT: genome association and prediction integrated tool.
+1. Hartman GL, Domier LL Tobacco ringspot virus. In: Hartman GL Rupe JC Sikora
+Bioinformatics. 2012;28:2397-9.
+EF, Domier LL, Davis JA, Steffey KL, editors Compendium of soybean diseases
+25. Yu J, Pressoir G, Briggs W, Bil,Yamasaki M, Deobley J,et al A unified
+and pests. St Paub American Phytopathological Society; 2015. p. 121-2
+mixed-model method for association mapping that accounts for multiple
+2. Crittenden HW, Hastings KM, Moore GM. Soybean losses caused by tobacco
+levels of relatedness. Nat Genet 2006;38:203-8.
+ringspot virus. Plant Dis Rep. 1966;50:910-3.
+26. ZipfelC. Plant pattern-recognition receptors. Trends Immunol 201435:345-51.
+3. Bergeson GB, Athow KL, Laviolette FA, Thomasine SM. Transmission,
+27. Godiard IL, Sauviac L, Torii KU, Grenon O, Mangin B, Grimsley NH, et al
+movement, and vector relationships of ftobacco ringspot virus in soybean.
+ERECTA, an LRR receptor-like kinase protein controlling development
+Phytopathology. 1964:54:723-8.
+pleiotropically affects resistance to bacterial wilt. Plant J. 2003:36:353-65.
+4. Wang Y, Hobbs H, Hill C Hartman GL, Nelson RL. Evaluation of ancestral
+28. van Zanten M, Snoek LB, Proveniers MCG, Peeters AJM. The many functions
+lines of U.S soybean cultivars for resistance to four soybean viruses. Crop
+off ERECTA Trends Plant Sci. 2009;14:214-8.
+Sci. 2005:45:639-44.
+29. Sanchez-Rodriguez C, Estévez JM, Llorente F, Hernandez-Blanco C Jorda L,
+5. Orellana R Resistance to bud blightin introductions from the germ plasm
+Pagân I, et al. The ERECTA receptor-like kinase regulates cell wall-mediated
+of wild soybean. Plant Dis. 1981,65:594-5.
+resistance to pathogens in Arabidopsis thaliana. Mol Plant-Microbe Interact.
+6. Fasoula VA, Harris DK, Bailey MA, Phillips DV, Boerma HR Identification,
+2009:22:953-63.
+mapping, and confirmation of a soybean gene for bud blight resistance.
+30. Santos AA, Lopes KVG, Apfata JAC, Fontes EPB. NSP-interacting kinase,
+Crop Sci. 2003:43:1754-9.
+NIK: a transducer of plant defence signalling JE Exp Bot 2010,61:3839-45.
+
+
+
+Chang et al. BMC Genomics (2016) 17:153
+Page 11 of 11
+31. Fontes EPB, Santos AA, Luz DF, Waclawovsky AJ, Chory J. The geminivirus
+nuclear shuttle protein is a virulence factor that suppresses transmembrane
+receptor kinase activity. Genes Dev. 2004:182545-56.
+32. Santos AA, Carvalho CM, Florentino LH, Ramos HJO, Fontes EPB.
+Conserved threonine residues within the A-Loop of the receptor NIK
+differentially regulate the kinase function required for antiviral signaling.
+PLOS One. 20094(6,e5781. det0371/puniponecdose.
+33. Zorzatto C Machado JaPB, Lopes KVG, Nascimento KJT, Pereira WA,
+Brustolini OvJB, Reis PAB, Calil IP, Deguchi M, Sachetto-Martins G et al:
+NIK1-mediated translation suppression functions asa plant antiviral
+immunity mechanism. Nature 2015, dot101038/nature14171
+34. Lipka AE, Kandianis CB, Hudson ME, Yu J, Drnevich J, Bradbury PJ, et al
+From association to prediction: statistical methods for the dissection and
+selection of complex traits in plants. Curr Opin Plant Biol 2015;24:110-8.
+35. Barabaschia D, Tondellia A, Desiderioa F, Volanteb A, Vaccinoc P, Valèb G,
+etal Next generation breeding. Plant Sci. 2016,2423-13.
+36. Heslot N, Yang H-P, Sorrells ME, Jannink J-L. Genomic selection in plant
+breeding: a comparison of models. Crop Sci. 2012:52:146-60.
+37. Wray NR, Yang J, Hayes BJ, Price AL, Goddard ME, Visscher PM.
+Pitfalls of predicting complex traits from SNPS. Nat Rev. 2013;14:507-15.
+38. Pekarek RA, Giesler LJ, Lane LC, Ziems AD. Commercial soybean variety
+response to Tobacco ringspot virus inoculation at different growth stages.
+Phytopathology. 2004,94:583.
+39. Browning B, Browning S. A unified approach to genotype imputation and
+haplotype-phase inference for large data sets of trios and unrelated
+individuals. Am J Hum Genet. 2009,84:210-23.
+Submit your next manuscript to BioMed Central
+and we will help you at every step:
+We accept pre-submission inquiries
+Our selector tool helps you to find the most relevant journal
+We provide round the clock customer support
+Convenient online submission
+Thorough peer review
+Inclusion in PubMed and all major indexing services
+Maximum visibility for your research
+Submit your manuscript at
+ww.bomedertalcomsubont
+BioMed Central

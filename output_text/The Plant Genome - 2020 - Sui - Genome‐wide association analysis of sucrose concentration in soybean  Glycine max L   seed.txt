@@ -1,0 +1,1597 @@
+Received: 22March 2020 Accepted: 2September 2020 Published online: 14 October 2020
+DOI: 10.1002/tpg2.20059
+The Plant Genome E0
+ORIGINAL RESEARCH
+Genome-wide association analysis of sucrose concentration
+in soybean (Glycine max L.) seed based on high-throughput
+sequencing
+Meinan Sui I Yue Wang I Yuyue Bao I Xi Wang I Ruiqiong Li I Yan Lv I
+Ming Yan I Chao Quan I Chunxia Li I Weili Teng I Wenbin Li I Xue Zhao I
+Yingpeng Han D
+Key Laboratory of Soybean Biology and
+Breeding/Genetics, Chinese Ministry of
+Abstract
+Education, Northeast Agricultural
+The sucrose concentration in soybean seed significantly affects the flavor of
+University, Harbin, 150030, China
+soybean-derived products. In this study, an association panel of 178 elite acces-
+Correspondence
+sions and 33,149 single-nucleotide polymorphisms (SNPS) was utilized to identify
+XueZhuoandYingpenghian, KeyLab-
+quantitative trait nucleotides (QTNS) of sucrose concentration in soybean seeds
+oratoryofSoybean Biology and Breed-
+ing/Genetics, Chinese MinistryofEduca-
+by genome-wide association study (GWAS). Five QTNS (rs2688589, rs29026218,
+tion, Northeast AgriculturalUniversity,
+rs5926884, rs6886889, and rs10299216) distributed across five genomic regions in
+Harbin,150030, China.
+five chromosomes were identified in two or more locations by GWAS. A total
+Emalthbpziaw@alyun.coms
+xuezhao@neau.edu.cn.
+of 60 candidate genes near the 200-kb flanking region of these five identified
+lociwere identified. Three ofthese genes(Glyma.04G032600, Glyma.04G034600,
+Meinan Sui, Yue Wang, Yuyue Bao, Xue
+and Glyma.IIG092100) have been reported to be involved in the process of sugar
+Zhao, andYingpeng Han contributed
+equally to this work.
+biosynthesis. Based on gene-based association and haplotype analyses, a total of
+35 SNPS from 10 genes associated with sucrose concentration were identified. Of
+Fundingi information
+them, Glyma.04G032600 was the only gene that has been reported to be related
+Heilongjiang ProvincialProject,
+Grant/AwardNumbers: GX17B002,
+to sucrose content; the other nine genes were novel and may be associated with
+JC.RIN,SCANZXA609,
+sucrose content. These beneficial alleles and candidate genes may be of great
+GJ2018GJ0098, C2018016; Chinese
+National NaturalScienceFoun-
+value in improving sucrose contentin soybean seeds.
+dation, Grant/AwardNumbers:
+31701446, 315760.319796,3167177,
+31471517; National Key R& DI Project,
+Grant/AwardNumbers: 2017YFD0101306,
+2016YFD0100304,2017YFD0101302; Min-
+istryoscieneandTechnolog yin China,
+Gmmt/AmadN.mbkr,B5EA2X Hei-
+longjiang Province, Grant/Award Num-
+bers: LBHLZ15017,LBH-Q17015
+1 I INTRODUCTION
+Abbreviations: GWAS, genome-wide association study; QTN,
+Soybean [Glycine max (L.) Merr.] seeds, on a dry matter
+quantitative trait nucleotides; SNP, single-nucleotide polymorphism.
+basis, usually contain about 40% protein, 20% oil, 35%
+Thisisan open access sarticle under the terms ofthe Creative Commons Amhwetnekecemeauasubens License, which permits use and distribution in any medium,
+provided the original work is properly cited, the use is non-commercial and Ino modifications or adaptations are made.
+@ 2020 The Authors. The Plant Genome published by Wiley Periodicals LLC on behalfofCrop Science Society of America
+Plant Genome. 2020;13:e20059.
+wlgelielteagemjeumatea 1of18
+hmplAdslorgnoiwgtpa.ses
+
+
+
+20f18 The Plant Genome 2.0
+SUI ETAL.
+carbohydrates, and 5% ash (Krober, & Cartter, 1962). They
+are often directly utilized as raw products in the creation
+Core Ideas
+ofvarious oriental soy foods items (Wang, Chen, & Zhang,
+2014). About 60% and 40% of carbohydrates are insoluble
+178 elite accessions were genotyped and pheno-
+and soluble sugars, respectively. Soluble sugar in soybean
+typed for sucrose concentration.
+dry matter is comprised of 5% sucrose, 1.5% raffinose, and
+Five QTNS were identified for sucrose concen-
+3% stachyose (Wilson, 2004). The soluble sugar concentra-
+tration.
+tion in soybean seeds, particularly sucrose concentration,
+Haplotypes of candidate genes significantly
+significantly affect the taste andflavorofsoy foods such as
+associated with sucrose concentration were
+soymilk and tofu (Kim, Kang, Cho, Choung, & Suh, 2005).
+detected.
+Increased sucrose content in soybean seeds could effec-
+Ten candidate genes related to sucrose concen-
+tivelyimprove the sweetness ofsoyfoods (Hou et al., 2009).
+tration in soybean seeds were predicted.
+In addition, seed sucrose content is negatively associated
+with yield of soymilk and tofu, simultaneously affects the
+hardness and firmness of tofu (Poysa, & Woodrow, 2002;
+Taira, Tanaka, Saito, & Saito, 1990). Sucrose plays an impor-
+tant role in natto fermentation and directly affects natto
+fermentation process (Taira et al., 1990). However, only a explain 76% of the observed genetic variations in sucrose
+small percentage of soybean production is directly utilized content. Kim et al. (2005) found four sucrose content-
+in the manufacture of soy foods, and the demand for related QTLS in chromosomes 2, 11, and 19 using the RIL
+"food-grade" soybean seed continues to grow at an annual populations derived from a cross between Keunolkong'
+rate of3-5% (Maughan, Maroof, & Buss, 2000). In addition X "Shinpaldalkong. Kim, Kang, and Oh (2006) reported
+to the significant nutritional value in seeds, sucrose is the two additional QTLS on chromosomes 12 and 16 using
+the major photosynthesis product ofhigher plants, which the same populations. Maughan et al. (2000) identified 17
+is not only the carbon base of physiological metabolism sucrose content-related QTLS in chromosomes 5, 7, 8, 13,
+in plants, but also a signaling molecule that coordinates 15, 19, and 20 based on the RIL populations derived from
+the relationship between plant sources and sinks. Addi- a cross between V71-370 and PI 407162. Wang et al. (2014)
+tionally, sucrose participates in various metabolic and reported one sucrose content-related QTL on chromosome
+biosynthetic processes and plays a vital role in plant 11 through a F2 population from a cross between V97-
+growth and seed development (Ruan, Jin, Yang, Li, & 3000 X V99-5089. Patil et al. (2018) identified four QTLS
+Boyer, 2010; Ruan, 2012). Furthermore, sucrose is involved in chromosomes 6, 8, 16 and 20, and the QTL in chromo-
+in the responses to various abiotic stresses (Duetal., 2020). somes 8 (qSuc_08) was a major QTL for sucrose based on
+The role of sucrose in plants cannot be underestimated.
+the RIL populations derived from a cross between G. max
+Sucrose contentsignificantly varies among soybeanvari- (Williams 82) and G. soja (PI 483460B).
+eties, and the sucrose content in cultivated and wild soy-
+As an alternative to linkage analysis, genome wide asso-
+bean seeds is 4-6% and 3-4%, respectively. Hymowitz, ciation study (GWAS) has been used to elucidate the
+Dudley, Collins, and Brown (1974) indicated that sucrose molecular basis of complex traits in soybean due to that
+content is negatively and positively correlated protein it significantly increases the range of phenotypic varia-
+and oil content, respectively. Additionally, the environ- tions based on the accumulation ofhistoricrecombination
+ment and agronomic management (planting date and events. Advances in genome sequencing have accelerated
+irrigated methods) significantly affect sucrose concen- the resolution and accuracy of GWAS in soybean (Li et al.,
+trations (Bellaloui et al., 2011). Genetic studies on the 2015). Presently, the molecular basis offew quality traits in
+inheritance of sucrose concentration in soybean seeds soybean have been analyzed using GWAS, including pro-
+are limited, thereby hampering breeding of new varieties tein, oil, and fatty acid content (Cao et al., 2017; Hwang
+with higher sucrose content. The application of the lat- et al., 2014). However, only a few studies that identified
+est developments in molecular markers can be helpful in QTLS underlying sucrose content in soybean seeds have
+improving plant breeding efficiency (Paterson et al., 1991). been conducted through GWAS (Patil et al., 2018).
+By early 2020, only a few quantitative trait loci (QTLS)
+In this study, we performed a GWAS based on 33,149
+related to sucrose content were reported by linkage analy- SNPS and 178 soybean germplasms to screen SNPS that
+sis according to the SoyBase database (www.soybase.org). related to the sucrose concentration. Then, analyzed genes
+Skoneczka, Maroof, Shang, and Buss (2009) identified one locatednear the candidate IgonsamundsgpifantsNhy
+main effect QTL in the Sat 213-Satt643 interval of the to verify the potential role of candidate genes related to
+chromosome 6 through two F2 populations, which could sucrose concentration.
+RIGHTSLIN Ko
+
+
+
+SUIET TAL.
+The Plant Genome ELO 3of18
+2 I MATERIALS AND METHODS
+based on preliminary analysis of the soybean Williams 82
+reference genome and were distributed in unique genomic
+2.1 I Planting and phenotyping
+regions of 20 soybean chromosomes. The sequencing
+libraries of each accession were defined based on the
+The 178 soybean germplasms collected (landraces and sequencing tags. The similarities and differences between
+improved cultivars) (Supplemental Table S1) were grown the 45-bp sequence reads at both ends of the sequencing
+under field conditions at Harbin, Gongzhuling and tag of each registered library and the soybean reference
+Shenyang in 2016. All accessions planted in the three loca- genome were assessed by SOAP2 software. The SLAF
+tions were used for phenotypic evaluation and genotyp- groups were defined using raw reads from the same
+ing. Field experimental trials were performed with three genomic location through more than 58,000 SLAF tags in
+replications and a randomized complete block design. The each test sample. The SNPS with minor allele frequencies
+single row plots were 3-m in length with a row spacing of (MAFS) 20.05 were defined. Genotypes where the depth
+0.65 m in all environments. Ten fully mature plants were of minor allele accounts for more than a third of the
+randomly selected in each row to measure sucrose content. total depth of the sample were considered heterozygous
+genotypes.
+2.2 I Measurement of sucrose content
+2.4 I Population genetics analysis
+Sucrose content in soybean seeds was extracted and quan-
+tified under with using the method of Teixeira, Ribeiro, The principle component analysis (PCA) approach was
+Rezende, Barros, and Moreira (2012). Approximately 5g of conductedto assess the population structure ofthe associa-
+maturesoybean seeds was milledto a fine powder and then tion panel through GAPIT software (Lipka et al., 2012). LD
+dried at 105 C for 5 h. Then, 20 mg of sample and 1 ml of between pairs ofSNPS(MAF20.05 Sandmissing data <10%)
+80% (v/v) ethanol were mixed in a 2-ml tube, vortexed for and r2 (squared allele frequency correlations) was calcu-
+1min, andthen placedin a 70°Cwater bath for90min. The lated via TASSEL 3.0 (Bradbury et al., 2007). In contrast to
+tube
+the GWAS, missing SNP genotypes were not imputed with
+supernatant was transferred to a new
+after centrifu-
+gation for 10 min at 16,100g and topped up to 1.0 ml with the major allele before LD analysis. Parameter settings in
+80% ethanol. The sucrose content in the sample was mea- the software program: MAF 20.05andtheintegrityofeach
+sured in a 96-well ELISA plate. Approximately 5 pl ofalco- SNP X 80%.
+hol extract from each sample, 85 ul of distilled water, and
+10 ul ofinvertase (10 mg/ml) were placed in each well. The 2.5 I Association analysis
+sealed plate was incubated at 55 °C for 10 min, followed
+by the addition of 200 ul ofGOD (Bioclin kit) reagent into The signals associated with the sucrose contentin soybean
+each well. The plate was sealed and then placed in a water seeds were identified using 33,149 SNPS from 178 tested
+bath at 37 oC for 15 min. Five minutes later and at room accessions. The significance threshold for SNP trait asso-
+temperature, the absorbance at a wavelength of 490 nm ciations was determined with compressed mixed linear
+was read using a Titertek Multiskan Plus spectrophotome- model (CMLM) in GAPIT (Lipka et al., 2012) by P < .001
+ter equipped for reading ELISA plates. The concentration (Hwang et al., 2014; Yan et al., 2017), and this was used
+of sucrose in each sample was determined by the standard as the threshold to determine whether there was a mean-
+curve. Each sample analysis was performed in triplicate.
+ingful signal that was associated with the sucrose content
+(Holm, 1979).
+2.3 I DNA extraction and sequencing
+2.6 I Prediction and haplotype analysis of
+The cetyltrimethylammonium bromide (CTAB) method candidate genes for sucrose concentration
+was used to extract DNA from fresh leaves ofeach sample.
+All soybean varieties were sequenced on basis of the We selected genes within the 200-kb genomic region of
+extracted DNA using the specific locus amplified fragment significant SNPS as candidate genes, and the function of
+sequencing (SLAF-seq) methodology (Sun et al., 2013). these genes was annotated according to the soybean ref-
+Digestive enzymes Msel (EC 3.1.21.4) and Haelll (EC erence genome (Wm82. a2. v1, htp/www.soybase.omg
+3.1.21.4) (Thermo Fisher Scientific Inc., Waltham, MA, (Cheng et al., 2017). Based on genomic re-sequencing
+USA) were used to generate >50,000 sequencing tags data, genomic regions variations (exon regions, splice sites,
+(about 300-500 bp in length) of all tested accessions untranslated regions [UTRS], intron regions,upstream and
+RIGHTSLIN Ko
+
+
+
+40f18
+The Plant Genome m0
+SUI ETAL.
+TABLE 1 Statistical analysis and variation of sucrose concentration of association panel based on SAS 9.0 software
+Location"
+Mint
+Max
+Mean
+CV (%)d
+Skewness
+Kurtosis
+F
+Harbin
+41.57
+99.38
+71.61
+16.38
+0.16
+-0.25
+86.69**
+Gongzhuling
+33.34
+87.13
+60.02
+15.94
+0.35
+0.11
+Shenyang
+37.08
+84.57
+58.00
+17.51
+0.47
+-0.01
+"Harbin: at Harbin in 2016, Gongzhuling: at Gongzhuling in 2016, Shenyang: at Shenyang in 2016.
+bMinimum.
+Maximum.
+dCoefficient ofvariation.
+**p<.01.
+. Harbin
+60
+. Shenyang
+50 -
+L Gongzhuling
+40
+I
+of
+30
+20
+I
+I
+I
+I
+i
+I
+E
+10
+e
+I
+-
+0
+HhhL
+37.08
+49.54
+62.00
+74.46
+86.92
+99.38
+Sucrose content
+FIGURE 1 Variation of fsucrose concentration among 178 accessions in three tested environments ("Harbin', "Gongzhuling, 'Shenyang')
+downstream regions) of candidate genes were detected standard deviation, coefficient of variation, skewness, and
+in 16 lines and analyzed using the general linear model kurtosis ofsucrose content were calculated, which showed
+(GLM) method as implemented in TASSEL version 3.0 a larger variation (Table 1; Figure 1). Phenotypic varia-
+for identifying sucrose-related haplotypes (Bradbury et al., tion ranged from high concentration (99.38 mg/g) to low
+2007). Significant SNPS affecting the target trait were concentration (33.34 mg/g), and the average concentration
+asserted when the test statistics reached P < .01.
+among these three environments was 63.21 mg/g. The coef-
+ficients of variation were observed from 15.94% to 17.51%.
+Correspondingly, the kurtosis and skewness of the associ-
+3 I RESULTS
+ation panel observedin the three locations distributed nor-
+mal without saliency, which indicated that the association
+3.1 I Statistical and variation analysis of
+panels were suitable for GWAS analysis. In addition, the
+sucrose concentration
+sucrose content varied greatly among the three locations
+and showed extremely significant differences (P < .01)
+The phenotypic value of 178 accessions in three locations
+(Table 1).
+were assessed (Supplemental Table S1), and the mean,
+RIGHTSLIN Ko
+
+
+
+SUIET TAL.
+The Plant Genome E0 5of18
+(a)
+(b)
+1
+0.9 
+ Heterochromatic DNA region
+0.8
+Euchromatic DNA region
+E
+0.7 1
+I
+8
+0.6 1
+N 0.5
+df
+0.4
+&
+80
+0.3
+8
+60 8
+I
+0.2
+o
+o
+40
+o
+20
+i
+0.1
+0
+E
+0
+8
+-20
+0
+1000000 2000000 3000000
+-40
+9
+-60
+I
+-50 0 50 100 150
+LD decay distance (bp)
+I
+PC1
+(c)
+(d)
+&
+8
+I
+:
+P
+8
+I
+8
+o
+I
+o
+I
+o
+8
+i
+E
+2
+4
+6
+8
+10
+PCs
+FIGURE 2 Mapping genetic data of populations. (a) The linkage disequilibrium (LD) decay of genome-wide association study (GWAS)
+population in heterochromatic regions and euchromatic regions. (b) The first three PCs of 33,149 SNPS used in the GWAS. (c) Population
+structure of soybean germplasms. (d) A heatmap ofthe kinship matrix ofthe 178 soybean accessions
+3.2 I Sequencing and genotyping
+3.3 I Analysis oflinkage disequilibrium
+(LD) and population structure
+The genomic DNA of the association panel was partially
+sequenced based on the SLAF-seq approach. A total of The average distance of LD decay in euchromatic DNA
+33,149high-quality markers (SNPswith MAF X 0.05, miss- and the heterochromatic regions was analyzed to depict
+ing data < 10%) genotyped from the 178 accessions were the mapping resolution for genome scans and GWA map-
+exploited (Supplemental Table S2). These SNPS distributed ping. In euchromatic regions, the mean level of LD mea-
+on the 20 chromosomes of soybean genome that spanned suredby r2 droppedsharply to 0.2 at 387 kb. In heterochro-
+approximately 951.4 Mbp, covering roughly 86.49% of the matic regions, the LD pattern was greatly different from
+soybean genome (Supplemental Figure S1). Marker den- that in euchromatic regions (Figure 2a). The group strat-
+sity was approximately 1 SNP per 28.7 kb, and the mean ifications of the association panels were scanned by the
+number of SNPS per chromosome was 1,657, which varied principal component (PC) and kinship analysis in view
+across different chromosomes, from 638 SNPS on chromo- of 33,149 SNP markers. The results indicated that the first
+some 11 to 3,556 SNPS on chromosome 6 (Supplemental three PCs accounted for 14.01% of the genetic variation.
+Table S3).
+The overall genetic variation declined drastically at PC2,
+RIGHTSLIN Ko
+
+
+
+60f18
+The Plant Genome m0
+SUI ETAL.
+and the inflection point arose at PC3 (Figure 2b and 2c).
+The results showed that the mapping population was pre-
+of
+dominated by the first three PCs. In addition, the results of
+pairwise relative kinship coefficients indicated lower lev-
+S
+els of genetic relatedness among 178 soybean germplasms
+I
+I
+E 8
+a
+I I
+8 E 8 : 8 E
+(Figure 2d).
+N
+f
+3.4 I Quantitative trait nucleotides
+à
+(QTNS) associated with sucrose
+concentration by GWAS
+A
+I
+I I € E 5 3
+5 -
+I
+3 5 S 3
+Five QTNS associated with sucrose content, distributed
+1
+across five chromosomes, were identified on basis of the
+S
+CMLM models in more than one tested environment
+:
+(Table 2; Figure 3). Among these, one QTN (rs2688589
+I I I
+6
+R
+on chromosome 4) was identified in three environments
+I
+€ a 3 : : E 3 a € 9
+simultaneously, and the other four QTNS (rs29026218,
+rs5926884, rs6886889, and rs10299216, located on chromo-
+N
+somes 6, 7, 11, and 12, respectively) were detected in two
+à
+environments. The allelic effects of five significant SNP
+U
+o H  U
+loci were analyzed to verify that whether these alleles are
+related to sucrose content. By comparison, it was found
+2
+that the average sucrose concentration of all germplasms
+with allelelwere significantly higher than all germplasms
+y
+I
+<
+H U < H
+with allele 2 and the entire population (Table 2). The
+allelic effects of the five SNPS controlling sucrose content
+were analyzed. Among them, the direction of the contri-
+I
+: a a 8 3 3 3 3 a a a a
+bution to the phenotype value of three SNPS, including
+rs2688589, rs5926884 and rs10299216, were opposite to
+the value of each allelic effect in all the three locations.
+Of the other two SNPs (rs29026218 and rs6886889), the
+I
+S 2
+8
+allelic effect values were positive for sucrose content in
+I
+: 3 - - E a - e
+I
+the three locations (Figure 4). The results demonstrated
+that the differences of alleles in all QTNS had significant
+e
+effects on sucrose concentration, which could be useful for
+E
+assisted selection for soybeans with higher sucrose content
+e
+a
+germplasms.
+-
+I I I
+I
+I I
+I
+I
+I
+I
+I
+3.5 I Prediction of candidate genes
+I I
+I I I I
+controlling sucrose concentration
+A total of 60 genes, located within the 200-kb flanking
+I
+regions of the five identified QTNS were considered as
+E
+candidate genes. All of these genes were categorized
+2
+into various functional groups on the basis of the Gene
+Ontology database
+to
+I
+further
+2
+4
+ A E A
+(htpl/geneontologyorg)
+expound the potential functions of these genes. (Table 3;
+N
+Supplemental Figure S2). Of these, two genes were clas-
+-
+sified as the protein of unknown function. The other 58
+E
+e
+candidate genes were related to the cellwall, development,
+I
+I I I
+:
+DNA, glycolysis, hormone metabolism, lipid metabolism,
+RIGH TS LIN KO
+
+
+
+SUIET TAL.
+The Plant Genome E0 70f18
+(a) Gongzhuling
+(b)
+4
+o
+4
+Sm0o
+3
+€
+€
+I
+00
+à
+E
+€
+I
+a
+o
+0 1 2 3 4
+8 a
+Expected -logio(p)
+2
+1 2 3 4 5 6 7 8 9 10 12 14 15 17 18 19 20
+(c) Harbin
+(d)
+4
+STo
+€
+N Qe,
+o
+0 1 2 3 4
+de
+Expected -logio(p)
+1 2 3 4 5 6 7 8 9 10 12 14 15 17 18 19 20
+(e) Shenyang
+(f)
+
+4
+0
+3
+€
+€
+&
+I
+N
+E
+de
+a 
+I
+0 1 2 3 4
+Expected -logio(p)
+1 2 3 4 5 6 7 8 9 10 12 14 15 17 18 19 20
+FIGURE 3 GWAS results ofthe sucrose concentration from 178 soybean accessions. a, C, e represent the Manhattan plot at "Gongzhuling,
+'Harbin', "Shenyang, respectively. b, d, frepresent the Q-Q plot at "Gongzhuling, 'Harbin', "Shenyang, respectively
+metal handling, mitochondrial electron transport/ATP 4:2688589) (EC: 5.3.1.9), belonged to the sugar isomerase
+synthesis, N-metabolism, nucleotide metabolism pro- (SIS) family protein, as a 6-phosphate glucose isomerase,
+tein, RNA, secondary metabolism, stress, and transport catalyzed the interconversion of D-glucopyranose 6-
+(Supplemental Figure S2). Among these, three genes phosphate and B-D-fructofuranose 6-phosphate in the
+directly involved in the process of sugar biosynthesis. process of sucrose biosynthesis and sucrose degrada-
+Glyma.04G032600 (located 99.132 kb near chromosome tion (Yu, Lue, Wang, & Chen, 2000). Glyma.04G034600
+RIGHTSLIN Ko
+
+
+
+8of18
+The Plant Genome m0
+SUI ETAL.
+. Gongzhuling . Shenyang I Harbin
+6 7
+E
+4
+2
+6
+of 0
+-2
+!
+I
+I
+I
+I
+I
+-4
+-
+-6
+Number of SNP
+FIGURE 4 The allelic effects ofthe significant SNPS
+(located 74.012 kb near chromosome 4:2688589) (EC: 2 SNPS from Glyma.07G066600). Three SNPs were
+2.4.1.43), a type of galacturonosyltransfernase, participated synonymous, which were detected from three
+in homogalacturonan biosynthesis, which catalyzed genes (Glyma.07G065400, Glyma.07G065500 and
+the conversion of a glycosyl group from UDP-a-D- Glyma.07G066800). Two SNPS located in the UTR
+galacturonate to 1.4-a-D-galacturonosyl (Sterling, Quigley, regions were detected from Glyma.07G066800.
+Orellana, & Mohnen, 2001). Glyma.JIG092100 (located Other twelve SNPS were located in intronic the
+92.44 kb near chromosome 11:6886889), as the major regions, which were detected from Glyma.04G034700,
+facilitator superfamily protein, played a catalytic role in Glyma.07G065400, Glyma.07G065500, Glyma.07G065600,
+sugar transport (Pao, Paulsen, & Saier, 1998).
+Glyma.07G066100 and Glyma.07G066800 (Table 4).
+To further verify the potential effects of candidate Of these, Glyma.04G032600 has been reported to be
+genes for sucrose, gene-based association analysis directly involved in sucrose biosynthesis in plants. Other
+was performed by the GLM method. A total of 215 genes could be considered as new genes in regulating
+SNPs in 60 candidate genes were identified among the sucrose concentration of soybean. In addition, the
+16 lines (eight higher/lower sucrose lines) based on effects of different alleles from peak SNPS of candidate
+MAF N 0.05 via genome resequencing. Finally, 35 SNPS genes were analyzed. The haplotype analysis showed
+from 10 genes (Glyma.04G032600, Glyma.04G033000, that the sucrose content in soybean accessions with two
+Glyma.04G034700, Glyma.07G065400, Glyma.07G065500, different haplotypes among six genes (Glyma.04G032600,
+Glyma.07G065600, Glyma.07G066100, Glyma.07G066400, Glyma.04G033000, Glyma.04G034700, Glyma.07G065500,
+Glyma.07G066600, and Glyma.07G066800) were sig- Glyma.07G066100 and Glyma.07G066400) were signifi-
+nificantly associated with the sucrose concentration cantly different(P<.01). Sucrose contentofsoybean acces-
+in more than two environments (Table 4). Among sions under differenthaplotypes among Glyma.07G065400
+them, three nonsynonymous SNPS were detected from showed significant difference at two of the three environ-
+three genes (Glyma.07G065400, Glyma.07G065500 and ments (P < .05). Sucrose content of soybean accessions
+Glyma.07G066100), and the change of these three SNPs with two different haplotypes among Glyma.07G065600
+caused the changes of amino acid. Seven SNPs located were significantly different (P < .01 or P < .05). Sucrose
+in the upstream regions were identified from 5 genes, content of soybean accessions under three different
+including 2 SNPs from Glyma.04G032600, 1 SNP from haplotypes among two genes (Glyma.07G066600 and
+Glyma.04G033000, 1 SNP from Glyma.04G034700, Glyma.07G066800) had significant difference (Figure 5).
+2 SNPS from Glyma.07G065600 and 1 SNP from The results showed that there were significantly different
+Glyma.07G066600. In total, 8 SNPS located in the in the sucrose concentration ofsoybeangermplasms under
+downstream regions were identified, which were from differentalleles ofcandidate genes. Thesebeneficialalleles
+four genes (1 SNP from Glyma.04G033000, 2 SNPS from from candidate genes would be of interest and may con-
+Glyma.07G066100, 3 SNPS from Glyma.07G066400, tribute to MAS in soybeans with higher sucrose content.
+RIGHTSLIN Ko
+
+
+
+SUIET TAL.
+The Plant Genome m0 9of18
+TABLE 3 Gene models in the flanking regions of peak SNP
+Physical
+position
+Distance to
+Peak SNP Chr. (bp)
+Gene model
+SNP(Kbp) Functional annotation
+rs2688589 4
+2688589 Glyma.04G032600 99.13
+Sugar isomerase (SIS) family protein
+Glyma.04G032700 88.13
+GYF domain-containing protein
+Glyma.04G032800 78.59
+Protein of unknown function (DUF1195)
+Glyma.04G033000 64.15
+ovate family protein 7
+Glyma.04G033300 38.96
+C2H2-like zinc finger protein
+Glyma.04G033500 25.03
+J-domain protein required for chloroplast accumulation
+response 1
+Glyma.04G033600 13.95
+Phospholipid/glycerol acyltransferase family protein
+Glyma.04G033700 8.16
+DNA glycosylase superfamily protein
+Glyma.04G033800 0.89
+Brassinosteroid signalling positive regulator (BZR1) family
+protein
+Glyma.04G034200 46.18
+metlloendopepidaseszine ion binding
+Glyma.04G034300 55.72
+thaumatin-like protein 3
+Glyma.04G034400 62.56
+GNS1/SUR4 membrane protein family
+Glyma.04G034500 64.77
+RING/U-box superfamily protein
+Glyma.04G034600 74.01
+galacturonosytinansferaselie 2
+Glyma.04G034700 82.11
+exocyst complex component sec3A
+Glyma.04G034800 96.65
+Biotin/lipoate A/B protein ligase family
+rs29026218 6
+29026218 Glyma.06G222400 40.956
+Transmembrane amino acid transporter family protein
+Glyma.06G22500 56.998
+Zinc-binding dehydrogenase family protein
+Glyma.06G222600 88.031
+Tetratricopeptide repeat (TPR)-like superfamily protein
+Glyma.06G222700 90.521
+Core-2/1-branching
+beta-1.6-N-acetylglucosaminyltransferase family protein
+rs5926884 7
+5926884 Glyma.07G065200 94.75
+ATP binding;GTP binding.nucleotide
+bindingnucleoside-triphosphatases
+Glyma.07G065300 91.62
+Late embryogenesis abundant (LEA) hydroxyproline-rich
+glycoprotein family
+Glyma.07G065400 80.93
+Protein of unknown function (DUF674)
+Glyma.07G065500 76.11
+NB-ARC domain-containing disease resistance protein
+Glyma.07G065600 48.18
+NB-ARC domain-containing disease resistance protein
+Glyma.07G065700 3.27
+ACC synthase 1
+Glyma.07G065800 10.42
+Heavy metal transport/detoxification superfamily protein
+Glyma.07G066000 27.07
+Eiythronate-4-phosphate dehydrogenase family protein
+Glyma.07G066100 33.86
+Homeodomain-like superfamily protein
+Glyma.07G066300 51.78
+Eiythronate-4-phosphate dehydrogenase family protein
+Glyma.07G066400 59.00
+coenzyme Q biosynthesis Coq4 family protein / ubiquinone
+biosynthesis Coq4 family protein
+Glyma.07G066600 73.74
+Protein kinase superfamily protein
+Glyma.07G066700 84.46
+coenzyme Q biosynthesis Coq4 family protein / ubiquinone
+biosynthesis Coq4 family protein
+Glyma.07G066800 91.14
+MAP kinase 4
+Glyma.07G066900 97.01
+Pectin lyase-like superfamily protein
+rs6886889 11
+6886889 Glyma.11G089700 97.42
+GDA1/CD39 nucleoside phosphatase family protein
+Glyma.11G089800 92.57
+nodulin MtN21 /EamA-like transporter family protein
+(Continues)
+RIGHTSLIN Ko
+
+
+
+10of18
+The Plant Genome sa0
+SUI ETAL.
+TABLE 3 (Continued)
+Physical
+position
+Distance to
+Peak SNP Chr. (bp)
+Gene model
+SNP(Kbp) Functional annotation
+Glyma.11G089900 86.25
+nodulin MtN21 /EamA-like transporter family protein
+Glyma.11G090000 80.31
+nodulin MtN21 /EamA-like transporter family protein
+Glyma.11G090200 45.58
+ATP-binding cassette 14
+Glyma.11G090300 37.88
+zinc knuckle (CCHC-type) family protein
+Glyma.11G090400 30.46
+SWIB/MDM2 domain superfamily protein
+Glyma.11G090500 26.75
+SWIB/MDM2 domain superfamily protein
+Glyma.1IG090700 23.99
+F-box family protein
+Glyma.11G090800 17.74
+glycine/proline-rich protein
+Glyma.11G090900 12.47
+RNAse linhibitor protein 2
+Glyma.1IG091000 1.98
+xyloglucanase 113
+Glyma.1IG091200 6.61
+phosphatidylinositol synthase 1
+Glyma.11G091300 15.66
+SBP (S-ribonuclease binding protein) family protein
+Glyma.1IG091400 31.75
+farnesylated protein 6
+Glyma.11G091500 35.32
+Transducin family protein / WD-40 repeat family protein
+Glyma.1IG091600 42.40
+4-coumarate:CoA ligase 3
+Glyma.11G091700 51.12
+P-loop containing nucleoside triphosphate hydrolases
+superfamily protein
+Glyma.1IG091800 56.04
+NADH-ubiquinone oxidoreductase-related
+Glyma.11G091900 66.34
+Transcription factor DP
+Glyma.11G092000 86.34
+GRAS family transcription factor
+Glyma.11G092100 92.44
+Major facilitator superfamily protein
+rs10299216 12
+10299216 Glyma.12G109000 97.78
+zinc ion binding,nucleic acid binding
+Glyma.12G109200 25.65
+glutamine synthetase 2
+Glyma.12G109500 8.81
+Protein phosphatase 2C family protein
+4 I DISCUSSION
+correlation. The sucrose content at three locations showed
+extremely significant variation (P < .01) (Table 1), likely
+The sucrose in soybean seeds is one of the desirable traits due to the diversity oftemperatures among three locations,
+for taste and flavor ofsoybean-derived food, and affects the including temperatures during plant growth or seed devel-
+feeding efficiency ofsoymeal. Sucrose has the highest solu- opment and the accumulated temperature (Zeng et al.,
+ble sugars in soybean seeds, accounting for 5% oftotal car- 2014). Other studies showed that increased temperature
+bohydrates (Smith & Circle, 1972; Wilson, 2004; Mozzoni, reduced the sucrose level (Hou et al., 2009; Wolf, Cavins,
+Shi, & Chen, 2013). Among the three main components of Kleiman, & Black, 1982). Evidently, the sugar content was
+soluble sugar (sucrose, raffinose and stachyose), sucrose is influencedby environmental conditions.justifying the sig-
+the easiest to digest and absorb by monogastric animals nificanceofmultiple locations for detecting sugar concen-
+(Peterbauer & Richter, 2001; Smith & Circle, 1972; Wilson, tration.
+2004; Mozzoni et al., 2013; Lunn, 2008). Therefore, breed-
+To date, only 37 QTLS related with sucrose concentration
+ing soybean lines with high sucrose concentration was of have been reported (htp/www.soybase.org on the basis
+considerable significance for breeding in soybean. Major of linkage analysis. Identification of candidate loci associ-
+seed composition characteristics such as protein, oil, and ated with sucrose concentration in soybean via GWAS is
+sucrose content are significantly affected by the environ- an effective method. Patil et al. (2018) identified a major
+ment(Bandilloet al., 2015; Chaudhary vet al., 2015; Thomas, QTL on chromosome 8 (qSuc_08) through a population
+Boote, Allen, Gallo-Meagher, & Davis, 2003). In current derived from the cross of G. max (Williams 82) and G. soja
+study, 178 cultivated soybeans from three environments (PI 483460B) with more than 91,000 SNPS, which harbored
+(Supplemental Table S1) were collected mainly in China putative genes involved in sugar transport. Additionally,
+and assessed in terms of sucrose content to determine its GWAS analysis was performed to verify the major QTLS.
+RIGHTSLIN Ko
+
+
+
+SUI ET AL
+The Plant Genome E0
+11 of18
+- y
+I @
+I A
+i
+I
+I
+I
+I I
+i
+I
+I
+I à i
+I
+I
+I I
+I
+I
+I
+I
+
+E
+: a 5 23 8 E a 2 3 5 & a E 8 3 2 a - : a 3 a 33
+R 8 -
+:
+-
+2
+2 5 2 €
+5 5
+2
+2
+8
+2
+I
+:
+P
+I
+I I
+I I I I
+I I
+I
+I
+I
+I
+I
+I
+I I I I I I I I I I I I I I I I I I I I I I I
+I I I
+E
+I I I
+I I I I
+I I
+I
+I
+I
+I
+I
+I
+I
+I
+I I
+I
+I
++
++
+
+
+
+I I 2
+9 I
+I
+I E
+4 a A
+1 e
+.
+I
+I
+I
+I
+:
+I
+I
+RIGHTSLIN
+I
+KO
+I
+
+
+
+12of18 I The Plant Genome E0
+SUI ET AL.
+N
+1y E
+I
+I
+I
+I
+I
+I I
+I
+I
+:
+I
+I
+E
+: - - 8 3 88 a a E a 2 2 a
+E 5 a 8 E 2 S E - a 8 - S 23
+-
+:
+S
+E
+S
+8
+5
+E
+5
+€
+I
+:
+P
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I I I I i I I i I I I I I
+i I I I I I i I I i I I i I
+E
+I I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+
+A
+I 2
+9 I
+I
+E
+I
+ a A
+1 e
+à
+I
+:
+I
+I
+I
+RIGHTSLIN Ko
+I
+
+
+
+SUI IET AL.
+The Plant Genome R0
+13 of18
+D
+I
+/
+I I
+I
+I
+I
+I
+I
+O I I I
+I
+I 
+I
+I I I I
+I I
+:
+E
+: 2 2 5 : 8 8 2 2 a 3
+a 8 3 2 & 2 5 a 2 8 a 3 8 8 E a 8
+-
+E 5
+S
+€
+E
+8
+2
+5
+E € E
+I
+:
+P
+I
+I I
+I
+I
+I
+I
+I
+I
+I I E
+I
+I
+I I I I I I I I I I I
+i I I i I I i I I I I I I I I I I
+E
+I I I
+I
+I
+I
+I
+i
+I
+I I I
+I
+I
+I
+I
+I
+I
+
+A
+
+I 2
+9 I
+I
+E
+I
+4 A
+1 e
+I
+I
+:
+I
+I
+I
+I
+RIGH TSLIN Ko
+I
+
+
+
+14of18 I The Plant Genome RO
+SUI ET TAL.
+E
+I
+I
+€
+: a 3 1  23 - a 2 : 8 2  8 E a E 8 9
+-
+: 8
+E
+2
+5
+E
+5
+I
+:
+P
+I
+I I
+I
+I
+I
+E
+I
+I
+I
+I I I I I i I I I I I I I I I I I I I
+E
+I I I
+€
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+o I
+9
+I
+I
+E
+I
+4 A
+1 e
+: à
+I
+I
+RIGHTSLIN Ko
+I
+
+
+
+SUIET TAL.
+The Plant Genome mi0 15of18
+Glyma.04G032600"
+Glyma.04G032600"
+Glyma.04G033000-
+Glyma.04G033000"
+Glyma.04G034700"
+Glyma.04G034700"
+(Gongzhuling)
+(Shenyang)
+(Gongzhuling)
+(Shenyang)
+(Gongzhuling)
+(Shenyang)
+807
+90-
+807
+907
+907
+907
+70-
+80-
+70-
+80-
+80-
+80
+70-
+80 70-
+70-
+70
+60
+50
+60
+60-
+60
+60
+50
+50
+50
+50-
+3 50
+50
+40
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.07G065400"
+Glyma.07G065400
+Glyma.07G065400"
+Glyma.07G065500"
+Glyma.07G065500" Glyma.07G065500-
+(Gongzhuling)
+(Harbin)
+(Shenyang)
+(Gongzhuling)
+(Harbin)
+(Shenyang)
+907
+1107
+90
+110-
+907
+80-
+100
+80-
+100-
+80-
+70-
+90
+70
+60
+60-
+50-
+60
+50
+40
+Hap1 Hap2
+Hapt Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.07G065600"
+Glyma.07G065600"
+Glyma.07G065600"
+Glyma.07G066100-
+Glyma.07G066100-
+Glyma.07G066100"
+(Gongzhuling)
+(Harbin)
+(Shenyang)
+(Gongzhuling)
+(Harbin)
+(Shenyang)
+757
+150
+90
+90-
+150-
+90
+70-
+80-
+80- H
+0- A
+65-
+100
+100
+60
+60
+60
+55-
+50
+50-
+50
+50
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.07G066400"
+Glyma.07G066400"
+Glyma.07G066400"
+Glyma.07G066600
+Glyma.07G066600
+Glyma.07G066800
+(Gongzhuling)
+(Harbin)
+(Shenyang)
+(Gongzhuling)
+(Shenyang)
+(Gongzhuling)
+907
+1507
+907
+75-
+90
+90-
+80
+80-
+80-
+100
+70
+70
+60
+60-
+50
+50
+50
+40-
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2
+Hap1 Hap2 Hap3
+Hap1 Hap2 Hap3
+Hap1 Hap2 Hap3
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.07G066800
+Glyma.07G066800
+(Harbin)
+(Shenyang)
+1107
+90-
+100
+80
+30
+70
+60
+50-
+I
+40-
+Hap1 Hap2 Hap3
+Hap1 Hap2 Hap3
+Haplotype
+Haplotype
+FIGURE 5 Haplotypes analysis of genes related to sucrose concentration. Significance ofANOVA: *P < .05,**P<.01
+In this study, five QTNS related to sucrose concentration QTNS had no overlap region with QTLS that were previ-
+were identified across five chromosomes (chromosomes 4, ously detected and thus could be considered as novel loci
+6, 7, 11, and 12) in more than one environment. Among associated with sucrose concentration. In addition, based
+these, the SNP loci chromosome 4:2688589 located could on the detected QTNS, the sucrose content of germplasms
+be detected in all three environments and the other four with exceptional alleles was higher than those of other
+loci can be detected in two environments. All of the five tested germplasms with different alleles. Therefore, these
+RIGHTSLIN Ko
+
+
+
+16of18 I The Plant Genome E0
+SUI ETAL.
+identified QTNS are more likely to control sucrose content of the Ministry of Science and Technology in China
+in soybean.
+(2015RA228), The National Ten-thousand Talents Pro-
+Currently, about 362 candidate genes were identified to gram (W03020275), Postdoctoral Fund in Heilongjiang
+participate in the regulation of sucrose content in soybean Province (LBH-Z15017, LBH-Q17015), The National Project
+(htp/www.soybus.org. GWAS has become the main (CARS-04-PS04), The "Youth Innovation Talent' Project
+choice for mining and identifying important genes due to of the general undergraduate universities in Heilongjiang
+the relatively short LD fragments (Li et al., 2015). In this province (UNPYSCT-2016145, the 'Academic Backbone'
+study, a total of 60 candidate genes were screened in 200- Project of Northeast Agricultural University (17XG22).
+kb genomic regions of the five peak SNPS. Three genes,
+including two genes located near chromosome 4:2688589
+(Glyma.04G032600,Glyma.046034600) and 11gene located AUTHOR CONTRIBUTIONS
+near chromosome 11:6886889 (Glyma.IIG092100) were
+demonstrated to directly influence anabolic metabolism of MNS, YW, and YYB conceived the study and con-
+sucrose in soybean (Pao et al., 1998; Yu et al., 2000). Gene- tributed to population development. WLT and WBL
+based association and haplotype analyses were conducted conducted genotyping. XW, RQL, YL, MY, CQ, and
+to verify the accuracy of candidate genes. As a result, 10 CXL contributed to phenotypic evaluation. XZ and YPH
+candidate genes (Glyma.046032600, Glyma.04G033000, contributed to the experimental design and writing
+Glyma.04G034700, Glyma.07G065400, Glyma.07G065500, paper. All authors contributed to and approved the final
+Glyma.07G065600, Glyma.07G066100, Glyma.07G066400, manuscript.
+Glyma.07G066600, and Glyma.07G066800) were detected
+and nine beneficial haplotypes were identified in dif-
+ferent environments. The results confirmed once again CONFLICT OF INTEREST DISCLOSURE
+that Glyma.04G032600 has definite effects in regulating
+sucrose content. Hence, the value ofthis gene for increas- The authors declare that there is no conflict ofinterest.
+ing the concentration of sucrose in soybean was worth
+exploring in the future. The other nine genes can also be ORCID
+labeled as potential candidate genes for regulating the YingpengHan D https/orcid.org/0000-0002-9829-6585
+sucrose content in soybean and should be discussed and
+REFERENCES
+verified in further studies.
+Bandillo, N.,Jarquin, D., Song, Q., Nelson, R., Cregan, P., Specht,J.,&
+Lorenz, A. (2015). A population structure and genome-wide asso-
+ciation analysis on the USDA soybean germplasm collection. The
+5 I CONCLUSION
+Plant Genome, 8, 1-13. htps_/doi.org/1o.835/plantgenome2015.
+04.0024.
+A total of 60 genes located near five peak SNPS were Bellaloui, N., Ebelhar, M. W., Gillen, A. M., Fisher, D. K., Abbas, H.
+detected to be associated with sucrose concentration
+M., Mengisu, A., ... Paris, R. L. (2011). Soybean seed protein, oil,
+based on 178 diverse soybean accessions in three environ-
+andfatty acids are alteredbySandS+ Nfertilizers underirrigated
+ments and 33,149 SNPS by GWAS. Through gene-based
+or non-irrigated environments. Agricultural Sciences, 2, 465-476.
+association analysis and haplotype analysis, one gene
+https/doiorg/10.4236/a5.2011.24060.
+Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ram-
+with known definite effects in regulating sucrose con-
+doss, Y., & Buckler, E. S. (2007). TASSEL: Software for asso-
+tent and nine novel genes were detected. The benefi-
+ciation mapping of complex traits in diverse samples. Bioin-
+cial alleles and candidate genes identified may be help-
+formatics, 23, 2633-2635. htps/doi.org/10.1093/bioinformatics/
+ful for improving the concentration of sucrose in soybean
+btm308.
+seed.
+Cao, Y., Li, S., Wang, Z., Chang, F., Kong, J., & Gai, J., & Zhao, T
+(2017). Identification of major quantitative trait loci for seed oil
+ACKNOWLEDGMENTS
+contentin soybeans by combining linkage and genome-wide asso-
+This study was financially supported by the Hei-
+ciationmapping. FrontiersinPlant Seime.s.2.htps/dsiong
+10.3389/pls2017,0122.
+longjiang Provincial Project (GX17B002, JC2018007, Chaudhary, J., Patil, G. B., Sonah, H., Deshmukh, R. K., Vuong,
+SC2019ZX16B0039, GJ2018GJ0098, C2018016), the Chi-
+T. D., Valliyodan, B., & Nguyen, H. T. (2015). Expanding omics
+nese National Natural Science Foundation (31701446,
+resources for improvement of soybean seed composition traits.
+31871650, 31971967, 31671717, 31471517), National Key
+Frontiersin. Plant Science,6,1021. htpe/daiopioseiphazus
+R & D Project (2017YFD0101306, 2016YFD0100304,
+01021.
+2017YFD0101302), the National Project (2014BAD22B01, Cheng, P., Gedling, C. R., Patil, G., Vuong, T. D., Shannon, J. G.,
+2016ZX08004001-007), the Youth Leading Talent Project
+Dorrance, A. E., & Nguyen, H. T. (2017). Genetic mapping and
+RIGHTSLIN Ko
+
+
+
+SUIET TAL.
+The Plant Genome E0 17of18
+haplotype analysis of a locus for quantitative resistance to Fusar- Paterson,A.H.,Tanksley,S.D.& Sorrells, ,M. E.(991).DNAmarkers
+ium graminearumin soybean accession PI 567516C. Theoreti-
+in plant improvement. Advances in Agronomy, 46, 39-90. https:/1
+cal and Applied Genetics, 130, 999-1010. htps/doi.org/10.1007
+doi.org/10.1016/S0065-2113(08)60578-7.
+S00122-017-2866-8.
+Patil, G., Vuong, T. D., Kale, S., Valliyodan, B., Deshmukh, R., Zhu,
+Du, Y., Zhao, Q., Chen, L., Yao, X., Zhang, W., Zhang, B., & Xie, F.
+C.,. .. Nguyen, H.T. (2018). Dissecting genomic hotspots underly-
+(2020). Effectofdrought stress on sugar metabolism in leaves and
+ing seed protein, oil, and sucrose content in an interspecific map-
+roots of soybean seedlings. Plant Physiology and Biochemistry, 146,
+ping population of soybean using high-density linkage mapping.
+1-12. htps/doiorgnio.oiol,phy2019.L.00x.
+Plant Biotechnology Journal, 16, 1939-1953. https/doi.org/10.11/
+Hwang, E. Y., Song, Q., Jia, G., Specht, J. E., Hyten, D. L., Costa, J.,
+pbi.12929.
+& Cregan, P. B. (2014). A genome-wide association study of seed Poysa, V., & Woodrow, L. (2002). Stability of soybean seed compo-
+protein and oil content in soybean. BMC Genomics, 15, 1. https://
+sition and its effect on soymilk and tofu yield and quality. Food
+doiopgho.106714712164151
+ResearchInternational, 35,337-345. htpe/deiongio.oissows:
+Holm, S. (1979). A simple sequentially rejective multiple test proce-
+9969(01)00125-9.
+dure. Scandinavian Journal ofStatistics, 6, 65-70. https://doi.org/ Peterbauer, T., & Richter, A. (2001). Biochemistry and physiology
+10.2307/4615733.
+of raffinose family oligosaccharides and galactosyl cyclitols in
+Hou, A., Chen, P., Alloatti, J., Li, D., Mozzoni, L., Zhang, B., & Shi,
+seeds. Seed Science Research, 11, 185-197. htps/doi.org/lo.1079)
+A. (2009). Genetic variability of seed sugar content in worldwide
+SSR200175.
+soybean germplasm collections. Crop Science, 49, 903. https://doi. Ruan, Y. L. (2012). Signaling role of sucrose metabolism in devel-
+oploz1sapaawkasase
+opment. Molecular Plant, 5, 763-765. htrpez/doiorgnioio9/mp
+Hymowitz, T. J., Dudley, J. W., Collins, F. I., & Brown, C. M. (1974).
+sss046.
+Estimations of protein and oil concentration in corn, soybean, Ruan, Y. L., Jin, Y., Yang, Y.J., Li, G. J., & Boyer, J. S. (2010). Sugar
+and oat seed by near-infrared light reflectance. Crop Science,
+input, metabolism, and signaling mediated by invertase: Roles in
+14, 713. https.//doi.org/10.2135/cropsci1924.001183X00140005
+development, yield potential, and response to drought and heat.
+0031x.
+Molecular Plant, 3, 942-955. hepldsiegnaipiephege
+Kim,H.K., Kang, S. T., Cho,J.H., Choung, M.G., & Suh, D. Y.(2005). Skoneczka, J. A., Maroof, M. A. S., Shang, C., & Buss, G. R. (2009).
+Quantitative traitloci associated with oligosaccharide and sucrose
+Identification of candidate gene mutation associated with low
+contents in soybean (Glycine max L.).Journal lofPlant Biology, 48,
+stachyose phenotype in soybean line PI200508. Crop Science, 49,
+106-112. MpuldHtongpmimniHowwss
+247. htps/doiorgnoz1S/cropxc2008.070403,
+Kim,H. K., Kang, S.T.,& Oh, K. W.(2006).Mapping ofputative quan- Smith, A. K., & Circle, S.J. (1972). Chemical composition of fthe seed.
+titative trait loci controlling the total oligosaccharide and sucrose
+In Soybeans: Chemistry and Technology. Vol. 1, Proteins (pp. 61-
+content of Glycine max seeds. Journal of Plant Research, 119, 533-
+92). Westport: Avi Publishing.
+538. htips/doi.org/1o.1007/s0265-0060004-9.
+Sterling, J. D., Quigley, H. F., Orellana, A., & Mohnen, D. (2001).
+Krober, O. A., & Cartter, J. L. (1962). Quantitative interrela-
+The catalytic site of the pectin biosynthetic enzyme alpha-1,4-
+tions of protein and nonprotein constituents of soybeans.
+galacturonosyltransferase is located in the lumen of the golgi.
+Crop Science, 2, 171-172. https.//doi.org/10.2135/cropsci1962.
+Plant Physiology, 127, 360-371. htpg/idbiorgiouioupl7l
+001183X0002000200238.
+360.
+LY.Ref.IC.MaY.Hong H., Liu, Z., Chang, R.,& Qiu,L.(2015). Sun, X., Liu, D., Zhang, X., Li, W., Liu, H., Hong, W., : Zeng,
+Targeted association mapping demonstrating the complex molec-
+H. (2013). SLAF-seq: An efficient method of large-scale de novo
+ular genetics of fatty acid formation in soybean. BMC Genomics,
+SNP discovery and genotyping using high-throughput sequenc-
+16, 841. htps/doi.org1o.186/312864-0152049-4,
+ing. PLOS One, 8, e58700. Mepe/dsiagpauntypumalpme
+Lipka, A. E., Feng, T., Wang, Q., Peiffer, J., Li, M., Bradbury, P. J.,
+0058700.
+: Zhang, Z. (2012). GAPIT: Genome association and prediction Taira, H., Tanaka, H., Saito, M., & Saito, M. (1990). Effect of culti-
+integrated tool. Bioinformatics, 28, 2397-2399. https://doi.org/10.
+var, seed size, and crop year on total and free sugar contents of
+lo93ioinformaticy/bist4,
+domestic soybeans. Nippon Shokuhin Kogyo Gakkaishi, 37, 203-
+Lunn, J. E. (2008). Sucrose metabolism. In Encyclopedia of life
+213. htps/doiorg/1o3136/n5644962373.203
+sciences. Chichester: Widely Ltd. htps/doiorg/10.1002/ Teixeira, A. I., Ribeiro, L. F., Rezende, S. T., Barros, E. G., & Mor-
+978047005902a0021259.
+eira, M. A. (2012). Development of a method to quantify sucrose
+Maughan, P.J., Maroof, M. A. S., & Buss, G. R. (2000). Identification
+in soybean grains. Food Chemistry, 130, 1134-1136. https://doi.org/
+of quantitative trait loci controlling sucrose content in soybean
+10.06j6odchkem201L013
+(Glycine max). Molecular Breeding, 6, 105-111. https:/doi.org/10. Thomas, J. M. G., Boote, K. J., Allen, L. H., Gallo-Meagher, M.,
+1023/a:1009628614988.
+& Davis, J. M. (2003). Elevated temperature and carbon dioxide
+Mozzoni, L., Shi, A., & Chen, P. (2013). Genetic analysis of high
+effects on soybean seed composition and transcript abundance.
+sucrose, low raffinose, and low stachyose contentin V99-5089 soy-
+Crop Science, 43, 1548. htrps/doi.org/10.2135/cropsc120031548.
+bean seeds. Joumalo/Cmplmpowemont, 27,606-616. https://doi. Wang, Y., Chen, P.,& Zhang, B. (2014). Quantitative traitloci analysis
+0p1010137XX91.8L9A
+of soluble sugar contents in soybean. Plant Breeding, 133, 493-498.
+Pao,S. S., Paulsen, I. T., & Saier, M. H.(1998). Major facilitator super-
+hupeldalorgioiipbalin
+family. MicrobiologyandMolecular-Biology Reviews, 62,1-34.https: Wilson, R. F. (2004). Seed composition. Soybeans Improvement, 16.
+//doi.org/10.128/mmbr.6211-341998.
+htpez/doiongho.as4lagronmonogri63edcl;
+RIGHTSLIN Ko
+
+
+
+18of18 I The Plant Genome E0
+SUI ETAL.
+Wolf, R. B., Cavins, J. F., Kleiman, R., & Black, L. T. (1982). Effect
+of temperature on soybean seed constituents: Oil, protein, mois- SUPPORTING INFORMATION
+ture, fatty acids, amino acids and sugars. Journal of the Amer- Additional supporting information may be found online
+ican Oil Chemists' Society, 59, 230-232. htps/doi.org/10.1007 in the Supporting Information section at the end of the
+BF02582182.
+article.
+Yan, L., Hofmann, N., Li, S., Ferreira, M. E., Song, B., Jiang, G.,
+Song, Q. (2017). Identification of QTL with large effect on seed
+weight in a selective population of soybean with genome-wide
+association and fixation index analyses. BMC Genomics, 18, 529.
+How to cite this article: Sui M, Wang Y, Bao Y,
+htps/doi.org71o.186/812864-017-392-0.
+et al. Genome-wide association
+of sucrose
+Yu, T. S., Lue, W. L., Wang, S. M., & Chen, J. (2000). Mutation ofAra-
+analysis
+bidopsis plastid phosphoglucose isomerase affects leafstarch syn-
+concentration in soybean (Glycine max L.) seed
+thesis and floral initiation. Plant Physiology, 123, 319-326. https:
+based on high-throughput sequencing. Plant
+1dolorghiaiod/ppl23131,
+Genome. 2020;13:e220059.
+Zeng, A., Chen, P., Shi, A., Wang, D., Zhang, B., Orazaly, M., Cre-
+https.//doi.org/10.1002/tpg2.20059
+gan, P. (2014). Identification of quantitative trait loci for sucrose
+content in soybean seed. Crop Science, 54, 554. https:/doi.org/10.
+2135/cropsci2013.0L0036.
+:
+P
+I
+I
+I
+I
+I
+I
+I
+I
+o
+I
+9
+I
+E
+I
+e
+1
+I
+I
+RIGHTSLIN Ko
+I

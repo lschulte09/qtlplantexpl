@@ -1,0 +1,1225 @@
+Planta (2021) 254:110
+htpsl/doi.org/10.1007500425-021-037608
+ORIGINAL ARTICLE
+Chec for
+updates
+Identification of soybean phosphorous efficiency QTLs and genes
+using chlorophyll fluorescence parameters through GWAS
+and RNA-seq
+Yuming Yang'.) Xiuhua Zhu*.Ruifan Cuil : Ruiyang Wang' .Hongyan Lil Jinshe Wang?-Huatao Chen3.
+Dan Zhang'O
+Received: 30 August 2021/Accepted: 14 October 2021/Published online: 30 October 2021
+OThe Author(s), under exclusive licenceto Springer-Verlag GmbH Germany, part ofSpringerNature 2021
+Abstract
+Main conclusion Soybean phosphorous efficiency QTLS were identified and candidate genes were predicted using
+chlorophyll fluorescence parameters through GWAS and RNA-seq.
+Abstract Phosphorus (P) is an essential nutrient element for crop growth and development, lack ofP uptake seriously affects
+yield in various crops. Photosynthesis is the basis of crop production, while it is very sensitive to P deficiency. It is of great
+importance to study the genetic relationship between photosynthesis and P efficiency to provide genetic insight for soybean
+improvement. In this study, a genome-wide association study (GWAS) was performed using 292,035 SNPs and the ratios of
+four main chlorophyll fluorescence parameters of 219 diverse soybean accessions under P deficiency and normal P across
+three experiments. In total, 52 SNPS in 12 genomic regions were detected in association with the four main chlorophyll fluo-
+rescence parameters under sufficient or deficient P levels. Combined it with RNA-seq analysis, we predicted three candidate
+genes for the significant genomic regions. For example, the expression level of the candidate gene (Glyma. 18g092900) in
+P deficiency tolerant accession was three times higher than that of P deficiency sensitive one under phosphorous deficiency
+condition. This study provides insight into genetic links between photosynthetic and phosphorous efficiency and further
+functional analysis will provide valuable information for understanding the underlying genetic mechanism to facilitate
+marker-assisted breeding in soybean.
+Keywords Candidate genes : Chlorophyll fluorescence parameters : Genome-wide association study (GWAS) : Glycine
+max : Low-phosphorus : RNA-seq
+Abbreviations
+DEGs Differential expression genes
+Communicated by Dorothea Bartels.
+Fv/Fm Maximum quantum efficiency of photosystem II
+GWAS Genome-wide association study
+Yuming Yang and Xiuhua Zhu contributed equally to this work.
+NPQ Non-photochemical quenching
+qP
+Photochemical quenching
+N Huatao Chen
+OPSII Quantum efficiency of photosystem II
+cht@jaas.ac.cn
+QTL Quantitative trait locus
+X Dan Zhang
+SNP Single nucleotide polymorphism
+zhangd@henau.edu.cm
+W82 Soybean accession Williams 82
+Collaborative Innovation Center of Henan Grain Crops,
+Henan Agricultural University, Zhengzhou, China
+Zhengzhou National Subcenter for Soybean Improvement,
+Introduction
+Henan Academy of Agricultural Sciences, Zhengzhou, China
+Institute of Industrial Crops, Jiangsu Academy
+As an essential nutrient element required for plant growth
+of Agricultural Sciences, Nanjing, China
+and development, P plays an irreplaceable role in energy
+Henan Xuke Seed Industry Co., Ltd, Xuchang, China
+acquisition, storage and utilization, regulation of enzyme
+Springer
+
+
+
+110 Page 20f13
+Planta (2021) 254:110
+activities, and yield formation (Cong et al. 2020). Adequate conditions, and it can be used as a powerful tool to screen
+P supplies can significantly increase crop production, such the ability of PS II to resist abiotic stress (Prasad et al. 2007),
+as wheat, rice, finger millet, maize and soybean (Wissuwa such as low temperature in wheat (Rapacz et al. 2015), height
+and Ae 2001; Galindo-Castanieda et al. 2018; Mallarino temperature in wheat (i Azam et al. 2015), salinity in ryegrass
+et al. 2018; Ceasar et al. 2020). However, P shortages con- (Dabrowski et al. 2016), waterlogging in barley (Bertholdsson
+straining crop productivity are widespread worldwide and et al. 2015), drought in Festuca arundinace (Kosmala et al.
+may be more sever in the future because of the increasing 2012), magnesium deficiency in radish (Samborska et al.
+food demand worldwide and the pursuit of high crop yield 2018), nitrogen deficiency stress in radish (Cetner et al. 2017).
+(Veneklaas et al. 2012). P is a non-renewable resource.
+Although physiological and biochemical research on chlo-
+Increaing the ability of P uptake in plants would be impor- rophyll fluorescence have been made in various plants, there
+tant for sustainable agricultural development.
+are rare reports investigating genetic mechanisms affecting
+Soybean is rich in protein and oil, which has been an the natural variation of chlorophyll fluorescence in soybean
+important source for animal feedstocks and food industry challenged by low P availability. Our previous genetic studies
+(Liu et al. 2020). Being a C3 crop, the photosynthetic effi- have demonstrated that there was a significantly positive cor-
+ciency is significantly lower than that of C4 crops like corn relation between Pefficiency and photosynthetic-related traits
+and sorghum, which is a main factor that restricts soybean in soybean, particularly underP deficiency. The follow-up gen-
+yield to increase (Bassham 1977). Studying the regulation tic analyses revealed several major QTLS and the underlying
+mechanism of photosynthesis is of great significance to candidate genes with potentials in improving both P efficiency
+the increase of soybean yield. However, photosynthesis is and photosynthesis were also identified (Li et al. 2016; Lii
+a complex biochemical reaction process and can be inhib- et al. 2018; Yang et al. 2020). However, because of its com-
+ited by many internal and environmental factors (Pedersen plexity and the small effect of genetic factors, researches on
+et al. 2018; Qian et al. 2018). For example, the effective the genetic mechanism of soybean P efficiency and photosyn-
+quantum yield of photosystem II (PSII) photochemistry thesis-related traits are far from enough, and more indicators
+was significantly reduced in leaves deficient in P (Yan et al. should be used to unravel genetic mechanisms.
+2015), and the electron transport at photosystem I (PSI)
+A genome-wide association study (GWAS) has been rec-
+was also affected (Frydenvang et al. 2015). In wheat and ognized as a useful tool for genetic analysis ofcomplex traits
+cotton, stomatal conductance positively correlated with P in diverse plant species (Zhu et al. 2016). Here, we adopted
+concentration in certain conditions (Rao and Terry 1989; this approach intending to identify new QTLS for low P and
+Abbas et al. 2018; Wang et al. 2018). It can be assumed high photosynthetic efficiency and explore related key genes.
+that P is an important source for ATP synthesis, and ATP is Four main chlorophyll fluorescence parameters were used
+involved in regulating the opening and closing of stomata. to index the changes of photosynthetic efficiency, includ-
+Under P restriction condition, the stomatal conductance of ing maximum quantum efficiency of photosystem II (Fv/
+peas was higher than that under the adequate P condition Fm), quantum efficiency of PSII (OPSII), photochemical
+(Jin et al. 2014). These results suggest that the relationships quenching (qP) and non-photochemical quenching (NPQ) of
+between the P efficiency and photosynthetic efficiency are soybean leaves during the V2 seedling stage under normal
+complex. Identification of the key genes that can enhance P or low P conditions. In total, 12 QTLs were identified for
+efficiently and photosynthesis efficiency will lay a founda- relative chlorophyll fluorescence parameters in 1-3 experi-
+tion for breeding soybean varieties with low Ptolerance and ments. Among them, 4 QTLs were physically overlapped
+high light efficiency.
+with the previously reportedP efficiency and photosynthesis
+Chlorophyll fluorescence, an nonintrusive indicator for QTLs, and the other 8 were novel. Three QTLS were identi-
+rapid evaluation of photosynthesis in vivo without damage fied in two or three experiments and the promising candi-
+of the leaves, is an effective method being widely used for date genes were indicated based on transcriptome analysis.
+studying the effects of different environmental conditions These results provide gene source for a better knowledge
+on plant photosynthesis (Maxwell and Johnson 2000; Sayed for breeding soybean varieties with better P efficiency and
+2003; Kalaji et al. 2016). Changes in chlorophyll fluorescence photosynthesis efficiency.
+parameters reflect the process of light energy absorption, uti-
+lization, transfer and dissipation of PSI and PSII (mainly PSII)
+(Schreiberet al. 1995). Itis one of the most effective technolo- Materials and methods
+gies to study the changes in photosynthesis when exposing
+to external stresses (Sayed 2003). Among the parameters of Plant materials and experiments
+chlorophyll fluorescence, the ratio of variable fluorescence
+(Fv) to maximum fluorescence (Fm) is an important index to A natural population containing 219 soybean [Glycine
+evaluate the maximum efficiency ofPS II under abiotic stress max (L.) Merrill] accessions was used in the study, of
+Springer
+
+
+
+Planta (2021) 254:110
+Page 3of13 110
+which 204 accessions originated from China, 10 from Analysis ofthe chlorophylifluorescence parameters
+other countries (one from Brazil, two from Japan and
+seven from America) and there remaining five were The analyses of variance and broad heritability of the phe-
+unknown. Plant growing was carried out in hydro- notypic data were carried out using the R software (Team
+ponics experiments in an artificial climate chamber 2015). The formula "Ta-H+G+EHGB,te, 99 was used
+(28-33/20-25 C day/night temperature, 14h light/ 10h to analysis the variance, of which Yik is the phenotype value
+dark photoperiod). Briefly, seeds were disinfected by of the ith genotype in the jth environment and the kth block,
+exposing them to chlorine for 4-5 h, then planted in ver- u is the population mean, G is the effect of the ith genotype,
+miculite to germinate. After about 4-5 days, six seedlings E,is the effect of the jth environment, (GE)j is the genotype-
+with the same growth status were selected and moved by-environment interaction effect, and Eji is residual error.
+into a normal P and P deficiency hydroponic environment The broad-sense heritability (H) rate was calculated by the
+(each contains three seedlings), respectively.
+following formula: H2 =0
++ oInr), 2 g is the
+The composition method oflow and normal P nutrient genetic variance, 2 gy is the interaction of genotype with
+solution was referred to the description of Zhang et al. environment, 0 is the residual error, n is the number of
+(2016). One-half Hoagland solution [2.5 mM Ca(NO3)2 environments, and r is the number of replications (Knapp
+2.5 mM KNO3 1.0 mM MgSO4, 0.5 mM KH,PO4 10 uM et al. 1985).
+EDTA Naz, 10 uM FeSO4, 23 pM H,BO3, 4.5 JM MnCl,,
+0.15 UM CuSO4, 0.4 UM ZnSO4, 0.05 pM Na,Mo04] was
+used as normal P nutrient solution, and the low P nutrient Genome wide association mapping (GWAS)
+solution (with 0.005 mM KH,PO4, the lack of KH,PO4)
+was replaced by equal concentration of KCI). The hydro- The 219 soybean accessions were genotyped by 292,035
+ponic tanks 60 X 40 X 16, length X width X height, cm) SNPS derived from 355 K SoySNP array described by
+used contained 60 holes for cultivating seedlings. Ran- Wang et al. (2016). GWAS were performed based on the
+domized blocks design was used and the nutrient solu- compressed mixed linear model (Zhang et al. 2010) using
+tion (pH 5.8) was changed every three days to ensuring the GAPIT package (Lipka et al. 2012). The relative chlo-
+adequate nutrients. The experiment was conducted from rophyll fluorescence parameters (ratio of the chlorophyll
+May to July, 2017 as environment 1 (E1), June to August, fluorometer parameters in low P VS normal P conditions)
+2018 as environment 2 (E2) and May to June 2019 as were used as phenotypic data, which was a benefit for con-
+environment 2 (E3), respectively. The seeds used in the ditional genetic effects analysis (Zhu 1995). SNPs with a
+three experiments were harvested in the field from the minor allele frequency (MAF) X 0.05 were used. The popu-
+previous year.
+lation structure was accounted by principle component
+analysis (PCA), and the relatedness was calculated by the
+VanRaden method (VanRaden 2008). The threshold for sig-
+Measurements ofthe chlorophylfluorescence
+nificant association was set to 1/n (n is the marker numbers,
+parameters
+P<I 1/n (P<4.82x 10-0 )) (Yang et al. 2014). Manhattan plots
+and QQ plots were generated using the R package qqman
+After 15 days of hydroponic treatment, chlorophyll fluo- (Turner 2014). The linkage disequilibrium (LD) decay rate
+rescence parameters were measured with a MINI-PAM of these 219 cultivated soybeans was 130 kb (Wang et al.
+portable chlorophyll fluorometer (Walz) as described else- 2016). The upstream and downstream 130 kb interval ofthe
+where (Munekage et al. 2002) with some modifications significant SNPS were taken as significant QTLs.
+as for soybean seedlings. Firstly, plants were dark accli-
+mated for 20 min, then a light pulse of 3000 umol photons
+m -2 s-2 for 800 ms and actinic light of 120 umol photons RNA sequencing and data analysis
+m -2 s -2 for 5 min was used to determine initial fluores-
+cence (Fo), the maximal fluorescence (Fm) and maximum According to the hydroponic experiments, two soybean
+fluorescence (Fm'), steady-state fluorescence (Ft) and ini- accessions were selected for RNA-sequencing. One was
+tial fluorescence (Fo') under light, respectively. Finally, tolerant to low P accessions, Williams82 (W82), the other
+calculate the maximum quantum efficiency of photosystem was the low P sensitive accession Jack. The leaves were
+II (Fv/Fm), quantum efficiency of PSII (OPSII), photo- harvested after 15 days of hydroponics (normal and low P
+chemical quenching (qP), non-photochemical quenching treated conditions), each with three biological replicates.
+(NPQ) according to the formula as described in the hand- All samples were quick-frozen with liquid nitrogen and then
+book of operation of MINI-PAM (www.walz.com) were stored at - 80 °C for RNA isolation and RNA sequencing.
+calculated.
+The RNA-seq experiment data analysis was commissioned
+Springer
+
+
+
+110 Page 40f13
+Planta (2021) 254:110
+by Shanghai Ling 'en Biotechnology Company. Genes with both conditions, ranging from 2.44to 10.1% and 3.34-15.0%
+a false discovery rate <0.005 andlog, (fold change)21 were under normal P and low P conditions, respectively. In con-
+declared differential expression genes (DEGs).
+trast, the value of NPQ shows the largest coefficients of vari-
+ation ranging from 30.7 to 37.5% and 32.2 to 34.9% under
+Candidate genes prediction and expression analysis normal P and low P conditions, respectively.
+Under normal P condition, the mean values of Fv/Fm in
+According to the annotation of the soybean reference E1, E2 and E3 were 0.816, 0.819 and 0.813, respectively;
+genome (Wm82.a2.v1) in Phytozome v.12 (https://phyto for OPSII, the means were 0.682, 0.40 and 0.705, respec-
+zome.jgi.doe.gov). genes among the main QTLs were ana- tively; mean values of qP were 0.805, 0.759 and 0.807,
+lyzed. Based on transcriptome analysis results, we selected respectively; the NPQ mean values were 0.368, 0.466 and
+genes that were significantly differentially expressed in tran- 0.469, respectively. However, under low P condition, all
+scriptome and fell within the QTL region as candidate genes. the the chlorophyll fluorescence parameters significantly
+For tissue expression analysis, the candidate genes expres- decreased except for NPQ (Table 1). These suggested that,
+sion date containing six tissues with different development when plants suffered P deficiency, photosynthesis in plants
+stages was downloaded from the Soy Base (https://www. was suppressed and further revealed the molecular associa-
+soybase.org/soyseq).
+tion with P deficiency with the photosynthesis process. The
+solar energy assimilated by leaves used for non-photochem-
+Quantitative real-time PCR
+ical quenching increased, and the light quantum efficiency
+decreased.
+Total RNA isolation from leaves of soybean lines W82 and
+Variance analysis showed significant variations for the
+Jack under normal and low P conditions were extracted four chlorophyll fluorescence parameters among genotypes,
+and each had three biological replicates. About 50-100 mg environments and genotype X environmental interaction
+leaves were used for the isolation of RNA according to effects in either normal P or low P conditions (Table 1),
+the manufacturer's instructions with the use of Plant RNA suggesting arich varation in the gentic association between
+Extract Kit (TianGen, Beijing, China). Then about 1 ug RNA P response with photosynthesis. These chlorophyll fluores-
+was used to configure to synthesize cDNA with the applica- cence parameters have overall high broad-sense heritabilities
+tion of Hifaire II 1st Strand cDNA Synthesis SuperMix for raging from 59.1 to 88.2% (Table 1), indicating that genetic
+qRT-PCR (gDNA digester plus) (Yeasen, Shanghai, China). effects play major roles in the phenotypic variation (These
+The soybean constitutive expression gene Tublin (GenBank traits are to a large extent controlled genetically with varying
+accession number: AY907703) was used as areference gene effects by environments or genotypexenvironments) On the
+for qRT-PCR. The qRT-PCR was conducted on a CFX96 other hand, the four traits exhibit normal or nearly normal
+Touch real-time PCR system (Bio-Rad Laboratories, Hercu- distribution (Fig. 1), strongly indicating that these traits are
+les, CA,USA) with the use ofSYBR Green Realtime Master quantitatively inherited and controlled by multiple genes.
+Mix (Yeasen). Data were analyzed with a standard curve-
+based method calculated with CFX ManagerTM software.
+Correlation analysis of chlorophyll fluorescence
+parameters
+Results
+To investigate the correlation ofthe four chlorophyll fluores-
+Chlorophyll fluorescence exhibited significant
+cence parameters, correlation analysis was performed based
+variation in different P levels
+on the average values of the three experiments (Table 2).
+The results showed that NPQ was significantly negatively
+Chlorophyll fluorescence parameters is an effective index correlated with OPSII and qP in normal P condition, but
+to indicate the effects of different environmental conditions what was interesting was that the NPQ in low P condition
+on plant photosynthesis. To comprehensively investigate the was significantly positive correlated with OPSII. NPQ is an
+genetic variation of photosynthesis associated with P supply, indicator for estimating changes in the apparent rate con-
+a total of 219 diverse soybean accessions were used and four stant for excitation decay by heat loss (Baker 2008). Under
+main chlorophyll fluorescence parameters including Fv/Fm, P deficiency stress, an increase in the amount of captured
+OPSII, qP and NPQ were measured in plants under sufficient light energy used for heat loss may alleviate the damage
+or deficient P supplies. The descriptive statistics analysis to the photosystem caused by P deficiency. This suggested
+showed that there were large variations among the four main that NPQ was an important physiological change for plants
+chlorophyll fluorescence parameters (Table 1). The coeffi- to adapt to low phosphorus stress and could be used as an
+cients of variation of Fv/Fm, OPSII and qP varied greatly in index of P efficiency material screening.
+Springer
+
+
+
+Planta (2021) 254:110
+Page 5of13 110
+Table 1 Descriptive statistical results for chlorophyll fluorescence parameter of soybean under different P conditions
+P level" Year Trait Mean Stdev Kurtosis Skewness Min Max CV (%)b G Ed GxEe H2 (%)
+NP
+E1 Fv/Fm 0.816 0.025 1.539 1.19
+0.714 0.864 3.06
+*** *** *** 75
+E2 Fv/Fm 0.819 0.02 2.36
+1.44
+0.738 0.856 2.44
+E3 Fv/Fm 0.813 0.017 1.265 1.14
+0.734 0.855 2.09
+E1 OPSII 0.682 0.069 1.032 0.788
+0.352 0.852 10.1
+*** ** *** 78.3
+E2 OPSII 0.74 0.027 1.628
+0.611
+0.598 0.865 3.64
+E3 OPSII 0.705 0.039 0.141
+0.74
+0.5165 0.819 5.53
+E1 qP
+0.805 0.076 1.053 0.736
+0.463 0.977 9.44
+*** *** **
+76.5
+E2 qP
+0.759 0.065 0.349 0.627
+0.502 0.93 8.56
+E3 qP
+0.807 0.039 1.335
+0.695
+0.614 0.953 4.83
+El NPQ 0.368 0.138 0.694 0.648
+0.029 0.892 37.5
+*** *** **
+67.5
+E2 NPQ 0.466 0.15 0.959 0.245
+0.048 0.934 32.1
+E3 NPQ 0.469 0.144 0.743 0.412
+0.104 0.909 30.7
+LP
+El Fv/Fm 0.683 0.026 1.539
+1.038
+0.572 0.735 3.79
+*** *** **
+88.2
+E2 Fv/Fm 0.688 0.03 2.358 0.987
+0.365 0.745 4.32
+E3 Fv/Fm 0.684 0.023 1.265 0.986
+0.595 0.734 3.34
+El OPSII 0.583 0.07 1.032 0.756
+0.282 0.715 12
+*** ** **
+59.1
+E2 OPSII 0.703 0.049 1.628 0.677
+0.342 0.815 6.92
+E3 OPSII 0.477 0.071 0.141
+0.249
+0.283 0.685 15
+E1 qP
+0.821 0.066 1.053
+1.079
+0.565 0.963 8.08
+*** *** *** 75.8
+E2 qP
+0.685 0.064 0.349 0.738
+0.487 0.852 9.4
+E3 qP
+0.652 0.058 1.335
+0.61
+0.405 0.84 8.94
+El NPQ 0.512 0.179 0.694 0.313
+0.153 0.976 34.9
+*** ** *** 62.2
+E2 NPQ 0.553 0.18 0.959 0.184
+0.149 0.983 32.6
+E3 NPQ 0.548 0.177 0.743
+0.229
+0.135 0.979 32.2
+**Significant at P<0.01
+***Significant at P<0.001
+ap level:LP and NP represent low P and normal P conditions, respectively
+bCoefficient of variation
+"Genotype
+dEnvironments
+"Gemotypexenvironments
+Broad-sense heritability
+Genome-wide association study identified
+significant SNPS, 11 SNPs were detected in E1 for Fv/Fm,
+loci associated with P efficiency by chlorophyll
+OPSII and NPQ, and distributed on chromosomes 11 and 18,
+fluorescence parameters
+respectively. In E2, 39 SNPs were detected and distributed
+on chromosomes 9, 11, 12 and 18, 20 for Fv/Fm, OPSII, qP
+Facilitatedby sequencing technology, GWAS has become a and NPQ; 16 SNPs were detected for Fv/Fm, OPSII, qP and
+bridge between the natural variations of phenotypic param- NPQ in E3. Notably, 38 SNPs distributed on chromosomes
+eters and the associated genetic variation (Hamdani et al. 18 and 20 were significantly detected in more than two
+2019). To detect SNPS significantly associated with P effi- environments and involved three regions. Other SNPs were
+ciency, the 201,994 SNPS with MAF20.05 were selected detected in a single environment, which may be because of
+from 292,053 high-quality SNPS and four chlorophyll fluo- environmental factors. The interpretation rate of these SNPS
+rescence parameters across different environments (ratio for phenotypic variation ranged from 11.02 to 16.92%, sug-
+of the values in low P and normal P conditions) from the gesting that some QTLs with important functions in regu-
+soybean panel were used for GWAS. A total of 52 signifi- lating photosynthesis under P deficiency stress might exist
+cant SNPs were detected (Fig. 2, Table S1 and Table 3). around these SNPs.
+These SNPS are distributed on seven chromosomes includ-
+Based on the linkage disequilibrium (LD) decay cal-
+ing chromosomes 7, 9, 11, 12, 16, 18, and 20. Among these culated previously (Wang et al. 2016) the regions within
+Springer
+
+
+
+110 Page 60f13
+Planta (2021) 254:110
+250
+250
+300
+300
+D0 NEI
+B NE
+B SEI
+B NE
+200
+200
+250
+250
+I
+I
+. 200
+200
+of 150
+150
+E
+150
+150
+100
+100
+-
+I
+I
+100
+j 100
+5o
+50
+50
+50
+0
+n
+0.56 0.64 0.72 .80 0.88
+016 0.32 0.48 0.64 0.80
+os 0.6 0.7 0.8 0.9 1.0 1.1 de 0.2 0.4 0.6 0.S 1.0 1.2
+Fv/Fm
+OPSII
+qP
+NPQ
+600
+400,
+300
+300
+B ME
+B VE
+8 VE
+B ME
+480
+320
+240
+240
+E
+E
+! 360
+240
+180
+180
+D
+I
+E
+by
+240
+160
+120
+120
+N
+I
+-
+:
+120
+so
+60
+60
+E
+os 0.6 0.7 0.8 0.9 1.0 os 0.6 0.7 0.8 0.9 1.0
+0.48 0.60 0.72 0.84 0.96
+00 0.2 0.4 0.6 0.8 1.0
+Fv/Fm
+OPSII
+qP
+NPQ
+350
+350
+350
+B BE
+B EE 350
+B MD
+B NE
+280
+280
+280
+I
+280
+E
+of 210
+210
+210
+210
+e 140
+140
+140
+140
+70
+70
+70
+70
+0.56 0.64 0.72 0.80 0.88
+0.0 0.2 0.4 0.6 0.8 1.0
+0.42 0.56 0.70 0.84 0.98
+0.0 0.2 0.4 0.6 0.8 1.0
+Fv/Fm
+OPSII
+qP
+NPQ
+Fig.1 Frequency distribution of four chlorophyll fluorescence param- tion; Fv/Fm, maximum photochemical efficiency of photosystem II;
+eters under low P and normal P conditions across three experiments. OPSII, actual yield of photosystem II; qP, photochemical quenching
+E1, E2 and E3 represent the three experiments, respectively; NP, coefficient; NPQ, non-photochemical quenching coefficient
+normal phosphorus concentration; LP, low phosphorus concentra-
+Table 2 Correlations between four chlorophyll fluorescence param- two experiments. Two (qPNPQ18-2 and qPQP18-3)
+eters under different P conditions
+were on chromosome 18, and one (qPQP20-1) was on
+NPILP Fv/Fm OPSII
+qP
+NPQ
+chromosome 20. The QTLs qPNPQ18-2 and qPQP18-3
+which included 9 significant SNPs extended 384 kb and
+Fv/Fm 1
+-0.0502
+-0.0071 0.151*
+668 kb, respectively, and overlapped with three reported
+OPSII 0.0043 1
+-0.1253 0.3205***
+QTLs Leaf carotenoid content 1-g13.1 (Bandillo et al.
+qP
+-0.0197 -0.0156
+1
+- 0.3093*** 2015), Leaf carotenoid content 1-g13.6 (Bandillo et al.
+NPQ 0.07
+-0.5368*** -0.1609* 1
+2015), and q18-2. The q18-2 was reported to be related
+NP normal P condition, LP low P condition
+to photosynthesis under low P condition (Lii et al. 2018).
+*Significant at P<0.05
+The qPQP20-1 including 10 significant SNPS extended
+**Significant at P<0.01
+303 kb, was overlapped with two reported QTLs Seed
+***Significant at P. <0.001
+protein 3-g11 and Seed oil 4-g8 (Bandillo et al. 2015).
+Furthermore, qPNPQ11-1 and qPPSII12 were overlapped
+with the reported P efficiency QTLS (Lii et al. 2018; Yang
+130 kb around the significant SNPs that were used as the et al. 2020); qPPSII9, qPF12 and qPNPQ18-1 were over-
+QTL in regulating photosynthesis under P deficiency lapped with the reported QTLS that were related to the
+stress. Further analysis showed that the 52 SNPS were quality of soybean seeds and SO on. Other four QTLs
+involved 12 regions in total. Among the 12 regions, (qPF7.qPNPQ11-2, qPPSI116 and qPF20-2) were novel
+three regions were significantly detected in more than loci for P efficiency. These results showed that the QTLs
+Springer
+
+
+
+Planta (2021) 254:110
+Page7of13 110
+E1FWFm
+E1 OPSII
+E1qP
+E1NPQ
+10
+10
+5
+-
+11 13 15
+13 15 17
+11 13 15 17 19
+Chromosome
+Chromosome
+Chromosome
+Chromosome
+E2FWFm
+12
+E2OPSII
+E2qP 
+12
+E2NPQ
+10
+5
+
+it
+rit
+Chromosome 15 17
+13 15 17
+11 13 15 17 19
+11 13 15 17 19
+Chromosome
+Chromosome
+Chromosome
+12
+E3FWFm
+12
+E3OPSII
+E3qP
+12
+E3NPQ
+10
+10
+lE
+$
+1t
+Lin
+iiti
+11 13 15 17 19
+13 15
+11 13 15
+11 13 15 19
+Chromosome
+Chromosome
+Chromosome
+Chromosome
+Fig. 2 Manhattan plots and quantile-quantile plots of the GWAS three environments, respectively; Fv/Fm, maximum photochemical
+results for the ratio of four chlorophyll fluorescence parameters under efficiency of photosystem II; OPSII, actual yield of photosystem II;
+different phosphorus levels (low P/normal P) in 219 soybean acces- qP, photochemical quenching coefficient; NPQ, non-photochemical
+sions (MLM, Q+K, P<4.82x 10-6). E1, E2 and E3 represent the quenching coefficient
+significantly associated with P deficiency stress might also
+To further determine the candidate genes, we specifically
+be related to other traits.
+focused on the DEGs that located in QTLs identified by
+GWAS. Notably, there were three DEGs located in the three
+stable major QTLs (qPNPQ18-2, qPNPQ18-3 andqPQP20-
+Differentially expressed genes within the associated 1). One was Glyma.18g092900, one was Glyma.18g098800
+QTLsfor P efficiency
+and another was Glyma.20g089400. These three genes were
+took as candidate genes of photosynthetic efficiency under
+To identify candidate genes among these QTLS, the low P P deficiency stress.
+resistant soybean line (W82) and low P sensitive line (Jack)
+were selected, and RNA-sequence analysis of leaves under Functional prediction ofcandidate genes
+different P levels were performed. The results are shown in
+Fig. 3. Totally, 90 genes in W82 were significantly upregu- To further understand the function of these genes, the
+lated and 70 genes were significantly downregulated in low soybean public database (htips/www.soybusc.oy was
+P VS normal P comparison group, while in Jack, 232 genes searched based on the annotation of the soybean reference
+were significantly upregulated and 80 genes were signifi- genome W82.a2.v1. BLASTP were took against Arabidopsis
+cantly downregulated, respectively. There were 142 fewer genome according to soybean genome annotation informa-
+genes upregulated and 10 fewer genes downregulated in tion to annotate the candidate genes (Table 4). Among the
+W82 than in Jack when the plants suffered P deficiency three genes, Glyma. .18g092900 (in qPNPQ18-2) was anno-
+stress. These DEGs were classified in four main categories tated to encode a mannose-l-phosphate guanylyltransferases
+as follows: (1) the DEGs (73 downregulated and 221 upregu- (GDP) and mainly involved in the glucose metabolic process
+lated) only in low P VS normal P comparison group of Jack; in the cytoplasm, which was homologous to VCT2 in Arabi-
+(2) the DEGs (57 downregulated and 85 upregulated) only in dopsis. In plants, VCTs have been proven to be implicated in
+low P VS normal P comparison group of W82; (3) the DEGs many processes including programmed cell death (De Pinto
+(6 downregulated and 4 upregulated) both significantly dif- et al. 2006), plant growth (Pignocchi and Foyer 2003) and
+ferential expressing in low P VS normal P comparison group protection against environmental stresses like UV radiation
+of W82 and Jack; (4) the DEGs (7 and 1 genes) which had (Gao and Zhang 2008), high light intensity (Miller-Moulé
+the opposite mode of expression in low P VS normal P com- et al. 2004) and high temperatures (Larkindale et al. 2005).
+parison group. These data suggested that different soybean The vtc2vtc5 double-mutant seedlings stopped growing after
+materials were involved in different genes in response to P the initial expansion of the cotyledons, then bleached and
+deficiency stress.
+could not photosynthesize (Dowdle et al. 2007).
+Springer
+
+
+
+110 Page 8of13
+Planta (2021) 254:110
+Table 3 Details ofloci associated with the ratio of four chlorophyll fluorescence parameters under different phosphorus levels via GWAS in soy-
+bean
+Namea
+Chrb Main SNP No.of SNPd P value R2 (%)e Significant
+QTLs
+References
+Env-trait"
+position
+region (bp)
+qPF7
+7 40597356
+1
+4.78E-06 14.23 40467356-
+E3-Fv/Fm
+40727356
+qPPSII9 9 7947277
+11
+1.28E-06 13.9 7774328-
+Seed Ala 2-g3 Liet al. (2018) E2-OPSII
+8137828
+qPNPQI1-1 11 24275784
+1
+9.65E-07 16.92 24145784- q11-2
+Liet al. (2016) E2-NPQ
+24405784
+qPNPQ11-2 11 39146659
+1
+5.98E-07 15.6 39016659-
+El-OPSII
+39276659
+qPPSI112 12 1469028
+1
+1.91E-06 11.02 1339028-
+q12; qP12-1 Lvet al. (2018); E3-OPSII
+1599028
+Yang et al.
+(2020)
+qPF12
+12 2168167
+5
+2.26E-07 11.09 1985346-
+Ureide content Ray et al.
+E2-Fv/Fm
+2302830
+1-g31.1;
+(2015)
+Ureide content
+1-g31.2
+qPPSI116 16 6469551
+1
+3.68E-06 10.34 6339551-
+E3-OPSII
+6599551
+qPNPQ18-1 18 4696773
+1
+2.86E-06 10.84 4566773-
+Seed linolenic Liet al. (2015); E3-NPQ
+4826773
+4-g8; Seedoil Priolli et al.
+3-g7
+(2015)
+qPNPQ18-2 18 9304791
+8
+4.94E-08 16.08 9170102-
+Leafcarot-
+Bandillo et al. E1-NPQ;
+9554067
+enoid content (2015;Lv
+E2-NPQ
+1-g13.1;
+et al. (2018)
+q18-2
+qPQq18-3 18 9836035
+6
+2.53E-07 15.45 9631929-
+Leafcarot-
+Bandillo et al. El-qP; E2-qP;
+10300106
+enoid content (2015); Lv
+E3-qP
+1-g13.6;
+et al. (2018)
+q18-2
+qPQP20-1 20 33172755
+10
+1.64E-07 17.58 33001835- Seed protein Bandillo et al. E2-Fv/Fm;
+33305196
+3-gl1; Seed (2015)
+E3-Fv/Fm
+oil 4-g8
+qPF20-2 20 33732837
+6
+4.17E-07 12.78 33598169-
+E2-Fv/Fm
+33873189
+"QTL named by chromosome
+bChromosome
+Most significant SNP position
+dNumber of significant SNPS
+*The proportion of phenotypic variance explainedby each QTL
+Environment and trait
+For the other candidate genes, Glyma. 18g098800 (in regulate development and signal transduction (Kim et al.
+qPNPQ18-3) was annotated heat shock protein 70, which 2001). There are three known PCI complexes: the regula-
+was homologous to HSP70-16 in Arabidopsis. A lot of tory lid of the 26S proteasome, the COP9 signalosome
+studies had shown that HSP70s was important for the and the translation initiation factor elF3. The proteasomes
+response to heat or other stress conditions. HSP70-6/7 had been reported to play key roles not only in plants
+was essential for chloroplast development (Latijnhouw- (Yu et al. 2020), but also in human (Shi et al. 2021) and
+ers et al. 2010). HSP70-14/15 was associated with plant animals (Lillethorup et al. 2018). This indicates that the
+growth and stomatal opening and closing, which could three candidate genes may directly affect the regulation of
+directly affect the photosynthesis (Jungkunz et al. 2011). photosynthesis under low P conditions through different
+Glyma.20g089400 (in qPQP20-1) was annotated pro- physiological and biochemical processes.
+teasome component (PCI) domain protein, which could
+Springer
+
+
+
+Planta (2021) 254:110
+Page 90f13 110
+2407
+221
+210-
+180-
+150-
+120
+Glyma. 18G092900
+90-
+85
+73
+60-
+57
+30-
+-
+Glyma.18G092900 Glyma. 18G092900
+lir
+0-
+70 LP-W82VSNP-W82 Down
+90
+LP-W82 vs NP-W82 Up
+80 LP-Jack vs NP-Jack Down
+-
+232
+LP-Jack vs NP-Jack Up
+250 200 150 100 50 0
+Fig.3 DEGS identified by RAN-seq and distributed of unique and (73 downregulated and 221 upregulated) only in low P vs normal P
+shared between W82 and Jack. The single black circle represent indi- comparison group of Jack; (2) the DEGS (57 downregulated and 85
+vidually DEGs; the black circles connected by a black bar represent upregulated) only in low P vs normal P comparison group of W82;
+common DEGs; the red circles represent the groups candidate genes (3) the DEGS (6 downregulated and 4 upregulated) both significantly
+located; leftmost horizontal bars indicate the total number of DGES differential expressing in low P vs normal P comparison group of
+for each type. LP, low P condition; NP, normal P condition. DEGS W82 and Jack; (4) the DEGS (7 and 1 genes) which had the opposite
+were classified into four main categories as follows: (1) the DEGS mode of fexpression in low Pvs normal P comparison group
+Table 4 Putative genes associated with resistance to low phosphorus
+QTL name Candidate genes W82 LP vs NP Jack LP vs NP Gene orthologs in Arabidopsis Annotations
+qPNPQ18-2 Glyma.18g092900 Up
+Up
+AT4G26850 (VTC2)
+Mannose-l-phosphate guany-
+lyltransferase (GDP)s
+qPQq18-3 Glyma.18g098800 Down
+Down
+ATIG11660 (HSP70-16)
+Heat shock protein 70
+qPQP20-1 Glyma.20g089400 Up
+Down
+AT5G15610
+Proteasome component (PCI)
+LP low P condition, NP normal P condition
+Expression analysis of candidate genes
+different genotypes soybean under P deficiency stress. The
+differences in the expression of these genes may be the cause
+To understand the expression patterns of candidate genes of the different tolerance to P deficiency stress.
+in different soybean tissues, the RNA-seq data was down-
+loaded from the Soybase database (https./www.soyba
+se.org) and used for expressing analysis. The three genes Discussion
+expressed in all tissues and had high expression levels in
+roots and leaves (Fig. 4a). Then, the expression in leaves As one of the main nutrient element, P can directly partici-
+of W82 and Jack under different P levels were analysed by pate in carbon assimilation and photosynthetic phosphoryla-
+qRT-PCR (Fig. 4b). In leaves of W82, two candidate genes tion of photosynthesis (Balemi and Negisho 2012). There-
+were upregulated by low P, and Glyma.20G089400 was the fore, photosynthesis is easily affected by P deficiency stress
+most up-regulated expression. However, in leaves of Jack, (Yang et al. 2020). Photosynthetic reduction of plants under
+Glyma.18G092900 was upregulated, Glyma.18G098800 low P availability is mainly through affecting photosynthetic
+and Glyma.20G089400 were significantly downregulated. electron transfer, ATP production, carbon dioxide fixation
+The data indicated that gene expressions were different for enzyme activity, etc. Chlorophyll fluorescence parameters
+Springer
+
+
+
+110 Page 10 of 13
+Planta (2021) 254:110
+a
+Glyma.18G092900
+I
+Glyma.18G098800
+-2.00
+Glyma.20G089400
+Vs Pere Re VONS
+Rot
+con
+MON nNs Mons
+SONS SONS
+
+oRe
+Sses Sses
+4e sye
+- / /
+e -
+b
+Glyma.18g092900
+Glyma.18G098800
+Glyma.20G089400
+807 ***
+L NP
+40-
+D NP
+1007
+ NP
+r
+D LP
+- LP
+**
+LP
+E
+32-
+80-
+60-
+24-
+***
+60-
+***
+40-
+**
+16-
+40-
+20-
+W82
+Jack
+W82
+Jack
+W82
+Jack
+Fig. 4 Expression analysis of the three putative genes. a Digital putative genes in leaves of W82 and Jack under normal P and low
+expression levels of three genes in different tissues at different stages conditions. *, ** and *** indicate significance at the 0.05, 0.01 and
+based on RNA-seq data. The values used in heatmaps from the micro- 0.001 levels; NP, normal P concentration; LP, low P concentration
+array data were log2-transformed. b Expression analysis of the three
+are effective indicators of studying the effects of different QTLs can provide areference for the analysis of the regula-
+environmental conditions on plant photosynthesis, which tory mechanism of soybean P efficiency.
+can reflect the process of light energy absorption, utiliza-
+In addition, several important QTLS identified coincided
+tion, transmission and dissipation ofPSI and PSII (Schreiber with the reported QTLS for P efficiency or other traits. For
+et al. 1995). Studies have shown that there is an important example, the two QTLS on chromosome 18 detected in two
+genetic relationship between photosynthesis and P efficiency or three separate experiments, all overlapped with q18-2 (Li
+(Li et al. 2016). In this study, GWAS were performed with et al. 2018), but our results divided this large interval into
+the ratio of main chlorophyll fluorescence parameters in low two small intervals, which can provide reference for fine
+P and normal P conditions and 12 QTLs were found in three mapping. On chromosome 20, qPQP20-1 that was detected
+experiments, which explained 10.34-16.92% of the pheno- in E2 and E3 was overlapped with the Seed protein 3-g11
+typic variation, respectively.
+and Seed oil 4-g8 (Bandillo et al. 2015), which implied that
+qPQP20-1 was a pleiotropic locus not only related to P
+Novel loci for P efficiency
+efficiency, but also related to soybean seed protein and oil
+content. However, only 12 QTLs were identified in the three
+Cultivating low-P-tolerant soybean varieties and identifying environments and 3 QTLs were identified repeatedly, which
+new P efficiency locus and genes are necessary for improv- may due to the difference of seeds used in each experiment
+ing P assimilation efficiency. Despite the widespread use of on the one hand and the factors that affecting photosynthesis
+chlorophyll fluorescence parameters to measure the impact were complicated on the otherhand. More experiments were
+of abiotic stress factors, assessing genetic variation and/or needed in different environments in the future.
+mapping of genetic loci associated with chlorophyll fluores-
+cence phenotypes in soybean were rather limited. We identi- GWAS combined with RNA-seqfor candidate gene
+fied 52 SNPs that were significantly associated with P effi- prediction
+ciency by chlorophyll fluorescence parameters. The 52 SNPS
+involved 12 regions, of which five regions were each only Although GWAS has been widely used to identify impor-
+associated with a single SNP, other seven regions were each tant candidate genes related to abiotic stress in plants,
+associated with more than five SNPS, respectively. Notably, some problems still exist for finding potentially key
+eight regions were novel QTLs for P efficiency. These novel genes, such as strong linkage disequilibrium (LD) and the
+Springer
+
+
+
+Planta (2021) 254:110
+Page 110f13 110
+long LD decay distance, etc. (Hyten et al. 2007). RNA- References
+seq has become an effective technology to detect gene
+expression at the whole genome level (Tai et al. 2016). Abbas G, Chen Y, Khan FY, Feng Y, Palta JA, Siddique KH (2018)
+However, a large amount of DEGs is usually obtained,
+Salinity and low phosphorus differentially affect shoot and root
+traits in two wheat cultivars with contrasting tolerance to salt.
+which made it difficult to identify potential key candi-
+Agronomy 8(8):155. htipsz/doi.ory/103390agronomys080155
+date genes. Recently, combined GWAS with RNA-seq Baker rN (2008) Chlorophyll fluorescence: a probe of photosynthesis
+has been used to predict candidate genes in maize (Zhang
+in vivo. Annu Rev Plant Biol 59:89-113. htpsz/doi.org/10.1146
+et al. 2020), peanut (Zhang et al. 2021) and others. In our
+-mwcupten.5903en192759
+Balemi T, Negisho K (2012) Management tof soil phosphorus and plant
+study, although many differentially expressed genes were
+adaptation mechanisms to phosphorus stress for sustainable crop
+identified by RNA-seq, the combination of GWAS greatly
+production: a review. .J Soil Sci Plant Nutr 12(3):547-562. https:l1
+narrowed the target range, with only three genes to be
+doiony10406750718.951620120500015
+considered as potential key candidate genes. Among the Bandillo N, Jarquin D, Song Q, Nelson RL, Cregan P, Specht J, Lor-
+three
+and
+enz A (2015) A population structure and genome-wide associa-
+genes, Glyma.18G098800 Glyma.20G089400
+tion analysis on the USDA soybean germplasm collection. Plant
+were found to have different expression levels under low P
+Genome. hmplidbionglio33Splamtgmome2015040024
+in resistant and sensitive soybean lines; Glyma.18g092900 Bassham JA (1977) Increasing crop production through more con-
+was significantly up-regulated in both resistant and sensi-
+trolled photosynthesis. Science 1974304):630-638. https://doi.
+tive soybean lines after being induced by low P, but it was Bertholdsson aplollzahecsemelp7auiso N-O, Holefors A, Macaulay M, Crespo-Herrera L
+more than 2 times higher in resistant lines, SO these genes
+(2015) QTL for chlorophyll fluorescence ofbarley plants grown
+were attractive candidate genes. This further indicated the
+at low oxygen concentration in hydroponics to simulate water-
+reliability of the selected candidate genes.
+logging. Euphytica 201(3):357-365. htps/doi.org/10.1007
+s10681-014-1215-0
+In the present study, we contributed to understand the Ceasar S, Ramakrishnan M, Vinod K, Roch G, Upadhyaya H, Baker
+genetic control of P efficiency by chlorophyll fluorescence
+A, Ignacimuthu S (2020) Phenotypic responses of foxtail millet
+parameters of 219 soybean lines. Through GWAS, RNA-
+(Setaria italica) genotypes to phosphate supply under greenhouse
+seq analysis, and validation via qRT-PCR, 12 QTLs were
+and natural field conditions. PLOS ONE 15(6):e0233896. https:ll
+identified, and three candidate genes were found to have Cetner doi.org/10.1371jourmal.pone.0233896 M, Kalaji H, Goltsev V, Aleksandrov V, Kowalczyk K, Borucki
+significantly different gene expression levels under low-P
+W, Jajoo A (2017) Effects of nitrogen-deficiency on efficiency
+treatment in resistant and sensitive soybean lines. Further
+of light-harvesting apparatus in radish. Plant Physiol Biochem
+studies on the functions of these genes will help to eluci-
+119:81-92. htpsz/doiorg/10.1016j,plaphy2017.08.016
+date the regulation mechanism of low P tolerance and high Cong W, Suriyagoda L, Lambers H(2020) Tightening the phosphorus
+cycle through phosphorus-eficient crop genotypes. Trends Plant
+photosynthesis efficiency of soybean.
+Sci 25(10):967-975. htpsldoiorg/la.1016j-plamts202004013
+Dabrowski P, Baczewska A, Pawluskiewicz B, Paunov M, Alexantrov
+Author contribution statement DZ and YY designed the
+V, Goltsev V, Kalaji M (2016) Prompt chlorophyll a fluorescence
+experiments. YY, RC, XZ and HL carried out the experi-
+asarapid tool for diagnostic changes in PSII Istructure inhibited by
+salt stress in Perennial ryegrass. J Photochem Photobiol B: Biolo
+ments. YY analyzed the data and wrote the manuscript. DZ,
+157:22-31. hupaldoionglioi0iojipoobiol201602.001
+HC, JW and RW revised the manuscript. All authors read De Pinto MC, Paradiso A, Leonetti P, De Gara L (2006) Hydrogen
+and approved the final manuscript.
+peroxide, nitric oxide and cytosolic ascorbate peroxidase at the
+crossroad between defence and cell death. PlantJ 48(5):784-795.
+hmpslidbioglioillfi1321365313X:20602919
+Dowdle J, Ishikawa T, Gatzek S, Rolinski S, Smirnoff N (2007) Two
+Supplementary Information The online version contains supplemen-
+genes in Arabidopsis thaliana encoding GDP-L-galactose phos-
+tary material available at Wpasegyunemhenseidanes
+phorylase are required for ascorbate biosynthesis and seedling
+viability. Plant J 52(4):673-689. htpgladniogloll/,136s
+Acknowledgements This work was supported by National Natural Sci-
+313X.2007.03266.x
+ence Foundation of China (32072088), the Key Scientific Research Pro- Frydenvang J, van Maarschalkerweerd M, Carstensen A, Mundus S,
+jects ofHigher Education Institutions in Henan Province (20A210017),
+Schmidt SB, Pedas PR, Laursen KH, Schjoerring JK, Husted S
+and the Henan agricultural university science and technology innova-
+(2015) Sensitive detection of phosphorus deficiency in plants
+tion fund (KJCX2019C02).
+using chlorophyll a fluorescence. Plant Physiol 169(1):353-361.
+Wpuldsieglaioupisess
+Data Availability The datasets generated during and/or analysed dur- Galindo-Castanieda T, Brown K, LynchJ(2018) Reduced root cortical
+ing the current study are available from the corresponding author on
+burden improves growth and grain yield under low phosphorus
+reasonable request.
+availability in maize. Plant Cell Environ 41(7):1579-1592. https:/l
+doionyioili/pe.13197
+Gao Q, Zhang L (2008) Ultraviolet-B-induced oxidative stress and
+Declarations
+antioxidant defense system responses in ascorbate-deficient vtcl
+mutants of Arabidopsis thaliana. J Plant Physiol 165(2):138-148.
+Conflict of interests The authors declare no competing financial in-
+htps/doi.or10.1016jiplph.2007.04.002
+terests.
+Springer
+
+
+
+110 Page 12 of f13
+Planta (2021) 254:110
+Hamdani S, Wang H, Zheng G, Perveen S, Qu M, Khan N, Khan W, Lipka AE, Tian F, Wang Q, Peiffer J, Li M, Bradbury PJ, Gore MA, -
+Jiang J, Li M, Liu X, Zhu X, Govindjee ChuC, Zhu X (2019)
+Buckler ES, Zhang Z (2012) GAPIT: Genome association and pre-
+Genome-wide association study identifies variation of glucosidase
+diction integrated tool. Bioinformatics 28(18):2397-2399. https:/1
+being linked to natural variation of the maximal quantum yield
+doi.org/10.1093/bioinformaticv/bts444
+of photosystem II. Physiol Plant 166(1):105-119. https:l/doi.org Liu S, Zhang M, Feng F, Tian Z(2020) Toward a "Green Revolution"
+10.1111/ppl.12957
+for soybean. Mol Plant 13(5):688-697. htpsz/doiorg/10.1016j;
+Hyten D, Choi I, Song Q, Shoemaker R, Nelson R, Costa J, Specht
+molp.2020.03.002
+J, Cregan P (2007) Highly variable patterns of linkage disequi- Lii H, Yang Y,LiH,Liu Q, Zhang J, YinJ, Chu S, Zhang X, Yu K, Lv
+librium in multiple soybean populations. Genetics 175(4):1937-
+L, Chen X, Zhang D (2018) Genome-wide association studies of
+1944. htps/doiong/l0.1534l/gnetic.106.069740
+photosynthetic traits relatedto phosphorus efficiency in soybean.
+iAzam F, Chang X, Jing R (2015) Mapping QTL for chlorophyll fluo-
+Front Plant Sci 9:1226. htps_/doi.org/10.3389/fpls.2018.01226
+rescence kinetics parameters at seedling stage as indicators ofheat Lv H, Yang Y, Li H, Liu Q, Zhang J, Yin J, Chu S, Zhang X, Yu K,
+tolerance in wheat. Euphytica 202(2):245-258. https://doi.org/10.
+Lv L, Chen X, Zhang D (2018) Genome-wide association stud-
+1007810681-014-1283-1
+ies of photosynthetic traits related to phosphorus efficiency in
+Jin J, Lauricella D, Armstrong R, Sale P, Tang C (2014) Phospho-
+soybean. Frontiers in plant science 9:1226. https://doi.org/10.
+rus application and elevated CO2 enhance drought tolerance
+3389/fpls.2018.01226
+in field pea grown in a phosphorus-deficient vertisol. Ann Bot Mallarino A, Jones J, Thompson L, Pecinovsky K (2018) Corn and
+116(6):975-985. Mwpuldsingliola.beadm
+soybean grain yield response to different phosphorus fertiliza-
+Jungkunz I, Link K, Vogel F, Voll L, Sonnewald S, Sonnewald U
+tion rates and soil-test phosphorus levels. Iowa State University
+(2011) AtHsp70-15-deficient Arabidopsis plants are character-
+Research and Demonstration Farms Progress Reports 2017(1)
+ized by reduced growth, a constitutive cytosolic protein response Maxwell K, Johnson GN (2000) Chlorophyll fluorescence-a practi-
+and enhancedresistance to TuMV.nPlantJ 66(6):983-995. https:ll
+cal guide. J Exp Bot 51(345):659-668. htps/doi.org/10.1093
+doi.org10.111f,136531365-313X2011.04558
+jexbot/51.345.659
+Kalaji HM, Jajoo A, Oukarroum A, Brestic M, Zivcak M, Samborska Muller-Moulé P, Golan T, Niyogi KK (2004) Ascorbate-deficient
+IA, Cetner MD, Lukasik I, Goltsev V, Ladle RJ (2016) Chlo-
+mutants of Arabidopsis grow in Hhigh light despite chronic pho-
+rophyll a fluorescence as a tool to monitor physiological status
+tooxidative stress. Plant Physiol 134(3):1163-1172. https://doi.
+of plants under abiotic stress conditions. Acta Physiol Plant
+onp10.100m.103032375
+38(4):102. htpszldoiorgy10.1007811738-0162113-)
+Munekage Y, Hojo M, Meurer J, Endo T, Tasaka M, Shikanai T (2002)
+Kim T, Hofmann K, von Arnim A, Chamovitz D (2001) PCI com-
+PGR5 is involved in cyclic electron flow around photosystemI and
+plexes: pretty complex interactions in diverse signaling pathways.
+is essential for photoprotection in Arabidopsis. Cell 110(3):361-
+Trends Plant Sci 6(8):379-386. hmpslidbi.orgl01016a136.
+371. hupeldbiong101016c0236740208567
+1385(01)02015-5
+Pedersen O, Colmer TD, Garcia-Robledo E, Revsbech NP (2018) CO,
+Knapp SJ, Stroup WW, Ross WM (1985) Exact confidence intervals
+and O2 dynamics in leaves of aquatic plants with C3 or CAM
+for heritability on a progeny mean basis. Crop Sci 25(1):192-194.
+photosynthesis - application ofa novel CO2 microsensor. Ann Bot
+htpsz/doiorg/10213Slepci9e5001183X002500010046X
+122(4):605-615. WepulAdsieglaiowjeabegos
+Kosmala A, Perlikowski D, Pawlowicz I, Rapacz M (2012) Changes in Pignocchi C, Foyer CH (2003) Apoplastic ascorbate metabolism and
+the chloroplast proteome following water deficit and subsequent
+its role in the regulation of cell signalling. Curr Opin Plant Biol
+watering in a high- and a low-drought-tolerant genotype of Fes-
+6(4):379-389. htpel/doiony10.1016813695266030694
+tuca arundinacea. J Exp Bot 63(17),6161-6172. https://doi.org/ Prasad B, Carver BF, Stone ML, Babar MA, Raun WR, Klatt
+10.1093/jxb/ers265
+AR (2007) Genetic analysis of indirect selection for winter
+LarkindaleJ, HallJD, Knight MR, Vierling E (2005) Heat stress phe-
+wheat grain yield using spectral reflectance indices. Crop Sci
+notypes of Arabidopsis mutants implicate multiple signaling
+47(4):1416-1425. htpsz/Adoiorg/10213Scrropwc200608.0546
+pathways in the acquisition of thermotolerance. Plant Physiol Priolli R, Campos B, Stabellini N, Pinheiro J, Vello N (2015) Asso-
+138(2):882-897. htps_/doi.org/10.1104/pp.105.062257
+ciation mapping of oil content and fatty acid components in
+Latijnhouwers M, Xu X-M, Moller SG (2010) Arabidopsis stro-
+soybean. Euphytica 203(1):83-96. htpsz/doi.org/10.1007
+mal 70-kDa heat shock proteins are essential for chloroplast
+s10681-014-1264-4
+development. Planta 232(3):567-578. htpsz/doi.org/10.1007 Qian X, Zhang Y, Lun DS, Dismukes GC (2018) Rerouting of metabo-
+s00425-010-1192-2
+lism into desired cellular products by nutrient stress: fluxes reveal
+Li H, Yang Y, Zhang H, Chu S, Zhang X, Yin D, Yu D, Zhang D
+the selected pathways in cyanobacterial photosynthesis. ACS
+(2016) A genetic relationship between phosphorus efficiency and
+Synthetic Biol 7(5):1465-1476. hmpcldeionpyloio@liesy
+photosynthetic traits in soybean as revealed by QTL analysis using
+nbio.8b00116
+ahigh-density genetic map. Front Plant Sci 7:924. https:ldoi.org/ Rao IM, Terry N (1989) Leaf phosphate status, photosynthesis, and
+103389/ph.2016.00924
+carbon partitioning in sugar beet: I. Changes in growth, gas
+Li X, Tian R, Kamala S, Du H, Li W, Kong Y, Zhang C (2018)
+exchange, and Calvin cycle enzymes. Plant Physiol 90(3):814-
+Identification and verification of pleiotropic QTL control-
+819. Wpuldsiegliaiourpse3se
+ling multiple amino acid contents in soybean seed. Euphytica Rapacz M, Sasal M, Kalaji HM, Koscielniak J (2015) Is the OJIP test
+214(6):1-14. htpsz_/doi.org10.100781007810651-018:2170
+a reliable indicator of winter hardiness and freezing tolerance of
+Li Y, Reif J, Ma Y, Hong H, Liu Z, Chang R, Qiu L (2015) Targeted
+common wheat and triticale under variable winter environments?
+association mapping demonstrating the complex molecular genet-
+PLOS ONE 10(7):e0134820. WpulNsegyloigTipumalpes
+ics of fatty acid formation in soybean. BMC Genom 16(1):1-13.
+0134820
+hmpsz/doi.onp710.118681186612864-015-2049-4
+Ray J, Dhanapal A, Singh S, Hoyos-Villegas V, Smith J, Purcell L,
+Lillethorup TP, Glud AN,Alstrup AKO,Noer O, Nielsen EHT, Schacht
+King C, Boykin D, Cregan P, Song Q, Fritschi F (2015) Genome-
+AC, Landeck N, Kirik D, Orlowski D, Sorensen JCH, Doudet DJ,
+wide association study of ureide concentration in diverse matu-
+Landau A (2018) Longitudinal monoaminergic PET imaging of
+rity group IV soybean [Glycine max (L.) Merr.] accessions. G3:
+chronic proteasome inhibition in minipigs. Sci Rep 8(1):1-13.
+Genes, Genomes, Genetics 5(11):2391-2403. https://doi.org/10.
+hupelidbiorgl10o.103841038/41598.018-340845
+1534/g3.115.021774
+Springer
+
+
+
+Planta (2021) 254:110
+Page 130f13 110
+Samborska I, Kalaji H, Sieczko L, Goltsev V, Borucki W, Jajoo A
+concentrations under hydroponic condition. Photosynthetica
+(2018) Structural and functional disorder in the photosynthetic
+53(4):630-635. htpsz/doi.ong10.1007k1007811090015-0149-7
+apparatus of radish plants under magnesium deficiency. Funct Yang N, Lu Y, Yang X, Huang J, Zhou Y, Ali F, Wen W, Liu J, Li
+Plant Biol 45(6):668-679. MmpldeiongliOiONupPi7a1
+J, Yan J (2014) Genome wide association studies using a new
+Sayed O (2003) Chlorophyll fluorescence as a tool in cereal crop
+nonparametric model reveal the genetic architecture of 17 agro-
+research. Photosynthetica 41(3):321-330. https://doi.org/10.
+nomic traits in an enlarged maize association panel. PLOS Genet
+1023/B:PHOT.0000015454.36367.e2
+10(9):e1004573. hupelidoi.ong10137l/jommalpgen.1004573
+Schreiber U, Bilger W, Neubauer C (1995) Chlorophyll fluorescence Yang Y, Wang L, Zhang D, Cheng H, Wang Q, Yang H, Yu D (2020)
+as a nonintrusive indicator for rapid assessment of in vivo photo-
+GWAS identifies two novel loci for photosynthetic traits related
+synthesis. In: Schulze E-D, Caldwell MM (eds) Ecophysiology of
+to phosphorus efficiency in soybean. Mol Breed 40(3):29. https:ll
+photosynthesis. Springer, Berlin, pp 49-70
+doi.org/10.1007s11032-020-01112-0
+ShiL, Liu B, Shen D, Yan P, Zhang Y, Tian Y, Hou L, Jiang G, Zhu Y, YuF, Cao X, Liu G, Wang Q, Xia R, Zhang X, Xie Q (2020) ESCRT-I
+Liang Y,Liang X, Shen B, Yu H, Zhang Y, Wang Y, Guo X, Cai X
+component VPS23A is targeted by E3 ubiquitin ligase XBAT35
+(2021) A tumor-suppressive circular RNA mediates uncanonical
+for proteasome-mediated degradation in modulating ABA signal-
+integrin degradation by the proteasome in liver cancer. Sci Adv.
+ing. Mol Plant 13(11):1556-1569. hipoldbiogl@iolo,modp
+Mpahirgliseshuakses
+2020.09.008
+Tai H, Lu X, Opitz N, Marcon C, Paschold A, Lithio A, Nettleton Zhang Z, Ersoz E, Lai C-Q, Todhunter RJ, Tiwari HK, Gore MA, Brad-
+D, Hochholdinger F (2016) Transcriptomic and anatomical com-
+bury PJ, YuJ, Arnett DK, Ordovas JM, Buckler ES (2010) Mixed
+plexity of primary, seminal, and crown roots highlight root type-
+linear model approach adapted for genome-wide association stud-
+specific functional diversity in maize (Zea mays L.). J Exp Bot
+ies. Nat Genet 42(4):355-360. hmplidbiongl@ioshgSte
+67(4):1123-1135. https./doi.org/10.10.1093/xb/erv513
+Zhang D, Li H, Wang J, Zhang H, Hu Z, Chu S, Lv H, Yu D (2016)
+Team R (2015) RStudio: integrated development for R. RStudio Inc.,
+High-density genetic mapping identifies new major loci for toler-
+Boston
+ance to low-phosphorus stress in soybean. Front Plant Sci 7:372.
+Turner SD (2014) qqman: an R package for visualizing GWAS results
+htps/doi.org/10.3389/fpls.2016.00372
+using QQ and manhattan plots. Biorxiv. htps/doi.org/10.1101/ Zhang H, Zhang J, Xu Q, Wang D, Di H, Huang J, Yang X, Wang Z,
+005165
+Zhang L, Dong L, Wang Z, Zhou Y (2020) Identification ofcandi-
+VanRaden PM (2008) Efficient methods to compute genomic predic-
+date tolerance genes to low-temperature during maize germination
+tions.J Dairy Sci 91(11):4414-4423. htpsl/dbiony/10316gAds
+by GWAS and RNA-seq approaches. BMC Plant Biol 20:333.
+2007-0980
+htpsz/doiong/10.186812870.020-02543.9
+Veneklaas E, Lambers H, Bragg J, Finnegan P, Lovelock C, Plaxton W, Zhang H, Wang ML, Dang P,Jiang T, Zhao S, Lamb M, Chen C (2021)
+Price C, Scheible W, Shane M, White P, Raven J (2012) Oppor-
+Identification of potential QTLs and genes associated with seed
+tunities for improving phosphorus-use efficiency in crop plants.
+composition traits in peanut (Arachis hypogaea L.) using GWAS
+New Phytol 195(2):306-320. WpulsHiegili3s17
+and RNA-Seq analysis. Gene 769:145215. https://doi.org/10.
+2012.04190.x
+1016jgene.2020.145215
+Wang J, Chu S, Zhang H, Zhu Y, Cheng H, Yu D (2016) Develop- Zhu J (1995) Analysis of conditional genetic effects and variance com-
+ment and application of a novel genome-wide SNP array reveals
+ponents in developmental genetics. Genetics 141(4):1633-1639.
+domestication history in soybean. Sci Rep 6()20728.htps/doi.
+htps/doiongyl0.1093/geneticy1414.1633
+ory/10.103Arep20728
+Zhu Z, Zhang F, Hu H, Bakshi A, Robinson MR, Powell JE, Montgom-
+Wang J, Chen Y, Wang P, Li Y, Wang G, Liu P, Khan A (2018) Leaf
+ery GW, Goddard ME, Wray NR, Visscher PM, Yang J (2016)
+gas exchange, phosphorus uptake, growth and yield responses of
+Integration ofsummary data from GWAS and eQTL studies pre-
+cotton cultivars to different phosphorus rates. Photosynthetica
+dicts complex trait gene targets. Nat Genet 48(5):481-487. https:ll
+56(4):1414-1421. htps/doi.ony/10.1007k11099-018-0845-1
+doiorg/10.1038/ng3538
+Wissuwa M, Ae N (2001) Genotypic variation for tolerance to phos-
+phorus deficiency in rice and the potential for its exploitation in Publisher's Note Springer Nature remains neutral with regard to
+rice improvement. Plant Breed 120(1):43-48. https://doi.org/10. jurisdictional claims in published maps and institutional affiliations.
+1046,14905232001.00613
+Yan N, Zhang Y-L, Xue H-M, Zhang X-H, Wang Z-D, Shi L-Y, Guo
+D-P (2015) Changes in plant growth and photosynthetic per-
+formance of Zizania latifolia exposed to different phosphorus
+Springer

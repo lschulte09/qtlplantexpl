@@ -1,0 +1,1115 @@
+Molecular Genetics and Genomics
+htpsl/dou.org/101007500438-020-016460
+ORIGINAL ARTICLE
+Chec for
+updates
+Genome-wide association study of soybean seed germination
+under drought stress
+Zhangxiong Liu' . Huihui Li' : Zuowang Gou2.Yanjun Zhang? Xingrong Wang? : Honglei Ren3.Zixiang Wen4.
+Beom-Kyu Kangs -Yinghuili'-Liliyu' . Huawei Gao' Dechun Wang*-Xusheng Qi2-Lijuan Qiu'
+Received: 22 April 12019/Acepted-9lanuary 2020
+OSpringer-Verlag GmbH Germany,part of fSpringer Nature 2020
+Abstract
+Drought stress, which is increasing with climate change, is a serious threat to agricultural sustainability worldwide. Seed
+germination is an essential growth phase that ensures the successful establishment and productivity of soybean, which can
+lose substantial productivity in soils with water deficits. However, only limited genetic information is available about how
+germinating soybean seeds may exert drought tolerance. In this study, we examined the germinating seed drought-tolerance
+phenotypes and genotypes of a panel of 259 released Chinese soybean cultivars panel. Based on 4616 Single-Nucleotide
+Polymorphisms (SNPS), we conducted a mixed-linear model GWAS that identified la total of 15 SNPs associated with at least
+one drought-tolerance index. Notably, three of these SNPS were commonly associated with two drought-tolerance indices.
+Two ofthese SNPS are positioned upstream of genes, and 11 of them are located in or near regions where QTLS have been
+previously mapped by linkage analysis, five of which are drought-related. The SNPS detected in this study can both drive
+hypothesis-drivenrescarch to deepen our understanding ofgenetic basis of soybean drought tolerance at the germination stage
+and provide useful genetic resources that can facilitate the selection of drought stress traits via genomic-assisted selection.
+Keywords Soybean : Drought tolerance : Germination stage : Genome-wide association analysis (GWAS) : Single-
+nucleotide polymorphisms (SNP)
+Introduction
+Drought is by many measures the most significant environ-
+mental stress adversely affecting world agricultural produc-
+tion (Boyer 1982; Cattivelli et al. 2008; Tuberosa and Salvi
+2006), and predictions suggest that water deficit will con-
+Communicated by Stefan Hohmann.
+tinue to be a hugely influential abiotic factor affecting global
+Zhangxiong Liu, Huihui Li, and Zuowang Gou have contributed
+crop yields (Sharma and Lavanya 2002). Moreover, in light
+equally to this work.
+of current trends in climate change, it is also appreciated that
+drought could become more frequent and severe (Mittler
+Electronic supplementary material The online version of this
+and Blumwald 2010). To address the challenges of global
+article (htpeldbi.ony101007A0038-420016460) contains
+supplementary material, which is available to authorized users.
+X Lijuan Qiu
+2 Institute of Crop Sciences, Gansu Academy of Agricultural
+qiulijuan@caas.cn
+Sciences, Lanzhou 730070, China
+Xusheng Qi
+Maize Research Institute, Heilongjiang Academy
+gisushengoos@sina.com
+of Agricultural Sciences, Harbin 150086, China
+National Key Facility for Gene Resources and Genetic
+Department of Plant, Soil and Microbial Sciences, Michigan
+State University, East Lansing 48824, USA
+Improvement/Key Laboratory ofCrop Germplasm
+Utilization, Ministry of Agriculture/Institute of Crop
+l Upland Crop Breeding Research Division, Department
+Sciences, Chinese Academy of Agricultural Sciences,
+of Southern Area Crop Science, National Institute ofCrop
+Beijing 100081, China
+Science, Miryang 52402, Korea
+Published online: 01 February 2020
+Springer
+
+
+
+Molecular Genetics and Genomics
+food security, it is thus critical to increase our understand- biparental populations. Few studies were on QTLs underly-
+ing of plant responses to abiotic stress; insights in this area ing drought-tolerance traits at the germination stage. Due
+can support efforts to breed crops that can maintain higher to the unknown molecular mechanism of drought tolerance
+improved yield under stress conditions (Condon et al. 2004; at germination stage in soybean, it is hard for breeders to
+Morison et al. 2008).
+exploit genetic information on genomic-assisted breeding
+Soybean is the most widely grown seed legume in the on drought tolerance.
+world; and it is an inexpensive source of both protein and
+The present study used association analysis based on
+vegetable oil. Drought stress is one of the most common genotypic and phenotypic information for a large germ-
+adverse environmental conditions affecting soybean produc- plasm diversity panel of 259 released Chinese soybean cul-
+tion (Dogan et al. 2007; Hufstetler et al. 2007; Mohammadi tivars and sought to identify genetic mechanisms underlying
+et al. 2012), and it is now understood that drought affects drought tolerance at the seed germination stage. We used a
+soybean seed yields (to at least some degree) during all popular method for phenotyping the drought tolerance of
+growth stages (Boyer 1982). Typical yield losses associated germinating seeds for each cultivar in our association panel,
+with water deficit are about 40% (Specht et al. 1999); how- and used a total of 4616 SNPs for our mixed-linear model
+ever, depending upon the intensity and stage at which such GWAS. In total, we identified 15 associations between given
+stress occurs, yield losses can be 80% or higher (Dias et al. SNPS and drought-tolerance indices, and three ofthese SNPs
+2012; Oya et al. 2004). Due to the high costs of irrigation were significantly associated with more than one of the
+and/or lack of water availability, irrigation is not a feasible drought-tolerance phenotypic indices. Five of the identified
+option for most of the soybean growing regions. Therefore, associations have been previously associated with drought-
+the development of soybean genotypes with drought toler- tolerance traits (canopy architecture and seed hardness),
+ance, particularly those with the ability to germinate and supporting both the utility of our GWAS analysis and sug-
+become established in water-deficit conditions, is viewed gesting that physiological mechanisms controlling drought
+as one of the most economical ways to increase the stabil- tolerance in the germination stage may be similar to those
+ity and sustainability of soybean production. Thus, drought known to help plants tolerate drought stress at later stages
+tolerance has been identified as a major breeding target for ofthe plant lifecycle. Our study thus lays the foundation for
+crop improvement (Rônnberg-Wastjung et al. 2005; Pennisi the molecular breeding of soybeans with increased drought
+2008; Xiong et al. 2006).
+tolerance and generates multiple functional hypotheses relat-
+A large number of studies have highlighted that tremen- ing to the basic biology of how germinating seeds manage
+dous genetic variability underlies observed differences in water deficits.
+soybean drought-tolerance traits (Frederick et al. 2001;
+Mederski and Jeffers 1973; Specht et al. 1986). Tradition-
+ally, drought-tolerant genotypes have been selected based Materials and methods
+on observations of phenotypes for plants grown under
+controlled conditions. However, conventional breeding for Plant materials
+drought-tolerant crop varieties is time-consuming and labor
+intensive, due in large part to the complex quantitative nature An association mapping panel composed of 259 cultivars
+of drought-tolerance traits and the attendant difficulties in released in the Northeast of China and the Yellow River
+making selection for drought tolerance (Charlson et al. 2009; Valleys was constructed (Liu et al. 2017). Ofthe 259 Chi-
+Ribaut et al. 1997). Thus, if quantitative genetics or other nese cultivars (which were from 11 provinces), 217 were
+analytical methods can identify genomic regions associated derived from the Northern spring (Nsp) ecotype, while
+with drought tolerance, breeders would have more useful 42 were derived from the Huang-huai-hai summer (Hsu)
+guidance to facilitate the rapid development of improved ecotype. Notably, these cultivars are known to exhibit both
+cultivars with increased drought tolerance, for example using clear geographic differentiation and genetic diversity (Liu
+marker-assisted selection.
+et al. 2017). Detailed information for these 259 accessions
+QTL mapping on drought-related traits in soybean has is presented in Table S1.
+been conducted, focusing for example on yields under
+drought stress conditions (Du et al. 2009a, b), fibrous roots Phenotyping
+(Abdel-Haleem et al. 2011), water use efficiency (Mian et al.
+1996, 1998; Specht et al. 2001), canopy wilting (Abdel-Hal- Fundamentally, our strategy for assessing the drought tolerance
+eem et al. 2012; Charlson et al. 2009; Hwang et al. 2015, of the seeds of the various cultivars was based the PEG6000
+2016), leaf pubescence density, leaf wilting coefficient, and concentration for soybean seeds drought treatment reported
+rate of excised leaf drying (Du et al. 2009c). However, all by Shu et al. (2015) (the PEG6000 concentration which we
+of these studies have been based on linkage mapping using used was 22%) and the data analysis was based on Thabet
+Springer
+
+
+
+Molecular Genetics andGenomics
+et al. (2018). Very briefly, 30 healthy seeds for each culti-
+The method described above was implemented in tool
+var were selected; seeds were put into sterilized Petri dishes "ANOVA" in the QTL IciMapping software (Meng et al.
+(15x15x2.5cm") containing two vermiculite layers: the mass 2015).
+of the vermiculite in each of the two layers was 35 g. Next,
+120 ml of PEG6000 or control (aqueous) solutions (22% or Genotyping and genotypic data analyses
+0%) were added to the dishes wherein the seeds were sand-
+wiched between the vermiculite layers. Subsequently, the In general, the genotyping and genotypic data analyses fol-
+plates were incubated in the dark in a germination chamber at lowed the same pipeline as in Liu et al. (2017). DNA sam-
+25+1 OC, and the number of germinate seeds were counted ples were extracted from soybean seedlings leaves follow-
+after 7 days of incubation. Note that seeds were considered ing a previously described method (Kisha et al. 1997; Liu
+to have germinated when the radicle was as long as the seed et al. 2017). The population was genotyped using an Illu-
+and when the radical was half as long as the seed. For each mina SoySNP6k iSelect BeadChip; this contains 5361 SNPs
+cultivar, the five germinated seeds with longest radicle were (Akond et al. 2013). Chromosomal distributions and qual-
+selected; the lengths of these radicles were measured, and their ity control of these SNPS followed a previous study (Wen
+fresh weights were measured and recorded. This seed germina- et al. 2014). Powermarker 3.25 was used to assess minor
+tion experiment, which also tracked overall germination rates, allele frequencies (MAFS), polymorphic information con-
+was repeated three times independently. Therefore, the evalu- tent (PIC), heterozygosity, and gene diversity (Liu and Muse
+ated germination traits which we examined included the fresh 2005). A subset of 4616 SNPS (with missing rates lower than
+radicle weight (RW), the fresh radicle length (RL), and the 0.25 and MAF higher than 0.05) was selected from amongst
+germination rate [GR% == (number of germinated seeds/total the 5361 SNPS for use in the following analyses.
+seed number used in the test) X 100]. We used the data for
+Multivariate analyses, including principal component
+these traits to generate indices that were defined as the ratio of analysis (PCA), model-based population structure analysis,
+the germination-elatedmnis (RW, RL, and GR) under drought and cluster analysis with a neighbor-joining algorithm, were
+conditions to the same traits under the control drought-free used to cluster the soybean lines of the population into sub-
+condition: DT-RW, DT-RL, and DT-GR.
+groups; the PCA and cluster analysis were implemented in
+TASSEL 5.0. The Bayesian model-based program STRU
+Phenotypic data analysis
+CTURE 2.3 (Pritchard et al. 2000) was also used to infer
+the population structure; this assigned the 259 genotypes
+For the three germination-related traits (i.e., RW, RL, and GR), into subpopulations based on the aforementioned 4616 poly-
+phenotypic effect was partitionedinto overall mean, genotypic morphic SNP markers. Ten independent analyses were per-
+effect (Geno), treatment effect (Treatment), genotype-by- formed, with each including 100,000 burn-ins and 100,000
+treatment effect (GenoxTreat), replication within treatment MCMC replications. We consideredten different hypotheti-
+effect (Block/Treat), and random error effect in the ANOVA cal numbers of subpopulations (k) (1-10). The number of
+model. Since the three drought-tolerance indices (i.e., DT-RW, subpopulations was declared when Ak reached its highest
+DT-RL, and DT-GR) were derived from the two respective value (an ad hoc statistic; Evanno et al. 2005).
+treatments, phenotypic effect of each DT-RW, DT-RL, and
+Using Arlequin V3.11, analysis of molecular variance
+DT-GR was partitioned into overall mean, genotypic effect (AMOVA) (Excoffier et al. 1992) and F-statistics (FsT) anal-
+(Geno), replication effect, and random error effect in the ysis were performed (Excoffier et al. 2005) to investigate the
+ANOVA model. Once the linear model of ANOVA is defined, population differentiations among the subpopulations that
+total degree offreedom and total sum square can be partitioned were identified using STRUCTURE. For assessing LD, 2
+into the components defined in the linear model, from which was calculated using TASSEL 5.0 (Bradbury et al. 2007);
+mean square (MS) of each source of variation can be calcu- the length of an LD block was determined when the decay
+lated, andthe significance test can be conducted. To calculate distance of LD reached 72=0.1.
+the heritability in broad sense (H) for DT-RW, DT-RL, and
+DT-GR, the genetic variance (odemo) and error variance (02) Genome-wide association analysis
+can be estimated from the theoretical expectation of MS, and
+the heritability in broad sense can be estimated from the fol- For marker-trait associations, a mixed-linear regression
+lowing equation:
+model controlling both population structure and kinship
+matrices (denoted as Q+ K model) was adopted in TAS-
+H2 = OGeno
+SEL 5.0. The kinship coefficient between each accession pair
+OGeno + G2
+was estimated in TASSEL 5.0 using the Loiselle algorithm
+(Loiselle et al. 1995). Markers were defined as being sig-
+nificantly associated with the trait by losing the Bonferroni
+Springer
+
+
+
+Molecular Genetics and Genomics
+correction as 2.6 to balance the rates of false positives and Table 2 Descriptive statistics of three drought-tolerance indices for
+false negatives. If many SNPS were in one LD block with the the 259 soybean cultivars
+chromosome segment controlling the trait of interest, they all Traits
+Minimum Maximum Mean SD
+CV
+could be called as QTL. In practice, only the SNP having the
+highest -logio(P) in the chromosome region was declared as DT-RLA 0
+0.2286
+0.0683 0.0474 69.34
+a QTL. In this study, LD decay distance (12 =0.1) was used DT-RWb 0
+0.0935
+0.0348 0.0213 61.27
+to determine LD blocks; and this was the support interval DT-GR 0
+1.0000
+0.3624 0.2681 73.97
+used to declare significant SNPS associated with a given SD standard deviation, CV coefficient of variation
+target trait.
+DT-RL was defined as the ratio of radical length under drought
+stress conditions and radical length under no-drought stress condi-
+tions
+Results
+bDT-RW was defined as the ratio of fresh radical weight under
+drought stress conditions and fresh radical weight under no-drought
+stress conditions
+Phenotypic variation and correlation analysis
+CDT-GR was defined as the ratio of germination rate under drought
+stress conditions and germination rate under no-drought stress condi-
+Three germination-related traits, namely RL, RW, and GR, tions
+were measured in seeds for the 259 soybean accessions
+under 0 (C) or 22% PEG6000 (D). The means, ranges,
+standard deviations, and coefficients of variation for these distributions of DT-RL, DT-RW,and DT-GR among the cul-
+traits are shown in Table S2. The means of RL, RW, and tivars ofthe population (Fig. 1), the three drought-tolerance
+GR values for the seeds treated with 22% PEG6000 were indices which we calculated are apparently quantitative traits
+1.5200 cm, 0.0260 g, and 35.6550%, while the means for that are likely controlled by multiple genes.
+the controls were of 22.2885 cm, 0.7612 g, and 97.5167%,
+Pearson's correlations between the three drought-toler-
+respectively. Obviously, allofthese traits were substantially ance indices were analyzed based on the means for the 259
+higher under normal conditions than under drought-stressed accessions (Table 4). DT-GR was found to be positively cor-
+conditions. ANOVA indicated significant (P <0.001) vari- related with the DT-RL (rof0.85; P<0.001) and DT-RW (r
+ation among genotypes, treatments, and genotype-by-treat- of0.79;P<0.001). DT-RL and DT-RW were also positively
+ment interactions for all three measured traits among the correlated (r of 0.91; P <0.001). Furthermore, the broad
+cultivars of the population (Table 1), and genotype-by-treat- sense heritabilities for DT-RL, DT-RW, and DT-GR were
+ment interaction had a much smaller variance compared to 85.69%, 84.59%, and 92.33%, respectively.
+genotype, indicating that genotypic variation was the major
+player in the observed phenotypic variation for the three Genetic diversity ofthe 259 accessions based
+traits. The mean values for the calculated indices (DT-RL, on 4616 SNPS
+DT-RW, and DT-GR) were 0.0683, 0.0348, and 0.3624
+(Table 2), respectively, with significant (P<0.001) variation Of the 4,616 SNPS of the selected subset from the chip,
+for all three (Table 3). Given the substantial variation for the the mean values for MAF, gene diversity, heterozygosity,
+Table 1 Analysis of variance
+Trait Source
+DFd Sum of square Mean square F value
+Pr>F
+(ANOVA) of three germination-
+related traits under 0% PEG and RL
+Geno
+258
+4230.71
+16.40
+17.26
+<0.0001
+22% PEG conditions for seeds
+Treatment
+1
+167,456.56
+167,456.56 176,248.47
+<0.0001
+of the 259 soybean cultivars
+Block/treat
+4
+16.69
+4.17
+4.39
+0.0016
+Genoxtreat 258
+3280.25
+12.71
+13.38
+<0.0001
+RW Geno
+258
+6.16
+0.02
+13.90
+<0.0001
+Treatment
+1
+209.49
+209.49 121,920.35
+<0.0001
+Block/treat
+4
+0.50
+0.12
+72.25
+<0.0001
+Genoxtreat 258
+5.81
+0.02
+13.11
+<0.0001
+GR
+Geno
+258
+321,549.25
+1246.31
+39.65
+<0.0001
+Treatment
+1
+1,483,266.88
+1,483,266.88 47,189.53
+<0.0001
+Block/treat
+4
+638.88
+159.72
+5.08
+0.0005
+Genoxtreat 258
+261,366.23
+1013.05
+32.23
+<0.0001
+RL radical length, RW fresh radical weight, GR germination rate, DF degree of freedom
+Springer
+
+
+
+Molecular Genetics andGenomics
+Table 3 Analysis of variance
+Traits
+Source
+DF
+Sum of square Mean square Fvalue Pr>F
+(ANOVA) of three drought-
+tolerance indices in the 259
+DT-RLA Geno
+258
+1.7360
+0.0067
+18.94
+<0.0001
+soybean cultivars
+Replication
+2
+0.0029
+0.0015
+4.08
+0.0174
+DT-RWb Geno
+258
+0.3494
+0.0014
+17.38
+<0.0001
+Replication
+2
+0.0011
+0.0005
+6.74
+0.0013
+DT-GR Geno
+258 55.5808
+0.2154
+36.99
+<0.0001
+Replication
+2
+0.0702
+0.0351
+6.02
+0.0026
+DF degree of freedom
+"DT-RL was defined as the ratio of radical length under drought stress conditions and radical length under
+no-drought stress conditions
+bDT-RW was defined as the ratio of fresh radical weight under drought stress conditions and fresh radical
+weight under no-drought stress conditions
+DT-GR was defined as the ratio of germination rate under drought stress conditions and germination rate
+under no-drought stress conditions
+and PIC were 0.2773,0.3649, 0.0751, and0.2904, respec- with k=3 was used in the subsequent genome-wide asso-
+tively (Table S3, Fig. S1). The mean LD of the whole ciation analysis.
+genome was 7=0.2440. When the LD decay distance
+was around 2,000 kb, r2 decreased to half of its maximum QTLS for the three drought-tolerance indices
+value; and when the decay distance was about 10,500 kb,
+2 was below 0.1 (Fig. S2); these results suggest relatively Fifteen QTLS, distributed in 13 soybean chromosomes were
+slow LD decay in this population. The mean marker den- found to be significantly associated with the three drought-
+sity was 204.27 kb for the whole population and, there- tolerance indices, and each of these explained (on aver-
+fore, was assumed to have adequate power to detect major age) 5.81% of the phenotypic variation (Table 5, Figs. 3
+QTL-related germination drought traits in the association and 4). There were two QTLs on each of chromosomes
+panel.
+12, and 20. Among the 15 detected QTLs some were asso-
+Consideration of Ak values obtained in STRUCTURE ciated with more than one trait: 11 were associated with
+analysis showed that k =3 was the optimal population DT-GR; 3 QTLs were associated with DT-RL; and 4 QTLs
+subdivision, indicating that the accessions formed three were associated with DT-RW (Table 5). The QTL located
+major clusters (Fig. 2a, b). To validate and gain further around 16,289,406-bp on chromosome 11 (ss247449682)
+insight into the genetic diversity of the soybean germplasm was commonly associated with DT-GR and DT-RW. The
+panel, we constructed a neighbor-joining tree based on the QTL located around 39,325,657-bp on chromosome 17
+frequency of shared alleles among the accessions. Con- (ss249472124) was commonly associated with DT-GR
+sistent with the results from STRUCTURE analysis and and DT-RL. The QTL located around 46,546,046-bp on
+the geographical origins, the 259 soybean accessions were chromosome 20 (ss250606162) was commonly associated
+classified into three major groups (Fig. 2c). One group was with DT-RW and DT-RL. These three QTLs highlight the
+composed largely of accessions from the Huang-huai-hai aforementioned strong positive correlations between these
+valley region (41 out of 48); one was composed largely of drought-tolerance indices (Table 4). We consider the poten-
+accessions from Heilongjiang province (107 out of 122); tial functional information related to these QTLs below, in
+and the third group was mainly composed of accessions the discussion. Notably, 11 of the QTLs we identified are
+from Jilin province (76 out of 89) (Table S4).
+located within 500 kb of loci reported in previous quan-
+PCA has been proposed as an alternative to population titative genetics analyses in soybean, with 5 of them hav-
+structure analysis for studying population stratification ing been previously associated with drought-related traits
+from genotypic data (Patterson et al. 2006). A PCA ofthe (Table 5).
+entire set of 259 accessions with the 4616 SNPS (Fig. 2d)
+also showed a clear separation of the same three groups
+that were identified in the STRUCTURE and neighbor- Discussion
+joining tree analyses. The significant pairwise FST values
+(Table S5) found between the three subpopulations (0.21, Seed germination is obviously an essential stage in the
+P<0.001) further confirmed the existence of three sub- growth cycle of most seed plants. The amount of water
+populations for the 259 accessions. Therefore, a Q matrix needed for the germination stage is much smaller than
+Springer
+
+
+
+Molecular Genetics and Genomics
+A 25
+20
+15
+I
+10
+5
+0
+-
+lillin
+0.023 0.046 0.069 0.092 0.115 0.138 0.161 0.184 0.207 0.230
+DT-RL
+B 30
+25
+20
+I 15
+10
+5
+Ill
+0
+0.010 0.020 0.030 0.040 0.050 0.060 0.070 0.080 0.090 0.100
+DT-RW
+C 25
+20
+15
+I
+10
+5
+0
+0.100 0.200 0.300 0.400 0.500 0.600 0.700 0.800 0.900 1.000
+IIillu..
+DT-GR
+Fig.1 Frequency distributions of three drought-tolerance indices DT-RL (a), DT-RW (b), and IDT-GR (c) in the 259 soybean cultivars
+amount needed over the whole soybean life cycle, but it revealed substantial diversity in an association panel of259
+is now understood that water deficits in the germination released cultivars (Fig. 1), and a genome-wide association
+stage of soybean can cause severe effects on overall growth. analysis based on the 4,616 SNPS identified fifteen QTLS
+Drought occurs frequently in the three main soybean pro- associated with drought tolerance (Table 5).
+duction areas of China, particularly during the sowing time
+As noted in the results, our association mapping results
+for cultivars based on the Hsu and Nsp ecotypes, thus caus- for the drought-tolerance indices were compared with
+ing difficulty for sowing and germination. Currently, little QTLS previously reported within a 500 kb vicinity using
+is known regarding the genetics of drought tolerance in soy- tools at Soybase (mtps/www.soybascorg, Five of the
+bean at the germination stage. In the present study, the distri- QTLS detected in present study, including ss246991464 on
+bution of values for three drought-related phenotypic indices Chr. 9, ss247449682 on Chr. 11, ss248468442 on Chr. 14,
+Springer
+
+
+
+Molecular Genetics andGenomics
+Table 4 Phenotypic correlations between drought stress indices based (Abdel-Haleem et al. 2012; Hwang et al. 2016; Kaler et al.
+on the means of the traits in the 259 soybean cultivars
+2017).
+Trait
+DT-RWb
+DT-GR
+Of particular note, the region which contained our QTL
+for the SNP marker ss250269376 has been identified in
+DT-RLA
+0.9138***
+0.8542*** three previously reported studies (Abdel-Haleem et al.
+DT-RWb
+0.7917*** 2012; Hwang et al. 2016; Kaler et al. 2017); the SNP that
+***Significant level under 0.0001 for Pearson correlation test
+we detected is 3090 bp away from the SNP (ss715635661)
+"DT-RL was defined as the ratio of radical length under drought detected by Kaler et al. (2017) that was associated with
+stress conditions and radical length under no-drought stress condi- delayed canopy wilting. In terms of our association panel, it
+tions
+was notable that cultivars with allele G for the ss250269376
+bDT-RW was defined as the ratio of fresh radical weight under position had significantly higher DT-GR values than those
+drought stress conditions and fresh radical weight under no-drought with allele A across all accessions
+stress conditions
+(P value <0.01) (Fig. 5a).
+DT-GR
+Further analysis indicated that the distribution of allele G
+was defined as the ratio of germination rate under drought
+stress conditions and germination rate under no-drought stress condi- was also uneven across the three geographical subpopula-
+tions
+tions; the frequency ofthe favorable allele G was only 5.98%
+in SG 2 (mainly from Heilongjiang province), 12.35% in
+SG 3 (mainly from Jilin province), but rose to fully 82.93%
+ss250269376 on Chr 19, and ss250606162 on Chr. 20, were in SG 1 (mainly from Hsu region) (Fig. 5b). Seed hard-
+located in regions (Table 5) that have been previously asso- ness is known to be closely related with drought tolerance
+ciated with the genetic control of delayed canopy wilting (Liu 2009). Thus, it was interesting that the region near
+A -6.00E+05
+500 B
+2 3 4 5 6 7 8 9 10
+400
+-8.00E+05
+300
+a
+060
+-1.00E+06
+200 X
+5
+040
+100
+-1.20E+06
+0
+020
+-1.40E+06
+K
+-100
+000
+C
+15
+D
+*
+10
+-20 -15
+10
+5
+10 15
+-10
+Heilongjiang
+-15
+Jilin
+Liaoning and Inner Mongolia -20
+Huanghuaihai ivalley
+-25
+PC1
+Fig. 2 Genetic structure and relatedness of the 259 soybean cultivars. from groups when k=3; c Neighbor-joining tree constructed using
+a Evolution of the natural logarithm probability of the data against K SNP data; soybean accessions from Heilongjiang are shown in red;
+and the magnitude of Ak for each K value; b Clustering for K=3 for those from Jilin are shown in blue; those from Liaoning and Inner
+the entire panel of soybean cultivars. Each individual is represented Mongolia are shown in purple; and those from the Huanghuaihai val-
+by a vertical bar, partitioned into colored segments with the length of ley region are shown in black. d Principal component analysis for the
+each segment representing the proportion of the individual's genome entire panel of soybean cultivars
+Springer
+
+
+
+Molecular Genetics and Genomics
+E a
+: I : - E
+a & 8 E
+a
+E a
+: a a a 6 I
+a a & et
+a ot 3
+a et a et a et : a a - 3
+et
+a
+1 1 E 3
+] et a
+a i
+: I I
+I et - I
+1 a I a : 1 I a a ee
+I
+I a a a 3 : 3 a et 3 E et
+I I a a
+- aa et a et : a €
+E I I I
+a :
+I
+E
+a
+I
+a
+I : : a et
+et E a I : : : A E a I a a et
+: I
+: I : I E
+I
+I a et 3 et I
+e
+et
+I
+I
+8 I I
+3 : 3 I - E E à -
+2 I
+1 I
+de
+A a
+I
+1
+€
+I
+2
+I
+3 E I I
+3 E I a 3 I 3 : I I 1 I : 3 : I
+E
+I
+I
+:
+I
+U
+A
+E E I : I I I € I I I
+U H U U  H a o
+I
+o
+I I I
+€ I
+I 5 €
+1 E : I - € € I E
+: 3 I E
+: I
+I
+€
+E
+a
+E
+E
+E
+E
+I i € € € a a € @ 5 @
+a € a @
+€ a
+E I
+e
+E : : E E : : : :
+: E E :
+E E
+E
+I I I I I I I I I I I
+I I I I
+I !
+I 5 + iin   o 11 a a 19
+1 LE 0 o9
+a a
+E
+à in I I I I I I I ( I I I I I I
+I I
+Springer
+
+
+
+Molecular Genetics andGenomics
+A 4
+signaling may influence protein and oil concentrations of
+seeds (Dornbos and Mullen 1992) or, alternatively, that
+eE 3
+the genes controlling these traits may simply be located in
+similar chromosomal regions. Identification of more trade-
+e 2
+associated markers in such regions could help to delineate
+1
+the specific functional contributions of particular loci. It is
+even possible that marker-assisted selection could be used to
+0
+simultaneously improve both drought tolerance and protein
+0
+1
+2
+3
+4
+oil
+Predicted
+or content traits. The other four drought-associated QTLS
+that we identified have not been reported in the
+B 4
+previous
+studies.
+3
+The soybase database (intps_/hwww.soybascorg) was
+used to identify candidate genes hit directly by the SNPS
+I 2
+of our detected QTLs or in nearby genes; a total of 22 can-
+didate genes were thusly identified (Table S6). Of note,
+1
+none of the SNPs was direct hits in the exons of genes;
+0
+all 15 of the SNPS were located in intergenic regions or
+0
+1
+Predicted 2
+3
+4 in regulatory regions. Functional annotations for the 22
+genes were obtained from Soybase, which revealed that our
+C 4
+candidate genes potentially encode transcription factors,
+3
+protein kinases, auxin response factors and transporters,
+a
+and proteins relating to the E3 ubiquitin system. Notably,
+a 2
+three genes (Glyma.04G126000, Glyma.12G174000, and
+Glyma.1IG167100) are apparently homologs of genes
+1
+from other plants that have serine/hreonine-protein kinase
+or phosphatase functions related to tolerance stress in
+0
+potato
+0
+1
+2
+3
+4
+5 (Bai et al. 2017), Arabidopsis (Huang et al. 2018), wheat
+Predicted
+(Ghorbel et al. 2017), rice (Liao et al. 2016), and Vigna
+aconitifolia (Tiwari et al. 2018). Such genes are known to
+Fig. .3 Quantile-quantile plots from GWAS across the three drought- be regulated by the well-characterized drought-related plant
+tolerance indices: DT-GR (a), DT-RL (b), and DT-RW (c)
+hormone ABA (Hou et al. 2016). Work in other plant spe-
+cies has also shown that ABA impacts drought-related plant
+ss250269376 detected in the present study was previously regulatory networks that includes the type of transcription
+found to be associated with seed hardness (Zhang et al. factors putatively encoded by our hits Glyma.06g/88400
+2008; Table 5).
+and Glyma.17g239700 (MYB), and Glyma.20g231800
+It is interesting to note that the QTLs which we detected (bHLH99) (Chander et al. 2018; Chen et al. 2015; Gao et al.
+for the drought indices are genetically linked to markers 2016; Park et al. 2018; Takahashi et al. 2016; Wang et al.
+associated with seed weight and yield-related traits on Chrs. 2017; Xu et al. 2018; Zhao et al. 2018). Finally, we were
+6, 13, 14, 17, 18, 19, and 20 (Table 5) (Csanadi et al. 2001; also intrigued by a putative E3 ubiquitin-protein ligase gene
+Du et al. 2009a; Eskandari et al. 2013a; Funatsuki et al. among our hits, Glyma.20g231900. Many previous studies
+2005; Han et al. 2012; Hyten et al. 2004; Kabelka et al. 2004; have reported drought-toleranc-related functions for E3
+Liu et al. 2011; Teng et al. 2009; Yang et al. 2013; Yuan ligase proteins (Ding et al. 2015; Serrano et al. 2018).
+et al. 2002; Zhang et al. 2007). Furthermore, the genomic
+In conclusion, we here used GWAS to examine a germ-
+regions for six of our QTLS have been previously associated plasm association panel comprising 259 soybean released
+with protein content and oil content, including ss245905576 Chinese cultivars for drought-associated traits based on
+on Chr. 6, ss248097753 on Chr. 13, ss248468442 on Chr. phenotypic data from drought-treated germinating soybean
+14, ss249472124 on Chr. 17, ss249791040 on Chr. 18, and seeds. The analysis was based on a total of 4,616 SNPS,
+ss250269376 on 19 (Eskandari et al. 2013a, b; Han et al. and 15 SNP-trait associations were identified by GWAS,
+2015; Hyten et al. 2004; Jun et al. 2008; Liang et al. 2010; among which three SNPs were significantly associated
+Lu et al. 2012; Mao et al. 2013; Tajuddin et al. 2003). One with two of the drought-tolerance indices. Practically, sub-
+possible implication of these findings is that drought stress sequent applied research based on our study research will
+Springer
+
+
+
+Molecular Genetics and Genomics
+A 4
+DT-GR
+3 -
+€ 2 -
+1 -
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+B 4
+DT-RL
+3
+: 2
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+C 4
+DT-RW
+3 -
+E 2 -
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 4 Manhattan plot from the Q+K model across the three drought-tolerance indices: DT-GR (a), DT-RL (b), and DT-RW (c)
+seek to confirm the functional contributions of the identi- the germination stage of plant growth. Collectively, our
+fied QTLS in different genetic backgrounds and in different work will facilitate future molecular breeding of soybean
+environments. Scientifically, the loci detected in the present for improved drought tolerance, which will help to ensure
+study lay the foundation for deepening our understanding stable high yields in increasingly variable climatological
+of the genetic basis of soybean drought tolerance during conditions.
+Springer
+
+
+
+Molecular Genetics andGenomics
+Fig.5 Diagrams depicting the
+A 0.7 7
+genetic effects of bi-allele vari-
+DAA
+ation at position ss250269376
+0.6
+in relation to a DT-GR across
+OGG
+all accessions and geographi-
+cal subpopulations inferredby
+0.5
+STRUCTURE, b allele frequen-
+cies in geographical subpopula-
+0.4
+: -
++
+tions inferred by STRUCTU
+6
+RE. SG 1,2, and 3 are structure
+i
+1
+groups 1, 2, and 3, inferred by
+0.3
+STRUCTURE analysis. P val-
+ues of0.01 are shown as **
+0.2
+-
+-
+0.1
+
+0
+dimm
+Total
+SG 1
+SG 2
+SG 3
+OAA
+B
+OGG
+51
+188
+34
+110
+71
+Total
+SG 1
+SG 2
+SG 3
+Acknowledgements This work was supported by the National Key R Abdel-Haleem H, Carter TE, Purcell LC, King CA, Ries LL, Chen
+& D Program for Crop Breeding (Grant No. 2016YFD0100304). the
+P, Schapaugh W, Sinclair TR, Boerma HR (2012) Mapping of
+Development of Novel Elite Soybean Cultivars and Lines with High
+quantitative trait loci for canopy-wilting trait in soybean (Glycine
+Oil Content (Grant No. Z1611000091605-06), the Crop Germplasm
+max L. Merr). Theor Appl Genet 125:837-846
+Resources Protection (Grant No. 2017NWB036-5), the Platform of Akond M, Liu S, Schoener L, Anderson JA, Kantartzi SK, Meksem
+National Crop Germplasm Resources of China (Grant Nos. 2018-004
+K, Song Q, Wang D, Wen Z, Lightfoot DA, Kassem MA (2013)
+and 2017-004), the Agricultural Science and Technology Innovation
+SNP-based genetic linkage map of soybean using the SoySNP6K
+Program of the Chinese Academy of Agricultural Sciences (CAAS),
+Illumina Infinium BeadChip genotyping array. J Plant Genome
+and the Improvement of Soybean Abiotic Stress Tolerance to Address
+Sci 1:80-89
+the Climate Change (Grant No. PJ0121092018).
+Bai J, Mao J, Yang H, Khan A, Fan A, Liu S, Zhang J, Wang D, Gao
+H, Zhang J (2017) Sucrose non-ferment 1 related protein kinase
+Author contributions ZL, XQ, and LQ conceived and designed the
+2 (SnRK 2) genes could mediate the stress responses in potato
+experiments. ZL, ZG, YZ, XW, and HR performed the experiments.
+(Solanum tuberosum L.). BMC Genet 18:41
+ZL, HL, ZW, BKW, YL, LY,HG, DW, XQ, and LQ analyzed data and Boyer JS (1982) Plant productivity and environment. Science
+wrote the manuscript. All authors read and approved the manuscript.
+218:443-448
+Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buck-
+ler ES (2007) TASSEL: Software for association mapping of
+Compliance with ethical standards
+complex traits in diverse samples. Bioinformatics 23:2633-2635
+Cattivelli L, Rizza F, Badeck FW, Mazzucotelli E, Mastrangelo AM,
+Conflict of interest The authors have declared that no competing in-
+Francia E, Mare C, Tondelli A, Stanca AM (2008) Drought toler-
+terests exist.
+ance improvement tin crop plants: an integrated view from breed-
+ing to genomics. Field Crop Res 115:1-14
+Ethical approval This article does not contain any studies with human Chander S, Almeida DM, Serra TS, Jardim-Messeder D, Barros
+participants or animals performed by any of authors.
+PM, Lourenço TF, Figueiredo DD, Margis-Pinheiro M, Costa
+JM, Oliveira MM, Saibo NJ (2018) OSICE1 transcription factor
+improves photosynthetic performance and reduces grain losses
+in rice plants subjected to drought. Environ Exp Bot 150:88-98
+References
+Charlson D, Bhatnagar S, King C, Ray J, Sneller C, Carter T, PurcellL
+(2009) Polygenic inheritance of canopy wilting in soybean [Gly-
+Abdel-Haleem H, Lee GJ, Boerma RH (2011) Identification of
+cine max (L.) Merr.]. Theor Appl Genet 119:587-594
+QTL for increased fibrous roots in soybean. Theor Appl Genet Chen H, Shan Z, Sha A, Wu B, Yang Z, Chen S, Zhou R, Zhou X
+122:935-946
+(2011) Quantitative trait loci analysis ofstem strength and related
+traits in soybean. Euphytica 179:485-497
+Springer
+
+
+
+Molecular Genetics and Genomics
+Chen T, Li W, Hu X, Guo J, Liu A, Zhang B (2015) A cotton MYB
+nematode races 2, 3 and 5 in soybean PI 90763. Theor Appl
+transcription factor, GbMYB5, is positively involved lin plant adap-
+Genet 103:1167-1173
+tive response to drought stress. Plant Cell Physiol 56:917-929
+Han Y, Li D, Zhu D,Li H, Li X, Teng W,Li W (2012) QTL analysis
+Condon AG, Richards RA, Rebetzke GJ, Farquhar GD (2004) Breeding
+of soybean seed weight across multi-genetic backgrounds and
+for high water-use efficiency. J Exp Bot 55:2447-2460
+environments. Theor Appl Genet 125:671-683
+Csanadi G, Vollmann J, Stift G, Lelley T (2001) Seed quality QTLS Han Y, Teng W, Wang Y, Zhao X, Wu L, LiD,Li W (2015) Uncon-
+identified in a molecular map of early maturing soybean. Theor
+ditional and conditional QTL underlying the genetic interrela-
+Appl Genet 103:912-919
+tionships between soybean seed isoflavone, and protein or oil
+Dias FG, Borges ACN, Viana AAB, Mesquita RO, Romano E, Grossi
+contents. Plant Breed 134:300-309
+de Sa MF, Nepomuceno AL, Loureiro ME, Ferreira MA (2012) Hou YJ, Zhu Y, Wang P, Zhao Y, Xie S, Batelli G, Wang B, Duan
+Expression analysis in response to drought stress in soybean:
+CG, Wang X, Xing L, Lei M, Yan J, Zhu X, Zhu JK (2016) Type
+shedding light on the regulation of metabolic pathway genes.
+one protein phosphatase 1 and its regulatory protein inhibitor 2
+Genet Mol Biol 35:222-232
+negatively regulate ABA signaling. PLOS Genet 12:e1005835
+Ding S, Zhang B, Qin F (2015) Arabidopsis RZFP34/CHYR1, a Huang X, Hou L, Meng J, You H, Li Z, Gong Z, Yang S, Shi Y
+ubiquitin E3 ligase, regulates stomatal movement and drought
+(2018) The antagonistic action of abscisic acid and cytokinin
+tolerance via SnRK2. 6-mediated phosphorylation. Plant Cell
+signaling mediates drought stress response in Arabidopsis. Mol
+27:3228-3244
+Plant 11:970-982
+Dogan E, Kirnak H, CopurO(2007) Deficit irrigations during soybean Hufstetler EV, Boerma HR, Carter TE, Earl HJ (2007) Genotypic
+reproductive stages and CROPGRO-soybean simulations under
+variation for three physiological traits affecting drought toler-
+semi-arid climatic conditions. Field Crops Res 103:154-159
+ance in soybean. Crop Sci 47:25-35
+Dornbos DL, Mullen RE (1992) Soybean seed protein and oil contents Hwang S, King CA, Ray JD, Cregan PB, Chen P, Carter TE, Li
+and fatty acid composition adjustments by drought and tempera-
+Z, Abdel-Haleem H, Matson KW, Schapaugh W, Purcell LC
+ture. J Am Oil Chem Soc 69:228-231
+(2015) Confirmation of delayed canopy wilting QTLS from
+Du W, Fu S, Yu D (2009a) Genetic analysis for the leaf pubescence
+multiple soybean mapping populations. Theor Appl Genet
+density and water status traits in soybean [Glycine max (L.)
+128:2047-2065
+Merr.]. Plant Breed 128:259-265
+Hwang S, King CA, Chen P, Ray JD, Cregan PB, Carter TE, Liz, Abdel-
+Du W, Wang M, Fu S, Yu D (2009b) Mapping QTL for seed yield and
+Haleem H, Matson KW, Schapaugh W, Purcell LC (2016) Meta-
+drought susceptibility index in soybean (Glycine max L.) across
+analysis to refine map position and reduce confidence intervals for
+different environments. J Genet Genomics 36:721-731
+delayed-canopy-wiling QTLS in soybean. Mol Breeding 36:91
+Du W, Yu D, Fu S (2009c) Detection of quantitative trait loci for yield Hyten DL, Pantalone VR, Sams CE, Saxton AM, Landau-Ellis D, Ste-
+and drought tolerance traits in soybean using a recombinant inbred
+faniak TR, Schmidt ME (2004) Seed quality QTL in a prominent
+line population. J Integr Plant Biol 51:868-878
+soybean population. Theor Appl Genet 109:552-561
+Eskandari M, Cober E, Rajcan I (2013a) Genetic control of soybean Jun TH, Van K, Kim MY, Lee SH, Walker DR (2008) Association
+seed oil: II. QTL and genes that increase oil concentration without
+analysis using SSR markers to find IQTL for seed protein content
+decreasing protein or with increased seed yield. Theor Appl Genet
+in soybean. Euphytica 162:179-191
+126:1677-1687
+Kabelka EA, Diers BW, Fehr WR, LeRoy AR, Baianu IC, You T,
+Eskandari M, Cober E, Rajcan I (2013b) Genetic control of soybean
+Neece DJ, Nelson RL (2004) Putative alleles for increased yield
+seed oil: I. QTL and genes associated with seed loil concentration
+from soybean plant introductions. Crop Sci 44:784-791
+in RIL populations derived from crossing moderately high-oil Kaler AS, Ray JD, Schapaugh WT, King CA, Purcell LC (2017)
+parents. Theor Appl Genet 126:403-495
+Genome-wide association mapping of canopy wilting in diverse
+Evanno G, Regnaut S, GoudetJ (2005) Detecting the number of clus-
+soybean genotypes. Theor Appl Genet 130:2203-2217
+ters ofindividuals using the software STRUCTURE: a simulation Kisha TJ, Sneller CH, Diers BW (1997) Relationship between genetic
+study. Mol Ecol 14:2611-2620
+distance among parents and genetic variance in populations of
+Excoffier L, Smouse PE, Quattro JM (1992) Analysis of molecular
+soybean. Crop Sci 37:1317-1325
+variance inferred from metric distances among DNA haplotypes: Liang H, Yu Y, Wang S, Lian Y, Wang T, Wei Y, Gong P, Liu X,
+application to human mitochondrialDNA restriction data. Genet-
+Fang X, Zhang M (2010) QTL mapping of isoflavone, oil and
+ics 131:479-491
+protein contents in soybean (Glycine max L. Merr.). Ag Sci China
+Excoffier L, Laval G, Schneider S (2005) Arlequin (version 3.0): an
+9:1108-1116
+integrated software package for population genetics data analysis. Liao YD, Lin KH, Chen CC, Chiang CM (2016) Oryza sativa protein
+Evol Bioinform 1:47-50
+phosphatase la (OsPP1a) involved in salt tstress tolerance in trans-
+Frederick JR, Camp CR, Bauer PJ (2001) Drought-stress effects on
+genic rice. Mol Breeding 36:22
+branch and mainstem seed yield and yield components of deter- Liu X (2009) Drought. In: Lam HM et al (ed) Research on tolerance
+minate soybean. Crop Sci 41:759-763
+to stresses in Chinese soyben. China Agriculture Press, Beijing
+Funatsuki H, Kawaguchi K, Matsuba S, Sato Y, Ishimoto M (2005) Liu KJ,Muse SV (2005) PowerMarker: an integrated analysis environ-
+Mapping ofQTL associated with chilling tolerance during repro-
+ment for genetic marker analysis. Bioinformatics 21:2128-2129
+ductive growth in soybean. Theor Appl Genet 111:851-861
+Liu W, Kim M, Van K, Lee Y,Li H, Liu X, Lee S (2011) QTL identifi-
+Gao F, Yao H, Zhao H, Zhou J, Luo X, Huang Y, Li C, Chen H, Wu
+cation of yield-related traits and their association with flowering
+Q (2016) Tartary buckwheat FIMYB10 encodes an R2R3-MYB
+and maturity in soybean. J Crop Sci Biotech 14:65-70
+transcription factor that acts as a novel negative regulator of salt Liu Z, Li H, Wen Z, Fan X, Li Y, Guan R, Guo Y, Wang S, Wang D,
+and drought response in transgenic Arabidopsis. Plant Physiol
+Qiu LJ (2017) Comparison of genetic diversity between Chinese
+Bioch 109:387-396
+and American soybean (Glycine max (L.)) accessions revealedby
+Ghorbel M, Cotelle V, Ebel C, Zaidi I, Ormancey M, GalaudJP, Hanin
+high-density SNPS. Front Plant Sci 8il.htpal/doiony10389
+M(2017) Regulation of the wheat MAP kinase phosphatase lby
+fpls.2017.02014
+14-3-3 proteins. Plant Sci 257:37-47
+Loiselle BA, Sork VL, Nason J, Graham C (1995) Spatial genetic struc-
+Guo B, Sleper DA, Arelli PR, Shannon JG, Nguyen HT (2005) Iden-
+ture ofa tropical understory shrub, PSYCHOTRIA OFFICINALIS
+tification of QTLS associated with resistance to soybean cyst
+(Rubiaceae). Am J Bot 82:1420-1425
+Springer
+
+
+
+Molecular Genetics andGenomics
+Lu W, Wen Z, Li H, Yuan D, Li J, Zhang H, Huang Z, Cui S, Du W SpechtJE, Hume DJ, Kumudini SV (1999) Soybean yield potential-a
+(2012) Identification of the quantitative trait loci (QTL) underly-
+genetic and physiological perspective. Crop Sci 39:1560-1570
+ing water soluble protein content in soybean. Theor Appl Gen Specht JE, Chase K, Macrander M, Graef GL, Chung J, Markwell JP,
+126:425-433
+Germann M, OrfJH, Lark KG (2001) Soybean response to water:
+Mao T, Jiang Z, Han Y, Teng W, Zhao X, Li W (2013) Identification
+a QTL analysis ofdrought tolerance. Crop Sci 41:493-509
+of quantitative trait loci underlying seed protein and oil contents Tajuddin T, Watanabe S, Yamanaka N, Harada K (2003) Analysis of
+of soybean across multi-genetic backgrounds and environments.
+quantitative trait loci for protein and lipid contents in soybean
+Plant Breed 132:630-641
+seeds using recombinant inbred lines. Breed Sci 53:133-140
+Maughan PJ, Maroof MAS, Buss GR (2000) Identification of quanti- Takahashi Y, Kinoshita T, Matsumoto M, Shimazaki KI (2016) Inhi-
+tative trait loci controlling sucrose content in soybean (Glycine
+bition of the Arabidopsis bHLH transcription factor by mono-
+max). Mol Breeding 6:105-111
+merization through abscisic acid-induced phosphorylation. Plant
+Mederski HJ, Jeffers DL (1973) Yield response of soybean varieties
+J87:559-567
+grown at two soil moisture levels. Agron J 65:410-412
+Teng W, Han Y, Du Y, Sun D, Zhang Z, Qiu L, Sun G, Li W (2009)
+Meng L, Li H, Zhang L, Wang J (2015) QTL IciMapping: Integrated
+QTL analyses of seed weight during the development of soybean
+software for genetic linkage map construction and quantitative
+(Glycine max L Merr). Heredity 102:372380
+trait locus mapping in biparental populations. Crop J 3:269-283 Thabet SG, Moursi YS, Karam MA, Graner A, Alqudah AM (2018)
+Mian MAR, Bailey MA, Ashley DA, Wells R, Carter TE, Parrott WA,
+Genetic basis of drought tolerance during seed germination in
+Boerma HR (1996) Molecular markers associated with water use
+barley. PLOS ONE 13:e0206682
+efficiency and leaf ash in soybean. Crop Sci 36:1252-1257
+Tiwari B, Kalim S, Tyagi N, Kumari R, Bangar P, Barman P, Kumar
+Mian MAR, Ashley DA, Boerma HR (1998) An additional QTL for
+S, Gaikwad A, Bhat KV (2018) Identification of genes associ-
+water use efficiency in soybean. Crop Sci 38:390-393
+ated with stress tolerance in moth bean [Vigna aconitifolia (Jacq.)
+Mittler R, Blumwald E (2010) Genetic engineering for modern
+Marechal], a stress hardy crop. Physiol Mol Biol Pla 24:551-561
+agriculture: challenges and perspectives. Annu Rev Plant Biol Tuberosa R, Salvi S (2006) Genomics-based approaches to improve
+61:443-462
+drought tolerance of crops. Trends Plant Sci 11:405-412
+Mohammadi PP, Moieni A, Hiraga S, Komatsu S (2012) Organ spe- Wang N, Zhang W, Qin M, Li S, Qiao M, Liu Z, Xiang F (2017)
+cific proteomic analysis of drought-stressed soybean seedlings. J
+Drought tolerance conferred in soybean (Glycine max. L) by
+Proteomics 75:1906-1923
+GmMYB84,a novel R2R3-MYB transcription factor. Plant Cell
+Morison JIL, Baker NR, Mullineaux PM, Davies WJ (2008) Improv-
+Physiol 58:1764-1776
+ing water use in crop production. Philos Trans R Soc Biol Sci Wen Z, Tan R, YuanJ,Bales C, Du W, Zhang S, Chilvers MI, Schmidt
+363:639-658
+C, Song Q, Cregan PB, Wang D (2014) Genome-wide association
+Oya T, Nepomuceno AL, Farias JRB, Tobita S, Ito O (2004) Drought
+mapping of quantitative resistance to sudden death syndrome in
+tolerance characteristics of Brazilian soybean cultivars-evalua-
+soybean. BMC Genomics 15:809
+tion and characterization ofdrought tolerance of various Brazilian Xiong LM, Wang RG, Mao GH, Koczan JM (2006) Identifica-
+soybean cultivars in the field. Plant Prod Sci 7:129-137
+tion of drought tolerance determinants by genetic analysis of
+Park DY, Shim Y,Gi E, Lee BD, An G, Kang K, Paek NC (2018) The
+root response to drought stress and abscisic acid. Plant Physiol
+MYB-related transcription factor RADIALIS-LIKE3 (OsRL3)
+142:1065-1074
+functions in ABA-inducedleaf senescence and salt sensitivity in Xu Z, Ge Y, Zhang W,Zhao Y, Yang G (2018) The walnut JrVHAGI
+rice. Environ Exp Bot 156:86-95
+gene is involvedin cadmium stress response through ABA-signal
+Patterson NJ, Price AL, Reich D (2006) Population structure and eige-
+pathway and MYB transcription regulation. BMC Plant Biol
+nanalysis. PLOS Genet 2:e190
+18:19
+Pennisi E (2008) The blue revolution, drop by drop, gene by gene. Yang Z, Xin D, Liu C, Jiang H, Han X, Sun Y,Qi Z, Hu G, Chen Q
+Science 320:171-173
+(2013) Identification of QTLS for seed and pod traits in soybean
+PritchardJK, Stephens M, Donnelly P (2000) Inference of population
+and analysis for additive effects and epistatic effects of QTLs
+structure using multilocus genotype data. Genetics 155:945-959
+among multiple environments. Mol Genet Genomics 288:651-667
+RibautJM,Jiang C, Gonzalez-de-Leon D, Edmeades GO, Hoisington Yao D, Liu Z, Zhang J, Liu S, Qu J, Guan S, Pan L, Wang D, Liu J,
+DA (1997) Identification of quantitative trait loci under drought
+Wang P (2015) Analysis of quantitative trait loci for main plant
+conditions in tropical maize. 2. Yield components and marker
+traits in soybean. Genet Mol Res 14:6101-6109
+assisted selection strategies. Theor Appl Genet 94:887-896
+YuanJ, Njiti VN, Meksem K, Iqbal MJ, Triwitayakorn K, Kassem MA,
+Rônnberg-Wastljung AC, Glynn C, Weih M (2005) QTL analyses
+Davis GT, Schmidt ME, Lightfoot DA (2002) Quantitative trait
+of drought tolerance and growth for a Salix dasyclados X Salix
+lociin two soybean recombinant tinbred line populations segregat-
+viminalis hybrid in contrasting water regimes. Theor Appl Genet
+ing for yield and disease resistance. Crop Sci 42:271-277
+110:537-549
+Zhang D, Cheng H, Wang H, Zhang H, Liu C, Yu D (2007) Identi-
+SAS Institute Inc (2007) SAS/STAT software: Version 9.1.3. SAS
+fication of genomic regions determining flower and pod num-
+Institute, Cary, NC
+bers development in soybean (Glycine max L.). J Genet Genom
+Serrano I, Campos L, Rivas S (2018) Roles ofE3 ubiquitin-ligases in
+37:545-556
+nuclear protein homeostasis during plant stress responses. Front Zhang B, Chen P, Chen C, Wang D, Shi A, Hou A, Ishibashi T (2008)
+Plant Sci 9:139
+Quantitative trait loci mapping of seed hardness in soybean. Crop
+Sharma KK, Lavanya M (2002) Recent developments in transgenics
+Sci 48:1341-1349
+for abiotic stress in legumes ofthe semi-aridtropics. In: JIRCAS Zhao Y, Cheng X, Liu X, Wu H, Bi H, Xu H (2018) The wheat MYB
+Working Report. pp 61-73
+transcription factor TaMYB31 is involved in drought stress
+Shu Y, Zhou Y, Shi X, Hu N, Shao Q, Du J (2015) Screening of fappro-
+responses in Arabidopsis. Front Plant Sci 9:1426
+priate PEG-6000 concentration for the identification of soybean
+drought tolerance at germination stage. Soybean Sci 1:56-59
+Publisher's Note Springer Nature remains neutral with regard to
+Specht JE, Williams JH, Weidenbenner CJ (1986) Differential jurisdictional claims in published maps and institutional affiliations.
+responses of soybean genotypes subjectedtoaseasonal soil water
+gradient. Crop Sci 26:922-934
+Springer

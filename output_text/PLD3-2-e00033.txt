@@ -1,0 +1,1454 @@
+Received: 12 September 2017 Revised: 6 November 2017 Accepted: 14 November 2017
+DOI: 10.1002/pld3.33
+AmericanSociety
+ORIGINAL
+ofPlant
+SOB
+RESEARCH
+Biologists
+WILEY
+Genomewide association study of ionomic traits on diverse
+soybean populations from germplasm collections
+Greg Ziegler7.2 I Randall Nelson3 I Stephanie Granada? I Hari B. Krishnan4,5 I
+Jason D. Gillman 4,5 I Ivan Baxter12
+'USDA-ARS Plant Genetics Research Unit,
+St. Louis, MO, USA
+Abstract
+2Donald Danforth Plant Science Center, St.
+The elemental content of a soybean seed is a determined by both genetic and envi-
+Louis, MO, USA
+ronmental factors and is an important component of its nutritional value. The ele-
+Soybean/Maize Germplasm, Pathology and
+Genetics Research Unit and Department of
+mental content is chemically stable, making the samples stored in germplasm
+Crop Sciences, USDA-ARS, University of
+repositories an intriguing source of experimental material. To test the efficacy of
+Illinois, Urbana, IL, USA
+4USDA-ARS Plant Genetics Research Unit,
+using samples from germplasm banks for gene discovery, we analyzed the elemental
+Columbia, MO, USA
+profile of seeds from 1,653 lines in the USDA Soybean Germplasm Collection. We
+5Plant Science Division, University of
+observed large differences in the elemental profiles based on where the lines were
+Missouri, Columbia, MO, USA
+grown, which lead us to break up the genetic analysis into multiple small experi-
+Correspondence
+ments. Despite these challenges, we were able to identify candidate single nucleo-
+Ivan Baxter, USDA-ARS Plant Genetics
+Research Unit, Saint Louis, MO, USA.
+tide polymorphisms (SNPS) controlling elemental accumulation as well as lines with
+Email: Nvanbaxter@arsusdagov
+extreme elemental accumulation phenotypes. Our results suggest that elemental
+Funding information
+analysis of germplasm samples can identify SNPS in linkage disequilibrium to genes,
+This work was supported by the United
+which can be leveraged to assist in crop improvement efforts.
+States Department of Agriculture-
+Agricultural Research Service. S.G. was
+KEYWORDS
+funded by the Danforth Center NSF-REU
+program DBI-1156581.
+diversity panel, GRIN, GWAS, ionomics, multi-locus mixed model, soybean
+1 I INTRODUCTION
+more complete understanding of the genetic mechanisms underlying
+a plant's response to various environmental stresses (Baxter &
+One of the biggest challenges facing agricultural research today is Dilkes, 2012).
+finding ways to improve crop yield and nutrition while farming in
+An important aspect underlying a plant's response to environ-
+increasingly erratic climates and on more marginal lands. Throughout mental stresses is its ability to regulate mineral nutrients. Apart from
+modern agriculture, crops have been bred for maximal yield under carbon and oxygen, a plant relies entirely on the bioavailable nutri-
+optimal environmental conditions. Farming marginal soils with insuf- ents in the soil in which it is growing for survival. Soil nutrient
+ficient fertilization or irrigation leads to dramatic decreases in crop bioavailability can vary drastically, not just as a result of soil compo-
+yield. In addition, plants grown on marginal soils may exhibit a sition, but also as a side effect of drought and flood conditions,
+reduced nutritional profile, which is an important consideration for changes in soil pH, and changes in the soil microbiome (FAO, 1996).
+staple crops. To properly address these issues, we need to develop a Understanding the uptake, regulation, transport, and storage of min-
+eral nutrients under a variety of environmental conditions is essential
+This manuscript was previously deposited as a preprint at https.//www.bionxiv.org/content/ to deciphering the complex relationship between a plant and its
+caty/2017/11/08/079731
+environment.
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium,
+provided the original work is properly cited.
+o 2018 The Authors. Plant Direct published by American Society of Plant Biologists, Society for Experimental Biology and John Wiley & Sons Ltd.
+Plant Direct. 2018;1-14.
+wlponietlbary.om/jpumalieg T 1
+
+
+
+Society
+ZIEGLER ET AL.
+arprican Plant Biologists SOB-WILEY
+SOCHEY
+BIDLOC
+Single-seed ionomic profiles have proven both highly heritable TABLE 1 Number of lines and markers in each GWAS dataset.
+and susceptible to environmental perturbations in maize (Baxter There is no overlap between lines in the datasets. Markers are the
+et al., 2014). This makes the study of the seed ionome a powerful number of segregating SNPS in each dataset, filtered for minor allele
+frequency >0.05
+tool for matching a plant's genetic characteristics with its response
+to environmental perturbations. Both environmental and genetic Location
+Grow-out year
+Lines GWAS markers
+properties can effect multiple elements in combination, resulting in Stoneville
+1999
+104
+33962
+genetic loci that might control different elements in different envi- Stoneville
+2004
+121
+34571
+ronments (Asaro et al., 2016; Baxter, 2015). Additionally, once col- Stoneville
+2006
+59
+35192
+lected, apart from the possibility of external contamination, the Urbana
+2000
+109
+36432
+elemental content of a seed sample is fixed. Tissue for ionomic anal- Urbana
+2001
+69
+36032
+ysis does not need to be specially stored or quickly analyzed after Urbana
+2002
+94
+36151
+collection. Conveniently, this allows for the ionomic analysis of Urbana
+2003
+147
+35783
+excess tissue collected for other purposes, without the necessity of Urbana
+2004
+89
+35490
+a separate field experiment. Here, we demonstrate the utility of Urbana
+2005
+87
+35559
+leveraging existing germplasm by performing a genomewide associa-
+Urbana
+2006
+143
+36065
+tion study on ionomic traits in seed tissue measured from diverse
+Urbana
+2007
+98
+36091
+soybean lines selected from the USDA Soybean Germplasm Collec-
+Urbana
+2008
+58
+35432
+tion.
+Urbana
+2009
+102
+36489
+Costa Rica 9 years combined
+111
+31479
+2 I MATERIALS AND METHODS
+2.1 I I Germplasm
+Small plots of differential phosphorus lines were grown out in
+A diverse panel of 1,653 soybean accessions was selected from the 2012 at South Farm Agricultural Research Center (Columbia, MO,
+core soybean collection of the USDA Soybean Germplasm Collec- Latitude 38.908189, Longitude -92.278693, Mexico silt loam soil)
+tion, as described in the results. Because the mission of National as single plots of 5 feet long with a 3 foot gap between rows and
+Plant Germplasm System (NPGS) is to maintain a viable collection of 30 inches between rows. Field conditions were typical of soybean
+plant germplasm, the collections are periodically regrown to maintain production in the Midwest USA, with NPK Fertilizer applied at rates
+viable seed. The size of the Soybean Germplasm Collection necessi- appropriate according to soil analyses (10.6/50/75) and two pre-
+tates that only a subset of the complete germplasm collection is emergent herbicides were applied before planting: Authority First
+grown out each year. Furthermore, the diverse panel of accessions (Authority First Corp, Philadelphia, PA) applied at 6.45 oz/acre, and
+belongs to a variety of maturity groups and was grown out in three Stealth applied at 1 qt/acre (Loveland Products, Loveland, CO, USA).
+separate locations: Stoneville, MS, Urbana, IL, and Upala, Costa Rica. Postemergent herbicides were also used: Ultra Blazer (UPI, King of
+The 1,653 lines in the panel are, thus, broken into 13 distinct year Prussia, PA, USA) applied at 1.5 pt/acre, Basagran (Arysta LifeS-
+and location sets, with no overlap of lines between years or loca- cience North America, LLC, Cary, NC, USA) applied at 1.5 pt/acre,
+tions (Table 1). The Costa Rica dataset had no individual years with and Select Max (Valent Biosciences Corp., Libertyville, IL, USA)
+enough lines (>50) to perform a successful association analysis. applied at 24 oz/acre. At maturity, plots were bulk harvested and
+However, by creating three additional datasets by combining data threshed and a subsample was used for ICP-MS analysis.
+from each location, regardless of year, we were able to analyze data
+from the Costa Rica grow-outs.
+2.3 I lonomic phenotyping by ICP-MS
+Samples were phenotyped on two separate occasions for the ele-
+2.2 I Confirmation grow-outs
+mental concentrations for B, Na, Mg, Al, P, S, K, Ca, Mn, Fe, Co, Ni,
+Small plots of four low sulfur accumulating lines and six high sulfur Cu, Zn, As, Se, Rb, Mo, and Cd following the analytical methods
+accumulating lines were grown in Mexico silt loam soil at Bradford described in Ziegler et al. (2013). Seed weight is also recorded for
+Research and Extension Center, Columbia, Missouri. Cultural prac- each sample analyzed, SO it was also included as a phenotype in our
+tices were typical of those utilized for soybean production in the study.
+Midwest USA. The same set of plants were also grown in environ-
+A simple weight normalization procedure to correct measured
+mentally controlled greenhouse in 6L pots containing PRO-MIX sample concentrations for seed size was found to introduce artifacts,
+(Premier Horticulture, Quebec, Canada) medium amended with especially for elements whose concentration is at or near the
+Osmocote Classic controlled release fertilizer (Scotts, OH). Green- method detection limit. This could either be due to a systematic over
+house settings were 16-hr day length with 30/18°C day/night tem- or under reporting of elemental concentrations by the ICP-MS pro-
+peratures.
+cedure or a violation of the assumption that all elemental
+
+
+
+ZIEGLER ET AL.
+Society -
+ampericen Plant Biologists SOB-WILEY3
+concentrations scale linearly with weight. We used an alternative
+Multilocus mixed model implements two model selection meth-
+method to normalize for seed weight following the method recently ods to determine the optimal mixed model from the set of stepwise
+reported in Shakoor et al. (2016). A linear model was developed models calculated: the extended Bayesian information criterion
+modeling un-normalized seed concentrations against seed weight (EBIC, Chen & Chen, 2008) and the multiple-Bonferroni criterion
+and the analytical experiment the seed was run in. The residuals (mbonf, Segura et al., 2012). The EBIC model uses the Bayesian
+from this linear model were then extracted and used as the elemen- information criteria to select a model taking into account both num-
+tal phenotype. For each element, the phenotypic measurement was ber of SNPS in the analysis and number of cofactors in the model. In
+taken as the median of the elemental concentrations from the two our analysis, the EBIC was usually less conservative (e.g. selected lar-
+or eight seeds measured from each line (after outlier removal of ger models). A larger model likely increases the number of type 1
+measurements with a median absolute deviation of >10 where we errors, but it is less likely to miss true associations. Because we are
+had enough samples). To meet the normality assumptions required performing a further selection step comparing results across inde-
+for Genomewide association studies (GWAS), an analysis using the pendent experiments, we used the EBIC models for further analysis.
+Box-Cox algorithm was used to determine an appropriate transfor- Additionally, we also analyzed the cofactors returned by the final
+mation for each trait (Box & Cox, 1964). As each grow-out has a dis- forward inclusion model (maximum model), which includes either the
+tinct set of lines, which may result in different phenotypic maximum 40 cofactors or the total number of cofactors needed to
+distributions, transformations were performed separately for each explain the estimated heritability.
+element in each dataset listed in Table 1. Transformations were
+Single nucleotide polymorphisms included as cofactors in either
+selected based upon the 95% confidence interval returned by the the EBIC model or the maximum model were compared across
+Box-Cox function implemented in the R package MASS (Box & Cox, GWAS experiments. SNPS were determined to overlap with a neigh-
+1964; Venables, Ripley, & Venables, 2002).
+boring SNP if it had an 22 LD of >.2.
+2.4 I Genomewide association studies
+2.5 I Calculation of linkage disequilibrium
+All of the lines included in this analysis (and all of the annual acces- Linkage disequilibrium (LD), expressed as a correlation coefficient
+sions in the Soybean Germplasm Collection in 2010) have been between markers (7), was calculated using the filtered SNP data set
+genotyped using the SoySNP50K beadchip and are available at soy- containing all 1,391 lines from the experiment and the LD function
+base.org (Song et al., 2013). Separate genotype files were generated of the "genetics" R package (Warnes, Gorjanc, Leisch, & Man, 2013).
+for each grow-out that contain only the lines present in that grow-
+out. The genotype files were each filtered to remove single nucleo-
+2.6 I Germplasm and data availability
+tide polymorphisms (SNPs) with a minor allele frequency less than
+0.05, and missing SNPS were imputed as the average allele for that Lines used can be found at the USDA Soybean Germplasm Center.
+SNP. The number of SNPS for each grow-out varied between All scripts and data used can be found at www.ionomicshub.org and
+31,479 and 36,340. The final number of SNPS used for association htips/gthub.com/batertabSoylonomisGwAs
+mapping of each grow-out is listed in Table 1. SNPS were called
+using the Glyma1.1 reference genome. All SNP base pair locations
+3 I RESULTS
+reported are from a map to Glyma1.1.
+Both kinship and structural components were included in the
+3.1 I Experimental design
+mixed model and were calculated using the filtered genotype matrix
+containing all 1,391 lines found across all 13 grow-outs. The kinship The mission of the USDA-ARS NPGS is "to acquire, evaluate, pre-
+matrix was calculated using the VanRaden method as implemented serve, and provide a national collection of genetic resources to
+in GAPIT (Lipka et al., 2012; VanRaden, 2008). To correct for popu- secure the biological diversity that underpins a sustainable U.S. agri-
+lation stratification, a principal component analysis was performed. cultural economy." Some of these collections are the target for high-
+The first ten principal components were used as fixed effects in the density genotyping projects making them ideal populations for
+mixed model.
+GWAS. However, the prohibitive cost of controlled field trials to
+Association mapping was performed using a multilocus mixed- measure novel phenotypes can limit their utility for genetics
+model (MLMM) approach that performs a stepwise mixed-model research. In this experiment, we used existing germplasm to find
+regression with forward inclusion and backward elimination of geno- novel genotype phenotype associations without the expensive over-
+typic markers included as fixed effects (Segura et al., 2012). In this head of independent field trials. Although this experiment is limited
+model, forward steps are performed until the heritable variance esti- by the inability to grow plants in a common environment, the high
+mate reaches 0 (indicating the current model includes covariates that heritability of ionomic traits (Baxter et al., 2014), as well as the sta-
+explain all of the heritable phenotypic variance) or a maximum num- bility of the ionome in stored tissue (Baxter et al., 2014), makes
+ber of forward inclusion steps have been performed, which we set ionomic phenotyping an ideal test case for mining germplasm
+at 40.
+resources. To test the power of ionomics to find genetic factors
+
+
+
+Society
+ZIEGLER ET AL.
+arprican Plant Biologists SOB-WILEY
+socur
+BIDLO
+underpinning elemental accumulation, we analyzed seeds from 1,653 location effect, and for Stoneville and Urbana, significant effects for
+soybean [Glycine max (L.) Merr.] lines representing the diversity growth year, for most elements measured (p < .01 with Bonferroni
+found in the USDA Soybean Germplasm Collection stored at Urbana, correction, Table 2). This effect can also be seen in the phenotypic
+IL.
+distribution (before transformation) for many of the traits (Figures 1
+A core collection of 1,685 accessions of the USDA Soybean and S2). These results clearly demonstrate that most of the year
+Germplasm Collection represents a substantial amount of the genetic grow-outs were unique environments, supporting their analysis as
+diversity in the entire collection. The core collection contains individual experiments. The lack of significant differences by year for
+approximately 10% of the total number of introduced soybean many elements in Costa Rica (13 of 21) may be indicative of a lack
+accessions. The 1,653 soybean lines used in this study comprised all of statistical power due to the small number of lines grown per year.
+of the 1,685 accessions available when the research was started. For Because there were not enough lines in any one grow-out from
+accessions in maturity groups 000 through VIII for which field evalu- Costa Rica for a GWAS analysis, the only way we were able to ana-
+ation data were available, the core was selected using origin, qualita- lyze the Costa Rica data was by combining data across all 10 years.
+tive, and quantitative data. Accessions were divided into groups
+Comparison of elemental concentrations of replicate seeds from
+based on origin and then further subdivided based on maturity the same line in each grow-out does indicate the presence of a
+group, which classifies soybean accessions based on photoperiod genotypic effect on elemental concentrations. Concentrations in
+and temperature response. A total of 81 strata were established. A seeds from the same line were usually more similar to each other
+multivariate proportional sampling strategy within each stratum was than they were to the population as a whole (Figures 2 and S3).
+determined to be the optimal procedure for identifying a sample of
+The Box-Cox procedure (Box & Cox, 1964) was used to estimate
+accessions that best represents the diversity of the total collection. appropriate transformation functions for the phenotype data to meet
+Field evaluation data were not available for accessions in maturity the assumptions of GWAS for normally distributed dependent vari-
+groups IX and X, but because these accessions are adapted to sub- ables. The Box-Cox algorithm suggested that 138 of the 294 traits
+tropical and tropical conditions and are likely to have unique genetic (14 environments x 21 phenotypes) needed no transformation and
+diversity, a sample of 10% of these accessions was added to the an additional 151 needed only minor transformations to control for
+core collection based on multivariate analysis of the qualitative data. the long-tail distributions often seen in concentration data (inverse,
+A full explanation of the development of the core collection can be inverse square root, log, or square root) (Table S2). Because most
+found in Oliveira, Nelson, Geraldi, Cruz, and de Toledo (2010). The traits appear to only need minor transformations, for uniformity and
+seeds available in the NPGS for this core collection come from ease of interpretation, all of the traits in which a transformation was
+grow-outs that span 12 years at three locations (Urbana, IL, Stone- recommended were transformed using a log transformation.
+ville, MS, and Upala, Costa Rica) (Table 1). The selection of which
+lines to grow for line maintenances in a given year is independent of
+3.3 I Population structure
+the strata used to select the core collection, making each grow-out
+year an independent experiment to look for loci controlling elemen- The first two principal components obtained using the 36,340 poly-
+tal accumulation. Additionally, analysis of the first two principal com- morphic SNPS from the entire 1,391 lines in the dataset explained
+ponents from the SNP dataset shows no apparent bias between 15% of the total SNP variance, and the first 10 principal components
+genetic architecture and grow-out (Figure S1).
+explained 28% of the total variance. Variance explained by each PC
+drops rapidly after the first 10 PCs with 50% variance not reached
+until PC76. The first two principal components separate the popula-
+3.2 I Phenotypes
+tion into groups roughly corresponding to each lines country of ori-
+Using the elemental analysis pipeline described in Ziegler et al. gin, with South Korean and Japanese accessions forming distinct
+(2013, see methods), we analyzed -6 seeds from each line, measur- clades while Chinese, Russian, and other accessions form a much
+ing the levels of 20 elements in each seed (Table S1). While 1,653 less cohesive block (Figure 3).
+lines were analyzed in total, 262 of these lines were from grow-outs
+containing fewer than 50 lines in the dataset. We excluded these
+3.4 I MLMM GWAS
+lines from further analysis, and all following analyses are based on
+the remaining 1,391 lines (elemental profiles for excluded lines are Using the SoySNP50k chip data (Song et al., 2013), we performed a
+included in the Table S1). We performed an ANOVA significance GWAS study using a MLMM to identify associated loci for each of
+test to assess whether there are significant environmental effects on 21 phenotypes (20 elements, seed weight) in 13 distinct grow-outs
+the phenotypic data gathered from lines grown in separate locations of diverse soybean lines and the Costa Rica dataset of grow-outs
+and in separate years at the same location. Although a distinct set of pooled across years (Table 1). The MLMM procedure starts with an
+lines were grown in each grow-out, lines were assigned to a grow- EMMAX scan of all markers and then iteratively adds the markers
+out without regard to population structure. As a result, we would with the highest association eith the model and rescans. The MLMM
+expect, in the absence of environmental effects, phenotypic mea- procedure returns a list of cofactors that together describe the total
+surements to be similar. The ANOVA test indicates a significant estimated narrow-sense heritability of a given trait (which we will
+
+
+
+ZIEGLER ET AL.
+ampericen Plant PASOCiSN SOB-WILEYIS
+TABLE 2 Analysis of grow-out location and year effect on elemental accumulation. The p-value for each element from an ANOVA of a
+linear model with Location or Location x Year interaction. The significance cutoff was set at p < .01 with Bonferroni correction
+Element
+Location
+Costa Rica x Year
+Stoneville x Year
+Urbana x Year
+Seed Weight
+NS
+NS
+6.87E-07
+0.0001776
+B
+0.0001174
+NS
+1.24E-07
+NS
+Na
+3.06E-307
+NS
+NS
+NS
+Mg
+0.0003425
+5.24E-08
+7.19E-09
+2.19E-29
+Al
+9.17E-31
+8.70E-13
+2.62E-11
+3.56E-36
+P
+5.72E-27
+1.26E-05
+NS
+3.29E-16
+S
+6.49E-34
+NS
+3.58E-10
+6.23E-35
+K
+2.37E-24
+1.16E-05
+1.46E-07
+2.12E-06
+Ca
+1.63E-19
+NS
+6.78E-13
+1.17E-26
+Mn
+9.80E-45
+0.0003116
+3.03E-15
+1.53E-17
+Fe
+7.12E-29
+NS
+8.44E-09
+2.36E-34
+Co
+3.42E-148
+NS
+1.10E-19
+3.65E-12
+Ni
+3.04E-173
+5.90E-13
+5.75E-06
+2.37E-33
+Cu
+1.33E-243
+NS
+1.05E-14
+1.40E-29
+Zn
+1.34E-145
+NS
+6.38E-08
+9.29E-30
+As
+1.66E-57
+NS
+5.50E-12
+NS
+Se
+0
+0.0001141
+1.13E-16
+2.23E-14
+Rb
+0
+4.39E-08
+6.75E-44
+2.17E-15
+Sr
+0
+NS
+7.59E-06
+3.34E-18
+Mo
+0
+NS
+3.68E-40
+6.66E-44
+Cd
+3.25E-45
+NS
+5.48E-26
+3.79E-07
+NS, not significant.
+10
+:
+I
+I
+E
+I
+EComna
+FIGURE 1 Molybdenum accumulation
+in single soybean seeds (mg/kg) across
+CostaRica
+Stoneville, MS
+Urbana,
+experimental grow-outs
+Field
+refer to as the all cofactor model). By definition, MLMM will create SNP was added to the model. The average model contained 11
+a model containing at least one cofactor for each trait. Of the mod- SNPS, with no traits reaching the maximum 40 SNP model (e.g. not
+els generated, 84 models met the stopping criteria after only one converging on a model describing all of the phenotypic variance).
+
+
+
+Society
+ZIEGLER ET AL.
+arprican Plant Biologists -SOB-WILEY
+SOCHETY EXPERI BIDU
+Cadmium residual values in 1999 Stoneville, MS
+60
+40
+I
+I 20
+0
+FIGURE 2 Distribution of cadmium
+phenotype (linear model residuals, see
+Methods) in lines from a single grow-out:
+Stoneville, MS, 1999. Lines are ordered by
+median of between two and eight seed
+Accession
+replicates
+0.05-
+0.00- y 6 a
+Country
+China
+€
+Japan
+Other
+8
+Russia
+SouthKorea
+-0.05-
+FIGURE 3 Principal component analysis
+of the genotypes of 1,391 soybean lines.
+Colored by country of origin: China (532),
+Japan (267), South Korea (200), Russia
+-0.025
+0.000
+0.025
+0.050
+(61), other, or unknown country of origin
+PC1 (10.93%)
+(331)
+The largest model contained 29 SNPS, for iron in the 2009 Urbana
+A simpler model, which includes only a subset of the total cofac-
+grow-out. The 294 GWAS tests returned 1,756 unique SNPS. While tors, can be selected using a model selection parameter (Segura
+these most complex models likely contain factors that account for et al., 2012). Segura et al. (2012) proposed two model selection cri-
+phenotypic variance merely by chance (e.g. false positives), many of teria: the EBIC and the multiple-Bonferroni criterion (mBonf).
+these cofactors are likely real.
+Although both criteria produced generally similar results, we found
+
+
+
+ZIEGLER ET AL.
+Society -
+ampericen Plant Biologists SOB-WILEY3
+the EBIC criteria to be less stringent than mBonf. Due to the rela- real. However, given the large number of independent grow-outs
+tively small sample size in many of our grow-outs, we have chosen and the partial independence of the elemental traits, we are able to
+the more inclusive EBIC criteria in an attempt to include more mod- apply more stringent criteria confidence in associations. Below, we
+erate effect loci in our model at the cost of a higher false positive list several sets of SNPS associated with elemental traits, ordered
+rate. QQ-plots for both the null model, containing no cofactors, and from "most confident" to "lower confidence." As the likelihood of
+the optimal EBIC model were generated to assess whether there the same false associations being found more than once for the
+were uncontrolled confounding effects in our model arising from same trait in separate grow-outs with independent sets of lines is
+cryptic relatedness and population structure. While there was some small, we looked for SNPS returned in multiple scans, which are
+inflation of p-values in the null model, the MLMM procedure of iter- likely to be real. Across these 130 experiments, 10 SNPS were
+atively including large-effect loci into the model successfully controls returned more than once. Of these 10 SNPS, the exact same SNP
+for this p-value inflation and the distribution of p-values in the EBIC was found for the same element in a different grow-out two times
+models closely follows the expected null distribution except for the (ss715604985 and Ss715605104, both for cadmium), different ele-
+significantly associated loci (Figures 4 and S4).
+ments in the same grow-out once (ss715608340 for Ca and Sr), and
+The EBIC model selection method returned the MLMM model different elements in different grow-outs seven times (Table 4). The
+containing no cofactors for about half of the GWAS tests (164/294). same element/multiple location and multiple element/same location
+The remaining 130 tests returned a total of 573 unique SNPS. When SNPS constitute our highest confidence set for SNPS affecting the
+looking at the combined set of SNPS returned across all grow-outs, ionome, but likely greatly underestimate the useful information in
+of the 21 phenotypes tested, at least one SNP was returned for the dataset.
+each trait, with seed weight returning the most (96) and boron
+Because each grow-out contains an independent set of lines, the
+returning the least (6). Table 3 contains information about the num- set of SNPS tested differs between grow-outs depending upon the
+ber of cofactors returned in each model (EBIC and all) for each trait, SNP minor allele frequency in each dataset. Additionally, common
+and Table S3 contains the complete list of SNPS returned.
+SNPS between grow-outs will still differ in allele frequency, which
+Overall, despite a large number of tests for association (294), a could result in neighboring SNPS, still in LD with the causal variant,
+relatively small number of SNPS were identified. Given the ability of being returned for different GWAS experiments. Therefore, looking
+the multi cofactor model to reduce the levels of spurious false posi- for only exact overlaps between datasets may be overly restrictive.
+tives, a large number of even the full model SNPS are likely to be Soybean has been estimated to have a LD decay distance of
+between 360 Kbp in euchromatic regions and 9.6 Mbp in hete-
+rochromatic regions (Hwang et al., 2014). To better search for over-
+OOMMERMANLUMRN in
+sfor
+laps between our datasets while also taking into account the large
+variability in LD range across the soybean genome, we grouped all
+of the SNPS returned across experiments by whether they are in LD
+6
+with one another. Although many factors affect the ability to detect
+an association between a QTL and the actual causative loci, the min-
+imal 22 for detection between the loci is generally estimated to be
+between 0.2 and 0.33 (Ardlie, Kruglyak, & Seielstad, 2002; Qanbari
+et al., 2010; Wallace et al., 2014) with a value of 0.2 previously
+4
+being used to define LD range in the soybean genome (Hwang et al.,
+1
+2014). Therefore, we defined an overlap between SNPS as whether
+I
+a pair of SNPS has an 2 > .2. When this approach was applied to
+the all cofactors model, the same locus was returned for the same
+2
+phenotype in different grow-outs 18 times, a different phenotype in
+the same grow-out 44 times, and different phenotypes in different
+GWAS Model
+grow-outs 237 times (Table S4). Often a SNP returned as significant
+ERcEdedBIC
+in the EBIC model for one grow-out, will have a corresponding SNP
+BIC
+in the all cofactor model of another
+the
+0
+-Emmndade
+grow-out, indicating that sig-
+nal is there in other populations, but at too weak a level to meet
+2
+4
+6
+Expected -logio(p)
+strict significance thresholds.
+Another line of evidence that the SNPS identified are real is the
+FIGURE 4 Quantile-quantile plot of the observed p-values
+co-location with candidate genes. Due to the large regions of LD in
+against expected p-values from the GWAS analysis for sulfur
+the soybean genome, each of the 30,000 SNPS in our experiment is
+accumulation. The MLMM algorithm includes cofactors that reduce
+inflation of p-values (green line). The model without cofactors
+linked to dozens to hundreds of genes. Many plant processes,
+indicates presence of p-value inflation (blue line). The expected
+including root structure/function, water relations, and inter-, intra-
+distribution of p-values under the null hypothesis (red line)
+and extra-cellular structures, can alter the elemental accumulation
+
+
+
+arprican Plant Biologists Society S HE) B-WILEY
+ZIEGLER ET AL.
+&
+E : : € S : 6 € € : : I @ a
+I
+I
+S 8 S 8 S & 1 S 8 S S
+I
+S 8
+8 a &
+I
+: * : E S S S 8 E 8 f S S 3
+s
+
+I
+: : 9 e E S S a : S S S a S
+%
+I
+ee
+:
+: R : : 3 a : of S S 5 : 9 8
+E I I
+I
+I
+a S 8 8 S a a & S S S : S 8
+iu
+8
+I
+2 8 S R S S S S 8 S : 2 a E 8 e
+:
+S S e S E S S S 8 E S S 8
+a
+3
+:
+:
+s
+N 8 S E 8 8 S S 9 E 3 S S S 8 S
+S S S & S & S a S & S 8 8
+2
+I
+a
+S
+of
+S 8 8 E S S S 8 8 S S S R
+2
+8
+S
+I
+: S S 9 S S a S 8 9 S S 3 S
+e
+E
+:
+I
+a S S S : S 8 S 8 & S S 9 E
+2
+:
+3
+8 a S E s 8 % : : 9 S S S R
+X
+S
+S
+I
+: S 8 8 8 S 8 8 : S : & & a
+e
+I
+I
+8 & S S S S & S S S % à S S
+3
+I
+8
+2 eE of
+: N : a 8 & o0 S S S 8 : S E
+5
+8
+:
+e
+by s
+: S a 9 8 5 e a 3 N * 8 S $
+iE 3
+:
+I
+2
+S 9 S a o 1 N S S S
+8
+a
+: 8 E
+S
+€
+I of
+I a S S S & S 8 S S S S S S S 8 8
+2
+of e
+S S E 8 S S S 8 & a 2 S 8 S
+4
+à
+I I
+S % S R S S : S S a S S a :
+N
+8
+€ e
+8 3
+] I
+i I
+8 3 8 3 3 8 8 3 8 8 & 8 2
+
+
+
+ZIEGLER ET AL.
+-
+ampericen Plant PASOCiSN SOB-WILEY!:
+TABLE 4 SNPS returned in the EBIC selected model in two or more grow-outs
+Chromosome
+Base pair
+Environment
+Trait
+logP
+Model
+Overlap type
+9
+4612586
+99S
+Cd
+10.06
+EBIC
+Same element, different location
+9
+4612586
+04U
+Cd
+5.39
+EBIC
+Same element, different location
+9
+4991159
+OOU
+Cd
+18.68
+EBIC
+Same element, different location
+9
+4991159
+O2U
+Cd
+18.95
+EBIC
+Same element, different location
+9
+4991159
+03U
+Cd
+11.88
+EBIC
+Same element, different location
+9
+4991159
+06U
+Cd
+6.77
+EBIC
+Same element, different location
+10
+5863544
+04S
+Ca
+6.20
+EBIC
+Different element, same location
+10
+5863544
+04S
+Sr
+7.68
+EBIC
+Different element, same location
+2
+46468030
+03U
+Seed weight
+11.73
+EBIC
+Different element, different location
+2
+46468030
+05U
+Se
+29.18
+EBIC
+Different element, different location
+5
+41315343
+06S
+Mg
+4.82
+EBIC
+Different element, different location
+5
+41315343
+09U
+Mo
+4.58
+EBIC
+Different element, different location
+10
+5179735
+05U
+S
+5.73
+EBIC
+Different element, different location
+10
+5179735
+06S
+Ni
+7.36
+EBIC
+Different element, different location
+13
+19554349
+07U
+Ni
+6.66
+EBIC
+Different element, different location
+13
+19554349
+09U
+Ca
+18.06
+EBIC
+Different element, different location
+13
+22047323
+O2U
+Cd
+14.82
+EBIC
+Different element, different location
+13
+22047323
+06S
+K
+5.59
+EBIC
+Different element, different location
+13
+26504428
+OOU
+Cd
+6.30
+EBIC
+Different element, different location
+13
+26504428
+03U
+Seed weight
+10.48
+EBIC
+Different element, different location
+19
+84371
+08U
+Cu
+16.51
+EBIC
+Different element, different location
+19
+84371
+09U
+Fe
+51.76
+EBIC
+Different element, different location
+(Barberon, 2017; Baxter et al., 2009; Chao et al., 2011, 2013; Tian closer to the control line level (Figure 5 and Table 6). Broad-sense
+et al., 2010). Each SNP is therefore likely to be associated with sev- heritability for phosphorus between the GRIN grow-out concentra-
+eral plausible candidate genes. We looked under the SNPS of our tions and this experiment was 0.65 (Table S5).
+overlap sets for strong candidates those with orthologs associated
+In a separate experiment, 10 lines total, four low sulfur accumu-
+directly with elemental phenotypes. Table 5 contains a list of SNPS lating lines and six high sulfur accumulating lines, were selected and
+found on or near candidate or already characterized genes. Many of regrown in both a field and greenhouse trial. In both the field and
+the candidates are under SNPS associated with individual elements the greenhouse experiment, all of the six high sulfur lines had a
+to which they or their orthologs were previously linked, or with higher sulfur accumulation than the four low accumulating lines.
+chemically related elements (i.e. Mn, Co, Cd with Fe, or Se with S). Interestingly, the field grown varieties had a larger difference in sul-
+The presence of these strong candidates under the detected SNPS fur accumulation between the high and low varieties (Figure 5 and
+supports the evidence from overlap that they are real associations.
+Table 7). Although not selected for accumulation of other elements,
+there was also a correlation between measured values in the germ-
+plasm collection and the regrow set for many other elemental phe-
+3.5 I Verification of high and low sulfur and
+notypes tested (Figures S5 and S6). Broad-sense heritability for
+phosphorus accumulating lines
+sulfur between the GRIN grow-out concentrations, the greenhouse,
+To test whether the elemental accumulation of ionomic traits in the and the field grow-outs was 0.64 (Table S5).
+lines in our panel is intrinsic to the genetics of the lines or an artifact
+of the environmental and field conditions, we performed two experi-
+ments in which we selected the highest and lowest accumulating 4 I DISCUSSION
+lines for sulfur and phosphorus and regrew the seeds in controlled
+field and greenhouse conditions. Eight lines, four with a high phos- Analysis of ionomic traits has led to a deeper understanding of the
+phorus phenotype and four with a low phosphorus phenotype, were complex regulatory system organisms use to maintain homeostasis
+selected for regrowth in a field in Columbia, MO. Three of the four of essential elements (Atwell et al., 2010; Baxter, 2010; Baxter et al.,
+high phosphorus lines exhibited a high phosphorus phenotype in the 2008; Yu et al., 2012). To broaden our understanding of how genetic
+regrow experiment, while the low phosphorus lines had phenotypes and environmental components affect the ionome, we have
+
+
+
+10
+SOB-WILEY
+ZIEGLER ET AL.
+ampricansocitiy Biologists
+BIDLOCN
+TABLE 5 Returned SNPS overlapping candidate or already characterized genes. Bold font indicates lines returned in the more conservative
+EBIC model for at least one grow-out. SNP basepairs are mapped to soybean reference genome build Glyma1.1
+Base pair
+-logP
+(of most
+(of most
+significant
+significant
+Chromosome SNP)
+Environment(s)
+Trait(s)
+SNP) Candidate gene
+9
+4991159 OOU; 02U; 03U; 06U Cd
+18.95 HMA13; Glyma.09g055600 (Benitez et al., 2012; Fang et al., 2016)
+2
+43023030 99S;CR
+Cd
+20.67 Glyma.02g215700 is similar to At2-MMP, which is induced during
+cadmium stress to leaves (Golldack, Popova, & Dietz, 2002)
+3
+40883820 02U; 99S
+Se
+21.15 NRAMP metal transporter (Glyma.03g181400); aluminum sensitive
+3 (ALS3; Glyma.03g175800)
+5
+33737561 CR; 09U
+Ca
+36.24 Multidrug resistance-associated protein 3 (MRP3,
+Glyma.05g145000); AtMRP5 implicated in calcium homeostasis in
+Arabidopsis (Gaillard, Jacquet, Vavasseur, Leonhardt, & Forestier,
+2008)
+14
+47003645 06S; 03U
+Co
+17.91 ZIP metal ion transporter (Glyma.14g196200; overlaps with a Zn
+and rubidium (in all cofactor)
+15
+410656 04S; 07U
+Mn
+7.11 CAX2 (Glyma.15g001600), implicated in Mn transport (Shigaki,
+Pittman, & Hirschi, 2003); NRAMP6 (Glyma.15g003500), Mn
+transport; MGT2 (Giyma.15g002700) and MGT4
+(Glyma.15g005200), magnesium transport
+2
+5555909 07U
+Fe; Zn; P; Cu
+6.91 ATOX1 (Giyma.02g068700), copper transport
+1
+54551283 01U; CR; OOU; 04U Al; Rb; Mo; Co; K 7.64 ALMT (Glyma.01g223300), aluminum-activated malate transport,
+malate is a chelator for aluminum and critical in detoxification
+2
+44460357 09U; O2U
+Co; Ca
+10.96 Heavy metal transport/detoxification (Gilyma.02g222600,
+Glyma.02g222700; potassium transporter 1 (Glyma.02g228500);
+phosphate transporter 4;3 (Glyma.02g224200)
+3
+5165511 09U; 06U
+Fe; Mn
+36.05 YSL6 (Glyma.03040200); FPN1 ferroportin (Glyma.03g042500)
+7
+5480577 06S; 06U
+As; Ni
+22.46 Heavy metal transport/detoxfication (Giyma.07g065800);
+NRAMP2 (Glyma.07g058900)
+11
+17367460 04U; 06U
+Fe; Se
+21.13 ABC transporter (Glyma.11g194700, Glyma.11g196100)
+19
+84371 08U; 09U
+Cu; Fe
+51.76 ATOX1 (Glyma.19001000), copper transport
+3
+5455217 OOU; 04U
+Mg; Co
+7.45 Iron regulated 1 (Glyma.03g042500); iron regulated 2
+(Glyma.03g042400); YSL6 (Glyma.03g040200)
+15
+1222084 05U
+Se
+29.64 Sulphate transporter (Glyma.15g014000) (Cabannes, Buchner,
+Broadley, & Hawkesford, 2011; El Kassis et al., 2007); sulfite
+transporter (Giyma.15g015600)
+9
+4799335 06S
+K
+4.31 Potassium transporter (Glyma.09g052700)
+7
+5900018 06U
+Fe
+5.07 Overlap with IDC for FRO2 (Mamidi et al., 2014);
+Glyma.07g067700; also Glyma.07g065800 a heavy metal detox
+9
+4518093 09U
+Mo
+17.96 Molybdenum cofactor sulfurase (Giyma.09g050100)
+9
+3807440 09U
+S
+31.98 Glyma.09g045200 heavy metal transport; close to all cofactor
+selenium
+5
+8074553 OOU; 06S
+Fe
+7.06 Stabilizer of iron transporter (AGO10, PNH, ZLL;
+Glyma.05g011300), in IDC dataset (Mamidi et al., 2014)
+3
+45338714 O3U
+Fe
+8.30 NAS3; Glyma.03g231200; overlaps IDC (Mamidi et al., 2014)
+developed a high-throughput ionomic phenotyping system that can association study using a multilocus mixed-model procedure (Segura
+rapidly measure 20 ionomic traits and seed weight in agronomically et al., 2012). We were also able to show that lines selected from
+important crops, such as soybean, maize, sorghum, and cotton. To these experiments for extreme phenotypes of elemental accumulation
+assess the utility of our phenotyping system for GWAS in soybean, were likely to display similar phenotypes in follow-up experiments.
+we measured the ionome of a diverse set of more than 1,300 soy-
+In spite of the limited number of lines in each grow-out, one of
+bean lines, divided into 14 independent populations grown in three the strengths of this study is the number of distinct field replica-
+locations over the course of a decade. Coupled with a high-resolution tions. Although there was no overlap between lines for any of the
+genetic map (Song et al., 2013), we performed a genomewide 14 grow-outs, we found many genetic interactions that were robust
+
+
+
+ZIEGLER ET AL.
+ampericen Plant ASiocity SOB-WILEYIH
+(a)
+Phosphorus concentration in lines selected
+for high and low phosphorus accumulation in germplasm collection seeds
+-4602+1.9. -x, P- 239
+: 7,000
+S
+I
+I
+6,500
+PI Number
+I
+E posiosoe
+P5S7681
+P1423813
+P1089772
+PI567721
+LE
+6,000
+I
+I
+5,500
+4,000
+6,000
+8,000
+10,000
+Phosphorus accumulation (mg/kg) - Germplasm collection seeds
+(b)
+Sulfur concentration in accessions selected
+for high and low sulfur accumulation in germplasm collection seeds
+5,000
+of
+4,500
+FIGURE 5 Confirmation grow-out of
+high and low sulfur and phosphorus
+accumulating lines. (a) Regrow versus
+original concentration of eight lines
+selected for high and low phosphorus
+4,000
+accumulation. Correlation between GRIN
+concentration and regrow was 0.24. (b)
+Regrow versus original concentration of 10
+lines selected for high and low sulfur
+3,500
+accumulation, regrown in both greenhouse
+and field environments. Error bars indicate
+the standard error of the replicate seeds.
+Correlation (2) between GRIN seed
+concentrations and the regrown high and
+3,000
+Regrow Location
+low varieties
+in the
+Edmumtoue
+grown - greenhouse and
+in the fields were 0.61 and 0.84,
+3,000
+3,500
+4,000
+respectively
+Sulfur accumulation (mg/kg) - Germplasm collection seeds
+across environments and genotypes. We report several different sets these mapped directly to what could be considered a priori candi-
+of SNPS corresponding to different levels of stringency in the indi- date genes that have either already been characterized in soybean
+vidual experiments and the way we compared results between the or are close orthologs of metal homeostasis proteins in Arabidopsis
+experiments. These range from the 1,756 SNPS from the full models, thaliana and other species (Table 5). The discovery of orthologs of
+which likely contain several false positive associations, to the two known Arabidopsis genes in soybean experiments highlights the value
+SNPS that were returned in multiple experiments for the same ele- of studies in model organisms, where the genetics and growth habits
+ment. Hundreds of SNPS in the total dataset are likely to be real due are more amenable to large scale studies. Many more overlaps
+to their inclusion in a more conservative model or due to being between different phenotypes found in different locations suggest
+found in several locations once LD is taken into account. Several of genetic by environmental effect on which phenotype is affected by
+
+
+
+12
+AmericanSociety -
+ZIEGLER ET AL.
+ofPlant Biologists SOB-WILEY
+socur
+BIDLOCY
+TABLE 6 Accessions chosen for validation of phosphorus accumulation. High and low phosphorus accumulating lines were chosen to
+regrow to test the reproducibility of ionomic traits. Values listed in the table are mg phosphorus/kg tissue
+Regrow
+Regrow
+Collection
+Collection
+phosphorus phosphorus
+Regrow number Collection
+phosphorus
+number of
+Accession (mg/kg)
+standard error of seeds tested phosphorus standard error seeds tested Phosphorus level
+PI081042-1 5,464.77
+127.08
+12
+4,149.66
+109.15
+5
+Low
+PI424159B 5,965.40
+160.35
+12
+4,305.02
+168.68
+5
+Low
+P1475822B 5,830.14
+179.63
+11
+5,819.22
+335.34
+6
+Low
+PI567691
+6,121.47
+186.62
+11
+6,001.76
+372.65
+6
+Low
+PI086081
+6,665.44
+123.66
+12
+8,280.90
+123.01
+6
+High
+PI423813
+7,100.48
+198.13
+14
+8,421.17
+481.09
+6
+High
+PI089772
+6,432.51
+130.76
+12
+8,785.44
+300.08
+6
+High
+PI567721
+5,622.10
+193.65
+12
+9,602.50
+504.11
+5
+High
+TABLE 7 Accessions chosen for validation of sulfur accumulation. High and low sulfur accumulating lines were chosen to regrow to test the
+reproducibility of ionomic traits. Values listed in the table are mg sulfur/kg tissue
+Regrow
+Collection
+Regrow
+Regrow field Regrow
+Regrow
+greenhouse
+sulfur Collection
+field sulfur Regrow field number of greenhouse greenhouse number of Collection standard number of Sulfur
+Accession (mg/kg) standard error seeds tested sulfur (mg/kg) standard error seeds tested sulfur (mg/kg) error seeds tested level
+PI096322 3,674.77 82.01
+6
+3,303.99
+86.76
+6
+2,694.52
+75.46 7
+Low
+PI229327 3,183.07 69.30
+6
+NA
+NA
+NA
+2,764.57
+62.35 7
+Low
+PI507411 3,190.73 26.38
+4
+3,126.35
+84.73
+6
+2,797.00
+67.14 8
+Low
+P1603599A 3,584.44 48.23
+6
+3,075.94 114.71
+8
+2,874.06
+64.85 8
+Low
+P1603162 4,336.25 45.05
+6
+3,703.22
+70.82
+6
+3,771.84
+71.02 8
+High
+PI339734 4,856.20 158.22
+6
+4,875.50
+68.81
+4
+3,774.48
+21.99 2
+High
+P1437377 4,728.93 112.23
+6
+3,413.30
+82.30
+6
+3,847.54
+82.38 7
+High
+P1603910B 4,301.96 64.81
+5
+4,074.24
+80.70
+5
+3,925.33
+71.42 8
+High
+PI082278 4,703.29 51.39
+5
+4,265.62
+99.98
+6
+3,929.56
+117.16 7
+High
+P1424078 NA
+NA
+NA
+4,791.33 187.03
+5
+4,245.06
+78.57 5
+High
+a causal locus. Many of the SNPS which overlap across environments results could be used to prioritize genes and lines for further charac-
+are novel associations with no obvious gene candidates and are terization experiments.
+strong candidates for follow-up studies to determine their relation-
+ship to plant nutrient homeostasis.
+The strongest element-loci association in our study was for the 5 I CONCLUSION
+cadmium phenotype, which is associated with a gene that codes for
+HMA13, a P1B-ATPase (HMA13; Glyma.09g055600) previously Using state-of-the-art association mapping techniques, we were able
+implicated in seed cadmium concentration in soybean (Benitez, to use the data we collected using our high-throughput ionomic phe-
+Hajika, & Takahashi, 2012). A previous GWAS study on iron defi- notyping pipeline to identify both lines with extreme phenotypes
+ciency chlorosis found seven loci strongly associated with the dis- and loci associated with elemental traits. Many of these associations
+ease phenotype (Mamidi, Lee, Goos, & McClean, 2014). Our analysis were strong enough to occur across a diverse set of environmental
+returned three of the seven loci found in that study, all associated conditions, while others were found in only one of the environments
+with seed Fe, including the two strongest associations from the IDC tested. While there are likely many more associations in our GWAS
+panel: a locus associated with nicotianamine synthase 3 (NAS3; Gly- dataset that we have not yet explored, this experiment serves as a
+ma.03g231200) and a locus associated with a stabilizer of iron trans- proof of concept of using stored seed to perform GWAS on ionomic
+porter (AGO10; Glyma.05g011300). If gene discovery of small-to- traits. While our efforts were focused on the identification of mark-
+medium effect loci is the goal of a study, using samples from germ- ers associated with elemental traits, the SNPS identified were associ-
+plasm banks may not be appropriate, but even with all the caveats ated with many a priori candidate genes. The use of seeds as the
+about statistical power and gene by environment interactions, we phenotyped tissue allows for the direct association of the conse-
+found loci that had strong candidates for some elements. These quences of allelic difference of SNPS and associated candidate genes
+
+
+
+ZIEGLER ET AL.
+ampericen ASiocity -SOB-WILEYLE
+with traits that affect the tissue with the most agronomic impor-
+cadmium concentration in soybean. Journal of Heredity, 103, 278-
+tance in soybeans. While planned experiments with more replication
+286. https//doi.org/10.109/hered/esr123
+of
+Box, G. E. P., & Cox, D. R. (1964). An analysis of transformations. Journal
+and higher numbers lines will always have more power to identify
+of the Royal Statistical Society. Series B (Methodological), 26, 211-252.
+genetic and environmental factors driving elemental accumulation in Cabannes, E., Buchner, P., Broadley, M. R., & Hawkesford, M. J. (2011). A
+the seed, this study demonstrates the utility of leveraging available
+comparison of sulfate and selenium accumulation in relation to the
+samples to screen germplasm.
+expression of sulfate transporter genes in Astragalus species. Plant
+Physiology, 157, 2227-2239. https//doiorg/10.110/pp.111183897
+Chao, D. Y., Dilkes, B., Luo, H., Douglas, A, Yakubova, E., Lahner, B., &
+ACKNOWLEDGMENTS
+Salt, D. E. (2013). Polyploids exhibit higher potassium uptake and
+salinity tolerance in Arabidopsis. Science, 341, 658-659. https://doi.
+The authors would like to acknowledge Kimberly Green, Melissa Jur-
+0rg/101126-cexce1240561
+kowski, Walter Iverson, and Jana Hutchinson for helping with ele- Chao, D. Y., Gable, K., Chen, M., Baxter, L., Dietrich, C. R., Cahoon, E. B.,
+mental analysis.
+Salt, D. E. (2011). Sphingolipids in the root play an important role
+in regulating the leaf ionome in Arabidopsis thaliana. Plant Cell, 23,
+1061-1081. htps/doiorg/101105/4pc.110.079095
+AUTHOR CONTRIBUTIONS
+Chen, J., & Chen, Z. (2008). Extended Bayesian information criteria for
+model selection with large model spaces. Biometrika, 95, 759-771.
+R.N. selected the germplasm. G.Z., H.K., J.G., and I.B. conducted
+htps//doiorg/10.1093/biomet/asn034
+experiments. G.Z., I.B. and S.G. analyzed the data. G.Z. and I.B. wrote El Kassis, E., Cathala, N., Rouached, H., Fourcroy, P., Berthomieu, P.,
+Terry, N., & Davidian, J. C. (2007). Characterization of a selenate-
+the manuscript.
+resistant arabidopsis mutant. Root growth as a potential target for
+selenate toxicity. Plant Physiology, 143, 1231-1241. https://doi.org/
+REFERENCES
+101104/p.106.091462
+Fang, X., Wang, L., Deng, X., Wang, P., Ma, Q., Nian, H., - Yang, C.
+Ardlie, K. G., Kruglyak, L., & Seielstad, M. (2002). Patterns of linkage dise-
+(2016). Genome-wide characterization of soybean P 1B -ATPases
+quilibrium in the human genome. Nature Reviews Genetics, 3, 299-
+gene family provides functional implications in cadmium responses.
+309. htpe/dbsong1o10g8/mg7
+BMC Genomics, 17, 376. htps/doiorg/101186/12864-016-2730
+Asaro, A., Ziegler, G., Ziyomo, C., Hoekenga, O., Dilkes, B., & Baxter, I.
+2
+(2016). The interaction of genotype and environment determines FAO (1996). Global climate change and agricultural production: Direct and
+variation in the maize kernel ionome. G3: Genes - Genomes Genet-
+indirect effects of changing hydrological, pedological, and plant physio-
+ics, 6, 4175-4183. htps/doiorg/10.153/83116.034827
+logical processes. F. A. Bazzaz & W. G. Sombroek (Eds.). Rome, Italy/
+Atwell, S., Huang, Y. S., Vilhjalmsson, B. J., Willems, G., Horton, M., Li, Y.,
+Chichester, UK/New York, NY: Food and Agriculture Organization of
+Nordborg, M. (2010). Genome-wide association study of 107 phe-
+the United Nations, Wiley.
+notypes in a common set of Arabidopsis thaliana inbred lines. Nature, Gaillard, S., Jacquet, H., Vavasseur, A., Leonhardt, N., & Forestier, C.
+465, 627-631. https./doiorg/1010.1038/nature08800
+(2008). AtMRP6/AtABCC6, an ATP-Binding Cassette transporter
+Barberon, M. (2017). The endodermis as a checkpoint for nutrients. New
+gene expressed during early steps of seedling development and up-
+Phytologist, 213, 1604-1610. https.//doiorg/10.1111/nph.14140
+regulated by cadmium in Arabidopsis thaliana. BMC Plant Biology, 8,
+Baxter, I. (2010). lonomics: The functional genomics of elements. Briefings
+22. htps/doiorg/10.1186/1471-229-8-22
+in Functional Genomics, 9, 149-156. htpel/dolog101093bipl Golldack, D., Popova, O. V., & Dietz, K.-J. (2002). Mutation of the matrix
+elp055
+metalloproteinase At2-MMP inhibits growth and causes late flower-
+Baxter, I. (2015). Should we treat the ionome as a combination of indi-
+ing and early senescence in Arabidopsis. Journal of Biological Chem-
+vidual elements, or should we be deriving novel combined traits?
+istry, 277, 5541-5547. htps/doiorg/10.1074/bcM106197200
+Journal of Experimental Botany, 66, 2127-2131. https.//doi.org/10. Hwang, E. Y., Song, Q., Jia, G., Specht, J. E., Hyten, D. L., Costa, J., & Cre-
+1093/jxb/erv040
+gan, P. B. (2014). A genome-wide association study of seed protein
+Baxter, L., & Dilkes, B. P. (2012). Elemental profiles reflect plant adapta-
+and oil content in soybean. BMC Genomics, 15, 1. https.//doi.org/10.
+tions to the environment. Science, 336, 1661-1663. https://doi.org/
+1186/1471-2164-15-1
+101126/science.1219992
+Lipka, A. E., Tian, F., Wang, Q., Peiffer, J., Li, M., Bradbury, P. J.,
+Baxter, L, Hosmani, P. S., Rus, A., Lahner, B., Borevitz, J. O., Muthukumar,
+Zhang, Z. (2012). GAPIT: Genome association and prediction inte-
+B., Salt, D. E. (2009). Root suberin forms an extracellular barrier
+grated tool. Bioinformatics, 28, 2397-2399. htps/doiorg/10.1093/
+that affects water relations and mineral nutrition in Arabidopsis. PLoS
+bioinformatic/bts44
+Genetics, 5, e1000492.
+Mamidi, S., Lee, R. K., Goos, J. R., & McClean, P. E. (2014). Genome-wide
+Baxter, I. R., Vitek, O., Lahner, B., Muthukumar, B., Borghi, M., Morrissey,
+association studies identifies seven major regions responsible for iron
+J., Salt, D. E. (2008). The leaf ionome as a multivariable system to
+deficiency chlorosis in soybean (Glycine max). PLOS ONE, 9, e107469.
+detect a plant's physiological status. Proceedings of the National Acad-
+htips/doiong/101371joumalpone0107469
+emy of Sciences of the United States of America, 105, 12081-12086. Oliveira, M. F., Nelson, R. L., Geraldi, I. O., Cruz, C. D., & de Toledo, J.F. F.
+htps/doiorg/101073/pna.0804175105
+(2010). Establishing a soybean germplasm core collection. Field Crops
+Baxter, I. R., Ziegler, G., Lahner, B., Mickelbart, M. V., Foley, R., Danku,
+Research, 119,277-289. htps/doiorg/10.10161.fc:201007.021
+J., Hoekenga, O. A. (2014). Single-kernel ionomic profiles are Qanbari, S., Pimentel, E. C., Tetens, J., Thaller, G., Lichtner, P., Sharifi, A.
+highly heritable indicators of genetic and environmental influences
+R., & Simianer, H. (2010). The pattern of linkage disequilibrium in
+on elemental accumulation in maize grain (Zea mays) (X. Zhang,
+German Holstein cattle. Animal Genetics, 41, 346-356.
+Ed.). PLOS ONE, 9, e87628. https/doiorg/10.1371/journalpone. Segura, V., Vilhjalmsson, B. J., Platt, A., Korte, A., Seren, U., Long, Q., &
+0087628
+Nordborg, M. (2012). An efficient multi-locus mixed-model approach
+Benitez, E. R., Hajika, M., & Takahashi, R. (2012). Single-base substitution
+for genome-wide association studies in structured populations. Nat-
+in P1B-ATPase gene is associated with a major QTL for seed
+ure Genetics, 44, 825-830. htpc/idbiony1o1008.ne214
+
+
+
+14
+ZIEGLER ET AL.
+ampricansocitiy Plant Biologists -SOB-WILEY
+SOcuT
+BIDLOO
+Shakoor, N., Ziegler, G., Dilkes, B. P., Brenton, Z., Boyles, R., Connolly, E. Warnes, G., Gorjanc, G., Leisch, F., & Man, M. (2013). Genetics: Population
+L., Baxter, I. (2016). Integration of experiments across diverse
+genetics. Retrieved from htps/cranr-projectorg/web/packages
+environments identifies the genetic determinants of variation in Sor-
+genetics/genetics.pdf
+ghum bicolor seed element composition. Plant Physiology, 170, 1989- Yu, D., Danku, J. M., Baxter, 1., Kim, S., Vatamaniuk, O. K., Vitek, O.,
+1998. https/doi.org/10.110.1104/pp.15.01971
+Salt, D. E. (2012). High-resolution genome-wide scan of genes, gene-
+Shigaki, T., Pittman, J. K., & Hirschi, K. D. (2003). Manganese specificity
+networks and cellular systems impacting the yeast ionome. BMC
+determinants in the Arabidopsis metal/H+ antiporter CAX2. Journal
+Genomics, 13, 623. htps/doiorg/101186/1471-2164-13-623
+of Biological Chemistry, 278, 6610-6617. htips/doiog/1010747bc Ziegler, G., Terauchi, A., Becker, A., Armstrong, P., Hudson, K., & Baxter,
+M209952200
+I. (2013). lonomic screening of field-grown soybean identifies
+Song, Q., Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W., Nelson, R. L.,
+mutants with altered seed elemental composition. Plant Genome, 6(2),
+& Cregan, P. B. (2013). Development and evaluation of SoySNP50K,
+0. htp/doiongy1o3835ipantgenome2012070012
+a high-density genotyping array for soybean. PLOS ONE, 8, e54985.
+htps/doiong/101371/ourmalpome0054985
+Tian, H., Baxter, I. R., Lahner, B., Reinders, A., Salt, D. E., & Ward, J. M.
+(2010). Arabidopsis NPCC6/NaKR1 is a phloem mobile metal binding SUPPORTING INFORMATION
+protein necessary for phloem function and root meristem mainte- Additional Supporting Information may be found online in the
+nance. Plant Cell, 22, 3963-3979. htpzlidsionpioi1o5ec10
+sup-
+080010
+porting information tab for this article.
+VanRaden, P. M. (2008). Efficient methods to compute genomic predic-
+tions. Journal of Dairy Science, 91, 4414-4423. https://doi.org/10.
+3168/jds.2007-0980
+Venables, W. N., Ripley, B. D., & Venables, W. N. (2002). Modern applied
+How to cite this article: Ziegler G, Nelson R, Granada S,
+statistics with S. New York, NY: Springer. htps/doiorg/101007
+Krishnan HB, Gillman JD, Baxter I. Genomewide association
+978-0-387-21706-2
+study of ionomic traits on diverse soybean populations from
+Wallace, J. G., Bradbury, P. J., Zhang, N., Gibon, Y., Stitt, M., & Buckler,
+germplasm collections. Plant Direct. 2018;2:1-14.
+E. S. (2014). Association mapping across numerous traits reveals pat-
+terns of functional variation in maize. PLOS Genetics, 10, e1004845.
+htpglésiop/1010010433
+htps/doiorg/101371/oumal.pgen.1004845

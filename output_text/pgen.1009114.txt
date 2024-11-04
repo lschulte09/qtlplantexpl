@@ -1,0 +1,1185 @@
+PLOS GENETICS
+RESEARCHARTICLE
+Selection of GmSWEET39 for oil and protein
+improvement in soybean
+Hengyou Zhango', Wolfgang Goettel',aijian Song?, He Jiango', Zhenbin Huo', Ming
+Li Wang3, Yong-qiang Charles An014*
+1 Donald Danforth Plant Science Center, St. Louis, MO,United States of America, 2 US Departmentof
+Agriculture, Agricultural Research Service, Soybean Genomics and ImprovementLaboratory, Beltsville, MD,
+United States of America, 3 US Department tof Agriculture, Agricultural Research Service, Plant Genetics
+Resource ConservationUnit, Griffin, GA, United States of America, 4 US Department of Agriculture,
+Agricultural Research Service, Plant Genetics Research Unit at Donald Danforth Plant Science Center,
+St. Louis, MO, United States of America
+o These authors contributed lequally to this work.
+Yomg,gang,An@arsusdago
+Check for
+updates
+Abstract
+Soybean [Glycine max (L.) Merr.] was domesticated from wild soybean (G. soja Sieb. and
+Zucc.) andhas been further improved as a dual-use seed crop to provide highly valuable oil
+GOPEN ACCESS
+and protein for food, feed, and industrial applications. However, the underlying genetic and
+Citation: Zhang H, Goettel W, Song Q, JiangH, Hu molecular basis remains less understood. Having combined high-confidence bi-parental
+Z, Wang ML, et tal. (2020) Selection of
+GmSWEET39 for oil and proteini improvement in linkage mapping with high-resolution association analysis based on 631 whole sequenced
+soybean. PLOS Genet16(11): e1009114. https:/l genomes, we mapped major soybean protein and oil QTLS on chromosome15to a sugar
+am@prioisTipmaisgenioeie
+transporter gene (GmSWEET39). Atwo-nucleotide CC deletion truncating C-terminus of
+Editor: Deyue Yu, Nanjing Agricultural University, GmSWEET39was strongly associated with high seed oil and low seed protein, suggesting
+CHINA
+its pleiotropic effect on protein and oil content. GmSWEET39was predominantly expressed
+Received: May 15, 2020
+inparenchyma and integument ofthe seed coat, and likely regulates oil andprotein accumu-
+Accepted: September 12, 2020
+lation by affecting sugar deliveryfrom maternal seed coatto the filial embryo. We demon-
+strated that GmSWEET39has a dualfunction for both oil and protein improvement and
+Published: November 11, 2020
+undergoes two different paths of artificial selection. A CC deletion (CC-)haplotype H1 has
+Copyright: This is an open access article, free of fall been intensively selected during domestication and extensively used in soybean improve-
+copyright, and may befreely reproduced,
+distributed, transmitted, modified, built upon, or ment worldwide. H1 is fixedinNorth American soybean cultivars. The protein-favored (CC
+otherwise used by anyone for rany lawful purpose. +) haplotype H3 still undergoes ongoing selection, reflecting its sustainable role for soybean
+The worki is made available under the Creative
+proteinimprovement The comprehensive knowledge on the molecular basis underlying the
+Commons CCO public domain dedication.
+major QTL and GmswEE739haplotypes associated with soybean improvement would be
+Data Availability Statement: All relevant data are valuable to design new strategies for soybean seed quality improvement using molecular
+within the manuscript tand its Supporting
+breeding and biotechnological approaches.
+Information files.
+Funding: The research is funded byUS
+Department tof Agriculture, Agricultural Research
+Service (ntips/wwwars.usdagow; Project#:
+5070-21000-042-00-D) and the United Soybean
+Author summary
+Board ewg.hwwushebaodenopUss
+Project #: 1920-152-0103-B, 920-152-0103-A12
+We map highly effective protein and oil QTLsto a seed coat-preferentially expressed
+and 11420-632-6607) to YQA. The funders had no
+sugar transporter (GmSWEET39) gene by a combination of association analysis based on
+role in study design, data collection and analysis,
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+1/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+decision to publish, or preparation of the
+manuscript
+631 whole-genome sequencing data and a bi-parental linkage mapping, proving that
+Competing interests: The authors have declared
+GmSWEET39has pleiotropic associations with two ofthe most important soybean traits,
+that tno competing interests exist.
+seed protein and oil. A 2-bp (CC) deletion in GmSWEET39is associated with higher seed
+oil andlower seed protein, and has been extensively selected and used worldwide, likely
+for higher oil. The intensive use or fixation ofthe CC deletion in soybean breeding result
+in low protein in current soybean cultivars, which is a big problem facing the current soy-
+bean industry. The knowledge about the genetic basis and identification oftwo major hap-
+lotypes for high protein and high oil should be highly significant to address the issue
+related to low protein in the current soybean industry and meet dramatically increasing
+need for plant-based protein in the food industry. Our successful integrative and "big-
+data-driven" approach, which uses the huge amount of genome and transcriptome
+sequencing and phenotypic data available in the community, should provide an effective
+case study for post-genomic data-driven research.
+Introduction
+Cultivatedsoybean [Glycine max (L.) Merr.] is an important seed crop grown worldwide. It
+was domesticated from wild soybean (G. soja Sieb. and Zucc.) in East Asia approximately
+6,000-9,000 years ago and has been further improved through breeding as a major oilseed
+crop to provide a source ofboth valuable vegetable oil and protein for uses in food, feed, and
+industrial applications [1]. Unlike in Asia where farmers grew locally adaptedlandraces and
+selections ofthem for thousands ofyears, soybean has a short history in North America, andit
+was introduced to North America in 1765. Soybean had been mostly grown as a forage crop in
+North America for the next 155 years until the importance ofsoybeans as a valuable source of
+protein and oil was realized at the beginning ofthe 20th century. Starting from the 1920s, soy-
+bean has been grown as a seed/grain crop mainly for seed protein and oil. Soybean yield (bush-
+els per acre) nearly doubled since 1987 [2], making soybean one ofthe sustainable crops to
+meet the rapid demand for plant-based protein and oil for a continuously increasing world
+population [3]. However, it was often observed that protein content in seeds is quantitatively
+inherited and negatively correlated with seed oil content andyield [4-6], making it challenging
+to increase soybean protein content while maintaining the desired seed oil level and seed yield.
+In the past decades, over 300 quantitative trait loci (QTLs) controlling soybean seed oil and
+protein content have been identified using accessions with the different genetic background
+[7], suggesting that soybean oil and protein content are subject to ahighly diverse and complex
+genetic control. Although great efforts have been dedicated to utilizing diverse genetic
+resources to develop cultivars containing both improved protein and oil traits or improve one
+trait without a negative impact on the other trait, progress has been limited. In contrast, it was
+observed that US commercial cultivars released over the past several decades contain decreased
+seed protein content (itp/luntedsoybeanorg), which is likely an unintended consequence
+ofa strong selection for high oil. To effectively exploit the soybean diversity to improve the
+seed traits with no or little negative impact on the others, it is crucial to identify the causative
+genes/alleles for major QTLs and illustrate the molecular basis underlying their associated trait
+interaction and genetic diversity in soybean domestication and breeding.
+In the present study, having applied a combination ofhigh confidence bi-parental linkage
+mapping using a population of recombinant inbred lines (RIL) and high-resolution association
+analysis using 631 diverse whole genome sequences, we mapped a major protein and oil con-
+tent QTL on chr15 to a sugar transporter gene and demonstrated that the sugar transporter
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+2/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+gene was preferentially expressed in seed coat tissues. We furtherrevealed that a 2-bp (CC)-
+deletion in the gene was associated with the variation of seed oil and protein content. The CC
+deletion was selected during soybean domestication and improvement. Haplotype analyses
+showed that a CC deletion-carrying haplotype is widely present in cultivated soybeans grown
+worldwide and has been fixed in US modern soybean breeding, highlighting the significance
+ofthe high-oil CC-deletion haplotype in soybean improvement. The CC-deletion allele also
+contributes to low protein in modern soybean cultivars, a big problem facing the current soy-
+bean industry. Our result will greatly advance our understanding of fthese complex seed quality
+traits and benefit seed improvement in soybean.
+Results
+Linkage analyses identified a major QTL region controlling both seed oil
+and protein content
+A population of300 RILS was used for linkage analyses. The two parentallines exhibited signif
+icant differences in seed oil and protein content, with Williams82 (G. max) seeds containing
+39.33% protein and 20.47% oil content, and PI479752 (G. soja) containing 43.99% protein and
+9.82% oil content (SIA Fig). RILS varied widely in seed oil (9.82-20.47%) and protein (37.64-
+47.99%), and protein and oil content were negatively correlated in the RILS (r = -0.76) (Fig
+1A). Broad-sense heritability (H?) ofoil and protein in the RILS across two-year tests were 0.87
+and 0.82, respectively, indicating that both traits were mainly controlled genetically which
+allows a substantial genetic improvement ofoil and protein content.
+Composite interval mapping with the SoySNP50K genotyping data identified two major
+QTLs on chr15 and chr20 (S1CI Fig). We focused on the QTL on chr15 in this study. Two over-
+lapping QTLS, qSeedOil_15 and qSeedPro_15, for oil (LOD = 12.95) and protein
+(LOD = 10.84) were identified respectively (Fig 1B). qSeedOil_15was flankedby two markers
+Gm15_2391075.G_A and Gm15_6028005_AG (8.94-29.10 CM), while qSeedPro_15 was
+flanked by Gm15_1989918_T.G and Gm15_5829758.G_T (7.18-28.21 cM). Both QTLs phys-
+ically spanned approximately 4 Mb (physical interval, chr15: 2.0-6.0 Mb) and 92.0% of the two
+QTLintervals overlapped. This region coincided with previously-published major QTLs for
+seed oil or protein content in soybean [4,8-11], indicating that this region contained a major
+QTL gene(s) contributing significantly to thel large variation in both protein and oil content.
+A sugar transporter gene highly associated with the seed protein and oil
+QTL
+To uncover the gene(s) underlying qSeedOil 15 and qSeedPro_15, we carried out association
+analyses ofthe two traits with DNA variants within the 4 Mb QTL region using a panelof631
+diverse wild and cultivated soybean accessions collected worldwide. Accessions in this panel
+had a wide variation in seed protein (32.5-52.3%) and oil content (10.1-23.5%). Overall, the
+two traits were significantly negatively correlated (r = -0.62) (S1B Fig). We analyzed the whole
+genome sequences ofthe 631 accessions and identified la total of96,813 DNA variants includ-
+ing 79,725 single nucleotide polymorphisms (SNPS) and 17,088 insertions and deletions
+(indels) in this 4-Mb region. These DNA variants in the region were tested for their associa-
+tions with oil and protein. The association analysis revealed that three most significantindels
+(DT15_3875621, DT15_3875101, DA15_3874703) for oil contentlocated in a cluster ofDNA
+variants spanning a 34-kb region that was highly significant (p < le-5) for seed oilin this
+panel (Fig 1C). The three most significant indels were also highly significant for protein con-
+tent (S2 Table). This finding was consistent with the observation that the two QTLs were
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+3/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+A 257
+B
+r=-0.76
+13.04
+A 20-
+10.4t
+Trait Position (CM) LOD Additive R
+f
+15-
+7.8t
+Protein 18.41
+10.84 -0.75 0.16
+5.2t
+Oil 19.11
+12.95 0.54 0.17
+b0 10-
+2.6t
+45
+50 0.0t
+Protein content (%)
+0 11 22 33 44 55 66 78 89 100 111 CM
+C
+8 -
+DT15_3875621
+6
+DT15_3875101
+4
+1
+I
+2
+0
+8
+6
+DT15_3875101
+4
+1
+2
+0
+2.0
+3.0
+4.0
+5.0
+6.OMb
+DT15_3875101
+D
+HHH H
+-H 1
+*H H
+EHH
+X &
+R2 color key
+0 0.2 0.4 0.4 0.8
+SE
+1
+o
+E
++
+1452
++
+P1468916 F
+P1479752 25- *** 557
+P1407788A e 20-  &
+--
+CC TA P1483460B 15-
+a 50-
+TATC
+Harosoy I 10-
+Lee
+45-
+Jackson 3 5-
+Essex
+CC
+cc
+Williams82
+Glyma. .15G049200
+Fig 1. Identification ofthe major QTL on chromosome 15 and its underlying candidate gene. (A) Seedoil land protein
+from RILS exhibiteda negative correlation. (B) Linkage mapping using RILS sidentified two overlapping QTLS on Chr15 for
+oil land protein, respectively. (C) Regional lassociation analysis identified lacluster ofvariants significantly associated with oil
+and protein content. The red solid dot represents a significant association (DT15_3875101). (D) Six gene models and the LD
+pattern within the significant 34-kb region. (E) IGV view ofvariant patterns between high protein and low protein soybean
+genotypes. The two variants occurring in the non-codingregion were indicated with arrowsin black. Variant patterns at the
+three sites were shown as TATCI---- (alternative/reference). --/CC, and 1--/TA. (F) The CC deletion (-)atDT15.3875101
+is highly correlated with high-oil, and low-protein content. CC presence is indicatedby CC. and *** indicatethe
+significance at p< 0.05 and p < 0.001, respectively.
+htps/@boiongf101371/pumalpgen.1009114001
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+4/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+highly overlapped in the linkage mapping analysis describedabove (Fig 1B), strongly suggest-
+ing that seed oil and protein might be controlled by the same locus.
+The three most significant variants were alllocated within the genomic region of Gly-
+ma.15G049200. The indel DT15_3875101 (--/CC, reference/alternative allele) located in the
+coding region (exon 6), while the other two, DT15_3875621 (TATCI----) and DA15_3874703
+(--/TA), located in the 4th intron and the 3 untranslated region (UTR) respectively. The CC
+indel was polymorphic in two parents ofthe RIL population. The high-oil and low-protein
+parent (Williams82) contained the CC deletion (CC-) that was not present in the low-oil and
+high-protein parent (PI479752). The CC deletion in the coding sequence (CDS) of Gly-
+ma.15G049200 caused a frameshift (see below). We examined Glyma.15G049200 genomic
+sequences of631 accessions in the association panel and identified two G. max accessions con-
+taining the gene sequence identical to Williams82-type allele except for the CC deletion. The
+two accessions contained significantly lower oil content and higher protein in seeds than
+accessions carrying the Williams82-type allele (p < 0.05, see haplotype analysis section, H1 VS
+H2, Fig 4A and 4B), confirming that the CC indel rather than the other two non-CDS DNA
+variants was causative ofoil and protein variation. We also examined the parental lines
+(PI468916, PI407788A, PI483460B and Williams82) ofbi-parental linkage mapping popula-
+tions whose protein and oil QTLS were mapped to the genomic regions overlapped with qSee-
+dOil 15 and qSeedPro_15 [8, 10, 12]. Sequence alignments revealed that DT15_3875101 in
+exon 6 was the only variant in Glyma.15G049200 among these accessions fully associated with
+oil land protein content (Fig 1E). Notably, seeds ofthese accessions with the CC presence (CC
++) in Glyma.15G049200 contained 9.5% less oil (p<0.001) and 4.6% more protein (p<0.05)
+than those with the CC deletion (CC-) (Fig 1F). Thus, the CC InDel, not the other two DNA
+variants, is the causative allele for variation of oil and protein content. In addition, Gly-
+ma.15G049200 was the only one ofthe six genes within the linkage disequilibrium block show-
+ing predominant expression in developing seeds (Fig 1D, S2A and S2B Fig), implying that the
+role of Glyma.15G049200 was specific to seed filling. Glyma.15G049200 encoded an ortholog
+ofthe Arabidopsis AtSWEET15 sugar transporter (AT5G13170) that also plays a role in lipid
+accumulation in seeds [13]. Thus, all evidence suggests that Glyma.15G049200 underlies the
+QTL on chr15 controlling both protein and oil content and InDel DT15_3875101 in Gly-
+ma.15G049200 is the causative allele for protein and oil content variation.
+The CC deletion causes the truncated GmSWEET39
+Glyma.15G049200 was previously assigned as GmSWEET39 in a SWEET (Sugars Will Eventu-
+ally be Exported Transporters) gene family analysis [14]. The CC indel (DT15_3875101)
+occurred in the coding region and caused a reading frameshift starting from the 730th nucleo-
+tide of GmSWEET39. The frameshift resulted in a premature stop codon and six amino acid
+changes at the C-terminus ofGmSWEET39 in Williams82 (Fig 2A and 2B). Thus, the CC
+deletion truncated 19 amino acids from the C-terminus of GmSWEET39 in Williams82 com-
+pared with the intact GmSWEET39 in PI479752 (Fig 2C). Like its orthologous AtSWEET15
+gene [15, 16], intact GmSWEET39 encoded a sugar transporter protein with seven predicted
+transmembrane (TM) domains and a cytoplasmic C-terminal tail (Fig 2D). Lack ofthe 19 C-
+terminal amino acids and the C-terminal amino acid changes in Williams82-type
+GmSWEET39 caused no obvious change in the predicted 3-D protein structure ofthe seventh
+TM domain compared to GmSWEET39 in PI479752 (Fig 2E). However, the reading frame-
+shift changed three amino acids in the cytoplasmic C-terminal tail that appeared to be highly
+conserved in legumes (Fig 2F). Sequence alignment showed conservation between
+GmSWEET39 and two AtSWEETS (AtSWEET13, AtSWEET15) in four key amino acids that
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+5/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+A
+H
+Seed
+J
+Early maturation stage
+Willams82
+8 2000-
+Seed dcoat
+Dry yseed
+L
+P1479752
+H
+Late maturation stage
+120 40
+Cotyledon
+B
+Mid maturation stage
+MaaIg ns CC TGETGAAGTCTTG AA
+AAA 788
+Early maturation stage
+Axis
+Cotyledon stage
+PHAIE
+802
+Heart stage
+Globular stage
+C
+VENRRGSO
+Floralbud
+Piemonse EV
+vvi DO AKD
+248
+Seedling
+a
+E
+D.
+Stem
+Williams82
+Leaf
+Root
+y
+0.8
+0 20 4080100 H
+T 1
+-
+Relative expression
+a Outer rintegument
+15
+14
+-
+E Inneri rintegument
+- Hilum
+- Endothellum
+Trans
+Outside
+s Endosperm Embryoproper
+F
+Epidermis
+P1479752
+EVYPTÉE ECBA NSD Ibyy VNE -OSKGENE Lup
+Suspensor
+KD
+vGe
+OD
+Globular stage Heart stage Cotyledon stage
+K Globular Stage
+Heart Stage
+Cotyledon Stage Early Maturation Stage
+Asis Seed
+ES
+ES
+EPE
+ES
+EPD
+PAXE
+alla
+ENT
+ENT
+G
+76 180 196 20 142
+145 176
+AISWEET15 LV MWF PNV
+EPS
+CASMETS EW: W
+isi
+VF LNA Disaccharide
+ENT
+AISWEET1 LSA SWF s MVE LNC IMY LCG Monosaccharide
+AISWEET3 I) LWL
+AS LLY FNC
+E
+SMY LAS
+E
+Fig 2. Sequence and expression analysis of GmSWEET39 alleles. (A) A schematic diagram shows the sequence variation that occurs in the 6th exon between the
+two parental lines ofthe RIL population, Willams82 and PI479752. (B) The CC deletion in Williams82 causes a reading frameshift tanda truncated protein at the
+C-terminus. (C) GmSWEET39 is 19 amino acid shorter in Williams82 than it in PI479752. (D) Predicted transmembrane domains in GmSWEET39. The
+sequence differences as shown in (B) and (C) werehighlighted with the gray dottedrectangle. (E) Comparison ofthe3D protein structure between Willams82 and
+PI479752 GmSWEET39 proteins. The difference in the structure at the C-terminal tails is highlighted with rectangles sin blue and red. (F) Sequence alignment
+between the C-terminal peptides ofthe SWEEThomologs from different species including legumes. The putatively conservedregion washighlighted with the
+rectangle in red. (G) GmSWEET39is conserved lat tthe amino acids essential lfor disaccharide transport. (H) A bar plot showing the expression patternof
+GmSWEET39 in differentsoybean tissues and the whole seeds at different maturation stages. (I) Relative expression ofGmSWEET39 Pin different tsubregions of
+developing seeds ofsoybean cultivar Williams 82 (CC deletion) at globular, heart, and cotyledon stages. () Relative expression pattern ofCC-deleted
+GmSWEET39 in thesub- -regions in developing seeds ofWilliams 82 at the early maturation stage. (K) Cartoon depicting the expression pitternsofGmSWEET39
+in difiecnttisue/ompurtmens ofglobular, heart, cotyledon, andearly maturation seeds ofWilliams 82 (CC deletion). Abbreviation: AB-Abaxial; AD-
+Adaxial.AL-Aleurone, AX-Axis; Cot-Cotyledon; EP-Embryo Proper; EPD-Epidermis; ENT-Endothelium; ES-Endosperm; FBUD- -Floral Bud;HG-
+Hourglass; HI-Hilum; II-Inner Integument; OI-Outer Integument; PA-Palisade; PL-Plumule; PY-Parenchyma; RM-Root Meristem; ;S-Suspensor;SC
+-Seed Coat;SM-Shoot Meristem; VS-Vascular Bundle. The seed images were acquired from Wplhedpostnustsedisgews
+htpsliboiongr10131/pumaalpgen.10091140002
+were specific to disaccharide transport [15], suggesting the potential role ofGmSWEET39 in
+transporting disaccharides (Fig 2G). It remains to be determined how the amino acid sequence
+change andloss ofthe 19 amino acids affect the activity ofGmSWEET39 and impact oil and
+protein accumulation in seeds.
+GmSWEET39 encodes a sugar transporter preferentially expressed in
+developing seed coat
+We examined expression patterns of GmSWEET39 (CC-) in soybean major organs and differ-
+ent seed compartments of Williams 82 at different seed development stages using the Gold-
+berg-Harada Soybean RNA-Seq Dataset (htrp_/sedgenenetwork.net/soybean), Interestingly,
+GmSWEET39 was predominantly expressed in the floralbud and developing seeds (Fig 2H).
+Briefly, the accumulation of GmsWEET39transcripts in seeds was detected as early as the
+globular stage and reached the highest level at the early maturation stage over the course of
+seed development. The transcript abundance significantly decreased after seeds reached the
+early maturation stage and lit was undetectable in the late maturation and dry seed stages.
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+6/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+Before the early maturation stage, transcripts of GmSWEET39began to accumulate in some
+subregions ofthe seed coat such as the inner/outer integuments during the heart and cotyledon
+stages (Fig 2)). Atthe early maturation stage (Fig 21), transcripts ofGmSWEET39 showed a sig-
+nificant accumulation in subregions ofthe cotyledon (abaxial epidermis) and seed coat (paren-
+chyma). Notably, the transcript abundance in the parenchyma ofthe seed coat at the early
+maturation stage was approximately 60-400 times higher than in the abaxial epidermis and
+outer integument at the cotyledon stage. Expression patterns ofGmSWEET39 in the aforemen-
+tioned compartments ofdeveloping seeds were illustrated in Fig 2K. These results suggest the
+special role of GmSWEET39 during seed development, especially in the parenchyma of fthe seed
+coat. In plants, parenchyma is the innermost part ofthe seed coat with direct contact with the
+endosperm [17]. This layer is crucialin assimilate unloading from the maternal seed coat and lin
+the initiation ofthe storage phase in legumes [18]. Given that GmSWEET39 encoded a sugar
+transporter that is specifically expressed in seed coat subregions during seed development, itis
+reasonable to presume that GmSWEET39 plays an important role in facilitating sugar transfer
+in the seed coat to allocate photosynthetic sucrose into the embryo and that the increased
+sucrose accumulation enhances the subsequent sucrose-derived fatty acid biosynthesis [19, 20].
+GmSWEET39 has been selected over soybean domestication and
+improvement for oil and protein improvement
+We examined the indexes of selection in the 1-Mb genomic region harboring GmSWEET39
+using the fixation index (Fst), diversity (T) and Tajima's D. The results from these indexes all
+indicated that GmSWEET39 located in an approximately 40-kb genomic region that under-
+went a selective sweep (Fig 3A), suggesting that GmSWEET39 underwent selection during soy-
+bean domestication.
+A
+B
+C
+0.87
+Wild
+97.41% CC
+2.59% -
+257
+0.6-
+E 0.4-
+0.2-
+15
+0.0+
+3300000 3550000 3800000 4050000 4300000
+Total=116
+10-
+207
+Landrace
+23.85% CC
+5
+T
+76.15% -
+CC -- CC - CC --
+10-
+l
+- 5- M
+Mw
+0+
+D
+3300000 3550000 3800000 4050000 4300000
+Total=130
+8- G.max G.soja
+55-7
+Cultivar 14.61% CC
+50-
+- 85.39% --
+45
+40-
+3300000 3550000 3800000 4050000 4300000
+Chromosome 15
+35-
+Total=89
+CC CC CC
+Fig3. Genetic diversity and allele analysis of GmSWEET39. (A) Genetic diversity (1), Tajima'sD, and fixation index (Fst) among the three groups
+across the 1-Mb genomic region harboring GmSWEET39. The horizontal dotted line indicates the genome-wide threshold las described by Wang etal
+[50]. Ared dashed line indicates the physical position of GmSWEET39. (B) Genotype frequency distribution ofCC presence (CC) and absence (--)in
+GmSWEET39 in wild, landrace, and limproved cultivar. Allelic analysis ofCC presence(CC) and absence (--)in GmSWEET39 on oil(C) and protein
+content (D). *** indicates the statistical significanceatp < 0.001. ns: not significant
+htpsidoiongroianl/pumaalpgen1009114000
+PLOS Genetics Imtpszldoiorg1o.137t/oumalpgen.1009114 November 11, 2020
+7/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+We split the panel lofaccessions into wild soybean (G. soja), landrace, and improved cultivar
+based on available germplasm type assignment and examined the allelic frequency ofthe CC
+deletion. We detected three CC- G. soja accessions. The allelic frequency ofthe CC deletion
+increased over the course of soybean domestication and improvement with 2.59% (3of 114) in
+wild soybean, 76.15% (99 of 130) in landrace and 85.39% (76 of89) in improved cultivar (Fig
+3B). We also observed increases in oil content in CC- accessions over the courses of soybean
+domestication (G.soja to landrace) and improvement (landrace to cultivar) (Fig 3C). In CC-
+accessions, oil content significantly increased by 4.72% (p < 0.001) from G. soja to landrace
+and 1.35% (p < 0.001) from landrace to cultivars. However, oil in CC+ accessions was
+decreased by 0.5% during the transition from landrace to cultivars. The increasing trend ofoil
+content in CC- accessions was consistent with that ofCC- allele frequency over the transitions
+in G. soja-landrace-cultivar (Fig 3C), suggesting that the CC- allele rather than CC+ allele was
+selected and used for high oil during both domestication and improvement processes.
+In consistence with observed negative relationship ofoil and protein content, protein con-
+tent reduced in CC-accessions during the domestication and improvement (Fig 3D). Protein
+content was decreased in CC+ accessions from G. soja tolandrace. On the contrary, protein
+content was significantly increasedby 4.38% (p < 0.001) in CC+ accessions during the transi-
+tion from landrace to cultivar. This finding with protein changes suggested that CC+ allele of
+GmSWEET39 might be selected and used for developing high protein cultivars during the
+improvement process. These observations implied that soybean might experience two paths
+for soybean oil and protein improvement using the two distinct alleles of GmSWEET39: CC-
+has been selected/used for oil improvement the over the courses ofsoybean domestication and
+improvement while CC+ allele has been selected/used for developing high protein cultivars
+during the improvement of G. max accessions.
+We further examined oil and protein content difference between CC- and CC+ accessions
+within each germplasm group. Oil was averagely higher in CC- than CC+ accessions within
+wild (2.8% increase), landrace (2.94% increase, P < 0.001), and cultivar (4.80% increase,
+P < 0.001) (Fig3C). Accordingly, protein content in CC- accessions was lower than CC
++ accessions within each ofthe three groups (2.70% decrease in wild, 1.15% decrease in land-
+race) with the greatest difference seen in cultivars (6.53% decrease, P < 0.001) (Fig 3D). These
+results were supportive ofthe pleiotropic roles of GmSWEET39 on oiland protein. Notably,
+more dramatic differences for both oil and protein content between CC- and CC+ accessions
+in cultivars than landrace were observed. This could be the result of differentially integrating
+oil-favor alleles and protein-favor alleles of fother QTLsin CC- and CC+ accessions during soy-
+bean improvement for high oil and high protein cultivars, which augment the difference of
+CC- and CC- cultivars in protein and oil.
+Discriminatory uses of the two major haplotypes in oil and protein
+improvement
+We performed a haplotype analysis for the accessions used in the association panel by examin-
+ing the sequence diversity ofthe transcribed genic region of GmSWEET39 and the 1.0kb
+region upstream ofthe start codon (ATG). Based on patterns ofthe fragment variants, we
+identified 19haplotypes with each detected in at least two accessions (Fig 4A, S3 Table).
+H1-H4 haplotypes were uniquely present in G. max, while H5-19haplotypes were restrictedto
+G. soja. CC- was specifically present in H1 haplotype and its accessions accounted for 70.7%
+(335 accessions) of 474 examined accessions, representing the biggest haplotype group. The
+resthaplotypes had less than 2.4% haplotype frequency except for H3 with 15.4% (73 of474
+accessions). Consistent with our earlier finding, Hl-accessions contained 2.5% higher oil
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+8/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+A
+B
+Oil content (%) Protein content (%)
+spapge so 99P99000 S3h timge NPVO Prg 40 dee / 5 10 15 20 25 30 35 40 45 50 55
+H1ATT
+TGAAG CGGTATC C T G TG A 335 G. max H1 $ H
+H  
+H2AT T
+T G A A G C G GTATC C T G C T GCC A 2 G. max H2
+H
+H3AT- AAGTTTCTA T G A A G C GG ACGTTACC T 73 G. max H3
+H4AC T AAGTTTCTA A C C G G C GG AC G T TACC T 3 G.max H4
+H5AC T AAGTTTCTA A C CGG C GG ACGTTACC T 3 G.soja H5 #
+H6AT T AAGTTTCTA A G A A G C G G A C G ACC T 11 G. soja H6 HH
+H7AC T AAGTTTCTA A C C GCTC GG - ACGTTACC T 11 G. soja H7 HH
+H8A T T AAGTTTCTA A C C G C T C G C - A C G T TACC T 2 G. soja H8 H
+H9T T T AAGTTTCTA A G A GG C G G TATC C T GCTGCCA 4 G. soja H9 H
+H10A C T AAGTTTCTA A G A G G C G G TATC C T G C T GCC A 6 G. soja H10 mH
+H11A C T AAGTTTCTA A C A G G C G G TATC C T G CTGCC A 2 G. soja H11 #
+:
+H12A T T AAGTTTCTA A G A A G C G G TATC C T G C T GCC A 2 G. soja H12 I
+H
+H13T T T AAGTTTCTA A G C G C C G G TATC C T G CTGCC A 2 G. soja H13 I
+H14A T T AAGTTTCTA T C C G C T C G GTATC C T G C TGCC A 2 G. soja H14 #
+H15A T T AAGTTTCTA A C A J C T C G G TATC C T G C TGCC A 2 G. soja H15 H
+H16T T T AAGTTTCTA T C C GG G C G C T G C TGCC A 2 G. soja H16 #
+H17T T T AAGTTTCTA T G C G CT CG GTATC C T CCTGCC A 2 G. soja H17 #
+H18T T T AAGTTTCTA A G A GG C G GTATC C T G C CGCC A 8 G. soja H18 HH
+H19A T T AAGTTTCTA A G A G G C G G TATC C T G C CG CC A 2 G. soja H19 I
+H
+Pe
+688 8
+C
+90-
+o H1 A H3
+4
+60-
+30-
+de
+E
+0-
+00
+-30-
+-60-
+-120
+-80
+-40
+0
+40
+80
+120
+Longitude
+D
+E
+H1
+H3
+Illini/A.K. (Harrow)-t
+75.52% 253Asia
+CNS-
+16.42% 55North America
+95.89% 70Asia
+Tokyo-
+5.37% 18Europe
+2.74% 2North America
+Ogdent
+1.49% 5SouthAmerica
+1.37% 1Europe
+Dunfield-
+1.19% 4Africa
+Richland-
+Total=335
+Total=73
+Lincoln-
+S-100 (UA)-
+VZA 57.14% 40China
+Mandarin-
+222 85.45% 47USA
+12.86% 9South Korea
+Roanoke-
+-
+L 14.55% 8Canada
+10.00% 7Japan
+Arksoyt
+20.00% 14 Others
+Mukdent
+Total=55
+Total=70
+Volstate-
+Perry- e
+Haberlandt-
+Jackson-
+EZa 70.36% 178 China
+Capital-
+13.04% 33 Japan
+FC 31745-
+6.32% 16 South Korea
+PI 1171442-
+10.28% 26 Others
+PI 188788-
+Total-253
+P171506- -
+Manchu-
+0 10 20 30 40 50
+Numer of times
+Fig 4. Analyses of haplotype distribution worldwide and the use frequency ofH1 in US soybean breeding. (A) A schematic diagram
+shows the distribution of all DNA variants sidentifiedin GmSWEET39 andits putative 1,000-bp promoter region. 19 haplotypes (H) were
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+9/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+illustrated lin thelower panel. The number of faccessions carrying the corresponding haplotypes and the subspecies categorization was
+indicatedbeside the panel(B) Phenotypic comparison (oil and protein) among the 19haplotypes. * and indicate the statistical
+significanceatp < 0.05, < 0.01,andp < 0.001, respectively. (C) Geographic distribution oftwo major haplotypes (H1,H3) across the
+world. (D) Pie charts show the percentage ofthe origin ofthe two haplotypes, H1 and H3, importantfor oil contentand protein content,
+respectively. The top pie chart tin each haplotype shows the overall distribution by continent. The lower charts indicate detailed information
+for Asia and North America. The percentage, amount tofaccessions, and origin per haplotype are indicated next to the color representation
+in the legend. (E) Number oftimes that the 22 representative cultivars carrying the CC deletion used lin breeding soybean cultivars. Y axis
+indicates the number oftimes that the corresponding cultivar hasbeen used for soybean breeding.
+htpslidouongrioiarl/poumalpgen.100911400
+content (p < 0.001) and 2.2% lower protein content (p < 0.001) than those in accessions carrying
+H2-H4, and much higher oil content (8.25%, p < 0.001) and lower protein (4.14%,P < 0.001)
+than all testing G. soja accessions (H5-H19) (Fig 4B). H1 and H2 haplotypes differed only at the
+CCindel while H1 contained 3.1% higher in oil (p < 0.05) and 3.4% lower protein content than
+in H2haplotypes, further verifying that CC deletion is the major cause ofthe observed differences
+in both traits. In contrast, H3 accessions with 2.5% lower oil content (p < 0.001) contained 2.2%
+higher seed protein (p < 0.001) than H1. H1 and H3, collectively representing 98.8% ofG. max
+accessions in the association panel, were two major haplotypes of GmSWEET39 that contributed
+to the phenotypic variations in oil and protein in G. max. However, none ofthe DNA variants
+such as CC indel orhaplotype variation of GmSWEET39 accounts for the dramatic differences in
+protein and oil between G.soja and G. max. This finding was consistent to the above allelic analy-
+sis, suggesting that additional QTLs such as QTL on chr20 might contribute to the observed dif-
+ferences in protein and oil contentbetween G. soja and G. max accessions.
+We also mapped all haplotypes to their geographic origins aimed to understand the use of
+haplotypes in soybean improvement (Fig 4C). Overall, haplotypes (H5-H19) from wild soy-
+bean (G. soja) were restricted to East Asia where wild soybeans originated [21]. In contrast,
+haplotypes (H1-H4) from cultivated soybean (G. max) had a wider geographic distribution
+worldwide (Fig 4C). Ofthe four G. max haplotypes, H1-carrying accessions with high oil (Fig
+3B) were widely distributed with 75.52% ofall accessions (253) found in Asia followedby
+16.42% (55) in North America (Fig 4D). Itis important to note that the H1 haplotype was
+nearly fixed in the United States as 95.92% (47 of49) ofUS-bred cultivars in this study carried
+the H1 allele. To further confirm, we examined CC- allele in 75 historically important landrace
+and milestone cultivars representing North American soybean breeding history from 1907 to
+2002. These cultivars belonged to a wide range of maturity groups (MG) from MG Oto MG
+VIII [22]. The CC- allele ofGmSWEET39 was present in all ofthe 75 historical cultivars
+including the 22 founder cultivars, which have been used in breeding soybean cultivars at vary-
+ing frequencies (1-44) during the 95 years ofNorth American soybean breeding (Fig 4E, S4
+Table). These results strongly indicated that the CC- allele of GmSWEET39 was a preferable
+allele that has been maintained in modern breedingprograms and has been extensively used
+for soybean improvement worldwide, likely for oil improvement. In contrast, the accessions
+carrying H3, which contained medium levels of seed oil (16.3%) and protein (45.4%), were
+mainly from Asia (Fig 4B-4D). H3 contained the accessions that have been used for breeding
+high protein varieties, such as PI407788A from South Korea [23] and Enrei from Japan [24].
+Discussion
+Discovering a major protein and oil QTL gene and its underlying causative
+alleles using an integrative approach
+Soybean genetic studies mapped many important trait QTLs into large confident intervals gen-
+erally spanning multi-Mb genomic regions in the past decades. Itis still a challenge to identify
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+10/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+causative QTL genes and DNA variants/alleles for complex traits within such large DNA
+regions. The recent availability of genome and transcriptome sequencing data ofmany diverse
+soybean accessions and tissues provide an opportunity to dissect those large QTL regions at a
+single nucleotide and gene level to discover their causative QTL genes and alleles. In this study,
+having fine-mapped a major protein and oil QTLto a 4-Mb region on chr15 using a bi-paren-
+tal RIL linkage mapping based on SoySNP50K Chip genotyping data, we effectively pinpointed
+its QTL causative gene and allele to a sugar transporter gene, GmSWEET39, and a 2-bp CC
+deletion through an association analysis with almost all SNPS and Indels in the 4-Mb region of
+631 diverse soybean accessions. The major protein and oil QTLs have been repeatedly mapped
+to the genomic region on chr15 and extensively investigated [4, 8-10, 12, 25-27] in an attempt
+to identify their causative genes and alleles because oftheir high effect on protein and oil con-
+tent and significance in soybean agriculture since it was first identified in the 1990s [10]. Thus,
+integration ofhigh confident bi-parental genetic linkage mapping with the high-resolution
+association analysis ofthe large panel of diverse wild and domesticated soybean accessions
+should also offer an effective approach/platform to discover causative genes and alleles under-
+lying other complex traits in soybean and enhance translation from phenotype- and marker-
+based breeding into causative gene/allele based precision breeding.
+Agronomic impacts of the pleiotropic GmSWEET39 on soybean seed
+improvement
+Previous genetic studies mapped both protein and oil QTLs to the 4.0 Mb region on chr15 [8-
+10, 27], whereas, whether these traits were controlled by one gene was unknown. Here, we
+revealed that the complex and highly correlated protein and oil traits were controlled by a sin-
+gle gene GmSWEET39 with two major types ofalleles carrying CC- and CC+ that were highly
+associated with high oil andhigh protein, respectively. Differing from the two contemporary
+studies locating GmSWEET39 using genetic sweep-inferred approach followed by functional
+validation [28, 29], we identified GmSWEET39 and its causative allele (CCIndel) underlying
+the long-pursued chr15 QTL using the classic genetics and high-resolution GWAS followedby
+uncovering its dual role for oil and protein improvement. Uncovering the causative gene and
+alleles for the long-pursued chr15 QTL and the dual functions ofthe GmSWEET39 alleles
+allows us to associate it tightly with soybean decades' breeding practices and highlight its
+importance in increasing oil or protein during soybean domestication and improvement. Its
+agricultural importance was evidenced by the fixation ofCC- allelein the US cultivars during
+the 90-year soybean breeding and its extensive uses in soybean improvement worldwide. Our
+study demonstrated that the H1 and H3 account for almost all variation of GmSWEET39
+(98.8%) in cultivated soybean and contribute to high oil land high protein respectively. Itfits
+the pleiotropic role ofchr15 QTL on seed protein and oil content as revealed in our and previ-
+ous studies [8-10, 27]. It is likely that different selection pressures on H1 (CC-) and H3 (CC+),
+based on distinct needs for high oil, high protein soybean cultivars, consequently affected their
+allelic frequencies in soybean population.
+The allelic analysis revealed that GmSWEET39 experiences two different paths of selection,
+CC- allele for high oil during domestication and improvement while CC+ allele for high pro-
+tein during soybean improvement, which was rarely reportedin previous studies. However,
+artificial selection for CC- allele during domestication and improvement, in part, accounted
+for the decreasing trend ofprotein content across the transition ofwild-andrace-cultivar due
+to its negative pleotropic effect on protein content (Fig 3B-3D). In turn, recruiting its counter-
+part allele (CC+) would loffer an opportunity to reverse the general decline of protein content
+in CC- modern cultivars. For example, Brzostowski and Diers [23] introgressed lahigh-protein
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+11/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+allele ofchr15 QTL in PI407788A into two elite cultivars and showed that lines carrying chr15
+QTL from PI407788A contained higher seed protein without significant yield drag compared
+to the recurrent parents. The Japanese cultivar Enrei contains high seed protein and has been
+used for breeding high-protein cultivars for soy food production to meet Japanese diet need
+[24]. Our result show that PI407788A and Enrei carried H3 haplotype. Therefore, H3 haplo-
+type is an important allele that still undergoes ongoing selection at the present-day breeding
+for high protein content, which is in a great need ofanimal feed and plant-protein based diets
+worldwide [3]. Biased presence ofH3 haplotype in cultivated soybeans suggest the haplotype
+likely offers additionalbeneficial traits to farmers than the other two haplotypes (H2, H4) ifit
+is not caused by a biased population selection. Identification ofthe soybean accessions con-
+taining diverse GmSWEET39 haplotypes, knowledge on selection, and distribution ofthe
+major haplotypes would allow breeders to effectively select and use appropriate haplotypes for
+target-based seed improvement.
+It is known that oil and protein content are complex traits controlled by many genes [7].
+Oil and protein content in soybean seeds could be the accumulative or epistatic effects ofthese
+QTL genes [30]. Other than GmSWEET39, other major QTLs controlling oil and protein con-
+tent such as cqPro-20 on chr20 (also identified in our study) and qOil_05 on chr5 [9, 12] may
+also contribute to the total phenotypic variation. We observed that oil content increase in CC-
+accessions over the course of soybean domestication and improvement, and protein increase
+in CC+ accessions during soybean improvement. In addition, higher oil and protein differ-
+ences were detected between CC+ and CC- accessions ofmodern cultivar than of wild soybean
+and landrace. The increased and augmented difference likely attribute to continuous and dif-
+ferential integration ofadditional protein and oil QTLs for higher oil and protein respectively
+during soybean domestication and improvement. Uncovering related QTL genes and their
+causative DNA variants will provide a more comprehensive insight into the complex genetic
+basis underlying the oil and protein variation in soybean and enable us to develop effective
+strategies for precisely improving oil, protein or both in soybean.
+GmSWEET39 likely functions as a seed coat-specific sugar transporter for
+seed development
+Ithas been well demonstrated that SWEET proteins function in transporting sugar from
+source tissues to sink tissues [13, 16, 31]. Developing seed lis one ofthe major sink organs. In
+seeds, cells have been differentiated into distinct tissues with diverse functions over seed devel-
+opment. Seed coat including outer integument and parenchyma is located at the interface
+between maternal seed tissues and the filial embryo, and it functions as the "transfer station"
+to facilitate the movement of unloaded sugar from maternal tissues to the embryo and cotyle-
+don [18, 32]. Evidence have demonstrated that this transporting process is mainly mediatedby
+tissue-specific SWEET proteins in the interface tissues and those proteins are essential for seed
+filling. For example, in Arabidopsis, AtSWEET11, -12, -15 is located to the cell membrane of
+the seed coat [13]. The sweetll;12;15triple Arabidopsis mutant is defective in sugar delivery
+from seed coat to developing embryo, which consequently results in reduced starch and oil
+content and retarded embryo development [13]. Here, we demonstrated predominant expres-
+sion of GmSWEET39in outer integument and parenchyma of seed coat tissues at the early
+maturation stage. The developmental expression of GmSWEET39 was coincident with the
+stage when protein and lipid begin to accumulate in seeds [33]. It should also be noted that, at
+the early maturation stage, GmSWEET39 exhibited decreasing gradients in expression in three
+connectedlayers of tissues, from the parenchyma (seed coat) to abaxial epidermis (cotyledon)
+and to aleurone (Fig 2J and 2K), which was coincident with the possible path of sugar flux
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+12/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+from maternal seed coat to filial cotyledon [13, 34]. Interestingly, we observed that the trun-
+cated GmSWEET39 (CC-) had a higher level ofoil content, as evidencedby the H1 VS H2 com-
+parison (Fig 4A and 4B) and supported by recent reports that overexpression ofthe truncated
+GmSWEET39 increased oil in seeds [28, 29]. Previous studies have shown that replacing or
+removing the C-terminal peptide of sugar transporters significantly increased the transport
+activity by increasing the affinity for the substrates [35, 36]. GmSWEET39 has ability to trans-
+port sugar [29], and our protein structural analysis predicted that C-terminal truncation
+changed its cytoplasmic domain structure. It will be interesting to experimentally testifCter-
+minus truncated GmSWEET39 can facilitate the sugar transport across the membrane. In
+addition, it was observed that expression ofGmSWEET39 positively correlated with oil content
+[28], suggesting that expression variation of GmSWEET39 potentially also contribute to oil dif-
+ference in soybean population. Taken together, our study suggests that GmSWEET39 is a
+highly-specialized protein in transporting sugar from the maternal seed coat to the filial cotyle-
+don over course of seed development.
+SWEET proteins are encoded by a large and ancient gene family in divergent plant species,
+and associated with diverse plant physiological and developmental processes such as disease
+infection, pollen growth and seed development [13, 31, 37, 38]. Patil et. al [14] showed that
+soybean contains 52 GmSWEET genes that have been clustered into distinct subfamilies.
+Diverse expression patterns have been observed for those soybean genes, suggesting that
+GmSWEET gene family have been sub-functionalized with distinct expression patterns to
+meet diverse needs of sugar transporting for plant growth and response to environmental sig-
+nals [14]. Interestingly, GmSWEET39 and its orthologue AtSWEET15 were both predomi-
+nantly expressed in seed coat tissues and functioned in regulating oil content [13, 28].
+Arabidopsis and soybean have been diverged from each other for 90 million years [39]. The
+conservation oftheir gene expression pattern and function suggested that both SWEET genes
+preserved an ancient andimportant function in specifically transporting sugar from seed coat
+to filial embryo and cotyledon to support seed development and storage reserve production.
+Interestingly, GmSWEET15 was identified by its specific expression in the seed endosperm,
+and silencing ofit decreased 160-70% sucrose and resulted in severe seed abortion [31]. The
+orthologous pair, GmSWEET39 and AtSWEET15, were clustered with GmSWEET15 and AtS-
+WEET11 and 12 in the same subfamily [14]. This observation raises a possibility that plants
+have evolved an ancient SWEET subfamily to specifically express in those interface tissues to
+facilitate transporting sugar from maternal tissues to filial cotyledon to support seed develop-
+ment and seed filling. It willbe interesting to examine expression patterns and functions ofthe
+other SWEET genes in the subfamily to validate the hypothesis.
+Experimental procedures
+Plant materials
+A RIL population consisting of300 lines and la natural population containing 631 diverse soy-
+bean accessions were used in this study. This F2:5 RIL population was derived from a genetic
+cross between soybean (G. max) CV. Williams82 and wild soybean PI479752 (G. soja). The
+parental lines and RILS were planted at the USDA-ARS farms in Beltsville, Maryland,in 2012
+and 2015, respectively, each year with two replications in a randomizedblock design. The
+seeds per plant were bulk harvested and air-dried. Seed protein and oil content were quantified
+using near-infrared reflectance (NIR) spectroscopy DA 7250 (Perten Instruments, Sweden) at
+the USDA-ARS Soybean Genomics and Improvement Laboratory at Beltsville, Maryland. The
+natural soybean population contained 510 G. max and 121 G. soja accessions that were
+obtained from the U.S. National Plant Germplasm System Omtplepewebansgtingow)
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+13/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+The phenotypic data including seed oil and protein content wereretrieved and from GRIN
+Chtps/owwwarsgringow) and used for association study. No difference was observed for detect-
+ing the two major oil and protein QTLs on chr15 and chr20 by comparing adjusted and non-
+adjusted raw phenotypic data, which eliminated the concern of adverse effect of GRIN-sourced
+seed phenotypic data (multiple fieldlocations across multiple years) on association power [40].
+The soybean accessionsusedin this study and relatedinformation were provided in S1 Table.
+DNA extraction and genotyping
+DNA extraction was conducted using the CTAB method with minor modifications [41]. The
+DNA was extracted from fully expandedleaves collected from the RILS. Qualified DNA sam-
+ples were used for genotyping using the SoySNP50K iSelect SNP BeadChip and the SNPs were
+determined as previously described [42].
+Generation of genome-wide DNA variants at single-nucleotide resolution
+The DNA variants used for association analysis were from three sources including the re-
+sequencing of G. soja soybean accessions, SoySNP50K BeadChip [42], and the archived
+sequencing reads deposited at the public data repository NCBI SRA (htps/www.ncbi.nlm.
+nih.gov/sra). A total of91 diverse G. soja, representing over 90% diversity ofthe wild soybean
+collection in the US Soybean Collection, were re-sequenced using the Illumina NextSeq 500
+sequencer. The sequencing reads from the G. soja collection and NCBI SRA were processed
+and aligned to the soybean reference genome Wm82.a2.v1 that was downloaded from Phyto-
+zome (mpl/phyeomeig.dec.pny using BWA [43]. The UnifiedGenotyper of the GATKS
+pipeline [44] was used for the variant (SNP and indel) calling as previously described [44]. The
+qualified variants from the calling met the following criteria: read depth X 5 & quality X 50 &
+< 2 SNPS in a 10-bp window allowed. Indel variants were converted to SNP-type variants
+compatible with association analysis using TASSEL5 [45]. Read alignments were visualized
+using the Integrative Genomics Viewer [46].
+Linkage and association analysis
+The linkage map was constructed as previously described [47]. QTLs were detected by the
+composite interval mappingprocedure ofthe Windows QTL Cartographer v2.5 [48] with 2.5
+as the logarithm ofodds ratio (LOD) threshold for detecting a QTL. Association analysis was
+performed using the mixed model at TASSEL5, using the merged SNPs from three types of
+DNA variant sources describedabove. Variants (SNPS and indels) with a minor frequency
+of> 0.05 on chr15 in the population were used for association analysis. The first five principal
+components and Kinship matrix calculated using TASSEL5 were included for analysis. We
+empirically used P = le-5 as the thresholdto determine significant associations. Student'st-
+test was carried out to determine the difference significance.
+Tissue-specific expression analysis
+Detailed tissue-specific expression patterns were retrieved from Goldberg-Harada Soybean RNA-
+Seq data Onp/isedgenenctworknel) derived from developing soybean seeds at different stages
+and different soybean tissues which were dissected with Laser Capture Microdissection (LCM).
+Genetic diversity analysis
+All variant data at the GmSWEET39locus were used for its genetic diversity analysis. Data
+were split into two populations by G. max and G. soja. Genomic differentiation values
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+14/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+including the fixation index (Fst), nucleotide diversity (T), and Tajima's D for G. max and G.
+soja were calculated for 10-kb windows with a 5-kb step using VCFtools [49]. Haplotype analy-
+sis was conducted based on the pattern ofvariants in the region. Haplotypes must contain at
+least 2 accessions with clear variants at each site. Pedigree data for the 75 milestone and land-
+race cultivars were obtained from SoyBase (htps/hwww.soybuscorg)
+Supporting information
+S1 Fig. Distribution of oil and protein content in RILS and the major QTLS. A Phenotypic
+distribution ofprotein and oil. B Correlation between oil content and protein content. C Two
+major QTLs on chr15 and chr 20 were identified using linkage mapping.
+(TIF)
+S2 Fig. Candidate genes within the LD block (A) and the expression patterns in different tis-
+sues and maturing seeds at different developing stages (B).
+(TIF)
+S1 Table. Information about the soybean accessions used in association analysis.
+(PDF)
+S2 Table. The most significantly associated DNA variants for oil and protein.
+(PDF)
+S3 Table. Haplotypes ofthe accessions identified in this study.
+(PDF)
+S4 Table. Information ofthe 75 landrace and milestone lines used in this study.
+(PDF)
+Acknowledgments
+We would like to thank Mr. Rick Meyer for his excellent technical assistance and data analysis,
+and Dr. Dilip Shah for kind helps over the course of studies. We wouldlike to thank many col-
+leagues to share their published and unpublished data and anonymous reviewers for their con-
+structive comments on the manuscript.
+Disclaimer note
+Names are necessary to report factually on available data; however, the USDA neither guar-
+antees nor warrants the standard ofthe product, and the use ofthe name by USDA implies no
+approval ofthe product to the exclusion ofothers that may also be suitable. USDA is an equal
+opportunity provider and employer.
+Author Contributions
+Conceptualization: Hengyou Zhang, Wolfgang Goettel, Yong-qiang Charles An.
+Data curation: Hengyou Zhang, Yong-qiang Charles An.
+Formal analysis: Hengyou Zhang, Wolfgang Goettel, Zhenbin Hu.
+Funding acquisition: Yong-qiang Charles An.
+Investigation: Hengyou Zhang, Wolfgang Goettel, Yong-qiang Charles An.
+Methodology: Hengyou Zhang.
+Project administration: Yong-qiang Charles An.
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+15/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+Resources: Qijian Song, Ming Li Wang.
+Supervision: Yong-qiang Charles An.
+Validation: He Jiang.
+Visualization: Hengyou Zhang.
+Writing - original draft: Hengyou Zhang, Yong-qiang Charles An.
+Writing - review & editing: Hengyou Zhang, Wolfgang Goettel, Yong-qiang Charles An.
+References
+1. CarterTE, Nelson R, Sneller CH, Cui Z. Soybeans: Improvement, production and uses. In: Boerma HR,
+SpechtJE, editors. 3 ed 12004. p. 303-416.
+2. USDA-NASS. United State Department of Agriculture, National Agricultural Statistics Service. https:/1
+wnssudagpChart.and Maps/Field Crops/index.php. 2019.
+3. Godfray HCJ, Beddington JR, Crute IR, HaddadL, Lawrence D, MuirJF, et al. Food security: The chal-
+lenge of feeding 9 billion people. Science. 2010; 327(5967):812-8. hipsldoiog1o126icenoe
+1185383 WOS.000274408300045. PMID: 20110467
+4. Bandillo N, Jarquin D, Song QJ, Nelson R, Cregan P, SpechtJ, et al. Apopulation structure and
+genome-wide association analysis on the USDASoybean germplasm collection. Plant Genome-Us.
+2015; 8(3): mpslidbiongtos35pantoenome2015040024 WOS.000367390800010
+5. Lee S, Van K, Sung M, Nelson R, LaMantia J, McHale LK, et al. Genome-wide association study of
+seed protein, oil and amino acid contents in soybean from maturity groupslto IV. Theor ApplGenet.
+2019; 132(6):1639-59. htips./doiong10.10075600122019-03045 PMID: 30806741; PubMed Central
+PMCID: PMC6531425.
+6. Hurburgh CR, Brumm TJ, GuinnJM, Hartwig RA. Proteinand oil patterns in United-States and dworld
+soybeanmarkets. J Am Oil Chem Soc. 1990; 67(12):966-73. https_/doi.org/10.1007/B102541859
+WOS.A1990ET7300016.
+7. Vank, McHale LK. Meta-analyses of QTLS associated with protein and oil contents and compositions
+in soybean(Glycine max(L.) Merr.]seed. International.Joumal of Molecular Sciences. 2017; 18
+(6):1180. Epub 2017/06/08. htips_/doiorg/10.3390/jms18061180 PMID: 28587169; PubMed Central
+PMCID: PMC5486003.
+8. Kim M, Schultz S, Nelson RL, Diers BW. Identification andfine mapping of fasoybean seed protein QTL
+from PI407788A on chromosome 15. Crop Sci. 2016; 56(1):219-25. htps_/do.org/102135
+cropsci2015.06.0340 WOS.00036826610002.
+9. Patil G, Mian R, Vuong T, Pantalone V,Song QJ, Chen PY,et al. Molecular mapping and genomics of
+soybean seed protein: areview and perspective for the future. Theor Appl IGenet. 2017; 130(10):1975-
+91. htipsz/doiorg710.1007500122-017-2955-8 WOS.00041134260000. PMID: 28801731
+10. Diers BW, Keim P, Fehr WR, Shoemaker RC. Rflp analysis of soybean seed protein and oil content.
+Theor Appl Genet. 1992; 83(5):608-12. XR0/0809101018F02805 WOS:
+A1992HK21600010. PMID: 24202678
+11. Pathan SM, Vuong T, ClarkK, Lee JD, Shannon JG, Roberts CA, et al. Genetic mapping and confirma-
+tion of quantitative trait tlocifor seed protein and oil contents and seed weightin soybean. Crop Sci.
+2013; 53(3):765-74. htips.idoiong102135cropsc201203.0153 WOS.00031952700000,
+12. Patil G, Vuong TD, Kale S, Valliyodan B, DeshmukhR, Zhu CS, et al. Dissecting genomic hotspots
+underlyingseed protein, oil, and sucrose contentin an interspecific mapping population of soybean
+using high-density linkage mapping. Plant BiotechnolJ. 2018; 16(11):1939-53. htps//do.org/10.1111
+pbi.12929 WOS006P60001.PMID- 29618164
+13. Chen LQ, Lin IWN, Qu XQ, Sosso D, McFarlane HE, Londono A, etal. A cascade of sequentially
+expressed isucrosetransporters in the seed coatand endosperm provides nutritionfor the Arabidopsis
+embryo. Plant Cell. 2015; 27(3):607-19. WOS.00035464020012. hpsldgiog10106pc114
+134585 PMID: 25794936
+14. Patil G, Valliyodan B, Deshmukh R, Prince S, NicanderB, Zhao M, etal. Soybean (Glycine max)
+SWEET gene family:insights through comparative genomics, transcriptome profiling and whole
+genome re-sequence analysis. Bmc Genomics. 2015; 16:520. MPR0B09101RAHTA80S
+1730-y PMID: 26162601; PubMed Central PMCID: PMC4499210.
+15. HanL, Zhu Y, LiuM, Zhou Y, LuG, LanL, et al. Molecular mechanism of substrate recognition and
+transport tby the AtSWEET13 sugar transporter. P Natl Acad SciUSA. 2017; 114(38):10089-94. Epub
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+16/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+2017/09/08. hipsidoiong10073pnas.17092414PMID: 28878024; PubMed Central PMCID:
+PMC5617298.
+16. Yang JL, Luo DP, Yang B, Frommer WB, Eom JS. SWEET11 and 115as key players in seedfilling in
+rice. New Phytol. 2018; 218(2):604-15. mpulidslognioititinghi50H WOS.00042807010021.
+PMID: 29393510
+17. Hamly DH. Softening ofthe seeds of Melilotus alba. Botanical Gazette. 1932; 93:345-75. https://doi.
+org/10.1086/334269
+18. Van Dongen JT, Ammerlaan AM, WouterloodM, Van Aelst AC, Borstlap AC. Structure of the develop-
+ing pea seed coat and the post-phloem transportpathway of fnutrients. Annals of Botany. 2003; 91
+(6):729-37. Epub 2003/04/26. mpuissognaiogeabemge PMID: 12714370; PubMed Central
+PMCID: PMC4242349.
+19. Zhai ZY,LiuH, XuCC, Shanklin J. Sugar potentiation offatty acid andtriacylglycerol laccumulation.
+Plant Physiol. 2017; 175(2):696-707. htps/doi.org/10.110.1104/pp.17.00828 WOS.00041181340010
+PMID: 28842550
+20. Rawsthorne S. Carbon flux and Ifatty acid synthesis in plants. Prog Lipid Res. 2002; 41(2):182-96.
+htps.ldoiog10.101650168016378270100236 WOS.00017338160000, PMID: 11755683
+21. Kofsky J, Zhang HY, Song BH. The untapped genetic reservoir: The Past, current, and future applica-
+tions of the wild soybean (Glycine soja). Front Plant Sci. 2018; 9:949. W0S003786000.09P0
+dolog1o.389p620180940 PMID: 30038633
+22. GoettelW, An Y. Genetic cseparation of southern and northern soybean breeding programsin North
+America andtheir associated allelic variationatfour maturity loci. Mol Breeding. 2017;37(1):8. https:/l
+doi.org/10.1007/s11032-016-0611-7 WOS.000391941700010 PMID: 28127254
+23. Brzostowski LF, Diers BW.Agronomic evaluation ofahigh protein allele from PI407788A on chromo-
+some 15 across two soybean backgrounds. Crop Sci. 2017; 57(6):2972-8. htps_/do.org/10.2135
+cropsci2017.02.0083 WOS.00041287700000.
+24. Shimomura M, Kanamori H, Komatsu S, Namiki iN, Mukai Y, Kurita K, et al. The Glycine max CV. Enrei
+genome for improvement of Japanese soybean cultivars. IntJGenomics. 2015:358127. https://doi.org/
+10.1155/2015/358127 WOS.0357468100001. PMID: 26199933
+25. Tajuddin T, Watanabe S, Yamanaka N, Harada K. Analysis of quantitative trait loci for protein and lipid
+contents in soybean seeds using recombinant tinbred lines. Breeding Sci. 2003; 53(2):133-40.
+WOS.000184280400007.
+26. Seo JH, Kim KS, KOJM, Choi MS, Kang BK, Kwon SW, et al. Quantitative traitlocus analysisfor soy-
+bean (Glycine max) seed protein and oil concentrations using selected breeding populations. Plant
+Breeding. 2019; 138(1):95-104. hoelibsiognioitipe.1asg WOS.00045553970000.
+27. Fasoula VA, Harris DK, BoermaHR. Validation and designation of quantitative traitlocifor rseed protein,
+seed oil, and seedweight from two soybeanpopulations. Crop Sci. 2004; 44(4):1218-25. https://doi.
+0g1021356cpwcz0041218 WOS.000223582400013
+28. Miao L, Yang S, Zhang K, HeJ, WuC, Ren Y, etal. Naturalvariation and selection in GmSWEET39
+affect soybean seed oil content. New Phytol. 2020; 225(4):1651-66. Mesidsiogrioittifghisag
+PMID: 31596499.
+29. Wang S, Liu S, Wang J, Yokosho K, Zhou B, Yu YC, etal. Simultaneous changes in seed size, oil con-
+tent, and protein content driven by selection of SWEETI homologues during soybean domestication.
+National Science Review. 2020.nwaa110-htip.lidou.org/10.1093/nsr/nwaa110.
+30. Karikari B, Lis, Bhat JA, Cao Y, Kong J, Yang J, et tal. Genome-wide detection of major and epistatic
+effect QTLS for seedprotein and oil contentin soybean undermultiple environments usinghigh-density
+bin map. Int J Mol Sci. 2019; 20(4). htipsl/doi.org/10.3390/jms20040979 PMID: 30813455; PubMed
+Central PMCID: PMC6412760.
+31. Wang S, Yokosho K, Guo R, Whelan J, Ruan YL, Ma JF, et al. The soybean sugar transporter
+GmSWEET15 mediates sucrose export tfrom endosperm to early embryo. Plant Physiol. 2019: Epub
+2019/06/22. https_/doi.org/10.110.1104/pp.19.00641 PMID: 31221732.
+32. Moise JA, Han S, Gudynaite-Savitch L, Johnson DA, Miki BLA. Seed coats: Structure, development,
+composition, and biotechnology. In Vitro Cell Dev-PI. 2005; 41(5):620-44. htpsl/doi.org/10.10791
+Ivp2005686 WOS.002326720005,
+33. LinJY, Le BH, ChenM, Henry KF, Hur J, Hsieh TF, et al. Similarity betweens soybean and Arabidopsis
+seedmethylomes and loss of non-CG methylation does not affect seed development. PI Natl Acad Sci
+USA. 2017; 114(45):E9730-E9. htps./dol.org10.1073/pnas.1716758114 PMID: 29078418; PubMed
+Central PMCID: PMC5692608.
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+17/18
+
+
+
+PLOS GENETICS
+GmSWEET39 pleiotropically associated withmultiple seed quality traits
+34. Karmann J, MullerB, Hammes UZ. The long and winding road: transport pathways for amino acids in
+Arabidopsisseeds. Plant Reprod. 2018; 31(3):253-61. htps/doiorg10.10071s00497-018-0334-5
+WOS.000442403900005, PMID: 29549431
+35. Katagiri H, Asano T, Ishihara H, Tsukuda K, LinJL, Inukai K, et tal. Replacement of fintracellular C-termi-
+nal domain of Glut1 glucose transporter rwith thatof Glut2 increases V(Max) and K(M) oftransportactiv-
+ity.J Biol Chem. 1992; 267(31):22550-5. WOS.A1992JW7190097. PMID: 1429604
+36. Marie H, Attwell D. C-terminal linteractions modulate the affinity of GLAST glutamate transporters in sal-
+amander retinal glial cells. J Physiol-London. 1999; 520(2):393-7. https_/dol.org/10.1110.1111/,1469-779.
+1999.00393.x WOS.0000351700007. PMID: 10523408
+37. Oliva R, Ji CH, Atienza-Grande G, Huguet-Tapia JC, Perez-Quintero A, LiT, et al. Broad-spectrum
+resistance to bacterial blight tin rice usinggenome editing. Nat Biotechnol. 2019; 3711:1344-+.htpsJI
+doi.org/10.1038/s41587-019-0267-2 WOS.00049498400022. PMID: 31659337
+38. Chu Z, Yuan M, Yao J, Ge X, Yuan B, Xu C, etal. Promotermutations of an essential geneforpollen
+development tresult in disease resistance in rice. Genes & Development. 2006; 20(10):1250-5. https:/1
+dolognoa101gad1416306 PMID: 16648463; PubMed Central PMCID: PMC1472899.
+39. Allen KD. Assaying gene content in Arabidopsis. Proc Natl Acad SciUs A. 2002; 99(14):9568-72.
+htps_lidoiorg10.1073pnas.142126599 PMID: 12089330; PubMedCentral PMCID: PMC123181.
+40. Bandillo NB, Lorenz AJ, Graef GL, Arquin D, Hyten DL, Nelson RL, et al. Genome-wide association
+mapping of qualitatively inherited traits in a germplasm collection. Plant Genome. 2017; 10(2): https:/l
+a69h62939229059031 WOS.00041081950002 PMID: 28724068
+41. Saghai-Maroof MA, Soliman KM, Jorgensen RA, Allard RW. Ribosomal IDNA spacer-length polymor-
+phisms in barley: mendelian inheritance, chromosomal location, and population dynamics. PNatl Acad
+Sci USA. 1984; 81(24):8014-8. Epub 1984/12/01. htps_/doiorg10.1073/pnas.81.24.8014 PMID:
+6096873; PubMed Central PMCID: PMC392284.
+42. Song QJ, Hyten DL, Jia GF, Quigley CV, Fickus EW, Nelson RL, et al. Development tand levaluation of
+SoySNP50K, a high-density genotyping arrayfor soybean. Plos One. 2013; 8(1):e54985. https://doi.
+0gn019Tipanasipmeoses WOS.000315210400050. PMID: 23372807
+43. LiH, Durbin R. Fast and accurate short tread alignment with Burrows-Wheeler transform. Bioinformatics.
+2009; 25(14):1754-60. WOS.00026766590000. htips.idoiorg10.1093bioinformaticsbip324 PMID:
+19451168
+44. McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, etal. The Genome Analysis
+Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data. Genome Res.
+2010; 20(9):1297-303. WOS.00028152040015, htps_/doi.org10.11010.1101/1gr.107524.110 PMID:
+20644199
+45. Bradbury PJ, Zhangz, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. TASSEL: softwarefor
+association mapping of complex traits in diverse samples. Bioinformatics. 2007; 23(19):2633-5.
+Wos.0025067380021.Mlaslioslogrioiogbiomatisbma0e PMID: 17586829
+46. RobinsonJT, Thorvaldsdottir H, Winckler W, Guttman M, Lander ES, Getz G, et al. Integrative geno-
+mics viewer. Nat Biotechnol. 2011; 29(1):24-6. WOS.000286048900013. htips.idoi.ong10.1098hbt
+1754 PMID: 21221095
+47. Song QJ, Jenkins J, Jia GF, Hyten DL, Pantalone V,Jackson SA, et al. Construction of high resolution
+genetic linkage mapstoimprove the soybean genome sequence assembly Glyma1.01. Bmc Genomics.
+2016; 17:33. htps.ldoiongn101186s18128640152340W0S.0003675640002 PMID: 26739042
+48. Wang S, Basten CJ,Zeng Z-B. Windows QTLCartographer 2.5. Department of Statistics, North Caro-
+lina State University, Raleigh, NC. 2012: (mp/statgen.csuedugticcartwarL.Carthm,
+49. Danecek P, Auton A, Abecasis G, Albers CA, Banks E, DePristo MA, et al. The variant call Iformat and
+VCFtools. Bioinformatics. 2011;27(15)2156-8. WOS.029277870023. htps_/do.org/10.1093
+bioinformatics/btr330 PMID: 21653522
+50. Wang M, Liwz, Fang C, XuF, Liu YC, Wang Z, etal. Parallel selection on a dormancy gene during
+domestication of crops from multiple families. Nat Genet. 2018; 50(10):1435-41. https:/doi.org/10.
+103864158-018-0292 WOS.00044604700015. PMID: 30250128
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1009114 November 11, 2020
+18/ 18

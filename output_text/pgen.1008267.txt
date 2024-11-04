@@ -1,0 +1,1580 @@
+PLOS GENETICS
+RESEARCHARTICLE
+Artificial selection on GmOLEO1 contributes to
+the increase in seed oil during soybean
+domestication
+Dan Zhango 10* Hengyou Zhang 3020, Zhenbin Huc3e Shanshan Chu', Kaiye Yu',
+Lingling Lv', Yuming Yango', Xiangqian Zhang', Xi Chen', Guizhen Kan', Yang Tang5,
+Yong-Qiang Charles Ans, Deyue Yuc45*
+1 Collaborative Innovation Center of Henan Grain Crops, College ofAgronomy, Henan Agricultural
+University, Zhengzhou, China, 2 Department of Biological Sciences, University of North Carolina at Charlotte,
+Charlotte, North Carolina, United States of America, 3 Department of Agronomy, Kansas State University,
+Manhattan, Kansas, United States of America, 4 National Centerfor Soybean Improvement, National Key
+Laboratory of Crop Genetics and Germplasm Enhancement, Jiangsu Collaborative Innovation Centerfor
+Check for
+Modern Crop Production, Nanjing Agricultural University, Nanjing, China, 5 School ofLife Sciences,
+updates
+GuangzhouUniversity, Guangzhou, China, 6 USDA-ARS, Plant Genetics ResearchUnit tat Donald Danforth
+Plant Science Center, St. Louis, Missouri, United States of America
+o These authors contributed equallyto this work.
+* zhangd@henau.edu.cm (DZ); dyyu@njau.educn(DY)
+6 OPENACCESS
+Citation: Zhang D, ZhangH, Huz, Chus, YuK,Lv Abstract
+L, etal. (2019) Artificial selection on GmOLE01
+contributes to the increase in seed oil during
+Increasing seed oil content is one ofthe most important breeding goals for soybean due to a
+soybean domestication. PLOS Genet15(7):
+e1008267. htps/ooiongrio1g7l/pural
+high global demandfor edible vegetable oil. However, genetic improvement of seed oil con-
+pgen.1008267
+tenthas been difficult in soybean because of the complexity of oil metabolism. Determining
+Editor: Gregory P. Copenhaver, The University of the major variants and molecular mechanisms conferring oil accumulation is critical for sub-
+North Carolina at Chapel Hill, UNITED STATES
+stantial oil enhancement in soybean and other oilseed crops. Inthis study, we evaluated the
+Received: December 23, 2018
+seed oil contents of 219 diverse soybean accessions across six different environments and
+dissected the underlying mechanism using a high-resolution genome-wide association
+Accepted: June 22, 2019
+study (GWAS). An environmentally stable quantitative trait locus (QTL), GqOil20, signifi-
+Published: July 10, 2019
+cantly associated with oil content was identified, accounting for 23.70% of the total pheno-
+Copyright: This is an open access article, free of fall typic variance of seed oil across multiple environments. Haplotype and expression analyses
+copyright, and may befreely reproduced,
+indicate that an oleosin protein-encoding gene (GmOLEO1), colocated with a leading single
+distributed, transmitted, modified, built upon, or
+otherwise used by anyone for rany lawful purpose. nucleotide polymorphism (SNP) from the GWAS, was significantly correlated with seed oil
+The worki is made available under the Creative
+content. GmOLEO1 is predominantly expressed during seedmaturation, and GmOLEO1 is
+Commons CCO public domain dedication.
+localized to accumulated oil bodies (OBs) in maturing seeds. Overexpression of GmOLEO1
+Data Availability Statement: The RNA-seq data we significantly enriched smaller OBs and increased seed oil content by 10.6% compared with
+mentionedin our manuscript has been uploaded ito those of control seeds. Atime-course transcriptomics analysis betweentransgenic and con-
+NCBI (itips/hwww.ncbinimnihngov/Tracesystudy trol soybeans indicated that GmOLEO1 positively enhanced oil accumulation by affecting
+Pacc-PRJNA551573), (BioProject:
+PRJNA551573), (SRA Study: SRP212336).
+triacylglycerol metabolism. Our results also showed that strong artificial selection had
+occurred lin the promoter region of GmOLEO1, which resulted lin its high expression in culti-
+Funding: DZ Zisthe recipient of Ministry of Science
+andTechnology of fChina htp/www.most.gov.cn vated soybean relative to wild soybean, leading to increased seed oil accumulation. The
+eng/ (grant number 2016YFD0100500), key
+GmOLEO1 locus may serve as a direct targetfor both genetic engineering and selectionfor
+scientific and technological project tofHenan
+soybean oil improvement.
+Province (192102110023), and the Henan
+agricultural university science and technology
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+1/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+innovation fund (KJCX2019C02). The funders had
+no role in study design, data collection and
+analysis, decision to publish, or preparation of the
+Author summary
+manuscript.
+Soybean seed oil is an important quality trait targeted during domestication andbreeding.
+Competing interests: The authors have declared
+However, the molecular mechanism of soybean oil regulation is largely unknown due to
+thatno competing interests exist.
+its complex genetic architecture and environmental sensitivity. In this paper, we inte-
+grated GWAS across multiple environments, haplotype analysis, genetic transformation,
+and diversity analysis to study the genetic architecture ofoil content and the underlying
+mechanism in soybean. This combined analysis enabled us to identify an environmentally
+stable QTL (GqOil20) and functionally verified that GmOLEO1 positively regulates total
+seed oil accumulation in soybean seeds. In addition, we found that GmOLEO1 showed a
+higher level of expression in cultivated soybean seeds than in wild soybean seeds, possibly
+as the result ofthe positive selection ofthe promoter, resulting in seed oil accumulation.
+Moreover, we identified an elite GmOLEO1 haplotype that correlated strongly with high
+oil content in soybean, holding great potential for assisting oil improvement in soybean
+breeding. Our study provided a new genetic resource for oil content improvement in soy-
+bean and other oilseed crops.
+Introduction
+Soybean (Glycine max (L.) Merr.) is an important food and oil crop. Soybean seeds accumulate
+large amounts of oil and protein and have been intensively targeted for human consumption
+during long-term domestication and cultivation. Given the high percentage ofoilin soybean
+seeds, the demand for soybean oil production has increased dramatically due to the increasing
+demand for vegetable oils and expanded use ofbiodiesel, and the seed composition improve-
+ment is ofparticular interest in terms ofincreasing awareness ofhealth issues around dietary
+fats [1]. However, oil accumulation in the seed is a complex metabolic process that is environ-
+mentally sensitive; thus, stably expressed oil-enhancing key genes that can be applied to soy-
+bean molecular breeding have rarely been reported, and the mechanism ofthe variance ofoil
+content in soybean remains largely unknown.
+In plants, accumulated oilin seeds is generally stored as triacylglycerols (TAGS). TAG syn-
+thesis is initiatedfrom glucose in the cytosol, and the resulting products from glycolysis are
+transported into the plastid for fatty acid (FA) synthesis. The FAs are processed by a series of
+key enzymes to produce C16:0 and C18:0 acyl chains and desaturated products, such as C18:1.
+FA products are then exported to the endoplasmic reticulum (ER) to form TAGS via the acyl-
+CoA-dependent and acyl-CoA-independent pathways [2]. The resulting TAGS are present in
+subcellular sphericallipid droplets in various plant tissues; thel lipid droplets stored in seeds
+are usually called oil bodies (OBs) and have been extensively investigated previously in studies
+of, for instance, the structure and composition of an OB and the essential role of OB-related
+proteins, such as oleosins, in OB formation, mobilization, and oil accumulation [3-10]. Previ-
+ous studies have indicated that oleosins play conserved roles in OB formation in seeds in sev-
+eral oilseed plants [7-8]. Suppression ofa soybean oleosin produces micro-OBs [10], while the
+effects ofOBs on seed oil accumulation have rarely been reported in soybean. The soybean
+genome contains 13 putative oleosin-encoding genes [11], andifany ofthem are involved in
+oil accumulation remain unexploited.
+By linkage and linkage disequilibrium mapping, over 300 quantitative trait loci (QTLS)
+associated with seed oil content have been identified across all 20 chromosomes in the soybean
+genome over the past decades (SoyBase, https/Isoybase.org). These studies have revealed the
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+2/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+polygenic nature ofoil regulation, and the majority ofloci iwere found to have varying additive,
+epistatic or QTLxenvironment effects [12-15], implying that traditional breeding based on
+genetic crossing and phenotypic selection may be inadequate for oil improvement. Recent
+studies have shown that increased oil in soybean could be achievedby genetic engineering of
+transcription factors involved in oil accumulation [16-18] or a QTL gene controlling seed coat
+bloom [19]. However, QTLs directly relatedto seed oil accumulation in soybean have not been
+cloned; thus, the underlying mechanism has not been thoroughly elucidated to date. There-
+fore, identifying an environmentally stable major QTL regulating seed oil contentis urgently
+needed to substantially enhance seed oil content and understand the underlying regulatory
+mechanism in soybean.
+To reveal the genetic basis of seed oil content and elucidate how oil accumulation is regu-
+lated, we investigated the oil content variation in 219 diverse soybean genotypes across six dif-
+ferent environments and conducted a high-density genome-wide association study (GWAS)
+using 201,994 genome-wide single nucleotide polymorphisms (SNP). In total, three QTLs
+were identifiedto be significantly associated with soybean oil content across atleast two envi-
+ronments, with GqOil20 on chromosome 20 stably expressing across all six environments. We
+also found that an oleosin-encoding gene, GmOLEO1, in the GqOil20 linkage disequilibrium
+(LD) block was exclusively expressed in developing seeds and that its expression level was sig-
+nificantly correlated with oil content within selected genotypes. We subsequently verified that
+GmOLEO1 contributedto oil accumulation in soybean seeds by conducting a series ofmolecu-
+lar assays. Our results reveal an environmentally stable QTL/gene controlling oil accumulation
+in soybean seeds, provide new insight into oil accumulation in soybean and offer new direc-
+tions for breeding soybean varieties with enhanced seed oil content.
+Results
+GWAS identified a stably expressed QTL associated with oil content
+To identify the genetic variation in seed oil content, we measured the oil contents of 219 soy-
+bean genotypes with diverse genetic backgrounds across six different environments. Seedoil
+content exhibited large amounts of natural variation within the association panel in each envi-
+ronment and showed relative consistency across the six environments (S1A and S1B Fig, S1
+Table). The mean oil content for the 219 accessions ranged from 18.10% to 18.97% across the
+six environments, and the observed maximum oil content reached 27.69% in Environment 1
+(E1), which was approximately three times higher than the minimum value (9.64%) observed
+in E6 (S1A Fig, S1 Table). The distribution ofoil contentfor the association panel in each envi-
+ronment was approximately normal (SIC Fig). Analysis ofvariance (ANOVA) indicated a sig-
+nificant difference (p < 0.001) in oil content among the genotypes, the oil content was
+significantly affected by environments (p < 0.001) (S1 Table), and the heritability was 0.64.
+Because of the wide variation in seed oil content in the panel across the environments, we
+performed GWAS for the oil contentin six environments (E1 to E6) and the best linear unbi-
+ased prediction (BLUP) using 201,994 genome-wide SNPs with a minor allele frequency
+(MAF) N 0.05 in an effort to identify the genetic loci associated with soybean oil content. In
+total, 110 SNPS on three chromosomes (8, 12, and 20) were identified as significantly associ-
+ated with oil content across at least two environments (S2 Fig, S2 Table). For the sake ofsim-
+plicity, we empirically classified closely adjacent SNPslocated within 5 Mb into one locus, as
+previously described [20]. The 110 SNPS were classified into three genomic loci, which were
+subsequently designated GqOil8, GqOil12, and GqOil20 (S2 Fig, S2 Table). Ofthese QTLS, the
+most significantly associated SNPS were identified in GqOil20, which was in physical proximity
+to oil-related QTLs identified in previous studies (S2 Table) [21-24).Importantly, GqOil20
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+3/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+was consistently identified across all the environments and BLUP except E4 (Fig 1A),andit
+explained 13.4-24.4% ofoil variation, representing the most stably expressed QTL for oil con-
+tent in soybean.
+GmOLEO1 is a candidate gene for GqOil20 and encodes oleosin
+Itis known that oil content is a key domestication trait undergoing artificial selection [25], and
+the regulatory genes involved were likely selected during domestication. Thus, a comparison
+ofthe genetic diversity at the three loci between cultivated soybean (G. max) and wild soybean
+(G.soja), the progenitor ofG. max, couldbe helpful in determining the most likely regions
+containing the oil-controlling gene(s). To this end, we calculated genetic differentiation (Fst)
+within the 140 kb regions upstream and downstream of each leading SNP per locus within a
+group containing this association panel (272 G. max accessions) and a panel of 122 G. soja
+accessions genotyped with the same microarray, as previously described [26]. After the com-
+parison, we found that Fst showed variation, and the Fst across the entire group (G. max and
+G. soja) was lower than the average Fst in the association panel (G. max only) in two QTLs
+(GqOil8 and GqOil12). In contrast, most ofthe Fst values for GqOil20 were significantly higher
+in the G. max-G. soja group than in the association panel, suggesting that artificial selection
+might have occurred in this genomic region in relation to oil accumulation (S3 Fig), consistent
+with the fact that soybean oil content is a domestication trait [25].In this regard, GqOil20 likely
+harbors a gene or genes that have important functions in the regulation of soybean oil accumu-
+lation. Thus, we next focused on Gq0il20 to identify oil-related genes.
+To identify the candidate gene, we analyzed the LD region harboring the leading SNPs
+using BLUP as a phenotype. Gq0il20 contained a total of 33 significant SNPS located within a
+strong LD with an average 7 = 0.66 (Fig 1C). Ofthese genes within the LD according to the G.
+max Wm82.a2v1 reference genome Omtplpbytewomeigadecgog (S2 Table), we found that
+a gene, Glyma.20G196600, encoding a putative oleosin protein, colocated with the significant
+SNP AX-93661332 (P =l 4.98 X 10-19)(Fig.1Aand 1B, S3 Table). Glyma.20G196600 is an ortho-
+log of Arabidopsis AtOLE1 (AT4G25140), an oleosin-encoding gene with demonstrated roles
+in oil body formation [9], while other gene models in this block are annotated to beinvolved
+in defense responses (S3 Table). Thus, Glyma.20G196600 might be the candidate gene under-
+lying GqOil20, and we designated it GmOLEO1 for further study.
+Genetic variation and expression of GmOLEO1 correlated with seed oil
+content
+To investigate whether GmOLEO1 underlies the domestication region GqOil20, we examined
+the expression patterns and sequence variations of GmOLEO1 alleles in 38 soybean accessions
+comprising 27 cultivated and 11 wild genotypes with significant differences in oil content
+between two subgroups (Fig 1D). Consistent with the observed high oil content in G. max rela-
+tive to G. soja, GmOLEO1 showed significantly higher expression in cultivated soybeans than
+in wild soybeans (Fig 1Dand 1E), indicating a correlation between the transcript abundance
+of GmOLEO1 and oil content.
+Next, a 2.3-kb genomic region extending from -1,500 bp upstream ofthe start codon
+(ATG) to the 3-untranslated region (UTR) of GmOLEO1 was sequenced and analyzed.
+Sequence analyses identified 12 nucleotide variants that divided the 38 germplasm into six
+haplotypes (Hap), which were clearly classified into two subgroups (cultivated and wild) by a
+phylogenetic tree (Fig 1H). Moreover, the six haplotypes represented six levels of seed oil con-
+tent (Fig 1F and 1G), with Hapl seeds containing the highest oil content. Ofthe 12 nucleotide
+variants, seven variants were found to be significantly associated with soybean oil content (Fig
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1000267 July 10, 2019
+4/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+A
+E
+10 7
+25 P value = 0.0025
+P value = 0.0144
+8
+6
+750
+4
+C
+:
+2
+20
+COC
+of
+0
+500 8
+ 3 5 o N 8 o E FN 9 4 1 1  co 9 &
+Chromosome
+15
+o
+250
+à
+B
+AX-93910018
+Cultivated Wild
+Cultivated Wild
+0.8
+F
+9 0.5
+t.
+Promoter
+GmOLEO1
+0.2
+Haps -442 -281 -237 -167 S26 S265 S393
+I 0
+Hap1
+G
+A T G
+6
+Hap2 TT G
+13bp A G G
+Hap3 TT G AAA 13bp A G G
+I
+Hap4 TT C AAA 13bp A G G
+Hap5 TT C AAA 13bp C G G
+I 3
+s
+Hap6 TT C AAA 13bp C G A
+G
+8 1200 H
+25
+0
+A
+d Expression
+E 900
+A Oil content 21 E
+C
+a
+C 42.2
+42.3
+42.4
+42.4
+42.5Mb of 600
+16
+E
+u
+300
+12 3
+: 0
+8
+Meg Moat MaR Meah Mee Map
+H
+I 1.0 1
+0.8
+0.6
+0.4
+R2Color key
+I
+0.2
+0.0
+0 0.2 0.4 0.6 0.8 1.0
+<
+ aad Rrep
+Fig 1. GWASfor oil content in soybean seeds and candidate gene selection analyses. A, A Manhattan plot for the BLUP ofsoybean oil lcontent
+across six environmentsby: association mapping. A red horizontal line depicts the Bonferroni-adjusted significance threshold (P<4.95x10 -5). The x-
+axis shows the 20 soybean chromosomes, and the y-axis shows the significance expressed las the -logioPvalue. B,A zoomed-in Manhattan plot tofthe
+0.2-Mb genomic region on either side ofthe most significant SNP at the QTL GqOil20 on chromosome 20. The redsolid triangle represents the leading
+SNP (AX-93910018). The color intensity ofother SNPS is shown according to their LDs (72 value) with the leading SNP. Gene models within the region
+are indicated with blue rectangles, and the red rectangle represents the candidate gene Glyma.20G196600. The 50-kb genomic regions on both sides of
+the leading SNP are highlighted in
+C, The extent oflinkage disequilibrium (LD) in the 0.2-Mb genomic region on either side ofthe leading
+SNP based on pairwise 7 values. The lightylon values are indicated using the color intensity index. D, Comparisons ofseed oil content (%) between cultivated
+and wild soybeans. E, Comparison of fGmOLEOI expression between cultivated land wild soybeans. F, haplotypes of GmOLEOI among 38 soybean
+genotypes. The orange and cyan rectangles on thepromoter region indicate the cis-acting regulatory elements sinvolvedin ABA response and seed-
+specific regulation, respectively. G, Comparative analyses of the GmOLEO1 expression and oil content tbetween the six differenthaplotypes. H,A
+neighbor-joining tree ofthe 38 accessions using variants from GmOLEO1. The edge color pattern was the same as that tindicatedby the six different
+haplotypes in (G). Black solid dots represent G. soja accessions. I, RatiosofLUC and REN activity yin Arabidopsis protoplasts transformed with
+recombinant plasmids containing the GmOLEO1 promotersfrom two different haplotypes (Hapl_pro, Hap5_pro) and the control lvector. Significance
+analysis was performed using Fisher's protected lleast tsignificant difference (LSD) test. ** indicates a significant difference at the0.01 level.
+htpsidoiongrioiart/joumalpge.100267001
+PLOS Genetics Imtpszldoiorg1o.137t/oumalpgen.1008267 July 10, 2019
+5/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+1F), with fourlocated at -442 (A/CI-, P = 5.22x10-4), -281 (G/C, P = 2.83x10-4), -237 (AAA/
+- P= 1.26x10-3), and 1-167 (13-bp insertion/deletion, P == 3.13x10-3) being detected in the
+promoter region and three (Ps26 == 5.36x10-3,Ps265 == 0.02, Ps393 == 0.04) occurring in the exon.
+Ofthese variants, those in the promoter region represent the most significant variation associ-
+ated with the variation in seed oil, suggesting that resulting differences in the expression of
+GmOLEO1 among the haplotypes might taccount for the oil content variation.
+To further determine whether variation in the promoter affected gene expression, we com-
+pared the transcriptional activity ofthe promoters ofHapl and Hap5 (Hapl_pro and Hap5_-
+pro) using a dualluciferase reporter gene assay. As shown in Fig 11, Hapl_pro exhibited
+3.58-fold higher activity than Hap5_pro, consistent with the observedhigher expression of
+Hapl than Hap5 (Fig 11). These results suggest that GmOLEO1 is a strong candidate for
+GqOil20 and that expression level instead ofexon variation is an important factor affecting
+seed oil content.
+GmOLEO1 is localized to OBs and exclusively expressed in maturing seeds
+Given that GmOLEO1 was a strong candidate associated with seed oil content, we character-
+izedits protein structure, phylogeny, and expression pattern. BLASTP showed that GmOLEO1
+is an ortholog ofArabidopsis AtOLE1 (AT4G25140), an oleosin-like protein with demon-
+strated roles in OB formation [9] (Fig 2A and 2B). Similar to previously described OLE ortho-
+logs in other species, GmOLEO1 contains three conserved structural domains (Fig 2A) [5].
+Two amphipathic domains are located at the N- and C-termini, respectively, and a hydropho-
+bic domain is located at the center. In the central hydrophobic domain, GmOLEO1 also con-
+tains the conserved "proline knot" sequence (PX;SPX;P), which can form a loop including a
+hydrophobic hairpin that penetrates into the TAG matrix and two arms located on both sides
+ofthe knot (Fig 2A) [5]. This domain organization allows oleosins to be anchored on the sur-
+face of an OB, as illustrated in a previous study [3]. Phylogenetic analysis revealed that OLEO-
+like proteins from the Faboideae, Brassicaceae, and grass clades clustered separately, suggest-
+ing functional conservation within the clade and possible functional diversity between clades
+(Fig 2B). In addition, sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE)
+analyses showed that GmOLEO1 has a low molecular mass (-16 KD) (Fig 2C), consistent with
+previous findings [9, 27]. These results indicated that the uncharacterized gene GmOLEO1
+encodes a putative OB protein that might play roles associated with OB formation or oil accu-
+mulation in soybean.
+To determine thetemporal and spatial expression pattern ofGmOLEO1, the expression lev-
+els of GmOLEO1 were examined in ten different tissues and two soybean varieties with differ-
+ent seed oil contents (H101, a high-oil variety; H112, a low-oil variety) (Fig 2D). Quantitative
+real-time PCR (qPCR) results showed that GmOLEO1 transcripts were undetectable in non-
+seed tissues, including the roots, stems, leaves, and flowers ofboth varieties, but its transcripts
+couldbe detected in developing seeds beginning at the seed-filling stage (Fig 2D). The abun-
+dance of GmOLEO1 transcripts in seeds increased with the number ofdays after flowering
+(DAF), with the highest expression level observed in developing seeds at 40 DAF, which was
+immediately before that seeds had completely matured (Fig 2D). Overall, the expression level
+of GmOLEO1 in the developing seeds ofH101 was significantly greater than that in H112
+seeds at all tested stages. These results indicated that GmOLEO1 functions specifically during
+seed maturation and that transcript abundance positively correlated with oil content (Fig 1G).
+We next investigated whether GmOLEO1 was spatially related to OBs. We expressed a 35S::
+GmOLEO1-GFP (green fluorescent protein) construct in tobacco (Nicotiana benthamiana)
+leaf epidermal cells by agro-infiltration followedby staining with Nile Red, a lipophilic dye
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+6/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+A
+20
+40
+60
+80
+100
+120
+TKAN.
+RA
+V
+. SOH
+TTTIT
+VIG
+aE
+- PXSSPX3P
+140
+160
+PPOLE1:
+V
+At4G25140 GmOLEO1: :
+- Hydrophobic domain
+Os04946200 :
+B 56
+Phvul.007G138300 7
+Amphipathic domain at N-terminus
+- Amphipathic domain at C-termint
+97
+GmOLEO1
+Medtr1g090250
+M WT
+6001
+63 86
+Tp57577
+Fabidae
+C 180KD :
+D 8
+H112-low oil
+Cucsa.094080
+72KD
+H101-high oil
+64
+Prupe.2G272200
+43KD
+e 400-
+MDP0000122458
+of
+AT4G25140
+26KD
+100 L Brara.H01589 Brassicaceae
+200-
+Bradi5g17470
+17KD
+100 LOCOs04946200
+16KD-
+GmOLEO1
+68L1 Sobic.006G167700 Grass
+8SGRMZM2G337229
+10KD
+ROP cer Vea rer Rod A0d npo 1eb apd ApO
+'bos
+E
+GmOLEO1-GFP
+NR
+Chl
+BF
+Merge
+.a 6
+4>
+X5
+-
+Fig 2. Sequence and expression analysis of GmOLEO1. A, Domain structure and full-length amino acid alignment ofrepresentative OLE protein
+orthologs, including the structurally well-studiedPPOLEI (Physcomitrella patens), GmOLEO1, At4G25140 (Arabidopsis thaliana), and Os04g46200
+(Oryza sativa). The amphipathic domains satthe N-terminus and 1C-terminus are highlightedbyblue and gray solid boxes, respectively. The conserved
+hydrophobic domain between two amphipathic proteins is shown by ya red solid box. Dotted boxes indicate the twohydrophobic arms that can form a
+hairpin (blue in D); (PX;SPX,P) indicate the conserved sequence that forms aloop (black in D). B, Phylogenetic relationship between GmOLEO1 andits
+orthologs. All amino acid sequences were retrieved from Phytozome @mpl/phytemcigidegn) C, Gel limage showing the molecular mass of
+GmOLEO1 (15.76 KD) using Western blot. M, protein marker, WT, proteins extracted from developing seeds ofWilliams 82 at 40 DAF. D, The relative
+transcriptlevel lof GmOLEO1 in different soybean tissues and developing seeds at 10, 20, 25, 30, and 40 days after flowering between the high-oil soybean
+cultivar H101 andlow-oil cultivar H112; ** P<0.01 t-test. E,Subcellular localization analysis of GmOLEO1. GmOLEO1-GFP signal (GFP) colocalizes
+with oil bodies stained with Nile Red (NR). Chlrepresents chloroplast, BF represents bright field, and Merge shows both GFP andNR. Scale bar, 20 um.
+White arrows indicate oilbodies.
+htpsldoiongr101gt/gumalpgen.100267002
+used to visualize OBs [4]. Confocal microscopy analysis revealed that GmOLEO1-linked GFP
+fluorescence and Nile Red fluorescence signal from OBs were colocalized in seedcells (Fig 2E),
+indicating that GmOLEO1 waslocalized to accumulated OBs.
+Taken together, the results ofhaplotype analysis, diversity analysis, phylogenetic analysis,
+expression analysis, and subcellular localization supported the GWAS results and collectively
+indicated that GmOLEO1 was a strong candidate gene underlying GqOil20 associated with oil
+accumulation in soybean seeds.
+Overexpression of GmOLEO1 increased seed oil content with pleiotropic
+effects on seed-related traits
+To further demonstrate whether GmOLEO1 is functionally involved in oil accumulation in
+soybean seeds, we overexpressed GmOLEO1 in soybean using an improved cot-node
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+7/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+transformation protocol [28]. Sucesfultransformation was determinedby detecting both the
+expression ofthe selective bar gene using the strip test and the presence of35S:GmOLEO1
+(Fig 3A) usingpolymerase chain reaction (PCR) analysis in Toplant leaves (S4 Fig). Trans-
+genic soybean lines were self-pollinated through three generations to obtain homozygous lines
+harboring 35S:GmOLE01. Three independent homozygous transgenic lines (OE-9, OE-16,
+and OE-18) were selected and used for further analysis.
+We first quantified the expression of GmOLEO1 in developing seeds (10, 20, 25, 30, and 40
+DAF). As shown in Fig 3B, GmOLEO1 expression increased during seed development in both
+the OE lines and wild type (WT), while its expression in the OE seeds was significantly higher
+in OE than in WT at each stage of seed development. GmOLEO1 exhibited a sharp increase in
+its expression in the OE lines at 25 DAF, which was five days earlier than the increase in
+expression observed (30 DAF) in WT seeds. In agreement with the observed expression differ-
+ence between the two soybean varieties described above (Fig 2D), expression of GmOLEO1 in
+both the OE lines and WT increased continuously as the seeds developed andreached its high-
+est levels at 40 DAF. This gene expression result was further verified by comparative Western
+blot analysis ofGmOLEO1 protein between WT and the OE lines using an antibody against
+GmOLEO1. A higher expression ofGmOLEO1 was observed in the three OE lines than in the
+WT at 25 and 40 DAF (Fig 3C).
+Compared with WT, mature seeds from OE lines had shinier surfaces with more yellowish
+colors and smaller sizes (Fig 4A). The oil contents ofthe seeds ofthe three OE lines were
+22.35%, 21.91%, and 22.14%, respectively, which were all significantly higher (an absolute
+average increase of2.12%, a relative increase of10.6%, P = 4.6 x 10 -6) than that in WT seeds
+(20.01%) (Fig 4F). Not surprisingly, the increase in oil content in the OE lines resulted in a sig-
+nificant decrease (P = 0.006) in protein content (Fig 4G). To further verify the oil increase in
+the OE seeds, we conducted a series ofmicroscopy analyses of developing OE seeds (OE-9 and
+OE-18) at 25 DAF, where sharp increases in the expression ofGmOLEO1 and oleosin were
+observed (Fig 4C-4F). Microscopy analyses of cross-sections from developing seeds stained
+with Oil Red O showed that OE seeds have markedly stronger Oil Red O staining than WT
+seeds, indicating that OE seeds contain a higher level of neutral lipid accumulation than WT
+seeds (Fig 4B). A further examination ofthe seed cells using an optical microscope (Nikon,
+Eclipse Ci, Japan) showed that more OBs were deposited in the two OE lines (OE-9 and OE-
+18) than in WT (Fig 4C), and a consistent result was found via staining with toluidine blue O
+(Fig 4D). These observations were further verified by a comparative analysis ofNile Red stain-
+ing of Faccumulated oil between OE and WT seeds using a confocal microscope (Nikon, C2,
+Japan) (Fig 4E). These results visibly illustrated that OE plants overexpressing GmOLEO1 con-
+tained higher levels ofoil accumulation in seed cells than WT.
+In addition, we observed that overexpression ofGmOLEO1 has pleiotropic effects on other
+agronomic traits. The phenotypic evaluation indicated that the overexpression resulted in a
+significant decrease in 100-seed weight in the OE lines compared with thatin WT (Fig41).
+However, a significant increase (P < 0.01) in pod number per plant and a slight increase in
+plant heightin the OE lines compared with WT lines (Fig 4H and 41) were observed, which led
+to an increase (P= 0.017) in seed yield per OE plant compared with WT plants (Fig 4K, S4
+Table). We also compared the seed germination between two lines. We found that seed germi-
+nation and root growth were faster in the OE lines than in WT (Fig 4L). These results indicate
+that GmOLEO1 is involved in oil accumulation in soybean seeds with pleiotropic effects on
+yield-related traits, and no yield penalty was found in the current preliminary study.
+In light ofthe role of GmOLEO1 in oil accumulation, we further measured andcompared
+the fatty acids between WT and OE seeds to test whether GmOLEO1 affected FA composition
+(Fig 5). Compared with the WT, OE seeds contained a higher average total FA content of
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+8/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+A
+OE 35s promoter GmOLEO1 Codingregion
+B
+50
+WT
+40
+I
+OEs
+30
+of
+20
+10
+I
+al
+0
+AO no n no No AO no 1 no No
+C
+Seed development stages
+x nd 1sd
+A0O
+W
+
+be
+de
+Dere
+d % d
+Fig 3. Expression analyses of GmOLEOI in transgenic plants. A, Diagram ofthe plasmid construct (35S:
+GmOLEO1) that was used for soybean transformation. B, Expression analysis of GmOLEO1 in developing seeds (10,
+20, 25,30, 40 DAF) ofT3 homozygous OE lines andthe wild type (WT). C, Western blot image showing the expression
+pattern of GmOLEO1 protein between WT andOE seeds at 25 and 140 DAF. Protein bands were detectedby
+Coomassie blue staining (CBB, bottom) or Western blot (WB, top) probed with antibodies to GmOLEO1.
+htpsidoiongro1arl/gumalpgen.100261003
+12.7% (P == 3.2x 10-4). Further analysis offive important oil components (TAGS) indicated
+that two polyunsaturated oil components, linoleic acid (18:2) and linolenic acid (18:3), were
+significantly increasedby 14.4% and 14.9% (P = 1.2x 10-4 and 19.7x 10-5, n = 3), respectively,
+in the OE seeds compared with WT, while no significant changes in the contents of palmitic
+acid (16:0), stearic acid (18:0) and oleic acid (18:1) were observed between the OE seeds and
+WT (Fig 5, S5 Table). This result indicates that the overexpression of GmOLEO1 also led to
+increased accumulation of polyunsaturated FAs.
+Last, we compared the OBs ofOE and WT seeds using transmission electron microscopy.
+At 25 and 40 DAF, the OBs ofWT seeds showed typically spherical and ovoid structures and
+were distributed mostly between protein bodies at the periphery ofthe cells (Fig6). In contrast,
+OE seed cells contained apparently smaller OBs than those ofWT (Fig6).
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+9/25
+
+
+
+.PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+WT
+OE-9
+WT
+OE-9
+OE-18
+A
+B
+C
+OE-16
+OE-18
+E
+F
+G
+H
+7.6X101 L
+WT
+OE-9
+1.2X103
+4.6X101
+2d
+P=4.8X 104
+28 5.3X106
+46 7 5.0X102 8.6X102
+140 3.6X101
+3.3X106
+E
+E
+3
+& 25 2.5X104
+42
+E 120
+
+ahe
+Ri
+€ 2
+22
+38
+100
+of 1
+I
+2
+0
+I
+a 19
+34
+80
+P=5.0X 10
+&
+:
+3d
+8
+16
+30
+60
+E
+6
+I
+J
+1.1X103
+K
+1.1X103
+4
+4.2X104
+I
+30 1.4X103
+160 1.1X103
+80 1.1X103
+2
+1.8X104
+5.0X104
+5.0X104
+E 0
+26
+140
+70
+7d
+P=7.7X 104
+I
+22
+I
+120
+60
+i
+18
+gts
+a
+12
+8 100
+50
+14
+0
+9
+I
+E 10
+80
+40
+de 6
+o
+ d
+a
+S & ss 8
+$ 8 68 8
+A 6 bi 8
+WT OE
+Fig 4. Characterization oftransgenic soybeans overexpressing GmOLEO1. A,Seedappearance comparison between WT and OE-9, OE-16, OE-18. T3 seeds
+showed la shinier seed surface and smaller seed size than WT. B-E, Microscope-based visualization oflipid and OB accumulation in soybean seeds. B, Cross sections
+ofsoybean seeds at 25 DAF showing lipid accumulation as stained with Oil Red O. Two transgenic soybean seeds, OE-9 and OE-18, showedahigherleedofTAG
+accumulation than WT seeds. Cand ID, Comparison ofthe abundance ofoil bodies (OBs) stained with Oil Red 10 (C) and alkaline toluidine blue O (D) between the
+OE lines and WT 'as visualized using an optical microscope. E, Comparison ofthe abundance ofOBs stained with Nile Red between the OE lines and WTas
+visualized with a confocal microscope, Bar == 10 um. F-K, Comparison of fseed traits (F andG) and yield-related phenotypes between the OE and WT seeds, including
+plant height (H), 100-seed weight (I), pod number () and seed yield (K) per plant. L, Comparison of seed germination rate and root length between WT and 1OE-9 at
+2,3and7 days spostgermination. OE-9 seeds showed faster seed germination than WT seeds. Error bars indicate SD (n 5). Statistical significance was determined
+by ANOVA.
+htps/iboiongrioiart/pumalpgen1008267001
+PLOS Genetics Imtpszldoiorg1o.137t/oumalpgen.1008267 July 10, 2019
+10/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+20 17 OWT a OE-9 a OE-16 DOE-18
+16
+12
+a
+a 8
+S 4
+0
+C16:0 C18:0
+C18:1
+C18:2
+C18:3
+Fig 5. Comparison of fatty acid composition between OE and WT seeds.
+htpslidoiorgf10137t/joumapge.100257905
+Overexpression of GmOLEO1 affected the expression of genes related and
+unrelated to oil synthesis
+To better understand the molecular mechanism by which GmOLEO1 increased oil accumula-
+tion in soybean seeds, we compared the transcriptomes ofOE and WT seeds at three seed
+development stages (20, 25 and 40 DAF) using RNA-seq analysis. In total, 796, 1238, and 1417
+differentially expressed genes (DEGS) were identifiedby comparing OE with WT seeds at 20,
+25, and 40 DAF, respectively (Fig 7A, S6-S8 Tables). The RNA-seq result was validatedby
+qPCR analyses of16 randomly selected genes (S9 Table, R? == 0.84). We observed a trend
+toward increasing numbers of DEGs as DAF increased (Fig 7B). This increasing trend in the
+number ofDEGs is consistent with the pattern of oil content increase in seeds as DAF
+WT
+OE-9
+OE-18
+A
+B
+C
+Fig6. Microscope analyses ofOBs in WT and OE seeds. A, OBsin WT and OE seeds at 25 SDAF, scale bars 3 um.
+B, Distribution ofOBs sinawhole seed cell lat 40 DAF, scale bars = 5 um. C, Increased magnification ofOB distribution
+in a seed cell at40DAF, scalel bars == 2um. The seed cells in OE-9and OE-18 appear to contain smaller OBs than those
+in WT. Red arrows, oil body; yellow arrows, protein body; blue arrows, starch granules.
+htpslidoiongr1013t/pumalpgen.100267006
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+11/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+A 1600 A up-regulated D down-regulated
+Auxin
+6
+signaling pathway
+800 346 535 386
+Response to growth hormone
+of
+Nucleosome assembly
+0
+Histone phosphorylation
+20d 25d 40d Regulation of transcription factor
+E -800 -450 -703
+Cytokinesis by cell plate formation
+-1600
+-1,031
+Response to cyclopentenone
+Spindle assembly
+B 30.0
+BWT BOE-9
+Cell proliferation
+e 25.0 DOE-16 BOE-18
+Stomatal lineage progression
+E
+Cell-cell junction assembly
+20.0
+Regulation of meristem growth
+15.0
+UDP-glucose transport
+3
+Glucosinolate biosynthetic
+10.0
+Amino acid transport
+C
+20d 25d 40d
+Seed maturation
+4.0 
+Regulation of seed germination
+I 3.0
+Short-chain fatty acid metabolic
+2.0
+Membrane lipid metabolic process
+a 1.0
+Fatty acid transport
+of
+Lipid catabolic process
+o 0.0
+a
+Lipid storage
+Dofd FOf ps AF Fo  S
+0
+2
+4
+6
+8
+Pvalue (10-*)
+Fig7. Comparative transcriptomic analysis of fdeveloping seeds between the OE lines and WT at different seed
+development stages. A, Histograms showing the differentially expressed genes (DEGS) in OEseeds relative to WT seeds at
+20, 25 and 40 DAF,respectively. B, Comparison ofoil content taccumulation between the OE and WT seeds at 20, 25 and 140
+DAF (P < 0.01). C, Expression analysis ofthe putative genes involved lin plant oil biosynthesisin OE-9 seeds at 40 DAF.
+Error bars are SD. The Y-axis represents the ratio of expression ofagene in the OE lines relative to WT, D, GO enrichment
+analysis for the DEGS sbetween the OE and WT seeds at 40 DAF. Purple, green, and blue columns represent the enriched IGO
+terms associated with oil metabolism pathway, seed germination, and protein metabolism pathway, respectively.
+htps/@bolongr1o1at/pumalpgen.100267.g001
+increases (Fig 7B). This result indicated that overexpression of GmOLEO1 resulted in signifi-
+cant changes in the transcriptomes in the developing OE seeds, and the changes became more
+dramatic as the seeds developed. To understand the biological processes in which GmOLEO1
+participates, we performed Gene Ontology (GO) enrichment analysis for these DEGS. In addi-
+tion to the enrichment ofGO terms associated with the regulatory pathways essential for plant
+growth and development, such as seed development and germination, amino acid and sucrose
+metabolism, and response to growth hormone, we found that GO terms associated with lino-
+leic acid metabolism, fatty acid transport, lipid metabolism and storage were also significantly
+enriched for these DEGS (Fig 7D).
+The RNA-seq results were further verified by the increased expression ofseveral known
+genes participating in TAG biosynthesis in OE seeds as shown by qPCR, such as diacylglycerol
+acyltransferase (DGAT1) [18], wrinkled 1 (WRI1) [29], zinc-finger protein (GmZF351) [17],
+two Arabidopsis OLEO orthologs (AtOLE2 and AtOLE3) [30], and oil body associated protein 1
+(OBAPIA) [31] (Fig 7C), indicating that the expression ofthese genes may be affected by GmO-
+LEO1 overexpression. These results indicated that overexpression ofGmOLEO1 promoted the
+expression ofTAG biosynthesis-related genes and lled to the enhancement of TAGbiosynthesis.
+GmOLEO1 underwent artificial selection for increased seed oil
+accumulation
+Because higher expression of GmOLEO1 in cultivated soybean than in wild soybean was
+observed, we hypothesized that the variations in its promoter region were under selection.
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+12/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+A
+Wild
+Landrace
+Cultivar
+TI
+Tajima's D
+TT
+Tajima's D
+T
+Tajima's D
+CDS 1.26x103
+1.22 3.52x104 -0.819 1.79x104
+0.04
+Promoter 1.12x103
+2.00
+5.29x104
+0.06
+2.85x104 -0.84
+B
+I Promoter --CDS
+Landrace Wild
+C
+0.8
+Cultivar
+0.6-
+E
+0.4-
+0.2
+0-
+42324766 42325904 42327043 42328182 42329320
+Wild
+Landrace
+Position (bp)
+Cultivar
+Fig 8. Diversity and evolutionary analyses of GmOLEO1 between wild, landrace and cultivated soybeans. A, Gene
+diversity (T) andTajima'sDof GmOLEO1 in the three groups. B,Fst in the promoter and coding sequence (CDS) of
+GmOLEO1 between the three groups. C, A phylogenetic tree comprising the three groups constructed using the SNPS in the
+promoter and CDSregion ofGmOLEO1.
+htpsliboiorgf10137l/pumalpgen.100267008
+Statistical analyses were performed using alarge population of 302 soybean accessions [24].
+We first evaluated Fst for different comparisons, including wild soybean VS. cultivar, wild soy-
+bean VS. landrace, and cultivar VS. landrace. The results showed that the Fst between wild VS.
+cultivated soybean is considerably higher than that between cultivar VS. landrace, especially in
+the promoter region (Fig 8A and 8B). The nucleotide diversity (T) analysis showed that T was
+higher in wild soybean than cultivated soybean in the promoter region and the coding region
+(Fig8A). Tajima's Din the promoter region was 2.00, 0.06 and -0.84 for wild, landrace and cul-
+tivar, respectively, while Tajima's D in the coding region was 1.22, -0.819, and 0.04 for wild,
+landrace and cultivar, respectively (Fig 8A), implying that positive selection had occurred in
+the promoter region. A phylogenetic analysis using variants in the promoter and coding
+regions identified three clusters, corresponding to wild soybean, landrace, and cultivar (Fig
+8C). Taken together, these results indicated that the promoter region was subjected to artificial
+selection during domestication.
+Discussion
+Itis known that seed oil content has been subjected to artificial selection targeting higher oil
+content [25]. This finding was further validatedby our study, in which a significant difference
+in seed oil content between cultivated and wild soybeans was observed (Fig 1D). Unlike other
+domestication traits in soybean, such as stem growth habit [32] andpod shattering [33], soy-
+bean oil content is highly complex; it is regulatedby many genes of small effect and is easily
+influenced by various environmental factors [1]. Our GWAS study across multiple environ-
+ments allowed us to identify a new environmentally stable QTL, GqOil20, and an underlying
+candidate gene, GmOLEO1 that is capable ofincreasing seed oil content in soybean. Notably,
+the GmOLEO1 locus was previously identified as a possible candidate for an eQTL associated
+with seed oil accumulation [34], and lit is physically close to other oil-related QTLs previously
+identified by linkage mapping [21-23]. GmOLEO1 may have been identified in this study
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+13/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+because the corresponding alleles were fixed with respectto oil variation during domestication.
+Given the complexity ofoil metabolism, the observed phenotypic variation (23.7%) couldbe
+due to the combined effects of GmOLEO1 and other genes at this locus. Other oleosin genes,
+regardless of sequence variation, with increased expression at the gene or protein level [35-36]
+during seed filling/maturation may also substantially affect oil accumulation. Nevertheless, our
+study further functionally verified that human-selected GmOLEO1 might be involved in seed
+oil accumulation, possibly by indirectly affecting oilbiosynthesis via efficient feedback.
+Our study and previous studies have indicated that the improvement of seed oil content in
+soybean during domestication was achieved lby artificial selection of multiple major genes, and
+some ofthose genes may not be directly involved in oilbiosynthesis, such as B1 [37] and
+GmZF351 [17]. In contrast to previous studies that identified oil-related genes using a reverse
+genetic approach, GmOLEO1 was pinpointed in an artificially selected locus, GqOil20, using
+an integrated strategy ofhigh-density genetic mapping and genomics. Haplotype and expres-
+sion analyses of GmOLEO1 between cultivated and wild soybean in our study provided addi-
+tional evidence of selection at the GmOLEO1 locus. This artificially imposed selection pressure
+on the expression ofGmOLEO1 could be an important factor affecting the observed difference
+in oil accumulation in soybean, because the overexpression ofHap2 ofGmOLEO1 resulted in
+enhanced oil accumulation in transgenic soybean (Figs 1G and 4F). Whether other genes in
+this block have functions associated with oilaccumulation requires further determination.
+Seed yield and quality represent two ofthe most important traits in soybean improvement.
+Breeding soybeans with high oil stability across environments while maintaining protein con-
+tent and yield has been difficult due to the complex genetic architecture ofoil regulation. In
+our study, GmOLEO1 was functionally identified as a candidate for the environmentally stable
+QTL GqOil20. Overexpression of GmOLEO1 significantly elevated oil content and the percent-
+age of polyunsaturated FAs without detriment to the overall plant performance, especially
+yield, in our preliminary study, making GmOLEO1 a promising candidate gene for use in
+breeding high-oil soybeans with improved levels ofhealthy polyunsaturated FAs. Although
+Hap2 (Williams 82-type) is not the most favored haplotype for increasing oil accumulation,
+enhanced seed oil accumulation was observed in this study, indicating that the GmOLEO1
+allele in Hap2 enhanced oil accumulation independent ofthe amino acid substitution (Ala265-
+Pro). One possible reason for this finding is that the substitution, which does not change
+hydropathy, may not affect the secondary structure ofoleosins in OBs. The strong correlation
+between Hapl and high expression levels ofGmOLEO1 alleles (Fig 1) suggests the importance
+of unique variation (Hapl) in the promoter region in enhancing the expression of GmOLEO1.
+The discovery ofthe molecular function DNA marker, Indel P237167, from the unique varia-
+tion in the promoter ofGmOLEO1 will facilitate marker-assisted selection (MAS) in soybean
+high-oilbreeding programs.
+The importance of oleosins in lipid accumulation and oil body formation in seed plants has
+been gradually recognized over the past three decades, and lithas demonstrated an important
+role in the maintenance ofOBs and preventing them from coalescence [9]. The Arabidopsis
+genome contains 17 oleosin genes [38], ofwhich AtOLE1 has been reported to be involvedin
+lipid biosynthesis [39]. In soybean, 13 putative oleosin genes were found in the G. max refer-
+ence genome, while only GmOLEO1 colocalized with the associated SNP (AX-93661332) in
+GqOil20 in our study (S10 Table). The overexpression of GmOLEO1 showed consistent results,
+as observed in AtOLE1, revealing conserved functions between GmOLEO1 and AtOLE1 in
+increasing oil accumulation. Despite being rarely studied in other species, thehigh similarity
+in amino acid sequence and structural domains (Fig 2A and 2B) suggests that GmOLEO1-like
+proteins from the Faboideae, Brassicaceae, and grass clades might have a conserved function
+in determining OB size but lineage-specific roles [7]. For example, expression of GmOLEO1
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+14/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+correlated with oil content in our study, and OE seeds with increased oil content contained
+smaller OBs; conversely, the expression ofoleosin genes was independent of oil content in
+maize, and a high-oil maize strain contained larger, more spherical OBs than did low-oil maize
+[40]. The conserved role of OLEOS from various plant species in enhancing oil accumulation
+suggests that GmOLEO1 orthologs have considerable potential for oil improvement in other
+oil-producing crops.
+Ithas been demonstrated that oleosins have important functions in OB formation, stabiliza-
+tion, and transgenic addition of oleosin increased oil content in Arabidopsis, Brassica and
+yeast [10, 31, 41-42], but oleosins' role in increasing oilaccumulation in soybean seeds has
+rarely been reported previously. In addition to these potentially cross-species functions in
+determining the size ofOBs and affecting oil accumulation, our study showed that increased
+oleosins resulted in apparent reductions in OB size and increases in OB number in seed cells
+(Fig 6) and increased seed oil contents (Fig 2), in agreement with a study in which suppression
+ofOLEO1 resulted in larger OBs and reduced total lipidlevels in seeds [9-10]. Oil accumula-
+tion was gradually regulated as the seeds matured, possibly due to a gradual increase in the
+expression ofGmOLE01, which was concomitant with the enhanced TAG metabolism during
+seed maturation identified by RNA-Seq (Fig 7). Thus, it is logical that a positive correlation
+between oil content and GmOLEO1 expression was observed in our study (Fig 1G). A similar
+correlation has also been observed in Brassica napus, where the expression levels of fOLEOI
+oleosin in high-oil genotypes were considerably higher than those in low-oil seeds [41]. The
+higher expression levels ofGmOLEO1 in high-oil soybean varieties might be attributed to the
+unique variation present in the promoter ofHapl. The presence of putative seed-maturation-
+related cis-elements (abscisic acid (ABA) response and seed regulation, Fig 1F) in the pro-
+moter region of GmOLEO1 may be responsible for its exclusive expression during seed
+maturation.
+In addition to stabilizing the structures oflipid droplets (LDs), oleosins also serve other
+functions, including enzymatic and signaling roles. Some ofthese proteins are ubiquitous in
+cells with and without LDs, thus exerting broader functions in seeds and other organs [43]. In
+peanut, oleosin3 (OLE3) was shown to exhibit bifunctional activities and was phosphorylated
+by STYK (AhSTYK) to regulate MGAT and PLA2 activity; it could be involved in the biosyn-
+thesis and mobilization ofTAGS during seed maturation and germination [44]. However, a
+recent report showed that the bifunctional enzymic motifs are present in only peanut oleosins
+and not in those ofother plants [7]; thus, another possibility is that oil accumulation increases
+as a result of GmOLEO1 overexpression, which mightlead to efficient feedback by producing
+smaller OBs [45]. The detailed mechanisms underlying the regulation of gene expression by
+GmOLE1 must be decipheredin future work.
+The level ofoleosin itselfis regulated during seed development and germination. When
+seeds germinate, oleosin degradation occurs prior to OB degradation. A recent study revealed
+that the ubiquitin binding protein PUX10 and division cycle 48 homolog A (CDC48A) are
+core components of an LD-associated ERAD-like degradation machinery, which facilitates the
+dislocation of oleosins from LDs [46-47]. In our study, faster seed germination ofOE lines
+might be associated with higher levels of some olcosin-degradation proteins (e.g., PUX10 and
+CDC48A) [46-47], but this hypothesis remains to be experimentally determined.
+Based on the results ofour preliminary study and a previous finding [9], we proposed that
+the biosynthesis ofTAGs was enhanced in the OE lines, possibly because ofthe affected TAG
+metabolic pathway, as a result ofincreased expression ofGmOLEOloleosins Smaller OBs
+gradually accumulated as the newly produced TAGS reached the minimum size that couldbe
+completely covered by the increased number of oleosin proteins, given that oleosins serve as
+surfactant to prevent OBs from coalescence [10, 48]. Thus, increased oleosin production in OE
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+15/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+seeds, which resulted in reduced size but increased turnover ofOBs during seed maturation,
+couldbe a more efficient way to use the limited intracellular space than larger OBs, leading to
+increased total oil content in OE seeds.
+Material and methods
+Plant materials and field experiments
+The association panel for GWAS consisted of fa diverse collection of219 soybean accessions
+(including 195 landraces and 24 elite varieties) originating from 26 provinces across six differ-
+ent agroecological regions in China, ranging from latitudes 53to 24°N and longitudes 134 to
+97'E [49]. Field experiments were performed in the 2009, 2011, 2012, 2013 and 2014 growing
+seasons at four different geographic locations as previously described [50]. Briefly, soybean
+plants were examined under field conditions at the following experimental stations: Jiangpu
+Experimental Station ofNanjing Agricultural University (32.1'N 118.4'E), Nanjing, in 2009
+(designated as Environment 1, E1); Maozhuang Experimental Station (34.8°N 113.6°E) of
+Henan Agricultural University Zhengzhou, in 2009 (E2) and 12011 (E3); the Fangcheng Experi-
+mental Farm (33.2'N 112.9E) ofHenan Agricultural University in 2012 (E4), and Yuanyang
+Experimental Station ofHenan Academy of Agricultural Sciences, Zhengzhou, in 2013 (E5)
+and in 2014 (E6). A randomized block design was used for all field trials. In all environments,
+each accession was planted in a three-row plot, with each row 200 cm long and 50-cm row
+spacing.
+Phenotyping and genotyping
+Mature soybean seeds were harvested and air-dried, and fully filled seeds were used for oil con-
+tent measurement. Measurement of soybean oil, protein, and FA components was conducted
+using a near infraredspectrophotometer (NIR) seed analyzer (DA7200, Perten Instruments,
+Huddinge, Sweden) as previously described [51]. This association panel was genotyped using
+the NJAU 355K SoySNP array as previously described [26], and a total of 292,035 high-quality
+SNPS were used for association mapping.
+Phenotyping analysis
+Phenotypic data for soybean seed oil across different environments were subjected to an
+ANOVA using the PROC GLM (general linear model) mixed model of fSAS version 9.2 (SAS
+Institute, 2002). The linear statistical model includes the effects of genotype, environment and
+the environment x genotype interaction. The BLUP for each line was calculated with PROC
+MIXED in SAS (SAS Institute, 2002) and used as the phenotypic input for the subsequent
+GWAS. The violin plot was drawn using the R package vioplot [52]. The heritability of oil con-
+tent was calculated using h = Vg/ (Vg+Ve), where Vg and Ve represent genetic and environ-
+mental variation, and each term was extracted from the ANOVA results.
+Genome-wide association study
+GWAS was conducted using the compressed mixed linear model with TASSEL 5.0 [53, 54]
+using SNP with minor allele frequency greater than 0.05, and the threshold was determined
+with Bonferroni threshold of < 4.95 X 10-6 (P = 1/n) [55], where n is the SNP number used in
+GWAS. The population structure and the relatedness were described previously [26]. The
+Manhattan plot was drown using the R package qqman [56]. The LD heat map was plotted
+using the LDheatmap R package [57].
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+16/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+Quantitative real-time PCR
+Expression ofthe candidate gene was examined in different soybean tissues, including roots,
+shoots, leaves, flowers, pods, and developing seeds at different developmental stages (10, 20,
+25, 30 and 40 days after flowering). Total RNA was isolated from the tissues using the RNA-
+simple Total RNA Kit (TaKaRa, Japan), and 11 ug ofRNA was treated with 10 units of RNase-
+free DNase I (TaKaRa) prior to CDNA synthesis. The first strand ofcDNA was synthesized
+using the SuperScript III First-Strand Synthesis System (Invitrogen, USA) following the manu-
+facturer's instructions. Gene expression was determined using the Bio-Rad CFX96 Touch
+Real-Time PCR System (Bio-Rad, California, USA). The PCRs contained 5 uL ofthe first-
+strand cDNA, 0.5 UL of 10 umolL-1 gene-specific primers (S11 Table), and 10 uL of Real-
+Time PCR SYBR Mix (PC3302; Aidlab). The PCR conditions were as follows: 94'C for 3 min
+and 40 cycles at 94°C for 15 sand 60°Cfor 15 S. The soybean tubulin gene (GenBank:
+AY907703.1) was amplified as an internal reference, and la negative control reaction was per-
+formed using water instead of cDNA. Three biological replicates per sample were used, and
+each reaction was performed in triplicate.
+Dual luciferase assay
+In the protoplast transient expression experiments, the dual luciferase assay vector pGreenll
+0800-LUC was used to analyze the activity ofthe different promoters. This vector contains a
+firefly luciferase (LUC) reporter gene that can be driven by the target promoter and a Renilla
+luciferase (REN) reporter gene driven by 35S. The purified DNA fragment ofthe target pro-
+moter was fused with the LUC reporter gene in the vector digested with HindIII and Sall
+enzymes to construct the recombinant vector. The vector pGreenll 0800-LUC without pro-
+moter insertion before the LUC reporter gene was used as acontrol. The recombinant vector
+and the control were individually transformed linto Arabidopsis protoplasts via PEG-calcium
+transfection. The isolation ofArabidopsis protoplasts and protoplast culture were performed
+according to standard protocols [58]. The ratio ofLUC and REN activity (LUC/REN) was
+used to reflect the activity ofthe target promoter. The LUC/REN value was determined using
+the dual luciferase reporter assay system (Promega, USA).
+Vector construction and generation of transgenic plants
+The complete coding sequence of GmOLEO1 was amplified from the CDNA ofWilliams 82 by
+regular PCR using gene-specific primers (S11 Table). The PCR product was subcloned linto the
+pMD-19 T vector (TaKaRa, Japan) for sequence verification. The verified GmOLEO1 sequence
+was then cloned into the dicotyledon expression vector PCAMBIA3300, which contains a
+selection marker gene, phosphinothricin acetyltransferase (bar), using the ClonExpress Entry
+One Step Cloning Kit. The resulting recombinant PCAMBIA33_GMOLEOI construct was
+transformed into Williams 82 via the Agrobacterium tumefaciens-mediated soybean cotyledon
+node transformation system as previously described [59]. Extraction of genomic DNA from
+the leaves of PPT-resistant plants and nontransformed plants was performed using the cetyltri-
+methylammonium bromide (CTAB) method [60]. Transformants were verified by leaf-paint
+ing assay with herbicide phosphinothricin (PPT), PCR analysis for the presence ofintroduced
+GmOLEO1 and bar (482 bp), and LibertyLink strip detection for the expression ofthe bar gene
+using the QuickStix Kit (EnviroLogix Inc., ME, USA) were considered positive transgenics for
+further analysis. For LibertyLink strip detection, a total of 100 mg leaftissue was collected and
+ground completely in the bottom ofa conically tapered 1.5 ml tube by pestle rotation, followed
+by adding 0.5 mL ofextraction buffer and la strip into the tube. After ten minutes, strips
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1000267 July 10, 2019
+17/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+containing only the controlline were negative for PAT protein expression, while those with
+two lines (controlline and test line) were positive for PAT protein expression [61].
+Subcellular localization and colocalization assay
+The full-length GmOLEO1 CDNA was amplified and cloned into the pBWA (V)HS-osgfp vec-
+tor to obtain the pBWA(VHS-osgfp-355GmOLEOI-GFP construct under control of fthe cau-
+liflower mosaic virus (CaMV) 35S promoter (Biorun Co., Ltd). The binary vector 35S::
+GmOLEO1-GFP was transiently coexpressed in the leaves of Nicotiana benthamiana via agro-
+infiltration. Then, the tobacco leafepidermal cells agro-infiltrated with the GmOLEO1-GFP
+construct were stained with Nile Red, a lipophilic dye used to visualize OBs [4]. Fresh leaves
+were placed lin a solution containing Nile Red stock (100 mg/mL dimethyl sulfoxide) diluted
+100x with 1xPBS for 10 min and washed with PBS twice for 30 s each time. Fluorescence sig-
+nals were detected using a confocal laser scanning microscope (Nikon C2-ER, Japan) 2-3 days
+after infiltration. GFP, mKate and Nile Red were excited at 488, 561 and 559 nm, and their
+emission was detected at 510 to 540, 580 to 620 and 570 to 670 nm, respectively. All ofthese
+fluorescence experiments were independently repeated at least three times.
+Western blot analysis for GmOLEO1
+Immunogenicity peptides ofGmOLEO1 protein were predicted by bioinformatics analysis.
+The sequences ofthe peptides were as follows: MAELHYQQQHOYPHR and KDYGQQ-
+QISGVQAS. The peptides were commercially synthesized and purified (Wuhan GeneCreate
+Biological Engineering Co., Ltd, China). Two male Japanese White rabbits were used for the
+immune procedure. Next, a polyclonal antibody of GmOLEO1 protein was separated and
+purified for immunoblot analysis. Proteins offresh soybean seed were extracted by Triton X-
+100 lysate (0.5%). Then, 30 ug ofprotein extracts mingling with 2x SDS-PAGE sample loading
+buffer (Solarbio, Beijing, China) were loaded and subjected to SDS-PAGE. Afterward, protein
+bands were transferred onto polyvinylidene fluoride (PVF) membranes (Solarbio, Beijing,
+China). The membranes were blocked with 5% skimmed milk powder solution for 2h at room
+temperature, followed by incubation with a polyclonal antibody against GmOLEO1 diluted to
+1:10000 in phosphate-buffered saline overnight at 4'C. Finally, the blot was detected with
+horseradish peroxidase (HRP)-conjugated goat-anti-rabbit secondary antibody (Santa Cruz
+Biotechnology, USA) for another 1h. The protein bands were visualized using a chemilumi-
+nescence system (Pierce, Rockford, Illinois, USA).
+RNA-seq analysis of transgenic soybean
+Transcriptomes were compared between pooled OE seeds at 20, 25, and 40 DAF, respectively,
+with the WT seeds at the corresponding developmental stage. For each time point, two devel-
+oping seeds from each ofthe three OE lines (OE-9, -16 and -18) were collected and pooled las
+onel biological replicate, and three biological replicates were used per sample. Library construc-
+tion was performed as previously described [62]. The library was sequenced with the Illumina
+HiSeq 2500 analyzer at Biomarker Technologies (Beijing, China), producing 200-bp paired-
+end reads. An average of6.47 gigabases of clean data per sample was generated. Differential
+gene expression was determined using the DESeq R package [52]. A gene with an adjusted
+P < 0.05 and a fold change (FC) >1.5 were defined as DEGS. Enrichment analysis ofGene
+Ontology ofbiological pathways (GOBPS) was performed using the GOseq R packages [63] to
+compute P values that indicate the significance of feach GOBP being represented by the genes.
+GOBPS with P < 0.01 were identified as enriched biological processes.
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+18/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+Microscopy analysis
+Fresh immature soybean seeds harvested at 25 and 40 DAF were fixed in FAA fixation solution
+for at least 24 h. The main experimental steps for Oil Red O staining are as follows: cutting the
+whole sample into small blocks, removing excess water with tissue paper, immersing the small
+tissue blocks in Oil Red O (Servicebio, G1016, Wuhan, China) solution and incubating at 37'C
+for 60 min. Excess staining solution was removedby rinsing with tap water. The stained tissue
+blocks were immersed in 75% ethanol for 30 min oruntil no fading occurred; then, they were
+preserved in 4% paraformaldehyde and kept in the dark. Photos were taken using a digital
+camera (Canon 7D). The fixed tissue samples were embedded with OCT compound (Sakura,
+Japan). Frozen sections (8-10 uum) were obtained with Cryostat Microtome (Thermo, CRYOS-
+TAR NX50, USA) and mounted on a prechilled glass slide. The frozen sections were stained
+with 0.1% Nile Red (Servicebio, G1073, Wuhan, China) and Oil Red O (Servicebio, G1016,
+Wuhan, China). Image observation for Nile red staining was performed using a Nikon confo-
+cal scanning microscope (Nikon, C2, Japan). The excitation wavelength was 488 nm, the emis-
+sion wavelengths were 593-654 nm, and the OBs were imaged at 800x magnification. Oil Red
+O staining was imaged using an opticalmicroscope (Nikon, Eclipse Ci, Japan) at 800x
+magnification.
+Tissues (1x3 mm3 in size) ofdeveloping soybean seeds were fixed in 2.5% glutaraldehyde
+buffered with 0.1 M phosphate buffer (pH 7.2) for 12 h. Postfixation was subsequently con-
+ducted in 1% osmic acid in 0.1 M phosphate buffer (pH 7.2) for 5h. The blocks were then
+washed, dehydrated through an ethanol series of 30-100%, and embedded in EMbed 812
+media. The samples were cut into 1 um slices using an ultramicrotome (Leica UC7, Germany),
+stained with alkaline toluidine blue O solution (Servicebio, G1032, Wuhan, China), and then
+imaged (800x) using an optical microscope (Nikon, Eclipse Ci, Japan). For transmission elec-
+tron microscopy (TEM), the samples were cut into 60 nm slices using an ultramicrotome
+(Leica UC7, Germany) and then separately stained with uranyl acetate and lead citrate for 15
+min. The slice samples were photographed under a TEM (HT7700, Hitachi, Japan).
+Gene resequencing and haplotype analysis of GmOLEO1
+The 2.3-kb genomic region spanning from 1,500bp upstream from the translation start codon
+(ATG) to the 3-untranslated region (UTR) of GmOLEO1 was sequenced and analyzed. Haplo-
+type analysis was performed by resequencing this region in 20 high-oil, 20 low-oil and 10 mod-
+erate- -oilaccessions. All primers (S11 Table) used in this study were designed using the Primer
+3 online tool (http./frodo.wi.mitedu/primer30. All sequences were verified manually, and all
+observed polymorphisms were reverified lby resequencing of another amplicon. Allthe verified
+sequences were aligned using ClustalX version 1.83 [64]. The polymorphism data were ana-
+lyzed using DnaSP version 4.10 [65] to identify sequence variation. Prediction of cis-elements
+in the promoter region was carried out using the online web tool PlantCARE [66].
+Fatty acid component analysis
+FA components in soybean seeds were analyzed as previously described [17]. Briefly, 10 mg
+fine powder of soybean seeds was used for FA isolation. FAs were extracted with 1 mL of
+extraction buffer (2.5% [v/v] H2SO4 in CH3OH) at 85'Cfor 1h. The supernatant (500 UL) was
+mixed with 300 uL ofhexane and 600 uL of0.9% (w/v) NaCl. FA methyl lesters were redis-
+solved in 200 uL of ethyl acetate and analyzed immediately with a gas chromatography system
+(GC-2014; Shimadzu, Beijing, China). Peaks corresponding to each FA species were identified
+by comparison to a FA methyl ester analytical standard (Supelco, Poole, UK). Concentrations
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+19/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+ofFA species were normalized against the internal controlheptadecanoic acid (Sigma-Aldrich,
+USA). Five biological replicates per line were analyzed in this experiment.
+Germination test
+The seeds were surface-sterilized with chlorine gas for 4h prior to germination in darkness in
+Petri dishes (90 mm in diameter) on two sheets offilter paper moistened with deionized water
+(15 seeds per Petri dish). Germination tests were carried out in an incubator (MGC-400B,
+YIHENG, Shanghai, China) equipped at 25'Cwith 75% humidity. The filter paper was
+replaced once a day, and germinated seeds with healthy roots were counted. Root length was
+measured using a ruler at 2, 3 and 7 days postgermination. Three replicates per treatment were
+performed.
+Gene diversity analysis
+The published whole genome sequencing data were used for gene diversity analysis [25].
+VCFtools was used to estimate gene diversity (Fst, nucleotide diversity (t) and Tajima'sD)
+[67]. SNPRelate combined with APE was used to construct the phylogenetic tree [68, 69].
+Supporting information
+S1 Fig. Oil variation and GWAS results. A, Oil content variation in all 219 accessions across
+six environments. B, Quantile-quantile plot ofthe GWAS results under a general linear model
+(GLM) and mixed linear model (MLM, Q+K). C, Phenotypic distribution ofthe oil trait across
+six environments. E1-E6 denote the oil content in the corresponding environments.
+(TIF)
+S2 Fig. Manhattan plots showing the GWAS results of soybean oil content across six envi-
+ronments (MLM, Q+K, P < 4.95 x 10-6). The x-axis shows the 20 soybean chromosomes,
+and they-axis shows the significance expressed as a -logioP value. The quantile-quantile plot
+corresponding to the GWAS (MLM, Q+K, P < 4.95 x 10 6) result in each environment is
+given beside the Manhattan plot.
+(TIF)
+S3 Fig. A regional view of FST between the G. max-G. soja group and G. max only at the
+three significant association loci. The dotted line represents the 95% tails for the empirical
+distribution of fFST statistics.
+(TIF)
+S4 Fig. Identification of positive transgenic plants. (A-C) Identification of positive trans-
+genic plants by leaf-painting assay (A), polymerase chain reaction (PCR) verification (B) and
+strip detection for the presence ofthe selective bar gene (C).
+(TIF)
+S5 Fig. Hierarchical clustering of differentially expressed genes in the transgenic lines rela-
+tive to WT plants. The indicated scale is the logz value ofthe normalizedlevel of gene expres-
+sion.
+(TIFF)
+S1 Table. Phenotypic variation analysis for oil content ofthe 219 accessions in six different
+environments.
+(XLSX)
+PLOS Genetics Ihmps.ldoiong10.137t/oumalpgen.18261 July 10, 2019
+20/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+S2 Table. GWAS result for oil content in soybean seeds across six different environments
+and their BLUP.
+(XLSX)
+S3 Table. Candidate genes within the 50-kb region located on either side ofthe peak SNP
+AX-93910018.
+(XLSX)
+S4 Table. Comparison ofoil, protein, and yield-related traits between OE lines and WT.
+(XLSX)
+S5 Table. Fatty acid composition analysis between OE and WT seeds.
+(XLSX)
+S6 Table. Differentially expressed genes identified in developing seeds between the OE
+lines and WT at 20 DAF.
+(XLSX)
+S7 Table. Differentially expressed genes identified in developing seeds between the OE
+lines and WT at 25 DAF.
+(XLSX)
+S8 Table. Differentially expressed genes identified in developing seeds between the OE
+lines and WT at 40 DAF.
+(XLSX)
+S9 Table. Relative gene expression determined by qPCR at 25 DAF and the list of primers
+used.
+(XLSX)
+S10 Table. Physicallocations ofthe 13 OLEO genes in the soybean genome.
+(XLSX)
+S11 Table. Primers used in this study.
+(XLSX)
+Acknowledgments
+We thank Dr. Wenhua Zhang from Nanjing Agricultural University for his critical reading of
+this manuscript. Three anonymous reviewers are thanked for their critical and highly valued
+comments.
+Author Contributions
+Conceptualization: Dan Zhang, Deyue Yu.
+Formal analysis: Dan Zhang, Hengyou Zhang, Zhenbin Hu.
+Funding acquisition: Dan Zhang, Deyue Yu.
+Investigation: Dan Zhang, Shanshan Chu, Kaiye Yu, Lingling Lv, Yuming Yang, Xiangqian
+Zhang, Xi Chen, Guizhen Kan, Yang Tang.
+Methodology: Dan Zhang.
+Project administration: Dan Zhang.
+Resources: Dan Zhang, Yong-Qiang Charles An, Deyue Yu.
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+21/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+Supervision: Dan Zhang, Deyue Yu.
+Visualization: Dan Zhang, Hengyou Zhang, Zhenbin Hu.
+Writing original draft: Dan Zhang, Hengyou Zhang, Zhenbin Hu.
+Writing - review & editing: Dan Zhang, Hengyou Zhang, Zhenbin Hu.
+References
+1. Clemente TE, Cahoon EB. Soybean oil: Genetic approaches for modification offunctionality andtotal
+content. Plant Physiol. 2009; 151(3):1030-40. htps//do.org10.1104/pp.109.146282
+000271430500010 PMID: 19783644
+2. Chapman KD, Ohlrogge JB. Compartmentation of triacylglycerol accumulation in plants. J Biol Chem.
+2012; 287(4):2288-94. htps./doi.org/10.1074/bc.R111.290072 000300292300004 PMID: 22090025
+3. Huang AHC. Oil bodies and loleosins in seeds. Annu Rev Plant Phys. 1992; 43:177-200. https://doi.
+cptinNbenwm.gdoengenNe A1992HW51800007
+4. Huang CY, Chung CI, Lin YC, Hsing YIC, Huang AHC. Oil bodies and oleosinsin Physcomitrellapos-
+sess characteristics representative of early trends in evolution. Plant Physiol. 2009; 150(3):1192-203.
+htps_/doi.org/10.1104/pp.109.138123 000268696800008 PMID: 19420327
+5. Huang CY, Huang AHC. Unique motifs and length of hairpin in oleosin target the cytosolic side of fendo-
+plasmic reticulum and budding lipid droplet. Plant Physiol. 2017; 174(4):2248-60. https:/doi.org/10.
+1104/pp.17.00366 PMID: 28611060
+6. Parthibane V, RajakumariS, Venkateshwari V, lyappan R, Rajasekharan R. Oleosin is bifunctional
+enzyme that thas both monoacylglycerol acyltransferase and phospholipase activities. .J Bio Chem.
+2012; 287(3):1946. htps./doi.org/10.10741@bc.M111.309955 PMID: 22128159
+7. Ming-Der Huang, Anthony HCHuang. Bioinformatics reveal lfive lineages of foleosins and the mecha-
+nism of lineage evolution related to structure/function from green algae to seed plants. Plant Physiol.
+2015, 169(1):453-70. https_/dol.org/10.110.1104/pp.15.00634 PMID: 26232488
+8. GuJW, Chao HB, Wang H, LIYH, LIDR, Xiang J, et al. Identification of the relationship between oil
+bodymorphology and oil content by microstructure comparison combining with QTL analysisin Bras-
+sica napus. FrontPlant Sci. 2017; 7. ARTN 11989. htps/doi.org/10.33891p1s.2016.01989
+000391331000001 PMID: 28111582
+9. Siloto RMP, Findlay K, Lopez-Villalobos A, Yeung EC, Nykiforuk CL, Moloney MM. The accumulation of
+oleosins determinesthe size of fseed oilbodies in Arabidopsis. Plant Cell. 2006; 18(8):1961-74. https:ll
+delogn1o.105pc1060120 000239703000015 PMID: 16877495
+10. SchmidtMA, Herman EM. Suppression of soybean oleosin produces micro-oil bodies that aggregate
+into oil body/ER complexes. Mol Plant. 2008; 1(6):910-24. https/doi.org/10.10.1093/mp/ssn049
+000262858000004 PMID: 19825592
+11. LiuQ, Sun Y, Su W, Yang J, LiuX, Wang Y, et tal. Species-specific size expansion andmolecular evolu-
+tion of the oleosins in angiosperms. Gene. 2012; 509(2):247-57. https_/doi.org/10.1010.1016/.gene.2012
+08.014PMID: 22951805
+12. Eskandari M, Cober ER, Rajcan I. Genetic control of soybean seed oil: IIQTL and genes that increase
+oil concentration without decreasing protein or with increased seed yield. Theor Appl Genet. 2013; 126
+(6):1677-87. htps/doiorg10.1007s800122013-20837 000319477900022 PMID: 23536049
+13. CaoY,Lis, Wang Z, Chang F, Kong J, Gai J, et al. Identification of major quantitative trait loci for seed
+oil contenti tin soybeansby combining linkage and genome-wide association mapping. Frontiers in plant
+science. 2017; 8:1222. Epub 2017/07/28. htps//doi.org/10.3389/pis.2017,01222 PMID: 28747922
+14. LIYH, Reif JC, Hong HL, LiHH, Liu ZX, Ma YS, etal. Genome-wide association mapping of QTL under-
+lying seed oil andprotein contents ofa diverse panel of soybean accessions. Plant Sci. 2018; 266:95-
+101. htipsIdoiorg/10.1016,plentsd201704013000423003300011 PMID: 29241572
+15. Van K, McHale LK. Meta-analyses of QTLS associated with protein and oil contents and compositions
+in soybean [Glycine max(L.) Merr.]seed. IntJ Mol Sci. 2017; 18(6). ARTN1180. https://doi.org/10.
+3390/jms18061180 000404581500079 PMID: 28587169
+16. Lardizabal K, Effertz R, Levering C, MaiJ, Pedroso MC, Jury T, et al. Expression of Umbelopsis
+ramanniana DGAT2Ain seed increases oil in soybean. Plant Physiol. 2008; 148(1):89-96. https://doi.
+0r97101104p.108.123042 000258947600009 PMID: 18633120
+17. LIQT, LuX, Song QX, Chen HW, Wei W, Tao JJ, et al. Selection for a zinc-finger protein contributesto
+seed oil increase during soybean domestication. Plant Physiol. 2017; 173(4):2208-24. https://doi.org/
+10.1104/pp.16.01610 000402054300020 PMID: 28184009
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+22/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+18. Roesler K, Shen B, Bermudez E, LiCJ, HuntJ, Damude HG, et al. An improved variant of soybean type
+1 diacylglycerol acyltransferase increases the oil content and decreases the soluble carbohydrate con-
+tent of soybeans. Plant Physiol. 2016; 171(2):878-93. htips/doi.org/10.110.1104/pp.16.00315
+000380699200012 PMID: 27208257
+19. Wang X, Lix, Zhang Z, Wang K. Characterization of genetic diversity and structures in natural Glycine
+tomentella populations on the southeastislands of China. Genet Resour Crop Evol. 2018; 66(1):47-59.
+htipscIdoiorg/10.1007s10722018-0694-6
+20. Wang XL, Wurmser C, Pausch H, Jung S, Reinhardt F, Tetens J, etal. Identification and dissection of
+fourmajorQTL affecting milk fat contenti in the german Hosteinfriestanpopulation. PloS One. 2012; 7
+(7). htips.ldolorgf10.1371/oumalpone.0040711 000306362400093 PMID: 22792397
+21. LiHW, Zhao TJ, Wang YF, Yu DY, Chen SY, Zhou RB, et al. Genetic structure composed of additive
+QTL, epistatic QTL pairs and collective unmapped minor QTL conferring oil content tandfatty acid com-
+ponents of soybeans. Euphytica. 2011; 182(1):117-32. htipsl/doiorg/10.10071s10681-011-0524-9
+000296011200011
+22. Priolli RHG, Campos JB, Stabellini INS, Pinheiro JB, VelloNA. Association mapping of oil content tand
+fatty acid components in soybean. Euphytica. 2015; 203(1):83-96. meussogi@i@nistomiole
+1264-4
+23. Reinprechty,Poysa VW, YuKF, Rajcan 1, Ablett GR, Pauls KP. Seed and agronomic QTLin low linole-
+nic acid, lipoxygenase-free soybean (Glycine max(L.) Merrill) germplasm. Genome. 2006; 49
+(12):1510-27. hmpeldaiongr10.13806:12 00024554960002PMID: 17426766
+24. Bandillo N, Jarquin D, Song QJ, Nelson R, Cregan P, SpechtJ, et al. A population structure and
+genome-wide association analysis on the USDA soybean germplasm collection. Plant Genome. 2015;
+8(3):13. htpslidsiogn1o.383Spiantoenome2015040024 0003673 90800010
+25. Zhou ZK, Jiang Y, Wang Z, Gou ZH, LyuJ, Li WY, et al. Resequencing 302 wild and cultivated acces-
+sions identifies genes related ito domestication and improvement tin soybean. Nat Biotechnol. 2015; 33
+(4):408-U125. mpsidsiognoiosnetLa@e 000352348500028 PMID: 25643055
+26. Wang J, Chu SS, Zhang HR, Zhu Y, Cheng H, Yu DY. Development and application of fa novelgenome-
+wide SNP array reveals domesticationhistory in soybean. Sci Rep-Uk. 2016; 6. htps_/doi.org/10.1038
+srep20728 000369615600001 PMID: 26856884
+27. Lee WS, TzenJTC, KridIJC, Radke SE, Huang AHC. Maize oleosin is correctly targeted to seed oil
+bodies in Brasstca.Napustranstomed with the maize oleosingene. P Natl Acad Sci USA. 1991; 88
+(14):6181-5. htips/doiorg10.1073/pnas.88.14.6181 A1991FW76100050 PMID: 11607198
+28. Zeng P, Vadnais DA, Zhang Z, Polacco JC. Refined glufosinate selection in Agrobacterum-mediated
+transformation of soybean [Glycine max(L.) Merrill). Plant Cell Rep. 2004; 22(7):478-82. https://doi.
+091010013029007128 000188457400006 PMID: 15034747
+29. Chen L, Zheng YH, Dong ZM, Meng FF, SunXM, FanXH, et al. Soybean (Glycine max) WRINKLED1
+transcription factor, GmWRl1a, positively regulates seed oil accumulation. Mol Genet Genomics. 2018;
+293(2):401-15. meusagthigensadagthmee 000427630400009 PMID: 29138932
+30. Deruyffelaere C, Bouchez I, Morin H, Guillot A, Miquel M, FroissardM, etal. Ubiquitin-mediated protea-
+somal degradation of oleosins sis involved lin oil body mobilization during post-germinative seedling
+growth in Arabidopsis. Plant Cell Physiol. 2015; 56(7):1374-87. Meuidsiogridio@egpodsg
+000359648900013PMID: 25907570
+31. Lopez-Ribera l, Lal Paz JL, Repiso C, GarciaN, Miquel M, Hernandez ML, etal. The evolutionary con-
+served oil body associated protein OBAP1 participates in the regulation of oil body size. Plant Physiol.
+2014; 164(3):1237-49. htps_/doi.org10.1104/pp.113.233221 000332475000011 PMID: 24406791
+32. Tian ZX, Wang XB, Lee R,LIYH, SpechtJE, Nelson RL, et al. Artificial selectionfor determinate growth
+habit tin soybean. P Natl Acad Sci USA. 2010; 107(19):8563-8. htips.ldolongrio.i073pnas
+1000088107 0002775912000151 PMID: 20421496
+33. Dong Y, Yang X, LiuJ, Wang BH, Liu BL, Wang YZ. Pod shattering resistance associated with domesti-
+cation is mediated by a NAC gene in soybean. Nat Commun. 2014; 5. htps_/do.org/10.1038
+ncomms4352 000332669600007 PMID: 24549030
+34. Bolon YT, Hyten DL, Orf JH, Vance CP, Muehlbauer GJ. eQTL networks reveal complex geneticarchi-
+tecture in the immature soybean seed. Plant Genome-Us. 2014; 7(1). htpsl/doi.org/10.38351
+plantgenome201308.0027 000338833800004
+35. Tzen Jason T. C., Yiu-Kay Lai2, Kwai-Lan Chan2, and Anthony H.C. Huang*. Oleosin isoforms of fhigh
+andlow molecular weights are present tin the oil bodies of diverse seed species. PlantPhysiol. 1990, 94
+(3):1282-1289. Meulssgroiigepasuarag PMID: 16667830
+36. Severin AJ; Woody JL; Bolon YT; Joseph B; Diers BW; Farmer AD; Muehlbauer GJ; Nelson RT; Grant
+D; SpechtJE; Graham MA; Cannon SB; May GD; Vance CP; Shoemaker RC. RNA-SeqAtlas of
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+23/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+Glycine max: Aguide to the soybean transcriptome. Bmc Plant Biol. 2010, 10(1):160. https://doi.org/
+10.11861471-229-10160 PMID: 20687943
+37. ZhangJH, Hao Q, Bai LL, XuJ, Yin WB, Song LY, et al. Overexpression ofthe soybean transcription
+factor GmDof4 significantly enhances the lipid content tof Chlorella ellipsoidea. Biotechnol Biofuels.
+2014; 7. htips_/doi.org10.1186s18851306-0140128-40003041391200001. PMID: 25246944
+38. Kim HU, Hsieh K, Ratnayake C, HuangAHC.Anovel group of oleosins is present tinside the pollen of
+Arabidopsis. J Biol Chem. 2002; 277(25):22677-84. htps.lidoiorg10.1074/c.M109298200
+000176313600075 PMID: 11929861
+39. Zhai ZY,LiuH, ShanklinJ. Phosphorylation of WRINKLED1by KIN10results sin its proteasomal degra-
+dation, providing jalink between energy homeostasis and ilipidbiosynthesis. Plant Cell. 2017; 29
+(4):871-89. MRU.030701@6E17Q01D 000400746600024 PMID: 28314829
+40. Ting JTL, Lee K, Ratnayake C, Platt KA, Balsamo RA, Huang AHC. Oleosin genes in maize kernels
+having diverse oil Icontents are constitutively expressed dindependent of oil contents. Planta. 1996; 199
+(1):158-65. MRLiAH0g1010TOO1NE PMID: 8680304
+41. Hu ZY, Wang XF, Zhan GM, Liu GH, Hua W, Wang HZ. Unusually large oilbodies are highly correlated
+with lower oil contentin Brassica napus. Plant Cell Rep. 2009; 28(4):541-9. htps_/do.org10.1007
+S00299-008-0654-2 000264622400001 PMID: 19093121
+42. Ting J.T.L., Balsamo R. A., Ratnayake C., & Huang A. H.C. (1997). Oleosin of plantseed oil bodiesi is
+correctly targetedto the lipid bodies in transformed yeast. .JBio Chem. 272(6), 3699-706. https://doi.
+0rg103074/pc.27263699 PMID: 9013626
+43. Huang AHC. Plant lipid droplets and their associated proteins: potential for rapid advances. Plant Phy-
+siol. 2018; 176(3):1894-918. htips/doi.org/10.110.1104/pp.17.01677 PubMed 1000426848300008 PMID:
+29269574
+44. Parthibane V, lyappan R, Vijayakumar A, Venkateshwariv, Rajasekharan R. Serinethreoninefy/osine
+protein kinase phosphorylates oleosin, aregulatorof lipid metabolic functions. Plant Physiol. 2012; 159
+(1):95-104. htps_/doi.org/10.1104/pp.112.197194 PMID: 22434039
+45. Miquel M, Trigui G, d'Andrea S, Kelemen Z, Baud S, Berger A, et al. Specialization of oleosins in oil
+bodydynamics during seed development in Arabidopsisseeds. Plant Physiol. 2014; 164(4):1866-78.
+htps_/doi.org/10.1104/pp.113.233262 000334342800028 PMID: 24515832
+46. Deruyffelaere C, Bouchez I, Morin H, Guillot A, Miquel IM, Froissard M, etal. Ubiquitin-mediated protea-
+somal degradation of oleosins is involved lin oil body mobilization during post-germinative seedling
+growth in Arabidopsis. Plant Cell Physiol. 2015; 56(7):1374-87. Epub 2015/04/25. https/doi.org/10.
+1093/pcp/pcv056 PMID: 25907570
+47. Deruyffelaere C, Purkrtova Z, Bouchez I, ColletB, CacasJL, ChardotT, et al. PUX10is a CDC48A
+adaptor protein that tregulates the extraction of ubiquitinated oleosins from seed lipid droplets in Arabi-
+dopsis. Plant Cell. 2018; 30(9):2116-36. htps/doi.org/10.1105/pc.18.00275 000446563700014
+PMID: 30087208
+48. Leprince O, van Aelst AC, Pritchard HW, Murphy DJ. Oleosins prevent oil-body coalescence during
+seed limbibitionas suggested by val low-temperature scanning electron microscope study of desiccation-
+tolerant and -sensitive oilseeds. Planta. 1998; 204(1): 109-19. htps./idoiorg/10.1007/5004250050236
+49. Wang Y,GaiJ. Study on the ecological regions of soybean in China. II. Ecological environmentand rep-
+resentative varieties. J Appl Ecol. 2002; 13(1):71. htipslidoi.org/10.1006/15.2001.0409 PMID:
+11962325
+50. ZhangD,Lu H, Chu S, Zhang H, Zhang H, Yang Y, et al. The genetic architecture of water-soluble pro-
+tein content and lits genetic relationship to total protein content in soybean. Sci Rep. 2017;7
+(5053):5053. mwulwogpuisestemetoes7 PMID: 28698580
+51. Zhang D, Kan G, Hu Z, Cheng H, Zhang Y, Wang Q, et al. Use of single nucleotide polymorphismsand
+haplotypes to identify genomic regions associatedwith protein content and water-soluble protein con-
+tentin soybean. Theor Appl Genet. 2014; 127(9): 1905-15. htipsl/doiorg/10.10071s00122-014-234841
+PMID: 24952096
+52. Anders S, HuberW. Differential expression analysisfor sequence count data. Genome Biol. 2010; 11
+(10). htpsidoiorg101188ig2010-11-10-106 000287378900008 PMID: 20979621
+53. Bradbury PJ, Zhangz, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. TASSEL: softwarefor
+association mapping of complex traits in diverse samples. Bioinformatics. 2007; 23(19):2633-5. https:/1
+doi.org/10.1093bioinformatics/btm308 000250673800021 PMID: 17586829
+54. Zhang ZW, Ersoz E, Lai CQ, Todhunter RJ, Tiwari HK, Gore MA, et al. Mixed linear model approach
+adaptedfor genome-wide association studies. Nat Genet. 2010; 42(4):355-U118. https:/doi.org/10.
+1038/ng.546 000276150500017 PMID: 20208535
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+24/25
+
+
+
+PLOS GENETICS
+GmOLEOtincreases soybean seed oil accumulation
+55. Yang N, Lu YL, YangXH, Huang JJ, Zhou Y, AliF, et tal. Genome wide association studies using a new
+nonparametric modelreveal the genetic architecture of 17 agronomic traits in an enlargedmaize associ-
+ation panel. Plos Genet. 2014;10(9). htips.ldolorg10.1a7tjouurmalipgen.1004573 000343009600010
+PMID: 25211220
+56. Turner SD. qqman: an Rpackage for visualizing GWAS results using Q-Q and manhattan plots.
+2014:1-2. biorXiv mpslidsiogf0:10005165
+57. ShinJ-H, Blay S, McNeney B, Graham J. LDheatmap: An Rfunctionfor graphical display of pairwise
+linkage disequilibria between single nucleotide polymorphisms. .J StatSoft. 2006; 16:Code Snippet3.
+hmp/satstucalstatgenfeseachidhesatmaphimt
+58. Yoo SD, Cho YH, Sheen J. Arabidopsis mesophyllprotoplasts: aversatile cell systemfor transient gene
+expression analysis. Nat Protoc. 2007;207):1565-72. Epub 2007/06/23. htpsldoiogioi0g@hovot
+2007.199 PMID: 17585298
+59. Song ZY, Tian JL, Fu WZ, LiL,LuLH, Zhou L, et al. Screening Chinese soybean genotypesfor Agro-
+bacterium-mediated genetictransformation suitability. JZhejiang Univ-Sc B. 2013; 14(4):289-98.
+htps_/doi.org/10.1631/zus.B1200278 000317607900004 PMID: 23549846
+60. Keim P, Diers BW, Olson TC, Shoemaker RC. Rflpmapping in soybean-association between marker
+loci and variation in quantitative traits. Genetics. 1990; 126(3):735-42. htps/do.org/10.1007
+BF00056365 A1990EF29100023 PMID: 1979039
+61. Gao L, DingXN,Lik, Liao WL, Zhong YK, Ren R, et al. Characterization of Soybean mosaic virusresis-
+tance derivedfrom invertedrepeat-SMV-HC-Progenes in multiple soybean cultivars. Theor Appl
+Genet. 2015; 128(8):1489-505. htips./doiorg/10.10071s0122015-25220 000356778300004 PMID:
+25930057
+62. Zhang D, Zhang H, Chu S, LiH, Chi Y, Triebwasser-Freese D, etal. Integrating@TLmapping and tran-
+scriptomics identifies candidate genes underlying QTLS associated with soybean tolerance to low-phos-
+phorus stress. Plant Mol Biol. 2017; 93(1):137-50. htips.Idoiorg/10.1007s10071511103-0160552x PMID:
+27815671
+63. Young MD, Wakefield IMJ, Smyth GK, Oshlack A. Gene ontology analysis for RNA-seq: accountingfor
+selection bias. Genome Biol. 2010;11(2). htps.ldoiorg/10.11861gb-2010-11-2-114 000276434300013
+PMID: 20132535
+64. Thompson JD, Gibson TJ, Plewniak F, Jeanmougin F, Higgins DG. The CLUSTAL_Xwindows sinter-
+face: flexible strategies for multiple sequence alignment aided by quality analysis tools. Nucleic Acids
+Res. 1997; 25(24):4876-82. htps/do.org/10.1093nar/2524.4876 000071498400004 PMID:
+9396791
+65. Rozas J, Sanchez-DelBarrio JC, MesseguerX, Rozas R. DnaSP, DNA polymorphism analyses by the
+coalescent tand othermethods. Bioinformatics. 2003; 19(18):2496-7. htps/Idoi.org/10.1093/
+bioinformatics/btg359 PMID: 14668244
+66. LescotM, DehaisP, Thijs G, Marchal IK, Moreau Y, Van de Peer Y, et al. PlantCARE, a database of
+plant cis-acting regulatory elements andaportal Ito tools for rin silico analysis of promotersequences.
+Nucleic Acids Res. 2002; 300)325-7.htps.ldaiogg101093nard01.325 000173077100087 PMID:
+11752327
+67. Danecek P, Auton A, Abecasis G, Albers CA, Banks E, DePristo MA, etal. The variantcall format and
+VCFtools. Bioinformatics. 2011;27(15)2156-8. htips.idoiorg10.1093bioinfomaticsbra30
+000292778700023 PMID: 21653522
+68. Paradis E, Claude J, Strimmer K. APE: Analyses of phylogenetics and levolution in R language. Bioinfor-
+matics. 2004; 20(2):289-90. htpsidoiong10.1093bioinformaticsbig412 000188389700026 PMID:
+14734327
+69. ZhengXW, Levine D, Shen J, Gogarten SM, Laurie C, Weir BS. A high-performance computingtoolset
+for relatedness andprincipal component tanalysis of SNP data. Bioinformatics. 2012; 28(24):3326-8.
+htips.idoiong10.1093bio1093bioinformaticsbts606 000312105300026 PMID: 23060615
+PLOS Genetics Ihmpszldoiorg10137t/jomalpgen.1008267 July 10, 2019
+25/25

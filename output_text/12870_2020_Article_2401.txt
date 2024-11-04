@@ -1,0 +1,600 @@
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+htpsl/dolorg/10.1186s1186512870-0202401-8
+BMC Plant Biology
+RESEARCH ARTICLE
+Open Access
+Genome-wide association mapping of
+Check for
+updates
+Sclerotinia sclerotiorum resistance in
+soybean using whole-genome
+resequencing data
+Chiheb Boudhrioua, Maxime Bastien, Davoud Torkamaneh and François Belzile D
+Abstract
+Background: Sclerotinia stem rot (SSR), caused by Sclerotinia sclerotiorum (Lib.) de Bary, is an important cause of
+yield loss in soybean. Although many papers have reported different loci contributing to partial resistance, few of
+these were proved to reproduce the same phenotypic impact in different populations.
+Results: In this study, we identified a major quantitative trait loci (QTL) associated with resistance to SSR
+progression on the main stem by using a genome-wide association mapping (GWAM). A population of 127
+soybean accessions was genotyped with 1.5 M SNPS derived from genovyping-bysequending (GBS) and whole-
+genome sequencing (WGS) ensuring an extensive genome coverage and phenotyped for SSR resistance. SNP-trait
+association led to discovery of a new QTL on chromosome 1 (Chr01) where resistant lines had shorter lesions on
+the stem by 29 mm. A single gene (Glyma.01 g048000) resided in the same LD block as the peak SNP, but it is of
+unknown function. The impact of this QTL was even more significant in the descendants of a cross between two
+lines carrying contrasted alleles for Chr01. Individuals carrying the resistance allele developed lesions almost 50%
+shorter than those bearing the sensitivity allele.
+Conclusion: These results suggest that the new region on chromosome 1 harbors a promising resistance QTL to
+SSR that can be used in soybean breeding program.
+Keywords: WGS, Sclerotinia sclerotiorum, Soybean, GWAM
+Background
+most important disease-causing yield losses in Canada in
+Sclerotinia stem rot (SSR) is a significant disease that 1994 and in the USA in 1994, 2004 and 2009 [18, 32].
+causes yield and quality loss in soybean in the northern However, the impact of this disease is very unpredictable
+United States and Canada. This disease is caused by from year to another because fungal development is
+Sclerotinia sclerotiorum, a necrotrophic Ascomycota, highly influenced by temperature and humidity [20]. Its
+capable of infecting more than 408 different species [6]. impact could be reduced by using chemical or biological
+The fungus infects the plant via the flower then spreads control, but results can be variable as these methods can
+through the stem causing bleaching, severe wilting and fail when disease incidence is higher than 50% [33]. The
+shredding of tissue [7]. SSR was reported as the second best results can be achieved when several preventive
+treatments are applied each year even when SSR doesn't
+pose a threat due to unfavorable climate conditions.
+Correspondence fancosbetslefsaubwala
+Département de phytologie and Institut de Biologie Intégrative et des
+Considering these facts, enhancing the genetic resistance
+Systèmes (IBIS), Université Laval, Quebec City, Quebec G1VOA6, Canada
+OThe Author(s). 2020 Open Access This article isl licensed under raCreative Commons Attribution 4.0 International License,
+BMC which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit tto the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material lin this article are included lin the article's Creative Commons
+licence, unless indicated otherwise ina credit line to the material. If material lis not included in the article's Creative Commons
+licence and your intended use isnot permitted by statutory regulation or exceeds the permitted use,you will need to obtain
+permission directly from the copyright holder. To viewacopy of this licence, visit htp/ceativecommonsorgflicensesby/40/
+The Creative Commons Public Domain Dedication waiver omp/cetiecommorsoyppébicdomanveonon applies to the
+data made available in this article, unless otherwise stated lin a credit line to the data.
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 2 of 9
+of soybean cultivars seems to be the most effective solu- 600 and 35,708 SNPs, respectively, in populations of 915
+tion to reduce the detrimental impacts of SSR.
+improved lines and 405 soybean landraces [31). It is likely
+The evaluation of SSR resistance is quite challenging that the marker coverage obtained in these most recent
+in variable environmental conditions. However, a reliable papers still falls short of the number needed to ensure ex-
+inoculation method was developed by Bastien et al. [3] haustive genome coverage.
+wherein a mycelium suspension is applied on flower One alternative to the previously used genotyping
+buds in controlled greenhouse conditions. It has been approaches is whole-genome sequencing (WGS).
+shown to produce consistent results and was used to in- However, this approach is still expensive, especially
+vestigate the genetic determinants of SSR resistance is when using large populations. In previous work, Tor-
+soybean [4, 13, 15].
+kamaneh et al. [28] proposed a two-step approach
+To date, complete resistance has yet to be reported in termed "scanning and filling". In a first step, a large
+soybean. Partial resistance is controlled by multiple population can be genotyped at tens of thousands of
+genes or quantitative trait loci (QTL). Numerous map- SNP loci (using GBS or an array). In a second step,
+ping studies have been conducted and have identified WGS can be performed on a subset of these lines (e.g.
+more than 114 QTL via conventional biparental map- 20%) and these can serve as a reference panel to im-
+ping [1, 11, 13, 16, 17, 29, 34]. Although this method has pute millions of SNP markers onto the entire set of
+been widely used for QTL mapping, it is still limited to accessions.
+the genetic diversity present in the two parents. More In this work, we used such a combined GBS and WGS
+recently, with the advancement of genotyping technolo- genotyping approach to genotype an association panel
+gies, it was possible to screen quantitative partial resist- (comprising elite Canadian soybean lines) at millions of
+ance in multiple soybean lines with thousands of SNPs. We then used this exhaustive marker dataset to
+markers using GWAM. Using this method, more than perform GWAM in the association panel to identify
+130 QTLs have also been reported in different popula- QTLs responsible for partial resistance to SSR in Canad-
+tions [4, 15, 21, 30, 31, 34]. Such number of loci raise ian soybean.
+some questions about their credibility especially when
+fewer of these were proved to reproduce the same allelic Results
+effect in different genetic backgrounds. One explanation SSR resistance in lines of the association panel
+is that some of these QTLs identified based on different Lesion length was measured 7 days after inoculation
+methods of evaluation, could be confused with an escape on young flower buds, and the mean value for each
+or avoidance mechanisms and not genuinely related to genotype is shown in Supplementary Table S1. As il-
+the real physiological resistance to SSR [4, 17]. As a lustrated in Fig. 1, lesion lengths were found to range
+proof, the only QTL proved to reproduce the same phe- broadly, from as low as 29 mm to a maximum of 192
+notyping effect in a biparental cross was identified on mm, with lesion length in the population averaging
+chromosome 15 based on resistance evaluation under a 114mm. The distribution of lesion lengths was bell-
+controlled environment [4]. These results suggest that a shaped suggesting that several genes control this trait.
+reliable phenotyping method is a key factor in this study. The resistant checks (Karlo RR, S19-90 and Maple
+Compared to biparental mapping, diversity panels offer Donovan) ranked among the lines with the shortest
+a lower level of linkage disequilibrium (LD) between lesions (1st, 3rd and 21st out of 127) while the highly
+markers and QTLs. Hence, for GWAM, a higher marker susceptible check Nattosan had the second longest le-
+density is needed depending on population size and diver- sions (177 mm) and the two moderately susceptible
+sity. For higher QTL detection power, the LD between the checks (Williams 82 and OAC Bayfield) showed le-
+QTL and any flanking markers should be higher than 0.8. sions slightly above the population average.
+To achieve such a coverage, Bastien et al. [4] estimated
+that at least 12,900 SNPs in the pericentromeric regions Marker distribution
+and 55,700 SNPs in the telomeric region would be needed To achieve extensive genome coverage, we re-analyzed
+for a total of over 68 K well-distributed SNPs to cover the previously obtained sequence data (940 M single-end
+entire genome. For mapping SSR resistance loci in soy- reads from ApeKI GBS libraries prepared from DNA of
+bean, many attempts were made to achieve such converge 530 elite Canadian soybean lines) using an improved
+using different genotyping approaches like genotyping by SNP-calling pipeline (Fast-GBS) and a more recent ver-
+sequencing (GBS) [4, 15, 30] or specific locus amplified sion of the soybean reference genome. This yielded
+fragment sequencing (SLAF-seq) [34]. To date, the largest nearly 150 K SNPS on the panel of 530 lines that in-
+number of informative SNPs was achieved using the cluded all lines of the association panel. We then used
+SoySNP50K array in two studies. One obtained 35,683 a catalog of 4.1 M SNPs obtained from WGS of 102
+SNPS on 466 accessions [21] and the other achieved 31, lines, also included in the set of 530 lines, as a reference
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 3 of 9
+40
+35
+30
+E 25
+of
+20
+- 15
+10
+5
+0
+.allii.
+531 713 1011 1251 1491 4733 1973
+(29. (63. (71. (101. (125. (149. (173.
+Lesion length (mm)
+Fig. 1 Distribution of mean lesion length observed seven days after inoculation among 127 soybean lines. [A, B]: A S lesion length SB. (A, B]:
+A<lesion length S B
+panel to impute genotypes at all the missing loci, thus Population structure and kinship
+resulting in a full dataset of 4.1 M markers. Of these, To characterize population structure, we pruned SNPS
+3.5 M SNPs were polymorphic in our association panel in high LD (r22 0.9; windows of 50 SNPs), and the
+(i.e., carried an alternate allele in at least for one of the remaining 84,708 SNPs were used in fastSTRUCTURE.
+127 lines). After removal of SNPs mapping to scaffolds The results suggested that the panel was composed of
+(49.7 K SNPs), 3.4 M SNPs mapped onto one of the 20 between three and six subpopulations. Based on these
+soybean chromosomes. Finally, we removed markers two results, we chose to perform the ensuing analysis
+with MAF lower than 0.05, thus resulting in a final using K = 6 and the corresponding plot is shown in Fig. 2.
+catalog of 1,493,960 SNPS with which we performed the To further reduce confounding, we estimated the kin-
+GWAM analysis.
+ship matrix between lines of the association panel.
+1
+N
+m
+4
+L
+o
+I
+/ /
+/ /
+/
+Fig. 2 Structure plot for the 127 Canadian soybean
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 4 of 9
+Genome-wide association mapping for SSR resistance
+as a validation population. For each line, four plants
+Marker-trait associations were estimated using the pheno- were genotyped using a CAPS marker developed to assay
+typic data (mean lesion length) and the full set of filtered the QTL on Chr01. Among the 47 RILS, 21 were homo-
+SNP markers (close to 1.5 M markers). These were ana- zygous for the resistance allele while 26 were fixed for
+lyzed using an MLM (Q + K) and associations with p- the susceptible allele. These RILS, along with the parents,
+values corresponding to an FDR <0.1 were considered sig- were then evaluated for SSR resistance in two green-
+nificant. In total, only two chromosomal regions were house trials. The contrast in lesion length between the
+found to have at least one peak SNP exceeding this parents was still evident (60 mm). Among the RILS, the
+threshold (on Chr01 Chr15; Fig. 3). As detailed in Table 1, average lesion length was 63 mm and ranged from 16 to
+the peak SNP on Chr01 was at position 5,594,597, showed 107 mm. Interestingly, almost all genotypes fixed for the
+a p-value of 5.08 x 10-5 and explained 32% of the pheno- resistance allele developed lesions under the average,
+typic variation. As shown in Fig. 4, accessions carrying the ranging between 16 and 78 mm (average of 40 mm),
+favorable allele T (frequency = 0.38) at this locus showed whereas lines homozygous for the susceptible allele aver-
+shorter lesions compared to those with succeptible allele aged 83 mm with lesion length extending from 51 to
+C. Although some accessions still exhibited lesions aver- 107 mm. The phenotypic contrast between the two
+aging over 100mm despite carriyng the resistance allele genotypic classes (43 mm) (Fig. 5) was significant (p=
+on Chr01. A second associated region was found on 0.007).
+chromosome 15 (chr15) with a single significantly associ-
+ated marker at position 13,665,369 (p-value = 9.76 x 10-5; The genomic landscape around the QTL on Chr01
+FDR = 0.04) and explained 15% of the variation. Acces- The LD was estimated between all marker pairs between
+sions fixed for the minor allele A (frequency = 0.32) had 5.4 and 5.8 Mb to investigate the genomic landscape in
+lesions that were 15 mm shorter than those fixed for the the associated region on chromosome 1. When defining
+major allele G (Supplementary Figure 1).
+LD blocks on the basis of almost perfect LD (r? < 0.98),
+all of the markers showing a significant association with
+Validation experiment
+lesion length resided in a small block (10 kb; block B1 in
+As the association on Chr15 had already been validated Supplementary Figure 2) containing a single gene
+in previous work [4], we focused here on validating the (Glyma.01 g048000). The peak SNP is located inside an
+candidate region for SSR resistance on Chr01. To do intron of Glyma.01 g048000 and therefore is unlikely to
+this, we used a population of F6.8 lines derived from a cause a change in function, whereas all the other signifi-
+cross between OAC Bayfield (S) and Maple Donovan cant SNPs are located within the promoter of the gene
+(R). These parents were contrasted for the peak marker (within 2 1 kb of the ATG). Because of the high LD be-
+on Chr01 as well for SSR resistance; Maple Donovan tween these markers, these polymorphisms essentially
+carries the resistance allele and developed lesions 78.3 define two haplotypes (alleles), the less-frequent one be-
+mm shorter than those exhibited by OAC Bayfield. The ing associated with improved resistance. Based on the
+parents were used as checks in the validation trial in very high degree of association between the peak SNP
+addition to 47 recombinant inbred lines (RILS) selected and this gene, it represents a strong candidate.
+6
+5
+4
+3 -
+2 -
+1 -
+0
+1 3 5 7 9 11 14 16 18 20
+Chromosome
+Fig. 3 Manhattan plot of genome-wide association scan for Sclerotinia stem rot (SSR) resistance in soybean. The horizontal line indicates the
+significance threshold (FDR = 0.1). Peak SNP (chromosome 1:5594597; T/C)
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 5 of 9
+Table 1 Characteristics of the markers most highly associated (peak SNPS) with lesion length
+Chromosome (Chr) Position
+p-value
+Resistant allele/susceptible allele FDR MAF R?
+Allelic effect (mm)
+01
+5,594,597
+5.08: X 10-5 T/C
+0.02 0.38 0.32 29
+15
+13,665,369 9.76x 10-5 A/G
+0.04 0.32 0.15 15
+Position: The physical position of the marker on the chromosome according to the G. max reference genome [Gmax_275 (Wm82.a2.v1)) [24]
+FDR False discovery rate
+MAF Minor allele frequency
+R?: Indicates the proportion of total phenotypic variation accounted for by the marker
+Allelic effect: average change in lesion length following allele substitution
+Discussion
+It was previously shown that such imputed data are of
+Number of markers
+high accuracy, with 96.4% of the imputed missing geno-
+In this study, we used nearly 1.5 M high-quality SNPs. types being in agreement with those obtained at loci in
+Based on the study of three chromosomal segments, common with the SoySNP50K array [28]. Given the re-
+Hyten et al. [14] had estimated that the number of SNPs cent increase in availability of WGS data for numerous
+needed to obtain sufficient coverage (at r220.8) in elite collections of soybean germplasm, we feel the two-step
+material was somewhere between 9600 and 29,000 genotyping approach used in this work will tremen-
+markers. More recently, a genome-wide estimation of dously enhance our ability to perform genome-wide
+LD in telomeric and pericentromeric regions led Bastien scans with full marker coverage.
+et al. [3] to conclude that around 60,000 SNPS would be
+required to achieve extensive coverage. None of the pre- New QTL on Chr01
+vious GWAM studies investigating SSR resistance Within our association mapping panel of 127 Canadian
+achieved such a marker coverage. In two earlier studies soybean lines, we identified 7 SNPS significantly associ-
+using SNP markers, genotyping was conducted with the ated with SSR resistance falling in small segments of
+GoldenGate assay, achieving between 858 [19] and 1142 only two chromosomes 1 and 15. The first associated re-
+SNPs [12]. Later GWAM studies used GBS-derived SNP gion on Chr01, extending over 10 kb, was novel as it did
+catalogs of 7864 [4], 8397 [15] and 11,811 [30], while an- not overlap with any of the previously reported QTLS. In
+other study achieved higher coverage with 25,179 SNPs fact, this region didn't carry any GBS-derived SNPS or
+obtained using SLAF-seq [34]. The highest coverage those supported by the SoySNP50K BeadChip.
+prior to this work had been achieved recently using the The second QTL was discovered on chromosome 15
+SoySNP50K BeadChip, giving 31,600 and 35,708 SNPs and is the exact same marker-trait association reported
+for two AM populations [31]. Here, combining GBS previously by Bastien et al. [4]. These results were ex-
+data, WGS data and imputation for missing genotypes, pected given that we exploited essentially the same asso-
+we significantly increased SNP coverage, ensuring for ciation panel (except for three lines that were removed)
+the first time a marker coverage likely conferring ex- and the same phenotypic data. In this previous work,
+haustive genome-wide coverage in our association panel. three other QTLs had been reported (on Chr01, Chr19
+18
+16
+14
+: 12
+of 10
+8
+I 6
+4
+2
+0
+alil.
+SPAA VeA MP7A THP Pen rn so r - an orA
+Lesion length (mm)
+L Resistant allele L Susceptible allele
+Fig. 4 Lesion length distribution across the 127 lines according to alleles at the peak marker on Chr01
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 6 of 9
+L Resistant allele D Susceptible allele
+120
+E 100
+80
+I
+60
+8
+40
+8
+20
+A
+0
+Fig. 5 Lesion length distribution among RILS according to the fixed allele at the peak marker on Chr01
+and Chr20), but none of them were rediscovered in this Chr01 by evaluating SSR partial (or quantitative) resist-
+work. All three of these associations were characterized ance (lesion length) in RILS carrying contrasting alleles
+by FDR values (ranging between 0.04 and 0.09) that were at this locus. Results showed that lines homozygous for
+much higher than the FDR for the QTL on Chr15 (0.01). the resistance allele (inherited from Maple Donovan) de-
+To investigate possible causes for this apparent lack of veloped lesions 43 mm shorter than those homozygous
+reproducibility, we compared the SNP genotypes at all for susceptible allele (derived from OAC Bayfield). This
+associated SNPs with their corresponding genotypes in phenotypic contrast was highly significant and explained
+our more recent data set resulting from large-scale im- a substantial portion of the phenotypic variation between
+putation. Surprisingly, for SNP on chromosome 15, 98% the parents. Also, the estimated allelic effect at this locus
+of the genotype calls were identical whereas for the in the segregating RILS was more important than the
+other associated SNPs (on Chr01, Chr19 and Chr20), a one measured in the association panel, suggesting that
+much lower level of concordance (60 to 82%) was ob- fewer QTLs conditioned SSR resistance in the biparental
+served for genotype calls among the lines of the associ- population than in the association panel. Taken together,
+ation panel. Based on the work of Torkamaneh and these data suggest that the region of Chr01 is associated
+Belzile [26], we believe that the number of SNPS discov- with SSR resistance.
+ered in the work of Bastien et al. [4] proved insufficient
+to adequately capture haplotypes in this association QTL detection efficiency and potential uses in genomic
+panel and had led to inaccurate imputation of missing selection
+genotypic data.
+The two regions discovered in this work, on Chr01 and
+Chr15, explained 32 and 15%, respectively, of the pheno-
+QTL validation
+typic variation for this trait in our association panel. In
+Numerous previously reported QTLs for SSR resistance previous work, QTLs were reported to explain between
+were discovered in different genetic backgrounds, envi- 3 to 23% of the variance [4, 15, 21, 30, 31, 34]. Thus, the
+ronments, and various sampling populations. Before QTL reported here on chromosome 1 constitutes the
+considering the use of such QTLs for marker-assisted most impactful QTL reported for this trait to this date.
+selection, a validation step is highly recommended. The As the favorable allele was present in a minority (38%)
+QTL on Chr15 was previously validated by Bastien et al. of the elite lines in our panel, there is considerable scope
+[4] where resistance alleles reduced lesion length by 12.3 to improve SSR resistance by selecting for this partial re-
+and 17.6 mm in two populations of RILs segregating for sistance QTL in future breeding efforts.
+associated marker. Such validation has rarely been re- Despite this, it seems that a large proportion of vari-
+ported in other studies. Here, we wanted to similarly val- ation for this trait remains uncaptured in our association
+idate the novel marker-trait association discovered on panel despite the extensive marker coverage. Thus, there
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 7 of 9
+could be other undiscovered, potentially impactful QTLs resistant cultivars (OAC Bayfield and Williams 82) and
+contributing to SSR in this population. In such panels, how- one highly susceptible cultivar (Nattosan) [3]. Maple
+ever, it will always be difficult to capture rare alleles (MAF < Donovan and Nattosan are commercial cultivars from the
+5%) potentially contributing to resistance as the associated Eastern Cereal and Oilseed Research Centre (Agriculture
+markers will have been filtered out. Expanding this work to and Agri-Food Canada, Ottawa, Canada), while S19-90 is
+larger and more diverse panels could help in discovering a commercial cultivar from Syngenta Seeds. Williams 82
+additional QTLs. Also, the remaining uncaptured heritabil- was obtained from the American Germplasm Resources
+ity may be explained by numerous small-effect QTLs that Information Network. Seeds of the remaining lines were
+will be difficult to discover (given the difficulties associ- obtained from Semences Prograin.
+ated with phenotypic measurements) and would be of lim-
+ited use in breeding programs as the benefits of a small Validation panel
+increase in SSR resistance might not justify the cost of A total of 47 F6:8 lines segregating for the candidate
+marker-assisted selection for such minor QTLs.
+QTL region on chromosome 1 (Chr01) were selected to
+serve as a validation panel. These lines were generated
+Candidate genes near the peak SNP on Chr01
+from a cross between the partially resistant Maple Dono-
+When we investigated the associated region on Chr01, we van and the susceptible OAC Bayfield.
+found a single gene in high LD with the peak marker.
+Except for the peak SNP (located in an intron), all other Phenotyping
+significantly associated markers were found in the likely Lines were evaluated for SSR partial resistance using the
+promoter of Glyma.01 g048000. Due to the strong associ- cotton pad method described in Bastien et al. [3]. For
+ation between the peak SNP and this gene, it represents a the association panel, the phenotypic data are those pre-
+strong candidate gene. However, due to the lack of anno- viously reported by Bastien et al. [4]. Briefly, plants were
+tation allowing one to hypothesize a role for this gene in sown in a greenhouse in a randomized complete block
+resistance to Sclerotinia, functional studies will need to be design with four blocks separated in time (25 Sept, 6
+conducted to provide definitive proof of the role of this Nov, 8 Dec 2009 and 29 Jan 2010). Experimental units
+gene in contributing to resistance. As many of the associ- consisted of a total of six plants grown in three 6-L pots
+ated SNPs are in the 5' upstream region, it would be par- (two per pot). The same experimental design was used
+ticularly interesting to study the regulation of this gene.
+to characterize the validation panel but with only two
+blocks separated in time (4 May and 7 Sept 2017) and
+Conclusion
+four plants per experimental unit.
+We conclude that the knowledge that comes out from The potting mix was prepared using a mixture of black
+this study will promote the addressing of the SSR chal- earth (50%), perlite (30%) and Promix (20%) (Premier
+lenges under sustainable agricultural practices. We be- Tech Horticulture, Rivière-du-Loup, QC, Canada). At
+lieve that this work is another step forward in rendering sowing, seeds were inoculated with RhizoStick inoculant
+GWAM data more applicable in plant breeding. We (Becker Underwood, Ames, IA). Plants were grown
+expect that genetic region identified in this study will be- under a 16-h photoperiod and the day/night temperature
+come a key tool in soybean breeding programs for SSR was maintained at 26/22 C.
+and enable geneticists and molecular biologists to iden- The inoculum was prepared from strain NB-5 (pro-
+tify causal resistance genes for SSR in near future.
+vided by Dr. S. Rioux of CEROM, Quebec City, QC,
+Canada) as described in Bastien et al. [3]. Briefly, S. scler-
+Methods
+otiorum was cultured in potato dextrose broth (PDA) for
+Association mapping panel
+3 days until almost reaching saturation. Inoculation was
+The association mapping panel used for this study was performed once the plants started to flower. First, the
+composed of 127 lines taken from a private breeding pro- suspension was homogenized for 30s in a blender. Then,
+gram (Semences Prograin Inc.) and exhibiting a wide vari- pieces (2.7 x 5.5 cm) of cotton pad were soaked in the
+ation in their response to SSR [4]. These were chosen suspension. The inoculum was applied on the petiole of
+from a larger group of 530 accessions (cultivars/advanced the lowest node bearing flowers. After inoculation,
+breeding lines) representative of the genetic diversity in plants were transferred to a different greenhouse where
+Canadian soybean based on previous work [28]. These day/night temperatures were 22 C/18 C and high hu-
+127 lines belonged to maturity groups (MGs) ranging midity was maintained at 2.5g/m3 with a fogging system.
+from 000 to II except for one line, Williams 82, from MG For the validation panel, all plants were inoculated on
+III. A series of six checks were also included: three culti- the same day, while for the association panel, several
+vars known to offer a good level of SSR partial resistance days were needed because of differences in flowering
+(Karlo RR, Maple Donovan and S19-90), two moderately date. Lesion length was measured 7 d after inoculation.
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 8 of 9
+SNP genotyping and imputation
+the haplotype block containing the peak SNP on Chr01.
+The association panel was a part of a larger set of 530 Two specific primers 6-GTIGTATGGAAGIGCMC
+Canadian elite lines on which we had previously per- TAAAGTTCT-3" and 5'- GGTACTTTTTCTTACCTT
+formed GBS (ApeKI, as per [10]) over time [4, 28]. To AC GATGA-3') were used to amplify an 800-bp region
+maximize data quality and uniformity, all reads (940 M encompassing the targeted SNP. The two alleles can be
+108-bp single-end Illumina reads) were run on an im- distinguished by digesting the resulting amplicon with
+proved SNP-calling pipeline (Fast-GBS [27];) and on a NmuCI. The PCR product derived from the allele associ-
+more recent version of the Williams 82 reference genome ated with partial resistance to SSR (present in Maple
+(Wm82.a2.v1) [24]. This resulted in a catalogue of 150K Donovan) will be cut once while the product obtained
+SNPs on which all missing data were imputed using BEA- after amplification of the allele from the susceptible par-
+GLE v5 [8] as per Torkamaneh and Belzile [26]. Subse- ent (OAC Bayfield) is not cut. All 47 F6:8 lines of the val-
+quently, a set of 102 lines (of which 15 were part of the idation panel (described above), along with the two
+association panel) was subjected to whole-genome se- parental lines were genotyped using this CAPS marker.
+quencing (WGS) [28]. The resulting SNP catalogue (> 4 M
+SNPs) was used as a reference panel to perform large- Genomic landscape around the peak SNP
+scale imputation of missing loci. The SNP data (4.1 M LD values from PLINK [22] were extracted for a 2Mb
+loci) for the 127 lines of the association panel were ex- window around the most significant associated SNP and
+tracted and filtered using vcftools v0.1.16 [9]. We retained LD blocks were visualized using Haploview (V4.2) [2]
+SNPs with a minor allele count (MAC) X 1 and a minor al- based on r2 values. Information about the genes found
+lele frequency (MAF) X 0.05. Linkage disequilibrium (LD) in the LD block containing the peak association were
+was estimated (using r?) for all marker pairs in a sliding obtained from SoyBase (www.soybase.org). Functional
+window of 50 Kb using PLINK 1.9 [22].
+annotation of nucleotide variation in the region was ex-
+plored using SnpEFF [35].
+Analysis of population structure
+Given the large size of the SNP catalogue (almost 1.5M Supplementary information
+SNPs), pruning was performed using PLINK 1.9 [22] to Supplementary information accompanies this paper at https//doi.org/10.
+remove markers in high LD (r? 20.9). The resulting set of 1186612870020024018.
+85 K SNPs was used to assess population structure using
+fastSTRUCTURE [23] with K set between 1 and 12. The Additional file 1: Table S1. Responses of 127 soybean lines to SSR, 7
+days after inoculation. (") Indicates lines used for WGS (Supplementary
+most likely number of subpopulations was estimated using file "Supplementary table S1")
+the chooseK tool from fastSTRUCTURE [23].
+Additional file 2: Figure S1. Lesion length distribution across the 127
+lines according to alleles at the peak marker on Chr15
+Genome-wide association analysis
+Additional file 3: Figure S2. LD block plot for the region on Chr01. The
+In view of GWAM, only SNPs having a minor allele fre- arrow shows the position of the significantly associated SNPS
+Abbreviations. GBS: Genovpingbysequendng GWAM: Genome-wide as-
+quency (MAF) X 5% in the association panel were used, sociation mapping. LD: Linkage disequilibrium. PDA: Potato dextrose agar.
+and this resulted in a catalog of close to 1.5 M filtered PCR: Polymerase chain reaction. QTL: Quantitative trait loci. RILS: Recom-
+SNPS. An association mapping analysis for SSR partial binant inbred lines. SLAF-seq: Specific-locus amplified fragment sequen-
+cing. SNP: Single nucleotide polymorphism. SSR: Sclerotinia stem rot.
+resistance was performed using the phenotypic (mean le- USDA: United states department of agriculture WGS: whole genome
+sion length) and genotypic data described above with the sequencing
+Genomic Association and Prediction Integrated Tool
+(GAPIT version 2) [25]. To correct for false-positive as- Acknowledgements
+sociations, a mixed linear model (Q+ K model) taking Authors wish to thank all funders. This work was supported by the SoyaGen
+grant (wwwsoyagen.ca) funded by Genome Canada [#5801 to FB] and other
+into account both population structure (Q matrix) and partners.
+relative kinship (K matrix) was used. The Q matrix (for
+K=6) was derived from fastSTRUCTURE while the K Authors' contributions
+matrix was generated in TASSEL. Marker-trait associa- CB, DT and FB conceptualized the project. CB and MB conducted
+greenhouse phenotyping. CB and DT formal analysis. CB and FB writing
+tions were deemed significant when the measured p- original draft The authors read and approved this version of the manuscript
+values were below a critical p-value corresponding to a
+false discovery rate (FDR) of f0.1 [5].
+Funding
+This work was supported by the SoyaGen grant (www.soyagen.ca) funded
+by Genome Canada and other partners detailed below [project #5801 to
+QTL validation
+F.BJ. The funders were not involved in the study design, collection, analysis,
+A codominant cleaved amplified polymorphic sequence interpretation of data, the writing of this article or the decision to submit tit
+(CAPS) marker was designed to genotype one of the for The publication. complete list of ffunders includes Génome Québec, Genome Canada, the
+candidate SNPs (Chromosome 1: 5594765) residing in government of Canada, the Ministère de réconomie, Science et Innovation
+
+
+
+Boudhrioua et al. BMC Plant Biology (2020) 20:195
+Page 9 of 9
+du Québec, Semences Prograin Inc, Syngenta Canada Inc, Sevita Genetics,
+genotyping by sequencing (GBS) approach. BMC Plant Biol 2015. httpsi/
+Coop Fédérée, Grain Farmers of Ontario, Saskatchewan Pulse Growers,
+d0970186412370014087
+Manitoba Pulse & Soybean Growers, the Canadian Field Crop Research
+16. Kandel R, Chen C Grau C Dorrance A, Liu J, et al Soybean resistance to
+Alliance and Producteurs de grains du Québec.
+white Mold: evaluation of soybean germplasm under different conditions
+and validation of QTL Front Plant Sci 2018,9:505. https/doiorg/103389/
+Availability of data and materials
+fpls.2018.00505.
+A complete catalogue of SNPS in VCF format is publicly available in FigShare 17. Kim HS, Diers BW. Inheritance of partial resistance to Sclerotinia stem rot in
+Ontps/figshare.com/y20a4047b7de263969) and all raw sequencing data
+soybean. Crop Sci 2000,40:55-61.
+are publicly available in NCBI Sequence Read Archive (SRA) with the SRP#
+18. Koenning SR, Wrather JA. Suppression of soybean yield potential in the
+Study accession, SRP059747 (GBS) and SRP094720 (WGS).
+continental United States by plant diseases from 2006 to 2009. Plant Health
+Prog. 2010. htps/doiorg710194PH-2010112201-85
+19. Mamidi iS, Chikara S, Goos RJ, Hyten DL, Annam D, et al Genomewide
+Ethics approval and consent to participate
+association analysis identifies candidate genes associated with iron
+Not applicable.
+deficiency chlorosis in soybean. Plant Genome. 2011. https//doiorg/10.
+385phntgerome201001
+Consent for publication
+20. Mila AL, Yang XB. Effects of fluctuating soil temperature and water potential
+Not applicable.
+on sclerotia germination and apothecial production of Sclerotinia
+sclerotiorum. Plant Dis. 2008,92:78-82.
+Competing interests
+21. Moellers TC, Singh A, Zhang J, Brungardt J, Kabbage M, Mueller DS, et al
+The authors declare that they have no competing interests.
+Main and epistatic loci studies in soybean for Sclerotinia sclerotiorum
+resistance reveal multiple modes of resistance in multi-environments. Sci
+Received: 4 September 2019 Accepted: 21 April 2020
+Rep. 2017. RelsagagsAROtONss
+Published online: 07 May 2020
+22. Purcell S, Neale B,Todd-Brown K Thomas L,Ferreira MAR, et al PLINKa toolset
+for whole-genome association and population-based linkage analysis. AmJ
+Hum Genet 2007:81 Melwgungheatiadapestges
+References
+23. Raj A, Stephens M, Pritchard JK fastSTRUCTURE: Variational inference of
+1. Arahana VS, Graef GL, Specht JE, Steadman JR, Eskridge KM. Identification of
+population structure in large SNP data sets. Genetics. 2014;197573-89.
+QTLS for resistance to Sclerotinia sclerotiorum in soybean. Crop Sci. 2001;41:
+ewsgnatshpeaingwng
+180-8.
+24. Schmutz. J, Cannon SB, Schlueter J, Ma J, MitrosT, Nelson W, et al Genome
+2. Barrett JC, Fry B, Maller J,Daly MJ Haploview: analysis and visualization of
+sequence of the palaeopolyploid soybean. Nature. 2010463:178-83.
+LD and haplotype maps. Bioinformatics. 2005. https/doiorg/10.109/
+25. Tang Y, Liu X, Wang J, Li M, Wang Q, et al GAPIT version 2: an enhanced
+bioinformatics/bth457.
+integrated tool for genomic association and prediction. Plant Genome
+3. Bastien M, Huynh TT, Giroux G, Iquira E, Rioux S, Belzile F. A reproducible
+2016. htpsl/doiogno38/piantgenome201511012.
+assay for measuring partial resistance to Sclerotinia sclerotiorum in soybean. 26. Torkamaneh D, Belzile F. Scanning and filling: ultra-dense SNP genotyping
+Can JPlant Sci. 2012. hmpsl/dsiongno4l4l/epzot 11-101.
+combining genovypingbysequending, SNP array and whole genome
+4. Bastien M, Sonah H, Belzile F. Genome wide association mapping of
+resequencing data. PLOS One. 2015,10e0131533.
+Sclerotinia sclerotiorum resistance in soybean with a genotyping-by-
+27. Torkamaneh D, Laroche J, Bastien M, Abed A, Belzile F. Fast-GBS: a new
+sequencing approach. Plant Genome. 2014. https/dolorg/103835/
+pipeline for the efficient and highly accurate calling of SNPS from
+plantgenome201310000
+genotypingbysequending data. BMC Bioinformatics. 2017b. https//doiorg/
+5. Benjamini Y, Yekutieli D. Quantitative trait loci analysis using the false
+1018661285901614319
+discovery rate. Genetics. 2005;171:783-90.
+28. Torkamaneh D, Laroche J, Tardivel A, Donoughue LO, Cober E, et al
+6. Boland GJ, Hall R Index of plant hosts of Sclerotinia sclerotiorum. Can J Plant
+Comprehensive description of genome-wide nucleotide and structural
+Pathol. 1994. htps/doiorg/1010800706069409500766
+variation in short-season soya bean. Plant Biotechnol J. 2017a. https//doi.
+7. Bolton MD, Thomma BPHJ, Nelson BD. Sclerotinia sclerotiorum (lib.) de Bary:
+org/101111/pbL.12825
+biology and molecular traits ofa cosmopolitan pathogen. Mol Plant Pathol. 29. Vuong T, Diers B, Harman G. Identification ofQTL for resistance to Sclerotinia
+2006; Dotmpg/dsiog1On11/13643702050316X
+stem rot tin soybean plant tintroduction 194639. Crop Sci. 2008:48:2209-14.
+8. Browning S, Browning B. Rapid and accurate haplotype phasing and
+30. Wei W, Mesquita ACO, de Figueiro AA, Wu X, Manjunatha S, Wickland DP,
+missing-data inference for whole genome association studies by use of
+et al. Genome-wide association mapping of resistance to a Brazilian isolate
+localized haplotype clustering. Am JI Hum Genet. 2007,81:1084-97.
+of Sclerotinia sclerotiorum in soybean genotypes mostly from Brazil BMC
+9. Danecek P, Auton A, Abecasis G, Cornelis AA, Banks E, et al The variant call
+Genomics. 2017. hmpslidsiognattitfaizaia
+format and VCFtools. Bioinformatics. 2011. https/doiorg/10.109/
+31. Wen Z, Tan R, Zhang S, Collins PJ, Yuan J, Du W, et al Integrating GWAS
+bioinformatics/btr330
+and gene expression data for functional characterization of resistance to
+10. Elshire RJ, Glaubitz JC, Sun Q, Poland JA, Kawamoto K et al A robust, simple
+white mould in soya bean. Plant Biotechnol IJ. 2018. https/dolorg/10111/
+genotyping-bysequending (GBS) approach for high diversity species. PLOS
+pbi.12918.
+One. 2011. htps/dolorg/101371/joralpone001979.
+32. Wrather JA, Koenning SR. Estimates of disease effects on soybean yields in
+11. Guo X Wang D, Gordon S, Helliwell E, Smith T, Berry S, et al Genetic
+the United States 2003 to 2005. JNematol. 2006;38:1 173-80.
+mapping of QTLS underlying partial resistance to Sclerotinia sclerotiorum in 33. Zeng W, Kirk W, Hao J. Field management of Sclerotinia stem rot of
+soybean PI 1391589A and PI 391589B. Crop Sci. 2008:48:1129-39.
+soybean using biological control agents. Biol Control. 2012. https//doi.org/
+12. Hao D, Cheng H, Yin Z, Cui S, Zhang D, et al Identification of single
+1i0i016@bicomed.20109012
+nucleotide polymorphisms and haplotypes associated with yield and yield 34. Zhao X Han Y,LiY, Liu D, Sun M, et al Loci and candidate gene
+components in soybean (Glycine max) landraces across multiple
+identification for resistance to Sclerotinia sclerotiorum in soybean (Glycine
+environments. Theor Appl Genet 2012. hepldsognotonxo1220:
+max L. Merr) via association and linkage maps. Plant J. 2015. https//doi.org/
+1719-0.
+10.1111/pbi.12918
+13. Huynh TT, Bastien M, Iquira E, Turcotte P, Belzile F. Identification of
+35. Cingolani P, Platts A Wang LL, Coon M, Nguyen T, et al A program for
+QTLS associated with partial resistance to white Mold in soybean using
+annotating and predicting the effects of single nucleotide polymorphisms,
+field-based inoculation. Crop Sci. 2010. https/doiorg/102135/
+SnpEff SNPS in the genome of Drosophila melanogaster strain w1118; iso-2;
+cropsci2009.06.0311.
+iso-3. Fly 2012:6, 80-92. hepslidsiogrio@eisinyiges
+14. Hyten DL, Choi IY, Song QJ, Shoemaker RC, Nelson RL, et al Highly variable
+patterns oflinkage disequilibrium in multiple soybean populations.
+Genetics. 2007. Reusagasepeaieaene
+Publisher's Note
+15. Iquira E, Humira S, Belzile F.. Association mapping of FQTLS for Sclerotinia
+Springer Nature remains neutral with regard to jurisdictional claims in
+stem rot resistance in a collection of soybean plant introductions using a
+published maps and institutional affiliations.

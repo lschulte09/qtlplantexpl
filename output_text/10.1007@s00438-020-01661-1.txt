@@ -1,0 +1,1036 @@
+Molecular Genetics and Genomics
+htps/dol.org/10.1071507500438-020-01661-1
+ORIGINAL ARTICLE
+Check for
+updates
+GWAS reveals two novel loci for photosynthesis-related traits
+in soybean
+LiWang' Yuming Yang' : Shuyu Zhang'  Zhijun Che?.Wenjie Yuan' . Deyue Yu'
+Received: 21 October 2019/Accepted: 27 February 2020
+OSpringer-Verlag GmbH Germany, part ofSpringer Nature 2020
+Abstract
+Photosynthesis plays an extremely important role throughout the life cycle of plants. Improving the photosynthetic rate is a
+major target for increasing crop productivity. This study was conducted to identify single nucleotide polymorphisms (SNPS)
+associated with the net photosynthetic rate (Pn), stomatal conductance (Cond), intercellular carbon dioxide concentration
+(Ci) and transpiration rate (Trmmol) through genome-wide association study (GWAS) and to inspect the relationships among
+these traits in soybean (Glycine max (L.) Merr.). A population of 219 soybean accessions was used in this research. A total
+of 12 quantitative trait loci (QTLS) associated with Pn, Cond, Ci and Trmmol were detected and distributed on chromosomes
+1,2, 6, 7,9, 11, 12, 13, 15, 16, 18, and 19, and some of these QTL overlapped with previously reported QTLS. Furthermore,
+four candidate genes were identified, and there were significantly different expression levels between the high-light-efficiency
+accessions and low-light-efficiency accessions. These putative genes may participate in the regulation of photosynthesis
+through different metabolic pathways. Therefore, the associated novel QTLS and candidate genes detected in this study will
+provide a theoretical basis for genetic studies of photosynthesis and provide new avenues for crop improvement.
+Keywords Photosynthesis : GWAS : SNPs : Candidate gene - Soybean
+Introduction
+not meet demand. It is expected that the world will experi-
+ence a food shortage crisis by 2050 (Tilman et al. 2011;
+Photosynthesis is the basis of plant survival. Crop yield Alexandratos and Bruinsma 2012; Grundy et al. 2016).
+relies on photosynthesis. However, in the past 50 years, a Resolving this imminent problem will be one of the most
+significant proportion of the global population has experi- challenging goals of scientific research in the next several
+enced malnutrition due to a lack of access to sufficient food decades (Ort et al. 2015). Unless the productivity of major
+(Long et al. 2015). As the population continues to increase crops doubles by 2050, there is little chance ofreversing this
+and the area of arable land decreases, food production may situation (Long and Ort 2010; Ray et al. 2012).
+At present, research on improving the yield of major
+food crops is stagnant. Since the Green Revolution began
+Communicated by Stefan Hohmann.
+in 1960, rice production has undergone revolutionary
+changes through the introduction of high-yield semidwarf
+Electronic supplementary material The online version of this
+varieties and the use of synthetic fertilizers and pesticides
+article (htpeldbi.ony101007A00438-42001661-1) contains
+supplementary material, which is available to authorized users.
+(Reeves et al. 2016). Rice production grew steadily at a
+rate of 2.3-2.5% per year from 1970s to 1980s, but the
+X Deyue Yu
+growth rate declined gradually in the twenty-first century,
+dyyu@njau.edu.cn
+failing to meet the needs for human survival (Dogara and
+National Center for Soybean Improvement, National Key
+Jumare 2014). Due to the influence of climate deteriora-
+Laboratory of Crop Genetics and Germplasm Enhancement,
+tion, pests and diseases, the yield of wheat in many regions
+Jiangsu Collaborative Innovation Center for Modern
+is also declining annually (Hernandez-Ochoa et al. 2018;
+Crop Production, Nanjing Agricultural University,
+Wang et al. 2018). In Mexico, the production of wheat fell
+Nanjing 210095, China
+by 2-3% per decade between 1980 and 2010
+et al.
+2
+(Asseng
+School ofLife Sciences, Guangzhou University,
+2015). In addition, the status quo of corn production is not
+Guangzhou 510006, China
+Published online: 12 March 2020
+Springer
+
+
+
+Molecular Genetics and Genomics
+optimistic. Under the general trend of global warming, us understand the genetic basis of soybean photosynthesis,
+maize production will gradually decline and become more much more research is needed.
+variable (Tigchelaar et al. 2018). As an important source
+To explore the genetic variation in photosynthesis-related
+of high-quality plant protein and edible oil, soybean is traits in soybean, four photosynthesis-related traits (includ-
+undoubtedly extremely significant for human production ing the net photosynthetic rate (Pn), stomatal conductance
+and life (Yang et al. 2017). Although China is the origin (Cond), intercellular carbon dioxide concentration (Ci)
+of soybean, the production of domestic soybean is far from and the transpiration rate (Trmmol)) of natural populations
+meeting the needs of Chinese people. The country still composed of 219 soybean accessions were measured under
+needs to import a large amount of soybeans from other greenhouse conditions, and GWAS was performed using
+countries every year (Huang et al. 2017). In the past few 292,035 high-quality SNPS from the NJAU 355K Soy SNP
+decades, increases in crop production were mainly due to array described by Wang et al. (2016). A total of 12 QTLS
+improvement of the portion of biomass partitioned into were identified, and several candidate genes were predicted
+the grain, which is now close to its theoretical upper limit. in two stable QTLS, which could provide a theoretical basis
+In contrast, there is still much room to increase yields by for the study of photosynthesis and improving the photo-
+improving the efficiency of plant light energy use (Zhu synthetic rate for breeding crops with high light efficiency.
+et al. 2008; Long et al. 2006). As the core of the second
+green revolution, improving photosynthetic efficiency is a
+conspicuously important strategy with which to address Materials and methods
+the food crisis (Xu and Shen 2002).
+Crop yield relies on photosynthesis. Photosynthesis is a Plant materials andfield experiments
+major target for improving crop productivity. However, pho-
+tosynthesis is a complex quantitative trait controlled by mul- A set of 219 soybean accessions were used for the GWAS,
+tiple genes, and its mechanism is more difficult to explore which were derivedfrom 26 different provinces and six eco-
+than that of qualitative characteristics. With the rapid logical regions of soybean cultivation in China and included
+development of molecular biological techniques, molecular 24 elite varieties and 195 landraces with diverse geographic
+markers have been used to reveal phenotypic variation and origins and different phenotypes (Wang and Gai 2002).
+genotype correlations, and some major quantitative trait loci
+Plants were grown in the greenhouse of the Jiangpu
+(QTLS) for photosynthesis-related traits have been identified Experimental Station of Nanjing Agricultural Univer-
+in rice, wheat, and other crops (Teng et al. 2004; Takai et al. sity (32.1° N 118.4° E), Nanjing, China, in plastic pots
+2010; Bhusal et al. 2018; Hervé et al. 2001). However, there (240 X 185 mm in size) filled with sand from the Yangtze
+are a few reports on QTLs related to photosynthesis-related River. The experiments were performed in June 2015, April
+traits in soybean. Yin et al. (2010) used the chlorophyll flu- 2016, and June 2016 (designated E1, E2 and E3, respec-
+orescence parameters and photosynthetic rate of soybean tively) and followed a randomized block design. Three rep-
+as phenotypic data for linkage mapping analysis and found licates of each accession were used, and Hoagland's nutrient
+four major QTLs in the A2, C1, M, and O linkage groups. solution was supplied appropriately during soybean growth.
+Moreover, Li et al. (2016) analyzed the genetic relationship When the soybean plants grew to the V4 stage, the pho-
+between phosphorus efficiency and photosynthesis-related tosynthetic data, including the Pn (umol-m 2.s ) Cond
+traits in soybean using a high-density genetic map and iden- (mol-m-2.s-), Ci (umol-mol-), and Tr (mmol-m-2.s-),
+tified three main QTLs related to the phosphorus utilization were measured by the LI-6400 portable photosynthesis
+rate and photosynthesis. In recent years, with the continuous system (LI-COR 6400XT, LI-COR, Lincoln, NE, USA) on
+improvement of sequencing technology, increasing numbers sunny days from 9:00 to 11:00 am. The third leaf from the
+of molecular markers have been developed. Genome-wide top was measured three times per plant, the average of the
+association studies (GWASS) using high-quality single three data points was taken as an independent phenotypic
+nucleotide polymorphisms (SNPS) have proven to be advan- value, and a total of three plants were measured for each
+tageous in explaining the genetic basis of complex quan- accession.
+titative traits (Huang et al. 2010). GWASS consider more
+historical recombination events, more alleles and more Phenotypic data analysis
+abundant genetic variation than traditional linkage mapping
+methods, making GWAS superior (Yu and Buckler 2006; We performed analyses of variance (ANOVA) and calcu-
+Huang et al. 2012). In previous studies, several phosphorus lated the broad-sense heritability (h?) ofthe phenotypic data
+utilization efficiency- and photosynthesis-related multi effect using R software (RStudio Team 2015). ANOVA was per-
+QTLS were identified by GWASS under hydroponic condi- formed according to the formula YR-H+G,+E,+(GE),
+tions (Li et al. 2018). Although these studies have helped + Ej where Yik represents the phenotypic value of the ith
+Springer
+
+
+
+Molecular Genetics andGenomics
+genotype in the jth environment and the kth block, H is the according to the specifications of the Real Universal Color
+population mean, G,is the effect ofthe ith genotype, E,is the Premix (SYBR Green) kit (TIANGEN,Beijing, China). The
+effect ofthe jth environment, (GE), is the genotype-by-envi- soybean Tubulin gene (GenBank: AY907703.1) was selected
+ronment interaction effect, and Eij is the residual error. The h2 as the control, and three technical replicates were used for
+was calculated as h=0
++
+n+o/nr), where og is each accession. The relative expression of genes was cal-
+the genetic variance, 8 gy is the interaction of genotype with culated according to the formula described by Livak and
+the environment, 8 is the residual error, n is the number Schmittgen (2001).
+of environments, and r is the number of replicates (Knapp
+et al. 1985).
+Results
+Genome-wide association study
+Phenotypic characteristics
+Using the GAPIT package (Zhang et al. 2010), a mixed lin- of photognthessrelatedvaits
+ear model (MLM) (Lipka et al. 2012) was used to perform
+the GWAS of different photosynthetic parameters in different To investigate the genetic variation in photosynthesis-related
+years, and we used the SNPs with a minor allele frequency traits, 219 soybean accessions were used in this study. The
+(MAF) of at least 0.05. We used the GAPIT package in R Pn, Cond, Ci and Trmmol at the soybean seedling stage (V4)
+software to interpret population structure using principal were measured in three different environments. Descriptive
+component analysis (PCA) and calculate relatedness using statistics revealed high variation among the panel of acces-
+the VanRaden method (VanRaden 2008). The threshold for sions in the experiments, as shown in Table 1. In the E1, E2
+significant associations was set to 1/n [where n is the marker and E3 environments, the coefficient of variation of the four
+number and the P value was < 1/n (the threshold set in this photosynthetic traits ranged from 13.77 to 66.67%. ANOVA
+study was P<4.82x10-51 (Yang et al. 2014). Manhattan revealed significant differences in the four traits due to
+plots were generated using the qqman package in R software the genotype, environment, or genotype and environment
+(Turner 2014).
+interaction. All traits showed a large amount of variation,
+especially Cond, where a difference of approximately 29
+Prediction of candidate genes
+times was observed between the minimum and maximum,
+and most other traits (such as Pn and Trmmol) showed a
+Within the linkage disequilibrium (LD) decay distance of difference of approximately 4-7 times. The h2 of the four
+significant SNPS, the candidate genes related to photosyn- traits ranged from 50.05% for Ci to 87.22% for Pn, indicating
+thesis were predicted using the SoyBase website (https:1l that although the environment had a certain influence on the
+www.soybase.org) based on all the genes annotated in phenotypic variation, genetic effects played a predominant
+Glymal.1, Glyma2.0 and NCBI RefSeq gene models. We role (Table 1). The frequency distribution of each ofthe four
+also referred to the annotation of homologous genes in phenotypes approached a normal distribution (Fig. 1). These
+Arabidopsis thaliana.
+results indicated that photosynthesis-related phenotypes are
+environmentally sensitive complex traits controlled by mul-
+qRT-PCR analysis
+tiple genes and are suitable for GWASS.
+The 12 high-light-efficiency accession and 12 low-light-effi- GWAS of photosynthesis-elatedtrits
+ciency accessions were selected as materials for analyzing
+the expression level of candidate genes. When the soybean GWAS has facilitated the study of complex traits controlled
+plants had grown to the V4 stage, young leaves were selected by multiple genes and is developing rapidly. In this study,
+and stored in a - 80 °C refrigerator after being flash-frozen to detect significant photosynthesis-related SNPS, 207,608
+in liquid nitrogen. Total RNA was extracted from leaves high-quality SNPS with a MAF>0.05 were selected from
+using a Plant RNA Extraction Kit (TIANGEN, Beijing, 292,053 SNPs derived from the NJAU 355K Soy SNP array
+China), and the first strand ofcDNA was synthesized using as molecular genetic markers. Meanwhile, association analy-
+a TaKaRa Prime ScriptTM RT reagent kit according to the sis was conducted at the genome-wide level with the data of
+manufacturer's instructions. The expression level of genes in the four photosynthesis-related phenotypes from 219 soy-
+the leaves was determinedby qRT-PCR assays using an ABI bean accessions. GWAS was performed with a MLM, which
+7500 system (Applied Biosystems, Foster City, CA, United greatly reduced the false positive rate.
+States) with SYBR Green Real-time Master Mix (Toyobo).
+The results of the GWAS are shown in Fig. 2 and
+The qRT-PCR system (primer sequences are listed in Sup- Table 2. A total of 24 SNPS were significantly associated
+plemental Table 1 and reaction procedure were performed (-logio(P)> 5.3) with photosynthesis-related traits on
+Springer
+
+
+
+Molecular Genetics and Genomics
+Table 1 Descriptive statistical results for photosynthesis-related traits of soybean
+Trait
+Year Mean Stdev Kurtosis Skewness Minimum Maximum CV (%)4 Gh E G*Ed H (%)e
+Pn
+El
+20.02 4.52 0.22
+0.31
+8.44
+32.75
+22.56 *** *** **
+87.22
+E2
+20.83 3.17 1.08
+0.12
+7.02
+30.76
+15.22
+E3
+19.98 5.59 0.63
+0.33
+6.42
+34.40
+27.98
+Ci
+E1 183.67 43.58 6.43
+1.14
+67.32
+446.65
+25.07 *** ** **
+50.05
+E2 255.81 38.64 2.30
+1.23
+99.90
+333.10
+13.77
+E3 285.76 51.83 0.32
+0.13
+132.97
+444.09
+18.14
+Cond E1
+0.20 0.06 0.38
+0.44
+0.05
+0.34
+30.00 *** ** ** 52.17
+E2
+0.21 0.14 0.83
+0.97
+0.03
+0.86
+66.67
+E3
+0.36 0.11 0.44
+0.26
+0.11
+0.66
+30.56
+Trmmol El
+6.61 1.81 0.51
+0.23
+2.19
+11.39
+27.38 *** ** ** 66.45
+E2
+5.85 1.39 0.04
+0.27
+2.28
+9.89
+23.76
+E3
+5.99 2.16 1.02
+0.11
+1.74
+11.86
+36.06
+**Significant at P<0.01
+***Significant at P<0.001
+"Coefficient of variation
+bGenotype
+"Environment
+"Genoypexenvironment
+*Broad-sense heritability
+chromosomes 1, 2, 6, 7, 9, 11, 12, 13, 15, 16, 18 and 19. also because the amounts of phenotypic variation that they
+Among these SNPS, six were detected on chromosome 9 explained were relatively high compared with those of the
+for Ci in E2; four on chromosome 18 for Pn in E3; three on other QTLs. qP1 was identified for Trmmol in E1 and Cond
+chromosomes 13 and 16 for Ci in E3 and Pn in E1, E2 and in E2 and explained 16.89% of the phenotypic variation,.
+E3, respectively; and only one on the other chromosomes Additionally, qP16 was associated with Pn in E1, E2 and E3
+(including one on chromosome 1 for both Trmmol in E1 and accounted for 16.3% of the phenotypic variation. Thus,
+and Cond in E2). The phenotypic variance explained ranged qP1 and qP16 were identified as the two most representative
+from 11.16 to 20.98%, indicating potential photosynthesis- QTLS associated with photosynthetic traits.
+related QTLS near the significant SNPS.
+Furthermore, according to the LD decay value calculated Prediction of candidate genes
+by Wang et al. (2016), the 130 kb regions before and after
+significant SNPS were selected as QTLs. Therefore, a total of According to the results of the GWAS, candidate genes
+12 chromosomal regions on 12 chromosomes were found to related to photosynthesis were selected from the 130 kb
+be associated with photosynthesis, which were named qP1, flanking regions of significant representative SNPS detected
+qP2, qP6, qP7,qP9, 4P1.4P12.4Ph.gPh.ap16, qP18 in at least two environments. By referring to the annotation
+and qP19. Two of them, qP1 and qP16, were associated of genes on the SoyBase website and referring to the previ-
+with different traits in distinct environments; by contrast, ously reported literature and functional studies of homolo-
+the other QTLS were associated with only a single trait in a gous genes in Arabidopsis, a total of four candidate genes
+single environment. Further analysis ofthe 12 QTLs showed possibly related to photosynthesis were identified, with two
+that qP2, qP6, qP13 and qP19 were likely new photosyn- genes each in qP1 and qP16. Information about the candi-
+thesis-related QTLs that had not been reported before and date genes is provided in Table 3. The two genes in qP1 were
+were associated with Trmmol in E2, Pn in E1, Ci in E3 and Glyma.01g158000 and Glyma.01g159800, and the other two
+Pn in E1, respectively. qP9 was detected for Ci in E2. In genes were Glyma.16g141100 and Glyma.16g141700, which
+addition, qP7, qP11, qP15 and qP18 were associated with were located in qP16 (Table 3).
+Cond in E1, Trmmol in E3, Ci in E1 and Pn in E3, respec-
+Among the genes, Glyma.01g158000 is a member of the
+tively, On chromosome 12, qP12 was detected for Cond protein phosphatase 2Cs (PP2Cs).which may play an impor-
+in E3 Moreover, the two QTLS located on chromosomes 1 tant role in regulating protein kinase pathways activated by
+and 16 were two important and interesting QTLs, not only diverse environmental stresses or developmental signaling
+because they were mapped in at least two environments but cascades, especially in response to abscisic acid (ABA)
+Springer
+
+
+
+Molecular Genetics andGenomics
+135
+108
+120
+88
+De
+-
+81
+! 661
+54
+-
+i #  -
+-
+30
+22
+E
+21
+14
+21
+28
+16
+24
+32
+ElPn
+E2Pn
+E3Pn
+150
+250
+120
+120
+200
+96
+! 150
+! 724
+60
+e 100-
+48
+2
+2
+j
+30
+50
+24
+0.00 0.14 0.28 0.42 0.56 0.70
+0.1 02 0.3 0.4 0.5
+180
+270
+360
+450
+EICo
+E2Co
+E3Co
+330
+230
+150
+261
+184
+120
+I 198
+138
+!
+of
+-
+90
+1324
+92
+60
+1
+-
+1
+66
+46
+A
+30
+84
+168 252 336 420
+80
+160
+240
+320
+400 0.00 0.14 0.28 0.42 0.56 0.70
+ElCi
+E2Ci
+E3Ci
+100
+180
+130T
+80
+144
+104
+E
+! 108
+78
+40.
+72
+52 -
+36
+26
+6.6
+11.0
+26 52 7.8 10.4 13.0
+26 52 7.8 10.4 13.0
+EITr
+E2Tr
+E3Tr
+Fig.1 Frequency distribution of different photosynthetic parameters (Pn, Co, Ci and Tr) in E1, E2 and E3. Pn net photosynthetic rate, Co stoma-
+tal conductance, Ci intercellular carbon dioxide concentration, Tr transpiration rate, E environment
+signals. Another gene on chromosome 1, Glyma.01g159800, and 12 materials with low photosynthetic efficiency
+which is homologous to PSAT1 in Arabidopsis, was anno- were selected as representative materials for the analy-
+tated as a phosphoserine aminotransferase and has not been sis of candidate gene expression. First, the total RNA
+included in any relevant reports on soybean. In addition, of the leaves was sampled and extracted when the soy-
+Glyma. 16g141100, a member ofthe zinc finger protein fam- bean plants were grown to the V4 stage, and then qRT-
+ily, may play an important role in the germination and matu- PCR was performed to analyze the expression level
+ration of seeds and participate in the light morphogenesis of the putative genes. The results are shown in Fig. 3.
+of seeds, as well as the gibberellin (GA) and ABA signal- Glyma.01g158000 and Glyma.01g159800 on chromosome
+ing pathways. Another gene, Glyma.16g141700, which was 1 were similarly expressed in representative materials.
+annotated as geranylgeranyl pyrophosphate synthase 1, may The expression levels ofboth genes were higher in mate-
+also be related to photosynthesis. The genes described above rials with high photosynthetic efficiency than in materials
+are the candidate genes predicted in this study that may be with low photosynthetic efficiency, and the differences
+related to photosynthesis.
+were extremely significant. Moreover, two candidate
+genes on chromosome 16 showed differential expression.
+Expression analysis of candidate genes
+The expression of Glyma.16g141700 in materials with
+in representative materials
+high photosynthetic efficiency was significantly greater
+than that in materials with low photosynthetic efficiency;
+Among the 219 soybean accessions used in this experi- in contrast, the expression level of Glyma.. .16g141100
+ment, 12 materials with high photosynthetic efficiency in materials with low photosynthetic efficiency was
+Springer
+
+
+
+Molecular Genetics and Genomics
+E1
+E2
+E3
+Pn
+a1 3
+Co
+Ci
+L à A ae
+Tr
+ - d
+lehis
+Chromosome
+Fig. .2 GWAS of photosynthetic traits using an MLM (Q+K) across ferent environments respectively; Pn net photosynthetic rate, Co sto-
+multiple environments. Manhattan plots for Pn, Co, Ci and Tr in dif- matal conductance, Ci intercellular carbon dioxide concentration, Tr
+ferent environments. The horizontal line depicts the significance transpiration rate, E environment
+threshold (P<4.82x10-5); E1, E2, and E3 represent the three dif-
+significantly greater than that in materials with high Photosynthesis-related traits
+photosynthetic efficiency. Thus, Glyma. 16g141700 and
+Glyma. 16g141100 might play opposite roles in regulat- The photosynthesis of plants is the driving force of their
+ing photosynthesis. The results showed that the expres- growth, development and metabolism. It is the basis of
+sion level of the candidate genes differed significantly plant material production and important for the global
+between the representative materials with differences in carbon cycle and other material cycles. Photosynthesis
+photosynthesis. This finding provides an important basis depends not only on the genetic characteristics of the plant
+for further study of the function of the target genes.
+itself but also on the influence and constraints of external
+environmental factors (light, temperature, CO2, moisture,
+etc.). The photosynthesis of plants under natural condi-
+tions is a very sensitive physiological process influenced
+Discussion
+by multiple environmental factors that may interact with
+each other. Therefore, it is necessary to use a variety of
+Photosynthesis plays an extremely important role in plant photosynthetic parameters under different environmental
+growth and development. Crop yield relies on photosyn- conditions to more accurately assess the photosynthetic
+thesis. Photosynthesis is a major target for improving crop capacity of plants. The parameters for evaluating photo-
+productivity. However, little progress has been made in synthesis include the Pn, Cond, Ci, and Trmmol, among
+the analysis of natural variation in photosynthetic effi- others. In addition, chlorophyll fluorescence parameters
+ciency. In this study, GWAS was carried out with four are also very important indicators. Chlorophyll fluores-
+photosynthesis parameters of 219 soybean accessions cence has been used to monitor photosynthetic perfor-
+from different regions, 12 potential QTLs related to pho- mance since the Kautsky effect was first described in
+tosynthesis were identified, and four candidate genes 1931 (Jee 1995). Chlorophyll fluorescence parameters
+involved in soybean photosynthesis were determined. It can directly or indirectly reflect certain qualitative and
+is possible to improve soybean overall productivity by quantitative information related to plant photosynthesis
+modifying these genes.
+and have become important parameters for studying the
+Springer
+
+
+
+Molecular Genetics andGenomics
+Table 2 Details ofloci associated with photosynthesis-related traits via GWAS in soybean
+Namea Chrb Main SNP
+No. of SNPd P value R2 (%)e Significant
+QTLS
+References
+Env-trait
+positione
+region (bp)
+qP1 Chr.01 48,860,794
+1
+1.53E-06 16.89 48,730,794- P use efficiency Zhang et al. El-Trmmol,
+48,990,794
+2-g5.2
+(2014)
+E2-Cond
+qP2 Chr.02 29,818,344
+1
+4.35E-06 12.62 29,688,344- N
+N
+E2-Trmmol
+29,948,344
+qP6 Chr.06 840,768
+1
+3.90E-06 15.17 710,768-
+N
+N
+El-Pn
+970,768
+qP7 Chr.07 9,483,659
+1
+4.06E-06 20.98 9,353,659-
+q7-2
+Lii et al. (2018) El-Cond
+9,613,659
+qP9 Chr.09 43,857,037
+6
+1.42E-06 12.38 43,726,953- Shoot Fe
+Dhanapal et al. E2-Ci
+43,993,400
+1-g12.1, Shoot (2018), Mao
+Fe 1-g12.2; et al. (2017)
+First flower
+4-g29
+qP11 Chr.11 8,340,340
+1
+2.98E-06 15.97 8,210,340-
+q11-1
+Lii et al. (2018) E3-Trmmol
+8,470,340
+qP12 Chr.12 5,965,471
+1
+2.98E-06 12.39 5,835,471-
+Seed weight Contreras-Soto E3-Cond
+6,095,471
+3-g8; Seed
+et al. (2017),
+yield 3-g2;
+Fang et al.
+Seed set
+(2017)
+1-g19.2
+qP13 Chr.13 1,579,109
+3
+3.06E-06 11.16 1,365,373-
+N
+N
+E3-Ci
+1,709,109
+qP15 Chr.15 11,597,382
+1
+4.64E-06 12.12 11,467,382- Shoot Fe
+Dhanapal et tal. El-Ci
+11,727,382
+1-g41.1;q12 (2018), Lii
+et al. (2018)
+qP16 Chr.16 29,464,289
+3
+1.86E-06 16.30 29,321,701- Plant height Zhang et al.
+E1,E2, and E3-Pn
+29,782,826
+6-g18; Pod
+(2015), Fang
+shattering
+et al. (2017)
+1-gl.1, Seed
+height 1-g3.1
+qP18 Chr.18 55,526,432
+4
+1.09E-06 12.76 55,387,495- WUE 3-g30; Dhanapal et al. E3-Pn
+55,710,646
+Pod number (2015), Fang
+1-g1.3; q18-3 et al. (2017),
+Li et al.
+(2018)
+qP19 Chr.19 12,487,588
+1
+1.04E-06 16.50 12,357,588- N
+N
+El-Pn
+12,617,588
+"QTL named by chromosome
+bChromosome
+Most significant SNP position
+dNumber of significant SNPS
+eThe proportion of phenotypic variance explained by each QTL
+'Environment and trait
+Table 3 Putative genes associated with photosynthesis-related traits
+Chromosome Reported QTL
+Candidate genes
+Orthologous genes Annotations
+in Arabidopsis
+Chr.01
+P use efficiency 2-g5.2
+Glyma.01g158000 AIPP2C47
+Protein phosphatase 2C
+Glyma.01g159800 PSATI
+Phosphoserine aminotransferase
+Chr.16
+Plant height 6-g18; Pod shattering Glyma.16g141100 IDDI
+C2H2-like zinc finger protein
+1-gl.1; Seed height 1-g3.1
+Glyma.16g141700 GGPSI
+Geranylgeranyl pyrophosphate synthase 1
+Springer
+
+
+
+Molecular Genetics and Genomics
+Glyma.01g158000
+Glyma.01g159800
+12
+14
+10
+12
+8
+10
+8
+6
+I
+T
+6
+4
+4
+-
+2
+I
+I
+2
+- :
+lil
+0
+0
+oetco COS co oS
+*o co
+s XXXX 3955433 88  -r - - 38 338 - 3XXXXX59 iSN XXXXXXXX 33800 - 88 88 - -A - 3XXXX559
+Glyma.16g141100
+Glyma.16g141700
+6
+8
+5
+7
+6
+I 4
+5
+3
+I
+4
+2
+9 3
+-
+2
+1
+-
+Lil
+0
+o e
+C o d6 6 d 6 d
+d d
+à A d o AE
+o o SE a 
+AE AA d
+o o
+a A o d o A M - - - A
+Fig. .3 Expression analysis of the four putative genes in the V4-stage Error bar indicates the standard deviation. Results are representative
+leaves of 12 materials with high photosynthetic efficiency and 12 ofthree biological replicates
+materials with low photosynthetic efficiency soybean accessions.
+functional mechanism of photosystem II (PS II) (Yin et al. to understand the basic metabolic mechanism of plant pho-
+2010; Baker 2008; Liang et al. 2009).
+tosynthesis, and there are a few reports on photosynthesis-
+In recent years, some photosynthesis-related QTLs iden- related QTLs in soybean in particular.
+tified using chlorophyll fluorescence parameters have been
+Therefore, this study performed a GWAS with four pho-
+reported successively in different species (such as wheat, tosynthesis parameters measured in three different environ-
+maize, soybean, and Arabidopsis) (Li et al. 2016; Czyc- ments and identified some QTLs that may be related to pho-
+zylo-Mysza et al. 2013; Yin et al. 2015; Hao et al. 2012). tosynthesis. The results will be helpful for understanding
+In addition, photosynthetic physiological parameters closely plant photosynthesis.
+related to the leaf photosynthetic rate measured by blade
+gas exchange and calculation are also basic indicators for Novel QTLS and potential candidate genes
+evaluating photosynthetic capacity. In previous studies, we for photosynthesis
+used photosynthetic phenotypic data measured in a recom-
+binant inbred line (RIL) population at different phospho- Natural variation in photosynthesis is widespread, and
+rus concentration levels, combined with linkage mapping highly heritable variation in photosynthesis-related traits
+and expression analysis, to reveal the genetic relationship has been found for model and crop species such as wheat
+between phosphorus utilization efficiency and photosynthe- (Driever et al. 2014).Arabidopsis, soybean, sorghum, maize
+sis in soybean and identified three major QTLs (Li et al. and rice (van Bezouw et al. 2019). Increasing crop yields
+2016). Moreover, a GWAS of photosynthetic phenotypic by exploiting genetic variation in photosynthesis has been
+parameters (Pn, Tr, Co and Ci) in normal-phosphorus and shown to be possible (Flood et al. 2011; Lawson et al. 2012).
+low-phosphorus treatments under hydroponic conditions was Inrecent years, positive genetic analysis using diverse panels
+carried out using different computational models, and five has become a valuable method for identifying variations in
+novel QTLS for the photosynthetic response to low-P stress functional alleles of important genes and traits related to
+were found (Lii et al. 2018). Nevertheless, it is not enough photosynthesis, which not only provides important insights
+Springer
+
+
+
+Molecular Genetics andGenomics
+into the regulation of photosynthesis but also provides pathways (Feurtado et al. 2011). ABA is a very important
+important resources for promoting photosynthesis bioengi- hormone in plant responses to various biological and abiotic
+neering (van Bezouw et al. 2019).
+stress signals (Jones 2016), SO it is not surprising that some
+Common types of QTL mapping populations, such as RIL genes (such as Glyma.16g141100) involved in ABA signal
+and near-isogenic line (NIL) populations, of multiple species regulation are associated with different traits. More research,
+have been usedto identify genes related to changes in photo- if possible, will revealexactly which role these genes play in
+synthetic efficiency causedby genetic variation (Adachi et al. photosynthesis and signaling.
+2011; Gu et al. 2012; Yan et al. 2015; Oakley et al. 2018;
+Another gene (Glyma.01g/59800) annotated as a phos-
+de Oliveira Silva et al. 2018). In this study, 12 QTLS were phoserine aminotransferase has not been reported in soy-
+identified by GWAS. Among these QTLS, qP9 was detected beans, but its homologous gene (PSATI in Arabidopsis) has
+for Ci in E2 and found to overlap with the reported Shoot been shown to play a role in the serine synthesis pathway.
+Fe 1-g12.1, Shoot Fe 1-g12.2 and First flower 4-g29 QTLS PSATI-silenced lines exhibited strong inhibition of shoot
+(Dhanapal et al. 2018; Mao et al. 2017); qP7, qP11,qP15 and root growth and were hypersensitive to the inhibition
+and qP18, which were associated with Cond in E1, Trmmol of photorespiratory serine biosynthesis under elevated
+in E3, Ci in E1 and Pn in E3, respectively, overlapped with CO2, which indicated that the gene plays an important role
+the 97-2,q11-1,q12 and q18-3 QTLs reported by Lii et al. in light- and sugar-dependent growth promotion in plants
+(2018); qP12 detected for Cond in E3 coincided with the (Wulfert and Krueger 2018).
+partial region of the previously reported Seed weight 3-g8,
+Moreover, photorespiration and photosynthesis are
+Seed yield 3-g2 and Seed set 1-g19.2 QTLs (Contreras-Soto closely related. Fifty percent of the organic compounds syn-
+et al. 2017; Fang et al. 2017), which indicated that it may be thesized via photosynthesis are decomposed in the photores-
+a pleiotropic QTL associated with multiple traits. QTLS on piration process, but no ATP or NADPH is produced, which
+chromosomes 1 and 16 were considered to be novel QTLS is obviously unfavorable to the accumulation of photosyn-
+likely to be associated with photosynthesis. The amount thetic products. InArabidopsis, PSATI was shown to be an
+of phenotypic variation explained by qP1 and qP16 was important intermediate in the photorespiration pathway and
+16.89% and 16.3%, respectively. Furthermore, qP1 was involved in the branch of the photorespiration pathway in
+identified for Trmmol in E1 and Cond in E2, and qP16 was the serine synthesis pathway (Wulfert and Krueger 2018).
+associated with Pn in E1, E2 and E3, which showed that Glyma.01g159800, as a homologous gene of PAST1, was
+these two QTLs were more stable and representative than presumed to be an important member that linked photosyn-
+other targeted QTLS. Through further analysis, we found that thesis and photorespiration. On the other hand, some metab-
+this QTL was 461 kb long, overlapping with other reported olites produced during plant metabolism, such as terpenoids
+QTLS, such as Plant height 6-g18, Pod shattering 1-g1.1 and phenolic substances, are also important factors affecting
+and Seed height 1-g3.1 (Fang et al. 2017;Zhang et al. 2015). the photosynthetic efficiency of plants. Among these metab-
+Therefore, we considered these two genomic regions to be olites, isoprene compounds are the most diverse in terms of
+the key locations for finding genes of interest.
+function and structure reported SO far, including molecules
+A total of four potential candidate genes related to photo- involved in respiration, photosynthesis and the regulation
+synthesis were found. Glyma.01g158000 in qP1 was anno- of growth and development (Ruiz-Sola et al. 2016; Pulido
+tated as a member of the PP2Cs. Several members of the et al. 2012). The main groups of plastid lisoprenoids, includ-
+PP2C group have been reported to play an important role ing photosynthesis-related metabolites such as carotenoids
+in regulating protein kinase pathways activated by diverse and the side chain ofchlorophylls, tocopherols (vitamin E),
+environmental stresses or developmental signaling cas- phylloquinones (vitamin K), and plastoquinones, are derived
+cades, especially in response to ABA signals (Madrid et al. from GGPP synthesized by geranylgeranyl pyrophosphate
+2007; Sheen 1996; Merlot et al. 2001). Glyma.01g158000 synthase (GGPPS) (Ruiz-Sola et al. 2016). Interestingly, the
+is homologous to AtPP2C47 in Arabidopsis, which was gene Glyma.16g141700 found in qP16isa GGPPS, suggest-
+reportedto be expressed lin the inflorescences and lleaves and ing that it is very likely to be an important gene for photo-
+was also upregulated similarly to some photosynthetic genes synthesis in soybean. Because photosynthesis involves com-
+under drought stress, suggesting that it might have poten- plex regulatory mechanisms and a large number of genes,
+tial links with photosynthesis (Xue et al. 2008; Gulyani and QTL mapping alone may not be enough to fully understand
+Khurana 2011). In addition, Glyma.16g141100, a member the genetic structure. New and effective methods need to be
+ofthe zinc finger protein family, was shown to be associated developed to better analyze highly complex traits such as
+with soybean pods in previous studies (Lee et al. 2017). Fur- photosynthesis.
+thermore, its homologous gene (IDD1) in Arabidopsis was
+In general, 12 QTLs associated with Pn, Cond, Ci and
+shown to be involved in the regulation of seed development Trmmol were identified via GWAS. Four candidate genes
+and maturation by regulating the GA and ABA signaling were proposed, including different types of molecules
+Springer
+
+
+
+Molecular Genetics and Genomics
+involved in multiple pathways, such as PP2C, phosphoserine
+and carotenoid contents in relation to biomass and yield in bread
+aminotransferase, C2H2-like zinc finger protein and GGPPS.
+wheat and their chromosome deletion bin assignments. Mol Breed
+32:189-210
+The wide application ofGWAS accelerates the identification de Oliveira Silva FM, Lichtenstein G, Alseekh S, Rosado-Souza L,
+of candidate genes in photosynthesis-related traits. It may
+Conte M, Suguiyama VF, Lira BS, Fanourakis D, Usadel B, Bher-
+be more beneficial to clarify functional genetic variation
+ing LL, DaMatta FM, Sulpice R, Araujo WL, Rossi M, de SettaN,
+and characteristics by combining parental mapping popula-
+Fernie AR, Carrari F, Nunes-Nesi A (2018) The genetic architec-
+tions. Nevertheless, the associated novel QTLs and candi-
+ture of photosynthesis and plant growth-related traits in tomato.
+Plant Cell Environ 41:327-341
+date genes detected in this study could be used as targets of Dhanapal AP, Ray JD, Singh SK, Hoyos-Villegas V, Smith JR, Pur-
+breeding or bioengineering to improve the photosynthetic
+cell LC, Andy King C, Cregan PB, Song Q, Fritschi FB (2015)
+efficiency of crops.
+Genome-wide association study (GWAS) of carbon isotope ratio
+(813C) in diverse soybean [Glycine max (L.) Merr.] genotypes.
+Theor Appl Genet 128:73-91
+Acknowledgements This work was supported in part by Ministry of Dhanapal AP, Ray JD, Smith JR, Purcell ILC, Fritschi FB (2018) Iden-
+Science and Technology (2017YFE0111000). Key Transgenic Breed-
+tification of novel genomic loci associated with soybean shoot
+ing Program of China (2016ZX08004-003, 2016ZX0800903-004) and
+tissue macro- and micronutrient concentrations. Plant Genome
+the National Natural Science Foundation of China (31571688).
+11:170066
+Dogara AM, Jumare AI (2014) Origin, distribution and heading date
+Author contributions DY and YY developed the experimental design;
+in cultivated rice. IntJ Plant Biol Res 2:1008
+LW, YY and ZC conducted and validated the phenotypic experiments; Driever SM, Lawson T, Andralojc PJ, Raines CA, Parry MA (2014)
+YY analyzed the data; SZ and WY extracted RNA; LW wrote the
+Natural variation in photosynthetic capacity, growth, and yieldin
+manuscript; and all authors contributed to final review and acceptance
+64 field-grown wheat genotypes.J1 Exp Bot 65:4959-4973
+ofthe manuscript.
+Fang C, Ma Y, Wu S, Liu Z, Wang Z, Yang R, Hu G, Zhou Z, Yu H,
+Zhang M, Pan Y, Zhou G, Ren H, Du W, Yan H, Wang Y, Han D,
+Compliance with ethical standards
+Shen Y, Liu S, Liu T, Zhang J, Qin H, Yuan J, Yuan X, Kong F,
+Liu B, Li J, Zhang Z, Wang G, Zhu B, Tian Z (2017) Genome-
+wide association studies dissect the genetic networks underlying
+Conflict of interest The authors declare that they have no conflict of
+agronomical traits in soybean. Genome Biol 18:161
+interest.
+Feurtado JA, Huang D, Wicki-Stordeur L, Hemstock LE, Potentier
+MS, Tsang EW, Cutler AJ (2011) The Arabidopsis C2H2 zinc
+finger INDETERMINATE DOMAINIENHYDROUS promotes
+the transition to germination by regulating light and hormonal
+References
+signaling during seed maturation. Plant Cell 23:1772-1794
+Flood PJ, Harbinson J, Aarts MG (2011) Natural genetic variation in
+Adachi S, Tsuru Y, Nito N, Murata K, Yamamoto T, Ebitani T, Ookawa
+plant photosynthesis. Trends Plant Sci 16:327-335
+T, Hirasawa T (2011) Identification and characterization of Grundy MJ, Bryan BA, Nolan M, Battaglia M, Hatfield-Dodds S,Con-
+genomic regions on chromosomes 4 and 8 that control the rate of
+nor JD, Keating BA (2016) Scenarios for Australian agricultural
+photosynthesis in rice leaves. J Exp Bot 62:1927-1938
+production and land use to 2050. Agric Syst 142:70-83
+Alexandratos N, Bruinsma J (2012) World agriculture towards GuJ, Yin X, Struik PC, Stomph TJ, Wang H (2012) Using chromosome
+2030/2050: the 2012 revision. ESA Working paper No. 12-03.
+introgression lines to map quantitative trait loci for photosynthesis
+Rome, FAO
+parameters in rice (Oryza sativa L.) leaves under drought and
+Asseng S, Ewert F, Martre P, EwertF, Martre P, Rotter RP, Lobell DB,
+well-watered field conditions. J Exp Bot 63:455-469
+Cammarano D, Kimball BA, Ottman MJ, Wall GW, White JW, Gulyani V, Khurana P (2011) Identification and expression profiling
+Reynolds MP, Alderman PD, Prasad PVV, Aggarwal PK, Anothai
+of drought-regulated genes in mulberry (Morus sp.) by suppres-
+J, Basso B, Biernath C, Challinor AJ, De Sanctis G, Doltra J,
+sion subtractive hybridization of susceptible andtolerant cultivars.
+Fereres E, Garcia-Vila M, Gayler S, Hoogenboom G, Hunt LA,
+Tree Genet Genomes 7:725-738
+Izaurralde RC, Jabloun M, Jones CD, Kersebaum KC, Koehler Hao D, Chao M, Yin Z, Yu D (2012) Genome-wide association analy-
+AK, Miller C, Naresh Kumar S, Nendel C, O'Leary G, Olesen JE,
+sis detecting significant single nucleotide polymorphisms for
+Palosuo T, Priesack E, Eyshi Rezaei E, Ruane AC, Semenov MA,
+chlorophyll and chlorophyll fluorescence parameters in soybean
+Shcherbak I, Stockle C, Stratonovitch P, Streck T, Supit I, Tao F,
+(Glycine max) landraces. Euphytica 186:919-931
+Thorburn PJ, Waha K, Wang E, Wallach D, WolfJ, Zhao Z, Zhu Hernandez-Ochoa IM, Asseng S, Kassie BT, Xiong W, Robertson R,
+Y (2015) Rising temperatures reduce global wheat production.
+Luz Pequeno DN, Sonder K, Reynolds M, Babar MA, Molero
+Nature Clim Change 5:143-147
+Milan A, Hoogenboom G (2018) Climate change impact on
+Baker NR (2008) Chlorophyll fluorescence: a probe of photosynthesis
+Mexico wheat production. Agric Forest Meteorol 263:373-387
+in vivo. Annu Rev Plant Biol 59:89-113
+Hervé D, Fabre F, Berrios EF, Leroux N, Chaarani GA, Planchon C,
+Bhusal N, Sharma P, Sareen S, Sarial AK (2018) Mapping QTLS for
+Sarrafi A, Gentzbittel L (2001) QTL analysis of photosynthesis
+chlorophyll content and chlorophyll fluorescence in wheat under
+and water status traits in sunflower (Helianthus annuus L.) under
+heat stress. Biol Plant 62:721-731
+greenhouse conditions. J Exp Bot 52:1857-1864
+Contreras-Soto RI, MoraF, de Oliveira MA, Higashi W, Scapim CA, Huang JK, Wei W, Cui Q, Xie W (2017) The prospects for China's food
+Schuster I(2017) A genome-wide association study for agronomic
+security and imports: will China starve the world via imports?J
+traits in soybean using SNP markers and SNP-based haplotype
+Integr Agr 16:2933-2944
+analysis. PLOS ONE 12:e0171105
+Huang X, Wei X, Sang T, Zhao Q, Feng Q, Zhao Y, Li C, Zhu C, Lu
+Czyczylo-Mysza I, Tyrka M, Marcinska I, Skrzypek E, Karbarz M,
+T, Zhang Z, Li M, Fan D, Guo Y, Wang A, Wang L, Deng L, Li
+Dziurka M, Hura T, Dziurka K, Quarrie SA (2013) Quantitative
+W,Lu Y, Weng Q, Liu K, Huang T, Zhou T, Jing Y,Li W, Lin Z,
+trait loci ifor leaf chlorophyll fluorescence parameters, chlorophyll
+Buckler ES, Qian Q, Zhang Q,LiJ, Han B (2010) Genome-wide
+Springer
+
+
+
+Molecular Genetics andGenomics
+association studies of 14 agronomic traits in rice landraces. Nat
+photosynthesis to sustainably meet global food and bioenergy
+Genet 42:961-967
+demand. Proc Natl Acad Sci USA 112:8529-8536
+Huang X, Zhao Y, Wei X, Li C, Wang A, Zhao Q, Li W, Guo Y, Pulido P, Perello C, Rodriguez-Concepcion M (2012) New insights into
+Deng L, Zhu C, Fan D, Lu Y, Weng Q, Liu K, Zhou T, Jing
+plant isoprenoid metabolism. Mol Plant 5:964-967
+Y,Si L, Dong G, Huang T, Lu T, Feng Q, Qian Q, Li J, Han B Ray DK, Ramankutty N, Mueller ND, West PC, Foley JA (2012)
+(2012) Genome-wide association study of flowering time and
+Recent patterns of crop yield growth and stagnation. Nat Com-
+grain yield traits in a worldwide collection of rice germplasm.
+mun 3:1293
+Nat Genet 44:32-39
+Reeves T, Thomas G, Ramsay G (2016) Save and grow in practice:
+Jee G (1995) Sixty-three years since Kautsky: chlorophylla fluores-
+maize, rice, wheat. A guide to sustainable cereal production (FAO
+cence. Aust J Plant Physiol 22:131-160
+UN, 2016)
+Jones AM (2016) A new look at stress: abscisic acid patterns and RStudio Team (2015) RStudio: integrated development for R, 42nd
+dynamics at high-resolution. New Phytol 210:38-44
+edn. RStudio Inc, Boston, p 14
+Knapp SJ, Stroup WW, Ross WM 1(1985) Exact confidence intervals Ruiz-Sola MA, Coman D, Beck G, Barja MV, Colinas M, Graf A,
+for heritability on a progeny mean basis 1. Crop Sci 25:192-194
+Welsch R, Rutimann P, Buhlmann P, Bigler L, Gruissem W,
+Lawson T, Kramer DM, Raines CA (2012) Improving yield by
+Rodriguez-Concepcion M, Vranova E (2016) Arabidopsis
+exploiting mechanisms underlying natural variation of photo-
+GERANYLGERANYL DIPHOSPHATE SYNTHASE 11 is a
+synthesis. Curr Opin Biotechnol 23:215-220
+hub isozyme required for the production of most photosynthesis-
+Lee JS, Kim KR, Ha BK, Kang S (2017) Identification of SNPS
+related isoprenoids. New Phytol 209:252-264
+tightly linked to the QTL for pod shattering in soybean. Mol Sheen J(1996) Ca2t-dependent protein kinases and stress signal trans-
+Breed 37:54
+duction in plants. Science 274:1900-1902
+Li H, Yang Y, Zhang H, Chu S, Zhang X, Yin D, Yu D, Zhang D Takai T, Kondo M, Yano M, Yamamoto T (2010) A quantitative trait
+(2016) A genetic relationship between phosphorus efficiency and
+locus for chlorophyll content and its association with leaf photo-
+photosynthetic traits in soybean as revealed by QTL analysis using
+synthesis in rice. Rice 3:172-180
+ahigh-density genetic map. Front Plant Sci 7:924
+Teng S, Qian Q, Zeng D, Kunihiro Y, Fujimoto K, Huang D, Zhu
+Liang Y, Zhang K, Zhao L, Liu B, Meng Q, Tian J, Zhao S (2009)
+L (2004) QTL analysis of leaf photosynthetic rate and related
+Identification of chromosome regions conferring dry matter accu-
+physiological traits in rice (Oryza sativa L.). Euphytica 135:1-7
+mulation and photosynthesis in wheat (Triticum aestivum L.). Tigchelaar M, Battisti DS, Naylor RL, Rayc DK (2018) Future warm-
+Euphytica 171:145-156
+ing increases probability of globally synchronized maize produc-
+Lipka AE, Tian F, Wang Q, Peiffer J, Li M, Bradbury PJ, Gore MA,
+tion shocks. Proc Natl Acad Sci USA 115:6644-6649
+Buckler ES, Zhang Z (2012) GAPIT: genome association and Tilman D, Balzer C, Hill J, Beforta BL (2011) Global food demand
+prediction integrated tool. Bioinformatics 28:2397-2399
+and the sustainable intensification of agriculture. Proc Natl Acad
+Livak KJ, Schmittgen TD (2001) Analysis of relative gene expression
+Sci USA 108:20260-20264
+data using real-time quantitative PCR and the 2(- Delta Delta C Turner SD (2014) qqman: an R package for visualizing GWAS
+(T)) Method. Methods 25:402-408
+results using QQ and manhattan plots. Biorxiv. https://doi.
+Long SP, Marshall-Colon A, Zhu XG (2015) Meeting the global food
+org/10.1101/005165
+demand of the future by engineering crop photosynthesis and van Bezouw R, Keurentjes JJB, Harbinson J, Aarts MGM (2019) Con-
+yield potential. Cell 161:56-66
+verging phenomics and genomics to study natural variation in
+Long SP, Ort DR (2010) More than taking the heat: crops and global
+plant photosynthetic efficiency. Plant J 97:112-133
+change. Curr Opin Plant Biol 13:241-248
+VanRaden PM (2008) Efficient methods to compute genomic predic-
+Long SP, Zhu XG, Naidu SL, Ort DR (2006) Can improvement in pho-
+tions. J Dairy Sci 191:4414-4423
+tosynthesis increase crop yields? Plant Cell Environ 29:315-330 Wang B, Liu L, O'Leary GJ, Asseng S, Macadam I, Lines-Kelly R,
+Lii H, Yang Y,LiH, Liu Q, Zhang J, YinJ, Chu S, Zhang X, Yu K, Lv
+Yang X, Clark A, Crean J, Sides T, Xing H, Mi C, Yu Q (2018)
+L, Chen X, Zhang D (2018) Genome-wide association studies of
+Australian wheat production expected to decrease by the late 21st
+photosynthetic traits related to phosphorus efficiency in soybean.
+century. Glob Change Biol 24:2403-2415
+Front Plant Sci 9:1226
+Wang J, Chu S, Zhang H, Zhu Y, Cheng H, Yu D (2016) Develop-
+Madrid M, Nunez A, Soto T, Vicente-Soler J, Gacto M, Cansado J
+ment and application of a novel genome-wide SNP array reveals
+(2007) Stress-activated protein kinase-mediated down-regulation
+domestication history in soybean. Sci Rep 6:20728
+of the cell integrity pathway mitogen-activated protein kinase Wang Y, Gai J (2002) Study on the ecological regions of soybean in
+Pmklp by protein phosphatases. Mol Biol Cell 18:4405-4419
+China. II. Ecological environment and representative varieties.
+Mao T,LiJ, Wen Z, Wu T, Wu C, Sun S, Jiang B, Hou W, Liw, Song
+Chin J Appl Ecol 13:71-75
+Q, Wang D, Han T(2017) Association mapping ofloci controlling Wulfert S, Krueger S (2018) Phosphoserine aminotransferasel is part
+genetic and environmental interaction of soybean flowering time
+ofthe phosphorylated pathways for serine biosynthesis and essen-
+under various photo-thermal conditions. BMC Genom 18:415
+tial for light and sugar-dependent growth promotion. Front Plant
+Merlot S, Gosti F, Guerrier D, Vavasseur A, Giraudat J (2001) The
+Sci 9:1712
+ABI1 and ABI2 protein phosphatases 2C act in a negative feed- Xu DQ, Shen YK (2002) Photosynthetic efficiency and crop yield. In:
+back regulatory loop of the abscisic acid signalling pathway. Plant
+Pessarakli M (ed) Handbook of Plant and Crop Physiology, 2nd
+J 25:295-303
+edn. Marcel Dekker Inc, New York, pp 821-834
+Oakley CG, Savage L, Lotz S, Larson GR, Thomashow MF, Kramer Xue T, Wang D, Zhang S, Ehlting J, Ni F, Jakab S, Zheng C, Zhong
+DM, Schemske DW (2018) Genetic basis of photosynthetic
+Y (2008) Genome-wide and expression analysis of protein phos-
+responses to cold in two locally adapted populations of Arabi-
+phatase 2C in rice andArabidopsis. BMC Genomics 9:550
+dopsisthaliana. J Exp Bot 69:699-709
+Yan X, Qu C, LiJ, Chen L, Liu L (2015) QTL analysis of leaf photo-
+Ort DR, Merchant SS, Alric J, Barkan A, Blankenship RE, Bock R,
+synthesis rate andrelated physiological traits in Brassicanapus. J
+Croce R, Hanson MR, HibberdJM, Long SP, Moore TA, Moroney
+Integr Agric 14:1261-1268
+J, Niyogi KK, Parry MA, Peralta-Yahya PP, Prince RC, Redding Yang F, Xu X, Wang W, MaJ, Wei D, He P, Pampolino MF,Johnston
+KE, Spalding MH, van Wijk KJ, Vermaas WF, von Caemmerer
+AM (2017) Estimating nutrient uptake requirements for soybean
+S, Weber AP, Yeates TO, Yuan JS, Zhu XG (2015) Redesigning
+using QUEFTS model in China. PLOS ONE 12:e0177509
+Springer
+
+
+
+Molecular Genetics and Genomics
+Yang J, Zaitlen NA, Goddard ME, Visscher PM, Price AL (2014)
+linear model approach adapted for genome-wide association stud-
+Advantages and pitfalls in the application of mixed-model asso-
+ies. Nat Genet 42:355-360
+ciation methods. Nat Genet 46:100-106
+Zhang D, Song H, Cheng H, Hao D, Wang H, Kan G, Jin H, Yu D
+Yin Z, Meng F, Song H, He X, Xu X, Yu D (2010) Mapping quantita-
+(2014) The acid phosphatase-encoding gene GmACP1 contrib-
+tive trait loci associated with chlorophyll a fluorescence param-
+utes to soybean tolerance to low-phosphorus stress. PLOS Genet
+eters in soybean (Glycine max (L.) Merr.). Planta 231:875-885
+10:e1004061
+Yin Z, Qin Q, Wu F, Zhang J, Chen T, Sun Q, Zhang Y, Wang H, Deng Zhu XG, Long SP, Ort DR (2008) What is the maximum efficiency
+D (2015) Quantitative trait locus mapping of chlorophyll a fluo-
+with which photosynthesis can convert solar energy into biomass?
+rescence parameters using a recombinant inbred line population
+Curr Opin Biotechnol 19:153-159
+in maize. Euphytica 205:25-35
+Yu J, Buckler ES (2006) Genetic association mapping and genome Publisher's Note Springer Nature remains neutral with regard to
+organization of maize. Curr Opin Biotechnol 17:155-160
+jurisdictional claims in published maps and institutional affiliations.
+Zhang J, Song Q, Cregan PB, Nelson RL, Wang X, Wu J, Jiang GL
+(2015) Genome-wide association study for flowering time, matu-
+rity dates and plant height in early maturing soybean (Glycin-
+emax) germplasm. BMC Genomics 16:217
+Zhang Z, Ersoz E, Lai CQ, Todhunter RJ, Tiwari HK, Gore MA, Brad-
+bury PJ, Yu J, Arnett DK, Ordovas JM, Buckler ES (2010) Mixed
+Springer

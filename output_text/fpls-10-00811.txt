@@ -1,0 +1,1078 @@
+frontiers
+ORIGINALI RESEARCH
+published: 21 June 2019
+in Plant Science
+doi: 10.3389/0652019.00811
+Cmecktor
+Identification of Loci and Candidate
+Genes Responsible for Pod
+Dehiscence in Soybean via
+Genome-Wide Association Analysis
+Across Multiple Environments
+Dezhou Hut, Guizhen Kan', Wei Hu', Yali Li', Derong Hao?, Xiao Li', Hui Yangi,3,
+OPEN ACCESS
+Zhongyi Yang', Xiaohong He', Fang Huang'* and Deyue Yu1,3*
+Edited by: 'National Center for Soybean Improvement, National Key Laboratory of Crop Genetics and Germplasm Enhancement,
+Roberto Papa, Jiangsu Collaborative Innovation Center for Modern Crop Production, Nanjing Agricultural University, Nanjing, China,
+Marche Polytechnic University, Italy 2Jiangsu Yanjiang Institute of Agricultural Sciences, Nantong, China, School of Life Sciences, Guangzhou University,
+Reviewed by: Guangzhou, China
+Saleh Alseekh,
+Max Planck Institute ofMolecular
+Plant Physiology, Germany Pod dehiscence (shattering) is the main cause of serious yield loss during the soybean
+Francesca Sparvoli mechanical harvesting process. A better understanding of the genetic architecture and
+Istituto di Biologia e Biotecnologia molecular mechanisms of pod dehiscence is of great significance for soybean breeding.
+Agraria (IBBA), Italy
+Monica Rodriguez, In this study, genome-wide association analysis (GWAS) with NJAU 355K SoySNP array
+University of Sassari, Italy was performed to detect single nucleotide polymorphisms (SNPS) associated with pod
+"Correspondence: dehiscence in an association panel containing 211 accessions across five environments.
+Fang Huang
+fhuang@njau.edu.cn A total of 163 SNPS were identified as significantly associated with pod dehiscence.
+Deyue Yu Among these markers, 136 SNPS identified on chromosome 16 were located in the
+dyu@njau.edu.cn known QTLqPDH1. One, one, three, eleven, three, one, three, three and one SNPS were
+tThese authors have contributed distributed on chromosome 1, 4, 6, 8, 11, 17, and
+Favorable
+equally to this work
+9,
+18,
+20, respectively.
+SNPS and six haplotypes were identified based on ten functional SNPS; among those
+Specialty section: Hap2 and Hap3 were considered as optimal haplotypes. In addition, based on GWAS
+This article was submitted to
+Plant Breeding, results, the candidate gene Glyma09g06290 was identified. Quantitative real-time PCR
+a section ofthe journal (qRT-PCR) results and polymorphism analysis suggested that Glyma09g06290 might
+Frontiers in Plant Science be involved in pod dehiscence. Furthermore, a derived cleaved amplified polymorphic
+Received: 04 March 2019 sequences (dCAPS) marker for Glyma09g06290 was developed. Overall, the loci and
+Accepted: 05 June 2019
+Published: 21 June 2019 genes identified in this study will be helpful in breeding soybean accessions resistant to
+Citation: pod dehiscence.
+Hu D, Kan G, HuW, Liy, Hao D,
+Lix, Yang H, Yang Z, He X Huang F Keywords: soybean, pod dehiscence, GWAS, haplotype analysis, Glyma09g06290, polymorphism analysis
+and Yu D (2019) Identification ofLoci
+and Candidate Genes Responsible Abbreviations: ANOVA, analysis of variance; BLUP, best linear unbiased
+derived cleaved
+for Pod Dehiscence in Soybean via
+prediction; dCAPS,
+amplified
+Genome-Wide AssociationAnalysis polymorphic sequences; FDR, false discovery rate; GWAS, genome-wide association analysis; h?, broad-sense heritability;
+HR, Huang-Huai ecoregion; LD, linkage disequilibrium; MAFS, minor rallele frequencies; MAS, marker-assisted selection; NJ,
+Across Multiple Environments. neighbor-joining: NR, northern ecoregion; PPD, the percentage of fpod dehiscence; Q-Q plots, quantile quantile plots; qRT-
+Front. Plant Sci. 10:811. PCR, quantitative real-time PCR; QTL, quantitative trait locus; RIL, recombinant inbred lines; RNA-Seq, RNA sequencing;
+doi: 10.3389/p5.2019.00811 SNP, single nucleotide polymorphisms; SR, southern ecoregion.
+Frontiers in Plant Science www.frontiersin.org
+1
+June 20191 Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+INTRODUCTION
+(Huang et al., 2010; Yano et al., 2016) and maize (Kump et al.,
+2011; Wang X. et al., 2016). In soybean, GWAS has been used to
+Soybean [Glycine max (L.) Merr.] is one of the major oil crops explore markers associated with many traits. For example, Hao
+and provides edible oil and abundant protein for human beings. et al. (2012) used GWAS to identify 19 SNPS and five haplotypes
+Soybean pod dehiscence (shattering) is when mature pods open for soybean yield and yield components (Hao et al., 2012);
+along their dorsal or ventral sutures to release seeds (Kang Chu et al. (2017) mapped the GmMYB29 (Glyma20g35180) gene
+et al., 2005). As pod dehiscence leads to significant yield loss related to isoflavone biosynthesis in soybean via GWAS (Chu
+in soybean and may cause more damage to soybean production et al., 2017); and Zhang et al. (2018) identified 87 chromosomal
+as climatic conditions become harsher, breeding for soybean regions for seed composition based on 31,850 SNPs by GWAS
+varieties with pod-shattering resistance is always one of the (Zhang et al., 2018).
+important goals for breeders.
+Although previous studies have identified many QTLs
+In the past two decades, a few QTLs or genes controlling controllingpod dehiscence in soybean, these QTLs were detected
+pod dehiscence have been identified. Previously, QTL analysis using classical linkage analysis with al limited number ofmarkers,
+in cultivated soybean has revealed a possible major QTL and and the allelic variation was also limited by using RILS or other
+several minor QTLs that regulate pod dehiscence. Bailey et al. linkage mapping populations. Furthermore, to date, only two
+(1997) first identified the major QTL by using 140 restriction pod-dehiscence-related genes have been cloned. In addition, we
+fragment length polymorphism (RFLP) markers in a population know little about the other QTLs related to pod dehiscence.
+of120 F4-derivedlines (Bailey et al., 1997). Funatsuki et al. (2006) In our previous work, we performed primary mapping of
+detected this major QTL and named it qPDH1; it was located pod-dehiscence-related QTLs due to the low density of the
+between the markers Sat_093 and Sat_366 on chromosome 16 genetic map (Hu, 2017). In this paper, to obtain more accurate
+and accounted for 50% of the total variance (Funatsuki et al., information regarding pod-dehiscence-related SNPS, GWAS
+2006). Furthermore, this QTL was also reported by several other with the large genome-wide NJAU 355K SoySNP array was
+studies that used different populations and genetic backgrounds performed across multiple environments. The aims of our study
+(Liu et al., 2007; Kang et al., 2009; Yamada et al., 2009; Suzuki were as follows: (i) identify loci and candidate genes involved
+et al., 2010; Ju et al., 2017), suggesting that qPDH1 may be the in pod dehiscence; (ii) identify favorable haplotypes relevant to
+major QTL associated with pod dehiscence. In addition, other pod dehiscence. These results will behelpful for MAS in soybean
+QTLs that were deemed to be minor were also mapped (Bailey breeding programs.
+et al., 1997; Liu et al., 2007; Kang et al., 2009; Yamada et al., 2009).
+Pod dehiscence/seed shattering has been deeplyinvestigatedin
+many crops (Vittori et al., 2019), several genes has been identified MATERIALS AND METHODS
+in rice (Konishi et al., 2006; Zhou et al., 2012), common bean
+(Koinange et al., 1996; Rau et al., 2019), Medicago (Fourquin Materials and Field Trials
+et al., 2013), and cowpea (Suanum et al., 2016; Lo et al., 2018). In In this study, the association panel containing 211 soybean
+soybean, studies predicted that two to four genes were responsible accessions was used (including 183 landraces, 25 improved
+for pod dehiscence (Caviness, 1969; Tsuchiya, 1986, 1987; Kang accessions and three accessions with unknown evolution type).
+et al., 2009). To date, two genes located on chromosome 16 have This population was collected from different geographic origins
+been cloned and characterized. A gene, Pdhl (Glymal6g25580), that exhibit variant phenotypes for pod dehiscence, and provided
+detected by fine mapping (located at the qPDH1 QTL) and by the National Center for Soybean Improvement of China.
+encoding a dirigent-like protein, promotes pod dehiscence by Experiments to assess association panel were sowed in two places
+increasing the torsion of dried pod walls (Funatsuki et al., 2014). from 2013 to 2017: Jiangpu Experimental Station (32°12 N
+In addition, Dong et al. (2014) identified a NAC gene, SHAT1-5 118°37 48 E) in 2013 and 2014 (designated as environment Envl
+(Glymal6g02200) by analyzing the changes due to domestication and Env2, respectively); and the Experimental Farm of Jiangsu
+between cultivated soybean and wild soybean. This gene activates Yanjiang Institute of Agricultural Sciences (31°58 48 N 120°53
+secondary-cell-wall biosynthesis and promotes the thickening of 24 E), Nantong, China, in 2015-2017 (designated as Env3, Env4,
+fiber-cap cells in pod sutures (Dong et al., 2014).
+and Env5, respectively). A complete randomized block design
+Although linkage mapping has been proved a powerful with three replications was used for all trials. Each line of the
+method to explore regions of the genome that co-segregate with populations was planted in three rows, and each row was 200 cm
+a given trait, it is ordinarily difficult to isolate candidate genes long with 50 cm row spacing. At the seedling stage (about 2 weeks
+based on a single QTL mapping experiment due to the limited after germination), the number ofplants in per row was limitedto
+markers (Zhang et al., 2014). Compared to linkage mapping, 15-20. Nutrition, water supply, weeding and insect control were
+GWAS can be applied in germplasm collections or naturally maintainedthroughout the experiment.
+occurring populations and provides higher resolution in terms
+of defining the genomic positions of genes or QTLs (Shirasawa Evaluation of Pod Dehiscence
+et al., 2013). In recent years, with the advance of next-generation Three plants per line were harvested randomly, and twenty pods
+sequencing (NGS), this approach has been successfully applied per plant were examined. The maturity pods were stored in
+to important traits in many plant species, including Arabidopsis a kraft paper bag after harvested and then put in the heating
+thaliana (Kobayashi et al., 2016; Kalladan et al., 2017), rice ovens as soon as possible. The degree of pod dehiscence was
+Frontiers in Plant Science www.frontiersin.org
+2
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+identified by monitoring the percentage of dehiscent pods after Expression Database? (GEO Accession: GSE26443). The heat
+heat treatment at 60°C for 3 h (Funatsuki et al., 2006; Yamada maps were generated by using R software packages "heatmap."
+et al., 2009). As shown in Supplementary Figure S1, after heat
+treatment, the completely opened pods were used to calculate Candidate Gene Selection and Gene
+PPD. PPD = (number of pod dehiscence/total pods) X 100% Expression Analysis
+(Yamada et al., 2009). The germplasm number, name, origin Based on the LD decay distance of significant SNPS in the GWAS
+and phenotypic data of the association panel are listed in results, we predicted the putative genes related to pod dehiscence
+Supplementary Table S1.
+according to the soybean genome annotation (Wm82.al.vl.1").
+Meanwhile, BLASTP analysis was also performed against
+Phenotypic Data Analysis
+Arabidopsis proteins using the amino acid sequences of
+The phenotypic data of the association panel was determined these putative genes.
+using the mean values for each line (Envl to Env5) with The soybean accession Williams 82 was selected to analyze
+the R software (R Development Core Team, 2015), including the tissue expression patterns of the putative genes. First, seeds
+descriptive statistics, ANOVA, and h2. Variable components were grown in growth chambers under the conditions of 16/8 h
+(genotype, year, line, and location) were evaluated in R with the (day/night), 28/25°C (day/night), and 60% relative humidity.
+"Ime4" package using the BLUP model. The BLUP model was Then, roots, stems, leaves, and flowers were sampled during the
+based on the following formula (Merk et al., 2012):
+full-bloom period; pods were sampled on the 7th, 15th, 25th,
+and 45th days after flowering (DAF), and mature seeds were
+Yik= p+ Gi + Yk + GYK + Eik
+also collected. The expression levels of the putative genes were
+In this formula, Yik is the trait studied, p is the overall mean, detected in 15-day pods in a subset of 18 soybean accessions,
+Gi is the ith genotypic effect, Yx is the effect of the kth year, representing varieties with high and low PPD. Total RNA was
+GYk is the interaction of genotype X year, and Eik is the residual isolated using a Plant RNA Extract Kit (TianGen, Beijing, China),
+and CDNA was synthesized
+a TaKaRa Prime
+RT
+error. The BLUP was also included as an environment in the
+using
+ScriptTM
+GWAS analysis. The h2 of pod dehiscence was calculated using reagent kit according to the manufacturer's instructions. Gene
+the following formula:
+expression in different tissues was performed by qRT-PCR assays
+using an ABI 7500 system (Applied Biosystems, Foster City, CA,
+h= 1 (otoge/n + 02/nr)
+United States) with SYBR Green Real-time Master Mix (Toyobo).
+Three biological and three technical replicates were used.
+In which h2, broad-sense heritability;
+variance; 02 The constitutively expressed soybean tubulin
+(GenBank
+op genotype
+ge
+gene
+interaction variance of genotype X environment; 02 variance of accession number: AY907703) was used as a control. The
+error components; n, the number of environments; and r, the normalized expression, reported as fold change, was calculated
+number of replications.
+for each sample as AACT =l (CTTarget - CTTubulin/genotype
+(CTTarget - CTTubulin)calibrator (Livak and Schmittgen, 2001). The
+Genome-Wide Association Analysis
+primers used are listed in Supplementary Table S2.
+The 211 soybean accessions were genotyped with the NJAU 355K Gene Structure Analysis
+SoySNP array containing 282,469 SNPS (Wang J. et al., 2016).
+After filtering out SNPS with MAFS K 0.05, a total of 201,915 GSDS4 was used to analyze the gene structure. The protein
+SNPS remained. GWAS was conductedbased on the MLM model sequences of homologous genes from different plants were
+(Q + K) using the TASSEL software V5.0 (Bradbury et al., obtained from NCBI databases (accession numbers are listed
+2007). Thel kinship matrix (K) and population structure (Q) were in Supplementary Table S3). Sequence alignment was analyzed
+calculated by TASSEL software V5.0 and STRUCTURE software using ClustalX software version 1.83 (Jeanmougin et al., 1998).
+version 2.3.4, respectively (Pritchard et al., 2000; Falush et al., A NJ phylogenetic tree was constructed based on protein
+2003). A FDR of 0.05 was used as a threshold for significant sequences with MEGA 6.0 software using bootstrap method with
+1,000 replications.
+association (Benjamini and Hochberg, 1995). Manhattan plots
+and Q-Q plots were generated using the R software package
+Haplotype Analysis
+"qgman" (Turner, 2014).
+A pair of gene-specific primers was designed (Primer 5.0)
+Digital Expression Data Analysis
+to amplify Glyma09g06290 from 42 soybean accessions
+(forward: S-CCAAACAGAGTGAGTGAGTGACTTG-3, reverse:
+Two databases were usedto identify the tissue expression patterns SITOCTACTICTICTICTAGC) These
+were
+of candidate genes. RNA-Seq data from 14 tissues, including aligned using the ClustalX software version 1.8, sequences and the SNPS
+three vegetative tissues (leaves, root, and nodules) and the
+whole seeds from 11 stages of reproductive tissue development with MAFS N 0.05 were identified among these accessions. The
+(flower, pod, and seed), were downloaded from SoyBase', and Phtpl/www.plexdborg
+soybean microarray expression data was downloaded from Plant "htpl/phytozomeijgidoegov/pu.iporalhtml
+'atpligdscbiphueducn/
+hmp/hww.spbucarghopey
+"htp/www.ndininanihgon
+Frontiers in Plant Science www.frontiersin.org
+3
+June 20191 Volume 101 Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+LD level was calculated by the HapView 4.0 software program in four environments and BLUP; 18 SNPS were mapped in three
+(Barrett et al., 2005). The correlation between the expression of environments and BLUP; and 19 SNPS were mapped in two
+Glyma09g06290 and pod dehiscence was calculatedby SPSS 20.0 environments and BLUP. These 136 SNPS were clustered on
+software (Pearson correlation). In addition, the haplotype block chromosome 16 from 29135922 to 29865027 (r729 kb), which
+was definedby the "Solid Spine ofLD" algorithm. LD analysis of completely overlapped with two QTLs (Pod dehiscence 2-1 and
+112 significant SNPS located on chromosome 16 was performed Pod dehiscence 3-4) and partially overlapped with Pod dehiscence
+using the R software package "LDheatmap" (Shin et al., 2006). 1-7 and Pod dehiscence 4-2 (Bailey et al., 1997; Funatsuki et al.,
+2006; Kang et al., 2009; Yamada et al., 2009). The gene pdh1,
+dCAPS Marker Development
+controlling pod dehiscence in soybean, was also located in this
+The dCAPS marker of Glyma09g06290 was developed cluster. In addition, a few significant SNPs were distributed on
+based on the S_-500 (C/G). The gene-specific primers were other chromosomes, such as chromosome 1, 4, 6, 8, 9, 11, 17,
+designed by dCAPS Finder 2.06 (forward: 5-CTCATATCTTT 18, and 20 (Figure 2, Table 2, and Supplementary Table S4). On
+GIGTTGTCCATG-3.eene 5-ATTGGAGTGATAAGGAAA chromosome 9, two SNPS were identified in both Env3 and Env5
+CTGG-3'). The PCR products were digested with restriction as significant SNPS.
+endonuclease Ncol (37°C, 1 h). Digestion products were assayed
+by 8% polyacrylamide gel electrophoresis to distinguish the Identification of Favorable SNPS and
+polymorphic fragments.
+Haplotypes Relevant to Pod Dehiscence
+One SNP was mapped in both five environments and BLUP on
+RESULTS
+chromosome 16; we also found that nine SNPs were mapped in
+four environments and BLUP on chromosome 16 (the P-value
+Phenotypic Variation in Association
+of nine SNPS in Env3 was as low as 9.91 X 10-06); the R2 ranged
+Panel
+from 11.9 to 38.5% (Table 2 and Supplementary' Table S4). These
+significant SNPS have more allelic variations and can represent
+Descriptive statistics, ANOVA and h2 ofthe PPD were identified the quality of pod dehiscence in our association panel. Therefore,
+for the association panel in five environments (Table 1). The these SNPS were used to analyze the haplotypes related to pod
+PPD for theindividual accessions in the association panel ranged dehiscence in soybean. We selected 189 of 211 accessions from
+from 0 to 0.99, and the average value was between 0.15 and different geographic origins for further haplotype analysis. Ten
+0.27. h2 was estimated as 78.5% in association panel, which was significant loci showed very strong LD level and formed one
+slightly lower than that found in RILS (Kang et al., 2005). The block. Thenumber 1-10 represents these ten SNPS AX-93853844,
+frequency distribution showed a skewed distribution (Figure 1), AX-94151086, AX-93853870, AX-93853873, AX-93853874, AX-
+not a normal distribution, which is similar to the previously 94151101, AX-93853876, AX-93853895, AX-93853896, and
+reported results (Kang et al., 2009). In addition, the ANOVA AX-94151124, respectively (Figure 3A and Supplementary
+results indicated that pod dehiscence was significantly influenced Table S5). Of which, the SNP 8 and 3, 4, 7, 9, 10 showed
+by the genotype effect and the interaction effects of genotype and complete LD. When 8 is T base, 3, 4, 7, 9, 10 is C, T, G,
+environment (P < 0.001) in association panel.
+A, T base, respectively; when 8 is A base, 3, 4, 7, 9, 10 is A,
+C, A, T, C base, respectively (Figure 3B). Therefore, these ten
+Genome-Wide Association Analysis for
+SNPS were subdivided into five SNPs (1, 2, 5, 6, and 8). Based
+Pod Dehiscence
+on the five SNPS within the LD block, six haplotype classes
+QTL mapping suffers from fundamental limitations; one of were observed in the 189 accessions (Hapl-Hap6) (Figure 3B).
+these is the limited allelic diversity between recombinant inbred Hap2 (TGCAA) was the largest group (n = 83); and Hapl
+population and parents (Korte and Farlow, 2013). In contrast, (CCTTT) was the second largest group (n = 72). The other
+by taking advantages of the abundant natural variations of haplotypes, Hap3 (CCCAA), Hap4 (CGTTT), Hap5 (CCTOT),
+a population, GWAS is helpful for favored allele detecting and Hap6 (CCOTT), comprised seven, fourteen, eight and five
+and functional SNP discovery. In this study, to mine the accessions, respectively.
+SNPS significantly associated with pod dehiscence, GWAS was The phenotypic data of five significant SNPS and six
+conducted using 201,915 SNPS (NJAU 355K SoySNP array) haplotypes were further analyzed. In total, 117 accessions with 1-
+with the MLM (Q + K) model in an association panel C exhibited significantly higher values than 1-T; 104 accessions
+including 211 accessions.
+with 2-C exhibited significantly higher values than 2-G; 101
+A total of 163 SNPS were identified as significantly associated accessions with 5-T and 12 accessions with 5-0 exhibited
+with pod dehiscence in five environments and BLUP (Figure 2, significantly higher values than 5-C; 98 accessions with 6-T
+Table 2, and Supplementary Table S4). Among these SNPS, 136 and 14 accessions with 6-0 exhibited significantly higher values
+SNPS were located on chromosome 16in multiple environments. than 6-A, 109 accessions with 8-T exhibited significantly higher
+Among these 136 SNPS, one SNPS was detected in five values than 8-A (Figures 3C-G). In addition, Hapl and Hap5
+environments and BLUP. In addition, 51 SNPS were identified had significantly higher PPD than Hap2 and Hap3 (Figure 3H).
+Considering that soybean varieties with pod-shattering resistance
+"htp/heliz.wustledu/dcaps/dapshtml
+are one of the major goals for breeders, 1-T, 2-G, 5-C, 6-A, and
+Frontiers in Plant Science www.frontiersin.org
+4
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+TABLE 1/Descriptive statistics, ANOVA and broad-sense heritability of the PPD in five environments of association panel (Env1, Env2, Env3, Env4, and Env5).
+Env
+Mean SD Median Minimum Maximum
+CV
+Skewness Kurtosis G Gx E
+h2
+Env1
+0.23
+0.30
+0.08
+0
+0.99
+130.4%
+1.24
+0.17
+***
+***
+78.5%
+Env2 0.27
+0.32
+0.09
+0
+0.99
+118.5%
+0.91
+-0.77
+***
+***
+Env3 0.15
+0.19
+0.08
+0
+0.86
+126.6%
+1.91
+3.03
+Env4 0.19
+0.24
+0.09
+0
+0.94
+126.3%
+1.59
+1.35
+***
+Env5 0.20
+0.23
+0.09
+0
+0.96
+115.0%
+1.44
+1.07
+Env, environment; SD, standard deviation; CV coefficient of variation; G, genotype; G x E, genotype x environment; h2, broad-sense heritability. ***Significant at
+P <0.001.
+Env1
+Env2
+Env3
+8
+E
+00
+06
+o
+Env4
+Env5
+8
+8
+8u
+s
+I 8
+8
+E
+de
+FIGURE1/Frequency distribution of the PPD in association panel for five environments (Env1, Env2, Env3, Env4, and Env5).
+8-A were the favorable markers; Hap2 and Hap3 should be the except on chromosome 16. Notably, one of these three SNPS,
+favorable haplotypes.
+AX-93762848, was also detected by using MLMM model
+Hapl and Hap2 were not only the unfavorable and favorable (Supplementary Figure S2). It demonstrates that these three
+haplotypes but also the largest and second largest groups, SNPS on chromosome 9 were essential to dehiscence trait in
+respectively. The number of Hap3 and Hap5 was limited soybean. Therefore, the candidate genes were selected based on
+(seven and eight accessions, respectively). Therefore, Hapl and the SNPS on chromosome 9.
+Hap2 were used to analyze the geographical distribution of There were 26 genes detected in the 130 kb flanking regions
+soybean landraces with different pod dehiscence traits. After (LD decay distance of cultivated soybeans) of the two SNPS
+filtering out accessions with indeterminate ecoregions, 66 and (Table 4; Wang J. et al., 2016). We then performed a BLASTP
+76 accessions remained in Hapl and Hap2, respectively. Hapl analysis using the Arabidopsis genome against these 26 genes. The
+was observed in the three main growing ecoregions in China results showed that two genes were withoutany explicitbiological
+(Tian et al., 2010) and was mainly (75.8%) distributed in function annotations. Among the other 24 genes with functional
+the southern ecoregion (SR); Hap2-containing accessions were annotations, Glyma09g06320 and Glyma09g06390 were predicted
+mostly observed in the Huang-Huai ecoregion (HR) (34.2%) and to be involved in cellular differentiation and cell wall formation.
+SR (34.2%) (Table 3). These results revealed that the soybean Additionally, the gene Glyma09g06290 is homologous to
+landraces of Chinese origin possessing the elite haplotype were At2g18969 which belongs to bHLH (basic helix-loop-helix) gene
+mostly distributed in HR and SR.
+family. In Arabidopsis, two bHLH transcriptional factors (IND
+and ALC) were reported to be related to silique dehiscence
+Identification of Putative Genes
+(Rajani and Sundaresan, 2001; Liljegren et al., 2004). The
+In GWAS results, under the threshold of FDR < 0.05, we other genes were forecasted to participate in abiotic and biotic
+detected three significant SNPS on chromosome 9. Moreover, stress, transport, metabolic process, and other functions. We
+two of them were close to each other and repeatedly identified also listed the detail information about the orthologs of these
+in different environments. Interestingly, in other regions, genes in Medicago truncatula, Oryza sativa, and Zea mays,
+there was no significant SNP that was repeatedly detected respectively (Supplementary Table S6). Moreover, we identified
+Frontiers in Plant Science www.frontiersin.org
+5
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+A
+#
+n
+B
+10
+#
+C
+5
+D 10
+7
+E 12
+10
+1
+F
+12
+10
+1
+FIGURE 21Continued
+Frontiers in Plant Science www.frontiersin.org
+6
+June 20191 Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+FIGURE 21 Genome-wide association study of pod dehiscence in association panel using the MLM (Q + K) model across multiple environments. Manhattan plots
+and Q-Q plots for pod dehiscence in the following environments: (A) Env1; (B) Env2; (C) Env3; (D) Env4; (E) Env5; and (F) BLUP The horizontal line depicts the
+significance threshold when FDR = 0.05.
+TABLE 21SNP loci that significantly associated with pod dehiscence based on GWAS in the association panel.
+Chr
+MSS
+MSS Position Mss P-value Significant region
+No. Env
+Related QTL or gene
+of
+identified in previous studies
+Start
+End SNPS
+1 AX-93963018 5388850 2.58 x 10-06 5258850 5518850 1 Env2
+4 AX-93708700 25726440 2.17 x 10-05 25596440 25856440 1 Env2
+6 AX-93727683 11784406 1.13 x 10-5 10563310 41546032 3 Env2 (2), Env1 (1)
+8 AX-93930129 42050788 7.83 x 10-07 41864756 42186397 11 Env1
+Pod dehiscence 4-1 (Yamada
+et al., 2009)
+9 AX-93762848 5145974 2.58 x 10-07 4940686 5275974 3 Env3 Env5 (2), Env3 (1)
+11 AX-94082716
+577915 1.19 x 10-06 447915 707915 1 Env2
+16 AX-93853895 29601807 2.06 x 10-15 29365082 29736722 1 Env1 Env2 Env3 Env4 Env5
+BLUP
+16 AX-93853825 29421300 5.78 x 10-10 29194421 29850274 51 Env1 Env2 Env4 Env5
+Pod dehiscence 1-7 (Bailey
+BLUP
+et al., 1997) Pod dehiscence
+2-1 (Funatsuki iet al., 2006) Pod
+dehiscence 3-4 (Kang et al.,
+2009) Pod dehiscence 4-2
+(Yamada et al., 2009) Pod wall
+width 1-9 (Guang-yu et al.,
+2011)pdh1 (Funatsuki iet al.,
+2014)
+16 AX-93853894 29600010 1.29 x 10-10 29136226 29870913 18 Env1 Env2 Env5 BLUP (14)
+Env1 Env4 Env5 BLUP (4)
+16 AX-93853796 29340570 2.84 x 10-08 29210570 29879081 19 Env1 Env2 BLUP (16) Env2
+Env5 BLUP (3)
+16 AX-93946746 29215338 1.15 x 10-07 29005922 29968491 11 Env1 BLUP
+16 AX-93853865 29545423 5.30 x 10-07 29018509 29990917 36 Env1 (12), Env2 (4), BLUP
+(20)
+17 AX-94289430 11868679 1.98 x 10-5 11738679 12008912 3 Env1
+18 AX-94165965 2292799 8.60 x 10-06 2162799 54328119 3 Env1
+20 AX-93901310 8202869 2.03 x 10-05 8072869 8332869 1 Env1
+Chr, chromosome; MSS, most significant SNP; Significant region, significant region was defined as the LD decay distance flanking the signiicant SNPS; No. of SNPS,
+number of significant SNPS; Env, environment. The number in brackets indicates the number of significant SNPS detected in different environments.
+the expression patterns of these 24 genes in the RNA-Seq and these two genes. First, the soybean accession Williams 82 was
+microarray data, respectively (Supplementary Figure S3). The selected to analyze the tissue expression pattern of the putative
+RNA-Seq data showed that Glyma09g06290 was predominately genes. Glyma09g06290 was highly expressed in the pod, and
+expressed in pod shell and Glyma09g06390 was expressed in the expression of Glyma09g06290 was significantly increased
+several tissues. However, Glyma09g06320 was not expressed in the late pod growth period, however, the expression of
+according to the RNA-seq data, and this result was confirmed Glyma09g06390 was very low in pod growth period (Figure 4A).
+by our qRT-PCR result. In the microarray data, we found These results were similar to the public RNA-Seq data
+that Glyma09g06290 was highly expressed in pod elongation (Supplementary Figure S3). Second, 18 soybean accessions
+stage and sharply decreased in late seed growth period. By representing varieties with high and low PPD were used to
+combining the above results, these two genes (Glyma09g06390 analyze the expression patterns in extreme varieties. The results
+and Glyma0906290) may be related to pod dehiscence.
+showed that the expression of Glyma09g06290 rather than that
+of Glyma09g06390 in the high-PPD varieties was significantly
+Expression Patterns of Putative Genes
+higher than that in the low-PPD varieties in 15-day pods
+According to the Soybase', we listed the candidate genes' coding (Figure 4B). Therefore, Glyma09g06290 may be involved in pod
+product and metabolic processes (Supplementary Table S7). dehiscence in soybean.
+Moreover, to elucidate the potential functions of the two genes,
+qRT-PCR was performed to study the expression patterns of Sequence Analysis of Glyma09g06290
+The full genomic length of Glyma09g06290 is 1405 bp
+"htpl/hwww.soybascorg
+and only contains one exon with 624 bp. Glyma09g06290
+Frontiers in Plant Science www.frontiersin.org
+7
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+A
+C
+D
+e
+8
+***
+8
+8
+$
+3
+13
+a
+a 
+8
+8
+Chr.16
+1-C
+1-T
+2-C
+2-G
+E
+F
+8
+8
+8
+80
+3
+3
+181 8i
+a 1
+80
+B
+8
+0
+5-0 5-C 5-T
+6-0 6-A 6-T
+G
+H
+SNPloci
+Haplotype
+Number PPDISE
+1 2 5 6 8
+8 -
+80
+Hapl C C T T T 72
+0.3610.021
+8 -
+00
+Hap2 T G C A A 83 0.04510.0033
+Hap3 C C C A A 7 0.03910.0049
+de -
+a
+Hap4 C G T T T 14
+0.26:0.047
+Hap5 C C T 0 T 8
+0.3410.062
+a -
+Hap6 C C 0 T T 5
+0.3010.043
+d0
+8
+8-A
+8-T
+Hapl Hap2 Hap3 Hap4 Haps Hap6
+FIGURE 31Haplotype analysis of ten SNPS significantly associated with pod dehiscence in five environments and the PPD phenotype of five significant SNPS.
+(A) The physical locations of 10 SNPS and the LD plot based on pairwise R2-values between these SNPS. The color bar was used to indicate the R2-values.
+(B) Haplotypes observed in the association panel using the 10 SNPS; Oi indicates al base deletion. (C-G) The PPD phenotype of five significant SNPS.
+(H) Comparison of PPD among the haplotypes Hap1, Hap2, Hap3, Hap5, and Hap6. ***Significant at P < 0.001. Two tail t-test was used for statistical analysis.
+1-10 represent the SNPS AX-93853844, AX-94151086, AX-93853870, AX-93853873, AX-93853874, AX-94151101, AX-93853876, AX-93853895, AX-93853896,
+and AX-94151124; SE, standard error.
+protein is composed of 207 amino acids with molecular genomic region, spanning the 5'- to 3'-UTR of Glyma09g06290,
+mass of 23.23 kDa and isoelectric point of 5.39. Further, was analyzed. A totalofthree SNPS andtwoindels (insertions and
+phylogenetic trees showed that Glyma09g06290 is homologous deletions) were identified, including Site_-500 (located 500 bp
+to Phaseolus vulgaris Phvul.009g238800 (identity of 78.7%), upstream from the translation start codon, S_-500), Indel_-
+Medicago truncatula Medtr2g036670 (identity of61.8%),Populus 230, S_-128 in the 5'-UTR, Indel_766 and S_767 in the 3'-
+trichocarpa Potri.018g090200 (identity of 61.8%), M. truncatula UTR (Figure 6). The association study showed that 5 probable
+Medtr4g127700 (identity of 50.7%) and A. thaliana columbia causative sites were significantly associated with variations in
+At2g18969 (identity of 44.9%; Figure 5). By comparing the gene pod dehiscence (Figure 6A). Furthermore, based on the five
+structure of Glyma09g06290 and other plant homologous genes, significant variants with strong LD, the 42 soybean genotypes
+we identified that they have only one exon and without intron
+except Medtr4g127700 (Figure 5).
+TABLE 3/Geographic distribution of Hap1 and Hap2 in three soybean-growing
+ecoregions (NR, HR, and SR) in China.
+Polymorphisms in the Glyma09g06290
+Gene Are Associated With Pod
+Haplotype
+Number
+Dehiscence
+NR
+HR
+SR
+HR/SR NR/HR
+In order to analyze the association between the allelic variation
+of Glyma09g06290 and pod dehiscence, we sequenced the Hap1
+3(4.6%) 2 (3.0%) 50 (75.8%) 9(13.6%) 2(3.0%)
+Glyma09g06290 gene in a subset of 20 accessions with high Hap2
+9(11.8%) 26 (34.2%) 26 (34.2%) 8(10.5%) 7 (9.3%)
+PPD and 22 accessions with low PPD. An approximately 1.5-kb NR, northern ecoregion; HR, Huang-Huai ecoregion; SR, southern ecoregion.
+Frontiers in Plant Science www.frontiersin.org
+8
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+TABLE 41Genes detected in the 130 kb flanking region of the significant SNPS the dCAPS marker based on one of these SNPS (S_-500). As
+on chromosome 9.
+shown in Figure 6D, we selected ten accessions with high PPD
+Gene ID
+Homolog Functional annotation in the
+and ten accessions with low PPD. Ten accessions with high PPD
+Phytozome database
+produced a 166 and 143 bp amplicons by restriction enzyme
+digestion. The remaining ten accessions with low PPD
+Protein
+produced
+Glyma09g06180 AT5G24080
+kinase superfamily protein
+166 bp amplicons by restriction enzyme digestion. These results
+Glyma09g06190 AT5G24080 Protein kinase superfamily protein
+confirmed that dCAPS basedon theS_-500 is afunctionalmarker
+Glyma09906200 AT5G24080 Protein kinase superfamily protein
+and could be useful for plant breeders.
+Glyma09g06220 AT5G57360 Clock-associated PAS protein ZTL
+Glyma09906230 AT2G18940 Tetraticopeptiderepeat-ike superfamily
+protein
+Glyma09906250 AT4G30190 P-type ATPase superfamily
+DISCUSSION
+Glyma09906260 AT5G41750 Disease resistance protein
+Glyma09906275 AT5G51630 Disease resistance protein
+Novel Loci Related to Pod Dehiscence
+Glyma09906290 AT2G18969 bHLH family transcriptionfactor
+Were Identified
+Glyma09g06300 AT4G25910 NFU domain protein
+The dehiscence of pods (shattering) prior to harvest is a major
+Glyma09g06310 AT5G57340 Ras guanine nucleotide exchange factor cause of yield loss in soybean production. Thus, it is extremely
+Q-like protein
+important to identify QTLs or genes related to pod dehiscence
+Glyma09g06320 AT3G62360 Catbohydrate-bindingilke fold
+and apply them to MAS. In this study, by using the association
+Glyma09906330 AT5G41540 Disease resistance protein
+panel which possessed abundant natural variations, GWAS was
+Glyma09906350 AT2G18980 Peroxidase superfamily protein
+performed to genotype 211 cultivated soybean accessions with
+Glyma09906365 AT1G62520 Sulfated surface-like glycoprotein
+high-quality SNP markers. We identified 163 SNPS. Of which,
+Glyma09906380 AT5G57330 Galactose mutarotase-like superfamily
+136 significant SNPS on chromosome 16 ranged from 29135922
+protein
+Glyma09906390 AT4G30160 Major actin filament bundling protein
+to 29865027 (r729 kb). These results were consistent with those
+Glyma09906410 AT1G71840 WD-40 repeat family protein
+of a previous study, which showed that the major QTL was
+located on chromosome 16 (Yamada et
+/
+Glyma09906431
+/
+al., 2009). Similarly,
+Glyma09g06450 AT1G17690 U3 small nucleolar RNA-associated protein a very large GWAS also confirmed that shattering in soybean
+Glyma09906460 AT3G20250 Arabidopsis Pumilio (APUM) protein
+is mainly due to genes located on chromosome 16 (Zhou
+Glyma09g06470 AT2G19080 Metaxin-like protein
+et al., 2015). Additionally, LD analysis exhibited tight linkage
+Glyma09906480 AT2G19090 DUF630 family protein
+among the 136 associated SNPS (Supplementary Figure S5).
+ATCG00905
+One of 136 SNP (AX-93853895) with the lowest P-value and
+Glyma09g06491
+/
+Glyma09906500
+/
+Chloroplast gene encoding ribosomal
+maximum R2 was in the intron of pdhl. Consequently, the
+protein s12
+formation of this SNP cluster on chromosome 16 may be
+Giyma09g06521 AT5G54780 Gypip superfamily protein
+due to the strong effect of pdhl. Moreover, the domestication
+gene related to pod dehiscence between cultivated and wild
+soybean, SHAT1-5, was not mapped in our GWAS results. Thus,
+were classified into four haplotype classes (Hap1-Hap4). Hap 1 the gene effect of SHAT1-5 is likely to be weak in cultivated
+(n == 24) is the largest group, and Hap2 (n == 13) is the second soybean accessions.
+largest group. Statistically, Hap2 had significantly higher PPD In addition, we also detected 25 significant SNPS except on
+than Hapl (Figures 6B,C). We then measured the expression chromosome 16 (Table 2). For example, on chromosome 8,
+of Glyma09g06290 in pods from 13 of 42 soybean accessions. one region contains 11 significant SNPS that were significantly
+The expression of this gene was positively correlated with pod associated with pod dehiscence, and this region is close to Pod
+dehiscence (r2 = 0.58, P < 0.05) (Supplementary Table S8). dehiscence 4-1; On chromosome 9, 2 SNPS were co-identified in
+Therefore, these results suggested that the expression of Env3 and Env5; there are one, one, three, one, three, three and
+Glyma09g06290 could partially explain the phenotypic variation one significant SNPS identified on chromosome 1, 4, 6, 11, 17,
+in pod dehiscence.
+18, and 20, respectively. These SNPS or regions may be the novel
+loci related to pod dehiscence. Overall, the SNPS identified in this
+Development of a Functional Marker for
+study are helpful to further understanding the genetic basis of
+soybean pod dehiscence.
+Glyma09906290
+In this study, five significant SNPs of Glyma09g06290 were Identification of Favorable Haplotypes
+identifiedandasociated with pod dehiscence (Figures 6A-C and
+Supplementary Figure S4). The S_-500-C exhibited significantly Related to Pod Dehiscence in Chinese
+lower values than S_-500-G; Indel_-230-0 exhibited significantly Soybean Germplasms
+lower values than Indel_-230-C; S_-128-C exhibited significantly Haplotype analysis of a candidate gene or peak SNPs have been
+lower values than S_-128-A; Indel_766-T exhibited significantly reported for soybean (Zhang et al., 2014), rice (Famoso et al.,
+lower values than Indel_766-0; S_767-T exhibited significantly 2011), and cotton (Su et al., 2018). For example, in cotton, four
+lower values than S_767-G (Figure 6B). Therefore, we developed peak SNPS located on chromosome DO3 were simultaneously
+Frontiers in Plant Science www.frontiersin.org
+9
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+A
+8
+Glyma09g06290
+22
+Glyma09906390
+20
+18
+6
+16.
+14.
+I 12-
+4
+X
+I
+10-
+I
+I 8-
+2
+6-
+0
+0
+Rool Siem Leat Piowes Polto Pod 150 pod 258 Pod 45d Seed
+Rool Stem Leal Powes Poi7o Parise parae Paies Seed
+B
+12
+Glyma09906290
+Glyma09906390
+10
+I
+L
+I
+I
+I
+-
+T
+I I
+
+L
+till
+c5 JNU 
+evol
+e
+caas a dd
+a ciol co xe - 
+*
+a
+e e àe TUAL PUANL PUAU à
+SIs em Sisice
+FIGURE 41 Expression patterns of Glyma09g06290 and Glyma09g06390 by quantitative real-time polymerase chain reaction. (A) The expression of the putative
+genes in different tissues; the expression in 7-day pods was used as a control (expression value = 1). (B) The expression in 15-day pods in varieties with high and
+low PPD. Error bar indicates the standard deviation. **Significant at 0.001 <P < 0.01, ** *significant atP < 0.001. Two tail t-test was used for statistical analysis.
+Medtr2g036670
+Phvul.009g238800
+Glyma09g06290
+Medtr4g127700
+Potri.018g090200
+At2g18969
+cep
+2000p
+socop
+socbp
+1z0cep
+Legend:
+CDS UTR Intron
+FIGURE51Phy/ogenetic and gene structure analysis of Glyma09906290 and other plant gene. Al NJ phylogenetic tree was constructed using full protein
+sequences. Numbers below branches indicate bootstrap value for 1,000 replicates; CDS, coding sequence; UTR, untranslated transcribed region.
+associated with four plant architecture component traits. The analyzed Chinese landraces possesses the pdhl allele (Funatsuki
+four peak SNPS revealed five haplotypes, and Hap2 was the et al., 2014). In this study, the 189 soybean accessions were
+most favorable haplotype. In our study, ten significant SNPS selected to represent all three ecological regions of soybean
+were associated with pod dehiscence in Envl-Env5 and BLUP. cultivation in China and soybeans with different pod dehiscence
+Haplotype analysis showed that the 10 SNPS could be found qualities. However, as more than 20,000 soybean accessions
+as six haplotypes (Hapl-Hap6). Hap2 and Hap3 had lower have been preserved (Wang et al., 2006), Hap2 or Hap3 could
+PPD than the other haplotypes, demonstrating that Hap2 and be used to discover other excellent soybean germplasms with
+Hap3 might be significant to breeding soybeans with lower resistance to pod dehiscence. In addition, two typical haplotypes
+PPD (Figure 3). According to the study, more than half of the (Hapl and Hap2) were used to analyze the geographical
+Frontiers in Plant Science www.frontiersin.org
+10
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+A
+Envl
+5
+B
+Haplotype S_-500 Indel_-230 S_-128 Indel_766 S_767 Number PPDISE
+Hapl C
+0
+C
+T
+T
+24 0.1040.04
+Env2
+Hap2 G C
+A
+0
+G
+13 0.5940.03
+5.
+Hap3 G 0
+C
+T
+T
+4 0.2710.15
+Hap4 G 0
+C
+T
+G
+1
+Env3
+C
+1.0
+5
+0.8.
+0.6
+0.4
+Env4
+0.2
+0
+Hapl
+Hap2
+D
+Env5
+M 1 2345678 9 10111213 14 15 16 17 18 19 20
+5
+166bp
+166bp
+150bp -
+143bp
+S_-500 Indel_-230 S_-128 Indel_766 S_767
+:
+FIGURE 61 MPolymorphisms in Glyma09g06290 are significantly associated with pod dehiscence. (A) Gyma09g06290-based association mapping and pairwise LD
+analysis. Blue dots represent significant variants (Tassel 5.0, GLM model, P < 0.01). (B) Haplotypes of Glyma09g06290 among 42 soybean accessions; Oindicates
+al base deletion. (C) Comparison of PPD between haplotypes Hap1 and Hap2. (D) Products of digestion by gel electrophoresis; M: marker, 50 bp DNA ladder
+(Tiangen, Beijing, China); 1-10: high-PPD varieties NJAU_C008, NJAU_CO14, NJAU_C088, NJAU_C101, NJAU_C121, NJAU_C137, NJAU_C160, NJAU_C180
+NJAU_C181, and NJAU_C190. Digested products with size of 166 and 143bp, 23 bp was not observed because of its small molecular weight; 11-20: low-PPD
+varieties, NJAU_C054, NJAU_C076, NJAU_C080, NJAU_C082, NJAU_C085, NJAU_C098, NJAU_C165, NJAU_C172, NJAU_C201, and INJAU_C216. Undigested
+product with size of 166 bp. ***Significant at P < 0.001. Two tail t-test was used for statistical analysis. SE, standard error.
+distribution of Chinese soybean landraces. We found that the (Ballester and Ferrandiz, 2017). For example, two members of
+favorable haplotype (Hap2) was mostly observed in the HR the MADS-box transcription factor family, SHATTERPROOFI
+and SR. Taken together, the above results could facilitate the (SHP1) and SHATTERPROOF2 (SHP2), act redundantly to
+development of molecular markers for the breeding of soybean control silique dehiscence (Liljegren et al., 2000). FRUITFULL
+accessions with lower PPD.
+(FUL), which also belongs to the MADS-box family, negatively
+regulates SHP1/2 expression (Ferrandiz et al., 2000). Moreover,
+two bHLH transcription factors, INDEHISCENT (IND) and
+Identification of Candidate Genes for
+ALCATRAZ (ALC), act downstream of SHP1/2 (Dong and
+Pod Dehiscence in Soybean
+Wang, 2015). Briefly, the four genes SHP1, SHP2, IND, and
+Transcription factors play an important role in controlling pod ALC are expressed at the valve margin to direct dehiscence
+dehiscence. The genetic network directing the morphogenesis zone formation. In soybean, the pod-dehiscence-related gene
+of the dehiscence zone in Arabidopsis fruit has been identified SHAT1-5 also encodes a NAC transcription factor. Interestingly,
+Frontiers in Plant Science www.frontiersin.org
+11
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+previously identified genes that related to pod dehiscence or fruit CONCLUSION
+shedding are homologous to those involved in seed shattering
+in Arabidopsis thaliana. However, Rau et al. (2019) identified a In this study, 163 SNPS were identified using GWAS across
+QTL, qPD5.1-Pv, represents a novel locus for the shattering trait multiple environments. In addition, favorable SNPS and
+in common bean (Rau et al., 2019).
+six haplotypes relevant to pod dehiscence were identified.
+In this study, on chromosome 9, two SNPS (AX-94059226 Furthermore, based on GWAS results, we identified a candidate
+and AX-93762822) were observed under the threshold of gene Glyma09g06290. Expression patterns and allelic variation
+FDR < 0.05 in two environments (Env3 and Env5) (Table 2 showed that Glyma09g06290 was associated with the pod
+and Supplementary Table S4). Moreover, we noticed that dehiscence. Additionally, we also developed a functional marker
+the SNP AX-93762848 was close to AX-94059226 and AX- in Glyma09g06290 for pod dehiscence in soybean, which may
+93762822, which were observed in one environment with the be useful for the breeders. Overall, these results would provide
+FDR value < 0.05 (Supplementary Table S4). Based on these insights for molecular-assisted breeding strategies for resistance
+SNPS, we identified a candidate gene, Glyma09g06290, which is to pod dehiscence in soybean.
+located in the 130kb flanking region of two repeatedly observed
+SNPS, and the expression of Glyma09g06290 was significantly
+increased in later pod growth stages. Furthermore, different DATA AVAILABILITY
+expression patterns of Glyma09g06290 were found in soybean
+varieties with high and low PPD (Figure 4). Then we sequenced Publicly available datasets were analyzed in this study. This data
+the Glyma09g06290 gene in a subset of 20 accessions with can be found here: htpl/www.soybase.orgl.
+high PPD and 22 accessions with low PPD. Five SNPS were
+identified and used to analyze haplotypes, and the haplotype
+analysis showed that various haplotypes of the putative gene AUTHOR CONTRIBUTIONS
+display variation in pod dehiscence (Figure 6). However, the
+biological functions of this gene should be further investigated. DY and FH designed the study. DHu, XL, and GK conducted
+In summary, Glyma09g06290 might be a putative gene involved the GWAS. DHu, DHao, WH, ZY, and XH carried out the
+in pod dehiscence in soybean.
+field experiments. XL, HY, and YL carried out the qRT-PCR
+In addition, the GWAS results revealed that 25 significant analysis. DHu wrote the manuscript. All authors approved the
+SNPS were identified in only one environment except for final version ofthe manuscript.
+the SNPS on chromosome 16 (Table 2). However, eleven
+of them were consecutively distributed on chromosome 8,
+showed significant marker-trait association, with FDR as low FUNDING
+as 3.23 X 10- 03 (P-values = 7.83 X 10-0 07 ), and were close
+to Pod Dehiscence 4-1 (Yamada et al., 2009) (Supplementary This work was supported partly by the Ministry of Science
+Table S4). Interestingly, among these eleven SNPS, seven and Technology (2017YFE0111000), the Key Transgenic
+SNPS were detected within the region of Glyma08g42110 (one Breeding Program of China (2016ZX08009003-004), and the
+of them was detected within the exon). In addition, the National Natural Science Foundation of China (31571688,
+Glyma08g42110 is homologous to ATGSLO7, which encodes 31671715, and 31771821).
+callose synthase 7 (CalS7), a phloem-specific callose synthase
+responsible for callose deposition in developing sieve elements
+during phloem formation. ATGSLO7 mutant plants exhibited SUPPLEMENTARY MATERIAL
+moderate reduction in seedling height and produced aberrant
+pollen grains and short siliques with aborted embryos in The Supplementary Material for this article can be found online
+A. thaliana (Xie et al., 2011). Our further work will also focus on at: htps/www.frontiersin.orgartide/103887fp12019.00811
+the biological functions ofthis gene.
+hillsuplmentagy-material
+REFERENCES
+Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y., and
+Buckler, E. S. (2007). TASSEL: software for association mapping of complex
+Bailey, M. A., Mian, M. A. R., Carter, T.E., Ashley,D. A., and Boerma, H. R. (1997). traits in diverse samples. Bioinformatics 23, 2633-2635.
+Pod dehiscence of soybean: identification of quantitative trait loci. J. Heredity Caviness, CE(1969).Heritability ofpod Idehiscenceandits: association with some
+88, 152-154. doi: 103389/(pl.201601852
+agronomic characters in soybeans 1.Crop Sci. 9, 207-209.
+Ballester, P., and Ferrandiz, C. (2017). Shattering fruits: variations on a dehiscent Chu, S., Wang, J, Zhu, Y., Liu, S., Zhou, X., Zhang, H., et al. (2017). An R2R3-
+theme. Curr. Opin. Plant Biol. 35, 68-75. doi: 10.1016/,pb1201611.008
+type MYB transcription factor, GmMYB29, regulates isoflavone biosynthesis in
+Barrett, J. C., Fry, B., Maller, J., and Daly, M. J. (2005). Haploview: analysis and soybean. PLOS Genet. 13:e1006770. doi: 10.371joumalpgen.10070
+visualization of LD and haplotype maps. Bioinformatics 21, 263-265. doi: 10. Dong, Y., and Wang, Y. Z. (2015). Seed shattering: from models to crops. Front.
+109/bioinformaticxbih4s7
+Plant Sci. 6:476. doi: 103389/pls2015.00476
+Benjamini, Y., and Hochberg, Y. (1995). Controlling the false discovery rate: a Dong, Y., Yang, X., Liu, J., Wang, B. H., Liu, B. L., and Wang, Y. Z. (2014). Pod
+practical and powerful approach to multiple testing. J. R. Stat. Soc. Ser. B shattering resistance associated with domestication is mediated byal NAC gene
+Methodol. 57, 289-300.
+in soybean. Nat. Commun. 5:3352. doi: 10.1038/ncomms4352
+Frontiers in Plant Science www.frontiersin.org
+12
+June 20191Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+Falush, D., Stephens, M., and Pritchard, J. K. (2003). Inference of population Liljegren, S.J., Roeder, A.H.I K., Kempin, S. A., Gremski, K., Ostergaard,L, Guimil,
+structure using multilocus genotype data: linked loci and correlated allele S., et al. (2004). Control offruit patterning in Arabidopsis by INDEHISCENT.
+frequencies. Genetics 164, 1567-1587.
+Cell 116, 843-853.
+Famoso, A. N., Zhao, K., Clark, R. T.,Tung, C. W., Wright, M. H., Bustamante, C., Liu, B., Fujita, T., Yan, Z. H., Sakamoto, S., Xu, D., and Abe, J. (2007). QTL
+et al. (2011). Genetic architecture of faluminum tolerance in rice (Oryza sativa) mapping of domestication-related traits in soybean (Glycine max). Ann. Bot.
+determinedthrough genome-wide association analysis andQTLmapping. PLOS 100, 1027-1038.
+Genet. 7:e1002221. doi: 101371jguralpge.0221
+Livak, K. J., and Schmittgen, T. D. (2001). Analysis of relative gene expression
+Ferrandiz, C., Liljegren, S. J., and Yanofsky, M. F. (2000). Negative regulation data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method.
+of the SHATTERPROOF genes by FRUITFULL during Arabidopsis fruit Methods 25, 402-408.
+development. Science 289, 436-438.
+Lo, S., Munoz-Amatriain, M., Boukar, O., Herniter, I, Cisse, N., Guo, Y.-N., et al.
+Fourquin, C., Cerro, C.D.,Victoria,F.D. C., Vialetteguiraud, A., De Oliveira,A.C., Q0is.LdentifiationofQTL controlling domestication-related traits in cowpea
+and Ferrandiz, C. (2013). A change in SHATTERPROOF protein lies at the (Vigna unguiculata L Walp).Sci. Rep. 8:6261. doi: 10.10841598018243494
+origin ofa fruit morphological novelty and a new strategy for seed dispersal Merk, H. L., Yarnes, S. C., Deynze, V., Tong, N., Menda, N., Mueller, L. A., etal.
+in Medicago genus. Plant Physiol. 162, 907-917. doi: 10.1104/p.113.217570
+(2012). Trait diversity and potential for selection indices based on variation
+Funatsuki, H., Ishimoto, M., Tsuji, H., Kawaguchi, K., Hajika, M., and Fujino, K. among regionally adapted processing tomato germplasm. Autism Res. 137,
+(2006). Simple sequence repeat markers linked to a major QTLcontrolling pod 427-437.
+shattering in soybean. Plant Breed. 125, 195-197.
+Pritchard, J. K., Stephens, M., and Donnelly, P. (2000). Inference of population
+Funatsuki, H., Suzuki, M., Hirose, A., Inaba, H., Yamada, T., Hajika, M., et al. structure using multilocus genotype data. Genetics 155, 945-959.
+(2014). Molecular basis ofa shattering resistancet boostingg global dissemination Rajani, S., and Sundaresan, V. (2001). The Arabidopsis myc/bHLH gene
+of soybean. Proc. Natl. Acad. Sci. U.S.A. 111:17797. doi: 10.1073/pnas. ALCATRAZ enables cell separation in fruit dehiscence. Curr. Biol. 11, 1914-
+1417282111
+1922.
+Guang-yu, G., Rui, S., Meng, H., Yong-xin, G., Da-wei, X., Hong-wei, J, et al. Rau, D., Murgia, M. L., Rodriguez, M., Bitocchi, E., Bellucci, E., Fois, D., et al.
+(2011). Quantitative trait locus (QTL) analysis of pod related traits in different (2019). Genomic dissection of pod shattering in common bean: mutations at
+environments in soybean. Afr. J. Biotechnol. 10, 11848-11854.
+non-orthologous loci at the basis of convergent phenotypic evolution under
+Hao, D., Cheng, H., Yin, Z., Cui, S., Zhang, D., Wang, H., et al. (2012). domestication of leguminous species. Plant J. 97, 693-714. doi: 10.1111/tpj.
+Identification of single nucleotide polymorphisms and haplotypes associated 14155
+with yield and yield components in soybean (Glycine max) landraces across Shin, J.-H., Blay, S., McNeney, B., and Graham, J. (2006). LDheatmap: an R
+multiple environments. Theor. Appl. Genet. 124, 447-458. doi: 10.1007/s00122- function for graphical display of pairwise linkage disequilibria between single
+011-1719-0
+nucleotide polymorphisms.J. Stat. Softw. 16, 1-10. doi: 10.18637/j55v016c03
+Hu, W. (2017). Linkage Analysis and Association Analysis of Pod Shattering and Shirasawa, K., Fukuoka, H., Matsunaga, H., Kobayashi, Y,Kobayahi.L.Hirakawa,
+Yield Related Factors in Soybean. Dissertation, Nanjing Agricultural university, H., et al. (2013). Genome-wide association studies using single nucleotide
+Nanjing.
+polymorphism markers developed by re-sequencing of the genomes of
+Huang, X., Wei, X., Sang, T., Zhao, Q, Feng, Q, Zhao, Y., et al. (2010). Genome- cultivated tomato. DNA Res. 20, 593-603. doi: 10.1093/dnares/dst033
+wide association studies of 14 agronomic traits in rice landraces. Nat. Genet. Su,J., Li, L., Zhang, C., Wang, C., Gu, L., Wang, H., et al. (2018). Genome-wide
+42:961. doi: 10.1038/ng.695
+association study identified genetic variations and candidate genes for plant
+Jeanmougin, F., Thompson, J. D., Gouy, M., Higgins, D. G., and Gibson, T. J. architecture component traits in Chinese upland cotton. Theor. Appl. Genet.
+(1998). Multiple sequence alignment with Clustal X. Trends Biochem. Sci. 23, 131,1299-1314. doi: 10/00760012-018-3079-5
+403-405.
+Suanum, W., Somta, P., Kongjaimun, A., Yimram, T., Kaga, A., Tomooka, N.,etal.
+Ju, S. L., Kim, K. R., Ha, B. K., and Kang, S. (2017). Identification ofSNPS tightly (2016). Co-localization of QTLS for pod fiber content and pod shattering in F2
+linked to the QTLfor pod shattering in soybean. Mol. Breed. 37:54.
+andbadcrospopulationst between yardlong bean andwild cowpea. Mol. Breed.
+Kalladan, R,Lasky,J.R, Chang, T.Z., Sharma, S., Juenger, T. E., and Verslues, P.E. 36:80.
+(2017). Natural variation identifies genes affecting drought-induced abscisic Suzuki, M., Fujino, K., Nakamoto, Y., Ishimoto, M., and Funatsuki, H. (2010). Fine
+acid accumulation in Arabidopsis thaliana. Proc. Natl. Acad. Sci. U.S.A. 114, mapping and development of DNA markers for the qPDH1 locus associated
+11536-11541. doi: 10.1073/pnas1705884114
+with pod dehiscence in soybean. Mol. Breed. 25, 407-418.
+Kang, S. T., Hyeunkyeung, K., Inyoul, B., Mounggun, C., Han, W. Y., Doochull, Tian, Z., Wang, X., Lee, R., Li, Y., Specht,J. E., Nelson, R. L., etal. (2010). Artificial
+S., et al. (2005). Genetic analysis of pod dehiscence in soybean. Kor. J. Crop. 50, selection for determinate growth habit in soybean. Proc. Natl. Acad. Sci. U.S.A.
+281-285.
+107,8563-8568.
+Kang, S. T., Kwak, M., Kim, H. K., Choung, M. G., Han, W. Y., Baek, I. Y., et al. Tsuchiya, T. (1986). Studies on shattering resistance in soybean breeding.
+(2009). Population-specific QTLS and their different epistatic interactions for Rep. Hokkaido. Prefect. Agric. Exp. Stn 58, 1-53. doi: 10.1270/jsbbs.
+pod dehiscence in soybean [Glycine max (L.) Merr.). Euphytica 166, 15-24.
+61.554
+Kobayashi, Y., Sadhukhan, A., Tazib, T., Nakano, Y., Kusunoki, K., Kamara, M., Tsuchiya, T. (1987). Physiological and genetic analysis of pod shattering in
+et al. (2016). Joint genetic and network analyses identify loci associated with soybeans. JARQ 21, 166-175.
+root growth under NaCl stress in Arabidopsis thaliana. Plant Cell Environ. 39, Turner,S.D. (2014). qqman:an Rpackage for visualizing GWAS results usingQ-Q
+918-934. doi: 10.1111/pce.12691
+and manhattan plots. Biorxiv
+Koinange, E. M. K., Singh, S. P., and Gepts, P. (1996). Genetic control of the Vittori, V. D., Gioia, T., Rodriguez, M., Bellucci, E., Bitocchi, E., Nanni, L., et al.
+domestication syndrome in common bean. Crop Sci. 36, 1037-1045.
+(2019). Convergent evolution of the seed shattering trait. Genes 10:68.
+Konishi, S., Izawa, T., Lin, S., Ebana, K., Fukuta, Y., Sasaki, T., et al. (2006). An Wang, J., Chu, S., Zhang, H., Zhu, Y., Cheng, H., and Yu, D. (2016). Development
+SNP caused loss of seed shattering during rice domestication. Science 312, and application of a novel genome-wide SNP array reveals domestication
+1392-1396.
+history in soybean.Sci. Rep. 6:20728. doi: 10.1038/srep20728
+Korte, A., and Farlow, A. (2013). The advantages and limitations of trait analysis Wang, X., Wang, H., Liu, S., Ferjani, A., Li,J., Yan, J,etal. (2016). Genetic variation
+with GWAS: a review. Plant Methods 9:29. doi: 101186/1746-4811-9-29
+in ZmVPP1 contributes to drought tolerance in maize seedlings. Nat. Genet.
+Kump, K. L., Bradbury, P. J., Wisser, R. J., Buckler, E. S., Belcher, A. R., 48:1233. doi: 10.1038/ng.3636
+Oropezarosas, M. A., et al. (2011). Genome-wide association study of Wang, L., Guan, Y., Guan, R., Li, Y., Ma, Y., Dong, Z., etal. (2006). Establishment
+quantitative resistance to southern leaf blight in the maize nested association ofChinese soybean Glycine maxcore collections with agronomic traitsand SSR
+mapping population. Nat. Genet. 43:163. doi: 10.1038/ng.747
+markers. Euphytica 151, 215-223.
+Liljegren,S.J., Ditta, G.S., Eshed, Y.,Savidge, B.Bowman,J.L,and Yanofsky,M.F. Xie, B., Wang, X., Zhu, M., Zhang, Z., andHong, Z. (2011). Cals7 encodesacallose
+(2000). Shatterproof MADS-box genes control seed dispersal in Arabidopsis. synthase responsible for callose deposition in the phloem. PlantJ.Celli Mol. Biol.
+Nature 404, 766-770.
+65, 1-14. doi: 101193631X3010094
+Frontiers in Plant Science www.frontiersin.org
+13
+June 20191 Volume 101Article 811
+
+
+
+Hu et al.
+GWAS for Pod Dehiscence in Soybean
+Yamada, T., Funatsuki, H., Hagihara, S., Fujita, S., Tanaka, Y., Tsuji, H., et al. factor shattering abortionl. Plant Cell 24, 1034-1048. doi: 10.1105/tpc.111.
+(2009). A major QTL, qPDH1, is commonly involved in shattering resistance 094383
+ofsoybean cultivars. Breed. Sci. 59,435-440.
+Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., et al. (2015).
+Yano, K., Yamamoto, E., Aya, K., Takeuchi, H., Lo, P. C., Hu, L., et al. (2016). Resequencing 302 wild and cultivated accessions identifies genes related
+Genome-wide association study using whole-genome sequencing rapidly to domestication and improvement in soybean. Nat. Biotechnol. 34,
+identifies new genes influencing agronomic traits in rice. Nat. Genet. 48:927. 441-441.
+doi: 10.1038/ng.3596
+Zhang, D., Song, H., Cheng, H., Hao, D., Wang, H., Kan, G., et al. (2014). The Conflict of Interest Statement: The authors declare that the research was
+acid phosphatase-encoding gene GmACP1 contributes to soybean tolerance conducted in the absence of fany commercial or financial relationships that could
+to low-phosphorus stress. PLOS Genet. 10:e1004061. doi: 10.1371/journal.pgen. be construed asap potential conflict of interest.
+1004061
+Zhang, J, Wang, X., Lu, Y., Bhusal, S. J, Song, Q, Cregan, P. B., Copyright 0 2019 Hu, Kan, Hu, Li, Hao, Li, Yang Yang He, Huang and Yu.
+et al. (2018). Genome-wide scan for seed composition provides This is an open-access article distributed under the terms of the Creative Commons
+insights into soybean quality improvement and the impacts of Attribution License (CC BY). The use, distribution or reproduction in other forums
+domestication and breeding. Mol. Plant 11:460. doi: 10.1016/jimolp.2017. is permitted, provided the original author(s) and the copyright owner(s) are credited
+12.016
+and that the original publication in thisjournal is cited, in accordance with accepted
+Zhou, Y., Lu, D., Li, C., Luo, J., Zhu, B., Zhu, J., et al. (2012). Genetic academic practice. No use, distribution or reproduction is permitted which does not
+Control of seed shattering in rice by the APETALA2 transcription comply with these terms.
+Frontiers in Plant Science www.frontiersin.org
+14
+June 20191 Volume 101Article 811

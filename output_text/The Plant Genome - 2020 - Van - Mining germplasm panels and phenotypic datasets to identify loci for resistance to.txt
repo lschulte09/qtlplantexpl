@@ -1,0 +1,1750 @@
+Received: 12June 2020 Accepted: 5September 2020
+DOI: 10.1002/tpg2.20063
+The Plant Genome m0
+ORIGINAL RESEARCH
+Mining germplasm panels and phenotypic datasets to
+identify loci for resistance to Phytophthora sojae in soybean
+Kyujung Van'o I William Rolling?O I Ruslan M. Biyashev3 I
+Rashelle L. Matthiesen* I Nilwala S. Abeysekara I Alison E. Robertson*0 I
+Deloris J. Veneys I Anne E. Dorrance2.5,6 D I Leah K. McHale12,6 (D I -
+M. A. Saghai Maroof D
+'Department of Horticulture and Crop
+Science, Ohio State University, Columbus, Abstract
+OH43210, USA
+Phytophthora sojae causes Phytophthora root and stem rot of soybean and has
+2 Center for Applied Plant Sciences, Ohio
+been primarily managed through deployment ofqualitative Resistance to P. sojae
+State University, Columbus, OH 43210,
+genes (Rps genes). The effectiveness of each individual or combination of
+USA
+Rps
+3School of Plant and Environmental
+gene(s) depends on the diversity and pathotypes of the P. sojae populations
+Sciences, Virginia Tech, Blacksburg, VA
+present. Due to the complexnature ofP. sojae populations, identification ofmore
+24061, USA
+novel Rpsgenes is needed. In this study,phenotypic data from previous studiesof
+4Department of Plant Pathology and
+16 panels of plant introductions (PIS) were analyzed. Panels 1 and 2 consisted of
+Microbiology, Iowa State University,
+Ames, IA 50011, USA
+448 Glycine maxand 520 G. soja, which had been evaluated for Rps gene response
+SDepartment of Plant Pathology, Ohio
+with a combination of P. sojae isolates. Panels 3 and 4 consisted of 429 and 460
+State University, Wooster, OH 44691, USA G. max PIs, respectively, which had been evaluated using individual P. sojae iso-
+6 Center for Soybean Research, Ohio State lates with complex virulence pathotypes. Finally, Panels 5-16 (376 G. max PIs)
+University, Wooster, OH 44691, USA
+consisted of data deposited in the USDA Soybean Germplasm Collection from
+Correspondence
+evaluations with 12 races of P. sojae. Using these panels, genome-wide associa-
+M.A. SephuiNkaner.Sahesladhantiad
+tion (GWA) analyses were carried lout by combining phenotypic and SoySNP50K
+EnvironmentalSciences, VirginiaTech,
+Blacksburg, VA24061, USA.
+genotypic data. GWA models identified two, two, six, and seven novel Rps loci
+Email-smarof@vt.edu
+with Panels 1, 2, 3, and 4, respectively. A total of 58 novel Rps loci were identified
+W. Rolling, currentaddress: Vegetable
+using Panels 5-16. Genetic and phenotypic dissection of these loci may lead to
+Crop Unit, USDA-ARS, Madison, WI
+the characterization ofnovel Rps genes that can be effectively deployed in new
+53706, USA
+soybean cultivars against diverse P. sojae populations.
+Fundinginformation
+Virginia Soybean Board; NationalInstitute
+ofFoodandAgriculture,UnitedSoybean
+Board; Iowa Soybean Association
+Abbreviations: Chr, Chromosome; CMLM, compressed mixed linear model; FarmCPU, Fixed and random model Circulating Probability
+Unification; GRIN, Germplasm Resources Information Network; GWA, Genome-wide association; LD, linkage disequilibrium; MLMM, multi-locus
+mixed model; NLR, nucleotide-binding, leucine-rich repeat; PIs, plant introductions; QDR, quantitative disease resistance; QTL, quantitative trait
+locus; SCN, soybean cyst nematode; SDS, soybean sudden death syndrome; SNP, single nucleotide polymorphism.
+This isan open access article under the terms ofthe Creative Commons Attribution-NonCommercial-NoDerivs License, which permits suse and distribution in any medium,
+provided the original work is properly cited, the use is non-commercial and no modifications or adaptations sare made.
+0 2020 The Authors. The Plant Genome published by Wiley Periodicals LLC on behalfofCrop Science Society of America
+Plant Genome. 2021;14:e20063.
+wlgelin@lbragaumjpumatee 1of19
+hepl/oslognoiwultp2.g
+
+
+
+20f19 The Plant Genome E0
+VAN ET AL.
+1 I INTRODUCTION
+used in combination with Rps genes to manage P. sojae,
+breeders have primarily focused lon Rpsgenes, likely due to
+Phytophthora sojae, a soil-borne pathogen, causes Phy- the relative ease ofintrogression of single, dominant genes
+tophthora root and stem rot of soybean [Glycine max (L.) (Dorrance, Berry, Bowen, & Lipps, 2004; Mideros, Nita, &
+Merr.], one ofthe major diseases that affects soybean yield Dorrance, 2007; Tooley & Grau, 1984). Thus, though there
+world-wide (Barreto, Stegman de Garfinkel, & Fortugno, are still losses in high disease environments, identification
+1995; Costamilan et al., 2013; Cui et al., 2010; Dorrance, of more novel Rps genes will help to broaden resistance
+2018a; Kang et al., 2019; Qin et al., 2017; Ryley, Obst, against P. sojae.
+Irwin, & Drenth, 1998; Sans, Rodriguez, Silva, & Stew-
+Linkage mapping has been the primary method to iden-
+art, 2017; Sugimoto et al., 2006; Xue et al., 2015; Yang tify and locate Rps genes. Demirbas et al. (2001)identified
+et al., 2019; S. Zhang et al., 2010). Phytophthora root and simple sequence repeat markers linked to Rpsl through
+stem rot can cause 100% loss on highly susceptible culti- Rps6 genes (ten Rps alleles: Rps1, Rpslb, Rpslc, Rpsld,
+vars when poorly drained fields are combined with abun- Rpslk, Rps2, Rps3, Rps4, Rps5, and Rps6) using eleven
+dant rainfall and warm soil temperatures (Dorrance et al., parentalnear-isogenic lines. Rpsla and Rps7 were mapped
+2009; Matthiesen et al., 2016; Robertson, Cianzio, Cerra, & on Chr 3 with an F2 population derived from a cross
+Pope, 2009).
+between OX281 and Mukden (Weng, Yu, Anderson, &
+Resistant soybean cultivars with single qualitative resis- Poysa, 2001). Also, F2:3 families derived from bi-parental
+tance genes (Rps genes) have been the most effective crosses were used for mapping Rps8 on Chr 13 (Gordon
+method for managing P. sojae, but the rise in pathotype et al., 2006), Rps9 on Chr 3 (Wu et al., 2011a), and Rps10
+diversity has made utilizing single Rps genes less effec- on Chr 17 (Zhang et al., 2013a). This same approach was
+tive in many regions (Anderson, Walch, & Kurle, 2012; used to map Rps genes, Rpsll on Chr 7, Rps12 on Chr 18,
+Costamilan et al., 2013; Dorrance et al., 2016; Grau, Dor- RpsHC18 on Chr 3, RpsZS18 on Chr 2, RpsUN1 on Chr 3,
+rance, Russin, & Bond, 2004; Kaitany, Hart, & Safir, 2001; and RpsUN2 on Chr 16, from sources of resistance of plant
+Ryley et al., 1998; Schmitthenner, Hobe, & Bhat, 1994; introductions (PIs) and Chinese soybean cultivars(Lietal.,
+Stewart, Abeysekara, & Robertson, 2014; Yan & Nelson, 2016; Lin et al., 2013; Ping et al., 2016; Sahoo et al., 2017;
+2019). Along with the recently identifiedRps genes, RpsGZ Zhang et al., 2013a, 2013b; Zhong et al., 2018b; Zhong, Sun,
+and RpsX (Jiang et al., 2020; Zhong, Li, Sun, Duan, & Li, Duan, & Zhu, 2018a).
+Zhu, 2019), more than 30 Rps genes/alleles have been
+Association mapping was also usedtoidentify Rps genes
+proposed and mapped to nine chromosomes (Anderson within natural germplasm panels based on the correla-
+& Buzzell, 1992; Athow & Laviolette, 1982; Athow, Lavi- tion between genetic markers and resistance response. A
+olette, & Mueller, 1980; Buzzell & Anderson, 1981, 1992; total of14 SNPS were associated with resistance towards P.
+Dorrance, 2018b; Gordon, St. Martin, & Dorrance, 2006; sojae through the screening of a soybean mini-core collec-
+Kilen, Hartwig, & Keeling, 1974; Lin et al., 2013; Ping tion of 224 Chinese germplasms with 1,645 SNP markers
+et al., 2016; Ploper, Athow, & Laviolette, 1985; Sahoo, Abey- and eleven P. sojae isolates (Huang et al., 2016). Qin et al.
+sekara, Cianzio, Robertson, & Bhattacharyya, 2017; Sugi- (2017) carried out genome-wide association (GWA) map-
+moto et al., 2012; Sun et al., 2011, 2014; Wu et al., 2011a; Yu ping using race-specific phenotypic data, publicly avail-
+et al., 2010; Zhang et al., 2013a, 2013b; Zhu, Huo, Wang, able from USDA GRIN (http://www.ars-grin.gov/cgi-bin)
+Huang, & Wu, 2007), with many located on chromosome npgs/html/croppl?51, in a diverse soybean germplasm
+(Chr) 3 (Supplemental Table S1). Although more than 30 panel of PIs from maturity groups IV and V, originating
+Rps genes/alleles have been identified, only a few, Rpsla, from 10 countries. Across more than 30,000 SNPS, this
+Rpslb, Rpslc, Rpslk, Rps3a, and Rps6, have been deployed study detected 32 SNPS significantly associated with P.
+in soybean cultivars (Abney et al., 1997; Dorrance, 2018b; sojae resistance from the disease response data from P.
+Grau et al., 2004; Slaminko, Bowen, & Hartman, 2010). sojae races 1, 3,7,17, and 25.
+These deployed genes/alleles represent those that were
+The objective ofour study was to identify novel Rps alle-
+more effective towards the P. sojae populations at the time les suitable for the development of new soybean cultivars
+(Dorrance, 2018b; Ping et al., 2016). Because ofhigh patho- with Phytophthora resistance by using various sources of
+typic and genetic diversity as well as rapid adaptation ofP. P. sojae isolates and soybean PIs. We applied three strate-
+sojae (Arsenault-Labrecque et al., 2018; Costamilan et al., gies to identify novel and previously known Rps genes
+2013; Dorrance et al., 2016; Matthiesen et al., 2016; Robert- via GWA analyses. First, we used 448 G. max and 520 G.
+son et al., 2009; Stewart et al., 2014; Sugimoto et al., 2012; soja, known as a good source for genetic improvement in
+Yang et al., 2019), Rps genes have a limited life span of 8 cultivated soybean (Hyten et al., 2006), accessions eval-
+to 20 years (Grau et al., 2004). While quantitative disease uated with a pool of three P. sojae isolates (Matthiesen
+resistance(QDR)includingpartial resistance has also been et al., 2016). Secondly, we used two panels of 429 and
+RIGHTSLIN Ko
+
+
+
+VAN ET AL.
+The Plant Genome m0 30f19
+460 G. max PIs, examined with two highly virulent P.
+sojae isolates, respectively (Rolling, Schneider, Dorrance,
+Core Ideas
+& McHale, 2020). Finally, we collected publicly available
+data from USDA GRIN on the resistance phenotypes of G.
+Sixteen soybean panels were used to identify
+max accessions against twelve races of P. sojae (Dorrance
+novel Rps genes against P. sojae.
+& Schmitthenner, 2000; Kyle, Nickell, Nelson, & Peder-
+Panels each comprised of 109 to 520 PIs for a
+sen, 1998; Lohnes, Nickell, & Schmitthenner, 1996). These
+total of 1,813 PIs were screened.
+phenotypic data were each combined with genotypic data
+Data from a total of 4,302 disease reactions were
+from the SoySNP50K iSelect BeadChip and three ana-
+used in GWA analyses.
+lytic methods, compressed mixed linear model (CMLM),
+GWA analyses identified a total of 75 novel Rps
+multi-locus mixed model (MLMM), and Fixed and ran-
+loci from the 16 soybean panels.
+dom model Circulating Probability Unification (Farm-
+CPU), were utilized to identify Rps loci (genes and QTL).
+In this study, a total of 75 new Rps loci were identified for
+P. sojae resistance among 16 panels comprised of a total of
+In addition to the four soybean panels, we utilized data
+1,813 PIs.
+previously deposited in the USDA GRIN database (Dor-
+rance & Schmitthenner, 2000) for 376 G. max accessions
+with resistance to 12 P. sojae races which differed from
+2 I MATERIALS AND METHODS
+those used for Panels 1to 4 (Table 1). This provided 12 addi-
+tional soybean panels, each assayed with one ofthe follow-
+2.1 I Plant materials and phenotypic
+ing races: 1, 3, 4,5,7,10, 12, 17, 20, 25, 30T, and 31 (Table 1).
+evaluations
+Similar to the Panels 3 and 4, susceptible/resistant was
+assigned as "0" or "1", respectively, for analyzing pheno-
+A total of 1,813 PIs comprised of sixteen soybean typic data with three GWA models.
+germplasm panels were evaluated in this study (Table 1).
+Some accessions were included in multiple panels result-
+ing in a total dataset of 4,302 disease reactions. The first 2.2 I Genotypic data and linkage
+two panels were described in Matthiesen et al. (2016). disequilibrium (LD) block establishment
+Briefly, 448 G. max (Panel 1) and 520 G. soja (Panel 2)
+accessions from USDA GRIN were selected for screening Publicly available SNP marker data (https.//soybase.org
+P. sojae reaction with pooled inoculum from a combina- snps/) of all PIs was obtained from the Soy50K SNPs
+tion of three isolates of P. sojae: PT2004 C2.S1 (pathotype data repository (Song et al., 2013, 2015). We followed the
+la, lb, 1c, 1d, 1k, 2, 3c, 4, 6, 7, 8), R7-2a (pathotype 1d, same criteria for filtering SNPS as Lee et al. (2019), briefly
+2, 3a, 5, 6, 7), and 1005-2.9 (pathotype la, 1b, 1c, 1k, 3b, described as: i) removing SNPS due to monomorphism or
+7) (Supplemental Table S2). The level of resistance of low minor allele frequency (< 0.05), ii) eliminating addi-
+the Panel 1 and Panel 2 accessions to the pooled P. sojae tional SNPS due to higher than 10% of missing genotypes
+inoculum was assessed as a percentage of dead plants in (i.e., undefined genotypes) or undetermined chromosomal
+a hypocotyl assay tested in the greenhouse (Matthiesen position and ii) imputing by TASSEL 5.0 software (Brad-
+et al., 2016) and the percentages of dead plants were used bury et al., 2007) with LD k-nearest neighbors imputation
+as phenotypic data for GWA analyses (Supplemental option (Money et al., 2015). After filtering, the totalnumber
+Table S3).
+ofSNPs used for each GWA was dependent on the specific
+Panels 3 and 4 were comprised of 429 and 460 PIs germplasm panel and each P. sojae isolate (Supplemental
+from USDA GRIN, respectively. The groups were respec- Table S4).
+tively inoculated with one of two highly complex isolates,
+Haploview 4.2 (Barrett, Fry, Maller, & Daly, 2005) was
+OH.12108.6.3 (OH.121) from Ohio (vir. la, 1b, 1d, 1k, 2, 3a, used to determine haplotype blocks by the four-gamete
+3c, 4, 5,6, 7, 8) and PT2004 C2.S1 (vir. la, 1b, 1c, 1d, 1k, 2, method (Wang, Akey, Zhang, Chakraborty, & Jin, 2002)
+3a, 3c, 4, 5, 6, 7, 8) (Supplemental Table S2), as described with a Hardy-Weinberg cutoff of a == 0.01. A SNP was
+in Rolling et al. (2020)by the hypocotyl assay tested in the excluded in the haplotype block if addition of the SNP to
+greenhouse. For GWA analyses, susceptible phenotype was the block resulted in a recombinant allele at a frequency
+assigned as "0," and resistance phenotype was assigned exceeding 1%. Also, if adjacent blocks were separated by
+as "1". Two replicates of data were collected for each PI less than 10 kb, these blocks were combined (Schneider
+included in Rps-gene testing.
+et al., 2016).
+RIGHTSLIN Ko
+
+
+
+4of19
+The Plant Genome E0
+VAN ET AL.
+I
+E E
+I
+E
+a aa € €
+et et
+: : I I
+I I I I I 6 € E E E E E E E E E E E
+8 a a 5 8
+I
+8 8 9 3 8 2 2 3 3 3 8
+-
+I
+! 9 a 8 $ 3
+3 3 e a E E 8 a e a 8
+I
+:
+P
+: E E :
+E E E E E E € E I E a
+I
+& E 8
+I
+8
+€
+E
+I
+9 4 N 18 7 F A & 0o - et
+à
+I
+I
+8
+E
+E E
+a
+E
+€
+:
+R 88
+I
+€ €
+0o
+9
+E I
+€ I
+9
+€
+€ € € € I
+I
+I
+I I
+I E E € €
+:
+€ E E E E : € E à
+à
+80 8
+e
+I
+N
+a
+I I
+3 % 9 a a So 8 5s i I
+I
+E i
+i i
+y
+I
+I
+€
+E €
+8
+I
+V
+I
+a
+a a 3
+I
+iE
+1
+I
+I I
+en + in E of A DE R 1 6 LE e
+I
+I
+I
+I
+I I
+E 8 E E 8 E 8 e 8 E 8 E
+I 2
+I
+I
+1
+I
+9 I
+I
+I E
+E
+I
+I I I I
+- - : I : I I I I - -
+6
+I
+: 6 6
+I
+1
+6 6 5 6 6 5 6 6 6 6 6 E I
+e
+A
+1
+: I 1 N mn  in
+ A 0o o of E A 1s # 19 16
+-
+I I
+I
+I
+RIGHTSLIN Ko
+I
+
+
+
+VAN ET AL.
+The Plant Genome m0 5of19
+2.3 I Genome-wide association analyses
+The list of putative NLR encoding genes was further
+scrutinized by searching for the presence of conserved
+All GWA analyses and establishments of significant motifs within the NB-ARC domains. Common domains
+thresholds were conducted in an R implementation including P-loop, GLPL, Kinase, and RNBS motifs (Xue
+(htp/www.r-progect.orp Associations between geno- et al., 2012) were identified using the MEME Suite
+typicandphenotypicdata were examinedusingthree mod- (htp./meme-sulite.org Bailey et al., 2009), assuming one
+els, CMLM (Z. Zhang et al., 2010), MLMM (Segura et al., occurrence in each NLR domain, a maximum motifwidth
+2012) and FarmCPU (Liu, Huang, Fan, Buckler, & Zhang, of 20 amino acids, and an E-value < 0.01. Genes were
+2016), in order to select the appropriate QQ-plots for iden- considered as truncated NLR encoding if the amino acid
+tifying Rps loci. For CMLM and MLMM_cof (a modified sequences lacked these conserved motifs or were less than
+version of MLMM), which allow principal components 200 amino acids in length. Genes predicted to encode pro-
+(PCS) to be used as covariates, all parameters and steps teins greater than 200 amino acids in length with at least
+were followed as previously described by Lee et al. (2019). seven of the ten MEME-predicted conserved motifs were
+Thresholds for genome-wide (5%) and suggestive signif- identified as NLR encoding resistance gene analogs (Sup-
+icance (10%) were calculated by the same procedure as plemental Table S5). In order to investigate associations
+Lee et al. (2019), with significant thresholds being depen- among Rps loci identified by our study, previously iden-
+dent on the panel used in the GWA analysis (Supple- tified Rps genes, NLR, and significant SNPS identified by
+mental Table S4). In addition to the default parameters previous GWA studies, a map representing physical dis-
+for FarmCPU, the optimal number of PCs determined by tances was drawn with MapChart 2.32 (Voorrips, 2002).
+the Bayesian information criterion in Genome Association
+Prediction Tool (Lipka et al., 2012) were used as covari-
+ates. Unlike CMLM and MLMM, the reduced computa- 3 I RESULTS AND DISCUSSION
+tion time of FarmCPU allowed us to carry out permuta-
+tions to better control for false positives and negatives (Liu Many known Rps genes are not effective towards all popu-
+etal., 2016). A total of10,000 permutations were performed lations ofP. sojae (Anderson et al., 2012; Costamilan et al.,
+to identify genome-wide (5%) and suggestive (10%) signifi- 2013; Dorrance et al., 2016; Kaitany et al., 2001; Ryley et al.,
+cant thresholds for FarmCPU GWA analyses. Manhattan 1998; Yan & Nelson, 2019; Yang et al., 2019), yet a wealth
+and quantile-quantile plots were used to visualize each of data exits for the resistance reaction of PIs to various
+association (Turner, 2014).
+isolates with complex pathotypes (Matthiesen et al., 2016;
+Rolling et al., 2020; USDA GRIN database). Thus, the pur-
+pose of our study was to identify novel P. sojae resistance
+2.4 I Identification of nucleotide-binding loci via GWA analyses from panels of soybean PIs with
+site leucine-rich repeat proteins
+available P. sojae reaction data, especially with several iso-
+lates of complex pathotypes. In this study, a novel Rps
+Most Resistance genes (R-genes) identified to date in locus is defined as an LD block containing a SNP sig-
+plants encode nucleotide-binding site leucine-rich repeat nificantly associated with resistance where the LD block
+(NBS-LRR, NLR) proteins involved in the recognition of was not located nearby (< 5 kb) previously identified Rps
+various pathogens (McHale, Tan, Koehl, & Michelmore, genes nor Rps-mediated QTL. However, if identified Rps
+2006). In order to examine the presence of a NB-ARC loci were positioned nearby partial resistance QTL, these
+(nucleotide-binding adaptor shared by APAF-1, R pro- Rpslociwere considered novel because Rps loci and partial
+teins, and CED-4) domain, which is a conserved region resistance differ in phenotypic output (Dorrance, 2018b;
+found in NLR proteins (McHale et al., 2006), protein Mideros et al., 2007; Tooley & Grau, 1984). We detected
+sequences of the second assembly of the Williams 82 novel Rps loci associated with P. sojae resistance on all
+reference genome (Wm.82.a2.v1) were downloaded from chromosomes except Chrs 3 and 13 (Tables 2-4; Supple-
+SoyBase (httpr//soybase.org). NB-ARC domains (PF00931) mental Figure S1; Supplemental Table S6). The lack of
+were identified by PfamScan, which uses HMMER (Finn, loci identified on these two chromosomes is most likely
+Clements, & Eddy, 2011) to search the Pfam protein due to many of the isolates, alone or in combination, hav-
+database (Mistry, Bateman, & Finn, 2007) based on Hidden ing virulence to Rps loci previously identified on Chrs 3
+Markov Models (E-value < 0.1). Sequences with an NB- and 13. Overall, a total of 75 out of 111 Rps loci significant
+domain represent an initial list of putative NLR encoding at genome-wide (5%) and suggestive (10%) thresholds are
+genes.
+novel and only novel Rps loci will be discussed.
+RIGHTSLIN Ko
+
+
+
+60f19
+The Plant Genome E0
+VAN ET AL.
+E : E E
+E
+a 2 € 2 €
+E
+E I E i a 2 i E
+a
+a
+a
+3
+I
+I
+E I 2 E a I
+6
+i & €
+I
+a I E I n $
+i I E 3 2
+a
+f A I
+E : 3 I a ai
+1 7 I I €
+I
+1 a
+2 E a 2 I 2
+I
+8 I 2 I
+1
+I I
+-
+I I I I I I
+I
+I I
+€
+I
+:
+I
+I s
+P
+I
+€ I I
+I
+A
+I I I I I I
+I
+I I
+i E
+I
+I
+I I 2 of
+I
+8
+E 2
+6
+a
+I !
+a
+E I a
+:
+E
+I
+E I
+I
+€ I I
+I
+1
+i i 3 :
+a
+I I
+I
+I I
+I
+e
+I I
+I
+I I
+I : E
+I
+I I
+E
+I I
+9
+I b
+iE
+à I : 9
+1
+à
+I ! I I I
+I
+I I
+8 E
+of
+I
+i
+A;
+I
+9
+I I I
+I
+I
+! E I I a 5 I
+I I
+e
+I
+2 : à S E
+I
+€
+2 I I I I
+I
+I I I E I
+2
+E I
+I I
+I 9
+a I
+I I
+I
+I
+I
+B o 0o a 19
+16
+8 o9 I € E 2 € s I E
+E
+E
+I a I 2 I
+I
+N
+I
+E I I
+e
+a
+:
+I
+I I 2 I 3
+1
+:
+E i I i I
+I
+I i
+I
+5 I 1 E 2 3 I ) i
+I
+I
+RIGHTSLIN Ko
+I
+
+
+
+VAN ET AL.
+The Plant Genome R0
+7of 19
+-
+I
+I I I
+€ 2 I iE I
+I
+I
+I y € 7 i A 1 - I E E
+9
+5 9 i 9 7 9
+d € E i ai I
+8
+I
+I 1
+7 i - I 6 7 i I
+€
+N S €
+E 5 i
+I a i - i :
+: E
+I
+: F E
+I a E a i
+€ i € 1 € I I I I I
+I
+I E I I I
+1
+I
+6
+I € 2 I I 2 : 8
+I
+:
+I
+-
+I
+I I
+I I
+I I I
+€
+I
+I
+I
+I I I
+I
+:
+P
+I I I I I
+I I I
+I à I I
+I E 8 8 €
+I I
+I 7
+R
+I
+3
+1
+E m
+a
+I I
+I
+I
+I
+I
+I I I
+I
+€
+I I
+à I E I I
+I
+I
+I
+I
+I I I
+I
+e
+I I
+I
+I I
+I I
+€
+2 I I
+I
+I
+I
+I
+I I I
+2
+I 9
+I
+5
+I
+E
+2 e
+in
+8
+ 0o o
+I E
+m
+1 e
+:
+E @ E
+E
+€
+@
+8
+I I I
+I
+I
+RIGHTSLIN Ko
+I
+
+
+
+8of19
+The Plant Genome s0
+VAN ET AL.
+7
+I 9
+€
+a E
+E
+E
+I y -
+2 ai
+i i E
+a
+I : I E 2 I I € a a
+E
+I 1 €
+1i 2 a S
+i € E a 4 E € : a I
+a 7 E a I a
+5 I
+n i ar
+I
+a E #
+I E I I 9 I 2 i € I I € 8 I I I 6 € I I i 2 6
+: : R
+I
+I
+-
+I
+I
+a
+I - I I
+I
+I I -
+I I I I V
+I
+:
+I
+I s
+P
+8
+8 E I I
+I
+I I I I I
+I
+I I I
+I E I I E i E
+1
+I I €
+I
+! E a 2
+I E
+I
+I
+E E I I E
+1
+i I 1
+a
+a 9
+I
+a
+I I
+I
+I I I
+I I I
+!
+I
+I
+I : E
+I I I I E
+a b I : 9 by 1
+I E I I !
+I
+I I I
+I I I ! 8 E I of I
+I
+a I i 2
+I
+I I I 2 1 a 5 I I
+I
+! I E i a
+I
+2 I I I
+I
+I I I
+I I I I E
+S
+I 2
+€
+I
+I I
+I
+I I I I :
+9 I
+B of A 1s
+€
+E
+I
+t 19 DE
+0o 9 R
+2
+E
+E
+I
+I
+I
+E
+f € a I 2
+I
+mn
+I I I : E I I
+e
+:
+E I à I
+@
+I I E
+@ I I I a
+I : I 3
+1
+5 J I E E 3 I )
+I
+I
+RIGHTSLIN KO
+I
+
+
+
+VAN ET AL.
+The Plant Genome E0
+of 19
+- *
+E -
+@
+10 E
+@ E
+@
+E 6
+I
+I
+I I
+E
+I a
+& I I €
+I
+I I
+I I I € I
+I
+80
+@
+2
+2
+E
+E
+I
+à i
+I
+I
+I
+I
+I
+I
+I
+2
+I
+i
+is
+@
+@ I I
+I
+E
+I
+@
+@
+E
+-
+I
+E i
+I
+I
+2
+I
+I
+E 2
+I
+@
+I
+I
+A
+@ E
+e
+:
+a
+s I
+P
+I I €
+I I I
+I
+2
+I
+E
+I
+E
+:
+I I
+€
+I
+I
+I
+I
+1
+2
+I E I
+of E
+a I
+E :
+I €
+I E
+I
+I
+I I
+I -
+@
+E E s L
+2
+@
+@ I
+I i
+€ @
+@ I
+I
+I
+I I 1 I
+E
+o
+a 0o 2
+@
+@ @
+2
+I I
+9
+E
+I
+I I
+I
+I @
+à I
+6
+I
+1
+1
+@
+E @
+@
+@
+df E
+I
+S
+I
+I
+I
+i à
+I
+I
+I
+I
+I 3
+I
+I
+E
+@
+6 @ e 8 :
+I o
+E
+€
+@ @
+@
+I
+2 E
+E
+I
+8
+I
+I I
+I I : I
+I 9
+I
+I
+.
+I I I I
+€
+I i
+I I
+3 2
+I
+2
+I I
+E
+E
+2
+E @
+6
+€
+2
+E
+I
+4 i
+I
+a
+E I
+I I I i
+I
+a I
+e
+2
+1
+: B 1 N € + un o 2 00 o of E A 1a 1 1A 16 DE 9o
+9
+& I I
+I
+I
+I
+RIGHTSLIN KO
+I
+
+
+
+10of19 I The Plant Genome E0
+VAN ET AL.
+8
+6
+a
+:
+1 4
+:
+2
+I
+i
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+FIGURE 1 Manhattan plot for GWA of 448 Glycine max accessions (Panel 1) for Phytophthora sojae resistance. 39,860 SNPS were plotted
+for CMLM, MLMM_cof, and FarmCPU. Green (CMLM) and pink (FarmCPU) dots represent the SNPS significantly associated at suggestive
+significance thresholds (10%)(blue and red horizontal lines for CMLM & MLMM_cof, and FarmCPU, respectively)
+3.1 I Novel Rps loci in Panels 1 and 2
+& Dorrance, 2012). The fourth Rps locus, qHM6-1, repre-
+sents a putative novel locus for resistance to P. sojae. Thus,
+The 1:1:1 mixture of three P. sojae isolates, PT2004 C2.S1, ofthe four suggestive loci identified from analysis ofPanel
+R7-2a, and 1005-2.9, was used to screen 448 G. max (Panel 1, qHM6-1 and qHM19-1 were both reported as novel Rps
+1) and 520 G. soja (Panel 2) accessions for novel sources loci(Supplemental Figure S1).
+of resistance. The combination of these three isolates was
+In Panel 2, three SNPS, SS715602853 on Chr 8 (qHM8-1)
+selected for disease assays because when combined, they identified by both CMLM and FarmCPU, SS715613620 on
+are virulent against most known Rps genes (Matthiesen Chr12(qHM12-1)by FarmCPU, and SS715632346 on Chr 18
+et al., 2016). Ofthe G. max accessions, 17.9% (80 lines) were (qHM18-1) by FarmCPU, were associated at genome-wide
+resistant (<30% dead plants), 64.5% (289 lines) were sus- threshold of 5% (Figure 2; Table 2). Each of these three
+ceptible (>70% dead plants), with the remaining lines pos- regions have been previously associated with soybean dis-
+sessing indeterminate phenotypes. Among G. soja acces- ease resistance. While the partial resistance QTL Phytoph
+sions, 60 lines (11.5%) were resistant and 377 lines (72.5%) 11-2 (Wang et al., 2012) was located nearby, qHM8-1 repre-
+weres susceptible, with the remaining lines possessing inde- sents a novel Rps locus. Also, qHM12-1, which is within 5
+terminate phenotypes (Table 1; Supplemental Figure S2; cM of a QTL for SDS incidence, had not been previously
+Supplemental Table S3). GWA analyses using percentage reported for resistance to P. sojae. Thus, of these three loci
+of dead plants as the phenotype and implementing CMLM identifiedin analysis ofPanel2, qHMS-landqHM12irep
+and FarmCPU (Supplemental Figure S3) identified a total resent suggestive novel Rps loci (Supplemental Figure S1).
+of seven SNPs with genome-wide or suggestive associa-
+tions to resistance against the combination of P. sojae iso-
+lates (Table 2). No suggestive or significant Rps loci were 3.2 I Novel Rps loci in Panels 3 and 4
+identified with MLMM_cof.
+In Panel 1, two SNPS each for CMLM and FarmCPU A total of 429 (Panel 3) and 460 (Panel 4) G. max acces-
+models were associated with resistance to the mixture of sions were phenotyped for resistance against the complex
+P. sojae isolates at genome-wide or suggestive threshold P. sojae isolates, OH.121 and C2.S1, respectively (Rolling
+(Figure 1; Table 2). qHM13-1 (see Table 2 footnote for des- et al., 2020). In Panel 3 and Panel 4, 46 and 22 G. max
+ignation) identified by CMLM was positioned near four lines showed resistance to OH.121 (10.7%) and C2.S1 (4.8%),
+previously known Rps-mediated (Nguyen et al., 2012) and respectively (Table 1). A total of 20 Rps loci represented 22
+qHM16-1 identified by FarmCPU was positioned nearby SNPS (-logio (P) > 5.06 and 5.09 for OH.121 and C2.S1 for
+Rps2 (Demirbas et al., 2001). While qHM19-1 identified by both CMLM and MLMM_cofmodels and -logio (P)> 5.55
+CMLM was not located near any previously reported Rps and 6.20 for OH.121 and C2.S1 in FarmCPU) (Supplemen-
+genes, it was co-localizedwith QTLfor partial resistance to tal Figure S4) with a suggestive association to resistance
+P. sojae, Phytoph 13-2 and Phytoph 15-2 (Wang, St. Martin, against P.sojae andwere identifiedacross 16 chromosomes,
+RIGHTSLIN Ko
+
+
+
+VAN ET AL.
+The Plant Genome m0 11of19
+12
+10
+$s715602853
+a
+8
+1 6
+da
+4
+I
+I
+2
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+FIGURE 2 Manhattan plot for GWA of 520 G. soja accessions (Panel 2) for P. sojae resistance. 40,954 SNPS were plotted for CMLM,
+MLMM_cof, and FarmCPU. Green (CMLM) and pink (FarmCPU) dots represent the SNPS significantly associated at suggestive significance
+thresholds (10%) (blue and red horizontal lines for CMLM & MLMM_cof, and FarmCPU, respectively)
+15
+$s715586333
+10
+a
+5
+I
+E
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+FIGURE 3 Manhattan plot for GWA of 429 G. max accessions (Panel 3) against OH.121 for P. sojae resistance. 34,247 SNPS were plotted
+for CMLM, MLMM_cof, and FarmCPU. Green (CMLM), orange (MLMM_cof), and pink (FarmCPU) dots represent the SNPS significantly
+associated at suggestive significance thresholds (10%) (blue and red horizontal lines for CMLM & MLMM_cof, and FarmCPU,respectively)
+excluding Chrs 1, 4, 11, and 16 (Figures 3 and 4; Table 3). sojae isolate C2.S1 (Lee et al., 2013). The locus qHO7-1
+Multiple Rpsloci were MemtiadunChns@NCH.gN0s was overlapped with both Glyma.07g067900 (6,106,491bp-
+1, and qHO3-2, see Table 3 footnote for designation), 13 6,110,846 bp) encoding leucine-rich repeat-containing pro-
+(qHC13-1 and qHC13-2), and 20 (qHC20-1 and qHO20-1), tein and FJ014879.1 (6,106,491 bp-6,110,714 bp) for the
+whereas the remaining 13 chromosomes each possessed a soybean cw18 resistance gene. Cw18 is a lipid transfer
+single Rps locus for P. sojae resistance.
+protein shown to be induced by pathogen inoculation
+Thirteen Rps loci identified from Panels 3 and 4 rep- (Molina & Garcia-Olmedo, 1993) andsuggested dasagrowth
+resented potential novel Rps loci. Seven of these 13 loci inhibitor of bacterial and fungal pathogens (Molina,
+(qHC2-1, qHO7-1, qHC10-1, qHC12-1, qHC15-1, qHC18- Segura, & Garcia-Olmedo, 1993). qHC10-1 by FarmCPU
+1, and qHC20-1) were co-localized with or nearby (<5 and qHC12-1 by both CMLM and MLMM_cof models
+CM) previously identified QTL for partial resistance to P. were located nearby partial resistance QTL, Phytoph 5-
+sojae. qHC2-1 and qHO7-1 lwere co-localized with the QTL 3 (Wu et al., 2011b) and Phytoph 9-1 (Wang et al., 2010),
+Phytoph 14-4 and Phytoph 14-8, respectively, against P. respectively. Lee et al. (2013) identified Phytoph 14-9 and
+RIGHTSLIN Ko
+
+
+
+120f19 I The Plant Genome mO
+VAN ET AL.
+30
+25 -
+E
+20
+ss715613311
+ss715637465
+3 15
+10 -
+K
+I
+55715585067
+I
+5
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+FIGURE 4 Manhattan plot for GWA of 460 G. max accessions (Panel 4) against C2.S1 for P. sojae resistance. 33,641 SNPS were plotted
+for CMLM, MLMM_cof, and FarmCPU. Green (CMLM), orange (MLMM_cof), and pink (FarmCPU) dots represent the SNPS significantly
+associated at suggestive significance thresholds (10%) (Blue and redhorizontal lines for CMLM & MLMM_cof, and FarmCPU, respectively
+Phytoph 14-3for partial resistance against C2.S1, and these of PIs from various origins. Unlike Panels 1 through 4, a
+QTL were also positioned nearby qHC15-1 and qHC18-1, larger proportion of PI lines showed resistance in each
+respectively. qHC20-1 was identified by both MLMM_cof of Panels 5-16, ranging from 20.7% to 90.5% (Table 1).
+and FarmCPU and two partial resistance QTL, Phytoph 8- After all analytic methods were tested to identify Rps loci,
+2 (Tucker et al., 2010) and Phytoph 14-10 (Lee et al., 2013), MLMM cof and FarmCPU were chosen because these two
+were located nearby this Rps locus (Table 3). Our study methods sshowedacceptable deviation fromtheexpectedP-
+detected novel Rps loci on Chr 20 against each P. sojae iso- value distribution at the tail in the QQ-plots (Supplemen-
+late, qHO20-1 for OH.121 resistance and qHC20-1 for C2.S1 tal Figures S5-S16). A total of 84 Rps loci represented by
+resistance (Table 3; Supplemental Figure S1).
+87 SNPS (Table 4; Supplemental Table S6) were identified
+The locus qHO6-1 was not considered as a novel Rps for genome-wide or suggestive associations (Supplemen-
+locus because Phytoph 6-7, 6-8, and 6-9 identified with P. tal Table S4) with resistance to P. sojae by MLMM_cof fand
+sojae isolates collected from field and greenhouse environ- FarmCPU models. These Rps loci were distributed on all
+ments were placed nearby this QTL (Li et al., 2010). Phy- 20 chromosomes ranging from one (Chr 20) to seven (Chrs
+toph 12-1 and 12-2, positioned near qHC13-2 and qHC17-1, 9, 10, and 13) Rps loci (Table 4; Supplemental Table S6).
+were both identified by hypocotyl test with P. sojae OH2 Overall, a total of 58novel Rps loci were identified in Panel
+and OH17 isolates (Nguyen et al., 2012). Consequently, 5 through 16, ranging from 2 (Panels 11, 13, and 14) to 10
+these two loci were not considered novel Rps loci. Thus, novel Rps loci (Panel 6) per Panel (Table 4; Supplemental
+six and seven novel Rps loci were identified for reaction Table S6).
+to P. sojae OH.121 (Panel 3) and C2.S1 (Panel 4) resistance,
+respectively (Supplemental Figure S1).
+3.3.1 I Novel Rps loci identified by
+MLMM_cofin Panels 5 to 16
+3.3 I Novel Rps loci in Panels 5 to 16
+MLMM_cof detected nine significant SNPS on Chrs 2, 3,
+Phenotypic data for twelve P. sojae races (1, 3, 4, 5, 7, 5, 13, 14, and 15, one SNP each on Chrs 2, 5, 13, 14, and 15
+10, 12, 17, 20, 25, 30T, and 31; Panels 5-16, respectively) and four SNPS on Chr 3. These nine Rps loci were associ-
+were obtained from USDA GRIN. While publicly available ated with P. sojae races 1 (Panel 5), 4 (Panel 17), and 17(Panel
+historical data represent a great resource, there are also 9) at suggestive thresholds of 10% (-logio (P) > 5.23, 5.19
+associated limitations. For example, there are no qual- and 5.20, respectively)(Table 4; Supplemental Figures S5b,
+ity metrics, experimental design, or heritability associated S7b and S9b; Supplemental Table S6). All Rps loci on Chr
+with the phenotypic data which has been collected on a 3 were located near many previously identified Rps genes
+potentially biased selection ofPIs (Table 1). However, there (Table 4; Supplemental Figure S1; SupplementalTable S6).
+remains value in the ready availability of phenotypic data On Chr 13, qGM13-1 was co-located with Phytoph 12-1
+RIGHTSLIN Ko
+
+
+
+VAN ET AL.
+The Plant Genome m0 13of19
+identified by hypocotyl test (Nguyen et al., 2012). However, tively encoding ER Metallopeptidase I in the 71.9 kb LD
+the remaining four Rps loci (qGM2-1, qGM5-1, qGM14-1, block provides sanotherinteresting gcandidate gene for resis-
+and qGM15-1) identified by MLMM_cof were novel Rps tance to P.sojae. Liu, Dammann, and Bhattacharyya (2001)
+loci. Three of these loci, qGM2-1, qGM5-1, and qGM15-1, showed that transcript level of GmMMP2 (a novel soy-
+all associated with P. sojae race 4 resistance (Panel 7) and bean metalloproteinase gene)wasincreasedinsoybean tis-
+were located nearby QTL previously associated with other sue with P. sojae, suggesting this gene might be involved
+diseases (Table 4; SupplementalTable: S6). qGM14-lagainst in a novel defense response against pathogenic infec-
+race 1 (Panel 5) was positioned nearby a QTL for partial tions. Additionally, under stress conditions, Arabidopsis
+resistance to P. sojae, Phytoph 9-4 identified by Wang et al. ER membrane-associated transcription factor, AtbZIP28,
+(2010), using P. sojae isolate 1.S.1.1 (vir. la, 1b, 1k, 2, 3a, 3b, travels from the ER to the Golgi, where it is processed
+3c, 4, 5, 6, 7,8). Thus, a total of 4 novel Rps loci were iden- by ER Metallopeptidase I (Srivastava, Chen, Deng, Bran-
+tified by MLMM cof in Panels 5 (one Rps locus) and 7 (3 dizzi, & Howell, 2012) and involved in programmed cell
+Rps loci).
+death (Eichmann & Schafer, 2012). A fourth candidate
+gene, Glyma.05g146900, putatively encoding an exostosin
+(heparan sulfate gbcoayltansferaserelated) may be func-
+3.3.2 I Novel Rps loci identified by
+tion in resistance to P. sojae. An Arabidopsis gene encoding
+FarmCPU in Panels 5 to 16
+exostosin family protein showed significant genetic associ-
+ation with stress (Coolen, Van Pelt, Van Wees, & Pieterse,
+FarmCPU identified 75 Rps loci (78 significant SNPS) 2019).
+against P. sojae resistance and atleast one SNP marker was
+significant ton all chromosomes except Chr 3 (Table 4; Sup- Novel Rps loci mapped nearby QTL associated with no
+plemental Table S6). Outof78 significanti markers, about a soybean diseases or soybean diseases other than partial
+half were associated with P. sojae resistance against race resistance to P. sojae
+3 (vir. la, 1c, 7) (Panel 6; 15 SNPS on Chrs 2, 8, 9, 10, 11, Fifteen detected Rps loci were not mapped near (within
+13, 17, 18, and 19) and race 31 (Panel 16; 17 SNPS on Chrs 5 CM) any previously identified QTL associated with soy-
+1, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, and 16); the remaining bean diseases. These LD blocks were significant for P. sojae
+10 races had an association to P. sojae resistance with an resistance against race 1 (Panel 5; qGF5-3,9GF12-3, qGF16-
+average of 4.6 significant SNPS. Most of the Rps loci were 1), race 3 (Panel 6; qGF17-2, qGF19-1), race 4 (Panel 7;
+loeamdnearpefousysentied QTL for reactions to Phy- qGF19-2), race 5 (Panel 8; qGF2-4, qGF12-5), race 7 (Panel
+tophthora and other diseases. Overall, a total of 54 novel 9; qGF9-5), race 10 (Panel 10; qGF14-4), race 17 (Panel 12;
+Rps loci were identified by FarmCPU; 15 loci were not qGF2-3), race 25 (Panel 14; qGF9-2), race 30T (Panel 15;
+associated with any soybean disease, while 26 loci were qGF9-1, qGF12-4), and race 31 (Panel 16; qGF7-1), indicat-
+related to soybean diseases other than partial resistance to inganumberofnovel Rps loci as well as novelloci for resis-
+P. sojae and 13 loci were involved in Phytophthora partial tance in general (Table 4; Supplemental Figure S1; Supple-
+resistance.
+mental Table S6). Also, one (Chrs 6, 7, 17, 18, and 20), two
+(Chrs 4, 5, 8, 11, 12, 14, and 15), three (Chr 9), and four (Chr
+Novel putative mechanisms for new Rps loci identified by 9) Rps loci, for a total of 26 novel Rps loci, were positioned
+both Panels 4 and 16
+nearby (within 5 CM) any previously identified QTL asso-
+Interestingly, qGF5-2 (race 31, Panel 16) and qHC5-1 ciated with soybean diseases other than partial resistance
+(C2.S1, Panel 4) share the same LD block (33,998,134 bp- to P. sojae, such as Fusarium root rot, Rhizoctonia root and
+34,070,006 bp), although GWA analyses were conducted hypocotylrot, Sclerotinia stem rot, soybean cyst nematode,
+with different panels (Tables 3 and 4; Supplemental soybean sudden death syndrome, etc. Thus, 41 novel Rps
+Figure S1). Therefore, this 71.9 kb LD block may be lociassociatedwith none (15loci)or: soybean diseases other
+a valuable region for studying resistance to P. sojae. than partial resistance to P. sojae (26 loci) were identified
+For example, within this LD block, Glyma.05g146400 (Table 4; Supplemental Figure S1; Supplemental Table S6).
+and Glym.05g146500, which putatively encode Mannosyl-
+oligosaccharide glucosidases, may have a role in digest- Novel Rps loci mapped nearby QTL associated with
+ing B-glucans. B-linked glucose polysaccharides are the partial resistance to P. sojae
+most abundant component tofPhytophthora cell walls, and Rps loci and partial resistance QTL potentially might share
+P. sojae generated B-glucan is one of the major polymers a complex defense network with multiple mechanisms or
+composing oomycete cell walls at the host-pathogen inter- have various phenotypic output depending on the isolate
+face during infection and modulate plant innate immu- (St. Clair, 2010; Wang et al., 2012). So, our identified Rps
+nity (Robinson & Bostock, 2015). Glyma.05g146600, puta- loci could be novel, although they were located nearby
+RIGHTSLIN Ko
+
+
+
+14 of19 I The Plant Genome E0
+VAN ET AL.
+QTL previously associated with partial resistance towards (2013) detected Phytoph 14-9 for partial resistance against
+P. sojae. Among the Rps loci identified by FarmCPU, 13 C2.S1, and this QTL was located nearby qGF15-1 (race 30T
+from Panels 5-16 were nearby partial resistance QTL and resistance).
+therefore were considered as novel Rps loci (Table 4;
+Among the four Rps loci on Chr 18 (Table 4; Supple-
+Supplemental Table S6).
+mental Table S6), three (qGF18-1, qGF18-3, and qGF18-
+On Chr 1, three Rps loci, qGF1-1 to race 12 (Panel 4) were located near previously reported P. sojae partial
+11), qGF1-2 to race 10 (Panel 10), and qGF1-3 to race 31 resistance QTL. qGF18-1(associated with race 31 resistance)
+(Panel 16) were identified (Table 4; Supplemental Table and qGF18-3 (race 30T resistance) were positioned near
+S6). The LD block of each Rps locus was relatively narrow, Phtyoph 8-3 (Tucker et al., 2010) and Phytoph 14-3 (Lee
+103 kb for qGF1-1, 56 kb for qGF1-2, and 38 kb for qGF1- et al., 2013), respectively. qGF18-4 (race 3 resistance) is
+3. Each of these loci were co-localized with Phytoph 13-3 located not only near Phytoph 14-3 but also Rps6. Thus,
+related to partial resistance to P. sojae isolate 1.S.1.1 (Wang qGF18-1 and qGF18-3 out of these three Rps loci identified
+et al., 2012). Glyma.01g171000, annotated as Arabidop- by our study are novel QTL (Table 4; Supplemental Table
+sis disease resistance protein (CC-NBS-LRR class) fam- S6). In summary, a total of 13 Rps loci positioned nearby
+ily, was located only 118 kb away from qGF1-1. Two more partial resistance QTL to P. sojae are novel.
+NLRs (Glyma.01g183300 and Glyma.01g183400), annotated
+as Arabidopsis disease resistance protein (CC-NBS-LRR
+class) (AT5G35450, Benschop et al., 2007), were located 4 I CONCLUSIONS
+n400 kb upstream of qGF1-2. Like qHC2-1, qGF2-1 (race
+3, Panel 6) and qGF2-2 (race 17, Panel 12) were co-localized Numerous studies have identified genes and genetic mark-
+with Phytoph 14-4 associated with partial resistance to P. ers contributing to both R-gene and quantitative resistance
+sojae isolate C2.S1 (Lee et al., 2013). Our Rps loci on Chr 2 towards P. sojae for management applications as well as
+identified by this study were novel QTL for P. sojae resis- study of the pathogen diversity. Since P. sojae populations
+tance (Supplemental Figure S1).
+continue to increase in complexity ofvirulence and rapidly
+Only the GRIN data were able to detect Rps loci asso- adapt to Rpsgenes (Andersonetal., 2012; Costamilan et al.,
+ciated with P. sojae resistance on Chr 4, qGF4-1 for race 2013; Dorrance et al., 2016; Grau et al., 2004; Kaitany et al.,
+12 (Panel 11), qGF4-2 for race 30T (Panel 15), and qGF4- 2001; Ryley et al., 1998; Schmitthenner et al., 1994; Stew-
+3 for race 5 (Panel 8) (Supplemental Figure S1). A previ- art et al., 2014; Yan & Nelson, 2019), studies for identify-
+ously identified QTL related to P. sojae partial resistance ing novel Rps genes are needed for development of new
+(Phytoph 14-7, Lee et al., 2013) was located near qGF4-1. commercial soybean cultivars. Our study identified a total
+Among three Rps loci (qGF6-1, qGF6-2, and qGF6-3) iden- of 75 novel Rps loci for P. sojae resistance using 16 panels,
+tified with GRIN data, the previously identified QTL for P. with novel loci distributed across all chromosomes except
+sojae resistance were positioned near qGF6-1 and qGF6-2. Chrs 3 and 13. Three GWA models identified novel Rps
+qGF6-1 (race 31, Panel 16) is the novel Rps locus because loci, one by CMLM, four by MLMM_cof, and 66 by Farm-
+Phytoph 5-1, with partial resistance against race 2, was CPU and two novelloci each were detected by two models,
+located Inearby (Wu et al., 2011b). However.qGF6-2for race namely CMLM & MLMM_cof and CMLM & FarmCPU.
+25 resistance was not considered to be a novel Rps locus Evaluations using diverse pathogen panels are needed to
+since Phytoph 6-6 and 6-8, conferring Rps-mediated or par- verify resistance to P. sojae, while continuous monitor-
+tial resistance to P. sojae conducted in field and green- ing of pathogen virulence towards these novel Rps loci
+house, are positioned nearby (Li et al., 2010).
+is necessary to determine their utility. Each of these
+Like qHO7-1, qGF7-2 (race 1, Panel 5) was co-localized practices, evaluations of diverse pathogen panel and con-
+with Phytoph 14-8 associated with partial resistance to P. tinuous monitoring, are essential in the development of
+sojae isolate C2.S1 (Lee et al., 2013). qGF8-1for race 17 resis- new soybean cultivars with resistances that are effective
+tance was novel, as a QTL for partial resistance to P. sojae, against numerous P. sojae populations. Panel 1 and Panels
+Phytoph 11-2 (Wang et al., 2012), was located nearby this 5-16 shared 335 PIs and eight and five PIs were overlapped
+Rps locus. qGF8-3 for race 31 resistance is positioned near in Panelsland 13and Panelsland 4, respectively. Also, Pan-
+previously known QTL for P. sojae resistance (Phytoph 6- els 1,3, and 5-16 and Panels 1, 4, and 5-16 shared 18 and 15
+4, Li et al., 2010) and not a novel Rps locus. None of the PIs, respectively. Panel 2, comprised entirely of G. soja PIs,
+known Rps genes, SNP markers by GWA studies, or NLRs had no overlap with the other panels. A total of77 PIs from
+were located within LD block of these Rps loci on Chrs 4, Panel 1 showed less than 30% dead plants after screening
+6, 7, and 8 (Supplemental Figure S1). qGF14-2 (race 30T with pooled inoculum. The same set were also resistant
+resistance) was also positioned nearby a partial resistance when tested with 12 P. sojae races in Panels 5-16. There-
+QTL, Phytoph 9-4identifiedby Wang etal. (2010). Lee etal. fore, the set of 77 resistant PIs may be good candidates
+RIGHTSLIN Ko
+
+
+
+VAN ET AL.
+The Plant Genome E0 15of19
+for developing new soybean cultivars with P. sojae resis- Alison E. Robertson Ohttps.//orcid.org/0000-0003-4281
+tance through breeding programs using the Rps resistance- 6350
+associated DNA markers ofthis study. The comprehensive Anne E. Dorrance D hepelecadepgco.cous4s
+tables and figures of this report containing linkage maps, 6707
+candidate/known function genes, identified NLRS, small Leah K. McHale D https/orcid.org/0000-0003-1023-2315
+LD blocks and previously observed QTL, provide a useful
+resource for soybean disease workers.
+M.A. SaghaiMaroofo htpsz/orcidorg0.0z
+1398-7110
+ACKNOWLEDGMENTS
+The authors thank Emma Kline and Brandon Bowers REFERENCES
+for technical assistance in greenhouse assays. This work Abney, T. S., Melgar, J. C., Richards, T. L., Scott, D. H., Grogan, J.,
+was supported in part by an award from the United Soy-
+& Young, J. (1997). New races of Phytophthora sojae with Rpsl-d
+bean Board to AED; funds from the Center for Applied
+virulence. PlantDisease,81, 653-655. htpel/doiong1Oi09/PDIS
+Plant Sciences to WR, AED and LKM; State and Federal
+1997.81.6.653
+funds appropriatedto The Ohio State University, College of Anderson, G., Walch, E., & Kurle, J. E. (2012). Increase in Phytoph-
+thora sojae virulence and pathotype number in Minnesota since
+Food, Agricultural, and Environmental Sciences; and the
+1984. (Abstract) Phytopathology, 102, S5.1.
+National Institute of Food and Agriculture, U.S. Depart- Anderson, T. R., & Buzzell, R. I. (1992). Diversity and frequency of
+ment of Agriculture Hatch projects for Development of
+races of Phytophthora megasperma f. sp. glycinea in soybean fields
+Disease Management Strategies for Soybean Pathogens in
+in Essex County, Ontario, 1980-1989. Plant Disease, 76, 587-589.
+Ohio OHO01303 to AED, and Genetic Analysis of Soybean
+NmpRl@mphaipaurD.2sdog
+Added-Value Traits and Soybean Variety Development for Arsenault-Labrecque, G., Sonah, H., Lebreton, A., Labbe, C., Marc-
+Ohio OHO01279 to LKM. MASM and AER acknowledge
+hand,G.,Xue,A.. ... Belanger, R. R.(2018). Stable predictive emark-
+funding from USDA-NIFA Agriculture and Food Research
+ers for Phytophthora sojae avirulence genes that impair infection
+ofsoybean uncovered by whole genome sequencing of31 isolates.
+Initiative Competitive Grant no. 2011-68004-30104, the
+BMC Biology, 16, 80. htps/doiorg/ho.1s6/312915-018-0549-9
+United Soybean Board, the Iowa Soybean Association and Athow, K. L., & Laviolette, F. A. (1982). Rps6, a major gene for resis-
+the Virginia Soybean Board. MASM acknowledges addi-
+tance to Phytophthora megasperma f. sp. Glycinea in soybean.
+tional contributions from the Agricultural Experiment Sta-
+Phytopathology, 72, 1564-1567. Nepe/AalongiaiowThye73
+tion Hatch Program and Open Access Subvention Fund -
+1564
+both at Virginia Tech. MASM thanks Neelam R. Redekar Athow, K. L., Laviolette, F. A., & Mueller, E. H. (1980). A new major
+for assistance with data management.
+gene for resistance to Phytophthora megasperma var. sojae in soy-
+bean. Phytopathology, 70, 977-980. htps/delonglio.us/Pbytoe
+70-977
+CONFLICT OF INTEREST
+Bailey, T., Boden, M., Buske, F. A., Frith, M., Grant, C. E., Clementi,
+None of the authors have competing interests.
+L., Noble, W. S. (2009). MEME Suite: Tools for motif discov-
+ery and searching. Nucleic Acids Research, 37, W202-W208. https:
+AUTH OR CONTRIBUTIONS
+ldbiorglaioyinariekpus
+K. Van carried out association analyses, wrote draft/edited Barreto, D., Stegman de Garfinkel, B., & Fortugno, C.(1995). Racesof
+the manuscript.
+Phytophthorasojaein Argentina and reaction ofsoybean cultivars.
+W. Rolling performed disease assays and NLR identifi-
+Plant Disease, 79, 599-600. https./doi.org/10.1094/PD-79-0599
+Barrett,J.C.,Fry, B., Maller,J.,& Daly,M.J.(2005). Haploview: Anal-
+cation and revised manuscript.
+ysis and visualization of LS and haplotype maps. Bioinformatics,
+R.M. Biyashev conducted field operations and managed
+21, 263-265. htps/doiongio.op3bioinfrmatics/bthds7
+data.
+Benschop.l1.Mohammed. S., O'Flaherty,M., Heck, A. J. R.,Slijper,
+R.L. Matthiesen, N.S. Abeysekara, and D.J. Veney per-
+M., & Menke, F. L. H. (2007). Quantitative phosphoproteomics of
+formed disease assays.
+early elicitor signaling in Arabidopsis. Molecular & Cellular Pro-
+A.E. Robertson supervised disease assays and revised
+teomics, 6, 1198-1214.
+manuscript.
+Bradbury, P.J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss,
+A.E. Dorrance, L.K. McHale, and M.A. Saghai Maroof
+Y.,& Buckler, E. S. (2007). TASSEL: Software for rassociation map-
+ping ofcomplex traitsin diverse samples. Bioinformatics, 23, 2633-
+supervised disease assays, experiments, and analyses and
+2635. htrpez/doiongnio.io3/bioinformatica/bem3os
+edited the manuscript.
+Buzzell, R. I., & Anderson, T. R. (1981). Another major gene for resis-
+All authors read and approved final manuscript.
+tance to Phytophthora megasperma var. sojae in soybean. Soybean
+Genetics Newsletter, 18, 30-33.
+ORCID
+Buzzell, R. I., & Anderson, T. R. (1992). Inheritance and race reaction
+Kyujung Van D https/orcid.org/0000-0002-7135:336X
+ofa new soybean Rpsl allele. Plant Disease, 76, 600-601. https:/1
+William Rolling D https/orcid.org/0000-000-6893-9872
+doionglo.o94/PD-7606
+RIGHTSLIN Ko
+
+
+
+16 of19 I The Plant Genome m0
+VAN ET AL.
+Clair, St., & A.,D.(2010). Quantitative disease resistance and quanti- Grau, C. R., Dorrance, A. E., Russin, J., & Bond,J.(2004). Fungal dis-
+tative resistance loci in breeding. Annual Review ofPhytopathol-
+eases. In H. R. Boerma & J. E. Specht (Eds.), Soybeans: Improve-
+ogy, 48, 247-268. htipsz/doiopgnollaamnnurepbyto.080506:
+ment, production, and uses (pp. 679-763). Madison, WI: ASA, CAS,
+081904
+SSA.
+Coolen, S., Van Pelt, J. A., Van Wees, S. C. M., & Pieterse, C. M. Huang, J., Guo, N., Li, Y., Sun, J., Hu, G., Zhang, H., ... Qiu,
+J. (2019). Mining the natural genetic variation in Arabidopsis
+L. (2016). Phenotypic evaluation and genetic dissection of resis-
+thaliana for adaptation to sequential abiotic and biotic stresses.
+tance to Phytophthora sojae in the Chinese soybean mini core col-
+Planta, 249, 1087-1105. htps/doiorg/0.1007/800425:018:30659
+lection. BMC Genetics, 17, 85. NmpRI@eNepT@iwsAlawsols
+Costamilan, L. M., Clebsch, C. C., Soares, R. M., Seixas, C. D. S.,
+0383-4
+Godoy, C. V., & Dorrance, A. E. (2013). Diversity of Phytoph- Hyten, D. L., Song, Q, Zhu, Y., Choi, I.-Y., Nelson, R. L., Costa, J. M.,
+thora sojae pathotypes from Brazil. European Journal of Plant
+Cregan, P.B. (2006). Impacts of fgenetic bottlenecks on soybean
+Pathology, 135, 845-853. Mepeldhiogiaiweniawesose
+genome diversity. Proceedingsofthe NationalAcademy ofSciences
+128-9
+of the United States ofAmerica, 103, 16666-16671. https://doi.org/
+Cui, L., Yin, W., Tang, Q., Dong, S., Zheng, X., Zhang, Z., & Wang, Y.
+101073/pnas.0604379103
+(2010). Distribution, pathotypes and metalaxyl sensitivity of Phy- Jiang, B., Cheng, Y., Cai, Z., Li, M., Jiang, Z., Ma, R., Nian, H.
+tophthora sojae from Heilongjiang and Fujian provinces in China.
+(2020). Fine mapping of a Phytophthora-resistance locus RpsGZ
+PlantDisease, 94, 881-ss4.htps/doiongioih10.094/PD1S94-701
+in soybean using genotypingbysequencing BMC Genomics, 21,
+Demirbas, A., Rector, B. G., Lohnes, D. G., Fioritto, R.. J.,Graef, G. L.,
+280. htps/doi.org71o.1860312864-020-6668-
+Cregan, ,P.B., Specht,J.E. (2001). Simple sequence repeat mark- Kaitany, R. C., Hart, L. P., & Safir, G. R. (2001). Virulence compo-
+ers linked to the soybean Rps genes for Phytophthora resistance.
+sition of Phytophthora sojae in Michigan. Plant Disease, 85, 1103-
+Crop Science, 41, 1220-1227. MepIGueghozi5ioepecaes
+1106. htps/doiorg1oz094/PDIS200185.10.105
+4141220x
+Kang, I. J., Kang, S., Jang, I. H., Jang, Y. W., Shim, H. K., Heu,
+Dorrance, A. E. (2018a). Oomycete and fungal pathogens of soybean.
+S., & Lee, S. (2019). Identification of new isolates of Phytoph-
+In H. Nguyen (Ed.), Achieving sustainable cultivation ofsoybeans.
+thora sojae and the reactions ofKorean soybean cultivars follow-
+Vol. 2: Diseases, pests, food and other uses (pp. 3-25). Philadelphia,
+ing hypocotyl inoculation. The Plant Pathology Journal, 35, 698-
+PA: Burleigh Dodds Science Publishing.
+704.
+Dorrance, A. E. (2018b). Management of Phytophthora sojae of Kilen, T. C., Hartwig, E. E., & Keeling, B. L. (1974). Inheritance
+soybean: A review and future perspective. Canadian Journal
+of a second major gene for resistance to Phytophthora rot
+of Plant Pathology, 40, 210-219. https./doi.org/10.1080/07060661.
+in soybeans. Crop Science, 14, 260-262. htrps/doi.org/10.2135)
+2018.1445127
+cropscil974.00183X001400020027X
+Dorrance,A. E., Berry,S. A., Bowen, P.,& Lipps, P. E. (2004). Charac- Kyle, D. E., Nickell, C. D., Nelson, R. L., & Pedersen, W. L. (1998).
+terization of Pythium spp. from three Ohio fields for pathogenic-
+Response ofsoybean accessionsfrom provinces in southern China
+ity on corn and soybean and metalaxyl sensitivity. Plant Health
+to Phytophthora sojae. Plant Disease, 82, 555-559. https://doi.org/
+Progress. htpsz/deiorgn1o1094/PHP-2004-020201-85,
+101094/PDIS199582555
+Dorrance, A. E., Kurle, J., Robertson, A. E., Bradley, C. A., Giesler, Lee, S., Mian, R. M. A., McHale, L., Wang, H., Wijeratne, A., Sneller,
+L., Wise, K., & Concibido, V. C. (2016). Pathotype diversity ofPhy-
+C., & Dorrance, A. E. (2013). Novel quantitative trait loci for par-
+tophthora sojae in elevenstates in the United States. Plant Disease,
+talreitaneto.Phoytophahon sojae in soybean PI398841. Theoret-
+100, 1429-1437. htps/doiorg1o1094/PDIS:08-15-089-RE
+ical and Applied Genetics, 126, 1121-1132. htrps/doi.org/10.1007)
+Dorrance, A. E., Robertson, A. E., Cianzo, S., Giesler, L., Grau, C.
+S00122-013-2040-x
+R., Draper, M. A., Anderson, T. R. (2009). Integrated manage- Lee, S., Van, K., Sung, M., Nelson, R., LaMantia, J., McHale, L. K.,
+ment strategies for Phytophthora sojae combining host resistance
+& Mian, M. A. R. (2019). Genome-wide association study of seed
+and Iseedtreatments. Plant Disease, 93, 875-882. https.//doi.org/10.
+protein, oil, and amino acid contents in soybean from maturity
+1094/PDIS-93-9-0875
+groups I to IV. Theoretical and Applied Genetics, 132, 1639-1659.
+Dorrance, A. E., & Schmitthenner, A. F. (2000). New sources ofresis-
+htps/doiorg1o.007/s0012-019-03304-5
+tance to Phytophthora sojae in the soybean plant introductions. Li, L., Lin, F., Wang, W., Ping, J., Fitzgerald, J. C., Zhao, M., : Ma,
+PlantDisease, 84, 303-1308. htps//doi.org/10.1094/PDIS.2000.84,
+J. (2016). Fine mapping and candidate gene analysis of two loci
+12.1303
+conferring resistance to Phytophthora sojae in soybean. Theoreti-
+Eichmann, R., & Schafer, P. (2012). The endoplasmic reticulum in
+cal and Applied Genetics, 129, 2379-2386. htrps/doi.org/10.1007)
+plant immunity and cell death. Frontiers in Plant Science, 3, 200.
+s00122-016-2777-0
+htps/doi.org/10.338/1pis.2012.00200
+Li,X., Han, Y., Teng, W., Zhang, S., Yu, K., Poysa, V., Li, W. (2010).
+Finn, R. D., Clements, J., & Eddy, S. R. (2011). HMMER web server:
+Pyramided QTL underlying tolerance to Phytophthora root rot in
+Interactive sequence similarity searching. Nucleic Acids Research,
+mega-environments from soybean cultivars 'Conrad' and 'Hefeng
+39, W29-W37. https.//doi.org/10.109/nar/gkr367
+25'. Theoretical and Applied Genetics, 121, 651-658. https://doi.org/
+Gordon,S.G.,St. Martin,S.K.,& Dorrance,A. E. (2006). Rps8 mapsto
+10.100750012-01013722
+a resistance gene rich region on soybean molecular linkage group Lin, F., Zhao, M., Ping, J., Johnson, A., Zhang, B., Abney, T. S., :
+F. Crop Science, 46, 168-173. https./doi.org/10.2135/cropsci2004,
+Ma, J. (2013). Molecular mapping of two genes conferring resis-
+04-0024
+tance to Phytophthora sojae in a soybean landrace PI 567139B.
+RIGHTSLIN Ko
+
+
+
+VAN ET AL.
+The Plant Genome mO
+170f19
+Theoretical and Applied Genetics, 126, 2177-2185. https://doi.org/ Ploper, L. D., Athow, K. L., & Laviolette, F. A. (1985). A new allele
+10100750012-013-212724
+at Rps3 locus for resistance to Phytophthora megasperma f. sp.
+Lipka, A. E., Tian, F., Wang, Q, Peiffer, J., Li, M., Bradbury, P. J.,
+glycinea in soybean. Phytopathology, 75, 690-694. https://doi.org/
+Zhang, Z. (2012). GAPIT: Genome association and production
+10.1094/Phyto-75-690
+integrated tool. Bioinformatics, 28, 2397-2399. https://doi.org/10. Qin, J., Song, Q., Shi, A., Li, S., Zhang, M., & Zhang, B. (2017).
+1093bioinformatisybs44
+Genome-wide association mapping of resistance to Phytophthora
+Liu, X., Huang, M., Fan, B., Buckler, E. S., & Zhang, Z. (2016).
+sojae in a soybean [Glycine max (L.) Merr.] germplasm panel from
+Iterative usage of fixed and random effect models for pow-
+maturity groups IV and V. PLOS ONE, 12, e0184613. https://doi.
+erful and efficient genome-wide association studies. PLOS
+oploaisnl/pumalpmedosas
+Genetics, 12, e1005767. https./doi.org/10.1371/journal.pgen. Robertson, A. E., Cianzio, S. R., Cerra, S. M., & Pope, R. O. (2009).
+1005767
+Within-field pathogenic diversity of Phytophthora sojae in com-
+Liu, Y., Dammann, C., & Bhattacharyya, M. K. (2001). The matrix
+mercial soybean fields in Iowa. Plant Health Progress. https://doi.
+metalloproteinase gene GmMMP2 is activated in response to
+org/10.1094/PHP-2009-0908-01-RS,
+pathogenic infections in soybean. Plant Physiology, 127, 1788-1797. Robinson, S. M., & Bostock, R. M. (2015). B-glucans and eicos-
+https.//doi.org/10.1104/pp.010593
+apolyenoic acids as MAMPS in plant-oomycete interactions: Past
+Lohnes, D. G., Nickell, C. D., & Schmitthenner, A. F. (1996). Ori-
+and present. Frontiers in Plant Science, 5, 797. https://doi.org/10.
+gin of soybean alleles for Phytophthora resistance in China.
+3389/fpls.2014.00797
+Crop Science, 36, 1689-1692. https./doi.org/10.2135/cropsci1996. Rolling, W., Schneider, R., Dorrance, A. E., & McHale, L. K. (2020).
+001183X00X600060045X
+Genome-wide association analyses of quantitative disease resis-
+Matthiesen, R. L., Abeysekara, N. S., Ruiz-Rojas, J. J., Biyashev, R.
+tance in diverse sets of soybean [Glycine max (L.) Merr.] plant
+M., Saghai Maroof, M. A., & Robertson, A. E. (2016). A method
+introductions. PLOS ONE, 15, e0227710. htps./doi.org/10.1371
+for combining isolates of Phytophthora sojae to screen for novel
+journal.pone.02710
+sources sofresistance to Phytophthorastem and rootrotin soybean. Ryley, M. J., Obst, N. R., Irwin, J. A. G., & Drenth, A. (1998).
+Plant Disease, 100, 1424-1428. hepldeiegnaspaurotsons
+Changes in the racial composition of Phytophthora sojae in Aus-
+0916-RE
+tralia between 1979 and 1996. Plant Disease, 82, 1048-1054. https:
+McHale, L., Tan, X., Koehl, P., & Michelmore, R. W. (2006). Plant
+//doi.org/10.1094/PDIS.1998.829.1048
+NBS-LRR proteins: Adaptable guards. Genome Biology, 7, 212. Sahoo, D. K., Abeysekara, N. S., Cianzio, S. R., Robertson, A. E.,
+Hepul@tugpunw.p.mel4a
+& Bhattacharyya, M. K. (2017). A novel Phytophthora sojae resis-
+Mideros, S., Nita, M., & Dorrance, A. E. (2007). Characterization
+tance Rps12 gene mapped to a genomic region that contains sev-
+of components of partial resistance, Rps2, and root resistance to
+eral Rps genes. PLOS ONE, 12, e0169950. htps/doi.org/10.1371
+Phytophthora sojae in soybean. Phytopathology, 97, 655-662. https:
+journal.pone.0169950
+l/doi.org/10.1094/PHYTO-97-5-0655
+Sans, A., Rodriguez, M., Silva, P., & Stewart, S. (2017). First report
+Mistry, J., Bateman, A., & Finn, R. D. (2007). Predicting active site
+of Phytophthora sojae and its pathotypes affecting soybean in
+residue annotations in the Pfam database. BMC Bioinformatics, 8,
+Uruguay. Agrociencia, 21, 89-94.
+298. htps./doi.org/10.186/1471-2105-8-298
+Schmitthenner, A. F., Hobe, M., & Bhat, R. G. (1994). Phytophthora
+Molina, A., & Garcia-Olmedo, F. (1993). Developmental and
+sojae races in Ohio over a 10-year interval. Plant Disease, 78, 269-
+pathogen-induced expression of threel barley genes encoding lipid
+276. https.//doi.org/10.1094/PD-78-0269
+transfer proteins. Plant Journal, 4, 983-991. https.//doi.org/10. Schneider, R., Rolling, W., Song, Q., Cregan, P., Dorrance, A. E., &
+1046/j1365-313X.1993.04060983.x
+McHale, L. K. (2016). Genome-wide association mapping of par-
+Molina, A.,Segura, A.,& Garcia-Olmedo, ,F.(1993). Lipidtransfer rpro-
+tial resistance to Phytophthora sojae in soybean plant introduc-
+teins (nsLTPs) from barley and maize leaves are potent inhibitors
+tion from the Republic of Korea. BMC Genomics, 17, 607. https:
+ofbacterial land fungal plant pathogens. FEBS Letters, 316, 119-122.
+18tuephatnesatawéois.mss
+htps/doiorgn1oi016i0014-59X03811989
+Segura, V., Vilhjalmsson, B. J., Platt, A., Korte, A., Seren, U., Long,
+Money, D., Gardner, K., Migicovsky, Z., Schwaninger, H., Zhong,
+Q., & Nordburg, M. (2012). An efficient multi-locus mixed-model
+G.-Y., & Myles, S. (2015). LinkImpute: Fast and accurate
+approach for genome-wide association studies in structured pop-
+genotype imputation for nonmodel organisms. G3: Genes
+ulations. Nature Genetics, 44, 825-830. htps/doiongnioiosling
+Genome Genetics, 5, 2383-2390. htpe/delongnouswgils
+2314
+021667
+Slaminko, T. L., Bowen, C. R., & Hartman, G. L. (2010). Multi-
+Nguyen, V. T., Vuong, T. D., Van Toai, T., Lee, J. D., Wu, X., Mian,
+year evaluation of commercial soybean cultivars for resistance to
+M. A. R., & Nguyen, H. T. (2012). Mapping of quantitative trait
+Phytophthora sojae. Plant Disease, 94, 368-371. https://doi.org/10.
+loci associated with resistance to Phytophthora sojae and flooding
+1094/PDIS-94-3-0368
+tolerance in soybean. Crop Science, 52, 2481-2493. https://doi.org/ Song, Q., Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W., Nel-
+102135/copc201.000466
+son, R. L., & Cregan, P. B. (2013). Development and evalua-
+Ping, J., Fitzgerald, J. C., Zhang, C., Lin, F., Bai, Y., Wang, D., . Ma,
+tion of SoySNP50K, a high-density genotyping array for soy-
+J. (2016). Identification and molecular mapping of Rps11, a novel
+bean. PLOS ONE, 8, e54985. https./doi.org/10.1371/journal.pone.
+gene conferring resistancetol Phytophthorasojaein soybean. Theo-
+0054985
+retical andApplied Genetics, 129, 445-451. htrps/doi.org/10.1007 Song, Q, Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W., Nelson,
+S00122-015-2638-2
+R. L., & Cregan, P. B. (2015). Fingerprinting soybean germplasm
+RIGHTSLIN Ko
+
+
+
+18 of19 I The Plant Genome m0
+VAN ET AL.
+and its utility in genomic research. G3: Genes Genome Genetics, 5, Weng, C., Yu, K., Anderson, T. R., & Poysa, V. (2001). Mapping genes
+1999-2006. https/doi.org/10.1534/g3.15.019000
+conferring resistance to Phytophthora root rot of soybean, Rpsla
+Srivastava, R., Chen, Y., Deng, Y.,Brandizzi, F.&HowellS.H.Q012).
+and Rps7.JournalofHeredity.92,442-446. htps/doi.org/10.1093)
+Elements proximal to and within the transmembrane domain
+jhered/92.5.442
+mediate the organelle-organelle movement of bZIP28 under ER Wu, X.-L., Zhang, B.-Q., Sun, S., Zhao, J.-M., Yang, F., Guo, N.,
+stress conditions. Plant Journal, 70, 1033-1042. https://doi.org/10.
+... Xing, H. (2011a). Identification, genetic analysis and mapping
+IILAL56531LK201204983X
+of resistance to Phytophthora sojae of Pm28 in soybean. Agri-
+Stewart, S., Abeysekara, N. S., & Robertson, A. E. (2014). Pathotype
+cultural Sciences in China, 10, 1506-1511. htps./doi.org/10.1016
+and genetic shiftsin a populationudPowphhwawge undersoy-
+S1671-2927011)60145-4
+bean cultivar rotation. Plant Disease, 98, 614-624. https://doi.org/ Wu, X., Zhou, B., Zhao, J., Guo, N., Zhang, B., Yang, F., Xing,
+10094/PDIS:05L-OSSRE
+H. (2011b). Identification of quantitative trait loci for partial resis-
+Sugimoto, T., Kato, M., Yoshida, S., Matsumoto, I., Kobayashi, T.,
+tance to Phytophthora sojae in soybean. Plant Breeding, 130, 144-
+Kaga, A., Ishimoto, M. (2012). Pathogenic diversity of Phy-
+149. htpsz/deiorgniou/jke9-09232010079X
+tophthora sojae and breeding strategies to develop Phytophthora- Xue, A. G., Marchand, G., Chen, Y., Zhang, ,S., Cober, E. R., & Tenuta,
+resistant soybeans. Breeding Science, 61, 511-522. https://doi.org/
+A. (2015). Races of Phytophthora sojae in Ontario, Canada, 2010-
+10.1270/jsbbs.61.511
+2012. CanadianJoumnalo/PlalofPlantPathology.37, 376-383. https://doi.
+Sugimoto, T., Yoshida, S., Aino, M., Watanabe, K., Shiwaku, K., &
+org/10.1080/07060661.2015.1052562
+Sugimoto, M. (2006). Race distribution of Phytophthora on soy- Xue, J.-Y., Wang, Y., Wu, P., Wang, Q, Yang, L.-T., Pan, X.-
+bean in Hyogo, Japan. TheJournal ofGeneral Plant Pathology, 72,
+H., Chen, J.-Q. (2012). A primary survey on Bryophyte
+92-97. htps/doiorg/10.1007/10327-005-02557
+species reveals two novel classes sofnucleotide-binding site (NBS)
+Sun,J.,Li,L., Zhao,J., Huang, J., Yan, Q., Xing, H., & Guo, N. (2014).
+genes, PLOS ONE, 7, e36700. Mepl@slogpaugnlypumalpone
+Genetic analysis and fine mapping of RpsJS, a novel resistance
+0036700
+gene to Phytophthora sojae in soybean [Glycine max (L.) Merr.]. Yan, H., & Nelson Jr., B. (2019). Adaptation of Phytophthora sojae to
+Theoretical andApplied Genetics, 127, 913-919. https://doi.org/10.
+Rps resistance genes over the past two decades in North Dakota.
+100750012-014-266-2
+Plant Health Progress, 20, 88-93. hmpc/@GeiopgTOiUMUPHFIO
+Sun, S., Wu, X. L., Zhao, J. M., Wang, Y. C., Tang, Q. H., Yu, D. Y.,
+18-0062-RS
+Xing, H. (2011). Characterization and mapping sofRpsYu25,anovel Yang, J., Wang, X., Guo, B., Huang, J., Ye, W., Dong, S., Wang,
+resistance gene to Phytophthora sojae. PlantBreeding.130, 139-143.
+Y. (2019). Polymorphism in natural alleles of the avirulence gene
+htpsz/doiopgnoil/j449-0323201001794X
+Avrlcis sassociated with the host adaptation of Phytophthora sojae.
+Tooley, P., & Grau, C. (1984). Field characterization of rate-reducing
+Phytopathology Research, 128. https./doi.org/10.1186/s42483-019-
+resistance to Phytophthora megasperma f. sp. glycinea in soybean.
+0035-5
+Phytopathology, 74, 1201-1208. https:/doi.org/10.1094/Phyto-74- Yu, A., Xu, P., Wang, J., Zhang, S., Wu, J., Li, W., Jiang, L. (2010).
+1201
+Genetic analysis and SSR mapping of gene resistance to Phytoph-
+Tucker, D. M., Saghai Maroof, M. A., Mideros, S., Skoneczka, J.
+thora sojae race lin soybean cV. Suinong10. Chinese JournalofOil
+A., Nabati, D. A., Buss, G. R., Dorrance, A. E. (2010). Map-
+Crop Sciences, 32, 462-466.
+ping quantitative trait loci for partial resistance to Phytophthora Zhang, J., Xia, C., Duan, C., Sun, S., Wang, X., Wu, X., & Zhu,
+sojae in a soybean interspecific cross. Crop Science, 50, 628-635.
+Z. (2013a). Identification and candidate gene analysis of a novel
+htps/doiorglo.21a5/eropeci2009.03.0161
+Phytophthora resistance gene Rps10 in a Chinese soybean cul-
+Turner, S. D. (2014). qqman: An R package for visualizing GWAS
+tivar. PLOS ONE, 8, e69799. hmpeldslognaunlypumalpoe
+results using Q-Q and manhattan plots. bioRxiv. https://doi.org/
+0069799
+10.1101/005165.
+Zhang, J., Xia, C., Wang, X., Duan, C., Sun, S., Wu, X., & Zhu, Z.
+Voorrips, R. E. (2002). MapChart: Software for the graphical presen-
+(2013b). Genetic characterization and fine mapping of the novel
+tation of linkage maps and QTLS. Journal of Heredity, 93, 77-78.
+Phytophthora resistance gene in a Chinese soybean cultivar. The-
+hmepuldsiograiwgwndmur
+oretical and Applied Genetics, 126, 1555-1561. https.//doi.org/10.
+Wang, H., St. Martin, S. K., & Dorrance, A. E. (2012). Comparison
+1007500122-013-2073-1
+of phenotypic methods and yield contributions of quantitative Zhang, S., Xu, P., Wu, J., Xue, A. G., Zhang, J., Li, W., :
+trait loci for partial resistance to Phytophthora sojae in soybean.
+Lv, H. (2010). Races of Phytophthora sojae and their vir-
+Crop Science, 53, 609-622. htrps//doi.org/10.2135/cropsci2011.06.
+ulences on soybean cultivars in Heilongjiang, China.
+0336
+Plant Disease, 94, 87-91. hmpeldsopglaipwurosek
+Wang, N., Akey, J. M., Zhang, K., Chakraborty, R., & Jin, L. (2002).
+0087
+Distribution of recombination crossovers and the origin of hap- Zhang, Z., Ersoz, E., Lai, C.-Q., Todhunter, R. J., Tiwari, H. K., Gore,
+lotype blocks: The interplay ofpopulation history, recombination,
+M. A., : Buckler, E. S. (2010). Mixed linear model approach
+amnémuton.imetianjoumadl ofHuman Genetics, 71,1227-1234.
+adapted for genome-wide association.studies. Nature Genetics, 42,
+htpe/dolop10.034498
+355-360. htpel/dolopgno.osingste
+Wang, H., Waller, L., Tripathy, S., St. Martin, S. K., Zhou, L., Krampis, Zhong, C., Li, Y., Sun, S., Duan, C., & Zhu, Z. (2019). Genetic map-
+K., Dorrance, A. E. (2010). Analysis of genes underlying soy-
+ping and molecular characterization of a broad-spectrum Phy-
+bean quantitative trait loci conferring partial resistance to Phy-
+tophthora sojae resistance gene in Chinese soybean. International
+tophthora sojae. The Plant Genome, 3, 23-40. https://doi.org/10.
+Journal of Molecular Science, 20, 1809. htrps./doi.org/10.3390
+aa5phantgenoma2wslzooy
+ijms20081809
+RIGHTSLIN Ko
+
+
+
+VAN ET AL.
+The Plant Genome mi0 190f19
+Zhong, C.,Sun,S.Li,Y, Duan, C.,& Zmu.Z@os).Netgmeration SUPPORTING INFORMATION
+sequencing to identify candidate genes and develop diagnostic Additional supporting information may be found online
+markers for a novel Phytophthora resistance gene, RpsHC18, in in the Supporting Information section at the end of the
+soybean. Theoretical and Applied Genetics, 131, 525-538. https:/1 article.
+dalorg/aiwnAou205.9062
+Zhong, C., Sun, S., Yao, L., Ding, J., Duan, C., & Zhu, Z. (2018b).
+Fine mapping and identification of a novel Phytophthora root
+rot resistance locus RpsZS18 on Chromosome 2 in soybean.
+How to cite this article: Van K, Rolling W,
+Frontiers in Plant Science, 9, 44. hupc/odslongiospiph.zuis
+00044
+Biyashev RM, et al. Mining germplasm panels and
+Zhu, Z., Huo, Y., Wang, X., Huang, J., & Wu, X. (2007). Molecular
+phenotypic datasets to identify loci for resistance to
+identification ofa novel Phytophthora resistance gene in soybean.
+Phytophthora sojae in soybean. Plant Genome.
+Acta.Agronomica Sinica, 33, 154-157.
+2021;14:e20063. hepl@eslegloiwaltpg2.a0
+à
+:
+P
+I
+I
+I
+I
+I
+I
+I
+I
+o
+I
+9
+I
+E
+I
+e
+1
+I
+I
+RIGHTSLIN Ko
+I

@@ -1,0 +1,1218 @@
+Plant Biotechnology Journal
+gab
+OpenAccess
+SOB
+Plant Biotechnology Journal (2021), pp. 1-15
+doi: 10.1111/pbi.13536
+Natural variation in the promoter of GSERD15B affects salt
+tolerance in soybean
+Ting Jin, Yangyang Sun, Zhong Shan, Jianbo He, Ning Wang, Junyi Gai and Yan Li*
+National Key Laboratory of Crop Genetics and Germplasm Enhancement National Center for Soybean Improvement, Key Laboratory for Biology and Genetic
+Improvement of Soybean (General, Ministry of Agriculture), Jiangsu Collaborative Innovation Center for Modern Crop Production, Nanjing Agricultural University,
+Nanjing, China
+Received 9 October 2019;
+Summary
+revised 11 December 2020;
+Salt stress has detrimental effects on crop growth and yield, and the area of salt-affected land is
+accepted 16 December 2020.
+increasing. Soybean is a major source of vegetable protein, oil andfeed, but considered as a salt-
+*Correspondence (Tel 86-25-84399519; sensitive crop. Cultivated soybean (Glycine max) is domesticated from wild soybean (G. soja) but
+fax 86-25-84399519; email:
+lost considerable amount of genetic diversity during the artificial selection. Therefore, it is
+yanlit@njau.edu.cn)
+important to exploit the gene pool of wild soybean. In this study, we identified 34 salt-tolerant
+accessions from wild soybean germplasm and found that a 7-bp insertion/deletion (InDel) in the
+promoter of GSERD15B (early responsive to dehydration 15B) significantly affects the salt
+tolerance of soybean. GSERD15B encodes a protein with transcriptional activation function and
+contains al PAM2 domain to mediate its interaction with poly(A)-binding (PAB) proteins. The 7-bp
+deletion in GSERD15B promoter enhanced the salt tolerance of soybean, with increased up-
+regulation of GSERD15B, two GmPAB genes, the known stress-related genes including GmABI1,
+GmABI2, GmbZIP1, GmP5CS, GmCAT4, GmPIP1:6, GmMYB84 and GmSOS1 in response to salt
+stress. We propose that natural variation in GSERD15B promoter affects soybean salt tolerance,
+and overexpression of GSERD15B enhanced salt tolerance probably by increasing the expression
+Keywords: GSERD15B, GWAS,
+levels of genes related to ABA-signalling, proline content, catalase peroxidase, dehydration
+haplotype, InDel, salt stress, soybean. response and cation transport.
+Introduction
+under saline conditions by genetic improvement (Parker et al.,
+1983). Previous studies have shown that there is great variation in
+Soil salinity causes severe leaf chlorosis, dehydration, necrosis of salt tolerance among soybean germplasm, and a large genetic
+plants (Xie et al., 2008) and ultimately limits their growth and difference between wild soybean (G. soja) and cultivated soybean
+development (Zhu, 2001). Salinity-alkalinity stress reduces crop (G. max) has been observed (Ha etal., 2013; Qietal., 2014; Zhou
+quality and yield (Xiang et al., 2016), which is one of the major et al., 2015). Several salt-tolerant soybean accessions (including
+environmental factors affecting food security. Saline soils cur- G. soja) have been identified (Chen et al., 2013; Guan et al.,
+rently account for 19.6% of irrigated land and over 2.1% of non- 2014; Qi et al., 2014; Shao et al., 1986). Due to the artificial
+irrigated land (FAO, 2018). Meanwhile, the area of salt-affected selection and loss of some important genes in cultivated soybean
+agricultural land is predicted to double by year 2050 for irrigated during domestication, wild soybean population exhibits higher
+and some semi-arid areas due to inefficient fertilizer practices, genetic and allelic diversity than the cultivated soybean (Hyten
+salt-water intrusion and use of poor quality irrigation water et al., 2006; Wang et al., 2015; Zhou et al., 2015), which is
+(Rengasamy, 2006).
+therefore a valuable genetic pool for breeding new salt-tolerant
+Soybean [Glycinemax (L.) Merr.] is a major source of vegetable varieties.
+protein and oil worldwide (Do et tal., 2016), providing about 70%
+Tolerances to environmental stresses are controlled by a large
+of the world protein meal consumption and 28% of the world number of genes scattered throughout the genome (Guan et al.,
+vegetable oil consumption in 2019 (www.soystats.com). Soybean 2014). Quantitative trait locus (QTL) controlling salt tolerance had
+is generally classified as a salt-sensitive crop compared with other been identified in soybean (Chen et al., 2008; Hamwieh et al.,
+major crops such as wheat, rice and cotton (Do et al., 2016; 2011; Hamwieh and Xu, 2008; Lee et al., 2004). A major salt
+Munns and Tester, 2008). Under salt stress, soybean yield was tolerance QTL was mapped to the region between simple repeat
+reduced by 20% at the electrical conductivity (EC) of 4.0 dS/m sequence (SSR) markers Sat_091 and Satt237 on chromosome
+and by 54% at ECe of 6.7 dS/m (Katerji et al., 2003). Thus, it is (Chr.) 3 by using 106 F2:5 recombinant inbred lines (RILS) derived
+important to identify salt-tolerant soybean germplasm and genes from an across between S-100 and Tokyo (Lee et al., 2004). This
+to breed elite cultivars with greater salt tolerance.
+QTL region was also identified in other populations (Ha et al.,
+The identification of natural alleles underlying salt tolerance 2013; Hamwieh et al., 2011; Hamwieh and Xu, 2008). Recently,
+indicates there is a great potentialto improve the yield of soybean Glyma03932900 (GmCHX1, encoding a cation H+ exchanger)
+Please cite this article as: Jin, T., Sun, Y., Shan, Z., He, J., Wang, N., Gai, J. and ILi,Y. (2021) Natural variation in the promoter of GSERD15B affects salt tolerance in
+soybean. Plant Biotechnol J., hmpui6sog101Up81396
+o 2020 The Authors. Plant Biotechnology. Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd.
+1
+This is an open access article under the terms of the Creative Commons Ambadontocommecshadoens License, which permits use and
+distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+
+
+
+2 Ting Jin et al.
+within this major salt tolerance QTL on Chr.3, was found as a II, while group 2 mainly (89%) originated from Eco-Region III and
+novel ion transporter and associated with salt tolerance (Qi et al., IV.
+2014). Another study showed that GmCHX1 is the same gene as
+The salt tolerance of these 182 soybean accessions was
+GmSALT3, a gene associated with shoot sodium ion accumula- evaluated using STR at seedling stage as described previously
+tion and salt tolerance (Guan et al., 2014). In addition, other salt- (Hamwieh et al., 2011; Shao et al., 1986; Tuyen et al., 2010). The
+tolerant genes have also been identified from wild soybean. For heritability of STR was estimated as 91.0% based on the variance
+example, GSCLC-c2 was identified through genome-wide associ- analysis (Table S2), suggesting that the phenotypic variation in
+ation study (GWAS), which improved salt tolerance through the salt tolerance of this population was mainly attributed to genetic
+sequestration of excess CI into the vacuoles of root cells (Wei effects. The correlation coefficients of STR between repeated
+et al., 2019). Overexpression of GSMYB15 (Shen et al., 2018), experiments were quite high (Table S3), indicating high repeata-
+GSRR (Chen et al., 2018) or GSCHX19.3 (Jia et al., 2017) bility of STR. There was great variation in salt tolerance among
+conferred salt and alkali tolerance of Arabidopsis thaliana. these wild soybean accessions, with STR ranging from 1 to 5,
+Overexpression of GSSRK increased the salt tolerance of trans- where 1 represents most salt-tolerant and 5 as most salt-sensitive
+genic Medicago sativa and A. thaliana (Sun et al., 2018).
+(Figure S2a). Due to good repeatability, the BLUP of STR
+Although some salttolerance QTL and a limited number of salt (Figure S2b) is consistent with the average value of three
+tolerance genes have been reported in soybean, more diverse biological replications (Figure S2c, d). The phenotypes of two
+natural alleles for salt tolerance from wild soybean need to be soybean accessions representing most salt-tolerant (STR = 1) and
+discovered. Therefore, in this study, the salt tolerance candidate salt-sensitive (STR == 5) under 200 mM NaCl for 16 days showed
+genes were identified by integrating GWAS on salt tolerance of obvious difference: the salt-tolerant accession was almost normal
+182 wild soybean (G. soja) accessions, with differential gene with green healthy leaves while the sensitive accession appeared
+expression and sequence variation analyses between salt-tolerant dead with yellow and wilted leaves (Figure S3).
+and sensitive soybean varieties. Further haplotype analysis Association analysis and identification of candidate
+revealed the polymorphism of an insertion/deletion (InDel) at genes for salt tolerance in G. soja
+the promoter region of one candidate gene, GSERD15B (Glycine
+soja Early Responsive to Dehydration 15 B), was significantly We performed GWAS on salt tolerance (BLUP value of STR) in 182
+associated with salt tolerance. The effect of different natural wild soybean accessions (Figure S4), using mixed model in
+alleles of GSERD15B on salt tolerance was determined by EMMAX (Zhang et al., 2010), which corrects the confounding
+transforming soybean hairy roots with vectors containing differ- effects of population structure and relatedness between individ-
+ent promoters (including two natural alleles) to express uals. We used the suggestive threshold P-value < 2.79 X 10-4
+GSERD15B gene. The possible molecular mechanism of (-logioP-value > 3.55) to select the potential STR-associated
+GSERD15B in response to salt stress was investigated by yeast SNPS, which is non-conservative but allow us to select the possible
+two-hybrid (Y2H) experiments, bimolecular fluorescence comple- candidate genes by integrating GWAS with other experimental
+mentation (BIFC) assay, protein-protein interaction network and evidence without missing too many true candidates. Using this
+expression analysis of the known salt stress-related genes, as well threshold, 19 suggestive SNPS were associated with salt tolerance
+as promoter luciferase (LUC) assay. A derived Cleaved Amplified (Figure S4, Table S4), and 11 of them showed significant asso-
+Polymorphic Sequences (dCAPS) marker was also developed to ciation (P < 0.05) with STR in the multi-locus mixed model
+distinguish the two natural alleles of GSERD15B. This study (Table S4). To select the candidate genes underlying these 11
+identified the natural alleles underlying the salt tolerance in wild STR-associated SNPS, annotations for the 209 genes within
+soybean (G. soja) and revealed the role of GSERD15B in salt + 115 kb (average LD decay distance across all 20 chromosomes)
+tolerance.
+of these 11 SNPS were obtained (Table S5), and nine genes had
+the annotations related to salt tolerance (Table S4).
+Results
+Next, we investigated the expression patterns of these nine
+Population structure and variation in salt tolerance of
+candidate genes in ten salt-tolerant andten salt-sensitive soybean
+182 wild soybean accessions
+accessions in response to salt stress (Figure S5) by qRT-PCR. The
+relative expression levels of four genes, GSPRX, GSJMT, GSCHX
+A total of 182 wild soybean (G. soja) accessions originated from and GSERD15B, were significantly higher in response to salt stress
+24regions in China (Table S1) were genotyped by RAD-seq, and a in salt-tolerant soybean accessions than those salt-sensitive
+total of 141,425 SNPS with missing rate < 30% and minor allele accessions (Figure S5), and the STR was significantly correlated
+frequency (MAF) > 0.01 were retained (the heterozygous SNPS with the relative expressions of these four genes in these 20
+were treated as missing) (He et al., 2017). The missing SNPS were soybean accessions (Table S6), indicating their potential roles in
+then imputed, and a total of 72,574 genome-wide SNPS with salt tolerance of soybean. GSCHX had been identified as the
+MAF > 0.05 were used for further analysis. Based on the PCA known salt tolerance gene GmCHXI/GmSALT3/NdI (Gly-
+and population structure analysis, these 182 accessions were ma03932900) in soybean (Guan et al., 2014; Qi et al., 2014),
+clearly grouped into two subpopulations, group 1 and group 2 while the roles of other three candidate genes in salt tolerance
+(Figure S1). From delta K value, the most likely K value was 2 are unknown. Therefore, we sequenced the coding and promoter
+(Figure S1a) and ADMIXTURE analysis (Figure S1b) inferred two regions of these three newly identified salt tolerance candidate
+ancestral groups, which was supported by the PCA result genes (GSPRX, GSIMT, GSERD15B) from ten salt-tolerant and ten
+(Figure S1c). Neighbour-joining tree (Figure 1a) also classified salt-sensitive soybean accessions. The results showed that there
+these 182 soybean accessions into two groups, reflecting their was sequence variation only in the promoter region of GSERD15B
+geographical origin (Figure 1b). Based on the soybean Eco-Region between salt-tolerant and salt-sensitive soybean accessions (Fig-
+classification in China (Gai and Wang, 2001), the majority (94%) ure S6), while there was no variation in the sequences of other
+of the accessions within group 1 originated from Eco-Region land genes or the CDS region of GSERD15B, which showed same as
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 3
+(a)
+(b)
+a
+I
+
+EGroupl
+Group2
+Figure 1 Genetic relationship and geographic origins of the two groups within 182 wild soybean accessions. Two groups, group1 and group2, within the
+182 wild soybean (G. soja) accessions identified by Population Structure analysis, are shown in blue and red, respectively. (a) Neighbour-joining tree of the
+182 accessions using Nei's genetic distance. (b) The geographic origins of the 182 accessions. The size of the pie represents the number of faccessions within
+the location.
+the reference genome sequence of Williams 82. Nine out of ten GSERD15B promoter, which would be useful to select other
+salt-sensitive accessions had a 7-bp insertion (ATTTTTT) at soybean accessions with Hap2 type GSERD15B allele, and also can
+-525--519 bp upstream of the start codon (ATG) of GSERD15B, enhance the efficiency of marker assisted selection (MAS)
+while eight out of ten salt-tolerant accessions did not have this programme to breed for salt-tolerant soybean cultivars in future
+insertion (Figure S6). Therefore, we selected GSERD15B as the salt research.
+tolerance candidate gene for further analysis.
+Natural alleles of GSERD15B promoter affect salt
+Haplotype analysis and dCAPS marker development for tolerance of soybean hairy roots
+salt tolerance candidate gene GSERD15B
+Based on the observation that the salt-induced expression levels
+To confirm the relationship between GSERD15B and salt toler- of GSERD15B were significantly higher in salt-tolerant soybean
+ance, the promoter regions of 48 salt-tolerant and 54 salt- accessions than those in salt-sensitive accessions (Figure S5), and
+sensitive accessions were sequenced and compared (Table S7). the Hap2 allele of GSERD15B had significantly better salt
+Two haplotypes (Hap) were observed in this region among these tolerance than Hap1 allele (Figure 2b), therefore we hypothesized
+102 accessions, including 57 accessions as Hap1 and 45 that Hap2 allele might have higher salt-induced expression levels
+accessions as Hap2 (Table S7). Hap1 had the 7-bp insertion at of GSERD15B than Hap1 allele, then leading to salt tolerance. We
+-525--519 bp of GSERD15B, while Hap2 contained a 7- used the 20 soybean accessions with extreme STR to test this, and
+bp deletion in this promoter region (Figure 2a). Most (421 the results showed that, on average, Hap2 allele of GSERD15B
+48 = 87.5%) salt-tolerant accessions belong to Hap2 except that conferred significantly better salt tolerance (Figure S8a) and had
+six salt-tolerant accessions belong to Hap1, while most (51/ higher salt-induced expression levels of GSERD15B than Hap 1
+54 = 94.4%) salt-sensitive accessions belong to Hap1 except that allele (Figure S8b; Figure 2d; Figure S9).
+three salt-sensitive materials belong to Hap2 (Table S7). There
+In order to confirm the function of GSERD15B in salt
+was significant (P = 1.47 x 10-12, two-sided Wilcoxon test) tolerance experimentally by reverse genetics, the coding
+difference in salt tolerance between Hap1 and Hap2: the average region of GSERD15B gene was expressed in fusion with
+STR of Hap1 is 4.20, while the average STR of Hap2 is 1.64 GFP, driven by different promoters including the 35S,
+(Figure 2b).
+ProHap1 and ProHap2 (GSERD15B promoter), respectively
+Since the 7-bp InDel in GSERD15B promoter was found (Figure 3a), and transformed into soybean cotyledon hairy
+significantly associated with the salt tolerance in wild soybean, roots using the salt-sensitive (STR == 5) soybean accession
+we designed a dCAPS marker for this 7-bp InDel. After PCR Tianlong1 which also contains the Hap1 type promoter. The
+amplification using the specific primers (Table S8), Hap2 type positive transgenic hairy roots were identified through fluo-
+produced 138-bp amplicons containing 'TTATAA' sequence, rescence signal of GFP (Figure 3b). Under normal condition
+which can be digested by the restriction enzyme Ssp 1, resulting (0 mM NaCI), all soybean hairy roots grew well, with no
+in a 100-bp band and a 38-bp band after electrophoresis, while obvious difference (Figure 3c, d; Figure S10). Under 100 mM
+Hap1 type produced 145-bp amplicons, which cannot be NaCl stress, the average fresh weight of ProHap2:G5ERD15B
+digested by Ssp I and therefore showed a 145-bp band after transformed soybean hairy roots was significantly higher than
+electrophoresis (Figure 2c), which was consistent with the that of ProHap1:G5ERD15B or 35S:GSERD15B transformed
+sequencing results (Figure S6; Table S7). We used this dCAPS hairy roots, and much higher than that of the empty vector
+marker to genotype the rest of soybean accessions, and the transformed roots (Figure 3d; Figure S10).
+polymorphisms were consistent with sequencing results (Fig-
+In order to further validate the function of GSERD15B gene and
+ure S7; Table S7). Therefore, this dCAPS marker can be used to different alleles of its promoter in salt tolerance, we also
+differentiate the two natural alleles of the 7-bp InDel in performed the gain-of-function tests using regenerated soybean
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+4 Ting Jin et al.
+(a) -2000
+ATG
+TGA
+haplotype -539 -538 -537 -536 -535 -534 -533 -532 -531 -530 -529 -528 -527 -526 -525 -524 -523 -522 -521 -520 -519 -518 -517 -516 -515 -514 Number
+Hapl A T T T T T T A T T T T T T A T T T T T T G A A A T 57
+Hap2 A T
+T
+G
+T 45
+(b)
+n= 57/45 P 1.47 x 10-12
+(c)
+M 1.0 1.0 1.0 1.0 1.4 1.1 4.5 4.4 5.0 4.9 5.0 5.0 < STR
+in
+500bp
+8
++
+LYO1-10 LY15-08 LY20-08 LY01-03 LY03-05 LY21-03
+200bp
+LY15-07 LY16-08 LY04-02 LY01-06 LY07-04 LY19-01
+E m
+145bp
+100bp
+100bp
+N
+20bp
+38bp
+-
+8
+(d)
+Hap1
+Hap2
+Hap2
+Hap1
+12 1
+a
+10
+b b
+8
+6
+I
+h
+d
+4
+d
+i i h h h h h h T h g
+2
+T
+ii
+€
+iiilll
+à 9
+
+à
+5 € 2 9
+à
+Hapl
+Hap2
+Figure 2 Haplotype and relative expression analyses of GSERD15B. (a) Schematic graph shows the Insertion/Deletion (InDel) variation in the promoter
+region of GSERD15B gene and the corresponding two haplotypes, Hap1 and Hap2. (b) Boxplot of salt tolerance rating (STR) for two haplotypes. Statistical
+significance (P = 1.47 x 10-12)of the difference between two haplotypes was determined by two-sided Wilcoxon test. The centre bold line represents the
+median; box edges indicate the upper and lower quantiles; whiskers show the 1.5 x interquartile range and points indicate outliers. (c) Electrophoresis
+shows dCAPS marker polymorphism for GSERD15B. Hap2 type can be cleaved by Ssp enzyme, which produced DNA fragments of 100-bp and 38-bp.
+Hap1 type cannot be digested by Ssp lenzyme, leading to a single band of 145-bp. DNA molecular weight marker is 20-bp DNA Ladder. (d) Relative
+expression of GSERD15B in soybean response to salt stress. The relative expression of GSERD15B in soybean root tips (0-2 mm) at 12 h after salt stress
+(180 mM NaCI) was quantified by qRT-PCR, using GmUKN1 as the reference gene and the corresponding samples under 0 mM NaCi as controls. Data
+represent the mean + standard deviation of three replicates. Same letters above bars indicate no significant difference according to Duncan's multiple
+range test at a = 0.05.
+hairy roots (Figure 3e-g; Figure S11). Phenotypes of all regener- with 0 mM NaCl condition, respectively (Figure 3g; Figure S11).
+ated hairy roots had no obvious difference under normal growing Furthermore, promoter-LUC transient expression assays in
+condition (Figure 3e, f; Figure S11). The primary root length of tobacco leaves revealed that the Hap2 type promoter had a
+ProHap2:G5ERD15B transformed roots was significantly significantly stronger activity than Hap1 type under salt stress but
+(P < 0.05) longer than that of the empty vector, 35S:GSERD15B not control condition (Figure 3h-j), suggesting that Hap2 type
+or ProHap1:GsERD15B transformed roots under salt stress (Fig- promoter is more responsive to salt stress than Hap1 type. Taken
+ure 3f; Figure S11). We confirmed the overexpression level of together, the Hap2 type promoter can increase the GSERD15B
+GSERD15B in ProHap2:G5ERD15B or ProHap1:GSERD15B trans- expression rapidly in response to salt stress and therefore
+formed soybean hairy roots, which was over 34 times or 10-fold enhanced the salt tolerance of soybean hairy roots.
+(on average) of that in the empty vector transformed hairy roots GSERD15B has transcriptional activation function and
+under 0 mM NaCl, respectively (Figure 3g; Figure S11). The up- interacts with poly(A)-binding (PAB) proteins
+regulation of GSERD15B MRNA expression at 3 h post-salt stress
+in ProHap2:G5ERD15B or ProHap1:GSERD15B transformed soy- Phylogenetic analyses of GSERD15B with 22 ERD15 proteins
+bean hairy roots was 13.67-fold (477.87/34.97) or 1.43-fold (Aalto et al., 2012) from plant species showed that GSERD15B
+(14.40/10.10) on average comparing 100 mM NaCl treatment was closely related with GmERD15A and MtERD15A (Figure 4a),
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 5
+(a)
+(b)
+(c) OmM NaCI 100 mM NaCI (d)
+DEV
+35S GFP
+035S:GSERDISB
+OPrellapl-GERDISB
+aProllap2-GERDISB
+0.35 7
+35S GSERDISB GFP
+0.3
+I P0.25
+0.2
+Prollapl GSERDISB GFP
+2 0.15
+0.1 -
+-
+I
+-
+I
+d
+0.05
+ProHap2 GSERDISB GFP
+0
+OmM
+100 mM
+(e)
+Od
+14d
+(1)
+DEV
+(g) 500 DEV
+035S:GSERD15B
+035S:GSERD1SB
+477.87
+OProHlapl:G:ERDISB
+480 DProHlupl-GHERDISB
+OmM DOUN
+E
+NaCI
+aPrellap2-GERDISB a
+aProllap2-GERDISB
+460
+b b
+36.50 b
+100 mM  NCJEN
+40
+31.94 34.97
+I
+NaCl
+2
+I
+20
+c
+E
+10.
+d
+1.00
+1.28
+OmM
+100 mM
+OmM
+100 mM
+(h)
+()
+()
+ProHapl:LUC ProHap2:LUC
+ProHapl:LUC ProHap2:LUC
+12
+OProHapl:LUC
+10 BProHap2:LUC
+9
+a
+a
+oo
+9
+OmM
+300 mM
+Figure 3 Effect of different GSERD15B promoters on salt tolerance of soybean hairy roots and promoter activities. (a) Schematic diagram of different
+constructs using pBinGFP4 as the backbone vector, including the empty vector (EV) 35S:GFP, 35S:GSERD15B, ProHap1:GSERD15B and ProHlap2-GSERD15B.
+ProHap1 andProHap2 represent the promoters from two haplotypes (Hap1 and Hap2) of GSERD15B gene, respectively. The GSERD15B gene was expressed
+in fusion with green florescence protein (GFP). (b) The fluorescence signal of transgenic soybean hairy roots. (c) Phenotypes of transgenic soybean hairy
+roots under control (0 mM NaCI) or salt stress (100 mM NacI). Photographs were taken 14 day after treatment. From top to bottom represent the hairy
+roots of EV, 35S:GSERD15B, ProHap1:GSERD15B and ProHap2-GSERD15B, respectively. (d) Fresh weights of soybean hairy roots under control (0 mMNaCI)
+or salt stress (100 mM NaCI) for - 14 day. (e) Phenotypes of regenerated transgenic soybean hairy roots under 0 or 100 mM NaCl treatment. Photographs
+were taken at t0 day and 14 day after treatment, respectively. From left to right in each Petri dish represents empty vector (EV, pBinGFP4), 35S:GSERD15B,
+ProHap1:GsERD15B and ProHap2-GSERD15B, respectively. (f) Primary root lengths at 14 day after treatment. (g) Relative expression of GSERD15B gene in
+soybean hairy roots at 3 h after 0 or 100 mM NaCI treatment by qRT-PCR. For relative expression calculation, the sample from soybean hairy roots with
+empty vector (EV, pBinGFP4) under 0 mM NaCI was used as control and GmUKN1 was the reference gene. Same letters above bars indicate no significant
+differences according to Duncan's multiple range test at 0.05 level. Soybean variety of Tianlong1 was used. Data represent the mean + standard deviation
+of three biological replications and each replication has at least fourindependent rootsfor each genotype (n 2 12). (h-)) Promoter activity of two GSERD15B
+haplotypes by transient expression in tobacco leaves after Oor 300 mM NaCi treatment for 16 h. The LUC reporter gene was driven by each haplotype
+promoter. The photographs were taken using in vivo plant imaging system, and the luminescence intensity inh andi iwas shown inj ** indicates significant
+difference in the LUC activity between ProHap1:LUC and ProHap2:LUC at 0.01 level by Student's t-test (n = 6).
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+6 Ting Jin et al.
+and these ERD proteins share common domain structures, PAM2 domain of GSERD15B) could interact with the known PAB
+including the PAM2 and PAE1 motifs in the N-terminus and a (PAB2, PAB4 and PAB8) proteins (Aalto et al., 2012). The results
+C-terminal IqQPR motif (Figure 4b). The transient expression of showed that GSERD15B has transcriptional activation function
+35S:GSERD15B-GFP in N. benthamiana leaf cells showed that (Figure 5a) while the GSERD15B-PAM2 (Figure 5a), PAB2, PAB4
+GSERD15B localized in the nucleus and cytomembrane (Fig- and PAB8 (Figure S12) did not have self-activation activity.
+ure 4c).
+GSERD15B-PAM2 interacts with PAB2, PAB4 and PAB8 proteins
+Since ERD15 proteins contain the conserved PAM2 domain (Figure 5a). The interactions between GSERD15B and PAB2,
+that has the potential to interact with the PABC domain found PAB4, as well as PAB8 were confirmed by BiFC assays (Figure 5b;
+mainly in PAB proteins (Aalto et al., 2012; Kozlov et al., 2004), Figure S13).
+Y2H assays were carried out to analyse whether GSERD15B
+To further investigate the potential interacting proteins of
+possesses transcriptional activation function and if GSERD15B (the GSERD15B, the protein-protein interaction network analysis was
+(a)
+1000
+SIERD15
+(b)
+CaERD15
+PAM2
+PAEI
+CSERD15
+AtERD15
+BnERD15
+CSERD15B
+MIERD15A
+GMERD15A
+1000 GSERD15B -
+ZMERD15B
+ZmERD15C
+336
+OSERD15A
+OSERD15B
+ZmERD15D
+FSNE
+ZmERD15E
+NE
+OSERD15C
+995
+VaERD15
+GmERD15C
+1000 GmERD15D
+CPERD15T
+se
+AtERD15L
+ZmERD1SA
+MEERD15B
+I
+0.1
+IqQPR
+(c)
+Green
+Chloroplast
+fluorescence
+autofluorescence
+Light
+Merged
+-
+A
+-
+5
+Figure 4 Phylogenetic analysis, sequence alignment and subcellular localization of GSERD15B protein. (a) Phylogenetic tree of ERD15 proteins. The 1000
+bootstrap values are shown on the branches. (b) Sequence alignment of ERD15 proteins. The conserved PAM2, PAE1 andIqQPR domains are indicated by
+boxes. Both figures are generated using the full-length amino acid sequences of the 22 proteins that are homologous with GSERD15B, including AtERD15
+(Arabidopsis thaliana, AT2G41430), AtERD15L (Arabidopsis thaliana, AT4G14270), BnERD15 (Brassica napus, ADP37978.1), CaERD15 (Capsicum annuum,
+ABB89735.1), CPERD15T (Carica papaya, emTusupercontsz.197.11, CSERD15B (Cucumis sativus, Cucsa.335550), GmERD15A (Glycine max,
+Glyma04g28560), GSERD15B (Glycine soja, XP_028191281.1), GmERD15C (Glycine max, Glyma02942860), GmERD15D (Glycine max, Glyma14g05980),
+MtERD15A (Medicago truncatula, Medtr39023110), MtERD15B (Medicago truncatula, Medtr5g091120), OSERD15A (Oryza sativa, Q7XXS2), OSERD15B
+(Oryza sativa, Q7EZY8), OSERD15C (Oryza sativa, Q5W6M4), SIERD15 (Solanum lycopersicum, NP_001234461), VaERD15 (Vitis amurensis, JQ687321),
+ZmERD15A (Zea mays, GRMZM2G093325), ZmERD15B (Zea mays, GRMZM2G181551), ZmERD15C (Zea mays, GRMZM2G045178), ZmERD15D (Zea
+mays, GRMZM2G327692) and ZmERD15E (Zea mays, GRMZM2G037189). (c) Confocal microscopy images showing the subcellular localization of
+GSERD15B in leaf cells of Nicotiana benthamiana. Bars, 50 um.
+o 2020 The Authors. Plant Biotechnology. Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 7
+(a)
+DDO/X-a-gal QDO/X-a-gal
+10 102 103 10 102 103
+BD-53 + AD-T
+BD-Lam + AD-T
+BD-GSERD15B + AD
+BD-GSERD15B- PAM2+ AD
+BD-GSERD15B- PAM2+ AD-AtPAB2
+BD-GSERD15B- PAM2+ AD-AtPAB4
+BD-GSERD15B- PAM2+ AD-AtPAB8
+(b)
+YFP Chlorophyll Bright Field Merge
+GSERD15B-YFP"
+AtPAB2-YFP
+GSERD15B-YFP"
+AtPAB4-YFP
+GSERD15B-YFP"
+AtPAB8-YFPE
+Figure 5 Transactivation and protein interaction analyses of GSERD15B. (a) Yeast two-hybrid (Y2H) assay showing that GSERD15B protein has self-
+activation activity but GSERD15B-PAM2 domain does not have self-activation activity, and GSERD15B interacts with AtPAB2, AtPAB4, AtPAB8. DDO/X-a-gal
+and QDO/X-a-gal represent double dropout medium (without Leu/Trp) and quadruple dropout medium (without Ade/Leu/Trp/His), respectively. BD: the
+GAL4 DNA binding domain in PGBKT7 vector; AD: the GAL4 activating domain in PGADT7 vector. The BD-Lam + AD-T is the negative control and BD-
+53 + AD-T is the positive control. (b) Bimolecular Fluorescence Complementation (BiFC) assay showing that GSERD15B interacts with AtPAB2, AtPAB4,
+AtPAB8, in leaf cells of Nicotiana benthamiana. YFP, yellow fluorescent protein. Scale bar, 50 um.
+performed using GmERD15B (having the same sequence as that the transcriptional changes of these two GmPAB genes in
+GSERD15B) as a query. Interestingly, five out of the top 10 response to salt stress are affected by GSERD15B expression.
+potential interacting proteins (score > 0.9) of GmERD15B were Overexpression of GSERD15B improved the expression
+PAB proteins (Figure 6a). These five GmPAB proteins have the levels of stress-related
+genes
+same conserved domains including the PABC domain as PAB2,
+PAB4, and PAB8 (Figure 6b), and two of the GmPAB genes, In order to investigate the possible mechanisms of GSERD15B-
+GmPAB-14G and GmPAB-17G, have the annotations related to mediated salt tolerance, the expression patterns of GSERD15B in
+response to salt stress. Further, the BiFC experiments demon- different soybean tissues (Figure S14), as well as the effect of
+strated that GmPAB-14G and GmPAB-17G could interact with GSERD15B overexpression on the expression levels of the known
+GSERD15B/GmERD15B (Figure 6c; Figure S13). The coding stress-related genes, were investigated (Figure 7a). Under 0 mM
+sequences of GmPAB-14G and GmPAB-17G are identical with NaCl, the expression of GSERD15B was higher in roots and stems
+GsPAB-14G and GSPAB-17G, respectively. The relative expression than leaves (Figure S14a). Under salt stress, the relative expres-
+of these two GmPAB genes in the transgenic soybean hairy roots sion of GSERD15B in roots was higher than leaves (Figure S14b),
+(in the genotype background of Tianlong1) with ProHap2: and the relative expression levels in the roots and stems of salt-
+GSERD15B showed significantly greater increase than that in tolerant soybean varieties were significantly higher than those in
+hairy roots containing ProHap1:GsERD15B, 35S:GSERD15B or the salt-sensitive soybean varieties (Figure S14b), which suggest that
+empty vector at 3 h after salt treatment (Figure 6d), suggesting GSERD15B might play important roles in soybean roots under salt
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+8 Ting Jin et al.
+RRM
+(a)
+(b)
+Glyma.07G215300
+(GmPAB-07G)
+ciyma.17G240400
+RRM
+Glyma.14G106500
+(GmPAB-17G)
+(GmPHALS-14G) Glymm.06G057700
+(GmSMR-06G)
+RRM
+Glyma.20G171200
+Glyma-17G219600 (GmPAB-20G)
+(GmPHALS-17G)
+RRM
+Glyma.14Gus4500
+Glyma.11G149900
+
+(GmPAB-14G)
+(GmERD15B)
+Glyma.02G103900
+(GmPAB-02G)
+Glyma.14G141000
+E
+(GmRD22)
+PABC
+Glyma.046057200
+(GmSMR-04G)
+(c)
+YFP
+Chlorophyll
+Bright Field
+Merge
+(d)
+DEV
+035S:GSERDISB
+GSERDISB-YFP"
+OProflapl-GMERDISB
+GmPAB-14G-YFP
+6 mProllap2-GERDISB
+a
+E 5
+a
+4
+b b b
+b
+I
+GSERD1SB-YFP"
+d C
+GmPAB-17G-YFPE
+GmPAB-14G GmPAB-17G
+Figure 6 Prediction, sequence alignment, confirmation and relative expression of the GSERD15B-nteracting PAB proteins/genes. (a) The predicted
+protein-protein interaction network of GmERD15B using STRING database and Cytoscape software. Nodes represent proteins and edges represent
+interactions. (b) Sequence alignment of PAB proteins, including the five soybean PAB proteins that might interact with GmERD15B (GmPAB-07G, GmPAB-
+14G, GmPAB-17G, GmPAB-02G and GmPAB-20G) and three known PAB proteins (PAB2, PAB4 and PAB8) from Arabidopsis, using full-length amino acid
+sequence. The conserved RRM and PABC domains are indicated by boxes. (c) Bimolecular Fluorescence Complementation (BIFC) assay showing that
+GSERD15B (having the same sequence as GmERD15B) interacts with GmPAB-14G, GmPAB-17G in leaf cells of Nicotiana benthamiana. YFP, yellow
+fluorescent protein. Scale bar, 50 um. (d) Relative expression levels of the two GmPAB genes at3h ha after 100 mM NaCI treatment in soybean (Tianlong1)
+hairy roots transformed by empty vector (EV, pBinGFP4), 35S:GSERD15B, ProHap1-GSERD15B, or ProHap2.GSERD15B, respectively. Root samples without
+salt stress (0 mM NaCI) for each genotype were used as the corresponding controls, and GmUKN1 was the reference gene. Data represent
+mean + standard deviation of four biological replications (n X 12). Same letters above bars for each gene indicate no significant difference between
+genotypes according to Duncan's multiple range test at 0.05 level.
+stress. Further, the relative expression of ten stress-related genes stress can enhance the expression of these stress-related genes.
+in five categories were compared between GSERD15B overex- We then selected the top three genes (GmABI2, GmP5CS and
+pressing soybean hairy roots and control roots, including three GmbZIP1) with highest relative expression (Figure 7a) for further
+ABA-related genes, GmABI1, GmABI2 and GmbZIP1 (Gao et al., investigation. We found that the overexpression of GSERD15B
+2011; Leung et al., 1994; Meyer et al., 1994), one proline enhanced the promoter activities of these three genes in the
+synthesis-related gene GmP5CS (Zegaoui et al., 2017), one gene promoter-LUC assays (Figure 7b-g). Thus, we propose that
+(GmCAT4) encoding catalase peroxidase (Sun et al., 2016), two overexpression of GSERD15B enhanced salt tolerance probably
+water loss related genes, GmMYB84 and GmPIP1:6 (Wang, by increasing the expression levels of genes related to ABA and
+Zhang et al., 2017; Zhou et al., 2014) and three genes (GmSOS1, dehydration response, proline content, catalase peroxidase and
+GmSALT3, GmNHX1) encoding ion exchangers (Guan et al., cation transport.
+2014; Zhang et al., 2019). The relative expression of GmABI1,
+GmABI2, GmbZIP1, GmP5CS, GmCAT4, GmMYB84, GmPIP1:6 Discussion
+and GmSOS1 in transgenic soybean hairy roots with ProHap2:
+GSERD15B showed significantly greater increase than that in hairy The genetic diversity of soybean germplasm is of great value for
+roots containing ProHapl:GSERD15B or the empty vector at 3 h soybean improvement and association mapping of important
+after salt treatment (Figure 7a), suggesting that the induced traits (Kan et al., 2015). Due to domestication, the genetic
+expression of GSERD15B driven by Hap2 type promoter under salt diversity in modern cultivated crops has been gradually reduced
+o 2020 The Authors. Plant Biotechnology. Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 9
+(a) 25
+DEV
+20
+035S:GSERDISB
+a
+DProHlapl.GsERDISB
+15
+a
+mProHlap2.G:ERDISB
+I
+I 10
+b
+5
+LE c
+b
+b
+bab
+a b
+d
+CF c
+I bc l
+1
+0
+GmABII GmABI2 GmbZIP1 GmP5CS GmCAT4 GmMYB84 GmPIP1:6 GmSOSI GmSALT3 GmNHX1
+ABA
+Proline CAT
+Dehydrin
+Cation transport
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+a 4
+2.5
+4
+3
+2
+3
+1.5
+2
+2
+I
+1
+0.5
+I
+I
+> 0
+0
+e
+e S
+e e
+C de
+C
+/ S
+e
+y
+f
+6
+6
+-
+E
+a
+4
+45
+5
+G
+4
+-
+4 -
+4
+e -
+4
+<
+/
+R <
+<
+M
+Figure 7 Relative expression patterns of stress-related genes in transgenic soybean hairy roots and promoter activity assays. (a) Relative expression levels
+of stress-related genes at 3h after 100 mM NaCl treatment in soybean hairy roots transformed by empty vector (EV, pBinGFP4), 35S:GSERD15B, ProHap1:
+GSERD15B or ProHap2GSERD15B, respectively. Root samples without salt stress (0 mM NaCI) were used as the controls. Data represent mean + standard
+deviation of four biological replications (n 2 12). Same letters above bars for each gene indicate no significant difference between genotypes according to
+Duncan's multiple range test at 0.05 level. (b, d, f) Promoter luciferase (LUC) assays in tobacco leaves to reveal the promoter activity of GmABI2, GmP5CS
+and GmPIP1:6. (c, e, g) Quantitative analyses of the LUC activities from tobacco leaves shown in b, da andf * represent significant difference at 0.01 level
+by Student's t-test (n = 6).
+(Zhang et al., 2017). Wild soybean has higher phenotypic and study, the single-locus mixed model of GWAS suggested 19 SNPS
+genetic diversity than cultivated soybean (Lam et al., 2010; associated with salt tolerance, which are distributed on Chr.3,
+Munoz et al., 2017). Long-term natural selection and environ- Chr.6, Chr.11  14, Chr.18 and Chr.20. The loci of four SNPS on
+mental stresses also enable the surviving wild soybean varieties to Chr.3 and Chr.6 have been reported in previous studies (Cho
+possess superior characteristics of biotic stress resistance (Qi et al., et al., 2002; Hamwieh et al., 2011; Hamwieh and Xu, 2008; Kan
+2014) and abiotic stress tolerance (Vigueira et al., 2016). In this et al., 2015; Lee et al., 2004). The other 15 SNPS on Chr.11,
+study, the salt tolerance of 182 wild soybean accessions were Chr.12, Chr.14, Chr.18 and Chr.20 represent novel salt tolerance
+evaluated and 34 salt-tolerant (STR < 1.5) accessions were loci detected in this study. Different populations might lead to the
+identified (Table S1), which would be useful for further genetic identification of different QTL (Famoso et al., 2011). Previous
+analysis and breeding for salt tolerance in soybean.
+reports showed that Chr.3 is the major genomic region control-
+The LD between SNPS was estimated by 7 in our mapping ling salt tolerance in soybean (Ha et al., 2013; Hamwieh et al.,
+population. As expected, the 2 value declined as the physical 2011; Hamwieh and Xu, 2008; Lee et al., 2004), which includes
+distance between SNPS increased (Figure S15). In addition, the LD the salt tolerance gene GmCHXI/GmSALT3 in this region (Guan
+decay distance for each chromosome was different, ranging from et al., 2014; Qi et al., 2014). This genomic region on Chr.3 is also
+approximately 32 kb to 230 kb. The average LD decay distance detected by GWAS in this study (Figure S4), which is in the LD
+across all 20 chromosomes was estimated at approximately with the significantly STR-associated SNPS. The closest SNP to
+115 kb, which is less than that in landraces (-500 kb) (Hwang GmCHXI/GmSALT3 in this study is Gm03_40722843 with a P-
+et al., 2014), but more than the previous estimation of 75 kb in value of 8.29 x 10-5 in the single-locus mixed model (Table S4),
+wild soybean (Lam et al., 2010). The use of different populations which passed the suggestive threshold (P < 2.79 x 10-4) but did
+and different sets of molecular markers might cause the not reach the stringent threshold of Bonferroni corrected P-value
+difference in estimation of LD decay distance.
+(false discovery rate, FDRO.05) = 4.38 x 10-7 (0.05/72 574).
+Several salt tolerance QTL have been reported in soybean, However, this SNP did show significant (P< 0.05) association
+which are mainly distributed on Chr.3 (Lee et al., 2004), Chr.6 with salt tolerance in our multi-locus mixed model (Table S4).
+(Cho et al., 2002; Kan et al., 2015), Chr.7 (Kan et al., 2016), Therefore, we used the suggestive threshold for single-locus
+Chr.17 (Tuyen et al., 2010) and Chr.19 (Lee et al., 2004). In this mixed model and P < 0.05 in the multi-locus mixed model as
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+10 Ting Jin et al.
+criteria to choose candidate QTL/SNPS, then chose candidate confirm the role of two natural alleles of GSERD15B in salt
+genes by integrating GWAS results with gene annotation, tolerance, we transformed soybean cotyledon hairy roots with the
+expression and sequence variation.
+empty vector, 35S:GSERD15B, ProHap1:GsERD15B, or ProHap2:
+A total of 11 SNPS showed significant association with STR in GSERD15B (Figure 3). The ProHap2:GSERD15B transformed soy-
+the multi-locus mixed model (Table S4). In the genomic regions bean hairy roots showed significantly higher root fresh weight
+within + 115kb of these 11 SNPS, nine candidate genes have the (Figure 3c, d) and longer primary root length (Figure 3e, f) than
+functional annotations related to plant response to salt stress the empty vector, 35S:GSERD15B or ProHap1:GSERD15B trans-
+(Table S4), and four of them showed higher relative expression in formed roots under salt stress. All these findings inferred that the
+response to salt stress in the ten salt-tolerant accessions than the natural variation (7-bp InDel) in the promoter region of GSERD15B
+ten salt-sensitive soybean accessions (Figure S5), including one plays a vital role in soybean salt tolerance. This 7-bp InDel in the
+known salt tolerance gene (GmCHXIIGMSALT3) and three novel promoter resulted in different transcriptional changes of
+genes. Sequencing analysis of the coding and promoter regions GSERD15B in response to salt stress: there was more up-
+of the three novel genes showed that only the promoter region of regulation of GSERD15B expression in ProHap2:G5ERD15B trans-
+GSERD15B had sequence variation among soybean accessions formed soybean hairy roots than that in ProHap1:GSERD15B
+with extreme salt tolerance (Figure S6). Furthermore, in our transformed roots (13.67-fold and 1.43-fold, respectively) in
+mapping population, the SNP (Gm11_17854357) near GSERD15B response to salt stress (Figure 3g; Figure S11). Consistently,
+showed more significant association with salt tolerance than the promoter-LUC transient expression assays in tobacco leaves also
+SNP (Gm03.40722843) near the known salt tolerance gene revealed that the Hap2 type promoter of GSERD15B had a
+GSCHX in multi-locus mixed model (Table S4); therefore, the significantly stronger activity than Hap1 type under salt stress
+function of GSERD15B was investigated in more detail.
+(Figure 3i, j, suggesting that Hap2 type promoter is more
+To further examine the relationship between the variation in responsive to salt stress than Hap1 type.
+GSERD15B promoter and salt tolerance, we sequenced the
+We further analysed the cis-elements and sequence character-
+promoter regions of 48 salt-tolerant accessions and 54 salt- istics of the 2-kb promoter region (Figure S17) of GSERD15B in
+sensitive accessions. The results showed that the majority of salt- two soybean accessions, LY01-06 (Hap1) and LY01-10 (Hap2).
+tolerant accessions belong to Hap2, while most salt-sensitive Although the 7-bp deletion (-525--519 bp) in Hap2 disrupted
+accessions belong to Hap1 (Figure 2b; Table S7). The outliers the original cis-elements of Boxl (light responsive element, with
+such as the six salt-tolerant accessions with Hap1 type promoter core sequence as TTTGAAA) and ERE (ethylene-responsive
+suggest there are other loci/genes controlling the salt tolerance, element, with core sequence as TTTGAAAT), it still has the two
+which also reflects the quantitative nature of this trait. In QTL complete Boxl and ERE cis-elements (Figure S17). However, the
+studies, a single locus can only explain part of the phenotypic Hap2 type sequence formed an 8-bp inverted sequence
+variation for the complex trait, and the effect of a locus/gene 'ATTTNNNDAAAT due to the 7-bp deletion. A previous study
+might depend on the genetic background. The SNP near showed that a 12-bp palindromic sequence (inverted repeat
+GSERD15B explained 7.79% of the phenotypic variation in the sequence with no intervening nucleotides between the initial
+whole population in this study (Table S4). The effects of sequence and its downstream reverse complement) in the
+GSERD15B haplotypes/alleles (two different promoters containing promoter of NRP-B is the binding site of ERD15 to activate
+7-bp insertion or deletion) on salt tolerance have been compared transcription (Alves et al., 2011). Therefore, the inverted
+using transgenic soybean hairy roots (in the genetic background sequence in Hap2 type promoter might be the binding site of a
+of a salt-sensitive variety Tianlong1), and the results showed that transcription factor in salt signalling pathway to enhance the
+Hap2 type promoter can increase the GSERD15B expression expression of GSERD15B in response to salt stress.
+rapidly in response to salt stress and enhanced the salt tolerance
+ERD15appears ubiquitous in the plant kingdom and may be an
+of soybean hairy roots, which confirmed the role of GSERD15B in essential component in stress responses in plants (Aalto et al.,
+salt tolerance. To investigate the natural alleles of ERD15B 2012). ERD genes can be induced by various abiotic stresses, such
+promoter in cultivated soybean, we further sequenced the as drought (Kiyosue et al., 1994), low temperature (Kiyosue et al.,
+promoter regions of 10 salt-tolerant and 10 salt-sensitive culti- 1998), abscisic acid (Aalto et al., 2012) and salinity (Jian et al.,
+vated soybean accessions (Table S9). We found that all 10 salt- 2016). ERD15 family has a conserved domain of PAM2 (Aalto
+tolerant cultivated soybean accessions belong to Hap2, while six et al., 2012), which has been shown to interact with the PABC
+out of 10 salt-sensitive cultivated soybean accessions belong to domain of PAB proteins (Belostotsky and Meagher, 1996). We
+Hap1. There was significant (P == 3.93 X 10-3, two-sided Wil- found that GSERD15B also has a conserved PAM2 domain, and
+coxon test) difference in STR between Hap1 and Hap2 among GSERD15B-PAM2 interacts with PAB2, PAB4, PAB8 (Figure 5) as
+these 20 cultivated soybean accessions: the average STR of Hap1 expected. Taken together, these results revealed that the
+is 4.61, while the average STR of Hap2 is 2.07 (Figure S16), which GSERD15B gene encodes an ERD15 protein with transcriptional
+is consistent with the observation in wild soybean. Taken activation function, and GSERD15B can interact with the known
+together, these findings inferred that the variation in GSERD15B PAB proteins through its conserved PAM2 domain. Interestingly,
+promoter play an important role in soybean adaptation to salt the protein-protein interaction network predication and BiFC
+stress.
+assay suggested that GSEDR15B also interactwith other soybean
+Cotyledon hairy roots could be used in rapid gain-of-function PAB proteins which have the same highly conserved domains as
+tests of candidate genes (Qi et al., 2014). Soybean hairy roots PAB2, PAB4 and PAB8 (Figure 6). Further, the relative expression
+transformed with GmCHX1 from the salt-tolerant soybean WO5 of GmABI1, GmABI2, GmbZIP1, GmP5CS, GmCAT4, GmMYB84,
+showed significantly higher root fresh weights than the control GmPIP1:6 and GmSOS1 in transgenic hairy roots with ProHap2:
+under NaCl treatments. It was also found that overexpression of GSERD15B showed significantly greater increase than that in hairy
+GmCLC1 in soybean hairy roots enhanced the tolerance of roots containing ProHap1:G5ERD15B or the empty vector at 3 h
+soybean composite plants to salt stress (Wei et al., 2016). To after salt treatment (Figure 7a), and GSERD15B overexpression
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 11
+enhanced the promoter activities of GmABI2, GmP5CS and
+y=XB+Zu+E
+GmbZIP1 in the tobacco leaf assays (Figure 7b-g), which suggests
+that overexpression of GSERD15B enhanced salt tolerance prob- where X stands for the corresponding SNP vector, B is the
+ably by increasing the expression levels of genes related to ABA coefficient vector for SNP effect, Z is the corresponding design
+and dehydration response, proline content, catalase peroxidase matrix, uis the random effect accounting for population structure
+and cation transport.
+and relatedness, and € is the random error (Kang et al., 2010).
+The threshold for suggestive association was calculated based
+Experimental procedures
+on previously published method (King et al., 2013; Zhang et al.,
+Plant materials
+2019), which is P < 2.79 x 104 (the average threshold across
+20 soybean chromosomes using 1/n, where n is the number of
+A total of 182 wild soybean (G. soja) accessions (Table S1), a markers on each chromosome). Multi-locus mixed model was
+well-known salt-tolerant soybean variety Lee 68 (Xu et al., then used to further screen significant (P < 0.05) association
+2011), and a transformation recipient soybean variety (salt- (Wang et al., 2016). Genes within + 115 kb (the average LD
+sensitive) Tianlong1 (Li et al., 2017), were obtained from the decay distance across all 20 chromosomes) of the significantly
+National Center for Soybean Improvement (Nanjing, China). STR-associated SNPS were annotated using Soybase (https:/1
+The 182 wild soybean accessions originated from 24 locations www.soybase.org). and those with functional annotations
+covering four soybean Eco-Regions in China (Table S1), includ- related to salt tolerance (hyperosmotic response, calcium ion
+ing Northern Single Cropping Spring Planting Varietal Eco- transport, response to salt stress, osmotic stress, cellular
+Region (Eco-Region I, n = 47), Huang-Huai-Hai Double Crop- potassium ion homeostasis, sodium ion transmembrane trans-
+ping Spring and Summer Planting Varietal Eco-Region (Eco- port, response to oxidative stress, dehydration-induced protein,
+Region II, n = 64), Middle and Lower Changjiang Valley Double water transport) were selected as candidate genes for further
+Cropping Spring and Summer Planting Varietal Eco-Region analysis.
+(Eco-Region IIl, n = 44), and Central South Multiple Cropping RNA isolation and quantitative reverse
+PCR
+Spring Summer and Autumn Planting Varietal Eco-Region (Eco-
+transcription
+Region IV, n = 27).
+(qRT-PCR)
+Salt tolerance evaluation in greenhouse
+Total RNAS were isolated from soybean tissues using RNAprep
+Pure Plant Kit (Tiangen Biotech, China), and first-strand CDNA
+Salt tolerance of soybean was evaluated by salt tolerance rating was synthesized by PrimeScript" 1st Strand CDNA Synthesis Kit
+(STR) according to previously published methods with modifica- (TaKaRa, Japan). The primers (Table S8) were designed using
+tions (Guan et al., 2014; Hamwieh et al., 2011; Shao et al., 1986; Primer Premier 5 software (http_/iwww.premierbiosoft.com/prime
+Tuyen et al., 2010). Details are described in Methods S1.
+rdesign/) (Wang, Jiang et al., 2017). GmUKN1 (Guan et al., 2014)
+SNP genotyping
+was used as the reference gene for qRT-PCR. The amplification
+efficiencies (E) of primer pairs were estimated (Table S8) by qRT-
+SNP genotyping was performed with RAD-seq (Restriction-site PCR using 1:10, 1:20, 1:40, 1:80, and 1:160 dilutions of CDNA
+Associated DNA sequencing) using Illumina HiSeq 2000 at BGI templates, according to the equation: E = [10-1/slopej-1 (Pfaffl,
+(Shenzhen, China) (Andolfatto et al., 2011; He et al., 2017). 2001). The qRT-PCR was performed using SYBR Premix EXTaq" II
+Soybean genomic DNA was extracted using CTAB method Mix (TaKaRa, Japan) on a Roche 480 real-time detection system
+(Murray and Thompson, 1980) and digested by Taq Ito produce (Roche Diagnostics, Switzerland) according to the manufacturers'
+400-600 bp fragments, which were then ligated with P1 and P2 instructions. Each experiment was performed in triplicates. The
+adapters before pair-end sequencing (90-bp in length). The expression levels of all candidate genes were analysed by the
+sequencing reads were aligned to the soybean reference genome 2-AACT methods (Livak and Schmittgen, 2001).
+(Williams 82) sequence (Schmutz et al., 2010) using SOAP2 (Li Gene cloning and sequence analysis
+et al., 2009), and SNPS were called by RealSFS (Yi et al., 2010).
+FastPHASE (Scheet and Stephens, 2006) was used to impute Nucleotide sequences for selected candidate genes were down-
+missing SNPS.
+loaded from phytozome v10 Ontplphysonegidegowpy
+Population structure and linkage disequilibrium (LD)
+portal.html). The 2000-bp upstream of the start codon ATG was
+analysis
+considered as the promoter region. Primers (Table S8) were
+designed and synthesized by Invitrogen (Shanghai, China). The
+The principle component analysis (PCA) was conducted using full-length coding sequences were amplified using soybean CDNA
+EIGENSTRAT (Price et al., 2006). The software fastStructure as template and the promoter regions were amplified using
+(Alexander et al., 2009) was used to analyse the population soybean genomic DNA as template. The amplicons were
+structure with K == 1-10 and determine the optimal K. MEGA6 sequenced at GenScript (Nanjing, China). Protein domain analysis
+was used to build neighbour-joining tree (Tamura et al., 2013). LD was performed using SMART ONtp.honartenbhedetegd7
+was estimated using Haploview (Barrett et al., 2005). We used Development and test of dCAPS marker
+500-kb sliding window along each chromosome and calculated
+LD between all pairs of SNPS. Parameter 2 was used to estimate The dCAPS marker was developed using dCAPS Finder 2.0 (Neff
+the degree of LD (Li et al., 2016).
+et al., 2002), which identifies the optimum restriction enzyme to
+GWAS and candidate gene annotation
+detect sequence polymorphism (Kushanov et al., 2016). Specific
+primers (Table S8) were designed, and amplification products
+GWAS was performed with the efficient mixed model association were purified using TaKaRa MiniBEST DNA Fragment Purification
+eXpedited (EMMAX), using the model:
+Kit Ver.4.0 (TaKaRa, Japan) after verified by agarose
+0 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+12 Ting Jin et al.
+electrophoresis. The purified PCR products were digested by Sspl localization. For BiFC assays, the recombinant plasmids were
+(NEB, USA) in a total volume of 10 pL according to the transferred into A. tumefaciens strain EHA105 and then trans-
+manufacturers" instructions. The digested products were formed into the N. benthamiana leaves as described previously
+observed by electrophoresis using 3% agarose gel and stained (Waadt and Kudla, 2008). The signals of GFP and yellow
+with ethidium bromide, then photo-documented using Gel fluorescence protein (YFP) were observed using a confocal
+Imaging Documentation System (Bio-Rad, USA).
+laser-scanning microscope (Zeiss LSM 780, Germany).
+Construction of plant expression vectors
+Protein-protein interaction network analysis
+Plant expression vectors were constructed using the One Step The Search Tool for the Retrieval of Interacting Genes (STRING,
+Cloning Kit (Vazyme, China). Details are described in Methods S1. https/istring-db.org) was employed to predicate protein-protein
+Genetic transformation and salt tolerance analysis of
+interaction network, using the combined_score > 0.9. Cytoscape
+soybean hairy roots
+Ohtp_lwww.ptoxcape.org) software (Shannon et al., 2003) was
+used for visualization of the network. The annotations of the
+ProHap1:GsERD15B, ProHap2-GSERD15B, 35S:GSERD15B and the potential GSERD15B interacting proteins were obtained from
+empty vector pBinGFP4 were separately transformed gene ontology (GO) database Omtp.hww.geeonologyog).
+into Agrobacterium rhizogenes strain K599 (Kereszt et al., Statistical analyses
+2007), which was further used to infect soybean cotyledons to
+obtain transgenic hairy roots (Xue et al., 2017). Transgenic Analysis of harine(ANOVAJdfSRacos threee eenvironmentswas
+soybean hairy roots were grown on Murashige and Skoog (MS) performed using PROC GLM by SAS 9.1 (SAS Institute, Cary, NC).
+medium containing 500 mg/L carbenicillin and 50 mg/L cefo- The heritability was estimated as h = a/à e/s /(sxr)),
+taxime (Sangon Biotech, China). After 15 days, the positive hairy where a.0gand 82 are the estimated variances of genotype,
+roots were identified by green fluorescence signal of GFP using a genotypebyenvironment and random error, respectively, wheres
+stereoscopic fluorescence microscope (Mshot, China), and the is the number of environments and dris the number of replications
+non-transgenic roots were cut-off. The positive transgenic (He et al., 2017). The best linear unbiased predictor (BLUP) of STR
+soybean hairy roots with similar length and volume were selected from three environments was calculated by R software, using the
+and transferred onto white solid medium (pH == 5.8, MDBiO, linear model. Differences between groups or genotypes were
+China) containing 0 or 100 mM NaCI, respectively. Hairy roots analysed using two-sided Wilcoxon test, Duncan's multiple range
+were collected after two weeks to measure their fresh weight.
+test or Student's t-test by R software.
+To re-generate transgenic soybean hairy roots, the positive
+transgenic cotyledon soybean hairy roots were cultured on white Acknowledgments
+solid medium until the length is greater than 3 cm, then the 3-cm
+root tips were cut-off and transferred onto white solid medium We would like to thank Professor Daolong Dou, Professor
+containing 0 or 100 mM NaCl for two weeks, respectively, and Yongmei Bao and Professor Xinyuan Huang (Nanjing Agricultural
+the photographs were taken, and the primary root lengths were University) for kindly providing us the vectors of pBinGFP4, pUC-
+measured using Imagel (Schindelin et al., 2015). The roots under SPYNE, PUC-SPYCE and pGreenll0800-LUC, and thank Professor
+salt stress or control were collected for relative gene expression Peter Gresshoff'sl laboratory (University of Queensland) developed
+analysis.
+A. rhizogenes strain K599 and shared freely around the world.
+Promoter-LUC assays in tobacco leaves
+This work was supported by the National Key R & D Program for
+Crop Breeding (2016YFD0100304), the Fundamental Research
+The promoter activities were analysed by promoter-LUC transient Funds for the Central Universities (KYT201801), the Program for
+expression assays in tobacco (Nicotiana benthamiana) leaves, Changjiang Scholars and Innovative Research Team in University
+according to the procedures described in Methods S1.
+(IRT_17R55) and the Natural Science Foundation of Jiangsu
+Province (BK20170713).
+Sequence alignment and phylogenetic analysis
+The full sequences of GSERD15B and other ERD15 proteins Conflict of interest
+obtained from Phytozome imtpuphygsoneg.degupy
+portal.html), were used for multiple sequence alignments by The authors have patents pending related to this work.
+ClustalW2 (ntps/www.ebiacukfooobsmsaldustabw2h (Larkin
+et al., 2007). The unrooted phylogenetic tree was then con- Author contributions
+structed using MEGA 6.0 (Tamura et al., 2013) based on the
+Maximum Likelihood (ML) algorithm with 1000 bootstraps.
+TJ and YL conceived and designed the experiments. TJ, YYS, ZS
+Y2H
+and NW performed the experiments. TJ and JH analysed the data.
+assays
+TJ generated the pictures. TJ and YL wrote and revised the
+The MatchmakerTM Gold Yeast Two-Hybrid System (Clontech, manuscript. JG and YL contributed reagents/materials and
+China) was used for Y2H experiments. The yeasts were cultured interpretation of the results. All authors read, revised and
+on double dropout (DDO/X-a-gal) medium (SD/-Leu-Trp/X-a-gal, approved the final manuscript.
+TaKaRa, Japan) or quadruple dropout (QDO/X-a-gal) medium
+6DÉAdeHsrleu-Trpxagal TaKaRa, Japan), respectively.
+References
+Subcellular localization and BiFC assays
+Aalto, M.K., Helenius, E., Kariola, T., Pennanen, V., Heino, P., Horak, H.,
+The constructs of 35S:GSERD15B-GFP and 35S: GFP (control) in
+Puzorjova, L et al. (2012) ERD15-an attenuator of plant ABA responses and
+the backbone vector pBinGFP4 were used for subcellular
+stomatal aperture. Plant Sci 182, 19-28.
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 13
+Alexander, D.H., Novembre, J. and Lange, K. (2009) Fast model-based Kan, G., Ning, L., Li, Y., Hu, Z., Zhang, W., He, X. and Yu, D. (2016)
+estimation of ancestry in unrelatedi individuals. Genome Res. 19, 1655-1664.
+Identification of novel loci for salt stress at the seed germination stage in
+Alves, M.S., Reis, PA, Dadalto, S.P., Faria, JA., Fontes, E.P. and Fietto, L.G.
+soybean. Breed. Sci 66, 530-541.
+(2011). A novel transcription factor, ERD15 (Early Responsive to Dehydration Kan, G., Zhang, W., Yang, W., Ma, D., Zhang, D., Hao, D., Hu, Z. et al. (2015)
+15), connects endoplasmic reticulum stress with an osmotic stress-induced
+Association mapping of soybean seed germination under salt stress. Mol.
+cell death signal. J. Biol. Chem. 286, 20020-20030.
+Genet Genom. 290, 2147-2162.
+Andolfatto, P., Davison, D., Erezyilmaz, D., Hu, T.T., Mast, J., Sunayama-Morita, Kang, H.M., Sul, J.H., Service, S.K., Zaitlen, N.A., Kong, S.Y., Freimer, N.B.,
+T. and Stern, D.L. (2011) Multiplexed shotgun genotyping for rapid and
+Sabatti, C. et al. (2010). Variance component model to account for sample
+efficient genetic mapping. Genome Res. 21, 610-617.
+structure in genome-wide association studies. Nat Genet 42, 348-354.
+Barrett, J.C., Fry, B., Maller, J. and Daly, M.J. (2005) Haploview: analysis and Katerji, N., Hoorn, J.W.V., Hamdy, A. and Mastrorilli, M. (2003) Salinity effect
+visualization of LD and haplotype maps. Bioinformatics, 21, 263-265.
+on crop development and yield, analysis of salt tolerance according to several
+Belostotsky, D.A. and Meagher, R.B.(1996) Ap pollen-, ovule-, and early embryo-
+classification methods. Agric. Water Manage. 62, 37-66.
+specific poly(A) binding protein from Arabidopsis complements essential Kereszt, A., Li, D., Indrasumunar, A., Nguyen, C.D., Nontachaiyapoom, S.,
+functions in yeast. Plant Cell, 8, 1261-1275.
+Kinkema, M. and Gresshoff, P.M. (2007) Agrobacterium rhizogenes-
+Chen, H., Cui, S., Fu, S., Gai, J. and Yu, D. (2008) Identification of quantitative
+mediated transformation of soybean to study root biology. Nat Protocols,
+trait loci associated with salt tolerance during seedling growth in soybean
+2, 948-952.
+(Glycine max L.). Australian J Agric. Res. 59, 1086-1091.
+King, KE., Peiffer, G.A., Reddy, M., Lauter, N., Lin, S.F., Cianzio, S. and
+Chen, C., Liu, A., Ren, H., Yu, Y., Duanmu, H., Duan, X., Sun, X. et al. (2018)
+Shoemaker, R.C. (2013) Mapping of iron and zinc quantitative trait loci in
+Genome-wide analysis of Glycine soja response regulator GSRR genes under
+soybean for association to iron deficiency chlorosis resistance. J Plant Nutrit.
+alkali and salt stresses. Front. Plant Sci. 9, 1306.
+36, 2132-2153.
+Chen, P., Yan, K., Shao, H. and Zhao, S. (2013) Physiological mechanisms for Kiyosue, T., Abe, H., YamaguchiShinozaki, K. and Shinozaki, K. (1998) ERD6, a
+high salt tolerance in wild soybean (Glycine soja) from Yellow River Delta, CDNA clone for an early dehydration-induced gene of Arabidopsis, encodesa
+China: photosynthesis, osmotic regulation, ion flux and antioxidant capacity.
+putative sugar transporter. Biochem. Biophys. Acta, 1370, 187-191.
+PLOS One, 8, e83227.
+Kiyosue, T., Yamaguchi-Shinozaki, K. and Shinozaki, K. (1994) Cloning of
+Cho, Y., Njiti, V.N., Chen, X., Triwatayakorn, K., Kassem, MA, Meksem, K.,
+CDNAS for genes that are early-responsive to dehydration stress (ERDS) in
+Lightfoot, D.A. et al. (2002) Quantitative trait loci associated with foliar
+Arabidopsis thaliana L.: identification of three ERDS as HSP cognate genes.
+trigonelline accumulation in Glycine Max L J Biomed. Biotechnol. 2,
+Plant Mol Biol. 25, 791-798.
+151-157.
+Kozlov, G., De Crescenzo, G., Lim, N.S., Siddiqui, N., Fantus, D., Kahvejian, A.,
+Do, T.D., Chen, H., Hien, V.T., Hamwieh, A., Yamada, T., Sato, T., Yan, Y. etal
+Trempe, J. et al. (2004) Structural basis of ligand recognition by PABC, a
+(2016) Nd synchronously regulates Nat, K+, and CI in soybean and greatly
+highly specific peptide-binding domain found in poly(A)-binding protein and
+increases the grain yield in saline field conditions. Scientific Rep. 6, 19147.
+a HECT ubiquitin ligase. EMBO J 23, 272-281.
+Famoso, A.N., Zhao, K., Clark, R.T., Tung, C.W., Wright, M.H., Bustamante, C., Kushanov, F.N., Pepper, A.E., Yu, J.Z., Buriev, Z.T., Shermatov, S.E., Saha, S.,
+Kochian, LV. et al. (2011) Genetic architecture of faluminum tolerance in rice
+Ulloa, M. etal. (2016) Development, genetic mapping and QTL association of
+(Oryza sativa) determined through genome-wide association analysis and QTL
+cotton PHYA, PHYB, and HY5-specific CAPS and dCAPS markers. BMC
+mapping. PLOS Genet. 7, 747-757.
+Genom. 17, 141.
+Gai,J.Y. and Wang, Y.S. (2001) Astudy on the varietal Eco-regions of soybeans Lam, H.M., Xu, X., Liu, X., Chen, W., Yang, G., Wong, F.L, Li, M.W. et al.
+in China. Sci Agric. Sin. 34, 139-145.
+(2010) Resequencing of 31 wild and cultivated soybean genomes identifies
+Gao, S.Q., Chen, M., Xu, Z.S., Zhao, C.P., Li, L., Xu, HJ., Tang, Y.M. et al.
+patterns of genetic diversity and selection. Nat. Genet. 42, 1053-1059.
+(2011) The soybean GmbZIP1 transcription factor enhances multiple abiotic Larkin, M.A., Blackshields, G., Brown, N.P., Chenne, R., McGettigan, P.A.,
+stress tolerances in transgenic plants. Plant Mol. Biol. 75, 537-553.
+McWilliam, H., Valentin, F. et al. (2007) Clustal W and Clustal X version 2.0.
+Guan, R., Qu, Y., Guo, Y., Yu, L, Liu, Y., Jiang, J., Chen, J. et al. (2014) Salinity
+Bioinformatics, 23, 2947-2948.
+tolerance in soybean is modulated by natural variation in GmSALT3. Plant J. Lee, G.J., Carter, T.E. Jr, Villagarcia, M.R., Li, Z., Zhou, X., Gibbs, M.O. and
+80, 937-950.
+Boerma, H.R. (2004) A major QTL conditioning salt tolerance in S-100
+Ha, B.K., Vuong, T.D., Velusamy, V., Nguyen, H.T., Shannon, J.G. and Lee, J.D.
+soybean and descendent cultivars. Theoret Appl. Genet. 109,
+(2013) Genetic mapping of quantitative trait loci conditioning salt tolerance
+1610-1619.
+in wild soybean (Glycine soja) PI 483463. Euphytica, 193, 79-88.
+Leung, J., Bouvier-Durand, M., Morris, P.C., Guerrier, D., Chefdor, F. and
+Hamwieh, A., Tuyen, D.D., Cong, H., Benitez, E.R., Takahashi, R. and Xu, D.H.
+Giraudat, J. (1994) Arabidopsis ABA response gene ABI1: features of a
+(2011) Identification and validation of a major QTL for salt tolerance in
+calcium-modulated protein phosphatase. Science, 264, 1448-1452.
+soybean. Euphytica, 179, 451-459.
+Li, S., Cong, Y., Liu, Y., Wang, T., Shuai, Q., Chen, N., Gai, J. et al.(2017)
+Hamwieh, A. and Xu, D.H. (2008) Conserved salt tolerance quantitative trait
+Optimization of Agrobacterum-mediated transformation in soybean. Front.
+loci (QTL) in wild and cultivated soybean. Breed. Sci. 58, 355-359.
+Plant Sci. 8, 246.
+He, J, Meng, S., Zhao, T., Xing, G., Yang, S., Li, Y., Guan, R. et al. (2017) An Li, L, Guo, N., Niu, J., Wang, Z., Cui, X., Sun, J., Zhao, T. etal. (2016) Loci and
+innovative procedure of genome-wide association analysis fits studies on
+candidate gene identification for resistance to Phytophthora sojae via
+germplasm population and plant breeding. Theoret. Appl Genet 130,
+association analysis in soybean [Glycine max (L.) Merr). Mol. Genet.
+2327-2343.
+Genom. 291, 1095-1103.
+Hwang, E.Y., Song, Q, Jia, G., Specht, J.E., Hyten, D.L., Costa, J. and Cregan, Li, R., Yu, C., Li, Y., Lam, T.W., Yiu, S.M., Kristiansen, K. and Wang, J. (2009)
+P.B. (2014). A genome-wide association study of seed protein and oil content
+SOAP2: an improved ultrafast tool for short read alignment. Bioinformatics,
+in soybean. BMC Genom. 15, 1.
+25, 1966-1967.
+Hyten, D.L., Song, Q., Zhu, Y., Choi, LY., Nelson, R.L., Costa, J.M., Specht, J.E. Livak, K.J. and Schmittgen, T.D. (2001) Analysis of relative gene expression data
+et al. (2006) Impacts of genetic bottlenecks on soybean genome diversity.
+using real-time quantitative PCR and the 2-AACT Method. Methods, 25,
+Proc. Natl Acad. Sci. USA, 103, 16666-16671.
+402-408.
+Jia, B., Sun, M., DuanMu, H., Ding, X., Liu, B., Zhu, Y. and Sun, X. (2017) Meyer, K., Leube, M.P. and Grill, E. (1994) A protein phosphatase 2C involved
+GSCHX19.3, a member of cation/H+ exchanger superfamily from wild
+in ABA signal transduction in Arabidopsis thaliana. Science, 264, 1452-1455.
+soybean contributes to high salinity and carbonate alkaline tolerance. Munns, R. and Tester, M. (2008) Mechanisms of salinity tolerance. Annual Rev.
+Scientific Rep. 7, 9423.
+Plant Biol. 59, 651-681.
+Jian, H., Wang, J., Wang, T., Wei, L, Li, J. and Liu, L. (2016) Identification of Munoz, N., Liu, A, Kan, L., Li, M.W. and Lam, H.M. (2017) Potential uses of
+rapeseed microRNAs involved in early stage seed germination under salt and
+wild germplasms of grain legumes for crop improvement. Int. J Mol. Sci 18,
+drought stresses. Front. Plant Sci 7, 658.
+382.
+0 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+14 Ting Jin et al.
+Murray, M.G. and Thompson, W.F. (1980) Rapid isolation of high molecular Wei, P., Wang, L., Liu, A., Yu, B. and Lam, H.M. (2016) GmCLC1 confers
+weight plant DNA. Nucleic Acids Res. 8, 4321-4325.
+enhanced salt tolerance through regulating chloride accumulation in
+Neff, M.M., Turk, E. and Kalishman, M. (2002) Web-based primer design for
+soybean. Front. Plant Sci. 7, 1082.
+single nucleotide polymorphism analysis. Trends Genet 18, 613-615.
+Xiang, L., Hu, L., Xu, W., Zhen, A., Zhang, L. and Hu, X. (2016) Exogenous
+Parker, M.B., Gascho, G.J. and Gaines, T.P. (1983) Chloride toxicity of soybeans
+aminobutyric acid improves the structure and function of photosystem sn in
+grown on Atlantic Coast flatwoods soils'. Agronomy. J. 75, 439-443.
+muskmelon seedlings exposed to salinity-alkalinity stress. PLOS One, 11,
+Pfaffl, M.W. (2001) A new mathematical model for relative quantification in
+e0164847.
+real-time RT-PCR. Nucleic Acids Res. 29, e45.
+Xie, Z., Duan, L, Tian, X., Wang, B., Eneji, A.E. and Li, Z. (2008) Coronatine
+Price, A.L., Patterson, N.J., Plenge, R.M., Weinblatt, M.E., Shadick, N.A. and
+alleviates salinity stressi in cotton by improving the antioxidative defense
+Reich, D. (2006) Principal components analysis corrects for stratification in system and radical-scavenging activity. J. Plant Physiol. 165, 375-384.
+genome-wide association studies. Nat Genet 38, 904-909.
+Xu, XY., Fan, R., Zheng, R., Li, C.M. and Yu, D.Y. (2011) Proteomic analysis of
+Qi, X., Li, M.W., Xie, M., Liu, X., Ni, M., Shao, G., Song, C. et al. (2014)
+seed germination under salt stress in soybeans. J Zhejjang University Sci B
+Identification of a novel salt tolerance gene in wild soybean by whole-
+12, 507-517.
+genome sequencing. Nat Commun. 5, 4340.
+Xue, Y.B., Xiao, B.X., Zhu, S.N., Mo, X.H., Liang, C.Y., Tian, J., Liao, H. et al
+Rengasamy, P. (2006) Worlds salinization with emphasis on Australia. J. Exp. Bot.
+(2017) GmPHR25, a GmPHR member up-regulated by phosphate starvation,
+57, 1017-1023.
+controls phosphate homeostasis in soybean. J. Exp. Bot. 68, 4951-4967.
+Scheet, P. and Stephens, M. (2006) A fast and flexible statistical model for Yi, X., Liang, Y., Huerta-Sanchez, E., Jin, X., Cuo, Z.X.P., Pool, J.E., Xu, X. etal
+large-scale population genotype data: applications to inferring missing
+(2010) Sequencing of 50 human exomes reveals adaptation to high altitude.
+genotypes and haplotypic phase. Am. J. Human Genet 78, 629-644.
+Science, 329, 75-78.
+Schindelin, J., Rueden, C.T., Hiner, M.C. and Eliceiri, K.W. (2015) The Imagel Zegaoui, Z., Planchais, S., Cabassa, C., Djebbar, R., Belbachir, O.A. and Carol, P.
+ecosystem: an open platform for biomedical image analysis. Mol. Reprod.
+(2017) Variation in relative water content, proline accumulation and stress
+Develop. 82, 518-529.
+gene expression in two cowpea landraces under drought. J Plant Physiol
+Schmutz, J., Cannon, S.B., Schlueter, J., Ma, J., Mitros, T., Nelson, W., Hyten,
+218, 26-34.
+D.L. et al. (2010) Genome sequence of the palaeopolyploid soybean. Nature, Zhang, Z., Ersoz, E., Lai, C.Q., Todhunter, R.J., Tiwari, H.K., Gore, M.A.,
+463, 178-183.
+Bradbury, P.J. et al. (2010) Mixed linear model approach adapted for
+Shannon, P., Markiel, A, Ozier, O., Baliga, N.S., Wang, J.T., Ramage, D., Amin,
+genome-wide association studies. Nat Genet 42, 355-360.
+N. etal (2003) Cytoscape: a software environment for integrated models of Zhang, W., Liao, X., Cui, Y., Ma, W., Zhang, X., Du, H., Ma, Y. et al. (2019) A
+biomolecular interaction networks. Genome Res. 13, 2498-2504.
+cation diffusion facilitator, GmCDF1, negatively regulates salt tolerance in
+Shao, G.H., Song, J.Z. and Liu, H.L. (1986) Preliminary studies on the evaluation
+soybean. PLOS Genet. 15, e1007798.
+of salt tolerance in soybean varieties. Sci. Agric. Sin. 6, 30-35.
+Zhang, H., Song, Q., Griffin, J.D. and Song, B.H. (2017) Genetic architecture of
+Shen, X.J., Wang, Y.Y., Zhang, Y.X., Guo, W., Jiao, Y.Q. and Zhou, X.A. (2018)
+wild soybean (Glycine soja) response to soybean cyst nematode (Heterodera
+Overexpression of the wild soybean R2R3-MYB transcription factor GSMYB15
+glycines). Mol Genet Genom. 292, 1-9.
+enhances resistance to salt stress and Helicoverpa Armigera in transgenic Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., Yu, Y. et al. (2015)
+Arabidopsis. Int. J Mol. Sci. 19, 3958.
+Resequencing 302 wild and cultivated accessions identifies genes related to
+Sun, M., Qian, X., Chen, C., Cheng, S., Jia, B., Zhu, Y. and Sun, X. (2018)
+domestication and improvement in soybean. Nat Biotechnol. 33, 408-414.
+Ectopic expression of GSSRK in Medicago sativa reveals its involvement in Zhou, L., Wang, C., Liu, R., Han, Q., Vandeleur, R.K., Du, J., Tyerman, S. et al.
+plant architecture and salt stress responses. Front. Plant Sci. 9, 226.
+(2014) Constitutive overexpression of soybean plasma membrane intrinsic
+Sun, X., Sun, M., Jia, B., Qin, Z., Yang, K., Chen, C., Yu, Q. et al. (2016) A
+protein GmPIP1;6 confers salt tolerance. BMC Plant Biol. 14, 181.
+Glycine soja methionine sulfoxide reductase B5a interacts with the Ca2t1 Zhu, J.K. (2001) Plant salt tolerance. Trends Plant Sci. 6, 66-71.
+CAM-binding kinase GSCBRLK and activates ROS signaling under carbonate
+alkaline stress. Plant J. 86, 514-529.
+Tamura, K., Stecher, G., Peterson, D., Filipski, A. and Kumar, S. (2013) MEGA6: Supporting information
+molecular evolutionary genetics analysis version 6.0. Mol. Biol. Evol 30, Additional supporting information may be found online in the
+2725-2729.
+Supporting Information section at the end of the article.
+Tuyen, D.D., Lal, S.K. and Xu, D.H. (2010) Identification of a major QTL allele
+from wild soybean (Glycine soja Sieb. & Zucc.) for increasing alkaline salt
+tolerance in soybean. Theoret. Appl Genet. 121, 229-236.
+Figure S1 The population structure of 182 Chinese wild soybean
+Vigueira, C.C., Small, L.L. and Olsen, K.M. (2016) Long-term balancing accessions.
+selection at the Phosphorus Starvation Tolerance 1 (PSTOL1) locus in wild, Figure S2 Distribution of salt tolerance rating (STR) in 182 wild
+domesticated and weedy rice (Oryza). BMC Plant Biol. 16, 101.
+soybean accessions.
+Waadt, R. and Kudla, J. (2008) In planta visualization of protein interactions
+using Bimolecular Fluorescence Complementation (BiFC). Cold Spring Harbor Figure S3 Phenotype of two wild soybean accessions with
+Protocols, 2008, 4995.
+extreme salt tolerance rating (STR).
+Wang, S.B., Feng, J.Y., Ren, W.L., Huang, B., Zhou, L., Wen, YJ., Zhang, J. etal. Figure S4 Manhattan plot (left) and quantile-quantile (Q-Q) plot
+(2016)Improving power and accuracy of genome-wide association studies via (right) of genome-wide association study on the salt tolerance
+a multi-locus mixed linear model methodology. Sci. Rep. 6, 19444.
+rating in 182 Chinese wild soybean accessions using mixed linear
+Wang, W., Jiang, W., Liu, J., Li, Y., Gai, J. and Li, Y. (2017) Genome-wide model by EMMAX.
+characterization of the aldehyde dehydrogenase gene superfamily in soybean Figure S5 Relative expression of nine candidate genes in soybean
+and its potential role in drought stress response. BMC Genom. 18, 518.
+response to salt stress.
+Wang, Y.H., Zhang, X.J. and Fan, S.J. (2015) Genetic diversity of wild soybean Figure S6 Sequence variation in the promoter region of
+populations in Dongying, China, by simple sequence repeat analysis. Genet. GSERD15B from 20 different wild soybean accessions and
+Mol. Res. 14, 11613-11623.
+Wang, N., Zhang, W., Qin, Li, S., Qiao, M., Liu, Z. and Xiang, F. (2017) Tianlong1.
+Drought tolerance conferred min soybean (Glycine max. L) by GmMYB84, a Figure S7 The dCAPS polymorphism in soybean accessions with
+novel R2R3-MYB transcription factor. Plant Cell Physiol. 58, 1764-1776.
+extreme salt tolerance by electrophoresis.
+Wei, P., Che, B., Shen, L., Cui, Y., Wu, S., Cheng, C., Liu, F. et al. (2019) Figure S8 Boxplot of STR (a) and relative expression of GSERD15B
+Identification and functional characterization of the chloride channel gene, (b) for two haplotypes in 20 wild soybean accessions with
+GSCLC-c2 from wild soybean. BMC Plant Biol. 19, 121.
+extreme STR.
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15
+
+
+
+GSERD15B confers salt tolerance in soybean 15
+Figure S9 Relative expression of GSERD15B in soybean varieties Table S2 Analysis of variance in salt tolerance rating among 182
+carrying Hap1 or Hap2 type of promoter.
+wild soybean accessions.
+Figure S10 Three biological replications for salt tolerance analysis Table S3 Correlation coefficients of salt tolerance rating (STR)
+of transgenic soybean cotyledon hairy roots.
+between environments.
+Figure S11 Four biological replications for salt tolerance analysis Table S4 Significantly salt tolerance rating (STR)-associated SNPS
+of regenerated transgenic soybean hairy roots.
+and predicted candidate genes for salt tolerance in wild soybean
+Figure S12 Transcriptional activation of PAB proteins in yeast.
+(G. soja).
+Figure S13 Negative controls for the Bimolecular Fluorescence Table S5 Genes within +115 kb region of 11 SNPS significantly
+Complementation (BIFC) assays.
+associated with salt tolerance rating (STR) in multi-locus model.
+Figure S14 Expression of GSERD15B in the root, stem and leaf of Table S6 Correlation coefficients between salt tolerance rating
+salt-tolerant and salt-sensitive soybean under control (a) and salt (STR) and relative expression of nine genes under salt stress.
+stress (b).
+Table S7 Haplotypes of 102 wild soybean accessions with
+Figure S15 Decay of linkage disequilibrium (LD) in wild soybean extreme salt tolerance.
+(G. soja) genome.
+Table S8 Primers used for dCAPS marker, qRT-PCR, and gene
+Figure S16 Boxplot of salt tolerance rating (STR) for two cloning.
+haplotypes in cultivated soybean accessions.
+Table S9 Haplotypes of 20 cultivated soybean varieties with
+Figure S17 The cis-element analysis of the 2-kb region upstream extreme salt tolerance.
+of start codon ATG of GSERD15B using the Hap1 type sequence. Methods S1 Supporting experimental procedures.
+Table S1 List of 182 wild soybean accessions from China.
+o 2020 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 1-15

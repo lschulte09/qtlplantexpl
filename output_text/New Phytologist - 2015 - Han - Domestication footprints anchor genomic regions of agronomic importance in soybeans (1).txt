@@ -1,0 +1,1358 @@
+New
+Phytologist
+Research
+Domestication footprints anchor genomic regions of agronomic
+importance in soybeans
+Yingpeng Han'*, Xue Zhao'*, Dongyuan Liuz* > Yinghui Li3*, David A. Lightfoot** Zhijiang Yang", > Lin Zhao',
+Gang Zhou?, Zhikun Wang', Long Huang?, Zhiwu Zhang", Lijuan Qiu', Hongkun Zheng? and Wenbin Lil
+'Key Laboratory of Soybean Biology in Chinese Education Ministry, Northeast Agricultural University, Harbin 150030, China; ?Bioinformatics Division, Biomarker rTechnologies Corporation,
+Beijing 101300, China; "Institute of Crop Science, National Key Facility for Crop Gene Resources and Genetic Improvement (NFCRI) Chinese Academy of Agricultural Sciences, Beijing
+100081, China; *Illinois Soybean Center for Excellence in Soybean Research, Southern Illinois University, Carbondale, IL62901, USA;"Department of Crop and Soil Science, Washington
+State University, Pullman, WA 99164-6420, USA
+Summary
+Authors for correspondence:
+Present-day soybeans consist of elite cultivars and landraces (Glycine max, fully domesti-
+Wenbin Li
+cated (FD)), annual wild type (Glycine soja, nondomesticated (ND)), and semi-wild type
+Tel: +86 50451 55190778
+(semi-domesticated (SD)). FD soybean originated in China, although the details of its domesti-
+Email: wenbinli@neau.edu.cm
+cation history remain obscure.
+Hongkun Zheng
+More than 500 diverse soybean accessions were sequenced using specific-locus amplified
+Tel: +86 010 57045000
+fragment sequencing (SLAF-seq) to address fundamental questions regarding soybean
+Email: zhenghk@biomarker.com.om
+domestication.
+d In total, 64 141 single nucleotide polymorphisms (SNPS) with minor allele frequencies
+Lijuan Qiu
+Tel: +86 010 62186650
+(MAFS) > 0.05 were found among the 512 tested accessions. The results indicated that the SD
+Email: giulijuan@caas.cn
+group is not a hybrid between the FD and ND groups. The initial domestication region was
+Received: 14 February 2015
+pinpointed to central China (demarcated by the Great Wall to the north and the Qinling
+Accepted: 12July 2015
+Mountains to the south). A total of 800 highly differentiated genetic regions and > 140 selec-
+tive sweeps were identified, and these were three- and twofold more likely, respectively, to
+encompass a known quantitative trait locus (QTL) than the rest of the soybean genome.
+New Phytologist (2016) 209: 871-884
+Forty-three potential quantitative trait nucleotides (QTNS; including 15 distinct traits) were
+doi: 10.1111/nph.13626
+identified by genome-wide association mapping.
+e The results of the present study should be beneficial for soybean improvement and provide
+Key words: divergence of soybean species, insight into the genetic architecture of traits of agronomic importance.
+genome-wide association mapping, origin,
+selective sweeps, sequencing.
+Introduction
+G. gracilis to be a semi-cultivated soybean and thus proposed its
+designation as Glycine max forma gracilis Multiple evolutionary
+Although the domestication of soybean (Glycine max) has been processes for the FD, SD and ND groups have been postulated.
+traced to C. 6000-9000 yr ago in China (Kim etal, 2010), many For example, Fukuda (1933) considers SD accessions to be evolu-
+of the details underlying its domestication remain unresolved. A set tionary intermediates between ND and FD accessions. However,
+of semi-domesticated (SD) soybean accessions found throughout Hymowitz (1970) hypothesized that SD soybeans originated as
+China bear seeds that are larger than those of nondomesticated hybrids between ND and FD soybeans, and based on their distri-
+(ND) accessions (Glycine soja) but smaller than those of fully bution in China and their morphological characteristics, Wang
+domesticated (FD) accessions (G. max; Hymowitz, 1970). Further- etal. (1983) asserted that SD soybeans are variants of ND soy-
+more, the genetic and evolutionary relationships between the FD, beans. Furthermore, although several hypotheses have been pro-
+SD and ND germplasms are unclear. The morphologically inter- posed, the exact geographical origin of the FD groups in China has
+mediate SD group, which typically produces larger seeds (the 100- not been established. The hypothesized origins include northeast-
+seed weight is > 3.0 g greater than that of common ND seeds) and ern China, the Huang-Huai Valley (central China; Vavilov, 1982;
+has a semi-erect stem (Hymowitz, 1970), was taxonomically Xu, 1986), the Yangtze River region (south China; Wang, 1947;
+described by Skvortzow (1927) as a distinct species: Glycine gracilis. Gai etal, 2000), and various other sites within China (Lii, 1978).
+Hermann (1962) hypothesized that G.gracilis is a variant of the
+Genome-wide association studies (GWASS) have been used to
+FD group, whereas Broich & Palmer (1980, 1981) considered dissect the genetic basis of traits underlying domestication in a
+wide range of organisms (Huang etal., 2010; Voight et tal., 2010;
+*These authors contributed equally to this work.
+Burdon etal., 2011; Li etal., 2013; Zhang etal., 2014).
+@ 2015 The Authors
+New Phytologist (2016) 209: 871-884 871
+New Phytologist @ 2015 New Phytologist Trust
+www.newphytologit.com
+
+
+
+New
+872 Research
+Phytologist
+However, only a few studies have investigated domestication-re- FD groups were then defined by analyzing the patterns of diver-
+lated traits in soybean (Zhang etal., 2014); thus, information on sity and fixation detected. A GWAS of the three soybean groups
+soybean domestication remains limited. As the SD and ND (FD, SD, and ND) allowed the dissection of the genetic architec-
+groups may retain genetic information before the domestication ture of 15 important domestication traits to a resolution of nearly
+of soybean, these accessions are valuable for exploring the impact one SNP per gene.
+of domestication on genomic variation. Indeed, GWASS and
+genomic variations among the FD, SD and ND groups offer a Materials and Methods
+unique setting for the recovery of useful alleles or genes from SD
+and ND soybeans in efforts to improve the traits ofFD soybeans.
+Genotype selection and sampling
+Whole-genome sequencing (WGS) is the most straightforward
+method for the genome-wide identification of domesticated vari- A total of 512 soybean (Glycine max (L.) Merr.) accessions were
+ants. However, genotyping hundreds of samples by WGS is not evaluated in the present study, 470 of which were selected from
+affordable for many investigators, even when considering the the 2000 core germplasms collected to represent the genetic and
+marked decrease in cost as a result ofinnovation and technologi- geographical diversity of > 30 000 FD, SD and ND germplasm
+cal progress. In comparison with WGS, reduced representation collections in China. The collection sites ranged from 19°N to
+sequencing has many advantages, such as reducing genome com- 50°N and from 73°E to 135°E (Supporting Information
+plexity and lower cost, and has thus been applied to the study of Table S1; Fig. la,b). The phenotypes of these accessions were
+evolutionary genomics, GWASS, and marker-assisted molecular determined based on existing data that described a variety of yield,
+breeding (Mamanova etal., 2010). This manuscript presents a quality and morphological traits. The samples included 404 FD,
+comprehensive view of genome-wide sequence variation among 36 SD and 72 ND soybeans. Additionally, 42 accessions collected
+the genomes of a diverse group of 512 soybean accessions that from the USA, Canada, Japan, and various European countries
+represents the spectrum of FD, SD and ND germplasm collec- were also selected to represent exogenous soybean germplasms.
+tions. The accessions were analyzed using specific-locus amplified
+fragment sequencing (SLAF-seq; Sun etal., 2013), a reduced Trait analyses
+representation sequencing technology. Using this method, high-
+quality single nucleotide polymorphisms (SNPs) evenly dis- Soybeans seeds, which were derived from a single plant ofeach of
+tributed along the soybean chromosomes were obtained at a low the 512 lines, were grown in 2011 at Harbin, China. The seeds
+cost. The evolutionary dynamics and geographical origins of the were planted with four replications in a randomized design. Two
+(a)
+(b)
+45
+35
+Fig. 1 Sample distribution and divergence.
+(a) Location of the soybean samples around
+85 95 105 115 125
+the world, highlighting China. (b) The
+Longitude ("E)
+different colors indicate the number of
+(c)
+(e)
+individuals sampled. Regarding the map of
+30
+China, the provinces are delineated by blue
+20
+d
+lines, and the upper and lower red lines
+indicate the Yellow River basin and Yangtze
+10- - %
+a
+River basin, respectively. (c) Scatter plotsof
+oo
+o0
+0380
+the first two
+8
+dA
+principal components. Each dot
+0 08
+de
+RE
+8
+R
+Pao
+represents an accession. (d) Population
+oode
+structure of soybean accessions. The
+-10
+o
+accessions were divided linto three groups:
+: 80o0
+fully domesticated
+6
+-20
+o FD o ND o SD
+(FD) soybeans, semi-
+LE
+domesticated (SD) soybeans and
+o e
+nondomesticated
+-30
+(ND) soybeans. Within
+-25 -15 -5 5 15 25 35 45 55
+each group, the accessions were ordered
+PC1
+0.02
+according to the genetic component when
+(d)
+K=2 (Each accession shownas a verticalline
+K=2
+partitioned into K colored components
+K=3!
+TIT 1
+represents inferred membership in K genetic
+K= 4:
+vanar amimitin T
+
+MIYIE
+clusters). (e) Phylogenetic tree of the 512
+TeTNIT
+accessions constructed with 64141 single
+K= 5!
+PHTTE
+nucleotide polymorphisms (SNPS). The
+K=6
+m FAAT "h HMT
+MMIY
+WTANT
+un
+green, purple and red lines represent FD, SD
+FD
+SD : ND
+and ND soybeans, respectively.
+New Phytologist (2016) 209: 871-884
+0 2015 The Authors
+RIG HT S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust
+
+
+
+New
+d
+Phytologist
+Research 873
+plants per pot and four pots per genotype replicate were analyzed. provided by Illumina. Samples were re-purified after PCR by elec-
+The pot size was 30 X 30 cm (diameter X depth) and contained trophoresis and excising of DNA of 500-550 bp. DNA samples
+PRO-MIX soil (a ready-made, peat-based growing medium con- were diluted for sequencing.
+taining 75-85% soil by volume, limestone for adjustment of the
+pH to 7.1, Perlite", a wetting agent, and Vermiculite"M, all Data processing and SNP calling
+Australian Perlite Pty Ltd, Sydney, NSW, Australia). The seeds
+were planted on 28 March 2011, in a glasshouse. Five quality All reads were processed for quality control and filtered using
+traits, namely, hilum color, flower color, leaflet shape, pubescence Seqtk Uhmpelgihub.com/lhsliegd, Then the high-quality
+color, and seed coat color, were assessed. Additionally, all of the paired-end reads were mapped onto the soybean genome
+accessions were planted in the field on 13 December 2011 and (Wm82.a2.v1) using the Burrows-Wheeler Aligner (BWA; Li &
+20 December 2012, in Sanya in China. The plants were grown Durbin, 2009). The reference genome sequence was downloaded
+in a randomized complete block design with four replications from the Phytozome database Omplpbyeamcig.decgw)
+(four-row plots). The rows were 2 m in length and located 70 cm The mapping results were processed by sorting and duplicate
+apart, with plant spacing of6 cm. Four plants from each replicate marking using functions in SAMTOOLS (Li etal., 2009) and PICARD
+were selected to evaluate 10 domestication-related quantitative Chtpl/broadinstitutegithubio/picard) Realigner Target Creator
+traits, including plant height, flowering time, seed protein and oil and InDel-Realigner in GATK (McKenna etal, 2010) were used
+contents, 100-seed weight, seed weight per plant, node number to realign InDels and Unified Genotyper was used to call geno-
+on the main stem, pod number, and branch number per plant.
+types across the 512 accessions using the default parameters. All
+data filter processing was performed following the 'best practices'
+SLAF sample preparation for sequencing
+workflow developed by the GATK team (McKenna et al., 2010).
+Sequencing depths of each sample were as calculated using the
+Genomic DNA was isolated from the fresh leaves ofa single plant 'Depth of Coverage' module of GATK. SNPS with minor allele
+per accession. Genomic DNA was analyzed according to SLAF- frequency (MAF) > 5% were excluded from the genotype data
+seq (Sun etal., 2013). To obtain > 50 000 SLAF tags per genome sets of fall the accessions.
+which were evenly distributed in unique genomic regions of the
+genome, different restriction enzyme combinations were tested Construction of phylogenetic trees and rooted
+through in silico digestion prediction. Different length fragments phylogenetic trees
+ofgenomic DNAafter digestion were simulated in silico. Enzymes
+were selected based on uniqueness and uniformity of simulated A total of 64 141 SNPs were used to calculate genetic distances
+fragment alignments to the reference genome sequence of Wil- among the 512 accessions using the p-distance method (Jin &
+liams 82 (NSRL, Champaign, IL, USA; Schmutz etal., 2010). Nei, 1990). A bootstrap consensus tree was obtained from 500
+Two restriction enzymes (Msel and HaellI) were selected. The replicates. Phylogenetic trees were constructed using the neigh-
+45-bp sequence read at both ends of each simulated 500-550-bp bor-joining method in MEGA5 (Tamura etal., 2011).
+fragment was identified by a PERL script program. Predicted
+Lucerne was used as the outgroup when constructing rooted
+reads were aligned to the reference genome of Williams 82. The phylogenetic trees, and BLASTZ was used to identify homolo-
+results showed that the expected percentage (unique mapped gous regions between soybean and Lucerne. SNPs within these
+reads/total reads) was 74.74%. The restriction enzyme digestion regions were extracted, and the genomic sequences of Lucerne
+protocol was proved to be effective in the validation of the 512 were used to provide outgroup information at corresponding
+accessions. A total of 10 ug of genomic DNA ( 100 ng ul- positions. The neighbor-joining tree was constructed using
+from each accession was incubated at 37°C with Msel (New Eng- MEGA5 under the p-distances model with the orthologous SNPs.
+land Biolabs (NEB), Ipswich, MA, USA), T4 DNA ligase (NEB), The bootstrap consensus tree was constructed from 500 repli-
+ATP (NEB) and a 12-bp Msel adapter. Restriction-ligation reac- cates.
+tions were heat-inactivated at 65°C, and then digested with the
+second restriction enzyme Haelll at 37°C. PCR was performed Three-population test
+with the restriction-ligation samples (diluted), dNTPS, Taq DNA
+polymerase (NEB) and a 12-bp Msel-primer containing one of96 The three-population test is capable of analyzing genomic mix-
+unique barcodes. The PCR products were purified with the ture among different evolutionary groups (Myles etal., 2011).
+E.Z.N.A. Cycle Pure Kit (Omega Bio-Tek, Norcross, GA, SD soybean (X) was compared with two putatively parental
+USA). Samples were incubated at 37°C with Msel, T4 DNA populations, namely, ND (Y) and FD (W) soybeans, to deter-
+ligase, ATP and Solexa TM adapters (Illumina Co., San Diego, CA, mine whether X, Y and W are related in a simple tree or
+USA), purified with a Quick Spin column (Qiagen, Hilden, Ger- whether X is a mixture ofY and W. The f3 statistic, f3 (X, Y,
+many), then electrophoresed on a 2% (w/v) agarose gel at 100V W), was defined as the normalized product of the frequency a
+for 1h. Fragments from 500 to 550 bp were isolated using a Gel difference between populations X and Y and the frequency dif
+Extraction Kit (Qiagen). The fragments were used in PCR ampli- ference between populations X and W averaged over all 64 141
+fication with Phusion TM Master Mix (NEB) and Solexa amplifica- SNPs. A detailed analysis of three-population tests is described
+tion primer mix. Phusion"M PCR settings followed guidelines by Reich etal. (2009).
+@ 2015 The Authors
+New Phytologist(2016) 209: 871-884
+a B H a LIN Kow Phytologist Trust
+www.newphytologitcom
+
+
+
+New
+874 Research
+Phytologist
+Estimation of genomic characteristics and linkage
+FST values for the three geographical groups of FD soybeans
+were compared. Genetic components were analyzed
+disequilibrium (LD)
+using
+ADMIXTURE (Alexander etal., 2009) and principal component
+The genetic parameters T and 0 (for details of the calculation, see analysis (PCA) was performed using GAPIT software (Lipka
+hmploanspeigaghabpudag/pppaindz.hmp were etal., 2012).
+used to describe the diversity of a particular population based on
+the same sample size at a genome-wide scale (Watterson, 1975). Analyses of differentiation and putative selective
+Fu and Li's D* and F* statistics were used to estimate and com-
+sweeps
+pare the selection experienced by the evolutionary groups during To detect genomic regions that are potentially differentiated
+the process of evolution and domestication investigated in this from ND to FD soybeans, a total of 506 accessions (401
+study (Fu, 1997). Population structure was calculated using FD, 69 ND and 36 SD soybeans) were used for FST estima-
+ADMIXTURE software (Alexander etal., 2009). The number of tion according to the method described by Lam etal. (2010).
+genetic clusters K was predefined as 2-10 to explore the These accessions encompassed the regions where soybeans are
+population structure of tested accessions. This analysis provided grown in China, and the accessions selected presented no
+maximum likelihood estimates of the proportion of each sample direct kinship relationships. To evaluate FST and the T ratio
+that was derived from each of the Kpopulations. The divergence for each combination of tested groups (401 FD, 69 ND and
+index, Fstatistics (FST), is a measure of population differentia- 36 SD soybeans), the FST and T values were plotted using
+tion or genetic distance based on genetic polymorphism data 100-kb sliding windows with 10-kb steps. Genomic regions at
+(Hudson et al., 1992). FST was calculated via the PopGen pack- which the FST value reached the critical value, corresponding
+age in BIoPERL (Wright, 1951) based on 100-kb sliding windows to a 5% significant level, were taken as significantly differenti-
+in 10-kb steps : The genomic windows where the average FST fell ated genomic regions between two groups among the three
+in the top 5% of the empirical FST distribution were defined as soybean species. The top 5% values for the T ratio between
+the FST outliers. Adjacent windows probably represent the effect ND and SD, between SD and FD and between ND and FD
+of a single divergence region. An LD analysis was conducted in each 100-kb sliding window with 10-kb steps were used to
+using the PLINK software (specific parameters: MAF > 0.05, 7, determine potential selective sweeps from highly differentiated
+Id-window 999999, Id-window-70, Purcell et al., 2007).
+regions (Li etal, 2013).
+Gene flow pattern inference
+Evaluation of highly differentiated and selected genomic
+We inferred the gene flow between soybean species and between regions
+subpopulations of G. max. The gene flow parameter Nm (the QTLs published in SoyBase (htpl/www.soybasc.org or genes
+number of migrants coming into population) was evaluated located in highly differentiated or positive selective sweeps were
+among the FD, SD and ND groups using the method described analyzed using the method described by Wright etal. (2005).
+by Wright etal. (2005). The directions of the gene flow between
+soybean species and between subpopulations within G. max were Genome-wide association analyses of domestication traits
+estimated using MIGRATE (Beerli & Palczewski, 2010). We
+assumed the following three models: a full model with two popu- A total lof46 336 high-integrity SNPs from the domesticated soy-
+lation sizes and two migration rates (from popA to popB and bean group were used to implement association analyses with a
+from popB to popA); a model with two population sizes and one compressed mixed linear (MLM) model in GAPIT (Lipka etal.,
+migration rate to popB; and a model with two population sizes 2012). The Bonferroni method at a<0.05 (corresponding to
+and one migration rate to popA. For each model, marginal likeli- P <1.1 X 10 was used as the threshold to determine whether
+hood was evaluated using the thermodynamic integration a significant association existed (Holm, 1979). Candidate genes
+method. Among each model at least four heated chains were used located within the 200-kb region upstream or downstream of
+to predict the optimal result using the suggested temperature peak SNPs were identified.
+scheme. The number of recorded steps in the chain was set to
+500 000 and the replicate parameter was set to 3. Other parame- Results
+ters were set by default. Finally, the marginal likelihoods of all
+models were compared to infer the direction of gene flow.
+Soybean accession sampling
+Estimation of parameters for three assumed origins of FD
+A total of 512 soybean accessions, including 404 FD (G. max),
+36 SD (G. gracilis), and 72 ND (G. soja) accessions, were selected
+soybeans
+based on their genotype, phenotype and geographical distribu-
+According to the results of other studies (Li, 1994), we postu- tion. Of the 512 accessions analyzed, 470 were selected from a
+lated three candidate areas of origin for FD soybeans within collection of C. 30 000 soybean accessions originating from
+China: northeastern China (> 45°N), the Huang-Huai Valley China, and an additional 42 accessions were selected to represent
+(26-44°N), and southern China (19-25°N). The Tt, 0, and soybeans originating outside ofChina (Table S1; Fig. la,b).
+New Phytologist (2016) 209: 871-884
+0 2015 The Authors
+RIG H T S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust
+
+
+
+New
+d
+Phytologist
+Research 875
+Sequencing and SNP calling
+estimator (0), the average pairwise divergence within a popula-
+tion (T), and the total and specific SNP numbers within the ND
+Using a bar-coded multiplex sequencing approach with an Illu- group were used to estimate genetic diversity. All three measures
+mina Genome Analyzer II, 392 million reads (each ofwhich was presented higher values for the ND group compared with the SD
+45bp in length) were generated, encompassing 17.64 Gb of and FD groups (Fig. 2a-c). The LD patterns ofthese three groups
+soybean genomic DNA sequence. For each accession, 59 494 revealed that the distance ofLD decay in the ND group is shorter
+high-quality tags (or SLAFS) were identified from 299 million than those in the SD and FD groups (Fig. 2d). Indeed, the SD
+paired-end reads after sequence alignment with the Williams 82' and FD germplasms may be under higher selective pressure than
+reference genome (Table 1). The high-quality SLAFS were the ND germplasm, as consistently reflected by the results
+selected using a total depth threshold of 1000-fold (Fig. S1), and obtained from neutrality tests, including Fu and Li's D* and F*
+the average sequencing depth was 6.14-fold for each of the 512 statistics (Fig. 2e,f). Therefore, ND soybeans were confirmed to
+accessions (Table 1). Two samples of the reference "Williams 82' be the progenitor ofSD and FD soybeans.
+genome, each from separate plants, were also sequenced as an
+The ND accessions possessed the largest number of group-speci-
+internal control to evaluate accuracy. A totalof64 141 SNPs with fic SNPs. However, appreciable numbers of group-specific alleles
+an MAF20.05 were identified from 59 494 SLAFS among the were also identified in the FD and SD accessions, which is consis-
+512 accessions (Table 1; Fig. S2).
+tent with the maintenance of features that distinguish the SD
+groups from FD and ND relatives. The number of SNPS shared
+Genome-wide variation uncovered divergence
+between the ND and SD groups was greater than the number of
+among
+SNPs unique to the SD group but less than the number of SNPs
+soybean species
+unique to the ND group, indicating that the gene flow direction is
+To ascertain the divergence of the FD, SD and ND groups dur- from the ND to the SD group. The number of SNPs shared
+ing evolution, principal component, population structure, phylo- between the SD and FD accessions was greater than that of their
+genetic relationship, and species-specific allele frequency analyses respective group-specific SNPs and was also greater than the num-
+were performed. Additionally, the sequence diversity of the FD, ber of SNPs shared between the FD and ND accessions. In addi-
+SD and ND germplasms was evaluated. All of the analyses indi- tion, the number of SNPS shared between the FD and ND
+cated strong divergence between the different soybean groups. accessions was lower than the number shared between the SD and DE
+The principal component and population structure analyses ND accessions. At the whole-genome level, Nm values (Fsr-based
+(Fig. 1c,d) showed that the FD, SD and ND collections were gene flow rate) > 1 were obtained between the ND and SD groups
+clearly distinguished, although different degrees of introgression (1.94), between the SD and FD groups (1.40), and between the
+were detected in these groups.
+ND and FD groups (1.02) (Fig. 2h). This finding indicates a rela-
+The FD, SD and ND groups were divided into different tively strong gene flow between ND and SD (1.94) and between
+branches according to the phylogenetic relationships of the 512 SD and FD (1.40) and a relatively weak gene flow between ND
+accessions and based on 64 141 SNPS (Fig. le). Lucerne (Med- and FD (1.02). Thus, FD soybeans may have been synchronously
+icago sativa (L.) Millsp.) was used as an outgroup to construct a domesticated from SD soybeans and from ND soybeans.
+rooted phylogenetic tree that could be used to infer evolutionary
+Based on the analyses presented above, the SD group should
+relationships among the three soybean groups. Tree construction be an evolutionarily intermediate species and not be a product of
+with Lucerne as the root was based on 2273 orthologous SNPs hybridization between the ND and FD groups. To further con-
+from soybean and Lucerne (Fig. S3). The evolutionary dynamics firm the evolutionary relationships among the FD, SD and ND
+among the FD, SD, and ND accessions were clearly resolved in accessions during soybean domestication, a three-population test
+the rooted trees. Analysis of the observed genetic distances for the was performed (Myles etal., 2011). A negative f3 value suggests
+three groups revealed that the ND group is more closely related that the tested group is a mixture of the other two groups; a posi-
+to the two outgroups than the SD and FD groups. Watterson's tive value indicates that the groups are not mixtures. The f3
+Table 1 Sequencing and single nucleotide polymorphism (SNP) calling
+Accession group
+FD
+ND
+SD
+Average
+Total
+Sample size
+404
+72
+36
+512
+Total reads (bp)
+319753 568
+44 718875
+27 877 374
+392 349817
+Pair-end reads (bp)
+280 140473
+39 178818
+24423 748
+343 743039
+Properly pair-end reads (bp)
+243 556 605
+34 062 411
+21 234223
+298 853 239 a
+SLAF number
+57 418
+53 603
+55 368
+59494
+SLAF depth
+6.29
+5.77
+6.36
+6.14
+Heterozygosity
+0.02
+0.01
+0.01
+0.01
+FD, fully domesticated; ND, non-domesticated; SD, semi-domesticated; SLAF, specific-locus amplified fragment.
+@ 2015 The Authors
+New Phytologist(2016) 209: 871-884
+RI G H S LIN Kow Phytologist Trust
+www.newphytologitcom
+
+
+
+New
+876 Research
+Phytologist
+(a) I FD =SD END
+(b) 0.0010 FD SD END
+0.0010 -
+de
+e
+a 0.0005 -
+0.0005 -
+E
+E
+0.0000 ++
+0.0000
+1 3 5 7 9 11 13 15 17 19
+1 3 5 7 9 11 13 15 17 19
+Soybean chromosomes
+Soybean chromosomes
+Fig. 2 Evolutionary relationship among fully
+domesticated (FD), semi-domesticated (SD)
+(c)
+FD
+(d) 17
+FD
+and nondomesticated (ND) soybeans. (a, b)
+0.8-
+SD ND
+Population parameters T and 10of FD, SD and
+9586
+&
+ND soybeans. (c) Number of single
+0.6
+nucleotide polymorphisms (SNPS) shared by
+8877 2641
+. 0.4
+FD, SD and ND soybeans. (d) Linkage
+8177
+disequilibrium (LD) patterns of FD, SD and
+0.2
+13967 3088 17804
+ND soybeans. (e-g) Neutrality tests,
+SD
+ND
+0
+including Fu and Li's D* and F* statistics, and
+0 200 000 400000 600000 800 0000 1000 0000
+the number of migrants coming into the
+Distance (bp)
+population (Nm) values, ofFD, SD and ND
+(e) 21-FD -SD - -ND (f) 1.5 - -FD SD -ND (g) 47
+FDVSND
+soybeans. (h) Hypothetical SD evolutionary and ND
+FD VsSD
+relationships among FD,
+à 1.5-
+IA u
+3
+SD vs ND
+soybeans were indicated by gene flow. All of
+5
+y
+the probable evolutionary patterns (dashed
+E 1-
+0.5-
+E
+arrows) among the FD, SD and IND groups
+2 0.5-
+1 0
+are summarized on the left of the figure, and
+the proven evolutionary patterns are shown
+0HTITTTTTT T
+-0.5
+TTTTT 0+TT
+E
+on the right. The numbers on the left of the
+1 4 7 10 13 16 19
+1 4 7 10 13 16 19
+1 4 7 10 13 16 19
+figure represent the
+likelihoods of
+Soybean chromosomes
+Soybean chromosomes
+Soybean chromosomes
+marginal
+each probable evolutionary pattern among
+(h)
+the FD, SD and ND groups. High values of
+FD
+FD
+marginal likelihood suggest ta high possibility
+of the corresponding pattern, and arrows
+pointin the direction of the inferred gene
+flow. The numbers on the right of the figure
+Aor
+are the Nm values reflecting the power of
+gene flow among the groups. The dashed
+-27189.2
+1.40
+arrows indicate low gene flow (Nm near 1.0).
+SD < -27259.7
+ND
+SD
+ND
+Solid arrows with differentwidths indicate
+-27346.4.
+high gene flow (Nm > 1.0).
+values for the three soybean groups were evaluated using 100
+of FD
+replicates, each of which randomly sampled one-half, one-third, Geographical origin
+soybean
+two-thirds, and all of the SD accessions, along with equal num- The FD germplasms sampled in China were classified into three
+bers ofthe FD and ND accessions. All of thef3 values calculated major subgroups according to their geographical distribution:
+for the FD, SD and ND groups estimated from the 100 replicates northeastern China (FD3), the Huang-Huai Valley (FD2; central
+were positive (Fig. S4), indicating that none of the accessions are China) and southern China (FD1) (Fig. 3a; Wang, 1947; Vav-
+the product of hybridization between the other two soybean ilov, 1982; Xu, 1986; Gai etal., 2000). The genotypic data set of
+groups. This finding further suggested that the SD germplasm 60 000 SNPs from 417 accessions (including all of the SD and
+emerged as a transitional group during the evolutionary process ND soybeans as well as three FD subgroups) was analyzed to
+of soybean domestication rather than from the direct hybridiza- obtain the geographical origin ofFD soybeans. The first principal
+tion ofFD and ND soybeans.
+component was correlated with latitude; the second principal
+The evolutionary relationships and directions of domestication component was also found to be associated with the latitude of
+among the FD, SD and FD groups were summarized by six prob- the samples from northeastern China (Fig. 3a,b).
+able patterns (Fig. 2h), and the gene flow directions were ana-
+The ND-specific genomic component in the genome of the
+lyzed using the Bayesian approach in MIGRATE to investigate the SD accessions and the three geographically distinct groups of FD
+migration rates (Beerli & Palczewski, 2010). The marginal likeli- accessions was evaluated based on genetic admixture analyses.
+hood of two out of the total of three models supported a unidi- The results showed that genetic introgression occurred from the
+rectional migration from ND to SD and to FD and from SD to ND accessions to the SD and FD accessions (originating from Le
+FD. Therefore, this information indicates that SD soybeans are the three geographical regions). Of these three geographically
+more ancient than FD soybeans and that a substantial portion of based FD soybean groups, the accessions from the Huang-Huai
+the genetic constitution of FD soybeans flowed from SD soy- Valley present greater genetic introgression from the ND acces-
+beans during domestication (Fig. 2h).
+sions than those from the other two FD subgroups (Fig. 3c),
+New Phytologist (2016) 209: 871-884
+0 2015 The Authors
+RIG H T S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust
+
+
+
+New
+I
+Phytologist
+Research 877
+(a) 50
+(b) 30-
+FD1 OFD2 8FD3
+45
+20
+40
+10
+35
+riNet
+0
+8
+-
+30
+-10
+25
+gz
+-20
+20
+-30
+-40
+I
+85 90 95 100 105 110 115 120 125
+-30 -20 -10 0 10 20
+Longitude(°E)
+PC1
+(c)
+100
+(d)
+FD1
+95
+I
+-
+020101
+90
+L FD3
+I
+0.16/1.39
+SD
+I
+0121
+e
+. FD2 ND
+0.17/1.24
+85
+I
+FD2
+I
+. FD1
+s 80
+L ISD
+031088
+2
+75
+K=2 K=3 K=4 K=5 K=6
+FD3
+K value
+Fig. 3 Origin of soybean domestication in China. (a) Latitude and longitude distribution of fully domesticated (FD) soybean accessions in China. These
+accessions were classified to three hypothetical regionsin China. FD1 (orange points) represents the soybean groups from southern China (south of the
+Qinling Mountains and Huai River, including both sides of the Yangtze River), FD2 (purple points) represents the soybean groups from the Huang-Huai
+Valley (between the Great Wall and Qinling Mountains, including both sides ofthe Yellow River), and FD3 (dark and light red points) represents the
+soybean groups from northeastern China (north of the Great Wall). (b) Differentiation ofthe three geographical groups of FD based on the first two
+principal components derived from genetic markers, illustrating a clear distinction between the groups from northeastern and southern China. The Huang-
+Huai Valley group presents an overlap with the other two groups. (c) Proportions of nondomesticated (ND)-specific components in the semi-domesticated
+(SD) group and the three groups of Chinese FD soybeans obtained through a population structure analysis. The Huang-Huai Valley (FD2) has more ND
+components than the other FD groups. (d) F-statistics (FsT) based differentiated distance and the number of migrants coming into the population (Nm)-
+based gene flow among ND, SD and Chinese FD soybeans. The FST and Nm values are shown before and after the forward slash (/), respectively.
+indicating that the FD subgroups from the Huang-Huai Valley Table2 Evolutionary distances among subpopulations
+may be the oldest cultivars.
+FD12
+FD2b
+FD3
+SDd
+Additional evidence of differential introgressions involves the
+degree of relatedness between the ND and FD groups within the FD2
+0.167
+three geographical regions. The FD group from the Huang-Huai FD3
+0.190
+0.183
+Valley was genetically closer to the SD and ND accessions than SD
+0.210
+0.194
+0.213
+the FD groups from northeastern and southern China. The pop- NDe
+0.212
+0.198
+0.227
+0.203
+ulation differentiation levels (as measured by FST) between the ab.cFully domesticated (FD) soybeans from southern China, central China
+FD germplasm from the Huang-Huai Valley and the SD and and northeastern China, respectively. dsSemi-domesticated (SD) and
+ND germplasms were estimated to be 0.11 and 0.17, respec- nondomesticated (ND) soybeans, respectively.
+tively. Markedly higher FST values were obtained from similar
+comparisons with the FD germplasms from northeastern and from the Huang-Huai Valley (TFD2 == 8.66 x 10 4; OFD2 =
+southern China (Fig. 3d). When calculated using the p-distance 7.63 X 10 4). This result suggests that the FD germplasm may
+method, similar evolutionary distances were observed between have experienced a modest reduction in genetic diversity as it
+the three FD groups and ND and SD soybeans. Specifically, expanded northward and southward.
+closer evolutionary distances were obtained between the FD
+According to these results, we deduced that FD soybeans may
+accessions from the Huang-Huai Valley and the SD and ND have expanded northward and southward from central China
+accessions than between the FD accessions from northeastern or (the Huang-Huai Valley). To test this hypothesis, gene flow pat-
+southern China and the SD and ND accessions (Table 2).
+terns among the ND and SD accessions and the three groups of
+Based on T and 0 calculations, the genetic diversity values for FD accessions were estimated. The marginal likelihoods strongly a
+the FD soybean subpopulations from northeastern (TFD3 == support a unidirectional migration from both ND and SD to
+7.50 X 10 ; OFD3 = 7.57 X 10 $) and southern China (TFD1 == FD. Analysis of the relationships among the three FD soybean
+i
+7.75 X 10 ; OFD1 =7.62 x 10 ) were found to be slightly groups through a Bayesian comparison of migration models
+reduced compared with the genetic diversity of the FD soybeans showed that the gene flow probably occurred from FD2 (the
+@ 2015 The Authors
+New Phytologist(2016) 209: 871-884
+RIG H T S LIN Kow Phytologist Trust
+www.newphytologst.com
+
+
+
+New
+878 Research
+Phytologist
+Huang-Huai Valley) to FD1 and FD3, suggesting that the 3-monooxygenase activity. Significant SNPs underlying flower
+Huang-Huai Valley may be the origin of domesticated soybean color are found on chromosome Gm13 and are tightly linked to
+in China.
+the W1 locus, which was previously reported to control flower color
+The total number of SNPs (38 110) identified in the FD group in soybean (Yang etal, 2010). The genes nearest to the peak SNP
+from the Huang-Huai Valley was significantly greater are also distributed into three classes of genes, including u-myb
+(MAF N 0.05) than the number of SNPs identified in the other avian myeloblastosis viral oncogene homolog (MYB) transcription fac-
+two subgroups (37 494 SNPs in the FD subgroup from southern tors, which are known to regulate the early and late steps of antho-
+China and 36 114 SNPs in the FD subgroup from northeastern cyanidin biosynthesis, genes involved in anthocyanin modification
+China). However, the number of SNPs unique to the Huang- and transport, and genes encoding tissue-specific Chalcone Synthase
+Huai Valley FD accessions (12 964) was more than the number (CHS, Feldbrugge etal, 1997; Mathews etal., 2003; Gillman
+of unique SNPs identified in the FD accessions from southern etal, 2011). A significant peak for leaflet shape was localized to
+China (12652) but was less than that for northeastern China chromosome Gm20. Both the locus and the candidate gene tightly
+(13 212). This finding suggests that many new mutations were linked to this peak SNP were previously identified in a fine map-
+generated either as a result ofthe domestication process or during ping study of soybean leaflet shape (Jeong etal, 2011).
+the introduction of soybeans from their region of origin to new
+Of all 25 QTNs associated with 10 quantitative traits, three
+environments.
+are located at previously mapped QTLs or genes. For example,
+the signals associated with first flowering time link to
+Genome-wide association analyses of loci underlying
+GIGANTEAGP.GIGI0100 GI) gene which is controlled
+domestication traits
+by the circadian clock (Fig. 4; Table 3).
+The GWAS was more effective in clarifying the genetic basis
+Notable changes in soybean morphology, including flower color, of the binary selected traits than that of quantitative traits. Only
+seed coat color, seed weight, and seed composition, have emerged some major loci were detected for quantitative traits, whereas
+since its domestication. In this study, a high-density haplotype minor loci with small effects were difficult to identify. This result
+map was constructed for genome-wide association mapping. The can be attributed to the difficulty that current GWAS approaches
+monogenic, binary, oligogenic and quantitative domestication have in estimating the variable influences of environmental fac-
+traits of soybean under different degrees of selection pressure tors on the phenotypes of quantitative traits. To discover the
+were analyzed to identify the underlying genetic loci and putative genetic basis of more domesticated traits, particularly quantita-
+genomic changes.
+tive traits, the development of modified or new GWAS
+However, ND and FD soybeans were unsuitable for GWAS at approaches is needed to estimate the effects of genotype and
+the same time because of the greater morphological differences interactions with the environment.
+between these two groups. In addition, all of the ND soybean alle-
+les would be inferior to all of the FD soybean alleles and would
+often have opposite beneficial alleles within the separate gene pools. Genomic changes and target regions associated with
+differentiation and selection
+Therefore, to evaluate the GWAS performance, we analyzed 15
+traits from one FD soybean group that contained cultivars showing The differentiation of ND into FD soybeans via domestication
+diversity among traits that are highly penetrant between the FD may have partly occurred as a consequence of selective processes
+and ND groups (Figs S5, S6). The 15 traits included five binary that induced genomic changes, which could be measured using
+traits (hilum, seed coat, flower color, pubescence color, and shape genotypic data. In this study, the FD, SD and ND germplasm
+of ternately compound leaves) that were domesticated during the pools were sufficiently large to identify genomic regions that
+evolutionary transition from the ND to the FD group and 10 appear to contain selective sweeps caused by artificial selection.
+quantitative traits associated with soybean yield, seed quality and Subsequently, we determined the regional distribution of these
+environmental adaptability to growth conditions. Forty-three sweeps in the genome. The average FST values between the FD
+association peaks obtained based on these 15 traits reached the and SD groups, between the FD and ND groups, and between
+corrected P value according to the Bonferroni method (P the SD and ND groups were 0.12, 0.17 and 0.16, respectively.
+values1.1 X 10-Sat al = 0.05; Fig. 4; Table S2).
+A total of 425 highly differentiated genomic regions between
+Ofthe 18 peak SNPs associated with the five binary traits, five the FD and ND accessions were defined using an FST threshold
+SNPs co-localized to known loci. Furthermore, 200-kb genomic of 0.51 (determined by the 5% right tails of the empirical FST
+regions around each peak SNP were analyzed, and six candidates distribution calculated from 100-kb sliding windows with 10-kb
+genes were identified (Table 3).
+steps). Between the SD and ND groups, 266 genomic regions
+Both of the peak SNPs responsible for pubescence and seed coat had FST values >0.35, revealing significant differentiation
+color were localized near the Tlocus of chromosome Gm06. This between these groups. Similarly, there were 204 genomic regions
+Tlocus is known to contain a gene encoding flavonoid 3' hydroxy- with FST values > 0.33 between the FD and SD groups, revealing a
+lase (F3H), which determines pubescence color (Yang etal., 2010). significant differentiation between these groups (Fig. S7). These
+Glyma. 06g202300, located C. 14.01 kb from the peak SNP for analyses indicate that selective sweeps caused by artificial selection
+pubescence color, is the closest candidate gene, consistent with the during soybean domestication caused significant losses in diver-
+molecular function of F3H, and is annotated as having flavonoid sity in highly differentiated genomic regions.
+New Phytologist (2016) 209: 871-884
+@ 2015 The Authors
+RIG HT S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust
+
+
+
+New
+
+Phytologist
+Research 879
+Flower color
+Pubescence color
+MYB
+F3H
+12 14 15
+Seed coat color
+Hilum color
+Filocus
+7locus
+13 14
+10 12 13 15
+Leaflet shape
+First flowering time
+9
+10 12 15
+100-seed weight
+Pod number per plant
+a
+7 10 12 13 14 15 16
+12 14
+Seed number per plant
+Seed weight per plant
+9
+1
+10 11 13 14
+Seed oil content
+Seed protein content
+a
+gProt3-3
+13
+10 11 13 15 18
+Branch number
+Plant height
+GmDtib
+Fig. 4 Genome-wide association study
+(GWAS) oftraits associated with
+domestication in soybean. Manhattan plots
+with the matching small QQ plots are shown
+Nodes number
+in the same figure for each of the 15 traits.
+per plant
+The associated single nucleotide
+polymorphisms (SNPS) that overlap with
+9
+reported genes or quantitative trait loci
+(QTLS) are marked by red arrows. The
+Bonferroni multiple test threshold is shown as
+a solid green line (atP<0.01).
+To identify selective sweeps related to evolutionary bottlenecks reductions in diversity compared with the ND group. An addi-
+and domestication in the three evolutionary groups, sequence tional 144 (FD) regions that showed significant reductions in diver-
+diversity (t) ratios (TFD/TND and TSD/TND) were analyzed sity compared with the SD group were also found. These regions
+(Fig. S7). A total of 111 FD and 39 SD selective footprints in are the products of strong selective sweeps (Fig. 5a-c). The three
+highly differentiated genomic regions presented significant sets of regions partially overlap (52 regions), such that a total of
+@ 2015 The Authors
+New Phytologist(2016) 209: 871-884
+RIG H S LI N Kow Phytologist Trust
+www.newphytologitcom
+
+
+
+New
+880 Research
+Phytologist
+Table 3 Associated single nucleotide polymorphisms (SNPS), known loci/quantitative trait loci (QTLS) and candidate genes for qualitative traits of soybean
+Trait
+SNP position (bp) Known loci/QTL Candidate gene Distance to SNP (kb) Functional annotation
+Flower color
+Gm13_17625097 W1
+Glyma. 13g073400 59.6
+Myb superfamily
+Leaflet shape
+Gm20_36514656 Lflt shape 6-9 Glyma.20g716200 684.5
+Homology withJAGGED gene,
+which regulates lateral organ development
+Seed coat tcolor
+Gm06_18724008 T
+Glyma.06g202300 14.01
+Flavonoid 13-monooxygenase activity
+Pubescence color Gm06_18724008 T
+Glyma.06g202300 14.01
+Flavonoid 3-monooxygenase activity
+First flowering time Gm01_33700831 FT
+Glyma.01G100100 368.33
+AtGCP3 interacting protein 1
+AtGCP3, y-tubulin complex proteins 3; Myb, v-myb avian myeloblastosis viral oncogene homolog.
+(a)
+FD-ND
+(b)
+FD-SD
+(c)
+SD- ND
+HEL TITETTUID TIT TICIL
+T
+IL TD
+DE
+TILIL TIT
+II TTI TICIIL IID
+TLCL TLI
+
+TI
+TD ITT
+II
+II
+ICI
+TII TITI
+ILIIL TID ID
+MIT T
+II
+I
+Gmto
+TIID
+CID
+II 
+ TIT
+TIIT
+I
+1 TILIL
+Fig. .5 Genomic characteristics of soybeans.
+TLLIID TLTL
+(a-c) The distributions of differentiated
+1I
+ILI
+TIIT
+regions, selected regions, and known
+[III L
+III II
+III II
+quantitative trait loci (QTLS) as well las their
+I
+Gm20  TT LT
+T -
+TCID
+overlaps obtained from two-group
+15 20 25
+55 60
+20
+45 55
+15
+comparisons between fully domesticated
+- Known
+Differentiated region
+semi-domesticated
+jOverlap pora differentiated region and QTL - Selected region
+(FD),
+(SD), and
+iOverlap of selected region and QTL
+nondomesticated (ND) soybeans. (d)
+Proportions of known QTLS in differentiated
+(d) 60
+a Differentiated genome (e)
+and nondifferentiated regions. (e)
+50
+ Selected genome
+Proportions of known QTLS in selected and
+. QTL_differentiation
+nonselected regions. The values on the x-axis
+5 40
+QTL_selection
+Known QTL
+22.40%
+Differentiated in QTL
+are based on three groups of known QTLS,
+30
+Selected region region in QTL
+which include 258 QTLsin each group sorted
+a 20
+by differenti intervals in QTLlength (0-1, 1-2
+10
+47.78%
+and 12-5 Mb, respectively). The values on the
+.L.
+0
+y-axis are based on proportions of genomic
+FD ND FD SD SD ND
+regions, either QTL regions or differentiated/
+Evolutionary group
+selected regions.
+142 regions were inferred to represent strong selective sweeps. breeding resources to further define the genetic basis of domesti-
+These regions are defined by 1023 SNPs (Fig. 5a). The genomic cation. Among the 2597 QTLs previously reported in soybean
+regions inferred to present stronger selective sweep signals in the (SoyBase; htpl/www.soybasc.org), 915 were selected for an
+FD group relative to the ND group comprised 36.94 Mb, corre- analysis based on limit of detection (LOD) values and confidence
+sponding to 3.19% ofthe genome. This area was nearly threefold intervals < 5 Mb.
+larger than the regions representing selective sweeps in the SD
+The total length of the highly differentiated genomic
+group (12.90 Mb, corresponding to 1.29% of the genome) com- regions is C. 278 Mb, which corresponds to 27.8% of the soy-
+pared with the ND group. This result quantitatively reflects the bean genome. However, these regions contain the genetic
+impact that artificial selection may have had in modern soybeans information of 70% of the 915 known QTLs associated with
+(FD). Consistent with this observation, apparent selective sweeps domestication-related traits, including maturity date, flower
+were also found in the FD group (11.03 Mb, corresponding to number, plant height, seed weight, and seed protein and oil
+1.10% ofthe genome) relative to the SD group. Therefore, selec- contents. The total length of the genomic regions encom-
+tive sweeps may have altered the domesticated soybean genome passed by selective sweeps (constituting 10-kb steps that
+more than either the SD or ND soybean genome. Phenotypic reached critical values for the 5% right tails of the empirical
+changes in FD and SD soybeans, possibly associated with local FST and T ratios from 100-kb sliding windows) was C.
+adaptation, may result from these genomic loci.
+46 Mb. This region represents 4.6% of the entire soybean
+genome and contains the genetic information of 22% of the
+Evaluation of selective sweeps in the context of modern
+known QTLs (Fig. 5a-c). Using a set of finely mapped QTLs e de
+( 1 Mb in length), the results also showed that a highly dif-
+breeding
+ferentiated or selected genomic region is, respectively, three-
+The highly differentiated and selected genomic regions associated or twofold more likely to harbor a known domestication-re-
+with the FD group were evaluated using existing soybean lated QTL than the rest of the soybean genome (Fig. 5d,e).
+New Phytologist (2016) 209: 871-884
+@ 2015 The Authors
+RIG HT S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust
+
+
+
+New
+
+Phytologist
+Research 881
+Two known loci, namely, I and T, control color traits and are on > 60 000 SNPS showed that SD accessions possess unique
+encompassed by selection footprints that are inferred to have genomic regions that differ from those found in ND and FD
+occurred during domestication (Fig. S8). Seventeen nearly fixed accessions. This result indicates that SD soybeans played an
+nonsynonymous SNPs among the FD, SD and ND groups (with important role in the domestication and evolution of soybean. A
+an allele frequency > 0.8 in one group and <0.2 in the others) three-population test and a gene flow pattern analysis further
+were found in these regions (Table S3). These loci or genes may demonstrated that SD soybeans represent a transitional group
+reflect, to a certain extent, the domestication history of soybean that emerged during the domestication ofFD from ND soybeans
+through the control of various domestication traits, particularly rather than a product ofhybridization between ND and FD soy-
+plant defense, morphology, and growth regulation.
+beans. This result provides the first explanation of the evolution-
+ary position of SD soybeans based on large-scale sequencing.
+Discussion
+Thus, according to the present findings, SD soybeans are proba-
+bly a beneficial source for introducing genetic diversity into new
+Genomic data can provide novel insight into species domestica- varieties in soybean breeding programs.
+tion processes (He et tal., 2011; Molina etal., 2011; Myles etal,
+The geographical origin of FD soybeans has been the subject
+2011). Certain selection signatures were identified using genomic of intense debate, with numerous and contradictory domestica-
+data obtained from dog and chicken (Boyko etal., 2010; Rubin tion hypotheses, including predictions of single and multiple ori-
+etal., 2010). However, fundamental questions underlying the gins (Hymowitz, 1970; Vavilov, 1982; Xu, 1986; Li, 1994; Gai
+relatedness ofFD, SD and ND soybeans have not been addressed etal., 2000; Xu etal., 2002; Xu & Gai, 2003). The postulated
+to date through large-scale analyses of genomic data. Two previ- geographical origins of FD soybeans include northeastern China,
+ous studies conducted by Lam etal. (2010) and Li etal. (2013) the Huang-Huai Valley (central China) and southern China
+provide preliminary analyses of the diversity among only C. 30 (south of the Yangtze River). Based on large-scale sequencing
+FD and ND accessions. In the present study, we used nearly 500 data, our study revealed that the FD group from the Huang-Huai
+soybean accessions collected from all growing regions of China, Valley is more closely related to the ND group and possesses
+ensuring the accuracy ofthe domestication analysis. Furthermore, higher sequence diversity than the FD groups from northeastern
+all of the soybean accessions were analyzed using reduced repre- China and southern China. Additionally, the results from an
+sentation sequencing technology (the SLAF-seq method), with admixture analysis support a model that indicates that the FD de
+an averaged sequencing depth of 6.14-fold. The results of other group of the Huang-Huai Valley presents greater genetic intro-
+studies have verified that 5-fold sequencing depths can ensure the gression from the ND group of the Huang-Huai Valley com-
+accuracy of domestication analyses (He etal., 2011; Li etal., pared with the FD groups from northeastern and southern
+2013). The mean distance between markers was C. 28 kb, which China. Thus, the results strongly suggest that FD soybeans were
+is markedly less than the LD decay distances, over which LD initially derived from ND soybeans in the Huang-Huai Valley.
+decays to half of its maximum value in FD and ND soybeans Through genetic distance, sequence diversity and gene flow anal-
+(c. 150 and 75 kb, respectively; Lam etal., 2010). Therefore, the yses, we defined the boundaries of the region of origin in the
+marker density in this study was of sufficient resolution for gen- Huang-Huai Valley for FD soybean as the Great Wall to the
+eral evolution analyses and GWAS (Morris etal., 2013). More- north and the Qinling Mountains to the south (central China),
+over, the sequenced markers avoided repetitive sequences and revealing a region that presents diverse climates and has experi-
+were randomly distributed throughout the genome (Fig. S2) and enced thousands of years of soybean cultivation history (Zhang
+thus represented most regions of the soybean genome.
+& Hu, 1913; Yu & Nan, 2009).
+The evolutionary processes of soybeans have long been puz-
+The differentiation of soybean species during their evolution
+zling to biologists (Fukuda, 1933; Hymowitz, 1970). Fukuda was mainly associated with genome-wide duplications, muta-
+(1933) hypothesized that the SD group is an evolutionary inter- tions, selection and drift (Kim etal., 2010; Li etal., 2013). In this
+mediate between the ND and FD groups, whereas Hymowitz study, selective sweeps among the three soybean groups were
+etal. proposed that SD soybeans originated from hybridization measured among genomes using FST values. A region consisting
+between ND and FD soybeans, which was supported by limited ofa total of46 Mb (c. 4.6% of the total genome) was found to be
+lines of evidence (Hymowitz, 1970; Sisson etal., 1978; Wang subjected to selection pressure. The existence of selective sweeps
+etal., 1983; Xu et al., 2002; Adams & Wendel, 2005). However, indicated the occurrence of primary selection pressure in the FD
+the lines of evidence cited above are insufficient to fully resolve groups, suggesting that the effect of modern breeding is responsi-
+the evolutionary process from SD soybean to FD soybean ble for the loss of genetic diversity observed in FD soybeans.
+(Fukuda, 1933; Kim etal., 2010). As genomic data have been Moreover, > 800 highly differentiated regions in the soybean
+successfully applied to analyze the evolutionary process of rice genome were identified based on analyses of different soybean
+(Xu etal., 2012), this strategy may also be used to analyze the species that may have been subjected to selection during the
+evolutionary process of soybean domestication. Three previous domestication process. The SNPs in these differentiated regions e
+e
+studies have preliminarily evaluated relatedness between the FD will be valuable for the marker-assisted selection of important
+and ND groups (Kim etal., 2010; Lam etal., 2010; Li etal, traits during soybean breeding.
+2014). In our study, the results from phylogenic, population
+In this study, a high-density haplotype map of the loci under-
+structure and species-specific genotype frequency analyses based lying 15 domestication traits was constructed by GWAS. Based
+@ 2015 The Authors
+New Phytologist(2016) 209: 871-884
+RIG H T a LI N KO >w Phytologist Trust
+www.newphytologitcom
+
+
+
+New
+882 Research
+Phytologist
+on this haplotype map, a total of 36 association peaks were iden- 9), the Agricultural Science and Technology Innovation Program
+tified. All of the QTNS for five quality traits were found to be (ASTIP) of the Chinese Academy of Agricultural Sciences and
+co-located at known loci or genes, such as I, Chalcone Synthase the Provincial/National Education Ministry for the Team of Soy-
+(CHS), F3H land MYB transcription factors. Among the associa- bean Molecular Design. All data have been uploaded to ftp:ll
+tion peaks for 10 quantitative traits, seven association peaks were Epbiemurder.com.eneopbean
+found to be located in directly related QTLs. These analyses
+provide proof of concept that haplotype mapping is effective. In
+the future, more agronomic traits will be analyzed using this hap- References
+lotype map to rapidly identify candidate genes for validation.
+Adams KL, Wendel JF. 2005. Polyploidy and genome evolution in plants.
+In addition, > 900 reported QTLS were used to analyze the
+Current Opinion in Plant Biology 8: 135-141.
+selective sweeps potentially responsible for domestication and Alexander DH, Novembre J, Lange K. 2009. Fast model-based estimation of
+selection traits. The results suggest that selective sweeps are
+ancestry in unrelated lindividuals. Genome Research 19: 1655-1664.
+approximately twofold more likely to harbor a known QTL asso- Beerli P, Palczewski M. 2010. Unified framework to evaluate panmixia and
+ciated with a domesticated trait compared with a group of QTLs
+migration direction among multiple sampling locations. Genetics 185:
+313-326.
+finely mapped within a relatively short interval in the rest of the Boyko AR, Quignon P, LiL, SchoenebeckJJ, Degenhardt JD, Lohmueller KE,
+soybean genome (Fig. 5e). Thus, selective sweeps may be valuable
+Zhao K, Brisbin A, Parker HG, vonHoldt BM etal. 2010. A simple genetic
+for the domestication of and improvements in FD soybean traits
+architecture underlies morphological variation in dogs. PLoS Biology 8:
+using modern breeding techniques. However, our results also
+e1000451.
+Broich S, Palmer R. 1980. A cluster analysis of wild and domesticated
+indicate that the effective evaluation of overlapping regions
+phenotypes. Euphytica 29: 23-32.
+soybean
+between selective sweeps and known QTLs is dependent on the Broich S, Palmer R. 1981. Evolutionary studies of the soybean: the frequency
+mapping accuracy of QTLs. For example, when QTL intervals
+and distribution ofalleles samong collections of Glycine maxand G. sojaof
+are greater than the size of the selective sweeps, the examined
+various origin. Euphytica 30: 55-64.
+overlap of selective or nonselective regions with QTLs may be Burdon KP, Macgregor S, Hewitt AW, Sharma S, Chidlow G, Mills RA, Danoy
+P, Casson R, Viswanathan AC, LiuJZ etal 2011. Genome-wide association
+unreliable. Additionally, selective sweeps can be detected in any
+study identifies susceptibility loci foropen angle glaucoma at TMCOI and
+location in the soybean genome, but the reported QTLs are
+CDKN2B-AS1. Nature Genetics 43: 574-578.
+unevenly distributed in the genome. Additionally, QTLs are par- Feldbrugge M, Sprenger M, Hahlbrock K, Weisshaar B. 1997. PCMYB1, a novel
+ticularly difficult to identify near the centromere-associated
+plant protein containing DNA-binding domain with one MYB repeat, interacts
+regions of chromosomes (Schmutz etal, 2010) because their
+in vivo with a light-regulatory promoter unit. Plant Journalll: 1079-1093.
+detection
+Fu YX. 1997. Statistical tests of fneutrality of mutations against population
+depends on recombination events derived from cross-
+growth, hitchhiking and background selection. Genetics 147: 915-925.
+ing in certain populations (Lynch & Walsh, 1997). As most peri- Fukuda Y. 1933. Cytogenetical studies on the wild and cultivated Manchurian
+centromeric regions present a low degree of recombination (Ott
+soybeans (Glycine L.). Japanese JournalofBotany 6: 489-506.
+etal., 2011), selective sweep regions may harbor more undetected GaiJ,Xu D, Gao Z, Shimamoto Y,AbeJ, FukushiH, Kitajima S. 2000. Studies
+QTLs than reported QTLs.
+on the evolutionary relationship among eco-types of G. maxand G. soja in
+Nonetheless, the availability ofinferred selective sweep regions,
+China. Acta Agronomica Sinica 26: 513-520 (in Chinese).
+Gillman J, Tetlow A, Lee J-D, Shannon J, Bilyeu K. 2011.Loss-offunction
+which present higher probabilities that the harbored QTL is asso-
+mutations affecting a specific Glycine maxR2R3 MYB transcription
+ciated with domesticated and selected traits, may facilitate
+factor result in brown hilum and brown seed coats. BMC Plant Biology 11:
+genomic selection. Moreover, the clarification ofthe soybean evo-
+1-12.
+lutionary process and the geographical origin of soybean pre- HeZ, Zhai W, Wen H, Tang T, Wang Y, Lu X, Greenberg AJ, Hudson RR,
+WuCI, Shi S. 2011. Two evolutionary histories in the
+of rice: the
+sented in this study suggest that the ND and SD accessions in the
+roles of fdomestication genes. PLOS Genetics 7: e1002100. genome
+Huang-Huai Valley represent a crucial source of new alleles for Hermann F. 1962. A revision ofthe genus Glycine and its immediate allies
+the future improvement of FD cultivars.
+Washington, DC, USA: USDA Tech Bull.
+Holm S. 1979. A simple sequentially rejective multiple test procedure.
+Scandinavian Journal LofStatistics 6: 65-70.
+Acknowledgements
+Huang XH, Wei XH,Sang T, Zhao Q, Feng Q, Zhao Y,Li CY, Zhu CR, Lu
+TT, Zhang ZW etal 2010. Genome-wide association studies of14agronomic
+We thank X. Zhou, S. Wei, S. Wang, X. Wei, S. Song, R. Xu, D.
+traits in rice landraces. Nature Genetics 42: 261-267.
+Zhu, L Zhang, X. Liu, W. Lu and H. Nian for providing the soy- Hudson RR, Slatkin M, Maddison WP. 1992. Estimation oflevels of fgene flow
+bean samples. This study was conducted in the Key Laboratory
+from DNA sequence data. Genetics 132: 583-589.
+of Soybean Biology of the Chinese Education Ministry, the Soy- Hymowitz T. 1970. On the domestication ofthe soybean. Economic Botany 24:
+408-421.
+bean Research & Development Center, CARS and the Key Labo- Jeong N, Moon JK, Kim HS, Kim CG,Jeong SC. 2011. Fine genetic mapping
+ratory of Northeastern Soybean Biology and Breeding/Genetics
+ofthe genomic region controlling leaflet shape and number of seeds per pod lin
+of the Chinese Agriculture Ministry and was financially sup-
+the soybean. TAG. Theoretical andApplied Genetics. 122: 865-874.
+ported by the Chinese National Natural Science Foundation Jin L, Nei M. 1990. Limitations of the evolutionary parsimony method of
+(31301339, 60932008 and 31201227), the National Core Soy-
+phylogenetic analysis. Molecular Biology and Evolution 7: 82-102.
+Kim MY, Lee S, Van K, Kim T-H, Jeong S-C, Choi I-Y, Kim D-S, Lee Y-S,
+bean Genetic Engineering Project (2014ZX08002), the National
+Park D, MaJ etal 2010. Whole-genome sequencing and intensive analysis of
+Supporting Project (2014BAD22B00 and 2011BAD35B06), the
+the undomesticated soybean (Glycine soja Sieb. and Zucc.) genome. Proceedings
+National 863 Project (2013AA102602 and 2012AA101106-1-
+ofthe NaniemalAaudomge/Simes USA 107: 22032-22037.
+New Phytologist (2016) 209: 871-884
+0 2015 The Authors
+RIG HT S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust
+
+
+
+New
+E
+Phytologist
+Research 883
+Lam HM, Xu X, Liu X, Chen W, Yang G, Wong FL, LiMW, He W, Qin N,
+Skvortzow B. 1927. The soybean-wild and cultivated lin Eastern Asia. Proceedings
+Wang B etal 2010. Resequencing of31 wild and cultivated soybean genomes
+ofthe Manchurian Research Society, Natural History Section Publication Series A
+identifies patterns of genetic diversity and selection. Nature Genetics42:
+22: 1-8.
+1053-1059.
+Sun X, Liu D, Zhang X, Li W,Liu H, Hong W,Jiang C, Guan N, Ma C,
+LiF. 1994. Study on origin and evolution of soybean. Soybean Science 13: 61-66
+Zheng H. 2013. SLAF-seq: an efficient method oflarge-scale de novo SNP
+(in Chinese).
+discovery and genotyping using high-throughput sequencing. PLOS SONE8:
+LiH, Durbin R. 2009. Fast and accurate short read alignment with Burrows-
+e58700.
+Wheeler transform. Bioinformatics 25: 1754-1760.
+Tamura K, Peterson D, Peterson N, Stecher G, Nei M, Kumar S. 2011.
+LiH, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, Marth G,
+MEGAS: molecular evolutionary genetics analysis using maximum likelihood,
+Abecasis G, Durbin R, Proc GPD. 2009. The sequence alignment/map format
+evolutionary distance, and maximum parsimony methods. Molecular Biology
+and SAMtools. Bioinformatics 25: 2078-2079.
+andEvolution 28: 2731-2739.
+LiM, Tian S,Jin L, Zhou G,LiY, Zhang Y, Wang T, Yeung CK, Chen L, MaJ Vavilov H. 1982. The worldorigin centers ofmain cultivated crops Beijing, China:
+etal. 2013. Genomic analyses identify distinct patterns of selection in
+Agricultural Press (in Chinese).
+domesticated pigs and Tibetan wild boars. Nature Genetics 45: 1431-1438.
+Voight BF, Scott LJ, Steinthorsdottir V,Morris AP, Dina C, Welch RP, Zeggini
+Li iYH, Zhou G, MaJ,Jiang W,Jin LG, Zhang Z, Guo Y, ZhangJ, Sui Y,
+E, Huth C, Aulchenko YS, Thorleifsson G etal 2010. Twelve type 2 diabetes
+Zheng L etal. 2014. De novo assembly ofsoybean wild relatives for pan-
+susceptibility loci identified through large-scale association analysis. Nature
+genome analysis of diversity and agronomic traits. Nature Biotechnology 32:
+Genetics 42: 579-589.
+1045-1052.
+WangJ. 1947. Evolution of soybean traits. Agriculture Journal12: 6-11 (in
+Lipka AE, Tian F, Wang Q, Peiffer J, LiM, Bradbury PJ, Gore MA, Buckler
+Chinese).
+ES, Zhang Z. 2012. GAPIT: genome association and prediction integrated
+Wang L, Wu H, Yao Z, Lin H. 1983. Investigation and research ofthe wild
+tool. Bioinformatics 28: 2397-2399.
+soybean in Heilongjiang Province (China). Bulletin ofBotanical Research 3:
+Lii SL. 1978. Discussion on the originalregion of cultivated soybean in China.
+116-130.
+Scientia Agricultura Sinica 4: 90-94 (in Chinese).
+Watterson GA. 1975. On the number of segregating sites in genetical models
+Lynch M, Walsh B. 1997. Genetics and lanalysis ofquantitative traits. Sunderland,
+without recombination. Theoretical Population Biology 7: 256-276.
+MA, USA: Sinauer Associates Incorporated.
+Wright S. 1951. The genetical structure of populations. Annals ofEugenics 15:
+Mamanova L, Coffey AJ, Scott CE, Kozarewa I, Turner EH, Kumar A, Howard
+323-354.
+E, Shendure J, Turner DJ. 2010. Target-enrichment strategies for next-
+Wright SI, Bi IV, Schroeder SG, Yamasaki M, Doebley JF, McMullen MD,
+generation sequencing. Nature Methods 7: 111-118.
+Gaut BS. 2005. The effects of fartificial selection on the maize genome. Science
+Mathews H, Clendennen SK, Caldwell CG, Liu XL, Connors K, Matheis N,
+308: 1310-1314.
+Schuster DK, Menasco DJ, Wagoner W,Lightner] Jetal 2003. Activation
+Xu B. 1986. Three new evidences for origin of soybean. Soybean Science 5:
+tagging in tomato identifiesa transcriptional regulaorofanthocganin
+123-130 (in Chinese).
+biosynthesis, modification, and transport. Plant Cell15: 1689-1703.
+Xu DH, Gai JY. 2003. Genetic diversity ofwild land cultivatedsoybeans growing
+McKenna. A, Hanna M, Banks E, Sivachenko A, Cibulskis K, KernytskyA,
+in China revealedby RAPD analysis. Plant Breeding 122: 503-506.
+Garimella K, Altshuler D, GabrielS, Daly M etal. 2010. The Genome
+XuH, AbeJ, Gai Y, Shimamoto Y. 2002. Diversity of chloroplast DNA SSRsin
+Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA
+wild and cultivated soybeans: evidence for multiple origins of cultivated
+sequencing data. Genome Research 20: 1297-1303.
+soybean. TAG. ThortialandApliad Genetics. 105: 645-653.
+MolinaJ, Sikora M, Garud N, Flowers JM, Rubinstein S, Reynolds A, Huang
+Xu X, Liu X, Ge S, Jensen JD, Hu F, Li X, Dong Y, Gutenkunst RN, Fang L,
+P,Jackson S, Schaal BA, Bustamante CD etal. 2011. Molecular evidence fora
+Huang L etal 2012. Resequencing 50 accessions ofcultivated and wild rice
+single evolutionary origin ofdomesticated rice. Proceedings ofthe National
+yields markers for identifying agronomically important genes. Nature
+Academy ofSciences, USA 108: 8351-8356.
+Biotechnology 30: 105-111.
+Morris GP, Ramu P, Deshpande SP, Hash CT, Shah T, Upadhyaya HD, Riera- Yang K, Jeong N, Moon JK, Lee YH, Lee SH, Kim HM, Hwang CH, BackK,
+Lizarazu O, Brown PJ, Acharya CB, Mitchell SE et al. 2013. Population
+Palmer RG, Jeong SC. 2010. Genetic analysis sofgenes controlling natural
+genomic and genome-wide association studies ofagroclimatic traits in
+variation of seed coat and flower colors in soybean. JournalofHeredity 101:
+sorghum. Proceedings ofthe NationalAcademy ofSciences, USA 110: 453-458.
+757-768.
+Myles S, Boyko AR, Owens CL, Brown PJ, Grassi F, Aradhya MK, Prins B,
+Yu W, Nan W. 2009. Isohyet 400 mm, the Great Wall and the dividing line
+Reynolds A, Chia J-M, Ware D etal. 2011. Genetic structure and
+between farming tribes and nomadic peoples. Joumale/Shamghui/smeng
+domestication history of the grape. Proceedings ofthe NationalAcademy of
+University (Philosophy and SocialSciences) 17: 46-52 (in Chinese).
+Sciences, USA 108: 3530-3535.
+Zhang D, Song H, Cheng H, Hao D, Wang H, Kan G,Jin H, Yu D. 2014. The
+OttA, Trautschold B, SandhuD. 2011. Using microsatellites to understand the
+acid phosphatase-encoding gene GmACPI contributes to soybean tolerance to
+physical distribution ofrecombination on soybean chromosomes. PLOS ONE6:
+low-phosphorus stress. PLOS Genetics 10: e1004061.
+e22306.
+Zhang X, Hu E. 1913. New literature geography. Changsha Hunan, China:
+Purcell S, Neale B, Todd-Brown K, Thomas L, Ferreira MA, Bender D, Maller
+Chinese Geographical Society (in Chinese).
+J, Sklar P, de Bakker PI,Daly MJ etal. 2007.PLINK: a tool set for whole-
+genome association and population-based linkageanalyses. American Journalof
+Human Genetics 81: 559-575.
+Reich D, Thangaraj K, Patterson N, Price AL, Singh L. 2009. Reconstructing
+Supporting Information
+Indian population history. Nature461: 489-494.
+Additional supporting information
+be found in the online
+Rubin CJ, Zody MC, ErikssonJ, Meadows JRS, Sherwood E, Webster MT,
+may
+Jiang L, Ingman M, Sharpe T, Ka S etal 2010. Whole-genome resequencing
+version of this article.
+reveals loci under selection during chicken domestication. Nature464: 587-591.
+Schmutz J, Cannon SB, Schlueter J, MaJ,Mitros T,Nelson W, Hyten DL,
+Fig. S1 Sequencing depth distribution of SLAF tags used for
+Song Q, Thelen JJ, ChengJ etal. 2010. Genome sequence ofthe
+SNP calling on 20 soybean chromosomes.
+palacopolyploid soybean. Nature 463: 178-183.
+Sisson VA, Brim CA, Levings CS. 1978. Characterization of cytoplasmic
+diversity in soybeans by restriction endonuclease analysis. Crop Science 18:
+Fig. S2 Distribution of polymorphic SNPs on 20 chromosomes
+991-996.
+of soybean based on 512 accessions.
+@ 2015 The Authors
+New Phytologist(2016) 209: 871-884
+a G H
+L I N K >w Phytologist Trust
+www.newphytologitcom
+
+
+
+New
+884 Research
+Phytologist
+Fig. S3 Rooted phylogenetic tree of the 512 accessions.
+Table S1 The list of 512 soybean accessions sampled in this
+study
+Fig. S4 Distribution of three-population test statistics (f3 value).
+Table S2 Summary of peak SNPS for the genome-wide associa-
+Fig. S5 Phenotypes of qualitative traits for the genome-wide asso- tion study on 15 soybean traits
+ciation study in soybean.
+Table S3 Fixed nonsynonymous SNPs between each two of fully
+Fig. S6 Phenotypes of quantitative traits for the genome-wide domesticated soybean, semi-domesticated soybean and nondo-
+association study in soybean.
+mesticated soybean
+Fig. S7 Empirical distribution of the T ratio, FST value and selec- Please note: Wiley Blackwell are not responsible for the content
+tion of soybean genome.
+or functionality of any supporting information supplied by the
+authors. Any queries (other than missing material) should be
+Fig. S8 Examples of genes with strong selective sweep signals in directed to the New Phytologist Central Office.
+FD relative to ND soybeans.
+About New Phytologist
+New Phytologist is an electronic (online-only)journal owned by the New PhytologistTrust, a not-for-profit organization dedicated
+to the promotion of plant science, facilitating projects from symposia tofree access sfor our Tansley reviews.
+Regular papers, Letters, Research reviews, Rapid reports and both Modelling/Theory and Methods papers are encouraged.
+We are committed to rapid processing, from online submission throughto publication 'as ready via Early View - our average time
+to decision is <27 days. There are no page or colour charges and a PDF version will be provided for each article.
+The journal is available online at Wiley Online Library. Visit www.newphytologst.com to search the articles and register for table
+of contents email alerts.
+Ifyou have any questions, do get in touch with Central Office (np-centraloffice@lancaster.ac.uk or, ifitis more convenient,
+our USA Office (np-usaoffice@lancaster.ac.uk)
+For submission instructions, subscription and all the latestinformation visit www.newphytologist.com
+E
+P
+I
+I
+i
+I
+i
+e
+E
+e
+New Phytologist (2016) 209: 871-884
+O 2015 The Authors
+RIG HT S L I N Kom
+New Phytologist 0 2015 New Phytologist Trust LE
+E

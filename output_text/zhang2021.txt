@@ -1,0 +1,974 @@
+Theoretical land Applied Genetics (2021) 134:1329-1341
+htps/dol.org/10.1007500122-021-037746
+ORIGINAL ARTICLE
+Ches for
+updates
+Comparative selective signature analysis and high-resolution GWAS
+reveal a new candidate gene controlling seed weight in soybean
+Wei Zhang' Wenjing Xu?-Hongmei Zhang' Xiaoqing Liu'  Xiaoyan Cui' . Songsong Li12.Li Song3-Yuelin Zhu?.
+Xin Chen' . Huatao Chen'o
+Received: 101 November 2020/Accepted: 11 January 2021 /Published online: 28 January 2021
+OThe Author(s), under exclusive licence to Springer-Verlag GmbH, DE part of Springer Nature 2021
+Abstract
+Keymessage We detected a QTL qHSW-16 undergone strong selection associated with seed weight and identified a
+novel candidate gene controlling seed weight candidate gene for this major QTL by qRT-PCT.
+Abstract Soybean [Glycine max (L.) Merr.] provides more than half of the world's oilseed production. To expand its germ-
+plasm resources useful for breeding increased yield and oil quality cultivars, it is necessary to resolve the diversity and
+evolutionary history of this crop. In this work, we resequenced 283 soybean accessions from China and obtained a large
+number of high-quality SNPS for investigation of the population genetics that underpin variation in seed weight and other
+agronomic traits. Selective signature analysis detected 78 (-25.0 Mb) and 39 (-22.60 Mb) novel putative selective signals
+that were selected during soybean domestication and improvement, respectively. Genome-wide association study (GWAS)
+identified five loci associated with seed weight. Among these QTLS, qHSW-16, overlapped with the improvement-selective
+region on chromosome 16, suggesting that this QTL may be underwent strong selection during soybean improvement. Of
+the 18 candidate genes in qHSW-16, only SoyZH13_16G122400 showed higher expression levels in a large seed variety
+compared to a small seed variety during seed development. These results identify SOyZH13_16G122400 as a novel candidate
+gene controlling seed weight and provide foundational insights into the molecular targets for breeding improvement of seed
+weight and potential seed yield in soybean.
+Introduction
+Soybean [Glycine max (L.) Merr.]is a legume crop that pro-
+vides approximately 68% of the world's protein meal and
+57% of vegetable oil production. Archaeological and evolu-
+tionary studies have shown that soybean was domesticated
+Communicated by Istvan Rajcan.
+from its progenitor (Glycine soja Sieb. & Zucc.) approxi-
+Wei Zhang and Wenjing Xu have contributed equally to this work.
+mately 5000 years ago in East Asia (Lee et al. 2011;Tengfei
+et al. 2019). A suite of domestication-related traits, including
+Xin Chen
+seed coat color (Wang et al. 2018) and seed weight (Zhou
+cx@jaas.ac.cn
+et al. 2015), has been selected for improvement in traditional
+Huatao Chen
+landraces as well as in cultivar breeding programs.
+cht@jaas.ac.cn
+Seed weight (SW), a major component of yield, is a
+Institute of Industrial Crops, Jiangsu Academy
+complex and agronomically important trait that affects the
+of Agricultural Sciences, Nanjing 210014, China
+quality of many soybean products, such as soy sprouts, soy
+2 College of Horticulture, Nanjing Agricultural University,
+nuts, edamame, soy sauce, and natto. This complex trait is
+Nanjing 210095, China
+always affected by many genetic and environmental factors
+3 Joint International Research Laboratory of Agriculture
+including temperature and precipitation during the seed
+and Agri-Product Safety, Jiangsu Key Laboratory of Crop
+development stage (Liang et al. 2016; Wu et al. 2018). More
+Genomics and Molecular Breeding, Co-Innovation Center
+than 200 quantitative trait loci/nucleotides (QTL/QTNS) for
+for Modern Production Technology of Grain Crops,
+soybean seed weight have been reported in SoyBase (www.
+Yangzhou University, Yangzhou 225009, China
+Springer
+
+
+
+1330
+Theoretical and Applied Genetics (2021) 134:1329-1341
+soybase.org) via linkage mapping. However, integrating genome, 10,210,329 SNPS and 2,870,410 insertions or
+results from linkage mapping into breeding program is deletions (indels) were identified from the resequenced
+challenging due to the higher confidence interval and less 283 accessions. Among these SNPS, a total of 1,034,255
+genetic variation. As a result, genome-wide association (10.13%) of the 10,210,329 were mapped to genes, within
+study is used to take advantage of fall recombination events which 331,838 SNPs were identified in the coding sequences,
+that occur in the evolutionary history of a natural population 616,521 SNPS in introns, 27,919 SNPS in 5'-untranslated
+based on linkage disequilibrium (LD) in the recent years. regions (UTRs), and 57,977 SNPs in 3'-UTRs. In addition,
+GWAS allows researchers to utilize natural diversity and 7386 SNPs resulted in start codon changes, premature stop
+locate valuable genes in the genome. Dissecting the genetic codons, or elongation of the transcripts; 1.85% and 1.34%
+basis of SW is thus necessary for increasing soybean yield of the total SNPS led to non-synonymous or synonymous
+potential and improvement of soybean food as well.
+mutations, respectively (Supplementary Table 2). We also
+To understand soybean domestication and improvement found that the wild accessions contained more SNPS than
+at a genetic level as a foundation for future soybean breeding were identifiedin either the landrace and cultivar accessions
+efforts, we resequenced 283 soybean accessions to X 12x (Supplementary Fig. 1), indicating a richer genetic diversity
+depth. We then identified 10,210,329 single-nucleotide among the wild accessions than in the landrace and cultivar
+polymorphisms (SNPS), which were then used to detect 78 accessions.
+domestication-selective sweeps and 39 improvement-selec-
+Removal of all SNPS with an average coverage depth <8x
+tive sweeps across the whole genome in this resequenced and minor allele frequencies <0.05, yielded a subset of
+population. Further, a total of 689 and 1204 putative genes 3,319,306 SNPs for use in subsequent analyses. We then
+were identified in domestication-selective and improvement- reconstructed a SNP-based phylogeny of all 283 accessions,
+selective sweeps, respectively. In addition, GWAS identified which revealed three groups, wild soybeans, landraces, and
+qHSW-16, a QTL significantly associated with seed weight improved cultivars, clustered into separate clades, with a
+that overlapped with the improvement-selective region few landrace lines classified among the improved cultivar
+on chromosome 16, suggesting that this locus underwent branches (Fig. 1b), suggesting a shared lineage for these
+strong selection during soybean improvement. Among the accessions. Next, we performed principal component analy-
+candidate genes found in qHSW-16, SOyZH13_16G122400 sis (PCA) based on SNPS to better resolve the population
+was previously shown to be differentially upregulated in a structure of the three ecotype groups (Fig. 1c). The PCA
+large seed soybean variety compared with its expression in plot showed that wildlines clustered lindependently from the
+a small seed variety during seed development. We therefore non-wild accessions, while landraces formed a tight group
+propose that this is novel candidate gene that controls seed that completely overlapped with improved lines. Linkage
+weight. This study provides foundational insight into targets disequilibrium (LD) analysis showed that LD dropped to
+for genomics-enabled breeding for yield through the identifi- half of its maximum value at 106 kb for the resequenced
+cation of useful loci, candidate genes, and beneficial alleles population (Fig. 1d) but with variations among different
+underlying seed weight in soybean.
+populations. The LD in wild soybean was L 33 kb. In the
+non-wild accessions (i.e., landrace accessions and cultivars),
+LD increasedto 120kb, which was consistent with the find-
+Results
+ings of previous studies. Collectively, these analyses show
+that wild soybean populations carry distinct sets of SNPs
+Genomic variation, structure, and linkage
+compared to landraces and improved cultivars.
+disequilibrium of soybean population
+Selection signals during domestication
+A total of 283 soybean accessions, including 19 wild acces- andimprovement and GO analysis
+sions (G. soja), 52 landraces, and 212 improved cultivars,
+were used for resequencing in this study. The majority (17 To identify potential selective signals during soybean
+wild accessions, 52 landraces, and 185 improved cultivars) domestication (wild soybeans versus landraces) and
+of these 283 accessions came from the Huang-Huai region, improvement (landraces versus improved cultivars), the
+and the southern region in China, while the others were from genetic parameter population-diferentiation statistic Fst
+the northern region in China (Fig. la).
+and nucleotide diversity (Or) were employed as indicators
+A total of 11.21 billion paired-end reads averaging 150bp of selective signals. This analysis revealed a total of 78
+in length (3.3 Tb of base pairs), with an average coverage domestication-selective sweeps (Fig. 2a and Supplementary
+depth of more than 12.4x were generated by resequencing Table 3) and 39 improvement-selective sweeps (Fig. 2b and
+the 283 soybean accessions on a Novaseq-PE 150 sequencer. Supplementary Table 4), covering 25.1 Mb (- 2.56%) and
+After mapping against the soybean Gmax_ZH13 reference 22.60 Mb (-2.31%) of fthe assembled Gmax_ZH13 reference
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:1329-1341
+1331
+A
+B
+oWild
+Cultivar
+OLandrace
+Landrace
+o Cultivar
+Wild
+C
+D
+Cultivar
+a
+Landrace
+Wild
+0.1
+3
+E
+e
+2
+8
+1
+0.0 a S3
+3
+2
+-0.1
+50 100 150 200 250 300
+-0.2
+-0.1
+0.0
+Distance (kb)
+PC1
+Fig. .1 Geographic distribution, population structure, and decay of mum likelihood phylogenetic tree of 283 soybean accessions. C PCA
+linkage disequilibrium (LD) of 283 soybean accessions. a Geographi- plot showing clustering of soybean accessions into two major popu-
+cal distribution of resequenced accessions. (ok, good to know where lations. d Genome-wide average Linkage Disequilibrium (LD) decay
+they were collected, but strongly consider adding the value of this in all samples (orange), wild (blue), and non-wild accessions (green)
+information. this is part if your basic experimental design). b Maxi- (color figure online)
+genome, respectively. The selection signals detected in the improvement-selective regions, biological process, cellular
+present study were almost all found in previously reported component, and molecular functions were enriched for genes
+domestication-related QTL regions (Zhou et al. 2015).
+involved in protein transmembrane transport, regulation of
+A total of 689 and 1204 putative genes (Supplementary seed germination, fatty acid metabolic/biosynthetic process,
+Tables 5 and 6) were identified in domestication-selective amino sugar catabolic process, amino acid biosynthetic/
+and improvement-selective sweeps, respectively. To annotate metabolic process, and abscisic acid biosynthetic/metabolic
+these candidate genes, BLASTP searches were performed in process (Fig. 2d), which are reported to be involved in the
+Arabidopsis and rice functional gene databases. The results seed germination stage.
+showed that some of these genes were involved in domesti-
+cation-related agronomic traits such as stress response, seed GWAS for color traits
+weight, plant height, and flowering time. The gene ontology
+enrichment analyses showed that the genes in domestication- We next sought to dissect the genetic mechanisms underly-
+selective sweeps were enriched in various biological pro- ing specific domestication-related traits. For this purpose,
+cesses, especially in abiotic stress responses including water we selected flower color, stem color, and seed coat color as
+deprivation, salt stress, and osmotic stress response. Besides phenotypic traits for evaluation by genome-wide associated
+abiotic stress response, protein modification, carbohydrate study (GWAS), and subsequently generated a high-density
+metabolic processes, and amino acid transport were also map containing 2,597,425 SNPS from the landrace and cul-
+enriched in domestication-selective sweeps (Fig. 2c). In the tivated accessions.
+Springer
+
+
+
+1332
+Theoretical and Applied Genetics (2021) 134:1329-1341
+A 1.00
+B 0.6
+0.75
+0.41
+2 0.50
+:
+E
+0.2-
+0.25
+0.00
+0.0-
+-10
+-5
+0
+5
+10
+-5
+0
+5
+10
+log,(0, landrace/0, wild)
+log,(0, cultivar/0, landrace)
+C
+D
+E ER EEE
+responsetov water deprivation
+E
+responsetosaltstress
+protein transmembrane
+responseto osmotic stress
+response to abiotic stimulus
+process
+response to environmental stimulus
+response protein ubiquitination setoacido chemical
+icatabolicimetabolic process
+protein modification by small protein conjugation
+establishment of flocalizationin cell
+cellular response to stress
+process
+intracellular transport
+process
+one-carbon metabolic process
+nitrogen ncompound transport
+E
+E
+amino acidtransport
+oxidation-reduction process
+F
+E
+8
+macromolecule modification
+process
+establishmentof forganelle localization
+8
+process
+erguatonoftranscripton. DNA-templated"
+matro reproduction
+multi-organism reproductive process
+-
+coated vesicle membrane
+nucleosome
+microbody
+IE
+peroxisome
+- nutrientreservoir ractivity
+chitinases
+hydro-lyase activity
+N
+carbon-oxygen lyase activity
+prorarbonscarbontyase activity cartrny
+transition metal lion binding
+amino acid transmembrane transporter ractivity
+serine/threonine kinase activity
+zinc ionbinding
+protein
+A
+0.00 2.00 4.00 6.00 8.00 10.00 12.00
+0.00 0.50 1.00 1.50 2.00 2.50 3.00 3.50 4.00 4.50
+-log10(P-value)
+-log10(P-value)
+Fig.2 Genome-wide selective sweep analysis for the resequenced wild (a) and cultivar versus landrace (b), respectively. c Enrichment
+population and GO enrichment analysis of candidate genes in GO terms in domestication-selective sweeps and improvement-selec-
+selected regions. The horizontal and vertical lines represent threshold tive sweeps (d). Blue, green, and red bars indicate biological process,
+lines of the top 5% of the Fat and Or ratio values. Points (red) located cellular component, and molecular function, respectively (color figure
+in the top left sector represent selective signatures for landrace versus online)
+For flower color and stem color (purple or white), signifi- yellow, green, and brown. For these four colors, a GWAS
+cant GWAS signals were detected for both traits at the W1 signal at the I1 locus on Chr.08 was detected to corresponding
+locus on Chr. 13 (Fig. 3a, b), in which GmF3'5'H (SoyZH1 to seed coat color variation. In addition to these previously
+3_13G05760/Glyma. 13g072100), encoding a flavonoid 3', characterized loci, we identified other new GWAS signals
+57-hydroxylase, was reported to control both the flower color responsible for seed coat color on chromosomes 3, 10, 11,
+and stem color (Zabala and Vodkin 2007). In this GWAS and 19 (Fig. 3c). Another GWAS was taken for seed coat
+signal, the lead SNP S13_18801271 explained 43.53% color with green or yellow seed coats from our resequenced
+of the phenotypic variation for flower color and the SNP germplasms and a significant GWAS signal consisting of
+S13_17908259 explained 41.35% of the phenotypic varia- 116 SNPS for seed coat color was detected on chromosome
+tion for stem color. In addition to the W1 locus, we identified 1 (Fig. 3d), among which the lead SNP S01_56082377
+a new GWAS signal associated with flower color located on with -logio (p)=27.2, explained 38.76% of the pheno-
+Chr. 03 with  logio (p) > 8.1 (Fig. 3b).
+typic variation for seed coat color. SoyZH13.01G182000
+Soybean seed coat color varies significantly among the (GmG/Ghyma.01g198500) was proven to control the green
+accessions used in the present population, including black, seed coat in soybean (Wang et al. 2018). The above results
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:1329-1341
+1333
+A 25 J
+GmF3'5'H- T GWAS on flower color
+20
+25
+S15
+20
+a
+15
+10
+:
+5
+huil
+0
+L
+T T
+T
+Chr 2 3 4 5 6
+10 11 12 13 14 15 16 17 18 19 20
+Expected -log,(p)
+B 20
+GmF3'5'H
+GWAS on stem color
+15
+20
+-
+5
+Chi
+12 13 14 15 16 17 18 19 20
+2
+5 6
+C 10
+Expected -log,o(p)
+GWAS on seed coat color
+10
+I
+Chr 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+2
+5 6
+D
+Expected -log,o(p)
+AGmG
+25
+20
+25
+!
+GWAS on seed coat color
+i 15
+(Yellow+Green) 20
+15
+10
+Chr
+2
+7 8
+10 11 12 13 14 15 16 17 18 19 20
+2
+6
+Chromosome
+Expected -log,o(p)
+Fig. 3 Manhattan plots and quantile-quantile for the GWAS for color traits. a GWAS for flower color, b GWAS for stem color, CGWAS for seed
+coat color, dGWAS for seed coat color (yellow + green). The red line indicates the significance thresbold(-log,d9-64) (color figure online)
+Springer
+
+
+
+1334
+Theoretical and Applied Genetics (2021) 134:1329-1341
+prove that this set of high-density SNP markers is accurate with MLM model, we identified a total of four associa-
+and effective for gene mapping via GWAS.
+tions with 152 significant SNPs (-logio(p)> 6.4) for HSW
+located on chromosomes 8, 10, 11, and 20 (Fig. 4, Supple-
+qHSW-16associated with seed weight was selected
+mentary Table 6). Individual SNPS explained between 4.3
+during soybean improvement
+and 11.55% of the phenotypic variation. For convenience in
+further analysis, we grouped the significant trait-associated
+As a yield component, seed weight is a complex and agro- SNPS that were located in close proximity at LD/>0.70,
+nomically important trait in soybean. We surveyed the 100- and the lead SNP was used to represent the locus (Table 1).
+seed weight (HSW) among the resequenced landrace and From group E3, qHSW-8 was identified on chromosome 8,
+cultivar population grown in Nanjing in 2018 (E1), 2019 consisting of 131 significant SNPS, which showed a signifi-
+(E2), and grown in Yancheng in 2019 (E3). Through GWAS cant marker-trait association with-logio(P) as high as 8.5
+GWAS on HSW in E1
+Chr
+2
+6
+10 11 12 13 14 15 16
+Expected -log,o(p)
+7 GWAS on HSW in E2
+Ch
+2
+6
+10
+12 13 14 15 16 17 18 19
+6
+Expected -log,o(p)
+GWAS on HSW in E3
+d
+Chr 1 2 3
+10 11 12 13 14 15 16 17 18 19 20
+2 3
+5
+Chromosome
+Expected -logio(p)
+Fig.4 Manhattan plots and quantile-quantile for the GWAS for seed weight in El (a), E2 (b), and E3 (c). The red line indicates the significance
+threshold (-logio(P)=6.4) (color figure online)
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:1329-1341
+1335
+Table 1 Loci and SNPS significantly associated with seed weight, predicted candidate genes and previously reported QTLS for seed weight at
+similar genome regions
+Loci
+Chr Position Lead SNP Alleles -logio(p) R? Known QTLS
+qHSW-8 Gm8 14087453 S08_14087453 T/A 8.5
+0.116 Seed weight 35-1 (Han et al. 2012) and 134-13 (Han et al. 2012)
+qHSW-10 Gm10 10272204 S10_10272204 C/T 6.92
+0.046 Seed weight 50-10 (Kato et al. 2014)
+qHSW-11-1 Gml1 23895170 S11_23895170 C/T 7.42
+0.099 Seed weight 10-3 (Specht et al. 2001) and 36-11 (Han et al. 2012)
+qHSW-11-2 Gmll 32685975 S11_32685975 C/T 7.57
+0.101 Seed weight 35-9 (Han et al. 2012) and 132-1 (Li and Zheng 2008)
+qHSW-16 Gm16 30298930 S16_30298930 A/G 7.24
+0.066
+(Fig. 4c; Table 1). In E2, qHSW-10 was detected as a signifi- (qRT-PCR) was performed to analyze the expression pat-
+cant QTL that explained 4.6% ofthe variation in HSW, while terns of the 18 candidate genes in NPS255 (large seed vari-
+in E3, qHSW-11-1 and qHSW-11-2 loci on chromosome 11 ety) and NPS270 (small seed variety). The results demon-
+explained 9.9% and 10.1% of variation for HSW, respec- strated that the expression levels of six of these 18 genes
+tively. A highly significant SNP cluster on chromosome 16, (Soy2H13_16G122600, 122700, 122900, 123100, 123200,
+qHSW-16 (including 11 SNPS, P=5.72x 10-8) was detected and 124000) were too low to be detected, while 11 genes
+in both E1 and E2, indicating that this QTL likely harbored showed no significant differences in transcriptional expres-
+a candidate gene responsible for HSW.
+sion between the large seed and small seed accessions during
+Commonly, wild soybeans have small seeds, whereas seed development after flowering 7 to 21 days (Fig. 6). In
+landraces and improved cultivars exhibit large seed sizes, fact, only SoyZH13 16G122400 in NPS255 showed approxi-
+suggesting that seed size was selected during domestication mately 2.5-fold and 2.9-fold higher mRNA levels than that
+and improvement. In the present study, we found that an of NPS270 at 7 and 14 days after flowering (DAF), respec-
+improvement-selective sweep region on Chr.16 overlapped tively (Fig. 6). Thus, these observations strongly suggest
+with a significant GWAS signal, qHSW-16 (Fig. 5a, b), thus that SoyZH13_16G122400 is most likely the causal gene
+indicating that seed weight was selected during soybean involved in the regulation of seed weight in QTL qHSW-16
+improvement. As shown, 11 SNPs were significantly associ- detected in our study.
+ated with seed weight (Fig. 5c, Supplementary Table 7), and
+exhibited strong linkage disequilibrium (72>0.8) (Fig. 5d).
+The lead SNP S16_30298930 hereafter represents this Discussion
+significant QTL (P=5.72 X 10-8). Among the landraces
+and cultivars used in this study, soybean accessions car- Cultivated soybean was domesticated from wild soybean in
+rying the SNP S16_ 30298930-G allele exhibited signifi- China L 5000 years ago (Dashiell 2005). During domestica-
+cantly higher average seed weight than those carrying the tion and artificial selection processes, various allelic varia-
+S16_30298930-A allele (Fig. 5e). In addition, we observed tions of wild soybeans were lost, which led to much lower
+that the frequency of S16_30298930-G allele in landraces genetic diversity in landrace and cultivar accessions than
+is 38.5%, higher than 9.7% of cultivars (Fig. 5f), resulting that oftheir wild counterparts (Lam et al. 2010; Zhou et al.
+in higher average seed weight for landraces than that of cul- 2015). This reduced variation has potentially resulted in the
+tivars (Fig. 5g). Taken together, these results suggest that loss of genes from soybean important for adaptation to dif-
+qHSW-16 is significantly associated with seed weight and ferent environments (Qi et al. 2014; Lu et al. 2020). In the
+has undergone strong selection during improvement.
+present study, GO analysis showed that the most significant
+GO terms enriched with genes in domestication-selective
+Identification and expression patterns of candidate sweep regions included "response to water deprivation,"
+genes in qHSW-16
+"response to salt stress," and "response to osmotic stress"
+(Fig. 2c), which suggested that soybean likely lost its adapt-
+Identification and utilization of candidate genes are one ability to environmental stress during the domestication pro-
+of the key objectives of GWAS. The LD decay distance cess from G. soja to landraces. Wild soybeans that exhibit
+is 120 kb on average across all chromosomes in the lan- high stress tolerance may therefore serve as a resource for
+drace and cultivar genomes (Fig. 1d). Using the anno- germplasm improvement in the development of cultivars
+tation of the Gmax_ZH13 reference genome, we found adapted to certain environmental conditions. Rapid anduni-
+18 gene models within the LD decay distance of SNP form seed germination is a crucial prerequisite for success-
+S16_30298930 in qHSW-16 (Table 2). To confirm which ful seedling establishment and high yields in soybean pro-
+of genes related to seed weight, real-time quantitative PCR duction (Caverzan et al. 2018). In the present study, genes
+Springer
+
+
+
+1336
+Theoretical and Applied Genetics (2021) 134:1329-1341
+A 0.5
+Fst(Landrace vs Cultivar)
+E 50 
+0.4
+45 
+***
+U
+qHSW-16
+1 P=1.24x10-15
+0.3 1
+40 -
+0.2
+35 -
+0.1 -
+30
+0.0
+I T
+J T T T T
+25 -
+29.2 29.4 29.6 29.8 30.0 30.2 30.4 30.6 30.8 31.0 31.2 31.4
+20
+a
+B
+x(Landrace)
+15 
+4 - x(Cultivar)
+10-
+5
+(n=40)
+(n-220)
+3
+G
+A
+€ 2
+S16 30298930
+1
+F
+0
+Landrace
+Cultivar OG
+29.2 29.4 29.6 29.8 30.0 70.2 70.4 30.6 30.8 31.0 31.2 31.4
+9.7%
+OA
+C 8
+38.5%
+61.5%
+7
+90.3%
+5 6
+5
+% ài'
+S16_30298930
+"si ..
+0
+30.20 30.25 30.30 30.35 30.40
+D
+G
+50 7
+***
+45 -
+P-9.93x10-13
+:
+40 -
+35 
+a 30
+€ 25
+20 -
+15 -
+10 -
+5
+(n=52)
+(n=212)
+R? Color Key
+Landrace
+Cultivar
+0.2 0.4 0.6 0.8
+Fig. .5 a FST plot of landraces versus cultivars and b T values in lan- inverted triangle. The LD level between 11 SNPS was indexed by
+draces and improved cultivars across the 2 Mb genomic regions sur- the R2 value. e Comparison of seed weight in accessions with dif-
+rounding the lead SNP S16_30298930 of qHSW-16. C Significant ferent alleles of S16_ 30298930 by boxplot. f Allele frequencies of
+GWAS signal for seed weight on chromosome 16. d Pairwise LD S16_30298930 in soybean landraces and cultivars. g Boxplot of soy-
+analysis between the 11 SNPS. The LD plot is represented by the bean seed weight in landraces and cultivars
+annotated for GO terms related to seed germination, such flowering, seed weight, and yield through both natural
+as "regulation of seed germination," "fatty acid metabolic and artificial selection (Young et al. 2014; Lu et al. 2020;
+biosynthetic process," "amino sugar catabolic process," Miao et al. 2020). These selection processes left differen-
+and "protein-DNA complex assembly" (Rajjou et al. 2012; tial genomic footprints across germplasm groups. Selective
+Penfield 2017), were significantly enriched through the pro- signature analysis identifies the signatures left by positive
+cess of soybean improvement (Fig. 2d), indicating that seed selection that can be used to screen for candidate genes asso-
+germination traits have undergone strong selection during ciated with specific traits (Nielsen et al. 2005). However, the
+improvement from landrace to cultivar.
+selective signatures always span several or even dozens of
+In sharp contrast with stress-associated traits, during kilobases, and thus it may not be possible to identify all can-
+soybean domestication and improvement, genetic variation didate genes within a selective signature. GWAS using the
+increased for traits associated with seed protein, oil content, GLM module takes into account both familial relatedness
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:1329-1341
+1337
+Table 2 Candidate genes for
+Gene ID
+Annotation
+seed weight in qHSW-16
+SoyZH13_16G122400
+Anaphase-promoting complex 10
+SoyZH13_16G122500
+Unknown protein
+SoyZH13_16G122600
+U-box domain-containing protein 5-like
+SoyZH13_16G122700
+Uncharacterized protein LOC100779111
+SoyZH13_16G122800
+ZF-HD homeobox protein At4g24660-like
+SoyZH13_16G122900
+Protein kinase family protein
+SoyZH13_16G123000
+Sugar porter (SP) family MFS transporter
+SoyZH13_16G123100
+Uncharacterized mitochondrial protein
+SoyZH13_16G123200
+Sugar porter (SP) family MFS transporter
+SoyZH13_16G123300
+Alpha/beta-Hydrolases superfamily protein
+SoyZH13_16G123400
+Alpha/beta-Hydrolases superfamily protein;
+SoyZH13_16G123500
+GATA transcription factor 19
+SoyZH13_16G123600
+Maf-like protein
+SoyZH13_16G123700
+FADINAD(P-binding oxidoreductase family protein
+SoyZH13_16G123800
+Golgi to vacuole transport-related protein
+SoyZH13_16G123900
+Pentatricopeptide repeat (PPR) superfamily protein
+SoyZH13_16G124000
+Tryptophan aminotransferase related 2
+SoyZH13_16G124100
+Aminopeptidase M1
+NPS255 NPS270
+the limitations ofGWAS. In the present study, both GWAS
+SoyZH13_16G122400
+16.00 and selective signature analysis were applied to identify 18
+14.00 candidate genes associated with seed weight.
+SoyZH13_16G122500
+12.00
+Seed weight, controlled by multiple genes, is a major
+SoyZH13_16G122800
+10.00 component of seed yield in soybean. To improve yield, it
+8.00 is thus necessary to understand the genetic basis of seed
+SoyZH13_16G123000
+6.00
+weight through identification of candidate QTLS that sig-
+4.00 nificantly affect this trait. In soybean, over 200 QTLs for
+SoyZH13_16G123300
+2.00
+0.00 seed weight have been reported across 20 chromosomes
+SoyZH13_16G123400
+(SoyBase, htpJlwww.soybasc.org) In this study, 283
+wild, landrace, and cultivar soybean accessions were col-
+SoyZH13_16G123500
+lected from across a wide geographic range in China to
+SoyZH13_16G123600
+dissect the genetic architecture controlling seed weight.
+Through GWAS with high-density SNP markers, 152
+SoyZH13_16G123700
+SNPs (five loci) were significantly associated with seed
+SoyZH13_16G123800
+weight. Individual SNPS accounted for 4.3 to 11.55% of
+the phenotypic variation (Supplementary Table 7). Among
+SoyZH13_16G123900
+these loci, four QTLs have been previously reported at
+SoyZH13_16G124100
+least once (Table 1). qHSW-10 on chromosome 10 were
+Dh DAS
+located within QTL, seed weight 50-10 (Kato et al. 2014).
+AOs
+AON
+n
+or os
+The lead SNP of qHSW-8, S08_14087453 on chromo-
+some 8, was located within two previously mapped QTLS,
+Fig.6 Heat map of candidate genes expression levels in qHSW-16
+seed weight 35-1 and 34-13 (Han et al. 2012). qHSW-11-
+1 was located within QTL, seed weight 10-3 and 36-11
+(Specht et al. 2001; Han et al. 2012). qHSW-11-2 was
+and population structure and can thus serve as an informa- mapped within QTL, seed weight 35-9, and 32-1 (Li
+tive tool to connect complex phenotypic traits with their and Zheng 2008; Han et al. 2012). Interestingly, selec-
+underlying genetic factors (Zhang et al. 2019;Liet al. 2020). tive sweep analyses showed that these three identified
+Although GWAS is a sensitive means of identifying candi- loci were overlapped with selective-sweep regions dur-
+date genes that have experienced selection, selective signa- ing soybean improvement (Supplementary Table 4), sug-
+ture analysis is preferred due to its utility is circumventing gesting that these three loci associated with seed weight
+Springer
+
+
+
+1338
+Theoretical and Applied Genetics (2021) 134:1329-1341
+have undergone further selection from landrace to cultivar. Materials and methods
+The high repeatability of these loci across various environ-
+ments and genetic backgrounds implies a great potential Plant materials and phenotypic evaluation
+for marker-based breeding for seed weight in soybean.
+As seed weight plays an important role in soybean yield, A total of 283 soybean accessions, including 19 wild acces-
+these loci are also useful for soybean yield improvement. sions, 52 landraces, and 212 improved cultivars from China
+Among these loci, the qHSW-16locus at 30.3 Mb position were selected to construct an association mapping panel.
+on chromosome 16 was identified in two environments All materials were planted in Nanjing City, Jiangsu Prov-
+exhibiting a strong GWAS signal.
+ince in 2018 and 2019, and Yancheng City, Jiangsu Province
+To date, some of these previously described QTLs in 2019. The experiment followed a randomized complete
+were mapped to chromosome 16 in soybean (Maughan block design with a single row plot and three replications.
+et al. 1996; Mian et al. 1996; Han et al. 2012; Hu et al. Fordescription purposes, the three environments, 2018 Nan-
+2014, 2020), but no QTL has yet been reported in the jing, 2019 Nanjing, and 2019 Yancheng were designated as
+qHSW-16 genomic region of chromosome 16. Among E1, E2, and E3, respectively.
+these reported QTLs or SNPS, seed weight 34-18 was
+The flower color, stem color, and seed coat color of each
+identified on chromosome 16 from 25.1 to 26.4 Mb (Han accession were surveyed in Nanjing in 2018. For 100-seed
+et al., 2012), approximately 3.6 Mb away from qHSW-16. weight, the seeds were dried in an air dryer and a sample of
+Seed weight 2-6 and Seed weight 4-4 were about 25 Mb 100 cleaned seeds in E1, E2, and E3 was randomly taken and
+away from qHSW-16 (Maughan et al. 1996; Mian et al. weighed with three replications.
+1996). These results suggested that qHSW-16 is a novel
+QTL regulating seed weight in soybean. Further study of
+the interaction between qHSW-16 and other seed weight- DNA extraction and whole-genome resequencing
+related QTLs will greatly improve our understanding of
+the genetic mechanisms governing seed weight in soybean. Young leaves were collected 4 weeks after planting and
+For this novel QTL, qHSW-16, SoyZH13_16G122400 quickly frozen in liquid nitrogen for sequencing. Total
+showed higher transcription levels in a large seed vari- DNA was extracted using the CTAB method (Paterson
+ety than that in a small seed variety during seed devel- et al. 1993). Paired-end sequencing libraries (150 bpx2)
+opment, suggesting that SoyZH13.16G122400 is the were constructed for all the 283 lines following the manu-
+most likely causal gene for regulation of seed weight. facturer's instructions (Illumina). The soybean reference
+Bioinformatics and sequence homology analysis revealed genome Gmax_ZH13 (Shen et al. 2018) and its annotation
+that SoyZH13_16G122400 encodes anaphase-promoting were downloaded online (https./bigd.big.ac.cn/gwh/Assem
+complex 10 (GmAPC10), a multi-subunit E3 ubiquitin bly/125/show).
+ligase, which is an anaphase-promoting complex/cyclo-
+some (APC/C) that has been well studied in model spe-
+cies such as Arabidopsis and rice for its major contribu- Identification ofvariation and filtering
+tions to cell-cycle regulation. In Arabidopsis, AtAPC10
+is essential for cell proliferation during leaf development All paired-end sequence reads were mapped to the Gmax_
+(Eloy et al. 2011). AtAPC8 is required for male meiosis ZH13 reference genome using BWA software(Li and Dur-
+(Xu et al. 2019), deficiency of AtAPC8 showed abnormal bin 2009) with default parameters. Only reads with unique
+development of the meristem, leaves and shoots, as well mapping position in the Gmax_ZH13 reference genome and
+as reduced fertility with short siliques and mature pollen mapping quality value greater 30 were retained in BAM for-
+with no or single sperm-like cells (Zheng et al. 2011). In mat by SAMtools (Li et al. 2009). Additionally, we improved
+rice (Oryza sativa L.), OsTAD1 and OsMOC1 interact to the alignment performance by realignment of reads around
+form a complex together with OsAPC10 that regulates rice Indels from the BWA mapping results with the IdnelRea-
+tillering(Lin et al. 2012; Xu et al. 2012). In tobacco (Nico- ligner package in the Genome Analysis Toolkit (GATK)
+tiana tabacum), overexpression ofAtAPC10 promotes high (McKenna et al. 2010). High-quality SNPs and Indel varia-
+biomass accumulation, including fresh and dry weight, tions were obtained according to the following criteria. (a)
+root length, and number of seeds per plant (Lima et al. Only concordant sites identified by GATK and VCFtools
+2013). The influence of anaphase-promoting complex 10 (Danecek et al. 2011) with the Select Variants packages
+on seed weight for GmAPC10 awaits further study. Our were retained. (b) The SNP quality value should be greater
+results may support the cloning of a gene influencing seed than 30. (c) SNPS and Indels with a MAF < 5% and miss-
+weight and the development of functional markers for ing rate < 10% were discarded. (d) The average sequencing
+marker-assisted selection in soybean breeding.
+depth was greater than 8x. (f) Insertions and deletions with
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:1329-1341
+1339
+a maximum length 10bp were taken into account. The anno- in the GWAS results were visualized using the R package of
+tation information of variants was obtained by ANNOVAR "LDheatmap" (Shin et al. 2006).
+(Wang et al. 2010).
+To identify potential candidate genes for seed weight, genes
+that were located within the LD decay distance upstream and
+Population structure
+downstream of peak SNPS (the most significant SNPs with a
+maximum of-logio P values) were identified.
+The phylogenetic tree was constructed with maximum likeli-
+hood using SNPhylo based on the high-density SNPS (Lee Quantitative RT-PCRfor candidate genes
+et al. 2014) and visualized with ITOL (Letunic and Bork
+2019). LD was calculated for wild accessions and non-wild Two soybean varieties with contrasting seed size were used in
+accessions by software PopLDdecay (Chi et al. 2019). PCA this study. The large seed variety NPS255 is an elite variety
+was performed using GCAT (Yang et al. 2011), and two- with a HSW of 29.2 g carrying the S16_30298930-G allele,
+dimensional coordinates were plotted for the 283 soybean whereas the small seed variety NPS270 with aHSW of 13.2g,
+accessions in R (www.r-project.org).
+carries the S16_30298930-A allele. The sampling points of
+early seed maturation were at 7, 14, and 21 days after flower-
+ing (DAF). After sampling, the tissues were quickly frozen in
+Selective sweep analyses
+liquid nitrogen and stored at t- 70 C until RNA isolation. Three
+biological replicates were used for each ofthe sampling points.
+The 3,319,306 high-quality SNPs were used for selective
+Total RNA was isolated using the RNA simple Total RNA
+sweep analysis. The fixation index (FST) between landraces
+Kit (TIANGEN Beijing, China), and first-strand cDNA was
+and wild accessions, landraces and cultivars, and the nucleo-
+reverse-transcribed using a TaKaRa Primer Script RT reagent
+tide diversity (z) were analyzed using the VCFtools package kit with gDNA Eraser. Gene expression was determined by
+(Danecek et al. 2011) with a step size of 10kb and a 100-kb
+RT-PCR using an ABI 7500 system (Applied Biosystems, Fos-
+sliding window. The top 5% values of Ox ratio were adopted
+ter City, CA, USA) with the SYBR Green Real-time Master
+to identify putative selective regions. Likewise, the top 5% Mix (Toyobo), and the data were analyzed using ABI 7500
+values of FsT were applied to confirm highly differentiated
+Real-Time PCR System. The relative expression level against
+regions. The intersections of windows based on FST and
+the Actin11 gene was quantified using the 2-AACT method
+Or ratio were assigned as potential selective regions. The
+(Livak and Schmittgen 2001). Three replicates were run for
+thresholds of FsT20.970 and Or ratio < 0.0947 for wild_
+each sample.
+vs_landrace, and FsT20.204 and Or ratio <0.545 for lan-
+drace_vs_cultivar were used to identify selective sweeps.
+Supplementary Information The online version contains supplemen-
+tary material available at htps_/doi.ong/10.1007600122-021-0374
+Go enrichment analysis for candidate genes
+-6.Acknowledgements This work was supported by the National Key
+Research and Development Program ofChina (2018YFE0112200), the
+Key R&D project of Jiangsu Province (BE2019376).
+To identify biological functions of candidate genes associ-
+ated with the selection, annotation and enrichment analysis Author Contribution statement ZW, WX, HZ, and SL contributed Ito
+were performed by submitting gene information to Gene field design and phenotypic data collection; ZW and XC performed
+Ontology (GO) using the software TBtools (Chen et al. phenotypic analysis; WX, LS, XL, YZ, and CX assisted in revising
+the manuscript; ZW analyzed the experimental results; ZW and HT
+2020). GO terms with P value <0.01 were taken as those in wrote the manuscript. All authors reviewed the manuscript and pro-
+which candidate genes were significantly enriched.
+vided suggestions.
+Genome-wide association study (GWAS)
+Compliance with ethical standards
+andidentification ofcandidate gene
+Conflict ofinterest On behalf of all authors, the corresponding author
+states that there is no conflict of interest.
+Genome-wide association study of the landrace panel and
+the cultivated panel was conducted with 2,597,425 SNPS. Availability ofdata and materials Data provided lin supplementary files.
+To minimize false positives and increase statistical power, a
+mixed linear model (MLM) accounting for population struc-
+ture and kinship were implemented in the Genomic Asso- References
+ciation and Prediction Integrated Tool (GAPIT) R package.
+(Lipka et al. 2012). The threshold for a significant association Caverzan A, Giacomin R, Muller M, Biazus C, Lângaro NC, Chavarria
+was set to 1/n (n is the number of markers, P <3.85x1 10-7
+G (2018) How does seed vigor affect soybean yield components?
+or-logio(P)>64). The LD heatmaps with surrounding peaks
+AgronJ110-1318-1327
+Springer
+
+
+
+1340
+Theoretical and Applied Genetics (2021) 134:1329-1341
+Chen C, Chen H, Zhang Y, Thomas HR, Frank MH, He Y, Xia R Liang H, Xu L, Yu Y, Yang H, Dong W,Zhang H (2016) Identification
+(2020) TBtools: an integrative toolkit developed for interactive
+of QTLS with main, epistatic and QTLby environment interaction
+analyses of fbig biological data. Mol Plant 13:1194-1202
+effects for seed shape and hundred-seed weight in soybean across
+Chi Z, Shan-Shan D, Jun-Yang X, Wei-Ming H, Tie-Lin Y (2019)
+multiple years. JGenet 95:475-477
+PopLDdecay: a fast and effective tool for linkage disequilibrium Lima MDF, Eloy NB, Bottino MC, Hemerly AS, Ferreira PCG (2013)
+decay analysis based on variant call format files. Bioinformatics
+Overexpression ofthe anaphase-promoting complex (APC) genes
+10:1786-1788
+in Nicotiana tabacum promotes increasing biomass accumulation.
+Danecek P, Auton A, Abecasis G, Albers CA, Banks E, DePristo MA,
+Mol Biol Rep 40:7093-7102
+Handsaker RE, Lunter G, Marth GT, Sherry ST, McVean G, Dur- Lin Q, Wang D, Dong H, GuS, Cheng Z, GongJ,Qin R, Jiang L,LiG,
+bin R, 1000 Genomes Project Analysis Group (2011) The variant
+Wang JL, Wu F, Guo X, Zhang X, Lei C, Wang H, Wan J (2012)
+call format and VCFtools. Bioinformatics 27:2156-2158
+Rice APC/C-TE controls tillering by mediating the degradation
+Dashiell K (2005) SOYBEANS: improvement, production, and uses.
+of MONOCULM 1. Nat Commun 3:752
+Third Edition: Boerma, H.R., Specht, J.E. (Eds), American Soci- Lipka AE, Tian F, Wang Q, Peiffer J, Li M, Bradbury PJ, Gore MA,
+ety of Agronomy, Crop Science Society of America, Soil Science
+Buckler ES, Zhang Z (2012) GAPIT: genome association and
+Society of America, Madison, Wisconsin, USA, 2004, 1144 pp.
+prediction integrated tool. Bioinformatics 28:2397-2399
+Price: US$155.00 (hardback). ISBN 0-89118-154-7. Agric Syst Livak KJ, Schmittgen TD (2001) Analysis of relative gene expression
+83:110-111
+data using real-time quantitative PCR and the 2-AACT method.
+Eloy NB, de Freitas Lima M, Van Damme D, Vanhaeren H, Gonzalez
+Methods 25:402-408
+N, De Milde L, Hemerly AS, Beemster GT, Inzé D, Ferreira PC Lu S, Dong L, Fang C, Liu S, Kong L, Cheng Q, Chen L, Su T, Nan
+(2011) The APCIC subunit 10 plays an essential role in cell pro-
+H, Zhang D, Zhang L, Wang Z, Yang Y, Yu D, Liu X, Yang Q,
+liferation during leaf development. Plant J 68:351-363
+Lin X, Tang Y, Zhao X, Yang X, Tian C, Xie Q, Li X, Yuan X,
+Han Y,Li D, Zhu D,LiH, Li X, Teng W,Li W (2012) QTL analysis of
+Tian Z, Liu B, Weller JL, Kong F (2020) Stepwise selection on
+soybean seed weight across multi-genetic backgrounds and envi-
+homeologous PRR genes controlling flowering and maturity dur-
+ronments. Theor Appl Genet 125:671-683
+ing soybean domestication. Nat Genet 52:428-436
+Hu Z, Zhang D, Zhang G, Kan G, Hong D, Yu D (2014) Association Maughan PJ, MaroofMAS, Buss GR (1996) Molecular-marker analysis
+mapping of yield-related traits and SSR markers in wild soybean
+of seed-weight: genomic locations, gene action, and evidence for
+(Glycine soja Sieb. and Zucc.). Breeding Sci 63:441-449
+orthologous evolution among three legume species. Theor Appl
+Hu D, Zhang H, Du Q. Hu Z, Yang Z, Li X, Wang J, Huang F, Yu
+Genet 93:574-579
+D, Wang H, Kan G (2020) Genetic dissection of yield-related McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kerny-
+traits via genome-wide association analysis across multiple envi-
+tsky A, Garimella K, Altshuler D, Gabriel S, Daly M, DePristo
+ronments in wild soybean (Glycine soja Sieb. and Zucc.). Planta
+MA (2010) The genome analysis toolkit: aMapReduce framework
+251:39
+for analyzing next-generation DNA sequencing data. Genome Res
+Hwang EY, Song Q, Jia G et al (2014) A genome-wide association
+20:1297-1303
+study of seed protein and oil content in soybean(J]. BMC Genom Mian MAR, Bailey MA, Tamulonis JP, Shipe ER, Carter TE, Parrott
+15(1):1-12
+WA, Ashley DA, Hussey RS, Boerma HR (1996) Molecular mark-
+Kato S, Sayama T, Fujii K, Yumoto S, Kono Y, Hwang T, Kikuchi A,
+ers associated with seed weight in two soybean populations. Theor
+Takada Y, Tanaka Y, Shiraiwa T, Ishimoto M(2014) A major and
+Appl Genet 93:1011-1016
+stable QTL associated with seed weight in soybean across mul- Miao L, Yang S, Zhang K, He J, Wu C, Ren Y, Gai J, Li Y (2020)
+tiple environments and genetic backgrounds. Theor Appl Genet
+Natural variation and selection in GmSWEET39 affect soybean
+127:1365-1374
+seed oil content. New Phytol 225:1651-1666
+Lam H, Xu X, Liu X, Chen W, Yang G, Wong F, Li M, He W, Qin N, Nielsen R, Williamson S, Kim Y, Hubisz MJ, Clark AG, Bustamante
+Wang B, LiJ,Jian M, Wang J, Shao G, Wang J, Sun SS, Zhang G
+C (2005) Genomic scans for selective sweeps using SNP data.
+(2010) Resequencing of 31 wild and cultivated soybean genomes
+Genome Res 15:1566-1575
+identifies patterns of genetic diversity and selection. Nat Genet Paterson AH, Brubaker CL, Wendel JF (1993) A rapid method for
+42:1053-1059
+extraction of cotton (Gossypium spp.) genomic DNA suitable for
+Lee G, Crawford GW, Liu L, Sasaki Y, Chen X (2011) Archaeologi-
+RFLP or PCR analysis. Plant Mol Biol Rep 11:122-127
+cal soybean (Glycine max) in East Asia: does size matter? PLOS Penfield S (2017) Seed dormancy and germination. Curr Biol
+ONE 6:e26720
+27:R874-R878
+Lee T, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipe- Qi X, Li M, Xie M, Liu X, Ni M, Shao G, Song C, Kay-Yuen Yim A,
+line to construct a phylogenetic tree from huge SNP data. BMC
+Tao Y, Wong F, Isobe S, Wong C, Wong K, Xu C, Lic, Wang Y,
+Genomics 15:162
+Guan R, Sun F, Fan G, Xiao Z, Zhou F, Phang T, Liu X, Tong S,
+Letunic I, Bork P (2019) Interactive tree of life (ITOL) v4:
+Chan T, Yiu S, Tabata S, Wang J, Xu X, Lam H (2014) Identifi-
+recent updates and new developments. Nucleic Acids Res
+cation of a novel salt tolerance gene in wild soybean by whole-
+47:W256-W259
+genome sequencing. Nat Commun 5:4340
+LiH, Durbin R (2009) Fast and accurate short read alignment with Rajjou L, Duval M, Gallardo K, Catusse J, Bally J, Job C,Job D(2012)
+Burrows-Wheeler transform. Bioinformatics 25:1754-1760
+Seed germination and vigor. Annu Rev Plant Biol 63:507-533
+Liw, Zheng D (2008) QTL mapping for major agronomic traits across Shen Y, LiuJ, Geng H, Zhang J, Liu Y, Zhang H, Xing S, Du J, Ma S,
+2 years in soybean.JCrop Sci Biotechnol 11(3):171-190
+Tian Z (2018) De novo assembly of fa Chinese soybean genome.
+LiH, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, Marth G,
+Sci China Life Sci 61:871-884
+Abecasis G, Durbin R, Genome PDPS (2009) The sequence align- Shin J, Blay S, McNeney B, Graham J (2006) LDheatmap: an R
+ment/map format and SAMtools. Bioinformatics 25:2078-2079
+function for graphical display of pairwise linkage disequilibria
+Li YH,Li D,Jiao YQ, Schnable JC, Li YF, Li HH,Chen HZ, Hong HL,
+between single. J Stat Softw 16:1-10
+Zhang T, Liu B (2020) Identification ofloci icontrolling adaptation Specht JE, Chase K, Macrander M, GraefGL, Chung J, Markwell JP,
+in Chinese soya bean landraces via a combination of conventional
+Germann M, OrfJH, Lark KG (2001) Soybean response to water:
+and bioclimatic GWAS. Plant Biotechnol 1J 18:389-401
+a QTL analysis of drought tolerance. Crop Sci41:493-509
+Springer
+
+
+
+Theoretical and Applied Genetics (2021) 134:1329-1341
+1341
+Tengfei Z, Tingting W, Liwei W, Bingjun J, Caixin Z, Shan Y, Wen- Zabala G, Vodkin LO (2007) A rearrangement resulting in small tan-
+sheng H, Cunxiang W,Tianfu H, Shi S (2019) A Combined link-
+dem repeats in the F3'5'H gene of white flower genotypes is asso-
+age and GWAS analysis identifies QTLs linked to soybean seed
+ciated with the Soybean W1 Locus. CROP SCI 47:113-124
+protein and oil content. IntJ Mol Sci 20:5915
+Zhang W, Liao X, Cui Y, Ma W, Zhang X, Du H, Ma Y, Ning L, Wang
+Wang K, Li M, Hakonarson H(2010) ANNOVAR: functional annota-
+H, Huang F, Yang H, Kan G, Yu D (2019) A cation diffusion
+tion of genetic variants from high-throughput sequencing data.
+facilitator, GmCDF1, negatively regulates salt tolerance in soy-
+Nucleic Acids Res 38:e164
+bean. PLOS Genet 15:e1007798
+Wang M,Li W, Fang C, Xu F, Liu Y, Wang Z, Yang R, Zhang M, Liu Zheng B, Chen X, McCormick S (2011) Zheng B, Chen X, McCor-
+S, Lu S, Lin T, Tang J, Wang Y, Wang H, Lin H, Zhu B, Chen M,
+mick S. The anaphase-promoting complex is a dual integrator that
+Kong F,Liu B, Zeng D, Jackson SA, Chu C, Tian Z(2018) Paral-
+regulates both MicroRNA-mediated transcriptional regulation of
+lel selection on a dormancy gene during domestication of crops
+cyclin B1 and degradation of Cyclin B1 during Arabidopsis male
+from multiple families. Nat Genet 50:1435
+gametophyte development. Plant Cell 23:1033-1046
+Wu D, Zhan Y, Sun Q, Xu L, Lian M, Zhao X, Han Y,Li W (2018) Zhou Z, Jiang Y, Wang Z, Gou Z, Lyu J, Li W, Yu Y, Shu L, Zhao Y,
+Identification of quantitative trait loci underlying soybean (Gly-
+Ma Y, Fang C, Shen Y, Liu T, Li C,LiQ, Wu M, Wang M, Wu Y,
+cine max [L.] Merr.) seed weight including main, epistatic and
+Dong Y, Wan W, Wang X, Ding Z, Gao Y, Xiang H, Zhu B, Lee
+QTL x environment effects in different regions of Northeast
+S, Wang W, Tian Z(2015) Resequencing 302 wild and cultivated
+China. Plant Breeding 137:194-202
+accessions identifies genes related to domestication and improve-
+Xu C, Wang Y, Yu Y, Duan J, Liao Z, Xiong G, Meng X, Liu G, Qian
+ment in soybean. Nat Biotechnol 33:125-408
+Q, LiJ (2012) Degradation of MONOCULM 11 by APCICTADI
+regulates rice tillering. Nat Commun 3:750
+Publisher's Note Springer Nature remains neutral with regard to
+Xu R, XuJ, Wang L, Niu B, Copenhaver GP, Ma H, Zheng B, Wang Y jurisdictional claims in published maps and institutional affiliations.
+(2019) The Arabidopsis anaphase-promoting complex/cyclosome
+subunit 8 is required for male meiosis. New Phytol 224:229-241
+Yang J, Lee SH, Goddard ME, Visscher PM (2011) GCTA: a tool for
+genome-wide complex trait analysis. Am J Hum Genet 88:76-82
+Springer

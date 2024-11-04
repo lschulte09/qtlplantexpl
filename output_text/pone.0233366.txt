@@ -1,0 +1,1099 @@
+PLOS ONE
+RESEARCHARTICLE
+Genome-wide association study of partial
+resistance to sclerotinia stem rot of cultivated
+soybean based on the detached leaf method
+Mingming Sun120 Yan Jing' Xue Zhao'e, Weili Teng', Lijuan Qiu',Hongkun Zheng',
+Wenbin Li'*, Yingpeng Hangis
+1 Key Laboratory of Soybean Biology in Chinese Ministry of Education (key Laboratory of Soybean Biology
+and Breeding/Genetics of Chinese Agriculture Ministry), Northeast Agricultural University, Harbin, China,
+2 Heilongjiang Journal Press of Agricultural Science and Technology, Heilongjiang Academy of Agricultural
+Sciences, Harbin, China, 3 Institute of Crop Science, Nationall Key Facility for Crop Gene Resources and
+Genetic Improvement (NFCRI) Chinese Academy of Agricultural Sciences, Beijing, China, 4 Bioinformatics
+Division, BiomarkerTechnologies Corporation, Beijing, China
+Check for
+updates
+o These authors contributed equallyto this work.
+*hyp234286@alyun.com (YH); wenbini@neau.educn (WL)
+Abstract
+6 OPENACCESS
+Citation: Sun M, Jing Y, Zhao X, Teng W, QiuL, Sclerotinia stem rot (SSR) is a devastating fungal disease that causes severe yield losses of
+Zheng H, et tal. (2020) Genome-wide association soybean worldwide. In the present study, a representative population of 185 soybean acces-
+study of partial resistance to sclerotinia stem rotof sions was selected and utilized to identify the quantitative traitnucleotide (QTN) of partial
+cultivatedsoybean based on the detached leaf
+resistance to soybean SSR via a genome-wide association study (GWAS). A total of 22,048
+method. PLOS ONE 15(5): e0233366. https://doi.
+0g1019T/pumaippe.d2se
+single-nucleotide polymorphisms (SNPS) with minor allele frequencies (MAF) > 5% and
+missing data < 3% were used to assess linkage disequilibrium (LD) levels. Association sig-
+Editor: Istvan Rajcan, University of Guelph,
+CANADA
+nals associated with SSR partial resistance were identifiedby two models, including com-
+pressed mixed linear model (CMLM) and multi-locus random-SNP-effect mixed linear
+Received: October 22, 2019
+model (mrMLM). Finally, seven QTNS with major effects (a known locus and six novel loci)
+Accepted: May 4, 2020
+via CMLM and Inine novel QTNS with minor effects via mrMLM were detected in relation to
+Published: May 18, 2020
+partial resistance to SSR, respectively. One of all the novel loci (Gm05:14834789 on
+Copyright: 02020 Sun etal. Thisi is an open
+Chr.05), which was co-located by these two methods, might be a stable one that showed
+access article distributed lunder the terms ofthe high significance in SSR partial resistance. Additionally, a total of 71 major and 85 minor
+Creative CommonsAttribution License, which
+candidate genes located in the 200-kb genomic region of each peak SNP detected by
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original CMLM and mrMLM were found, respectively. By using a gene-based association, a total of
+author and source are credited.
+six SNPS from three major effects genes and eight SNPS from four minor effects genes
+Data Availability Statement: All relevant data are were identified. Ofthem, Glyma. 18G012200has been characterized as a significant ele-
+within the paper and its Supporting Information mentin controlling fungal disease in plants.
+files.
+Funding: Funding: "Biomarker Technologies
+Corporation provided supportfor this study inthe
+form ofsalaryfor HZ. HZ's contribution in this
+Introduction
+articlei is data collection and analysis on the
+As one ofthe most devastating and economically important fungal phytopathogens in
+of
+soybean
+process DNA sequencing and ISNP calling using
+some software. The DNAS sequencing was
+[Glycine max (L.) Merr.], sclerotinia stem rot (SSR) is caused by Sclerotinia sclerotiorum (Lib.)
+conducted lin Biomarker Technologies Corporation. de Bary, and humidity and temperature have a profound impact on the prevalence, incidence,
+The funders had no role in study design, decision development and severity ofthis disease [1]. Sclerotinia sclerotiorum (Lib.) de Bary was
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+1/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+to publish, or preparation of the manuscript. The recognized as an omnivorous plant pathogen with a broadhost range and worldwide distribu-
+specificrole of this authori is articulated in the
+tion. SSR was further expanded for rotation between soybean and other host plants. SSR could
+'author contributions' section.
+cause serious yield loss of soybean, especially in North America and northeastern China [2,3].
+Competing interests: Competing Interests: "The Agronomic management practices, including disease-free seeds, early planting dates, soil till-
+authors have read the journal'spolicy and the
+age, and adjusting row width and population density, contributedto the control ofSSR sever-
+authors ofthis manuscripthave the following
+ity; however, the effectiveness of these agronomic practices could be limited [4]. The resistant
+competing interests: HZ is sapaid employee of
+Biomarker Technologies Corporation. There are no cultivar was the most economical andlong-lasting means ofmanaging this disease. Although
+patents, productsin development or marketed
+no complete resistance to SSR was reported in soybean, different susceptibilities or partial
+products associated with this research to declare. resistance were still effective in controlling this disease [5]. The identification of cultivars with
+This does not alter our adherence tol PLOS ONE partial resistance may provide useful information for breeding new cultivar resistance to this
+policies on sharing data and materials."
+disease.
+Partial resistance to soybean SSR is a heritable quantitative trait [6,7], which is controlled
+by genes with main or minor effects and affected by environment and genotype by environ-
+ment interactions [5]. Researchers have found that Sclerotinia scderotiorum-soybean molecular
+interaction was a very complex process, involving many pathogen-released proteins [8] and
+other factors, forinstance, oxalic acid, secreted effectors and cell wall degrading enzymes for
+the host to deal with [9-13]. Pan et al (2018) identified that SsSml functioned as an elicitor
+involved in hyphal development of Sclerotinia sclerotiorum, and silencing SsSml could reduce
+the pathogenicity [14]. For the purpose offinding more functional genes, QTL analysis was
+conducted, based on a linkage mapping strategy and the bi-parent population, to position
+DNA markers associated with SSR resistance. At present, a total of103 QTLS, distributed on
+18 ofall 20 soybean chromosomes, were reported in the Soybase databank (www.soybase.org).
+Among these QTLS, most were not reported again in other studies. Therefore, these identified
+QTLs were difficult to directly utilize in marker-asistedbreding (MAS) ofSSR. Different
+from the bi-parent population oflinkage analysis, genome-wide association analysis (GWAS)
+using a natural population ofnon-cross-derived lines could provide extensive recombination
+and shorter LD segments and could thus increase the resolution ofmarker-phenotype associa-
+tions [15].
+Recently, high-throughput sequencing and gene chip technology have further accelerated
+the development ofGWAS, and GWAS has been a promising strategy for the identification of
+loci for genes ofinterest traits. Some studies have been reported for soybean SSR based on
+GWAS andhighlighted its effectiveness aiming at improving the enhanced resistance to SSR.
+Wei et al. (2017) used two models, CMLM and FarmCPU,and finally found 125 genes around
+threel loci with high confidence [10]. Four QTNS, located on chromosome 01 (Chr.01), Chr.15,
+Chr.19 and Chr.20, were detected through 130 testedsamples and 17,864 single nucleotide poly-
+morphisms (SNPS) based on the cotton pad method [16]. A total lof58 significant main effect
+QTNS and 24 epistatic QTNS for the partial resistance ofSSR were finally identified on the
+basis ofthe phenotypes of 466 diverse soybean accessions obtaining from the cut stem method,
+and the genotyping data of35,683 SNPs [1]. Zhao et al. (2015) identified five genomic regions
+that were significantly associated with stem pigmentation content after treatment with oxalo-
+acetic acid, an indirect trait ofSSR resistance in soybean [5]. To date, soybean cultivars from
+northeastern China have not evaluated SSR resistance based on the direct evaluation method.
+In the present study, a total of 185 cultivars were evaluated for their partial resistance to
+SSR using the detached leaf method, and GWAS was performed based on 22,048 SNPS and
+these tested samples. The aim ofthis study was to screen resistance sources from Northeast
+China, to identify QTN associated with partial resistance ofSSR, and to predict candidate
+genes located in QTN regions.
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+2/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Materials and methods
+Plant materials and phenotypic evaluation
+A total of 185 Chinese representative accessions, including 38 landraces and 147 elite cultivars,
+were collected from northeastern China. Phenotypic evaluations ofthese tested accessions
+were conducted using the 'detached leaf method' describedby Kull et al [17]. Five seeds of
+each tested soybean were germinated in 15-cm clay pots containing an equal mixture of soil
+(peat: soil: sand: vermiculite) and grown in a greenhouse (27 + 1'C) under 16-h day length
+according to the detachedleafmethod describedby Kull et al [17]. And experimental designs
+with a randomized complete block with three replications were utilized. The fully expanded
+leaves of4-week-old soybeans were cut from the stem and then placed in a labeled, moistened
+paper towel. An 8-mm? plug was placed fungus-side down centered on one side ofthe middle
+trifoliolate leafbetween the main leafvein and the leaf edge and gently pressed to ensure good
+contact with theleaf fsurface. After 48 h, the diameter oflesions among inoculatedleaves was
+measured on the following 5days and used as the phenotypic value.
+SNP genotyping data collection
+The genomic DNA ofthe tested materials was isolated and then genotyped based on specific
+locus amplified fragment sequencing (SLAF-seq) methodology [18]. Two digest enzymes, Mse
+I (EC 3.1.21.4) and Haelll (EC: 3.1.21.4) (Thermo Fisher Scientific Inc., Waltham, MA, USA.),
+were selected to produce more than 50,000 sequencing tags (approximately 300-500 bp in
+length) of feach tested sample based on preliminary analysis ofthe reference genome, which
+was distributed in unique genomic regions of20 soybean chromosomes. The sequencing
+libraries of each tested sample were defined by sequencing tags with the same genomic region.
+The barcode method with the Illumina Genome Analyzer II system (Illumina Inc., San Diego,
+CA, USA) was used to generate reads measuring 45 bp in length at both ends of sequencing
+tags from each accession library. The raw paired-end reads were aligned to the soybean refer-
+ence genome using Short Oligonucleotide Alignment Program 2 (SOAP2) software. The raw
+reads in the same genomic position were used to define the SLAF groups via more than 58,000
+high-quality SLAF tags from each tested sample. The SNPs were defined based on
+MAF > 0.05. The genotype was regarded as heterozygous when the depth of minor allelel the
+total depth ofthe sample was N 1/3.
+Among the 185 soybean accessions, we picked on twenty-six lines with extreme phenotypic
+values for SSR, of which were thirteen resistant and thirteen susceptible lines, with a lower or
+higher level on thelesion length, respectively. A genome resequencing with 10-fold in depth
+was conducted using an Illumina HiSeq 2500 sequencer for the selected lines. Paired-end rese-
+quencing reads were mapped to the soybean Williams 82 reference genome (Version: Glyma.
+Wm82. a2) with BWA (Version: 0.6.1-r104) using the default parameters [19).SAMtools48
+(Version: 0.1.18) software was used in converting mapping results into the BAM format and
+filtering the unmapped and non-unique reads. Duplicated reads were filtered with the Picard
+package (picardsourceforge.net. Version: 1.87). The BEDtools (Version: 2.17.0) coverage Bed
+program was used for computing the coverage of sequence alignments. A sequence was
+defined as absent when coverage was lower than 90% and present when coverage was higher
+than 90%. SNP detection was conductedby the Genome Analysis Toolkit (GATK, version 2.4-
+7-g5e89f01) and SAMtools [19]. Only the SNPs that were detectedby both methods could be
+further analyzed. The SNPs with allele frequencies lower than 5% in the population were dis-
+carded. SNP annotations were performedbased on the soybean genome (Version:Glyma.
+Wm82.a2) by the package ANNOVAR (Version: 2013-08-23) [19].
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+3/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Population structure evaluation and linkage disequilibrium (LD) analysis
+The population structure ofthe association panel was analyzed through the principle compo-
+nent analysis (PCA) approach ofGAPIT software [20]. LD between pairs of SNPS was defined
+based on the SNP threshold value (MAF> 0.05 and missing data < 3%) and R? (squared allele
+frequency correlations) using the software TASSEL version 3.0 [21].In contrast to the GWAS,
+missing SNP genotypes were not imputed with the major allele before LD analysis. Parameters
+in the program included MAF (> 0.05) and the integrity of each SNP (> 80%).
+Association mapping
+Compressed mixed linear model (CMLM) in GAPIT [20] and multi-locus random-SNP-effect
+mixed linear model (mrMLM) were used to detect the association signals ofpartial resistance
+to SSR with major or minor effects, respectively, through 22,048 SNPs and 185 tested acces-
+sions. The significance thresholds for the association between SNP and traits were determined
+by -log10(P) N 3 for CMLM model [22,23] and LODX 3for mrMLM model [24,25].
+Prediction of candidate genes controlling resistance to SSR
+Candidate genes, located in the 200-kb genomic region of each peak SNP, were classified and
+then annotated with the soybean reference genome Williams 82 (Wm82. a2. vl, http://www.
+soybase.org) according to Cheng et al [26]. The SNP variations that occurred lin the regions of
+candidate genes, including exonic regions, splicing sites, 5'UTRs and 3'UTRS, intronic regions,
+upstream and downstream regions, were detected based on genome re-sequencing data and
+analyzed using the compressed mixed linear model (CMLM) method to identify SSR-related
+haplotypes [21]. Significant SNPs affecting the target trait were claimed when the test statistics
+reachedp < 0.01. Bio-Analytic Resource for Plant Biology database (BAR, http-//bar.utoronto.
+calefp/og-binlefpweb.g) was used to further screen candidate genes for the resistance.
+Results
+Phenotypic characteristic of partial resistance to SSR in the association
+panel
+A wide range of resistance responses existed among the 185 samples after inoculation with
+SSR (S1 Table). The mean coefficient ofvariation, skewness and kurtosis for the diameter of
+lesions as the phenotype values among the whole association panel are shown in Table 1 and
+Fig 1. The variation was observed, varying from 0.5 cm to 17.67 cm with an average value of
+5.51 cm based on the data among the five tested time points. The coefficients ofvariation of
+the association population under different time points ranged from 29.27% to 39.04%. No sig-
+nificant skewness or kurtosis ofthe association panel was observed, which indicated that this
+association panel was suitable for subsequent GWAS analysis.
+Sequencing and SNP genotyping
+The total DNA ofthe association panel containing 185 soybean accessions was partially
+sequenced through a specific-locus amplified fragment sequencing (SLAF-seq) approach. A
+total of22,048 SNPS, distributed across all 20 chromosomes ofthe soybean genome, were iden-
+tified with MAF > 5% and missing data < 3%. These developed SNPS spanned 917 Mbp,
+which could cover approximately 83.36% ofthe soybean genome (Fig 2). The number of SNPs
+was not even among the 20 chromosomes, with the highest andlowest number ofmarkers
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+4/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Table 1. Statisticalanalysis and variation for partial resistance to sclerotinia stem rot (SSR) among the association panelbased on SPSS 19.0 software.
+Time Point
+Min(cm)
+Max(cm)
+Mean(cm)
+CV (%)
+Skewness
+Kurtosis
+3d
+0.50
+2.37
+1.13
+31.23
+0.08
+-0.060
+4d
+0.54
+6.52
+3.01
+39.04
+0.08
+-0.096
+5d
+1.03
+10.36
+5.11
+36.82
+0.09
+-0.003
+6d
+1.93
+16.67
+8.33
+33.01
+0.09
+-0.094
+7d
+2.02
+17.67
+9.96
+29.27
+-0.10
+-0.039
+htps/dociorg10137t/pumai.pone023661001
+being 1643 (in Chr.18) and614 (in Chr.11), and the mean SNP per chromosome was 1102.
+The average marker density was approximately one SNP per 41.59 kb.
+Genome-wide association of SSR partial resistance
+The average distance ofLD decay was analyzed to describe the mapping resolution for GWAS.
+The mean LD decay of fthe panel was estimated as 186.4 kb, when R2 decreased to halfofits
+maximum value (Fig 3A). Principal component (PC) and kinship analyses were conductedto
+scan the population stratification ofthe association panel with the 22,048 SNP markers. The
+results showed that the first three PCs accounted for 13.18% ofthe overall genetic variations,
+and the inflection point occurred at PC3, which indicated that the first three PCs could domi-
+nate the population structure for the association mapping (Fig 3B and 3C). As shown in Fig
+3D, alower level of genetic relatedness was exhibited from the distribution ofthe pairwise rela-
+tive kinship coefficients among the 185 tested accessions. Based on the CMLM model, seven
+50 1
+3dpi s 70
+4dpi
+60
+50
+:
+2
+40
+20
+30
+15
+20
+10
+10
+0
+0.75 1.00 1.25 1.50 1.75 2.00 2.25 2.50
+1.5 2.5 3.5 4.5 5.5 6.5 7.5
+Diameter of lesions
+Diameter of lesions
+5dpi 1E 60
+6dpi
+50
+40
+I I
+of 25 20
+30
+15
+20
+10
+10
+-
+I
+5
+2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 11.0
+2.0 4.0 6.0 8.0 10.0 12.0 14.0 16.0 18.0
+Diameter of lesions
+Diameter of lesions
+60
+7dpi
+50
+I 40
+30
+of 20
+a
+10
+0
+4.0 6.0 8.0 10.0 12.0 14.0 16.0 18.0
+Diameter of lesions
+Fig 1. Distribution of partialresistance to sclerotinia stem rot (SSR) among 185 soybean accessions under five
+tested time points ('3d', "4d', '5d', '6d',7d').
+htpslidoiorgf10137t/joumapone023366001
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+5/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+The number of SNPS within 1Mb window size
+OMb
+6Mb
+13Mb 19Mb 26Mb 32Mb 39Mb
+45Mb 52Mb 58Mb
+r
+-
+Chr01
+Chr02
+Chro3
+Chr04
+Chr05
+Chr06
+Chr07
+Chro8
+Chr09
+Chr10
+Chr11
+Chr12
+III
+Chr13
+I - IIIIII
+0
+7
+Chr14
+14
+Chr15
+21
+Chr16
+28
+Chr17
+35
+42
+Chr18
+49
+Chr19
+56
+Chr20
+63
+Fig 2. SNP density and distribution across the 20 soybean chromosomes.
+htpsldoiongrio1s7t/joumaponed236,002
+major effects loci identified in atleast two tested time points were associated with partial resis-
+tance to SSR, which were distributed on six chromosomes, including Chr.01, Chr.03, Chr.05,
+Chr.06, Chr.12 and Chr.18 (S1 Fig and Table 2). Among these loci, one QTN, Gm06:39027181
+located on Chr.06, was found in the linked genomic region ofthe known QTL "Sclero7-1'
+between the SSR markers of Sat 238 and Sat_312 [27], and the other six QTNS were consid-
+ered as the novel loci for partial resistance to SSR (Table 2). Additionally, nine novel SNPS
+detected at least two time points were identified as the minor effects loci on the basisof
+mrMLM model, which were distributed on eight different soybean chromosomes (Table 3).
+One ofthe all the identified QTNS (Gm05:14834789 on Chr.05) was co-detected by both meth-
+ods, giving more confidence that this locus might be significantly associated with soybean
+defense to SSR partial disease. The alleles effects of all the identified resistance QTNS were fur-
+ther analyzed, and the results showed that different alleles for each identified QTN could sig-
+nificantly affect SSR partial resistance among all the tested samples (Tables 2 and 3). Thus,
+these beneficial alleles would be valuable for MAS of soybean cultivars with excellent resistance
+to SSR.
+Prediction of candidate genes conferring partial resistance to SSR
+Genes located within the 200-kb genomic region ofeach peak SNP identified by CMLM and
+mrMLM were considered as candidates, and finally, 71 major and 85 minor effects genes were
+found, respectively (S2 and S3 Tables). Some of these detected major genes have been identi-
+fied to be ofkey importance in plant disease-related responses [28-32]. The research of
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+6/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+A
+B
+1 1
+0.9
+0.8
+$
+0.7
+A 0.6
+&
+0.5
+0.4
+3
+60 de
+0.3
+8
+20
+0.2
+0.1 1
+$
+0
+-
+-60
+0
+1000000 2000000 3000000
+Seb -40 -20 0 20 40 60 80
+LD decay distance (bp)
+PC1
+C
+D
+8
+8
+& 8
+8
+8
+2
+10
+Principal components
+Fig 3. Genetic features softhe mapping population. (A) The linkage disequilibrium (LD) decay ofthe genome-wide
+association study (GWAS) population. (B) The first three principalcomponents of the more than 20,000 SNPS usedin
+the GWAS. (C) Population structure ofsoybean germplasm collection as reflected by principal components. (D) A
+heatmap ofthekinship matrix among the 185 soybean accessions.
+htpsl@doiongr1013l/pumalpone.0236003
+Table 2. Peak SNPS and beneficial alleles associated with partial resistance to sclerotinia stem rot (SSR) identified by CMLM model.
+SNP Chr. Position Time -log10 MAF R? QTN Known Allele 1/ Average diameter oflesions of Average diameter of
+(P)
+(%) effects QTL Allele 2 accessions with allele 1/allele2 lesions ofthe population
+(cm)
+(cm)
+Gm01:28271068 1 28271068 4d 3.08 0.06 6.66 -0.73
+T/G
+4.67/2.93
+3.01
+6d 3.37 0.06 7.61 -1.81
+11.92/8.12
+8.33
+Gm03:27991148 3 27991148 4d 3.68 0.09 8.18 -0.63
+A/C
+4.26/2.92
+3.01
+5d 3.87 0.09 8.55 -1.05
+7.03/4.95
+5.11
+Gm05:14834789 5 14834789 5d 3.61 0.17 7.89 -0.74
+T/G
+6.23/4.88
+5.11
+6d 3.26 0.17 7.33 -0.99
+9.89/8.01
+8.33
+7d 4.28 0.17 10.68 -1.23
+11.81/9.57
+9.96
+Gm06:39027181 6 39027181 5d 3.16 0.08 6.74 -0.94 Sclero7-1 T/G
+6.69/4.97
+5.11
+6d 3.19 0.08 7.16 -1.36
+10.49/8.12
+8.33
+Gm12:7079865 12 7079865 6d 3.02 0.34 6.74 -0.76
+C/T
+8.85/7.34
+8.33
+7d 3.14 0.34 7.77 -0.82
+10.53/8.86
+9.96
+Gm12:36426007 12 36426007 5d 3.95 0.12 8.76 0.85
+T/C
+5.31/3.61
+5.11
+6d 3.14 0.12 7.03 1.08
+8.59/6.45
+8.33
+Gm18:949979 18 949979 5d 3.82 0.05 8.43 -1.54
+T/G
+7.26/4.94
+5.11
+6d 3.37 0.05 7.61 -2.07
+12.17/8.13
+8.33
+7d 3.20 0.05 7.93 -2.12
+13.62/9.75
+9.96
+htps/idoiongrio1a7t/joumaipone023361002
+PLOS ONE Imtipsz/doiorg10.137tjumalpone.023366 May 18, 2020
+7/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Table 3. Peak SNPS and beneficial alleles associated with partialresistance to sclerotinia stem rot (SSR) identified lby mrMLM model.
+SNP Chr. Position Time LOD -log10 MAF R2(%) QTN Allele 1/ Average diameter oflesions of Average diameter oflesions
+(P)
+effects Allele2 accessions with allele 1/allele 2 of the population(cm)
+(cm)
+Gm02:29817148 2 29817148 4d 7.78 8.68 0.07 5.81 -0.50 G/T
+3.04/2.55
+3.01
+5d 6.01 6.85 0.07 9.99 -1.19
+5.16/4.40
+5.11
+7d 5.04 5.83 0.07 5.20 -1.00
+10.02/9.19
+9.96
+Gm05:14834789 5 14834789 5d 3.40 4.12 0.17 8.39 -0.74 G/T
+5.18/4.80
+5.11
+7d 3.59 4.32 0.17 3.39 -0.82
+10.09/9.39
+9.96
+Gm07:33815183 7 33815183 6d 3.34 4.06 0.08 5.92 -1.23
+G/T
+8.50/7.53
+8.33
+7d 6.56 7.41 0.08 4.49 -1.13
+10.13/8.96
+9.96
+Gm07:529324 7 529324 4d 3.29 4.01 0.16 4.81 -0.32 C/T
+3.02/2.99
+3.01
+5d 5.29 6.09 0.16 8.43 -0.75
+5.27/5.07
+5.11
+Gm09:5469571 9 5469571 4d 17.37 18.66 0.06 7.51 0.78 T/C
+3.11/3.00
+3.01
+6d 3.28 4.00 0.06 4.78 1.32
+8.90/8.28
+8.33
+7d 4.16 4.92 0.06 12.25 2.05
+12.03/9.88
+9.96
+Gm15:47922300 15 47922300 6d 3.05 3.76 0.09 5.89 -1.08 TIA
+9.24/8.26
+8.33
+7d 5.33 6.14 0.09 3.52 -1.02
+10.64/9.89
+9.96
+Gm16:21589672 16 21589672 3d 3.96 4.71 0.07 5.00 -0.11 G/T
+1.16/1.12
+1.13
+7d 6.29 7.13 0.07 4.73 -1.35
+9.97/9.87
+9.96
+Gm18:6720660 18 6720660 4d 5.84 6.66 0.07 5.17 0.44 A/C
+3.30/2.98
+3.01
+5d 5.82 6.65 0.07 6.37 0.92
+5.44/5.06
+5.11
+Gm19:36122367 19 36122367 6d 3.36 4.08 0.05 4.84 -1.37 CIA
+8.44/6.99
+8.33
+7d 6.78 7.63 0.05 4.11 1.16
+10.06/9.70
+9.96
+htpsldoiongro1art/joumalpone023361003
+Jennifer Colburn-Clifford and Caitilyn Allen has indicated that a cbb3-type cytochrome C oxi-
+dase could contribute to Ralstonia solanacearum race 3biovar 2 (R3bv2) resistance in tomato
+[28].In the present study, Glyma.03G094400 (located 84.80 kb near Gm03:27991148 on
+Chr.03) and Glyma.12G086600 (located 76.49 kb near Gm12:7079865 on Chr.12), containing
+the same functional domain mentioned above, might be regarded as important factors in SSR
+resistance to some extent. According to recent studies, Aubert et al [29]. and Gunupuru et al
+[30]. have reported that a cytochrome P450 gene from the subfamily CYP72A and CYP94C,
+respectively, conferred resistance to mycotoxin deoxynivalenol (DON) from wheat and Botry-
+tis cinerea from Arabidopsis. These two genes had domains identical to Glyma.06G238500 and
+Glyma.12G087200, located near Gm06:39027181 on Chr.06 and Gm12:7079865 on Chr.12.
+Additionally, Glyma.01G093400 (located 47.84 kb near Gm01:28271068 on Chr.01), a basic
+helix-loop-helix (bHLH) DNA-binding superfamily protein, was of particular importance in
+affecting the regulation of disease resistance in plants [31]. Glyma.18G013200 (located 16.91
+kb near Gm18:949979 on Chr.18), amember ofmitogen-activated protein kinase phosphatase
+1, was shown to be a significant repressor in salicylic acid synthesis and made strong contribu-
+tions to defense responses [32]. Moreover, three candidate genes with minor effects (Gly-
+ma.07G007800, Glyma.07G007900 and Glyma.09G059700), contained the common disease
+resistance proteins, including disease resistance protein (TIR-NBS-LRR class) and pathogene-
+sis relatedhomeodomain protein of each own, were detected and recognized as potential
+genes in soybean SSR responses.
+To further determine the possibilities ofthe candidate genes affecting the partial resistance
+to SSR, a gene-based association was conducted by the CMLM method among 13 resistant and
+13 susceptible soybean lines (S2 Fig). Finally, a total of87 SNPs from 71 major candidate genes
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+8/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Glyma.18G014200
+Glyma.18G013400
+Glyma. .18G012200
+3.20-
+-4dpi
+4dpi
+4dpi
+5dpi 3.00-
+5dpi 2.40-
+5dpi
+2.80
+& 22.70-
+8 2.20-
+2.40-
+22.40
+2.00-
+2.10-
+2.00-
+1.60
+1.80-
+1.80-
+à
+V
+e
+I :
+2
+8
+I
+de
+Physical position
+Physical position
+Physical position
+Fig4. Candidate gene-based association. Gene-based lassociation analysis ofmajor candidate genes with SNPs that were
+significantly correlated Ito partial resistance to sclerotinia stem rot (SSR). The horizontalline indicated that the threshold
+was set tto 2.0.
+htpslidoionpr101a71/pumalpone0230600
+and 102 SNPs from 85 minor candidate genes were identified on the basis ofgenome rese-
+quencing (MAF > 0.05), respectively. Ofthem, six haplotypes obtained from three genes with
+major effects (Glyma.18G012200, Glyma.18G013400 and Glyma.18G014200 located near
+Gm18:949979 on Chr.18) out of71 candidates were found to be significantly associated with
+partial resistance to SSR (Figs 4 and 6 and S4 Table). Among these three genes, Gly-
+ma.18G012200, encoding a pectate lyase protein, has been reported as an essential effector in
+Colletotrichum lindemuthianum (one ofthe most common and important genera of phyto-
+pathogenic fungi) in plants [33]. The other two genes (Glyma.18G013400 and Gly-
+ma.18G014200) couldbe considered novel genes conferring partial resistance to SSR.
+Additionally, eight haplotypes derived from four novel genes with minor effects (Gly-
+ma.09G059000, Glyma.16G106700, Glyma.18G071500 and Glyma.18G071700) out of85 candi-
+dates were identified in relation to SSR partial resistance (Figs 5 and 7 and S5 Table). Given
+the results ofthe allelic effects analysis on the two alleles of each peak SNP, the partial resis-
+tance to SSR of soybean accessions with one allele was noticeable, unlike the other alleles
+among these total seven candidates (Figs 6 and 7). Therefore, these beneficial alleles from the
+candidate genes, exhibiting excellent partial resistance to SSR, may be interesting and helpful
+for studies employing MAS in soybean. Moreover, the gene expression levels under biotic
+stresses recorded on BAR database were applied in analyzing the potential resistances in fungal
+diseases ofthe detected major or minor candidate genes (S3 and S4 Figs). Among them,
+ATMG01360, AT3G55270, AT4G40080 and AT3G13330, which were homologous to Gly-
+ma.03G094400, Glyma.18G013200 Glyma.18G014200 and Glyma.18G071500, exhibited a
+higher expression after inoculating Botrytis cinereal and Phytophthora infestans (close relative
+to Sclerotinia sclerotiorum) than the mock treatments, implying that these four candidates
+might act as a positive regulator in controlling these two fungal diseases. On the contrary, the
+expressions ofATIG67750, AT4G30020 and AT1G31410 homologous to Glyma.18G012200,
+Glyma.09G059000 and Glyma.16G106700, were reduced after inoculating Botrytis cinereal and
+Phytophthora infestans than that in the blank controlgroup, thus, Glyma.18G012200, Gly-
+ma.09G059000 and Glyma.16G106700 were likely as negative regulatory factors in the disease
+resistance. Besides, AT4G21105, AT3G26370, ATIG72890 and AT5G23810 (homologous to
+Glyma.12G086600, Glyma.18G013400, Glyma.07G007900 and Glyma.18G071700) were
+responded to Phytophthora infestans with the up-regulated or down-regulated gene expression
+after treatments, and AT5G17680 (homologous to Glyma.07G007800) was responded to Botry-
+tis cinereal with the highly upregulated expression.
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+9/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Glyma.09G059000
+Glyma.16G106700
+2.40-
+6dpi 4.00-
+4dpi
+7dpi
+5dpi
+2.20-
+3.20-
+€
+2.00-
+- 2.40-
+I
+1.60-
+1.80-
+S
+S
+24 a a
+Physical position
+Physical position
+Glyma.18G071500
+Glyma.18G071700
+5dpi
+4dpi
+3.15-
+6dpi 2.80-
+5dpi
+2.80-
+7dpi 2.45-
+7dpi
+&
+E
+2.10-
+2.45-
+:
+o 1.75-
+2.10
+1.40-
+1.75-L
+1.05-
+a
+€ I I I
+: : I E
+Physical position
+Physical position
+Fig 5. Candidate gene-based association. Gene-based lassociation analysis ofminor candidate genes with SNPS that
+were significantly correlated to partialresistance to sclerotinia stem rot (SSR). The horizontal line indicated that the
+threshold was set to 2.0.
+htpsidgiongrio1azl/gumalpone.0236005
+Glyma.18G014200*
+Glyma.18G013400*
+Glyma.18G012200*
+(4dpi)
+(4dpi)
+(4dpi)
+a
+Hapt Hap2
+Hap1 Hap2
+Hap1 Hap2
+Haplotype
+Haplotype
+Haplotype
+Glyma.18G014200"
+Glyma.18G013400"
+Glyma.18G012200"
+(5dpi)
+(5dpi)
+(5dpi)
+107
+10-
+2-
+Hapt Hap2
+Hap1 Hap2
+Hap1 Hap2
+Haplotype
+Haplotype
+Haplotype
+Fig6. Haplotype analysis ofmajor candidate genes with variations related to partial resistance to sclerotinia stem
+rot (SSR). The * value suggestedsignificance of ANOVAatp < 0.01,respectively.
+htpsl@doiongr1013l/pumalpone.0236006
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+10/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Glyma.09G059000"
+Glyma.09G059000"
+Glyma.16G106700"
+Giyma.16G106700"
+(6dpi)
+(7dpi)
+(4dpi)
+(5dpi)
+15-
+107
+8-
+10
+a
+Hap1
+Hap2
+Hap1
+Hap2
+Hap1
+Hap2
+Hap1
+Hap2
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Giyma.18G071500"
+Glyma.18G071500"
+Glyma.18G071500"
+Glyma.18G07170"
+(5dpi)
+(6dpi)
+(7dpi)
+(4dpi)
+10-
+15-
+20-7
+: 8-
+15-
+6-
+10
+e 4-
+a 2-
+0-
+Hap1
+Hap2
+Hap1
+Hap2
+Hap1
+Hap2
+Hap1
+Hap2
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Glyma.18G071700"
+Glyma.18G071700-
+(5dpi)
+(7dpi)
+107
+157
+S 8-
+6-
+4
+2-
+0-
+Hap1
+Hap2
+Hap1
+Hap2
+Haplotype
+Haplotype
+Fig 7. Haplotype analysis of fminor candidate genes with variations related to partial resistance to sclerotinia stem rot (SSR). The ** value
+suggested significance ofANOVAatp < 0.01.
+htpslidolongf101371/pumalpone.02366007
+Discussion
+Sclerotinia stem rot (SSR) is one ofthe most devastating fungal phytopathogens, causing severe
+annual yieldlosses of soybean worldwide. As a heritable complex quantitative trait, SSR is con-
+trolled by multiple genes with major or minor effects [6] and is easily affected by environment
+and genotype through environment interactions [5]. Although no related research on com-
+plete resistance to SSR has been reported in soybean, partial resistance was still an alternative
+in effectively controlling SSR to a large extent [5]. Breeding resistant cultivars with durable
+resistance genes/QTLs was still the most economical andlong-lasting means of managing this
+disease. To date, more than a hundred QTLs on partial resistance to SSR have been reported
+based on linkage mapping strategy and the bi-parent population (www.soybase.org). However,
+few ofthese QTLs could be widely utilized in MAS for partial resistance to soybean SSR. In the
+presentstudy, a group of 185 soybean accessions, including landraces or elite cultivars mainly
+collected from China, was used to examine partial resistance to soybean SSR via GWAS based
+on thehigh-throughout SNPS. The results showed that some ofthe tested samples exhibited a
+higher level of partial resistance to SSR within a shorter lesion diameter during the dynamic
+stages (Fig 1 and S1 Table). These accessions with partial resistance might be valuable
+resources for soybean SSR resistance for breeding new varieties.
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+11/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+In the present study, the data from the consecutive five days after inoculating detached
+leaves for 48 h were not only used to screen resistant or susceptible soybean lines, but also
+applied to observe the differences ofSSR spreading speed, and thereby, to find the SSR-related
+resistance loci and genes. Finally, a total of 60 QTNS with major effects (under 3dpi, 7 QTNS;
+under 4dpi, 22 QTNS; under 5dpi, 16 QTNS; under 6dpi, 9 QTNS; under 7dpi, 6 QTNS) were
+positionedamong the five tested time points associated with partial resistance to soybean SSR
+by GWAS based on the CMLM model (S1 Fig). Further, seven major QTNS, which were stably
+detected under at least two time points, were considered to be the more significant ones.
+Among them, Gm06:39027181 on Chr.06, identified under 5d and 6d', was found to overlap
+with the known resistance QTL, known as "Sclero7-1', detected between the SSR markers
+"Sat_238' and "Satt_312' by using the cross population with 180 F4 RILS derived from a cross
+between Maple Donovan (a partially resistant cultivar) and OAC Bayfield (a susceptible culti-
+var) [27]. The other six identified QTNS, including Gm01:28271068 under 4dpi and 6dpi,
+Gm03:27991148 under 4dpi and 5dpi, Gm 05:14834789 under 5dpi, 6dpi and 7dpi,
+Gm12:7079865 under 6dpi and 7dpi, Gm12:36426007 under 5dpi and 6dpi, and Gm18:949979
+under 5dpi, 6dpi and 7dpi, weremarked as novel loci with strong possibilities in controlling
+partial resistance ofsoybean SSR. Additionally, for effectively detecting the loci with minor
+effects, a GWAS based on the mrMLM model was conducted, and nine novel QTNS detected
+at least two time points were identified and regarded as the minor effects loci associated with
+SSR partial resistance. Gm05:14834789 on Chr.05 was co-locatedby both models, giving more
+possibilities that this locus might be a stable one in association with the defense to soybean
+SSR partial disease.
+To date, few genes associated with partial resistance ofSSR have been found or cloned.
+Zhao et al. identifiedfour genes that were involved in disease response or the anthocyanin bio-
+synthesis pathway using GWAS and linkage maps [5]. GWAS has been an effective method to
+identify candidate genes for SSR partial resistance, especially with a relatively lower LD block.
+In this study, a total of 71 and 85 potential candidate genes with major or minor effects were
+selected on the basis ofthe seven and nine association signals via CMLM and mrMLM, respec-
+tively. Ofthese candidate genes, Glyma.01G093400 (located near Gm01:28271068 on Chr.01),
+Glyma.03G094400 (locatednear Gm03:27991148 on Chr.03), Glyma.06G238500 (located near
+Gm06:39027181 on Chr.06), Glyma.12G086600 and Glyma.12G087200 (located near
+Gm12:7079865 on Chr.12), and Glyma.18G013200 (located near Gm18:949979 on Chr.18)
+have been demonstrated to be typical offactors participating in plant disease-related responses
+[28-32]. Furthermore, combination with the data from theArabidopsis BAR database, we
+found six major effects genes (Glyma.03G094400, Glyma.12G086600, Glyma.18G012200, Gly-
+ma.18G013200, Glyma.18G013400 and Glyma.18G014200) and six minor effects genes (Gly-
+ma.07G007800, Glyma.07G007900, Glyma.09G059000, Glyma.16G106700 Glyma.18G071500
+and Glyma.18G071700) might responded to the fungal stress. To further determine the possi-
+bilities ofthe candidate genes affecting the partial resistance to SSR, a gene-based association
+was performed. Finally, three major genes with six beneficial haplotypes (Glyma.18G012200, 2
+SNPS; Glyma.18G013400, 2 SNPS; and Glyma.18G014200, 2 SNPS) and four minor genes with
+eight beneficial haplotypes (Glyma.09G059000, 2 SNPS; Glyma.16G106700, 2 SNPs Gly-
+ma.18G071500, 2 SNPS and Glyma.18G071700, 2 SNPS) were screened. Ofthese genes, Gly-
+ma.18G012200, belonging to the pectate lyase superfamily protein, has been identified as a key
+effector in controlling Colletotrichum lindemuthianum, recognized as one ofthe most com-
+mon and important genera of fphytopathogenic fungi, in plants [33]. The other six genes, each
+containing two allelic variations occurring in major regions, may also have potential for man-
+aging partial resistance to soybean SSR. Moreover, a possibility ofinteraction between the Gly-
+ma.09G059000 and Glyma.18G071500 was existed recorded on the STRING database (https:ll
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+12/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+string-db.org)), predicting that these two genes might work together in soybean SSR resis-
+tance. Further studies on the definite functions and specific mechanisms ofthese candidates
+will be conducted and further analyzed.
+Supporting information
+S1 Fig. Manhattan plot of association mapping of partial resistance to sclerotinia stem rot
+(SSR) via CMLM model. 'A, B,C,D,E represented the tested time points of'3d, 4d, 5d, 6d
+and 7d'.
+(JPG)
+S2 Fig. Extreme phenotypes of representative accessions among the 26 selected for genome
+re-sequencing.
+(JPG)
+S3 Fig. Expressions of six Arabidopsis genes under fungus stress, which werehomologous
+to the major candidate genes for soybean sclerotinia stem rot (SSR).
+(JPG)
+S4 Fig. Expressions of six Arabidopsis genes under fungus stress, which were homologous
+to the minor candidate genes for soybean sclerotinia stem rot (SSR).
+(JPG)
+S1 Table. List of 185 soybean accessions with phenotype values.
+(XLSX)
+S2 Table. Candidate genes in the 200 kb flanking region of peak SNPS detected by CMLM
+model.
+(XLSX)
+S3 Table. Candidate genes in the 200 kb flanking region of peak SNPS detected by mrMLM
+model.
+(XLSX)
+S4 Table. Haplotype analysis of candidate genes with major effects.
+(XLSX)
+S5 Table. Haplotype analysis of candidate genes with minor effects.
+(XLSX)
+Acknowledgments
+This study was conducted in the Key Laboratory of Soybean Biology ofthe Chinese Education
+Ministry, Soybean Research and Development Center (CARS) and the Key Laboratory of
+Northeastern Soybean Biology and Breeding/Genetics ofthe Chinese Agriculture Ministry.
+Author Contributions
+Conceptualization: Mingming Sun, Wenbin Li, Yingpeng Han.
+Formal analysis: Mingming Sun, Yan Jing, Xue Zhao.
+Investigation: Yan Jing, Weili Teng, Lijuan Qiu.
+Methodology: Xue Zhao, Wenbin Li, Yingpeng Han.
+Project administration: Wenbin Li, Yingpeng Han.
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+13/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+Resources: Weili Teng, Lijuan Qiu, Wenbin Li, Yingpeng Han.
+Software: Xue Zhao, Hongkun Zheng.
+Validation: Mingming Sun, Yan Jing, Xue Zhao.
+Writing - original draft: Mingming Sun, Yan Jing, Xue Zhao.
+Writing - review & editing: Wenbin Li, Yingpeng Han.
+References
+1. Moellers TC, Singh A, Zhang J, BrungardtJ, Kabbage M, Mueller DS, et al. Main and epistatic loci istud-
+iesin soybean for Sclerotinia sclerotiorum resistance reveal multiple modes of resistance in multi-envi-
+ronments. Scientific reports. 2017; 7(1):3554. htips.idoi.org10.1098s41038641508-017036959 PMID:
+28620159
+2. Kurle JE, Grau CR, OplingerES, Mengistu A. Tillage, Crop Sequence, and Cultivar Effects on Scleroti-
+nia Stem Rot Incidence and Yield lin Soybean. Agronomy Journal. 2001; 93(5):973.
+3. Rousseau G, Huynh Thanh T, Dostaler D, Rioux S. Greenhouse and field assessments of fresistancein
+soybean inoculated with sclerotia, mycelium, and ascospores of Sclerotinia sclerotiorum. Canadian
+Journal of Plant Science. 2004; 84(2):615-23.
+4. MuellerDS, Dorrance AE, Derksen RC, Ozkan E, Kurle JE, Grau CR, etal. Efficacy of Fungicides on
+Sclerotinia sclerotiorum and Their Potential forControl of Sclerotinia Stem Rot on Soybean. Plant dis-
+ease. 2002; 86(1):26-31. htips_/doiorg/10.1094/PDIS.2002.86.126 PMID: 30822994
+5. Zhao X, Han Y, LiY, LiuD, Sun M, Zhao Y, et al. Loci and candidate gene identification for resistanceto
+Sclerotinia sclerotiorumin soybean (Glycine max L. Merr.) via association andlinkage maps. The Plant
+journal: forcell and molecularbiology. 2015; 82(2):245-55.
+6. Grau CR, Radke VL, Gillespie FL. Resistance of Soybean Cultivars to Sclerotinia sclerotiorum. Plant
+Dis. 1982; 66, 506-508.
+7. Kim HS, Diers BW. Inheritance of Partial Resistance to Sclerotinia Stem Rot in Soybean. Crop Science.
+2000; 40(1):55.
+8. Wei W, Clough SJ. Sclerotinia sclerotiorum molecular raspects in plant pathogenic interactions. In: Dalio
+RJD, editor. RAPP Revisâo Anual de Patologia de Plantas. vol. 24. Brasilia: Sociedade Brasileira de
+Fitopatologia. 2016;p. 174-89.
+9. Lyu X, Shen C, Fuy, Xie J, Jiang D, LiG, etal. A Small Secreted Virulence-Related Protein Is Essential
+for the Necrotrophic Interactions of Sclerotinia sclerotiorumwith Its Host Plants. PLOS pathogens.
+2016; 12(2):e1005435. htips.lidoi.orgf10.1371/,umalppat1005435 PMID: 26828434
+10. Wei W, Mesquita ACO, Figueiro AA, Wu X, Manjunatha S, Wickland IDP, et al. Genome-wide associa-
+tion mapping of resistance to a Brazilianisolate of Sclerotinia sclerotiorum in soybean genotypes mostly
+from Brazil. BMC genomics. 2017; 18(1):849. htipscIdoiorg10.1188s1186512864-017-41601 PMID:
+29115920
+11. Westrick NM, Ranjan A, Jain S, Grau CR, Smith DL, KabbageM.Gene regulation of Sclerotinia sclero-
+tiorum during infection of Glycine max: on the roadto pathogenesis. BMC genomics. 2019;20(1):157.
+htips./doiorg/10.1188s12864-019-55174 PMID: 30808300
+12. Guyon K, Balagué C, Roby D, Raffaele S. Secretome analysis reveals effector candidates associated
+with broad host range necrotrophy in the fungal plant pathogen Sclerotinia sclerotiorum. BMC Geno-
+mics. 2014; 15: 336. htips/doiorg10.11881188/14712164-15-336 PMID: 24886033
+13. Davidson AL, Blahut-Beatty L, Itaya A, Zhang Y, Zheng S, Simmonds D. Histopathology of Sclerotinia
+sclerotiorum infection and oxalic acid function in susceptible and resistant soybean. Plant Pathol. 2016;
+65:878-87.
+14. Pan Y, WeiJ, Yao C, Reng H, Gao Z. SaSmi.aCemb,gathantanty protein, isinvolvedin the hyphal
+development tand pathogenic process of Sclerotinia sclerotiorum. Plant science: an international journal
+ofexperimental plant biology. 2018; 270: 37-46.
+15. LIYH, Reif JC, Ma YS, Hong HL, Liu ZX, Chang RZ, et al. Targeted association mapping demonstrating
+the complex molecular genetics of fatty acid formation in soybean. BMC genomics. 2015; 16:841.
+htipscIdoiorg/10.1188s12864015-20494 PMID: 26494482
+16. Bastien M, Sonah H, Belzile F. Genome Wide Association Mapping of Resistance in Soybean with a
+Genobypingby-Sequending Approach. The Plant Genome. 2014;7(1):0.
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+14/15
+
+
+
+PLOS ONE
+GWASfor partial resistance to SSR of soybean
+17. KullLS, Vuong TD, Powers KS, EskridgeKM, Steadman JR, Hartman GL Evaluation of fResistance
+Screening Methods for Sclerotinia Stem Rot of Soybean and Dry Bean. Plant disease. 2003; 87
+(12):1471-6. htips.ldoiorg101094PDIS200387121471 PMID: 30812389
+18. Sun X, Liu D, Zhang X, Liw, Liu H, Hong W, et tal. SLAF-seq: an efficientmethod of large-scale de novo
+SNP discovery and genotyping using high-throughputs sequencing. PloS one. 2013; 8(3):e58700.
+htips.lidoi.ongf10.137t/oumal.pon.008700 PMID: 23527008
+19. Zhou Z, Jiang Y, Wang Z, Gou Z, LyuJ,Liw, et al. Resequencing 302 wild and cultivated accessions
+identifies genes related to domestication and improvement tin soybean. Naturel biotechnology. 2015; 33
+(4):408-14. Mpeldsogr0i0@ret.39e PMID: 25643055
+20. Lipka AE, Tian F, Wang Q, Peiffer J, LiM, Bradbury PJ, et al. GAPIT: genome association and predic-
+tion integratedt Itool. Bioinformatics. 2012; 28(18)2397-9.htps.ldciongn1o.1093boninformatics/bis44
+PMID: 22796960
+21. Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. TASSEL: softwarefor
+association mapping of complex traits in diverse samples. Bioinformatics. 2007; 23(19):2633-5. .https:l1
+6aon0i@gsertomasatwmae PMID: 17586829
+22. Yan L, HofmannN,Lis, FerreiraME, Song B, Jiang G, etal. Identification ofQTL with large effect ton
+seed weight in a selective population of soybean with genome-wide association and fixation index anal-
+yses. BMC genomics. 2017; 18(1):529. htipsIdoiorg10.1188s2864-017-3922-0 PMID: 28701220
+23. Contreras-SotoRI, MoraF, de Oliveira MA, Higashi W, Scapim CA, Schusterl. A Genome-Wide. Asso-
+ciation Study for Agronomic Traitsin Soybean Using SNP Markers and SNP-Based Haplotype Analysis.
+PloS one. 2017; 12(2): e0171105. htips.ldoi.ongy10.137tjoumal.pona0171105 PMID: 28152092
+24. Wang SB, Feng JY, RenWL, Huang B, Zhou L, Wen YJ, etal. Improving power and accuracy of
+genome-wide association studies via a multi-locus mixed linear modelmethodology. Scientific reports.
+2016; 6:19444. https./doi.org/10.1038/srep19444 PMID: 26787347
+25. Wen YJ, Zhang H, Ni YL, Huang B, Zhang J, Feng JY,et al. Methodological implementation of mixed
+linear models in multi-locus genome-wide association studies. Briefings in bioinformatics. 2018; 19
+(4):700-12. Meuidaogrii03botbwries PMID: 28158525
+26. Cheng Y, Ma Q, Ren H, Xia Q, Song E, Tanz, et al. Fine mapping ofal Phytophthora.-resistance gene
+RpsWY in soybean (Glycine max L)byhigh-throughput genome-wide sequencing. Theoretical and
+appliedgenetics. 2017; 130(5):1041-51. htps/doiorg/10.10071s0122017-2869-5 PMID: 28246754
+27. Huynh TT, Bastien M, Iquira E, Turcotte P, Belzile F. Identification of QTLS Associated with Partial
+Resistance to White Mold lin Soybean Using Field-Basedinoculation. Crop Science. 2010; 50(3):969.
+28. ColburncliffordJ, Allen C. A cbb3-type cytochrome Coxidase contributes to Ralstonia solanacearum
+R3bv2 growthin microaerobic environments and to bacterial wilt disease development tin tomato.
+Molecular plant-microbe interactions. 2010; 23(8): 1042. htpsz/dou.org/10.1094MPM1L23-8-1042
+PMID: 20615115
+29. AubertY, Widemann E, Miesch L, Pinot F, Heitz T. CYP94-mediated jasmonoyl-isoleucine hormone
+oxidation shapes jasmonate profiles and lattenuates defence responses to Botrytis cinerea infection.
+Journal of experimental botany. 2015; 66(13):3879-92. htps./dou.org/10.1093/,b/erv190PMID:
+25903915
+30. Gunupurul LR, Arunachalam C, Malla KB, Kahla A, Perochon A, JiaJ, et al. A wheat cytochrome P450
+enhances both resistance to deoxynivalenol and grain yield. PloS one. 2018; 13(10):e0204992. https:ll
+doi.org/10.1371/jourmal.pone.0204992 PMID: 30312356
+31. Wang J, Hu Z, Zhao T, Yang Y, ChenT, Yang M, etal. Genome-wide analysis ofbHLHtranscription fac-
+tor and involvement in the infectionby yellow leaf curl Ivirus in tomato (Solanum lycopersicum). BMC
+genomics. 2015; 16:39. htps/doiorg10.1188s12864-015-12492 PMID: 25652024
+32. Bartels S, Anderson JC, Gonzalez Besteiro MA, Carreri A, Hirt H, Buchala A, et al. MAP kinase phos-
+phatase1 and protein tyrosine phosphatase1 are repressors of salicylic acid isynthesisand SNC1-medi-
+ated responses in Arabidopsis. The Plant cell. 2009; 21(9):2884-97. htpsidaiogn1o110bfpc102
+067678 PMID: 19789277
+33. Cnossen-Fassoni. A, Bazzolli DM, Brommonschenkel SH, Fernandes de Araujo E, de Queiroz MV. The
+pectate lyase encoded by the pecCI1 gene is an important determinantfor the aggressiveness of Colle-
+totrichum lindemuthianum. Journal of microbiology. 2013; 51(4):461-70.
+PLOS ONE Ihmpszldoiong10137t/joalpone.023366 May 18, 2020
+15/15

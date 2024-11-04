@@ -1,0 +1,1664 @@
+Planta (2020) 251:39
+htpsl/doi.org/10.1007500425-019-033296
+ORIGINAL ARTICLE
+Check for
+updates
+Genetic dissection of yield-related traits via genome-wide association
+analysis across multiple environments in wild soybean (Glycine soja
+Sieb. and Zucc.)
+Dezhou Hu' : Huairen Zhang 1,2. Qing Du'.Zhenbin Hu3.Zhongyi Yang'-Xiao Li'. Jiao Wang'-Fang Huang'.
+Deyue Yu'4.Hui Wang'-Guizhen Kan'o
+Received: 19 September 2019/Accepted: 10 December 2019
+OSpringer-Verlag GmbH Germany, part tofSpringer Nature 2020
+Abstract
+Main conclusion A total of 41 SNPs were identified as significantly associated with five yield-related traits in wild
+soybean populations across multiple environments, and the candidate gene GSCID1 was found to be associated with
+seed weight. These results may facilitate improvements in cultivated soybean.
+Abstract Crop-related wild species contain new sources of genetic diversity for crop improvement. Wild soybean (Glycine
+soja Sieb. and Zucc.) is the progenitor of cultivated soybean [Glycine max (L.) Merr.] and can be used as an essential genetic
+resource for yield limprovements. In this research, using genome-wide association study (GWAS) in 96 out of 113 wild soy-
+bean accessions with 114,090 single nucleotide polymorphisms (SNPS) (with minor allele frequencies <0.05), SNPs associ-
+ated with five yield-related traits were identified across multiple environments. In total, 41 SNPS were significantly associ-
+ated with the traits in two or more environments (significance threshold P <8.76x10-5, with 29, 7,3, and 2 SNPs detected
+for 100-seed weight (SW), maturity time (MT), seed yield per plant (SY) and flowering time (FT), respectively. BLAST
+search against the Glycine soja W05 reference genome was performed, 20 candidate genes were identified based on these
+41 significant SNPS. One candidate gene, GSCID1 (Glysoja.04g010563), harbored two significant SNPS-AX-93713187,
+with a non-synonymous mutation, and AX-93713188, with a synonymous mutation. GSCID1 was highly expressed during
+seed development based on public information resources. The polymorphisms in this gene were associated with SW. We
+developed a derived cleaved amplified polymorphic sequence (dCAPS) marker for GSCID1 that was highly associated with
+SW and was validated as a functional marker. In summary, the revealed SNPs/genes are useful for understanding the genetic
+architecture of yield-related traits in wild soybean, which could be used as a potential exotic resource to improve cultivated
+soybean yields.
+Keywords Crop wild relatives : GsCID1 : GWAS : Marker-assisted selection : Wild soybean
+Abbreviations
+DAF Days after flowering
+dCAPS Derived cleaved amplified polymorphic
+Dezhou Hu and Huairen Zhang contributed equally to this work
+sequence
+Electronic supplementary material The online version of this
+FT
+Flowering time
+article (humpel/dbi.ony10.1007A00425:01903329-0) contains
+GWAS Genome-wide association study
+supplementary material, which is available to authorized users.
+X Guizhen Kan
+2 Institute of Genetics and Developmental Biology, Chinese
+kanguizhen@nju.cdu.cn
+Academy of Sciences, Beijing 100101, China
+National Center for Soybean Improvement, National Key
+3 Department of Agronomy, Kansas State University,
+Laboratory of Crop Genetics and Germplasm Enhancement,
+Manhattan, KS, USA
+Jiangsu Collaborative Innovation Center for Modern
+School ofLife Sciences, Guangzhou University,
+Crop Production, Nanjing Agricultural University,
+Guangzhou 510006, China
+Nanjing 210095, China
+Published online: 06 January 2020
+Springer
+
+
+
+39 Page 2of 17
+Planta (2020) 251:39
+h?
+Broad-sense heritability
+As next-generation sequencing has been developed,
+LD
+Linkage disequilibrium
+GWAS has been utilized for multiple important traits in
+MT
+Maturity time
+plants, such as maize (Riedelsheimer et al. 2012; Zhang
+PN
+Number of effective pods
+et al. 2016a), cotton (Fang et al. 2017; Ma et al. 2018) and
+SNP Single nucleotide polymorphism
+rice (Wang et al. 2015; Shi et al. 2017). Comparedtolinkage
+SW
+100-Seed weight
+mapping, GWAS can not only be used in natural popula-
+SY
+Seed yield per plant
+tions and germplasm collections but also allows for higher
+resolution in determining the genomic locations of QTLs/
+genes (Shirasawa et al. 2013). To date, GWAS has been
+Introduction
+widely used to identify several traits in cultivated soybean.
+For example, 60 SNPs for soybean cyst nematode resist-
+Crop wild relatives are a rich source of genetic diversity and ance were identified based on over 45,000 SNPS by GWAS
+are potentially useful in plant breeding for the development (Vuong et al. 2015). The gene GmCDF1, which is associ-
+of varieties with novel traits (Treuren et al. 2017). Since ated with salt tolerance, was detected in the germination
+the beginning of the twentieth century, crop wild relatives stage of soybean via GWAS (Zhang et al. 2019). Although
+have been increasingly used for plant breeding and have pro- GWAS has been well applied in cultivated soybean, few
+vided important genetic diversity for crop improvement in studies using wild soybean populations for GWAS have
+maize (Yang et al. 2013; Huang et al. 2017), rice (Tian et al. been reported, especially those investigating yield-related
+2006; Okishio et al. 2014) and wheat (Nevo and Chen 2010; traits. GWAS using wild soybean populations has mainly
+Placido et al. 2013). Cultivated soybean is an important food been focused on seed composition or biotic stress. For exam-
+and economic crop worldwide. The development of high- ple, 29 significant SNPs for seven traits located on 10 dif-
+yielding plants is one of the major breeding objectives in ferent chromosomes were discovered using a wild soybean
+soybean; however, high yield is often affected by many fac- population (Leamy et al. 2017). Using 1032 wild soybean
+tors, especially environmental factors (Chapman et al. 2003). accessions, 10 SNPs that were significantly associated with
+Yield-related traits in soybean are typical complex quantita- the response to soybean cyst nematode race 1 were identified
+tive traits and are controlled by multiple QTLs/genes. Wild (Zhang et al. 2017). Wild soybean contains favorable alleles
+soybean, which has higher allelic diversity than domesti- for yield, and it is feasible to identify these alleles in wild
+cated soybean and can be used as an important resource to soybean (Hu et al. 2014).
+improve domesticated soybeans, is the immediate progenitor
+In our previous study, a preliminary association map-
+of the domesticated soybean (Qi et al. 2014).
+ping of yield-related loci/regions with limited markers
+In recombinant inbred lines, QTL mapping was a use- (85 SSR makers) was performed (Hu et al. 2014). In the
+ful method to identify the regions or genes associated with present research, a large genome-wide SNP array (NJAU
+a given trait. QTL identification using linkage populations 355K SoySNP) was used for five yield-related traits to dis-
+derived from wild and cultivated soybean has been widely sect genetic information across multiple environments (i) to
+usedto determine drivers of biotic/abiotic stress responses or detect yield-related loci in the wild soybean population and
+seed protein/oil contents. For example, genetic analysis and (ii) to identify candidate genes helpful for the improvement
+QTL mapping of soybean resistance to southern root-knot of cultivated soybean yield.
+nematode were conducted using recombinant inbred lines
+derived from a cross between PI 438489B (wild soybean)
+and Magellan (cultivated soybean) (Xu et al. 2013). A salt
+tolerance gene GmCHX1 was identified in a recombinant Materials and methods
+inbred line population of soybean, which was constructed
+by crossing the wild soybean accession W05 with the cul- Materials
+tivated soybean accession C08 (Qi et al. 2014). A seed pro-
+tein QTL was fine mapped using the backcross population Phenotypic data collection was performed using 113 wild
+derived from a cross between PI 468916 (wild soybean) and soybean accessions of different geographical origins pro-
+A81-356022 (cultivated soybean) (Nichols et al. 2006). vided by the National Center for Soybean Improvement,
+However, QTL mapping suffers from fundamental limita- Nanjing, China. These accessions were planted in two field
+tions; only allelic diversity that segregates between the bi- experiments: at the Jiangpu Experimental Station, Nanjing
+parental lines can be assayed. The mapping resolution is Agricultural University (32°12 N 118°37 48 E), Nanjing,
+also limited due to the amount of recombination during the China, in 2011 (designated E1); Jiangpu Experimental Sta-
+creation of the recombinant inbred line population (Korte tion and the Nanyang Experimental Station at Henan Agri-
+and Farlow 2013).
+cultural University (38°7'N 110°34' E), Nanyang, China, in
+Springer
+
+
+
+Planta (2020) 251:39
+Page 3of17 39
+2012 (designated E2 and E3); and at the Jiangpu Experimen- effects (Edae et al. 2014). BLUP was estimatedby fitting the
+tal Station in 2013 (designated E4).
+following formula in the R software package "Ime4" (Merk
+et al. 2012): Yik = H + G; + + GEJ + Eij where Yik is the
+Fieldtrials andtrait evaluation
+trait, H is the overall mean, 5 is the ith genotypic effect, E;
+is thejth environmental effect, GEj is the effect of the geno-
+The crop density of wild soybean is different from the culti- typex xenvironment interaction, and Ejj is the residual error.
+vated soybeans, because wild soybeans have creeping hab- The h2 of yield-related traits was based on the formula:
+its, thin stems and plant heights as high as 3-6 m. Thus, h2 02/(6 +
++ 02/nr). The details of h2 formula
+&
+ope/n
+this study utilized a completely randomized block design were previously described (Hu et al. 2019). Correlation
+with three replications. For every accession, each replication analysis among the five traits was performed using SPSS
+consisted of a four-square meter plot containing four hills. 20.0 software based on Pearson's correlations (SPSS Statis-
+Twenty seeds of a given accession were sown in each hill. tics 20).
+The number of plants per hill was thinned to five about 2
+weeks after germination. Irrigation, fertilization, insect and
+weed control were performed throughout the experiment.
+GWAS analysis
+Four traits were evaluated in the four environments
+(E1-E4), including the number of effective pods (PN), A set of 96 accessions from 113 wild soybeans was geno-
+SW (g), FT (day) and SY (g). MT (day) was evaluated in typed with 282,469 SNPs (NJAU 355K SoySNP array)
+three environments (E1, E2, E4). To avoid the impact of (Wang et al. 2016). A total of 114,090 SNPS remained after
+pod dehiscence and maturity differences on yield, we made filtering out SNPs with minor allele frequencies < 0.05.
+daily observations to determine whether wild soybean acces- GWAS was performed using the GLM (PCA), GLM (Q),
+sions were mature in the late stage of soybean growth. The MLM (PCA + K) and MLM (Q+1 K) in TASSEL software
+mature accessions were harvested in time. The pods of the V5.0 (Bradbury et al. 2007). The kinship matrix (K) and
+accessions were removed by hand. The FT was calculated population structure (PCA == 5) were assessed by TAS-
+as the number of days from the germination to the begin- SEL software V5.0. The population structure (Q) was
+ning of blooming (R1, 50% of the plants in a plot had an calculated using STRUCTURE software version 2.3.4
+open flower at one of the top nodes with a fully expanded (Falush et al. 2003). In this study, SNPs were identified
+leaf) (Fehr and Caviness 1977). The MT was considered as being significantly associated with yield-related traits
+the number of days from germination to the time at which (Ps1/14,00-876x10* or - logio(P)2 5.05) using the
+95% of the pods on a plant turnedbrown (Fehr and Caviness adjusted Bonferroni method (P< 1/n,nis the total number of
+1977). After harvesting, SY, PN and SW were evaluated. SY genome-wide SNPS) (Zhang et al. 2016a, 2019). To obtain
+and SW were adjusted to 13% moisture content. For every the position of significant SNPS, a BLAST search was per-
+replication, the SY value == (total seed yield of five plants)/5 formed on the current Glycine soja W05 reference genome
+and the PN value i= (total pod numbers of five plants)/5. The (htps/www.wildsoydb.org/Gsoja.Wos) using 16-bp
+SW value was the average value of three replications. The sequences flanking the significant SNPS (Xie et al. 2019).
+germplasm number and phenotypic data ofthe wild soybean Manhattan plots and quantile-quantile plots were generated
+populations are listed in Table S1.
+using the R software package "qqman" (Turner 2014).
+Phenotypic data analysis
+Putative gene prediction and expression pattern
+analysis
+The phenotypic data from wild soybean accessions were
+calculated using the average values of three replications (E1- A gene model was considered to be a putative gene for yield-
+E4 for PN, SW, FT and SY; and E1, E2, E4 for MT) with related traits ifthe gene model satisfiedthe following condi-
+SAS 9.0 software (SAS Institute 1999), including descriptive tions: (i) the SNP was significantly associated with yield-
+statistics, ANOVA, broad-sense heritability (h2) and correla- related traits in two or more environments, (ii) the significant
+tion analysis. Best linear unbiased prediction (BLUP) was SNP was detected in the genomic region of the gene model,
+used in linear mixed models for the estimation of random and (iii) the gene model was predictedto be related to yield
+effects. In this study, to combine the data collected from or yield-related traits based on the wild soybean genome
+different years and minimize the effects of environmental annotation. Using the amino acid sequences of candidate
+variation, BLUP values were calculated for each trait based genes, we employed BLAST-P analysis against cultivated
+on the combined data collected from different environments soybean and Arabidopsis proteins.
+(Dhanapal et al. 2015). To derive across-environment BLUP
+The expression patterns of putative genes were identified
+values, accession and other factors were considered random based on two databases obtained from cultivated soybean.
+Springer
+
+
+
+39 Page 4 of 17
+Planta (2020) 251:39
+One database included RNA-seq data downloaded from complex quantitative traits controlled by multiple QTLs/
+SoyBase (https./www.soybase.org/soyseq). containing the genes. ANOVA results revealed that these five traits were
+data from three vegetative tissues and 11 stages of repro- significantly affected by the genotype and environment
+ductive tissue development; the other database included effects (P <0.01).
+expression data from different seed growth stages and was
+Theh? value of the PN was 50.27%, which was lower than
+downloaded from the Plant Expression Database (https:1l the previously reported results in cultivated soybean (Hao
+www.plexdb.org, GEO Accession number: GSE42871). The et al. 2012), suggesting that the PN in wild soybean was
+robust multiarray analysis method is the most widely used more sensitive to the environment than that in cultivated soy-
+preprocessing algorithm for Affymetrix and gene expres- bean. Similar to the cultivated soybean, the h2 values of SY,
+sion microarrays. The robust multiarray analysis-normalized SW, FT and MT in wild soybean were also high (72.69%,
+values from the microarray data were log,-transformed. Two 90.62%, 88.58% and 88.40%, respectively), indicating that
+heat maps based on gene expression data were drawn with these four traits were relatively stable and not particularly
+TBtools software Omplsichengthuabhathalwy,
+affected by environmental factors.
+GSCID1-based association analysis and dCAPS
+Correlation analysis among five yield-relatedtraits
+marker development
+Pearson correlation coefficients between five traits were
+Six SNPs located in the genomic region of GsCID1 were analyzed for the 113 wild accessions (Fig. 2). The results
+used to identify its haplotypes. The linkage disequilibrium showed that MT was positively correlated with SW (r=0.15,
+(LD) level was evaluated by the R package 'LDheatmap' not significant) and strongly positively correlated with SY
+(Shin et al. 2006). Six SNPS in GSCID1 were used to per- (r=0.27,P<0.05), PN (r=0.29,P<0.05) and FT (r=0.91,
+form the association mapping with the mean SW values. The P<0.001). SY was positively correlated with PN (r=0.2,
+SNP AX-94009457 (T/C) of GSCID was used to develop the not significant) and FT (r=0.13, not significant) and signifi-
+dCAPS marker. The materials with the top 20%, middle 60% cantly positively correlated with SW (r=0.55, P<0.001).
+and lowest 20% of the SW values were defined as high-SW However, SW was negatively correlated with FT (r= - 0.15,
+materials, moderate-SW materials and low-SW materials, not significant) and PN (r= - 0.42, P<0.001, significant).
+respectively. The primers were designed by dCAPS Finder Additionally, PN was significantly positively correlated with
+2.0 (htps/helis.wustleduuldcaps/dcaps.hml) (forward: FT (r=0.44, P<0.001).
+S-AGTGTTCACATGTATGTATGTATGGTAC-3: reverse: 5'-
+ATTAATTTTGATATTGATCAATGG -3'). Ten high-SW GWAS for SY, SW, PN, FT and MT
+varieties, three moderate-SW varieties and five low-SW
+varieties were selected to identify the validity of the dCAPS Significant SNPs associated with yield-related traits were
+marker (Table S2). The PCR products were digested with identified using the NJAU 355K SoySNP array with Tassel
+the restriction endonuclease Kpnl (37 C, 2 h) and assayed 5.0 software. To further determine which model was suit-
+by 8% polyacrylamide gel electrophoresis to distinguish the able for these traits, four different models, including GLM
+sizes of the polymorphic fragments.
+(PCA), MLM (PCA+ K), GLM (Q) and MLM (Q+ K),
+were compared. As shown in Fig. 3, the quantile-quantile
+plot of GLM (PCA) was much closer to the diagonal line
+Results
+than that of GLM (Q), and the quantile-quantile plot of
+MLM (PCA+ K) was much closer to the diagonal line than
+Phenotypicvariation ofyield-related traits in wild
+that of MLM (Q+ K), suggesting that PCA as a covariate
+soybean
+in GWAS was better than Q for this wild soybean popula-
+tion. The kinship matrix was used to represent the covari-
+ANOVA, h2 and descriptive statistics of five traits were ance structure of random polygenic effects. Based on the
+identified for 113 wild soybean accessions in three or four quantile-quantile plot distributions of different models, the
+environments (Table 1). The mean values of SY, SW, PN, MLM (PCA + K) was identified as more suitable for SY,
+FT and MT were 14.12, 2.35, 341.65, 59.23 and 106.24, SW, FT and MT, whereas the GLM (PCA) was more appro-
+respectively. These five traits exhibited wide variation priate for PN (Fig. 3). Using these two models, a total of
+among different environments, and the mean coefficients of 218 SNPS significantly (with a significance threshold of
+variation for the five traits were 54.24%, 60.02%, 46.94%, -log1o(P) N 5.05) associated with yield-related traits are
+23.09% and 11.71%, respectively. The frequency distri- listed (Fig. 4; Table S3). Additionally, 41 SNPS significantly
+bution of the wild soybean population showed a normal associated with yield-related traits in two or more environ-
+distribution (Fig. 1), indicating that these five traits were ments are summarized and detailed in Table 2.
+Springer
+
+
+
+Planta (2020) 251:39
+Page 5 of17 39
+Table 1 Descriptive statistics, ANOVA and h2 of the yield-related traits in wild soybean population
+Trait Environment Mean SDA Median Minimum Maximum cvb (%) Skewness Kurtosis G GXEd h2 (%)
+SY E1
+15.90 7.56 15.63 3.62
+44.65 47.52
+1.02
+2.44 ** **
+72.69
+E2
+16.40 9.50 14.68 3.19
+54.35 57.93
+1.30
+2.13
+E3
+17.20 8.24 16.98 1.66
+43.38 47.92
+1.05
+1.45
+E4
+6.97 4.43 6.09 0.37
+21.63 63.58
+0.85
+0.51
+Mean
+14.12 7.43 13.35 2.21
+41.00 54.24
+1.06
+1.63
+SW El
+2.51 1.43 2.23 0.90
+10.41 57.00
+2.51
+9.04 ** **
+90.62
+E2
+2.39 1.44 2.01 0.90
+9.74 60.24
+2.28
+6.71
+E3
+2.15 1.45 1.76 0.66
+8.48 67.37
+2.47
+6.97
+E4
+2.35 1.30 2.05 0.95
+8.89 55.48
+2.45
+7.30
+Mean
+2.35 1.41 2.01
+0.85
+9.38 60.02
+2.43
+7.51
+PN El
+268.43 111.42 261.55 93.40
+611.23 41.51
+0.60
+0.00 ** **
+50.27
+E2
+220.11 81.14 211.33 50.33
+419.58 36.86
+0.42 - 0.37
+E3
+726.33 355.61 706.38 124.13
+1621.50 48.96
+0.29
+- 0.56
+E4
+151.72 91.65 134.97
+3.92
+435.78 60.41
+0.80
+0.05
+Mean
+341.65 159.96 328.56 67.95
+772.02 46.94
+0.53
+- 0.22
+FT El
+55.61 13.02 54.67 27.00
+84.00 23.42
+- 0.08
+1.00 ** **
+88.58
+E2
+57.28 12.70 59.10 26.00
+84.50 22.16
+- 0.18
+- 0.75
+E3
+60.52 13.04 59.33 35.50
+92.00 21.54
+0.05
+0.92
+E4
+63.49 16.02 65.00 31.00
+92.00 25.23
+- 0.19
+1.17
+Mean
+59.23 13.70 59.53 29.88
+88.13 23.09
+- 0.10
+0.96
+MT E1
+105.70 12.76 106.95 81.28
+138.33 12.08
+- 0.04
+- 0.42 ** **
+88.40
+E2
+102.61 11.39 100.40 78.50
+131.00 11.10
+0.42
+- 0.13
+E4
+110.42 13.18 109.33 79.67
+145.00 11.94
+0.13
+0.19
+Mean
+106.24 12.44 105.56 79.82
+138.11 11.71
+0.17
+0.12
+**Significant at P<0.01
+aStandard deviation
+bCoefficient of variation
+CGenotype
+"Genotypexenvironment
+Of these 41 SNPS, nine significant SNPS for MT and FT were located within two previously mapped QTLs or SNPS,
+were distributed on chromosome 1, 11, 14 and 19, with R2 Seed weight 18-1.2 or cqSeed weight-010 (Panthee et al.
+values ranging from 9.62% to 13.04%. Three SNPs associ- 2005; Pathan et al. 2013). AX-93687543 and AX-93985010
+ated with SY were located on chromosome 20, and these on chromosome 2 were located within a known QTL, Seed
+three SNPS were close to each other and located within the weight 50-12 (Kato et al. 2014). Six SNPS on chromosome
+previously identified QTLs Seed yield 21-7, Seed weight 4 were located within the region of Seed weight 5-g4 (Zhang
+36-5, Seed weight 24-3 and Seed weight 50-13 (Reinprecht et al. 2016b).
+et al. 2006; Han et al. 2012; Kato et al. 2014). Remark-
+ably, the R2 values ofthese three adjacent SNPs ranged from Candidate genes associated with the yield
+20.96 to 23.96%, suggesting that a major QTL exists in this component traits
+region. A total of29 SNPS significantly associated with SW
+were uncovered. These significant SNPs were located on GWAS based on high-density SNP markers can be used to
+chromosome 1, 2, 3,4, 5,6, 9, 11, 12, 13, 14, 15, 16 and finely map quantitative trait regions, even to the genes them-
+19 and comprised two, three, one, nine, one, one, one, two, selves (Chu et al. 2017). For example, a soybean isoflavone
+two, one, one, one, three and one SNP, respectively. The 29 content-related gene, GmMYB29, was identified based on
+SNPS explained 6.78-13.83% ofthe total phenotypic varia- a significant SNP located in the 5'-UTR (Chu et al. 2017).
+tion. Most of these 29 significant SNPs were mapped within Therefore, to further understand the molecular mechanism
+the previously reported QTLS. For example, two significant of the yield-related traits in wild soybean, we evaluated the
+SNPS, AX-93961487 and AX-93616455 on chromosome 1, genes within or close to the significant SNPS.
+Springer
+
+
+
+39 Page 6of 17
+Planta (2020) 251:39
+MT-E1
+MT-E2
+MT-E4
+1
+DE
+R
+e
+R
+1
+of
+
+S
+o
+o
+C
+80 90 100 110 120 130 140
+80 90 100 110 120 130
+80 90 100 110
+SY-E1
+SY-E2
+SY-E3
+SY-E4
+DE
+21
+1
+21
+1 -
+al
+R
+A
+e
+1
+11
+2
+1
+of
+of
+o0
+of
+n
+o
+o
+C
+0 10 20 30 40
+0 10 20 30 40 50
+10 20 30 40
+0 5 10 15 20
+SW-E1
+SW-E2
+SW-E3
+SW-E4
+$1
+21
+24
+21
+:
+$
+e
+e
+e DA
+DA
+2
+a
+R
+a
+a
+a
+of
+91
+I
+9
+of
+o
+0
+oo
+oo
+0 2 4 6 8 10
+0 2 4 6 8 10
+2 4 6
+0 2 4 6 8
+PN-E1
+PN-E2
+PN-E3
+PN-E4
+1
+o
+1 -
+a
+1
+1
+R
+R
+of
+R
+1
+1
+5
+of
+f
+in
+of
+s
+n
+0
+o
+o
+o
+100 200 300 400 500 600
+100 200 300 400
+0 500 1000 1500
+0 100 200 300 400
+FT-E1
+FT-E2
+FT-E3
+FT-E4
+1a
+R
+RI
+a1
+1
+n
+1
+1
+R
+A
+R
+R
+1
+11
+1
+of
+9
+0
+of
+i
+in
+o
+oo
+o
+20 30 40 50 60 70 80 90
+20 30 40 50 60 70 80 90
+30 40 50 60 70 80 90 100 30 40 50 60 70 80 90 100
+Fig.1 Frequency distribution of five yield traits in the wild soybean population across multiple environments
+As mentioned above, 41 significant SNPs were associated annotation of the 24 genes is listed in Table 3. Four genes
+with the traits in two or more environments. Of these, 11 were predicted without biological functional annotation
+SNPS were located in the intergenic regions (AX-93959615 (Table 3). For the other 20 genes, Glysoja.04g010563 and
+was coidentified with FT and MT); eight SNPS were located Glysoja.15g042025 were predicted to be associated with
+in the 3'-UTR of the genes; three SNPS were located in the cell division and gibberellin biosynthesis, respectively. The
+promoter of the genes; one SNP was located in the 5'-UTR remaining genes were predicted to be involved in protein
+of the genes; ten SNPS were located in the intron of the transport, metabolic processes, biotic stress response and
+genes; and eight SNPs were located in conservative coding other functions (Table S4). Among these two genes, only
+regions, including seven non-synonymous mutations alter- Glysoja.04g010563 possessed one SNP with a non-synon-
+ing the amino acid sequence and one synonymous mutation ymous mutation and was located in the yield-related QTL
+(Table 3). As aresult, there were 30 significant SNPS located Seed weight 5-g4 (Zhang et al. 2016b). Glysoja.04g010563
+in the genomic region of 24 gene models. The functional encodes a polyadenylate-binding protein-interacting protein
+Springer
+
+
+
+Planta (2020) 251:39
+Page 7 of17 39
+Glyma.03g125400 (Glysoja.03g006986) was high in seeds
+at 10 and 14 DAF. Glyma.16g057500 (Glysoja.16g042837)
+MT
+0.8 was barely expressed in roots, young leaves, flowers, pods
+0.6 and seeds, while it was mainly expressed in nodules. Nota-
+bly, Glyma.04g229500 (Glysoja.04g010563) was expressed
+0.27* SY
+0.4 in nearly all tissues and was highly expressed in seeds at 35
+0.2 DAF.
+Considering that seed development is essential for seed
+0.15 0.55*** SW
+0
+yield in soybean, the expression patterns of the 20 genes
+at different seed development periods were also examined
+-0.2 in previously reported RNA-seq data (Fig. 5b; Table S7).
+0.29* 0.2 -0.42"* PN
+0.4 The expression profiles revealed that ten genes, including
+Glyma.15g252100 (Glysoja.15g042025), showed low expres-
+-0.6 sion levels during seed development. Four of the remain-
+0.91 *** 0.13 -0.15 0.44"* FT
+-0.8 ing 10 genes, Glyma.01g015000 (Glysoja.01g000148,
+Glyma.03g125400 (Glysoja.03g006980, Glyma.09g210000
+(Glysoja.098024829) and Glyma.12g222000
+(Glysoja.12g035175), were strongly expressed in the early
+Fig.2 Phenotypic correlations among five yield traits based on seed development period and weakly expressed in dry seeds,
+mean values of traits in all wild soybean lines. *Significant at
+***
+whereas Glyma.04g229500 (Glysoja.04g010563) was con-
+0.01<P<0.05; significant at P <0.001
+tinuously expressed at high levels. Since Glyma.04g229500
+(Glysoja.04g010563) exhibited high expression in all tis-
+with a conserved RNA recognition motif (RRM) domain. sues, especially during seed development, and it was
+In rice, overexpression of the RRM domain of OsFCA detected based on two SNPs that were significantly asso-
+increased cell size and yield (Hong et al. 2007).
+ciated with SW in two environments, Glysoja.04g010563
+was selected as a candidate gene of SW in wild soybean.
+Expression patterns of corresponding genes
+The homolog of Glysoja.04g010563 in Arabidopsis is
+in cultivated soybean revealed the functionalrole
+AtCID11 (Atlg32790). Thus, Glysoja.04g010563 was
+of Glysoja.04g010563 in seed development
+named GsCID1.
+We then compared the similarity of genomic and amino acid Polymorphisms ofthe GSCID1 gene are associated
+sequences between these 20 genes (with functional anno- with SW in wild soybean
+tation) and the corresponding genes in cultivated soybean
+(Table S5). Five and nine of the 20 genes had a similarity of A GsCID1-based association analysis was performed to
+100% in their genomic and amino acid sequences, respec- analyze the correlation between the allelic variation of
+tively. In the remaining genes, the similarity of amino acid GSCID1 and SW. Six SNPS, AX-93623918, AX-94009453,
+sequences ranged from 95.10 to 99.96%, and the similarity and AX-93713186 located in the promoter, AX-93713187
+of genomic sequences ranged from 96.80 to 99.90%. We also located in the exon, AX-93713188 located in the intron
+listed the functional annotation and name of the correspond- and AX-94009457 located in the 3'-UTR ofGsCID1, were
+ing genes (Table S5). These results indicated that the poten- used for haplotype analysis (Table S8). The association
+tial functions of these 20 genes can be partially predicted study showed that these six SNPS exhibited strong LD
+based on the expression patterns of the corresponding genes (Fig. 6b). Four of these six SNPS were significantly asso-
+in cultivated soybean.
+ciated with variation in SW (Fig. 6a). Based on these six
+To further elucidate the potential functions of the 20 variants, the genotypes of this wild soybean population
+genes with functional annotation, the expression patterns were classifiedinto six haplotypes (Hap1-Hap6) (Fig. 6d):
+of the corresponding genes in cultivated soybean were Hapl (ATCAGT), Hap2 (ATTAGT), Hap3 (GTCAGT),
+detected in public RNA-seq data. As shown in Fig. 5a Hap4 (ACTCAC), Hap5 (GTTAGT) and Hap6 (ATCAGC)
+and Table S6, the five genes, including Glyma.15g252100 which contained 17, 24, 12, 5, 3 and 3 accessions, respec-
+(Glysoja.15g042025, were weakly expressed in all tissues, tively. The phenotypic data of six haplotypes were further
+and the other 15 genes were highly expressed in several tis- analyzed. As shown in Fig. 6c, the SW values of Hap4 and
+sues. For example, Glyma.01g015000 (Glysoja.01g000148) Hapl were the highest and lowest, respectively. Among
+was expressed in leaves, flowers, and seeds at 10 days the six haplotypes, Hap4 exhibited significantly higher
+after flowering (DAF) and roots. The expression level of SW values than the other five haplotypes. While the most
+Springer
+
+
+
+39 Page 8of 17
+Planta (2020) 251:39
+Fig. .3 Quantile-quantile plots
+a 0o
+b 00
+of four GWAS models for five
+yield traits using the mean
+values of the traits. a SY. b SW.
+GLM (Q).
+cPN. dFT. e MT
+a 6
+GLM (Q).
+GLM (PCA)
+GLM (PCA)-
+MLM (Q+K)
+MLM (Q+K)
+MLM (PCA+K)
+MLM (PCA+K)
+o
+o
+0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7
+Expected -log,o(P)
+Expected -log,(P)
+C of
+d a
+00.
+of
+GLM (Q)
+S
+00
+0
+GLM (Q)
+MLM (Q+K)
+MLM (Q+K). -
+
++
+GLM (PCA)
+4
+GLM (PCA)
+à
+MLM (PCA+K)
+MLM (PCA+K)
+N
+N
+o
+o
+0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7
+Expected -log1o(P)
+Expected -log,o(P)
+e 94
+9
+5 00
+GLM(Q)
+MLM (Q+K)
+e o
+2 +
+GLM (PCA)
+0
+MLM (PCA+K)
+N.
+o
+0 1 2 3 4 5 6 7
+Expected -log,o(P)
+significant difference was seen between Hap4 and Hapl Developmentofafunctionalmarkerforwild
+(P= 4.94x 10-3). Consequently, Hap4 should be the most soybean SW
+favorable haplotype for high SW, while Hapl was the most
+unfavorable haplotype for high SW. These data suggested In this study, six SNPS were located in the genomic
+that GsCID1 polymorphisms are associated with SW and region of GsCID1. AX-94009453-C, AX-93713187-C,
+that the elite haplotype in wild soybean might be helpful AX-93713188-A and AX-94009457-C exhibited signifi-
+in improving seed yield in cultivated soybean.
+cantly higher SW than AX-94009453-T, AX-93713187-A,
+Springer
+
+
+
+Planta (2020) 251:39
+Page 90f17 39
+MT-E1
+MT-E2
+MT-E4
+MT-BLUP
+5
+2
+10
+10
+10
+20
+SY-E1
+SY-E2
+SY-E3
+SY-E4
+SY-BLUP
+71
+5
+2
+10
+10
+10
+1
+10
+10
+20
+SW-E1
+SW-E2
+SW-E3
+SW-E4
+SW-BLUP
+8
+8
+6
+4
+4
+2
+2
+2
+2
+1
+10
+20 1
+10
+20 0 1
+10
+20 0 1
+10
+20 1
+10
+20
+PN-E1
+7
+PN-E2
+PN-E3
+PN-E4
+PN-BLUP
+7
+6
+5
+5
+5
+4
+3
+3
+2
+2
+1
+0
+0
+1
+10
+20
+10
+20
+10
+20 1
+10
+20
+10
+20
+FT-E1
+71
+FT-E2
+FT-E3
+7
+FT-E4
+71 FT-BLUP
+5
+5
+:
+3
+3
+2
+2
+10
+20
+10
+20
+10
+20
+10
+10
+20
+Chromosome
+Fig. 4 Genome-wide association study of five yield traits in wild soybean populations across multiple environments. The horizontal line depicts
+the significant threshold (8.76X 10-5)
+AX-93713188-G and AX-94009457-T, respectively However, the remaining three moderate-SW materials
+(Fig. 6c, d). Therefore, the dCAPS marker that was devel- also produced 177-bp products. It is possible that the SW
+oped based on one (AX-94009457) of these three SNPS in wild soybean is a complex quantitative trait, thus it is
+was assayed in 18 wild soybean accessions, representing hard to distinguish all materials based on a single gene
+materials with high SW, moderate SW and low SW. As marker. These results confirmed that this dCAPS marker
+shown in Fig. 7, all ten materials with low SW produced is strongly associated with SW and validated dCAPS as a
+201-bp products by enzyme digestion. Five materials with functional marker.
+high SW produced 177-bp products by enzyme digestion.
+Springer
+
+
+
+39 Page 10 of17
+Planta (2020) 251:39
+I
+I
+I
+€
+a
+:
+a et
+a a
+a a a
+a
+a et a et
+a et a et a et
+a I a € a €
+a a
+I
+I :
+E a I
+E 1t 1 3 et et E
+I ee
+I
+2
+: a
+2 e %
+3 I 3 2
+a
+1
+1
+I
+:
+/
+I
+/
+I I
+/
+I
+/
+I
+I
+I / / /
+I I I
+/ / / / / / /
+I
+/ /
+8
+k
+I I I I I I : I I I I : I I I I : i I I I à I I I I I I I I I I I I
+E E E e e e E
+:
+E
+E
+I I I I I I I I A A - I a à à I I I I I I I
+I
+a
+I I I I I I I I E
+I
+L L
+L L
+L 2 E E
+E 3 E à
+I
+E 4
+I I
+E € E E
+I
+E E E E
+3 :
+a 5
+I I I I I I I
+E
+E
+I I I I I
+s
+E
+iE
+B3 / E E E E E E E E E E E E E E E E E E E E E / / / E E E /
+E
+I
+E
+/ E E
+E
+L L L L L L L L L L L
+E
+a I I I I I I 3 * a 2 A 3 3 3 a 3 3 E I I I I I I I I I I I E I I E I
+à i
+L
+L L L L L L e E e e e e a L
+€ :
+L
+X
+X X
+1
+A la E
+I à 3 I a 8 a 3 a S 8 & 8 & à 8 à 3 I I I a a a I I I E I E I I a
+I 2
+E E a : 2 2 à à e e : : à à à : : 2 2 a a a E E N e 2 e E E E à 2 2
+€
+I I
+I I I I I I I I  I I I I I I I I I I I I à I I ! I I I I I I I a
+E E B
+- 1 1 - a N a en 4 4 + + 4 + + + + iin  o i1 11 11 11 11 4 a 1s 1 1t 1 5 16
+2
+N A
+à
+I
+E
+I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I
+Springer
+
+
+
+Planta (2020) 251:39
+Page 11 of17 39
+Discussion
+I a et
+New markers related to yield-related traits in wild
+- I
+soybean by high-density SNP array
+: a
+Unique germplasm resources, such as wild accessions,
+are essential to identify important loci and genes for the
+1
+improvement of crop plants. In the past 2 decades, crop
+wild relatives have gradually gained attention due to their
+I
+€ a a 3
+higher genetic diversity than that of their domesticated
+a 3
+descendants. Wild soybean is the closest relative of cul-
+: : et 1 a
+tivated soybean. To date, studies on wild soybean have
+a
+mainly focused on biotic or abiotic stresses, such as resist-
+et
+ance to root-knot nematode et
+I
+I I
+(Xu al. 2013) and soybean
+3 E
+cyst nematode (Zhang et al. 2017). A small number of
+2 3
+studies identified QTLs or genes related to yield-related
+I
+3
+traits (Hu et al. 2014), whereas few studies used GWAS
+I
+I 1 a
+with high-density SNP markers to understand the genetic
+I
+I I
+architecture of yield-related traits.
+In this study, GWAS was performed with four traits
+(SY, SW, PN, FT) in four environments. One trait (MT)
+8
+was performed within three environments. Overall, 218
+k
+I I I I I I I
+SNPS distributed on 20 chromosomes were associated with
+E E E
+yield-related traits (Table S3). Of these, 41 SNPS were
+X
+identified in two or more environments (Table 2). Twenty-
+E a à à E E E
+nine of 41 SNPs were associated with SW. These SNPs
+I
+were close to or within the previously identified QTLs
+L L L L
+(Table 2). Three consecutive SNPs located on chromo-
+some 20 were associated with SY with R? values as high
+E
+E
+6 à à à
+E E
+as 23.96%. These three SNPS were located in the region of
+Seed yield 21-7 Seed weight 24-3 (Reinprecht et al. 2006),
+L L
+Seed weight 36-5 (Han et al. 2012) and Seed weight 50-13
+83 E E E E - -
+(Kato et al. 2014), indicating that these SNPS are critical
+I
+for seed yield and that candidate genes for seed yield can
+L L L
+likely be identified. AX-93959615, located on chromo-
+I
+E
+some 14, was the unique SNP co-associated with FT and
+a
+- -
+E E
+5
+E
+I
+E
+MT in two different environments (Table 2; Table S3). The
+L
+L L
+lower h2 value of PN indicates that PN was easily affected
+:
+X
+by environmental factors, which might be the reason why
+no SNP was identified in two different environments for
+A a
+E
+3
+3 3
+I I I
+PN.
+I
+2
+2 e à E e e i 6
+Overall, we identified several SNPS that existed both in
+the cultivated and wild soybean populations. The flank-
+€
+ing regions of these SNPs could be narrowed down to
+previously reported QTL positions and were helpful in
+I
+I
+I I I I I I I
+identifying the candidate genes underlying the QTLS. We
+also identified many novel SNPs that only exist in wild
+and
+I
+5
+10 16 oo oo a a a
+soybean,
+these SNPs will enrich the knowledge of
+I
+I
+the genetic mechanism underlying yield in wild soybean.
+E
+N
+I
+à
+I
+€
+I I I I I
+S
+Springer
+
+
+
+39 Page 120f17
+Planta (2020) 251:39
+Table 3 Candidate genes identified based on the position between significant SNPS and genomic region
+SNP ID
+Chr Position (W05) Location site
+Gene ID
+Functional annotation
+AX-93914172 1 954,964
+Intron
+Glysoja.01g000095 Protein unc-13-like
+AX-93665227 1 1,205,496
+3'-UTR
+Glysoja.01g000124 Snl-specific diacylglycerol lipase alpha
+AX-93961487 1 1,520,619
+3'-UTR
+Glysoja.01g000148 Inactive poly polymerase RCDI
+AX-93616455 1 27,635,741 Intrergenic
+/
+/
+AX-93979681 2 26,610,200 Intrergenic
+/
+/
+AX-93687543 2 44,233,867 Non-synonymous coding Glysoja.02g004846 No description
+AX-93985010 2 47,365,724 5'-UTR
+Glysoja.02g005196 E3 ubiquitin-protein ligase COP1
+AX-94274381 3 35,831,541 3'-UTR
+Glysoja.03g006986 Serine carboxypeptidase-like 45
+AX-94000466 4 5,303,432
+Intrergenic
+/
+/
+AX-94000835 4 6,362,101
+Intrergenic
+/
+/
+AX-93706936 4 14,949,007 Intrergenic
+/
+/
+AX-94009450 4 49,444,067 Intrergenic
+/
+/
+AX-94009451 4 49,445,786 Intrergenic
+1
+I
+AX-93713187 4 49,453,295 Non-synonymous coding Glysoja.04g010563 Polyadenylat-binding protein-interacting protein
+AX-93713188 4 49,453,902 Intron
+Glysoja.04g010563 Polyadenylat-binding protein-interacting protein
+AX-94009464 4 49,472,619 Non-synonymous coding Glysoja.04g010566 Small heat shock protein, chloroplastic
+AX-94009465 4 49,473,889 Non-synonymous coding Glysoja.04g010566 Small heat shock protein, chloroplastic
+AX-93922119 5 38,959,835 3'-UTR
+Glysoja.05g012674 Protein activity of BCI and complex kinase 8, chloro-
+plastic
+AX-93737581 6 48,230,610 Non-synonymous coding Glysoja.06g016409 WRKY transcription factor 2
+AX-94068012 9 41,819,465 Intron
+Glysoja.098024829 26S proteasome non-ATPase regulatory subunit 13-like
+A
+AX-94083659 11 3,380,445
+Intron
+Glysoja.11g028982 Branched-chain amino acid aminotransferase 2, chlo-
+roplastic
+AX-93787863 11 6,125,111
+3'-UTR
+Glysoja.11g029328 No description
+AX-94112641 11 40,797,719 Intron
+Glysoja.11g031433 Cullin-4
+AX-93815870 11 40,799,505 Intron
+Glysoja.11g031433 Cullin-4
+AX-93815871 11 40,801,080 Intron
+Glysoja.11g031433 Cullin-4
+AX-94276811 12 8,022,185
+3'-UTR
+Glysoja.12g033845 Protein FAF-like, chloroplastic
+AX-93938118 12 42,554,533 Intron
+Glysoja.12g035175 Hypothetical protein
+AX-94091961 13 29,984,153 Non-synonymous coding Glysoja.13g037056 DNA polymerase epsilon catalytic subunit A
+AX-93825970 14 21,490,937 Intrergenic
+I
+I
+AX-93959615 14 21,888,250 Intrergenic
+I
+I
+AX-93832016 14 48,834,625 Promoter
+Glysoja.14g039290 UDP-glycosyltransferase 87A1
+AX-93945346 15 48,155,287 3'-UTR
+Glysoja.15g042025 Gibberellin 2-beta-dioxygenase 1
+AX-93845958 16 875,833
+Synonymous coding
+Glysoja.16g042366 Exocyst complex component EXO70A1
+AX-93847768 16 5,595,022
+Promoter
+Glysoja. .16g042837 Hypothetical protein
+AX-93856062 16 37,039,841 Promoter
+Glysoja. 16g044294 No description
+AX-93893297 19 34,156,991 3'-UTR
+Glysoja. 19g051042 No description
+AX-93896805 19 44,004,764 Intergenic
+I
+I
+AX-93907195 20 38,828,704 Intron
+Glysoja.20g053860 Caffeoylshikimate esterase
+AX-94205175 20 38,829,894 Intron
+Glysoja.20g053860 Caffeoylshikimate esterase
+AX-93956919 20 38,830,442 Non-synonymous coding Glysoja.20g053860 Caffeoylshikimate esterase
+Chr chromosome
+Candidate genes for SW in wild soybean
+2005). h2 is usually used to evaluate the impact of envi-
+ronmental factors on a given trait. Only the traits with
+The yield and yield-related traits of soybean are com- high h? values could be mapped stably (Hao et al. 2012).
+plex and quantitative, and environmental variations can The h? value of SW was the highest in yield-related traits
+trigger and modify the actions of related genes (Li et al. in both wild soybean and cultivated soybean, and several
+Springer
+
+
+
+Planta (2020) 251:39
+Page 13 of17 39
+a
+Glyma.01g009400 (Glysoja.01g000095)
+o 2.0
+Glyma.01g012100 (Glysoja.01g000124)
+04.0
+Glyma.01g015000 (Glysoja.01g000148)
+06.0
+Glyma.02g267800 (Glysoja.02g005196)
+Glyma.03g125400 (Glysoja.03006986)
+98.0
+Glyma.04g229500 (Glysoja. .04g010563)
+10.0
+Glyma.04g229800 (Glysoja.04g010560)
+12.0
+Glyma.05g183100 (Glysoja.05g012674)
+Glyma.06g320700 (Glysoja. .06g016409)
+Glyma.09g210000 (Glysoja.098024829)
+Glyma.11g045300 (Glysoja.11g028982)
+Glyma.11g237700 (Glysoja.13g037050)
+Glyma.12g095200 (Glysoja.12g033845)
+Glyma.12g222000 (Glysoja.12g035175)
+Glyma.13g218500 (Glysoja.11g031433)
+I
+Glyma.14g198600 (Glysoja.14g039290)
+o
+Glyma.15g252100 (Glysoja.15g042025)
+o o
+Glyma.16g009800 (Glysoja.16g042360)
+Glyma.16g057500 (Glysoja.16042837)
+Glyma.20g116400 (Glysoja.20g053860)
+C
+o o
+o
+S
+Pore DOI Os Os os -OS -SS -Or -oS os Red o
+4000
+ORe ae Snce Sged Sged Sges Sges Sged Se sged
+Rob Rod
+b
+Glyma.01g009400 (Glysoja.01g000099)
+o 2.0
+Glyma.01g012100 (Glysoja.01g000124)
+4.0
+Glyma.01g015000 (Glysoja.01g000148)
+6.0
+Glyma.02g267800 (Glysoja.02005196)
+Glyma.03g125400 (Glysoja.03g006986)
+8.0
+Glyma.04g229500 (Glysoja.04g010563)
+Glyma.04g229800 (Glysoja.04g010560)
+Glyma.05g183100 (Glysoja.05g012674) C
+Glyma.06g320700 (Glysoja.06g016409) a
+Glyma.09g210000 (Glysoja.098024829)
+Glyma.11g045300 (Glysoja.I1g028982) O
+Glyma.11g237700 (Glysoja.13g037050)
+Glyma.12g095200 (Glysoja.12g033845)
+Glyma.12g222000 (Glysoja.12g035175)
+Glyma.138218500 (Glysoja.11g031433)
+Glyma.14g198600 (Glysoja.14g039290)
+Glyma.15g252100 (Glysoja.15g042025)
+Glyma.16g009800 (Glysoja.16g042360)
+o
+Glyma.16g057500 (Glysoja.16g042837)
+Glyma.20g116400 (Glysoja.20g053860)
+X
+Aor
+DAS
+a
+4h0e
+eRo
+sced
+De
+DA
+
+SaP
+y
+Fig. .5 Digital expression profiles for 20 genes in various tissues. a b Expression of 20 genes in four different pod development stages
+Expression levels of 20 genes in three vegetative tissues and at dif- from microarray data (GEO Accession number: GSE42871). The
+ferent seed development stages based on RNA-seq data (downloaded robust multiarray analysis-normalized values from the microarray
+from the SoyBase website hepuhwwsgpbueaghegyeg The data were log,-transformed
+reads per kilobase million-normalized values were log,-transformed.
+candidate genes underlying SW were reported. For exam- 100-seed weight QTL-allele matrix in cultivated soybean
+ple, GmGA20ox was identified by analyzing the transcrip- (Zhang et al. 2015).
+tional characteristics of soybean seed development (Lu
+In this study, the h2 value of SW was also the highest
+et al. 2016). Overexpression of GmGA20ox increases the among the five traits (h? = 90.62%) (Table 1). By genotyp-
+SW in Arabidopsis thaliana. Zhang et al. (2015) identi- ing the data from four or three environments and the NJAU
+fied 39 candidate genes involved in SW by establishing a 355K SoySNP array, we identified 29 SNPS for SW in two
+Springer
+
+
+
+39 Page 140f17
+Planta (2020) 251:39
+a
+C
+10 soo
+8-
+8
+p-2.22x102
+E6
+6 p-4.94x103
+94009
+**
+de 4
+p-6.95x103
+41
+2
+2
+P-5.16x109
+0
+PSGAr10N
+21
+b
+GSCID1 49452460
+49458320 0
+HI H2 H3 H4 H5 H6
+d
+2
+3
+4
+5 6
+Haplotype 1 2 3 4 5 6 Number SWISE (g)
+H1 A T C A G T 17 1.79:0.23
+H2
+A T T A G T 24 2.0410.23
+H3 G T C A G T 12 3.4240.41
+H4 A C T C A C 5 6.4540.89
+H5 G T T A G T 3 2.0140.38
+H6 A T C A G C 3 1.86:0.20
+RColorKey
+0.2 0.4 06 os
+Fig.6 Polymorphisms of GSCIDI are significantly associated with resents AX-93623918, AX-94009453, AX-93713186, AX-93713187,
+SW in wild soybean. a GsCIDI-based association mapping with AX-93713188 and AX-94009457, respectively. C The boxplot of SW
+SW (GLM model, Tassel software 5.0, P<0.05). The horizontal line values between Hapl-Hap6. Significance analysis between H4 and
+depicts the - logio(P)=1.30. b Pairwise LD analysis between the H1, H2, H3, H4, H5, and H6 was performed. Statistical significance
+six GSCID1 SNPS. The LD plot is represented by the inverted tri- was detected by a two-tailed t test. "Significant at 0.01 <P<0.05;
+angle. The gene model of GSCID1 is indicated by a black rectangle, ** significant at 0.001 <P <0.01. d Haplotypes of GSCID1 among 64
+and the physical position of the SNP is drawn above the plot. The wild soybean accessions
+LD level between six SNPs was indexed by the R2 value. 1-6 rep-
+Fig.7 PCR products of 18 wild
+M L L L L L L L L L L H H H H H MS MS MS
+soybean varieties using the
+dCAPS marker. The samples are
+shown in Table S2. Lanes: M
+marker, L the low-SW materials,
+Hthe high-SW materials, MS
+the moderate-SW materials
+200bp -
+201bp-
+-177bp
+or more environments (Table 2). Six consecutive SNPS In the RNA-seq data from different seed development peri-
+spanning 49.44,067-49.473,889 and located on chromo- ods, GsCID1 was continuously expressed at high levels
+some 4 were detected in two environments. Two of these through all stages of seed development (Fig. 5b; Table S7).
+six SNPs (AX-93713187 and AX-93713188) were located Polymorphism analysis suggested that GSCID1 was associ-
+in the region of GSCID1 (Glysoja.04g010563) and caused ated with SW in wild soybean using SNP information from
+a non-synonymous mutation (Table 3). Tissue expression the NJAU 355K SoySNP array (Fig. 6). GSCID1 contains a
+patterns based on public information resources showed conserved RNA recognition motif (RRM) domain, which
+that GsCID1 was expressed in nearly all tissues and was was reported to participate in constitutive pre-mRNA
+highly expressed in seeds at 35 DAF (Fig. 5a; Table S6). splicing and regulate posttranscriptional gene expression
+Springer
+
+
+
+Planta (2020) 251:39
+Page 15 of17 39
+(Birney et al. 1993; Maris et al. 2005). In rice, overexpres- References
+sion of the RRM domain of OsFCA increases cell size
+and rice yield (Hong et al. 2007). In Brassica napus, Bn- Birney E, Kumar S, Krainer AR (1993) Analysis of the RNA-recogni-
+CSRRM2, encoding an RRM domain protein, positively
+tion motif and RS and RGG domains: conservation in metazoan
+pre-mRNA splicing factors. Nucleic Acids Res 21(25):5803-5816
+regulates yield components in both transgenic cotton and Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buck-
+Brassica napus (Qi et al. 2012; Sun et al. 2012). In bar-
+ler ES (2007) TASSEL: software for association mapping of com-
+ley, a glycine-rich RNA-binding protein participates in the
+plex traits in diverse samples. Bioinformatics 23(19):2633-2635
+regulation of barley development and the stress response Chapman A, Pantalone VR, Ustun A, Allen FL, Landauellis D, Tri-
+(Tripet et al. 2014). RRMs are highly conserved in plants
+giano RN, Gresshoff PM (2003) Quantitative trait loci for agro-
+nomic and seed quality traits in an F2 and F4:6 soybean popula-
+and animals as important regulators of gene expression,
+tion. Euphytica 129(3):387-393
+and we speculate that the soybean RRM domain gene may Chu SS, Wang J, Zhu Y, Liu SL, Zhou X, Zhang HR, Wang CE, Yang
+have the same function in improving SW. In summary,
+WM, Tian ZX, Cheng H, Yu DY (2017) An R2R3-type MYB
+GsCID1 might be a candidate gene related to SW in wild
+transcription factor, GmMYB29, regulates isoflavone biosynthesis
+in soybean. PLOS Genet 13(5):e1006770
+soybean and should be investigated further.
+Dhanapal AP, Ray JD, Singh SK, Hoyos-Villegas V,SmithJR, Purcell
+In our GWAS results, only one SNP, AX-93959615,
+LC, King CA, Cregan PB, Song Q, Fritschi FB (2015) Genome-
+located on chromosome 14, was significantly co-associated
+wide association study (GWAS) of - carbon isotope ratio (8 13 C)
+with MT and FT. Four genes were identified in the 80 kb
+in diverse soybean [Glycine max (L.) Merr.] genotypes. Theor
+Appl Genet 128(1):73-91
+(LD decay distance ofthis wild soybean population) flanking Edae EA, Byrne PF, Haley SD, Lopes MS, Reynolds MP (2014)
+regions of AX-93959615. Among them, Glysoja.14g038573
+Genome-wide association mapping of yield and yield components
+is homologous to AtARR10 (At4g31920), which takes part
+of spring wheat under contrasting moisture regimes. Theor Appl
+Genet 127(4):791-807
+in the cytokinin signaling pathway in Arabidopsis (Nguyen Falush D, Stephens M, Pritchard JK (2003) Inference of population
+et al. 2016; Zubo et al. 2017; Xie et al. 2018). We also
+structure using multilocus genotype data: linked loci and corre-
+found that three consecutive SNPs on chromosome 20
+lated allele frequencies. Genetics 164(4):1567-1587
+were significantly associated with SY, and their R2 values Fang L, Wang Q, Hu Y,Jia Y et al (2017) Genomic analyses in cotton
+identify signatures of selection andloci associated with fiber qual-
+were as high as 23.96%. Of these three significant SNPS,
+ity and yield traits. Nat Genet 49(7):1089-1098
+AX-93907195 and AX-94205175 were located on the intron Fehr WR, Caviness CE (1977) Stages of soybean development. Ames,
+of Glysoja.20g053860, and AX-93956919 was located in
+IA, USA: Cooperative Extension Service, Agriculture and Home
+the exon of Glysoja.20g053860, with a non-synonymous
+Economics Experiment Station, Iowa State University of Science
+mutation. Glysoja.20g053860, encoding a monoglyceride
+and Technology
+Gai JY, Wang YJ, Wu XL, Chen SY (2007) A comparative study on
+lipase-like protein, was involved in the acylglycerol degra-
+segregation analysis and QTL mapping of quantitative traits in
+dation process (htps/www.keggjp/module/M00098) and
+plants-with a case in soybean. Front Agric Chin 1(1):1-7
+glycerolipid metabolism pathway (https./www.kegg.jip/ Guzman PS, Diers BW, Neece DJ, Martin SKS, Leroy AR, Grau
+CR, Hughes TJ, Nelson RL (2007) QTL associated with yield
+pathway/ko00561). The biological functions of these genes
+in three backcross-derived populations of soybean. Crop Sci
+will be further investigated in future works.
+47(1):111-122
+Han YP, Li DM, Zhu D,LiHY, Li XP, Teng WL, Li WB (2012) QTL
+Author contribution statement GK and DY designed this
+analysis of soybean seed weight across multi-genetic backgrounds
+and environments. Theor Appl Genet 125(4):671-683
+research; DH, QD, JW and FH conducted GWAS; HZ and Hao DR, Cheng H, Yin ZT, Cui SY, Zhang D, Wang H, Yu DY (2012)
+ZH performed the field experiments; DH, QD, XL, ZY and
+Identification of single nucleotide polymorphisms and haplotypes
+HW developed the dCAPS marker; DH and GK wrote this
+associated with yield and yield components in soybean (Glycine
+manuscript. All authors approved the manuscript.
+max) landraces across multiple environments. Theor Appl Genet
+124(3):447-458
+Hong F, Attia K, Wei C,Li KG, He GM, Su W, Zhang QH, Qian XY,
+Yang JS (2007) Overexpression of the rFCA RNA recognition
+Acknowledgements This work was supported in part by the Ministry
+motif affects morphologies modifications in rice (Oryza sativa
+of Science and Technology (2016YFD0100304, 2017YFE0111000),
+L.). Biosci Rep 27(4-5):225-234
+the Key Transgenic Breeding Program of China (2016ZX08004-003, Hu ZB, Zhang D, Zhang GZ, Kan GZ, Hong DR, Yu DY (2014)
+2016ZX08009003-0040), and the National Natural Science Foundation
+Association mapping of yield-related traits and SSR markers
+ofChina (31871649, 31671715).
+in wild soybean (Glycine soja Sieb. and Zucc.). Breeding Sci
+63(5):441-449
+Compliance with ethical standards
+Hu DZ, Kan GZ, Hu W,Li YL, Hao DR, Li X, Yang H, Yang ZY, He
+XH, Huang F, Yu DY (2019) Identification of loci and candidate
+genes responsible for pod dehiscence in soybean via genome-wide
+Ethical standards This research complied with ethical standards.
+association analysis across multiple environments. Front Plant Sci
+10:811-811
+Conflict of interest The authors declare that they have no conflict of Huang C, Sun H, Xu DY, Chen QY, Liang YM, Wang XF, Xu GH, Tian
+interest.
+JG, Wang CL, LiD, Wu LS, Yang XH, Jin WW, Doebley JF, Tian
+Springer
+
+
+
+39 Page 160f17
+Planta (2020) 251:39
+F (2017) ZmCCT9 enhances maize adaptation to higher latitudes. Placido D, Campbell MT, Folsom JJ, Cui XP, Kruger GR, Baenziger
+Proc Natl Acad Sci USA 115(2):E334-E341
+PS, Walia H (2013) Introgression of novel traits from a wild wheat
+Hyten DL, Pantalone VR, Sams CE, Saxton AM, Landauellis D, Ste-
+relative improves drought adaptation in wheat. Plant Physiol
+faniak TR, Schmidt ME(2004) Seed quality QTL in a prominent
+161(4):1806-1819
+soybean population. Theor Appl Genet 109(3):552-561
+Qi WW, Zhang FQ, Sun F, Huang YJ, Guan RZ, Yang JS, Luo XJ
+Kato S, Sayama T, Fujii K, Yumoto S, Kono Y, Hwang TY, Kikuchi A,
+(2012) Over-expression of a conserved RNA-binding motif
+Takada Y, Tanaka Y, Shiraiwa T, Ishimoto M(2014) A major and
+(RRM) domain (csRRM2) improves components of Brassica
+stable QTL associated with seed weight in soybean across mul-
+napus yield by regulating cell size. Plant Breed 131(5):614-619
+tiple environments and genetic backgrounds. Theor Appl Genet Qi XP, Li MW, Xie M et al (2014) Identification of a novel salt tol-
+127(6):1365-1374
+erance gene in wild soybean by whole-genome sequencing. Nat
+Korte A, Farlow A (2013) The advantages and limitations of trait anal-
+Commun 5(1):4340-4340
+ysis with GWAS: a review. Plant Methods 9(1):29
+Reinprecht Y, Poysa V, Yu KY, Rajcan I, Ablett GR, Pauls KP (2006)
+Kuroda Y, Kaga A, Tomooka N, Yano H, Takada Y, Kato S, Vaughan
+Seed and agronomic QTL in low linolenic acid, lipoxygenase-
+D (2013) QTL affecting fitness of hybrids between wild and
+free soybean (Glycine max (L.) Merrill) germplasm. Genome
+cultivated soybeans in experimental fields. Ecol Evolution
+49(12):1510-1527
+3(7):2150-2168
+Riedelsheimer C, Lisec J, Czedikeysenberg A, Sulpice R, Flis A,
+Leamy LJ, Zhang HY, Li CB, Chen CY, Song BH (2017) A genome-
+Grieder C, Altmann T, Stitt M, Willmitzer L, Melchinger AE
+wide association study of seed composition traits in wild soybean
+(2012) Genome-wide association mapping ofleaf metabolic pro-
+(Glycine soja). BMC Genomics 18(1):18
+files for dissecting complex traits in maize. Proc Natl Acad Sci
+Li JZ, Huang XQ, Heinrichs F, Ganal MW, Roder MS (2005) Anal-
+USA 109(23):8872-8877
+ysis of QTLs for yield, yield components, and malting quality Rossi ME, OrfJH, Liu LJ, Dong ZM, Rajcan I(2013) Genetic basis of
+in a BC3-DH population of spring barley. Theor Appl Genet
+soybean adaptation to North American vs Asian mega-environ-
+110(2):356-363
+ments in two independent populations from Canadian Chinese
+Li DD, Pfeiffer TW, Cornelius PL (2008) Soybean QTL for yield and
+crosses. Theor Appl Genetics 126(7):1809-1823
+yield components associated with Glycine soja alleles. Crop Sci Shi YY, Gao LL, Wu ZC, Zhang XJ, Wang MM, Zhang CS, Zhang F,
+48(2):571-581
+Zhou YL, Li ZK (2017) Genome-wide association study of salt
+LuX,Li QT, Xiong Q,Li W, Bi YD, Lai YC, Liu XL, Man WQ, Zhang
+tolerance at the seed germination stage in rice. BMC Plant Biol
+W,MaB, Chen SY, ZhangJs (2016) The transcriptomic signature
+17(1):92
+of developing soybean seeds reveals the genetic basis of fseed trait Shin J-H, Blay S, McNeney B, Graham J (2006) LDheatmap: An R
+adaptation during domestication. Plant J 86(6):530-544
+function for graphical display of pairwise linkage disequilibria
+Ma ZY, He SP, Wang XF et al (2018) Resequencing a core collection
+between single nucleotide polymorphisms. J Stat Softw 16(1):1-9
+of upland cotton identifies genomic variation and loci influencing Shirasawa K, Fukuoka H, Matsunaga H, Kobayashi Y, Kobayashi I,
+fiber quality and yield. Nat Genet 50(6):803-813
+HirakawaH, Isobe S, Tabata S (2013) Genome-wide association
+Maris C, Dominguez C, Allain FHT (2005) The RNA recognition
+studies using single nucleotide polymorphism markers developed
+motif, a plastic RNA-binding platform to regulate post-transcrip-
+by re-sequencing of the genomes of cultivated tomato. DNA Res
+tional gene expression. FEBS J 272(9):2118-2131
+20(6):593-603
+Merk HL, Yarnes SC, Deynze VA, Tong N, Menda N, Mueller LA, Specht JE, Chase K, Macrander M, GraefGL, Chung J, Markwell JP,
+Mutschler MA, Loewen SA, Myers JR, Francis DM(2012) Trait
+Germann M, OrfJH, Lark KG (2001) Soybean response to water:
+diversity and potential for selection indices based on variation
+A QTL analysis of drought tolerance. Crop Sci 41(2):493-509
+among regionally adapted processing tomato germplasm. J Amer Sun F, Liu CL, Zhang CJ, Qi WW, Zhang XY, Wu ZX, Kong DP, Wang
+Soc Horticult Sci 137(6):427-437
+QH, Shang HH, Qian XY, Li FG, Yang JS (2012) A conserved
+Nevo E, Chen GX (2010) Drought and salt tolerances in wild rela-
+RNA recognition motif (RRM) domain of Brassica napus FCA
+tives for wheat and barley improvement. Plant Cell Environ
+improves cotton fiber quality and yield by regulating cell size.
+33(4):670-685
+Mol Breed 30(1):93-101
+Nguyen KH, Ha VC, Nishiyama R, Watanabe Y, Leyvagonzalez Tian F, Zhu ZF, Zhang BS, Tan LB, Fu YC, Wang XK, Sun CQ(2006)
+MA, Fujita Y, Tran UT, Li WQ, Tanaka M, Seki M, Schaller
+Fine mapping of a quantitative trait locus for grain number per
+GE, Herreraestrella L, Tran LP (2016) Arabidopsis type B cyto-
+panicle from wild rice (Oryza rufipogon Griff.). Theor Appl
+kinin response regulators ARR1, ARR10, and ARR12 negatively
+Genetics 113(4):619-629
+regulate plant responses to drought. Proc Natl Acad Sci USA Treuren RV, Hoekstra R, Hintum TV (2017) Inventory and prioritiza-
+113(11):3090-3095
+tion for the conservation of crop wild relatives in The Netherlands
+Nichols DM, Glover KD, Carlson SR, SpechtJE, Diers BW (2006) Fine
+under climate change. Biol Cons 216:123-139
+mapping of a seed protein QTL on soybean linkage group i and Tripet BP, Mason KE, Eilers BJ, Bruns J, Powell P,Fischer AM, Valé-
+its correlated effects on agronomic traits. Crop Sci 46(2):834-839
+rie C (2014) Structural and biochemical analysis ofthe Hordeum
+Okishio T, Sasayama D, Hirano T, Akimoto M, Itoh K, Azuma T
+vulgare L HVGR-RBP1 protein, ag glycine-rich RNA-binding pro-
+(2014) Growth promotion and inhibition of the Amazonian wild
+tein involved in the regulation of barley plant development and
+rice species Oryza grandiglumis to survive flooding. Planta
+stress response. Biochemistry 53(50):7945-7960
+240(3):459-469
+Turner SD (2014) qqman: an R package for visualizing GWAS results
+Panthee DR, Pantalone VR, West DR, Saxton AM, Sams CE (2005)
+using Q-Q and manhattan plots. Biorxiv
+Quantitative trait loci for seed protein and oil concentration, and Vieira AJD, Oliveira DAA, Soares TCB, Schuster I, Piovesan ND,
+seed size in soybean. Crop Sci 45(5):2015-2022
+Martinez CA, Barros EDG, Moreira MA (2006) Use of the QTL
+Pathan SM, Vuong TD, Clark KM, Lee JD, Shannon JG, Roberts CA,
+approach to the study of soybean trait relationships in two popula-
+Ellersieck MR, Burton JW, Cregan PB, Hyten DL, Nguyen NT
+tions of recombinant inbred lines at the F7 and F8 generations.
+(2013) Genetic mapping and confirmation of quantitative trait loci
+Brazilian J Plant Physiol 18(2):281-290
+for seed protein and oil contents and seed weight in soybean. Crop Vuong TD, Sonah H, Meinhardt CG, Deshmukh R, Kadam S, Nelson
+Sci 53(3):765-774
+RL, Shannon JG, Nguyen HT (2015) Genetic architecture of cyst
+Springer
+
+
+
+Planta (2020) 251:39
+Page 17 of17 39
+nematode resistance revealed by genome-wide association study Zhang YH, He JB, Wang YF, Xing GN, Zhao JM, Li Y, Yang SP,
+in soybean. BMC Genomics 16(1):593-593
+Palmer RG, Zhao TJ, Gai JY (2015) Establishment tofa 100-seed
+Wang XZ, Jiang GL, Green M, Scott RA, Song QJ, Hyten DL, Cregan
+weight quantitative trait locus-allele matrix of the germplasm
+PB (2014) Identification and validation of quantitative traitloci for
+population for optimal recombination design in soybean breed-
+seed lyield, oil and protein contents in two recombinant inbred line
+ing programmes. J Exp Bot 66(20):6311-6325
+populations of soybean. Mol Genetics Genomics 289(5):935-949 Zhang JP, Song QJ, Cregan PB,Jiang GL (2016a) Genome-wide asso-
+Wang QX, Xie WB, Xing HK, YanJ, Meng XZ, Li XH, Fu XK, XuJY,
+ciation study, genomic prediction and marker-assisted selection
+Lian XM, Yu SB, Xing YZ, Wang GW (2015) Genetic architec-
+for seed weight in soybean (Glycine max). Theor Appl Genet
+ture of natural variation in rice chlorophyll content revealed by a
+129(1):117-130
+genome-wide association study. Mol Plant 8(6):946-957
+Zhang X, Warburton ML, Setter T, Liu H, Xue YD, Yang N, Yan JB,
+WangJ, Chu SS, Zhang HR, Zhu Y, Cheng H, Yu DY (2016) Develop-
+Xiao YJ (2016b) Genome-wide association studies of drought-
+ment and application of fa novel genome-wide SNP array reveals
+related metabolic changes in maize using an enlarged SNP panel.
+domestication history in soybean. Sci Rep 6(1):20728-20728
+Theor Appl Genet 129(8):1449-1463
+Xie MT, Chen HY, Huang L, O'Neil RC, Shokhirev MN, Ecker JR Zhang HY, Song QJ, Griffin JD, Song BH 1(2017) Genetic architecture
+(2018) A B-ARR-mediated cytokinin transcriptional network
+of wild soybean (Glycine soja) response to soybean cyst nematode
+directs hormone cross-regulation and shoot development. Nat
+(Heterodera glycines). Mol Genet Genomics 292(6):1257-1265
+Commun 9(1):1604
+Zhang W,Liao XL, Cui YM, Ma WY, Zhang XN, Du HY, Ma YJ,Ning
+Xie M, Chung CYL, Li MM et al (2019) A reference-grade wild soy-
+LH, Wang H, Huang F, Yang H, Kan GZ, Yu DY (2019) A cation
+bean genome. Nat Commun 10(1):1-12
+diffusion facilitator, GmCDF1,negatively regulates salttolerance
+Xu XY, Zeng L, Tao Y, Vuong T, Wan JR, Boerma R, Noe J, Li Z,
+in soybean. PLOS Genet 15(1):e1007798
+Finnerty S, Pathan SM, Shannon JG, Nguyen HT (2013) Pin- Zubo YO, Blakley IC, Yamburenko MV, Worthen JM, Street IH, Fran-
+pointing genes underlying the quantitative trait loci for root-knot
+cozorrilla JM, Zhang WJ, Hill K, Raines T, Solano R, Kieber
+nematode resistance in palaeopolyploid soybean by whole genome
+JJ, Loraine AE, Schaller GE (2017) Cytokinin induces genome-
+resequencing. Proc Natl Acad Sci USA 110(33:13469-13474
+wide binding of the type-B response regulator ARR10 to regulate
+Yang KW, Moon JK, Jeong NH, Chun HK, Kang ST, Back KW,Jeong
+growth and development tin Arabidopsis. Proc Natl Acad Sci USA
+SC (2011) Novel major quantitative trait loci regulating the con-
+114(29:E5995-E6004
+tent of isoflavone in soybean seeds. Genes Genom 33(6):685-692
+Yang Q, Li Z, Li WQ, Ku LX, Wang C, Ye. JR, Li K, Yang N, Li YP, Publisher's Note Springer Nature remains neutral with regard to
+Zhong T, Li JS, Chen YH, Yan JB, Yang XH, Xu ML (2013) jurisdictional claims in published maps and institutional affiliations.
+CACTA-like transposable element in ZmCCT attenuated photo-
+period sensitivity and accelerated the postdomestication spread of
+maize. Proc Natl Acad Sci USA 11042)16969-16974
+Springer

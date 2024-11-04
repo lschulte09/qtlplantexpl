@@ -1,0 +1,780 @@
+Theoretical land Applied Genetics
+htps/doi.org710.100750012-02003569-1
+ORIGINAL ARTICLE
+Check for
+updates
+Haplotype diversity underlying quantitative traits in Canadian
+soybean breeding germplasm
+RobertW. Bruce'.Davoud Tortamaneh--Christopher M. Grainger' François Belzile23.Milad Eskandari'.
+Istvan Rajcan'O
+Received: 18 November 2019/Accepted: 18 February 2020
+OSpringer-Verlag GmbH Germany,part ofSpringer Nature 2020
+Abstract
+Key message Identification of marker-trait associations and trait-associated haplotypes in breeding germplasm
+identifies regions under selection and highlights changes in haplotype diversity over decades of soybean improvement
+in Canada.
+Abstract Understanding marker-trait associations using genome-wide association in soybean is typically carried out in
+diverse germplasm groups where identified loci are often not applicable to soybean breeding efforts. To address this chal-
+lenge, this study focuses on defining marker-trait associations in breeding germplasm and studying the underlying haplotypes
+in these regions to assess genetic change through decades of selection. Phenotype data were generated for 175 accessions
+across multiple environments in Ontario, Canada. A set of 76,549 SNPS were used in the association analysis. A total of 23
+genomic regions were identified as significantly associated with yield (5), days to maturity (5), seed oil (3), seed protein (5)
+and 100-seed weight (5), of which 14 are novel. Each significant region was haplotyped to assess haplotype diversity of the
+underlying genomic region, identifying ten regions with trait-associated haplotypes in the breeding germplasm. The range
+of genomic length for these regions (7.2 kb to 6.8 Mb) indicates variation in regional LD for the trait-associated regions. Six
+of these regions showed changes between eras ofbreeding, from historicalto modern and experimental soybean accessions.
+Continued selection on these regions may necessitate introgression of novel parental genetic diversity as some haplotypes
+were fixed within the breeding germplasm. This finding highlights the importance of studying associations and haplotype
+diversity at a breeding program scale to understand breeders' selections and trends in soybean improvement over time. The
+haplotypes may also be used as a tool for selection of parental germplasm to inform breeder's decisions on further soybean
+improvement.
+Introduction
+The relationships between genotype and phenotype in soy-
+Communicated by Albrecht E. Melchinger.
+bean using genome-wide association (GWAS) are often
+studied in diverse germplasm panels; however, the find-
+Electronic supplementary material The online version ofthis
+ings from these types of studies are often difficult to apply
+article (humpel/dbi.ony10.1007A0012-02003569-1) contains
+supplementary material, which is available to authorized users.
+directly to regional crop improvement efforts. A first step in
+using data from germplasm studies for crop improvement is
+X Istvan Rajcan
+thorough characterization of germplasm in the breeding pro-
+irajcan@uoguelph.ca
+grams where selection is occurring. A second step is to apply
+Department ofPlant Agriculture, University ofGuelph,
+the knowledge gained through specific studies to improve
+Guelph, ON, Canada
+traits of high importance using all available resources. As
+2 Département de Phytologie, Université Laval, Quebec City,
+most agronomic traits in soybean are inherited in a quantita-
+QC, Canada
+tive fashion with effects from environment, efforts must be
+3 Institut de Biologie Intégrative et des Systèmes (IBIS),
+undertaken to identify genomic regions with associations to
+Université Laval, Quebec City, QC, Canada
+these traits in a breeding program environment to improve
+Published online: 19 March 2020
+Springer
+
+
+
+Theoretical and Applied Genetics
+breeder selections for crop improvement (Chaudhary et al. throughout the breeding process. We hypothesize that
+2015).
+marker-trait associations identified in breeding germplasm
+Genome-wide association studies have been extensively relate directly to the impacts of breeder selections. To under-
+conducted in soybean using diverse germplasm panels to stand the genetic impacts of soybean breeding within a sin-
+identify genomic regions with associations to agronomic gle breeding program, this study has several objectives: (1)
+traits. Sonah et al. (2015) used 139 accessions represent- test and identify marker-trait associations in soybean breed-
+ing Canadian short-season diversity to characterize major ing germplasm for major soybean traits, (2) haplotype the
+agronomic traits using 17 k SNP markers, identifying a total genomic regions underlying marker-trait associations within
+of 25 genomic regions associated with multiple agronomic a breeding program, (3) assess the changes in haplotype fre-
+traits corresponding to known trait-associated regions from quency within these haplotyped genomic regions across dec-
+quantitative trait loci (QTL) studies. A comprehensive study ades of soybean breeding and (4) define favorable haplotypes
+of 809 soybean accessions assessed 84 agronomic traits, for soybean improvement in regional breeding germplasm
+identifying 245 significant loci including many previously and identify markers associated with these haplotypes.
+identified genomic regions (Fang et al. 2017). The largest
+GWAS study in soybean used 12,000 accessions from the
+USDA germplasm bank to identify SNPS across five chro- Materials and methods
+mosomes with significant associations with seed protein and
+seed oil (Bandillo et al. 2015). Wild soybean has also been Panel composition and genotypes
+characterized using association analysis as demonstrated by
+Leamy et al.(2017), revealing novel regions associated with The 296 accessions studied capture the pedigree relation-
+seed traits which may be useful in future breeding efforts.
+ships in a breeding program over decades of selection
+Following up on their GWAS analysis, Bandillo et al. (Table S1). Modern elite cultivars were traced to histori-
+(2015) conducted further haplotyping of the significant cal accessions using pedigree records in the University of
+genomic regions, identifying regional trends in haplotype Guelph soybean breeding program (Bruce et al. 2019a).
+frequency which may be attributed to historical culinary Additional accessions were collected from several RIL
+preferences. Other haplotyping efforts have been undertaken (recombinant inbred line) populations (ten Chinese by Cana-
+for pathway-specific genes such as the E genes controlling dian RILS and eight Glycine max by Glycine soja RILS).
+maturity in soybean (Tardivel et al. 2014; Langewisch et al. Genotyping methods and data were described in Bruce et al.
+2014), soybean cyst nematode resistance (Liu et al. 2017) (2019b), with 76,549 genome-wide SNPS available for anal-
+and salinity tolerance (Patil et al. 2017).
+ysis in this study. In brief, the 296 accessions were geno-
+The comparison of genome-wide haplotypes in domesti- typed using a genotyping-byseqguencing protocol (Elshire
+cated and landrace soybeans and their wild ancestors have et al. 2011; Sonah et al. 2013) using multiple restriction
+shown that, on average, linkage block size has increased enzymes across the panel (Bruce et al. 2019b), with GBS-
+in modern soybean cultivars while the number of linkage derived reads aligned against the soybean Williams 82 ref-
+blocks in a given accession has decreased (Song et al. 2015). erence genome (Gmax_ 275_Wm82.a2.v1) (Schmutz et al.
+Lam et al. (2010) also identified tag SNPS using a linkage 2010) and SNPS called using Fast-GBS (Torkamaneh et al.
+disequilibrium (LD)-based haplotyping approach in wild and 2017). A minor allele frequency (MAF) filter of 0.05 and
+cultivated soybeans to characterize genomic change related heterozygous SNP filter of0.5 were applied prior to GWAS
+to domestication and selection. Haplotypes have also been and haplotyping. No missing data were present in the SNP
+used as input for association analysis, as the multi-allelic dataset.
+nature allows for better capture of the underlying alleles in
+the soybean genome (Contreras-Soto et al. 2017). Genome- Plantand seed phenotyping
+wide haplotyping in soybean has recently been demonstrated
+(GmHapMap), where the entire catalogue of soybean genes Soybean phenotype data were generated in multi-year trials
+has been haplotyped, demonstrating that haplotypes can be as described and analyzed by Bruce et al. (2019a) and fur-
+used to identify the trait-associated alleles responsible for ther described here. In brief, 175 accessions were trialed at
+phenotypic differences in germplasm (Torkamaneh et al. two locations (Woodstock, Ontario, and St Pauls, Ontario) in
+2019). Understanding haplotype frequencies in breeding 3 years (2015, 2016 and 2017) where major agronomic and
+germplasm can help breeders identify important genomic seed traits (yield, oil, protein, days to maturity (DTM), 100-
+regions for future crop improvement.
+seed weight (SDWT)) were measured in field trials (two rep-
+This study aims to improve the understanding of licates per location). Data were first processed per location
+marker-trait associations in a single breeding program using aradial smoothing procedure, followedby a combined
+and assess whether selection has altered these associations analysis in PROC GLIMMIX in SAS 9.4 (SAS Institute
+Springer
+
+
+
+Theoretical and Applied Genetics
+2013), both previously described for this data (Bruce et al. genomic region, defined as the "gene_center" position for
+2019a). A best linear unbiased estimator (BLUE) for every the analysis. The analysis included kinship (centered_IBS)
+trait in each accession was generated for input in the GWAS as generated in Tassel 5 (Bradbury et al. 2007) using the
+procedure (Figure S1) with a final total of fn= 175 observa- "cluster_2_measure == r2v." A range of parameters in Hap-
+tions for DTM and 100 seed weight, ,n= 167 observations for lotypeMiner was tested for each input, with final analysis
+yield and n == 166 observations for oil and protein.
+conducted using: "max_marker_to_gene_distance =4 Mb,"
+Broad-sense heritability (H?) and standard error (se) of "mat.flanting.plir.distance = 8 Mb," "cluster_thresh-
+H2 estimates for seed and agronomic traits for Guelph germ- old=0.9," "marker.independence. threshold=0.7," "min_
+plasm were calculated on a plot-mean basis according to allele_count == 2" and no minor allele frequency (MAF)
+Holland et al. (2003) in SAS 9.4 using the PROC MIXED filtering and heterozygote filtering. The SNP dataset was
+procedure. No fixed effects were fitted in the model, while filtered for MAF and heterozygous SNPs priorto the GWAS,
+the random effects were environment, block within environ- and the same dataset was used for the HaplotypeMiner anal-
+ment, genotype and genotype by environment interaction, ysis. A large mu.marter.o.geme.ditume was chosen SO
+with the covariance parameters used for H2 estimation.
+that regional LD would define the haplotypes, resulting in
+various lengths of haplotyped regions (Table S3). The con-
+Genome-wide association analysis
+cordance of haplotypes to underlying significant SNPS from
+the association analysis was checked through comparison
+GWAS analyses were performed using the rMVP package of marker classes found within each haplotype (Table S2).
+in R (htpsl/github.com/XiaoleiLiuBiofMVP) using the
+Haplotypes were filtered to remove haplotypes contain-
+Fixed and random model Circulating Probability Unification ing heterozygous markers. For the calling of haplotypes,
+(FarmCPU) model (Liu et al. 2016). Two different matrices any haplotype with fewer than five observations across the
+(PCA (covariate P) and fastStructure (covariate Q)) were panel was not used. For analyses using trait data, accessions
+usedto capture population structure. Two kinship matrices not containing phenotype data (on a per-trait basis) were
+provided estimates of the relatedness among individuals not used. Haplotype trait data was plotted in the ggplot2 R
+(covariates K= EMMA and K* = VanRaden) (Kang et al. package (Wickham 2016). Haplotypes were named accord-
+2008; VanRaden 2008; Li et al. 2013). Based on the cumu- ing to the underlying significant SNP for the region of inter-
+lative distribution ofp values for different traits, models that est, with a "_hap" after the trait name for differentiation
+took into account kinship and PCA (P+ K*) were found to (Table S1).
+provide the best fit. An adjusted p value (q value) to ensure a
+false discovery rate (FDR)<0.05 was used to establish a sig- Haplotype trends over time
+nificance threshold (Wang et al. 2012), with multiple models
+shown in Figure S2. The population structure and diversity Year of cultivar release was used to assess trends in hap-
+of the panel are previously described (Bruce et al. 2019b), lotypes within cultivars over time. Accessions were split
+but in brief, the population was generally homogeneous due into four groups: historical (n= 38), Guelph 1985-2005
+to the close relationships ofthe breeding germplasm. Asso- (n = 32), Guelph 2006-2016 (n= 31) and experimental
+ciations were in general at moderate frequency within the (n= 74). Historical accessions were those released before
+germplasm, as shown by the concordance data of significant 1985, both Guelph groups contained released cultivars based
+SNPs to haplotypes (Table S2).
+on year of release, and experimental accessions included
+Association analysis for the haplotypes was conducted unreleased experimental accessions and other research
+in Tassel 5 (Glaubitz et al. 2014) using the mixed linear germplasm tested at the University of Guelph (Bruce et al.
+model (MLM) method with kinship (Zhang et al. 2010). 2019a). Haplotype counts were plotted as frequencies of the
+Haplotypes were coded as multi-allelic SNPS (A-> AA, total haplotypes within a given group. Significant differences
+B-> TT, C->CC,. .), and significant associations of the among groups were tested with Fisher's exact test in R 3.5.3
+haplotypes were tested at p <0.05 using a FDR multiple (R Core Team 2018).
+testing correction.
+Haplotyping the germplasm
+Results
+Haplotypes were generated across the germplasm using the Genotypes and phenotypes for the association
+HaplotypeMiner (intpsJ/github.com/malemay/HaplotypeM analysis
+iner) R package (Tardivel et al. 2019) in R 3.5.3 (R Core
+Team 2018). The location input used for haplotyping was the In total, 175 accessions representing historical, modern and
+significant SNP associated with the trait of interest in each current experimental soybean breeding accessions at the
+Springer
+
+
+
+Theoretical and Applied Genetics
+University of Guelph were used for the GWAS (Table S1). significantly associated with seed protein, two on chromo-
+A singular value (BLUE) for each trait and accession was some 2 and one each on chromosomes 13, 18 and 20, with
+used as input for the association analysis, with the distribu- effect magnitudes of 0.3-1.1% of seed protein (Table 1).
+tions for all traits plotted (Figure S1). For 100-seed weight, Five regions were associated with 100 seed weight on chro-
+outliers for low seed weight were identified, though these mosomes 4, 8, 10, 14 ad 19 with effect magnitudes rang-
+were kept in the analysis as they were representative of the ing from 1.1 to 3.4 g per 100 seeds (Table 1). Five regions
+SCN RILS and natto-type soybeans in the field tests. Both were associated with yield on chromosomes 3, 6, 8, 17 and
+oil and protein were normally distributed (Shapiro-Wilk, 19, with effect magnitudes ranging from 91 to 230 kg ha-1
+p<0.05), while yield and DTM showed skewed distributions (Table 1).
+as a result of field conditions and panel composition. The
+SNP markers were evenly distributed genome-wide and at
+ahigh density (> 7 SNPs per 100 kb). A plot-mean H? was Haplotypes in the trait-associated regions
+calculated for the five studied traits, where estimates ranged
+from 0.58 for yield to 0.93 for 100 seed weight (Table S4). Using a LD-based haplotyping method, haplotypes were
+Overall, the SNP and phenotypic data were of high quality generated to overlap the identified marker-trait associations
+for GWAS.
+in the breeding germplasm (Table S1). Ofthe 23 significant
+loci identified through GWAS analysis, 21 were successfully
+Marker-trait associations in breeding germplasm
+haplotyped (Table S1). Ofthese 21 haplotyped regions, two
+were identified as monomorphic for the defined haplotype
+Genome-wide association analyses identified 23 significant within phenotyped germplasm due to removal of haplotypes
+marker-trait associations within the Guelph breeding germ- with heterozygous SNPS, while the maximum number of
+plasm for five traits: days to maturity (DTM), oil (%), protein haplotypes observed at a given region was five. The shortest
+(%), 100-seed weight (g) and yield (kg ha-) (Fig. 1). For identified haplotype was 7218 bp for sdwl_hap_cl4_32Mb
+DTM, five regions were identified as significant including and the longest extended over 6.8 Mb for oil_hap_c2_35Mb,
+annotated regions comprising the E1 gene (Xia et al. 2012) with an average haplotype length of 1.56 Mb (Table S3).
+with a 3.7-day effect on maturity, E2 (Watanabe et al. 2011)
+To confirm the association of haplotypes and the traits
+with a 2.9-day effect, E3 (Watanabe et al. 2009) with a 2.1- studied, violin plots were generated to assess trait distri-
+day effect and la region putatively associated with E8 (Cober bution within haplotype groups for each haplotyped region
+et al. 2010) with a 4.5-day effect. A region on chromosome 8 (Fig. 2). Then each haplotyped region was tested using a
+identified as E10 (Samanfar et al. 2017) was identified with multi-allelic MLM association analysis with kinship, where
+a 2.8-day effect on maturity (Table 1). In all cases except haplotypedregions with significant differences between hap-
+the putative E10locus, the major allele was associated with lotypes were identified (starred plots, Fig. 2). In total, 10 of
+later maturity.
+these haplotyped regions were found to be significantly asso-
+For seed oil, three regions were identified as significant ciated (p<0.05) with the trait originally identified through
+on chromosomes 2, 13 and 15 with effect magnitudes rang- the GWAS.
+ing from 0.2 to 0.5% of oil (Table 1). Five regions were
+e DTM
+Oil
+Protein
+# SDWT
+Yield
+e
+co
+-
+Chr 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Chromosome
+Fig. 1 Multi-trait Manhattan plot of association mapping results for within Guelph breeding germplasm using 77 k SNPS and FarmCPU
+yield (kg ha-y in green, seed oil (%) in yellow, seed protein (%) in in rMVP at FDR=0.05
+purple, maturity (days) in dark blue and 100-seed weight (g) in pink
+Springer
+
+
+
+Theoretical and Applied Genetics
+Table 1 Genomic regions
+Peak SNP ID (Chr:position (bp)) Effect
+p value
+Reference for previous association
+with significant associations
+in Guelph breeding program
+Maturity (DTM, days)
+germplasm
+DTM_Chr4:29569867
+4.47 4.02E-07 Putative E8 (Cober et al. 2010)
+DTM_Chr6:19647232
+3.71 3.45E-18 El (Xia et al. 2012)
+DTM_Chr8:46592501
+-2.85 2.12E-07 E10 (Samanfar et al. 2017)
+DTM_Chr10:43459815
+2.86 2.57E-12 E2 (Watanabe et al. 2011)
+DTM_Chr19-47355696
+2.08 2.70E-10 E3 (Watanabe et al. 2009)
+Yield(kg ha-')
+Yield_Chr3:337175
+-117.0 1.04E-09
+Yield_Chr6:15972416
+123.6 1.34E-09 Contreras-Soto et al. (2017)
+Yield_Chr8:46592501
+-230.7 2.93E-07
+Yield_Chr17-40326289
+-91.2 1.07E-06
+Yield_Chr19:41925595
+125.9 2.88E-09 *
+Protein (%)
+Prot_Chr2:1874984
+- 1.00 8.90E-07 *
+Prot_Chr2:23463134
+-0.34 1.06E-06 *
+Prot_Chr13:30619534
+0.41 7.57E-08
+Prot_Chr18:9451863
+-1.16 4.33E-08
+Prot_Ch20:34287472
+0.42 2.22E-07 Bandillo et al. (2015)
+Oil(%)
+Oil_Chr2:34950242
+0.22 8.04E-07 *
+Oil_Chr13:16117132
+0.32 1.50E-07 *
+Oil_Chr15:4928727
+-0.51 2.19E-07 Zhang et al. (2018)
+100-seed weight (g)
+SDWT_Chr4-40454191
+1.20 2.50E-08 Yan et al. (2017)
+SDWT_Chr8:47377001
+- 1.08 6.07E-09 *
+SDWT_Chr10:1496537
+2.01 3.55E-10 *
+SDWT-Chr1431655360
+-3.40 2.51E-18 *
+SDWT-Chr19-49238929
+1.56 8.46E-07
+*Not found in Soybase.org
+To further understand the concordance of the SNP-trait Changes in haplotype frequencies through breeding
+associations and the haplotype-trait associations, the con-
+cordance of SNP and haplotypes was assessed (Table S2). Haplotypes with significant trait association were plotted
+Significant SNP associations where the underlying SNP was by group, with each group defining an era of time in the
+in concordance with the haplotypes typically showed signifi- breeding program at the University of Guelph for a total of
+cance when tested with ahaplotype MLM association model 175 accessions to assess changes in haplotype frequency
+including yield_hap_c3_03Mb, yield_hap-c8.47Mb, yield_ over time. A total of six regions were identified to show
+hap_c17_40Mb, oil_hap_c2_35Mb, prot_hap.c13_31Mb, significant changes between eras of breeding in the Guelph
+sdwt_hap.c10_2Mb, sdwt_hap.c14_32Mb, dtm_hap_ accessions using Fisher's exact test (p<0.05) (Fig. 3).
+c8_47Mb, dim_hap.cl0_44Mb, dtm_hap.cl9.47Mb.
+Among the DTM-associated haplotypes, only dtm_hap_
+When the defined haplotypes were not consistent with the c8_47Mb had significant differences between the eras of
+genotypes of the significant SNP, no haplotype-trait asso- breeding, where haplotypes C and Ehave been removed from
+ciation was identified such as for yield hap_c6_16Mb and Guelph 2006-2016 accessions, and haplotype D has been
+prot hap_c2_ 2Mb (Table S3). Several haplotyped regions introduced to the experimental accession group (Fig. 3). The
+had only a single haplotype with phenotype data due to lack remaining DTM regions did not show significant changes in
+of phenotype data for alternate haplotypes such as for oil_ haplotype frequency. No 100-seed weight regions showed
+hap_c15_5Mb, sdwt_hap.c4_40Mb, dtm_hap_c4_30Mb.
+significant differences for haplotype frequency between eras
+of breeding, and in all three regions, the Guelph accessions
+were fixedfor the major (A) haplotype (Fig. 3). The low seed
+Springer
+
+
+
+Theoretical and Applied Genetics
+e
+9
+130
+3
+E 120
+E
+
+110
+110
+110
+110
+110
+-
+HAETTDAUJ
+A B C
+B
+B
+A
+de
+f 3000
+3
+a
+[2000
+S
+1000 *
+CiTEMEHEIM
+1000
+1000
+1000
+A B
+A
+B C
+47.5
+481
+47.51
+221
+22
+45.0
+21
+a
+a
+: 42.5
+E
+40.0
+40
+40.0
+18
+18
+*
+*
+38
+tintidolteiat
+17
+A
+B
+Haplotype
+25
+25
+25
+I 20
+20
+20
+a 20
+15
+15
+15
+i 15
+10
+10
+10
+10
+A
+B
+A
+B
+A
+B
+A
+B
+Haplotype
+Haplotype
+Haplotype
+Haplotype
+Fig. .2 Haplotype-trait violin plots for the haplotyped regions. Starred plots indicate a significant association was identified between the haplo-
+types and trait using a mixed linear model with kinship at p<0.05
+dtm_hap_c8.47Mb * dtm_hap.c10_44Mb
+dtm_hap_c19.47Mb
+yield.hap.e3.03Mb* yield.hap.c8.47Mb*
+1.00-
+0.75
+0.75
+0.75
+e
+0.50
+.5
+-
+0.50-
+-
+-
+0.25
+0.25
+0.25-
+Haplotype
+A
+0.00-
+0.00
+B
+yield.hap.c17.40Mb* prot_ hap_c13_31Mb * oil hap_c2_35Mb * sdwt_ hap_c10_2Mb sdwt hap_c14_32Mb
+1.00
+1.00
+1.00
+C
+D
+0.75
+0.75
+0.75-
+0.75
+0.75
+E
+E
+I -
+I -
+0.50
+0.50-
+0.50
+0.50
+0.50
+-
+I
+E
+0.25
+0.25
+0.25
+0.25
+0.25
+0.00
+0.00
+0.00
+0.00
+ser / / ere
+ser / / erp ver / / eAe Me / / er ser / / eAf
+Fig.3 Haplotype frequencies compared by group (historical (Hist), differences in allele frequency between groups were identified using
+Guelph 1985-2005, Guelph 2006-2016 and experimental (Exp)) for Fisher's exact test at p<0.05
+the ten trait-associated haplotypes. Starred plots indicate significant
+Springer
+
+
+
+Theoretical and Applied Genetics
+weight haplotype was only found in RILS resulting from et al. 2017; Zhang et al. 2018), the value of the individual
+a G.Max by G.Soja cross, though the differences were not significant results has decreased as many crop genomes
+significant.
+become fully annotated, necessitating the deeper study of
+Both oil (oil_hap_c2_35Mb) and protein (prot_hap_ these regions (Qian et al. 2017), especially in a well charac-
+c13_31Mb) showed significant changes in haplotype fre- terized species like soybean. The approach taken here was
+quency over the eras of breeding (Fig. 3). For oil_hap_ to define haplotypes surrounding these single-marker asso-
+c2_35Mb, the historical germplasm was nearly fixed for the ciations, as selection within breeding programs is on larger
+A haplotype conferring higher seedoil content, with a higher genomic regions rather than at the single gene scale. Study-
+frequency of the minor haplotypes in the Guelph breeding ing trends over time for these larger genomic regions allows
+germplasm. For prot hap_c13_31Mb, the historical acces- the understanding of how breeder selections have changed
+sions hadthe lowest frequency ofthe A haplotype conferring haplotype frequencies as a direct result of selection. The
+higher seed protein, similar frequencies in the two Guelph results presented are consistent with Fu et al. (2007) who
+eras and the highest frequency in the experimental acces- assessed diversity using SSR markers in Canadian and exotic
+sions (Fig. 3).
+germplasm finding changes due to breeder selections.
+All three yield regions showed significant changes
+The availability of fast and reproducible haplotyping
+between eras of accessions. The yield_hap.c3_03Mb methods for SNP data (Tardivel et al. 2019) allows for the
+region has lost the B haplotype conferring lower yields in assessment of large haplotypes within the soybean genome
+the Guelph 2006-2016 group (Fig. 3). For the yield_hap_ which may contribute to the understanding of genomic
+c8_47Mb region, the Guelph 2006-2016 group has only the changes due to breeding and selection in soybean which
+A and B haplotypes conferring high yield, where haplotype typically act in large genomic regions, rather than at the
+C was present in earlier accession groups. A mid-yielding gene level due to LD within the crop. The range of sizes for
+haplotype E was only found in historical and experimen- the described haplotypes shows that there is variability in
+tal accessions (Fig. 3). The lower yielding E haplotype is LD within the group of accessions used in this study, similar
+found at low frequencies across the germplasm, although to previously observed results for soybean LD (Hyten et al.
+it is lowest in Guelph 2006-2016 accessions (Fig. 3). The 2007).
+yield_hap.c17.40Mb region shows increasing haplotype C
+This work also demonstrated la repeatable approach for a
+frequency compared to historical accessions.
+study ofhaplotypes within crop germplasm panels with hun-
+dreds or thousands of samples using genome-wide SNP data,
+rather than single region haplotyping, or looking at major
+Discussion
+and minor allele frequencies for bi-allelic SNP markers at
+significant trait-associated regions. The study of multi-allelic
+Association analysis has been proven to be a robust method haplotypes can reveal patterns of diversity not visible using
+for identification of genomic regions associated with phe- bi-allelic SNPs (Grainger and Rajcan 2013). From the iden-
+notypic traits to improve the understanding of the genetic tified haplotypes, SNP markers can be identified to use in
+architecture of many traits in crop species. Previously, marker-assisted selection of progeny or for informed selec-
+marker-trait associations within closely related germplasm tion of parents within a breeding program.
+have been difficult to assess using association techniques due
+A benefit to studying haplotypes defined by significant
+to methodological limitations in implementing GWAS in marker-trait associations in dense SNP data is the ability to
+these types of populations. The FarmCPU method (Liu et al. narrow the region of interest using marker LD (Qian et al.
+2016) has worked well to identify these associations within 2017). The mapping resolution will still be limited by the
+breeding germplasm and allow for further characterization recombination with the population; however, this is popu-
+of these trait-associated regions. As a confirmation for the lation dependent. Defining haplotypes using SNP markers
+efficacy of the association analysis, identifying significant helps to identify functional alleles for traits of interest as
+SNPS associated with maturity for previously characterized previously demonstrated in wheat (Jiang et al. 2015), maize
+E genes (E1, E2, E3, E10 and a putative region contain- (Yang et al. 2013) and rice (Yano et al. 2016). It should be
+ing E8) shows that this approach is appropriate to study noted that while multiple haplotypes can be identified for
+marker-trait associations in closely related breeding acces- numerous regions of the genome, this approach does not
+sions. Additionally, other traits studied here such as protein help to differentiate functional alleles for a given trait as it
+show overlap between the significant region identified here is impossible to determine ifthe underlying causative alleles
+compared to multiple QTL studies such as protein on chro- are the same for haplotypes with the same mean trait per-
+mosome 20 (Zhao-ming et al. 2011).
+formance. While novel trait associations were identified in
+As GWAS has become a routine technique for assessing the set of breeding accessions studied, there were previous
+traits in plant germplasm panels (Bandillo et al. 2015; Fang
+Springer
+
+
+
+Theoretical and Applied Genetics
+associations for other traits at these regions which may be breeding context, and continued selection will require novel
+correlated with the traits identifiedhere.
+sources of diversity for future crop improvement.
+Based on the results presented, there is more study to be
+An important consideration for the use of these haplo-
+conducted on the pleiotropic effects of haplotypes within types in breeding is that the erosion of diversity in these
+breeding germplasm. This is evidenced by the selection of regions may be due to breeders having selected against
+haplotypes within the breeding program that do not appear unfavorable haplotypes. A remaining question about these
+to increase the trait value for traits which have been under regions is whether the absolute best haplotype has been
+improvement within the studied germplasm. A possible selected for, or the best of which was available in the germ-
+explanation is that these haplotypes have minor effects on plasm under selection. Further crossing, testing and study
+other traits below the threshold of detection. A more com- using diverse accessions will help to identify trends in wider
+plete dissection ofthese regions could address this question germplasm collections, rather than local trends within single
+in the future, including fine mapping using the boundaries breeding programs. This may be exemplified by looking at
+identified through haplotyping and functional characteriza- the SDWT results, where the novel haplotypes identified
+tion of the underlying causative genes. Some of the haplo- were within G. soja by G. max RILS, while no haplotypes
+types studied were not associated with the trait of interest were identified to have changed within standard breeding
+as shown in the MLM analyses. Several possibilities exist germplasm.
+to explain negative results including a low minor allele fre-
+Future extension of this research could be to conduct
+quency of the causative allele, the haplotypes generated do haplotype analyses within the United States Department of
+not represent the underlying SNPS very well, or the underly- Agriculture (USDA) soybean germplasm collection data
+ing genomic region is not well characterized with the SNP available through Soybase (Grant et al. 2010). Identifica-
+markers used in this study. Previous usage of the Haplo- tion ofbreeding-related haplotypes would allow for screen-
+typeMiner package has shown that not all regions could be ing of the USDA germplasm collection to identify novel
+properly haplotyped even when using dense, whole genome haplotypes for introgression to a breeding program while
+sequencing SNP data (Tardivel et al. 2019).
+minimizing the linkage drag of the wide-crosses conducted
+Application of a haplotyping approach within breeding in germplasm improvement efforts. Additionally, character-
+germplasm will allow for targeted trait improvement and izing haplotypes to understand haplotype by environment
+data-driven parental selection (Fig. 4). Identification of interactions will inform breeders on the best deployment of
+accessions with favorable haplotypes in a target environ- specific haplotypes for a given geographical region. The data
+ment will improve crossing outcomes. This approach was from haplotype-trait associations combined with regional
+described by Qian et al. (2017) to harness haplotype data for LD patterns provide valuable information for data-driven
+crop improvement. Studying and assessing these haplotypes parental selection in a breeding program. For example, using
+in routine breeding efforts will help breeders make informed a target ofhigh seed protein, abreeder could identify parents
+decisions about their germplasm and allow for understanding containing high protein haplotypes prior to crossing, ensur-
+of the trends within their breeding programs. While major- ing that progeny contain desired haplotypes for the trait of
+effect haplotypes are easily selected for, this study has shown interest.
+that these regions are already under selection pressure in a
+dtm_hap_c10_44Mb dtm_hap_c19_47Mb prot_hap_c13_31Mb oil_hap_c2_35Mb
+e à
+A
+Fig. 4 A model for parental selection using haplotypes in a breeding ideal haplotypes for early maturity, high protein and high oil. A cross
+program. In this example, the haplotypes are combined to select for between these two accessions combined with marker-assisted selec-
+high protein, high oil and short days to maturity (preferred haplo- tion could produce the ideal cultivar. This approach for assessing
+types highlighted in green with unwanted haplotypes shown in red). haplotypes in breeding germplasm can be used to select parents with
+The two example parental accessions show partial overlap with the beneficial haplotypes in targeted crosses and progeny screening
+Springer
+
+
+
+Theoretical and Applied Genetics
+Conclusion
+Cober ER, Molnar SJ, Charette M, Voldeng HD (2010) A new locus
+for early maturity in soybean. Crop Sci 50:524. https://doi.
+oploziaSempecaweouoi
+This work has identified genomic regions controlling Contreras-Soto RI, Mora F, de Oliveira MAR et al (2017) A genome-
+major agronomic and seed traits within breeding program
+wide association study for agronomic traits in soybean using
+germplasm at the University of Guelph soybean breeding
+SNP markers and SNP-based haplotype analysis. PLOS ONE
+program. Haplotype analysis revealed significant haplo-
+12:e0171105. hupeldbi.ongl10137l/,urmal.pome.017105
+Core Team R (2018) R: al language and environment for statistical com-
+type-trait associations within this germplasm, and further
+puting. R Foundation for Statistical Computing, Vienna Austria
+uncovered changes in haplotype frequencies over time Elshire RJ, Glaubitz JC, Sun Q et al (2011) A robust, simple geno-
+within the breeding germplasm as a result of breeders'
+typing-by-sequencing (GBS) approach for high diversity species.
+crossing and selection. Continued selection on these hap-
+PLOS ONE 6:e19379. htpsz/doi.ong/10.1371jourmal.pome.00193
+79
+lotypes could erode genetic diversity at major-effect loci, Fang C, Ma Y, Wu S et al (2017) Genome-wide association studies
+requiring the addition of novel genetic diversity to continue
+dissect the genetic networks underlying agronomical traits in soy-
+crop improvement. Our work demonstrates the importance
+bean. Genome Biol. MPAHZRINNISEHOTNARY
+of studying these trends in soybean breeding germplasm Fu Y-B, Peterson GW, Morrison MJ (2007) Genetic diversity of
+Canadian soybean cultivars and exotic germplasm revealed by
+as it serves as the gene pool from which new cultivars are
+simple sequence repeat markers. Crop Sci 47:1947. https://doi.
+developed.
+ap1031156mpe24012059
+Glaubitz JC, Casstevens TM, Lu Fet al (2014) TASSEL-GBS: a high
+Acknowledgements We would like to acknowledge funding support
+capacity genotyping by sequencing analysis pipeline. PLOS ONE
+from the Natural Sciences and Engineering Research Council of Can-
+9:e90346. htpszidoiop10137l,oumalpome.00346
+ada Collaborative Research and Development Grant (NSERC CRD) Grainger CM, Rajcan I(2013) Characterization of the genetic changes
+program and our industry partners including Grain Farmers of Ontario,
+in a multi-generational pedigree of an elite Canadian soybean
+Secan and Huron Commodities Inc. All of the mentioned funding is
+cultivar. Theor Appl Genet. htpsldsionpliai00ho013
+part of the NSERC CRD Grant No. CRDPJ 447948 - 13. We would
+2-013-2211-9
+also like to acknowledge Marc-André Lemay at Université Laval for Grant D, Nelson RT, Cannon SB, Shoemaker RC (2010) SoyBase, the
+his help with the HaplotypeMiner R package, the staff in Dr. Rajcan's
+USDA-ARS soybean genetics and genomics database. Nucleic
+research program in Guelph, ON, Colbey Templeman, Yesenia Salazar,
+Acids Res 38:D843-D846. MpulAbsiegliaionsewrdge
+Martha Jimenez, Mei Wang and Lin Liao, as well as Bryan Stirling in Holland JB, Nyquist WE, Cervantes-Martinez CT (2003) Estimating
+Dr. Eskandari's laboratory at Ridgetown, ON.
+and interpreting heritability for plant breeding: an update. Plant
+Breed Rev 22:9-112
+Author Contribution RB, CG, IR and IME performedproject planning. Hyten DL, Choi I-Y, Song Q et al (2007) Highly variable patterns of
+RB, DT and FB analyzed the data. RB, DT andIR prepared the manu-
+linkage disequilibrium in multiple soybean populations. Genet-
+script. All authors have reviewed the manuscript.
+ics 175:1937-1944. htpsz/doiong/l0.153a/genetic.106.069740
+Jiang Y,Jiang Q, Hao C et al (2015) A yield-associated gene TaCWI,
+in wheat: its function, selection and evolution in global breeding
+Compliance with ethical standards
+revealed by haplotype analysis. Theor Appl Genet 128:131-143.
+htpsz/doi.ongy10.1007k00122014-2417-5
+Conflictofinterest The authors declare no conflict of interest.
+Kang HM, Zaitlen NA, Wade CM et tal (2008) Efficient control of popu-
+lation structure in model organism association mapping. Genetics
+178:1709-1723. pasirgasepeslenien
+Lam H-M, Xu X, Liu X et al (2010) Resequencing of 31 wild and cul-
+tivated soybean genomes identifies patterns of genetic diversity
+References
+and selection. Nat Genet 42:1053-1059. htips/doi.org/10.1038
+ng.715
+Bandillo N,Jarquin D, Song Qet al (2015) A population structure and Langewisch T, Zhang H, Vincent R et al (2014) Major soybean matu-
+genome-wide association analysis on the USDA soybean germ-
+rity gene haplotypes.revealed by SNPViz analysis of72 sequenced
+plasm collection. Plant Genome. htpeldoiorynio3s3Splam
+soybean genomes. PLOS ONE 9:e94150. htps/doi.org/10.1371
+genome2015.04.0024
+journal.pone.0094150
+Bradbury PJ, Zhang Z, Kroon DE et al (2007) TASSEL: software for Leamy LJ, Zhang H, Li C et al (2017) A genome-wide association
+association mapping of complex traits in diverse samples. Bioin-
+study of seed composition traits in wild soybean (Glycine soja).
+formatics 23:2633-2635
+BMC Genom. MPANHTRINNISHAONSW4
+Bruce RW, Grainger CM, Ficht A et al (2019a) Trends in soybean LiH, Peng Z, Yang Xet al (2013) Genome-wide association study dis-
+trait improvement over generations of selective breeding. Crop Sci
+sects the genetic architecture of oil biosynthesis in maize kernels.
+59:12. hupelidbiorg/102135erropwc12018.1.0664
+Nat Genet 45:43-50. hmpglasioploioalhg284
+Bruce RW, Torkamaneh D, Grainger C et al (2019b) Genome-wide Liu X, Huang M, Fan B et al (2016) Iterative usage of fixed and random
+genetic diversity is maintained through decades of soybean breed-
+effect models for powerful and efficient genome-wide association
+ing in Canada. Theor Appl Genet. hmpclidbi.ong10.07A012
+studies. PLOS Genet 12:e1005767. hmpsldoionglo.137ljgurn
+2-019-03408-y
+al.pgen.1005767
+Chaudhary J, Patil GB, Sonah H et al (2015) Expanding omics Liu S, Kandoth PK, Lakhssassi N et al (2017) The soybean GmSNAP18
+resources for improvement of soybean seed composition traits.
+gene underlies twotypes of resistance to soybean cyst nematode.
+Front Plant Sci. htpsz/doi.org/103389/fpls2015.01021
+Nat Commun. htps/doi.org/10.1038/ncomms14822
+Patil G, Mian R, Vuong Tet al (2017) Molecular mapping and genom-
+ics of soybean seed protein: a review and perspective for the
+Springer
+
+
+
+Theoretical and Applied Genetics
+future. Theor ApplGenet 130:1975-1991. htps/doi.org/10.1007 Watanabe S, Hideshima R, Xia Z et al (2009) Map-based cloning of
+s00122-017-2955-8
+the gene associated with the soybean maturity locus E3. Genet-
+Qian L, Hickey LT, Stahl A et al (2017) Exploring and harnessing
+ics 182:1251-1262. htpsz/doiong/l0.153a/genetic.10s.095772
+haplotype diversity to improve yieldstability in crops. Front Plant Watanabe S, Xia Z, Hideshima R et al (2011) A map-based clon-
+Sci. htpsz/doi.org/10.3389/fpl.2017.01534
+ing strategy employing a residual heterozygous line reveals
+Samanfar B, Molnar SJ, Charette M et al (2017) Mapping and lidenti-
+that the GIGANTEA gene is involved in soybean maturity and
+fication of a potential candidate gene for a novel maturity locus,
+flowering. Genetics 188:395-407. hmpsldoiongloisslgend
+E10, in soybean. Theor Appl Genet 130:377-390. https://doi.
+ics.110.125062
+aploito0h0120162897
+Wickham H (2016) ggplot2: elegant graphics for data analysis.
+SAS Institute (2013) The SAS system for windows. Release 9.4. SAS
+Springer, New York
+Inst., Cary, NC
+Xia Z, Watanabe S, Yamada T et al (2012) Positional cloning and
+Schmutz J, Cannon SB, Schlueter J et al (2010) Genome sequence of
+characterization reveal the molecular basis for soybean maturity
+the palaeopolyploid soybean. Nature 463:178-183. https://doi.
+locus E1 that regulates photoperiodic flowering. Proc Natl Acad
+orp10.10Vhature08670
+Sci 109:E2155-E2164. htps/doi.org/10.1073/pmas.1117982109
+Sonah H, Bastien M, Iquira E et al (2013) An improved genotyping by Yan L, Hofmann N, Li S et al (2017) Identification of QTL with large
+sequencing (GBS) approach offering increased versatility and effi-
+effect on seed weight in a selective population of soybean with
+ciency of SNP discovery and genotyping. PLOS ONE 8:e54603.
+genome-wide association and fixation index analyses. BMC
+hupesidoiorgn1o137l/jommalpome.0054605
+Genom. htps/doi.ong/10.1186s1186512864-017-3922-0
+Sonah H, O'Donoughue L, Cober E et al (2015) Identification of loci Yang Q, Li Z, Li W et al (2013) CACTA-like transposable element
+governing eight agronomic traits using a GBS-GWAS approach
+in ZmCCT attenuated photoperiod sensitivity and accelerated
+and validation by QTL mapping in soya bean. Plant BiotechnolJ
+the postdomestication spread of maize. Proc Natl Acad Sci
+13:211-221. Mpldbueglaillph.zae
+110:16969-16974. htpsz/idoiorg10.1073/pms.1310949110
+Song Q, Hyten DL, Jia G et al (2015) Fingerprinting soybean germ- Yano K, Yamamoto E, Aya K et al (2016) Genome-wide association
+plasm and its utility in genomic research. G3 Genes Genomes
+study using whole- -genome sequencing rapidly identifies new
+Genet 5:1999-2006. htps/doi.org/10.1534/3.115.019000
+genes influencing agronomic traits in rice. Nat Genet 48:927-934.
+Tardivel A, Sonah H, Belzile F, O'Donoughue LS (2014) Rapid
+hmpldbsiogloi0shg3596
+identification of alleles at the soybean maturity gene E3 using Zhang Z, Ersoz E, Lai C-Q et al (2010) Mixed linear model approach
+genotyping by sequencing and la haplotype-based approach. Plant
+adapted for genome-wide association studies. Nat Genet 42:355-
+Genome. hmpclidbiongloas.Spimtplamtgenome2013.10004
+360. hmplidsiogloioshgsl6
+Tardivel A, Torkamaneh D, Lemay M-A et al (2019) A system- Zhang J, Wang X, Lu Y et tal (2018) Genome-wide scan for seed com-
+atic gene-centric approach to define haplotypes and identify
+position provides insights into soybean quality improvement and
+alleles based on dense SNP datasets. Plant Genome. https://doi.
+the impacts of domestication and breeding. Mol Plant 11:460-
+ory/10.3835/plantgenome2018.08.0061
+472. htpsz/doi.org10.1016j1016,molp2017.12016
+Torkamaneh D, Laroche J, Bastien M et al (2017) Fast-GBS: a new Zhao-ming Q, Ya-nan S, Qiong W et tal (2011) A meta-analysis of fseed
+pipeline for the efficient and highly accurate calling of SNPS
+protein concentration QTL in soybean. Can J Plant Sci 91:221-
+from genotyping-by-sequencing data. BMC Bioinform. https:l1
+230. Mepuldsiagyioallsgpowios
+doi.org/10.1186s12859-016-1431-9
+Torkamaneh D, Laroche J, Valliyodan B et tal (2019) Soybean haplotype Publisher's Note Springer Nature remains neutral with regard to
+map (GmHapMap): a universal resource for soybean translational jurisdictional claims in published maps and institutional affiliations.
+and functional genomics. bioRxiv. hmpalidbiopl0110us34575
+VanRaden PM (2008) Efficient methods to compute genomic pre-
+dictions. J Dairy Sci 91:4414-4423. htps/doi.org/10.3168/
+jds.2007-0980
+Wang M, Yan J, Zhao J et al (2012) Genome-wide association study
+(GWAS) of resistance to head smut in maize. Plant Sci 196:125-
+131. htpsl/doi.orpyli0.1016fphamtsci201208.004
+Springer

@@ -1,0 +1,781 @@
+frontiers
+ORIGINALI RESEARCH
+in Plant Science
+published: 17 August 2016
+doi: 10.389/p52016.01214
+CrossMark
+Genome-Wide Association Study of
+Resistance to Soybean Cyst
+Nematode (Heterodera glycines) HG
+Type 2.5.7 in Wild Soybean (Glycine
+soja)
+Hengyou Zhang ', Chunying Li?, Eric L. Davis?, Jinshe Wangs, Joshua D. Griffin *,
+Janice Kofsky' and Bao-Hua Song 1*
+1 Bao-Hua Song Lab, Department of Biological Sciences, University of North Carolina at Charlotte, Charlotte, NC, USA, 2Eric
+Davis Lab, Department ofPlant Pathology, North Carolina State University, Raleigh, NC, USA, 3Institute of Industrial Crops,
+OPEN ACCESS Henan Academy ofAgricultural Sciences, National Subcenter for Soybean Improvement/Key Laboratory ofOil Crops,
+Zhengzhou, China, 4SAS Institute, Cary, NC, USA
+Editedby:
+Naveen C. Bisht,
+National Institute of Plant Genome Soybean cyst nematode (SCN) is the most destructive soybean pest worldwide. Host
+Research, India plant resistance is the most environmentally friendly and cost-effective way of mitigating
+Reviewed by: SCN damage to soybeans. However, overuse of the resistant soybean [Glycine max
+Humira Sonah, (L.) Merr.] cultivars from limited genetic resources has resulted in SCN race shifts in
+Laval University, Canada
+Rupesh Kailasrao Deshmukh, many soybean-growing areas. Thus, exploration of novel sources of SCN resistance and
+University ofMissouri, Canada dissection of the genetic basis are urgently needed. In this study, we screened 235 wild
+"Correspondence: soybean (Glycine soja Sieb. & Zucc.) accessions to identify genotypes resistant to SCN
+Bao-Hua Song
+bsong5@uncc.edu HG Type 2.5.7 (race 5), a less investigated type but is prevalent in the southeastern
+US. We also dissected the genetic basis of SCN resistance using a genome-wide
+Specialty section: association study with SNPS genotyped by SoySNP50k iSelect BeadChip. In total,
+This article was submitted to 43 resistant accessions
+index <
+with
+Plant Genetics and Genomics,
+(female
+30) were identified,
+10 SNPS being
+a section of the journal significantly associated with SCN HG 2.5.7 resistance in this wild species. Furthermore,
+Frontiers in Plant Science four significant SNPS were localized to linked regions ofthe known quantitative trait locus
+Received: 22 June 2016 (QTL) rhg1 on chromosome 18. The other four SNPS on chromosome 18 and two SNPS
+Accepted: 02 August 2016
+Published: 17. August 2016 onchromosome 19 arenovel. Genes encoding disease resistance-related proteins with a
+Citation: leucine-rich region, a mitogen-activated protein kinase (MAPK) on chromosome 18, and
+Zhang H, LIC, Davis EL, Wang J, a MYB transcription factor on chromosome 19 were identified as promising candidate
+Griffin JD, Kofsky Jand Song B-H genes. The identified SNPS and candidate genes will benefit future marker-assisted
+(2016) Genome-Wide Association
+Study of Resistance to Soybean Cyst breeding and dissection of the molecular mechanisms underlying the soybean-SCN
+Nematode (Heterodera glycines) HG interaction.
+Type 2.5.7 in Wild Soybean (Glycine
+soja). Front. Plant Sci. 7:1214. Keywords: genome-wide association analysis, soybean cyst nematode, SCN, wild soybean, Glycine soja,
+doi: 10389/p6:.2016.01214 resistance
+Frontiers in Plant Science I www.frontiersin.org
+1
+August 20161 IVolume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+INTRODUCTION
+an alpha-SNAP, and the WI12 protein) and rhg-4 (a serine
+hydroxymethyltransferase Liu et al., 2012) confer resistance
+Soybean [Glycine max (L.) Merr.] is one of the most important to SCN.
+economic crops. Ithas been cultivated for thousands of years and
+SCN HG Type 2.5.7 is prevalent in the south-eastern US. Our
+provides protein for humans and animal consumption. However, understanding of soybean resistance to HG 2.5.7 is primarily
+soybean plants are challenged by soybean cyst nematode (SCN, based on linkagemapping using segregatedpopulations. An early
+Heterodera glycines Ichinohe). SCN is the most devastating pest study by Anand and Raoarelli (1989) indicated that at least
+that causes severe soybean [Glycine max (L.) Merr.] yield loss one gene controls soybean resistance to HG 2.5.7. Thus far, at
+worldwide. It also has been demonstrated that SCN suppresses least 22 QTLs distributed on 10 chromosomes (1, 5, 6, 8, 10,
+seed yield more than any other single soybean pathogen 11, 15, 18, 19, and 20) have been associated with resistance to
+(Wrather and Koenning, 2006). Although nematicides have HG 2.5.7 (race 5; Yue et al., 2001a,b; Guo et al., 2006a,b; Wu
+shown some short-term efficacy for SCN management, they are et al., 2009; Vuong et al., 2010; Abdelmajid et al., 2014). Among
+costly and not environmentally friendly. Rotations to non-host these QTLS, genomic regions either containing or adjacent to the
+crops are effective but dependent upon the profitability and rhgl locus on chromosome 18 have repeatedly been identified
+practicality of the non-host crop. In contrast, the development using different resistant soybean sources (Yue et al., 2001a;
+and use of resistant soybean cultivars is a cost-effective and Guo et al., 2006a,b; Wu et al., 2009), suggesting the presence
+environmentaly-friendy means of managing SCN. Continuous of highly important genes in this region that confer HG 2.5.7
+use of a single resistant cultivar in a certain field generally resistance. In addition, the results ofa previous study (Concibido
+drives the SCN population to evolve to overcome host resistance, et al., 2004) suggest that this region also confers broad-spectrum
+however, diminishing the utility of any given SCN-resistant resistance to many other SCN HG types. Despite progress in
+soybean cultivar.
+identification of the QTLs underlying resistance to HG 2.5.7,
+The variability in SCN populations was developed into a pinpointing causal genes in large QTL regions and dissecting
+scheme of 16 potential races of SCN based on four soybean the molecular mechanisms underlying resistance to this HG type
+genotypes (whichactually represent three genetic sources ofSCN remain challenging.
+resistance; Riggs and Schmitt, 1988). Because the term "race" is
+The genome-wide association study (GWAS) strategy is
+inappropriate for characterization ofa heterogeneous population considered an efficient and complementary approach to classical
+ofSCN genotypes, a system foridentifying SCNS by HG Type was bi-parental QTL mapping for elucidating the genetic basis of
+developed using seven independentsources ofsoybean resistance complex trait variation (Sonah et al., 2015). By applying GWAS
+to SCN (Niblack et al., 2002). Although HG Type is a superior approach to cultivated soybean populations, the previously
+measure of SCN variability, the soybean-breeding efforts over identified QTLs associated with SCN resistance have recently
+past decades have often documented SCN race; that terminology been verified, and novel candidate genes have been discovered
+is occasionally used here only for direct comparison to previous in relatively less time (Han et al., 2015; Vuong et al., 2015). To
+breeding andmapping reports. Themajority of available soybean date, large-scale screening of resistance responses to HG Type 0
+cultivars have sources of resistance to SCN races 1 (HG Type and HG Type 1.2.3.5.7, followed by GWAS, has been conducted
+2) or 3 (HG Type 0), though, increased nematode reproduction in cultivated soybean populations (Han et al., 2015; Vuong et al.,
+by resistance-breaking SCN populations (Delheimer et al., 2010) 2015). Conversely, dissecting the genetic basis of resistance to
+has been observed for the even more recent soybean genotypes SCN HG 2.5.7 applying GWAS strategy has not been reported
+derived from PI437654 with resistance to "all races" of SCN for either cultivated populations or wild relatives.
+(Anand, 1991). As all current sources of SCN resistance are
+Glycine soja Sieb. & Zucc. is the wild progenitor of cultivated
+derived from accessions of cultivated soybean (G. max), it seems soybean. During the domestication process, more than half of
+appropriate to explore new sources ofresistancetoSCNin related the genome-wide genetic diversity was lost (Zhou et al., 2015)
+wild species of soybean.
+in cultivated soybea. This genetic "bottleneck" in soybean has
+A key step in developing SCN-resistant varieties is elucidation hindered the development of diverse soybean cultivars resistance
+of the genetic basis of resistance. To date, knowledge of to multiple races of SCN. To enrich the resistant gene pool, it
+the genetic basis of soybean SCN resistance is largely based is necessary to identify and utilize novel and exotic resources
+on classical quantitative trait locus (QTL) mapping studies. beyond the currently employed soybean cultivars. Compared
+Additionally, most research has focused on dissecting the with cultivated soybeans growing in a farmed field, G. soja
+mechanism of soybean resistance to races 1 and 3, which are experiences various environmental abiotic and biotic stresses.
+prevalent in the central US. The identification of two QTLS, And thus, it holds great potential for developing varieties
+rhgl on chromosome 18, conferring HG Type 0 resistance tolerant/resistant to environmental stress. In addition, G. soja
+(Cook et al., 2012), and Rhg4 on chromosome 8, conferring and G. max are cross-compatible, producing vigorous and fertile
+HG Type 7 resistance (Liu et al., 2012), has suggested a race- Fi seeds; therefore, transfer of useful genes to soybean cultivars
+specific resistance mechanism for the soybean-SCN interaction. is efficient without use of biotechnology. A number of studies
+However, race specificity is relatively unusual because cloning of have shown the potential of employing G. soja to identify genes
+the rhgl (Cook et al., 2012) locus indicated that rather canonical underlying tolerance to various abiotic (Qi et al., 2014) and biotic
+NB-LRR resistance genes (DeYoung and Innes, 2006), the copy stresses (Winter et al., 2007; Kim et al., 2011). Regardless, only a
+number of three tandem genes (an amino acid transporter, few studies have applied G. soja to identify QTLs for resistance to
+Frontiers in Plant Sciencel lwww.frontiersin.org
+2
+August 20161 IVolume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+HG 2.5.7 using traditional QTL mapping methods (Kim et al., Population Structure and Linkage
+2011; Kim and Diers, 2013), whereas no studies have applied Disequilibrium Analysis
+high-density single-nucleotide polymorphism (SNP) markers for The population structure of the G. soja accessions was
+understanding the genetic basis of SCN resistance to HG 2.5.7 determined using principle component analysis (PCA) in the
+with GWAS in G. soja.
+GAPIT software package (Lipka et al., 2012). A neighbor-joining
+In this study, we screened a set of 235 G. soja accessions (NJ) tree was constructed using TASSEL (Bradbury et al., 2007)
+with the aims of (1) identifying HG 2.5.7-resistant accessions and visualized with MEGA version 7.0 (Kumar et al., 2016).
+in the G. soja population, (2) identifying genomic regions Pairwise linkage disequilibrium (LD) between SNP markers was
+significantly associated with HG 2.5.7 resistance using genome- calculated using squared allele frequency correlations (r2) with
+wide association mapping with SNPS genotyped by SoySNP50k the R package synbreed (Wimmer et al., 2012). Only r2-values
+iSelect BeadChip, and (3) identifying candidate genes involvedin for SNPS with a pairwise distance less than 1 Mb from each
+HG 2.5.7 resistance.
+chromosome were adopted to assess the average LD decay, as
+previously described (Zhou et al., 2015). The LD decay rate of
+MATERIALS AND METHODS
+the population was defined as the chromosome distance at which
+the average r2 decreased to halfofits maximum value (Lam et al.,
+Plant Materials and SCN Bioassay
+2010).
+Atotal lof235 G. sojaaccessionsfrom USDA Soybean Germplasm
+Collection were used for resistance screening and association Genome-Wide Association Analysis
+analysis (Table S1). This set of G. soja accessions was originally The association analysis was performed with Compressed Mixed
+from four East Asian countries: China, Japan, Korea, and Russia Linear Model (CMLM) in GAPIT (Lipka et al., 2012) using the
+(Figure 1A). SCN HG Type 2.5.7 was verified using HG type test first three PCs and Kinship matrix to control the population
+indicator lines (Peking, PI88788, PI90763, PI437654, PI209332, structure. The threshold of significance for association was
+PI89772, and PI548316) used in Niblack et al. (2002) before the determined using the empirical significance values (P < 0.001)
+large screening experiment. The verification results are shown in generated from 1000 permutations of association analyses, as
+Table S2. SCN HG Type 2.5.7 has been maintained on susceptible previously described (Zhang et al., 2015b).
+soybean CV. Williams 82 in a greenhouse at the University of
+North Carolina, Charlotte for more than 30 generations.
+Candidate Gene Prediction
+Seeds ofall accessions were first stratified and then germinated Genes located within 50 kb on either side of significant SNPS
+on germination paper for 3-4 days. Each seedling was then were selected as possible candidate genes. The protein sequences
+transplanted into a cone container (Stuewe & Sons, Tangent, encoded by the predicated genes were retrieved from the
+Oregon, USA) containing a pasteurized soil/sand mixture. Four Phytozome database Ohtplpbyteomegadecge) Functional
+plants of each G. soja accession, seven soybean indicator lines and annotation of the genes was conducted using BLAST2GO
+cv. Williams 82 as a susceptible control were used for inoculation. software with a BLASTP search (Conesa et al., 2005), as
+The plants were grown in a randomized complete block design in well as reference annotation of the soybean reference genome
+a greenhouse maintained at 27°C with 15h oflight per day. Two Wm82.a2.vl (SoyBase, htpl/www.soybasc.org and previously
+days after transplanting, the roots of each individual plant were published literature.
+inoculated with 2500 SCN eggs; the plants were wateredregularly
+to maintain soil moisture. Female cysts were collected from the RESULTS
+root samples and soil and counted under a stereomicroscope
+35 days after inoculation. The average number of females of Variation in Resistance Levels among
+four replicates was used for calculation of the female index (FI) G. soja Accessions
+using the following equation: FI = (number of females on a Phenotypic evaluation revealed a broad range of SCN HG 2.5.7
+given individual/average number of females on the susceptible resistance in the 235 G. soja accessions, with FI values from
+control)/100 (Niblack et al., 2009).
+3.2 to 277.4% (Figure S1). A total of 43 resistant accessions
+were identified, with eight showing a high level of resistance
+Genotype Data and Quality Control
+(0 < FI < 10) and 35 having moderate resistance to HG 2.5.7
+SNP data for the 235 G. soja accessions were retrieved from the (10 < FI < 30).
+publically available SoyBase website (htpulsoybasc.orgsnps),
+To investigate whether the resistance levels of G. soja are
+Illumina SoySNP50k iSelect BeadChip (Illumina, San Diego, CA. related to the original ecological distribution (Figure 1A), the
+USA) containing a total of 52,041 SNPS was used to genotype FI values of the resistant accessions were plotted against their
+the USDA soybean and wild soybean germplasm, as describedin country of origin. As shown in Figure 1B, although great
+previous studies (Song et al., 2013,2015). SNPS without a physical variation in FIs was observed, accessions from Japan and South
+position on any of the 20 G. max chromosomes or those with a Korea showed higher resistance levels on average compared with
+minor allelefrequency (MAF) < 0.05 were excluded from further those from China and Russia. Upon close investigation of the
+analyses. Markers with a missing rate of > 10% were eliminated, data, we found that six of the eight highly resistant accessions
+and remaining missing data were imputed using BEAGLE (v (0 < FI < 10) were originally from Japan and the remaining two
+3.3.1; Browning and Browning, 2007,2009).
+from China and South Korea.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+3
+August 20161 Volume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+A
+B
+8
+55900' NH
+a
+&
+-
+11
+50°00' N-E
+e
+s
+China Japan SouthKorea Russia
+45°00' N-
+I
+40°00' N-
+35900' N-
+China
+Japan
+Russia
+e South Korea
+110°00' E
+115900' E
+120°00' E
+125°00' E
+130°00' E
+135900' E
+Longtitude
+FIGURE 11 (A) Geographic distribution of 235 G. soja accessions in East Asia. (B) Box plot showing differences in female index (FI < 30) between four countries in
+East Asia.
+SNP Data and LD Analysis
+kinship estimates between accessions ranged from 0 to 0.05,
+A total of 41,087 SNPs were polymorphic in our data set; with a continuously decreasing number of pairs as kinship
+after quality control, 32,187 SNPS with an MAF N 0.05 were estimates increased in the estimate categories. This result
+used for further analyses. The SNP numbers ranged from revealed that most accessions in the panel had a null or weak
+1235 on chromosome 20-2392 on chromosome 18, with an kinship.
+average of 1609 for each soybean chromosome. Accordingly, the
+To further understand population stratification in our
+SNP density across chromosomes ranged from 43.9 kb/SNP on population, an NJ tree for the 235 G. soja accessions was
+chromosome 1-22.1 kb/SNP on chromosome 8, with an average constructed using 32,187 SNPS. As shown in Figure 2C, the
+genome-wide SNP density of one SNP per 30 kb (Figure S2).
+resulting NJ tree classified the population into threelarge clusters,
+To evaluate the mapping resolution for GWAS, the with accessions from Japan and South Korea each forming a
+distribution of the average extent of LD decay as well as cluster and accessions from China and Russia sharing one larger
+the r2-value between different physical distances on each cluster. The high correlation between the geographical origin
+chromosome were quantified. As shown in Figure 2A, LD decay and population structure of the 235 accessions suggested that
+was different on each chromosome, ranging from 6.0kb on geographical origin is the main factor affecting the population
+chromosome 16-26.1 kb on chromosome 10 (Figure 2A; Figure structure of the panel. Based on the distribution of maturity
+S3). The average LD decay for all chromosomes was estimated at groups (MGs) for each accession in the NJ tree, no obvious
+10 kb. Chromosome 18 ranked among the top five chromosomes correlation was observedbetween population structure and MGs.
+showing the high levels ofLD.
+We also conducted PCA for this association panel using the
+same SNP set. Figure 2D illustrates the consistent result, as
+Relative Kinship and Population Structure shown in the NJ tree (Figure 2C), observed by referencing the
+The relative kinship between any two G. soja accessions was country of origin. Furthermore, we found that the first three
+estimated. As shown in Figure 2B, 69.1% of the pairwise PCs, which explained 13.8% of the genetic variation, could
+Frontiers in Plant Sciencel lwww.frontiersin.org
+4
+August 2016 IVolume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+A
+B
+:
+som (Ab)
+8
+CNromo
+S
+8
+a
+I
+I
+ALS
+3
+a
+a
+I I I
+I
+a
+8
+8
+o 200 Dbstance DAast 800 1000
+0.00-0.05 0.05-0.10 0.10-0.15 0.15-0.20 0.20-0.25 0.25-0.30 0.30-0.35 0.35-0.40 0.40-0.45 0.45-0.50 >0.50
+Relative kinship
+OLILMLV
+E
+C
+D
+8
+8
+8 e
+8
+KY
+0<FI<10 -
+le
+-
+:
+20<F1<30 10<FI<20
+-0.15 -0.10 -0.05 0.00 0.05
+-0.15 -0.10 -0.05 0.00 0.05
+NU
+PC1
+PC1
+IN
++Russia :
+E
+FIGURE 21 Analysis of LD decay, relative kinship, and estimated population structure. (A) LD decay pattern of SNPS on 20 soybean chromosomes. The
+distance (kb) ofLD decay per chromosome is given beside the legend. (B) Distribution of pairwise kinship for 235 G. soja accessions. (C) Unrooted NJ tree of 235
+G. soja accessions. The maturity group (MG) for each accession is labeled with Roman numerals based on the clusters. Resistant and moderately resistant
+accessions are marked withas solid circle (FI < 10), square (10 < FI < 20), and diamond (20 < FI < 30). (D) Plot of the first two PCs of the panel based on country of
+origin. (E) Plot of grouping results of the panel based on the first three PCs. The color-coded subpopulations indicated in (C-E) represent the country of origin.
+effectively separate the association panel into three clusters Prediction of Candidate Genes for SCN
+(Figure 2E); this result is consistent with the NJ tree. Thus, we Resistance
+used the first three PCs to account for the observed population Based on detailed annotations for the soybean reference genome
+structure.
+in SoyBase Chtp/www.soybascorg. we further predicted
+candidate genes within the 50 kb region on each side of the
+Genome-Wide Association Analyses
+10 associated SNPS (Table 1). Only one (ss71561193) of the
+A total of 10 SNPS significantly associated with SCN resistance to 10 SNPS is located within a gene, Glyma.18g196200, which
+HG Type 2.5.7 were identified by GWAS under CMLM, which encodes an mRNA capping enzyme family protein involved in
+controlled for population structure and familial relatedness transferring phosphorous.containing groups (SoyBase, http:ll
+(Table 1; Figure 3). Interestingly, the 10 significant SNPS were www.soybase.org). The other nine SNPS are located in intergenic
+distributed on two chromosomes: 18 and 19. Ofthe 10 significant regions. A total of 58 gene models were predicted within the
+SNPS, eight could be grouped into two loci on chromosome 18. search region (Table S3), 16 of which are related to disease
+One locus containing four SNPS is located in the linked regions resistance based on published literature and considered to be
+(5.8-12.0 Mb) ofknown rhgl, which were reported as conferring candidate genes associated with SCN resistance (Table S4).
+resistance to multiple SCN HG types (races), including HG Type This candidate list includes genes encoding leucine-rich repeat
+2.5.7 (previously named race 5; Yue et al., 2001a). The otherl locus (LRR)-containing resistance (R) proteins or protein kinases
+on chromosome 18 is adjacent to the previously reported race (PKS), a receptor-like protein, a RING/U-box protein, and
+5 resistance QTL (SCN 20-4; Yue et al., 2001a). The other two MYB family transcription factors. Briefly, two identified LRR-R
+SNPS are located on chromosome 19, from 35.5 to 37.8 Mb, a genes (Glyma.18g077900 and Glyma.18g078000) are close to
+region that partially overlaps with a previously reported region SNP ss715632647. The gene Glyma.18g078000, which showed
+conferring SCN resistance to HG Type 0 (race 3; Vuong et al., root-specific expression in soybean (Severin et al., 2010), is
+2015). The 10 association SNPS explained 10.93-13.93% of the only 5.4 kb away from SNP Ss715632647. In addition, two
+total phenotypic variation.
+PK-encoding genes (Glyma.18g106800, Glyma.18g107000) and
+Frontiers in Plant Sciencel lwww.frontiersin.org
+5
+August 20161 IVolume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+TABLE 11 Significant SNPS and predicted candidate genes associated with SCN HG Type 2.5.7 resistance in G. soja.
+SNP
+Chr Position P-value MAF R2 (%) QTLS
+Gene model
+Functional description
+ss715631923 18 5,814,672 6.38E-06 0.15 13.62 Yue et al., 2001a Glyma.18G063400 Pleiotropic drug resistance
+Glyma.18G063500 RING/U-box superfamily protein
+Glyma.18G064100 Calmodulin-binding receptor-like kinase
+ss715632647 18 7,450,433 1.05E-04 0.06 11.24 Yue et al., 2001a Glyma.18G077900 CC-NBS-LRR class disease resistance protein
+Glyma.18G078000 NB-ARC-containing disease resistance protein
+SS715628640 18 12,004,584 1.36E-04 0.06 11.02 Yue et al., 2001a Glyma.18G106800 Mitogen-activated protein kinase
+SS715628650 18 12,044,370 1.45E-04 0.06 10.97 Yue et al., 2001a Glyma.18G107000 Ribose-phosphate pyrophosphokinase
+Glyma.18G107100 Glycerol-3-phosphate acyltransferase
+Ss715631131 18 46,643,373 1.52E-04 0.06 10.93 Yue et al., 2001a Gyma.18G193400 Laccase/Diphenol oxidase family protein
+Glyma.18G193800 LRR-RLP
+Ss715631193 18 47,125,551 8.21E-05 0.06 11.44 Yue et al., 2001a Glyma.18G196200 MRNA capping enzyme family protein
+Ss715631383 18 48,495,551 2.19E-05 0.06 12.56 Yue et al., 2001a Glyma.18G203500 Stress-induced protein
+Ss715631522 18 49,659,228 9.59E-05 0.14 11.31 Yue et al., 2001a Glyma.18G210300 HEAT repeat; WD domain, G-beta repeat protein
+Glyma.18G210500 Pyrimidine 4
+Ss715634285 19 35,586,767 4.51E-06 0.08 13.93
+Ss715634622 19 37,724,122 2.85E-05 0.21 12.34
+Gilyma.19G120200 MATE efflux family protein
+Glyma.19G119300 MYB transcription factor
+A
+B
+i
+6 
+4
+5
+4
+2
+2
+I
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+0 1 2 3 4 5
+C
+Chromosome
+Expected -logio(p)
+rhg1
+.
+3 6
+8
+0 10 20 30 40 50 60
+0 10 20 30 40 50
+Chromosome 18 (Mb)
+Chromosome 19 (Mb)
+FIGURE 31 Genome-wide association analyses (GWAS) for SCN resistance. (A) Manhattan plot for SCN resistance. (B) Quantile-Quantile plot using CMLM.
+(C) Zoomed-in Manhattan plots for chromosomes 18 and 19. The blue line represents the threshold (P < 10-3.81) defined by 1000 permutations of the association
+analysis.
+a phosphate acyltransferase-encoding gene, Glyma.18g107100, (Hajjar and Hodgkin, 2007). Some wild species have been applied
+within a genomic region containing two tightly linked significant in breeding practices, such as for tomato (Vidavski et al., 2008;
+SNPs (ss715628640 and SS715628650) were identified as Kumar et al., 2014). G. soja is widely distributed in China, Korea,
+candidates (Figure 4). Glyma.18g106800, which encodes a Japan, and Northeast Russia, and long-term exposure to various
+mitogen-activated protein kinase (MAPK), is reported to be environmental stresses in the wild has rendered G. soja able to
+highly expressed in roots (Severin et al., 2010).
+adapt to diverse environments with severe abiotic and biotic
+stresses. Some ofthese beneficial traits, such as salt tolerance and
+DISCUSSION
+pest resistance, may have been lost in cultivated soybean due to
+the effects of domestication "bottleneck." Indeed, a recent study
+Applying G. soja to Improve SCN
+showed that the domestication bottleneck ofsoybean has resulted
+Resistance
+in more than a 50% reduction in diversity and the elimination
+Wild crop relatives harbor novel and exotic genetic resources of 81% of the rare alleles present in G. soja (Hyten et al., 2006).
+that are crucial for the development of insect pest management For example, Qi et al. (2014) recently identified a salt-tolerance
+Frontiers in Plant Sciencel lwww.frontiersin.org
+6
+August 20161 IVolume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+5
+artscsiO
+a715E6O
+4
+3 -
+I 2-
+1 -
+0
+11.90 Mb
+11.95 Mb
+12.00 Mb
+12.05 Mb
+onshasror
+tegtonsno ciegrarneo
+Giyna
+Glyma Giyma
+OriNOEn - E SeRoo
+Scerpronie
+0.2 0.4 0.6 0.8
+FIGURE 41 Regional plot and candidate genes for loci SS715628640 and SS715628650. The log10-tranformed P-values of two association SNPS and adjacent
+loci are plotted against physical positions on chromosome 18. The middle panel shows all predicted gene models in the region. The proposed candidate genes are in
+bold. The bottom panel indicates the extent ofLD in theregion based on pairwise r2-values. The r2-values in the LD triangles are indicated with a color intensity index.
+gene, GmCHX1, unique to wild soybean. In addition, the limited population were identified SCN resistant. This result suggests
+availability of SCN-resistant soybean varieties and the selection that additional SCN-resistant accessions could be identified
+for SCN populations that overcome existing resistance have been when more wild soybean accessions from broader ecological
+two major challenges to SCN management (Mitchum et al., 2007; regions in East Asia are screened. Correlation of resistance
+Niblack et al., 2008). As an alternative, our study and several level with geographic location revealed clear differences between
+recent works (Winter et al., 2007; Kim et al., 2011; Kim and Diers, accessions from Japan and South Korea compared to those
+2013) have identified resistant accessions among wild soybean from other locations, with the Japanese and South Korean
+populations, suggesting that wild soybean have great potential accessions showing on average higher levels of resistance. This
+for improving SCN resistance. These newly identified resistant geographic resistance pattern was also observed in a recent
+resources may contain both conserved loci and new resistance study (Zheng et al., 2005) reporting 12 of 15 Bean pod mottle
+genes, as shown in our study (Table 1) and previous studies virus-tolerant G. soja genotypes from Japan. These differences
+(Winter et al., 2007; Kim et al., 2011; Kim and Diers, 2013).
+might partially be causedby different selection pressures among
+Conversely, the association panel used in this study has regions. In fact, as the majority of resistant accessions were
+a broad geographical and ecological distribution in East Asia originally from Japan, wild soybean from Japan and South
+(Figure 1A), where the SCN populations most likely originated Korea might have experienced higher selection pressure from
+(Tylka and Marett, 2014). These untapped G. soja genetic SCN HG 2.5.7 (Figure 1B). These results can serve as a guide
+resources are prime candidates for discovery of SCN resistance, for focussing on certain areas when not all samples can be
+andi lindeed, a large portion (3.4%) ofthe accessions in our G. soja screened.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+7
+August 20161 Volume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+Geographical origin is an important factor affecting (Anand and Raoarelli, 1989). However, it is not yet clear
+population structure in soybean. Consistent with a recent whether the different levels of SCN resistance to HG 2.5.7 in
+study (Zhang et al., 2015a) focussing on a cultivated soybean the wild genetic resources, i.e., G. soja populations, are due
+population, we also found a high correlation between country to different alleles at the same locus or to different genes.
+of origin and population structure in the G. soja population Therefore, the identification of conserved and novel loci can
+(Figures 2C-E). It is clear that population structure was affected further our understanding of the molecular mechanisms of the
+more by geographical origin than by mature group (MG), as soybean-SCN interaction. It is clear that SCN resistance is a
+despite belonging to different MGs (Figure 2C), the accessions complex trait involving a number of genes that initiate a cascade
+within a country clustered together. A possible explanation of defense signaling and responses (Concibido et al., 2004).
+for the mixture of accessions from China and Russia may be Overall, identification of these SCN-resistance loci in the non-
+frequent material exchange or gene flow occurring in that area. domesticated G. soja population can improve our understanding
+ofthe genetic basis of SCN resistance and further accelerate the
+development of diverse soybean cultivars to mitigate damage
+Broad and Novel Genetic Resources for
+causedby SCN.
+SCN Resistance
+Development of soybean cultivars with broad resistance to
+diverse SCN HG types, as well as identification of novel resistant Candidate Genes Involved in SCN
+resources/genes, are urgently needed due to SCN HG type shifts Resistance
+caused by evolutionary arms races. The recent identification The known genes that confer resistance to SCN are unusual
+of two major loci, rhgl (Cook et al., 2012) and Rhg4 (Liu in that they do not encode canonical NB-LRR-type genes for
+et al., 2012), conferring SCN resistance (Concibido et al., 2004) resistance (detection) to other pathogens (DeYoung and Innes,
+has provided increasing knowledge and understanding about 2006). The clonedrhgl (Cook et al., 2012) locus indicates that the
+the genetic architecture and resistance mechanisms of soybean copy number of three tandem genes (an amino acid transporter,
+defenses against SCN. The genomic regions linked with rhgl are an alpha-SNAP, and the WI12 protein) and rhg-4 (Liu et al.,
+significantly associated with HG 2.5.7 resistance. Rhg1, one of 2012), a serine hydroxymethyltransferasc. confer resistance to
+the major loci conferring soybean resistance to multiple SCN SCN. These known SCN resistance genes appear to function in
+HG types (previously called races; Concibido et al., 2004), has metabolic or other plant cell processes, and it is unclear how they
+also been previously identified in a resistant G. soja accession impart resistance to SCN, especially resistance that is specific to
+(PI468916) by linkage mapping (Kim et al., 2011). Thus, it is certain HG types. These known SCN resistance genes were not
+not surprising that the rhgl-linked regions were also identified identified among the 58 gene models predicted in the G. soja
+in our study significantly associated with HG 2.5.7 resistance. search region analyzed in the present study.
+In addition, loci located at the opposite end of chromosome 18
+Protein phaphapythandghaphanyHtin is one
+as rhgl (Vuong et al., 2010; Kim et al., 2011; Kim and Diers, of the major mechanisms involved in plant-pathogen
+2013; Bao et al., 2014) and on chromosome 19 (Vuong et al., interactions (Xing and Laroche, 2011). The process of
+2015) identified in our study have also recently been suggested phosphorylation/dephosphorylation involves various types of
+as contributing to broad SCN resistance. The consistent results protein kinases (PKs), such as calmodulin-dependent receptor-
+observed in the present and previous studies suggest that the like protein kinases (CDPKS) and MAPKS. The involvement of
+significant loci on chromosomes 18 and 19 might play important various types of PKs in plant defense against nematodes has also
+roles in conferring SCN resistance in both G. max and G. soja been reported in other plant species. For example, it has been
+populations. These finding will significantly accelerate molecular suggested that two Arabidopsis MAPK genes, MPK3, and MPK6,
+marker development and SCN resistance breeding programmes are important regulators of the plant-nematode interaction
+(e.g., Kadam et al., 2016).
+(Sidonskaya et al., 2016). In tobacco, a CDPK protein can trigger
+As major genes, such as rhgl, are valuable resources but often plant defense via signaling upon virus attack (Romeis et al.,
+not durable (Kadam et al., 2016), novel sources of resistance and 2000), and in Arabidopsis, mutation of a receptor-like protein
+genes are neededforlong-term SCN management. Most previous kinase (RLK) gene, RPK2, results in a decrease in both nematode
+studies have focussed on a limited number of resistant soybean infection and syncytium size in the rpk2 mutant (Replogle et al.,
+cultivars, whereas exploration ofexotic sources and identification 2013). Such evidence strongly suggests that PKs are promising
+of novel genes are lagging. Additionally, different resistant candidate genes involved in the soybean response to SCN attack.
+genotypes often show varying genetic resistance mechanisms. Regardless, involvement of MAPKS and CDPKS in the soybean-
+For example, Peking-source rhgl requires rhg4 for full function, SCN interaction has not been comprehensively investigated
+though the widely used PI88788 source does not (e.g., Cook because it remains challenging to pinpoint causal genes from
+et al., 2012; Liu et al., 2012). Soybean accession PI 567516C r200 MAPKS (Neupane et al., 2013) and r500 receptor-like
+is SCN resistant but lacks the two major genes rhgl and proteins (Zhou et al., 2016) in the soybean genome. As an
+rhg4 (Vuong et al., 2010). Previous studies on the different alternative, our study identified one MAPK (Glyma.18g106800)
+SCN-resistant accessions, such as PI90763, PI404166, Peking, and one CDPK (Glyma.18064100) that might be involved in
+and PI438439B, have indicated that their resistance to SCN wild soybean defense against SCN; this result must be further
+HG 2.5.7 is controlled by different alleles at the same locus verified.
+Frontiers in Plant Sciencel lwww.frontiersin.org
+8
+August 20161 Volume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+Plant nucleotide-binding site-leucine-rich repeat (NBS-LRR) genetic resource for SCN management. GWAS was successfully
+proteins have been extensively studied in plant defense against applied to dissect the genetic architecture of resistance to SCN
+pathogens (DeYoung and Innes, 2006). Multiple LRR domains HG Type 2.5.7 in the G. soja population. This study provides an
+can recognize pathogen-encoded effector proteins, which trigger example of exploring the untapped genetic resource of G. soja
+the defense response through a special signaling cascade (Jones for novel gene identification, which may provide a rich source
+and Jones, 1997). In Arabidopsis, RPM1, an intracellular innate of alternative resistance for breeding SCN-resistant soybean
+immune receptor, can negatively control the extent of cell death cultivars. This work also highlighted the need and importance of
+and result in an overall resistance response at the site ofinfection utilizing wild resources for crop pest management.
+(Boyes et al., 1998). A study of the Pc locus, which confers
+resistance to fungal pathogens, identified an NBS-LRR protein- AUTHOR CONTRIBUTIONS
+encoding gene as the candidate gene (Nagy and Bennetzen, 2008).
+In addition, a significant change in NBS-LRR expression in roots BS conceivedthei idea and acquired funding. HZ and BS designed
+was observed after SCN infection (Klink et al., 2007; Guo et al., the experiments. HZ and CL performed the experiments. HZ,
+2015). Transcription factors such as RING and MYB might JK, and JG performed the data analyses. JW assisted in the data
+also be involved in signaling during soybean defense responses visualization. HZ, BS, ED, and JG wrote the manuscript. All
+against SCN (Ithal et al., 2007; Hosseini and Matthews, 2014; authors read and approved the final version of the manuscript
+Guo et al., 2015), and candidate RING, MYB, and NBS-LRR gene for publication.
+models were identified in the G. soja search region analyzedhere.
+A study by Guo et al. (2015) indicated that a soybean ACKNOWLEDGMENTS
+ortholog of the Arabidopsis gene RPK2, GmRPK2B, is strongly
+expressed in root tips, vascular tissues, and nematode feeding Financial support was provided by a North Carolina
+sites. Similarly, high or exclusive expression of genes encoding Biotechnology Collaborative Funding Grant (2014-CFG-
+PKs (Glyma.18g106800, Glyma.18g064100) and LRR-R proteins 8005) sponsored by the North Carolina Biotechnology Center
+(Glyma.18g077900, Glyma.18g078000) in roots (Severin et al., and the Kenan Institute for Engineering, Technology, and
+2010) suggests their potential of playing specific roles in root Science at North Carolina State University. This study was also
+defense. Future research should validate the functions of these supported by Monsanto Company and the University of North
+candidate genes using root transformation assays.
+Carolina at Charlotte.
+CONCLUSIONS AND PERSPECTIVES
+SUPPLEMENTARY MATERIAL
+In this study, 43 G. soja accessions showing resistance and The Supplementary Material for this article can be found
+moderate resistance to HG Type 2.5.7 were identified, suggesting online at: httpJljournal.frontiersin.orglartide/10.3389/fpls2016.
+theimportance and great potential ofG. soja as anovel land exotic 01214
+REFERENCES
+Browning, B.L., and Browning, S.R. (2007). Efficient tmultilocus association testing
+for whole genome association studies using localized haplotype clustering.
+Abdelmajid, K. M., Ramos, L., Hyten, D., Bond, J., Bendahmane, A., Arelli, Genet. Epidemiol. 31, 365-375. doi: 10.1002/gepi.20216
+P., et al. (2014). Quantitative trait loci (QTL) that underlie SCN resistance Browning, B. L., and Browning, S. R. (2009). A unified approach to
+in soybean [Glycine max (L.) Merr.] PI438489B by 'Hamilton' recombinant
+genotype imputation and haplotype-phase inference for large data sets of
+inbred line (RIL) population. Atlas J. Plant Biol. 3, 29-38. doi: 10.5147/ajpb.
+trios and unrelated individuals. Am. J. Hum. Genet. 84, 210-223. doi:
+2014.0140
+10.1016j.3hg2009.0L.005
+Anand, S. C. (1991). Registration of soybean germplasm line S88-2036 having Concibido, V. C., Diers, B. W., and Arelli, P. R. (2004). A decade of QTL
+multiple-race soybean cyst nematode resistance. Crop Sci. 31, 856. doi:
+mapping for cyst nematode resistance in soybean. Crop Sci. 44, 1121-1131. doi:
+102135/copxdi99L.0018X005100307X
+102135/cropxc2004.1121
+Anand, S. C., and Raoarelli, A. P. (1989). Genetic analyses of soybean genotypes Conesa, A., Gôtz, S., Garcia-Gomez, J. M., Terol, J., Talon, M., and Robles,
+resistant to soybean cyst nematode race-5. Crop Sci. 29, 1181-1184. doi:
+M. (2005). Blast2GO: a universal tool for annotation, visualization and
+102135/cropud198201183X002X0050017X
+analysis in functional genomics research. Bioinformatics 21, 3674-3676. doi:
+Bao, Y., Vuong, T., Meinhardt, C., Tiffin, P., Denny, R., Chen, S. Y., et al.
+10.0930iifermatiazbtisio
+(2014). Potential of association mapping and genomic selection to explore Cook, D. E., Lee, T. G., Guo, X., Melito, S., Wang, K., Bayless, A. M., et al. (2012).
+PI 88788 derived soybean cyst nematode resistance. Plant Genome 7. doi:
+Copy number variation of multiple genes at Rhgl mediates nematode resistance
+10385plamsgmamamiailooy
+in soybean. Science 338, 1206-1209. doi: 101126/science.128746
+Boyes, D. C., Nam, J., and Dangl, J. L. (1998). The Arabidopsis thaliana RPM1 Delheimer, J. C., Niblack, T., Schmidt, M., Shannon, G., and Diers, B. W.
+disease resistance gene product is a peripheral plasma membrane protein that
+(2010). Comparison of the effects in field tests of soybean cyst nematode
+is degraded coincident with the hypersensitive response. Proc. Natl. Acad. Sci.
+resistance genes from different tresistances sources. Crop Sci. 50, 2231-2239. doi:
+U.S.A. 95, 15849-15854. doi: 101073/pnas952615849
+1021351-roped20100L.013
+Bradbury, P. J., Zhang, Z., Kroon, D. E., Casstevens, T. M., Ramdoss, Y., DeYoung, B. J., and Innes, R. W. (2006). Plant NBS-LRR proteins in pathogen
+and Buckler, E. S. (2007). TASSEL: software for association mapping
+sensing and host defense. Nat. Immunol. 7, 1243-1249. doi: 10.1038/ni1410
+of complex traits in diverse samples. Bioinformatics 23, 2633-2635. doi: Guo, B., Sleper, D. A., Arelli, P. R., Shannon, J. G., and Nguyen, H. T. (2006a).
+10.0bicinformstia@bimsos
+Identification of QTLs associated with resistance to soybean cyst nematode
+Frontiers in Plant Science - www.frontiersin.org
+9
+August 2016 IVolume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+races 2, 3 and 5 in soybean PI 90763. Theor. Appl. Genet. 112, 984-985. doi: Neupane, A., Nepal, M. P., Piya, S., Subramanian, S., Rohila, J. S., Reese, R. N.,
+10100700122-005-0150.9
+et al. (2013). Identification, nomenclature, and evolutionary relationships of
+Guo, B., Sleper, D. A., Nguyen, H. T., Arelli, P. R., and Shannon, J. G.
+mitogen-activated protein kinase (MAPK) genes in soybean. Evol. Bioinform.
+(2006b). Quantitative trait loci underlying resistance to three soybean cyst 9, 363-386. doi: 10.4137/EBOS12526
+nematode populations in soybean PI 404198A. Crop Sci. 46, 224-233. doi: Niblack, T.L., Arelli, P.R., Noel, G. R., Opperman, C. H., Ore,J.H., Schmitt, D. P.,
+102135/cropsd2004.0757
+etal. (2002). A revised classification scheme for genetically diverse populations
+Guo, X.L, Chronis, D., DeLa Torre, C.M., Smeda, J., Wang, X. H., and Mitchum,
+ofHeterodera glycines. J. Nematol. 34, 279-288.
+M. G. (2015). Enhanced resistance to soybean cyst nematode Heterodera Niblack, T. L., Colgrove, A. L., Colgrove, K., and Bond, J. P. (2008). Shift in
+glycines in transgenic soybean by silencing putative CLE receptors. Plant virulence of soybean cyst nematode is associated with use of resistance from
+Biotechnol.J. 13, 801-810. doi: 10.1111/pbi.12313
+PI88788. [Online). Plant Health Prog. doi: 10J09UPHP200601801-85
+Hajjar, R., andHodgkin, T. (2007). The use ofwild relatives in crop improvement: Niblack, T., Tylka, G. L., Arelli, P., Bond, J, Diers, B., Donald, P., et al. (2009). A
+a survey of developments over the last 20 years. Euphytica 156, 1-13. doi:
+standard greenhouse method for assessing soybean cyst nematode resistance
+10/007810651-007-9630
+in soybean: SCE08 (standardized cyst evaluation 2008). [Online). Plant Health
+Han, Y. P., Zhao,X., Cao, G.L, Wang, Y.,Li, Y. H., Liu,D.Y,ctal.(2015). Genetic
+Progress. doi: 10L09UPHP20051B0HRV
+characteristics of soybean resistance to HG type0and HG type 1.2.3.5.7 ofthe Qi, X., Li,M.W.,Xie, M., Liu,X,Ni,M., Shao, G. H., etal. (2014).Identification of
+cyst nematode analyzedby genome-wide association mapping. BMC Genomics a novel salt tolerance gene in wild soybean by whole-genome sequencing. Nat.
+16:598. doi: 10.186812864-015-18001
+Commun. 5, 4340. doi: 10.1038/ncomms5340
+Hosseini, P., and Matthews, B. F. (2014). Regulatory interplay between soybean Replogle, A., Wang, J, Paolillo, V., Smeda, J, Kinoshita, A., Durbak, A., et al.
+root and soybean cyst nematode during a resistant and susceptible reaction. (2013). Synergistic interaction of CLAVATA1, CLAVATA2, and RECEPTOR-
+BMC Plant Biol. 14:300. doi: 10.18612870-014-00.9
+LIKE PROTEIN KINASE 2 in cyst nematode parasitism of Arabidopsis. Mol.
+Hyten, D.L., Song, Q., Zhu, Y., Choi,IY., Nelson, R. L., Costa,J.M., et al. (2006).
+Plant Microbe Interact. 26, 87-96. doi: 10J09MPM105:12015F1
+Impacts of genetic bottlenecks on soybean genome diversity. Proc. Natl. Acad. Riggs, R. D., and Schmitt, D. P. (1988). Complete characterization of the race
+Sci. U.S.A. 103, 16666-16671. doi: 101073/pnas:0604379103
+scheme for Heterodera-glycines J. Nematol. 20, 392-395.
+Ithal, N., Recknor,J., Nettleton, D., Hearne, L., Maier, T., Baum, T.J., et al. (2007). Romeis, T., Piedras, P., and Jones, J. D. G. (2000). Resistance gene-dependent
+Parallel Igenome-wide cexpressionprofiling: ofhost andpathogen during soybean
+activation ofa calcium-dependent protein kinase in the plant defense response.
+cyst nematode infection of soybean. Mol. Plant Microbe Interact. 20, 293-305.
+Plant Cell 12, 803-815. doi: 10.1105/tpc.125.803
+doi: 101094/MPM1-203-0293
+Severin,A.J., Woody,J.L., Bolon, Y.T.,Joseph, B., Diers, B. W., Farmer,A.D.,etal.
+Jones, D. A., and Jones, J.D. G.(1997). Therole ofleucine-rich repeat proteins in
+(2010). RNA-Seq Atlas of Glycine max: a guide to the soybean transcriptome.
+plant defences. Adv. Bot. Res. 24,89-167. doi: 10.016906523608X0025
+BMC Plant Biol. 10:160. doi: 10.11861471-229-10-160
+Kadam, S., Vuong, T. D., Qiu, D., Meinhardt, C. G., Song, L., Deshmukh, R., Sidonskaya, E., Schweighofer, A., Shubchynskyy, V., Kammerhofer, N.,Hofmann,
+et al. (2016). Genomic-assisted phylogenetic analysis and marker development
+J, Wieczorek, K., et al. (2016). Plant resistance against the parasitic nematode
+for next generation soybean cyst nematode resistancel breeding. Plant Sci. 242,
+Heterodera schachtii is mediated by MPK3 and MPK6 kinases, which are
+342-350. doi: 10.0161phamtecd201506015
+controlled by the MAPK phosphatase AP2C1 in Arabidopsis. J. Exp. Bot. 67,
+Kim, M., andDiers, B. W.(2013).1 Fine mapping oftheSCN resistance QTLCqSCN-
+107-118. doi: 10.1093/jxb/erv440
+006 and CqSCN-007 from Glycine soja PI 468916. Crop Sci. 53, 775-785. doi: Sonah, H., O'Donoughue, L., Cober, E., Rajcan, I., and Belzile, F. (2015).
+1021351cropsc2012070425
+Identification of loci governing eight agronomic traits using a GBS-GWAS
+Kim, M., Hyten, D. L., Niblack, T. L., and Diers, B. W. (2011). Stacking
+approach and validation by QTL mapping in soya bean. Plant Biotechnol. J.
+resistance alleles from wild and domestic soybean sources improves
+13,211-221. doi: 10.1111/pbi.12249
+soybean cyst nematode resistance. Crop Sci. 51, 2301-2301. doi: Song, Q, Hyten, D. L., Jia, G., Quigley, C. V., Fickus, E. W., Nelson, R. L., et al.
+1021351crops2010080159
+(2013). Development and evaluation ofSoyNpsoK.ahighdensity genotyping
+Klink, V. P., Overall, C. C., Alkharouf, N. W., MacDonald, M. H., and
+array for soybean. PLOS ONE 8:e54985. doi: 10.1371journalpone.00
+Matthews, B. F. (2007). A time-course comparative microarray analysis of
+54985
+an incompatible and compatible response by Glycine max (soybean) to Song.Q-J.Hyten,D.L., Jia, G.F., Quigley, C. V.,Fickus, E. W.,Nelson, R. L,etal.
+Heteroderaglycines (soybean cyst nematode) infection. Planta 226, 1423-1447.
+(2015). Fingerprinting soybean germplasm and its utility in genomic research.
+doi: 10.10070025-0070581-4
+G3 (Bethesda) 5, 1999-2006. doi: 10.1534/93.115.019000
+Kumar, A., Tiwari, K. L., Datta, D., and Singh, M. (2014). Marker assisted gene Tylka, G. L., and Marett, C. C. (2014). Distribution of the soybean cyst nematode,
+pyramiding for enhanced Tomato leaf curl virus disease resistance in tomato
+Heteroderaglycines, in the UnitedStates and Canada: 1954to 2014.PlantHealth
+cultivars. Biol. Plant. 58, 792-797. doi: 101007510535-014-0494
+Brief 15, 13-15. doi: 10.1094PHP-BR-14-006
+Kumar, S., Stecher, G., and Tamura, K. (2016). MEGA7: molecular evolutionary Vidavski, F., Czosnek, H., Gazit, S., Levy, D., and Lapidot, M. (2008). Pyramiding
+genetics analysis version 7.0 for bigger datasets. Mol. Biol. Evol. 33, 1870-1874.
+of genes conferring resistance to Tomato yellow leaf curl virus from
+doi: 10.09/molbev/mswos4
+different wild tomato species. Plant Breed. 127, 625-631. doi: 10.1111/j.1439-
+Lam, H. M., Xu, X., Liu, X., Chen, W., Yang, G., Wong, F. L., et al. (2010).
+0523.2008.01556.x
+Resequencing of31 wild and cultivateds soybean genomes identifies patterns of Vuong, T. D., Sleper, D. A., Shannon, J. G., and Nguyen, H. T. (2010). Novel
+genetic diversity and selection. Nat. Genet. 42, 1053-1059. doi: 10.1038/ng.715
+quantitative trait loci for broad-based resistance to soybean cyst nematode
+Lipka, A. E., Tian, F., Wang, Q, Peiffer, J., Li, M., Bradbury, P. J., et al. (2012).
+(Heteroderaglycines Ichinohe) in soybean PI 567516C. Theor. Appl. Genet. 121,
+GAPIT: genome association and prediction integrated tool. Bioinformatics 28,
+1253-1266. doi: 10.1007600122-010-13857
+2397-2399. doi: 10.93biinfomatia@but#
+Vuong, T. D., Sonah, H., Meinhardt, C. G., Deshmukh, R., Kadam, S., Nelson,
+Liu, S. M., Kandoth, P. K., Warren, S. D., Yeckel, G., Heinz, R., Alden, J, et al.
+R. L., et al. (2015). Genetic architecture of cyst nematode resistance revealed
+(2012). A soybean cyst nematode resistance gene points toa new mechanism of by genome-wide association study in soybean. BMC Genomics 16:593. doi:
+plant tresistance to pathogens. Nature 492, 256-260. doi: 10.1038/naturel1651
+10.18612864-015-1811
+Mitchum, M. G., Wrather, J. A., Heinz, R. D., Shannon, J. G., and Danekas, Wimmer, V., Albrecht, T., Auinger, H. J., and Schôn, C. C. (2012). Synbreed: a
+G. (2007). Variability in distribution and virulence phenotypes of Heterodera
+framework for the analysis of genomic prediction data using R. Bioinformatics
+glycines in Missouri during 2005. Plant Dis. 91, 1473-1476. doi: 10.1094/PDIS-
+28, 2086-2087. doi: 10.093bioinfrmaticabesss
+91-11-1473
+Winter, S. M.J., Shelp, B. J,Anderson, T. R., Welacky, T. W., and Rajcan, L. (2007).
+Nagy, E. D., and Bennetzen, J. L. (2008). Pathogen corruption and site-directed QTL associated with horizontal resistance to soybean cyst nematode in Glycine
+recombination at a plant disease resistance gene cluster. Genome Res. 18,
+soja PI464925B. Theor. Appl. Genet. 114, 461-472. doi: 10.1007500122-006-
+1918-1923. doi: 10.1101/gr.078766.108
+0446-4
+Frontiers in Plant Sciencel www.frontiersin.org
+10
+August 20161 Volume 71 Article 1214
+
+
+
+Zhang et al.
+GWAS of SCNI Resistance
+Wrather, J. A., and Koenning, S. R. (2006). Estimates of disease effects on soybean Zheng, C. M., Chen, P. Y., Hymowitz, T., Wickizer, S., and Gergerich, R. (2005).
+yields in the United States 2003 to 2005.J.Nematol. 38, 173-180.
+Evaluation ofGlycine species forresistancet tol Bean podmottle virus. CropProt.
+Wu, X., Blake, S., Sleper, D. A., Shannon, J. G., Cregan, P., and Nguyen, H. T.
+24, 49-56. doi: 10.016j.cropro.200406013
+(2009). QTL, additive and epistatic effects for SCN resistance in PI 437654. Zhou, F. L., Guo, Y., and Qiu, L. J. (2016). Genome-wide identification
+Theor. Appl. Genet. 118, 1093-1105. doi: 10.100700122-009.095X
+and evolutionary analysis of leucine-rich repeat receptor-like protein
+Xing, T., and Laroche, A. (2011). Revealing plant defense signaling: getting more
+kinase genes in soybean. BMC Plant Biol. 16:58. doi: 10.1186/s12870-016-
+sophisticated with phosphoproteomics. Plant Signal. Behav. 6, 1469-1474. doi:
+0744-1
+104161/psb6.10.17345
+Zhou, Z., Jiang, Y., Wang, Z., Gou, Z., Lyu, J., Li, W., et al. (2015). Resequencing
+Yue, P., Arelli, P. R., and Sleper, D. A. (2001a). Molecular characterization of 302 wild and cultivated accessions identifies genes related to domestication and
+resistanceto Heteroderaglycinesin: soybean PI438489B. Theor. Appl Genet. 102,
+improvement in soybean. Nat. Biotechnol. 33, 408-414. doi: 10.1038/nbt.3096
+921-928. doi: 10.10075300120000453
+Yue, P., Sleper, D. A., and Arelli, P. R. (2001b). Mapping resistance to multiple Conflict of Interest Statement: The authors declare that the research was
+races of Heterodera glycines in soybean PI 89772. Crop Sci. 41, 1589-1595. doi: conducted in the absence of fany commercial or financial relationships that could
+102135/copc201.41559
+be construed as a potential conflict ofinterest.
+Zhang, J. P., Singh, A., Mueller, D. S., and Singh, A. K. (2015a). Genome-
+wide association and epistasis studies unravel the genetic architecture of Copyright 0 2016 Zhang Li, Davis, Wang Griffin, Kofsky and Song. This is an
+sudden death syndrome resistance in soybean. Plant J. 84, 1124-1136. doi: open-access article distributed under the terms softhe Creative Commons Attribution
+10.1111/tpj.1 .13069
+License (CC BY). The use, distribution orreproduction in other forums is permitted,
+Zhang, J. P., Song, Q.J., Cregan, P. B., Nelson, R. L., Wang, X. Z., Wu,J.X,etal. provided the original author(s) or licensor are credited and that the original
+(2015b). Genome-wide association study for flowering time, maturity dates publication in this journal is cited, in accordance with accepted academic practice.
+and plant height in early maturing soybean (Glycine max) germplasm. BMC No use, distribution or reproduction is permitted which does not comply with these
+Genomics 16:217. doi: 101186612864-015-14414
+terms.
+Frontiers in Plant Sciencel www.frontiersin.org
+11
+August 20161 IVolume 71 Article 1214

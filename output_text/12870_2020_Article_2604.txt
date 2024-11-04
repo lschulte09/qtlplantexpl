@@ -1,0 +1,1117 @@
+Karikari et al. BMC Plant Biology (2020) 20:404
+htpsl/dolorg/10.1186s1186512870-020-026042
+BMC Plant Biology
+RESEARCH ARTICLE
+Open Access
+Identification of quantitative trait
+Check for
+updates
+nucleotides and candidate genes for
+soybean seed weight by multiple models
+of genome-wide association study
+Benjamin Karikari, Zili Wang, Yilan Zhou, Wenliang Yan, Jianying Feng o and Tuanjie Zhao
+Abstract
+Background: Seed weight is a complex yield-related trait with a lot of quantitative trait loci (QTL) reported through
+linkage mapping studies. Integration of QTL from linkage mapping into breeding program is challenging due to
+numerous limitations, therefore, Genome-wide association study (GWAS) provides more precise location of QTL due
+to higher resolution and diverse genetic diversity in un-related individuals.
+Results: The present study utilized 573 breeding lines population with 61,166 single nucleotide polymorphisms
+(SNPS) to identify quantitative trait nucleotides (QTNS) and candidate genes for seed weight in Chinese summer-
+sowing soybean. GWAS was conducted with two single-locus models (SLMS) and six multi-locus models (MLMS).
+Thirty-nine SNPS were detected by the two SLMS while 209 SNPS were detected by the six MLMS. In all, two
+hundred and thirty-one QTNS were found to be associated with seed weight in YHSBLP with various effects. Out of
+these, seventy SNPS were concurrently detected by both SLMS and MLMS on 8 chromosomes. Ninety-four QTNS Co-
+localized with previously reported QTL/QTN by linkage/association mapping studies. A total of 36 candidate genes
+were predicted. Out of these candidate genes, four hub genes (Glyma06g44510, Glyma08906420, Glyma12933280
+and Glyma19928070) were identified by the integration of co-expression network. Among them, three were
+relatively expressed higher in the high HSW genotypes at R5 stage compared with low HSW genotypes except
+Glyma12933280. Our results show that using more models especially MLMS are effective to find important QTNS,
+and the identified HSW QTNs/genes could be utilized in molecular breeding work for soybean seed weight and
+yield.
+Conclusion: Application of two single-locus plus six multi-locus models of GWAS identified 231 QTNS. Four hub
+genes (Glyma06g44510, Glyma08g06420, Glyma12933280 & Glyma19928070) detected via integration of CO-
+expression network among the predicted candidate genes.
+Keywords: Association mapping, Complex nature, Haplotype, Hub genes, Co-expression network
+*Correspondence fengjanying@nijgueducne tjzhao@njaueducn
+National Center for Soybean Improvement, Key Laboratory of Biology and
+Genetic Improvement of Soybean (Ministry of Agriculture), State Key
+Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing
+Agricultural University, Nanjing 210095, People's Republic of China
+OThe Author(s). 2020 Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+BMC which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit tto the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material lin this article are included lin the article's Creative Commons
+licence, unless indicated otherwise ina credit line to the material. If material lis not included in the article's Creative Commons
+licence and your intended use isnot permitted by statutory regulation or exceeds the permitted use,you will need to obtain
+permission directly from the copyright holder. To viewacopy of this licence, visit htp/ceativecommonsorgflicensesby/40/
+The Creative Commons Public Domain Dedication waiver omp/cetiecommorsoyppébicdomanveonon applies to the
+data made available in this article, unless otherwise stated lin a credit line to the data.
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 2 of 14
+Background
+GWAS method. Single-marker genome-wide scan models
+The world's human population is estimated to reach 10 such as mixed linear model (MLM) and general linear
+million by 30-year time [1] with increasing abiotic and model (GLM) are mostly frequently used in genetic dis-
+biotic stress as well as reduction in arable land for agri- section of soybean seed weight. These models have certain
+cultural activities [2]. This implies that food and nutri- limitations including the issue of multiple test correction
+tional security is under threat. Legume crops including for threshold value of significance, and mapping power
+soybean (Glycine max L. Merr.) play a significant role in [31]. A number of multi-locus models have been devel-
+ensuring global food and nutritional security in addition oped and applied in recent GWAS in several crops includ-
+to their abilities to improve soil quality through nitrogen ing soybean. Six of such models (mrMLM, FASTmrMLM,
+fixation [3]. Consumption of legume crops is associated FASTmrEMMA, PLARmEB, pKWmEB & ISIS EM-
+with health and physiological benefits like prevention of BLASSO) are implemented in R with the mrMLM.GUI
+cardiovascular diseases, obesity, diabetes mellitus, cancer package [32]. These models have become the state-of-the-
+and relief of menopausal symptoms [4-6]. However, the art procedure to identify QTNS with complex traits due to
+insufficient soybean production in China and many their detection power and robustness [33-37].
+under-developing countries is a big challenge and per Bioinformatics tools have enhanced easy identification
+unit yield of soybean needs to be improved rapidly.
+of potential genes for target QTL. One of the strategies is
+One of the major determinants of soybean yield, seed to utilize co-expression network which aims at prioritizing
+use and evolutionary fitness is seed weight [7-9]. For ex- functionally related genes. It has been successfully used in
+ample, large-seeded cultivars are used for boiled soybean several crops such as maize [38], rice [39], peanut [40],
+(nimame), green soybean (edamame), soymilk and soy- Arabidopsis [41], soybean [42, 43], among others. By inte-
+bean curd (tofu), while small-seeded cultivars are suit- gration of co-expression network analysis, a class of hub
+able for fermented soybean (nattô) and sprout genes which induce major transcriptome reprogramming
+production [10-12]. Soybean breeders need to create big during grapevine development were identified Palumbo
+variation of seed weight for selection of varieties with et al. [44]. The hub genes (genes highly connected) may
+different end-use purposes. Seed weight is also an im- give clue on the role ofthose genes in the network [45].
+portant trait that was targeted during soybean domesti- In most of the earlier reported GWAS for seed weight,
+cation [13-16], and the range of 100-seed weight can population sizes were mostly < 500 [29, 30, 46-48]. The
+vary from less than 1g in wild soybean (Glycine soja population size, genetic diversity as well as genome cover-
+Sieb. et Zucc.) accessions to more than 60 g in some spe- age/number of SNPS, linkage disequilibrium, and statis-
+cific edamame varieties.
+tical methods used have been reported to affect the power
+As a complex quantitative trait, seed weight is assumed of GWAS [17, 49, 50]. Therefore, our present study uti-
+to be controlled by several major genes/loci plus numer- lized 573 breeding lines with 61,166 SNPs to conduct
+ous undetectable loci with minor effects (thus, polygenes), marker-trait association viz., two single-locus models
+interacting with environments. More than 300 quantita- (SLMS) and six multi-locus models (MLMS) to identify
+tive trait loci /nucleotides (QTL/QTNS) for soybean seed significant SNPs. Also, potential candidate genes were pre-
+weight have been reported on SoyBase (www.soybase.org) dicted, out of which hub genes were identified by the inte-
+via linkage mapping. However, integrating results from gration of functional co-expression network. Application
+linkage mapping into breeding program is challenging due of multiple models of GWAS detected 231 QTNS, out of
+to the higher confidence interval and less genetic variation which 94 co-localized with earlier reported QTL/QTNS.
+[17]. As a result in the recent years, marker-trait associ- This demonstrate the use of multiple models of GWAS to
+ation is used to take advantage of all recombination events unravel the complex architecture of seed weight in our re-
+that occur in the evolutionary history of a natural popula- cently developed diverse breeding lines.
+tion based on linkage disequilibrium (LD) [18, 19].
+Marker-trait association allows researchers to utilize nat- Results
+ural diversity and locate valuable genes in the genome Phenotypic variation of HSW in the YHSBLP
+[18]. For instance, Miao et al. [20] recently applied re- The phenotypic variation of HSW in YHSBLP across the
+gional association mapping for seed oil and identified four environments (E1, E2, E3 and E4) followed a normal
+GmSWEET39 (Glyma.15 8049200/Gbymal5,05470 which distribution, typical of quantitative traits (Fig. 1). In the
+was subsequently overexpressed in Arabidopsis leading to E1, HSW ranged from 7.24-37.19 g with the mean of
+at least 10% increase in seed oil content.
+19.40 + 4.47 g whereas E2, E3 and E4 had a range (mean +
+Tens ofQTNS have been detected and reported through standard deviation) of 8.23-39.70 g (21.22 + 4.62g), 7.71-
+genome-wide association studies (GWAS) across the 20 36.32g (20.43 + 4.80g) and 8.38-36.78 g (20.09 + 4.78g),
+chromosomes [13, 21-30]. However, different mapping respectively (Additional File 1: Table S1). The HSW was
+results can be obtained due to population type, size and significantly (P<0.001) affected by genotype, environment
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 3 of 14
+40
+I
+30
+20
+I
+10
+E1
+E2
+E3
+E4
+Environment
+Fig. 1 Variation of HSW in each of the environments. The black in the middle of the box shows the median, the white box indicates the range
+from the lower quartile to the upper quartile, the black line represents the dispersion and frequency distribution of the phenotypic data. The
+black dots represent phenotypic data that were extreme in each environment
+and genotype by environment interaction (Table 1). The ADMIXTURE software (Fig. 3a & b), phylogenetic analysis
+broad-sense heritability (42) was 98.53%. These suggest (Fig. 3c) and PCA (Fig. 3d). The first two PC accounted
+that HSW in the summer sowing of YHSBLP was mainly for 22.60% variation (Fig. 3d). The lines with the probabil-
+influenced by genetic factors with less effect by environ- ity (Q) more than 0.70 score were considered as pure lines
+mental factors (Table 1).
+while those with Qs 0.7 were considered as admixtures.
+The subpopulation 1 comprised 107 pure lines with an
+SNPS distribution and population structure in the YHSBLP average HSW of 17.68 g. The subpopulation 2 and 3 con-
+All the 573 accessions were genotyped by RAD-seq tech- sisted of 101 and 92 pure lines, respectively, with average
+nology. After removing monomorphic markers as well as HSW of 22.95 g and 19.73 g in that same order. The HSW
+markers with MAF < 5% and missing and heterozygous al- differed significantly among the subpopulations. The
+lele rate > 30%, a total of 61,166 SNPs were used for this remaining 273 admixtures had average HSW of 20.52g.
+study. The total length of the genome was 950,068,807 bp
+(950.07 Mb) representing 85.21% of the genome of soy- SNP-trait association mapping
+bean. The range of the number of SNPS per chromosome A total of 39 SNPS significantly associated with HSW in
+was 1467-4844 with chromosome 5 and 18 having the at least one environment were detected via MLM (K +
+least and highest, respectively. The highest and lowest Q) and CMLM (K + PCA), respectively, with -log1o(P) ==
+SNP density of 91.9 SNPS/Mb and 35 SNPS/Mb were 4.00-12.25 (Additional File 2: Table S2; Additional File 3:
+found on chromosome (Chr.) 15 and Chr.05, respectively, Fig. S1; Additional File 4: Fig. S2). Among the 39 loci,
+with the longest chromosome being Chr.18 (Fig. 2).
+twenty-four were detected by both models (MLM and
+The 573 accessions were grouped into three subpopu- CMLM) (Additional File 2: Table S2; Additional File 5:
+lations as evident by population structure obtained from Fig. S3A). These QTNs were distributed unevenly on 11
+Table 1 Joint ANOVA for HSW across the 4 environments
+Source
+DF
+SS
+MS
+FValue
+Pvalue
+h?
+Environment
+3
+15,355.00
+5118.39
+5.26
+0.0261
+98.53%
+Rep(Environment)
+8
+7871.95
+983.99
+715.38
+<0.0001
+Genotype
+572
+119,437.00
+208.81
+17.64
+<0.0001
+GenotypexEnvironment
+1665
+19,977.00
+12.00
+8.72
+<0.0001
+Residual
+4228
+5849.90
+1.38
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 4 of 14
+The number of SNPS within 1Mb window size
+OMb 7Mb 14Mb 21Mb 28Mb 35Mb 42Mb 48Mb 55Mb 62Mb
+-
+Chrt HE - EI
+-
+
+Chrz 
+H
+=
+I
+- -
+Chra m II H - 
+-
+- - -
+Chr4 -
+
+- -
+Chrs BINEHT -L
+Chre - I =
+H =
+Chr7 H
+- 
+lI HII
+Chre  - - -
+I -
+Chre -
+ - H
+E
+Chrio I II
+- I -
+Chrt1   H - H - -
+Chri2  =
+IIIID
+Chris 
+-
+
+21
+Chr14
+TI E I
+42
+Chris 
+-
+63
+Chrie HII
+-
+84
+Chr17 IIII III III
+I
+105 126
+Chris -
+= -
+HII = I
+- 147
+Chr19  - -
+I
+-
+168
+Ch20 III HENTTTNT
+HT
+>168
+Fig. 2 Distribution of 61,166 SNPS on the 20 chromosomes of soybean. The horizontal axis shows chromosome length (Mb); the vertical axis
+gives the chromosome number and the different colors depict SNP density (the number of SNPS per window)
+chromosomes. Each of the models (MLM and (qHSW-15-4) and Chr.16 (qHSW-16-5) (Add-
+CMLM) detected the highest number of six QTNS on itional File 2: Table S2). The highest number of 16
+Chr.02 and Chr.13, respectively. Out of these QTNS, QTNS were detected in environment (E4) by MLM
+seven were detected in two environments by the two whereas CMLM detected 12 QTNs in either E2 or E4
+SLMS on five chromosomes. Chromosome 14 har- (Fig. 4). Most of the SNPs detected overlapped with
+bored three QTNS (qHSW-14-5, qHSW-14-10 & QTL detected by earlier linkage mapping studies pub-
+qHSW-14-11) whereas one QTN each was harbored lished on SoyBase and some association mapping
+on Chr08 (qHSW-8-8), Chr.13 (qHSW-13-26), Chr.15 studies (Additional File 2: Table S2).
+60000
+b 1.07
+50000
+0.8-
+40000
+0.6-
+430000
+20000
+04-
+10000
+02-
+0
+7
+00-
+d
+sbpopr
+9 sub-pop3
+&
+E
+&
+8
+9
+8
+-80 -60 -40 -20
+20 40
+PC1(17.5%)
+Fig. 3 Population structure of 573 accessions. a Plot of AK calculated for K= 1-10. b Population structure obtained from ADMIXTURE software.
+Three colors (blue, green and red) represent three subpopulations. Each color represents one inferred ancestral population. Each vertical column
+represents one individual and colored segment in each column represents percentage of the individual inferred ancestral population in the
+YHSBLP.C A neighbor-joining tree of the YHSBLP with three clusters. d Principal Component Analysis plot
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 5 of 14
+30
+MLM
+C CMLM
+25
+mrMLM
+FASTMIMLM
+D FASTMrEMMA
+20
+PLARMEB
+pKWmEB
+€
+15
+I
+ISIS EM-BLASSO
+i
+10-
+5
+E1
+E2
+E3
+E4
+Environments
+Fig. 4 Total number of SNPS detected by the 8 models in each environment. The X and Y-axis represent the environments (E1, E2, E3 & E4) and
+number of SNPS detected, respectively
+Six MLMs viz. mrMLM, FASTmrMLM, FASTEMMA, QTNS detected by either of the six MLMS ranged
+PLARmEB, pKWmEB and ISIS EM-BLASSO detected a 32-75, out of these, 11-44 QTNS were detected by
+total of 209 QTNS across all the 20 chromosomes un- at least two of the models concurrently (Add-
+evenly with the range of logarithm of odd (LOD) = 3.01- itional File 2: Table S3). Out of the total 209 QTNS
+17.31 (Additional File 2: Table S2). The highest number detected by six MLMS, thirty-nine were detected sim-
+of 13 QTNS were detected on Chr.13 by mrMLM ultaneously in at least two environments with at least
+whereas 25 QTNS were identified in E2 by pLARmEB two models including qHSW-13-26 & qHSW-14-10
+(Fig. 4; Additional File 2: Table S2). The number of (Additional File 2: Table S2).
+(a)
+15803342
+(b)
+(c)
+(d)
+Gm09_3460712 Gm09_3461722 - "Gm13_43480280
+Gm14 40721910
+Gm14-40721920.
+Gm09_3460700 de
+a -
+-
+(i)
+F
+-
+Fig. 5 Manhattan plots, haplotype block analyses of selected QTNS and allele effect on seed weight (boxplot). qHSW-8-8 are in a, e &i. qHSW-9-4
+are in b, f&j. qHSW-13-26 are in C g & k qHSW-14-10 & qHSW-14-11 are in d, h &l The significant SNPS detected within each block are
+displayed in the Manhattan plots (a, b & c) and the dotted red line represents the reduced threshold (4) whereas the completed red line
+represents the Bonferroni correction threshold (4.79). The SNPS detected in each block are shaded red and purple for those that exceeded the
+4.79 and 4, respectively. The boxplot for each of the blocks were obtained by the average seed weight across the 4 environments (E1, E2, E3 &
+E4) (J, K& L). The accessions were grouped and pairwise comparisons conducted by Duncan's Multiple Range Test at P <0.05. The boxes with a
+common alphabet indicate no significant difference in seed weight. Number of accessions (n) in each sub-class is represented on top of each
+box. GI-GVI represents a number of groupings of the 573 accessions in each block
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 6 of 14
+A total of 231 QTNS were identified by the two SLMS plus The 1.5kb upstream of each candidate gene was ex-
+the six MLMS, out ofthese, seventeen were detected concur- plored for seed-related regulatory elements. Three seed-
+rently by the two categories of models (Additional File 2: related cis-elements (GCN4 motif, MSA-like and RY-
+Table S2; Additional File 5: Fig. S3B). qHSW-2-1, qHSW-2-8, element) were identified in the promoter regions of 13
+qHSW-2-10, qHSW-9-12, qHSW-13-8, qHSW-13-26, qHSW- of the predicted candidate genes (Additional File 6:
+14-10, qHSW-14-12 & qHSW-17-4 were detected by more Table S6). GCN4_motif [TGAGTCA] which is involved
+than of two the MLMS in at least three environments as well in endosperm expression was found in Glyma01g38450,
+as by at least one of the SLMS in one environment (Add- Glyma04g06760, Glyma13g17890, Glyma15g17040, Gly-
+itional File 2: Table S2). Pairwise comparison among the ma15g39730 and Glyma19g28070 [53]. MSA-like [(TI
+eight models showed vary range of QTNS (2-44) detection OCITICAACGGETIC(TIOA element which is in-
+concurrently (Additional File 5: Fig. S3).
+volved in cell cycle regulation was found in Gly-
+ma02g07240, Glyma09g04840 and Glymal4g11930 [54].
+Allele effect of QTNS on seed weight
+RY-element [CATGCATG] involved in seed-specific
+Haplotype block analyses were conducted for qHSW-8-8 regulation was identified in Glyma03g06420, Gly-
+(Gm08_15803242), qHSW-9-4 (Gm09_3461722), qHSW- ma03g06600, Glyma06g17520 and Glyma12g33280 [55].
+13-26 (Gm13_43480280) and two tightly linked SNPS, Plant growth and development are regulated by circa-
+Gm14_40721910 (qHSW-14-10) & Gm14_40721920 dian related genes especially flowering time. In addition,
+(qHSW-14-11) in Haploview software with four gamete the circadian clock [CAAAGATATC) was detected in
+rule method (Fig. 5a-1). The distance within each block Glyma01g38450, Glyma04g06760, Glyma06g44510, Gly-
+ranged 46-490 kb with range of 4-97 SNPs. The 573 ac- ma07g11550, Glyma08g20780 and Glyma13g17890. A
+cessions were grouped into 3-6 categories in each block study conducted by Hudson [56] demonstrated that the
+with significant variation in seed weight.
+circadian clock controlled transcriptome of developing
+soybean seeds. Twenty of the predicted candidate genes
+Candidate genes prediction and further analyses
+had ABRE element involved in the abscisic acid respon-
+Potential candidate genes were mined from 500 kb upstream siveness which have been reported to play a primary role
+and downstream of significant SNPS that were detected in at in seed maturation [57].
+least two environments. SNPS within a block that were de- To understand possible interaction among the 36 candi-
+tected in at least one environment, only one was used to date genes whilst mining for other genes, the predicted can-
+identify candidate genes. In all, thirty-six candidate genes didate genes were subjected to SoyNet which has 40,182
+were identified using the orthologs in Arabidopsis of which soybean genes (73% of the coding genome) with two million
+14 and 22 were located upstream and downstream of the functional network in soybean [58]. A dense interaction net-
+SNPS positions, respectively (Additional File 6: Table S4). Five work among 213 genes distributed across the 20 chromo-
+SNPs had two potential candidate genes each, for instance, somes were found comprising 15 of the predicted genes in
+SNP at Gm08_15803242 (qHSW-8-8) had Glyma08g20770 this study (Additional File 7: Fig. S4A&B). Four hub genes
+and Glyma08g20780 at 38.65 and 27.86 kb downstream. (Glyma06g44510, Glyma08g06420, Glyma12g33280 and
+These two genes code for ATP binding cassette (ABC) trans- Glyma19g28070) in the network were among the predicted
+porter protein with biological function of transport; trans- candidate genes. These hub genes were confirmed by qRT-
+membrane transport which have been demonstrated to play PCR with seven extreme genotypes, thus, five high HSW ge-
+significant role in regulating seed size/weight with effect on notypes (P048, P130, P227, P589 and P602) and two low
+seed yield [51]. These two genes together with Gly- HSW genotypes (P415 and P579) in seed sampled at R5
+ma06g17520, Glyma06g44510 Glyma09g04840, Gly- and R7 stages. With the exception of Glyma12g33280, the
+mallg27070, Glymal2g33280, Glymal3g18280 and remaining three hub genes (Glyma06g44510 Gly-
+Glymal3g17890 are annotated to be involved in sugar/su- ma08g06420 and Glyma19g28070) were relatively expressed
+crosel monosaccharide transport. The remaining 25 genes higher in the high HSW genotypes at R5 stage compared
+are involved in two or more biological processes such as cell with low HSW genotypes (Fig. 6). However, the expression
+proliferation, regulation of cell size, cell wall modification, were not consistent in the R7 stage.
+flower/its part development, seed development, seed coat de-
+velopment and other biological processes which play key Discussion
+roles in regulating seed size/weight (Additional File 6: Table Phenotype variation and genetic basis of seed weight in
+S4). From the RNA-Seq Atlas developed by Severin et al. [52] YHSBLP
+available on SoyBase database, it was discovered that all the Identification of molecular markers associated with a
+predicted candidate genes are highly expressed in seed- trait of interest is one of the prerequisites of molecular
+related tissues as well as seed developmental stages except breeding. Soybean seed weight is one of the most critical
+Glyma09g24020 (Additional File 6: Table S5).
+traits having direct effect on yield as a yield component,
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 7 of 14
+(c)
+(e)
+Gomal2g3280
+ER
+ER
+halh
+41s
+mis Gen mirinrin
+(b)
+(d)
+Glyma08g06420
+(0
+Glymal9g28070 LE
+Es
+40-
+3 30- bétee
+s
+ iE 20-
+1067
+Fuilal
+Nis P579 rois PiO Piz7 PSNs Piez
+a 4 PPNPOIP AUsT
+Nis PST9 rois rio ran riw roez
+Genotypes
+MIS
+Fig. 6 Seed weight among selected genotypes and relative expression of 4-hub genes by qRT-PCR a&b Phenotypic characterization of selected genotypes
+for qRT-PCR Relative expression of Glyma06944510 (c), Gyma08g06420 (d), Giyma12g33280 (e) and Gyma19g28070 (f by qRT-PCR with seed at RS and R7
+stages of fseed development (LHSW andHHSW represent Low HSW andHigh HSW, respectively. The error bars represent standard error of means)
+with much importance as a quality attribute and its influ- by the population size, genetic diversity as well as genome
+ence on seed use [7-9]. The seed weight (HSW) ultimately coverage/number of SNPS, linkage disequilibrium, and
+determines the economic return on soybean production. statistical models [17, 49, 50]. Therefore, this study used
+However, this trait is a complex trait controlled by many two SLMS (MLM & CMLM) together with six MLMs
+polygenes with both major and minor effects, which is also (mrMLM, FASTmIMLM, FASTmrEMMA, pLARmEB,
+significantly influenced by the environment and genotype pKWmEB and ISIS EM-BLASSO) to identify genomic re-
+by environment interaction. This makes screening on the gions associated with seed weight. A total of 39 SNPs were
+basis of phenotype alone very difficult and inefficient. significantly associated with HSW by the two single-locus
+Hence, identifying QTL/QTNS for marker-assisted breed- models (MLM & CMLM) across ten out of the 20 chro-
+ing for seed weight would be beneficial.
+mosomes viz. Chr.01, Chr.02, Chr.04, Chr.08, Chr.09,
+The HSW in soybean is a typical quantitative trait which Chr.11, Chr.13, Chr.14, Chr.15, Chr.16 and Chr.17 (Add-
+is easily influenced by genotype, environment or by geno- itional File 2: Table S2; Additional File 3: Fig. S1; Add-
+type x environment interaction (G x E) which are in con- itional File 4: Fig. S1). Out of these, 24 were mutually
+sonance with several earlier studies [30, 46]. There was detected by both MLM & CMLM whereas 6 and 9 SNPs
+much variability in the YHSBLP (7.24-39.70g) (Add- were exclusively detected by CMLM and MLM, respect-
+itional File 1: Table S1) which together with larger popula- ively (Additional File 5: Fig. S3A). On the other hand, two
+tion size and high SNPs enhanced effectiveness and hundred and nine SNPs were associated with HSW via
+efficiency of QTN detection via SNP-trait association [49, the six MLMS across the 20 chromosomes (Add-
+50, 59]. The HSW showed normal distribution in each en- itional File 2: Table S2). Each of the six models detected
+vironment (E1, E2, E3 and E4) (Fig. 1) coupled with high varied number of SNPS: pLARmEB (82) > mrMLM (75) >
+h2 which indicated that variation in HSW is controlled by pKWmEB (61) > FASTmIMLM (56) > ISIS EM-BLASSO
+multiple genetic loci with both major and minor effects (47)> FASTmrEMMA (32). This indicates varied detec-
+(Table 1). This study utilized 573 recently developed tion of each model. Also, pairwise comparisons of the 6
+breeding line population (YHSBLP) compared with most models demonstrated that each of the models has the
+of the earlier studies that used wild accession, landraces power to detect SNPs concurrently from each other,
+and elite cultivars [24, 26, 27, 30, 46]. The high genetic though no SNP was detected by all the six models simul-
+variability shows the potentials of YHSBLP for genetic im- taneously. For the example mrMLM & FASTmIMLM
+provement aimed at seed weight [60].
+concurrently detected 44 SNPs followed by mrMLM &
+pKWmEB (22) and least by ISIS EM-BLASSO with
+QTNS detected by the single and multi-locus models and FASTmrMLM (11) and FASTmrEMMA (11) (Add-
+their comparisons
+itional File 2: Table S3). Multiple multi-site association
+Most of the earlier reported QTL/QTNS were performed analysis methods cannot only improve the reliability of
+with < 500 accessions and SNPS were < 60,000 [29, 30, QTNS detected, but also complement each other to detect
+46-48]. The power of detection in GWAS is constrained more QTNS. In this study, two important QTNS: qHSW-
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 8 of 14
+8-1 and 4HSW-19-41HSW-195 harbored 2 of the 4 and maternal integuments, respectively [67, 72]. Seed
+hub genes identified were solely detected by only the weight/size is also dependent on cell size and its prolifera-
+MLMS. This also buttresses the usefulness of MLMs in tion, flower development, sucrose transport and other re-
+GWAS.
+lated activities which are regulated by several signaling
+In comparison of the two SLMS and six MLMS, 17 pathways [66-68, 73-75]. Sucrose which is the major
+common SNPS were detected on 6 chromosomes sugar composition accounts 97% in embryo during seed
+(Chr.02, Chr.08, Chr.09, Chr.11, Chr.13 and Chr.14) development process [76]. In our study, five of the thirty-
+(Additional File 5: Fig. S3B; Additional File 4: Fig. S2). six candidate genes are related with sucrose transport
+Even though, the threshold of the significance in SLMS (Additional File 6: Table S4). For example, within the
+was adjusted to 4 instead of 4.79 (Bonferroni correction), haplotype block Gmo6.13796257-13926598 had a signifi-
+the number of significant SNPS detected by SLMS were cant SNP at 13909376bp (qHSW-6-5) with three sucrose
+lower than those detected by MLMS, which confirm the transporter genes (Glyma06g17520, Glyma06g17530 and
+robustness and power of detection of the later models. Glyma06g17540) at 40.04 kb, 21.72kb and 7.62kb up-
+The combination of both SLMS and MLMS enhanced stream of the SNP, respectively (Additional File 6: Table
+the detection of both major and minor QTNS. Several S4). These genes are 99.68, 99.62 and 99.61% similar to
+SNPs were detected in specific environment which are AtSWEET12, AtSWEET13 and AtSWEET10, respectively.
+in consonance with ANOVA, indicating that seed weight Again, another sucrose transporter gene Glymal1g27070
+of Chinese summer sowing soybean is also regulated by which is ortholog to AtSWEET15 was found 450.05 kb
+the environment. The combination of the two SLMS as downstream of the SNP at 27075467 (Gmll_ 26861064-
+well as the six MLMS complemented each other in iden- 27075467). Less is known of the role of GmSWEET genes
+tifying 231 QTNS which could have been lost in either in seed development and its related traits in soybean [20,
+of the models. However, the MLMS proved to be more 77] compared to other crops [78, 79].
+robust and powerful in detecting more SNPs than the The functional network obtained from SoyNet revealed
+SLMS. Similar trend have been reported in soybean [34], 4 hub-genes viz. Glyma06g44510, Glyma08g06420, Gly-
+cotton [35], maize [61] and flax [62] where more num- ma12g33280 and Glyma19g28070 in our predicted candi-
+ber of significant SNPs were detected by the MLMS date genes (Additional File 7: Fig. S4). Although, the
+comparing with SLMS. Therefore, the use of multi-locus functional relationship depicted in the co-expression net-
+models with their power of detection can facilitate gen- work did not include all the 36 candidate genes predicted
+omic selection in breeding.
+in this study, it gives better clues about 15 genes out of
+The stability of QTL/QTNS is essential for the use in a the predicted genes together with other genes which were
+breeding program. Ninety-four of the QTNS identified in not captured in this study. There is intensive literature on
+this study co-localized with several earlier reported the interaction of ribosomal proteins and kinesin proteins
+QTL/QTNS could be exploited and integrated into in regulating embryo/seed size and radicle growth [80].
+breeding (Additional File 2: Table S2). Whereas 137 Such interaction was evident in the network constructed
+novel QTNS are being reported for the first time based in this study. Some members of kinesin protein have been
+on QTL/QTNS documented on SoyBase as some re- demonstrated to regulate embryo/seed size in rice [81,
+cently published reports need further verification. This 82]. The network captured two genes (Glyma17g17850
+could be attributed to the diverse background of our re- and Glymal7g18360) within the block Gm17_15178123-
+cently developed breeding lines pointing to their poten- 15400615 (SNP at 15346512). These two genes belong to
+tial for breeding programs. Out of 137 novel loci, 22 Subtilase family protein and CYCLIN D3;2 which are in-
+were detected in at least two environments by at least volved in seed coat and other essential processes in seed
+two models (Additional File 2: Table S2). Also, allele ef- weight regulation, respectively [73, 83]. Similarly, Gly-
+fect on seed weight by haplotype block analyses could be ma10g38580 which is a K-box region and MADS-box
+utilized to conduct haplotype-based breeding scheme to transcription factor was captured in the network. MADS-
+develop genotypes with desirable seed weight whilst ex- box genes have been reported to be jack of all traits [84].
+ploring the vast genetic base of YHSBLP.
+The network also covered the two genes from multidrug
+resistance-associated protein 6; ABC transporter trans-
+Candidate genes predicted and further analysis
+membrane region; ABC transporter proteins which have
+Identification and utilization of candidate genes is one of recently demonstrated to enhance seed yield and quality
+the key objectives of GWAS. So far few genes have been in chickpea [51]. The functional co-expression network
+validated and confirmed to regulate seed weight/size in capturing some key genes which had some orthologs dem-
+soybean [63-65] compared with Arabidopsis and rice onstrated to regulate seed development, implies that inte-
+[66-71]. A mature seed consists of embryo, endosperm gration of co-expression can be one of the strategies to
+and seed coat derived from zygote, fertilized central cell identify keys underlying major agronomic traits in crops.
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 9 of 14
+Cis-acting regulatory elements (CARES) are major local and foreign elite cultivars. The hybrid method was
+switches for transcriptional regulation of a dynamic net- used to select pods in F2-F4 generation of each combin-
+work of gene expression regulating different biological ation, and the high-yield and good plant type were se-
+processes such as abiotic stress responses, hormone re- lected in Fs-F6 generation. The lines selected for this study
+sponses and developmental processes [85]. Further bio- comprised high-yield and stable lines in Fg-F14 generation.
+informatics analysis showed that three of the four hub Field evaluation of the population was conducted in
+genes (Glyma06g44510, Glyma12g33280, Gly- Jiangpu (Latitude 33°03' N; Longitude 118963' E), Ex-
+ma19g28070) together with others possess seed-related perimental Station of NAU in summer 2013, 2014, 2017
+cis-elements, thus, GCN4_motif, MSA-like, RY-element, and 2018 coded E1, E2, E3 and E4, respectively (Add-
+circadian clock and ABRE element (Additional File 6: itional File 9: Table S8, or available in the National Cen-
+Table S6) [53-55, 86]. The predicted candidate genes es- ter for Soybean Improvement website, http://ncsi.njau.
+pecially the hub-genes will be validated in our future educm/mbo/15020692htm, The lines were planted in
+works to ascertain their actual roles in seed weight regu- randomized complete block design with 50 cm x 50 cm
+lation via overexpression, CRISPR/Cas9 and other func- hill plots in 3 replications. All recommended agronomic
+tional methods.
+and cultural practices were followed. A 100-seed weight
+(HSW) for each replication was measured with 2 tech-
+Conclusion
+nical repeats at 13% moisture content via electronic bal-
+The genetic architecture of YHSBLP planted in summer ance. The mean of each genotype from the 2 technical
+are regulated by varied QTNS unevenly distributed on repeats were computed for each replication.
+the 20 chromosomes. Seventeen QTNS were detected
+concurrently representing 43.54 and 8.13% of the total Statistical analysis of 100-seed weight
+QTNS by the two SLMS and six MLMS, respectively. Data collected were subjected to analysis of variance
+Among the six MLMS, mrMLM and PLARmEB are most (ANOVA) in SAS (SAS Institute, 2010. SAS/STAT soft-
+robust in detecting more QTNS. A number of SNPS in- ware version 9.2. SAS Institute Inc., Cary, NC) following
+cluding Gm08_15803242, Gm09_3461722, Gm13_ statistical model:
+43480280 and Gm14_40721910/ Gm14_40721920 de-
+tected by multiple models in at least two environments
+Ymlo = l + Gm + El + GEml + Roll) + Emlo,
+could further be validated and used for marker-assisted where Ymlo stands for the individual observation of mloth
+breeding (MAB). In all, thirty-six candidate genes that experiment unit, l is the total average HSW, Gm is the
+may regulate seed weight in soybean were identified. effect of the mth genotype, Ex is the effect of the Tth envir-
+These will be useful in comparative genomics aimed at onment, GEml is the interaction effect between the mth
+unraveling the molecular mechanism underlying seed genotype and the th environment, Roty is the effect of
+development/weight in soybean. Four hub genes viz., the oth block within the th environment, and Emlo is the
+Glyma06g44510, Glyma08g06420, Glyma12g33280 and residual error. All factors were considered as random.
+Glyma19g28070, were identified by the integration of Descriptive statistics such as mean, standard error of
+co-expression network. All the hub genes were found to
+mean, kurtosis and skewness were computed in each envir-
+have higher expression in the seeds of high HSW geno- onment with OriginPro 8 Statistical Software (Origin Cor-
+types than low HSW at R5 stage except Glyma12g33280, poration, Northampton, MA, USA) whereas variation in
+therefore, they could be cloned to study their regulating HSW among the genotypes was visualized using Violin plot
+role in seed development. The findings in this study with ggplot2 package in R [87]. Broad-sense heritability (42)
+would be valuable for breeding geared toward desirable
+were computed for the combined environment following
+seed weight via MAB and haplotype-based breeding h2
+scheme.
+02/(a + oge/n + 02/nr) where o2 is the genotypic
+variance, de is the genotype by environment interaction
+Materials and methods
+variance, 02 is the error variance, n is the number of envi-
+Germplasm, field evaluation and phenotyping
+ronments, and ris the number of replications [88].
+The tested panel named as YHSBLP includes a total of
+573 breeding lines adapted to Chinese Yangtze-Huai river Genotyping
+region for both grain and vegetable soybean use. All lines The DNA sample of each accession was genotyped by
+were obtained from National Center for Soybean Im- the Restriction site-associated DNA sequencing (RAD-
+provement, Nanjing Agricultural University (NAU), seq) technology to generate high throughput SNPs.
+Nanjing-China. This population was mainly derived from Briefly, the genomic DNA of the 573 accessions was ex-
+the core parents in breeding programs (Nannong 86-4, tracted from young leaves using the CTAB method [89].
+Nannong 88-48, Yuchu 4 and Nannongcaidou 5), other All DNA fragments between 400bp and 600bp were
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 10 of 14
+obtained by Taql digestion. The fragments were se- least one environment was considered as relatively stable
+quenced using an Illumina HiSeq 2000 instrument with SPNS. QTL naming was done following the nomencla-
+a paired-end reads length of 90 bp(including 6bp index) ture of McCouch et al. [105], thus starting with 'q,
+of read length [90]. All sequence reads were aligned followed by an abbreviation of the trait name (HSW,
+against the reference Glyma.Wm82al.vl.1 [91] using hundred seed weight) and the name of the chromosome,
+SOAP2 software [92], and SNP calling was performed by followed by the number of QTL detected on the same
+RealSFS software [93]. The criteria filtering SNPs of the chromosome.
+573 accessions were as follows: a rate of missing and Haplotype block analysis of the relatively stable SNPS
+heterozygous allele calls <30%, minor allele frequency across the 2 of the single-locus plus at least 2 multi-
+(MAF) X 5%. The fastPHASE software [94] was used for locus models was conducted in Haploview software with
+genotyping the SNP imputation after the heterozygous the four-gamete rule method with default parameters in
+alleles were turned into missing alleles, resulting in 61, Haploview software version 4.2 [106, 107]. Duncan
+166 high-quality SNP markers (Available on NCBI data- Range Multiple test (pairwise comparison) was used to
+base: PRJNA648781, or available in the National Center assess variation in seed weight among accession group-
+for Soybean Improvement website, http./ncsi.njau.edu. ings in each haplotype block at the significant level of
+cn/info/1149/2070htm) The SNP density plot was con- Ps 0.05.
+structed with CMPlot package in R [95].
+Candidate genes prediction and analysis
+Genetic diversity, population structure and haplotype
+Potential candidate genes were retrieved within 500 kb of
+block
+significant SNPs detected in at least 2 environments by ei-
+The filtered SNPs were further pruned using the - ther single-locus models or multi-locus models in the G.
+indep-pairwise command option of PLINK. The pruned max William 82 reference gene models 1.0 in SoyBase
+SNPS were then used to estimate population structure [108]. The functional annotations of model genes down-
+via ADMIXTURE V1.3.0 software [96]. In the ADMIX- loaded from SoyBase which were screened manually. The
+TURE setting, the number of clusters (K) was set from 1 predicted candidate genes were further compared with
+to 10 initially; then, each Q and the relevant P-value was their orthologs in other legume crops to confirm their
+estimated. The most likely number of subpopulations functions in relation to seed development using an Inte-
+was determined using the method described in Evanno grative Platform to study gene function and genome evo-
+et al. [97]. Principal Component Analysis (PCA) was car- lution in legumes(LegumePID) version 2 (http://plantgrn.
+ried out in Trait Analysis by aSSociation, Evolution and noble.org/LegumelP) [109] and Legume Information Sys-
+Linkage (TASSEL) software, version 5.2 [98]. A pairwise tem (LIS) (htps/legumeinfo.org) [110].
+Nei's genetic distance matrix was calculated in TASSEL The sequence of 1.5kb upstream (before ATG) of each
+for Neighbor-joining tree construction.
+gene was obtained from Phytozome database (https:/1
+phytozomejgidoegov, The obtained sequences were
+Association mapping and haplotype block analysis
+then submitted to PlantCare database available on
+Two SLMS of GWAS viz. MLM (Q + K) and compres- http:/bioinformatics.psbugentbeNwebe/webtools/plantcare)
+sion MLM (CMLM)(PCA+ K) were conducted in TASS html to identify cis-elements related to seed-related
+EL 5.2 [98] and Genome wide Association Prediction functions in the promoter region of each gene [111].
+Tool (GAPIT) environment in R [99], respectively, A functional network of protein-protein interaction
+where Q matrix was obtained from population structure among the predicted candidate genes and other related
+computed in ADMIXTURE V1.3.0 software [96], kinship genes were obtained via SoyNet (htps/www.inebio.org
+matrix (K) was estimated in each software and 3 PCs soynet/serach.php) [58]. The functional network derived
+were used for PCA in the CMLM. A threshold value from SoyNet was then visualized in standalone version of
+(-log1o(P) X 4.00) was adopted to declare a significant as- Cytoscape software [112] and NetworkAnalyst 3 [113].
+sociation of SNPs with seed weight.
+Six MLMS viz. mrMLM [100], FASTmIMLM [101], Validation of hub genes by real time quantitative
+FASTEMMA [31], pLARmEB [102], pKWmEB [103] polymerase chain reaction (qRT-PCR)
+and ISIS EM-BLASSO [104] were computed in R with Seven genotypes of YHSBLP with extreme differences in
+the package mrMLM.GUI (htpes/can.r-projctorg HSW (comprising 2 and 5 genotypes with low HSW and
+web/packages/m-MLM.GULindexzhtml) In these high HSW, respectively) were sampled at R5 and R7 stages
+models, Q matrix was used to account for population of seed development [114] of 2019 summer season at
+structure whilst the kinship matrix (K) was computed in Jiangpu Experimental station. Total RNA was isolated
+the mrMLM.GUI environment. A critical LOD value using Plant RNA Extract Kit (TIANGEN Co., Ltd. China)
+was set at 3. The SNPS detected by at least 2 models in and complementary DNA (cDNA) synthesis obtained by
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 11 of 14
+using HiScript II QRT SuperMix for qPCR (+gDNA sequencing; SLMS: Single-locus models; SNPS: Single nucleotide
+wiper) (Vazyme Biotech, Nanjing, China). The enzyme 2x polymorphisms
+ChamQ" SYBR qPCR Master Mix Kit (Vazyme Biotech,
+Acknowledgements
+Nanjing, China) was used following standard protocol and The authors are thankful to all the team- and lab mates and friends who
+program in a Light Cycler 480 system (Roche, Roche supported us during the research project and writing of the manuscript.
+Diagnostic, Basel, Switzerland). Three biological and three
+technical replicates were used. The GmActin 11 (Gly- Authors' contributions
+TJ.Z. conceived and designed the experiments. B.K, Z.LW., Y.L.Z. and W.LY.
+ma18g52780) was used as a housekeeping gene to performed the experiments. B.K. & JY.F analyzed the data and drafted the
+normalize the relative expression level in R5 and R7 stages manuscript. TJZ. & JY.F revised the paper. The author(s) read and approved
+of the selected genotypes seed. The primers used for qRT- the final manuscript
+PCR are presented in Additional File 8: Table S7.
+Funding
+This work was supported by the National Key R& D Program of China
+(2016YFD0100304, 2018YFD0100800), the National Natural Science
+Supplementary information
+Foundation of China (31871646), the MOE Program for Changjiang Scholars
+Supplementary information accompanies this paper at https//doiorg/10. and Innovative Research Team in University (PCSIRT_17R55), the
+1186512870020-026042
+Fundamental Research Funds for the Central Universities (KYT201801), the
+Jiangsu Collaborative Innovation Center for Modern Crop Production (UCIC-
+Additional file 1 Table S1. Descriptive statistics of SW in YHSBLP
+MCP) Program.
+evaluated in 4 environments.
+Additional file 2 Table S2. Quantitative trait nucleotides significantly
+Availability of data and materials
+associated with hundred seed weight identified by the single-locus
+With the exception of SNP datasets, all data generated or analyzed during
+models and multi-locus models. Table S3. Pairwise comparison of the 8 this study are included in this published article and its supplementary
+GWAS models.
+information files. The SNP dataset used in the current study are available in
+the Sequence Read Archive (SRA) at NCBI (SRA accession: PRJNA648781)
+Additional file 3 Fig. S1. Manhattan plots (left) and QQ-plots (right)
+repository and on the website of the National Center for Soybean
+for GWAS of the 573 accessions for HSW in E1 (A), E2 (B), E3 (C and E4
+Improvement, hep/incaingueduvoguhme
+(D) using CMLM (PCA +K). The threshold of 4 was adopted with a blue
+line in the Manhattan plots. The X-axis represents chromosome number
+Ethics approval and consent to
+and Y-axis represents -logio(P). The X and Y axis in the QQ plots repre-
+Not
+participate
+sent the expected and observed -logio(P), respectively. Red line in the
+applicable.
+QQ-plots with the shaded regions indicate a 95%6 confidence interval
+Additional file 4 Fig. S2. Manhattan plots (left) and QQ-plots (right for Consent for publication
+GWAS of the 573 accessions for HSW in E1 (A), E2 (B), E3 (C) and E4 (D)
+Not applicable.
+using MLM (Q+K). The threshold of 4 was adopted with a blue line in
+the Manhattan plots. The X-axis represents chromosome number and Y-
+Competing interests
+axis represents -logio(P). The X andY axis in the QQ plots represent the
+The authors declare no conflict of interest
+expected and observed -logio(P), respectively. Red line in the QQ-plots
+with the shaded regions indicate a 95% confidence interval.
+Received: 7 April 2020 Accepted: 16 August 2020
+Additional file 5 Fig. S3. Number of common significant SNPS
+Published online: 01 September 2020
+detected between models. (A). A number of common SNPS detected by
+the two single-locus models (MLM-blue color & CMLM-brown color). (B).
+References
+A number of fcommon SNPS detected by the 2 single-locus models (MLM 1. Hickey LT, Hafeez AN, Robinson H, Jackson SA, Leal-Bertioli SC, Tester M,
+& CMLM-blue color) and six multi-locus models (mrMLM, FASTMTMLM,
+Gao C Godwin ID, Hayes BJ, Wulf BB. Breeding crops to feed 10 billion. Nat
+FASTEMMA, PLARMEB, pkWmEB and ISIS EM-BLASSO-brown color).
+Biotechnol. 201937:744-54.
+Additional file 6 Table S4. Potential candidate genes underlying
+2. Dita MA, Rispail N, Prats E, Rubiales D, Singh KB. Biotechnology approaches
+stable SNPS. Table S5. Candidate genes expression across the various
+to overcome biotic and abiotic stress constraints in legumes. Euphytica.
+tissues and seed developmental stages obtained from SoyBase. Table
+2006,147(1-2,1-24.
+S6. Cis-acting regulating elements related to seed development obtained 3. Pandey MK, Roorkiwal M, Singh VK, Ramalingam A, Kudapa H, Thudi M,
+from PlantCARE.
+Chitikineni A, Rathore A Varshney RK Emerging genomic tools for legume
+breeding: current status and future prospects. Front Plant Sci. 2016;7:455.
+Additional file 7 Fig. S4. Functional gene network of candidate genes 4. Sparvoli iF, Bollini iRCominelli E In: DeRon AM, editor. Grain Legumes Berlin:
+predicted in this study and other related genes obtained from SoyNet.
+Springer,2015. p. 291-318.
+(A). Dense-interaction network obtained from standlone version of Cytos- 5. Messina M. Soy and health update: evaluation of the clinical and
+cape software. (B). The 4-hub genes and other visualized in NetworkAna-
+epidemiologic literature. Nutrients. 2016,8(12):754.
+lyst version 3. The node colors represent between degrees of interaction: 6. Messina MJ Legumes and soybeans: overview of their nutritional profiles
+red, pink, purple and blue represent very high, high, moderate and low
+and health effects. Am J Clin Nutri. 1999:70(3)439-50
+levels of interaction, respectively.
+7. Cui Z, James A, Miyazaki S, Wilson RF, Carter TE Jr. Breeding specialty
+Additional file 8 Table S7. Primers used for qRT-PCR.
+soybeans for traditional and new soyfoods. In: Liu K editor. Soybeans as
+Additional file 9 Table S8. Phenotypic data (average) of 573
+functional foods and ingredients: AOCS Press; 2004. p. 74-332.
+accessions used in this study.
+8. Gandhi iA Quality of soybean and lits food products Inter Food Res J 2009,16(1:11-
+9
+9. LiN,Xu R, Li Y Molecular networks of seed size control in plants. Annual
+Rev Plant Biol. 2019,70:1-30.
+Abbreviations
+10. Liang H, Lanjie XU, Yongliang YU, Yang H, Wei D, Zhang H. Identification of
+CARES: Cis-acting regulatory elements; GWAS: Genome-wide association
+QTLS with main, epistatic and QTL by environment interaction effects for
+study; MLMS: Multi-locus models; QTL: Quantitative trait loci;
+seed shape and hundred-seed weight in soybean across multiple years. J
+QTNS: Quantitative trait nucleotides; RAD-seq: Restriction site-associated DNA
+Genet 2016,95(2):475.
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 12 of 14
+11. Teng W,FengLLiw, Wu D,Zhao XHan Y,Liw. Dissection of the genetic
+34. Chang F,Guo C Sun F, Zhang J, Wang Z, Kong J,He Q, Sharmin RA, Zhao
+architecture for soybean seed weight tacross multiple environments Crop Pasture
+T. Genome-wide association studies for dynamic plant height and number
+Sci 201768/47358-65.
+of nodes on the Main stem in summer sowing soybeans. Front Plant Sci.
+12. Wu D, Zhan Y, Sun Q, Xu L, Lian M, Zhao X, Han Y,Liw. Identification of
+2018;9:1184.
+quantitative trait loci underlying soybean (Glycine max [LJ Merr.) seed
+35. LiC, Yuanzhi F, Runrun S, Yuanyuan W, Qinglian W. Single-locus and multi-
+weight including main, epistatic and QTL x environment effects in different
+locus genome-wide association studies in the genetic dissection of Fiber
+regions of Northeast China. Plant Breed. 20181372/194-202
+quality traits in upland cotton (Gossypium hirsutum L). Front Plant Sci. 2018;
+13. Wang J, Chu S, Zhang H, Zhu Y,Cheng H, Yu D. Development and
+9:1083.
+application of a novel genome-wide SNP array reveals domestication
+36. Zhang K Liu S,Liw, Liu S, Lix, Fang Y, Zhang J, Wang Y,Xu S, Zhang J,
+history in soybean. Sci Rep. 2016,6:20728.
+Song J Identification of QTNS controlling seed protein content in soybean
+14. Han Y, Zhao X, Liu D, Li Y, Lightfoot DA, Yang Z, Zhao L, Zhou G, Wang Z,
+using multi-locus genome-wide association studies. Front Plant Sci. 2018;9:
+Huang L Domestication footprints anchor genomic regions of agronomic
+1690.
+importance in soybeans. New Phytol. 2016209(2)871-84.
+37. Zhang CLiL,Liu Q, Gu L, Huang J, Wei H, Wang H, Yu S. Identification of
+15. Lee G-A, Crawford GW,Li L, Yuka S, Xuexiang C Archaeological soybean
+loci and candidate genes responsible for fiber length in upland cotton
+(Glycine max) in East Asia: does size matter? PLOS One 2011,6(11:e26720.
+(Gossypium hirsutum L) via association mapping and linkage analyses. Front
+16. Zhou Z, Yu J,Zheng W, Zhiheng G, Jun L, Weiyu L, Yanjun Y, Liping S,
+Plant Sci. 2019;10:53.
+Yingjun Z, Yanming M. Resequencing 302 wild and cultivated accessions
+38. Schaefer R, Michno J-M, Jeffers J, Hoekenga OA, Dilkes BP, Baxter IR, Myers
+identifies genes related to domestication and improvement in soybean. Nat
+C Integrating co-expression networks with GWAS to prioritize causal genes
+Biotechnol. 2015:3314)408-14.
+in maize. Plant Cell. 201830:2922-42.
+17. Gupta PK, Rustgi S, Kulwal PL Linkage disequilibrium and association
+39. Sarkar NK, Kim Y-K, Grover A Coexpression network analysis associated with
+studies in higher plants: present status and future prospects. Plant Mole
+call of rice seedlings for encountering heat stress. Plant Mole Biol. 2014;
+Biol. 20055714)461-85.
+84(1-2):125-43.
+18. Rafalski A Applications of single nucleotide polymorphisms in crop
+40. Zhang H, Wang ML, Schaefer R, Dang P, Jiang T, Chen C GWAS and co-
+genetics. Curr Opin Plant Biol 2002:5(2)94-100.
+expression network reveal lonomic variation in cultivated Peanut. J Agric
+19. Asins MJ. Present and future of quantitative trait locus analysis in plant
+Food Chem. 20196743M12026-36
+breeding. Plant Breed. 2002:121(4,281-91.
+41. Angelovici R, Batushansky A, Deason N, Gonzalez-Jorge S, Gore MA, Fait A,
+20. Miao L, Yang S, Zhang K He J, Wu C Ren Y, Gai iJ,LiY. Natural variation and
+DellaPenna D. Network-guided GWAS improves identification of genes
+selection in GmSWEET39 affect soybean seed oil content. New Phytol. 2019;
+affecting free amino acids. Plant Physiol. 201717301)872-86
+225(4):1651-66.
+42. Yang S, Miao L, He J, Zhang K Liy, Gai J. Dynamic Transcriptome changes
+21. Zhang H, Hao D, Sitoe HM, Yin Z, Hu Z, Zhang G, Yu D. Genetic dissection
+related to oil accumulation in developing soybean seeds. Inter J Mole Sci
+of the relationship between plant architecture and yield component traits
+2019,20(9:2202
+in soybean (Glycine max) by association analysis across multiple
+43. Wu Z, Wang M, Yang S, Chen S, Chang X A global coexpression network of
+environments. Plant Breed. 2015:13415)564-72
+soybean genes gives insight into the evolution of nodulation in non-
+22. Zhang J, Song Q Cregan PB, Jiang G-L Genome-wide association study,
+legumes and legumes New Phytol. 20192232104-19.
+genomic prediction and marker-assisted selection for seed weight in
+44. Palumbo MC, Zenoni S, Fasoli M, Massonnet M, Farina L, Castiglione F,
+soybean (Glycine max). Theor Appl Genet. 2016129(1,117-30.
+Pezzotti M, Paci P. Integrated network analysis identifies fight-Club nodes as
+23. Fang C Ma Y, Wu S, Liu Z, Wang Z, Yang R, Hu G, Zhou Z, Yu H, Zhang M.
+a class of hubs encompassing key putative switch genes that induce major
+Genome-wide association studies dissect the genetic networks underlying
+Transcriptome reprogramming during grapevine development. Plant Cell.
+agronomical traits in soybean. Genome Biol. 2017;18(1):161.
+201426012)4617-35
+24. Copley TR, Duceppe MO, O'Donoughue LS. Identification of novel loci
+45. Das S, Meher PK Rai A, Bhar LM, Mandal BN. Statistical Approaches for Gene
+associated with maturity and yield traits in early maturity soybean plant
+Selection, Hub Gene Identification and Module Interaction in Gene Co-
+introduction lines. BMC Genomics. 2018;19(1):167.
+Expression Network Analysis: An Application to Aluminum Stress in Soybean
+25. Lix, Zhang X, Zhu L, Bu Y, Wang X, Zhang X Zhou Y, Wang X, Guo N, Qiu
+(Glycine max L). PLOS One. 2017;12(1,e0169605
+L Genome- wide association study of four yield-related traits at the R6
+46. LiJ, Zhao J,LiY, Gao Y, Hua S, Nadeem M, Sun G, Zhang W, Hou J, Wang X
+stage in soybean. BMC Genet 2019,20(1):39.
+Identification of a novel seed size associated locus SW9-1 in soybean. Crop
+26. Chaudhary J, Patil GB, Sonah H, Deshmukh RK, Vuong TD, Valliyodan B,
+J. 20197(4,548-59.
+Nguyen HT Expanding Omics Resources for Improvement of Soybean Seed 47. Xue Z, Wenjing L Xiaoyue Z, Jinyang W, Zhiyang L Han Y,Li W. Genome
+Composition Traits. Front Plant Sci. 2015,6(31).
+wide association mapping and candidate gene analysis for seed shape in
+27. Zhao X Dong H, Chang H, Zhao J, Teng W, Qiu L,LiW, Han Y. Genome
+soybean [Glycine max (L) Merri). Crop Pasture Sci. 2019:70(8)684-93.
+wide association mapping and candidate gene analysis for hundred seed 48. Contreras-Soto RI, Mora F, Oliveira MARD, Higashi W, Scapim CA, Schuster L
+weight in soybean [Glycine max (L) Merrill). BMC Genom. 2019;20(1).648.
+A genome-wide association study for agronomic traits in soybean using
+28. Sun YN, Pan JB, Shi XL, Du XY, Wu Q, Qi ZM, Jiang HW, Xin DW, Liu CY, Hu
+SNP markers and SNP-based haplotype analysis. PLOS One. 2017;12(2).
+GH. Multi-environment mapping and meta-analysis of 100-seed weight in 49. Josephs EB, Stinchcombe JR, Wright SL What can genome-wide association
+soybean. Mole Biol Rep. 201239(10)9435-43.
+studies tell us about the evolutionary forces maintaining genetic variation
+29. Assefa T,Otyama PI, Brown AV, Kalberer SR, Kulkarni RS, Cannon SB. Genome-
+for quantitative traits? New Phytol 201721401):21-33.
+wide associations and epistatic interactions for internode number, plant
+50. Xu Y, Liu X, Fu J, Wang H, Wang J, Huang C Prasanna BM, Olsen MS, Wang
+height seed weight and seed yield din soybean. BMC Genomics. 2019;20(1)52.
+G, Zhang A. Enhancing genetic gain through genomic selection: from
+30. Yan L, Hofmann N, Li S, Ferreira ME, Song B, Jiang G, Ren S, Quigley C
+livestock to plants. Plant Comm. 2019;1:100005.
+Fickus E, Cregan P. Identification of QTL with large effect on seed weight in 51. Basu U, Upadhyaya HD, Srivastava R, Daware A, Malik N Sharma A, Bajaj D,
+a selective population of soybean with genome-wide association and
+Narnoliya L, Thakro V, Kujur A ABC transporter-mediated transport of
+fixation index analyses. BMC Genomics. 2017;18(1):529.
+glutathione conjugates enhances seed yield and quality in chickpea. Plant
+31. Wen Y-J, Zhang H, Ni Y-L, Huang B, Zhang J, Feng J-Y, Wang S-B, Dunwell
+Physiol. 2019180(1)253-75.
+JM, Zhang Y-M, Wu R. Methodological implementation of mixed linear
+52. Severin AJ, Woody JL, Bolon YT, Joseph B, Diers BW, Farmer AD, Muehlbauer
+models in multi-locus genome-wide association studies. Brief Bioinfor. 2017;
+GJ, Nelson RT, Grant D, Specht JE RNA-Seq atlas of Glycine max: ca guide to
+19(4):700-12.
+the soybean transcriptome. BMC Plant Biol. 2010;10(1):160.
+32. Zhang Y-M, Jia Z, Dunwell JM. The applications of new multi-locus GWAS 53. Onodera Y, Suzuki A, Cy WH, Takaiwa F. A rice functional transcriptional
+methodologies in the genetic dissection of complex traits. Front Plant Sci.
+activator, RISBZ1, responsible for endosperm-specific expression of storage
+2019;10:100.
+protein genes through GCN4 motif EJ Biol Chem. 2001276017X14139-52
+33. Chang M, He L, Cai L An Overview of Genome-Wide Association Studies. In: 54. Ito M, Iwase M, Kodama H, Lavisse P, Komamine A, Nishihama R, Machida Y,
+Huang T, editor. Computational Systems Biology: Methods and Protocols.
+Watanabe A A novel cis-acting element in promoters of plant B-type cyclin
+New York Springer New York; 2018. p. 97-108.8.
+genes activates M phase-specific transcription. Plant Cell 1998;10(3):331.
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 13 of 14
+55. Gea G, Nathalie M, Anna G, Sundstrom JF, Lars R, Ines E The RY/Sph
+regulation of embryo/seed size and radicle growth. J Exper Bot. 2017,68(20):
+element mediates transcriptional repression of maturation genes from late
+5553-64.
+maturation to early seedling growth. New Phytol. 2010,18403)552-65.
+81. Kitagawa K Kurinami S, Oki K Abe Y,Ando T, Konol, Yano M, Kitano H,
+56. Hudson K The circadian clock-controlled Transcriptome of developing
+Iwasaki IYA novel Kinesin 13 protein regulating Rice seed length. Plant Cell
+soybean seeds. Plant Genom. 2010:3(1):3-13.
+Physiol. 201051(8:1315-29.
+57. Kazumi N, Masanori O, Tomokazu K Yuji K Eiji N. Genome-wide profiling of 82. Wu T, Shen Y, Zheng M, Yang C Chen Y, Feng Z, Liu X, Liu S, Chen Z, Lei C
+stored mRNA in Arabidopsis thaliana seed germination: epigenetic and
+Gene SGL, encoding a kinesin-like protein with transactivation activity, is
+genetic regulation of transcription in seed. Plant J. 201041(5)697-709.
+involved in grain length and plant height in rice. Plant Cell Rep. 2014;33(2):
+58. Kim E, Hwang S, Lee L SoyNet a database of co-functional networks for
+235-44.
+soybean Glycine max. Nucleic Acids Res. 201645(D1)D1082-9.
+83. Dewitte W, Scofield S, Alcasabas AA, Maughan SC, Menges M, Braun N,
+59. Visscher PM, Wray NR, Zhang Q, Sklar P, McCarthy MI, Brown MA, Yang J 10
+Collins C Nieuwland J, Prinsen E, Sundaresan V, Murray JA. Arabidopsis
+years of GWAS discovery: biology, function, and translation. Am J Hum
+CYCD3 D-type cyclins link cell proliferation and endocycles and are rate-
+Genet 2017;101(1)5-22.
+limiting for cytokinin responses. Proc Natl Acad Sci U SA 2007;104(36):
+60. Varshney RK Sinha P, Singh VK, Kumar A Zhang Q, Bennetzen JL 5Gs for
+14537-42.
+crop genetic improvement Curr Opin Plant Biol 2020;1930119-0.
+84. Schilling S, Pan S, Kennedy A, Melzer R MADS-box genes and crop
+61. Xu Y, Yang T, Zhou Y,Yin S, LiP, Liu J, Xu S, Yang Z, Xu C Genome-wide
+domestication: the jack of all traits. J Exper Bot. 2018697,1447-69.
+association mapping of starch pasting properties in maize using single-
+85. Pandey S, Reddy CS, Yaqoob U, Negi YK Arora S, Kau T. In-silico analysis of
+locus and multi-locus models. Front Plant Sci 2018;9:1311.
+Cis-acting regulatory elements (CARES) in upstream regions of Ascorbate
+62. He L, Xiao J, Rashid KY, Yao Z, LiP,Jia G, Wang X Cloutier S, You FM.
+glutathione pathway genes from Oryza sativa. Bioch Physiol. 2015;4:159.
+Genome-wide association studies for pasmo resistance in flax (Linum
+86. Fauteux F, Stromvik MV. Seed storage protein gene promoters contain
+usitatissimum L). Front Plant Sci. 1982;2019:9.
+conserved DNA motifs in Brassicaceae, Fabaceae and Poaceae. BMC Plant
+63. Jeong N, Suh SJ, Kim M-H, Lee S, Moon J-K Kim HS, Jeong S-C Ln isakey
+Biol. 20099(1):126-0.
+regulator of leaflet shape and number of seeds per pod in soybean. Plant 87. Hintze J, Nelson R Violin plots: a box plot-density trace synergism. Am Stat.
+Cell 201224012)4807-18.
+1998:5202)181-4.
+64. Lu X, Xiong Q Cheng T,Li QT, Liu XL, Bi YD, Liw, Zhang WK, Ma B, Lai YC, 88. Nyquist WE, Baker RJ. Estimation of heritability and prediction of selection
+Du WG. A PP2C-1 allele underlying a quantitative trait locus enhances
+response in plant populations. Critical Rev Plant Sci 1991;1003)235-322
+soybean 100-seed weight Mole Plant. 2017;10(5),670-68.
+89. Murray MG, Thompson WF. Rapid isolation of high molecular weight plant
+65. Zhao B, Dai A, Wei H, Yang S, Wang B, Jiang N, Feng X. Arabidopsis KLU
+DNA Nucleic Acids Res. 1980,8(19)4321-5.
+homologue GmCYP78A72 regulates seed size in soybean. Plant Mole Biol
+90. LiL, Guo N, Niu J, Wang Z, Cui X, Sun J, Zhao T, Xing H. Loci and candidate
+20159001-2)33-47.
+gene identification for resistance to Phytophthora sojae via association
+66. LiN, LiY. Ubiquitin-mediated control of seed size in plants. Front Plant Sci
+analysis in soybean [Glycine max (L) Merr.). Mol Gen Genomics. 2016;291(3):
+20145:332.
+1095-103.
+67. LiN, LiY. Signaling pathways of seed size control in plants Curr Opin Plant 91. Schmutz. J, Cannon SB, Schlueter J, Ma J, Mitros T, Nelson W, Hyten DL,
+Biol. 201633:23-32
+Song Q, Thelen J, Cheng J Genome sequence of the palaeopolyploid
+68. Zhu X Liang W, Cui X, Chen M, Yin C Luo Z, Zhu IJ, Lucas WJ, Wang Z,
+soybean. Nature. 20104637278:178.
+Zhang D. Brassinosteroids promote development of rice pollen grains and 92. LIR, Yu C Li Y, Lam TW, Yiu SM, Kristiansen K Wang J SOAP2: an improved
+seeds by triggering expression of carbon starved anther, a MYB domain
+ultrafast tool for short read alignment. Bioinformatics. 200925(15:1966-7.
+protein. Plant J. 201582(4)570-81.
+93. YIX, Liang Y, Huerta-Sanchez E, Jin X, Cuo ZXP, Pool JE, Xu X, Jiang H,
+69. Ren D, Wang X, Yang M, Yang L He G, Deng XW. A new regulator of seed
+Vinckenbosch N, Korneliussen TS, et al. Sequencing of 50 human Exomes
+size control in Arabidopsis identified by a genome-wide association study.
+reveals adaptation to high altitude. Science. 201032915987)75-8.
+New Phytol 20192222)895-906
+94. Scheet P, Stephens M. A fast and flexible statistical model for large-scale
+70. Miao C Wang D, He R, Liu S, Zhu JK Mutations in MIR 396e and MIR 396f
+population genotype data: applications to inferring missing genotypes and
+increase grain size and modulate shoot tarchitecture in rice. Plant Biotechnol
+haplotypic phase. Am JHum Genet 2006,7814)629-44.
+J.2 2020,182)491-501.
+95. Lilin Y. CMplot: Circle Manhattan Plot 2019. Available at: https//CRAN.R-
+71. Liu E, Zeng S, Zhu S, Liu Y, Wu G, Zhao K Liu X Liu Q Dong Z, Dang X, Xie
+projctorg/padage-CWpiot Accessed on 23 Nov 2019.
+H. Favorable alleles of GRAIN-FILLING RATE1 increase the grain-filling RATE 96. Alexander DH, Novembre J, Lange K Fast model-based estimation of
+and yield of Rice. Plant Physiol 2019,181:1207-22
+ancestry in unrelated individuals. Genome Res. 2009199:1655-64.
+72. Lafon-Placette C Kôhler C Embryo and endosperm, partners in seed
+97. Evanno G, Regnaut S, Goudet J Detecting the number of clusters of
+development. Curr Opin Plant Biol. 2014;17:64-9.
+individuals using the software STRUCTURE: a simulation study. Mole Ecol.
+73. D'Erfurthl, Signor CL, Aubert G, Sanchez M, Gallardo K A role for an
+20101418)2611-20
+endosperm-localized subtilase in the control of seed size in legumes. New 98. Bradbury P, Zhang Z, Kroon D, Casstevens T, Buckler EY. TASSEL: software
+Phytol. 20121963)738-51.
+for association mapping of complex traits in diverse samples. Bioinfor. 2007;
+74. Zhu B, Hui L, Jiangqi W, S. MK, Xianbing W, Yanxi P, Lifang N, Hao L
+23(19);2633-5.
+Functional specialization of duplicated AGAMOUS homologs in regulating 99. Lipka AE, Feng T, Qishan W, Jason P, Meng L, Bradbury PJ, Gore MA, Buckler
+floral organ development of Medicago truncatula. Front Plant Sci. 2018;9:
+ES, Zhiwu Z GAPIT: genome association and prediction integrated tool
+854.
+Bioinfor. 201228(18)2397-9.
+75. Yua F, LiJ, Huang Y, Liu L,LID, Chen L, Luan S. FERONIA receptor kinase
+100. Wang S-B, Feng J-Y, Ren W-L, Huang B, Zhou L, Wen Y-J, Zhang J, Dunwell
+controls seed size in Arabidopsis thaliana. Mole Plant 2014:5(7):920-2.
+JM, Xu S, Zhang Y-M. Improving power and accuracy of genome-wide
+76. Hills MJ. Control of storage-product synthesis in seeds. Curr Opin Plant Biol.
+association studies via a multi-locus mixed linear model methodology. Sci
+20047(3):302-8.
+Rep. 2016,6:19444.
+77. Wang S, Yokosho K Guo R, Whelan J, Ruan Y-L, Ma JF, Shou H. The soybean 101. Tamba CL, Zhang Y-M. A fast mrMLM algorithm for multi-locus genome-
+sugar transporter GmSWEET15 mediates sucrose export from endosperm to
+wide association studies. BioRxiv. 2018;341784.
+early embryo. Plant Physiol. 201918014/2133-41.
+102. Zhang J, Feng J, Niy, Wen Y, Niu Y, Tamba C Yue C Song Q, Zhang Y.
+78. Yang J, Luo D, Yang B, Frommer WB, Eom JS. SWEET 11 and 15 as key
+PLARMEB: integration of least angle regression with empirical Bayes for
+players in seed filling in rice. New Phytol. 2018218(2,604-15.
+multilocus genome-wide association studies. Heredity. 2017;118(6).517.
+79. Chen LQ, Lin IW, Qu X-Q Sosso D, McFarlane HE, Londono A Samuels AL, 103. Ren WL, Wen YJ, Dunwell JM, Zhang YM pkWmEB: integration ofKruskal-
+Frommer WB. A Cascade of sequentially expressed sucrose transporters in
+Wallis test with empirical Bayes under polygenic background control for
+the seed coat and endosperm provides nutrition for the Arabidopsis
+multi-locus genome-wide association study. Heredity. 2018:12003)208-18
+embryo. Plant Cell. 2015273)607-19.
+104. Tamba CL, Ni YL, Zhang YM Iterative sure independence screening EM-
+80. Tian S, Wu J, Liu Y,Huang X, LiF, Wang Z, Sun M-X Ribosomal protein
+Bayesian LASSO algorithm for multi-locus genome-wide association studies.
+NtRPL17 interacts with kinesin-12 family protein NtKRP and functions in the
+PLOS Comput Biol. 2017;130,e1005357.
+
+
+
+Karikari et al. BMC Plant Biology (2020) 20:404
+Page 14 of 14
+105. McCouch SR, Chen X, Panaud 0, Temnykh S, Xu Y, Yong GC Huang N, Ishii
+T, Blair M. Microsatellite marker development mapping and applications in
+rice genetics and breeding. Plant Mole Biol. 1997,35(1-2)89-99
+106. Barrett JC, Fry B, Maller J,Daly MJ. Haploview: analysis and visualization of
+LD and haplotype maps. Bioinfor. 200521(2)263-5.
+107. Ning W, Akey JM, Kun Z, Ranajit C LiJ. Distribution of recombination
+crossovers and the origin of haplotype blocks: the interplay of population
+history, recombination, and mutation. Am JHum Genet 200271(5X1227-34.
+108. Grant D, Nelson RT, Cannon SB, Shoemaker RC SoyBase, the USDA-ARS
+soybean genetics and genomics database. Nucleic Acids Res. 2010;
+38(Database issue):D843.
+109. Lij, Dai X, Liu T, Zhao PX LegumelP: an integrative database for
+comparative genomics and transcriptomics of model legumes Nucleic
+Acids Res 201140(D1)D1221-9
+110. Gonzales MD, Eric A, Andrew F, Kamal G, David G, Randy S, Beavis WD,
+Waugh ME The legume information system (LIS): an integrated information
+resource for comparative legume biology. Nucleic Acids Res. 2005;
+33(Database issue):D660-5.
+111. Lescot M, Patrice D, Gert T, Kathleen M, Yves M, Yves VDP, Pierre R,
+Stephane R PlantCARE, a database of plant cis-acting regulatory elements
+and da portal to tools for in silico analysis of promoter sequences. Nucleic
+Acids Res. 20023001)325-7.
+112. Lopes CT, Max F, Farzana K Donaldson SL, Quaid M, Bader GD. Cytoscape web:
+an interactive web -based network browser. Bioinfor. 201026(18/2347-8.
+113. Zhou G, Soufan O, Ewald J, Hancock RE, Basu N, Xia J NetworkAnalyst 3.0:a
+visual analytics platform for comprehensive gene expression profiling and
+meta-analysis. Nucleic Acids Res. 201947W1X234-41
+114. Fehr W, Caviness C Burmood D, Pennington J. Stage of development
+descriptions for soybeans, Glycine max (L) Merrill Crop Sci. 1971,11(6)929-31.
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Ready to submit your research? Choose BMC and benefit from:
+. fast, convenient online submission
+: thorough peer review by experienced researchers sinyour field
+rapid publication on acceptance
+support for research data, including large and complex data types
+gold Open Access which fosters wider collaboration and dincreased citations
+maximum visibilityfor your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more
+BMC
+bomedental.can/ubmisions
