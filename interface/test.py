@@ -9,7 +9,7 @@ app.layout = html.Div([
     html.H1("LLM Interface", style={'textAlign': 'center'}),
     dcc.Textarea(
         id='input-text',
-        placeholder='Enter your prompt here...',
+        placeholder='Enter prompt',
         style={'width': '80%', 'height': '100px', 'margin': '10px auto', 'display': 'block', 'fontSize': '16px'}
     ),
     html.Button('Submit', id='submit-button', n_clicks=0, style={'margin': '10px'}),
@@ -24,6 +24,11 @@ app.layout = html.Div([
     })
 ])
 
+@app.callback(
+    Output('output-display', 'children'),
+    Input('submit-button', 'n_clicks'),
+    State('input-text', 'value')
+)
 
 def gen_response(num_clicks, input_text):
     if num_clicks == 0 or not input_text:
@@ -37,4 +42,4 @@ def gen_response(num_clicks, input_text):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True)
