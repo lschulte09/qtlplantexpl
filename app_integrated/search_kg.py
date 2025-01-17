@@ -50,13 +50,13 @@ def build_id_to_text_map(kg_obj):
     for node in kg_obj["nodes"]:
         # If you only want the node text, do node["text"]
         # or combine label + text, if you prefer
-        mapping[node["id"]] = node["text"]
+        mapping[node["id"]] = node["label"] + " " + node["text"]
     return mapping
 
 def query_kg(kg_path, query, top_k=5):
     kg_obj = load_kg(kg_path)
     top_matches = search_nodes(kg_obj, query, top_k=top_k)
-    return [{"label": node["label"], "text": node["text"], "score": score} for score, node in top_matches]
+    return [{"id": node["id"], "label": node["label"], "text": node["text"], "score": score} for score, node in top_matches]
 
 def main():
     parser = argparse.ArgumentParser()
@@ -68,25 +68,19 @@ def main():
                         help="Number of top matching nodes to return.")
     args = parser.parse_args()
 
-    # 1) Load the KG
     kg_obj = load_kg(args.kg_path)
 
-    # 2) Search for relevant nodes
     top_matches = search_nodes(kg_obj, args.query, top_k=args.top_k)
 
-    # 3) Print the matched nodes WITHOUT showing their IDs
     matched_node_ids = []
     print(f"Query: {args.query}\n")
     print(f"Top {args.top_k} matching nodes:")
     for rank, (score, node) in enumerate(top_matches, start=1):
         matched_node_ids.append(node["id"])
-        # Do not display node ID here
-        print(f"  {rank}. (score={score:.2f}) Label={node['label']} | Text={node['text']}")
+        print(f"  {rank}. (score={score:.2f}) Label={node['label']} | Description={node['text']}")
 
-    # 4) Gather relevant edges
     relevant_edges = gather_related_edges(kg_obj, matched_node_ids)
 
-    # 4.1) Build a map from node IDs to text, so we can print edges with text
     id_to_text = build_id_to_text_map(kg_obj)
 
     if relevant_edges:
@@ -95,8 +89,6 @@ def main():
             source_text = id_to_text[e["source"]]
             target_text = id_to_text[e["target"]]
             relation_type = e["type"]
-            # Print in the requested format:
-            # [text of source] RELATION_TYPE [text of object]
             print(f"  {source_text} {relation_type} {target_text}")
     else:
         print("\nNo edges found for these matched nodes.")
