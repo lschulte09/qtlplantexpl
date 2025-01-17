@@ -10,7 +10,7 @@ KG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "gwas_kg
 
 app = Dash(__name__)
 app.layout = html.Div([
-    html.H1("Hello, here you can use the tool!", className="header"),
+    html.H1("Hello, enter your keyword here!", className="header"),
     html.Div([
         html.Div([
             dcc.Textarea(
