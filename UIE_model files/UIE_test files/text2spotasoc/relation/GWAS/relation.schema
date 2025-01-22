@@ -1,0 +1,3 @@
+["ASSOCIATED_WITH", "CAUSES", "CONTRIBUTES_TO", "ENCODES", "HAS_MEASUREMENT", "IDENTIFIED_IN", "IS_A", "LOCATED_IN", "NOT_ASSOCIATED_WITH", "PART_OF", "REGULATES", "USED_IN"]
+["Accession / Line", "Allele / Variant", "Amino Acid", "Biological Process", "Chemical Substance", "Concept / Abstract Entity", "Environmental Factor", "Gene", "Genomic Region", "Measurement / Statistical Result", "Organism", "Population / Group", "Protein / Polypeptide", "Study / Analysis", "Tissue / Plant Structure", "Tool / Method", "Trait / Phenotype"]
+{"ASSOCIATED_WITH": [], "CAUSES": [], "CONTRIBUTES_TO": [], "ENCODES": [], "HAS_MEASUREMENT": [], "IDENTIFIED_IN": [], "IS_A": [], "LOCATED_IN": [], "NOT_ASSOCIATED_WITH": [], "PART_OF": [], "REGULATES": [], "USED_IN": []}
