@@ -1,4 +1,0 @@
-Front-end for now. Takes the prompt and then returns the answer. We can change the colours as we like.
-I hope it will look fine on other devices as well.
-If any changes are needed (like introduction of a new fields or graph display) it can be done
-The only known issue for now that needs to be resolve is the case when you pass as an input string that has no spaces (just one really long string) then the display does not work. It will likely not appear but still.
